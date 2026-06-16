@@ -107,10 +107,11 @@ export function Game() {
     // Build decision points (world-space x positions)
     const FIRST_DP = 700;
     const DP_SPACING = 900;
-    const decisions: DecisionPoint[] = SAFE_LANES.map((safe, i) => ({
+    const decisions: DecisionPoint[] = QA.map((item, i) => ({
       x: FIRST_DP + i * DP_SPACING,
-      safe,
-      question: QUESTIONS[i],
+      safe: item.safe,
+      question: item.q,
+      answers: item.a,
       triggered: false,
       resolved: false,
     }));
