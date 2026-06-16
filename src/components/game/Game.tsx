@@ -10,6 +10,11 @@ interface DecisionPoint {
   answers: [string, string, string];
   triggered: boolean;
   resolved: boolean;
+  // Per-lane door animation state. 0 = fully closed, 1 = fully open/broken.
+  doorAnim: [number, number, number];
+  // Per-lane outcome once contact occurs: "open" (safe slide-away) or
+  // "broken" (wrong-lane impact). null until contact.
+  doorOutcome: [null | "open" | "broken", null | "open" | "broken", null | "open" | "broken"];
 }
 
 interface Particle {
@@ -127,6 +132,8 @@ export function Game() {
       answers: item.a,
       triggered: false,
       resolved: false,
+      doorAnim: [0, 0, 0],
+      doorOutcome: [null, null, null],
     }));
     const FINISH_X = decisions[decisions.length - 1].x + 800;
 
