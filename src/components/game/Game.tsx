@@ -546,12 +546,20 @@ export function Game() {
             activeQ = d.question;
             activeA = d.answers;
           }
-          if (!d.resolved && d.x <= worldX + W * PLAYER_SCREEN_X_FRAC) {
+          // Physical collision: trigger only when the door's screen-x reaches
+          // the player's screen-x. The player's door is the one in their lane.
+          const playerX = W * PLAYER_SCREEN_X_FRAC;
+          const doorScreenX = worldToScreen(d.x);
+          if (!d.resolved && doorScreenX <= playerX) {
             d.resolved = true;
-            const safelyJumped = player.jumping && player.y < laneY(player.lane) - 30;
-            if (player.lane !== d.safe && !safelyJumped) {
-              const sx = W * PLAYER_SCREEN_X_FRAC;
-              damage(sx, player.y);
+            const lane = player.lane;
+            const safelyJumped = player.jumping && player.y < laneY(lane) - 30;
+            const correct = lane === d.safe || safelyJumped;
+            // The door in the player's lane reacts physically at contact.
+            d.doorOutcome[lane] = correct ? "open" : "broken";
+            // Other doors stay shut and just scroll past unseen.
+            if (!correct) {
+              damage(playerX, player.y);
             } else {
               // Safe - small celebratory sparkle
               for (let i = 0; i < 12; i++) {
