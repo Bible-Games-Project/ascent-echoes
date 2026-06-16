@@ -46,6 +46,7 @@ export function Game() {
   const [health, setHealth] = useState(3);
   const [progress, setProgress] = useState(0); // 0..10
   const [currentQuestion, setCurrentQuestion] = useState<string | null>(null);
+  const [currentAnswers, setCurrentAnswers] = useState<[string, string, string] | null>(null);
 
   // Mutable game refs to avoid React re-renders inside the loop.
   const stateRef = useRef<GameState>("start");
