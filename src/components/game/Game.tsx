@@ -538,16 +538,17 @@ export function Game() {
           spawnDust(W * PLAYER_SCREEN_X_FRAC - 6, player.y + 22, 1);
         }
 
-        // Decision detection: when gate passes player screen X.
-        // Show question when gate is approaching (within ~500px ahead).
+        // Decision detection. The active question is ALWAYS the next
+        // unresolved decision — it stays on screen until that door is hit
+        // or passed through, then the following question takes over.
         let activeQ: string | null = null;
         let activeA: [string, string, string] | null = null;
+        const nextUnresolved = decisions.find((d) => !d.resolved);
+        if (nextUnresolved) {
+          activeQ = nextUnresolved.question;
+          activeA = nextUnresolved.answers;
+        }
         decisions.forEach((d) => {
-          const distAhead = d.x - worldX - W * PLAYER_SCREEN_X_FRAC;
-          if (!d.resolved && distAhead < 500 && distAhead > -40) {
-            activeQ = d.question;
-            activeA = d.answers;
-          }
           // Physical collision: trigger only when the door's screen-x reaches
           // the player's screen-x. The player's door is the one in their lane.
           const playerX = W * PLAYER_SCREEN_X_FRAC;
