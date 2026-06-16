@@ -469,10 +469,12 @@ export function Game() {
         // Decision detection: when gate passes player screen X.
         // Show question when gate is approaching (within ~500px ahead).
         let activeQ: string | null = null;
+        let activeA: [string, string, string] | null = null;
         decisions.forEach((d) => {
           const distAhead = d.x - worldX - W * PLAYER_SCREEN_X_FRAC;
           if (!d.resolved && distAhead < 500 && distAhead > -40) {
             activeQ = d.question;
+            activeA = d.answers;
           }
           if (!d.resolved && d.x <= worldX + W * PLAYER_SCREEN_X_FRAC) {
             d.resolved = true;
@@ -505,6 +507,7 @@ export function Game() {
         if (activeQ !== currentQuestionRef.current) {
           currentQuestionRef.current = activeQ;
           setCurrentQuestion(activeQ);
+          setCurrentAnswers(activeA);
         }
 
         // Level complete when crossed finish
