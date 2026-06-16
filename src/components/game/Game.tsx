@@ -47,6 +47,7 @@ export function Game() {
   const [progress, setProgress] = useState(0); // 0..10
   const [currentQuestion, setCurrentQuestion] = useState<string | null>(null);
   const [currentAnswers, setCurrentAnswers] = useState<[string, string, string] | null>(null);
+  const [isLandscape, setIsLandscape] = useState(true);
 
   // Mutable game refs to avoid React re-renders inside the loop.
   const stateRef = useRef<GameState>("start");
@@ -59,6 +60,17 @@ export function Game() {
   useEffect(() => {
     healthRef.current = health;
   }, [health]);
+
+  useEffect(() => {
+    const check = () => setIsLandscape(window.innerWidth > window.innerHeight);
+    check();
+    window.addEventListener("resize", check);
+    window.addEventListener("orientationchange", check);
+    return () => {
+      window.removeEventListener("resize", check);
+      window.removeEventListener("orientationchange", check);
+    };
+  }, []);
 
   useEffect(() => {
     const canvas = canvasRef.current;
@@ -711,6 +723,18 @@ export function Game() {
             WALK AGAIN
           </button>
         </Overlay>
+      )}
+
+      {/* Orientation lock: force landscape only */}
+      {!isLandscape && (
+        <div className="absolute inset-0 z-50 flex flex-col items-center justify-center bg-black/90 backdrop-blur-md">
+          <svg width="56" height="56" viewBox="0 0 24 24" fill="none" stroke="rgba(255,220,170,0.9)" strokeWidth="1.5" className="mb-5 rotate-90">
+            <rect x="5" y="2" width="14" height="20" rx="2" />
+            <circle cx="12" cy="18" r="1" fill="rgba(255,220,170,0.9)" />
+          </svg>
+          <h2 className="text-xl font-light tracking-[0.25em] text-amber-50">ROTATE DEVICE</h2>
+          <p className="mt-2 text-xs font-light tracking-wider text-amber-100/60">Landscape orientation required</p>
+        </div>
       )}
     </div>
   );
