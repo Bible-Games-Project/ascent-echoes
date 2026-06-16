@@ -10,6 +10,11 @@ interface DecisionPoint {
   answers: [string, string, string];
   triggered: boolean;
   resolved: boolean;
+  // Per-lane door animation state. 0 = fully closed, 1 = fully open/broken.
+  doorAnim: [number, number, number];
+  // Per-lane outcome once contact occurs: "open" (safe slide-away) or
+  // "broken" (wrong-lane impact). null until contact.
+  doorOutcome: [null | "open" | "broken", null | "open" | "broken", null | "open" | "broken"];
 }
 
 interface Particle {
@@ -127,6 +132,8 @@ export function Game() {
       answers: item.a,
       triggered: false,
       resolved: false,
+      doorAnim: [0, 0, 0],
+      doorOutcome: [null, null, null],
     }));
     const FINISH_X = decisions[decisions.length - 1].x + 800;
 
@@ -244,8 +251,11 @@ export function Game() {
       return playerScreenX + (wx - worldX) + player.pushBack;
     };
 
-    // Obstacles per decision point: render gates/walls in the 2 unsafe lanes.
-    const drawDecisions = () => {
+    // Doors per decision point: one door per lane. The safe-lane door slides
+    // open on contact; wrong-lane doors stay shut and shatter on impact.
+    const DOOR_W = 46;
+    const DOOR_H = 70;
+    const drawDecisions = (dt: number) => {
       decisions.forEach((d) => {
         const sx = worldToScreen(d.x);
         if (sx < -200 || sx > W + 200) return;
@@ -258,56 +268,103 @@ export function Game() {
         ctx.fillStyle = pg;
         ctx.fillRect(sx - 30, 0, 60, H);
 
-        // Draw obstacle in each unsafe lane (unless already resolved)
         const lanes: Lane[] = [0, 1, 2];
         lanes.forEach((l) => {
-          if (l === d.safe) {
-            // Safe path: faint glowing arch
-            const y = laneY(l);
-            ctx.strokeStyle = "rgba(255, 240, 200, 0.35)";
-            ctx.lineWidth = 2;
-            ctx.beginPath();
-            ctx.arc(sx, y + 22, 36, Math.PI, Math.PI * 2);
-            ctx.stroke();
-            return;
-          }
-          if (d.resolved) return;
-          // Obstacle: rounded rock sitting on the platform.
           const y = laneY(l);
           const baseY = y + 22; // platform top
-          const rockW = 30;
-          const rockH = 26;
-          const cx = sx;
-          const cy = baseY - rockH * 0.55;
+          const outcome = d.doorOutcome[l];
 
-          // Rock body
-          const rg = ctx.createLinearGradient(cx, cy - rockH, cx, baseY);
-          rg.addColorStop(0, "#7a6457");
-          rg.addColorStop(1, "#2e2118");
-          ctx.fillStyle = rg;
-          ctx.beginPath();
-          ctx.moveTo(cx - rockW, baseY);
-          ctx.quadraticCurveTo(cx - rockW * 1.05, cy - 2, cx - rockW * 0.55, cy - rockH * 0.85);
-          ctx.quadraticCurveTo(cx, cy - rockH * 1.1, cx + rockW * 0.6, cy - rockH * 0.8);
-          ctx.quadraticCurveTo(cx + rockW * 1.05, cy - 4, cx + rockW, baseY);
-          ctx.closePath();
-          ctx.fill();
+          // Advance per-lane animation
+          if (outcome) {
+            d.doorAnim[l] = Math.min(1, d.doorAnim[l] + dt * (outcome === "broken" ? 2.2 : 3.2));
+          }
+          const anim = d.doorAnim[l];
+          // Fully done & open/broken: skip drawing
+          if (outcome && anim >= 1) return;
 
-          // Highlight ridge
-          ctx.strokeStyle = "rgba(255, 210, 170, 0.35)";
-          ctx.lineWidth = 1.2;
-          ctx.beginPath();
-          ctx.moveTo(cx - rockW * 0.5, cy - rockH * 0.55);
-          ctx.quadraticCurveTo(cx - rockW * 0.1, cy - rockH * 0.95, cx + rockW * 0.45, cy - rockH * 0.6);
-          ctx.stroke();
+          const topY = baseY - DOOR_H;
+          // Door frame (stone arch)
+          ctx.fillStyle = "rgba(20, 12, 28, 0.55)";
+          ctx.fillRect(sx - DOOR_W / 2 - 4, topY - 6, DOOR_W + 8, 6);
 
-          // Shadow under rock
-          ctx.fillStyle = "rgba(0,0,0,0.35)";
-          ctx.beginPath();
-          ctx.ellipse(cx, baseY + 2, rockW * 0.9, 4, 0, 0, Math.PI * 2);
-          ctx.fill();
+          if (outcome === "open") {
+            // Safe door: slides upward and fades away on contact
+            const slide = anim * (DOOR_H + 20);
+            const a = 1 - anim;
+            ctx.globalAlpha = a;
+            drawDoorPanel(sx, topY - slide, DOOR_W, DOOR_H, true);
+            ctx.globalAlpha = 1;
+            return;
+          }
+          if (outcome === "broken") {
+            // Wrong door: shatter outward
+            const a = 1 - anim;
+            ctx.globalAlpha = a;
+            const shards = 5;
+            for (let i = 0; i < shards; i++) {
+              const ang = (i / shards) * Math.PI * 2;
+              const r = anim * 40;
+              const px = sx + Math.cos(ang) * r;
+              const py = (topY + DOOR_H / 2) + Math.sin(ang) * r;
+              ctx.fillStyle = "#3a2a22";
+              ctx.fillRect(px - 6, py - 8, 12, 16);
+            }
+            ctx.globalAlpha = 1;
+            return;
+          }
+
+          // Closed door (pre-contact). Safe-lane door is slightly warmer / glowing.
+          drawDoorPanel(sx, topY, DOOR_W, DOOR_H, l === d.safe);
         });
       });
+    };
+
+    const drawDoorPanel = (cx: number, topY: number, w: number, h: number, safe: boolean) => {
+      const x = cx - w / 2;
+      // Shadow
+      ctx.fillStyle = "rgba(0,0,0,0.35)";
+      ctx.fillRect(x + 2, topY + h, w - 4, 4);
+      // Body gradient
+      const g = ctx.createLinearGradient(x, topY, x, topY + h);
+      if (safe) {
+        g.addColorStop(0, "#8a6a4a");
+        g.addColorStop(1, "#3a2618");
+      } else {
+        g.addColorStop(0, "#5a4536");
+        g.addColorStop(1, "#2a1a14");
+      }
+      ctx.fillStyle = g;
+      ctx.fillRect(x, topY, w, h);
+      // Arched top
+      ctx.beginPath();
+      ctx.fillStyle = g as unknown as string;
+      ctx.arc(cx, topY, w / 2, Math.PI, 0);
+      ctx.fill();
+      // Plank lines
+      ctx.strokeStyle = "rgba(0,0,0,0.35)";
+      ctx.lineWidth = 1;
+      ctx.beginPath();
+      ctx.moveTo(cx, topY);
+      ctx.lineTo(cx, topY + h);
+      ctx.stroke();
+      // Hinges / studs
+      ctx.fillStyle = "rgba(255,210,160,0.55)";
+      ctx.beginPath();
+      ctx.arc(x + 6, topY + 10, 2, 0, Math.PI * 2);
+      ctx.arc(x + w - 6, topY + 10, 2, 0, Math.PI * 2);
+      ctx.arc(x + 6, topY + h - 10, 2, 0, Math.PI * 2);
+      ctx.arc(x + w - 6, topY + h - 10, 2, 0, Math.PI * 2);
+      ctx.fill();
+      // Glow rim for safe door
+      if (safe) {
+        ctx.strokeStyle = "rgba(255, 230, 180, 0.45)";
+        ctx.lineWidth = 1.5;
+        ctx.strokeRect(x, topY, w, h);
+      } else {
+        ctx.strokeStyle = "rgba(0,0,0,0.55)";
+        ctx.lineWidth = 1.5;
+        ctx.strokeRect(x, topY, w, h);
+      }
     };
 
     // Draw stylized robed traveler
@@ -398,6 +455,8 @@ export function Game() {
       decisions.forEach((d) => {
         d.triggered = false;
         d.resolved = false;
+        d.doorAnim = [0, 0, 0];
+        d.doorOutcome = [null, null, null];
       });
       shake = 0;
       flash = 0;
@@ -489,12 +548,20 @@ export function Game() {
             activeQ = d.question;
             activeA = d.answers;
           }
-          if (!d.resolved && d.x <= worldX + W * PLAYER_SCREEN_X_FRAC) {
+          // Physical collision: trigger only when the door's screen-x reaches
+          // the player's screen-x. The player's door is the one in their lane.
+          const playerX = W * PLAYER_SCREEN_X_FRAC;
+          const doorScreenX = worldToScreen(d.x);
+          if (!d.resolved && doorScreenX <= playerX) {
             d.resolved = true;
-            const safelyJumped = player.jumping && player.y < laneY(player.lane) - 30;
-            if (player.lane !== d.safe && !safelyJumped) {
-              const sx = W * PLAYER_SCREEN_X_FRAC;
-              damage(sx, player.y);
+            const lane = player.lane;
+            const safelyJumped = player.jumping && player.y < laneY(lane) - 30;
+            const correct = lane === d.safe || safelyJumped;
+            // The door in the player's lane reacts physically at contact.
+            d.doorOutcome[lane] = correct ? "open" : "broken";
+            // Other doors stay shut and just scroll past unseen.
+            if (!correct) {
+              damage(playerX, player.y);
             } else {
               // Safe - small celebratory sparkle
               for (let i = 0; i < 12; i++) {
@@ -531,7 +598,7 @@ export function Game() {
       }
 
       drawPlatforms();
-      drawDecisions();
+      drawDecisions(dt);
       drawPlayer();
       drawParticles(dt);
 
@@ -649,14 +716,17 @@ export function Game() {
             {progress} / 10
           </div>
           {currentQuestion && (
-            <div className="pointer-events-none absolute left-1/2 top-14 z-10 -translate-x-1/2 animate-fade-in max-w-[80%]">
-              <div className="rounded-full border border-amber-200/30 bg-black/40 px-5 py-2 text-center text-sm font-light tracking-wide text-amber-50 backdrop-blur-md shadow-[0_0_24px_rgba(255,200,140,0.2)]">
+            <div className="pointer-events-none absolute left-1/2 top-10 z-10 -translate-x-1/2 animate-fade-in max-w-[85%]">
+              <div
+                className="rounded-2xl border border-amber-200/30 bg-black/45 px-7 py-3 text-center font-light tracking-wide text-amber-50 backdrop-blur-md shadow-[0_0_24px_rgba(255,200,140,0.2)]"
+                style={{ fontSize: "clamp(20px, 3.2vw, 34px)", lineHeight: 1.25 }}
+              >
                 {currentQuestion}
               </div>
             </div>
           )}
           {currentAnswers && (
-            <div className="pointer-events-none absolute inset-y-0 right-3 z-10 w-[42%] max-w-[260px] animate-fade-in">
+            <div className="pointer-events-none absolute inset-y-0 right-3 z-10 w-[52%] max-w-[440px] animate-fade-in">
               {([0, 1, 2] as const).map((i) => {
                 const topPct = [35, 58, 82][i];
                 return (
@@ -665,7 +735,10 @@ export function Game() {
                     className="absolute right-0 -translate-y-1/2"
                     style={{ top: `${topPct}%` }}
                   >
-                    <div className="rounded-full border border-amber-200/30 bg-black/45 px-4 py-1.5 text-right text-xs font-light tracking-wide text-amber-50 backdrop-blur-md shadow-[0_0_16px_rgba(255,200,140,0.15)]">
+                    <div
+                      className="rounded-2xl border border-amber-200/30 bg-black/50 px-5 py-2.5 text-right font-light tracking-wide text-amber-50 backdrop-blur-md shadow-[0_0_16px_rgba(255,200,140,0.15)]"
+                      style={{ fontSize: "clamp(18px, 2.6vw, 28px)", lineHeight: 1.2 }}
+                    >
                       {currentAnswers[i]}
                     </div>
                   </div>
