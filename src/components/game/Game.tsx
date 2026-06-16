@@ -716,14 +716,17 @@ export function Game() {
             {progress} / 10
           </div>
           {currentQuestion && (
-            <div className="pointer-events-none absolute left-1/2 top-14 z-10 -translate-x-1/2 animate-fade-in max-w-[80%]">
-              <div className="rounded-full border border-amber-200/30 bg-black/40 px-5 py-2 text-center text-sm font-light tracking-wide text-amber-50 backdrop-blur-md shadow-[0_0_24px_rgba(255,200,140,0.2)]">
+            <div className="pointer-events-none absolute left-1/2 top-10 z-10 -translate-x-1/2 animate-fade-in max-w-[85%]">
+              <div
+                className="rounded-2xl border border-amber-200/30 bg-black/45 px-7 py-3 text-center font-light tracking-wide text-amber-50 backdrop-blur-md shadow-[0_0_24px_rgba(255,200,140,0.2)]"
+                style={{ fontSize: "clamp(20px, 3.2vw, 34px)", lineHeight: 1.25 }}
+              >
                 {currentQuestion}
               </div>
             </div>
           )}
           {currentAnswers && (
-            <div className="pointer-events-none absolute inset-y-0 right-3 z-10 w-[42%] max-w-[260px] animate-fade-in">
+            <div className="pointer-events-none absolute inset-y-0 right-3 z-10 w-[52%] max-w-[440px] animate-fade-in">
               {([0, 1, 2] as const).map((i) => {
                 const topPct = [35, 58, 82][i];
                 return (
@@ -732,7 +735,10 @@ export function Game() {
                     className="absolute right-0 -translate-y-1/2"
                     style={{ top: `${topPct}%` }}
                   >
-                    <div className="rounded-full border border-amber-200/30 bg-black/45 px-4 py-1.5 text-right text-xs font-light tracking-wide text-amber-50 backdrop-blur-md shadow-[0_0_16px_rgba(255,200,140,0.15)]">
+                    <div
+                      className="rounded-2xl border border-amber-200/30 bg-black/50 px-5 py-2.5 text-right font-light tracking-wide text-amber-50 backdrop-blur-md shadow-[0_0_16px_rgba(255,200,140,0.15)]"
+                      style={{ fontSize: "clamp(18px, 2.6vw, 28px)", lineHeight: 1.2 }}
+                    >
                       {currentAnswers[i]}
                     </div>
                   </div>
