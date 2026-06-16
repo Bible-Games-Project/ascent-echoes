@@ -396,6 +396,7 @@ export function Game() {
       setProgress(0);
       progressRef.current = 0;
       setCurrentQuestion(null);
+      setCurrentAnswers(null);
     };
 
     const damage = (sxImpact: number, syImpact: number) => {
