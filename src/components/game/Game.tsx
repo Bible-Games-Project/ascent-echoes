@@ -538,16 +538,17 @@ export function Game() {
           spawnDust(W * PLAYER_SCREEN_X_FRAC - 6, player.y + 22, 1);
         }
 
-        // Decision detection: when gate passes player screen X.
-        // Show question when gate is approaching (within ~500px ahead).
+        // Decision detection. The active question is ALWAYS the next
+        // unresolved decision — it stays on screen until that door is hit
+        // or passed through, then the following question takes over.
         let activeQ: string | null = null;
         let activeA: [string, string, string] | null = null;
+        const nextUnresolved = decisions.find((d) => !d.resolved);
+        if (nextUnresolved) {
+          activeQ = nextUnresolved.question;
+          activeA = nextUnresolved.answers;
+        }
         decisions.forEach((d) => {
-          const distAhead = d.x - worldX - W * PLAYER_SCREEN_X_FRAC;
-          if (!d.resolved && distAhead < 500 && distAhead > -40) {
-            activeQ = d.question;
-            activeA = d.answers;
-          }
           // Physical collision: trigger only when the door's screen-x reaches
           // the player's screen-x. The player's door is the one in their lane.
           const playerX = W * PLAYER_SCREEN_X_FRAC;
@@ -719,7 +720,13 @@ export function Game() {
             <div className="pointer-events-none absolute left-1/2 top-10 z-10 -translate-x-1/2 animate-fade-in max-w-[85%]">
               <div
                 className="rounded-2xl border border-amber-200/30 bg-black/45 px-7 py-3 text-center font-light tracking-wide text-amber-50 backdrop-blur-md shadow-[0_0_24px_rgba(255,200,140,0.2)]"
-                style={{ fontSize: "clamp(20px, 3.2vw, 34px)", lineHeight: 1.25 }}
+                style={{
+                  fontFamily: '"Cormorant Garamond", "Cormorant", Georgia, serif',
+                  fontSize: "clamp(20px, 3.2vw, 34px)",
+                  lineHeight: 1.25,
+                  letterSpacing: "0.02em",
+                  fontWeight: 500,
+                }}
               >
                 {currentQuestion}
               </div>
@@ -737,7 +744,13 @@ export function Game() {
                   >
                     <div
                       className="rounded-2xl border border-amber-200/30 bg-black/50 px-5 py-2.5 text-right font-light tracking-wide text-amber-50 backdrop-blur-md shadow-[0_0_16px_rgba(255,200,140,0.15)]"
-                      style={{ fontSize: "clamp(18px, 2.6vw, 28px)", lineHeight: 1.2 }}
+                      style={{
+                        fontFamily: '"Cormorant Garamond", "Cormorant", Georgia, serif',
+                        fontSize: "clamp(18px, 2.6vw, 28px)",
+                        lineHeight: 1.2,
+                        letterSpacing: "0.02em",
+                        fontWeight: 500,
+                      }}
                     >
                       {currentAnswers[i]}
                     </div>
