@@ -260,35 +260,40 @@ export function Game() {
             return;
           }
           if (d.resolved) return;
-          // Obstacle: jagged stone wall
+          // Obstacle: rounded rock sitting on the platform.
           const y = laneY(l);
-          const top = y - 40;
-          const bot = y + 22;
-          ctx.fillStyle = "#2a1530";
+          const baseY = y + 22; // platform top
+          const rockW = 30;
+          const rockH = 26;
+          const cx = sx;
+          const cy = baseY - rockH * 0.55;
+
+          // Rock body
+          const rg = ctx.createLinearGradient(cx, cy - rockH, cx, baseY);
+          rg.addColorStop(0, "#7a6457");
+          rg.addColorStop(1, "#2e2118");
+          ctx.fillStyle = rg;
           ctx.beginPath();
-          ctx.moveTo(sx - 22, bot);
-          ctx.lineTo(sx - 18, top + 10);
-          ctx.lineTo(sx - 8, top - 4);
-          ctx.lineTo(sx + 4, top + 8);
-          ctx.lineTo(sx + 16, top - 2);
-          ctx.lineTo(sx + 22, bot);
+          ctx.moveTo(cx - rockW, baseY);
+          ctx.quadraticCurveTo(cx - rockW * 1.05, cy - 2, cx - rockW * 0.55, cy - rockH * 0.85);
+          ctx.quadraticCurveTo(cx, cy - rockH * 1.1, cx + rockW * 0.6, cy - rockH * 0.8);
+          ctx.quadraticCurveTo(cx + rockW * 1.05, cy - 4, cx + rockW, baseY);
           ctx.closePath();
           ctx.fill();
-          // Red warning glow
-          ctx.fillStyle = "rgba(255, 80, 80, 0.35)";
+
+          // Highlight ridge
+          ctx.strokeStyle = "rgba(255, 210, 170, 0.35)";
+          ctx.lineWidth = 1.2;
           ctx.beginPath();
-          ctx.moveTo(sx - 22, bot);
-          ctx.lineTo(sx - 18, top + 10);
-          ctx.lineTo(sx - 8, top - 4);
-          ctx.lineTo(sx + 4, top + 8);
-          ctx.lineTo(sx + 16, top - 2);
-          ctx.lineTo(sx + 22, bot);
-          ctx.closePath();
-          ctx.fill();
-          // Rim
-          ctx.strokeStyle = "rgba(255, 140, 120, 0.6)";
-          ctx.lineWidth = 1.5;
+          ctx.moveTo(cx - rockW * 0.5, cy - rockH * 0.55);
+          ctx.quadraticCurveTo(cx - rockW * 0.1, cy - rockH * 0.95, cx + rockW * 0.45, cy - rockH * 0.6);
           ctx.stroke();
+
+          // Shadow under rock
+          ctx.fillStyle = "rgba(0,0,0,0.35)";
+          ctx.beginPath();
+          ctx.ellipse(cx, baseY + 2, rockW * 0.9, 4, 0, 0, Math.PI * 2);
+          ctx.fill();
         });
       });
     };
