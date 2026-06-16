@@ -455,6 +455,8 @@ export function Game() {
       decisions.forEach((d) => {
         d.triggered = false;
         d.resolved = false;
+        d.doorAnim = [0, 0, 0];
+        d.doorOutcome = [null, null, null];
       });
       shake = 0;
       flash = 0;
