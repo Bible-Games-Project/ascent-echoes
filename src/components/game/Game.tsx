@@ -421,20 +421,12 @@ export function Game() {
       if (stateRef.current === "playing") {
         // Scroll world
         worldX += scrollSpeed * dt;
-        // Pushback slowly recovers
-        if (player.pushBack > 0) {
-          player.pushBack = Math.max(0, player.pushBack - 40 * dt);
+        // Knockback recovers back to 0
+        if (player.pushBack !== 0) {
+          const dir = player.pushBack > 0 ? -1 : 1;
+          player.pushBack += dir * 80 * dt;
+          if (Math.abs(player.pushBack) < 1) player.pushBack = 0;
         }
-        // Pushback also from passive pressure (only when pushed back during damage).
-        // If player pushed off left edge -> game over
-        const playerScreenX = W * PLAYER_SCREEN_X_FRAC + player.pushBack;
-        // pushBack is to the RIGHT (recovery). Off-screen left would require negative.
-        // Pushback during damage is positive, so player is pushed right then drifts back.
-        // We need leftward pressure as a damage type, but here playerScreenX stays positive.
-        // Use a hard rule: if player is at lane edge and worldX hasn't reached finish, fine.
-        // Instead model "pushed off the left" as: pushBack goes NEGATIVE on damage. Flip sign:
-        // (Already initialized positive in damage; redefine below for clarity.)
-        void playerScreenX;
 
         // Lane transition
         const tgtY = laneY(player.targetLane);
@@ -465,9 +457,8 @@ export function Game() {
           spawnDust(W * PLAYER_SCREEN_X_FRAC - 6, player.y + 22, 1);
         }
 
-        // Decision detection: when gate passes player screen X
-        const playerWorldX = worldX + (W * PLAYER_SCREEN_X_FRAC) - (W * PLAYER_SCREEN_X_FRAC);
-        // Question prompt window: show question when gate is approaching (within ~600 px ahead)
+        // Decision detection: when gate passes player screen X.
+        // Show question when gate is approaching (within ~500px ahead).
         let activeQ: string | null = null;
         decisions.forEach((d) => {
           const distAhead = d.x - worldX - W * PLAYER_SCREEN_X_FRAC;
@@ -476,10 +467,8 @@ export function Game() {
           }
           if (!d.resolved && d.x <= worldX + W * PLAYER_SCREEN_X_FRAC) {
             d.resolved = true;
-            if (player.lane !== d.safe || player.jumping === false ? false : false) {
-              // unreachable; placeholder
-            }
-            if (player.lane !== d.safe) {
+            const safelyJumped = player.jumping && player.y < laneY(player.lane) - 30;
+            if (player.lane !== d.safe && !safelyJumped) {
               const sx = W * PLAYER_SCREEN_X_FRAC;
               damage(sx, player.y);
             } else {
@@ -502,16 +491,12 @@ export function Game() {
             const newProg = progressRef.current + 1;
             progressRef.current = newProg;
             setProgress(newProg);
-            if (newProg >= decisions.length && healthRef.current > 0) {
-              // Continue to finish line celebration after slight delay
-            }
           }
         });
         if (activeQ !== currentQuestionRef.current) {
           currentQuestionRef.current = activeQ;
           setCurrentQuestion(activeQ);
         }
-        void playerWorldX;
 
         // Level complete when crossed finish
         if (worldX > FINISH_X - W * PLAYER_SCREEN_X_FRAC && healthRef.current > 0) {
@@ -588,7 +573,7 @@ export function Game() {
     const onKey = (e: KeyboardEvent) => {
       if (e.key === "ArrowUp" || e.key === "w") moveLane(-1);
       else if (e.key === "ArrowDown" || e.key === "s") moveLane(1);
-      else if (e.key === " " || e.key === "ArrowUp") jump();
+      else if (e.key === " ") jump();
     };
 
     canvas.addEventListener("touchstart", onTouchStart, { passive: true });
