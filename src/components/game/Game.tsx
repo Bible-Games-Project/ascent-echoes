@@ -7,6 +7,7 @@ interface DecisionPoint {
   x: number; // world x where the gate is
   safe: Lane;
   question: string;
+  answers: [string, string, string];
   triggered: boolean;
   resolved: boolean;
 }
@@ -22,21 +23,22 @@ interface Particle {
   size: number;
 }
 
-const QUESTIONS = [
-  "Where does the wind go?",
-  "Follow the light.",
-  "Trust the high road.",
-  "The river never lies.",
-  "Climb beyond the dust.",
-  "Stay close to the stone.",
-  "Below the storm.",
-  "Where shadows soften.",
-  "Ride the warm current.",
-  "The horizon calls you home.",
+// Bible-based questions. Each has 3 answers shown vertically aligned with the
+// 3 lanes (index 0 = top lane, 1 = middle lane, 2 = bottom lane). The `safe`
+// index points at the correct answer / lane. Order is intentionally varied so
+// the safe lane is never predictable.
+const QA: { q: string; a: [string, string, string]; safe: Lane }[] = [
+  { q: "Who led Israel out of Egypt?",        a: ["Moses", "Aaron", "Joshua"],         safe: 0 },
+  { q: "How many disciples did Jesus choose?", a: ["7", "10", "12"],                    safe: 2 },
+  { q: "Who was thrown into the lions' den?",  a: ["Elijah", "Daniel", "Jonah"],        safe: 1 },
+  { q: "Where was Jesus born?",                a: ["Bethlehem", "Nazareth", "Jerusalem"], safe: 0 },
+  { q: "Who built the ark?",                   a: ["Abraham", "Moses", "Noah"],         safe: 2 },
+  { q: "Who denied Jesus three times?",        a: ["John", "Peter", "Judas"],           safe: 1 },
+  { q: "Who killed Goliath?",                  a: ["Saul", "Samson", "David"],          safe: 2 },
+  { q: "First book of the Bible?",             a: ["Genesis", "Exodus", "Psalms"],      safe: 0 },
+  { q: "Who was swallowed by a great fish?",   a: ["Job", "Jonah", "Joel"],             safe: 1 },
+  { q: "Who baptized Jesus?",                  a: ["Peter", "Paul", "John the Baptist"], safe: 2 },
 ];
-
-// Deterministic safe lanes for level 1, hand-tuned for rhythm.
-const SAFE_LANES: Lane[] = [1, 0, 2, 1, 0, 2, 2, 0, 1, 1];
 
 export function Game() {
   const canvasRef = useRef<HTMLCanvasElement>(null);
