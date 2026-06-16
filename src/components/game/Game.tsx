@@ -596,7 +596,7 @@ export function Game() {
       }
 
       drawPlatforms();
-      drawDecisions();
+      drawDecisions(dt);
       drawPlayer();
       drawParticles(dt);
 
