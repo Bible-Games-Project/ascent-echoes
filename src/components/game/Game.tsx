@@ -7,6 +7,7 @@ interface DecisionPoint {
   x: number; // world x where the gate is
   safe: Lane;
   question: string;
+  answers: [string, string, string];
   triggered: boolean;
   resolved: boolean;
 }
@@ -22,21 +23,22 @@ interface Particle {
   size: number;
 }
 
-const QUESTIONS = [
-  "Where does the wind go?",
-  "Follow the light.",
-  "Trust the high road.",
-  "The river never lies.",
-  "Climb beyond the dust.",
-  "Stay close to the stone.",
-  "Below the storm.",
-  "Where shadows soften.",
-  "Ride the warm current.",
-  "The horizon calls you home.",
+// Bible-based questions. Each has 3 answers shown vertically aligned with the
+// 3 lanes (index 0 = top lane, 1 = middle lane, 2 = bottom lane). The `safe`
+// index points at the correct answer / lane. Order is intentionally varied so
+// the safe lane is never predictable.
+const QA: { q: string; a: [string, string, string]; safe: Lane }[] = [
+  { q: "Who led Israel out of Egypt?",        a: ["Moses", "Aaron", "Joshua"],         safe: 0 },
+  { q: "How many disciples did Jesus choose?", a: ["7", "10", "12"],                    safe: 2 },
+  { q: "Who was thrown into the lions' den?",  a: ["Elijah", "Daniel", "Jonah"],        safe: 1 },
+  { q: "Where was Jesus born?",                a: ["Bethlehem", "Nazareth", "Jerusalem"], safe: 0 },
+  { q: "Who built the ark?",                   a: ["Abraham", "Moses", "Noah"],         safe: 2 },
+  { q: "Who denied Jesus three times?",        a: ["John", "Peter", "Judas"],           safe: 1 },
+  { q: "Who killed Goliath?",                  a: ["Saul", "Samson", "David"],          safe: 2 },
+  { q: "First book of the Bible?",             a: ["Genesis", "Exodus", "Psalms"],      safe: 0 },
+  { q: "Who was swallowed by a great fish?",   a: ["Job", "Jonah", "Joel"],             safe: 1 },
+  { q: "Who baptized Jesus?",                  a: ["Peter", "Paul", "John the Baptist"], safe: 2 },
 ];
-
-// Deterministic safe lanes for level 1, hand-tuned for rhythm.
-const SAFE_LANES: Lane[] = [1, 0, 2, 1, 0, 2, 2, 0, 1, 1];
 
 export function Game() {
   const canvasRef = useRef<HTMLCanvasElement>(null);
@@ -44,6 +46,7 @@ export function Game() {
   const [health, setHealth] = useState(3);
   const [progress, setProgress] = useState(0); // 0..10
   const [currentQuestion, setCurrentQuestion] = useState<string | null>(null);
+  const [currentAnswers, setCurrentAnswers] = useState<[string, string, string] | null>(null);
 
   // Mutable game refs to avoid React re-renders inside the loop.
   const stateRef = useRef<GameState>("start");
@@ -105,10 +108,11 @@ export function Game() {
     // Build decision points (world-space x positions)
     const FIRST_DP = 700;
     const DP_SPACING = 900;
-    const decisions: DecisionPoint[] = SAFE_LANES.map((safe, i) => ({
+    const decisions: DecisionPoint[] = QA.map((item, i) => ({
       x: FIRST_DP + i * DP_SPACING,
-      safe,
-      question: QUESTIONS[i],
+      safe: item.safe,
+      question: item.q,
+      answers: item.a,
       triggered: false,
       resolved: false,
     }));
@@ -256,35 +260,40 @@ export function Game() {
             return;
           }
           if (d.resolved) return;
-          // Obstacle: jagged stone wall
+          // Obstacle: rounded rock sitting on the platform.
           const y = laneY(l);
-          const top = y - 40;
-          const bot = y + 22;
-          ctx.fillStyle = "#2a1530";
+          const baseY = y + 22; // platform top
+          const rockW = 30;
+          const rockH = 26;
+          const cx = sx;
+          const cy = baseY - rockH * 0.55;
+
+          // Rock body
+          const rg = ctx.createLinearGradient(cx, cy - rockH, cx, baseY);
+          rg.addColorStop(0, "#7a6457");
+          rg.addColorStop(1, "#2e2118");
+          ctx.fillStyle = rg;
           ctx.beginPath();
-          ctx.moveTo(sx - 22, bot);
-          ctx.lineTo(sx - 18, top + 10);
-          ctx.lineTo(sx - 8, top - 4);
-          ctx.lineTo(sx + 4, top + 8);
-          ctx.lineTo(sx + 16, top - 2);
-          ctx.lineTo(sx + 22, bot);
+          ctx.moveTo(cx - rockW, baseY);
+          ctx.quadraticCurveTo(cx - rockW * 1.05, cy - 2, cx - rockW * 0.55, cy - rockH * 0.85);
+          ctx.quadraticCurveTo(cx, cy - rockH * 1.1, cx + rockW * 0.6, cy - rockH * 0.8);
+          ctx.quadraticCurveTo(cx + rockW * 1.05, cy - 4, cx + rockW, baseY);
           ctx.closePath();
           ctx.fill();
-          // Red warning glow
-          ctx.fillStyle = "rgba(255, 80, 80, 0.35)";
+
+          // Highlight ridge
+          ctx.strokeStyle = "rgba(255, 210, 170, 0.35)";
+          ctx.lineWidth = 1.2;
           ctx.beginPath();
-          ctx.moveTo(sx - 22, bot);
-          ctx.lineTo(sx - 18, top + 10);
-          ctx.lineTo(sx - 8, top - 4);
-          ctx.lineTo(sx + 4, top + 8);
-          ctx.lineTo(sx + 16, top - 2);
-          ctx.lineTo(sx + 22, bot);
-          ctx.closePath();
-          ctx.fill();
-          // Rim
-          ctx.strokeStyle = "rgba(255, 140, 120, 0.6)";
-          ctx.lineWidth = 1.5;
+          ctx.moveTo(cx - rockW * 0.5, cy - rockH * 0.55);
+          ctx.quadraticCurveTo(cx - rockW * 0.1, cy - rockH * 0.95, cx + rockW * 0.45, cy - rockH * 0.6);
           ctx.stroke();
+
+          // Shadow under rock
+          ctx.fillStyle = "rgba(0,0,0,0.35)";
+          ctx.beginPath();
+          ctx.ellipse(cx, baseY + 2, rockW * 0.9, 4, 0, 0, Math.PI * 2);
+          ctx.fill();
         });
       });
     };
@@ -387,6 +396,7 @@ export function Game() {
       setProgress(0);
       progressRef.current = 0;
       setCurrentQuestion(null);
+      setCurrentAnswers(null);
     };
 
     const damage = (sxImpact: number, syImpact: number) => {
@@ -460,10 +470,12 @@ export function Game() {
         // Decision detection: when gate passes player screen X.
         // Show question when gate is approaching (within ~500px ahead).
         let activeQ: string | null = null;
+        let activeA: [string, string, string] | null = null;
         decisions.forEach((d) => {
           const distAhead = d.x - worldX - W * PLAYER_SCREEN_X_FRAC;
           if (!d.resolved && distAhead < 500 && distAhead > -40) {
             activeQ = d.question;
+            activeA = d.answers;
           }
           if (!d.resolved && d.x <= worldX + W * PLAYER_SCREEN_X_FRAC) {
             d.resolved = true;
@@ -496,6 +508,7 @@ export function Game() {
         if (activeQ !== currentQuestionRef.current) {
           currentQuestionRef.current = activeQ;
           setCurrentQuestion(activeQ);
+          setCurrentAnswers(activeA);
         }
 
         // Level complete when crossed finish
@@ -624,10 +637,28 @@ export function Game() {
             {progress} / 10
           </div>
           {currentQuestion && (
-            <div className="pointer-events-none absolute left-1/2 top-4 z-10 -translate-x-1/2 animate-fade-in">
+            <div className="pointer-events-none absolute left-1/2 top-14 z-10 -translate-x-1/2 animate-fade-in max-w-[80%]">
               <div className="rounded-full border border-amber-200/30 bg-black/40 px-5 py-2 text-center text-sm font-light tracking-wide text-amber-50 backdrop-blur-md shadow-[0_0_24px_rgba(255,200,140,0.2)]">
                 {currentQuestion}
               </div>
+            </div>
+          )}
+          {currentAnswers && (
+            <div className="pointer-events-none absolute inset-y-0 right-3 z-10 w-[42%] max-w-[260px] animate-fade-in">
+              {([0, 1, 2] as const).map((i) => {
+                const topPct = [35, 58, 82][i];
+                return (
+                  <div
+                    key={i}
+                    className="absolute right-0 -translate-y-1/2"
+                    style={{ top: `${topPct}%` }}
+                  >
+                    <div className="rounded-full border border-amber-200/30 bg-black/45 px-4 py-1.5 text-right text-xs font-light tracking-wide text-amber-50 backdrop-blur-md shadow-[0_0_16px_rgba(255,200,140,0.15)]">
+                      {currentAnswers[i]}
+                    </div>
+                  </div>
+                );
+              })}
             </div>
           )}
         </>
