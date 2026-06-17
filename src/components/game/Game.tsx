@@ -28,6 +28,30 @@ interface Particle {
   size: number;
 }
 
+type PowerupType =
+  | "star"
+  | "heart"
+  | "slow"
+  | "hint"
+  | "apple"
+  | "broken";
+
+interface Powerup {
+  x: number;
+  lane: Lane;
+  type: PowerupType;
+  taken: boolean;
+  bobSeed: number;
+}
+
+const multiplierForStreak = (s: number): number => {
+  if (s >= 30) return 5;
+  if (s >= 20) return 4;
+  if (s >= 10) return 3;
+  if (s >= 5) return 2;
+  return 1;
+};
+
 // Bible-based questions. Each has 3 answers shown vertically aligned with the
 // 3 lanes (index 0 = top lane, 1 = middle lane, 2 = bottom lane). The `safe`
 // index points at the correct answer / lane. Order is intentionally varied so
@@ -53,11 +77,20 @@ export function Game() {
   const [currentQuestion, setCurrentQuestion] = useState<string | null>(null);
   const [currentAnswers, setCurrentAnswers] = useState<[string, string, string] | null>(null);
   const [isLandscape, setIsLandscape] = useState(true);
+  const [score, setScore] = useState(0);
+  const [bestScore, setBestScore] = useState(0);
+  const [streak, setStreak] = useState(0);
+  const [multiplierToast, setMultiplierToast] = useState<number | null>(null);
+  const [hintLane, setHintLane] = useState<Lane | null>(null);
+  const [distortion, setDistortion] = useState(0); // 0..1 strength
 
   // Mutable game refs to avoid React re-renders inside the loop.
   const stateRef = useRef<GameState>("start");
   const healthRef = useRef(3);
   const progressRef = useRef(0);
+  const scoreRef = useRef(0);
+  const streakRef = useRef(0);
+  const bestRef = useRef(0);
 
   useEffect(() => {
     stateRef.current = state;
@@ -65,6 +98,19 @@ export function Game() {
   useEffect(() => {
     healthRef.current = health;
   }, [health]);
+
+  // Load best score from localStorage
+  useEffect(() => {
+    try {
+      const b = parseInt(localStorage.getItem("dunewalker_best") || "0", 10);
+      if (!isNaN(b)) {
+        bestRef.current = b;
+        setBestScore(b);
+      }
+    } catch {
+      // ignore
+    }
+  }, []);
 
   useEffect(() => {
     const check = () => setIsLandscape(window.innerWidth > window.innerHeight);
@@ -101,7 +147,12 @@ export function Game() {
 
     // ----- World state -----
     let worldX = 0; // total distance scrolled
-    const scrollSpeed = 180; // px/sec
+    const baseScrollSpeed = 180; // px/sec
+    let scrollSpeed = baseScrollSpeed;
+    let slowTimer = 0; // seconds remaining of time-slow
+    let distortTimer = 0; // seconds remaining of distortion
+    let hintActive: Lane | null = null;
+    let hintForX = 0; // decision x the hint is bound to
     let shake = 0;
     let flash = 0;
     let invuln = 0;
@@ -137,6 +188,33 @@ export function Game() {
     }));
     const FINISH_X = decisions[decisions.length - 1].x + 800;
 
+    // ----- Power-ups: spawn between consecutive decision points -----
+    const powerups: Powerup[] = [];
+    const pickType = (): PowerupType => {
+      // 70% positive, 20% utility (slow/hint), 10% negative
+      const r = Math.random();
+      if (r < 0.45) return Math.random() < 0.5 ? "star" : "heart";
+      if (r < 0.7) return Math.random() < 0.5 ? "slow" : "hint";
+      if (r < 0.9) return Math.random() < 0.5 ? "slow" : "hint"; // utility
+      return Math.random() < 0.5 ? "apple" : "broken";
+    };
+    for (let i = 0; i < decisions.length - 1; i++) {
+      const a = decisions[i].x;
+      const b = decisions[i + 1].x;
+      const count = 1 + (Math.random() < 0.5 ? 1 : 0);
+      for (let k = 0; k < count; k++) {
+        const t = (k + 1) / (count + 1);
+        const px = a + (b - a) * t + (Math.random() - 0.5) * 80;
+        powerups.push({
+          x: px,
+          lane: Math.floor(Math.random() * 3) as Lane,
+          type: pickType(),
+          taken: false,
+          bobSeed: Math.random() * Math.PI * 2,
+        });
+      }
+    }
+
     // Particles (dust / impact)
     const particles: Particle[] = [];
     const spawnDust = (x: number, y: number, n = 1) => {
@@ -151,6 +229,229 @@ export function Game() {
           color: "rgba(255, 220, 170, 0.6)",
           size: 1 + Math.random() * 2,
         });
+      }
+    };
+
+    // ----- Draw power-ups -----
+    const drawPowerups = (dt: number) => {
+      const t = performance.now() / 1000;
+      powerups.forEach((p) => {
+        if (p.taken) return;
+        const sx = worldToScreen(p.x);
+        if (sx < -80 || sx > W + 80) return;
+        const baseY = laneY(p.lane);
+        const y = baseY - 8 + Math.sin(t * 2.4 + p.bobSeed) * 4;
+
+        // Soft halo
+        const halo = ctx.createRadialGradient(sx, y, 0, sx, y, 28);
+        const haloColor =
+          p.type === "star"
+            ? "rgba(255, 230, 140, 0.55)"
+            : p.type === "heart"
+            ? "rgba(255, 120, 130, 0.5)"
+            : p.type === "slow"
+            ? "rgba(160, 220, 255, 0.5)"
+            : p.type === "hint"
+            ? "rgba(255, 250, 200, 0.55)"
+            : p.type === "apple"
+            ? "rgba(180, 90, 90, 0.5)"
+            : "rgba(60, 20, 30, 0.6)";
+        halo.addColorStop(0, haloColor);
+        halo.addColorStop(1, "rgba(0,0,0,0)");
+        ctx.fillStyle = halo;
+        ctx.fillRect(sx - 28, y - 28, 56, 56);
+
+        ctx.save();
+        ctx.translate(sx, y);
+        drawPowerupIcon(p.type);
+        ctx.restore();
+      });
+    };
+
+    const drawPowerupIcon = (type: PowerupType) => {
+      switch (type) {
+        case "star": {
+          ctx.fillStyle = "#ffe27a";
+          ctx.strokeStyle = "rgba(120,80,0,0.6)";
+          ctx.lineWidth = 1.2;
+          ctx.beginPath();
+          for (let i = 0; i < 10; i++) {
+            const ang = -Math.PI / 2 + (i * Math.PI) / 5;
+            const r = i % 2 === 0 ? 12 : 5;
+            const px = Math.cos(ang) * r;
+            const py = Math.sin(ang) * r;
+            if (i === 0) ctx.moveTo(px, py);
+            else ctx.lineTo(px, py);
+          }
+          ctx.closePath();
+          ctx.fill();
+          ctx.stroke();
+          break;
+        }
+        case "heart": {
+          ctx.fillStyle = "#ff5c6c";
+          ctx.strokeStyle = "rgba(80,10,20,0.7)";
+          ctx.lineWidth = 1.2;
+          ctx.beginPath();
+          ctx.moveTo(0, 8);
+          ctx.bezierCurveTo(12, -2, 8, -12, 0, -5);
+          ctx.bezierCurveTo(-8, -12, -12, -2, 0, 8);
+          ctx.closePath();
+          ctx.fill();
+          ctx.stroke();
+          break;
+        }
+        case "slow": {
+          // Hourglass
+          ctx.fillStyle = "#bfe7ff";
+          ctx.strokeStyle = "rgba(20,60,90,0.8)";
+          ctx.lineWidth = 1.4;
+          ctx.beginPath();
+          ctx.moveTo(-9, -10);
+          ctx.lineTo(9, -10);
+          ctx.lineTo(-9, 10);
+          ctx.lineTo(9, 10);
+          ctx.closePath();
+          ctx.fill();
+          ctx.stroke();
+          ctx.fillStyle = "rgba(20,60,90,0.85)";
+          ctx.fillRect(-10, -12, 20, 2);
+          ctx.fillRect(-10, 10, 20, 2);
+          break;
+        }
+        case "hint": {
+          // Lightbulb / divine glyph
+          ctx.fillStyle = "#fff6c8";
+          ctx.strokeStyle = "rgba(150,110,20,0.7)";
+          ctx.lineWidth = 1.2;
+          ctx.beginPath();
+          ctx.arc(0, -2, 9, 0, Math.PI * 2);
+          ctx.fill();
+          ctx.stroke();
+          ctx.fillStyle = "rgba(120,80,20,0.85)";
+          ctx.fillRect(-5, 7, 10, 3);
+          ctx.fillRect(-3, 10, 6, 2);
+          // Rays
+          ctx.strokeStyle = "rgba(255,240,180,0.85)";
+          ctx.lineWidth = 1.2;
+          for (let i = 0; i < 6; i++) {
+            const a = (i / 6) * Math.PI * 2;
+            ctx.beginPath();
+            ctx.moveTo(Math.cos(a) * 12, Math.sin(a) * 12 - 2);
+            ctx.lineTo(Math.cos(a) * 16, Math.sin(a) * 16 - 2);
+            ctx.stroke();
+          }
+          break;
+        }
+        case "apple": {
+          // Corrupted apple - dark crimson with bite
+          ctx.fillStyle = "#7a1f2a";
+          ctx.strokeStyle = "rgba(20,0,5,0.9)";
+          ctx.lineWidth = 1.4;
+          ctx.beginPath();
+          ctx.arc(0, 2, 10, 0, Math.PI * 2);
+          ctx.fill();
+          ctx.stroke();
+          // bite (negative space)
+          ctx.fillStyle = "rgba(0,0,0,0.85)";
+          ctx.beginPath();
+          ctx.arc(7, 0, 5, 0, Math.PI * 2);
+          ctx.fill();
+          // stem
+          ctx.strokeStyle = "#3a2010";
+          ctx.lineWidth = 2;
+          ctx.beginPath();
+          ctx.moveTo(0, -8);
+          ctx.lineTo(3, -13);
+          ctx.stroke();
+          // sickly glow drip
+          ctx.fillStyle = "rgba(120, 200, 80, 0.6)";
+          ctx.beginPath();
+          ctx.arc(-4, 10, 2, 0, Math.PI * 2);
+          ctx.fill();
+          break;
+        }
+        case "broken": {
+          // Broken/cracked dark heart
+          ctx.fillStyle = "#2a0810";
+          ctx.strokeStyle = "rgba(255,80,80,0.9)";
+          ctx.lineWidth = 1.6;
+          ctx.beginPath();
+          ctx.moveTo(0, 8);
+          ctx.bezierCurveTo(12, -2, 8, -12, 0, -5);
+          ctx.bezierCurveTo(-8, -12, -12, -2, 0, 8);
+          ctx.closePath();
+          ctx.fill();
+          ctx.stroke();
+          // crack
+          ctx.strokeStyle = "rgba(255,200,200,0.95)";
+          ctx.lineWidth = 1.6;
+          ctx.beginPath();
+          ctx.moveTo(0, -6);
+          ctx.lineTo(-2, -2);
+          ctx.lineTo(2, 1);
+          ctx.lineTo(-1, 5);
+          ctx.stroke();
+          break;
+        }
+      }
+    };
+
+    const spawnPickupBurst = (x: number, y: number, color: string) => {
+      for (let i = 0; i < 18; i++) {
+        const a = Math.random() * Math.PI * 2;
+        const s = 80 + Math.random() * 140;
+        particles.push({
+          x,
+          y,
+          vx: Math.cos(a) * s,
+          vy: Math.sin(a) * s,
+          life: 0,
+          max: 0.5 + Math.random() * 0.4,
+          color,
+          size: 1.5 + Math.random() * 2,
+        });
+      }
+    };
+
+    const applyPowerup = (p: Powerup) => {
+      const px = W * PLAYER_SCREEN_X_FRAC;
+      const py = player.y;
+      switch (p.type) {
+        case "star":
+          invuln = Math.max(invuln, 7);
+          spawnPickupBurst(px, py, "rgba(255, 230, 140, 0.9)");
+          break;
+        case "heart": {
+          const nh = Math.min(3, healthRef.current + 1);
+          healthRef.current = nh;
+          setHealth(nh);
+          spawnPickupBurst(px, py, "rgba(255, 140, 150, 0.9)");
+          break;
+        }
+        case "slow":
+          slowTimer = Math.max(slowTimer, 4);
+          spawnPickupBurst(px, py, "rgba(160, 220, 255, 0.9)");
+          break;
+        case "hint": {
+          const next = decisions.find((d) => !d.resolved);
+          if (next) {
+            hintActive = next.safe;
+            hintForX = next.x;
+            setHintLane(next.safe);
+          }
+          spawnPickupBurst(px, py, "rgba(255, 250, 200, 0.9)");
+          break;
+        }
+        case "apple":
+          distortTimer = Math.max(distortTimer, 3.5);
+          setDistortion(1);
+          spawnPickupBurst(px, py, "rgba(180, 90, 90, 0.8)");
+          break;
+        case "broken":
+          damage(px, py);
+          spawnPickupBurst(px, py, "rgba(255, 80, 80, 0.95)");
+          break;
       }
     };
     const spawnImpact = (x: number, y: number) => {
@@ -458,14 +759,27 @@ export function Game() {
         d.doorAnim = [0, 0, 0];
         d.doorOutcome = [null, null, null];
       });
+      powerups.forEach((p) => (p.taken = false));
       shake = 0;
       flash = 0;
       invuln = 0;
+      slowTimer = 0;
+      distortTimer = 0;
+      hintActive = null;
+      hintForX = 0;
+      scrollSpeed = baseScrollSpeed;
       particles.length = 0;
       setHealth(3);
       healthRef.current = 3;
       setProgress(0);
       progressRef.current = 0;
+      scoreRef.current = 0;
+      setScore(0);
+      streakRef.current = 0;
+      setStreak(0);
+      setHintLane(null);
+      setDistortion(0);
+      setMultiplierToast(null);
       setCurrentQuestion(null);
       setCurrentAnswers(null);
     };
@@ -480,7 +794,16 @@ export function Game() {
       invuln = 1.2;
       player.pushBack += 80;
       spawnImpact(sxImpact, syImpact);
+      // Reset streak on any damage
+      streakRef.current = 0;
+      setStreak(0);
       if (nh <= 0) {
+        // Persist best score
+        if (scoreRef.current > bestRef.current) {
+          bestRef.current = scoreRef.current;
+          setBestScore(scoreRef.current);
+          try { localStorage.setItem("dunewalker_best", String(scoreRef.current)); } catch { /* ignore */ }
+        }
         stateRef.current = "gameover";
         setState("gameover");
       }
@@ -500,6 +823,13 @@ export function Game() {
       drawBackground();
 
       if (stateRef.current === "playing") {
+        // Slow / distortion timers
+        if (slowTimer > 0) slowTimer -= dt;
+        if (distortTimer > 0) {
+          distortTimer -= dt;
+          if (distortTimer <= 0) setDistortion(0);
+        }
+        scrollSpeed = slowTimer > 0 ? baseScrollSpeed * 0.45 : baseScrollSpeed;
         // Scroll world
         worldX += scrollSpeed * dt;
         // Knockback recovers back to 0
@@ -579,10 +909,41 @@ export function Game() {
                   size: 1.5 + Math.random() * 1.5,
                 });
               }
+              // Score & streak
+              const prevMult = multiplierForStreak(streakRef.current);
+              const newStreak = streakRef.current + 1;
+              streakRef.current = newStreak;
+              setStreak(newStreak);
+              const newMult = multiplierForStreak(newStreak);
+              const gain = 10 * newMult;
+              scoreRef.current += gain;
+              setScore(scoreRef.current);
+              if (newMult > prevMult) {
+                setMultiplierToast(newMult);
+                setTimeout(() => setMultiplierToast(null), 1400);
+              }
+            }
+            // Clear hint when its target resolves
+            if (hintActive !== null && d.x === hintForX) {
+              hintActive = null;
+              setHintLane(null);
             }
             const newProg = progressRef.current + 1;
             progressRef.current = newProg;
             setProgress(newProg);
+          }
+        });
+        // Powerup pickup detection (player passes through it)
+        const playerX = W * PLAYER_SCREEN_X_FRAC;
+        powerups.forEach((p) => {
+          if (p.taken) return;
+          const sx = worldToScreen(p.x);
+          if (sx <= playerX + 14 && sx >= playerX - 24 && p.lane === player.lane) {
+            p.taken = true;
+            applyPowerup(p);
+          } else if (sx < playerX - 60) {
+            // missed - simply mark taken to avoid re-checking
+            p.taken = true;
           }
         });
         if (activeQ !== currentQuestionRef.current) {
@@ -593,12 +954,18 @@ export function Game() {
 
         // Level complete when crossed finish
         if (worldX > FINISH_X - W * PLAYER_SCREEN_X_FRAC && healthRef.current > 0) {
+          if (scoreRef.current > bestRef.current) {
+            bestRef.current = scoreRef.current;
+            setBestScore(scoreRef.current);
+            try { localStorage.setItem("dunewalker_best", String(scoreRef.current)); } catch { /* ignore */ }
+          }
           stateRef.current = "complete";
           setState("complete");
         }
       }
 
       drawPlatforms();
+      drawPowerups(dt);
       drawDecisions(dt);
       drawPlayer();
       drawParticles(dt);
@@ -701,21 +1068,55 @@ export function Game() {
     <div className="relative h-[100svh] w-screen overflow-hidden bg-black select-none">
       <canvas
         ref={canvasRef}
-        className="absolute inset-0 h-full w-full touch-none"
-        style={{ touchAction: "none" }}
+        className="absolute inset-0 h-full w-full touch-none transition-[filter] duration-300"
+        style={{
+          touchAction: "none",
+          filter: distortion > 0 ? "blur(2px) hue-rotate(-15deg) contrast(1.05)" : "none",
+          transform: distortion > 0 ? `translateX(${Math.sin(Date.now() / 90) * 3}px)` : "none",
+        }}
       />
 
       {/* HUD: hearts + progress */}
       {state === "playing" && (
         <>
-          <div className="absolute left-4 top-4 flex items-center gap-2 z-10">
-            {[0, 1, 2].map((i) => (
-              <Heart key={i} filled={i < health} />
-            ))}
+          <div className="absolute left-4 top-4 z-10 flex flex-col gap-2">
+            <div className="flex items-center gap-2">
+              {[0, 1, 2].map((i) => (
+                <Heart key={i} filled={i < health} />
+              ))}
+            </div>
+            <div className="flex items-center gap-2 rounded-full bg-black/45 px-3 py-1 text-[11px] font-medium tracking-widest text-amber-100 backdrop-blur">
+              <span className="text-amber-200/70">SCORE</span>
+              <span className="text-amber-50 tabular-nums">{score}</span>
+            </div>
+            <div className="flex items-center gap-3 rounded-full bg-black/45 px-3 py-1 text-[11px] font-medium tracking-widest text-amber-100 backdrop-blur">
+              <span className="flex items-center gap-1">
+                <span className="text-amber-200/70">STREAK</span>
+                <span className="text-amber-50 tabular-nums">{streak}</span>
+                {streak > 0 && <span>🔥</span>}
+              </span>
+              <span
+                className={
+                  "rounded-full px-2 py-0.5 tabular-nums " +
+                  (multiplierForStreak(streak) > 1
+                    ? "bg-amber-300/30 text-amber-100 ring-1 ring-amber-200/40"
+                    : "text-amber-100/60")
+                }
+              >
+                x{multiplierForStreak(streak)}
+              </span>
+            </div>
           </div>
           <div className="absolute right-4 top-4 z-10 rounded-full bg-black/40 px-3 py-1 text-xs font-medium tracking-wider text-amber-100 backdrop-blur">
             {progress} / 10
           </div>
+          {multiplierToast !== null && (
+            <div className="pointer-events-none absolute left-1/2 top-1/3 z-30 -translate-x-1/2 animate-fade-in">
+              <div className="rounded-full bg-amber-300/20 px-6 py-2 text-2xl font-light tracking-[0.3em] text-amber-100 ring-1 ring-amber-200/50 backdrop-blur-md shadow-[0_0_40px_rgba(255,200,140,0.5)]">
+                x{multiplierToast} ACTIVE
+              </div>
+            </div>
+          )}
           {currentQuestion && (
             <div className="pointer-events-none absolute left-1/2 top-10 z-10 -translate-x-1/2 animate-fade-in max-w-[85%]">
               <div
@@ -736,6 +1137,7 @@ export function Game() {
             <div className="pointer-events-none absolute inset-y-0 right-3 z-10 w-[52%] max-w-[440px] animate-fade-in">
               {([0, 1, 2] as const).map((i) => {
                 const topPct = [35, 58, 82][i];
+                const isHint = hintLane === i;
                 return (
                   <div
                     key={i}
@@ -743,7 +1145,12 @@ export function Game() {
                     style={{ top: `${topPct}%` }}
                   >
                     <div
-                      className="rounded-2xl border border-amber-200/30 bg-black/50 px-5 py-2.5 text-right font-light tracking-wide text-amber-50 backdrop-blur-md shadow-[0_0_16px_rgba(255,200,140,0.15)]"
+                      className={
+                        "rounded-2xl border px-5 py-2.5 text-right font-light tracking-wide backdrop-blur-md " +
+                        (isHint
+                          ? "border-amber-200/80 bg-amber-200/15 text-amber-50 shadow-[0_0_36px_rgba(255,220,140,0.7)] animate-pulse"
+                          : "border-amber-200/30 bg-black/50 text-amber-50 shadow-[0_0_16px_rgba(255,200,140,0.15)]")
+                      }
                       style={{
                         fontFamily: '"Cormorant Garamond", "Cormorant", Georgia, serif',
                         fontSize: "clamp(18px, 2.6vw, 28px)",
@@ -786,6 +1193,11 @@ export function Game() {
           <p className="mt-2 text-sm text-amber-100/70">
             You reached {progress} of 10 gates.
           </p>
+          <div className="mt-5 grid grid-cols-3 gap-6 text-center">
+            <Stat label="SCORE" value={score} />
+            <Stat label="BEST" value={bestScore} />
+            <Stat label="STREAK" value={streak} />
+          </div>
           <button
             onClick={startGame}
             className="mt-8 rounded-full bg-amber-100 px-8 py-3 text-sm font-medium tracking-[0.2em] text-stone-900 shadow-[0_0_40px_rgba(255,200,140,0.5)] transition-transform hover:scale-105 active:scale-95"
@@ -802,6 +1214,11 @@ export function Game() {
           <p className="mt-2 text-sm text-amber-100/70">
             {health === 3 ? "Untouched by the storm." : `You finished with ${health} ${health === 1 ? "life" : "lives"}.`}
           </p>
+          <div className="mt-5 grid grid-cols-3 gap-6 text-center">
+            <Stat label="SCORE" value={score} />
+            <Stat label="BEST" value={bestScore} />
+            <Stat label="STREAK" value={streak} />
+          </div>
           <button
             onClick={startGame}
             className="mt-8 rounded-full bg-amber-100 px-8 py-3 text-sm font-medium tracking-[0.2em] text-stone-900 shadow-[0_0_40px_rgba(255,200,140,0.5)] transition-transform hover:scale-105 active:scale-95"
@@ -844,5 +1261,14 @@ function Heart({ filled }: { filled: boolean }) {
         strokeWidth={1.2}
       />
     </svg>
+  );
+}
+
+function Stat({ label, value }: { label: string; value: number }) {
+  return (
+    <div className="flex flex-col items-center">
+      <span className="text-[10px] tracking-[0.3em] text-amber-200/70">{label}</span>
+      <span className="mt-1 text-2xl font-light tabular-nums text-amber-50">{value}</span>
+    </div>
   );
 }
