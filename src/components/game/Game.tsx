@@ -1068,21 +1068,55 @@ export function Game() {
     <div className="relative h-[100svh] w-screen overflow-hidden bg-black select-none">
       <canvas
         ref={canvasRef}
-        className="absolute inset-0 h-full w-full touch-none"
-        style={{ touchAction: "none" }}
+        className="absolute inset-0 h-full w-full touch-none transition-[filter] duration-300"
+        style={{
+          touchAction: "none",
+          filter: distortion > 0 ? "blur(2px) hue-rotate(-15deg) contrast(1.05)" : "none",
+          transform: distortion > 0 ? `translateX(${Math.sin(Date.now() / 90) * 3}px)` : "none",
+        }}
       />
 
       {/* HUD: hearts + progress */}
       {state === "playing" && (
         <>
-          <div className="absolute left-4 top-4 flex items-center gap-2 z-10">
-            {[0, 1, 2].map((i) => (
-              <Heart key={i} filled={i < health} />
-            ))}
+          <div className="absolute left-4 top-4 z-10 flex flex-col gap-2">
+            <div className="flex items-center gap-2">
+              {[0, 1, 2].map((i) => (
+                <Heart key={i} filled={i < health} />
+              ))}
+            </div>
+            <div className="flex items-center gap-2 rounded-full bg-black/45 px-3 py-1 text-[11px] font-medium tracking-widest text-amber-100 backdrop-blur">
+              <span className="text-amber-200/70">SCORE</span>
+              <span className="text-amber-50 tabular-nums">{score}</span>
+            </div>
+            <div className="flex items-center gap-3 rounded-full bg-black/45 px-3 py-1 text-[11px] font-medium tracking-widest text-amber-100 backdrop-blur">
+              <span className="flex items-center gap-1">
+                <span className="text-amber-200/70">STREAK</span>
+                <span className="text-amber-50 tabular-nums">{streak}</span>
+                {streak > 0 && <span>🔥</span>}
+              </span>
+              <span
+                className={
+                  "rounded-full px-2 py-0.5 tabular-nums " +
+                  (multiplierForStreak(streak) > 1
+                    ? "bg-amber-300/30 text-amber-100 ring-1 ring-amber-200/40"
+                    : "text-amber-100/60")
+                }
+              >
+                x{multiplierForStreak(streak)}
+              </span>
+            </div>
           </div>
           <div className="absolute right-4 top-4 z-10 rounded-full bg-black/40 px-3 py-1 text-xs font-medium tracking-wider text-amber-100 backdrop-blur">
             {progress} / 10
           </div>
+          {multiplierToast !== null && (
+            <div className="pointer-events-none absolute left-1/2 top-1/3 z-30 -translate-x-1/2 animate-fade-in">
+              <div className="rounded-full bg-amber-300/20 px-6 py-2 text-2xl font-light tracking-[0.3em] text-amber-100 ring-1 ring-amber-200/50 backdrop-blur-md shadow-[0_0_40px_rgba(255,200,140,0.5)]">
+                x{multiplierToast} ACTIVE
+              </div>
+            </div>
+          )}
           {currentQuestion && (
             <div className="pointer-events-none absolute left-1/2 top-10 z-10 -translate-x-1/2 animate-fade-in max-w-[85%]">
               <div
@@ -1103,6 +1137,7 @@ export function Game() {
             <div className="pointer-events-none absolute inset-y-0 right-3 z-10 w-[52%] max-w-[440px] animate-fade-in">
               {([0, 1, 2] as const).map((i) => {
                 const topPct = [35, 58, 82][i];
+                const isHint = hintLane === i;
                 return (
                   <div
                     key={i}
@@ -1110,7 +1145,12 @@ export function Game() {
                     style={{ top: `${topPct}%` }}
                   >
                     <div
-                      className="rounded-2xl border border-amber-200/30 bg-black/50 px-5 py-2.5 text-right font-light tracking-wide text-amber-50 backdrop-blur-md shadow-[0_0_16px_rgba(255,200,140,0.15)]"
+                      className={
+                        "rounded-2xl border px-5 py-2.5 text-right font-light tracking-wide backdrop-blur-md " +
+                        (isHint
+                          ? "border-amber-200/80 bg-amber-200/15 text-amber-50 shadow-[0_0_36px_rgba(255,220,140,0.7)] animate-pulse"
+                          : "border-amber-200/30 bg-black/50 text-amber-50 shadow-[0_0_16px_rgba(255,200,140,0.15)]")
+                      }
                       style={{
                         fontFamily: '"Cormorant Garamond", "Cormorant", Georgia, serif',
                         fontSize: "clamp(18px, 2.6vw, 28px)",
@@ -1153,6 +1193,11 @@ export function Game() {
           <p className="mt-2 text-sm text-amber-100/70">
             You reached {progress} of 10 gates.
           </p>
+          <div className="mt-5 grid grid-cols-3 gap-6 text-center">
+            <Stat label="SCORE" value={score} />
+            <Stat label="BEST" value={bestScore} />
+            <Stat label="STREAK" value={streak} />
+          </div>
           <button
             onClick={startGame}
             className="mt-8 rounded-full bg-amber-100 px-8 py-3 text-sm font-medium tracking-[0.2em] text-stone-900 shadow-[0_0_40px_rgba(255,200,140,0.5)] transition-transform hover:scale-105 active:scale-95"
@@ -1169,6 +1214,11 @@ export function Game() {
           <p className="mt-2 text-sm text-amber-100/70">
             {health === 3 ? "Untouched by the storm." : `You finished with ${health} ${health === 1 ? "life" : "lives"}.`}
           </p>
+          <div className="mt-5 grid grid-cols-3 gap-6 text-center">
+            <Stat label="SCORE" value={score} />
+            <Stat label="BEST" value={bestScore} />
+            <Stat label="STREAK" value={streak} />
+          </div>
           <button
             onClick={startGame}
             className="mt-8 rounded-full bg-amber-100 px-8 py-3 text-sm font-medium tracking-[0.2em] text-stone-900 shadow-[0_0_40px_rgba(255,200,140,0.5)] transition-transform hover:scale-105 active:scale-95"
@@ -1211,5 +1261,14 @@ function Heart({ filled }: { filled: boolean }) {
         strokeWidth={1.2}
       />
     </svg>
+  );
+}
+
+function Stat({ label, value }: { label: string; value: number }) {
+  return (
+    <div className="flex flex-col items-center">
+      <span className="text-[10px] tracking-[0.3em] text-amber-200/70">{label}</span>
+      <span className="mt-1 text-2xl font-light tabular-nums text-amber-50">{value}</span>
+    </div>
   );
 }
