@@ -184,6 +184,7 @@ export function Game() {
     const powerups: Powerup[] = [];
     let questionTimer = 0;
     let activeDecision: DecisionPoint | null = null;
+    const currentQuestionRef = { current: null as string | null };
 
     const pickType = (): PowerupType => {
       // 70% positive, 20% utility (slow/hint), 10% negative
