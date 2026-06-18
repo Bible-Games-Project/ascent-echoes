@@ -101,6 +101,10 @@ export function Game() {
   useEffect(() => {
     healthRef.current = health;
   }, [health]);
+  useEffect(() => {
+    languageRef.current = language;
+    try { localStorage.setItem("dunewalker_lang", language); } catch { /* ignore */ }
+  }, [language]);
 
   // Load best score from localStorage
   useEffect(() => {
