@@ -179,20 +179,12 @@ export function Game() {
     // Build decision points (world-space x positions)
     const FIRST_DP = 700;
     const DP_SPACING = 900;
-    const decisions: DecisionPoint[] = QA.map((item, i) => ({
-      x: FIRST_DP + i * DP_SPACING,
-      safe: item.safe,
-      question: item.q,
-      answers: item.a,
-      triggered: false,
-      resolved: false,
-      doorAnim: [0, 0, 0],
-      doorOutcome: [null, null, null],
-    }));
-    const FINISH_X = decisions[decisions.length - 1].x + 800;
-
-    // ----- Power-ups: spawn between consecutive decision points -----
+    let decisions: DecisionPoint[] = [];
+    let FINISH_X = 0;
     const powerups: Powerup[] = [];
+    let questionTimer = 0;
+    let activeDecision: DecisionPoint | null = null;
+
     const pickType = (): PowerupType => {
       // 70% positive, 20% utility (slow/hint), 10% negative
       const r = Math.random();
@@ -201,22 +193,48 @@ export function Game() {
       if (r < 0.9) return Math.random() < 0.5 ? "slow" : "hint"; // utility
       return Math.random() < 0.5 ? "apple" : "broken";
     };
-    for (let i = 0; i < decisions.length - 1; i++) {
-      const a = decisions[i].x;
-      const b = decisions[i + 1].x;
-      const count = 1 + (Math.random() < 0.5 ? 1 : 0);
-      for (let k = 0; k < count; k++) {
-        const t = (k + 1) / (count + 1);
-        const px = a + (b - a) * t + (Math.random() - 0.5) * 80;
-        powerups.push({
-          x: px,
-          lane: Math.floor(Math.random() * 3) as Lane,
-          type: pickType(),
-          taken: false,
-          bobSeed: Math.random() * Math.PI * 2,
-        });
+
+    const buildLevel = (lvl: number) => {
+      const qs: GameQuestion[] = buildLevelQuestions(lvl, languageRef.current, usedIdsRef.current);
+      decisions = qs.map((item, i) => ({
+        x: FIRST_DP + i * DP_SPACING,
+        safe: item.safe as Lane,
+        question: item.prompt,
+        answers: item.answers,
+        triggered: false,
+        resolved: false,
+        doorAnim: [0, 0, 0],
+        doorOutcome: [null, null, null],
+      }));
+      FINISH_X = decisions[decisions.length - 1].x + 800;
+      powerups.length = 0;
+      for (let i = 0; i < decisions.length - 1; i++) {
+        const a = decisions[i].x;
+        const b = decisions[i + 1].x;
+        const count = 1 + (Math.random() < 0.5 ? 1 : 0);
+        for (let k = 0; k < count; k++) {
+          const t = (k + 1) / (count + 1);
+          const px = a + (b - a) * t + (Math.random() - 0.5) * 80;
+          powerups.push({
+            x: px,
+            lane: Math.floor(Math.random() * 3) as Lane,
+            type: pickType(),
+            taken: false,
+            bobSeed: Math.random() * Math.PI * 2,
+          });
+        }
       }
-    }
+      worldX = 0;
+      player.pushBack = 0;
+      activeDecision = null;
+      questionTimer = 0;
+      currentQuestionRef.current = null;
+      setCurrentQuestion(null);
+      setCurrentAnswers(null);
+      setProgress(0);
+      progressRef.current = 0;
+      setTimeLeft(timePerQuestionForLevel(lvl));
+    };
 
     // Particles (dust / impact)
     const particles: Particle[] = [];
