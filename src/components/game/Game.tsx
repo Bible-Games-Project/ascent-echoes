@@ -1253,27 +1253,6 @@ export function Game() {
         </Overlay>
       )}
 
-      {state === "complete" && (
-        <Overlay>
-          <p className="text-xs uppercase tracking-[0.4em] text-amber-200/80">The horizon answers</p>
-          <h1 className="mt-3 text-4xl font-light tracking-[0.2em] text-amber-50">JOURNEY COMPLETE</h1>
-          <p className="mt-2 text-sm text-amber-100/70">
-            {health === 3 ? "Untouched by the storm." : `You finished with ${health} ${health === 1 ? "life" : "lives"}.`}
-          </p>
-          <div className="mt-5 grid grid-cols-3 gap-6 text-center">
-            <Stat label="SCORE" value={score} />
-            <Stat label="BEST" value={bestScore} />
-            <Stat label="STREAK" value={streak} />
-          </div>
-          <button
-            onClick={startGame}
-            className="mt-8 rounded-full bg-amber-100 px-8 py-3 text-sm font-medium tracking-[0.2em] text-stone-900 shadow-[0_0_40px_rgba(255,200,140,0.5)] transition-transform hover:scale-105 active:scale-95"
-          >
-            WALK AGAIN
-          </button>
-        </Overlay>
-      )}
-
       {/* Orientation lock: force landscape only */}
       {!isLandscape && (
         <div className="absolute inset-0 z-50 flex flex-col items-center justify-center bg-black/90 backdrop-blur-md">
