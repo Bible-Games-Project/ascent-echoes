@@ -1277,19 +1277,27 @@ export function Game() {
           <p className="text-xs uppercase tracking-[0.4em] text-rose-200/80">The wind took you</p>
           <h1 className="mt-3 text-4xl font-light tracking-[0.2em] text-amber-50">FALLEN</h1>
           <p className="mt-2 text-sm text-amber-100/70">
-            You reached {progress} of 10 gates.
+            You reached level {level}{level >= 11 ? " (endless)" : ""}.
           </p>
           <div className="mt-5 grid grid-cols-3 gap-6 text-center">
             <Stat label="SCORE" value={score} />
             <Stat label="BEST" value={bestScore} />
             <Stat label="STREAK" value={streak} />
           </div>
-          <button
-            onClick={startGame}
-            className="mt-8 rounded-full bg-amber-100 px-8 py-3 text-sm font-medium tracking-[0.2em] text-stone-900 shadow-[0_0_40px_rgba(255,200,140,0.5)] transition-transform hover:scale-105 active:scale-95"
-          >
-            TRY AGAIN
-          </button>
+          <div className="mt-8 flex items-center gap-3">
+            <button
+              onClick={startGame}
+              className="rounded-full bg-amber-100 px-8 py-3 text-sm font-medium tracking-[0.2em] text-stone-900 shadow-[0_0_40px_rgba(255,200,140,0.5)] transition-transform hover:scale-105 active:scale-95"
+            >
+              TRY AGAIN
+            </button>
+            <button
+              onClick={() => { setState("start"); stateRef.current = "start"; }}
+              className="rounded-full border border-amber-200/40 bg-black/30 px-6 py-3 text-xs font-medium tracking-[0.2em] text-amber-100/90 backdrop-blur transition hover:border-amber-200/70 hover:text-amber-50"
+            >
+              MAIN MENU
+            </button>
+          </div>
         </Overlay>
       )}
 
