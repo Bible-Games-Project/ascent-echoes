@@ -20,6 +20,10 @@ on:
         description: "Marketing version (e.g. 1.0). Leave empty to use package.json"
         type: string
         default: ""
+      generate_aab_only:
+        description: "Build AAB without uploading to Google Play (saves as downloadable artifact)"
+        type: boolean
+        default: false
 
 jobs:
   ios:
@@ -45,11 +49,13 @@ jobs:
     if: |
       github.ref == 'refs/heads/deploy-app' ||
       (github.event_name == 'pull_request' && github.event.pull_request.merged == true) ||
-      (github.event_name == 'workflow_dispatch' && inputs.deploy_android == true)
+      (github.event_name == 'workflow_dispatch' && inputs.deploy_android == true) ||
+      (github.event_name == 'workflow_dispatch' && inputs.generate_aab_only == true)
     uses: Bible-Games-Project/bgp-admin/.github/workflows/deploy-android.yml@main
     with:
       package-name: com.biblegames.acent
       marketing-version: ${{ inputs.marketing_version }}
+      skip-upload: ${{ inputs.generate_aab_only }}
     secrets:
       ANDROID_KEYSTORE: ${{ secrets.ANDROID_KEYSTORE }}
       KEYSTORE_PASSWORD: ${{ secrets.KEYSTORE_PASSWORD }}
