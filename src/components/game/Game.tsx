@@ -1157,8 +1157,25 @@ export function Game() {
               </span>
             </div>
           </div>
-          <div className="absolute right-4 top-4 z-10 rounded-full bg-black/40 px-3 py-1 text-xs font-medium tracking-wider text-amber-100 backdrop-blur">
-            {progress} / 10
+          <div className="absolute right-4 top-4 z-10 flex flex-col items-end gap-2">
+            <div className="rounded-full bg-black/45 px-3 py-1 text-[11px] font-medium tracking-widest text-amber-100 backdrop-blur">
+              <span className="text-amber-200/70">LEVEL </span>
+              <span className="text-amber-50 tabular-nums">{level}</span>
+              {level >= 11 && <span className="ml-1 text-amber-300/80">∞</span>}
+            </div>
+            <div className="rounded-full bg-black/40 px-3 py-1 text-xs font-medium tracking-wider text-amber-100 backdrop-blur">
+              {progress} / 10
+            </div>
+            <div
+              className={
+                "rounded-full px-3 py-1 text-[11px] font-medium tracking-widest backdrop-blur tabular-nums " +
+                (timeLeft <= 2
+                  ? "bg-rose-500/30 text-rose-100 ring-1 ring-rose-300/50"
+                  : "bg-black/45 text-amber-100")
+              }
+            >
+              ⏱ {timeLeft.toFixed(1)}s
+            </div>
           </div>
           {multiplierToast !== null && (
             <div className="pointer-events-none absolute left-1/2 top-1/3 z-30 -translate-x-1/2 animate-fade-in">
