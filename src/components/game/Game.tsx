@@ -774,13 +774,6 @@ export function Game() {
       player.vy = 0;
       player.jumping = false;
       player.pushBack = 0;
-      decisions.forEach((d) => {
-        d.triggered = false;
-        d.resolved = false;
-        d.doorAnim = [0, 0, 0];
-        d.doorOutcome = [null, null, null];
-      });
-      powerups.forEach((p) => (p.taken = false));
       shake = 0;
       flash = 0;
       invuln = 0;
@@ -803,6 +796,10 @@ export function Game() {
       setMultiplierToast(null);
       setCurrentQuestion(null);
       setCurrentAnswers(null);
+      levelRef.current = 1;
+      setLevel(1);
+      usedIdsRef.current = new Set();
+      buildLevel(1);
     };
 
     const damage = (sxImpact: number, syImpact: number) => {
@@ -899,6 +896,32 @@ export function Game() {
           activeQ = nextUnresolved.question;
           activeA = nextUnresolved.answers;
         }
+        // Per-question countdown timer. Resets when the active decision
+        // changes; expiry forces a wrong-answer outcome on the current lane.
+        if (nextUnresolved !== activeDecision) {
+          activeDecision = nextUnresolved ?? null;
+          questionTimer = activeDecision ? timePerQuestionForLevel(levelRef.current) : 0;
+          setTimeLeft(questionTimer);
+        }
+        if (activeDecision && !activeDecision.resolved) {
+          questionTimer -= dt;
+          setTimeLeft(Math.max(0, questionTimer));
+          if (questionTimer <= 0) {
+            const d = activeDecision;
+            d.resolved = true;
+            // Shatter all three doors on time-out and damage player.
+            d.doorOutcome = ["broken", "broken", "broken"];
+            const playerX = W * PLAYER_SCREEN_X_FRAC;
+            damage(playerX, player.y);
+            if (hintActive !== null && d.x === hintForX) {
+              hintActive = null;
+              setHintLane(null);
+            }
+            const newProg = progressRef.current + 1;
+            progressRef.current = newProg;
+            setProgress(newProg);
+          }
+        }
         decisions.forEach((d) => {
           // Physical collision: trigger only when the door's screen-x reaches
           // the player's screen-x. The player's door is the one in their lane.
@@ -973,15 +996,18 @@ export function Game() {
           setCurrentAnswers(activeA);
         }
 
-        // Level complete when crossed finish
+        // Level complete when player has crossed the finish marker.
+        // Endless mode: bump level, rebuild decisions, keep playing.
         if (worldX > FINISH_X - W * PLAYER_SCREEN_X_FRAC && healthRef.current > 0) {
           if (scoreRef.current > bestRef.current) {
             bestRef.current = scoreRef.current;
             setBestScore(scoreRef.current);
             try { localStorage.setItem("dunewalker_best", String(scoreRef.current)); } catch { /* ignore */ }
           }
-          stateRef.current = "complete";
-          setState("complete");
+          const nextLvl = levelRef.current + 1;
+          levelRef.current = nextLvl;
+          setLevel(nextLvl);
+          buildLevel(nextLvl);
         }
       }
 
