@@ -1,6 +1,14 @@
 import { useEffect, useRef, useState } from "react";
+import {
+  buildLevelQuestions,
+  timePerQuestionForLevel,
+  LANGUAGES,
+  LANGUAGE_LABELS,
+  type Language,
+  type GameQuestion,
+} from "./questionBank";
 
-type GameState = "start" | "playing" | "gameover" | "complete";
+type GameState = "start" | "playing" | "gameover";
 type Lane = 0 | 1 | 2; // 0 top, 1 middle, 2 bottom
 
 interface DecisionPoint {
@@ -52,28 +60,12 @@ const multiplierForStreak = (s: number): number => {
   return 1;
 };
 
-// Bible-based questions. Each has 3 answers shown vertically aligned with the
-// 3 lanes (index 0 = top lane, 1 = middle lane, 2 = bottom lane). The `safe`
-// index points at the correct answer / lane. Order is intentionally varied so
-// the safe lane is never predictable.
-const QA: { q: string; a: [string, string, string]; safe: Lane }[] = [
-  { q: "Who led Israel out of Egypt?",        a: ["Moses", "Aaron", "Joshua"],         safe: 0 },
-  { q: "How many disciples did Jesus choose?", a: ["7", "10", "12"],                    safe: 2 },
-  { q: "Who was thrown into the lions' den?",  a: ["Elijah", "Daniel", "Jonah"],        safe: 1 },
-  { q: "Where was Jesus born?",                a: ["Bethlehem", "Nazareth", "Jerusalem"], safe: 0 },
-  { q: "Who built the ark?",                   a: ["Abraham", "Moses", "Noah"],         safe: 2 },
-  { q: "Who denied Jesus three times?",        a: ["John", "Peter", "Judas"],           safe: 1 },
-  { q: "Who killed Goliath?",                  a: ["Saul", "Samson", "David"],          safe: 2 },
-  { q: "First book of the Bible?",             a: ["Genesis", "Exodus", "Psalms"],      safe: 0 },
-  { q: "Who was swallowed by a great fish?",   a: ["Job", "Jonah", "Joel"],             safe: 1 },
-  { q: "Who baptized Jesus?",                  a: ["Peter", "Paul", "John the Baptist"], safe: 2 },
-];
-
 export function Game() {
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const [state, setState] = useState<GameState>("start");
   const [health, setHealth] = useState(3);
-  const [progress, setProgress] = useState(0); // 0..10
+  const [progress, setProgress] = useState(0); // 0..10 within current level
+  const [level, setLevel] = useState(1);
   const [currentQuestion, setCurrentQuestion] = useState<string | null>(null);
   const [currentAnswers, setCurrentAnswers] = useState<[string, string, string] | null>(null);
   const [isLandscape, setIsLandscape] = useState(true);
@@ -83,6 +75,14 @@ export function Game() {
   const [multiplierToast, setMultiplierToast] = useState<number | null>(null);
   const [hintLane, setHintLane] = useState<Lane | null>(null);
   const [distortion, setDistortion] = useState(0); // 0..1 strength
+  const [timeLeft, setTimeLeft] = useState(0);
+  const [language, setLanguage] = useState<Language>(() => {
+    try {
+      const saved = localStorage.getItem("dunewalker_lang");
+      if (saved && (LANGUAGES as readonly string[]).includes(saved)) return saved as Language;
+    } catch { /* ignore */ }
+    return "en";
+  });
 
   // Mutable game refs to avoid React re-renders inside the loop.
   const stateRef = useRef<GameState>("start");
@@ -91,6 +91,9 @@ export function Game() {
   const scoreRef = useRef(0);
   const streakRef = useRef(0);
   const bestRef = useRef(0);
+  const levelRef = useRef(1);
+  const languageRef = useRef<Language>(language);
+  const usedIdsRef = useRef<Set<string>>(new Set());
 
   useEffect(() => {
     stateRef.current = state;
