@@ -1036,8 +1036,6 @@ export function Game() {
       raf = requestAnimationFrame(loop);
     };
 
-    const currentQuestionRef = { current: null as string | null };
-
     // Expose reset for external triggers
     (canvas as unknown as { __reset?: () => void }).__reset = reset;
 
