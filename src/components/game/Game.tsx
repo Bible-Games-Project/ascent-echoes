@@ -1,6 +1,14 @@
 import { useEffect, useRef, useState } from "react";
+import {
+  buildLevelQuestions,
+  timePerQuestionForLevel,
+  LANGUAGES,
+  LANGUAGE_LABELS,
+  type Language,
+  type GameQuestion,
+} from "./questionBank";
 
-type GameState = "start" | "playing" | "gameover" | "complete";
+type GameState = "start" | "playing" | "gameover";
 type Lane = 0 | 1 | 2; // 0 top, 1 middle, 2 bottom
 
 interface DecisionPoint {
@@ -52,28 +60,12 @@ const multiplierForStreak = (s: number): number => {
   return 1;
 };
 
-// Bible-based questions. Each has 3 answers shown vertically aligned with the
-// 3 lanes (index 0 = top lane, 1 = middle lane, 2 = bottom lane). The `safe`
-// index points at the correct answer / lane. Order is intentionally varied so
-// the safe lane is never predictable.
-const QA: { q: string; a: [string, string, string]; safe: Lane }[] = [
-  { q: "Who led Israel out of Egypt?",        a: ["Moses", "Aaron", "Joshua"],         safe: 0 },
-  { q: "How many disciples did Jesus choose?", a: ["7", "10", "12"],                    safe: 2 },
-  { q: "Who was thrown into the lions' den?",  a: ["Elijah", "Daniel", "Jonah"],        safe: 1 },
-  { q: "Where was Jesus born?",                a: ["Bethlehem", "Nazareth", "Jerusalem"], safe: 0 },
-  { q: "Who built the ark?",                   a: ["Abraham", "Moses", "Noah"],         safe: 2 },
-  { q: "Who denied Jesus three times?",        a: ["John", "Peter", "Judas"],           safe: 1 },
-  { q: "Who killed Goliath?",                  a: ["Saul", "Samson", "David"],          safe: 2 },
-  { q: "First book of the Bible?",             a: ["Genesis", "Exodus", "Psalms"],      safe: 0 },
-  { q: "Who was swallowed by a great fish?",   a: ["Job", "Jonah", "Joel"],             safe: 1 },
-  { q: "Who baptized Jesus?",                  a: ["Peter", "Paul", "John the Baptist"], safe: 2 },
-];
-
 export function Game() {
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const [state, setState] = useState<GameState>("start");
   const [health, setHealth] = useState(3);
-  const [progress, setProgress] = useState(0); // 0..10
+  const [progress, setProgress] = useState(0); // 0..10 within current level
+  const [level, setLevel] = useState(1);
   const [currentQuestion, setCurrentQuestion] = useState<string | null>(null);
   const [currentAnswers, setCurrentAnswers] = useState<[string, string, string] | null>(null);
   const [isLandscape, setIsLandscape] = useState(true);
@@ -83,6 +75,14 @@ export function Game() {
   const [multiplierToast, setMultiplierToast] = useState<number | null>(null);
   const [hintLane, setHintLane] = useState<Lane | null>(null);
   const [distortion, setDistortion] = useState(0); // 0..1 strength
+  const [timeLeft, setTimeLeft] = useState(0);
+  const [language, setLanguage] = useState<Language>(() => {
+    try {
+      const saved = localStorage.getItem("dunewalker_lang");
+      if (saved && (LANGUAGES as readonly string[]).includes(saved)) return saved as Language;
+    } catch { /* ignore */ }
+    return "en";
+  });
 
   // Mutable game refs to avoid React re-renders inside the loop.
   const stateRef = useRef<GameState>("start");
@@ -91,6 +91,9 @@ export function Game() {
   const scoreRef = useRef(0);
   const streakRef = useRef(0);
   const bestRef = useRef(0);
+  const levelRef = useRef(1);
+  const languageRef = useRef<Language>(language);
+  const usedIdsRef = useRef<Set<string>>(new Set());
 
   useEffect(() => {
     stateRef.current = state;
@@ -98,6 +101,10 @@ export function Game() {
   useEffect(() => {
     healthRef.current = health;
   }, [health]);
+  useEffect(() => {
+    languageRef.current = language;
+    try { localStorage.setItem("dunewalker_lang", language); } catch { /* ignore */ }
+  }, [language]);
 
   // Load best score from localStorage
   useEffect(() => {
@@ -176,20 +183,13 @@ export function Game() {
     // Build decision points (world-space x positions)
     const FIRST_DP = 700;
     const DP_SPACING = 900;
-    const decisions: DecisionPoint[] = QA.map((item, i) => ({
-      x: FIRST_DP + i * DP_SPACING,
-      safe: item.safe,
-      question: item.q,
-      answers: item.a,
-      triggered: false,
-      resolved: false,
-      doorAnim: [0, 0, 0],
-      doorOutcome: [null, null, null],
-    }));
-    const FINISH_X = decisions[decisions.length - 1].x + 800;
-
-    // ----- Power-ups: spawn between consecutive decision points -----
+    let decisions: DecisionPoint[] = [];
+    let FINISH_X = 0;
     const powerups: Powerup[] = [];
+    let questionTimer = 0;
+    let activeDecision: DecisionPoint | null = null;
+    const currentQuestionRef = { current: null as string | null };
+
     const pickType = (): PowerupType => {
       // 70% positive, 20% utility (slow/hint), 10% negative
       const r = Math.random();
@@ -198,22 +198,48 @@ export function Game() {
       if (r < 0.9) return Math.random() < 0.5 ? "slow" : "hint"; // utility
       return Math.random() < 0.5 ? "apple" : "broken";
     };
-    for (let i = 0; i < decisions.length - 1; i++) {
-      const a = decisions[i].x;
-      const b = decisions[i + 1].x;
-      const count = 1 + (Math.random() < 0.5 ? 1 : 0);
-      for (let k = 0; k < count; k++) {
-        const t = (k + 1) / (count + 1);
-        const px = a + (b - a) * t + (Math.random() - 0.5) * 80;
-        powerups.push({
-          x: px,
-          lane: Math.floor(Math.random() * 3) as Lane,
-          type: pickType(),
-          taken: false,
-          bobSeed: Math.random() * Math.PI * 2,
-        });
+
+    const buildLevel = (lvl: number) => {
+      const qs: GameQuestion[] = buildLevelQuestions(lvl, languageRef.current, usedIdsRef.current);
+      decisions = qs.map((item, i) => ({
+        x: FIRST_DP + i * DP_SPACING,
+        safe: item.safe as Lane,
+        question: item.prompt,
+        answers: item.answers,
+        triggered: false,
+        resolved: false,
+        doorAnim: [0, 0, 0],
+        doorOutcome: [null, null, null],
+      }));
+      FINISH_X = decisions[decisions.length - 1].x + 800;
+      powerups.length = 0;
+      for (let i = 0; i < decisions.length - 1; i++) {
+        const a = decisions[i].x;
+        const b = decisions[i + 1].x;
+        const count = 1 + (Math.random() < 0.5 ? 1 : 0);
+        for (let k = 0; k < count; k++) {
+          const t = (k + 1) / (count + 1);
+          const px = a + (b - a) * t + (Math.random() - 0.5) * 80;
+          powerups.push({
+            x: px,
+            lane: Math.floor(Math.random() * 3) as Lane,
+            type: pickType(),
+            taken: false,
+            bobSeed: Math.random() * Math.PI * 2,
+          });
+        }
       }
-    }
+      worldX = 0;
+      player.pushBack = 0;
+      activeDecision = null;
+      questionTimer = 0;
+      currentQuestionRef.current = null;
+      setCurrentQuestion(null);
+      setCurrentAnswers(null);
+      setProgress(0);
+      progressRef.current = 0;
+      setTimeLeft(timePerQuestionForLevel(lvl));
+    };
 
     // Particles (dust / impact)
     const particles: Particle[] = [];
@@ -753,13 +779,6 @@ export function Game() {
       player.vy = 0;
       player.jumping = false;
       player.pushBack = 0;
-      decisions.forEach((d) => {
-        d.triggered = false;
-        d.resolved = false;
-        d.doorAnim = [0, 0, 0];
-        d.doorOutcome = [null, null, null];
-      });
-      powerups.forEach((p) => (p.taken = false));
       shake = 0;
       flash = 0;
       invuln = 0;
@@ -782,6 +801,10 @@ export function Game() {
       setMultiplierToast(null);
       setCurrentQuestion(null);
       setCurrentAnswers(null);
+      levelRef.current = 1;
+      setLevel(1);
+      usedIdsRef.current = new Set();
+      buildLevel(1);
     };
 
     const damage = (sxImpact: number, syImpact: number) => {
@@ -878,6 +901,32 @@ export function Game() {
           activeQ = nextUnresolved.question;
           activeA = nextUnresolved.answers;
         }
+        // Per-question countdown timer. Resets when the active decision
+        // changes; expiry forces a wrong-answer outcome on the current lane.
+        if (nextUnresolved !== activeDecision) {
+          activeDecision = nextUnresolved ?? null;
+          questionTimer = activeDecision ? timePerQuestionForLevel(levelRef.current) : 0;
+          setTimeLeft(questionTimer);
+        }
+        if (activeDecision && !activeDecision.resolved) {
+          questionTimer -= dt;
+          setTimeLeft(Math.max(0, questionTimer));
+          if (questionTimer <= 0) {
+            const d = activeDecision;
+            d.resolved = true;
+            // Shatter all three doors on time-out and damage player.
+            d.doorOutcome = ["broken", "broken", "broken"];
+            const playerX = W * PLAYER_SCREEN_X_FRAC;
+            damage(playerX, player.y);
+            if (hintActive !== null && d.x === hintForX) {
+              hintActive = null;
+              setHintLane(null);
+            }
+            const newProg = progressRef.current + 1;
+            progressRef.current = newProg;
+            setProgress(newProg);
+          }
+        }
         decisions.forEach((d) => {
           // Physical collision: trigger only when the door's screen-x reaches
           // the player's screen-x. The player's door is the one in their lane.
@@ -952,15 +1001,18 @@ export function Game() {
           setCurrentAnswers(activeA);
         }
 
-        // Level complete when crossed finish
+        // Level complete when player has crossed the finish marker.
+        // Endless mode: bump level, rebuild decisions, keep playing.
         if (worldX > FINISH_X - W * PLAYER_SCREEN_X_FRAC && healthRef.current > 0) {
           if (scoreRef.current > bestRef.current) {
             bestRef.current = scoreRef.current;
             setBestScore(scoreRef.current);
             try { localStorage.setItem("dunewalker_best", String(scoreRef.current)); } catch { /* ignore */ }
           }
-          stateRef.current = "complete";
-          setState("complete");
+          const nextLvl = levelRef.current + 1;
+          levelRef.current = nextLvl;
+          setLevel(nextLvl);
+          buildLevel(nextLvl);
         }
       }
 
@@ -988,8 +1040,6 @@ export function Game() {
 
       raf = requestAnimationFrame(loop);
     };
-
-    const currentQuestionRef = { current: null as string | null };
 
     // Expose reset for external triggers
     (canvas as unknown as { __reset?: () => void }).__reset = reset;
@@ -1107,8 +1157,25 @@ export function Game() {
               </span>
             </div>
           </div>
-          <div className="absolute right-4 top-4 z-10 rounded-full bg-black/40 px-3 py-1 text-xs font-medium tracking-wider text-amber-100 backdrop-blur">
-            {progress} / 10
+          <div className="absolute right-4 top-4 z-10 flex flex-col items-end gap-2">
+            <div className="rounded-full bg-black/45 px-3 py-1 text-[11px] font-medium tracking-widest text-amber-100 backdrop-blur">
+              <span className="text-amber-200/70">LEVEL </span>
+              <span className="text-amber-50 tabular-nums">{level}</span>
+              {level >= 11 && <span className="ml-1 text-amber-300/80">∞</span>}
+            </div>
+            <div className="rounded-full bg-black/40 px-3 py-1 text-xs font-medium tracking-wider text-amber-100 backdrop-blur">
+              {progress} / 10
+            </div>
+            <div
+              className={
+                "rounded-full px-3 py-1 text-[11px] font-medium tracking-widest backdrop-blur tabular-nums " +
+                (timeLeft <= 2
+                  ? "bg-rose-500/30 text-rose-100 ring-1 ring-rose-300/50"
+                  : "bg-black/45 text-amber-100")
+              }
+            >
+              ⏱ {timeLeft.toFixed(1)}s
+            </div>
           </div>
           {multiplierToast !== null && (
             <div className="pointer-events-none absolute left-1/2 top-1/3 z-30 -translate-x-1/2 animate-fade-in">
@@ -1177,6 +1244,25 @@ export function Game() {
           <p className="mt-3 max-w-xs text-center text-sm font-light tracking-wide text-amber-100/80">
             Ten choices between you and the horizon. Swipe to climb or descend. Tap to leap.
           </p>
+          <div className="mt-6 flex flex-col items-center gap-2">
+            <span className="text-[10px] uppercase tracking-[0.35em] text-amber-200/70">Language</span>
+            <div className="flex max-w-[520px] flex-wrap justify-center gap-1.5">
+              {LANGUAGES.map((lng) => (
+                <button
+                  key={lng}
+                  onClick={() => setLanguage(lng)}
+                  className={
+                    "rounded-full border px-3 py-1 text-[11px] tracking-wider transition " +
+                    (language === lng
+                      ? "border-amber-200/80 bg-amber-100/20 text-amber-50 shadow-[0_0_18px_rgba(255,200,140,0.4)]"
+                      : "border-amber-200/20 bg-black/30 text-amber-100/70 hover:border-amber-200/50 hover:text-amber-50")
+                  }
+                >
+                  {LANGUAGE_LABELS[lng]}
+                </button>
+              ))}
+            </div>
+          </div>
           <button
             onClick={startGame}
             className="mt-8 rounded-full bg-amber-100 px-8 py-3 text-sm font-medium tracking-[0.2em] text-stone-900 shadow-[0_0_40px_rgba(255,200,140,0.5)] transition-transform hover:scale-105 active:scale-95"
@@ -1191,40 +1277,27 @@ export function Game() {
           <p className="text-xs uppercase tracking-[0.4em] text-rose-200/80">The wind took you</p>
           <h1 className="mt-3 text-4xl font-light tracking-[0.2em] text-amber-50">FALLEN</h1>
           <p className="mt-2 text-sm text-amber-100/70">
-            You reached {progress} of 10 gates.
+            You reached level {level}{level >= 11 ? " (endless)" : ""}.
           </p>
           <div className="mt-5 grid grid-cols-3 gap-6 text-center">
             <Stat label="SCORE" value={score} />
             <Stat label="BEST" value={bestScore} />
             <Stat label="STREAK" value={streak} />
           </div>
-          <button
-            onClick={startGame}
-            className="mt-8 rounded-full bg-amber-100 px-8 py-3 text-sm font-medium tracking-[0.2em] text-stone-900 shadow-[0_0_40px_rgba(255,200,140,0.5)] transition-transform hover:scale-105 active:scale-95"
-          >
-            TRY AGAIN
-          </button>
-        </Overlay>
-      )}
-
-      {state === "complete" && (
-        <Overlay>
-          <p className="text-xs uppercase tracking-[0.4em] text-amber-200/80">The horizon answers</p>
-          <h1 className="mt-3 text-4xl font-light tracking-[0.2em] text-amber-50">JOURNEY COMPLETE</h1>
-          <p className="mt-2 text-sm text-amber-100/70">
-            {health === 3 ? "Untouched by the storm." : `You finished with ${health} ${health === 1 ? "life" : "lives"}.`}
-          </p>
-          <div className="mt-5 grid grid-cols-3 gap-6 text-center">
-            <Stat label="SCORE" value={score} />
-            <Stat label="BEST" value={bestScore} />
-            <Stat label="STREAK" value={streak} />
+          <div className="mt-8 flex items-center gap-3">
+            <button
+              onClick={startGame}
+              className="rounded-full bg-amber-100 px-8 py-3 text-sm font-medium tracking-[0.2em] text-stone-900 shadow-[0_0_40px_rgba(255,200,140,0.5)] transition-transform hover:scale-105 active:scale-95"
+            >
+              TRY AGAIN
+            </button>
+            <button
+              onClick={() => { setState("start"); stateRef.current = "start"; }}
+              className="rounded-full border border-amber-200/40 bg-black/30 px-6 py-3 text-xs font-medium tracking-[0.2em] text-amber-100/90 backdrop-blur transition hover:border-amber-200/70 hover:text-amber-50"
+            >
+              MAIN MENU
+            </button>
           </div>
-          <button
-            onClick={startGame}
-            className="mt-8 rounded-full bg-amber-100 px-8 py-3 text-sm font-medium tracking-[0.2em] text-stone-900 shadow-[0_0_40px_rgba(255,200,140,0.5)] transition-transform hover:scale-105 active:scale-95"
-          >
-            WALK AGAIN
-          </button>
         </Overlay>
       )}
 
