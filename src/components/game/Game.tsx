@@ -360,6 +360,7 @@ export function Game() {
           const a = 1 - anim;
           ctx.globalAlpha = a;
           drawDoorPanel(cx, d.y - DOOR_H + anim * 12, DOOR_W, DOOR_H, true);
+          drawAnswerLabel(cx, d.y - DOOR_H + anim * 12 - 14, d.answers[i]);
           ctx.globalAlpha = 1;
           continue;
         }
@@ -378,6 +379,7 @@ export function Game() {
           continue;
         }
         drawDoorPanel(cx, d.y - DOOR_H, DOOR_W, DOOR_H, i === d.safe);
+        drawAnswerLabel(cx, d.y - DOOR_H - 14, d.answers[i]);
       }
     };
 
