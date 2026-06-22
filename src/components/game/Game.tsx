@@ -341,6 +341,63 @@ export function Game() {
     const drawActiveDecision = (dt: number) => {
       const d = queue[activeIdx];
       if (!d) return;
+      // helper to draw an answer label above the falling door
+      const drawAnswerLabel = (cx: number, topY: number, text: string) => {
+        ctx.save();
+        ctx.font = '600 13px "Cormorant Garamond", Georgia, serif';
+        ctx.textAlign = "center";
+        ctx.textBaseline = "bottom";
+        const maxW = W / 3 - 14;
+        // word-wrap to up to 2 lines
+        const words = text.split(/\s+/);
+        const lines: string[] = [];
+        let cur = "";
+        for (const w of words) {
+          const test = cur ? cur + " " + w : w;
+          if (ctx.measureText(test).width > maxW && cur) {
+            lines.push(cur);
+            cur = w;
+            if (lines.length === 1) {
+              // last line: append rest, truncate with ellipsis if needed
+              const rest = words.slice(words.indexOf(w)).join(" ");
+              let r = rest;
+              while (ctx.measureText(r + "…").width > maxW && r.length > 1) r = r.slice(0, -1);
+              if (r !== rest) r = r + "…";
+              lines.push(r);
+              cur = "";
+              break;
+            }
+          } else cur = test;
+        }
+        if (cur) lines.push(cur);
+        const lineH = 15;
+        const boxH = lines.length * lineH + 6;
+        const boxW = Math.min(maxW + 12, Math.max(...lines.map(l => ctx.measureText(l).width)) + 14);
+        const bx = cx - boxW / 2;
+        const by = topY - boxH;
+        ctx.fillStyle = "rgba(0,0,0,0.55)";
+        ctx.strokeStyle = "rgba(255, 220, 170, 0.45)";
+        ctx.lineWidth = 1;
+        ctx.beginPath();
+        const r = 6;
+        ctx.moveTo(bx + r, by);
+        ctx.lineTo(bx + boxW - r, by);
+        ctx.quadraticCurveTo(bx + boxW, by, bx + boxW, by + r);
+        ctx.lineTo(bx + boxW, by + boxH - r);
+        ctx.quadraticCurveTo(bx + boxW, by + boxH, bx + boxW - r, by + boxH);
+        ctx.lineTo(bx + r, by + boxH);
+        ctx.quadraticCurveTo(bx, by + boxH, bx, by + boxH - r);
+        ctx.lineTo(bx, by + r);
+        ctx.quadraticCurveTo(bx, by, bx + r, by);
+        ctx.closePath();
+        ctx.fill();
+        ctx.stroke();
+        ctx.fillStyle = "#fff3d6";
+        lines.forEach((l, idx) => {
+          ctx.fillText(l, cx, by + 3 + (idx + 1) * lineH);
+        });
+        ctx.restore();
+      };
       // Trailing light streaks per lane
       for (let i = 0; i < 3; i++) {
         const lx = laneX(i as Lane);
@@ -360,6 +417,7 @@ export function Game() {
           const a = 1 - anim;
           ctx.globalAlpha = a;
           drawDoorPanel(cx, d.y - DOOR_H + anim * 12, DOOR_W, DOOR_H, true);
+          drawAnswerLabel(cx, d.y - DOOR_H + anim * 12 - 14, d.answers[i]);
           ctx.globalAlpha = 1;
           continue;
         }
@@ -378,6 +436,7 @@ export function Game() {
           continue;
         }
         drawDoorPanel(cx, d.y - DOOR_H, DOOR_W, DOOR_H, i === d.safe);
+        drawAnswerLabel(cx, d.y - DOOR_H - 14, d.answers[i]);
       }
     };
 
@@ -919,35 +978,7 @@ export function Game() {
             </div>
           )}
 
-          {/* Answers - one per vertical lane, just under the question */}
-          {currentAnswers && (
-            <div className="pointer-events-none absolute inset-x-0 top-44 z-10 grid grid-cols-3 gap-2 px-2 animate-fade-in">
-              {([0, 1, 2] as const).map((i) => {
-                const isHint = hintLane === i;
-                return (
-                  <div key={i} className="flex justify-center">
-                    <div
-                      className={
-                        "w-full rounded-2xl border px-2 py-2 text-center font-light tracking-wide backdrop-blur-md " +
-                        (isHint
-                          ? "border-amber-200/80 bg-amber-200/15 text-amber-50 shadow-[0_0_36px_rgba(255,220,140,0.7)] animate-pulse"
-                          : "border-amber-200/30 bg-black/50 text-amber-50 shadow-[0_0_16px_rgba(255,200,140,0.15)]")
-                      }
-                      style={{
-                        fontFamily: '"Cormorant Garamond", "Cormorant", Georgia, serif',
-                        fontSize: "clamp(13px, 3.4vw, 22px)",
-                        lineHeight: 1.2,
-                        letterSpacing: "0.02em",
-                        fontWeight: 500,
-                      }}
-                    >
-                      {currentAnswers[i]}
-                    </div>
-                  </div>
-                );
-              })}
-            </div>
-          )}
+          {/* Answers are encoded into the falling objects only — no UI buttons. */}
 
           {multiplierToast !== null && (
             <div className="pointer-events-none absolute left-1/2 top-1/2 z-30 -translate-x-1/2 -translate-y-1/2 animate-fade-in">

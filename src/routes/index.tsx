@@ -1,4 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { useEffect, useState } from "react";
 import { Game } from "@/components/game/Game";
 
 export const Route = createFileRoute("/")({
@@ -14,5 +15,8 @@ export const Route = createFileRoute("/")({
 });
 
 function Index() {
+  const [mounted, setMounted] = useState(false);
+  useEffect(() => setMounted(true), []);
+  if (!mounted) return <div className="h-[100svh] w-screen bg-black" />;
   return <Game />;
 }
