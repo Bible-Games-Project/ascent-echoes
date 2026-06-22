@@ -919,35 +919,7 @@ export function Game() {
             </div>
           )}
 
-          {/* Answers - one per vertical lane, just under the question */}
-          {currentAnswers && (
-            <div className="pointer-events-none absolute inset-x-0 top-44 z-10 grid grid-cols-3 gap-2 px-2 animate-fade-in">
-              {([0, 1, 2] as const).map((i) => {
-                const isHint = hintLane === i;
-                return (
-                  <div key={i} className="flex justify-center">
-                    <div
-                      className={
-                        "w-full rounded-2xl border px-2 py-2 text-center font-light tracking-wide backdrop-blur-md " +
-                        (isHint
-                          ? "border-amber-200/80 bg-amber-200/15 text-amber-50 shadow-[0_0_36px_rgba(255,220,140,0.7)] animate-pulse"
-                          : "border-amber-200/30 bg-black/50 text-amber-50 shadow-[0_0_16px_rgba(255,200,140,0.15)]")
-                      }
-                      style={{
-                        fontFamily: '"Cormorant Garamond", "Cormorant", Georgia, serif',
-                        fontSize: "clamp(13px, 3.4vw, 22px)",
-                        lineHeight: 1.2,
-                        letterSpacing: "0.02em",
-                        fontWeight: 500,
-                      }}
-                    >
-                      {currentAnswers[i]}
-                    </div>
-                  </div>
-                );
-              })}
-            </div>
-          )}
+          {/* Answers are encoded into the falling objects only — no UI buttons. */}
 
           {multiplierToast !== null && (
             <div className="pointer-events-none absolute left-1/2 top-1/2 z-30 -translate-x-1/2 -translate-y-1/2 animate-fade-in">
