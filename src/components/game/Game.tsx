@@ -409,137 +409,72 @@ export function Game() {
       }
     };
 
-    // Falling object (door panel) per lane of active decision
-    const DOOR_W = 56;
-    const DOOR_H = 70;
-    const drawDoorPanel = (cx: number, topY: number, w: number, h: number, safe: boolean) => {
-      const x = cx - w / 2;
-      ctx.fillStyle = "rgba(0,0,0,0.35)";
-      ctx.fillRect(x + 2, topY + h, w - 4, 4);
-      const g = ctx.createLinearGradient(x, topY, x, topY + h);
-      if (safe) { g.addColorStop(0, "#8a6a4a"); g.addColorStop(1, "#3a2618"); }
-      else { g.addColorStop(0, "#5a4536"); g.addColorStop(1, "#2a1a14"); }
+    // Single falling "question" rune - one and only one interactive object.
+    const RUNE_R = 22;
+    const drawRune = (cx: number, cy: number, glow: number) => {
+      // outer halo
+      const halo = ctx.createRadialGradient(cx, cy, 0, cx, cy, RUNE_R * 2.4);
+      halo.addColorStop(0, `rgba(255, 220, 160, ${0.45 * glow})`);
+      halo.addColorStop(1, "rgba(255, 220, 160, 0)");
+      ctx.fillStyle = halo;
+      ctx.fillRect(cx - RUNE_R * 2.4, cy - RUNE_R * 2.4, RUNE_R * 4.8, RUNE_R * 4.8);
+      // stone body
+      const g = ctx.createLinearGradient(cx, cy - RUNE_R, cx, cy + RUNE_R);
+      g.addColorStop(0, "#7a5840");
+      g.addColorStop(1, "#2a1810");
       ctx.fillStyle = g;
-      ctx.fillRect(x, topY, w, h);
       ctx.beginPath();
-      ctx.fillStyle = g as unknown as string;
-      ctx.arc(cx, topY, w / 2, Math.PI, 0);
+      ctx.arc(cx, cy, RUNE_R, 0, Math.PI * 2);
       ctx.fill();
-      ctx.strokeStyle = "rgba(0,0,0,0.35)";
-      ctx.lineWidth = 1;
-      ctx.beginPath();
-      ctx.moveTo(cx, topY);
-      ctx.lineTo(cx, topY + h);
+      ctx.strokeStyle = "rgba(255, 230, 180, 0.55)";
+      ctx.lineWidth = 1.5;
       ctx.stroke();
-      ctx.fillStyle = "rgba(255,210,160,0.55)";
+      // sigil
+      ctx.strokeStyle = `rgba(255, 240, 200, ${0.85 * glow})`;
+      ctx.lineWidth = 2;
       ctx.beginPath();
-      ctx.arc(x + 6, topY + 10, 2, 0, Math.PI * 2);
-      ctx.arc(x + w - 6, topY + 10, 2, 0, Math.PI * 2);
-      ctx.arc(x + 6, topY + h - 10, 2, 0, Math.PI * 2);
-      ctx.arc(x + w - 6, topY + h - 10, 2, 0, Math.PI * 2);
-      ctx.fill();
-      if (safe) {
-        ctx.strokeStyle = "rgba(255, 230, 180, 0.45)";
-        ctx.lineWidth = 1.5;
-        ctx.strokeRect(x, topY, w, h);
-      } else {
-        ctx.strokeStyle = "rgba(0,0,0,0.55)";
-        ctx.lineWidth = 1.5;
-        ctx.strokeRect(x, topY, w, h);
-      }
+      ctx.moveTo(cx - 8, cy - 6);
+      ctx.lineTo(cx + 8, cy - 6);
+      ctx.moveTo(cx, cy - 10);
+      ctx.lineTo(cx, cy + 10);
+      ctx.moveTo(cx - 6, cy + 6);
+      ctx.lineTo(cx + 6, cy + 6);
+      ctx.stroke();
     };
 
     const drawActiveDecision = (dt: number) => {
       const d = queue[activeIdx];
       if (!d) return;
-      // helper to draw an answer label above the falling door
-      const drawAnswerLabel = (cx: number, topY: number, text: string) => {
-        ctx.save();
-        ctx.font = '600 13px "Cormorant Garamond", Georgia, serif';
-        ctx.textAlign = "center";
-        ctx.textBaseline = "bottom";
-        const maxW = W / 3 - 14;
-        // word-wrap to up to 2 lines
-        const words = text.split(/\s+/);
-        const lines: string[] = [];
-        let cur = "";
-        for (const w of words) {
-          const test = cur ? cur + " " + w : w;
-          if (ctx.measureText(test).width > maxW && cur) {
-            lines.push(cur);
-            cur = w;
-            if (lines.length === 1) {
-              // last line: append rest, truncate with ellipsis if needed
-              const rest = words.slice(words.indexOf(w)).join(" ");
-              let r = rest;
-              while (ctx.measureText(r + "…").width > maxW && r.length > 1) r = r.slice(0, -1);
-              if (r !== rest) r = r + "…";
-              lines.push(r);
-              cur = "";
-              break;
-            }
-          } else cur = test;
-        }
-        if (cur) lines.push(cur);
-        const lineH = 15;
-        const boxH = lines.length * lineH + 6;
-        const boxW = Math.min(maxW + 12, Math.max(...lines.map(l => ctx.measureText(l).width)) + 14);
-        const bx = cx - boxW / 2;
-        const by = topY - boxH;
-        ctx.fillStyle = "rgba(0,0,0,0.55)";
-        ctx.strokeStyle = "rgba(255, 220, 170, 0.45)";
-        ctx.lineWidth = 1;
-        ctx.beginPath();
-        const r = 6;
-        ctx.moveTo(bx + r, by);
-        ctx.lineTo(bx + boxW - r, by);
-        ctx.quadraticCurveTo(bx + boxW, by, bx + boxW, by + r);
-        ctx.lineTo(bx + boxW, by + boxH - r);
-        ctx.quadraticCurveTo(bx + boxW, by + boxH, bx + boxW - r, by + boxH);
-        ctx.lineTo(bx + r, by + boxH);
-        ctx.quadraticCurveTo(bx, by + boxH, bx, by + boxH - r);
-        ctx.lineTo(bx, by + r);
-        ctx.quadraticCurveTo(bx, by, bx + r, by);
-        ctx.closePath();
-        ctx.fill();
-        ctx.stroke();
-        ctx.fillStyle = "#fff3d6";
-        lines.forEach((l, idx) => {
-          ctx.fillText(l, cx, by + 3 + (idx + 1) * lineH);
-        });
-        ctx.restore();
-      };
-      for (let i = 0; i < 3; i++) {
-        const outcome = d.doorOutcome[i];
-        const cx = laneX(i as Lane);
-        if (outcome) d.doorAnim[i] = Math.min(1, d.doorAnim[i] + dt * (outcome === "broken" ? 2.6 : 3.6));
-        const anim = d.doorAnim[i];
-        if (outcome && anim >= 1) continue;
-        if (outcome === "open") {
-          const a = 1 - anim;
-          ctx.globalAlpha = a;
-          drawDoorPanel(cx, d.y - DOOR_H + anim * 12, DOOR_W, DOOR_H, true);
-          drawAnswerLabel(cx, d.y - DOOR_H + anim * 12 - 14, d.answers[i]);
-          ctx.globalAlpha = 1;
-          continue;
-        }
-        if (outcome === "broken") {
-          const a = 1 - anim;
-          ctx.globalAlpha = a;
-          for (let s = 0; s < 5; s++) {
-            const ang = (s / 5) * Math.PI * 2;
-            const r = anim * 40;
-            const px = cx + Math.cos(ang) * r;
-            const py = d.y - DOOR_H / 2 + Math.sin(ang) * r;
+      const cx = W / 2; // falls down the center column
+      if (d.outcome) {
+        d.outcomeAnim = Math.min(1, d.outcomeAnim + dt * 3.2);
+        const a = 1 - d.outcomeAnim;
+        ctx.globalAlpha = a;
+        if (d.outcome === "correct") {
+          // soft expanding ring at player position
+          const px = player.x;
+          const py = playerY() - 18;
+          ctx.strokeStyle = "rgba(255, 240, 180, 0.9)";
+          ctx.lineWidth = 2;
+          ctx.beginPath();
+          ctx.arc(px, py, 20 + d.outcomeAnim * 40, 0, Math.PI * 2);
+          ctx.stroke();
+        } else {
+          // shattered fragments at impact
+          for (let s = 0; s < 6; s++) {
+            const ang = (s / 6) * Math.PI * 2;
+            const r = d.outcomeAnim * 36;
+            const fx = cx + Math.cos(ang) * r;
+            const fy = d.y + Math.sin(ang) * r;
             ctx.fillStyle = "#3a2a22";
-            ctx.fillRect(px - 6, py - 8, 12, 16);
+            ctx.fillRect(fx - 5, fy - 6, 10, 12);
           }
-          ctx.globalAlpha = 1;
-          continue;
         }
-        drawDoorPanel(cx, d.y - DOOR_H, DOOR_W, DOOR_H, i === d.safe);
-        drawAnswerLabel(cx, d.y - DOOR_H - 14, d.answers[i]);
+        ctx.globalAlpha = 1;
+        return;
       }
+      const glow = 0.7 + 0.3 * Math.sin(performance.now() / 220);
+      drawRune(cx, d.y, glow);
     };
 
     // ----- Powerups -----
