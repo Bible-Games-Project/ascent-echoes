@@ -1170,7 +1170,6 @@ export function Game() {
           </div>
           <LeaderboardList
             entries={topTen}
-            highlightId={isNewBest ? undefined : undefined}
             currentName={playerName}
           />
           <div className="mt-8 flex items-center gap-3">
