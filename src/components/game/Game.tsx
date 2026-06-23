@@ -386,46 +386,6 @@ export function Game() {
       }
     };
 
-    // Falling object (door panel) per lane of active decision
-    const DOOR_W = 56;
-    const DOOR_H = 70;
-    const drawDoorPanel = (cx: number, topY: number, w: number, h: number, safe: boolean) => {
-      const x = cx - w / 2;
-      ctx.fillStyle = "rgba(0,0,0,0.35)";
-      ctx.fillRect(x + 2, topY + h, w - 4, 4);
-      const g = ctx.createLinearGradient(x, topY, x, topY + h);
-      if (safe) { g.addColorStop(0, "#8a6a4a"); g.addColorStop(1, "#3a2618"); }
-      else { g.addColorStop(0, "#5a4536"); g.addColorStop(1, "#2a1a14"); }
-      ctx.fillStyle = g;
-      ctx.fillRect(x, topY, w, h);
-      ctx.beginPath();
-      ctx.fillStyle = g as unknown as string;
-      ctx.arc(cx, topY, w / 2, Math.PI, 0);
-      ctx.fill();
-      ctx.strokeStyle = "rgba(0,0,0,0.35)";
-      ctx.lineWidth = 1;
-      ctx.beginPath();
-      ctx.moveTo(cx, topY);
-      ctx.lineTo(cx, topY + h);
-      ctx.stroke();
-      ctx.fillStyle = "rgba(255,210,160,0.55)";
-      ctx.beginPath();
-      ctx.arc(x + 6, topY + 10, 2, 0, Math.PI * 2);
-      ctx.arc(x + w - 6, topY + 10, 2, 0, Math.PI * 2);
-      ctx.arc(x + 6, topY + h - 10, 2, 0, Math.PI * 2);
-      ctx.arc(x + w - 6, topY + h - 10, 2, 0, Math.PI * 2);
-      ctx.fill();
-      if (safe) {
-        ctx.strokeStyle = "rgba(255, 230, 180, 0.45)";
-        ctx.lineWidth = 1.5;
-        ctx.strokeRect(x, topY, w, h);
-      } else {
-        ctx.strokeStyle = "rgba(0,0,0,0.55)";
-        ctx.lineWidth = 1.5;
-        ctx.strokeRect(x, topY, w, h);
-      }
-    };
-
     const drawActiveDecision = (dt: number) => {
       const d = queue[activeIdx];
       if (!d) return;
@@ -489,33 +449,13 @@ export function Game() {
       for (let i = 0; i < 3; i++) {
         const outcome = d.doorOutcome[i];
         const cx = laneX(i as Lane);
-        if (outcome) d.doorAnim[i] = Math.min(1, d.doorAnim[i] + dt * (outcome === "broken" ? 2.6 : 3.6));
+        if (outcome) d.doorAnim[i] = Math.min(1, d.doorAnim[i] + dt * 3);
         const anim = d.doorAnim[i];
         if (outcome && anim >= 1) continue;
-        if (outcome === "open") {
-          const a = 1 - anim;
-          ctx.globalAlpha = a;
-          drawDoorPanel(cx, d.y - DOOR_H + anim * 12, DOOR_W, DOOR_H, true);
-          drawAnswerLabel(cx, d.y - DOOR_H + anim * 12 - 14, d.answers[i]);
-          ctx.globalAlpha = 1;
-          continue;
-        }
-        if (outcome === "broken") {
-          const a = 1 - anim;
-          ctx.globalAlpha = a;
-          for (let s = 0; s < 5; s++) {
-            const ang = (s / 5) * Math.PI * 2;
-            const r = anim * 40;
-            const px = cx + Math.cos(ang) * r;
-            const py = d.y - DOOR_H / 2 + Math.sin(ang) * r;
-            ctx.fillStyle = "#3a2a22";
-            ctx.fillRect(px - 6, py - 8, 12, 16);
-          }
-          ctx.globalAlpha = 1;
-          continue;
-        }
-        drawDoorPanel(cx, d.y - DOOR_H, DOOR_W, DOOR_H, i === d.safe);
-        drawAnswerLabel(cx, d.y - DOOR_H - 14, d.answers[i]);
+        const alpha = outcome ? 1 - anim : 1;
+        ctx.globalAlpha = alpha;
+        drawAnswerLabel(cx, d.y, d.answers[i]);
+        ctx.globalAlpha = 1;
       }
     };
 
