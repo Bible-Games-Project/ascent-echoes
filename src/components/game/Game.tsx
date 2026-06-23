@@ -666,6 +666,7 @@ export function Game() {
       setHintLane(null); setDistortion(0); setMultiplierToast(null);
       setCurrentQuestion(null); setCurrentAnswers(null);
       levelRef.current = 1; setLevel(1);
+      runTimeRef.current = 0; setRunTime(0);
       usedIdsRef.current = new Set();
       buildLevel(1);
     };
@@ -728,6 +729,10 @@ export function Game() {
       if (stateRef.current === "playing") {
         if (slowTimer > 0) slowTimer -= dt;
         if (distortTimer > 0) { distortTimer -= dt; if (distortTimer <= 0) setDistortion(0); }
+
+        // Run-time counter (player performance)
+        runTimeRef.current += dt;
+        setRunTime(runTimeRef.current);
 
         // Player lane lerp
         const tgtX = laneX(player.targetLane);
