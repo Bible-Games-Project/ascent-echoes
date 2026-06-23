@@ -65,7 +65,7 @@ export function Game() {
   const [multiplierToast, setMultiplierToast] = useState<number | null>(null);
   const [hintLane, setHintLane] = useState<Lane | null>(null);
   const [distortion, setDistortion] = useState(0);
-  const [timeLeft, setTimeLeft] = useState(0);
+  const [runTime, setRunTime] = useState(0);
   const [language, setLanguage] = useState<Language>(() => {
     try {
       const saved = localStorage.getItem("dunewalker_lang");
