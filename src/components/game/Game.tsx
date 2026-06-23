@@ -151,33 +151,46 @@ export function Game() {
     setIsWorldRecord(false);
     setWorldRank(null);
     (async () => {
-      // Always refresh the top 10 for display.
-      const top = await fetchTop10();
-      if (cancelled) return;
-      setTopTen(top);
-
-      let bestForRank = prevBest;
-      if (finalScore > prevBest) {
-        const res = await submitIfBest(finalScore);
+      // Always sync the player's best to the server so the global leaderboard
+      // reflects them. The RPC uses GREATEST, so resubmitting is idempotent.
+      let bestForRank = Math.max(prevBest, finalScore);
+      if (bestForRank > 0) {
+        const res = await submitIfBest(bestForRank);
         if (cancelled) return;
-        bestForRank = res.best;
-        bestRef.current = res.best;
-        setBestScore(res.best);
-        setIsNewBest(true);
-        // Re-fetch leaderboard so the new placement is visible.
-        const updated = await fetchTop10();
-        if (cancelled) return;
-        setTopTen(updated);
+        if (res.best > 0) {
+          bestForRank = res.best;
+          bestRef.current = res.best;
+          setBestScore(res.best);
+        }
+        if (finalScore > prevBest) setIsNewBest(true);
         if (res.rank != null) {
           setWorldRank(res.rank);
           setEnteredTop10(res.rank <= 10);
           setIsWorldRecord(res.rank === 1);
         }
-      } else if (finalScore > 0) {
-        const r = await fetchRank(finalScore);
-        if (!cancelled) setWorldRank(r);
       }
-      // If we didn't already set rank (e.g. tied best), compute it from bestForRank.
+
+      // Always refresh the top 10 (after any submission) for display.
+      const top = await fetchTop10();
+      if (cancelled) return;
+
+      // Make sure the current player appears in the displayed ranking.
+      let merged: LeaderboardEntry[] = top;
+      const playerEntry = await fetchPlayerEntry();
+      if (!cancelled && playerEntry && playerEntry.best_score > 0) {
+        const inTop = top.some((e) => e.player_id === playerEntry.player_id);
+        if (!inTop) {
+          merged = [...top, playerEntry]
+            .sort((a, b) => b.best_score - a.best_score)
+            .slice(0, 11);
+        }
+      }
+      if (cancelled) return;
+      setTopTen(merged);
+      console.debug("[leaderboard] render entries:", merged.length,
+        "playerFound:", !!playerEntry, "ranking:", merged);
+
+      // Compute rank from the player's authoritative best if not already set.
       if (worldRank == null && bestForRank > 0) {
         const r = await fetchRank(bestForRank);
         if (!cancelled && r != null) setWorldRank(r);
