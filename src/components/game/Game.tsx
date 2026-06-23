@@ -258,7 +258,7 @@ export function Game() {
 
     const spawnPowerup = () => {
       powerups.push({
-        y: 80,
+        y: 180,
         lane: Math.floor(Math.random() * 3) as Lane,
         type: pickType(),
         taken: false,
