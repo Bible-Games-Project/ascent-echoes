@@ -7,6 +7,17 @@ import {
   type Language,
   type GameQuestion,
 } from "./questionBank";
+import {
+  fetchRank,
+  fetchTop10,
+  getLocalBest,
+  getPlayerName,
+  NAME_MAX,
+  NAME_MIN,
+  setPlayerName as savePlayerName,
+  submitIfBest,
+  type LeaderboardEntry,
+} from "@/lib/leaderboard";
 
 type GameState = "start" | "playing" | "gameover";
 type Lane = 0 | 1 | 2; // 0 left, 1 center, 2 right
