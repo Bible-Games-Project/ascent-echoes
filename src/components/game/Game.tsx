@@ -238,6 +238,8 @@ export function Game() {
     let questionTimer = 0;
     let bonusSchedule: boolean[] = [];
     let lastBonusSpawnIdx = -1;
+    let activeIdxTimer = 0;
+    let lastTrackedActiveIdx = -1;
     const currentQuestionRef = { current: null as string | null };
 
     const fallSpeed = () => {
@@ -843,11 +845,23 @@ export function Game() {
           }
         }
 
-        // Spawn at most ONE bonus per question, only if scheduled for this index.
+        // Track how long the current question/answers have been falling so we
+        // can offset bonus spawn by exactly half the travel time T.
+        if (activeIdx !== lastTrackedActiveIdx) {
+          lastTrackedActiveIdx = activeIdx;
+          activeIdxTimer = 0;
+        } else {
+          activeIdxTimer += dt;
+        }
+
+        // Spawn at most ONE bonus per question, only if scheduled for this
+        // index, and only AFTER T/2 of the answers' travel time has passed.
+        const halfTravel = timePerQuestionForLevel(levelRef.current) / 2;
         if (
           activeIdx !== lastBonusSpawnIdx &&
           bonusSchedule[activeIdx] === true &&
-          queue[activeIdx] && !queue[activeIdx].resolved
+          queue[activeIdx] && !queue[activeIdx].resolved &&
+          activeIdxTimer >= halfTravel
         ) {
           spawnPowerup();
           lastBonusSpawnIdx = activeIdx;
