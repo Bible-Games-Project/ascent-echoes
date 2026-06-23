@@ -1115,6 +1115,29 @@ export function Game() {
           >
             BEGIN
           </button>
+          {playerName && (
+            <p className="mt-3 text-[11px] tracking-[0.25em] text-amber-100/70">
+              PLAYER · <span className="text-amber-50">{playerName}</span>
+            </p>
+          )}
+          <div className="mt-4 flex items-center gap-3">
+            <button
+              onClick={async () => {
+                setShowLeaderboard(true);
+                const t = await fetchTop10();
+                setTopTen(t);
+              }}
+              className="rounded-full border border-amber-200/30 bg-black/30 px-4 py-1.5 text-[10px] tracking-[0.25em] text-amber-100/80 backdrop-blur hover:border-amber-200/60 hover:text-amber-50"
+            >
+              LEADERBOARD
+            </button>
+            <button
+              onClick={() => setShowSettings(true)}
+              className="rounded-full border border-amber-200/30 bg-black/30 px-4 py-1.5 text-[10px] tracking-[0.25em] text-amber-100/80 backdrop-blur hover:border-amber-200/60 hover:text-amber-50"
+            >
+              SETTINGS
+            </button>
+          </div>
         </Overlay>
       )}
 
@@ -1122,14 +1145,34 @@ export function Game() {
         <Overlay>
           <p className="text-xs uppercase tracking-[0.4em] text-rose-200/80">The wind took you</p>
           <h1 className="mt-3 text-4xl font-light tracking-[0.2em] text-amber-50">FALLEN</h1>
-          <p className="mt-2 text-sm text-amber-100/70">
-            You reached level {level}{level >= 11 ? " (endless)" : ""}.
+          <p className="mt-1 text-xs text-amber-100/60">
+            Level {level}{level >= 11 ? " (endless)" : ""}
           </p>
+          {isWorldRecord && (
+            <div className="mt-3 rounded-full bg-amber-300/30 px-4 py-1 text-[11px] tracking-[0.35em] text-amber-50 ring-1 ring-amber-200/70 shadow-[0_0_30px_rgba(255,210,140,0.7)] animate-pulse">
+              ★ NEW WORLD RECORD ★
+            </div>
+          )}
+          {!isWorldRecord && enteredTop10 && (
+            <div className="mt-3 rounded-full bg-amber-200/20 px-4 py-1 text-[11px] tracking-[0.3em] text-amber-50 ring-1 ring-amber-200/60 animate-pulse">
+              NEW TOP 10 WORLD RANK
+            </div>
+          )}
+          {!isWorldRecord && !enteredTop10 && isNewBest && (
+            <div className="mt-3 rounded-full bg-amber-100/15 px-4 py-1 text-[11px] tracking-[0.3em] text-amber-100 ring-1 ring-amber-200/40">
+              NEW PERSONAL BEST
+            </div>
+          )}
           <div className="mt-5 grid grid-cols-3 gap-6 text-center">
             <Stat label="SCORE" value={score} />
             <Stat label="BEST" value={bestScore} />
-            <Stat label="STREAK" value={streak} />
+            <Stat label="WORLD RANK" value={worldRank ?? 0} prefix="#" />
           </div>
+          <LeaderboardList
+            entries={topTen}
+            highlightId={isNewBest ? undefined : undefined}
+            currentName={playerName}
+          />
           <div className="mt-8 flex items-center gap-3">
             <button
               onClick={startGame}
@@ -1144,6 +1187,36 @@ export function Game() {
               MAIN MENU
             </button>
           </div>
+        </Overlay>
+      )}
+
+      {showNamePrompt && (
+        <NamePromptOverlay
+          initial={playerName ?? ""}
+          onSave={handleSaveName}
+          onCancel={playerName ? () => setShowNamePrompt(false) : undefined}
+        />
+      )}
+
+      {showSettings && (
+        <SettingsOverlay
+          name={playerName ?? ""}
+          onChangeName={() => { setShowSettings(false); setShowNamePrompt(true); }}
+          onClose={() => setShowSettings(false)}
+        />
+      )}
+
+      {showLeaderboard && (
+        <Overlay>
+          <h2 className="text-2xl font-light tracking-[0.25em] text-amber-50">LEADERBOARD</h2>
+          <p className="mt-1 text-[10px] tracking-[0.3em] text-amber-200/70">TOP 10 WORLDWIDE</p>
+          <LeaderboardList entries={topTen} currentName={playerName} />
+          <button
+            onClick={() => setShowLeaderboard(false)}
+            className="mt-6 rounded-full border border-amber-200/40 bg-black/30 px-6 py-2 text-xs tracking-[0.25em] text-amber-100/90 backdrop-blur hover:border-amber-200/70 hover:text-amber-50"
+          >
+            CLOSE
+          </button>
         </Overlay>
       )}
     </div>
