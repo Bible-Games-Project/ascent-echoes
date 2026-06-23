@@ -10,6 +10,7 @@ import {
 import {
   fetchRank,
   fetchTop10,
+  fetchPlayerEntry,
   getLocalBest,
   getPlayerName,
   NAME_MAX,
