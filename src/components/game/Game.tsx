@@ -96,6 +96,17 @@ export function Game() {
     return "en";
   });
 
+  // Leaderboard / player identity
+  const [playerName, setPlayerNameState] = useState<string | null>(null);
+  const [showNamePrompt, setShowNamePrompt] = useState(false);
+  const [showSettings, setShowSettings] = useState(false);
+  const [showLeaderboard, setShowLeaderboard] = useState(false);
+  const [topTen, setTopTen] = useState<LeaderboardEntry[] | null>(null);
+  const [worldRank, setWorldRank] = useState<number | null>(null);
+  const [isNewBest, setIsNewBest] = useState(false);
+  const [enteredTop10, setEnteredTop10] = useState(false);
+  const [isWorldRecord, setIsWorldRecord] = useState(false);
+
   const stateRef = useRef<GameState>("start");
   const healthRef = useRef(3);
   const progressRef = useRef(0);
