@@ -480,6 +480,16 @@ export function Game() {
         if (outcome) d.doorAnim[i] = Math.min(1, d.doorAnim[i] + dt * 3);
         const anim = d.doorAnim[i];
         if (outcome && anim >= 1) continue;
+        if (hintActive === i) {
+          const t = performance.now() / 1000;
+          const pulse = 1 + Math.sin(t * 4) * 0.15;
+          const r = 65 * pulse;
+          const g = ctx.createRadialGradient(cx, d.y - 20, 0, cx, d.y - 20, r);
+          g.addColorStop(0, "rgba(255, 250, 200, 0.5)");
+          g.addColorStop(1, "rgba(255, 250, 200, 0)");
+          ctx.fillStyle = g;
+          ctx.fillRect(cx - r, d.y - 20 - r, r * 2, r * 2);
+        }
         const alpha = outcome ? 1 - anim : 1;
         ctx.globalAlpha = alpha;
         drawAnswerLabel(cx, d.y, d.answers[i]);
