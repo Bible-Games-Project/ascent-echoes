@@ -11,6 +11,17 @@ import {
 type GameState = "start" | "playing" | "gameover";
 type Lane = 0 | 1 | 2; // 0 left, 1 center, 2 right
 
+function formatRunTime(seconds: number): string {
+  const total = Math.max(0, Math.floor(seconds));
+  const s = total % 60;
+  const m = Math.floor(total / 60) % 60;
+  const h = Math.floor(total / 3600);
+  const pad = (n: number) => n.toString().padStart(2, "0");
+  if (h > 0) return `${h}:${pad(m)}:${pad(s)}`;
+  if (m > 0) return `${m}:${pad(s)}`;
+  return pad(s);
+}
+
 interface FallingDecision {
   y: number; // world Y position of the falling object (in screen px)
   safe: Lane;
@@ -65,7 +76,7 @@ export function Game() {
   const [multiplierToast, setMultiplierToast] = useState<number | null>(null);
   const [hintLane, setHintLane] = useState<Lane | null>(null);
   const [distortion, setDistortion] = useState(0);
-  const [timeLeft, setTimeLeft] = useState(0);
+  const [runTime, setRunTime] = useState(0);
   const [language, setLanguage] = useState<Language>(() => {
     try {
       const saved = localStorage.getItem("dunewalker_lang");
@@ -81,6 +92,7 @@ export function Game() {
   const streakRef = useRef(0);
   const bestRef = useRef(0);
   const levelRef = useRef(1);
+  const runTimeRef = useRef(0);
   const languageRef = useRef<Language>(language);
   const usedIdsRef = useRef<Set<string>>(new Set());
 
@@ -197,7 +209,7 @@ export function Game() {
       setCurrentAnswers(null);
       setProgress(0);
       progressRef.current = 0;
-      setTimeLeft(questionTimer);
+      // questionTimer still drives internal pacing/difficulty; no visual timer to update
     };
 
     // Particles
@@ -398,15 +410,6 @@ export function Game() {
         });
         ctx.restore();
       };
-      // Trailing light streaks per lane
-      for (let i = 0; i < 3; i++) {
-        const lx = laneX(i as Lane);
-        const lg = ctx.createLinearGradient(lx, Math.max(0, d.y - 80), lx, d.y);
-        lg.addColorStop(0, "rgba(255, 230, 180, 0)");
-        lg.addColorStop(1, i === d.safe && hintActive === d.safe ? "rgba(255, 240, 180, 0.35)" : "rgba(255, 230, 180, 0.15)");
-        ctx.fillStyle = lg;
-        ctx.fillRect(lx - 30, Math.max(0, d.y - 80), 60, 80);
-      }
       for (let i = 0; i < 3; i++) {
         const outcome = d.doorOutcome[i];
         const cx = laneX(i as Lane);
@@ -665,6 +668,7 @@ export function Game() {
       setHintLane(null); setDistortion(0); setMultiplierToast(null);
       setCurrentQuestion(null); setCurrentAnswers(null);
       levelRef.current = 1; setLevel(1);
+      runTimeRef.current = 0; setRunTime(0);
       usedIdsRef.current = new Set();
       buildLevel(1);
     };
@@ -707,7 +711,6 @@ export function Game() {
       }
       // Reset timer + hint for the next decision
       questionTimer = timePerQuestionForLevel(levelRef.current);
-      setTimeLeft(questionTimer);
       hintActive = null;
       setHintLane(null);
     };
@@ -729,6 +732,10 @@ export function Game() {
         if (slowTimer > 0) slowTimer -= dt;
         if (distortTimer > 0) { distortTimer -= dt; if (distortTimer <= 0) setDistortion(0); }
 
+        // Run-time counter (player performance)
+        runTimeRef.current += dt;
+        setRunTime(runTimeRef.current);
+
         // Player lane lerp
         const tgtX = laneX(player.targetLane);
         const dx = tgtX - player.x;
@@ -747,7 +754,6 @@ export function Game() {
           d.y += fallSpeed() * dt;
           // Question timer (visual feedback)
           questionTimer -= dt;
-          setTimeLeft(Math.max(0, questionTimer));
           // Resolve when object reaches resolve line
           if (d.y >= H * RESOLVE_LINE_FRAC) {
             d.resolved = true;
@@ -954,8 +960,8 @@ export function Game() {
               <div className="rounded-full bg-black/40 px-2.5 py-0.5 text-[10px] font-medium tracking-wider text-amber-100 backdrop-blur">
                 {progress} / 10
               </div>
-              <div className={"rounded-full px-2.5 py-0.5 text-[10px] font-medium tracking-widest backdrop-blur tabular-nums " + (timeLeft <= 2 ? "bg-rose-500/30 text-rose-100 ring-1 ring-rose-300/50" : "bg-black/45 text-amber-100")}>
-                ⏱ {timeLeft.toFixed(1)}s
+              <div className="rounded-full px-2.5 py-0.5 text-[10px] font-medium tracking-widest backdrop-blur tabular-nums bg-black/45 text-amber-100">
+                ⏱ {formatRunTime(runTime)}
               </div>
             </div>
           </div>
