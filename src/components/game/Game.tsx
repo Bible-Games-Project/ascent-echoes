@@ -489,33 +489,13 @@ export function Game() {
       for (let i = 0; i < 3; i++) {
         const outcome = d.doorOutcome[i];
         const cx = laneX(i as Lane);
-        if (outcome) d.doorAnim[i] = Math.min(1, d.doorAnim[i] + dt * (outcome === "broken" ? 2.6 : 3.6));
+        if (outcome) d.doorAnim[i] = Math.min(1, d.doorAnim[i] + dt * 3);
         const anim = d.doorAnim[i];
         if (outcome && anim >= 1) continue;
-        if (outcome === "open") {
-          const a = 1 - anim;
-          ctx.globalAlpha = a;
-          drawDoorPanel(cx, d.y - DOOR_H + anim * 12, DOOR_W, DOOR_H, true);
-          drawAnswerLabel(cx, d.y - DOOR_H + anim * 12 - 14, d.answers[i]);
-          ctx.globalAlpha = 1;
-          continue;
-        }
-        if (outcome === "broken") {
-          const a = 1 - anim;
-          ctx.globalAlpha = a;
-          for (let s = 0; s < 5; s++) {
-            const ang = (s / 5) * Math.PI * 2;
-            const r = anim * 40;
-            const px = cx + Math.cos(ang) * r;
-            const py = d.y - DOOR_H / 2 + Math.sin(ang) * r;
-            ctx.fillStyle = "#3a2a22";
-            ctx.fillRect(px - 6, py - 8, 12, 16);
-          }
-          ctx.globalAlpha = 1;
-          continue;
-        }
-        drawDoorPanel(cx, d.y - DOOR_H, DOOR_W, DOOR_H, i === d.safe);
-        drawAnswerLabel(cx, d.y - DOOR_H - 14, d.answers[i]);
+        const alpha = outcome ? 1 - anim : 1;
+        ctx.globalAlpha = alpha;
+        drawAnswerLabel(cx, d.y, d.answers[i]);
+        ctx.globalAlpha = 1;
       }
     };
 
