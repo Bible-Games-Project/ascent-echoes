@@ -81,6 +81,7 @@ export function Game() {
   const streakRef = useRef(0);
   const bestRef = useRef(0);
   const levelRef = useRef(1);
+  const runTimeRef = useRef(0);
   const languageRef = useRef<Language>(language);
   const usedIdsRef = useRef<Set<string>>(new Set());
 
