@@ -913,6 +913,8 @@ export function Game() {
       touchStartX = t.clientX;
       touchStartY = t.clientY;
       touchStartTime = performance.now();
+      // TURBO: hold-to-accelerate (3x). Applies to questions + bonuses identically.
+      if (stateRef.current === "playing") turboHeld = true;
     };
     const onTouchEnd = (e: TouchEvent) => {
       const t = e.changedTouches[0];
@@ -921,12 +923,14 @@ export function Game() {
       const dt2 = performance.now() - touchStartTime;
       const ax = Math.abs(dx);
       const ay = Math.abs(dy);
+      turboHeld = false; // immediate return to normal speed
       if (ax > 30 && ax > ay) {
         moveLane(dx < 0 ? -1 : 1);
       } else if (dt2 < 300 && ax < 20 && ay < 20) {
         tapLane(t.clientX);
       }
     };
+    const onTouchCancel = () => { turboHeld = false; };
     const onKey = (e: KeyboardEvent) => {
       if (e.key === "ArrowLeft" || e.key === "a") moveLane(-1);
       else if (e.key === "ArrowRight" || e.key === "d") moveLane(1);
@@ -934,11 +938,22 @@ export function Game() {
       else if (e.key === "2") player.targetLane = 1;
       else if (e.key === "3") player.targetLane = 2;
     };
-    const onMouseDown = (e: MouseEvent) => { tapLane(e.clientX); };
+    const onMouseDown = (e: MouseEvent) => {
+      if (e.button !== 0) return;
+      tapLane(e.clientX);
+      if (stateRef.current === "playing") turboHeld = true;
+    };
+    const onMouseUp = () => { turboHeld = false; };
+    const onMouseLeave = () => { turboHeld = false; };
+    const onBlur = () => { turboHeld = false; };
 
     canvas.addEventListener("touchstart", onTouchStart, { passive: true });
     canvas.addEventListener("touchend", onTouchEnd, { passive: true });
+    canvas.addEventListener("touchcancel", onTouchCancel, { passive: true });
     canvas.addEventListener("mousedown", onMouseDown);
+    window.addEventListener("mouseup", onMouseUp);
+    canvas.addEventListener("mouseleave", onMouseLeave);
+    window.addEventListener("blur", onBlur);
     window.addEventListener("keydown", onKey);
 
     player.x = laneX(1);
@@ -950,7 +965,11 @@ export function Game() {
       ro.disconnect();
       canvas.removeEventListener("touchstart", onTouchStart);
       canvas.removeEventListener("touchend", onTouchEnd);
+      canvas.removeEventListener("touchcancel", onTouchCancel);
       canvas.removeEventListener("mousedown", onMouseDown);
+      window.removeEventListener("mouseup", onMouseUp);
+      canvas.removeEventListener("mouseleave", onMouseLeave);
+      window.removeEventListener("blur", onBlur);
       window.removeEventListener("keydown", onKey);
     };
   }, []);
