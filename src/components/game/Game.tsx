@@ -793,8 +793,8 @@ export function Game() {
             d.resolved = true;
             const lane = player.lane;
             const correct = lane === d.safe;
-            d.doorOutcome[lane] = correct ? "open" : "broken";
-            // Other lanes: keep falling visually -> just mark them broken for animation off-screen later
+            d.outcome = correct ? "correct" : "wrong";
+            d.outcomeAnim = 0;
             if (correct) {
               for (let i = 0; i < 12; i++) {
                 const a = Math.random() * Math.PI * 2;
@@ -822,11 +822,20 @@ export function Game() {
           }
         }
 
-        // Power-up spawn timer (between decisions)
+        // Bonus spawn rules:
+        //  - max 3 bonuses per 10-question level
+        //  - max 1 bonus between two consecutive questions
+        //  - never spawn when the active question is near its impact zone
         powerupTimer -= dt;
         if (powerupTimer <= 0) {
-          spawnPowerup();
-          powerupTimer = 1.8 + Math.random() * 2.2;
+          const ad = queue[activeIdx];
+          const safeZone = ad && !ad.resolved && ad.y > 0 && ad.y < H * 0.45;
+          if (safeZone && bonusesThisLevel < 3 && !bonusSinceDecision) {
+            spawnPowerup();
+            bonusesThisLevel += 1;
+            bonusSinceDecision = true;
+          }
+          powerupTimer = 1.4 + Math.random() * 1.6;
         }
 
         // Power-ups fall and collide
