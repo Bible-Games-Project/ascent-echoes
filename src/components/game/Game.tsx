@@ -812,8 +812,8 @@ export function Game() {
           powerupTimer = 1.8 + Math.random() * 2.2;
         }
 
-        // Power-ups fall and collide
-        const ps = fallSpeed() * 0.9;
+        // Power-ups fall at the same global speed as answers
+        const ps = fallSpeed();
         for (let i = powerups.length - 1; i >= 0; i--) {
           const p = powerups[i];
           if (p.taken) { powerups.splice(i, 1); continue; }
