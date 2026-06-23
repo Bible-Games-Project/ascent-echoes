@@ -40,9 +40,9 @@ interface FallingDecision {
   question: string;
   answers: [string, string, string];
   resolved: boolean;
-  // Per-lane visual state
-  doorAnim: [number, number, number];
-  doorOutcome: [null | "open" | "broken", null | "open" | "broken", null | "open" | "broken"];
+  // Resolution visuals (single falling object)
+  outcome: null | "correct" | "wrong";
+  outcomeAnim: number;
 }
 
 interface Particle {
