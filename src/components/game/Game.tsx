@@ -410,15 +410,6 @@ export function Game() {
         });
         ctx.restore();
       };
-      // Trailing light streaks per lane
-      for (let i = 0; i < 3; i++) {
-        const lx = laneX(i as Lane);
-        const lg = ctx.createLinearGradient(lx, Math.max(0, d.y - 80), lx, d.y);
-        lg.addColorStop(0, "rgba(255, 230, 180, 0)");
-        lg.addColorStop(1, i === d.safe && hintActive === d.safe ? "rgba(255, 240, 180, 0.35)" : "rgba(255, 230, 180, 0.15)");
-        ctx.fillStyle = lg;
-        ctx.fillRect(lx - 30, Math.max(0, d.y - 80), 60, 80);
-      }
       for (let i = 0; i < 3; i++) {
         const outcome = d.doorOutcome[i];
         const cx = laneX(i as Lane);
