@@ -132,6 +132,60 @@ export function Game() {
     } catch { /* ignore */ }
   }, []);
 
+  // On mount: load player name; if none, prompt before letting them start.
+  useEffect(() => {
+    const n = getPlayerName();
+    setPlayerNameState(n);
+    if (!n) setShowNamePrompt(true);
+  }, []);
+
+  // When game ends: submit if new best, refresh leaderboard + rank.
+  useEffect(() => {
+    if (state !== "gameover") return;
+    let cancelled = false;
+    const prevBest = getLocalBest();
+    const finalScore = scoreRef.current;
+    setIsNewBest(false);
+    setEnteredTop10(false);
+    setIsWorldRecord(false);
+    setWorldRank(null);
+    (async () => {
+      // Always refresh the top 10 for display.
+      const top = await fetchTop10();
+      if (cancelled) return;
+      setTopTen(top);
+
+      let bestForRank = prevBest;
+      if (finalScore > prevBest) {
+        const res = await submitIfBest(finalScore);
+        if (cancelled) return;
+        bestForRank = res.best;
+        bestRef.current = res.best;
+        setBestScore(res.best);
+        setIsNewBest(true);
+        // Re-fetch leaderboard so the new placement is visible.
+        const updated = await fetchTop10();
+        if (cancelled) return;
+        setTopTen(updated);
+        if (res.rank != null) {
+          setWorldRank(res.rank);
+          setEnteredTop10(res.rank <= 10);
+          setIsWorldRecord(res.rank === 1);
+        }
+      } else if (finalScore > 0) {
+        const r = await fetchRank(finalScore);
+        if (!cancelled) setWorldRank(r);
+      }
+      // If we didn't already set rank (e.g. tied best), compute it from bestForRank.
+      if (worldRank == null && bestForRank > 0) {
+        const r = await fetchRank(bestForRank);
+        if (!cancelled && r != null) setWorldRank(r);
+      }
+    })();
+    return () => { cancelled = true; };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [state]);
+
   useEffect(() => {
     const canvas = canvasRef.current;
     if (!canvas) return;
