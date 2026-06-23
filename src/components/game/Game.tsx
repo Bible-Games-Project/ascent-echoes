@@ -1139,7 +1139,14 @@ export function Game() {
               onClick={async () => {
                 setShowLeaderboard(true);
                 const t = await fetchTop10();
-                setTopTen(t);
+                let merged: LeaderboardEntry[] = t;
+                const me = await fetchPlayerEntry();
+                if (me && me.best_score > 0 && !t.some((e) => e.player_id === me.player_id)) {
+                  merged = [...t, me].sort((a, b) => b.best_score - a.best_score).slice(0, 11);
+                }
+                console.debug("[leaderboard] menu entries:", merged.length,
+                  "playerFound:", !!me, "ranking:", merged);
+                setTopTen(merged);
               }}
               className="rounded-full border border-amber-200/30 bg-black/30 px-4 py-1.5 text-[10px] tracking-[0.25em] text-amber-100/80 backdrop-blur hover:border-amber-200/60 hover:text-amber-50"
             >
