@@ -833,11 +833,14 @@ export function Game() {
           }
         }
 
-        // Power-up spawn timer (between decisions)
-        powerupTimer -= dt;
-        if (powerupTimer <= 0) {
+        // Spawn at most ONE bonus per question, only if scheduled for this index.
+        if (
+          activeIdx !== lastBonusSpawnIdx &&
+          bonusSchedule[activeIdx] === true &&
+          queue[activeIdx] && !queue[activeIdx].resolved
+        ) {
           spawnPowerup();
-          powerupTimer = 1.8 + Math.random() * 2.2;
+          lastBonusSpawnIdx = activeIdx;
         }
 
         // Power-ups fall at the same global speed as answers
