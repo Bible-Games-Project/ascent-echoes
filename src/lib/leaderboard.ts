@@ -3,6 +3,7 @@ import { supabase } from "@/integrations/supabase/client";
 const NAME_KEY = "dunewalker_player_name";
 const ID_KEY = "dunewalker_player_id";
 const BEST_KEY = "dunewalker_best";
+const SYNCED_BEST_KEY = "dunewalker_synced_best";
 
 export const NAME_MIN = 3;
 export const NAME_MAX = 12;
@@ -74,6 +75,7 @@ export async function fetchTop10(): Promise<LeaderboardEntry[]> {
   const { data, error } = await supabase
     .from("leaderboard")
     .select("player_id, name, best_score")
+    .gt("best_score", 0)
     .order("best_score", { ascending: false })
     .order("updated_at", { ascending: true })
     .limit(10);
@@ -81,7 +83,23 @@ export async function fetchTop10(): Promise<LeaderboardEntry[]> {
     console.warn("[leaderboard] top10", error);
     return [];
   }
-  return (data ?? []) as LeaderboardEntry[];
+  const rows = (data ?? []) as LeaderboardEntry[];
+  console.debug("[leaderboard] top10 loaded:", rows.length, "entries");
+  return rows;
+}
+
+export async function fetchPlayerEntry(): Promise<LeaderboardEntry | null> {
+  const id = getPlayerId();
+  const { data, error } = await supabase
+    .from("leaderboard")
+    .select("player_id, name, best_score")
+    .eq("player_id", id)
+    .maybeSingle();
+  if (error) {
+    console.warn("[leaderboard] player entry", error);
+    return null;
+  }
+  return (data as LeaderboardEntry | null) ?? null;
 }
 
 export async function fetchRank(score: number): Promise<number | null> {
@@ -102,16 +120,20 @@ export async function submitIfBest(
   score: number,
 ): Promise<{ best: number; rank: number | null; submitted: boolean }> {
   const localBest = getLocalBest();
-  if (score <= localBest) {
+  let syncedBest = 0;
+  try { syncedBest = parseInt(localStorage.getItem(SYNCED_BEST_KEY) || "0", 10) || 0; } catch { /* ignore */ }
+  const effectiveBest = Math.max(score, localBest);
+  // Skip only when the server already knows a best >= what we'd send.
+  if (effectiveBest <= 0 || effectiveBest <= syncedBest) {
     return { best: localBest, rank: null, submitted: false };
   }
-  setLocalBest(score);
+  if (score > localBest) setLocalBest(score);
   const name = getPlayerName() ?? "Player";
   const id = getPlayerId();
   const { data, error } = await supabase.rpc("submit_score", {
     p_player_id: id,
     p_name: name,
-    p_score: score,
+    p_score: effectiveBest,
   });
   if (error) {
     console.warn("[leaderboard] submit_score", error);
@@ -121,5 +143,7 @@ export async function submitIfBest(
   const best = (row?.best_score as number) ?? score;
   const rank = (row?.rank as number) ?? null;
   if (best > localBest) setLocalBest(best);
+  try { localStorage.setItem(SYNCED_BEST_KEY, String(best)); } catch { /* ignore */ }
+  console.debug("[leaderboard] submitted:", { best, rank });
   return { best, rank, submitted: true };
 }

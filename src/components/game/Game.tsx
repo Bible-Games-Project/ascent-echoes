@@ -10,6 +10,7 @@ import {
 import {
   fetchRank,
   fetchTop10,
+  fetchPlayerEntry,
   getLocalBest,
   getPlayerName,
   NAME_MAX,
@@ -150,33 +151,46 @@ export function Game() {
     setIsWorldRecord(false);
     setWorldRank(null);
     (async () => {
-      // Always refresh the top 10 for display.
-      const top = await fetchTop10();
-      if (cancelled) return;
-      setTopTen(top);
-
-      let bestForRank = prevBest;
-      if (finalScore > prevBest) {
-        const res = await submitIfBest(finalScore);
+      // Always sync the player's best to the server so the global leaderboard
+      // reflects them. The RPC uses GREATEST, so resubmitting is idempotent.
+      let bestForRank = Math.max(prevBest, finalScore);
+      if (bestForRank > 0) {
+        const res = await submitIfBest(bestForRank);
         if (cancelled) return;
-        bestForRank = res.best;
-        bestRef.current = res.best;
-        setBestScore(res.best);
-        setIsNewBest(true);
-        // Re-fetch leaderboard so the new placement is visible.
-        const updated = await fetchTop10();
-        if (cancelled) return;
-        setTopTen(updated);
+        if (res.best > 0) {
+          bestForRank = res.best;
+          bestRef.current = res.best;
+          setBestScore(res.best);
+        }
+        if (finalScore > prevBest) setIsNewBest(true);
         if (res.rank != null) {
           setWorldRank(res.rank);
           setEnteredTop10(res.rank <= 10);
           setIsWorldRecord(res.rank === 1);
         }
-      } else if (finalScore > 0) {
-        const r = await fetchRank(finalScore);
-        if (!cancelled) setWorldRank(r);
       }
-      // If we didn't already set rank (e.g. tied best), compute it from bestForRank.
+
+      // Always refresh the top 10 (after any submission) for display.
+      const top = await fetchTop10();
+      if (cancelled) return;
+
+      // Make sure the current player appears in the displayed ranking.
+      let merged: LeaderboardEntry[] = top;
+      const playerEntry = await fetchPlayerEntry();
+      if (!cancelled && playerEntry && playerEntry.best_score > 0) {
+        const inTop = top.some((e) => e.player_id === playerEntry.player_id);
+        if (!inTop) {
+          merged = [...top, playerEntry]
+            .sort((a, b) => b.best_score - a.best_score)
+            .slice(0, 11);
+        }
+      }
+      if (cancelled) return;
+      setTopTen(merged);
+      console.debug("[leaderboard] render entries:", merged.length,
+        "playerFound:", !!playerEntry, "ranking:", merged);
+
+      // Compute rank from the player's authoritative best if not already set.
       if (worldRank == null && bestForRank > 0) {
         const r = await fetchRank(bestForRank);
         if (!cancelled && r != null) setWorldRank(r);
@@ -1125,7 +1139,14 @@ export function Game() {
               onClick={async () => {
                 setShowLeaderboard(true);
                 const t = await fetchTop10();
-                setTopTen(t);
+                let merged: LeaderboardEntry[] = t;
+                const me = await fetchPlayerEntry();
+                if (me && me.best_score > 0 && !t.some((e) => e.player_id === me.player_id)) {
+                  merged = [...t, me].sort((a, b) => b.best_score - a.best_score).slice(0, 11);
+                }
+                console.debug("[leaderboard] menu entries:", merged.length,
+                  "playerFound:", !!me, "ranking:", merged);
+                setTopTen(merged);
               }}
               className="rounded-full border border-amber-200/30 bg-black/30 px-4 py-1.5 text-[10px] tracking-[0.25em] text-amber-100/80 backdrop-blur hover:border-amber-200/60 hover:text-amber-50"
             >
