@@ -7,6 +7,17 @@ import {
   type Language,
   type GameQuestion,
 } from "./questionBank";
+import {
+  fetchRank,
+  fetchTop10,
+  getLocalBest,
+  getPlayerName,
+  NAME_MAX,
+  NAME_MIN,
+  setPlayerName as savePlayerName,
+  submitIfBest,
+  type LeaderboardEntry,
+} from "@/lib/leaderboard";
 
 type GameState = "start" | "playing" | "gameover";
 type Lane = 0 | 1 | 2; // 0 left, 1 center, 2 right
@@ -85,6 +96,17 @@ export function Game() {
     return "en";
   });
 
+  // Leaderboard / player identity
+  const [playerName, setPlayerNameState] = useState<string | null>(null);
+  const [showNamePrompt, setShowNamePrompt] = useState(false);
+  const [showSettings, setShowSettings] = useState(false);
+  const [showLeaderboard, setShowLeaderboard] = useState(false);
+  const [topTen, setTopTen] = useState<LeaderboardEntry[] | null>(null);
+  const [worldRank, setWorldRank] = useState<number | null>(null);
+  const [isNewBest, setIsNewBest] = useState(false);
+  const [enteredTop10, setEnteredTop10] = useState(false);
+  const [isWorldRecord, setIsWorldRecord] = useState(false);
+
   const stateRef = useRef<GameState>("start");
   const healthRef = useRef(3);
   const progressRef = useRef(0);
@@ -109,6 +131,60 @@ export function Game() {
       if (!isNaN(b)) { bestRef.current = b; setBestScore(b); }
     } catch { /* ignore */ }
   }, []);
+
+  // On mount: load player name; if none, prompt before letting them start.
+  useEffect(() => {
+    const n = getPlayerName();
+    setPlayerNameState(n);
+    if (!n) setShowNamePrompt(true);
+  }, []);
+
+  // When game ends: submit if new best, refresh leaderboard + rank.
+  useEffect(() => {
+    if (state !== "gameover") return;
+    let cancelled = false;
+    const prevBest = getLocalBest();
+    const finalScore = scoreRef.current;
+    setIsNewBest(false);
+    setEnteredTop10(false);
+    setIsWorldRecord(false);
+    setWorldRank(null);
+    (async () => {
+      // Always refresh the top 10 for display.
+      const top = await fetchTop10();
+      if (cancelled) return;
+      setTopTen(top);
+
+      let bestForRank = prevBest;
+      if (finalScore > prevBest) {
+        const res = await submitIfBest(finalScore);
+        if (cancelled) return;
+        bestForRank = res.best;
+        bestRef.current = res.best;
+        setBestScore(res.best);
+        setIsNewBest(true);
+        // Re-fetch leaderboard so the new placement is visible.
+        const updated = await fetchTop10();
+        if (cancelled) return;
+        setTopTen(updated);
+        if (res.rank != null) {
+          setWorldRank(res.rank);
+          setEnteredTop10(res.rank <= 10);
+          setIsWorldRecord(res.rank === 1);
+        }
+      } else if (finalScore > 0) {
+        const r = await fetchRank(finalScore);
+        if (!cancelled) setWorldRank(r);
+      }
+      // If we didn't already set rank (e.g. tied best), compute it from bestForRank.
+      if (worldRank == null && bestForRank > 0) {
+        const r = await fetchRank(bestForRank);
+        if (!cancelled && r != null) setWorldRank(r);
+      }
+    })();
+    return () => { cancelled = true; };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [state]);
 
   useEffect(() => {
     const canvas = canvasRef.current;
@@ -912,10 +988,20 @@ export function Game() {
   }, []);
 
   const startGame = () => {
+    if (!playerName) { setShowNamePrompt(true); return; }
     const c = canvasRef.current as unknown as { __reset?: () => void } | null;
     c?.__reset?.();
     setState("playing");
     stateRef.current = "playing";
+  };
+
+  const handleSaveName = (raw: string) => {
+    const trimmed = raw.trim();
+    if (trimmed.length < NAME_MIN || trimmed.length > NAME_MAX) return;
+    const saved = savePlayerName(trimmed);
+    setPlayerNameState(saved);
+    setShowNamePrompt(false);
+    setShowSettings(false);
   };
 
   return (
@@ -1029,6 +1115,29 @@ export function Game() {
           >
             BEGIN
           </button>
+          {playerName && (
+            <p className="mt-3 text-[11px] tracking-[0.25em] text-amber-100/70">
+              PLAYER · <span className="text-amber-50">{playerName}</span>
+            </p>
+          )}
+          <div className="mt-4 flex items-center gap-3">
+            <button
+              onClick={async () => {
+                setShowLeaderboard(true);
+                const t = await fetchTop10();
+                setTopTen(t);
+              }}
+              className="rounded-full border border-amber-200/30 bg-black/30 px-4 py-1.5 text-[10px] tracking-[0.25em] text-amber-100/80 backdrop-blur hover:border-amber-200/60 hover:text-amber-50"
+            >
+              LEADERBOARD
+            </button>
+            <button
+              onClick={() => setShowSettings(true)}
+              className="rounded-full border border-amber-200/30 bg-black/30 px-4 py-1.5 text-[10px] tracking-[0.25em] text-amber-100/80 backdrop-blur hover:border-amber-200/60 hover:text-amber-50"
+            >
+              SETTINGS
+            </button>
+          </div>
         </Overlay>
       )}
 
@@ -1036,14 +1145,33 @@ export function Game() {
         <Overlay>
           <p className="text-xs uppercase tracking-[0.4em] text-rose-200/80">The wind took you</p>
           <h1 className="mt-3 text-4xl font-light tracking-[0.2em] text-amber-50">FALLEN</h1>
-          <p className="mt-2 text-sm text-amber-100/70">
-            You reached level {level}{level >= 11 ? " (endless)" : ""}.
+          <p className="mt-1 text-xs text-amber-100/60">
+            Level {level}{level >= 11 ? " (endless)" : ""}
           </p>
+          {isWorldRecord && (
+            <div className="mt-3 rounded-full bg-amber-300/30 px-4 py-1 text-[11px] tracking-[0.35em] text-amber-50 ring-1 ring-amber-200/70 shadow-[0_0_30px_rgba(255,210,140,0.7)] animate-pulse">
+              ★ NEW WORLD RECORD ★
+            </div>
+          )}
+          {!isWorldRecord && enteredTop10 && (
+            <div className="mt-3 rounded-full bg-amber-200/20 px-4 py-1 text-[11px] tracking-[0.3em] text-amber-50 ring-1 ring-amber-200/60 animate-pulse">
+              NEW TOP 10 WORLD RANK
+            </div>
+          )}
+          {!isWorldRecord && !enteredTop10 && isNewBest && (
+            <div className="mt-3 rounded-full bg-amber-100/15 px-4 py-1 text-[11px] tracking-[0.3em] text-amber-100 ring-1 ring-amber-200/40">
+              NEW PERSONAL BEST
+            </div>
+          )}
           <div className="mt-5 grid grid-cols-3 gap-6 text-center">
             <Stat label="SCORE" value={score} />
             <Stat label="BEST" value={bestScore} />
-            <Stat label="STREAK" value={streak} />
+            <Stat label="WORLD RANK" value={worldRank ?? 0} prefix="#" />
           </div>
+          <LeaderboardList
+            entries={topTen}
+            currentName={playerName}
+          />
           <div className="mt-8 flex items-center gap-3">
             <button
               onClick={startGame}
@@ -1058,6 +1186,36 @@ export function Game() {
               MAIN MENU
             </button>
           </div>
+        </Overlay>
+      )}
+
+      {showNamePrompt && (
+        <NamePromptOverlay
+          initial={playerName ?? ""}
+          onSave={handleSaveName}
+          onCancel={playerName ? () => setShowNamePrompt(false) : undefined}
+        />
+      )}
+
+      {showSettings && (
+        <SettingsOverlay
+          name={playerName ?? ""}
+          onChangeName={() => { setShowSettings(false); setShowNamePrompt(true); }}
+          onClose={() => setShowSettings(false)}
+        />
+      )}
+
+      {showLeaderboard && (
+        <Overlay>
+          <h2 className="text-2xl font-light tracking-[0.25em] text-amber-50">LEADERBOARD</h2>
+          <p className="mt-1 text-[10px] tracking-[0.3em] text-amber-200/70">TOP 10 WORLDWIDE</p>
+          <LeaderboardList entries={topTen} currentName={playerName} />
+          <button
+            onClick={() => setShowLeaderboard(false)}
+            className="mt-6 rounded-full border border-amber-200/40 bg-black/30 px-6 py-2 text-xs tracking-[0.25em] text-amber-100/90 backdrop-blur hover:border-amber-200/70 hover:text-amber-50"
+          >
+            CLOSE
+          </button>
         </Overlay>
       )}
     </div>
@@ -1085,11 +1243,153 @@ function Heart({ filled }: { filled: boolean }) {
   );
 }
 
-function Stat({ label, value }: { label: string; value: number }) {
+function Stat({ label, value, prefix }: { label: string; value: number; prefix?: string }) {
   return (
     <div className="flex flex-col items-center">
       <span className="text-[10px] tracking-[0.3em] text-amber-200/70">{label}</span>
-      <span className="mt-1 text-2xl font-light tabular-nums text-amber-50">{value}</span>
+      <span className="mt-1 text-2xl font-light tabular-nums text-amber-50">
+        {value > 0 || !prefix ? `${prefix ?? ""}${value}` : "—"}
+      </span>
+    </div>
+  );
+}
+
+function LeaderboardList({
+  entries,
+  currentName,
+}: {
+  entries: LeaderboardEntry[] | null;
+  highlightId?: string;
+  currentName: string | null;
+}) {
+  if (entries === null) {
+    return (
+      <div className="mt-5 w-[280px] max-w-[88vw] rounded-2xl border border-amber-200/20 bg-black/40 px-4 py-3 text-center text-[11px] tracking-[0.25em] text-amber-100/60 backdrop-blur">
+        LOADING…
+      </div>
+    );
+  }
+  if (entries.length === 0) {
+    return (
+      <div className="mt-5 w-[280px] max-w-[88vw] rounded-2xl border border-amber-200/20 bg-black/40 px-4 py-3 text-center text-[11px] tracking-[0.25em] text-amber-100/60 backdrop-blur">
+        NO SCORES YET
+      </div>
+    );
+  }
+  return (
+    <div className="mt-5 w-[300px] max-w-[92vw] rounded-2xl border border-amber-200/25 bg-black/45 p-2 backdrop-blur-md">
+      <ol className="flex flex-col">
+        {entries.map((e, idx) => {
+          const mine = currentName != null && e.name === currentName;
+          return (
+            <li
+              key={e.player_id}
+              className={
+                "flex items-center justify-between rounded-lg px-3 py-1.5 text-sm tracking-wide " +
+                (mine
+                  ? "bg-amber-200/25 text-amber-50 ring-1 ring-amber-200/60 shadow-[0_0_18px_rgba(255,200,140,0.35)]"
+                  : "text-amber-100/85")
+              }
+            >
+              <span className="w-10 tabular-nums text-amber-200/80">#{idx + 1}</span>
+              <span className="flex-1 truncate px-2">{e.name}</span>
+              <span className="tabular-nums text-amber-50">{e.best_score}</span>
+            </li>
+          );
+        })}
+      </ol>
+    </div>
+  );
+}
+
+function NamePromptOverlay({
+  initial,
+  onSave,
+  onCancel,
+}: {
+  initial: string;
+  onSave: (name: string) => void;
+  onCancel?: () => void;
+}) {
+  const [val, setVal] = useState(initial);
+  const trimmed = val.trim();
+  const valid = trimmed.length >= NAME_MIN && trimmed.length <= NAME_MAX;
+  return (
+    <div className="absolute inset-0 z-40 flex flex-col items-center justify-center bg-black/70 backdrop-blur-md animate-fade-in px-4">
+      <h2 className="text-xl font-light tracking-[0.25em] text-amber-50 text-center">
+        CHOOSE YOUR PLAYER NAME
+      </h2>
+      <p className="mt-2 text-[10px] tracking-[0.3em] text-amber-200/70">
+        {NAME_MIN}–{NAME_MAX} CHARACTERS
+      </p>
+      <input
+        autoFocus
+        value={val}
+        maxLength={NAME_MAX}
+        onChange={(e) => setVal(e.target.value)}
+        onKeyDown={(e) => { if (e.key === "Enter" && valid) onSave(val); }}
+        className="mt-5 w-[260px] max-w-[80vw] rounded-full border border-amber-200/40 bg-black/40 px-4 py-2.5 text-center text-lg tracking-[0.15em] text-amber-50 outline-none backdrop-blur placeholder:text-amber-100/30 focus:border-amber-200/80"
+        placeholder="Your name"
+        style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}
+      />
+      <div className="mt-6 flex items-center gap-3">
+        <button
+          disabled={!valid}
+          onClick={() => onSave(val)}
+          className={
+            "rounded-full px-7 py-2.5 text-xs font-medium tracking-[0.25em] transition-transform " +
+            (valid
+              ? "bg-amber-100 text-stone-900 shadow-[0_0_30px_rgba(255,200,140,0.4)] hover:scale-105 active:scale-95"
+              : "cursor-not-allowed bg-amber-100/30 text-stone-900/50")
+          }
+        >
+          CONFIRM
+        </button>
+        {onCancel && (
+          <button
+            onClick={onCancel}
+            className="rounded-full border border-amber-200/40 bg-black/30 px-5 py-2.5 text-xs tracking-[0.25em] text-amber-100/90 hover:border-amber-200/70 hover:text-amber-50"
+          >
+            CANCEL
+          </button>
+        )}
+      </div>
+    </div>
+  );
+}
+
+function SettingsOverlay({
+  name,
+  onChangeName,
+  onClose,
+}: {
+  name: string;
+  onChangeName: () => void;
+  onClose: () => void;
+}) {
+  return (
+    <div className="absolute inset-0 z-30 flex flex-col items-center justify-center bg-black/60 backdrop-blur-md animate-fade-in">
+      <h2 className="text-xl font-light tracking-[0.25em] text-amber-50">SETTINGS</h2>
+      <div className="mt-5 w-[280px] max-w-[88vw] rounded-2xl border border-amber-200/25 bg-black/45 p-4 backdrop-blur">
+        <div className="flex items-center justify-between">
+          <div>
+            <div className="text-[10px] tracking-[0.3em] text-amber-200/70">PLAYER NAME</div>
+            <div className="mt-1 text-base text-amber-50">{name || "—"}</div>
+          </div>
+          <button
+            onClick={onChangeName}
+            className="rounded-full border border-amber-200/40 bg-black/30 px-3 py-1.5 text-[10px] tracking-[0.25em] text-amber-100/90 hover:border-amber-200/70 hover:text-amber-50"
+          >
+            CHANGE
+          </button>
+        </div>
+      </div>
+      <button
+        onClick={onClose}
+        className="mt-6 rounded-full border border-amber-200/40 bg-black/30 px-6 py-2 text-xs tracking-[0.25em] text-amber-100/90 backdrop-blur hover:border-amber-200/70 hover:text-amber-50"
+      >
+        CLOSE
+      </button>
     </div>
   );
 }
