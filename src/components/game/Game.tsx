@@ -197,7 +197,7 @@ export function Game() {
       setCurrentAnswers(null);
       setProgress(0);
       progressRef.current = 0;
-      setTimeLeft(questionTimer);
+      // questionTimer still drives internal pacing/difficulty; no visual timer to update
     };
 
     // Particles
@@ -707,7 +707,6 @@ export function Game() {
       }
       // Reset timer + hint for the next decision
       questionTimer = timePerQuestionForLevel(levelRef.current);
-      setTimeLeft(questionTimer);
       hintActive = null;
       setHintLane(null);
     };
@@ -747,7 +746,6 @@ export function Game() {
           d.y += fallSpeed() * dt;
           // Question timer (visual feedback)
           questionTimer -= dt;
-          setTimeLeft(Math.max(0, questionTimer));
           // Resolve when object reaches resolve line
           if (d.y >= H * RESOLVE_LINE_FRAC) {
             d.resolved = true;
