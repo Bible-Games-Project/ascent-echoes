@@ -236,7 +236,8 @@ export function Game() {
     let activeIdx = 0;
     const powerups: Powerup[] = [];
     let questionTimer = 0;
-    let powerupTimer = 0;
+    let bonusSchedule: boolean[] = [];
+    let lastBonusSpawnIdx = -1;
     const currentQuestionRef = { current: null as string | null };
 
     const fallSpeed = () => {
@@ -265,6 +266,32 @@ export function Game() {
       });
     };
 
+    // Build a per-question bonus schedule: for every 10-question block, pick
+    // 2..4 question indices, spread out (no two consecutive). Each scheduled
+    // question spawns exactly one bonus when it becomes active.
+    const buildBonusSchedule = (n: number): boolean[] => {
+      const out = new Array<boolean>(n).fill(false);
+      for (let start = 0; start < n; start += 10) {
+        const len = Math.min(10, n - start);
+        if (len <= 0) break;
+        const count = Math.min(len, 2 + Math.floor(Math.random() * 3)); // 2..4
+        const seg = len / count;
+        let last = -2;
+        for (let i = 0; i < count; i++) {
+          const lo = Math.floor(i * seg);
+          const hi = Math.max(lo, Math.floor((i + 1) * seg) - 1);
+          let p = lo + Math.floor(Math.random() * (hi - lo + 1));
+          if (p === last + 1) {
+            if (p < hi) p += 1;
+            else if (p > lo) p -= 1;
+          }
+          out[start + p] = true;
+          last = p;
+        }
+      }
+      return out;
+    };
+
     const buildLevel = (lvl: number) => {
       const qs: GameQuestion[] = buildLevelQuestions(lvl, languageRef.current, usedIdsRef.current);
       queue = qs.map((item) => ({
@@ -279,7 +306,8 @@ export function Game() {
       activeIdx = 0;
       powerups.length = 0;
       questionTimer = timePerQuestionForLevel(lvl);
-      powerupTimer = 1.2 + Math.random() * 1.5;
+      bonusSchedule = buildBonusSchedule(queue.length);
+      lastBonusSpawnIdx = -1;
       currentQuestionRef.current = null;
       setCurrentQuestion(null);
       setCurrentAnswers(null);
