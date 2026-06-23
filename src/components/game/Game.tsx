@@ -287,8 +287,8 @@ export function Game() {
         question: item.prompt,
         answers: item.answers,
         resolved: false,
-        doorAnim: [0, 0, 0],
-        doorOutcome: [null, null, null],
+        outcome: null,
+        outcomeAnim: 0,
       }));
       activeIdx = 0;
       powerups.length = 0;
