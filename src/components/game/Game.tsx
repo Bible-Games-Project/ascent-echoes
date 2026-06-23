@@ -257,11 +257,8 @@ export function Game() {
     };
 
     const spawnPowerup = () => {
-      const spawnY = -120;
-      const resolveY = H * RESOLVE_LINE_FRAC;
-      const midY = (spawnY + resolveY) / 2;
       powerups.push({
-        y: midY,
+        y: -40,
         lane: Math.floor(Math.random() * 3) as Lane,
         type: pickType(),
         taken: false,
