@@ -958,8 +958,8 @@ export function Game() {
               <div className="rounded-full bg-black/40 px-2.5 py-0.5 text-[10px] font-medium tracking-wider text-amber-100 backdrop-blur">
                 {progress} / 10
               </div>
-              <div className={"rounded-full px-2.5 py-0.5 text-[10px] font-medium tracking-widest backdrop-blur tabular-nums " + (timeLeft <= 2 ? "bg-rose-500/30 text-rose-100 ring-1 ring-rose-300/50" : "bg-black/45 text-amber-100")}>
-                ⏱ {timeLeft.toFixed(1)}s
+              <div className="rounded-full px-2.5 py-0.5 text-[10px] font-medium tracking-widest backdrop-blur tabular-nums bg-black/45 text-amber-100">
+                ⏱ {formatRunTime(runTime)}
               </div>
             </div>
           </div>
