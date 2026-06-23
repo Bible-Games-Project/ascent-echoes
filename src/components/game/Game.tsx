@@ -1057,7 +1057,34 @@ export function Game() {
             </div>
           )}
 
-          {/* Answers are encoded into the falling objects only — no UI buttons. */}
+          {/* Static lane answer labels (no door system). Light-bulb hint
+              highlights the correct lane until the question is resolved. */}
+          {currentAnswers && (
+            <div className="pointer-events-none absolute inset-x-0 bottom-[26%] z-10 flex justify-around px-2">
+              {currentAnswers.map((ans, i) => {
+                const isHint = hintLane === i;
+                return (
+                  <div
+                    key={i}
+                    className={
+                      "max-w-[30%] flex-1 mx-1 rounded-xl border px-2 py-1.5 text-center text-amber-50 backdrop-blur transition " +
+                      (isHint
+                        ? "border-amber-200 bg-amber-200/25 shadow-[0_0_22px_rgba(255,220,140,0.7)] ring-1 ring-amber-100/80"
+                        : "border-amber-200/25 bg-black/45")
+                    }
+                    style={{
+                      fontFamily: '"Cormorant Garamond", "Cormorant", Georgia, serif',
+                      fontSize: "clamp(12px, 3.4vw, 16px)",
+                      lineHeight: 1.2,
+                      letterSpacing: "0.02em",
+                    }}
+                  >
+                    {ans}
+                  </div>
+                );
+              })}
+            </div>
+          )}
 
           {multiplierToast !== null && (
             <div className="pointer-events-none absolute left-1/2 top-1/2 z-30 -translate-x-1/2 -translate-y-1/2 animate-fade-in">
