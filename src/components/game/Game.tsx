@@ -230,6 +230,8 @@ export function Game() {
     let shake = 0;
     let flash = 0;
     let invuln = 0;
+    let turboHeld = false;
+    const TURBO_MULT = 3;
 
     // Player (bottom of screen)
     const PLAYER_Y_FRAC = 0.82;
@@ -259,7 +261,9 @@ export function Game() {
       const t = timePerQuestionForLevel(levelRef.current);
       const dist = H * (RESOLVE_LINE_FRAC + 0.1);
       const base = dist / Math.max(1, t);
-      return slowTimer > 0 ? base * 0.5 : base;
+      const slowMul = slowTimer > 0 ? 0.5 : 1;
+      const turboMul = turboHeld ? TURBO_MULT : 1;
+      return base * slowMul * turboMul;
     };
 
     const pickType = (): PowerupType => {
@@ -279,6 +283,9 @@ export function Game() {
       });
     };
 
+    let bonusesThisLevel = 0;
+    let bonusSinceDecision = false;
+
     const buildLevel = (lvl: number) => {
       const qs: GameQuestion[] = buildLevelQuestions(lvl, languageRef.current, usedIdsRef.current);
       queue = qs.map((item) => ({
@@ -294,6 +301,8 @@ export function Game() {
       powerups.length = 0;
       questionTimer = timePerQuestionForLevel(lvl);
       powerupTimer = 1.2 + Math.random() * 1.5;
+      bonusesThisLevel = 0;
+      bonusSinceDecision = false;
       currentQuestionRef.current = null;
       setCurrentQuestion(null);
       setCurrentAnswers(null);
