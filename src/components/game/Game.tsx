@@ -40,9 +40,9 @@ interface FallingDecision {
   question: string;
   answers: [string, string, string];
   resolved: boolean;
-  // Per-lane visual state
-  doorAnim: [number, number, number];
-  doorOutcome: [null | "open" | "broken", null | "open" | "broken", null | "open" | "broken"];
+  // Resolution visuals (single falling object)
+  outcome: null | "correct" | "wrong";
+  outcomeAnim: number;
 }
 
 interface Particle {
@@ -230,6 +230,8 @@ export function Game() {
     let shake = 0;
     let flash = 0;
     let invuln = 0;
+    let turboHeld = false;
+    const TURBO_MULT = 3;
 
     // Player (bottom of screen)
     const PLAYER_Y_FRAC = 0.82;
@@ -259,7 +261,9 @@ export function Game() {
       const t = timePerQuestionForLevel(levelRef.current);
       const dist = H * (RESOLVE_LINE_FRAC + 0.1);
       const base = dist / Math.max(1, t);
-      return slowTimer > 0 ? base * 0.5 : base;
+      const slowMul = slowTimer > 0 ? 0.5 : 1;
+      const turboMul = turboHeld ? TURBO_MULT : 1;
+      return base * slowMul * turboMul;
     };
 
     const pickType = (): PowerupType => {
@@ -279,6 +283,9 @@ export function Game() {
       });
     };
 
+    let bonusesThisLevel = 0;
+    let bonusSinceDecision = false;
+
     const buildLevel = (lvl: number) => {
       const qs: GameQuestion[] = buildLevelQuestions(lvl, languageRef.current, usedIdsRef.current);
       queue = qs.map((item) => ({
@@ -287,13 +294,15 @@ export function Game() {
         question: item.prompt,
         answers: item.answers,
         resolved: false,
-        doorAnim: [0, 0, 0],
-        doorOutcome: [null, null, null],
+        outcome: null,
+        outcomeAnim: 0,
       }));
       activeIdx = 0;
       powerups.length = 0;
       questionTimer = timePerQuestionForLevel(lvl);
       powerupTimer = 1.2 + Math.random() * 1.5;
+      bonusesThisLevel = 0;
+      bonusSinceDecision = false;
       currentQuestionRef.current = null;
       setCurrentQuestion(null);
       setCurrentAnswers(null);
@@ -400,137 +409,72 @@ export function Game() {
       }
     };
 
-    // Falling object (door panel) per lane of active decision
-    const DOOR_W = 56;
-    const DOOR_H = 70;
-    const drawDoorPanel = (cx: number, topY: number, w: number, h: number, safe: boolean) => {
-      const x = cx - w / 2;
-      ctx.fillStyle = "rgba(0,0,0,0.35)";
-      ctx.fillRect(x + 2, topY + h, w - 4, 4);
-      const g = ctx.createLinearGradient(x, topY, x, topY + h);
-      if (safe) { g.addColorStop(0, "#8a6a4a"); g.addColorStop(1, "#3a2618"); }
-      else { g.addColorStop(0, "#5a4536"); g.addColorStop(1, "#2a1a14"); }
+    // Single falling "question" rune - one and only one interactive object.
+    const RUNE_R = 22;
+    const drawRune = (cx: number, cy: number, glow: number) => {
+      // outer halo
+      const halo = ctx.createRadialGradient(cx, cy, 0, cx, cy, RUNE_R * 2.4);
+      halo.addColorStop(0, `rgba(255, 220, 160, ${0.45 * glow})`);
+      halo.addColorStop(1, "rgba(255, 220, 160, 0)");
+      ctx.fillStyle = halo;
+      ctx.fillRect(cx - RUNE_R * 2.4, cy - RUNE_R * 2.4, RUNE_R * 4.8, RUNE_R * 4.8);
+      // stone body
+      const g = ctx.createLinearGradient(cx, cy - RUNE_R, cx, cy + RUNE_R);
+      g.addColorStop(0, "#7a5840");
+      g.addColorStop(1, "#2a1810");
       ctx.fillStyle = g;
-      ctx.fillRect(x, topY, w, h);
       ctx.beginPath();
-      ctx.fillStyle = g as unknown as string;
-      ctx.arc(cx, topY, w / 2, Math.PI, 0);
+      ctx.arc(cx, cy, RUNE_R, 0, Math.PI * 2);
       ctx.fill();
-      ctx.strokeStyle = "rgba(0,0,0,0.35)";
-      ctx.lineWidth = 1;
-      ctx.beginPath();
-      ctx.moveTo(cx, topY);
-      ctx.lineTo(cx, topY + h);
+      ctx.strokeStyle = "rgba(255, 230, 180, 0.55)";
+      ctx.lineWidth = 1.5;
       ctx.stroke();
-      ctx.fillStyle = "rgba(255,210,160,0.55)";
+      // sigil
+      ctx.strokeStyle = `rgba(255, 240, 200, ${0.85 * glow})`;
+      ctx.lineWidth = 2;
       ctx.beginPath();
-      ctx.arc(x + 6, topY + 10, 2, 0, Math.PI * 2);
-      ctx.arc(x + w - 6, topY + 10, 2, 0, Math.PI * 2);
-      ctx.arc(x + 6, topY + h - 10, 2, 0, Math.PI * 2);
-      ctx.arc(x + w - 6, topY + h - 10, 2, 0, Math.PI * 2);
-      ctx.fill();
-      if (safe) {
-        ctx.strokeStyle = "rgba(255, 230, 180, 0.45)";
-        ctx.lineWidth = 1.5;
-        ctx.strokeRect(x, topY, w, h);
-      } else {
-        ctx.strokeStyle = "rgba(0,0,0,0.55)";
-        ctx.lineWidth = 1.5;
-        ctx.strokeRect(x, topY, w, h);
-      }
+      ctx.moveTo(cx - 8, cy - 6);
+      ctx.lineTo(cx + 8, cy - 6);
+      ctx.moveTo(cx, cy - 10);
+      ctx.lineTo(cx, cy + 10);
+      ctx.moveTo(cx - 6, cy + 6);
+      ctx.lineTo(cx + 6, cy + 6);
+      ctx.stroke();
     };
 
     const drawActiveDecision = (dt: number) => {
       const d = queue[activeIdx];
       if (!d) return;
-      // helper to draw an answer label above the falling door
-      const drawAnswerLabel = (cx: number, topY: number, text: string) => {
-        ctx.save();
-        ctx.font = '600 13px "Cormorant Garamond", Georgia, serif';
-        ctx.textAlign = "center";
-        ctx.textBaseline = "bottom";
-        const maxW = W / 3 - 14;
-        // word-wrap to up to 2 lines
-        const words = text.split(/\s+/);
-        const lines: string[] = [];
-        let cur = "";
-        for (const w of words) {
-          const test = cur ? cur + " " + w : w;
-          if (ctx.measureText(test).width > maxW && cur) {
-            lines.push(cur);
-            cur = w;
-            if (lines.length === 1) {
-              // last line: append rest, truncate with ellipsis if needed
-              const rest = words.slice(words.indexOf(w)).join(" ");
-              let r = rest;
-              while (ctx.measureText(r + "…").width > maxW && r.length > 1) r = r.slice(0, -1);
-              if (r !== rest) r = r + "…";
-              lines.push(r);
-              cur = "";
-              break;
-            }
-          } else cur = test;
-        }
-        if (cur) lines.push(cur);
-        const lineH = 15;
-        const boxH = lines.length * lineH + 6;
-        const boxW = Math.min(maxW + 12, Math.max(...lines.map(l => ctx.measureText(l).width)) + 14);
-        const bx = cx - boxW / 2;
-        const by = topY - boxH;
-        ctx.fillStyle = "rgba(0,0,0,0.55)";
-        ctx.strokeStyle = "rgba(255, 220, 170, 0.45)";
-        ctx.lineWidth = 1;
-        ctx.beginPath();
-        const r = 6;
-        ctx.moveTo(bx + r, by);
-        ctx.lineTo(bx + boxW - r, by);
-        ctx.quadraticCurveTo(bx + boxW, by, bx + boxW, by + r);
-        ctx.lineTo(bx + boxW, by + boxH - r);
-        ctx.quadraticCurveTo(bx + boxW, by + boxH, bx + boxW - r, by + boxH);
-        ctx.lineTo(bx + r, by + boxH);
-        ctx.quadraticCurveTo(bx, by + boxH, bx, by + boxH - r);
-        ctx.lineTo(bx, by + r);
-        ctx.quadraticCurveTo(bx, by, bx + r, by);
-        ctx.closePath();
-        ctx.fill();
-        ctx.stroke();
-        ctx.fillStyle = "#fff3d6";
-        lines.forEach((l, idx) => {
-          ctx.fillText(l, cx, by + 3 + (idx + 1) * lineH);
-        });
-        ctx.restore();
-      };
-      for (let i = 0; i < 3; i++) {
-        const outcome = d.doorOutcome[i];
-        const cx = laneX(i as Lane);
-        if (outcome) d.doorAnim[i] = Math.min(1, d.doorAnim[i] + dt * (outcome === "broken" ? 2.6 : 3.6));
-        const anim = d.doorAnim[i];
-        if (outcome && anim >= 1) continue;
-        if (outcome === "open") {
-          const a = 1 - anim;
-          ctx.globalAlpha = a;
-          drawDoorPanel(cx, d.y - DOOR_H + anim * 12, DOOR_W, DOOR_H, true);
-          drawAnswerLabel(cx, d.y - DOOR_H + anim * 12 - 14, d.answers[i]);
-          ctx.globalAlpha = 1;
-          continue;
-        }
-        if (outcome === "broken") {
-          const a = 1 - anim;
-          ctx.globalAlpha = a;
-          for (let s = 0; s < 5; s++) {
-            const ang = (s / 5) * Math.PI * 2;
-            const r = anim * 40;
-            const px = cx + Math.cos(ang) * r;
-            const py = d.y - DOOR_H / 2 + Math.sin(ang) * r;
+      const cx = W / 2; // falls down the center column
+      if (d.outcome) {
+        d.outcomeAnim = Math.min(1, d.outcomeAnim + dt * 3.2);
+        const a = 1 - d.outcomeAnim;
+        ctx.globalAlpha = a;
+        if (d.outcome === "correct") {
+          // soft expanding ring at player position
+          const px = player.x;
+          const py = playerY() - 18;
+          ctx.strokeStyle = "rgba(255, 240, 180, 0.9)";
+          ctx.lineWidth = 2;
+          ctx.beginPath();
+          ctx.arc(px, py, 20 + d.outcomeAnim * 40, 0, Math.PI * 2);
+          ctx.stroke();
+        } else {
+          // shattered fragments at impact
+          for (let s = 0; s < 6; s++) {
+            const ang = (s / 6) * Math.PI * 2;
+            const r = d.outcomeAnim * 36;
+            const fx = cx + Math.cos(ang) * r;
+            const fy = d.y + Math.sin(ang) * r;
             ctx.fillStyle = "#3a2a22";
-            ctx.fillRect(px - 6, py - 8, 12, 16);
+            ctx.fillRect(fx - 5, fy - 6, 10, 12);
           }
-          ctx.globalAlpha = 1;
-          continue;
         }
-        drawDoorPanel(cx, d.y - DOOR_H, DOOR_W, DOOR_H, i === d.safe);
-        drawAnswerLabel(cx, d.y - DOOR_H - 14, d.answers[i]);
+        ctx.globalAlpha = 1;
+        return;
       }
+      const glow = 0.7 + 0.3 * Math.sin(performance.now() / 220);
+      drawRune(cx, d.y, glow);
     };
 
     // ----- Powerups -----
@@ -803,6 +747,7 @@ export function Game() {
       questionTimer = timePerQuestionForLevel(levelRef.current);
       hintActive = null;
       setHintLane(null);
+      bonusSinceDecision = false;
     };
 
     const loop = (now: number) => {
@@ -849,8 +794,8 @@ export function Game() {
             d.resolved = true;
             const lane = player.lane;
             const correct = lane === d.safe;
-            d.doorOutcome[lane] = correct ? "open" : "broken";
-            // Other lanes: keep falling visually -> just mark them broken for animation off-screen later
+            d.outcome = correct ? "correct" : "wrong";
+            d.outcomeAnim = 0;
             if (correct) {
               for (let i = 0; i < 12; i++) {
                 const a = Math.random() * Math.PI * 2;
@@ -878,15 +823,24 @@ export function Game() {
           }
         }
 
-        // Power-up spawn timer (between decisions)
+        // Bonus spawn rules:
+        //  - max 3 bonuses per 10-question level
+        //  - max 1 bonus between two consecutive questions
+        //  - never spawn when the active question is near its impact zone
         powerupTimer -= dt;
         if (powerupTimer <= 0) {
-          spawnPowerup();
-          powerupTimer = 1.8 + Math.random() * 2.2;
+          const ad = queue[activeIdx];
+          const safeZone = ad && !ad.resolved && ad.y > 0 && ad.y < H * 0.45;
+          if (safeZone && bonusesThisLevel < 3 && !bonusSinceDecision) {
+            spawnPowerup();
+            bonusesThisLevel += 1;
+            bonusSinceDecision = true;
+          }
+          powerupTimer = 1.4 + Math.random() * 1.6;
         }
 
-        // Power-ups fall and collide
-        const ps = fallSpeed() * 0.9;
+        // Power-ups fall and collide - EXACT same speed as questions (turbo-aware)
+        const ps = fallSpeed();
         for (let i = powerups.length - 1; i >= 0; i--) {
           const p = powerups[i];
           if (p.taken) { powerups.splice(i, 1); continue; }
@@ -959,6 +913,8 @@ export function Game() {
       touchStartX = t.clientX;
       touchStartY = t.clientY;
       touchStartTime = performance.now();
+      // TURBO: hold-to-accelerate (3x). Applies to questions + bonuses identically.
+      if (stateRef.current === "playing") turboHeld = true;
     };
     const onTouchEnd = (e: TouchEvent) => {
       const t = e.changedTouches[0];
@@ -967,12 +923,14 @@ export function Game() {
       const dt2 = performance.now() - touchStartTime;
       const ax = Math.abs(dx);
       const ay = Math.abs(dy);
+      turboHeld = false; // immediate return to normal speed
       if (ax > 30 && ax > ay) {
         moveLane(dx < 0 ? -1 : 1);
       } else if (dt2 < 300 && ax < 20 && ay < 20) {
         tapLane(t.clientX);
       }
     };
+    const onTouchCancel = () => { turboHeld = false; };
     const onKey = (e: KeyboardEvent) => {
       if (e.key === "ArrowLeft" || e.key === "a") moveLane(-1);
       else if (e.key === "ArrowRight" || e.key === "d") moveLane(1);
@@ -980,11 +938,22 @@ export function Game() {
       else if (e.key === "2") player.targetLane = 1;
       else if (e.key === "3") player.targetLane = 2;
     };
-    const onMouseDown = (e: MouseEvent) => { tapLane(e.clientX); };
+    const onMouseDown = (e: MouseEvent) => {
+      if (e.button !== 0) return;
+      tapLane(e.clientX);
+      if (stateRef.current === "playing") turboHeld = true;
+    };
+    const onMouseUp = () => { turboHeld = false; };
+    const onMouseLeave = () => { turboHeld = false; };
+    const onBlur = () => { turboHeld = false; };
 
     canvas.addEventListener("touchstart", onTouchStart, { passive: true });
     canvas.addEventListener("touchend", onTouchEnd, { passive: true });
+    canvas.addEventListener("touchcancel", onTouchCancel, { passive: true });
     canvas.addEventListener("mousedown", onMouseDown);
+    window.addEventListener("mouseup", onMouseUp);
+    canvas.addEventListener("mouseleave", onMouseLeave);
+    window.addEventListener("blur", onBlur);
     window.addEventListener("keydown", onKey);
 
     player.x = laneX(1);
@@ -996,7 +965,11 @@ export function Game() {
       ro.disconnect();
       canvas.removeEventListener("touchstart", onTouchStart);
       canvas.removeEventListener("touchend", onTouchEnd);
+      canvas.removeEventListener("touchcancel", onTouchCancel);
       canvas.removeEventListener("mousedown", onMouseDown);
+      window.removeEventListener("mouseup", onMouseUp);
+      canvas.removeEventListener("mouseleave", onMouseLeave);
+      window.removeEventListener("blur", onBlur);
       window.removeEventListener("keydown", onKey);
     };
   }, []);
@@ -1084,7 +1057,34 @@ export function Game() {
             </div>
           )}
 
-          {/* Answers are encoded into the falling objects only — no UI buttons. */}
+          {/* Static lane answer labels (no door system). Light-bulb hint
+              highlights the correct lane until the question is resolved. */}
+          {currentAnswers && (
+            <div className="pointer-events-none absolute inset-x-0 bottom-[26%] z-10 flex justify-around px-2">
+              {currentAnswers.map((ans, i) => {
+                const isHint = hintLane === i;
+                return (
+                  <div
+                    key={i}
+                    className={
+                      "max-w-[30%] flex-1 mx-1 rounded-xl border px-2 py-1.5 text-center text-amber-50 backdrop-blur transition " +
+                      (isHint
+                        ? "border-amber-200 bg-amber-200/25 shadow-[0_0_22px_rgba(255,220,140,0.7)] ring-1 ring-amber-100/80"
+                        : "border-amber-200/25 bg-black/45")
+                    }
+                    style={{
+                      fontFamily: '"Cormorant Garamond", "Cormorant", Georgia, serif',
+                      fontSize: "clamp(12px, 3.4vw, 16px)",
+                      lineHeight: 1.2,
+                      letterSpacing: "0.02em",
+                    }}
+                  >
+                    {ans}
+                  </div>
+                );
+              })}
+            </div>
+          )}
 
           {multiplierToast !== null && (
             <div className="pointer-events-none absolute left-1/2 top-1/2 z-30 -translate-x-1/2 -translate-y-1/2 animate-fade-in">
