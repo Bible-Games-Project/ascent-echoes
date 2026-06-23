@@ -988,10 +988,20 @@ export function Game() {
   }, []);
 
   const startGame = () => {
+    if (!playerName) { setShowNamePrompt(true); return; }
     const c = canvasRef.current as unknown as { __reset?: () => void } | null;
     c?.__reset?.();
     setState("playing");
     stateRef.current = "playing";
+  };
+
+  const handleSaveName = (raw: string) => {
+    const trimmed = raw.trim();
+    if (trimmed.length < NAME_MIN || trimmed.length > NAME_MAX) return;
+    const saved = savePlayerName(trimmed);
+    setPlayerNameState(saved);
+    setShowNamePrompt(false);
+    setShowSettings(false);
   };
 
   return (
