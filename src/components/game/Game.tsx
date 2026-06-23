@@ -792,7 +792,8 @@ export function Game() {
     };
 
     const loop = (now: number) => {
-      const dt = Math.min(0.05, (now - last) / 1000);
+      const dtRaw = Math.min(0.05, (now - last) / 1000);
+      const dt = stateRef.current === "playing" ? dtRaw * turboRef.current : dtRaw;
       last = now;
       bgDrift += dt * 18;
 
@@ -926,6 +927,8 @@ export function Game() {
     let touchStartX = 0;
     let touchStartY = 0;
     let touchStartTime = 0;
+    const turboRef = { current: 1 };
+    const setTurbo = (on: boolean) => { turboRef.current = on ? 3 : 1; };
 
     const moveLane = (dir: -1 | 1) => {
       if (stateRef.current !== "playing") return;
@@ -967,10 +970,21 @@ export function Game() {
       else if (e.key === "3") player.targetLane = 2;
     };
     const onMouseDown = (e: MouseEvent) => { tapLane(e.clientX); };
+    const onMouseDownTurbo = (e: MouseEvent) => { if (e.button === 0) setTurbo(true); };
+    const onMouseUpTurbo = () => setTurbo(false);
+    const onMouseLeaveTurbo = () => setTurbo(false);
+    const onTouchStartTurbo = () => setTurbo(true);
+    const onTouchEndTurbo = () => setTurbo(false);
 
     canvas.addEventListener("touchstart", onTouchStart, { passive: true });
     canvas.addEventListener("touchend", onTouchEnd, { passive: true });
     canvas.addEventListener("mousedown", onMouseDown);
+    canvas.addEventListener("mousedown", onMouseDownTurbo);
+    window.addEventListener("mouseup", onMouseUpTurbo);
+    canvas.addEventListener("mouseleave", onMouseLeaveTurbo);
+    canvas.addEventListener("touchstart", onTouchStartTurbo, { passive: true });
+    canvas.addEventListener("touchend", onTouchEndTurbo, { passive: true });
+    canvas.addEventListener("touchcancel", onTouchEndTurbo, { passive: true });
     window.addEventListener("keydown", onKey);
 
     player.x = laneX(1);
@@ -983,6 +997,12 @@ export function Game() {
       canvas.removeEventListener("touchstart", onTouchStart);
       canvas.removeEventListener("touchend", onTouchEnd);
       canvas.removeEventListener("mousedown", onMouseDown);
+      canvas.removeEventListener("mousedown", onMouseDownTurbo);
+      window.removeEventListener("mouseup", onMouseUpTurbo);
+      canvas.removeEventListener("mouseleave", onMouseLeaveTurbo);
+      canvas.removeEventListener("touchstart", onTouchStartTurbo);
+      canvas.removeEventListener("touchend", onTouchEndTurbo);
+      canvas.removeEventListener("touchcancel", onTouchEndTurbo);
       window.removeEventListener("keydown", onKey);
     };
   }, []);
