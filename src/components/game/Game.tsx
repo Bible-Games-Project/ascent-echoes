@@ -1,4 +1,8 @@
 import { useEffect, useRef, useState } from "react";
+import didacticJesusImg from "@/assets/didactic-jesus.png.asset.json";
+import lostSheepImg from "@/assets/lost-sheep.png.asset.json";
+import bibleUnlockedImg from "@/assets/bible-unlocked.png.asset.json";
+import trueChristImg from "@/assets/true-christ.png.asset.json";
 import {
   buildLevelQuestions,
   timePerQuestionForLevel,
@@ -1438,24 +1442,28 @@ type MoreGame = {
 const MORE_GAMES: MoreGame[] = [
   {
     title: "Didactic Jesus Game",
+    image: didacticJesusImg.url,
     android: "https://play.google.com/store/apps/details?id=com.biblegamesproject.pro&hl=es_419",
     ios: "https://apps.apple.com/es/app/didactic-jesus-game-bible/id6740145520",
     pc: "https://store.steampowered.com/app/2138140/Didactic_Jesus_Game/",
   },
   {
     title: "The Lost Sheep",
+    image: lostSheepImg.url,
     android: "https://www.biblegamesproject.com/the-lost-sheep",
     ios: "https://apps.apple.com/es/app/the-lost-sheep-bible-game/id6740145333",
     pc: "https://store.steampowered.com/app/2298350/The_Lost_Sheep/",
   },
   {
     title: "Bible Unlocked",
+    image: bibleUnlockedImg.url,
     android: "https://play.google.com/store/apps/details?id=com.biblegames.eden&pcampaignid=web_share",
     ios: "https://apps.apple.com/es/app/bible-unlocked-100-historias/id6775889176?l=ca",
     pc: "https://www.biblegamesproject.com/bible-unlocked",
   },
   {
     title: "True Christ",
+    image: trueChristImg.url,
     android: "https://www.biblegamesproject.com/true-christ",
     ios: "https://www.biblegamesproject.com/true-christ",
     pc: "https://store.steampowered.com/app/4244150/True_Christ/",
