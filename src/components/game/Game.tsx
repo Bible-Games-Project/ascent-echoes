@@ -1154,6 +1154,12 @@ export function Game() {
               SETTINGS
             </button>
           </div>
+          <button
+            onClick={() => setShowMoreGames(true)}
+            className="mt-3 rounded-full border border-amber-200/30 bg-black/30 px-4 py-1.5 text-[10px] tracking-[0.25em] text-amber-100/80 backdrop-blur hover:border-amber-200/60 hover:text-amber-50"
+          >
+            MORE GAMES
+          </button>
         </Overlay>
       )}
 
@@ -1202,6 +1208,12 @@ export function Game() {
               MAIN MENU
             </button>
           </div>
+          <button
+            onClick={() => setShowMoreGames(true)}
+            className="mt-4 rounded-full border border-amber-200/30 bg-black/30 px-5 py-2 text-[10px] tracking-[0.25em] text-amber-100/80 backdrop-blur hover:border-amber-200/60 hover:text-amber-50"
+          >
+            MORE GAMES
+          </button>
         </Overlay>
       )}
 
