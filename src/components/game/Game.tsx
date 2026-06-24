@@ -101,6 +101,7 @@ export function Game() {
   const [showNamePrompt, setShowNamePrompt] = useState(false);
   const [showSettings, setShowSettings] = useState(false);
   const [showLeaderboard, setShowLeaderboard] = useState(false);
+  const [showMoreGames, setShowMoreGames] = useState(false);
   const [topTen, setTopTen] = useState<LeaderboardEntry[] | null>(null);
   const [worldRank, setWorldRank] = useState<number | null>(null);
   const [isNewBest, setIsNewBest] = useState(false);
