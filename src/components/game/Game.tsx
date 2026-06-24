@@ -1425,3 +1425,99 @@ function SettingsOverlay({
     </div>
   );
 }
+
+type MoreGame = {
+  title: string;
+  image?: string; // square image url; placeholder gradient if omitted
+  android: string;
+  ios: string;
+  pc: string;
+  comingSoon?: boolean;
+};
+
+const MORE_GAMES: MoreGame[] = [
+  {
+    title: "Didactic Jesus Game",
+    android: "https://play.google.com/store/apps/details?id=com.biblegamesproject.pro&hl=es_419",
+    ios: "https://apps.apple.com/es/app/didactic-jesus-game-bible/id6740145520",
+    pc: "https://store.steampowered.com/app/2138140/Didactic_Jesus_Game/",
+  },
+  {
+    title: "The Lost Sheep",
+    android: "https://www.biblegamesproject.com/the-lost-sheep",
+    ios: "https://apps.apple.com/es/app/the-lost-sheep-bible-game/id6740145333",
+    pc: "https://store.steampowered.com/app/2298350/The_Lost_Sheep/",
+  },
+  {
+    title: "Bible Unlocked",
+    android: "https://play.google.com/store/apps/details?id=com.biblegames.eden&pcampaignid=web_share",
+    ios: "https://apps.apple.com/es/app/bible-unlocked-100-historias/id6775889176?l=ca",
+    pc: "https://www.biblegamesproject.com/bible-unlocked",
+  },
+  {
+    title: "True Christ",
+    android: "https://www.biblegamesproject.com/true-christ",
+    ios: "https://www.biblegamesproject.com/true-christ",
+    pc: "https://store.steampowered.com/app/4244150/True_Christ/",
+    comingSoon: true,
+  },
+];
+
+function detectPlatformUrl(g: MoreGame): string {
+  if (typeof navigator === "undefined") return g.pc;
+  const ua = navigator.userAgent || "";
+  const isIOS = /iPad|iPhone|iPod/.test(ua) || (ua.includes("Mac") && "ontouchend" in document);
+  if (isIOS) return g.ios;
+  if (/Android/i.test(ua)) return g.android;
+  return g.pc;
+}
+
+function MoreGamesOverlay({ onClose }: { onClose: () => void }) {
+  return (
+    <div className="absolute inset-0 z-40 flex flex-col items-center justify-center bg-black/70 backdrop-blur-md animate-fade-in px-4">
+      <h2 className="text-2xl font-light tracking-[0.25em] text-amber-50">MORE GAMES</h2>
+      <p className="mt-1 text-[10px] tracking-[0.3em] text-amber-200/70">BIBLE GAMES PROJECT</p>
+
+      <div className="mt-6 grid w-[min(92vw,520px)] grid-cols-2 gap-3 sm:gap-4">
+        {MORE_GAMES.map((g) => {
+          const handleClick = () => {
+            const url = detectPlatformUrl(g);
+            window.open(url, "_blank", "noopener,noreferrer");
+          };
+          return (
+            <button
+              key={g.title}
+              onClick={handleClick}
+              className="group relative flex flex-col items-stretch overflow-hidden rounded-2xl border border-amber-200/25 bg-black/45 p-2 text-left backdrop-blur transition hover:border-amber-200/60 hover:shadow-[0_0_24px_rgba(255,200,140,0.25)] active:scale-[0.98]"
+            >
+              <div className="relative aspect-square w-full overflow-hidden rounded-xl bg-gradient-to-br from-amber-900/40 via-stone-900 to-amber-700/30 ring-1 ring-amber-200/20">
+                {g.image ? (
+                  <img src={g.image} alt={g.title} className="h-full w-full object-cover" />
+                ) : (
+                  <div className="flex h-full w-full items-center justify-center px-2 text-center text-[11px] font-light tracking-[0.2em] text-amber-100/80" style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
+                    {g.title}
+                  </div>
+                )}
+                {g.comingSoon && (
+                  <div className="absolute left-1/2 top-2 -translate-x-1/2 rounded-full bg-amber-300/90 px-2 py-0.5 text-[9px] font-medium tracking-[0.25em] text-stone-900 shadow">
+                    COMING SOON
+                  </div>
+                )}
+              </div>
+              <div className="mt-2 px-1 pb-1 text-center text-[11px] tracking-[0.18em] text-amber-50">
+                {g.title.toUpperCase()}
+              </div>
+            </button>
+          );
+        })}
+      </div>
+
+      <button
+        onClick={onClose}
+        className="mt-6 rounded-full border border-amber-200/40 bg-black/30 px-6 py-2 text-xs tracking-[0.25em] text-amber-100/90 backdrop-blur hover:border-amber-200/70 hover:text-amber-50"
+      >
+        CLOSE
+      </button>
+    </div>
+  );
+}
