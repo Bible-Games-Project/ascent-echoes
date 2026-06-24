@@ -1438,6 +1438,7 @@ type MoreGame = {
 const MORE_GAMES: MoreGame[] = [
   {
     title: "Didactic Jesus Game",
+    image: (await import("@/assets/didactic-jesus.png.asset.json")).default?.url,
     android: "https://play.google.com/store/apps/details?id=com.biblegamesproject.pro&hl=es_419",
     ios: "https://apps.apple.com/es/app/didactic-jesus-game-bible/id6740145520",
     pc: "https://store.steampowered.com/app/2138140/Didactic_Jesus_Game/",
