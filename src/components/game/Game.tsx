@@ -1233,6 +1233,10 @@ export function Game() {
           </button>
         </Overlay>
       )}
+
+      {showMoreGames && (
+        <MoreGamesOverlay onClose={() => setShowMoreGames(false)} />
+      )}
     </div>
   );
 }
