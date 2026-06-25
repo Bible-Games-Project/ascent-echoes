@@ -714,63 +714,51 @@ export function Game() {
       ctx.shadowBlur = 16 + 14 * glowBoost;
       ctx.fillStyle = doveColor;
 
-      // Side-view dove facing RIGHT — recognizable bird silhouette.
-      // Keeps current overall footprint (~60px wide, ~40px tall) and hitbox.
+      // BACK-VIEW dove — viewer is behind the dove as it flies INTO the scene.
+      // Symmetrical wings sweep left/right; body is centered and small;
+      // head is a small bump barely visible above the body.
+      // Footprint ~60px wide, ~30px tall — hitbox unchanged.
 
-      // --- FAR WING (behind body) — visible behind/above, moves opposite ---
-      ctx.globalAlpha = 0.75;
-      ctx.beginPath();
-      ctx.moveTo(x - 2, y - 3);
-      ctx.quadraticCurveTo(x - 10, y - 14 + wingLift * 0.6, x - 22, y - 6 + wingLift * 0.4);
-      ctx.quadraticCurveTo(x - 14, y - 2, x - 4, y - 1);
-      ctx.closePath();
-      ctx.fill();
-      ctx.globalAlpha = 1;
+      // Wing flap: tips rise/fall symmetrically. Positive flap = wings up.
+      const tipY = y - 4 - wingLift;          // vertical position of wingtips
+      const tipSpread = 30 - flap * 2;        // tips slightly contract on upstroke
+      const midY = y - 1 - wingLift * 0.4;    // mid-wing dihedral
 
-      // --- TAIL — fanned shape at the back (left) ---
+      // --- LEFT WING ---
       ctx.beginPath();
-      ctx.moveTo(x - 8, y + 2);
-      ctx.quadraticCurveTo(x - 22, y - 2, x - 26, y + 2);
-      ctx.lineTo(x - 24, y + 5);
-      ctx.quadraticCurveTo(x - 18, y + 7, x - 8, y + 6);
+      ctx.moveTo(x - 2, y - 1);                                   // shoulder (near body)
+      ctx.quadraticCurveTo(x - 14, midY - 2, x - tipSpread, tipY); // leading edge up to tip
+      ctx.quadraticCurveTo(x - 22, y + 2, x - 10, y + 3);          // trailing edge back to body
+      ctx.quadraticCurveTo(x - 6, y + 2, x - 2, y + 1);
       ctx.closePath();
       ctx.fill();
 
-      // --- BODY — elongated horizontal ellipse, slight upward tilt ---
+      // --- RIGHT WING (mirrored) ---
       ctx.beginPath();
-      ctx.ellipse(x, y + 2, 14, 7, -0.12, 0, Math.PI * 2);
-      ctx.fill();
-
-      // --- HEAD — round, sits forward and slightly above body ---
-      ctx.beginPath();
-      ctx.arc(x + 13, y - 3, 5.2, 0, Math.PI * 2);
-      ctx.fill();
-
-      // --- BEAK — small triangle pointing right ---
-      ctx.beginPath();
-      ctx.moveTo(x + 17, y - 3);
-      ctx.lineTo(x + 22, y - 2);
-      ctx.lineTo(x + 17, y - 1);
+      ctx.moveTo(x + 2, y - 1);
+      ctx.quadraticCurveTo(x + 14, midY - 2, x + tipSpread, tipY);
+      ctx.quadraticCurveTo(x + 22, y + 2, x + 10, y + 3);
+      ctx.quadraticCurveTo(x + 6, y + 2, x + 2, y + 1);
       ctx.closePath();
       ctx.fill();
 
-      // --- NEAR WING (in front of body) — large, animated flap ---
-      // Pivots from shoulder near (x-2, y-2), sweeps back over body.
+      // --- TAIL (small triangle pointing down/back, centered) ---
       ctx.beginPath();
-      ctx.moveTo(x - 2, y - 2);
-      // Leading edge up and back to wingtip
-      ctx.quadraticCurveTo(x + 6, y - 16 - wingLift, x - 4, y - 22 - wingLift);
-      // Wingtip curls back
-      ctx.quadraticCurveTo(x - 20, y - 18 - wingLift * 0.8, x - 18, y - 8 - wingLift * 0.4);
-      // Trailing edge back to shoulder
-      ctx.quadraticCurveTo(x - 8, y - 2, x - 2, y - 2);
+      ctx.moveTo(x - 4, y + 4);
+      ctx.lineTo(x + 4, y + 4);
+      ctx.lineTo(x + 2, y + 11);
+      ctx.lineTo(x - 2, y + 11);
       ctx.closePath();
       ctx.fill();
 
-      // --- EYE (tiny dark dot for readability) ---
-      ctx.fillStyle = "rgba(40, 30, 20, 0.55)";
+      // --- BODY (small vertical capsule, centered) ---
       ctx.beginPath();
-      ctx.arc(x + 14, y - 4, 0.9, 0, Math.PI * 2);
+      ctx.ellipse(x, y + 1, 4, 7, 0, 0, Math.PI * 2);
+      ctx.fill();
+
+      // --- HEAD (tiny round bump above body, barely visible) ---
+      ctx.beginPath();
+      ctx.arc(x, y - 5, 3, 0, Math.PI * 2);
       ctx.fill();
 
       ctx.restore();
