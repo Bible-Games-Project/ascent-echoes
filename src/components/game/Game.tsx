@@ -702,7 +702,9 @@ export function Game() {
 
       // Dove silhouette: wings-first, minimal body/head
       const bodyAlpha = (0.9 + 0.1 * pulse) * dimming;
-      const wingLift = Math.sin(timeSec * 2.2) * 2; // subtle wing breathing
+      // Calm, graceful wing flap
+      const flap = Math.sin(timeSec * 4.5);
+      const wingLift = flap * 8;
       const doveColor = invuln > 0
         ? `rgba(255, 235, 170, ${bodyAlpha})`
         : `rgba(255, 252, 240, ${bodyAlpha})`;
@@ -712,52 +714,63 @@ export function Game() {
       ctx.shadowBlur = 16 + 14 * glowBoost;
       ctx.fillStyle = doveColor;
 
-      // Major vertical thickness increase (~3x) — keeps X exactly the same
-      ctx.translate(x, y);
-      ctx.scale(1, 3.0);
-      ctx.translate(-x, -y);
+      // Side-view dove facing RIGHT — recognizable bird silhouette.
+      // Keeps current overall footprint (~60px wide, ~40px tall) and hitbox.
 
-      // Reference silhouette: front view, wings dominate horizontally,
-      // sweeping up at the tips; tiny head, tiny body, small squared tail.
-
-      // LEFT WING — long, thin, swept-up tip
+      // --- FAR WING (behind body) — visible behind/above, moves opposite ---
+      ctx.globalAlpha = 0.75;
       ctx.beginPath();
-      ctx.moveTo(x - 2, y - 1 - wingLift);
-      // top edge sweeps out and slightly down, then curls up at the tip
-      ctx.quadraticCurveTo(x - 30, y + 1 - wingLift, x - 78, y - 14 - wingLift);
-      // tip
-      ctx.quadraticCurveTo(x - 70, y - 8 - wingLift, x - 60, y - 2 - wingLift);
-      // bottom edge returns toward the body
-      ctx.quadraticCurveTo(x - 28, y + 6, x - 2, y + 3);
+      ctx.moveTo(x - 2, y - 3);
+      ctx.quadraticCurveTo(x - 10, y - 14 + wingLift * 0.6, x - 22, y - 6 + wingLift * 0.4);
+      ctx.quadraticCurveTo(x - 14, y - 2, x - 4, y - 1);
+      ctx.closePath();
+      ctx.fill();
+      ctx.globalAlpha = 1;
+
+      // --- TAIL — fanned shape at the back (left) ---
+      ctx.beginPath();
+      ctx.moveTo(x - 8, y + 2);
+      ctx.quadraticCurveTo(x - 22, y - 2, x - 26, y + 2);
+      ctx.lineTo(x - 24, y + 5);
+      ctx.quadraticCurveTo(x - 18, y + 7, x - 8, y + 6);
       ctx.closePath();
       ctx.fill();
 
-      // RIGHT WING — mirrored
+      // --- BODY — elongated horizontal ellipse, slight upward tilt ---
       ctx.beginPath();
-      ctx.moveTo(x + 2, y - 1 - wingLift);
-      ctx.quadraticCurveTo(x + 30, y + 1 - wingLift, x + 78, y - 14 - wingLift);
-      ctx.quadraticCurveTo(x + 70, y - 8 - wingLift, x + 60, y - 2 - wingLift);
-      ctx.quadraticCurveTo(x + 28, y + 6, x + 2, y + 3);
+      ctx.ellipse(x, y + 2, 14, 7, -0.12, 0, Math.PI * 2);
+      ctx.fill();
+
+      // --- HEAD — round, sits forward and slightly above body ---
+      ctx.beginPath();
+      ctx.arc(x + 13, y - 3, 5.2, 0, Math.PI * 2);
+      ctx.fill();
+
+      // --- BEAK — small triangle pointing right ---
+      ctx.beginPath();
+      ctx.moveTo(x + 17, y - 3);
+      ctx.lineTo(x + 22, y - 2);
+      ctx.lineTo(x + 17, y - 1);
       ctx.closePath();
       ctx.fill();
 
-      // BODY — very small vertical capsule
+      // --- NEAR WING (in front of body) — large, animated flap ---
+      // Pivots from shoulder near (x-2, y-2), sweeps back over body.
       ctx.beginPath();
-      ctx.ellipse(x, y + 1, 3.2, 5.8, 0, 0, Math.PI * 2);
-      ctx.fill();
-
-      // HEAD — tiny round dot at the top of the body
-      ctx.beginPath();
-      ctx.arc(x, y - 4, 2.8, 0, Math.PI * 2);
-      ctx.fill();
-
-      // TAIL — small narrow squared shape below the body
-      ctx.beginPath();
-      ctx.moveTo(x - 3.5, y + 6);
-      ctx.lineTo(x - 4, y + 13);
-      ctx.lineTo(x + 4, y + 13);
-      ctx.lineTo(x + 3.5, y + 6);
+      ctx.moveTo(x - 2, y - 2);
+      // Leading edge up and back to wingtip
+      ctx.quadraticCurveTo(x + 6, y - 16 - wingLift, x - 4, y - 22 - wingLift);
+      // Wingtip curls back
+      ctx.quadraticCurveTo(x - 20, y - 18 - wingLift * 0.8, x - 18, y - 8 - wingLift * 0.4);
+      // Trailing edge back to shoulder
+      ctx.quadraticCurveTo(x - 8, y - 2, x - 2, y - 2);
       ctx.closePath();
+      ctx.fill();
+
+      // --- EYE (tiny dark dot for readability) ---
+      ctx.fillStyle = "rgba(40, 30, 20, 0.55)";
+      ctx.beginPath();
+      ctx.arc(x + 14, y - 4, 0.9, 0, Math.PI * 2);
       ctx.fill();
 
       ctx.restore();
