@@ -714,43 +714,46 @@ export function Game() {
 
       // Body (teardrop)
       ctx.beginPath();
-      ctx.ellipse(x, y, 7, 10, 0, 0, Math.PI * 2);
+      ctx.ellipse(x, y + 1.5, 10.5, 15, 0, 0, Math.PI * 2);
       ctx.fill();
 
       // Head
       ctx.beginPath();
-      ctx.arc(x, y - 10, 5, 0, Math.PI * 2);
+      ctx.arc(x, y - 16.5, 7.5, 0, Math.PI * 2);
       ctx.fill();
 
       // Beak hint
       ctx.beginPath();
-      ctx.moveTo(x, y - 14);
-      ctx.lineTo(x - 1.5, y - 16.5);
-      ctx.lineTo(x + 1.5, y - 16.5);
+      ctx.moveTo(x, y - 24);
+      ctx.lineTo(x - 2.25, y - 27);
+      ctx.lineTo(x + 2.25, y - 27);
       ctx.closePath();
       ctx.fill();
 
-      // Left wing (curved)
+      // Left wing (broad, clearly wing-shaped)
       ctx.beginPath();
-      ctx.moveTo(x - 4, y - 2 - wingLift);
-      ctx.quadraticCurveTo(x - 22, y - 14 - wingLift, x - 18, y + 4);
-      ctx.quadraticCurveTo(x - 12, y - 2, x - 4, y + 4);
+      ctx.moveTo(x - 6, y - 3 - wingLift);
+      ctx.quadraticCurveTo(x - 27, y - 21 - wingLift, x - 33, y - 3);
+      ctx.quadraticCurveTo(x - 27, y + 12, x - 12, y + 6);
       ctx.closePath();
       ctx.fill();
 
-      // Right wing (curved)
+      // Right wing (broad, clearly wing-shaped)
       ctx.beginPath();
-      ctx.moveTo(x + 4, y - 2 - wingLift);
-      ctx.quadraticCurveTo(x + 22, y - 14 - wingLift, x + 18, y + 4);
-      ctx.quadraticCurveTo(x + 12, y - 2, x + 4, y + 4);
+      ctx.moveTo(x + 6, y - 3 - wingLift);
+      ctx.quadraticCurveTo(x + 27, y - 21 - wingLift, x + 33, y - 3);
+      ctx.quadraticCurveTo(x + 27, y + 12, x + 12, y + 6);
       ctx.closePath();
       ctx.fill();
 
-      // Tail
+      // Tail (fanned dove tail)
       ctx.beginPath();
-      ctx.moveTo(x - 5, y + 8);
-      ctx.lineTo(x, y + 14);
-      ctx.lineTo(x + 5, y + 8);
+      ctx.moveTo(x - 7.5, y + 12);
+      ctx.lineTo(x, y + 21);
+      ctx.lineTo(x + 7.5, y + 12);
+      ctx.lineTo(x + 4.5, y + 13.5);
+      ctx.lineTo(x, y + 18);
+      ctx.lineTo(x - 4.5, y + 13.5);
       ctx.closePath();
       ctx.fill();
 
