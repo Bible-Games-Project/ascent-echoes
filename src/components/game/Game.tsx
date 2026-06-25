@@ -221,6 +221,8 @@ export function Game() {
     let shake = 0;
     let flash = 0;
     let invuln = 0;
+    let correctPulse = 0; // brightens dove briefly on correct answer
+    let timeSec = 0; // for idle pulsing animation
 
     // Player (bottom of screen)
     const PLAYER_Y_FRAC = 0.82;
@@ -652,43 +654,121 @@ export function Game() {
       }
     };
 
-    // ----- Player draw (robed traveler, facing forward) -----
+    // ----- Player draw (Dove of Light: minimal glowing silhouette) -----
     const drawPlayer = () => {
       const x = player.x;
       const y = playerY() + player.knock;
+      const wrong = player.knock < 0;
       const flicker = invuln > 0 && Math.floor(invuln * 20) % 2 === 0;
+      const dimming = wrong ? 0.45 + 0.55 * Math.abs(Math.sin(timeSec * 40)) : 1;
 
-      const gg = ctx.createRadialGradient(x, y, 0, x, y, 60);
-      gg.addColorStop(0, "rgba(255, 220, 160, 0.5)");
-      gg.addColorStop(1, "rgba(255, 220, 160, 0)");
+      // Idle breathing pulse
+      const pulse = 0.5 + 0.5 * Math.sin(timeSec * 2.2);
+      // Glow intensity from states
+      let glowBoost = 0;
+      if (correctPulse > 0) glowBoost = Math.max(glowBoost, correctPulse / 0.6);
+      if (hintActive !== null) glowBoost = Math.max(glowBoost, 0.45);
+      const baseGlow = 0.35 + 0.12 * pulse + 0.55 * glowBoost;
+      const glowRadius = 55 + 10 * pulse + 30 * glowBoost;
+
+      // Invincibility golden aura
+      if (invuln > 0) {
+        const ag = ctx.createRadialGradient(x, y, 0, x, y, glowRadius + 30);
+        ag.addColorStop(0, "rgba(255, 210, 110, 0.55)");
+        ag.addColorStop(0.5, "rgba(255, 190, 80, 0.25)");
+        ag.addColorStop(1, "rgba(255, 190, 80, 0)");
+        ctx.fillStyle = ag;
+        ctx.fillRect(x - (glowRadius + 30), y - (glowRadius + 30), (glowRadius + 30) * 2, (glowRadius + 30) * 2);
+      }
+
+      // Soft white/gold glow halo
+      const gg = ctx.createRadialGradient(x, y, 0, x, y, glowRadius);
+      const goldMix = invuln > 0 ? 1 : 0.35;
+      const r = 255;
+      const g = Math.round(245 - 30 * goldMix);
+      const b = Math.round(220 - 90 * goldMix);
+      gg.addColorStop(0, `rgba(${r}, ${g}, ${b}, ${0.55 * baseGlow * dimming})`);
+      gg.addColorStop(1, `rgba(${r}, ${g}, ${b}, 0)`);
       ctx.fillStyle = gg;
-      ctx.fillRect(x - 60, y - 60, 120, 120);
+      ctx.fillRect(x - glowRadius, y - glowRadius, glowRadius * 2, glowRadius * 2);
+
+      // Soft shadow
+      ctx.fillStyle = "rgba(0,0,0,0.25)";
+      ctx.beginPath();
+      ctx.ellipse(x, y + 22, 18, 4, 0, 0, Math.PI * 2);
+      ctx.fill();
 
       if (flicker) return;
 
-      ctx.fillStyle = "rgba(0,0,0,0.35)";
+      // Dove silhouette: minimal stylized body + wings
+      const bodyAlpha = (0.9 + 0.1 * pulse) * dimming;
+      const wingLift = Math.sin(timeSec * 2.2) * 2; // subtle wing breathing
+      const doveColor = invuln > 0
+        ? `rgba(255, 235, 170, ${bodyAlpha})`
+        : `rgba(255, 252, 240, ${bodyAlpha})`;
+
+      ctx.save();
+      ctx.shadowColor = invuln > 0 ? "rgba(255, 210, 120, 0.9)" : "rgba(255, 245, 220, 0.85)";
+      ctx.shadowBlur = 16 + 14 * glowBoost;
+      ctx.fillStyle = doveColor;
+
+      // Body (teardrop)
       ctx.beginPath();
-      ctx.ellipse(x, y + 22, 16, 4, 0, 0, Math.PI * 2);
+      ctx.ellipse(x, y, 7, 10, 0, 0, Math.PI * 2);
       ctx.fill();
 
-      ctx.fillStyle = "#d94f4f";
+      // Head
       ctx.beginPath();
-      ctx.moveTo(x - 14, y + 20);
-      ctx.lineTo(x - 10, y - 8);
-      ctx.quadraticCurveTo(x, y - 22, x + 10, y - 8);
-      ctx.lineTo(x + 14, y + 20);
+      ctx.arc(x, y - 10, 5, 0, Math.PI * 2);
+      ctx.fill();
+
+      // Beak hint
+      ctx.beginPath();
+      ctx.moveTo(x, y - 14);
+      ctx.lineTo(x - 1.5, y - 16.5);
+      ctx.lineTo(x + 1.5, y - 16.5);
       ctx.closePath();
       ctx.fill();
-      ctx.fillStyle = "#f2c94c";
-      ctx.fillRect(x - 14, y + 16, 28, 3);
-      ctx.fillStyle = "#f4d5b3";
+
+      // Left wing (curved)
       ctx.beginPath();
-      ctx.arc(x, y - 18, 6, 0, Math.PI * 2);
+      ctx.moveTo(x - 4, y - 2 - wingLift);
+      ctx.quadraticCurveTo(x - 22, y - 14 - wingLift, x - 18, y + 4);
+      ctx.quadraticCurveTo(x - 12, y - 2, x - 4, y + 4);
+      ctx.closePath();
       ctx.fill();
-      ctx.fillStyle = "#a83838";
+
+      // Right wing (curved)
       ctx.beginPath();
-      ctx.arc(x, y - 18, 6, Math.PI * 0.1, Math.PI * 0.9);
+      ctx.moveTo(x + 4, y - 2 - wingLift);
+      ctx.quadraticCurveTo(x + 22, y - 14 - wingLift, x + 18, y + 4);
+      ctx.quadraticCurveTo(x + 12, y - 2, x + 4, y + 4);
+      ctx.closePath();
       ctx.fill();
+
+      // Tail
+      ctx.beginPath();
+      ctx.moveTo(x - 5, y + 8);
+      ctx.lineTo(x, y + 14);
+      ctx.lineTo(x + 5, y + 8);
+      ctx.closePath();
+      ctx.fill();
+
+      ctx.restore();
+
+      // Bombilla hint: subtle light beam toward safe lane (no UI changes)
+      if (hintActive !== null) {
+        const targetX = laneX(hintActive);
+        const grd = ctx.createLinearGradient(x, y, targetX, y - 40);
+        grd.addColorStop(0, "rgba(255, 240, 180, 0.35)");
+        grd.addColorStop(1, "rgba(255, 240, 180, 0)");
+        ctx.strokeStyle = grd;
+        ctx.lineWidth = 2;
+        ctx.beginPath();
+        ctx.moveTo(x, y - 6);
+        ctx.lineTo(targetX, y - 80);
+        ctx.stroke();
+      }
     };
 
     const drawParticles = (dt: number) => {
@@ -781,6 +861,8 @@ export function Game() {
       const dt = stateRef.current === "playing" ? dtRaw * turboRef.current : dtRaw;
       last = now;
       bgDrift += dt * 18;
+      timeSec += dt;
+      if (correctPulse > 0) correctPulse = Math.max(0, correctPulse - dt);
 
       ctx.save();
       if (shake > 0) {
@@ -839,6 +921,7 @@ export function Game() {
               streakRef.current = newStreak; setStreak(newStreak);
               const newMult = multiplierForStreak(newStreak);
               scoreRef.current += 10 * newMult; setScore(scoreRef.current);
+              correctPulse = 0.6;
               if (newMult > prevMult) {
                 setMultiplierToast(newMult);
                 setTimeout(() => setMultiplierToast(null), 1400);
