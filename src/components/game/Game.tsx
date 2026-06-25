@@ -783,6 +783,8 @@ export function Game() {
       const dt = stateRef.current === "playing" ? dtRaw * turboRef.current : dtRaw;
       last = now;
       bgDrift += dt * 18;
+      timeSec += dt;
+      if (correctPulse > 0) correctPulse = Math.max(0, correctPulse - dt);
 
       ctx.save();
       if (shake > 0) {
