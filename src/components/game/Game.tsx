@@ -712,50 +712,50 @@ export function Game() {
       ctx.shadowBlur = 16 + 14 * glowBoost;
       ctx.fillStyle = doveColor;
 
-      // Horizontal bird body (wider than tall, unmistakably bird-like)
+      // Horizontal bird body (smaller, lighter core mass)
       ctx.beginPath();
-      ctx.ellipse(x, y + 2, 20, 11, 0, 0, Math.PI * 2);
+      ctx.ellipse(x, y + 3, 15, 8, 0, 0, Math.PI * 2);
       ctx.fill();
 
-      // Head: small, clearly separated at front/top
+      // Head: smaller, clearly separated at front/top
       ctx.beginPath();
-      ctx.arc(x, y - 17, 8, 0, Math.PI * 2);
+      ctx.arc(x, y - 15, 6, 0, Math.PI * 2);
       ctx.fill();
 
       // Beak: small triangle pointing forward/up
       ctx.beginPath();
-      ctx.moveTo(x, y - 24);
-      ctx.lineTo(x - 2.5, y - 29);
-      ctx.lineTo(x + 2.5, y - 29);
+      ctx.moveTo(x, y - 21);
+      ctx.lineTo(x - 2, y - 26);
+      ctx.lineTo(x + 2, y - 26);
       ctx.closePath();
       ctx.fill();
 
-      // Left wing: large, sweeping back from shoulder — reads as bird wing
+      // Left wing: longer, more dominant, sweeping back from shoulder
       ctx.beginPath();
-      ctx.moveTo(x - 8, y - 4 - wingLift);
-      ctx.quadraticCurveTo(x - 18, y - 24 - wingLift, x - 32, y - 18 - wingLift);
-      ctx.quadraticCurveTo(x - 36, y - 6 - wingLift, x - 28, y + 4);
-      ctx.quadraticCurveTo(x - 18, y + 8, x - 8, y + 2);
+      ctx.moveTo(x - 6, y - 3 - wingLift);
+      ctx.quadraticCurveTo(x - 24, y - 28 - wingLift, x - 44, y - 22 - wingLift);
+      ctx.quadraticCurveTo(x - 50, y - 8 - wingLift, x - 36, y + 5);
+      ctx.quadraticCurveTo(x - 22, y + 9, x - 6, y + 2);
       ctx.closePath();
       ctx.fill();
 
-      // Right wing: large, sweeping back from shoulder — reads as bird wing
+      // Right wing: longer, more dominant, sweeping back from shoulder
       ctx.beginPath();
-      ctx.moveTo(x + 8, y - 4 - wingLift);
-      ctx.quadraticCurveTo(x + 18, y - 24 - wingLift, x + 32, y - 18 - wingLift);
-      ctx.quadraticCurveTo(x + 36, y - 6 - wingLift, x + 28, y + 4);
-      ctx.quadraticCurveTo(x + 18, y + 8, x + 8, y + 2);
+      ctx.moveTo(x + 6, y - 3 - wingLift);
+      ctx.quadraticCurveTo(x + 24, y - 28 - wingLift, x + 44, y - 22 - wingLift);
+      ctx.quadraticCurveTo(x + 50, y - 8 - wingLift, x + 36, y + 5);
+      ctx.quadraticCurveTo(x + 22, y + 9, x + 6, y + 2);
       ctx.closePath();
       ctx.fill();
 
-      // Tail: prominent fanned dove tail at rear
+      // Tail: larger fanned dove tail at rear to balance wing dominance
       ctx.beginPath();
-      ctx.moveTo(x - 8, y + 10);
-      ctx.lineTo(x, y + 26);
-      ctx.lineTo(x + 8, y + 10);
-      ctx.lineTo(x + 5, y + 13);
-      ctx.lineTo(x, y + 22);
-      ctx.lineTo(x - 5, y + 13);
+      ctx.moveTo(x - 10, y + 8);
+      ctx.lineTo(x, y + 30);
+      ctx.lineTo(x + 10, y + 8);
+      ctx.lineTo(x + 6, y + 12);
+      ctx.lineTo(x, y + 24);
+      ctx.lineTo(x - 6, y + 12);
       ctx.closePath();
       ctx.fill();
 
