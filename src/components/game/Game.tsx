@@ -712,6 +712,11 @@ export function Game() {
       ctx.shadowBlur = 16 + 14 * glowBoost;
       ctx.fillStyle = doveColor;
 
+      // Uniform vertical thickness adjustment (~+8%) — keeps X exactly the same
+      ctx.translate(x, y);
+      ctx.scale(1, 1.08);
+      ctx.translate(-x, -y);
+
       // Reference silhouette: front view, wings dominate horizontally,
       // sweeping up at the tips; tiny head, tiny body, small squared tail.
 
