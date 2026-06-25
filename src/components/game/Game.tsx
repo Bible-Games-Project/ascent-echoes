@@ -723,7 +723,7 @@ export function Game() {
       // tip
       ctx.quadraticCurveTo(x - 70, y - 8 - wingLift, x - 60, y - 2 - wingLift);
       // bottom edge returns toward the body
-      ctx.quadraticCurveTo(x - 28, y + 5, x - 2, y + 2);
+      ctx.quadraticCurveTo(x - 28, y + 6, x - 2, y + 3);
       ctx.closePath();
       ctx.fill();
 
@@ -732,26 +732,26 @@ export function Game() {
       ctx.moveTo(x + 2, y - 1 - wingLift);
       ctx.quadraticCurveTo(x + 30, y + 1 - wingLift, x + 78, y - 14 - wingLift);
       ctx.quadraticCurveTo(x + 70, y - 8 - wingLift, x + 60, y - 2 - wingLift);
-      ctx.quadraticCurveTo(x + 28, y + 5, x + 2, y + 2);
+      ctx.quadraticCurveTo(x + 28, y + 6, x + 2, y + 3);
       ctx.closePath();
       ctx.fill();
 
       // BODY — very small vertical capsule
       ctx.beginPath();
-      ctx.ellipse(x, y + 1, 3.2, 5, 0, 0, Math.PI * 2);
+      ctx.ellipse(x, y + 1, 3.2, 5.8, 0, 0, Math.PI * 2);
       ctx.fill();
 
       // HEAD — tiny round dot at the top of the body
       ctx.beginPath();
-      ctx.arc(x, y - 4, 2.4, 0, Math.PI * 2);
+      ctx.arc(x, y - 4, 2.8, 0, Math.PI * 2);
       ctx.fill();
 
       // TAIL — small narrow squared shape below the body
       ctx.beginPath();
-      ctx.moveTo(x - 3.5, y + 5);
-      ctx.lineTo(x - 4, y + 11);
-      ctx.lineTo(x + 4, y + 11);
-      ctx.lineTo(x + 3.5, y + 5);
+      ctx.moveTo(x - 3.5, y + 6);
+      ctx.lineTo(x - 4, y + 13);
+      ctx.lineTo(x + 4, y + 13);
+      ctx.lineTo(x + 3.5, y + 6);
       ctx.closePath();
       ctx.fill();
 
