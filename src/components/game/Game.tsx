@@ -712,52 +712,46 @@ export function Game() {
       ctx.shadowBlur = 16 + 14 * glowBoost;
       ctx.fillStyle = doveColor;
 
-      // Minimal body (~20% of visual mass)
-      ctx.beginPath();
-      ctx.ellipse(x, y + 2, 7, 4, 0, 0, Math.PI * 2);
-      ctx.fill();
+      // Reference silhouette: front view, wings dominate horizontally,
+      // sweeping up at the tips; tiny head, tiny body, small squared tail.
 
-      // Tiny head (~symbolic, secondary)
+      // LEFT WING — long, thin, swept-up tip
       ctx.beginPath();
-      ctx.arc(x, y - 8, 3, 0, Math.PI * 2);
-      ctx.fill();
-
-      // Tiny beak
-      ctx.beginPath();
-      ctx.moveTo(x, y - 11);
-      ctx.lineTo(x - 1.5, y - 14);
-      ctx.lineTo(x + 1.5, y - 14);
+      ctx.moveTo(x - 2, y - 1 - wingLift);
+      // top edge sweeps out and slightly down, then curls up at the tip
+      ctx.quadraticCurveTo(x - 30, y + 1 - wingLift, x - 78, y - 14 - wingLift);
+      // tip
+      ctx.quadraticCurveTo(x - 70, y - 8 - wingLift, x - 60, y - 2 - wingLift);
+      // bottom edge returns toward the body
+      ctx.quadraticCurveTo(x - 28, y + 5, x - 2, y + 2);
       ctx.closePath();
       ctx.fill();
 
-      // Left wing: dominant, long, elegant (70-80% of width)
+      // RIGHT WING — mirrored
       ctx.beginPath();
-      ctx.moveTo(x - 3, y - 1 - wingLift);
-      ctx.quadraticCurveTo(x - 22, y - 24 - wingLift, x - 52, y - 20 - wingLift);
-      ctx.quadraticCurveTo(x - 64, y - 10 - wingLift, x - 58, y + 2 - wingLift);
-      ctx.quadraticCurveTo(x - 40, y + 8, x - 18, y + 5);
-      ctx.quadraticCurveTo(x - 8, y + 4, x - 3, y + 2);
+      ctx.moveTo(x + 2, y - 1 - wingLift);
+      ctx.quadraticCurveTo(x + 30, y + 1 - wingLift, x + 78, y - 14 - wingLift);
+      ctx.quadraticCurveTo(x + 70, y - 8 - wingLift, x + 60, y - 2 - wingLift);
+      ctx.quadraticCurveTo(x + 28, y + 5, x + 2, y + 2);
       ctx.closePath();
       ctx.fill();
 
-      // Right wing: dominant, long, elegant (70-80% of width)
+      // BODY — very small vertical capsule
       ctx.beginPath();
-      ctx.moveTo(x + 3, y - 1 - wingLift);
-      ctx.quadraticCurveTo(x + 22, y - 24 - wingLift, x + 52, y - 20 - wingLift);
-      ctx.quadraticCurveTo(x + 64, y - 10 - wingLift, x + 58, y + 2 - wingLift);
-      ctx.quadraticCurveTo(x + 40, y + 8, x + 18, y + 5);
-      ctx.quadraticCurveTo(x + 8, y + 4, x + 3, y + 2);
-      ctx.closePath();
+      ctx.ellipse(x, y + 1, 3.2, 5, 0, 0, Math.PI * 2);
       ctx.fill();
 
-      // Subtle tail (small, does not compete with wings)
+      // HEAD — tiny round dot at the top of the body
       ctx.beginPath();
-      ctx.moveTo(x - 5, y + 5);
-      ctx.lineTo(x, y + 14);
-      ctx.lineTo(x + 5, y + 5);
-      ctx.lineTo(x + 2, y + 7);
-      ctx.lineTo(x, y + 10);
-      ctx.lineTo(x - 2, y + 7);
+      ctx.arc(x, y - 4, 2.4, 0, Math.PI * 2);
+      ctx.fill();
+
+      // TAIL — small narrow squared shape below the body
+      ctx.beginPath();
+      ctx.moveTo(x - 3.5, y + 5);
+      ctx.lineTo(x - 4, y + 11);
+      ctx.lineTo(x + 4, y + 11);
+      ctx.lineTo(x + 3.5, y + 5);
       ctx.closePath();
       ctx.fill();
 
