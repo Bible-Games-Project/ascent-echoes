@@ -712,48 +712,50 @@ export function Game() {
       ctx.shadowBlur = 16 + 14 * glowBoost;
       ctx.fillStyle = doveColor;
 
-      // Body (teardrop)
+      // Horizontal bird body (wider than tall, unmistakably bird-like)
       ctx.beginPath();
-      ctx.ellipse(x, y + 1.5, 10.5, 15, 0, 0, Math.PI * 2);
+      ctx.ellipse(x, y + 2, 20, 11, 0, 0, Math.PI * 2);
       ctx.fill();
 
-      // Head
+      // Head: small, clearly separated at front/top
       ctx.beginPath();
-      ctx.arc(x, y - 16.5, 7.5, 0, Math.PI * 2);
+      ctx.arc(x, y - 17, 8, 0, Math.PI * 2);
       ctx.fill();
 
-      // Beak hint
+      // Beak: small triangle pointing forward/up
       ctx.beginPath();
       ctx.moveTo(x, y - 24);
-      ctx.lineTo(x - 2.25, y - 27);
-      ctx.lineTo(x + 2.25, y - 27);
+      ctx.lineTo(x - 2.5, y - 29);
+      ctx.lineTo(x + 2.5, y - 29);
       ctx.closePath();
       ctx.fill();
 
-      // Left wing (broad, clearly wing-shaped)
+      // Left wing: large, sweeping back from shoulder — reads as bird wing
       ctx.beginPath();
-      ctx.moveTo(x - 6, y - 3 - wingLift);
-      ctx.quadraticCurveTo(x - 27, y - 21 - wingLift, x - 33, y - 3);
-      ctx.quadraticCurveTo(x - 27, y + 12, x - 12, y + 6);
+      ctx.moveTo(x - 8, y - 4 - wingLift);
+      ctx.quadraticCurveTo(x - 18, y - 24 - wingLift, x - 32, y - 18 - wingLift);
+      ctx.quadraticCurveTo(x - 36, y - 6 - wingLift, x - 28, y + 4);
+      ctx.quadraticCurveTo(x - 18, y + 8, x - 8, y + 2);
       ctx.closePath();
       ctx.fill();
 
-      // Right wing (broad, clearly wing-shaped)
+      // Right wing: large, sweeping back from shoulder — reads as bird wing
       ctx.beginPath();
-      ctx.moveTo(x + 6, y - 3 - wingLift);
-      ctx.quadraticCurveTo(x + 27, y - 21 - wingLift, x + 33, y - 3);
-      ctx.quadraticCurveTo(x + 27, y + 12, x + 12, y + 6);
+      ctx.moveTo(x + 8, y - 4 - wingLift);
+      ctx.quadraticCurveTo(x + 18, y - 24 - wingLift, x + 32, y - 18 - wingLift);
+      ctx.quadraticCurveTo(x + 36, y - 6 - wingLift, x + 28, y + 4);
+      ctx.quadraticCurveTo(x + 18, y + 8, x + 8, y + 2);
       ctx.closePath();
       ctx.fill();
 
-      // Tail (fanned dove tail)
+      // Tail: prominent fanned dove tail at rear
       ctx.beginPath();
-      ctx.moveTo(x - 7.5, y + 12);
-      ctx.lineTo(x, y + 21);
-      ctx.lineTo(x + 7.5, y + 12);
-      ctx.lineTo(x + 4.5, y + 13.5);
-      ctx.lineTo(x, y + 18);
-      ctx.lineTo(x - 4.5, y + 13.5);
+      ctx.moveTo(x - 8, y + 10);
+      ctx.lineTo(x, y + 26);
+      ctx.lineTo(x + 8, y + 10);
+      ctx.lineTo(x + 5, y + 13);
+      ctx.lineTo(x, y + 22);
+      ctx.lineTo(x - 5, y + 13);
       ctx.closePath();
       ctx.fill();
 
