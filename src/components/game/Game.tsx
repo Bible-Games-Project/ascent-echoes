@@ -221,6 +221,8 @@ export function Game() {
     let shake = 0;
     let flash = 0;
     let invuln = 0;
+    let correctPulse = 0; // brightens dove briefly on correct answer
+    let timeSec = 0; // for idle pulsing animation
 
     // Player (bottom of screen)
     const PLAYER_Y_FRAC = 0.82;
@@ -839,6 +841,7 @@ export function Game() {
               streakRef.current = newStreak; setStreak(newStreak);
               const newMult = multiplierForStreak(newStreak);
               scoreRef.current += 10 * newMult; setScore(scoreRef.current);
+              correctPulse = 0.6;
               if (newMult > prevMult) {
                 setMultiplierToast(newMult);
                 setTimeout(() => setMultiplierToast(null), 1400);
