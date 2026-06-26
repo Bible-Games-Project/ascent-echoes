@@ -1136,6 +1136,8 @@ export function Game() {
     })();
   };
 
+  const t = getT(language);
+
   return (
     <div className="relative h-[100svh] w-screen overflow-hidden bg-black select-none">
       <canvas
