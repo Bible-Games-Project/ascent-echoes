@@ -91,6 +91,8 @@ export function Game() {
   const [bestScore, setBestScore] = useState(0);
   const [streak, setStreak] = useState(0);
   const [multiplierToast, setMultiplierToast] = useState<number | null>(null);
+  const [correctTotal, setCorrectTotal] = useState(0);
+  const [showExitConfirm, setShowExitConfirm] = useState(false);
   const [hintLane, setHintLane] = useState<Lane | null>(null);
   const [distortion, setDistortion] = useState(0);
   const [runTime, setRunTime] = useState(0);
@@ -124,6 +126,7 @@ export function Game() {
   const runTimeRef = useRef(0);
   const languageRef = useRef<Language>(language);
   const usedIdsRef = useRef<Set<string>>(new Set());
+  const correctTotalRef = useRef(0);
 
   useEffect(() => { stateRef.current = state; }, [state]);
   useEffect(() => { healthRef.current = health; }, [health]);
@@ -809,6 +812,7 @@ export function Game() {
       setProgress(0); progressRef.current = 0;
       scoreRef.current = 0; setScore(0);
       streakRef.current = 0; setStreak(0);
+      correctTotalRef.current = 0; setCorrectTotal(0);
       setHintLane(null); setDistortion(0); setMultiplierToast(null);
       setCurrentQuestion(null); setCurrentAnswers(null);
       levelRef.current = 1; setLevel(1);
@@ -924,6 +928,7 @@ export function Game() {
               streakRef.current = newStreak; setStreak(newStreak);
               const newMult = multiplierForStreak(newStreak);
               scoreRef.current += 10 * newMult; setScore(scoreRef.current);
+              correctTotalRef.current += 1; setCorrectTotal(correctTotalRef.current);
               correctPulse = 0.6;
               if (newMult > prevMult) {
                 setMultiplierToast(newMult);
