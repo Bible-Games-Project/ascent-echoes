@@ -91,6 +91,8 @@ export function Game() {
   const [bestScore, setBestScore] = useState(0);
   const [streak, setStreak] = useState(0);
   const [multiplierToast, setMultiplierToast] = useState<number | null>(null);
+  const [correctTotal, setCorrectTotal] = useState(0);
+  const [showExitConfirm, setShowExitConfirm] = useState(false);
   const [hintLane, setHintLane] = useState<Lane | null>(null);
   const [distortion, setDistortion] = useState(0);
   const [runTime, setRunTime] = useState(0);
@@ -124,6 +126,7 @@ export function Game() {
   const runTimeRef = useRef(0);
   const languageRef = useRef<Language>(language);
   const usedIdsRef = useRef<Set<string>>(new Set());
+  const correctTotalRef = useRef(0);
 
   useEffect(() => { stateRef.current = state; }, [state]);
   useEffect(() => { healthRef.current = health; }, [health]);
@@ -809,6 +812,7 @@ export function Game() {
       setProgress(0); progressRef.current = 0;
       scoreRef.current = 0; setScore(0);
       streakRef.current = 0; setStreak(0);
+      correctTotalRef.current = 0; setCorrectTotal(0);
       setHintLane(null); setDistortion(0); setMultiplierToast(null);
       setCurrentQuestion(null); setCurrentAnswers(null);
       levelRef.current = 1; setLevel(1);
@@ -924,6 +928,7 @@ export function Game() {
               streakRef.current = newStreak; setStreak(newStreak);
               const newMult = multiplierForStreak(newStreak);
               scoreRef.current += 10 * newMult; setScore(scoreRef.current);
+              correctTotalRef.current += 1; setCorrectTotal(correctTotalRef.current);
               correctPulse = 0.6;
               if (newMult > prevMult) {
                 setMultiplierToast(newMult);
@@ -1134,7 +1139,7 @@ export function Game() {
 
       {state === "playing" && (
         <>
-          {/* Top bar: hearts + score + level + timer */}
+          {/* Top HUD: left group (lives/score/questions), right group (level/streak), home button */}
           <div className="pointer-events-none absolute inset-x-0 top-0 z-10 flex items-start justify-between px-3 pt-3">
             <div className="flex flex-col gap-1.5">
               <div className="flex items-center gap-1.5">
@@ -1145,6 +1150,31 @@ export function Game() {
                 <span className="text-amber-50 tabular-nums">{score}</span>
               </div>
               <div className="flex items-center gap-2 rounded-full bg-black/45 px-2.5 py-0.5 text-[10px] font-medium tracking-widest text-amber-100 backdrop-blur">
+                <span className="text-amber-200/70">QUESTIONS</span>
+                <span className="text-amber-50 tabular-nums">{correctTotal}</span>
+              </div>
+            </div>
+            <div className="flex flex-col items-end gap-1.5">
+              <div className="flex items-center gap-1.5">
+                <div className="rounded-full bg-black/45 px-2.5 py-0.5 text-[10px] font-medium tracking-widest text-amber-100 backdrop-blur">
+                  <span className="text-amber-200/70">LEVEL </span>
+                  <span className="text-amber-50 tabular-nums">{level}</span>
+                  {level >= 11 && <span className="ml-1 text-amber-300/80">∞</span>}
+                </div>
+                <button
+                  type="button"
+                  onClick={() => setShowExitConfirm(true)}
+                  aria-label="Exit to menu"
+                  className="pointer-events-auto flex h-7 w-7 items-center justify-center rounded-full bg-black/55 text-amber-100 ring-1 ring-amber-200/30 backdrop-blur transition hover:bg-black/70"
+                >
+                  <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                    <path d="M3 11l9-8 9 8" />
+                    <path d="M5 10v10h14V10" />
+                    <path d="M10 20v-6h4v6" />
+                  </svg>
+                </button>
+              </div>
+              <div className="flex items-center gap-2 rounded-full bg-black/45 px-2.5 py-0.5 text-[10px] font-medium tracking-widest text-amber-100 backdrop-blur">
                 <span className="text-amber-200/70">STREAK</span>
                 <span className="text-amber-50 tabular-nums">{streak}</span>
                 {streak > 0 && <span>🔥</span>}
@@ -1153,20 +1183,41 @@ export function Game() {
                 </span>
               </div>
             </div>
-            <div className="flex flex-col items-end gap-1.5">
-              <div className="rounded-full bg-black/45 px-2.5 py-0.5 text-[10px] font-medium tracking-widest text-amber-100 backdrop-blur">
-                <span className="text-amber-200/70">LEVEL </span>
-                <span className="text-amber-50 tabular-nums">{level}</span>
-                {level >= 11 && <span className="ml-1 text-amber-300/80">∞</span>}
-              </div>
-              <div className="rounded-full bg-black/40 px-2.5 py-0.5 text-[10px] font-medium tracking-wider text-amber-100 backdrop-blur">
-                {progress} / 10
-              </div>
-              <div className="rounded-full px-2.5 py-0.5 text-[10px] font-medium tracking-widest backdrop-blur tabular-nums bg-black/45 text-amber-100">
-                ⏱ {formatRunTime(runTime)}
+          </div>
+
+          {showExitConfirm && (
+            <div className="absolute inset-0 z-40 flex items-center justify-center bg-black/55 backdrop-blur-sm animate-fade-in">
+              <div className="mx-4 max-w-xs rounded-2xl border border-amber-200/30 bg-black/80 p-5 text-center text-amber-50 shadow-[0_0_40px_rgba(255,200,140,0.25)]">
+                <p className="text-sm tracking-wide" style={{ fontFamily: '"Cormorant Garamond", Georgia, serif', fontSize: 18 }}>
+                  Exit game and return to menu?
+                </p>
+                <div className="mt-4 flex items-center justify-center gap-3">
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setShowExitConfirm(false);
+                      if (scoreRef.current > bestRef.current) {
+                        bestRef.current = scoreRef.current;
+                        setBestScore(scoreRef.current);
+                        try { localStorage.setItem("dunewalker_best", String(scoreRef.current)); } catch { /* ignore */ }
+                      }
+                      stateRef.current = "start"; setState("start");
+                    }}
+                    className="rounded-full bg-amber-300/30 px-5 py-1.5 text-xs font-medium tracking-[0.3em] text-amber-50 ring-1 ring-amber-200/50 transition hover:bg-amber-300/40"
+                  >
+                    YES
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => setShowExitConfirm(false)}
+                    className="rounded-full bg-black/50 px-5 py-1.5 text-xs font-medium tracking-[0.3em] text-amber-100 ring-1 ring-amber-200/30 transition hover:bg-black/70"
+                  >
+                    NO
+                  </button>
+                </div>
               </div>
             </div>
-          </div>
+          )}
 
           {/* Question - top center */}
           {currentQuestion && (
