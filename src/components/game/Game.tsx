@@ -1147,6 +1147,7 @@ export function Game() {
           transform: distortion > 0 ? `translateX(${Math.sin(Date.now() / 90) * 3}px)` : "none",
         }}
       />
+      {(() => null)()}
 
       {state === "playing" && (
         <>
