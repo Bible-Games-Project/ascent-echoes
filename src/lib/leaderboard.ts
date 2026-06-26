@@ -55,6 +55,30 @@ export function setPlayerName(name: string): string {
   return clean;
 }
 
+/**
+ * Updates the display name on the existing leaderboard row for this device's
+ * Player ID without changing its Best Score or rank. Safe to call even if the
+ * player has no row yet — in that case we skip the network round-trip so we
+ * don't create a phantom 0-score entry.
+ */
+export async function syncDisplayName(): Promise<boolean> {
+  const name = getPlayerName();
+  if (!name) return false;
+  const id = getPlayerId();
+  const best = getLocalBest();
+  if (best <= 0) return false; // no existing leaderboard row yet
+  const { error } = await supabase.rpc("submit_score", {
+    p_player_id: id,
+    p_name: name,
+    p_score: best, // GREATEST(existing, best) === existing, score preserved
+  });
+  if (error) {
+    console.warn("[leaderboard] syncDisplayName", error);
+    return false;
+  }
+  return true;
+}
+
 export function getLocalBest(): number {
   try {
     const v = parseInt(localStorage.getItem(BEST_KEY) || "0", 10);

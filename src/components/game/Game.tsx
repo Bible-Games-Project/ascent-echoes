@@ -15,11 +15,13 @@ import {
   fetchRank,
   fetchTop10,
   getLocalBest,
+  getPlayerId,
   getPlayerName,
   NAME_MAX,
   NAME_MIN,
   setPlayerName as savePlayerName,
   submitIfBest,
+  syncDisplayName,
   type LeaderboardEntry,
 } from "@/lib/leaderboard";
 
@@ -1106,6 +1108,16 @@ export function Game() {
     setPlayerNameState(saved);
     setShowNamePrompt(false);
     setShowSettings(false);
+    // Sync the new display name onto this device's existing leaderboard row
+    // (same Player ID, same Best Score, same World Rank). Then refresh the
+    // visible top 10 so the rename is reflected immediately.
+    void (async () => {
+      const ok = await syncDisplayName();
+      if (ok) {
+        const top = await fetchTop10();
+        setTopTen(top);
+      }
+    })();
   };
 
   return (
@@ -1280,7 +1292,7 @@ export function Game() {
           </div>
           <LeaderboardList
             entries={topTen}
-            currentName={playerName}
+            
           />
           <div className="mt-8 flex items-center gap-3">
             <button
@@ -1325,7 +1337,7 @@ export function Game() {
         <Overlay>
           <h2 className="text-2xl font-light tracking-[0.25em] text-amber-50">LEADERBOARD</h2>
           <p className="mt-1 text-[10px] tracking-[0.3em] text-amber-200/70">TOP 10 WORLDWIDE</p>
-          <LeaderboardList entries={topTen} currentName={playerName} />
+          <LeaderboardList entries={topTen}  />
           <button
             onClick={() => setShowLeaderboard(false)}
             className="mt-6 rounded-full border border-amber-200/40 bg-black/30 px-6 py-2 text-xs tracking-[0.25em] text-amber-100/90 backdrop-blur hover:border-amber-200/70 hover:text-amber-50"
@@ -1376,12 +1388,10 @@ function Stat({ label, value, prefix }: { label: string; value: number; prefix?:
 
 function LeaderboardList({
   entries,
-  currentName,
 }: {
   entries: LeaderboardEntry[] | null;
-  highlightId?: string;
-  currentName: string | null;
 }) {
+  const myId = typeof window !== "undefined" ? getPlayerId() : "";
   if (entries === null) {
     return (
       <div className="mt-5 w-[280px] max-w-[88vw] rounded-2xl border border-amber-200/20 bg-black/40 px-4 py-3 text-center text-[11px] tracking-[0.25em] text-amber-100/60 backdrop-blur">
@@ -1400,7 +1410,7 @@ function LeaderboardList({
     <div className="mt-5 w-[300px] max-w-[92vw] rounded-2xl border border-amber-200/25 bg-black/45 p-2 backdrop-blur-md">
       <ol className="flex flex-col">
         {entries.map((e, idx) => {
-          const mine = currentName != null && e.name === currentName;
+          const mine = e.player_id === myId;
           return (
             <li
               key={e.player_id}
