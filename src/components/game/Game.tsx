@@ -1310,54 +1310,54 @@ export function Game() {
 
       {state === "gameover" && (
         <Overlay>
-          <p className="text-xs uppercase tracking-[0.4em] text-rose-200/80">The wind took you</p>
-          <h1 className="mt-3 text-4xl font-light tracking-[0.2em] text-amber-50">FALLEN</h1>
+          <p className="text-xs uppercase tracking-[0.4em] text-rose-200/80">{t("windTookYou")}</p>
+          <h1 className="mt-3 text-4xl font-light tracking-[0.2em] text-amber-50">{t("fallen")}</h1>
           <p className="mt-1 text-xs text-amber-100/60">
-            Level {level}{level >= 11 ? " (endless)" : ""}
+            {t("level")} {level}{level >= 11 ? ` ${t("endlessSuffix")}` : ""}
           </p>
           {isWorldRecord && (
             <div className="mt-3 rounded-full bg-amber-300/30 px-4 py-1 text-[11px] tracking-[0.35em] text-amber-50 ring-1 ring-amber-200/70 shadow-[0_0_30px_rgba(255,210,140,0.7)] animate-pulse">
-              ★ NEW WORLD RECORD ★
+              {t("newWorldRecord")}
             </div>
           )}
           {!isWorldRecord && enteredTop10 && (
             <div className="mt-3 rounded-full bg-amber-200/20 px-4 py-1 text-[11px] tracking-[0.3em] text-amber-50 ring-1 ring-amber-200/60 animate-pulse">
-              NEW TOP 10 WORLD RANK
+              {t("newTop10")}
             </div>
           )}
           {!isWorldRecord && !enteredTop10 && isNewBest && (
             <div className="mt-3 rounded-full bg-amber-100/15 px-4 py-1 text-[11px] tracking-[0.3em] text-amber-100 ring-1 ring-amber-200/40">
-              NEW PERSONAL BEST
+              {t("newPersonalBest")}
             </div>
           )}
           <div className="mt-5 grid grid-cols-3 gap-6 text-center">
-            <Stat label="SCORE" value={score} />
-            <Stat label="BEST" value={bestScore} />
-            <Stat label="WORLD RANK" value={worldRank ?? 0} prefix="#" />
+            <Stat label={t("score")} value={score} />
+            <Stat label={t("best")} value={bestScore} />
+            <Stat label={t("worldRank")} value={worldRank ?? 0} prefix="#" />
           </div>
           <LeaderboardList
             entries={topTen}
-            
+            t={t}
           />
           <div className="mt-8 flex items-center gap-3">
             <button
               onClick={startGame}
               className="rounded-full bg-amber-100 px-8 py-3 text-sm font-medium tracking-[0.2em] text-stone-900 shadow-[0_0_40px_rgba(255,200,140,0.5)] transition-transform hover:scale-105 active:scale-95"
             >
-              TRY AGAIN
+              {t("tryAgain")}
             </button>
             <button
               onClick={() => { setState("start"); stateRef.current = "start"; }}
               className="rounded-full border border-amber-200/40 bg-black/30 px-6 py-3 text-xs font-medium tracking-[0.2em] text-amber-100/90 backdrop-blur transition hover:border-amber-200/70 hover:text-amber-50"
             >
-              MAIN MENU
+              {t("mainMenu")}
             </button>
           </div>
           <button
             onClick={() => setShowMoreGames(true)}
             className="mt-4 rounded-full border border-amber-200/30 bg-black/30 px-5 py-2 text-[10px] tracking-[0.25em] text-amber-100/80 backdrop-blur hover:border-amber-200/60 hover:text-amber-50"
           >
-            MORE GAMES
+            {t("moreGames")}
           </button>
         </Overlay>
       )}
@@ -1367,6 +1367,7 @@ export function Game() {
           initial={playerName ?? ""}
           onSave={handleSaveName}
           onCancel={playerName ? () => setShowNamePrompt(false) : undefined}
+          t={t}
         />
       )}
 
@@ -1377,25 +1378,26 @@ export function Game() {
           onChangeLanguage={setLanguage}
           onChangeName={() => { setShowSettings(false); setShowNamePrompt(true); }}
           onClose={() => setShowSettings(false)}
+          t={t}
         />
       )}
 
       {showLeaderboard && (
         <Overlay>
-          <h2 className="text-2xl font-light tracking-[0.25em] text-amber-50">LEADERBOARD</h2>
-          <p className="mt-1 text-[10px] tracking-[0.3em] text-amber-200/70">TOP 10 WORLDWIDE</p>
-          <LeaderboardList entries={topTen}  />
+          <h2 className="text-2xl font-light tracking-[0.25em] text-amber-50">{t("leaderboard")}</h2>
+          <p className="mt-1 text-[10px] tracking-[0.3em] text-amber-200/70">{t("top10Worldwide")}</p>
+          <LeaderboardList entries={topTen} t={t} />
           <button
             onClick={() => setShowLeaderboard(false)}
             className="mt-6 rounded-full border border-amber-200/40 bg-black/30 px-6 py-2 text-xs tracking-[0.25em] text-amber-100/90 backdrop-blur hover:border-amber-200/70 hover:text-amber-50"
           >
-            CLOSE
+            {t("close")}
           </button>
         </Overlay>
       )}
 
       {showMoreGames && (
-        <MoreGamesOverlay onClose={() => setShowMoreGames(false)} />
+        <MoreGamesOverlay onClose={() => setShowMoreGames(false)} t={t} />
       )}
     </div>
   );
