@@ -1159,18 +1159,18 @@ export function Game() {
                 {[0, 1, 2].map((i) => (<Heart key={i} filled={i < health} />))}
               </div>
               <div className="flex items-center gap-2 rounded-full bg-black/45 px-2.5 py-0.5 text-[10px] font-medium tracking-widest text-amber-100 backdrop-blur">
-                <span className="text-amber-200/70">SCORE</span>
+                <span className="text-amber-200/70">{t("score")}</span>
                 <span className="text-amber-50 tabular-nums">{score}</span>
               </div>
               <div className="flex items-center gap-2 rounded-full bg-black/45 px-2.5 py-0.5 text-[10px] font-medium tracking-widest text-amber-100 backdrop-blur">
-                <span className="text-amber-200/70">QUESTIONS</span>
+                <span className="text-amber-200/70">{t("questions")}</span>
                 <span className="text-amber-50 tabular-nums">{correctTotal}</span>
               </div>
             </div>
             <div className="flex flex-col items-end gap-1.5">
               <div className="flex items-center gap-1.5">
                 <div className="rounded-full bg-black/45 px-2.5 py-0.5 text-[10px] font-medium tracking-widest text-amber-100 backdrop-blur">
-                  <span className="text-amber-200/70">LEVEL </span>
+                  <span className="text-amber-200/70">{t("level")} </span>
                   <span className="text-amber-50 tabular-nums">{level}</span>
                   {level >= 11 && <span className="ml-1 text-amber-300/80">∞</span>}
                 </div>
@@ -1188,7 +1188,7 @@ export function Game() {
                 </button>
               </div>
               <div className="flex items-center gap-2 rounded-full bg-black/45 px-2.5 py-0.5 text-[10px] font-medium tracking-widest text-amber-100 backdrop-blur">
-                <span className="text-amber-200/70">STREAK</span>
+                <span className="text-amber-200/70">{t("streak")}</span>
                 <span className="text-amber-50 tabular-nums">{streak}</span>
                 {streak > 0 && <span>🔥</span>}
                 <span className={"ml-1 rounded-full px-1.5 py-0.5 tabular-nums " + (multiplierForStreak(streak) > 1 ? "bg-amber-300/30 text-amber-100 ring-1 ring-amber-200/40" : "text-amber-100/60")}>
@@ -1202,7 +1202,7 @@ export function Game() {
             <div className="absolute inset-0 z-40 flex items-center justify-center bg-black/55 backdrop-blur-sm animate-fade-in">
               <div className="mx-4 max-w-xs rounded-2xl border border-amber-200/30 bg-black/80 p-5 text-center text-amber-50 shadow-[0_0_40px_rgba(255,200,140,0.25)]">
                 <p className="text-sm tracking-wide" style={{ fontFamily: '"Cormorant Garamond", Georgia, serif', fontSize: 18 }}>
-                  Exit game and return to menu?
+                  {t("exitConfirm")}
                 </p>
                 <div className="mt-4 flex items-center justify-center gap-3">
                   <button
@@ -1218,14 +1218,14 @@ export function Game() {
                     }}
                     className="rounded-full bg-amber-300/30 px-5 py-1.5 text-xs font-medium tracking-[0.3em] text-amber-50 ring-1 ring-amber-200/50 transition hover:bg-amber-300/40"
                   >
-                    YES
+                    {t("yes")}
                   </button>
                   <button
                     type="button"
                     onClick={() => setShowExitConfirm(false)}
                     className="rounded-full bg-black/50 px-5 py-1.5 text-xs font-medium tracking-[0.3em] text-amber-100 ring-1 ring-amber-200/30 transition hover:bg-black/70"
                   >
-                    NO
+                    {t("no")}
                   </button>
                 </div>
               </div>
@@ -1255,7 +1255,7 @@ export function Game() {
           {multiplierToast !== null && (
             <div className="pointer-events-none absolute left-1/2 top-1/2 z-30 -translate-x-1/2 -translate-y-1/2 animate-fade-in">
               <div className="rounded-full bg-amber-300/20 px-6 py-2 text-2xl font-light tracking-[0.3em] text-amber-100 ring-1 ring-amber-200/50 backdrop-blur-md shadow-[0_0_40px_rgba(255,200,140,0.5)]">
-                x{multiplierToast} ACTIVE
+                x{multiplierToast} {t("multiplierActive")}
               </div>
             </div>
           )}
