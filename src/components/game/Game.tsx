@@ -692,12 +692,6 @@ export function Game() {
       ctx.fillStyle = gg;
       ctx.fillRect(x - glowRadius, y - glowRadius, glowRadius * 2, glowRadius * 2);
 
-      // Soft shadow
-      ctx.fillStyle = "rgba(0,0,0,0.25)";
-      ctx.beginPath();
-      ctx.ellipse(x, y + 20, 14, 3, 0, 0, Math.PI * 2);
-      ctx.fill();
-
       if (flicker) return;
 
       // Dove silhouette: wings-first, minimal body/head
