@@ -1203,40 +1203,21 @@ export function Game() {
           <h1 className="text-4xl font-light tracking-[0.25em] text-amber-50 drop-shadow-[0_2px_24px_rgba(255,180,120,0.5)]">
             DUNEWALKER
           </h1>
-          <p className="mt-3 max-w-xs text-center text-sm font-light tracking-wide text-amber-100/80">
-            Three lanes. Falling fates. Move left or right to land the right answer.
+          <p className="mt-3 max-w-xs text-center text-xs font-light tracking-wide text-amber-100/60">
+            How many Bible questions can you answer?
           </p>
-          <div className="mt-6 flex flex-col items-center gap-2">
-            <span className="text-[10px] uppercase tracking-[0.35em] text-amber-200/70">Language</span>
-            <div className="flex max-w-[320px] flex-wrap justify-center gap-1.5">
-              {LANGUAGES.map((lng) => (
-                <button
-                  key={lng}
-                  onClick={() => setLanguage(lng)}
-                  className={
-                    "rounded-full border px-3 py-1 text-[11px] tracking-wider transition " +
-                    (language === lng
-                      ? "border-amber-200/80 bg-amber-100/20 text-amber-50 shadow-[0_0_18px_rgba(255,200,140,0.4)]"
-                      : "border-amber-200/20 bg-black/30 text-amber-100/70 hover:border-amber-200/50 hover:text-amber-50")
-                  }
-                >
-                  {LANGUAGE_LABELS[lng]}
-                </button>
-              ))}
-            </div>
-          </div>
           <button
             onClick={startGame}
-            className="mt-8 rounded-full bg-amber-100 px-8 py-3 text-sm font-medium tracking-[0.2em] text-stone-900 shadow-[0_0_40px_rgba(255,200,140,0.5)] transition-transform hover:scale-105 active:scale-95"
+            className="mt-10 rounded-full bg-amber-100 px-14 py-5 text-lg font-medium tracking-[0.3em] text-stone-900 shadow-[0_0_60px_rgba(255,200,140,0.65)] transition-transform hover:scale-105 active:scale-95"
           >
             BEGIN
           </button>
           {playerName && (
-            <p className="mt-3 text-[11px] tracking-[0.25em] text-amber-100/70">
+            <p className="mt-4 text-[11px] tracking-[0.25em] text-amber-100/70">
               PLAYER · <span className="text-amber-50">{playerName}</span>
             </p>
           )}
-          <div className="mt-4 flex items-center gap-3">
+          <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
             <button
               onClick={async () => {
                 setShowLeaderboard(true);
@@ -1253,13 +1234,13 @@ export function Game() {
             >
               SETTINGS
             </button>
+            <button
+              onClick={() => setShowMoreGames(true)}
+              className="rounded-full border border-amber-200/30 bg-black/30 px-4 py-1.5 text-[10px] tracking-[0.25em] text-amber-100/80 backdrop-blur hover:border-amber-200/60 hover:text-amber-50"
+            >
+              MORE GAMES
+            </button>
           </div>
-          <button
-            onClick={() => setShowMoreGames(true)}
-            className="mt-3 rounded-full border border-amber-200/30 bg-black/30 px-4 py-1.5 text-[10px] tracking-[0.25em] text-amber-100/80 backdrop-blur hover:border-amber-200/60 hover:text-amber-50"
-          >
-            MORE GAMES
-          </button>
         </Overlay>
       )}
 
@@ -1328,6 +1309,8 @@ export function Game() {
       {showSettings && (
         <SettingsOverlay
           name={playerName ?? ""}
+          language={language}
+          onChangeLanguage={setLanguage}
           onChangeName={() => { setShowSettings(false); setShowNamePrompt(true); }}
           onClose={() => setShowSettings(false)}
         />
@@ -1490,13 +1473,18 @@ function NamePromptOverlay({
 
 function SettingsOverlay({
   name,
+  language,
+  onChangeLanguage,
   onChangeName,
   onClose,
 }: {
   name: string;
+  language: Language;
+  onChangeLanguage: (l: Language) => void;
   onChangeName: () => void;
   onClose: () => void;
 }) {
+  const [showLangs, setShowLangs] = useState(false);
   return (
     <div className="absolute inset-0 z-30 flex flex-col items-center justify-center bg-black/60 backdrop-blur-md animate-fade-in">
       <h2 className="text-xl font-light tracking-[0.25em] text-amber-50">SETTINGS</h2>
@@ -1513,6 +1501,38 @@ function SettingsOverlay({
             CHANGE
           </button>
         </div>
+      </div>
+      <div className="mt-3 w-[280px] max-w-[88vw] rounded-2xl border border-amber-200/25 bg-black/45 p-4 backdrop-blur">
+        <div className="flex items-center justify-between">
+          <div>
+            <div className="text-[10px] tracking-[0.3em] text-amber-200/70">LANGUAGE</div>
+            <div className="mt-1 text-base text-amber-50">{LANGUAGE_LABELS[language]}</div>
+          </div>
+          <button
+            onClick={() => setShowLangs((v) => !v)}
+            className="rounded-full border border-amber-200/40 bg-black/30 px-3 py-1.5 text-[10px] tracking-[0.25em] text-amber-100/90 hover:border-amber-200/70 hover:text-amber-50"
+          >
+            {showLangs ? "CLOSE" : "CHANGE"}
+          </button>
+        </div>
+        {showLangs && (
+          <div className="mt-3 flex flex-wrap justify-center gap-1.5">
+            {LANGUAGES.map((lng) => (
+              <button
+                key={lng}
+                onClick={() => { onChangeLanguage(lng); setShowLangs(false); }}
+                className={
+                  "rounded-full border px-3 py-1 text-[11px] tracking-wider transition " +
+                  (language === lng
+                    ? "border-amber-200/80 bg-amber-100/20 text-amber-50 shadow-[0_0_18px_rgba(255,200,140,0.4)]"
+                    : "border-amber-200/20 bg-black/30 text-amber-100/70 hover:border-amber-200/50 hover:text-amber-50")
+                }
+              >
+                {LANGUAGE_LABELS[lng]}
+              </button>
+            ))}
+          </div>
+        )}
       </div>
       <button
         onClick={onClose}
