@@ -1251,7 +1251,7 @@ export function Game() {
 
       {state === "start" && (
         <Overlay>
-          <h1 className="text-4xl font-light tracking-[0.25em] text-amber-50 drop-shadow-[0_2px_24px_rgba(255,180,120,0.5)]">
+          <h1 className="text-center text-4xl font-light tracking-[0.25em] text-amber-50 drop-shadow-[0_2px_24px_rgba(255,180,120,0.5)]">
             BIBLE TRIVIA RUN
           </h1>
           <p className="mt-3 max-w-xs text-center text-xs font-light tracking-wide text-amber-100/60">
