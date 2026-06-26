@@ -318,7 +318,6 @@ export function Game() {
         doorOutcome: [null, null, null],
       }));
       activeIdx = 0;
-      powerups.length = 0;
       questionTimer = timePerQuestionForLevel(lvl);
       bonusSchedule = buildBonusSchedule(queue.length);
       lastBonusSpawnIdx = -1;
@@ -818,6 +817,7 @@ export function Game() {
       slowTimer = 0; distortTimer = 0;
       hintActive = null;
       particles.length = 0;
+      powerups.length = 0;
       setHealth(3); healthRef.current = 3;
       setProgress(0); progressRef.current = 0;
       scoreRef.current = 0; setScore(0);
