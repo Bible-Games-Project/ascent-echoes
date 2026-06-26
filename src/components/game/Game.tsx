@@ -1108,6 +1108,16 @@ export function Game() {
     setPlayerNameState(saved);
     setShowNamePrompt(false);
     setShowSettings(false);
+    // Sync the new display name onto this device's existing leaderboard row
+    // (same Player ID, same Best Score, same World Rank). Then refresh the
+    // visible top 10 so the rename is reflected immediately.
+    void (async () => {
+      const ok = await syncDisplayName();
+      if (ok) {
+        const top = await fetchTop10();
+        setTopTen(top);
+      }
+    })();
   };
 
   return (
