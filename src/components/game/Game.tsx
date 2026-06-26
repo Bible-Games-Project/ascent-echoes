@@ -318,7 +318,6 @@ export function Game() {
         doorOutcome: [null, null, null],
       }));
       activeIdx = 0;
-      powerups.length = 0;
       questionTimer = timePerQuestionForLevel(lvl);
       bonusSchedule = buildBonusSchedule(queue.length);
       lastBonusSpawnIdx = -1;
@@ -515,9 +514,17 @@ export function Game() {
     const drawPowerupIcon = (type: PowerupType) => {
       switch (type) {
         case "star": {
-          ctx.fillStyle = "#ffe27a";
-          ctx.strokeStyle = "rgba(120,80,0,0.6)";
-          ctx.lineWidth = 1.2;
+          // Soft glow halo behind the star to match the game's luminous palette
+          const halo = ctx.createRadialGradient(0, 0, 2, 0, 0, 18);
+          halo.addColorStop(0, "rgba(255, 236, 180, 0.55)");
+          halo.addColorStop(1, "rgba(255, 236, 180, 0)");
+          ctx.fillStyle = halo;
+          ctx.beginPath(); ctx.arc(0, 0, 18, 0, Math.PI * 2); ctx.fill();
+          // Star body — soft warm ivory, no harsh outline
+          const grad = ctx.createRadialGradient(0, -2, 1, 0, 0, 12);
+          grad.addColorStop(0, "rgba(255, 248, 220, 0.98)");
+          grad.addColorStop(1, "rgba(240, 200, 130, 0.95)");
+          ctx.fillStyle = grad;
           ctx.beginPath();
           for (let i = 0; i < 10; i++) {
             const ang = -Math.PI / 2 + (i * Math.PI) / 5;
@@ -526,7 +533,9 @@ export function Game() {
             const py = Math.sin(ang) * r;
             if (i === 0) ctx.moveTo(px, py); else ctx.lineTo(px, py);
           }
-          ctx.closePath(); ctx.fill(); ctx.stroke(); break;
+          ctx.closePath();
+          ctx.fill();
+          break;
         }
         case "heart": {
           ctx.fillStyle = "#ff5c6c";
@@ -808,6 +817,7 @@ export function Game() {
       slowTimer = 0; distortTimer = 0;
       hintActive = null;
       particles.length = 0;
+      powerups.length = 0;
       setHealth(3); healthRef.current = 3;
       setProgress(0); progressRef.current = 0;
       scoreRef.current = 0; setScore(0);
