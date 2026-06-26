@@ -11,6 +11,7 @@ import {
   type Language,
   type GameQuestion,
 } from "./questionBank";
+import { getT, type UIKey } from "./i18n";
 import {
   fetchRank,
   fetchTop10,
