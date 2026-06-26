@@ -1388,12 +1388,10 @@ function Stat({ label, value, prefix }: { label: string; value: number; prefix?:
 
 function LeaderboardList({
   entries,
-  currentName,
 }: {
   entries: LeaderboardEntry[] | null;
-  highlightId?: string;
-  currentName: string | null;
 }) {
+  const myId = typeof window !== "undefined" ? getPlayerId() : "";
   if (entries === null) {
     return (
       <div className="mt-5 w-[280px] max-w-[88vw] rounded-2xl border border-amber-200/20 bg-black/40 px-4 py-3 text-center text-[11px] tracking-[0.25em] text-amber-100/60 backdrop-blur">
@@ -1412,7 +1410,7 @@ function LeaderboardList({
     <div className="mt-5 w-[300px] max-w-[92vw] rounded-2xl border border-amber-200/25 bg-black/45 p-2 backdrop-blur-md">
       <ol className="flex flex-col">
         {entries.map((e, idx) => {
-          const mine = currentName != null && e.name === currentName;
+          const mine = e.player_id === myId;
           return (
             <li
               key={e.player_id}
