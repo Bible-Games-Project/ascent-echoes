@@ -1437,21 +1437,23 @@ function Stat({ label, value, prefix }: { label: string; value: number; prefix?:
 
 function LeaderboardList({
   entries,
+  t,
 }: {
   entries: LeaderboardEntry[] | null;
+  t: (key: UIKey) => string;
 }) {
   const myId = typeof window !== "undefined" ? getPlayerId() : "";
   if (entries === null) {
     return (
       <div className="mt-5 w-[280px] max-w-[88vw] rounded-2xl border border-amber-200/20 bg-black/40 px-4 py-3 text-center text-[11px] tracking-[0.25em] text-amber-100/60 backdrop-blur">
-        LOADING…
+        {t("loading")}
       </div>
     );
   }
   if (entries.length === 0) {
     return (
       <div className="mt-5 w-[280px] max-w-[88vw] rounded-2xl border border-amber-200/20 bg-black/40 px-4 py-3 text-center text-[11px] tracking-[0.25em] text-amber-100/60 backdrop-blur">
-        NO SCORES YET
+        {t("noScoresYet")}
       </div>
     );
   }
@@ -1485,10 +1487,12 @@ function NamePromptOverlay({
   initial,
   onSave,
   onCancel,
+  t,
 }: {
   initial: string;
   onSave: (name: string) => void;
   onCancel?: () => void;
+  t: (key: UIKey) => string;
 }) {
   const [val, setVal] = useState(initial);
   const trimmed = val.trim();
@@ -1496,10 +1500,10 @@ function NamePromptOverlay({
   return (
     <div className="absolute inset-0 z-40 flex flex-col items-center justify-center bg-black/70 backdrop-blur-md animate-fade-in px-4">
       <h2 className="text-xl font-light tracking-[0.25em] text-amber-50 text-center">
-        CHOOSE YOUR PLAYER NAME
+        {t("choosePlayerName")}
       </h2>
       <p className="mt-2 text-[10px] tracking-[0.3em] text-amber-200/70">
-        {NAME_MIN}–{NAME_MAX} CHARACTERS
+        {NAME_MIN}–{NAME_MAX} {t("charactersRange")}
       </p>
       <input
         autoFocus
@@ -1508,7 +1512,7 @@ function NamePromptOverlay({
         onChange={(e) => setVal(e.target.value)}
         onKeyDown={(e) => { if (e.key === "Enter" && valid) onSave(val); }}
         className="mt-5 w-[260px] max-w-[80vw] rounded-full border border-amber-200/40 bg-black/40 px-4 py-2.5 text-center text-lg tracking-[0.15em] text-amber-50 outline-none backdrop-blur placeholder:text-amber-100/30 focus:border-amber-200/80"
-        placeholder="Your name"
+        placeholder={t("yourName")}
         style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}
       />
       <div className="mt-6 flex items-center gap-3">
@@ -1522,14 +1526,14 @@ function NamePromptOverlay({
               : "cursor-not-allowed bg-amber-100/30 text-stone-900/50")
           }
         >
-          CONFIRM
+          {t("confirm")}
         </button>
         {onCancel && (
           <button
             onClick={onCancel}
             className="rounded-full border border-amber-200/40 bg-black/30 px-5 py-2.5 text-xs tracking-[0.25em] text-amber-100/90 hover:border-amber-200/70 hover:text-amber-50"
           >
-            CANCEL
+            {t("cancel")}
           </button>
         )}
       </div>
@@ -1543,42 +1547,44 @@ function SettingsOverlay({
   onChangeLanguage,
   onChangeName,
   onClose,
+  t,
 }: {
   name: string;
   language: Language;
   onChangeLanguage: (l: Language) => void;
   onChangeName: () => void;
   onClose: () => void;
+  t: (key: UIKey) => string;
 }) {
   const [showLangs, setShowLangs] = useState(false);
   return (
     <div className="absolute inset-0 z-30 flex flex-col items-center justify-center bg-black/60 backdrop-blur-md animate-fade-in">
-      <h2 className="text-xl font-light tracking-[0.25em] text-amber-50">SETTINGS</h2>
+      <h2 className="text-xl font-light tracking-[0.25em] text-amber-50">{t("settings")}</h2>
       <div className="mt-5 w-[280px] max-w-[88vw] rounded-2xl border border-amber-200/25 bg-black/45 p-4 backdrop-blur">
         <div className="flex items-center justify-between">
           <div>
-            <div className="text-[10px] tracking-[0.3em] text-amber-200/70">PLAYER NAME</div>
+            <div className="text-[10px] tracking-[0.3em] text-amber-200/70">{t("playerName")}</div>
             <div className="mt-1 text-base text-amber-50">{name || "—"}</div>
           </div>
           <button
             onClick={onChangeName}
             className="rounded-full border border-amber-200/40 bg-black/30 px-3 py-1.5 text-[10px] tracking-[0.25em] text-amber-100/90 hover:border-amber-200/70 hover:text-amber-50"
           >
-            CHANGE
+            {t("change")}
           </button>
         </div>
       </div>
       <div className="mt-3 w-[280px] max-w-[88vw] rounded-2xl border border-amber-200/25 bg-black/45 p-4 backdrop-blur">
         <div className="flex items-center justify-between">
           <div>
-            <div className="text-[10px] tracking-[0.3em] text-amber-200/70">LANGUAGE</div>
+            <div className="text-[10px] tracking-[0.3em] text-amber-200/70">{t("language")}</div>
             <div className="mt-1 text-base text-amber-50">{LANGUAGE_LABELS[language]}</div>
           </div>
           <button
             onClick={() => setShowLangs((v) => !v)}
             className="rounded-full border border-amber-200/40 bg-black/30 px-3 py-1.5 text-[10px] tracking-[0.25em] text-amber-100/90 hover:border-amber-200/70 hover:text-amber-50"
           >
-            {showLangs ? "CLOSE" : "CHANGE"}
+            {showLangs ? t("close") : t("change")}
           </button>
         </div>
         {showLangs && (
@@ -1604,7 +1610,7 @@ function SettingsOverlay({
         onClick={onClose}
         className="mt-6 rounded-full border border-amber-200/40 bg-black/30 px-6 py-2 text-xs tracking-[0.25em] text-amber-100/90 backdrop-blur hover:border-amber-200/70 hover:text-amber-50"
       >
-        CLOSE
+        {t("close")}
       </button>
     </div>
   );
@@ -1660,11 +1666,11 @@ function detectPlatformUrl(g: MoreGame): string {
   return g.pc;
 }
 
-function MoreGamesOverlay({ onClose }: { onClose: () => void }) {
+function MoreGamesOverlay({ onClose, t }: { onClose: () => void; t: (key: UIKey) => string }) {
   return (
     <div className="absolute inset-0 z-40 flex flex-col items-center justify-center bg-black/70 backdrop-blur-md animate-fade-in px-4">
-      <h2 className="text-2xl font-light tracking-[0.25em] text-amber-50">MORE GAMES</h2>
-      <p className="mt-1 text-[10px] tracking-[0.3em] text-amber-200/70">BIBLE GAMES PROJECT</p>
+      <h2 className="text-2xl font-light tracking-[0.25em] text-amber-50">{t("moreGames")}</h2>
+      <p className="mt-1 text-[10px] tracking-[0.3em] text-amber-200/70">{t("bibleGamesProject")}</p>
 
       <div className="mt-6 grid w-[min(92vw,520px)] grid-cols-2 gap-3 sm:gap-4">
         {MORE_GAMES.map((g) => {
@@ -1688,7 +1694,7 @@ function MoreGamesOverlay({ onClose }: { onClose: () => void }) {
                 )}
                 {g.comingSoon && (
                   <div className="absolute left-1/2 top-2 -translate-x-1/2 rounded-full bg-amber-300/90 px-2 py-0.5 text-[9px] font-medium tracking-[0.25em] text-stone-900 shadow">
-                    COMING SOON
+                    {t("comingSoon")}
                   </div>
                 )}
               </div>
@@ -1704,7 +1710,7 @@ function MoreGamesOverlay({ onClose }: { onClose: () => void }) {
         onClick={onClose}
         className="mt-6 rounded-full border border-amber-200/40 bg-black/30 px-6 py-2 text-xs tracking-[0.25em] text-amber-100/90 backdrop-blur hover:border-amber-200/70 hover:text-amber-50"
       >
-        CLOSE
+        {t("close")}
       </button>
     </div>
   );
