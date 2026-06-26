@@ -11,6 +11,7 @@ import {
   type Language,
   type GameQuestion,
 } from "./questionBank";
+import { getT, type UIKey } from "./i18n";
 import {
   fetchRank,
   fetchTop10,
@@ -1135,6 +1136,8 @@ export function Game() {
     })();
   };
 
+  const t = getT(language);
+
   return (
     <div className="relative h-[100svh] w-screen overflow-hidden bg-black select-none">
       <canvas
@@ -1156,18 +1159,18 @@ export function Game() {
                 {[0, 1, 2].map((i) => (<Heart key={i} filled={i < health} />))}
               </div>
               <div className="flex items-center gap-2 rounded-full bg-black/45 px-2.5 py-0.5 text-[10px] font-medium tracking-widest text-amber-100 backdrop-blur">
-                <span className="text-amber-200/70">SCORE</span>
+                <span className="text-amber-200/70">{t("score")}</span>
                 <span className="text-amber-50 tabular-nums">{score}</span>
               </div>
               <div className="flex items-center gap-2 rounded-full bg-black/45 px-2.5 py-0.5 text-[10px] font-medium tracking-widest text-amber-100 backdrop-blur">
-                <span className="text-amber-200/70">QUESTIONS</span>
+                <span className="text-amber-200/70">{t("questions")}</span>
                 <span className="text-amber-50 tabular-nums">{correctTotal}</span>
               </div>
             </div>
             <div className="flex flex-col items-end gap-1.5">
               <div className="flex items-center gap-1.5">
                 <div className="rounded-full bg-black/45 px-2.5 py-0.5 text-[10px] font-medium tracking-widest text-amber-100 backdrop-blur">
-                  <span className="text-amber-200/70">LEVEL </span>
+                  <span className="text-amber-200/70">{t("level")} </span>
                   <span className="text-amber-50 tabular-nums">{level}</span>
                   {level >= 11 && <span className="ml-1 text-amber-300/80">∞</span>}
                 </div>
@@ -1185,7 +1188,7 @@ export function Game() {
                 </button>
               </div>
               <div className="flex items-center gap-2 rounded-full bg-black/45 px-2.5 py-0.5 text-[10px] font-medium tracking-widest text-amber-100 backdrop-blur">
-                <span className="text-amber-200/70">STREAK</span>
+                <span className="text-amber-200/70">{t("streak")}</span>
                 <span className="text-amber-50 tabular-nums">{streak}</span>
                 {streak > 0 && <span>🔥</span>}
                 <span className={"ml-1 rounded-full px-1.5 py-0.5 tabular-nums " + (multiplierForStreak(streak) > 1 ? "bg-amber-300/30 text-amber-100 ring-1 ring-amber-200/40" : "text-amber-100/60")}>
@@ -1199,7 +1202,7 @@ export function Game() {
             <div className="absolute inset-0 z-40 flex items-center justify-center bg-black/55 backdrop-blur-sm animate-fade-in">
               <div className="mx-4 max-w-xs rounded-2xl border border-amber-200/30 bg-black/80 p-5 text-center text-amber-50 shadow-[0_0_40px_rgba(255,200,140,0.25)]">
                 <p className="text-sm tracking-wide" style={{ fontFamily: '"Cormorant Garamond", Georgia, serif', fontSize: 18 }}>
-                  Exit game and return to menu?
+                  {t("exitConfirm")}
                 </p>
                 <div className="mt-4 flex items-center justify-center gap-3">
                   <button
@@ -1215,14 +1218,14 @@ export function Game() {
                     }}
                     className="rounded-full bg-amber-300/30 px-5 py-1.5 text-xs font-medium tracking-[0.3em] text-amber-50 ring-1 ring-amber-200/50 transition hover:bg-amber-300/40"
                   >
-                    YES
+                    {t("yes")}
                   </button>
                   <button
                     type="button"
                     onClick={() => setShowExitConfirm(false)}
                     className="rounded-full bg-black/50 px-5 py-1.5 text-xs font-medium tracking-[0.3em] text-amber-100 ring-1 ring-amber-200/30 transition hover:bg-black/70"
                   >
-                    NO
+                    {t("no")}
                   </button>
                 </div>
               </div>
@@ -1252,7 +1255,7 @@ export function Game() {
           {multiplierToast !== null && (
             <div className="pointer-events-none absolute left-1/2 top-1/2 z-30 -translate-x-1/2 -translate-y-1/2 animate-fade-in">
               <div className="rounded-full bg-amber-300/20 px-6 py-2 text-2xl font-light tracking-[0.3em] text-amber-100 ring-1 ring-amber-200/50 backdrop-blur-md shadow-[0_0_40px_rgba(255,200,140,0.5)]">
-                x{multiplierToast} ACTIVE
+                x{multiplierToast} {t("multiplierActive")}
               </div>
             </div>
           )}
@@ -1265,17 +1268,17 @@ export function Game() {
             BIBLE TRIVIA RUN
           </h1>
           <p className="mt-3 max-w-xs text-center text-xs font-light tracking-wide text-amber-100/60">
-            How many Bible questions can you answer?
+            {t("tagline")}
           </p>
           <button
             onClick={startGame}
             className="mt-10 rounded-full bg-amber-100 px-14 py-5 text-lg font-medium tracking-[0.3em] text-stone-900 shadow-[0_0_60px_rgba(255,200,140,0.65)] transition-transform hover:scale-105 active:scale-95"
           >
-            BEGIN
+            {t("begin")}
           </button>
           {playerName && (
             <p className="mt-4 text-[11px] tracking-[0.25em] text-amber-100/70">
-              PLAYER · <span className="text-amber-50">{playerName}</span>
+              {t("player")} · <span className="text-amber-50">{playerName}</span>
             </p>
           )}
           <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
@@ -1287,19 +1290,19 @@ export function Game() {
               }}
               className="rounded-full border border-amber-200/30 bg-black/30 px-4 py-1.5 text-[10px] tracking-[0.25em] text-amber-100/80 backdrop-blur hover:border-amber-200/60 hover:text-amber-50"
             >
-              LEADERBOARD
+              {t("leaderboard")}
             </button>
             <button
               onClick={() => setShowSettings(true)}
               className="rounded-full border border-amber-200/30 bg-black/30 px-4 py-1.5 text-[10px] tracking-[0.25em] text-amber-100/80 backdrop-blur hover:border-amber-200/60 hover:text-amber-50"
             >
-              SETTINGS
+              {t("settings")}
             </button>
             <button
               onClick={() => setShowMoreGames(true)}
               className="rounded-full border border-amber-200/30 bg-black/30 px-4 py-1.5 text-[10px] tracking-[0.25em] text-amber-100/80 backdrop-blur hover:border-amber-200/60 hover:text-amber-50"
             >
-              MORE GAMES
+              {t("moreGames")}
             </button>
           </div>
         </Overlay>
@@ -1307,54 +1310,54 @@ export function Game() {
 
       {state === "gameover" && (
         <Overlay>
-          <p className="text-xs uppercase tracking-[0.4em] text-rose-200/80">The wind took you</p>
-          <h1 className="mt-3 text-4xl font-light tracking-[0.2em] text-amber-50">FALLEN</h1>
+          <p className="text-xs uppercase tracking-[0.4em] text-rose-200/80">{t("windTookYou")}</p>
+          <h1 className="mt-3 text-4xl font-light tracking-[0.2em] text-amber-50">{t("fallen")}</h1>
           <p className="mt-1 text-xs text-amber-100/60">
-            Level {level}{level >= 11 ? " (endless)" : ""}
+            {t("level")} {level}{level >= 11 ? ` ${t("endlessSuffix")}` : ""}
           </p>
           {isWorldRecord && (
             <div className="mt-3 rounded-full bg-amber-300/30 px-4 py-1 text-[11px] tracking-[0.35em] text-amber-50 ring-1 ring-amber-200/70 shadow-[0_0_30px_rgba(255,210,140,0.7)] animate-pulse">
-              ★ NEW WORLD RECORD ★
+              {t("newWorldRecord")}
             </div>
           )}
           {!isWorldRecord && enteredTop10 && (
             <div className="mt-3 rounded-full bg-amber-200/20 px-4 py-1 text-[11px] tracking-[0.3em] text-amber-50 ring-1 ring-amber-200/60 animate-pulse">
-              NEW TOP 10 WORLD RANK
+              {t("newTop10")}
             </div>
           )}
           {!isWorldRecord && !enteredTop10 && isNewBest && (
             <div className="mt-3 rounded-full bg-amber-100/15 px-4 py-1 text-[11px] tracking-[0.3em] text-amber-100 ring-1 ring-amber-200/40">
-              NEW PERSONAL BEST
+              {t("newPersonalBest")}
             </div>
           )}
           <div className="mt-5 grid grid-cols-3 gap-6 text-center">
-            <Stat label="SCORE" value={score} />
-            <Stat label="BEST" value={bestScore} />
-            <Stat label="WORLD RANK" value={worldRank ?? 0} prefix="#" />
+            <Stat label={t("score")} value={score} />
+            <Stat label={t("best")} value={bestScore} />
+            <Stat label={t("worldRank")} value={worldRank ?? 0} prefix="#" />
           </div>
           <LeaderboardList
             entries={topTen}
-            
+            t={t}
           />
           <div className="mt-8 flex items-center gap-3">
             <button
               onClick={startGame}
               className="rounded-full bg-amber-100 px-8 py-3 text-sm font-medium tracking-[0.2em] text-stone-900 shadow-[0_0_40px_rgba(255,200,140,0.5)] transition-transform hover:scale-105 active:scale-95"
             >
-              TRY AGAIN
+              {t("tryAgain")}
             </button>
             <button
               onClick={() => { setState("start"); stateRef.current = "start"; }}
               className="rounded-full border border-amber-200/40 bg-black/30 px-6 py-3 text-xs font-medium tracking-[0.2em] text-amber-100/90 backdrop-blur transition hover:border-amber-200/70 hover:text-amber-50"
             >
-              MAIN MENU
+              {t("mainMenu")}
             </button>
           </div>
           <button
             onClick={() => setShowMoreGames(true)}
             className="mt-4 rounded-full border border-amber-200/30 bg-black/30 px-5 py-2 text-[10px] tracking-[0.25em] text-amber-100/80 backdrop-blur hover:border-amber-200/60 hover:text-amber-50"
           >
-            MORE GAMES
+            {t("moreGames")}
           </button>
         </Overlay>
       )}
@@ -1364,6 +1367,7 @@ export function Game() {
           initial={playerName ?? ""}
           onSave={handleSaveName}
           onCancel={playerName ? () => setShowNamePrompt(false) : undefined}
+          t={t}
         />
       )}
 
@@ -1374,25 +1378,26 @@ export function Game() {
           onChangeLanguage={setLanguage}
           onChangeName={() => { setShowSettings(false); setShowNamePrompt(true); }}
           onClose={() => setShowSettings(false)}
+          t={t}
         />
       )}
 
       {showLeaderboard && (
         <Overlay>
-          <h2 className="text-2xl font-light tracking-[0.25em] text-amber-50">LEADERBOARD</h2>
-          <p className="mt-1 text-[10px] tracking-[0.3em] text-amber-200/70">TOP 10 WORLDWIDE</p>
-          <LeaderboardList entries={topTen}  />
+          <h2 className="text-2xl font-light tracking-[0.25em] text-amber-50">{t("leaderboard")}</h2>
+          <p className="mt-1 text-[10px] tracking-[0.3em] text-amber-200/70">{t("top10Worldwide")}</p>
+          <LeaderboardList entries={topTen} t={t} />
           <button
             onClick={() => setShowLeaderboard(false)}
             className="mt-6 rounded-full border border-amber-200/40 bg-black/30 px-6 py-2 text-xs tracking-[0.25em] text-amber-100/90 backdrop-blur hover:border-amber-200/70 hover:text-amber-50"
           >
-            CLOSE
+            {t("close")}
           </button>
         </Overlay>
       )}
 
       {showMoreGames && (
-        <MoreGamesOverlay onClose={() => setShowMoreGames(false)} />
+        <MoreGamesOverlay onClose={() => setShowMoreGames(false)} t={t} />
       )}
     </div>
   );
@@ -1432,21 +1437,23 @@ function Stat({ label, value, prefix }: { label: string; value: number; prefix?:
 
 function LeaderboardList({
   entries,
+  t,
 }: {
   entries: LeaderboardEntry[] | null;
+  t: (key: UIKey) => string;
 }) {
   const myId = typeof window !== "undefined" ? getPlayerId() : "";
   if (entries === null) {
     return (
       <div className="mt-5 w-[280px] max-w-[88vw] rounded-2xl border border-amber-200/20 bg-black/40 px-4 py-3 text-center text-[11px] tracking-[0.25em] text-amber-100/60 backdrop-blur">
-        LOADING…
+        {t("loading")}
       </div>
     );
   }
   if (entries.length === 0) {
     return (
       <div className="mt-5 w-[280px] max-w-[88vw] rounded-2xl border border-amber-200/20 bg-black/40 px-4 py-3 text-center text-[11px] tracking-[0.25em] text-amber-100/60 backdrop-blur">
-        NO SCORES YET
+        {t("noScoresYet")}
       </div>
     );
   }
@@ -1480,10 +1487,12 @@ function NamePromptOverlay({
   initial,
   onSave,
   onCancel,
+  t,
 }: {
   initial: string;
   onSave: (name: string) => void;
   onCancel?: () => void;
+  t: (key: UIKey) => string;
 }) {
   const [val, setVal] = useState(initial);
   const trimmed = val.trim();
@@ -1491,10 +1500,10 @@ function NamePromptOverlay({
   return (
     <div className="absolute inset-0 z-40 flex flex-col items-center justify-center bg-black/70 backdrop-blur-md animate-fade-in px-4">
       <h2 className="text-xl font-light tracking-[0.25em] text-amber-50 text-center">
-        CHOOSE YOUR PLAYER NAME
+        {t("choosePlayerName")}
       </h2>
       <p className="mt-2 text-[10px] tracking-[0.3em] text-amber-200/70">
-        {NAME_MIN}–{NAME_MAX} CHARACTERS
+        {NAME_MIN}–{NAME_MAX} {t("charactersRange")}
       </p>
       <input
         autoFocus
@@ -1503,7 +1512,7 @@ function NamePromptOverlay({
         onChange={(e) => setVal(e.target.value)}
         onKeyDown={(e) => { if (e.key === "Enter" && valid) onSave(val); }}
         className="mt-5 w-[260px] max-w-[80vw] rounded-full border border-amber-200/40 bg-black/40 px-4 py-2.5 text-center text-lg tracking-[0.15em] text-amber-50 outline-none backdrop-blur placeholder:text-amber-100/30 focus:border-amber-200/80"
-        placeholder="Your name"
+        placeholder={t("yourName")}
         style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}
       />
       <div className="mt-6 flex items-center gap-3">
@@ -1517,14 +1526,14 @@ function NamePromptOverlay({
               : "cursor-not-allowed bg-amber-100/30 text-stone-900/50")
           }
         >
-          CONFIRM
+          {t("confirm")}
         </button>
         {onCancel && (
           <button
             onClick={onCancel}
             className="rounded-full border border-amber-200/40 bg-black/30 px-5 py-2.5 text-xs tracking-[0.25em] text-amber-100/90 hover:border-amber-200/70 hover:text-amber-50"
           >
-            CANCEL
+            {t("cancel")}
           </button>
         )}
       </div>
@@ -1538,42 +1547,44 @@ function SettingsOverlay({
   onChangeLanguage,
   onChangeName,
   onClose,
+  t,
 }: {
   name: string;
   language: Language;
   onChangeLanguage: (l: Language) => void;
   onChangeName: () => void;
   onClose: () => void;
+  t: (key: UIKey) => string;
 }) {
   const [showLangs, setShowLangs] = useState(false);
   return (
     <div className="absolute inset-0 z-30 flex flex-col items-center justify-center bg-black/60 backdrop-blur-md animate-fade-in">
-      <h2 className="text-xl font-light tracking-[0.25em] text-amber-50">SETTINGS</h2>
+      <h2 className="text-xl font-light tracking-[0.25em] text-amber-50">{t("settings")}</h2>
       <div className="mt-5 w-[280px] max-w-[88vw] rounded-2xl border border-amber-200/25 bg-black/45 p-4 backdrop-blur">
         <div className="flex items-center justify-between">
           <div>
-            <div className="text-[10px] tracking-[0.3em] text-amber-200/70">PLAYER NAME</div>
+            <div className="text-[10px] tracking-[0.3em] text-amber-200/70">{t("playerName")}</div>
             <div className="mt-1 text-base text-amber-50">{name || "—"}</div>
           </div>
           <button
             onClick={onChangeName}
             className="rounded-full border border-amber-200/40 bg-black/30 px-3 py-1.5 text-[10px] tracking-[0.25em] text-amber-100/90 hover:border-amber-200/70 hover:text-amber-50"
           >
-            CHANGE
+            {t("change")}
           </button>
         </div>
       </div>
       <div className="mt-3 w-[280px] max-w-[88vw] rounded-2xl border border-amber-200/25 bg-black/45 p-4 backdrop-blur">
         <div className="flex items-center justify-between">
           <div>
-            <div className="text-[10px] tracking-[0.3em] text-amber-200/70">LANGUAGE</div>
+            <div className="text-[10px] tracking-[0.3em] text-amber-200/70">{t("language")}</div>
             <div className="mt-1 text-base text-amber-50">{LANGUAGE_LABELS[language]}</div>
           </div>
           <button
             onClick={() => setShowLangs((v) => !v)}
             className="rounded-full border border-amber-200/40 bg-black/30 px-3 py-1.5 text-[10px] tracking-[0.25em] text-amber-100/90 hover:border-amber-200/70 hover:text-amber-50"
           >
-            {showLangs ? "CLOSE" : "CHANGE"}
+            {showLangs ? t("close") : t("change")}
           </button>
         </div>
         {showLangs && (
@@ -1599,7 +1610,7 @@ function SettingsOverlay({
         onClick={onClose}
         className="mt-6 rounded-full border border-amber-200/40 bg-black/30 px-6 py-2 text-xs tracking-[0.25em] text-amber-100/90 backdrop-blur hover:border-amber-200/70 hover:text-amber-50"
       >
-        CLOSE
+        {t("close")}
       </button>
     </div>
   );
@@ -1655,11 +1666,11 @@ function detectPlatformUrl(g: MoreGame): string {
   return g.pc;
 }
 
-function MoreGamesOverlay({ onClose }: { onClose: () => void }) {
+function MoreGamesOverlay({ onClose, t }: { onClose: () => void; t: (key: UIKey) => string }) {
   return (
     <div className="absolute inset-0 z-40 flex flex-col items-center justify-center bg-black/70 backdrop-blur-md animate-fade-in px-4">
-      <h2 className="text-2xl font-light tracking-[0.25em] text-amber-50">MORE GAMES</h2>
-      <p className="mt-1 text-[10px] tracking-[0.3em] text-amber-200/70">BIBLE GAMES PROJECT</p>
+      <h2 className="text-2xl font-light tracking-[0.25em] text-amber-50">{t("moreGames")}</h2>
+      <p className="mt-1 text-[10px] tracking-[0.3em] text-amber-200/70">{t("bibleGamesProject")}</p>
 
       <div className="mt-6 grid w-[min(92vw,520px)] grid-cols-2 gap-3 sm:gap-4">
         {MORE_GAMES.map((g) => {
@@ -1683,7 +1694,7 @@ function MoreGamesOverlay({ onClose }: { onClose: () => void }) {
                 )}
                 {g.comingSoon && (
                   <div className="absolute left-1/2 top-2 -translate-x-1/2 rounded-full bg-amber-300/90 px-2 py-0.5 text-[9px] font-medium tracking-[0.25em] text-stone-900 shadow">
-                    COMING SOON
+                    {t("comingSoon")}
                   </div>
                 )}
               </div>
@@ -1699,7 +1710,7 @@ function MoreGamesOverlay({ onClose }: { onClose: () => void }) {
         onClick={onClose}
         className="mt-6 rounded-full border border-amber-200/40 bg-black/30 px-6 py-2 text-xs tracking-[0.25em] text-amber-100/90 backdrop-blur hover:border-amber-200/70 hover:text-amber-50"
       >
-        CLOSE
+        {t("close")}
       </button>
     </div>
   );
