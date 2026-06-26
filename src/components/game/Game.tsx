@@ -1268,17 +1268,17 @@ export function Game() {
             BIBLE TRIVIA RUN
           </h1>
           <p className="mt-3 max-w-xs text-center text-xs font-light tracking-wide text-amber-100/60">
-            How many Bible questions can you answer?
+            {t("tagline")}
           </p>
           <button
             onClick={startGame}
             className="mt-10 rounded-full bg-amber-100 px-14 py-5 text-lg font-medium tracking-[0.3em] text-stone-900 shadow-[0_0_60px_rgba(255,200,140,0.65)] transition-transform hover:scale-105 active:scale-95"
           >
-            BEGIN
+            {t("begin")}
           </button>
           {playerName && (
             <p className="mt-4 text-[11px] tracking-[0.25em] text-amber-100/70">
-              PLAYER · <span className="text-amber-50">{playerName}</span>
+              {t("player")} · <span className="text-amber-50">{playerName}</span>
             </p>
           )}
           <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
@@ -1290,19 +1290,19 @@ export function Game() {
               }}
               className="rounded-full border border-amber-200/30 bg-black/30 px-4 py-1.5 text-[10px] tracking-[0.25em] text-amber-100/80 backdrop-blur hover:border-amber-200/60 hover:text-amber-50"
             >
-              LEADERBOARD
+              {t("leaderboard")}
             </button>
             <button
               onClick={() => setShowSettings(true)}
               className="rounded-full border border-amber-200/30 bg-black/30 px-4 py-1.5 text-[10px] tracking-[0.25em] text-amber-100/80 backdrop-blur hover:border-amber-200/60 hover:text-amber-50"
             >
-              SETTINGS
+              {t("settings")}
             </button>
             <button
               onClick={() => setShowMoreGames(true)}
               className="rounded-full border border-amber-200/30 bg-black/30 px-4 py-1.5 text-[10px] tracking-[0.25em] text-amber-100/80 backdrop-blur hover:border-amber-200/60 hover:text-amber-50"
             >
-              MORE GAMES
+              {t("moreGames")}
             </button>
           </div>
         </Overlay>
