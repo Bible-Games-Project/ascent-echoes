@@ -15,11 +15,13 @@ import {
   fetchRank,
   fetchTop10,
   getLocalBest,
+  getPlayerId,
   getPlayerName,
   NAME_MAX,
   NAME_MIN,
   setPlayerName as savePlayerName,
   submitIfBest,
+  syncDisplayName,
   type LeaderboardEntry,
 } from "@/lib/leaderboard";
 
