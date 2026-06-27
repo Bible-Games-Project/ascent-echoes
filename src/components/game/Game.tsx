@@ -836,14 +836,15 @@ export function Game() {
     const drawGround = () => {
       const platTop = H * PLAYER_Y_FRAC + 22;
       const platH = 18;
+      const gr = themeFor(levelRef.current).ground;
       ctx.fillStyle = "rgba(0,0,0,0.25)";
       ctx.fillRect(0, platTop + platH, W, 8);
       const g = ctx.createLinearGradient(0, platTop, 0, platTop + platH);
-      g.addColorStop(0, "#3a2540");
-      g.addColorStop(1, "#1a0f25");
+      g.addColorStop(0, gr.top);
+      g.addColorStop(1, gr.bottom);
       ctx.fillStyle = g;
       ctx.fillRect(0, platTop, W, platH);
-      ctx.fillStyle = "rgba(255, 180, 120, 0.5)";
+      ctx.fillStyle = gr.rim;
       ctx.fillRect(0, platTop, W, 2);
 
       // Subtle lane guide lines rising from platform
