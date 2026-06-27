@@ -15,6 +15,7 @@ export interface DrawAvatarOpts {
   flap?: number;      // -1..1 phase used by winged characters / idle bob
   scale?: number;
   glow?: boolean;
+  t?: number;         // continuous time in seconds (drives intrinsic motion)
 }
 
 type Ctx = CanvasRenderingContext2D;
