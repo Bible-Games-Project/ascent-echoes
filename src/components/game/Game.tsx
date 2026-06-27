@@ -29,6 +29,7 @@ import {
   type AvatarId,
 } from "@/lib/avatars";
 import { PlayerAvatar as AvatarIcon } from "./PlayerAvatar";
+import { drawAvatarBody } from "./avatarRender";
 import { AvatarsOverlay } from "./AvatarsOverlay";
 import {
   fetchRank,
@@ -144,6 +145,8 @@ export function Game() {
   const [equippedAvatar, setEquippedAvatar] = useState<AvatarId>("white_dove");
   const [showAvatars, setShowAvatars] = useState(false);
   const runDiffMaskRef = useRef(0);
+  const equippedAvatarRef = useRef<AvatarId>("white_dove");
+  useEffect(() => { equippedAvatarRef.current = equippedAvatar; }, [equippedAvatar]);
 
   // Dev mode (testing only — never affects real monetization or leaderboard)
   const [devMode, setDevMode] = useState<boolean>(() => {
