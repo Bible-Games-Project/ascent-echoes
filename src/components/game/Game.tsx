@@ -1338,6 +1338,17 @@ export function Game() {
             >
               {t("moreGames")}
             </button>
+            <button
+              onClick={() => setShowPremium(true)}
+              className={
+                "rounded-full border px-4 py-1.5 text-[10px] tracking-[0.25em] backdrop-blur transition " +
+                (isPremium
+                  ? "border-amber-200/70 bg-amber-200/20 text-amber-50 shadow-[0_0_18px_rgba(255,200,140,0.4)]"
+                  : "border-amber-200/30 bg-black/30 text-amber-100/80 hover:border-amber-200/60 hover:text-amber-50")
+              }
+            >
+              ★ {t("premium")}
+            </button>
           </div>
         </Overlay>
       )}
