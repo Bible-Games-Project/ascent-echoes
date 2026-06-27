@@ -1170,67 +1170,20 @@ export function Game() {
 
       if (flicker) return;
 
-      // Dove silhouette: wings-first, minimal body/head
+      // Render the equipped avatar via the shared renderer — same code path
+      // used by the menu / HUD / leaderboard previews, so what the player
+      // selects is exactly what they see flying in-game.
       const bodyAlpha = (0.9 + 0.1 * pulse) * dimming;
-      // Calm, graceful wing flap
       const flap = Math.sin(timeSec * 4.5);
-      const wingLift = flap * 8;
-      const doveColor = invuln > 0
-        ? `rgba(255, 235, 170, ${bodyAlpha})`
-        : `rgba(255, 252, 240, ${bodyAlpha})`;
-
       ctx.save();
       ctx.shadowColor = invuln > 0 ? "rgba(255, 210, 120, 0.9)" : "rgba(255, 245, 220, 0.85)";
       ctx.shadowBlur = 16 + 14 * glowBoost;
-      ctx.fillStyle = doveColor;
-
-      // BACK-VIEW dove — viewer is behind the dove as it flies INTO the scene.
-      // Symmetrical wings sweep left/right; body is centered and small;
-      // head is a small bump barely visible above the body.
-      // Footprint ~60px wide, ~30px tall — hitbox unchanged.
-
-      // Wing flap: tips rise/fall symmetrically. Positive flap = wings up.
-      const tipY = y - 4 - wingLift;          // vertical position of wingtips
-      const tipSpread = 30 - flap * 2;        // tips slightly contract on upstroke
-      const midY = y - 1 - wingLift * 0.4;    // mid-wing dihedral
-
-      // --- LEFT WING ---
-      ctx.beginPath();
-      ctx.moveTo(x - 2, y - 1);                                   // shoulder (near body)
-      ctx.quadraticCurveTo(x - 14, midY - 2, x - tipSpread, tipY); // leading edge up to tip
-      ctx.quadraticCurveTo(x - 22, y + 2, x - 10, y + 3);          // trailing edge back to body
-      ctx.quadraticCurveTo(x - 6, y + 2, x - 2, y + 1);
-      ctx.closePath();
-      ctx.fill();
-
-      // --- RIGHT WING (mirrored) ---
-      ctx.beginPath();
-      ctx.moveTo(x + 2, y - 1);
-      ctx.quadraticCurveTo(x + 14, midY - 2, x + tipSpread, tipY);
-      ctx.quadraticCurveTo(x + 22, y + 2, x + 10, y + 3);
-      ctx.quadraticCurveTo(x + 6, y + 2, x + 2, y + 1);
-      ctx.closePath();
-      ctx.fill();
-
-      // --- TAIL (small triangle pointing down/back, centered) ---
-      ctx.beginPath();
-      ctx.moveTo(x - 4, y + 4);
-      ctx.lineTo(x + 4, y + 4);
-      ctx.lineTo(x + 2, y + 11);
-      ctx.lineTo(x - 2, y + 11);
-      ctx.closePath();
-      ctx.fill();
-
-      // --- BODY (small vertical capsule, centered) ---
-      ctx.beginPath();
-      ctx.ellipse(x, y + 1, 4, 7, 0, 0, Math.PI * 2);
-      ctx.fill();
-
-      // --- HEAD (tiny round bump above body, barely visible) ---
-      ctx.beginPath();
-      ctx.arc(x, y - 5, 3, 0, Math.PI * 2);
-      ctx.fill();
-
+      drawAvatarBody(ctx, equippedAvatarRef.current, x, y, {
+        alpha: bodyAlpha,
+        flap,
+        scale: 1,
+        glow: invuln > 0 || correctPulse > 0,
+      });
       ctx.restore();
 
       // Bombilla hint: subtle light beam toward safe lane (no UI changes)
