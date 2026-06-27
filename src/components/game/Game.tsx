@@ -418,6 +418,7 @@ export function Game() {
       layers: LayerDef[];
       fx: AmbientFx;
       house?: boolean;
+      ground: { top: string; bottom: string; rim: string };
     };
 
     const THEMES: Theme[] = [
@@ -435,6 +436,7 @@ export function Game() {
           { color: "rgba(50,25,60,0.85)",   baseFrac: 0.78, amp: 34, freq: 0.012, speed: 1.0 },
         ],
         fx: "none",
+        ground: { top: "#3a2540", bottom: "#1a0f25", rim: "rgba(255, 180, 120, 0.5)" },
       },
       // 2 Summer forest – pastel greens
       {
@@ -450,6 +452,7 @@ export function Game() {
           { color: "rgba(60,110,80,0.9)",    baseFrac: 0.78, amp: 30, freq: 0.011, speed: 1.0 },
         ],
         fx: "none",
+        ground: { top: "#2a4a32", bottom: "#10220f", rim: "rgba(210, 240, 190, 0.45)" },
       },
       // 3 Summer sea – pastel blues
       {
@@ -465,6 +468,7 @@ export function Game() {
           { color: "rgba(50,110,160,0.9)",   baseFrac: 0.8,  amp: 18, freq: 0.024, speed: 1.1 },
         ],
         fx: "none",
+        ground: { top: "#1f3f5e", bottom: "#0c1e30", rim: "rgba(190, 225, 240, 0.5)" },
       },
       // 4 Autumn forest – warm orange/brown + falling leaves
       {
@@ -475,6 +479,7 @@ export function Game() {
           { color: "rgba(100,55,35,0.92)",   baseFrac: 0.78, amp: 32, freq: 0.012, speed: 1.0 },
         ],
         fx: "leaves",
+        ground: { top: "#5a2f1a", bottom: "#26120a", rim: "rgba(255, 200, 140, 0.5)" },
       },
       // 5 Autumn meadow + house + light rain
       {
@@ -486,6 +491,7 @@ export function Game() {
         ],
         fx: "rain_light",
         house: true,
+        ground: { top: "#3e2a1c", bottom: "#1a0f08", rim: "rgba(230, 200, 160, 0.45)" },
       },
       // 6 Winter forest – cold blue/white + snow
       {
@@ -496,6 +502,7 @@ export function Game() {
           { color: "rgba(110,135,160,0.92)", baseFrac: 0.78, amp: 30, freq: 0.011, speed: 1.0 },
         ],
         fx: "snow",
+        ground: { top: "#22364f", bottom: "#0b1422", rim: "rgba(220, 235, 250, 0.55)" },
       },
       // 7 Winter mountain – sharp peaks + wind & snow
       {
@@ -506,6 +513,7 @@ export function Game() {
           { color: "rgba(80,100,130,0.95)",  baseFrac: 0.82, amp: 80, freq: 0.009, speed: 1.0, sharp: true },
         ],
         fx: "wind_snow",
+        ground: { top: "#2a384a", bottom: "#10171f", rim: "rgba(210, 225, 240, 0.55)" },
       },
       // 8 Spring forest – soft green/pink + light rain
       {
@@ -516,6 +524,7 @@ export function Game() {
           { color: "rgba(90,140,110,0.9)",   baseFrac: 0.78, amp: 30, freq: 0.011, speed: 1.0 },
         ],
         fx: "rain_light",
+        ground: { top: "#2e4a32", bottom: "#11200f", rim: "rgba(220, 240, 215, 0.5)" },
       },
       // 9 Spring meadow – floral petals
       {
@@ -531,6 +540,7 @@ export function Game() {
           { color: "rgba(90,140,100,0.9)",   baseFrac: 0.79, amp: 28, freq: 0.011, speed: 1.0 },
         ],
         fx: "petals",
+        ground: { top: "#3e4a26", bottom: "#1a200d", rim: "rgba(235, 240, 195, 0.5)" },
       },
       // 10 Night sky – stars & shooting stars
       {
@@ -541,6 +551,7 @@ export function Game() {
           { color: "rgba(10,15,40,0.95)",  baseFrac: 0.8,  amp: 34, freq: 0.011, speed: 1.0 },
         ],
         fx: "night_sky",
+        ground: { top: "#162046", bottom: "#06091c", rim: "rgba(180, 200, 240, 0.5)" },
       },
     ];
 
@@ -825,14 +836,15 @@ export function Game() {
     const drawGround = () => {
       const platTop = H * PLAYER_Y_FRAC + 22;
       const platH = 18;
+      const gr = themeFor(levelRef.current).ground;
       ctx.fillStyle = "rgba(0,0,0,0.25)";
       ctx.fillRect(0, platTop + platH, W, 8);
       const g = ctx.createLinearGradient(0, platTop, 0, platTop + platH);
-      g.addColorStop(0, "#3a2540");
-      g.addColorStop(1, "#1a0f25");
+      g.addColorStop(0, gr.top);
+      g.addColorStop(1, gr.bottom);
       ctx.fillStyle = g;
       ctx.fillRect(0, platTop, W, platH);
-      ctx.fillStyle = "rgba(255, 180, 120, 0.5)";
+      ctx.fillStyle = gr.rim;
       ctx.fillRect(0, platTop, W, 2);
 
       // Subtle lane guide lines rising from platform
@@ -1466,6 +1478,17 @@ export function Game() {
     let touchStartTime = 0;
     const turboRef = { current: 1 };
     const setTurbo = (on: boolean) => { turboRef.current = on ? 3 : 1; };
+    const TURBO_HOLD_MS = 600;
+    const TURBO_MOVE_TOL = 12;
+    let turboHoldTimer: ReturnType<typeof setTimeout> | null = null;
+    const clearTurboHold = () => {
+      if (turboHoldTimer !== null) { clearTimeout(turboHoldTimer); turboHoldTimer = null; }
+    };
+    const armTurboHold = () => {
+      clearTurboHold();
+      turboHoldTimer = setTimeout(() => { setTurbo(true); turboHoldTimer = null; }, TURBO_HOLD_MS);
+    };
+    const releaseTurbo = () => { clearTurboHold(); setTurbo(false); };
 
     const moveLane = (dir: -1 | 1) => {
       if (stateRef.current !== "playing") return;
@@ -1485,6 +1508,15 @@ export function Game() {
       touchStartX = t.clientX;
       touchStartY = t.clientY;
       touchStartTime = performance.now();
+    };
+    const onTouchMoveTurbo = (e: TouchEvent) => {
+      const t = e.touches[0];
+      if (!t) return;
+      const dx = t.clientX - touchStartX;
+      const dy = t.clientY - touchStartY;
+      if (Math.abs(dx) > TURBO_MOVE_TOL || Math.abs(dy) > TURBO_MOVE_TOL) {
+        clearTurboHold();
+      }
     };
     const onTouchEnd = (e: TouchEvent) => {
       const t = e.changedTouches[0];
@@ -1507,19 +1539,33 @@ export function Game() {
       else if (e.key === "3") player.targetLane = 2;
     };
     const onMouseDown = (e: MouseEvent) => { tapLane(e.clientX); };
-    const onMouseDownTurbo = (e: MouseEvent) => { if (e.button === 0) setTurbo(true); };
-    const onMouseUpTurbo = () => setTurbo(false);
-    const onMouseLeaveTurbo = () => setTurbo(false);
-    const onTouchStartTurbo = () => setTurbo(true);
-    const onTouchEndTurbo = () => setTurbo(false);
+    let mouseDownX = 0, mouseDownY = 0;
+    const onMouseDownTurbo = (e: MouseEvent) => {
+      if (e.button !== 0) return;
+      mouseDownX = e.clientX; mouseDownY = e.clientY;
+      armTurboHold();
+    };
+    const onMouseMoveTurbo = (e: MouseEvent) => {
+      if (turboHoldTimer === null) return;
+      if (Math.abs(e.clientX - mouseDownX) > TURBO_MOVE_TOL ||
+          Math.abs(e.clientY - mouseDownY) > TURBO_MOVE_TOL) {
+        clearTurboHold();
+      }
+    };
+    const onMouseUpTurbo = () => releaseTurbo();
+    const onMouseLeaveTurbo = () => releaseTurbo();
+    const onTouchStartTurbo = () => armTurboHold();
+    const onTouchEndTurbo = () => releaseTurbo();
 
     canvas.addEventListener("touchstart", onTouchStart, { passive: true });
     canvas.addEventListener("touchend", onTouchEnd, { passive: true });
     canvas.addEventListener("mousedown", onMouseDown);
     canvas.addEventListener("mousedown", onMouseDownTurbo);
+    canvas.addEventListener("mousemove", onMouseMoveTurbo);
     window.addEventListener("mouseup", onMouseUpTurbo);
     canvas.addEventListener("mouseleave", onMouseLeaveTurbo);
     canvas.addEventListener("touchstart", onTouchStartTurbo, { passive: true });
+    canvas.addEventListener("touchmove", onTouchMoveTurbo, { passive: true });
     canvas.addEventListener("touchend", onTouchEndTurbo, { passive: true });
     canvas.addEventListener("touchcancel", onTouchEndTurbo, { passive: true });
     window.addEventListener("keydown", onKey);
@@ -1535,12 +1581,15 @@ export function Game() {
       canvas.removeEventListener("touchend", onTouchEnd);
       canvas.removeEventListener("mousedown", onMouseDown);
       canvas.removeEventListener("mousedown", onMouseDownTurbo);
+      canvas.removeEventListener("mousemove", onMouseMoveTurbo);
       window.removeEventListener("mouseup", onMouseUpTurbo);
       canvas.removeEventListener("mouseleave", onMouseLeaveTurbo);
       canvas.removeEventListener("touchstart", onTouchStartTurbo);
+      canvas.removeEventListener("touchmove", onTouchMoveTurbo);
       canvas.removeEventListener("touchend", onTouchEndTurbo);
       canvas.removeEventListener("touchcancel", onTouchEndTurbo);
       window.removeEventListener("keydown", onKey);
+      clearTurboHold();
     };
   }, []);
 
