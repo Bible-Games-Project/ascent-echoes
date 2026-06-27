@@ -1462,6 +1462,7 @@ export function Game() {
           if (!p.taken && p.lane === player.lane && p.y >= playerY() - 16 && p.y <= playerY() + 24) {
             p.taken = true;
             applyPowerup(p);
+            if (!devModeRef.current) recordBonus();
             powerups.splice(i, 1);
             continue;
           }
