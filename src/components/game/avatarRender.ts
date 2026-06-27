@@ -392,19 +392,14 @@ function drawSunChar(ctx: Ctx, x: number, y: number, s: number, glow: boolean) {
 
 // Crescent moon only — no full-disc background.
 function drawMoonChar(ctx: Ctx, x: number, y: number, s: number, glow: boolean) {
-  softGlow(ctx, x, y, s, "rgba(232,232,244,0.4)", 18);
+  // Pure crescent shape via even-odd fill — no full disc, no composite ops,
+  // so nothing dark can show through behind the moon.
   withGlow(ctx, "#E8E8F4", s, glow, () => {
-    ctx.save();
-    // Carve crescent into an offscreen-ish path via composite ops on a local layer.
     ctx.fillStyle = "#E8E8F4";
     ctx.beginPath();
-    ctx.arc(x, y, 12 * s, 0, Math.PI * 2);
-    ctx.fill();
-    ctx.globalCompositeOperation = "destination-out";
-    ctx.beginPath();
-    ctx.arc(x + 5 * s, y - 2 * s, 11 * s, 0, Math.PI * 2);
-    ctx.fill();
-    ctx.restore();
+    ctx.arc(x, y, 12 * s, 0, Math.PI * 2, false);
+    ctx.arc(x + 5 * s, y - 2 * s, 11 * s, 0, Math.PI * 2, true);
+    ctx.fill("evenodd");
   });
 }
 
