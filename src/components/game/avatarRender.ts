@@ -91,10 +91,10 @@ function drawDove(
 
 // ============ Helpers ============
 
-// Tiny eyes used on most character avatars to read as "alive".
-function eyes(ctx: Ctx, x: number, y: number, s: number, spread = 2.2, r = 0.9, color = "#222") {
-  dot(ctx, x - spread * s, y, r * s, color);
-  dot(ctx, x + spread * s, y, r * s, color);
+// Avatars are symbolic / spiritual entities — NO faces, NO eyes.
+// Intentional no-op kept so existing call sites compile.
+function eyes(_ctx: Ctx, _x: number, _y: number, _s: number, _spread = 0, _r = 0, _color = "") {
+  /* no faces */
 }
 
 // Soft pastel halo behind a small character to anchor it in the dove's footprint.
@@ -167,13 +167,6 @@ function drawScroll(ctx: Ctx, x: number, y: number, s: number) {
   ctx.beginPath();
   ctx.ellipse(x - 10 * s, y, 3 * s, 9 * s, 0, 0, Math.PI * 2); ctx.fill();
   ctx.ellipse(x + 10 * s, y, 3 * s, 9 * s, 0, 0, Math.PI * 2); ctx.fill();
-  // little face on the parchment
-  eyes(ctx, x, y, s, 2.4, 0.9, "#5a4220");
-  ctx.strokeStyle = "#5a4220";
-  ctx.lineWidth = 0.9 * s;
-  ctx.beginPath();
-  ctx.arc(x, y + 3 * s, 1.6 * s, 0, Math.PI);
-  ctx.stroke();
 }
 
 function drawStarChar(ctx: Ctx, x: number, y: number, s: number, glow: boolean, color = "#FFE89A") {
@@ -190,13 +183,6 @@ function drawStarChar(ctx: Ctx, x: number, y: number, s: number, glow: boolean, 
     }
     ctx.closePath(); ctx.fill();
   });
-  // face
-  eyes(ctx, x, y - 1 * s, s, 2.4, 1, "#7a5a20");
-  ctx.strokeStyle = "#7a5a20";
-  ctx.lineWidth = 1 * s;
-  ctx.beginPath();
-  ctx.arc(x, y + 2 * s, 1.6 * s, 0, Math.PI);
-  ctx.stroke();
 }
 
 function drawOliveBranch(ctx: Ctx, x: number, y: number, s: number) {
@@ -272,9 +258,6 @@ function drawFish(ctx: Ctx, x: number, y: number, s: number) {
   ctx.moveTo(x - 3 * s, y + 5 * s);
   ctx.quadraticCurveTo(x - 1 * s, y + 9 * s, x + 2 * s, y + 5 * s);
   ctx.closePath(); ctx.fill();
-  // eye
-  dot(ctx, x - 7 * s, y - 1 * s, 1.4 * s, "#fff");
-  dot(ctx, x - 7 * s, y - 1 * s, 0.8 * s, "#222");
   // gill
   ctx.strokeStyle = "#85BCC6";
   ctx.lineWidth = 0.9 * s;
@@ -334,13 +317,6 @@ function drawWaterDrop(ctx: Ctx, x: number, y: number, s: number, glow: boolean)
   ctx.beginPath();
   ctx.ellipse(x - 3 * s, y - 4 * s, 1.6 * s, 4 * s, -0.2, 0, Math.PI * 2);
   ctx.fill();
-  // face
-  eyes(ctx, x, y + 1 * s, s, 2.2, 0.9, "#1f4a55");
-  ctx.strokeStyle = "#1f4a55";
-  ctx.lineWidth = 0.9 * s;
-  ctx.beginPath();
-  ctx.arc(x, y + 4 * s, 1.4 * s, 0, Math.PI);
-  ctx.stroke();
 }
 
 function drawSunChar(ctx: Ctx, x: number, y: number, s: number, glow: boolean) {
@@ -364,18 +340,6 @@ function drawSunChar(ctx: Ctx, x: number, y: number, s: number, glow: boolean) {
     ctx.arc(x, y, 9 * s, 0, Math.PI * 2);
     ctx.fill();
   });
-  // face
-  ctx.fillStyle = "#C28A3A";
-  dot(ctx, x - 3 * s, y - 1 * s, 1.2 * s, "#7a4a18");
-  dot(ctx, x + 3 * s, y - 1 * s, 1.2 * s, "#7a4a18");
-  // cheeks
-  dot(ctx, x - 5 * s, y + 2 * s, 1.2 * s, "rgba(255,150,120,0.5)");
-  dot(ctx, x + 5 * s, y + 2 * s, 1.2 * s, "rgba(255,150,120,0.5)");
-  ctx.strokeStyle = "#7a4a18";
-  ctx.lineWidth = 1 * s;
-  ctx.beginPath();
-  ctx.arc(x, y + 2 * s, 2 * s, 0.2, Math.PI - 0.2);
-  ctx.stroke();
 }
 
 function drawMoonChar(ctx: Ctx, x: number, y: number, s: number, glow: boolean) {
@@ -391,15 +355,6 @@ function drawMoonChar(ctx: Ctx, x: number, y: number, s: number, glow: boolean) 
     ctx.fill();
     ctx.globalCompositeOperation = "source-over";
   });
-  // sleepy face on the crescent
-  ctx.strokeStyle = "#6a6a88";
-  ctx.lineWidth = 0.9 * s;
-  ctx.beginPath();
-  ctx.arc(x - 4 * s, y - 1 * s, 1.2 * s, Math.PI + 0.2, Math.PI * 2 - 0.2);
-  ctx.stroke();
-  ctx.beginPath();
-  ctx.arc(x - 4 * s, y + 4 * s, 1.2 * s, 0, Math.PI);
-  ctx.stroke();
   // little star companion
   ctx.fillStyle = "#FFE89A";
   const r = 2 * s;
@@ -430,13 +385,6 @@ function drawRainbow(ctx: Ctx, x: number, y: number, s: number) {
   ctx.arc(x + 14 * s, y + 6 * s, 4 * s, 0, Math.PI * 2);
   ctx.arc(x + 10 * s, y + 6 * s, 3 * s, 0, Math.PI * 2);
   ctx.fill();
-  // face on left cloud
-  eyes(ctx, x - 12 * s, y + 5 * s, s, 1.6, 0.7, "#444");
-  ctx.strokeStyle = "#444";
-  ctx.lineWidth = 0.7 * s;
-  ctx.beginPath();
-  ctx.arc(x - 12 * s, y + 7 * s, 1 * s, 0, Math.PI);
-  ctx.stroke();
 }
 
 function drawKey(ctx: Ctx, x: number, y: number, s: number, glow: boolean) {
