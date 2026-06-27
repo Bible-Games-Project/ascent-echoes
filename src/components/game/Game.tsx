@@ -1272,8 +1272,10 @@ export function Game() {
           setBestScore(scoreRef.current);
           try { localStorage.setItem("dunewalker_best", String(scoreRef.current)); } catch { /* ignore */ }
         }
+        prevLevel = levelRef.current;
         const nextLvl = levelRef.current + 1;
         levelRef.current = nextLvl;
+        themeBlend = 0;
         setLevel(nextLvl);
         buildLevel(nextLvl);
         return;
