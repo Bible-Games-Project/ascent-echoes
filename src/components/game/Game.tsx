@@ -1701,7 +1701,6 @@ export function Game() {
           <div className="pointer-events-none absolute inset-x-0 top-0 z-10 flex items-start justify-between px-3 pt-3">
             <div className="flex flex-col gap-1.5">
               <div className="flex items-center gap-1.5">
-                <AvatarIcon id={equippedAvatar} size={18} />
                 {maxLives < 3 && <LockedHeart />}
                 {[0, 1, 2].map((i) => {
                   if (i >= maxLives) return null;
@@ -1826,55 +1825,22 @@ export function Game() {
           >
             {t("begin")}
           </button>
-          {playerName && (
-            <p className="mt-4 text-[11px] tracking-[0.25em] text-amber-100/70">
-              <span className="inline-flex items-center gap-1.5">
-                <AvatarIcon id={equippedAvatar} size={18} />
-                {t("player")} · <span className="text-amber-50">{playerName}</span>
-              </span>
-            </p>
-          )}
-          <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
-            <button
-              onClick={async () => {
-                setShowLeaderboard(true);
-                const t = await fetchTop10();
-                setTopTen(t);
-              }}
-              className="rounded-full border border-amber-200/30 bg-black/30 px-4 py-1.5 text-[10px] tracking-[0.25em] text-amber-100/80 backdrop-blur hover:border-amber-200/60 hover:text-amber-50"
-            >
-              {t("leaderboard")}
-            </button>
-            <button
-              onClick={() => setShowSettings(true)}
-              className="rounded-full border border-amber-200/30 bg-black/30 px-4 py-1.5 text-[10px] tracking-[0.25em] text-amber-100/80 backdrop-blur hover:border-amber-200/60 hover:text-amber-50"
-            >
-              {t("settings")}
-            </button>
-            <button
-              onClick={() => setShowMoreGames(true)}
-              className="rounded-full border border-amber-200/30 bg-black/30 px-4 py-1.5 text-[10px] tracking-[0.25em] text-amber-100/80 backdrop-blur hover:border-amber-200/60 hover:text-amber-50"
-            >
-              {t("moreGames")}
-            </button>
-            <button
-              onClick={() => setShowAvatars(true)}
-              className="rounded-full border border-amber-200/30 bg-black/30 px-4 py-1.5 text-[10px] tracking-[0.25em] text-amber-100/80 backdrop-blur hover:border-amber-200/60 hover:text-amber-50"
-            >
-              {t("avatars")}
-            </button>
-            <button
-              onClick={() => setShowPremium(true)}
-              className={
-                "rounded-full border px-4 py-1.5 text-[10px] tracking-[0.25em] backdrop-blur transition " +
-                (isPremium
-                  ? "border-amber-200/70 bg-amber-200/20 text-amber-50 shadow-[0_0_18px_rgba(255,200,140,0.4)]"
-                  : "border-amber-200/30 bg-black/30 text-amber-100/80 hover:border-amber-200/60 hover:text-amber-50")
-              }
-            >
-              ★ {t("premium")}
-            </button>
-          </div>
+          <MainMenuGroups
+            t={t}
+            playerName={playerName}
+            equippedAvatar={equippedAvatar}
+            isPremium={isPremium}
+            onPlayer={() => setShowNamePrompt(true)}
+            onAvatars={() => setShowAvatars(true)}
+            onLeaderboard={async () => {
+              setShowLeaderboard(true);
+              const tops = await fetchTop10();
+              setTopTen(tops);
+            }}
+            onSettings={() => setShowSettings(true)}
+            onPremium={() => setShowPremium(true)}
+            onMoreGames={() => setShowMoreGames(true)}
+          />
         </Overlay>
       )}
 
@@ -2174,6 +2140,95 @@ function LeaderboardList({
           );
         })}
       </ol>
+    </div>
+  );
+}
+
+function MenuSection({ label, children }: { label: string; children: React.ReactNode }) {
+  return (
+    <div className="flex flex-col items-center gap-2">
+      <div className="text-[9px] font-medium uppercase tracking-[0.45em] text-amber-200/55">
+        {label}
+      </div>
+      <div className="flex flex-wrap items-center justify-center gap-2">{children}</div>
+    </div>
+  );
+}
+
+function MenuButton({
+  onClick,
+  active,
+  children,
+}: {
+  onClick: () => void;
+  active?: boolean;
+  children: React.ReactNode;
+}) {
+  return (
+    <button
+      type="button"
+      onClick={onClick}
+      className={
+        "rounded-full border px-4 py-1.5 text-[10px] tracking-[0.25em] backdrop-blur transition " +
+        (active
+          ? "border-amber-200/70 bg-amber-200/20 text-amber-50 shadow-[0_0_18px_rgba(255,200,140,0.4)]"
+          : "border-amber-200/30 bg-black/30 text-amber-100/80 hover:border-amber-200/60 hover:text-amber-50")
+      }
+    >
+      {children}
+    </button>
+  );
+}
+
+function MainMenuGroups({
+  t,
+  playerName,
+  equippedAvatar,
+  isPremium,
+  onPlayer,
+  onAvatars,
+  onLeaderboard,
+  onSettings,
+  onPremium,
+  onMoreGames,
+}: {
+  t: (key: UIKey) => string;
+  playerName: string | null;
+  equippedAvatar: AvatarId;
+  isPremium: boolean;
+  onPlayer: () => void;
+  onAvatars: () => void;
+  onLeaderboard: () => void;
+  onSettings: () => void;
+  onPremium: () => void;
+  onMoreGames: () => void;
+}) {
+  return (
+    <div className="mt-8 flex w-[min(94vw,360px)] flex-col gap-5">
+      <MenuSection label={t("player")}>
+        <button
+          type="button"
+          onClick={onPlayer}
+          className="flex items-center gap-2 rounded-full border border-amber-200/30 bg-black/30 px-3 py-1.5 text-[11px] tracking-[0.2em] text-amber-100/90 backdrop-blur hover:border-amber-200/60 hover:text-amber-50"
+        >
+          <AvatarIcon id={equippedAvatar} size={18} />
+          <span className="text-amber-50">{playerName ?? t("player")}</span>
+        </button>
+        <MenuButton onClick={onAvatars}>{t("avatars")}</MenuButton>
+      </MenuSection>
+
+      <MenuSection label={t("leaderboard")}>
+        <MenuButton onClick={onLeaderboard}>{t("leaderboard")}</MenuButton>
+      </MenuSection>
+
+      <MenuSection label={t("settings")}>
+        <MenuButton onClick={onSettings}>{t("settings")}</MenuButton>
+        <MenuButton onClick={onPremium} active={isPremium}>★ {t("premium")}</MenuButton>
+      </MenuSection>
+
+      <MenuSection label={t("moreGames")}>
+        <MenuButton onClick={onMoreGames}>{t("moreGames")}</MenuButton>
+      </MenuSection>
     </div>
   );
 }
