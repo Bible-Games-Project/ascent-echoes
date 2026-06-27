@@ -1538,10 +1538,26 @@ export function Game() {
 
   const startGame = () => {
     if (!playerName) { setShowNamePrompt(true); return; }
-    const c = canvasRef.current as unknown as { __reset?: () => void } | null;
+    if (devMode) { setShowLevelSelect(true); return; }
+    const c = canvasRef.current as unknown as { __reset?: (startLevel?: number) => void } | null;
     c?.__reset?.();
     setState("playing");
     stateRef.current = "playing";
+  };
+
+  const startGameAtLevel = (lvl: number) => {
+    setShowLevelSelect(false);
+    const c = canvasRef.current as unknown as { __reset?: (startLevel?: number) => void } | null;
+    c?.__reset?.(lvl);
+    setState("playing");
+    stateRef.current = "playing";
+  };
+
+  const toggleDevMode = () => {
+    const next = !devMode;
+    setDevMode(next);
+    devModeRef.current = next;
+    try { localStorage.setItem("btr_dev_mode", next ? "1" : "0"); } catch { /* ignore */ }
   };
 
   const handleSaveName = (raw: string) => {
