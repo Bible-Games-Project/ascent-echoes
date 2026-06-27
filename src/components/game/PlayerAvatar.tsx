@@ -172,12 +172,18 @@ export function PlayerAvatar({ id, size = 32, locked, className, title }: Props)
       ctx.clearRect(0, 0, boxSize, boxSize);
 
       const m = motionFor(id, t, unit);
-      const pulseAlpha = 0.94 + 0.06 * Math.sin(t * 1.8);
+      // Rainbow must not flicker: keep its alpha + glow steady.
+      const isRainbow = id === "rainbow";
+      const pulseAlpha = isRainbow ? 1 : 0.94 + 0.06 * Math.sin(t * 1.8);
 
       ctx.save();
       if (locked) {
         ctx.globalAlpha = 0.22;
         ctx.filter = "grayscale(1)";
+      } else if (isRainbow) {
+        // No pulsing shadow underneath the rainbow.
+        ctx.shadowColor = "transparent";
+        ctx.shadowBlur = 0;
       } else {
         ctx.shadowColor = "rgba(255,235,180,0.55)";
         ctx.shadowBlur = 6 + 2 * Math.sin(t * 1.8);
