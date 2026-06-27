@@ -221,7 +221,7 @@ function drawStarChar(ctx: Ctx, x: number, y: number, s: number, glow: boolean, 
 
 // Symbolic tree — trunk sways left/right, foliage stays stable.
 function drawTree(ctx: Ctx, x: number, y: number, s: number, t: number) {
-  const sway = Math.sin(t * 0.9) * 0.08; // small trunk bend
+  const sway = Math.sin(t * 1.1) * 0.14; // gentle looping trunk sway L↔R
   // ground hint
   ctx.fillStyle = "rgba(120,100,70,0.18)";
   ctx.beginPath();
