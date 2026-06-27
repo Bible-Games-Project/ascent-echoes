@@ -123,6 +123,13 @@ export function Game() {
   const [enteredTop10, setEnteredTop10] = useState(false);
   const [isWorldRecord, setIsWorldRecord] = useState(false);
 
+  // Dev mode (testing only — never affects real monetization or leaderboard)
+  const [devMode, setDevMode] = useState<boolean>(() => {
+    try { return localStorage.getItem("btr_dev_mode") === "1"; } catch { return false; }
+  });
+  const devModeRef = useRef(false);
+  const [showLevelSelect, setShowLevelSelect] = useState(false);
+
   const stateRef = useRef<GameState>("start");
   const healthRef = useRef(3);
   const progressRef = useRef(0);
@@ -143,6 +150,7 @@ export function Game() {
   useEffect(() => { isPremiumRef.current = isPremium; }, [isPremium]);
   useEffect(() => { maxLivesRef.current = maxLives; }, [maxLives]);
   useEffect(() => { extraLifeUsedRef.current = extraLifeUsed; }, [extraLifeUsed]);
+  useEffect(() => { devModeRef.current = devMode; }, [devMode]);
 
   // Load premium flag from storage on mount.
   useEffect(() => {
@@ -182,6 +190,14 @@ export function Game() {
     setEnteredTop10(false);
     setIsWorldRecord(false);
     setWorldRank(null);
+    if (devModeRef.current) {
+      // Dev mode runs never touch the leaderboard or saved best.
+      (async () => {
+        const top = await fetchTop10();
+        if (!cancelled) setTopTen(top);
+      })();
+      return () => { cancelled = true; };
+    }
     (async () => {
       // Always refresh the top 10 for display.
       const top = await fetchTop10();
@@ -1211,7 +1227,7 @@ export function Game() {
     let raf = 0;
     let last = performance.now();
 
-    const reset = () => {
+    const reset = (startLevel: number = 1) => {
       player.lane = 1;
       player.targetLane = 1;
       player.x = laneX(1);
@@ -1221,7 +1237,7 @@ export function Game() {
       hintActive = null;
       particles.length = 0;
       powerups.length = 0;
-      const startMax = isPremiumRef.current ? 3 : 2;
+      const startMax = (isPremiumRef.current || devModeRef.current) ? 3 : 2;
       maxLivesRef.current = startMax; setMaxLives(startMax);
       setHealth(startMax); healthRef.current = startMax;
       extraLifeUsedRef.current = false; setExtraLifeUsed(false);
@@ -1231,10 +1247,13 @@ export function Game() {
       correctTotalRef.current = 0; setCorrectTotal(0);
       setHintLane(null); setDistortion(0); setMultiplierToast(null);
       setCurrentQuestion(null); setCurrentAnswers(null);
-      levelRef.current = 1; setLevel(1);
+      const lvl = Math.max(1, Math.floor(startLevel));
+      levelRef.current = lvl; setLevel(lvl);
+      // Reset themed-background crossfade so the chosen level renders immediately.
+      prevLevel = lvl; themeBlend = 1;
       runTimeRef.current = 0; setRunTime(0);
       usedIdsRef.current = new Set();
-      buildLevel(1);
+      buildLevel(lvl);
     };
 
     function damage(sxImpact: number, syImpact: number) {
@@ -1247,11 +1266,11 @@ export function Game() {
       streakRef.current = 0; setStreak(0);
       if (nh <= 0) {
         // Free players get one rewarded-ad continue per run.
-        if (!isPremiumRef.current && !extraLifeUsedRef.current) {
+        if (!isPremiumRef.current && !devModeRef.current && !extraLifeUsedRef.current) {
           stateRef.current = "offer"; setState("offer");
           return;
         }
-        if (scoreRef.current > bestRef.current) {
+        if (!devModeRef.current && scoreRef.current > bestRef.current) {
           bestRef.current = scoreRef.current;
           setBestScore(scoreRef.current);
           try { localStorage.setItem("dunewalker_best", String(scoreRef.current)); } catch { /* ignore */ }
@@ -1267,7 +1286,7 @@ export function Game() {
       activeIdx += 1;
       if (activeIdx >= queue.length) {
         // Level complete
-        if (scoreRef.current > bestRef.current) {
+        if (!devModeRef.current && scoreRef.current > bestRef.current) {
           bestRef.current = scoreRef.current;
           setBestScore(scoreRef.current);
           try { localStorage.setItem("dunewalker_best", String(scoreRef.current)); } catch { /* ignore */ }
@@ -1439,7 +1458,7 @@ export function Game() {
       raf = requestAnimationFrame(loop);
     };
 
-    (canvas as unknown as { __reset?: () => void }).__reset = reset;
+    (canvas as unknown as { __reset?: (startLevel?: number) => void }).__reset = reset;
 
     // ----- Input -----
     let touchStartX = 0;
@@ -1527,10 +1546,26 @@ export function Game() {
 
   const startGame = () => {
     if (!playerName) { setShowNamePrompt(true); return; }
-    const c = canvasRef.current as unknown as { __reset?: () => void } | null;
+    if (devMode) { setShowLevelSelect(true); return; }
+    const c = canvasRef.current as unknown as { __reset?: (startLevel?: number) => void } | null;
     c?.__reset?.();
     setState("playing");
     stateRef.current = "playing";
+  };
+
+  const startGameAtLevel = (lvl: number) => {
+    setShowLevelSelect(false);
+    const c = canvasRef.current as unknown as { __reset?: (startLevel?: number) => void } | null;
+    c?.__reset?.(lvl);
+    setState("playing");
+    stateRef.current = "playing";
+  };
+
+  const toggleDevMode = () => {
+    const next = !devMode;
+    setDevMode(next);
+    devModeRef.current = next;
+    try { localStorage.setItem("btr_dev_mode", next ? "1" : "0"); } catch { /* ignore */ }
   };
 
   const handleSaveName = (raw: string) => {
@@ -1629,7 +1664,7 @@ export function Game() {
                     type="button"
                     onClick={() => {
                       setShowExitConfirm(false);
-                      if (scoreRef.current > bestRef.current) {
+                      if (!devModeRef.current && scoreRef.current > bestRef.current) {
                         bestRef.current = scoreRef.current;
                         setBestScore(scoreRef.current);
                         try { localStorage.setItem("dunewalker_best", String(scoreRef.current)); } catch { /* ignore */ }
@@ -1809,8 +1844,40 @@ export function Game() {
           onChangeLanguage={setLanguage}
           onChangeName={() => { setShowSettings(false); setShowNamePrompt(true); }}
           onClose={() => setShowSettings(false)}
+          devMode={devMode}
+          onToggleDevMode={toggleDevMode}
           t={t}
         />
+      )}
+
+      {showLevelSelect && (
+        <div className="absolute inset-0 z-30 flex flex-col items-center justify-center bg-black/70 backdrop-blur-md animate-fade-in px-4">
+          <h2 className="text-xl font-light tracking-[0.25em] text-amber-50">Select Starting Level</h2>
+          <p className="mt-1 text-[10px] tracking-[0.3em] text-amber-200/70">DEV MODE · testing only</p>
+          <div className="mt-6 grid grid-cols-5 gap-2 max-w-[420px]">
+            {Array.from({ length: 10 }, (_, i) => i + 1).map((lvl) => (
+              <button
+                key={lvl}
+                onClick={() => startGameAtLevel(lvl)}
+                className="rounded-xl border border-amber-200/30 bg-black/45 px-3 py-3 text-sm tracking-widest text-amber-50 backdrop-blur transition hover:border-amber-200/70 hover:bg-black/60"
+              >
+                {lvl}
+              </button>
+            ))}
+            <button
+              onClick={() => startGameAtLevel(11)}
+              className="col-span-5 mt-1 rounded-xl border border-amber-200/40 bg-amber-200/10 px-3 py-2 text-xs tracking-[0.3em] text-amber-50 backdrop-blur transition hover:bg-amber-200/20"
+            >
+              Level 11+ (Endless)
+            </button>
+          </div>
+          <button
+            onClick={() => setShowLevelSelect(false)}
+            className="mt-6 rounded-full border border-amber-200/40 bg-black/30 px-6 py-2 text-xs tracking-[0.25em] text-amber-100/90 backdrop-blur hover:border-amber-200/70 hover:text-amber-50"
+          >
+            {t("close")}
+          </button>
+        </div>
       )}
 
       {showLeaderboard && (
@@ -1871,7 +1938,7 @@ export function Game() {
                 type="button"
                 disabled={adLoading}
                 onClick={() => {
-                  if (scoreRef.current > bestRef.current) {
+                  if (!devModeRef.current && scoreRef.current > bestRef.current) {
                     bestRef.current = scoreRef.current;
                     setBestScore(scoreRef.current);
                     try { localStorage.setItem("dunewalker_best", String(scoreRef.current)); } catch { /* ignore */ }
@@ -2059,6 +2126,8 @@ function SettingsOverlay({
   onChangeLanguage,
   onChangeName,
   onClose,
+  devMode,
+  onToggleDevMode,
   t,
 }: {
   name: string;
@@ -2066,6 +2135,8 @@ function SettingsOverlay({
   onChangeLanguage: (l: Language) => void;
   onChangeName: () => void;
   onClose: () => void;
+  devMode: boolean;
+  onToggleDevMode: () => void;
   t: (key: UIKey) => string;
 }) {
   const [showLangs, setShowLangs] = useState(false);
@@ -2124,6 +2195,33 @@ function SettingsOverlay({
       >
         {t("close")}
       </button>
+      <div className="mt-4 w-[280px] max-w-[88vw] rounded-2xl border border-amber-200/15 bg-black/35 p-3 backdrop-blur">
+        <button
+          type="button"
+          onClick={onToggleDevMode}
+          className="flex w-full items-center justify-between gap-3 text-left"
+        >
+          <div>
+            <div className="text-[10px] tracking-[0.3em] text-amber-200/60">DEV</div>
+            <div className="mt-0.5 text-xs text-amber-100/80">Game Dev Mode</div>
+            <div className="mt-0.5 text-[9px] tracking-wide text-amber-100/40">Testing only · no leaderboard</div>
+          </div>
+          <span
+            className={
+              "relative inline-flex h-5 w-9 items-center rounded-full transition " +
+              (devMode ? "bg-amber-300/70" : "bg-white/15")
+            }
+            aria-hidden
+          >
+            <span
+              className={
+                "inline-block h-4 w-4 transform rounded-full bg-black/80 transition " +
+                (devMode ? "translate-x-4" : "translate-x-0.5")
+              }
+            />
+          </span>
+        </button>
+      </div>
     </div>
   );
 }
