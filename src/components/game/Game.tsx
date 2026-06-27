@@ -2096,6 +2096,8 @@ function SettingsOverlay({
   onChangeLanguage,
   onChangeName,
   onClose,
+  devMode,
+  onToggleDevMode,
   t,
 }: {
   name: string;
@@ -2103,6 +2105,8 @@ function SettingsOverlay({
   onChangeLanguage: (l: Language) => void;
   onChangeName: () => void;
   onClose: () => void;
+  devMode: boolean;
+  onToggleDevMode: () => void;
   t: (key: UIKey) => string;
 }) {
   const [showLangs, setShowLangs] = useState(false);
