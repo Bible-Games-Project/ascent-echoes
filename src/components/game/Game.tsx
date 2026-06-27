@@ -490,7 +490,6 @@ export function Game() {
           { color: "rgba(80,50,40,0.92)",    baseFrac: 0.79, amp: 22, freq: 0.011, speed: 1.0 },
         ],
         fx: "rain_light",
-        house: true,
         ground: { top: "#3e2a1c", bottom: "#1a0f08", rim: "rgba(230, 200, 160, 0.45)" },
       },
       // 6 Winter forest – cold blue/white + snow
@@ -528,19 +527,19 @@ export function Game() {
       },
       // 9 Spring meadow – floral petals
       {
-        sky: ["#f7e7ef", "#f0d8e2", "#cfd9b8", "#8aae87"],
+        sky: ["#f6dcdc", "#eab4b4", "#b66a6a", "#5a2229"],
         sun: { xFrac: 0.76, yFrac: 0.28, rFrac: 0.06, haloRFrac: 0.5,
-          core: "#fff6df",
-          haloInner: "rgba(255,240,220,0.55)",
-          haloMid: "rgba(240,210,225,0.3)",
-          haloOuter: "rgba(200,200,180,0)" },
+          core: "#fff0e6",
+          haloInner: "rgba(255,220,210,0.55)",
+          haloMid: "rgba(230,160,160,0.3)",
+          haloOuter: "rgba(150,50,60,0)" },
         layers: [
-          { color: "rgba(200,220,170,0.55)", baseFrac: 0.62, amp: 12, freq: 0.005, speed: 0.4 },
-          { color: "rgba(150,190,140,0.72)", baseFrac: 0.71, amp: 20, freq: 0.008, speed: 0.7 },
-          { color: "rgba(90,140,100,0.9)",   baseFrac: 0.79, amp: 28, freq: 0.011, speed: 1.0 },
+          { color: "rgba(210,140,140,0.55)", baseFrac: 0.62, amp: 12, freq: 0.005, speed: 0.4 },
+          { color: "rgba(160,80,85,0.75)",   baseFrac: 0.71, amp: 20, freq: 0.008, speed: 0.7 },
+          { color: "rgba(85,30,40,0.92)",    baseFrac: 0.79, amp: 28, freq: 0.011, speed: 1.0 },
         ],
         fx: "petals",
-        ground: { top: "#3e4a26", bottom: "#1a200d", rim: "rgba(235, 240, 195, 0.5)" },
+        ground: { top: "#4a1e24", bottom: "#1f0a0d", rim: "rgba(245, 200, 200, 0.5)" },
       },
       // 10 Night sky – stars & shooting stars
       {
@@ -864,7 +863,7 @@ export function Game() {
       // helper to draw an answer label above the falling door
       const drawAnswerLabel = (cx: number, topY: number, text: string) => {
         ctx.save();
-        ctx.font = '600 13px "Cormorant Garamond", Georgia, serif';
+        ctx.font = '600 16px "Cormorant Garamond", Georgia, serif';
         ctx.textAlign = "center";
         ctx.textBaseline = "bottom";
         const maxW = W / 3 - 14;
@@ -890,7 +889,7 @@ export function Game() {
           } else cur = test;
         }
         if (cur) lines.push(cur);
-        const lineH = 15;
+        const lineH = 18;
         const boxH = lines.length * lineH + 6;
         const boxW = Math.min(maxW + 12, Math.max(...lines.map(l => ctx.measureText(l).width)) + 14);
         const bx = cx - boxW / 2;
