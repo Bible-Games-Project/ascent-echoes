@@ -1301,6 +1301,10 @@ export function Game() {
       }
 
       drawBackground();
+      if (themeBlend < 1) themeBlend = Math.min(1, themeBlend + dt * 0.8);
+      const __curFx = themeFor(levelRef.current).fx;
+      if (__curFx !== "none") spawnFxFor(__curFx, dt);
+      updateDrawFx(dt);
 
       if (stateRef.current === "playing") {
         if (slowTimer > 0) slowTimer -= dt;
