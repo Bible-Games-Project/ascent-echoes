@@ -418,6 +418,7 @@ export function Game() {
       layers: LayerDef[];
       fx: AmbientFx;
       house?: boolean;
+      ground: { top: string; bottom: string; rim: string };
     };
 
     const THEMES: Theme[] = [
