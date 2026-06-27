@@ -1219,7 +1219,7 @@ export function Game() {
     let raf = 0;
     let last = performance.now();
 
-    const reset = () => {
+    const reset = (startLevel: number = 1) => {
       player.lane = 1;
       player.targetLane = 1;
       player.x = laneX(1);
@@ -1229,7 +1229,7 @@ export function Game() {
       hintActive = null;
       particles.length = 0;
       powerups.length = 0;
-      const startMax = isPremiumRef.current ? 3 : 2;
+      const startMax = (isPremiumRef.current || devModeRef.current) ? 3 : 2;
       maxLivesRef.current = startMax; setMaxLives(startMax);
       setHealth(startMax); healthRef.current = startMax;
       extraLifeUsedRef.current = false; setExtraLifeUsed(false);
@@ -1239,10 +1239,13 @@ export function Game() {
       correctTotalRef.current = 0; setCorrectTotal(0);
       setHintLane(null); setDistortion(0); setMultiplierToast(null);
       setCurrentQuestion(null); setCurrentAnswers(null);
-      levelRef.current = 1; setLevel(1);
+      const lvl = Math.max(1, Math.floor(startLevel));
+      levelRef.current = lvl; setLevel(lvl);
+      // Reset themed-background crossfade so the chosen level renders immediately.
+      prevLevel = lvl; themeBlend = 1;
       runTimeRef.current = 0; setRunTime(0);
       usedIdsRef.current = new Set();
-      buildLevel(1);
+      buildLevel(lvl);
     };
 
     function damage(sxImpact: number, syImpact: number) {
