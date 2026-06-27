@@ -1183,6 +1183,7 @@ export function Game() {
         flap,
         scale: 2,
         glow: invuln > 0 || correctPulse > 0,
+        t: timeSec,
       });
       ctx.restore();
 

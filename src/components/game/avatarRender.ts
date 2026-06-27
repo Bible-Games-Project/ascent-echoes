@@ -15,6 +15,7 @@ export interface DrawAvatarOpts {
   flap?: number;      // -1..1 phase used by winged characters / idle bob
   scale?: number;
   glow?: boolean;
+  t?: number;         // continuous time in seconds (drives intrinsic motion)
 }
 
 type Ctx = CanvasRenderingContext2D;
@@ -110,63 +111,96 @@ function softGlow(ctx: Ctx, x: number, y: number, s: number, color: string, r = 
 
 // ============ Unique characters ============
 
-function drawOilLamp(ctx: Ctx, x: number, y: number, s: number, glow: boolean) {
-  softGlow(ctx, x, y - 8 * s, s, "rgba(255,200,112,0.35)", 16);
-  // flame
+// Candle with a naturally flickering flame. Body is stable; only flame moves.
+function drawCandle(ctx: Ctx, x: number, y: number, s: number, glow: boolean, t: number) {
+  // candle body
+  ctx.fillStyle = "#F0E2C4";
+  ctx.fillRect(x - 4 * s, y - 2 * s, 8 * s, 14 * s);
+  // soft shading
+  ctx.fillStyle = "rgba(180,150,100,0.25)";
+  ctx.fillRect(x + 2 * s, y - 2 * s, 2 * s, 14 * s);
+  // melted top rim
+  ctx.fillStyle = "#E6D6B0";
+  ctx.beginPath();
+  ctx.ellipse(x, y - 2 * s, 4 * s, 1.3 * s, 0, 0, Math.PI * 2);
+  ctx.fill();
+  // wick
+  ctx.fillStyle = "#3a2a1a";
+  ctx.fillRect(x - 0.5 * s, y - 6 * s, 1 * s, 4 * s);
+
+  // flame — flickers via t (wave + sway + scale)
+  const sway = Math.sin(t * 7.3) * 0.9 + Math.sin(t * 11.1) * 0.4;
+  const scaleY = 1 + Math.sin(t * 9.7) * 0.08;
+  const tipX = x + sway * s;
+  softGlow(ctx, x, y - 9 * s, s, "rgba(255,210,128,0.45)", 14 + Math.sin(t * 5) * 1.5);
   withGlow(ctx, "#FFD27A", s, glow, () => {
     ctx.fillStyle = "#FFE3A0";
     ctx.beginPath();
-    ctx.moveTo(x, y - 14 * s);
-    ctx.quadraticCurveTo(x + 4 * s, y - 8 * s, x, y - 4 * s);
-    ctx.quadraticCurveTo(x - 4 * s, y - 8 * s, x, y - 14 * s);
+    ctx.moveTo(tipX, y - (13 * scaleY) * s);
+    ctx.quadraticCurveTo(x + 4 * s, y - 8 * s, x, y - 6 * s);
+    ctx.quadraticCurveTo(x - 4 * s, y - 8 * s, tipX, y - (13 * scaleY) * s);
+    ctx.fill();
+    // inner flame
+    ctx.fillStyle = "rgba(255,180,90,0.85)";
+    ctx.beginPath();
+    ctx.moveTo(x + sway * 0.5 * s, y - 10 * s);
+    ctx.quadraticCurveTo(x + 2 * s, y - 8 * s, x, y - 6.5 * s);
+    ctx.quadraticCurveTo(x - 2 * s, y - 8 * s, x + sway * 0.5 * s, y - 10 * s);
     ctx.fill();
   });
-  // wick
-  ctx.fillStyle = "#3a2a1a";
-  ctx.fillRect(x - 0.6 * s, y - 4 * s, 1.2 * s, 2 * s);
-  // lamp body (terracotta)
-  ctx.fillStyle = "#C99A6B";
-  ctx.beginPath();
-  ctx.ellipse(x, y + 3 * s, 11 * s, 6 * s, 0, 0, Math.PI * 2);
-  ctx.fill();
-  // spout
-  ctx.beginPath();
-  ctx.moveTo(x + 8 * s, y + 1 * s);
-  ctx.lineTo(x + 14 * s, y + 3 * s);
-  ctx.lineTo(x + 8 * s, y + 5 * s);
-  ctx.closePath(); ctx.fill();
-  // handle
-  ctx.strokeStyle = "#A8794E";
-  ctx.lineWidth = 1.4 * s;
-  ctx.beginPath();
-  ctx.arc(x - 9 * s, y + 3 * s, 3 * s, -Math.PI / 2, Math.PI / 2);
-  ctx.stroke();
-  // highlight
-  ctx.fillStyle = "rgba(255,255,255,0.35)";
-  ctx.beginPath();
-  ctx.ellipse(x - 3 * s, y + 1 * s, 3 * s, 1 * s, 0, 0, Math.PI * 2);
-  ctx.fill();
-  eyes(ctx, x, y + 3 * s, s, 2.4, 0.8, "#3a2a1a");
 }
 
-function drawScroll(ctx: Ctx, x: number, y: number, s: number) {
-  // parchment body
-  ctx.fillStyle = "#F4E6BE";
-  ctx.fillRect(x - 10 * s, y - 8 * s, 20 * s, 16 * s);
-  // lines of text
-  ctx.strokeStyle = "#B59A66";
-  ctx.lineWidth = 0.8 * s;
+// Open book with gently fluttering pages.
+function drawOpenBook(ctx: Ctx, x: number, y: number, s: number, t: number) {
+  const flutter = Math.sin(t * 1.8) * 0.18;   // ±0.18 rad page tilt
+  const lift = Math.sin(t * 2.2) * 0.6;
+  // back covers (slight V)
+  ctx.fillStyle = "#8C6F4A";
+  ctx.beginPath();
+  ctx.moveTo(x - 13 * s, y - 7 * s);
+  ctx.lineTo(x, y - 5 * s);
+  ctx.lineTo(x, y + 9 * s);
+  ctx.lineTo(x - 13 * s, y + 7 * s);
+  ctx.closePath(); ctx.fill();
+  ctx.beginPath();
+  ctx.moveTo(x + 13 * s, y - 7 * s);
+  ctx.lineTo(x, y - 5 * s);
+  ctx.lineTo(x, y + 9 * s);
+  ctx.lineTo(x + 13 * s, y + 7 * s);
+  ctx.closePath(); ctx.fill();
+  // pages — left
+  ctx.save();
+  ctx.translate(x - 6.5 * s, y);
+  ctx.transform(1, flutter * 0.4, 0, 1, 0, 0);
+  ctx.fillStyle = "#F8EFD6";
+  ctx.fillRect(-6 * s, -6 * s + lift * s, 12 * s, 12 * s);
+  ctx.strokeStyle = "#C9B07A";
+  ctx.lineWidth = 0.7 * s;
   for (let i = 0; i < 4; i++) {
     ctx.beginPath();
-    ctx.moveTo(x - 7 * s, y - 5 * s + i * 3 * s);
-    ctx.lineTo(x + 7 * s, y - 5 * s + i * 3 * s);
+    ctx.moveTo(-4 * s, -3 * s + i * 2.2 * s);
+    ctx.lineTo(4 * s, -3 * s + i * 2.2 * s);
     ctx.stroke();
   }
-  // rolled ends
-  ctx.fillStyle = "#C9A66B";
-  ctx.beginPath();
-  ctx.ellipse(x - 10 * s, y, 3 * s, 9 * s, 0, 0, Math.PI * 2); ctx.fill();
-  ctx.ellipse(x + 10 * s, y, 3 * s, 9 * s, 0, 0, Math.PI * 2); ctx.fill();
+  ctx.restore();
+  // pages — right
+  ctx.save();
+  ctx.translate(x + 6.5 * s, y);
+  ctx.transform(1, -flutter * 0.4, 0, 1, 0, 0);
+  ctx.fillStyle = "#F8EFD6";
+  ctx.fillRect(-6 * s, -6 * s - lift * s, 12 * s, 12 * s);
+  ctx.strokeStyle = "#C9B07A";
+  ctx.lineWidth = 0.7 * s;
+  for (let i = 0; i < 4; i++) {
+    ctx.beginPath();
+    ctx.moveTo(-4 * s, -3 * s + i * 2.2 * s);
+    ctx.lineTo(4 * s, -3 * s + i * 2.2 * s);
+    ctx.stroke();
+  }
+  ctx.restore();
+  // spine
+  ctx.fillStyle = "#6F5636";
+  ctx.fillRect(x - 0.7 * s, y - 6 * s, 1.4 * s, 14 * s);
 }
 
 function drawStarChar(ctx: Ctx, x: number, y: number, s: number, glow: boolean, color = "#FFE89A") {
@@ -185,53 +219,56 @@ function drawStarChar(ctx: Ctx, x: number, y: number, s: number, glow: boolean, 
   });
 }
 
-function drawOliveBranch(ctx: Ctx, x: number, y: number, s: number) {
-  // stem
-  ctx.strokeStyle = "#8A7A4A";
-  ctx.lineWidth = 1.6 * s;
+// Symbolic tree — trunk sways left/right, foliage stays stable.
+function drawTree(ctx: Ctx, x: number, y: number, s: number, t: number) {
+  const sway = Math.sin(t * 0.9) * 0.08; // small trunk bend
+  // ground hint
+  ctx.fillStyle = "rgba(120,100,70,0.18)";
   ctx.beginPath();
-  ctx.moveTo(x - 14 * s, y + 6 * s);
-  ctx.quadraticCurveTo(x, y - 2 * s, x + 14 * s, y - 6 * s);
+  ctx.ellipse(x, y + 13 * s, 8 * s, 1.4 * s, 0, 0, Math.PI * 2);
+  ctx.fill();
+  // trunk (bent via quadratic with sway)
+  ctx.strokeStyle = "#8A6A44";
+  ctx.lineWidth = 2.4 * s;
+  ctx.lineCap = "round";
+  ctx.beginPath();
+  ctx.moveTo(x, y + 12 * s);
+  ctx.quadraticCurveTo(x + sway * 20 * s, y + 2 * s, x + sway * 12 * s, y - 4 * s);
   ctx.stroke();
-  // leaves
+  ctx.lineCap = "butt";
+  // foliage — soft pastel canopy, mostly stable
+  const cx = x + sway * 12 * s;
+  const cy = y - 6 * s;
   ctx.fillStyle = "#A8C887";
-  const leafPts: Array<[number, number, number]> = [
-    [-10, 2, -0.6], [-4, -2, -0.4], [2, -5, -0.3], [8, -8, -0.2],
-    [-7, 7, 0.8], [-1, 4, 0.6], [5, 0, 0.4], [11, -3, 0.3],
-  ];
-  for (const [dx, dy, rot] of leafPts) {
-    ctx.save();
-    ctx.translate(x + dx * s, y + dy * s);
-    ctx.rotate(rot);
-    ctx.beginPath();
-    ctx.ellipse(0, 0, 4 * s, 1.6 * s, 0, 0, Math.PI * 2);
-    ctx.fill();
-    ctx.restore();
-  }
-  // olives
-  dot(ctx, x - 2 * s, y + 1 * s, 1.6 * s, "#6B7E3D");
-  dot(ctx, x + 4 * s, y - 2 * s, 1.6 * s, "#6B7E3D");
+  ctx.beginPath(); ctx.arc(cx, cy, 9 * s, 0, Math.PI * 2); ctx.fill();
+  ctx.beginPath(); ctx.arc(cx - 6 * s, cy + 2 * s, 6 * s, 0, Math.PI * 2); ctx.fill();
+  ctx.beginPath(); ctx.arc(cx + 6 * s, cy + 2 * s, 6 * s, 0, Math.PI * 2); ctx.fill();
+  ctx.beginPath(); ctx.arc(cx, cy - 5 * s, 6 * s, 0, Math.PI * 2); ctx.fill();
+  // softer highlight
+  ctx.fillStyle = "rgba(255,255,255,0.18)";
+  ctx.beginPath(); ctx.arc(cx - 2 * s, cy - 4 * s, 3 * s, 0, Math.PI * 2); ctx.fill();
 }
 
+// Slightly heavier anchor (thicker strokes, fuller hooks).
 function drawAnchor(ctx: Ctx, x: number, y: number, s: number) {
-  ctx.strokeStyle = "#A8B8C8";
-  ctx.lineWidth = 2 * s;
+  ctx.strokeStyle = "#9AAAB8";
+  ctx.lineWidth = 2.8 * s;
   ctx.lineCap = "round";
   // ring
-  ctx.beginPath(); ctx.arc(x, y - 10 * s, 3 * s, 0, Math.PI * 2); ctx.stroke();
+  ctx.beginPath(); ctx.arc(x, y - 10 * s, 3.4 * s, 0, Math.PI * 2); ctx.stroke();
   // shaft
   ctx.beginPath(); ctx.moveTo(x, y - 7 * s); ctx.lineTo(x, y + 8 * s); ctx.stroke();
   // crossbar
-  ctx.beginPath(); ctx.moveTo(x - 6 * s, y - 3 * s); ctx.lineTo(x + 6 * s, y - 3 * s); ctx.stroke();
+  ctx.beginPath(); ctx.moveTo(x - 7 * s, y - 3 * s); ctx.lineTo(x + 7 * s, y - 3 * s); ctx.stroke();
   // hooks
   ctx.beginPath();
-  ctx.moveTo(x - 9 * s, y + 4 * s);
-  ctx.quadraticCurveTo(x, y + 14 * s, x + 9 * s, y + 4 * s);
+  ctx.moveTo(x - 10 * s, y + 4 * s);
+  ctx.quadraticCurveTo(x, y + 15 * s, x + 10 * s, y + 4 * s);
   ctx.stroke();
   ctx.beginPath();
-  ctx.moveTo(x - 9 * s, y + 4 * s); ctx.lineTo(x - 11 * s, y + 1 * s); ctx.stroke();
+  ctx.moveTo(x - 10 * s, y + 4 * s); ctx.lineTo(x - 12 * s, y + 1 * s); ctx.stroke();
   ctx.beginPath();
-  ctx.moveTo(x + 9 * s, y + 4 * s); ctx.lineTo(x + 11 * s, y + 1 * s); ctx.stroke();
+  ctx.moveTo(x + 10 * s, y + 4 * s); ctx.lineTo(x + 12 * s, y + 1 * s); ctx.stroke();
   ctx.lineCap = "butt";
 }
 
@@ -266,36 +303,47 @@ function drawFish(ctx: Ctx, x: number, y: number, s: number) {
   ctx.stroke();
 }
 
+// Writing quill — feather with a sharpened nib.
 function drawFeather(ctx: Ctx, x: number, y: number, s: number) {
   ctx.save();
   ctx.translate(x, y);
-  ctx.rotate(-0.4);
+  ctx.rotate(-0.5);
   // spine
   ctx.strokeStyle = "#9C8A66";
   ctx.lineWidth = 1.2 * s;
   ctx.beginPath();
-  ctx.moveTo(0, -14 * s); ctx.lineTo(0, 14 * s); ctx.stroke();
+  ctx.moveTo(0, -14 * s); ctx.lineTo(0, 12 * s); ctx.stroke();
   // vanes
   ctx.fillStyle = "#F2EAD3";
   ctx.beginPath();
   ctx.moveTo(0, -14 * s);
-  ctx.quadraticCurveTo(10 * s, -4 * s, 6 * s, 10 * s);
-  ctx.quadraticCurveTo(2 * s, 6 * s, 0, 12 * s);
+  ctx.quadraticCurveTo(10 * s, -4 * s, 5 * s, 8 * s);
+  ctx.quadraticCurveTo(2 * s, 4 * s, 0, 9 * s);
   ctx.closePath(); ctx.fill();
   ctx.beginPath();
   ctx.moveTo(0, -14 * s);
-  ctx.quadraticCurveTo(-10 * s, -4 * s, -6 * s, 10 * s);
-  ctx.quadraticCurveTo(-2 * s, 6 * s, 0, 12 * s);
+  ctx.quadraticCurveTo(-10 * s, -4 * s, -5 * s, 8 * s);
+  ctx.quadraticCurveTo(-2 * s, 4 * s, 0, 9 * s);
   ctx.closePath(); ctx.fill();
   // barbs
   ctx.strokeStyle = "#D8CCA8";
   ctx.lineWidth = 0.6 * s;
-  for (let i = -10; i <= 8; i += 2) {
+  for (let i = -10; i <= 6; i += 2) {
     ctx.beginPath();
     ctx.moveTo(0, i * s);
     ctx.lineTo((i < 0 ? -1 : 1) * (6 - Math.abs(i) * 0.3) * s, i * s + 1 * s);
     ctx.stroke();
   }
+  // sharpened nib
+  ctx.fillStyle = "#3a2a1a";
+  ctx.beginPath();
+  ctx.moveTo(-1.4 * s, 9 * s);
+  ctx.lineTo(1.4 * s, 9 * s);
+  ctx.lineTo(0, 15 * s);
+  ctx.closePath(); ctx.fill();
+  // ink tip
+  ctx.fillStyle = "#2a4a78";
+  ctx.beginPath(); ctx.arc(0, 14.5 * s, 0.9 * s, 0, Math.PI * 2); ctx.fill();
   ctx.restore();
 }
 
@@ -342,30 +390,22 @@ function drawSunChar(ctx: Ctx, x: number, y: number, s: number, glow: boolean) {
   });
 }
 
+// Crescent moon only — no full-disc background.
 function drawMoonChar(ctx: Ctx, x: number, y: number, s: number, glow: boolean) {
-  softGlow(ctx, x, y, s, "rgba(216,216,232,0.4)", 18);
+  softGlow(ctx, x, y, s, "rgba(232,232,244,0.4)", 18);
   withGlow(ctx, "#E8E8F4", s, glow, () => {
+    ctx.save();
+    // Carve crescent into an offscreen-ish path via composite ops on a local layer.
     ctx.fillStyle = "#E8E8F4";
     ctx.beginPath();
     ctx.arc(x, y, 12 * s, 0, Math.PI * 2);
     ctx.fill();
     ctx.globalCompositeOperation = "destination-out";
     ctx.beginPath();
-    ctx.arc(x + 5 * s, y - 2 * s, 10 * s, 0, Math.PI * 2);
+    ctx.arc(x + 5 * s, y - 2 * s, 11 * s, 0, Math.PI * 2);
     ctx.fill();
-    ctx.globalCompositeOperation = "source-over";
+    ctx.restore();
   });
-  // little star companion
-  ctx.fillStyle = "#FFE89A";
-  const r = 2 * s;
-  ctx.beginPath();
-  for (let i = 0; i < 5; i++) {
-    const a = (-Math.PI / 2) + i * (Math.PI * 2 / 5);
-    const a2 = a + Math.PI / 5;
-    ctx.lineTo(x + 13 * s + Math.cos(a) * r, y + 7 * s + Math.sin(a) * r);
-    ctx.lineTo(x + 13 * s + Math.cos(a2) * r * 0.45, y + 7 * s + Math.sin(a2) * r * 0.45);
-  }
-  ctx.closePath(); ctx.fill();
 }
 
 function drawRainbow(ctx: Ctx, x: number, y: number, s: number) {
@@ -412,98 +452,123 @@ function drawKey(ctx: Ctx, x: number, y: number, s: number, glow: boolean) {
   eyes(ctx, x, y - 8 * s, s, 1.4, 0.6, "#5a3a10");
 }
 
-function drawCrystal(ctx: Ctx, x: number, y: number, s: number, glow: boolean) {
-  softGlow(ctx, x, y, s, "rgba(200,216,255,0.5)", 16);
-  withGlow(ctx, "#C8D8FF", s, glow, () => {
-    ctx.fillStyle = "#DCE7FF";
+// Drachma-style coin token. Width is squeezed by external spin transform.
+function drawCoin(ctx: Ctx, x: number, y: number, s: number, glow: boolean) {
+  softGlow(ctx, x, y, s, "rgba(255,224,144,0.45)", 16);
+  withGlow(ctx, "#FFE070", s, glow, () => {
+    // outer disc
+    const grd = ctx.createRadialGradient(x - 3 * s, y - 3 * s, 1, x, y, 12 * s);
+    grd.addColorStop(0, "#FFF1B8");
+    grd.addColorStop(1, "#D4A52A");
+    ctx.fillStyle = grd;
+    ctx.beginPath(); ctx.arc(x, y, 12 * s, 0, Math.PI * 2); ctx.fill();
+    // inner rim
+    ctx.strokeStyle = "#B98A1F";
+    ctx.lineWidth = 0.9 * s;
+    ctx.beginPath(); ctx.arc(x, y, 9 * s, 0, Math.PI * 2); ctx.stroke();
+    // symbolic motif (sun-like cross)
+    ctx.strokeStyle = "#9c6a10";
+    ctx.lineWidth = 1.2 * s;
     ctx.beginPath();
-    ctx.moveTo(x, y - 13 * s);
-    ctx.lineTo(x + 8 * s, y - 4 * s);
-    ctx.lineTo(x + 5 * s, y + 12 * s);
-    ctx.lineTo(x - 5 * s, y + 12 * s);
-    ctx.lineTo(x - 8 * s, y - 4 * s);
-    ctx.closePath(); ctx.fill();
-  });
-  // facets
-  ctx.strokeStyle = "rgba(120,140,200,0.55)";
-  ctx.lineWidth = 0.9 * s;
-  ctx.beginPath();
-  ctx.moveTo(x, y - 13 * s); ctx.lineTo(x, y + 12 * s);
-  ctx.moveTo(x - 8 * s, y - 4 * s); ctx.lineTo(x + 8 * s, y - 4 * s);
-  ctx.stroke();
-  // highlight
-  ctx.fillStyle = "rgba(255,255,255,0.7)";
-  ctx.beginPath();
-  ctx.moveTo(x - 2 * s, y - 10 * s);
-  ctx.lineTo(x - 5 * s, y - 4 * s);
-  ctx.lineTo(x - 3 * s, y - 3 * s);
-  ctx.lineTo(x, y - 9 * s);
-  ctx.closePath(); ctx.fill();
-  // eyes embedded
-  eyes(ctx, x, y + 2 * s, s, 2.2, 0.9, "#3b4a78");
-}
-
-function drawLaurel(ctx: Ctx, x: number, y: number, s: number) {
-  // ribbon ring
-  ctx.strokeStyle = "#9CB877";
-  ctx.lineWidth = 1.4 * s;
-  ctx.beginPath();
-  ctx.arc(x, y, 11 * s, 0, Math.PI * 2);
-  ctx.stroke();
-  // leaves around
-  ctx.fillStyle = "#A8C887";
-  for (let i = 0; i < 14; i++) {
-    const a = (i / 14) * Math.PI * 2;
-    const lx = x + Math.cos(a) * 11 * s;
-    const ly = y + Math.sin(a) * 11 * s;
-    ctx.save();
-    ctx.translate(lx, ly);
-    ctx.rotate(a + Math.PI / 2);
-    ctx.beginPath();
-    ctx.ellipse(0, 0, 3.5 * s, 1.5 * s, 0, 0, Math.PI * 2);
-    ctx.fill();
-    ctx.restore();
-  }
-  // central face
-  ctx.fillStyle = "#FFF2D8";
-  ctx.beginPath();
-  ctx.arc(x, y, 5 * s, 0, Math.PI * 2);
-  ctx.fill();
-  eyes(ctx, x, y - 1 * s, s, 1.8, 0.8, "#5a4220");
-  ctx.strokeStyle = "#5a4220";
-  ctx.lineWidth = 0.8 * s;
-  ctx.beginPath();
-  ctx.arc(x, y + 1 * s, 1.4 * s, 0.1, Math.PI - 0.1);
-  ctx.stroke();
-}
-
-function drawCelestial(ctx: Ctx, x: number, y: number, s: number, flap: number, glow: boolean) {
-  softGlow(ctx, x, y, s, "rgba(255,240,192,0.6)", 22);
-  // central radiant being
-  withGlow(ctx, "#FFF0C0", s, glow, () => {
-    ctx.fillStyle = "#FFF6D8";
-    ctx.beginPath();
-    ctx.ellipse(x, y, 6 * s, 9 * s, 0, 0, Math.PI * 2);
-    ctx.fill();
-    ctx.beginPath();
-    ctx.arc(x, y - 8 * s, 4 * s, 0, Math.PI * 2);
-    ctx.fill();
-  });
-  // 6 radiating beams (slow pulse via flap)
-  const beam = 14 + flap * 2;
-  ctx.strokeStyle = "rgba(255,232,154,0.85)";
-  ctx.lineWidth = 1.4 * s;
-  ctx.lineCap = "round";
-  for (let i = 0; i < 6; i++) {
-    const a = (i / 6) * Math.PI * 2;
-    ctx.beginPath();
-    ctx.moveTo(x + Math.cos(a) * 9 * s, y + Math.sin(a) * 9 * s);
-    ctx.lineTo(x + Math.cos(a) * beam * s, y + Math.sin(a) * beam * s);
+    ctx.moveTo(x - 5 * s, y); ctx.lineTo(x + 5 * s, y);
+    ctx.moveTo(x, y - 5 * s); ctx.lineTo(x, y + 5 * s);
     ctx.stroke();
+    ctx.beginPath(); ctx.arc(x, y, 2.4 * s, 0, Math.PI * 2); ctx.stroke();
+  });
+}
+
+// Holy aureole — saint halo ring, viewed slightly tilted.
+function drawAureole(ctx: Ctx, x: number, y: number, s: number, glow: boolean) {
+  softGlow(ctx, x, y, s, "rgba(255,232,160,0.55)", 22);
+  // outer ring
+  withGlow(ctx, "#FFE89A", s, glow, () => {
+    ctx.strokeStyle = "#FFE89A";
+    ctx.lineWidth = 3.2 * s;
+    ctx.beginPath();
+    ctx.ellipse(x, y, 13 * s, 4.5 * s, 0, 0, Math.PI * 2);
+    ctx.stroke();
+  });
+  // inner highlight ring
+  ctx.strokeStyle = "rgba(255,255,255,0.7)";
+  ctx.lineWidth = 1 * s;
+  ctx.beginPath();
+  ctx.ellipse(x, y - 0.4 * s, 13 * s, 4.5 * s, 0, Math.PI * 1.05, Math.PI * 1.95);
+  ctx.stroke();
+  // faint rays radiating outward
+  ctx.strokeStyle = "rgba(255,232,154,0.55)";
+  ctx.lineWidth = 0.9 * s;
+  ctx.lineCap = "round";
+  for (let i = 0; i < 10; i++) {
+    const a = (i / 10) * Math.PI * 2;
+    const ix = x + Math.cos(a) * 13 * s;
+    const iy = y + Math.sin(a) * 4.5 * s;
+    const ox = x + Math.cos(a) * 16 * s;
+    const oy = y + Math.sin(a) * 6 * s;
+    ctx.beginPath(); ctx.moveTo(ix, iy); ctx.lineTo(ox, oy); ctx.stroke();
   }
   ctx.lineCap = "butt";
-  // tiny eyes in the head
-  eyes(ctx, x, y - 8 * s, s, 1.4, 0.6, "#9c7a20");
+}
+
+// Open shell with a glowing pearl that rises and settles back inside.
+function drawShellPearl(ctx: Ctx, x: number, y: number, s: number, glow: boolean, t: number) {
+  // open amount 0..1 follows a slow sine
+  const openPhase = (Math.sin(t * 0.9) + 1) / 2;           // 0..1
+  const open = 0.25 + openPhase * 0.75;                    // 0.25..1
+  const pearlLift = openPhase * 10 * s;                     // 0..10s upward
+  const pearlAlpha = 0.85 + 0.15 * Math.sin(t * 1.4);
+
+  // bottom half-shell (stable)
+  ctx.fillStyle = "#F2C7D8";
+  ctx.beginPath();
+  ctx.moveTo(x - 13 * s, y + 4 * s);
+  ctx.quadraticCurveTo(x, y + 16 * s, x + 13 * s, y + 4 * s);
+  ctx.lineTo(x + 11 * s, y + 3 * s);
+  ctx.quadraticCurveTo(x, y + 12 * s, x - 11 * s, y + 3 * s);
+  ctx.closePath(); ctx.fill();
+  // ridges on bottom
+  ctx.strokeStyle = "rgba(180,120,150,0.5)";
+  ctx.lineWidth = 0.8 * s;
+  for (let i = -3; i <= 3; i++) {
+    ctx.beginPath();
+    ctx.moveTo(x, y + 4 * s);
+    ctx.lineTo(x + i * 3.2 * s, y + 12 * s);
+    ctx.stroke();
+  }
+
+  // pearl (rises through the opening before the top closes back down)
+  withGlow(ctx, "#FFFFFF", s, glow, () => {
+    ctx.save();
+    ctx.globalAlpha *= pearlAlpha;
+    const grd = ctx.createRadialGradient(x - 1.5 * s, y + 2 * s - pearlLift, 0.5, x, y + 4 * s - pearlLift, 4 * s);
+    grd.addColorStop(0, "#FFFFFF");
+    grd.addColorStop(1, "#E6D8F0");
+    ctx.fillStyle = grd;
+    ctx.beginPath();
+    ctx.arc(x, y + 4 * s - pearlLift, 3.4 * s, 0, Math.PI * 2);
+    ctx.fill();
+    ctx.restore();
+  });
+
+  // top half-shell — rotates open
+  ctx.save();
+  ctx.translate(x, y + 4 * s);
+  ctx.rotate(-open * 0.85);
+  ctx.fillStyle = "#F8D6E4";
+  ctx.beginPath();
+  ctx.moveTo(-13 * s, 0);
+  ctx.quadraticCurveTo(0, -14 * s, 13 * s, 0);
+  ctx.lineTo(11 * s, 1 * s);
+  ctx.quadraticCurveTo(0, -11 * s, -11 * s, 1 * s);
+  ctx.closePath(); ctx.fill();
+  ctx.strokeStyle = "rgba(180,120,150,0.5)";
+  ctx.lineWidth = 0.8 * s;
+  for (let i = -3; i <= 3; i++) {
+    ctx.beginPath();
+    ctx.moveTo(0, 0);
+    ctx.lineTo(i * 3.2 * s, -10 * s);
+    ctx.stroke();
+  }
+  ctx.restore();
 }
 
 function drawCrown(ctx: Ctx, x: number, y: number, s: number, glow: boolean) {
@@ -585,10 +650,10 @@ export function drawAvatarBody(
     case "white_dove":  drawDove(ctx, x, y, s, flap, "#FFFCF0", "#FFF5C8", false, glow); break;
     case "black_dove":  drawDove(ctx, x, y, s, flap, "#2E2620", "#FFE5A0", false, glow); break;
     case "seraph_dove": drawDove(ctx, x, y, s, flap, "#FFE89C", "#FFF0B8", true,  glow); break;
-    case "oil_lamp":     drawOilLamp(ctx, x, y, s, glow); break;
-    case "scroll":       drawScroll(ctx, x, y, s); break;
+    case "oil_lamp":     drawCandle(ctx, x, y, s, glow, opts.t ?? 0); break;
+    case "scroll":       drawOpenBook(ctx, x, y, s, opts.t ?? 0); break;
     case "star":         drawStarChar(ctx, x, y, s, glow); break;
-    case "olive_branch": drawOliveBranch(ctx, x, y, s); break;
+    case "olive_branch": drawTree(ctx, x, y, s, opts.t ?? 0); break;
     case "anchor":       drawAnchor(ctx, x, y, s); break;
     case "ichthys":      drawFish(ctx, x, y, s); break;
     case "feather":      drawFeather(ctx, x, y, s); break;
@@ -597,9 +662,9 @@ export function drawAvatarBody(
     case "moon":         drawMoonChar(ctx, x, y, s, glow); break;
     case "rainbow":      drawRainbow(ctx, x, y, s); break;
     case "golden_key":   drawKey(ctx, x, y, s, glow); break;
-    case "crystal":      drawCrystal(ctx, x, y, s, glow); break;
-    case "laurel":       drawLaurel(ctx, x, y, s); break;
-    case "celestial":    drawCelestial(ctx, x, y, s, flap, glow); break;
+    case "crystal":      drawCoin(ctx, x, y, s, glow); break;
+    case "laurel":       drawAureole(ctx, x, y, s, glow); break;
+    case "celestial":    drawShellPearl(ctx, x, y, s, glow, opts.t ?? 0); break;
     case "crown":        drawCrown(ctx, x, y, s, glow); break;
     case "shield":       drawShield(ctx, x, y, s, glow); break;
     default:             drawDove(ctx, x, y, s, flap, "#FFFCF0", "#FFF5C8", false, glow);
