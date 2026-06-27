@@ -41,9 +41,22 @@ export type UIKey =
   | "change"
   | "language"
   | "bibleGamesProject"
-  | "comingSoon";
+  | "comingSoon"
+  | "premium"
+  | "premiumBenefits"
+  | "noAds"
+  | "threeLivesBenefit"
+  | "unlimitedNameChanges"
+  | "exclusiveAvatars"
+  | "continueRunTitle"
+  | "continueRunBody"
+  | "watchAdContinue"
+  | "gameOverBtn"
+  | "loadingAd"
+  | "premiumActive";
 
 type Dict = Record<UIKey, string>;
+type PartialDict = Partial<Dict>;
 
 const en: Dict = {
   tagline: "How many Bible questions can you answer?",
@@ -84,6 +97,18 @@ const en: Dict = {
   language: "LANGUAGE",
   bibleGamesProject: "BIBLE GAMES PROJECT",
   comingSoon: "COMING SOON",
+  premium: "PREMIUM",
+  premiumBenefits: "PREMIUM BENEFITS",
+  noAds: "No advertisements",
+  threeLivesBenefit: "Three permanent lives",
+  unlimitedNameChanges: "Unlimited name changes",
+  exclusiveAvatars: "Exclusive avatars (Coming Soon)",
+  continueRunTitle: "CONTINUE YOUR RUN?",
+  continueRunBody: "Watch a short ad to unlock the third life and continue.",
+  watchAdContinue: "WATCH AD & CONTINUE",
+  gameOverBtn: "GAME OVER",
+  loadingAd: "LOADING AD…",
+  premiumActive: "PREMIUM ACTIVE",
 };
 
 const es: Dict = {
@@ -537,7 +562,7 @@ const ar: Dict = {
   comingSoon: "قريباً",
 };
 
-const DICTS: Record<Language, Dict> = {
+const DICTS: Record<Language, PartialDict> = {
   en, es, pt, fr, de, it, pl, ru, tr, ja, ko, ar,
 };
 
