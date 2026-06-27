@@ -2002,6 +2002,16 @@ export function Game() {
         <MoreGamesOverlay onClose={() => setShowMoreGames(false)} t={t} />
       )}
 
+      {showAvatars && (
+        <AvatarsOverlay
+          isPremium={isPremium}
+          equipped={equippedAvatar}
+          onEquip={(id) => setEquippedAvatar(id)}
+          onClose={() => setShowAvatars(false)}
+          title={t("avatars")}
+        />
+      )}
+
       {state === "offer" && (
         <div className="absolute inset-0 z-40 flex items-center justify-center bg-black/70 backdrop-blur-md animate-fade-in px-4">
           <div className="mx-4 max-w-sm rounded-2xl border border-amber-200/30 bg-black/80 p-6 text-center text-amber-50 shadow-[0_0_40px_rgba(255,200,140,0.3)]">
