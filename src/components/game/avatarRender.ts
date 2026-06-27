@@ -392,19 +392,14 @@ function drawSunChar(ctx: Ctx, x: number, y: number, s: number, glow: boolean) {
 
 // Crescent moon only — no full-disc background.
 function drawMoonChar(ctx: Ctx, x: number, y: number, s: number, glow: boolean) {
-  softGlow(ctx, x, y, s, "rgba(232,232,244,0.4)", 18);
+  // Pure crescent shape via even-odd fill — no full disc, no composite ops,
+  // so nothing dark can show through behind the moon.
   withGlow(ctx, "#E8E8F4", s, glow, () => {
-    ctx.save();
-    // Carve crescent into an offscreen-ish path via composite ops on a local layer.
     ctx.fillStyle = "#E8E8F4";
     ctx.beginPath();
-    ctx.arc(x, y, 12 * s, 0, Math.PI * 2);
-    ctx.fill();
-    ctx.globalCompositeOperation = "destination-out";
-    ctx.beginPath();
-    ctx.arc(x + 5 * s, y - 2 * s, 11 * s, 0, Math.PI * 2);
-    ctx.fill();
-    ctx.restore();
+    ctx.arc(x, y, 12 * s, 0, Math.PI * 2, false);
+    ctx.arc(x + 5 * s, y - 2 * s, 11 * s, 0, Math.PI * 2, true);
+    ctx.fill("evenodd");
   });
 }
 
@@ -509,66 +504,72 @@ function drawAureole(ctx: Ctx, x: number, y: number, s: number, glow: boolean) {
   ctx.lineCap = "butt";
 }
 
-// Open shell with a glowing pearl that rises and settles back inside.
-function drawShellPearl(ctx: Ctx, x: number, y: number, s: number, glow: boolean, t: number) {
-  // open amount 0..1 follows a slow sine
-  const openPhase = (Math.sin(t * 0.9) + 1) / 2;           // 0..1
-  const open = 0.25 + openPhase * 0.75;                    // 0.25..1
-  const pearlLift = openPhase * 10 * s;                     // 0..10s upward
-  const pearlAlpha = 0.85 + 0.15 * Math.sin(t * 1.4);
+// Biblical chalice — ornate goblet with a wide cup, stem, and footed base.
+// Body itself is stable; the silhouette-level motion (gentle side-to-side
+// float) is applied by PlayerAvatar so the shape stays clean and elegant.
+function drawChalice(ctx: Ctx, x: number, y: number, s: number, glow: boolean, t: number) {
+  // soft holy glow behind the cup
+  softGlow(ctx, x, y - 4 * s, s, "rgba(255,232,160,0.45)", 18);
 
-  // bottom half-shell (stable)
-  ctx.fillStyle = "#F2C7D8";
-  ctx.beginPath();
-  ctx.moveTo(x - 13 * s, y + 4 * s);
-  ctx.quadraticCurveTo(x, y + 16 * s, x + 13 * s, y + 4 * s);
-  ctx.lineTo(x + 11 * s, y + 3 * s);
-  ctx.quadraticCurveTo(x, y + 12 * s, x - 11 * s, y + 3 * s);
-  ctx.closePath(); ctx.fill();
-  // ridges on bottom
-  ctx.strokeStyle = "rgba(180,120,150,0.5)";
-  ctx.lineWidth = 0.8 * s;
-  for (let i = -3; i <= 3; i++) {
+  withGlow(ctx, "#FFE89A", s, glow, () => {
+    // Cup — wider at the rim, tapering to the stem.
+    const cupGrd = ctx.createLinearGradient(x - 10 * s, y - 12 * s, x + 10 * s, y + 2 * s);
+    cupGrd.addColorStop(0, "#FFE89A");
+    cupGrd.addColorStop(0.5, "#E5B84A");
+    cupGrd.addColorStop(1, "#B98A1F");
+    ctx.fillStyle = cupGrd;
     ctx.beginPath();
-    ctx.moveTo(x, y + 4 * s);
-    ctx.lineTo(x + i * 3.2 * s, y + 12 * s);
-    ctx.stroke();
-  }
-
-  // pearl (rises through the opening before the top closes back down)
-  withGlow(ctx, "#FFFFFF", s, glow, () => {
-    ctx.save();
-    ctx.globalAlpha *= pearlAlpha;
-    const grd = ctx.createRadialGradient(x - 1.5 * s, y + 2 * s - pearlLift, 0.5, x, y + 4 * s - pearlLift, 4 * s);
-    grd.addColorStop(0, "#FFFFFF");
-    grd.addColorStop(1, "#E6D8F0");
-    ctx.fillStyle = grd;
-    ctx.beginPath();
-    ctx.arc(x, y + 4 * s - pearlLift, 3.4 * s, 0, Math.PI * 2);
+    ctx.moveTo(x - 10 * s, y - 11 * s);
+    ctx.lineTo(x + 10 * s, y - 11 * s);
+    ctx.lineTo(x + 6 * s, y + 1 * s);
+    ctx.quadraticCurveTo(x, y + 4 * s, x - 6 * s, y + 1 * s);
+    ctx.closePath();
     ctx.fill();
-    ctx.restore();
   });
 
-  // top half-shell — rotates open
-  ctx.save();
-  ctx.translate(x, y + 4 * s);
-  ctx.rotate(-open * 0.85);
-  ctx.fillStyle = "#F8D6E4";
+  // Rim band
+  ctx.fillStyle = "#FFF3C0";
+  ctx.fillRect(x - 10 * s, y - 12 * s, 20 * s, 2 * s);
+  ctx.fillStyle = "#C9962A";
+  ctx.fillRect(x - 10 * s, y - 10 * s, 20 * s, 1 * s);
+
+  // Wine — gentle surface highlight
+  ctx.fillStyle = "#7C1F2E";
   ctx.beginPath();
-  ctx.moveTo(-13 * s, 0);
-  ctx.quadraticCurveTo(0, -14 * s, 13 * s, 0);
-  ctx.lineTo(11 * s, 1 * s);
-  ctx.quadraticCurveTo(0, -11 * s, -11 * s, 1 * s);
-  ctx.closePath(); ctx.fill();
-  ctx.strokeStyle = "rgba(180,120,150,0.5)";
-  ctx.lineWidth = 0.8 * s;
-  for (let i = -3; i <= 3; i++) {
-    ctx.beginPath();
-    ctx.moveTo(0, 0);
-    ctx.lineTo(i * 3.2 * s, -10 * s);
-    ctx.stroke();
-  }
-  ctx.restore();
+  ctx.ellipse(x, y - 11 * s, 9 * s, 1.6 * s, 0, 0, Math.PI * 2);
+  ctx.fill();
+  ctx.fillStyle = "rgba(255,255,255,0.35)";
+  ctx.beginPath();
+  ctx.ellipse(x - 3 * s, y - 11.4 * s, 3 * s, 0.6 * s, 0, 0, Math.PI * 2);
+  ctx.fill();
+
+  // Ornamental jewel on the cup
+  dot(ctx, x, y - 5 * s, 1.6 * s, "#E94560");
+  dot(ctx, x, y - 5 * s, 0.6 * s, "rgba(255,255,255,0.85)");
+
+  // Stem
+  ctx.fillStyle = "#C9962A";
+  ctx.fillRect(x - 1.6 * s, y + 3 * s, 3.2 * s, 6 * s);
+  // Knot / node on the stem
+  ctx.fillStyle = "#FFE89A";
+  ctx.beginPath();
+  ctx.ellipse(x, y + 6 * s, 3 * s, 1.6 * s, 0, 0, Math.PI * 2);
+  ctx.fill();
+
+  // Footed base
+  ctx.fillStyle = "#C9962A";
+  ctx.beginPath();
+  ctx.ellipse(x, y + 11 * s, 9 * s, 2.4 * s, 0, 0, Math.PI * 2);
+  ctx.fill();
+  ctx.fillStyle = "#FFE89A";
+  ctx.beginPath();
+  ctx.ellipse(x, y + 10 * s, 9 * s, 1.6 * s, 0, 0, Math.PI * 2);
+  ctx.fill();
+
+  // Subtle internal shimmer driven by t (kept very gentle).
+  const shimmer = 0.4 + 0.15 * Math.sin(t * 1.2);
+  ctx.fillStyle = `rgba(255,255,255,${shimmer * 0.35})`;
+  ctx.fillRect(x - 8 * s, y - 9 * s, 1.4 * s, 8 * s);
 }
 
 function drawCrown(ctx: Ctx, x: number, y: number, s: number, glow: boolean) {
@@ -664,7 +665,7 @@ export function drawAvatarBody(
     case "golden_key":   drawKey(ctx, x, y, s, glow); break;
     case "crystal":      drawCoin(ctx, x, y, s, glow); break;
     case "laurel":       drawAureole(ctx, x, y, s, glow); break;
-    case "celestial":    drawShellPearl(ctx, x, y, s, glow, opts.t ?? 0); break;
+    case "celestial":    drawChalice(ctx, x, y, s, glow, opts.t ?? 0); break;
     case "crown":        drawCrown(ctx, x, y, s, glow); break;
     case "shield":       drawShield(ctx, x, y, s, glow); break;
     default:             drawDove(ctx, x, y, s, flap, "#FFFCF0", "#FFF5C8", false, glow);
