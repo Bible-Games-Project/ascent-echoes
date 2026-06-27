@@ -182,6 +182,7 @@ export function Game() {
     const m = p ? 3 : 2;
     setMaxLives(m); maxLivesRef.current = m;
     setHealth(m); healthRef.current = m;
+    setEquippedAvatar(getEquippedAvatar());
   }, []);
   useEffect(() => {
     languageRef.current = language;
