@@ -1825,55 +1825,22 @@ export function Game() {
           >
             {t("begin")}
           </button>
-          {playerName && (
-            <p className="mt-4 text-[11px] tracking-[0.25em] text-amber-100/70">
-              <span className="inline-flex items-center gap-1.5">
-                <AvatarIcon id={equippedAvatar} size={18} />
-                {t("player")} · <span className="text-amber-50">{playerName}</span>
-              </span>
-            </p>
-          )}
-          <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
-            <button
-              onClick={async () => {
-                setShowLeaderboard(true);
-                const t = await fetchTop10();
-                setTopTen(t);
-              }}
-              className="rounded-full border border-amber-200/30 bg-black/30 px-4 py-1.5 text-[10px] tracking-[0.25em] text-amber-100/80 backdrop-blur hover:border-amber-200/60 hover:text-amber-50"
-            >
-              {t("leaderboard")}
-            </button>
-            <button
-              onClick={() => setShowSettings(true)}
-              className="rounded-full border border-amber-200/30 bg-black/30 px-4 py-1.5 text-[10px] tracking-[0.25em] text-amber-100/80 backdrop-blur hover:border-amber-200/60 hover:text-amber-50"
-            >
-              {t("settings")}
-            </button>
-            <button
-              onClick={() => setShowMoreGames(true)}
-              className="rounded-full border border-amber-200/30 bg-black/30 px-4 py-1.5 text-[10px] tracking-[0.25em] text-amber-100/80 backdrop-blur hover:border-amber-200/60 hover:text-amber-50"
-            >
-              {t("moreGames")}
-            </button>
-            <button
-              onClick={() => setShowAvatars(true)}
-              className="rounded-full border border-amber-200/30 bg-black/30 px-4 py-1.5 text-[10px] tracking-[0.25em] text-amber-100/80 backdrop-blur hover:border-amber-200/60 hover:text-amber-50"
-            >
-              {t("avatars")}
-            </button>
-            <button
-              onClick={() => setShowPremium(true)}
-              className={
-                "rounded-full border px-4 py-1.5 text-[10px] tracking-[0.25em] backdrop-blur transition " +
-                (isPremium
-                  ? "border-amber-200/70 bg-amber-200/20 text-amber-50 shadow-[0_0_18px_rgba(255,200,140,0.4)]"
-                  : "border-amber-200/30 bg-black/30 text-amber-100/80 hover:border-amber-200/60 hover:text-amber-50")
-              }
-            >
-              ★ {t("premium")}
-            </button>
-          </div>
+          <MainMenuGroups
+            t={t}
+            playerName={playerName}
+            equippedAvatar={equippedAvatar}
+            isPremium={isPremium}
+            onPlayer={() => setShowNamePrompt(true)}
+            onAvatars={() => setShowAvatars(true)}
+            onLeaderboard={async () => {
+              setShowLeaderboard(true);
+              const tops = await fetchTop10();
+              setTopTen(tops);
+            }}
+            onSettings={() => setShowSettings(true)}
+            onPremium={() => setShowPremium(true)}
+            onMoreGames={() => setShowMoreGames(true)}
+          />
         </Overlay>
       )}
 
