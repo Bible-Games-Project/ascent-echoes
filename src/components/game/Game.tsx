@@ -12,6 +12,7 @@ import {
   type GameQuestion,
 } from "./questionBank";
 import { getT, type UIKey } from "./i18n";
+import { getIsPremium, simulateRewardedAd } from "@/lib/monetization";
 import {
   fetchRank,
   fetchTop10,
@@ -26,7 +27,7 @@ import {
   type LeaderboardEntry,
 } from "@/lib/leaderboard";
 
-type GameState = "start" | "playing" | "gameover";
+type GameState = "start" | "playing" | "offer" | "gameover";
 type Lane = 0 | 1 | 2; // 0 left, 1 center, 2 right
 
 function formatRunTime(seconds: number): string {
@@ -94,6 +95,11 @@ export function Game() {
   const [multiplierToast, setMultiplierToast] = useState<number | null>(null);
   const [correctTotal, setCorrectTotal] = useState(0);
   const [showExitConfirm, setShowExitConfirm] = useState(false);
+  const [isPremium, setIsPremiumState] = useState(false);
+  const [maxLives, setMaxLives] = useState(2);
+  const [extraLifeUsed, setExtraLifeUsed] = useState(false);
+  const [adLoading, setAdLoading] = useState(false);
+  const [showPremium, setShowPremium] = useState(false);
   const [hintLane, setHintLane] = useState<Lane | null>(null);
   const [distortion, setDistortion] = useState(0);
   const [runTime, setRunTime] = useState(0);
@@ -128,9 +134,25 @@ export function Game() {
   const languageRef = useRef<Language>(language);
   const usedIdsRef = useRef<Set<string>>(new Set());
   const correctTotalRef = useRef(0);
+  const isPremiumRef = useRef(false);
+  const maxLivesRef = useRef(2);
+  const extraLifeUsedRef = useRef(false);
 
   useEffect(() => { stateRef.current = state; }, [state]);
   useEffect(() => { healthRef.current = health; }, [health]);
+  useEffect(() => { isPremiumRef.current = isPremium; }, [isPremium]);
+  useEffect(() => { maxLivesRef.current = maxLives; }, [maxLives]);
+  useEffect(() => { extraLifeUsedRef.current = extraLifeUsed; }, [extraLifeUsed]);
+
+  // Load premium flag from storage on mount.
+  useEffect(() => {
+    const p = getIsPremium();
+    setIsPremiumState(p);
+    isPremiumRef.current = p;
+    const m = p ? 3 : 2;
+    setMaxLives(m); maxLivesRef.current = m;
+    setHealth(m); healthRef.current = m;
+  }, []);
   useEffect(() => {
     languageRef.current = language;
     try { localStorage.setItem("dunewalker_lang", language); } catch { /* ignore */ }
@@ -819,7 +841,10 @@ export function Game() {
       hintActive = null;
       particles.length = 0;
       powerups.length = 0;
-      setHealth(3); healthRef.current = 3;
+      const startMax = isPremiumRef.current ? 3 : 2;
+      maxLivesRef.current = startMax; setMaxLives(startMax);
+      setHealth(startMax); healthRef.current = startMax;
+      extraLifeUsedRef.current = false; setExtraLifeUsed(false);
       setProgress(0); progressRef.current = 0;
       scoreRef.current = 0; setScore(0);
       streakRef.current = 0; setStreak(0);
@@ -841,6 +866,11 @@ export function Game() {
       spawnImpact(sxImpact, syImpact);
       streakRef.current = 0; setStreak(0);
       if (nh <= 0) {
+        // Free players get one rewarded-ad continue per run.
+        if (!isPremiumRef.current && !extraLifeUsedRef.current) {
+          stateRef.current = "offer"; setState("offer");
+          return;
+        }
         if (scoreRef.current > bestRef.current) {
           bestRef.current = scoreRef.current;
           setBestScore(scoreRef.current);
@@ -1156,7 +1186,11 @@ export function Game() {
           <div className="pointer-events-none absolute inset-x-0 top-0 z-10 flex items-start justify-between px-3 pt-3">
             <div className="flex flex-col gap-1.5">
               <div className="flex items-center gap-1.5">
-                {[0, 1, 2].map((i) => (<Heart key={i} filled={i < health} />))}
+                {[0, 1, 2].map((i) => {
+                  const unlocked = i < maxLives;
+                  if (!unlocked) return <LockedHeart key={i} />;
+                  return <Heart key={i} filled={i < health} />;
+                })}
               </div>
               <div className="flex items-center gap-2 rounded-full bg-black/45 px-2.5 py-0.5 text-[10px] font-medium tracking-widest text-amber-100 backdrop-blur">
                 <span className="text-amber-200/70">{t("score")}</span>
@@ -1304,6 +1338,17 @@ export function Game() {
             >
               {t("moreGames")}
             </button>
+            <button
+              onClick={() => setShowPremium(true)}
+              className={
+                "rounded-full border px-4 py-1.5 text-[10px] tracking-[0.25em] backdrop-blur transition " +
+                (isPremium
+                  ? "border-amber-200/70 bg-amber-200/20 text-amber-50 shadow-[0_0_18px_rgba(255,200,140,0.4)]"
+                  : "border-amber-200/30 bg-black/30 text-amber-100/80 hover:border-amber-200/60 hover:text-amber-50")
+              }
+            >
+              ★ {t("premium")}
+            </button>
           </div>
         </Overlay>
       )}
@@ -1399,6 +1444,70 @@ export function Game() {
       {showMoreGames && (
         <MoreGamesOverlay onClose={() => setShowMoreGames(false)} t={t} />
       )}
+
+      {state === "offer" && (
+        <div className="absolute inset-0 z-40 flex items-center justify-center bg-black/70 backdrop-blur-md animate-fade-in px-4">
+          <div className="mx-4 max-w-sm rounded-2xl border border-amber-200/30 bg-black/80 p-6 text-center text-amber-50 shadow-[0_0_40px_rgba(255,200,140,0.3)]">
+            <div className="flex justify-center gap-2 text-2xl">
+              <span>❤️</span><span>❤️</span><span className="opacity-60">🔒</span>
+            </div>
+            <h3 className="mt-4 text-lg font-light tracking-[0.25em] text-amber-50">
+              {t("continueRunTitle")}
+            </h3>
+            <p className="mt-2 text-xs tracking-wide text-amber-100/70" style={{ fontFamily: '"Cormorant Garamond", Georgia, serif', fontSize: 15 }}>
+              {t("continueRunBody")}
+            </p>
+            <div className="mt-5 flex flex-col items-center gap-3">
+              <button
+                type="button"
+                disabled={adLoading}
+                onClick={async () => {
+                  setAdLoading(true);
+                  const ok = await simulateRewardedAd();
+                  setAdLoading(false);
+                  if (!ok) return;
+                  // Unlock the third life, restore exactly one life, resume.
+                  maxLivesRef.current = 3; setMaxLives(3);
+                  healthRef.current = 1; setHealth(1);
+                  extraLifeUsedRef.current = true; setExtraLifeUsed(true);
+                  stateRef.current = "playing"; setState("playing");
+                }}
+                className={
+                  "rounded-full px-7 py-2.5 text-xs font-medium tracking-[0.25em] transition-transform " +
+                  (adLoading
+                    ? "cursor-wait bg-amber-100/40 text-stone-900/60"
+                    : "bg-amber-100 text-stone-900 shadow-[0_0_30px_rgba(255,200,140,0.5)] hover:scale-105 active:scale-95")
+                }
+              >
+                {adLoading ? t("loadingAd") : `▶ ${t("watchAdContinue")}`}
+              </button>
+              <button
+                type="button"
+                disabled={adLoading}
+                onClick={() => {
+                  if (scoreRef.current > bestRef.current) {
+                    bestRef.current = scoreRef.current;
+                    setBestScore(scoreRef.current);
+                    try { localStorage.setItem("dunewalker_best", String(scoreRef.current)); } catch { /* ignore */ }
+                  }
+                  stateRef.current = "gameover"; setState("gameover");
+                }}
+                className="rounded-full border border-amber-200/40 bg-black/30 px-6 py-2 text-[11px] tracking-[0.3em] text-amber-100/90 hover:border-amber-200/70 hover:text-amber-50"
+              >
+                {t("gameOverBtn")}
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {showPremium && (
+        <PremiumOverlay
+          isPremium={isPremium}
+          onClose={() => setShowPremium(false)}
+          t={t}
+        />
+      )}
     </div>
   );
 }
@@ -1420,6 +1529,23 @@ function Heart({ filled }: { filled: boolean }) {
         stroke="rgba(255,220,170,0.9)"
         strokeWidth={1.2}
       />
+    </svg>
+  );
+}
+
+function LockedHeart() {
+  return (
+    <svg viewBox="0 0 24 24" width={20} height={20} aria-hidden>
+      <path
+        d="M12 21s-7-4.5-9.5-9.2C.9 8.5 2.6 5 6 5c2 0 3.4 1 4 2.2C10.6 6 12 5 14 5c3.4 0 5.1 3.5 3.5 6.8C19 16.5 12 21 12 21z"
+        fill="rgba(255,220,170,0.06)"
+        stroke="rgba(255,220,170,0.35)"
+        strokeWidth={1.2}
+      />
+      <g transform="translate(12 13)">
+        <rect x="-3.2" y="-0.5" width="6.4" height="5" rx="1" fill="rgba(20,12,8,0.85)" stroke="rgba(255,220,170,0.8)" strokeWidth={0.8}/>
+        <path d="M-2 -0.6 V -2.2 a2 2 0 0 1 4 0 V -0.6" fill="none" stroke="rgba(255,220,170,0.85)" strokeWidth={1}/>
+      </g>
     </svg>
   );
 }
@@ -1712,6 +1838,61 @@ function MoreGamesOverlay({ onClose, t }: { onClose: () => void; t: (key: UIKey)
       >
         {t("close")}
       </button>
+    </div>
+  );
+}
+
+function PremiumOverlay({
+  isPremium,
+  onClose,
+  t,
+}: {
+  isPremium: boolean;
+  onClose: () => void;
+  t: (key: UIKey) => string;
+}) {
+  const Bullet = ({ children }: { children: React.ReactNode }) => (
+    <li className="flex items-start gap-2 text-sm tracking-wide text-amber-50/90" style={{ fontFamily: '"Cormorant Garamond", Georgia, serif', fontSize: 17 }}>
+      <span className="mt-0.5 text-amber-200">✦</span>
+      <span>{children}</span>
+    </li>
+  );
+  return (
+    <div className="absolute inset-0 z-40 flex flex-col items-center justify-center bg-black/75 backdrop-blur-md animate-fade-in px-4">
+      <div className="mx-4 w-[min(92vw,420px)] rounded-2xl border border-amber-200/40 bg-black/80 p-6 text-center text-amber-50 shadow-[0_0_50px_rgba(255,200,140,0.35)]">
+        <div className="text-[10px] tracking-[0.35em] text-amber-200/80">★ {t("premium")} ★</div>
+        <h2 className="mt-2 text-2xl font-light tracking-[0.25em] text-amber-50">BIBLE TRIVIA RUN</h2>
+        <p className="mt-1 text-[10px] tracking-[0.3em] text-amber-200/70">{t("premiumBenefits")}</p>
+
+        <ul className="mt-5 flex flex-col gap-2 text-left">
+          <Bullet>{t("noAds")}</Bullet>
+          <Bullet>{t("threeLivesBenefit")}</Bullet>
+          <Bullet>{t("unlimitedNameChanges")}</Bullet>
+          <Bullet>{t("exclusiveAvatars")}</Bullet>
+        </ul>
+
+        <div className="mt-6 flex flex-col items-center gap-3">
+          {isPremium ? (
+            <div className="rounded-full bg-amber-200/25 px-5 py-2 text-[11px] tracking-[0.3em] text-amber-50 ring-1 ring-amber-200/60">
+              ★ {t("premiumActive")} ★
+            </div>
+          ) : (
+            <button
+              type="button"
+              disabled
+              className="cursor-not-allowed rounded-full bg-amber-100/30 px-7 py-2.5 text-xs font-medium tracking-[0.25em] text-stone-900/50"
+            >
+              {t("comingSoon")}
+            </button>
+          )}
+          <button
+            onClick={onClose}
+            className="rounded-full border border-amber-200/40 bg-black/30 px-6 py-2 text-xs tracking-[0.25em] text-amber-100/90 backdrop-blur hover:border-amber-200/70 hover:text-amber-50"
+          >
+            {t("close")}
+          </button>
+        </div>
+      </div>
     </div>
   );
 }
