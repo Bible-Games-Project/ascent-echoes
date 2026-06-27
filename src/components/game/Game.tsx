@@ -436,6 +436,7 @@ export function Game() {
           { color: "rgba(50,25,60,0.85)",   baseFrac: 0.78, amp: 34, freq: 0.012, speed: 1.0 },
         ],
         fx: "none",
+        ground: { top: "#3a2540", bottom: "#1a0f25", rim: "rgba(255, 180, 120, 0.5)" },
       },
       // 2 Summer forest – pastel greens
       {
@@ -451,6 +452,7 @@ export function Game() {
           { color: "rgba(60,110,80,0.9)",    baseFrac: 0.78, amp: 30, freq: 0.011, speed: 1.0 },
         ],
         fx: "none",
+        ground: { top: "#2a4a32", bottom: "#10220f", rim: "rgba(210, 240, 190, 0.45)" },
       },
       // 3 Summer sea – pastel blues
       {
@@ -466,6 +468,7 @@ export function Game() {
           { color: "rgba(50,110,160,0.9)",   baseFrac: 0.8,  amp: 18, freq: 0.024, speed: 1.1 },
         ],
         fx: "none",
+        ground: { top: "#1f3f5e", bottom: "#0c1e30", rim: "rgba(190, 225, 240, 0.5)" },
       },
       // 4 Autumn forest – warm orange/brown + falling leaves
       {
@@ -476,6 +479,7 @@ export function Game() {
           { color: "rgba(100,55,35,0.92)",   baseFrac: 0.78, amp: 32, freq: 0.012, speed: 1.0 },
         ],
         fx: "leaves",
+        ground: { top: "#5a2f1a", bottom: "#26120a", rim: "rgba(255, 200, 140, 0.5)" },
       },
       // 5 Autumn meadow + house + light rain
       {
@@ -487,6 +491,7 @@ export function Game() {
         ],
         fx: "rain_light",
         house: true,
+        ground: { top: "#3e2a1c", bottom: "#1a0f08", rim: "rgba(230, 200, 160, 0.45)" },
       },
       // 6 Winter forest – cold blue/white + snow
       {
@@ -497,6 +502,7 @@ export function Game() {
           { color: "rgba(110,135,160,0.92)", baseFrac: 0.78, amp: 30, freq: 0.011, speed: 1.0 },
         ],
         fx: "snow",
+        ground: { top: "#22364f", bottom: "#0b1422", rim: "rgba(220, 235, 250, 0.55)" },
       },
       // 7 Winter mountain – sharp peaks + wind & snow
       {
@@ -507,6 +513,7 @@ export function Game() {
           { color: "rgba(80,100,130,0.95)",  baseFrac: 0.82, amp: 80, freq: 0.009, speed: 1.0, sharp: true },
         ],
         fx: "wind_snow",
+        ground: { top: "#2a384a", bottom: "#10171f", rim: "rgba(210, 225, 240, 0.55)" },
       },
       // 8 Spring forest – soft green/pink + light rain
       {
@@ -517,6 +524,7 @@ export function Game() {
           { color: "rgba(90,140,110,0.9)",   baseFrac: 0.78, amp: 30, freq: 0.011, speed: 1.0 },
         ],
         fx: "rain_light",
+        ground: { top: "#2e4a32", bottom: "#11200f", rim: "rgba(220, 240, 215, 0.5)" },
       },
       // 9 Spring meadow – floral petals
       {
@@ -532,6 +540,7 @@ export function Game() {
           { color: "rgba(90,140,100,0.9)",   baseFrac: 0.79, amp: 28, freq: 0.011, speed: 1.0 },
         ],
         fx: "petals",
+        ground: { top: "#3e4a26", bottom: "#1a200d", rim: "rgba(235, 240, 195, 0.5)" },
       },
       // 10 Night sky – stars & shooting stars
       {
@@ -542,6 +551,7 @@ export function Game() {
           { color: "rgba(10,15,40,0.95)",  baseFrac: 0.8,  amp: 34, freq: 0.011, speed: 1.0 },
         ],
         fx: "night_sky",
+        ground: { top: "#162046", bottom: "#06091c", rim: "rgba(180, 200, 240, 0.5)" },
       },
     ];
 
