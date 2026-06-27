@@ -1905,10 +1905,7 @@ export function Game() {
             <Stat label={t("best")} value={bestScore} />
             <Stat label={t("worldRank")} value={worldRank ?? 0} prefix="#" />
           </div>
-          <LeaderboardList
-            entries={topTen}
-            t={t}
-          />
+          <LeaderboardList entries={topTen} t={t} selfAvatar={equippedAvatar} />
           <div className="mt-8 flex items-center gap-3">
             <button
               onClick={startGame}
@@ -1988,7 +1985,7 @@ export function Game() {
         <Overlay>
           <h2 className="text-2xl font-light tracking-[0.25em] text-amber-50">{t("leaderboard")}</h2>
           <p className="mt-1 text-[10px] tracking-[0.3em] text-amber-200/70">{t("top10Worldwide")}</p>
-          <LeaderboardList entries={topTen} t={t} />
+          <LeaderboardList entries={topTen} t={t} selfAvatar={equippedAvatar} />
           <button
             onClick={() => setShowLeaderboard(false)}
             className="mt-6 rounded-full border border-amber-200/40 bg-black/30 px-6 py-2 text-xs tracking-[0.25em] text-amber-100/90 backdrop-blur hover:border-amber-200/70 hover:text-amber-50"
