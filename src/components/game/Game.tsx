@@ -2131,9 +2131,11 @@ function Stat({ label, value, prefix }: { label: string; value: number; prefix?:
 function LeaderboardList({
   entries,
   t,
+  selfAvatar,
 }: {
   entries: LeaderboardEntry[] | null;
   t: (key: UIKey) => string;
+  selfAvatar?: AvatarId;
 }) {
   const myId = typeof window !== "undefined" ? getPlayerId() : "";
   if (entries === null) {
@@ -2166,7 +2168,10 @@ function LeaderboardList({
               }
             >
               <span className="w-10 tabular-nums text-amber-200/80">#{idx + 1}</span>
-              <span className="flex-1 truncate px-2">{e.name}</span>
+              <span className="flex flex-1 items-center gap-1.5 truncate px-2">
+                {mine && selfAvatar && <AvatarIcon id={selfAvatar} size={16} />}
+                <span className="truncate">{e.name}</span>
+              </span>
               <span className="tabular-nums text-amber-50">{e.best_score}</span>
             </li>
           );
