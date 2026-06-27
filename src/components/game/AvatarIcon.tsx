@@ -1,3 +1,4 @@
+import type { ReactElement } from "react";
 import type { AvatarId } from "@/lib/avatars";
 
 // Unified icon system: amber/ivory line art with soft warm glow.
@@ -13,7 +14,7 @@ type Props = {
   title?: string;
 };
 
-function pathFor(id: AvatarId): JSX.Element {
+function pathFor(id: AvatarId): ReactElement {
   switch (id) {
     case "white_dove":
     case "black_dove":
