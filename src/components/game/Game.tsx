@@ -1478,6 +1478,17 @@ export function Game() {
     let touchStartTime = 0;
     const turboRef = { current: 1 };
     const setTurbo = (on: boolean) => { turboRef.current = on ? 3 : 1; };
+    const TURBO_HOLD_MS = 600;
+    const TURBO_MOVE_TOL = 12;
+    let turboHoldTimer: ReturnType<typeof setTimeout> | null = null;
+    const clearTurboHold = () => {
+      if (turboHoldTimer !== null) { clearTimeout(turboHoldTimer); turboHoldTimer = null; }
+    };
+    const armTurboHold = () => {
+      clearTurboHold();
+      turboHoldTimer = setTimeout(() => { setTurbo(true); turboHoldTimer = null; }, TURBO_HOLD_MS);
+    };
+    const releaseTurbo = () => { clearTurboHold(); setTurbo(false); };
 
     const moveLane = (dir: -1 | 1) => {
       if (stateRef.current !== "playing") return;
@@ -1497,6 +1508,15 @@ export function Game() {
       touchStartX = t.clientX;
       touchStartY = t.clientY;
       touchStartTime = performance.now();
+    };
+    const onTouchMoveTurbo = (e: TouchEvent) => {
+      const t = e.touches[0];
+      if (!t) return;
+      const dx = t.clientX - touchStartX;
+      const dy = t.clientY - touchStartY;
+      if (Math.abs(dx) > TURBO_MOVE_TOL || Math.abs(dy) > TURBO_MOVE_TOL) {
+        clearTurboHold();
+      }
     };
     const onTouchEnd = (e: TouchEvent) => {
       const t = e.changedTouches[0];
@@ -1519,19 +1539,33 @@ export function Game() {
       else if (e.key === "3") player.targetLane = 2;
     };
     const onMouseDown = (e: MouseEvent) => { tapLane(e.clientX); };
-    const onMouseDownTurbo = (e: MouseEvent) => { if (e.button === 0) setTurbo(true); };
-    const onMouseUpTurbo = () => setTurbo(false);
-    const onMouseLeaveTurbo = () => setTurbo(false);
-    const onTouchStartTurbo = () => setTurbo(true);
-    const onTouchEndTurbo = () => setTurbo(false);
+    let mouseDownX = 0, mouseDownY = 0;
+    const onMouseDownTurbo = (e: MouseEvent) => {
+      if (e.button !== 0) return;
+      mouseDownX = e.clientX; mouseDownY = e.clientY;
+      armTurboHold();
+    };
+    const onMouseMoveTurbo = (e: MouseEvent) => {
+      if (turboHoldTimer === null) return;
+      if (Math.abs(e.clientX - mouseDownX) > TURBO_MOVE_TOL ||
+          Math.abs(e.clientY - mouseDownY) > TURBO_MOVE_TOL) {
+        clearTurboHold();
+      }
+    };
+    const onMouseUpTurbo = () => releaseTurbo();
+    const onMouseLeaveTurbo = () => releaseTurbo();
+    const onTouchStartTurbo = () => armTurboHold();
+    const onTouchEndTurbo = () => releaseTurbo();
 
     canvas.addEventListener("touchstart", onTouchStart, { passive: true });
     canvas.addEventListener("touchend", onTouchEnd, { passive: true });
     canvas.addEventListener("mousedown", onMouseDown);
     canvas.addEventListener("mousedown", onMouseDownTurbo);
+    canvas.addEventListener("mousemove", onMouseMoveTurbo);
     window.addEventListener("mouseup", onMouseUpTurbo);
     canvas.addEventListener("mouseleave", onMouseLeaveTurbo);
     canvas.addEventListener("touchstart", onTouchStartTurbo, { passive: true });
+    canvas.addEventListener("touchmove", onTouchMoveTurbo, { passive: true });
     canvas.addEventListener("touchend", onTouchEndTurbo, { passive: true });
     canvas.addEventListener("touchcancel", onTouchEndTurbo, { passive: true });
     window.addEventListener("keydown", onKey);
@@ -1547,12 +1581,15 @@ export function Game() {
       canvas.removeEventListener("touchend", onTouchEnd);
       canvas.removeEventListener("mousedown", onMouseDown);
       canvas.removeEventListener("mousedown", onMouseDownTurbo);
+      canvas.removeEventListener("mousemove", onMouseMoveTurbo);
       window.removeEventListener("mouseup", onMouseUpTurbo);
       canvas.removeEventListener("mouseleave", onMouseLeaveTurbo);
       canvas.removeEventListener("touchstart", onTouchStartTurbo);
+      canvas.removeEventListener("touchmove", onTouchMoveTurbo);
       canvas.removeEventListener("touchend", onTouchEndTurbo);
       canvas.removeEventListener("touchcancel", onTouchEndTurbo);
       window.removeEventListener("keydown", onKey);
+      clearTurboHold();
     };
   }, []);
 
