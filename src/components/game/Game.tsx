@@ -252,6 +252,10 @@ export function Game() {
     let correctPulse = 0; // brightens dove briefly on correct answer
     let timeSec = 0; // for idle pulsing animation
 
+    // Background level theme transition state
+    let prevLevel = 1;
+    let themeBlend = 1; // 0..1, 1 = fully on current theme
+
     // Player (bottom of screen)
     const PLAYER_Y_FRAC = 0.82;
     const RESOLVE_LINE_FRAC = 0.78; // where falling objects resolve
