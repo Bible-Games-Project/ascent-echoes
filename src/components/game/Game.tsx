@@ -1181,7 +1181,7 @@ export function Game() {
       drawAvatarBody(ctx, equippedAvatarRef.current, x, y, {
         alpha: bodyAlpha,
         flap,
-        scale: 1,
+        scale: 2,
         glow: invuln > 0 || correctPulse > 0,
       });
       ctx.restore();
