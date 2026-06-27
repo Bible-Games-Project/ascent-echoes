@@ -252,6 +252,10 @@ export function Game() {
     let correctPulse = 0; // brightens dove briefly on correct answer
     let timeSec = 0; // for idle pulsing animation
 
+    // Background level theme transition state
+    let prevLevel = 1;
+    let themeBlend = 1; // 0..1, 1 = fully on current theme
+
     // Player (bottom of screen)
     const PLAYER_Y_FRAC = 0.82;
     const RESOLVE_LINE_FRAC = 0.78; // where falling objects resolve
@@ -380,37 +384,170 @@ export function Game() {
       }
     };
 
-    // ----- Background -----
-    const drawSky = () => {
-      const g = ctx.createLinearGradient(0, 0, 0, H);
-      g.addColorStop(0, "#ffb178");
-      g.addColorStop(0.4, "#ff8c61");
-      g.addColorStop(0.75, "#c75b7a");
-      g.addColorStop(1, "#5b3a78");
-      ctx.fillStyle = g;
-      ctx.fillRect(0, 0, W, H);
-
-      const sunY = H * 0.4;
-      const sunX = W * 0.72;
-      const sg = ctx.createRadialGradient(sunX, sunY, 0, sunX, sunY, H * 0.6);
-      sg.addColorStop(0, "rgba(255, 240, 200, 0.9)");
-      sg.addColorStop(0.15, "rgba(255, 200, 140, 0.5)");
-      sg.addColorStop(1, "rgba(255, 140, 100, 0)");
-      ctx.fillStyle = sg;
-      ctx.fillRect(0, 0, W, H);
-
-      ctx.beginPath();
-      ctx.fillStyle = "#fff2c8";
-      ctx.arc(sunX, sunY, Math.min(W, H) * 0.09, 0, Math.PI * 2);
-      ctx.fill();
+    // ----- Background (level-themed) -----
+    type AmbientFx =
+      | "none" | "leaves" | "rain" | "rain_light"
+      | "snow" | "wind_snow" | "petals" | "night_sky";
+    type SunCfg = {
+      xFrac: number; yFrac: number; rFrac: number; haloRFrac: number;
+      core: string; haloInner: string; haloMid: string; haloOuter: string;
+    };
+    type LayerDef = {
+      color: string; baseFrac: number; amp: number; freq: number;
+      speed: number; sharp?: boolean;
+    };
+    type Theme = {
+      sky: [string, string, string, string];
+      sun?: SunCfg;
+      layers: LayerDef[];
+      fx: AmbientFx;
+      house?: boolean;
     };
 
-    const drawDunes = (offset: number, amp: number, baseY: number, color: string, freq: number) => {
-      ctx.fillStyle = color;
+    const THEMES: Theme[] = [
+      // 1 Desert sunset (UNCHANGED)
+      {
+        sky: ["#ffb178", "#ff8c61", "#c75b7a", "#5b3a78"],
+        sun: { xFrac: 0.72, yFrac: 0.4, rFrac: 0.09, haloRFrac: 0.6,
+          core: "#fff2c8",
+          haloInner: "rgba(255,240,200,0.9)",
+          haloMid: "rgba(255,200,140,0.5)",
+          haloOuter: "rgba(255,140,100,0)" },
+        layers: [
+          { color: "rgba(120,60,100,0.55)", baseFrac: 0.62, amp: 18, freq: 0.006, speed: 0.4 },
+          { color: "rgba(80,40,80,0.7)",    baseFrac: 0.70, amp: 26, freq: 0.009, speed: 0.7 },
+          { color: "rgba(50,25,60,0.85)",   baseFrac: 0.78, amp: 34, freq: 0.012, speed: 1.0 },
+        ],
+        fx: "none",
+      },
+      // 2 Summer forest – pastel greens
+      {
+        sky: ["#dff1d4", "#bfe3b9", "#8fc99a", "#4f8b6b"],
+        sun: { xFrac: 0.78, yFrac: 0.28, rFrac: 0.07, haloRFrac: 0.55,
+          core: "#fbf6d6",
+          haloInner: "rgba(250,245,200,0.7)",
+          haloMid: "rgba(220,235,180,0.35)",
+          haloOuter: "rgba(160,200,150,0)" },
+        layers: [
+          { color: "rgba(160,200,150,0.55)", baseFrac: 0.6,  amp: 14, freq: 0.005, speed: 0.4 },
+          { color: "rgba(110,170,120,0.7)",  baseFrac: 0.7,  amp: 22, freq: 0.008, speed: 0.7 },
+          { color: "rgba(60,110,80,0.9)",    baseFrac: 0.78, amp: 30, freq: 0.011, speed: 1.0 },
+        ],
+        fx: "none",
+      },
+      // 3 Summer sea – pastel blues
+      {
+        sky: ["#d6eef7", "#aed8ec", "#7ab6d4", "#3a7fa3"],
+        sun: { xFrac: 0.7, yFrac: 0.32, rFrac: 0.08, haloRFrac: 0.55,
+          core: "#fff6dc",
+          haloInner: "rgba(255,245,210,0.7)",
+          haloMid: "rgba(220,230,240,0.3)",
+          haloOuter: "rgba(140,180,210,0)" },
+        layers: [
+          { color: "rgba(150,200,220,0.55)", baseFrac: 0.64, amp: 10, freq: 0.012, speed: 0.4 },
+          { color: "rgba(100,160,200,0.7)",  baseFrac: 0.72, amp: 14, freq: 0.018, speed: 0.75 },
+          { color: "rgba(50,110,160,0.9)",   baseFrac: 0.8,  amp: 18, freq: 0.024, speed: 1.1 },
+        ],
+        fx: "none",
+      },
+      // 4 Autumn forest – warm orange/brown + falling leaves
+      {
+        sky: ["#f7e2c6", "#f0bf94", "#d68a64", "#7c4434"],
+        layers: [
+          { color: "rgba(210,150,90,0.55)",  baseFrac: 0.6,  amp: 16, freq: 0.006, speed: 0.4 },
+          { color: "rgba(170,100,55,0.75)",  baseFrac: 0.7,  amp: 24, freq: 0.009, speed: 0.7 },
+          { color: "rgba(100,55,35,0.92)",   baseFrac: 0.78, amp: 32, freq: 0.012, speed: 1.0 },
+        ],
+        fx: "leaves",
+      },
+      // 5 Autumn meadow + house + light rain
+      {
+        sky: ["#ecd9c0", "#d9b08c", "#a87359", "#553224"],
+        layers: [
+          { color: "rgba(200,165,120,0.55)", baseFrac: 0.62, amp: 10, freq: 0.005, speed: 0.35 },
+          { color: "rgba(150,105,70,0.75)",  baseFrac: 0.71, amp: 16, freq: 0.008, speed: 0.65 },
+          { color: "rgba(80,50,40,0.92)",    baseFrac: 0.79, amp: 22, freq: 0.011, speed: 1.0 },
+        ],
+        fx: "rain_light",
+        house: true,
+      },
+      // 6 Winter forest – cold blue/white + snow
+      {
+        sky: ["#eaf2ff", "#d2e1f1", "#a6c1da", "#6a85a3"],
+        layers: [
+          { color: "rgba(210,225,240,0.6)",  baseFrac: 0.6,  amp: 14, freq: 0.005, speed: 0.4 },
+          { color: "rgba(170,190,210,0.75)", baseFrac: 0.7,  amp: 22, freq: 0.008, speed: 0.7 },
+          { color: "rgba(110,135,160,0.92)", baseFrac: 0.78, amp: 30, freq: 0.011, speed: 1.0 },
+        ],
+        fx: "snow",
+      },
+      // 7 Winter mountain – sharp peaks + wind & snow
+      {
+        sky: ["#e6ecf3", "#c5d2e0", "#90a6bd", "#566c86"],
+        layers: [
+          { color: "rgba(200,215,230,0.6)",  baseFrac: 0.62, amp: 40, freq: 0.004, speed: 0.3, sharp: true },
+          { color: "rgba(150,170,195,0.78)", baseFrac: 0.72, amp: 60, freq: 0.006, speed: 0.6, sharp: true },
+          { color: "rgba(80,100,130,0.95)",  baseFrac: 0.82, amp: 80, freq: 0.009, speed: 1.0, sharp: true },
+        ],
+        fx: "wind_snow",
+      },
+      // 8 Spring forest – soft green/pink + light rain
+      {
+        sky: ["#f6e1ec", "#e6e7d2", "#bedcb8", "#7fb597"],
+        layers: [
+          { color: "rgba(190,220,180,0.55)", baseFrac: 0.6,  amp: 14, freq: 0.005, speed: 0.4 },
+          { color: "rgba(140,190,150,0.72)", baseFrac: 0.7,  amp: 22, freq: 0.008, speed: 0.7 },
+          { color: "rgba(90,140,110,0.9)",   baseFrac: 0.78, amp: 30, freq: 0.011, speed: 1.0 },
+        ],
+        fx: "rain_light",
+      },
+      // 9 Spring meadow – floral petals
+      {
+        sky: ["#f7e7ef", "#f0d8e2", "#cfd9b8", "#8aae87"],
+        sun: { xFrac: 0.76, yFrac: 0.28, rFrac: 0.06, haloRFrac: 0.5,
+          core: "#fff6df",
+          haloInner: "rgba(255,240,220,0.55)",
+          haloMid: "rgba(240,210,225,0.3)",
+          haloOuter: "rgba(200,200,180,0)" },
+        layers: [
+          { color: "rgba(200,220,170,0.55)", baseFrac: 0.62, amp: 12, freq: 0.005, speed: 0.4 },
+          { color: "rgba(150,190,140,0.72)", baseFrac: 0.71, amp: 20, freq: 0.008, speed: 0.7 },
+          { color: "rgba(90,140,100,0.9)",   baseFrac: 0.79, amp: 28, freq: 0.011, speed: 1.0 },
+        ],
+        fx: "petals",
+      },
+      // 10 Night sky – stars & shooting stars
+      {
+        sky: ["#1a2244", "#1f2a52", "#1a2046", "#0c1028"],
+        layers: [
+          { color: "rgba(40,55,95,0.7)",   baseFrac: 0.64, amp: 18, freq: 0.005, speed: 0.4 },
+          { color: "rgba(25,35,70,0.85)",  baseFrac: 0.72, amp: 26, freq: 0.008, speed: 0.7 },
+          { color: "rgba(10,15,40,0.95)",  baseFrac: 0.8,  amp: 34, freq: 0.011, speed: 1.0 },
+        ],
+        fx: "night_sky",
+      },
+    ];
+
+    const themeFor = (lvl: number): Theme =>
+      THEMES[Math.min(Math.max(1, lvl), 10) - 1];
+
+    const drawLayer = (l: LayerDef, offset: number) => {
+      ctx.fillStyle = l.color;
       ctx.beginPath();
+      const baseY = H * l.baseFrac;
       ctx.moveTo(0, H);
       for (let x = 0; x <= W; x += 8) {
-        const y = baseY + Math.sin((x + offset) * freq) * amp + Math.sin((x + offset) * freq * 2.3) * amp * 0.3;
+        let y: number;
+        if (l.sharp) {
+          const t = ((x + offset) * l.freq) / Math.PI;
+          const frac = ((t % 1) + 1) % 1;
+          const tri = 1 - 2 * Math.abs(frac - 0.5);
+          y = baseY - l.amp * Math.max(0, tri);
+        } else {
+          y = baseY
+            + Math.sin((x + offset) * l.freq) * l.amp
+            + Math.sin((x + offset) * l.freq * 2.3) * l.amp * 0.3;
+        }
         ctx.lineTo(x, y);
       }
       ctx.lineTo(W, H);
@@ -418,11 +555,254 @@ export function Game() {
       ctx.fill();
     };
 
+    const drawSun = (s: SunCfg) => {
+      const sunX = W * s.xFrac, sunY = H * s.yFrac;
+      const haloR = H * s.haloRFrac;
+      const sg = ctx.createRadialGradient(sunX, sunY, 0, sunX, sunY, haloR);
+      sg.addColorStop(0, s.haloInner);
+      sg.addColorStop(0.15, s.haloMid);
+      sg.addColorStop(1, s.haloOuter);
+      ctx.fillStyle = sg;
+      ctx.fillRect(0, 0, W, H);
+      ctx.beginPath();
+      ctx.fillStyle = s.core;
+      ctx.arc(sunX, sunY, Math.min(W, H) * s.rFrac, 0, Math.PI * 2);
+      ctx.fill();
+    };
+
+    const stars: { x: number; y: number; r: number; p: number }[] = [];
+    const ensureStars = () => {
+      if (stars.length) return;
+      for (let i = 0; i < 100; i++) {
+        stars.push({
+          x: Math.random(),
+          y: Math.random() * 0.62,
+          r: 0.4 + Math.random() * 1.4,
+          p: Math.random() * Math.PI * 2,
+        });
+      }
+    };
+    const drawNightSky = () => {
+      ensureStars();
+      for (const s of stars) {
+        const a = 0.5 + 0.5 * Math.sin(timeSec * 2 + s.p);
+        ctx.fillStyle = `rgba(255,255,255,${(0.35 + a * 0.55).toFixed(3)})`;
+        ctx.beginPath();
+        ctx.arc(s.x * W, s.y * H, s.r, 0, Math.PI * 2);
+        ctx.fill();
+      }
+      // Moon
+      const mx = W * 0.78, my = H * 0.22, mr = Math.min(W, H) * 0.06;
+      const mg = ctx.createRadialGradient(mx, my, 0, mx, my, mr * 4);
+      mg.addColorStop(0, "rgba(245,240,220,0.45)");
+      mg.addColorStop(1, "rgba(245,240,220,0)");
+      ctx.fillStyle = mg;
+      ctx.fillRect(0, 0, W, H);
+      ctx.beginPath();
+      ctx.fillStyle = "rgba(245,240,220,0.95)";
+      ctx.arc(mx, my, mr, 0, Math.PI * 2);
+      ctx.fill();
+    };
+
+    const drawHouse = () => {
+      const hx = W * 0.72, hy = H * 0.68;
+      ctx.fillStyle = "rgba(70,45,40,0.92)";
+      ctx.fillRect(hx - 22, hy - 26, 44, 30);
+      ctx.beginPath();
+      ctx.moveTo(hx - 28, hy - 26);
+      ctx.lineTo(hx, hy - 50);
+      ctx.lineTo(hx + 28, hy - 26);
+      ctx.closePath();
+      ctx.fillStyle = "rgba(50,30,30,0.95)";
+      ctx.fill();
+      ctx.fillStyle = "rgba(255,220,140,0.85)";
+      ctx.fillRect(hx - 6, hy - 14, 12, 12);
+      // chimney
+      ctx.fillStyle = "rgba(60,40,35,0.9)";
+      ctx.fillRect(hx + 10, hy - 44, 6, 12);
+    };
+
+    const drawTheme = (t: Theme, alpha: number) => {
+      ctx.save();
+      ctx.globalAlpha = alpha;
+      const g = ctx.createLinearGradient(0, 0, 0, H);
+      const stops = [0, 0.4, 0.75, 1];
+      t.sky.forEach((c, i) => g.addColorStop(stops[i], c));
+      ctx.fillStyle = g;
+      ctx.fillRect(0, 0, W, H);
+      if (t.fx === "night_sky") drawNightSky();
+      if (t.sun) drawSun(t.sun);
+      t.layers.forEach((l) => drawLayer(l, -bgDrift * l.speed));
+      if (t.house) drawHouse();
+      ctx.restore();
+    };
+
     const drawBackground = () => {
-      drawSky();
-      drawDunes(-bgDrift * 0.4, 18, H * 0.62, "rgba(120, 60, 100, 0.55)", 0.006);
-      drawDunes(-bgDrift * 0.7, 26, H * 0.7, "rgba(80, 40, 80, 0.7)", 0.009);
-      drawDunes(-bgDrift * 1.0, 34, H * 0.78, "rgba(50, 25, 60, 0.85)", 0.012);
+      const cur = themeFor(levelRef.current);
+      if (themeBlend < 1 && prevLevel !== levelRef.current) {
+        const prev = themeFor(prevLevel);
+        drawTheme(prev, 1);
+        drawTheme(cur, themeBlend);
+      } else {
+        drawTheme(cur, 1);
+      }
+    };
+
+    // ----- Ambient FX particles -----
+    type FxKind = "leaf" | "rain" | "snow" | "petal" | "wind" | "shoot";
+    type FxP = {
+      kind: FxKind; x: number; y: number; vx: number; vy: number;
+      life: number; max: number; rot: number; vr: number; size: number; alpha: number;
+    };
+    const fxParticles: FxP[] = [];
+    const rand = (a: number, b: number) => a + Math.random() * (b - a);
+    const spawnRate = (rate: number, dt: number, fn: () => void) => {
+      let n = rate * dt;
+      while (n > 0) { if (n >= 1 || Math.random() < n) fn(); n -= 1; }
+    };
+    const spawnFxFor = (fx: AmbientFx, dt: number) => {
+      switch (fx) {
+        case "leaves":
+          spawnRate(3, dt, () => fxParticles.push({
+            kind: "leaf", x: rand(-20, W + 20), y: -10,
+            vx: rand(-30, 20), vy: rand(20, 45),
+            life: 0, max: rand(7, 11), rot: rand(0, Math.PI * 2),
+            vr: rand(-1, 1), size: rand(5, 9), alpha: rand(0.65, 0.9),
+          }));
+          break;
+        case "rain":
+          spawnRate(60, dt, () => fxParticles.push({
+            kind: "rain", x: rand(-50, W), y: -10,
+            vx: 80, vy: 600,
+            life: 0, max: 1.5, rot: 0, vr: 0,
+            size: rand(8, 14), alpha: rand(0.3, 0.55),
+          }));
+          break;
+        case "rain_light":
+          spawnRate(22, dt, () => fxParticles.push({
+            kind: "rain", x: rand(-50, W), y: -10,
+            vx: 60, vy: 480,
+            life: 0, max: 1.5, rot: 0, vr: 0,
+            size: rand(6, 10), alpha: rand(0.22, 0.4),
+          }));
+          break;
+        case "snow":
+          spawnRate(25, dt, () => fxParticles.push({
+            kind: "snow", x: rand(-10, W + 10), y: -10,
+            vx: rand(-15, 15), vy: rand(28, 55),
+            life: 0, max: rand(10, 16), rot: rand(0, Math.PI * 2),
+            vr: rand(-0.5, 0.5), size: rand(1.5, 3.2), alpha: rand(0.6, 0.95),
+          }));
+          break;
+        case "wind_snow":
+          spawnRate(36, dt, () => fxParticles.push({
+            kind: "snow", x: rand(-20, W + 10), y: -10,
+            vx: rand(60, 130), vy: rand(40, 80),
+            life: 0, max: rand(5, 9), rot: 0, vr: 0,
+            size: rand(1, 2.5), alpha: rand(0.5, 0.9),
+          }));
+          spawnRate(8, dt, () => fxParticles.push({
+            kind: "wind", x: rand(-50, W), y: rand(0, H * 0.7),
+            vx: rand(200, 280), vy: 0,
+            life: 0, max: rand(0.6, 1.2), rot: 0, vr: 0,
+            size: rand(20, 55), alpha: rand(0.12, 0.28),
+          }));
+          break;
+        case "petals":
+          spawnRate(4, dt, () => fxParticles.push({
+            kind: "petal", x: rand(-10, W + 10), y: -10,
+            vx: rand(-20, 20), vy: rand(20, 35),
+            life: 0, max: rand(8, 12), rot: rand(0, Math.PI * 2),
+            vr: rand(-1.2, 1.2), size: rand(2.5, 4.5), alpha: rand(0.7, 0.95),
+          }));
+          break;
+        case "night_sky":
+          if (Math.random() < dt / 4) {
+            fxParticles.push({
+              kind: "shoot", x: rand(W * 0.1, W * 0.9), y: rand(20, H * 0.3),
+              vx: rand(-280, -180), vy: rand(60, 120),
+              life: 0, max: 0.9, rot: 0, vr: 0,
+              size: rand(50, 90), alpha: 0.95,
+            });
+          }
+          break;
+      }
+    };
+    const updateDrawFx = (dt: number) => {
+      for (let i = fxParticles.length - 1; i >= 0; i--) {
+        const p = fxParticles[i];
+        p.life += dt;
+        if (p.kind === "snow" || p.kind === "petal" || p.kind === "leaf") {
+          p.vx += Math.sin(p.life * 1.5 + p.rot) * 6 * dt;
+        }
+        p.x += p.vx * dt;
+        p.y += p.vy * dt;
+        p.rot += p.vr * dt;
+        const fade = 1 - Math.max(0, (p.life - (p.max - 0.5)) / 0.5);
+        const a = p.alpha * Math.max(0, Math.min(1, fade));
+        ctx.save();
+        ctx.globalAlpha = a;
+        switch (p.kind) {
+          case "leaf":
+            ctx.translate(p.x, p.y); ctx.rotate(p.rot);
+            ctx.fillStyle = "#d6915a";
+            ctx.beginPath();
+            ctx.ellipse(0, 0, p.size, p.size * 0.5, 0, 0, Math.PI * 2);
+            ctx.fill();
+            break;
+          case "rain":
+            ctx.strokeStyle = "rgba(210,225,240,1)";
+            ctx.lineWidth = 1.1;
+            ctx.beginPath();
+            ctx.moveTo(p.x, p.y);
+            ctx.lineTo(p.x - p.size * 0.18, p.y + p.size);
+            ctx.stroke();
+            break;
+          case "snow":
+            ctx.fillStyle = "rgba(255,255,255,1)";
+            ctx.beginPath();
+            ctx.arc(p.x, p.y, p.size, 0, Math.PI * 2);
+            ctx.fill();
+            break;
+          case "wind":
+            ctx.strokeStyle = "rgba(235,242,255,1)";
+            ctx.lineWidth = 1.2;
+            ctx.beginPath();
+            ctx.moveTo(p.x, p.y);
+            ctx.lineTo(p.x + p.size, p.y);
+            ctx.stroke();
+            break;
+          case "petal":
+            ctx.translate(p.x, p.y); ctx.rotate(p.rot);
+            ctx.fillStyle = "#f4c2d0";
+            ctx.beginPath();
+            ctx.ellipse(0, 0, p.size, p.size * 0.55, 0, 0, Math.PI * 2);
+            ctx.fill();
+            break;
+          case "shoot": {
+            const ang = Math.atan2(p.vy, p.vx);
+            const tx = p.x - Math.cos(ang) * p.size;
+            const ty = p.y - Math.sin(ang) * p.size;
+            const g = ctx.createLinearGradient(p.x, p.y, tx, ty);
+            g.addColorStop(0, "rgba(255,255,255,0.95)");
+            g.addColorStop(1, "rgba(255,255,255,0)");
+            ctx.strokeStyle = g;
+            ctx.lineWidth = 2;
+            ctx.beginPath();
+            ctx.moveTo(p.x, p.y);
+            ctx.lineTo(tx, ty);
+            ctx.stroke();
+            ctx.fillStyle = "rgba(255,255,255,1)";
+            ctx.beginPath();
+            ctx.arc(p.x, p.y, 1.6, 0, Math.PI * 2);
+            ctx.fill();
+            break;
+          }
+        }
+        ctx.restore();
+        const dead = p.life >= p.max || p.y > H + 30 || p.x < -120 || p.x > W + 120;
+        if (dead) fxParticles.splice(i, 1);
+      }
     };
 
     // Single ground platform at bottom
@@ -892,8 +1272,10 @@ export function Game() {
           setBestScore(scoreRef.current);
           try { localStorage.setItem("dunewalker_best", String(scoreRef.current)); } catch { /* ignore */ }
         }
+        prevLevel = levelRef.current;
         const nextLvl = levelRef.current + 1;
         levelRef.current = nextLvl;
+        themeBlend = 0;
         setLevel(nextLvl);
         buildLevel(nextLvl);
         return;
@@ -919,6 +1301,10 @@ export function Game() {
       }
 
       drawBackground();
+      if (themeBlend < 1) themeBlend = Math.min(1, themeBlend + dt * 0.8);
+      const __curFx = themeFor(levelRef.current).fx;
+      if (__curFx !== "none") spawnFxFor(__curFx, dt);
+      updateDrawFx(dt);
 
       if (stateRef.current === "playing") {
         if (slowTimer > 0) slowTimer -= dt;
