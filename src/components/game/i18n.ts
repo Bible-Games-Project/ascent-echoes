@@ -110,6 +110,7 @@ const en: Dict = {
   gameOverBtn: "GAME OVER",
   loadingAd: "LOADING AD…",
   premiumActive: "PREMIUM ACTIVE",
+  avatars: "AVATARS",
 };
 
 const es: PartialDict = {
