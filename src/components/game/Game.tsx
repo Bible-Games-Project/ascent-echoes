@@ -1410,6 +1410,15 @@ export function Game() {
               scoreRef.current += 10 * newMult; setScore(scoreRef.current);
               correctTotalRef.current += 1; setCorrectTotal(correctTotalRef.current);
               correctPulse = 0.6;
+              // Lifetime stats for avatar progression (cosmetic).
+              if (!devModeRef.current) {
+                recordCorrect();
+                recordStreak(newStreak);
+                runDiffMaskRef.current |= difficultyBitForLevel(levelRef.current);
+                if (runDiffMaskRef.current === ALL_DIFFICULTIES_MASK) {
+                  recordAllDifficulties();
+                }
+              }
               if (newMult > prevMult) {
                 setMultiplierToast(newMult);
                 setTimeout(() => setMultiplierToast(null), 1400);
