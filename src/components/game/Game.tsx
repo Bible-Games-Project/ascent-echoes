@@ -2165,6 +2165,33 @@ function SettingsOverlay({
       >
         {t("close")}
       </button>
+      <div className="mt-4 w-[280px] max-w-[88vw] rounded-2xl border border-amber-200/15 bg-black/35 p-3 backdrop-blur">
+        <button
+          type="button"
+          onClick={onToggleDevMode}
+          className="flex w-full items-center justify-between gap-3 text-left"
+        >
+          <div>
+            <div className="text-[10px] tracking-[0.3em] text-amber-200/60">DEV</div>
+            <div className="mt-0.5 text-xs text-amber-100/80">Game Dev Mode</div>
+            <div className="mt-0.5 text-[9px] tracking-wide text-amber-100/40">Testing only · no leaderboard</div>
+          </div>
+          <span
+            className={
+              "relative inline-flex h-5 w-9 items-center rounded-full transition " +
+              (devMode ? "bg-amber-300/70" : "bg-white/15")
+            }
+            aria-hidden
+          >
+            <span
+              className={
+                "inline-block h-4 w-4 transform rounded-full bg-black/80 transition " +
+                (devMode ? "translate-x-4" : "translate-x-0.5")
+              }
+            />
+          </span>
+        </button>
+      </div>
     </div>
   );
 }
