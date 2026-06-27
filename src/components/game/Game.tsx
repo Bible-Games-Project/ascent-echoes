@@ -1186,7 +1186,11 @@ export function Game() {
           <div className="pointer-events-none absolute inset-x-0 top-0 z-10 flex items-start justify-between px-3 pt-3">
             <div className="flex flex-col gap-1.5">
               <div className="flex items-center gap-1.5">
-                {[0, 1, 2].map((i) => (<Heart key={i} filled={i < health} />))}
+                {[0, 1, 2].map((i) => {
+                  const unlocked = i < maxLives;
+                  if (!unlocked) return <LockedHeart key={i} />;
+                  return <Heart key={i} filled={i < health} />;
+                })}
               </div>
               <div className="flex items-center gap-2 rounded-full bg-black/45 px-2.5 py-0.5 text-[10px] font-medium tracking-widest text-amber-100 backdrop-blur">
                 <span className="text-amber-200/70">{t("score")}</span>
