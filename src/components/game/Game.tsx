@@ -1898,7 +1898,7 @@ export function Game() {
                 type="button"
                 disabled={adLoading}
                 onClick={() => {
-                  if (scoreRef.current > bestRef.current) {
+                  if (!devModeRef.current && scoreRef.current > bestRef.current) {
                     bestRef.current = scoreRef.current;
                     setBestScore(scoreRef.current);
                     try { localStorage.setItem("dunewalker_best", String(scoreRef.current)); } catch { /* ignore */ }
