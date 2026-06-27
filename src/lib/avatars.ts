@@ -2,6 +2,11 @@
 
 import { getIsPremium } from "@/lib/monetization";
 
+function isDevModeUnlock(): boolean {
+  try { return typeof localStorage !== "undefined" && localStorage.getItem("btr_dev_mode") === "1"; }
+  catch { return false; }
+}
+
 export type AvatarId =
   | "white_dove"
   | "oil_lamp"
@@ -138,6 +143,7 @@ export const recordRank = (rank: number | null | undefined) => mutate((s) => {
 });
 
 export function isUnlocked(def: AvatarDef, stats: AvatarStats, premium: boolean): boolean {
+  if (isDevModeUnlock()) return true;
   if (def.premium) return premium;
   if (premium) return true; // premium unlocks ALL
   const u = def.unlock;
