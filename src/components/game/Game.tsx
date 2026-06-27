@@ -1850,6 +1850,36 @@ export function Game() {
         />
       )}
 
+      {showLevelSelect && (
+        <div className="absolute inset-0 z-30 flex flex-col items-center justify-center bg-black/70 backdrop-blur-md animate-fade-in px-4">
+          <h2 className="text-xl font-light tracking-[0.25em] text-amber-50">Select Starting Level</h2>
+          <p className="mt-1 text-[10px] tracking-[0.3em] text-amber-200/70">DEV MODE · testing only</p>
+          <div className="mt-6 grid grid-cols-5 gap-2 max-w-[420px]">
+            {Array.from({ length: 10 }, (_, i) => i + 1).map((lvl) => (
+              <button
+                key={lvl}
+                onClick={() => startGameAtLevel(lvl)}
+                className="rounded-xl border border-amber-200/30 bg-black/45 px-3 py-3 text-sm tracking-widest text-amber-50 backdrop-blur transition hover:border-amber-200/70 hover:bg-black/60"
+              >
+                {lvl}
+              </button>
+            ))}
+            <button
+              onClick={() => startGameAtLevel(11)}
+              className="col-span-5 mt-1 rounded-xl border border-amber-200/40 bg-amber-200/10 px-3 py-2 text-xs tracking-[0.3em] text-amber-50 backdrop-blur transition hover:bg-amber-200/20"
+            >
+              Level 11+ (Endless)
+            </button>
+          </div>
+          <button
+            onClick={() => setShowLevelSelect(false)}
+            className="mt-6 rounded-full border border-amber-200/40 bg-black/30 px-6 py-2 text-xs tracking-[0.25em] text-amber-100/90 backdrop-blur hover:border-amber-200/70 hover:text-amber-50"
+          >
+            {t("close")}
+          </button>
+        </div>
+      )}
+
       {showLeaderboard && (
         <Overlay>
           <h2 className="text-2xl font-light tracking-[0.25em] text-amber-50">{t("leaderboard")}</h2>
