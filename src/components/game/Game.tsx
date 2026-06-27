@@ -12,7 +12,7 @@ import {
   type GameQuestion,
 } from "./questionBank";
 import { getT, type UIKey } from "./i18n";
-import { getIsPremium, setIsPremium, simulateRewardedAd } from "@/lib/monetization";
+import { getIsPremium, simulateRewardedAd } from "@/lib/monetization";
 import {
   fetchRank,
   fetchTop10,
