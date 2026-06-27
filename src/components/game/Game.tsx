@@ -1458,6 +1458,23 @@ function Heart({ filled }: { filled: boolean }) {
   );
 }
 
+function LockedHeart() {
+  return (
+    <svg viewBox="0 0 24 24" width={20} height={20} aria-hidden>
+      <path
+        d="M12 21s-7-4.5-9.5-9.2C.9 8.5 2.6 5 6 5c2 0 3.4 1 4 2.2C10.6 6 12 5 14 5c3.4 0 5.1 3.5 3.5 6.8C19 16.5 12 21 12 21z"
+        fill="rgba(255,220,170,0.06)"
+        stroke="rgba(255,220,170,0.35)"
+        strokeWidth={1.2}
+      />
+      <g transform="translate(12 13)">
+        <rect x="-3.2" y="-0.5" width="6.4" height="5" rx="1" fill="rgba(20,12,8,0.85)" stroke="rgba(255,220,170,0.8)" strokeWidth={0.8}/>
+        <path d="M-2 -0.6 V -2.2 a2 2 0 0 1 4 0 V -0.6" fill="none" stroke="rgba(255,220,170,0.85)" strokeWidth={1}/>
+      </g>
+    </svg>
+  );
+}
+
 function Stat({ label, value, prefix }: { label: string; value: number; prefix?: string }) {
   return (
     <div className="flex flex-col items-center">
