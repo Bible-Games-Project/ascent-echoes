@@ -111,7 +111,7 @@ const en: Dict = {
   premiumActive: "PREMIUM ACTIVE",
 };
 
-const es: Dict = {
+const es: PartialDict = {
   tagline: "¿Cuántas preguntas bíblicas puedes responder?",
   begin: "EMPEZAR",
   leaderboard: "CLASIFICACIÓN",
@@ -152,7 +152,7 @@ const es: Dict = {
   comingSoon: "PRÓXIMAMENTE",
 };
 
-const pt: Dict = {
+const pt: PartialDict = {
   tagline: "Quantas perguntas bíblicas você consegue responder?",
   begin: "COMEÇAR",
   leaderboard: "CLASSIFICAÇÃO",
@@ -193,7 +193,7 @@ const pt: Dict = {
   comingSoon: "EM BREVE",
 };
 
-const fr: Dict = {
+const fr: PartialDict = {
   tagline: "Combien de questions bibliques peux-tu répondre ?",
   begin: "COMMENCER",
   leaderboard: "CLASSEMENT",
@@ -234,7 +234,7 @@ const fr: Dict = {
   comingSoon: "BIENTÔT",
 };
 
-const de: Dict = {
+const de: PartialDict = {
   tagline: "Wie viele Bibelfragen kannst du beantworten?",
   begin: "START",
   leaderboard: "RANGLISTE",
@@ -275,7 +275,7 @@ const de: Dict = {
   comingSoon: "DEMNÄCHST",
 };
 
-const it: Dict = {
+const it: PartialDict = {
   tagline: "A quante domande bibliche sai rispondere?",
   begin: "INIZIA",
   leaderboard: "CLASSIFICA",
@@ -316,7 +316,7 @@ const it: Dict = {
   comingSoon: "PROSSIMAMENTE",
 };
 
-const pl: Dict = {
+const pl: PartialDict = {
   tagline: "Na ile pytań biblijnych odpowiesz?",
   begin: "START",
   leaderboard: "RANKING",
@@ -357,7 +357,7 @@ const pl: Dict = {
   comingSoon: "WKRÓTCE",
 };
 
-const ru: Dict = {
+const ru: PartialDict = {
   tagline: "На сколько библейских вопросов сможешь ответить?",
   begin: "НАЧАТЬ",
   leaderboard: "РЕЙТИНГ",
@@ -398,7 +398,7 @@ const ru: Dict = {
   comingSoon: "СКОРО",
 };
 
-const tr: Dict = {
+const tr: PartialDict = {
   tagline: "Kaç İncil sorusuna cevap verebilirsin?",
   begin: "BAŞLA",
   leaderboard: "SIRALAMA",
@@ -439,7 +439,7 @@ const tr: Dict = {
   comingSoon: "YAKINDA",
 };
 
-const ja: Dict = {
+const ja: PartialDict = {
   tagline: "聖書のクイズに何問答えられますか？",
   begin: "はじめる",
   leaderboard: "ランキング",
@@ -480,7 +480,7 @@ const ja: Dict = {
   comingSoon: "近日公開",
 };
 
-const ko: Dict = {
+const ko: PartialDict = {
   tagline: "성경 퀴즈를 몇 문제나 맞힐 수 있나요?",
   begin: "시작",
   leaderboard: "랭킹",
@@ -521,7 +521,7 @@ const ko: Dict = {
   comingSoon: "출시 예정",
 };
 
-const ar: Dict = {
+const ar: PartialDict = {
   tagline: "كم سؤالاً من الكتاب المقدس يمكنك الإجابة عليه؟",
   begin: "ابدأ",
   leaderboard: "المتصدرون",
