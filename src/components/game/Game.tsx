@@ -1258,11 +1258,11 @@ export function Game() {
       streakRef.current = 0; setStreak(0);
       if (nh <= 0) {
         // Free players get one rewarded-ad continue per run.
-        if (!isPremiumRef.current && !extraLifeUsedRef.current) {
+        if (!isPremiumRef.current && !devModeRef.current && !extraLifeUsedRef.current) {
           stateRef.current = "offer"; setState("offer");
           return;
         }
-        if (scoreRef.current > bestRef.current) {
+        if (!devModeRef.current && scoreRef.current > bestRef.current) {
           bestRef.current = scoreRef.current;
           setBestScore(scoreRef.current);
           try { localStorage.setItem("dunewalker_best", String(scoreRef.current)); } catch { /* ignore */ }
