@@ -1827,7 +1827,10 @@ export function Game() {
           </button>
           {playerName && (
             <p className="mt-4 text-[11px] tracking-[0.25em] text-amber-100/70">
-              {t("player")} · <span className="text-amber-50">{playerName}</span>
+              <span className="inline-flex items-center gap-1.5">
+                <AvatarIcon id={equippedAvatar} size={18} />
+                {t("player")} · <span className="text-amber-50">{playerName}</span>
+              </span>
             </p>
           )}
           <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
@@ -1852,6 +1855,12 @@ export function Game() {
               className="rounded-full border border-amber-200/30 bg-black/30 px-4 py-1.5 text-[10px] tracking-[0.25em] text-amber-100/80 backdrop-blur hover:border-amber-200/60 hover:text-amber-50"
             >
               {t("moreGames")}
+            </button>
+            <button
+              onClick={() => setShowAvatars(true)}
+              className="rounded-full border border-amber-200/30 bg-black/30 px-4 py-1.5 text-[10px] tracking-[0.25em] text-amber-100/80 backdrop-blur hover:border-amber-200/60 hover:text-amber-50"
+            >
+              {t("avatars")}
             </button>
             <button
               onClick={() => setShowPremium(true)}
