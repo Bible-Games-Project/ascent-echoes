@@ -1841,3 +1841,58 @@ function MoreGamesOverlay({ onClose, t }: { onClose: () => void; t: (key: UIKey)
     </div>
   );
 }
+
+function PremiumOverlay({
+  isPremium,
+  onClose,
+  t,
+}: {
+  isPremium: boolean;
+  onClose: () => void;
+  t: (key: UIKey) => string;
+}) {
+  const Bullet = ({ children }: { children: React.ReactNode }) => (
+    <li className="flex items-start gap-2 text-sm tracking-wide text-amber-50/90" style={{ fontFamily: '"Cormorant Garamond", Georgia, serif', fontSize: 17 }}>
+      <span className="mt-0.5 text-amber-200">✦</span>
+      <span>{children}</span>
+    </li>
+  );
+  return (
+    <div className="absolute inset-0 z-40 flex flex-col items-center justify-center bg-black/75 backdrop-blur-md animate-fade-in px-4">
+      <div className="mx-4 w-[min(92vw,420px)] rounded-2xl border border-amber-200/40 bg-black/80 p-6 text-center text-amber-50 shadow-[0_0_50px_rgba(255,200,140,0.35)]">
+        <div className="text-[10px] tracking-[0.35em] text-amber-200/80">★ {t("premium")} ★</div>
+        <h2 className="mt-2 text-2xl font-light tracking-[0.25em] text-amber-50">BIBLE TRIVIA RUN</h2>
+        <p className="mt-1 text-[10px] tracking-[0.3em] text-amber-200/70">{t("premiumBenefits")}</p>
+
+        <ul className="mt-5 flex flex-col gap-2 text-left">
+          <Bullet>{t("noAds")}</Bullet>
+          <Bullet>{t("threeLivesBenefit")}</Bullet>
+          <Bullet>{t("unlimitedNameChanges")}</Bullet>
+          <Bullet>{t("exclusiveAvatars")}</Bullet>
+        </ul>
+
+        <div className="mt-6 flex flex-col items-center gap-3">
+          {isPremium ? (
+            <div className="rounded-full bg-amber-200/25 px-5 py-2 text-[11px] tracking-[0.3em] text-amber-50 ring-1 ring-amber-200/60">
+              ★ {t("premiumActive")} ★
+            </div>
+          ) : (
+            <button
+              type="button"
+              disabled
+              className="cursor-not-allowed rounded-full bg-amber-100/30 px-7 py-2.5 text-xs font-medium tracking-[0.25em] text-stone-900/50"
+            >
+              {t("comingSoon")}
+            </button>
+          )}
+          <button
+            onClick={onClose}
+            className="rounded-full border border-amber-200/40 bg-black/30 px-6 py-2 text-xs tracking-[0.25em] text-amber-100/90 backdrop-blur hover:border-amber-200/70 hover:text-amber-50"
+          >
+            {t("close")}
+          </button>
+        </div>
+      </div>
+    </div>
+  );
+}
