@@ -863,7 +863,7 @@ export function Game() {
       // helper to draw an answer label above the falling door
       const drawAnswerLabel = (cx: number, topY: number, text: string) => {
         ctx.save();
-        ctx.font = '600 13px "Cormorant Garamond", Georgia, serif';
+        ctx.font = '600 16px "Cormorant Garamond", Georgia, serif';
         ctx.textAlign = "center";
         ctx.textBaseline = "bottom";
         const maxW = W / 3 - 14;
@@ -889,7 +889,7 @@ export function Game() {
           } else cur = test;
         }
         if (cur) lines.push(cur);
-        const lineH = 15;
+        const lineH = 18;
         const boxH = lines.length * lineH + 6;
         const boxW = Math.min(maxW + 12, Math.max(...lines.map(l => ctx.measureText(l).width)) + 14);
         const bx = cx - boxW / 2;
