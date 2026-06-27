@@ -140,6 +140,11 @@ export function Game() {
   const [enteredTop10, setEnteredTop10] = useState(false);
   const [isWorldRecord, setIsWorldRecord] = useState(false);
 
+  // Avatars (cosmetic only)
+  const [equippedAvatar, setEquippedAvatar] = useState<AvatarId>("white_dove");
+  const [showAvatars, setShowAvatars] = useState(false);
+  const runDiffMaskRef = useRef(0);
+
   // Dev mode (testing only — never affects real monetization or leaderboard)
   const [devMode, setDevMode] = useState<boolean>(() => {
     try { return localStorage.getItem("btr_dev_mode") === "1"; } catch { return false; }
