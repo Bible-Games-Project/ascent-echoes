@@ -1450,7 +1450,7 @@ export function Game() {
       raf = requestAnimationFrame(loop);
     };
 
-    (canvas as unknown as { __reset?: () => void }).__reset = reset;
+    (canvas as unknown as { __reset?: (startLevel?: number) => void }).__reset = reset;
 
     // ----- Input -----
     let touchStartX = 0;
