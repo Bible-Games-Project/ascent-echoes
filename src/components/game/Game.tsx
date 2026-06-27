@@ -1278,7 +1278,7 @@ export function Game() {
       activeIdx += 1;
       if (activeIdx >= queue.length) {
         // Level complete
-        if (scoreRef.current > bestRef.current) {
+        if (!devModeRef.current && scoreRef.current > bestRef.current) {
           bestRef.current = scoreRef.current;
           setBestScore(scoreRef.current);
           try { localStorage.setItem("dunewalker_best", String(scoreRef.current)); } catch { /* ignore */ }
