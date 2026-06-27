@@ -243,16 +243,22 @@ export function Game() {
           setWorldRank(res.rank);
           setEnteredTop10(res.rank <= 10);
           setIsWorldRecord(res.rank === 1);
+          recordRank(res.rank);
         }
       } else if (finalScore > 0) {
         const r = await fetchRank(finalScore);
-        if (!cancelled) setWorldRank(r);
+        if (!cancelled) {
+          setWorldRank(r);
+          recordRank(r);
+        }
       }
       // If we didn't already set rank (e.g. tied best), compute it from bestForRank.
       if (worldRank == null && bestForRank > 0) {
         const r = await fetchRank(bestForRank);
-        if (!cancelled && r != null) setWorldRank(r);
+        if (!cancelled && r != null) { setWorldRank(r); recordRank(r); }
       }
+      // Record best-ever single-run score (cosmetic stat only).
+      if (finalScore > 0) recordScore(finalScore);
     })();
     return () => { cancelled = true; };
     // eslint-disable-next-line react-hooks/exhaustive-deps
