@@ -1331,6 +1331,7 @@ export function Game() {
         themeBlend = 0;
         setLevel(nextLvl);
         buildLevel(nextLvl);
+        if (!devModeRef.current) recordLevel(nextLvl);
         return;
       }
       // Reset timer + hint for the next decision
