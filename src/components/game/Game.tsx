@@ -14,6 +14,23 @@ import {
 import { getT, type UIKey } from "./i18n";
 import { getIsPremium, simulateRewardedAd } from "@/lib/monetization";
 import {
+  getEquipped as getEquippedAvatar,
+  recordAllDifficulties,
+  recordBonus,
+  recordCorrect,
+  recordDayPlayed,
+  recordGamePlayed,
+  recordLevel,
+  recordRank,
+  recordScore,
+  recordStreak,
+  difficultyBitForLevel,
+  ALL_DIFFICULTIES_MASK,
+  type AvatarId,
+} from "@/lib/avatars";
+import { AvatarIcon } from "./AvatarIcon";
+import { AvatarsOverlay } from "./AvatarsOverlay";
+import {
   fetchRank,
   fetchTop10,
   getLocalBest,
