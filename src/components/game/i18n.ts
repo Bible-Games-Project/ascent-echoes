@@ -53,7 +53,8 @@ export type UIKey =
   | "watchAdContinue"
   | "gameOverBtn"
   | "loadingAd"
-  | "premiumActive";
+  | "premiumActive"
+  | "avatars";
 
 type Dict = Record<UIKey, string>;
 type PartialDict = Partial<Dict>;
@@ -109,6 +110,7 @@ const en: Dict = {
   gameOverBtn: "GAME OVER",
   loadingAd: "LOADING AD…",
   premiumActive: "PREMIUM ACTIVE",
+  avatars: "AVATARS",
 };
 
 const es: PartialDict = {

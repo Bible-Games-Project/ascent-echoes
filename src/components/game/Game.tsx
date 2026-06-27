@@ -14,6 +14,23 @@ import {
 import { getT, type UIKey } from "./i18n";
 import { getIsPremium, simulateRewardedAd } from "@/lib/monetization";
 import {
+  getEquipped as getEquippedAvatar,
+  recordAllDifficulties,
+  recordBonus,
+  recordCorrect,
+  recordDayPlayed,
+  recordGamePlayed,
+  recordLevel,
+  recordRank,
+  recordScore,
+  recordStreak,
+  difficultyBitForLevel,
+  ALL_DIFFICULTIES_MASK,
+  type AvatarId,
+} from "@/lib/avatars";
+import { AvatarIcon } from "./AvatarIcon";
+import { AvatarsOverlay } from "./AvatarsOverlay";
+import {
   fetchRank,
   fetchTop10,
   getLocalBest,
@@ -123,6 +140,11 @@ export function Game() {
   const [enteredTop10, setEnteredTop10] = useState(false);
   const [isWorldRecord, setIsWorldRecord] = useState(false);
 
+  // Avatars (cosmetic only)
+  const [equippedAvatar, setEquippedAvatar] = useState<AvatarId>("white_dove");
+  const [showAvatars, setShowAvatars] = useState(false);
+  const runDiffMaskRef = useRef(0);
+
   // Dev mode (testing only — never affects real monetization or leaderboard)
   const [devMode, setDevMode] = useState<boolean>(() => {
     try { return localStorage.getItem("btr_dev_mode") === "1"; } catch { return false; }
@@ -160,6 +182,7 @@ export function Game() {
     const m = p ? 3 : 2;
     setMaxLives(m); maxLivesRef.current = m;
     setHealth(m); healthRef.current = m;
+    setEquippedAvatar(getEquippedAvatar());
   }, []);
   useEffect(() => {
     languageRef.current = language;
@@ -220,16 +243,22 @@ export function Game() {
           setWorldRank(res.rank);
           setEnteredTop10(res.rank <= 10);
           setIsWorldRecord(res.rank === 1);
+          recordRank(res.rank);
         }
       } else if (finalScore > 0) {
         const r = await fetchRank(finalScore);
-        if (!cancelled) setWorldRank(r);
+        if (!cancelled) {
+          setWorldRank(r);
+          recordRank(r);
+        }
       }
       // If we didn't already set rank (e.g. tied best), compute it from bestForRank.
       if (worldRank == null && bestForRank > 0) {
         const r = await fetchRank(bestForRank);
-        if (!cancelled && r != null) setWorldRank(r);
+        if (!cancelled && r != null) { setWorldRank(r); recordRank(r); }
       }
+      // Record best-ever single-run score (cosmetic stat only).
+      if (finalScore > 0) recordScore(finalScore);
     })();
     return () => { cancelled = true; };
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -1308,6 +1337,7 @@ export function Game() {
         themeBlend = 0;
         setLevel(nextLvl);
         buildLevel(nextLvl);
+        if (!devModeRef.current) recordLevel(nextLvl);
         return;
       }
       // Reset timer + hint for the next decision
@@ -1387,6 +1417,15 @@ export function Game() {
               scoreRef.current += 10 * newMult; setScore(scoreRef.current);
               correctTotalRef.current += 1; setCorrectTotal(correctTotalRef.current);
               correctPulse = 0.6;
+              // Lifetime stats for avatar progression (cosmetic).
+              if (!devModeRef.current) {
+                recordCorrect();
+                recordStreak(newStreak);
+                runDiffMaskRef.current |= difficultyBitForLevel(levelRef.current);
+                if (runDiffMaskRef.current === ALL_DIFFICULTIES_MASK) {
+                  recordAllDifficulties();
+                }
+              }
               if (newMult > prevMult) {
                 setMultiplierToast(newMult);
                 setTimeout(() => setMultiplierToast(null), 1400);
@@ -1430,6 +1469,7 @@ export function Game() {
           if (!p.taken && p.lane === player.lane && p.y >= playerY() - 16 && p.y <= playerY() + 24) {
             p.taken = true;
             applyPowerup(p);
+            if (!devModeRef.current) recordBonus();
             powerups.splice(i, 1);
             continue;
           }
@@ -1599,6 +1639,10 @@ export function Game() {
     c?.__reset?.();
     setState("playing");
     stateRef.current = "playing";
+    runDiffMaskRef.current = 0;
+    recordGamePlayed();
+    recordDayPlayed();
+    recordLevel(1);
   };
 
   const startGameAtLevel = (lvl: number) => {
@@ -1607,6 +1651,8 @@ export function Game() {
     c?.__reset?.(lvl);
     setState("playing");
     stateRef.current = "playing";
+    runDiffMaskRef.current = 0;
+    // dev runs intentionally don't bump stats — left untouched
   };
 
   const toggleDevMode = () => {
@@ -1655,6 +1701,7 @@ export function Game() {
           <div className="pointer-events-none absolute inset-x-0 top-0 z-10 flex items-start justify-between px-3 pt-3">
             <div className="flex flex-col gap-1.5">
               <div className="flex items-center gap-1.5">
+                <AvatarIcon id={equippedAvatar} size={18} />
                 {maxLives < 3 && <LockedHeart />}
                 {[0, 1, 2].map((i) => {
                   if (i >= maxLives) return null;
@@ -1781,7 +1828,10 @@ export function Game() {
           </button>
           {playerName && (
             <p className="mt-4 text-[11px] tracking-[0.25em] text-amber-100/70">
-              {t("player")} · <span className="text-amber-50">{playerName}</span>
+              <span className="inline-flex items-center gap-1.5">
+                <AvatarIcon id={equippedAvatar} size={18} />
+                {t("player")} · <span className="text-amber-50">{playerName}</span>
+              </span>
             </p>
           )}
           <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
@@ -1806,6 +1856,12 @@ export function Game() {
               className="rounded-full border border-amber-200/30 bg-black/30 px-4 py-1.5 text-[10px] tracking-[0.25em] text-amber-100/80 backdrop-blur hover:border-amber-200/60 hover:text-amber-50"
             >
               {t("moreGames")}
+            </button>
+            <button
+              onClick={() => setShowAvatars(true)}
+              className="rounded-full border border-amber-200/30 bg-black/30 px-4 py-1.5 text-[10px] tracking-[0.25em] text-amber-100/80 backdrop-blur hover:border-amber-200/60 hover:text-amber-50"
+            >
+              {t("avatars")}
             </button>
             <button
               onClick={() => setShowPremium(true)}
@@ -1849,10 +1905,7 @@ export function Game() {
             <Stat label={t("best")} value={bestScore} />
             <Stat label={t("worldRank")} value={worldRank ?? 0} prefix="#" />
           </div>
-          <LeaderboardList
-            entries={topTen}
-            t={t}
-          />
+          <LeaderboardList entries={topTen} t={t} selfAvatar={equippedAvatar} />
           <div className="mt-8 flex items-center gap-3">
             <button
               onClick={startGame}
@@ -1932,7 +1985,7 @@ export function Game() {
         <Overlay>
           <h2 className="text-2xl font-light tracking-[0.25em] text-amber-50">{t("leaderboard")}</h2>
           <p className="mt-1 text-[10px] tracking-[0.3em] text-amber-200/70">{t("top10Worldwide")}</p>
-          <LeaderboardList entries={topTen} t={t} />
+          <LeaderboardList entries={topTen} t={t} selfAvatar={equippedAvatar} />
           <button
             onClick={() => setShowLeaderboard(false)}
             className="mt-6 rounded-full border border-amber-200/40 bg-black/30 px-6 py-2 text-xs tracking-[0.25em] text-amber-100/90 backdrop-blur hover:border-amber-200/70 hover:text-amber-50"
@@ -1944,6 +1997,16 @@ export function Game() {
 
       {showMoreGames && (
         <MoreGamesOverlay onClose={() => setShowMoreGames(false)} t={t} />
+      )}
+
+      {showAvatars && (
+        <AvatarsOverlay
+          isPremium={isPremium}
+          equipped={equippedAvatar}
+          onEquip={(id) => setEquippedAvatar(id)}
+          onClose={() => setShowAvatars(false)}
+          title={t("avatars")}
+        />
       )}
 
       {state === "offer" && (
@@ -2065,9 +2128,11 @@ function Stat({ label, value, prefix }: { label: string; value: number; prefix?:
 function LeaderboardList({
   entries,
   t,
+  selfAvatar,
 }: {
   entries: LeaderboardEntry[] | null;
   t: (key: UIKey) => string;
+  selfAvatar?: AvatarId;
 }) {
   const myId = typeof window !== "undefined" ? getPlayerId() : "";
   if (entries === null) {
@@ -2100,7 +2165,10 @@ function LeaderboardList({
               }
             >
               <span className="w-10 tabular-nums text-amber-200/80">#{idx + 1}</span>
-              <span className="flex-1 truncate px-2">{e.name}</span>
+              <span className="flex flex-1 items-center gap-1.5 truncate px-2">
+                {mine && selfAvatar && <AvatarIcon id={selfAvatar} size={16} />}
+                <span className="truncate">{e.name}</span>
+              </span>
               <span className="tabular-nums text-amber-50">{e.best_score}</span>
             </li>
           );
