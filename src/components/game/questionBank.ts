@@ -56,10 +56,9 @@ export function distributionForLevel(level: number) {
 }
 
 export function timePerQuestionForLevel(level: number): number {
-  const table = [0, 10, 9.5, 9, 8.5, 8, 7.5, 7, 6.5, 6, 5.5];
+  const table = [0, 10.0, 9.2, 8.4, 7.6, 6.8, 6.0, 5.2, 4.4, 3.7, 3.0];
   if (level <= 10) return table[level];
-  const t = 5.5 - (level - 10) * 0.25;
-  return Math.max(1.5, t);
+  return 3.0;
 }
 
 function shuffle<T>(arr: T[]): T[] {
