@@ -190,6 +190,14 @@ export function Game() {
     setEnteredTop10(false);
     setIsWorldRecord(false);
     setWorldRank(null);
+    if (devModeRef.current) {
+      // Dev mode runs never touch the leaderboard or saved best.
+      (async () => {
+        const top = await fetchTop10();
+        if (!cancelled) setTopTen(top);
+      })();
+      return () => { cancelled = true; };
+    }
     (async () => {
       // Always refresh the top 10 for display.
       const top = await fetchTop10();
