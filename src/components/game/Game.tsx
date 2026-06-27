@@ -1633,6 +1633,10 @@ export function Game() {
     c?.__reset?.();
     setState("playing");
     stateRef.current = "playing";
+    runDiffMaskRef.current = 0;
+    recordGamePlayed();
+    recordDayPlayed();
+    recordLevel(1);
   };
 
   const startGameAtLevel = (lvl: number) => {
@@ -1641,6 +1645,8 @@ export function Game() {
     c?.__reset?.(lvl);
     setState("playing");
     stateRef.current = "playing";
+    runDiffMaskRef.current = 0;
+    // dev runs intentionally don't bump stats — left untouched
   };
 
   const toggleDevMode = () => {
