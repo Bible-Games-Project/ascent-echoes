@@ -1844,6 +1844,8 @@ export function Game() {
           onChangeLanguage={setLanguage}
           onChangeName={() => { setShowSettings(false); setShowNamePrompt(true); }}
           onClose={() => setShowSettings(false)}
+          devMode={devMode}
+          onToggleDevMode={toggleDevMode}
           t={t}
         />
       )}
