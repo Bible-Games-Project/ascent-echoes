@@ -12,6 +12,7 @@ import {
   type GameQuestion,
 } from "./questionBank";
 import { getT, type UIKey } from "./i18n";
+import { getIsPremium, setIsPremium, simulateRewardedAd } from "@/lib/monetization";
 import {
   fetchRank,
   fetchTop10,
@@ -26,7 +27,7 @@ import {
   type LeaderboardEntry,
 } from "@/lib/leaderboard";
 
-type GameState = "start" | "playing" | "gameover";
+type GameState = "start" | "playing" | "offer" | "gameover";
 type Lane = 0 | 1 | 2; // 0 left, 1 center, 2 right
 
 function formatRunTime(seconds: number): string {
