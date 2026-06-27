@@ -28,7 +28,7 @@ import {
   ALL_DIFFICULTIES_MASK,
   type AvatarId,
 } from "@/lib/avatars";
-import { AvatarIcon } from "./AvatarIcon";
+import { PlayerAvatar as AvatarIcon } from "./PlayerAvatar";
 import { AvatarsOverlay } from "./AvatarsOverlay";
 import {
   fetchRank,

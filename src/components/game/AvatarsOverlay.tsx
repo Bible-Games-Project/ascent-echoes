@@ -7,7 +7,7 @@ import {
   setEquipped,
   type AvatarId,
 } from "@/lib/avatars";
-import { AvatarIcon } from "./AvatarIcon";
+import { PlayerAvatar as AvatarIcon } from "./PlayerAvatar";
 
 type Props = {
   isPremium: boolean;
