@@ -53,7 +53,8 @@ export type UIKey =
   | "watchAdContinue"
   | "gameOverBtn"
   | "loadingAd"
-  | "premiumActive";
+  | "premiumActive"
+  | "avatars";
 
 type Dict = Record<UIKey, string>;
 type PartialDict = Partial<Dict>;
