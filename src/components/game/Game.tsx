@@ -123,6 +123,13 @@ export function Game() {
   const [enteredTop10, setEnteredTop10] = useState(false);
   const [isWorldRecord, setIsWorldRecord] = useState(false);
 
+  // Dev mode (testing only — never affects real monetization or leaderboard)
+  const [devMode, setDevMode] = useState<boolean>(() => {
+    try { return localStorage.getItem("btr_dev_mode") === "1"; } catch { return false; }
+  });
+  const devModeRef = useRef(false);
+  const [showLevelSelect, setShowLevelSelect] = useState(false);
+
   const stateRef = useRef<GameState>("start");
   const healthRef = useRef(3);
   const progressRef = useRef(0);
@@ -143,6 +150,7 @@ export function Game() {
   useEffect(() => { isPremiumRef.current = isPremium; }, [isPremium]);
   useEffect(() => { maxLivesRef.current = maxLives; }, [maxLives]);
   useEffect(() => { extraLifeUsedRef.current = extraLifeUsed; }, [extraLifeUsed]);
+  useEffect(() => { devModeRef.current = devMode; }, [devMode]);
 
   // Load premium flag from storage on mount.
   useEffect(() => {
