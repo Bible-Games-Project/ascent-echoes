@@ -1501,6 +1501,11 @@ export function Game() {
           if (!p.taken && p.lane === player.lane && p.y >= playerY() - 16 && p.y <= playerY() + 24) {
             p.taken = true;
             applyPowerup(p);
+            if (p.type === "apple" || p.type === "broken") {
+              sfx.playPenalty();
+            } else {
+              sfx.playBonus();
+            }
             if (!devModeRef.current) recordBonus();
             powerups.splice(i, 1);
             continue;
