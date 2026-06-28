@@ -2044,6 +2044,14 @@ export function Game() {
       {showPremium && (
         <PremiumOverlay
           isPremium={isPremium}
+          onPurchase={() => {
+            setIsPremium(true);
+            setIsPremiumState(true);
+            isPremiumRef.current = true;
+            const m = 3;
+            setMaxLives(m); maxLivesRef.current = m;
+            setHealth((h) => Math.min(m, Math.max(h, m))); healthRef.current = m;
+          }}
           onClose={() => setShowPremium(false)}
           t={t}
         />
