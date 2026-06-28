@@ -119,8 +119,8 @@ class MusicEngine {
     const id = window.setInterval(() => {
       n += 1;
       const k = Math.min(1, n / steps);
-      next.volume = TARGET_VOLUME * k;
-      if (prev) prev.volume = Math.max(0, TARGET_VOLUME * (1 - k));
+      next.volume = this.targetVol * k;
+      if (prev) prev.volume = Math.max(0, this.targetVol * (1 - k));
       if (n >= steps) {
         window.clearInterval(id);
         this.fadeTimers = this.fadeTimers.filter((x) => x !== id);
