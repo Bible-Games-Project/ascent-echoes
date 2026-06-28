@@ -2188,11 +2188,12 @@ function LockedHeart() {
 }
 
 function Stat({ label, value, prefix }: { label: string; value: number; prefix?: string }) {
+  const intValue = Math.max(0, Math.floor(Number(value) || 0));
   return (
     <div className="flex flex-col items-center">
       <span className="text-[10px] tracking-[0.3em] text-amber-200/70">{label}</span>
       <span className="mt-1 text-2xl font-light tabular-nums text-amber-50">
-        {value > 0 || !prefix ? `${prefix ?? ""}${value}` : "—"}
+        {intValue > 0 || !prefix ? `${prefix ?? ""}${intValue}` : "—"}
       </span>
     </div>
   );
