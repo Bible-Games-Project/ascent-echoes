@@ -30,7 +30,7 @@ import {
 } from "@/lib/avatars";
 import { PlayerAvatar as AvatarIcon } from "./PlayerAvatar";
 import { drawAvatarBody } from "./avatarRender";
-import { motionFor } from "./avatarMotion";
+import { motionFor, scaleMultiplierFor } from "./avatarMotion";
 import { AvatarsOverlay } from "./AvatarsOverlay";
 import {
   fetchRank,
@@ -1218,7 +1218,7 @@ export function Game() {
       drawAvatarBody(ctx, equippedAvatarRef.current, 0, 0, {
         alpha: bodyAlpha,
         flap: m.flap,
-        scale: 2,
+        scale: 2 * scaleMultiplierFor(equippedAvatarRef.current),
         glow: invuln > 0 || correctPulse > 0,
         t: timeSec,
       });

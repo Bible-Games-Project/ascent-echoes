@@ -1,5 +1,12 @@
 import type { AvatarId } from "@/lib/avatars";
 
+// Per-avatar visual scale multiplier. All avatars are boosted by 25% except
+// the three Dove variants, which keep their previous size exactly.
+export function scaleMultiplierFor(id: AvatarId): number {
+  if (id === "white_dove" || id === "black_dove" || id === "seraph_dove") return 1;
+  return 1.25;
+}
+
 // Shared idle-motion descriptor for every avatar.
 // Used by both the static preview (PlayerAvatar) and the in-game player
 // renderer (Game.tsx drawPlayer), so the silhouette moves identically
@@ -30,12 +37,13 @@ export function motionFor(id: AvatarId, t: number, unit: number) {
       dy = Math.abs(Math.sin(t * 1.3)) * -0.6 * u;
       break;
     case "ichthys": {
-      const a = t * 0.9;
-      dx = Math.cos(a) * 6 * u;
-      dy = Math.sin(a * 2) * 2 * u;
-      const vx = -Math.sin(a) * 6;
-      const vy = Math.cos(a * 2) * 4;
-      rot = Math.atan2(vy, vx) * 0.25;
+      // Smooth continuous circular path with natural tangent tilt.
+      const a = t * 1.1;
+      const R = 6 * u;
+      dx = Math.cos(a) * R;
+      dy = Math.sin(a) * R;
+      // Rotate along the tangent so the fish naturally faces its direction of travel.
+      rot = a + Math.PI / 2;
       break;
     }
     case "feather":
