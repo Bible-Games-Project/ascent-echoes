@@ -12,7 +12,7 @@ import {
   type GameQuestion,
 } from "./questionBank";
 import { getT, type UIKey } from "./i18n";
-import { getIsPremium, simulateRewardedAd } from "@/lib/monetization";
+import { getIsPremium, setIsPremium, simulateRewardedAd } from "@/lib/monetization";
 import {
   getEquipped as getEquippedAvatar,
   recordAllDifficulties,
@@ -1921,6 +1921,8 @@ export function Game() {
           onClose={() => setShowSettings(false)}
           devMode={devMode}
           onToggleDevMode={toggleDevMode}
+          isPremium={isPremium}
+          onPremium={() => { setShowSettings(false); setShowPremium(true); }}
           t={t}
         />
       )}
@@ -2042,6 +2044,14 @@ export function Game() {
       {showPremium && (
         <PremiumOverlay
           isPremium={isPremium}
+          onPurchase={() => {
+            setIsPremium(true);
+            setIsPremiumState(true);
+            isPremiumRef.current = true;
+            const m = 3;
+            setMaxLives(m); maxLivesRef.current = m;
+            setHealth((h) => Math.min(m, Math.max(h, m))); healthRef.current = m;
+          }}
           onClose={() => setShowPremium(false)}
           t={t}
         />
@@ -2291,6 +2301,8 @@ function SettingsOverlay({
   onClose,
   devMode,
   onToggleDevMode,
+  isPremium,
+  onPremium,
   t,
 }: {
   name: string;
@@ -2300,6 +2312,8 @@ function SettingsOverlay({
   onClose: () => void;
   devMode: boolean;
   onToggleDevMode: () => void;
+  isPremium: boolean;
+  onPremium: () => void;
   t: (key: UIKey) => string;
 }) {
   const [showLangs, setShowLangs] = useState(false);
@@ -2313,10 +2327,16 @@ function SettingsOverlay({
             <div className="mt-1 text-base text-amber-50">{name || "—"}</div>
           </div>
           <button
-            onClick={onChangeName}
-            className="rounded-full border border-amber-200/40 bg-black/30 px-3 py-1.5 text-[10px] tracking-[0.25em] text-amber-100/90 hover:border-amber-200/70 hover:text-amber-50"
+            onClick={isPremium ? onChangeName : onPremium}
+            className={
+              "rounded-full border px-3 py-1.5 text-[10px] tracking-[0.25em] " +
+              (isPremium
+                ? "border-amber-200/40 bg-black/30 text-amber-100/90 hover:border-amber-200/70 hover:text-amber-50"
+                : "border-amber-200/30 bg-black/20 text-amber-200/70 hover:border-amber-200/60 hover:text-amber-100")
+            }
+            title={isPremium ? undefined : t("premiumOnly")}
           >
-            {t("change")}
+            {isPremium ? t("change") : `★ ${t("premiumOnly")}`}
           </button>
         </div>
       </div>
@@ -2491,10 +2511,12 @@ function MoreGamesOverlay({ onClose, t }: { onClose: () => void; t: (key: UIKey)
 
 function PremiumOverlay({
   isPremium,
+  onPurchase,
   onClose,
   t,
 }: {
   isPremium: boolean;
+  onPurchase: () => void;
   onClose: () => void;
   t: (key: UIKey) => string;
 }) {
@@ -2526,10 +2548,10 @@ function PremiumOverlay({
           ) : (
             <button
               type="button"
-              disabled
-              className="cursor-not-allowed rounded-full bg-amber-100/30 px-7 py-2.5 text-xs font-medium tracking-[0.25em] text-stone-900/50"
+              onClick={onPurchase}
+              className="rounded-full bg-amber-100 px-7 py-2.5 text-xs font-semibold tracking-[0.25em] text-stone-900 shadow-[0_0_24px_rgba(255,200,140,0.5)] hover:bg-amber-50"
             >
-              {t("comingSoon")}
+              ★ {t("goPremium")} ★
             </button>
           )}
           <button

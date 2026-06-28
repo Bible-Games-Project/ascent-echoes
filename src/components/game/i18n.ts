@@ -54,7 +54,9 @@ export type UIKey =
   | "gameOverBtn"
   | "loadingAd"
   | "premiumActive"
-  | "avatars";
+  | "avatars"
+  | "goPremium"
+  | "premiumOnly";
 
 type Dict = Record<UIKey, string>;
 type PartialDict = Partial<Dict>;
@@ -103,7 +105,7 @@ const en: Dict = {
   noAds: "No advertisements",
   threeLivesBenefit: "Three permanent lives",
   unlimitedNameChanges: "Unlimited name changes",
-  exclusiveAvatars: "Exclusive avatars (Coming Soon)",
+  exclusiveAvatars: "Exclusive avatars (All premium avatars unlocked)",
   continueRunTitle: "CONTINUE YOUR RUN?",
   continueRunBody: "Watch a short ad to unlock the third life and continue.",
   watchAdContinue: "WATCH AD & CONTINUE",
@@ -111,6 +113,8 @@ const en: Dict = {
   loadingAd: "LOADING AD…",
   premiumActive: "PREMIUM ACTIVE",
   avatars: "AVATARS",
+  goPremium: "GO PREMIUM",
+  premiumOnly: "PREMIUM ONLY",
 };
 
 const es: PartialDict = {
