@@ -1175,13 +1175,20 @@ export function Game() {
       // used by the menu / HUD / leaderboard previews, so what the player
       // selects is exactly what they see flying in-game.
       const bodyAlpha = (0.9 + 0.1 * pulse) * dimming;
-      const flap = Math.sin(timeSec * 4.5);
+      // Drive the same per-avatar idle motion the Avatar Menu uses, so the
+      // in-game silhouette flickers/sways/spins/floats identically to the
+      // preview. Motion is applied via transform; intrinsic part motion
+      // (flame, pages, fish tail) is driven by `t` inside drawAvatarBody.
+      const m = motionFor(equippedAvatarRef.current, timeSec, 3);
       ctx.save();
       ctx.shadowColor = invuln > 0 ? "rgba(255, 210, 120, 0.9)" : "rgba(255, 245, 220, 0.85)";
       ctx.shadowBlur = 16 + 14 * glowBoost;
-      drawAvatarBody(ctx, equippedAvatarRef.current, x, y, {
+      ctx.translate(x + m.dx, y + m.dy);
+      if (m.rot) ctx.rotate(m.rot);
+      if (m.sx !== 1) ctx.scale(m.sx, 1);
+      drawAvatarBody(ctx, equippedAvatarRef.current, 0, 0, {
         alpha: bodyAlpha,
-        flap,
+        flap: m.flap,
         scale: 2,
         glow: invuln > 0 || correctPulse > 0,
         t: timeSec,
