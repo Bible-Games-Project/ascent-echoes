@@ -36,7 +36,6 @@ import { motionFor, scaleMultiplierFor } from "./avatarMotion";
 import { AvatarsOverlay } from "./AvatarsOverlay";
 import {
   fetchRank,
-  fetchTop10,
   getLocalBest,
   getPlayerId,
   getPlayerName,
