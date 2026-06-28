@@ -1906,8 +1906,9 @@ export function Game() {
             onAvatars={() => setShowAvatars(true)}
             onLeaderboard={async () => {
               setShowLeaderboard(true);
+              setTopTen(null); // clear stale state before refetch
               const tops = await fetchTop10();
-              setTopTen(tops);
+              setTopTen(tops); // full replacement, never merged
             }}
             onPremium={() => setShowPremium(true)}
             onMoreGames={() => setShowMoreGames(true)}
