@@ -30,6 +30,7 @@ import {
 } from "@/lib/avatars";
 import { PlayerAvatar as AvatarIcon } from "./PlayerAvatar";
 import { drawAvatarBody } from "./avatarRender";
+import { motionFor } from "./avatarMotion";
 import { AvatarsOverlay } from "./AvatarsOverlay";
 import {
   fetchRank,
@@ -1174,13 +1175,20 @@ export function Game() {
       // used by the menu / HUD / leaderboard previews, so what the player
       // selects is exactly what they see flying in-game.
       const bodyAlpha = (0.9 + 0.1 * pulse) * dimming;
-      const flap = Math.sin(timeSec * 4.5);
+      // Drive the same per-avatar idle motion the Avatar Menu uses, so the
+      // in-game silhouette flickers/sways/spins/floats identically to the
+      // preview. Motion is applied via transform; intrinsic part motion
+      // (flame, pages, fish tail) is driven by `t` inside drawAvatarBody.
+      const m = motionFor(equippedAvatarRef.current, timeSec, 3);
       ctx.save();
       ctx.shadowColor = invuln > 0 ? "rgba(255, 210, 120, 0.9)" : "rgba(255, 245, 220, 0.85)";
       ctx.shadowBlur = 16 + 14 * glowBoost;
-      drawAvatarBody(ctx, equippedAvatarRef.current, x, y, {
+      ctx.translate(x + m.dx, y + m.dy);
+      if (m.rot) ctx.rotate(m.rot);
+      if (m.sx !== 1) ctx.scale(m.sx, 1);
+      drawAvatarBody(ctx, equippedAvatarRef.current, 0, 0, {
         alpha: bodyAlpha,
-        flap,
+        flap: m.flap,
         scale: 2,
         glow: invuln > 0 || correctPulse > 0,
         t: timeSec,
@@ -1770,6 +1778,23 @@ export function Game() {
 
       {state === "start" && (
         <Overlay>
+          <button
+            type="button"
+            onClick={() => setShowSettings(true)}
+            aria-label={t("settings")}
+            className="absolute right-4 top-4 z-10 flex h-10 w-10 items-center justify-center rounded-full border border-amber-200/40 bg-black/40 text-amber-100/85 backdrop-blur transition hover:border-amber-200/70 hover:text-amber-50 active:scale-95"
+          >
+            <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden>
+              <path
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="1.6"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M12 15.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Zm8-3.5a8 8 0 0 0-.13-1.4l2.05-1.6-2-3.46-2.4.96a8 8 0 0 0-2.42-1.4L14.6 2h-4l-.5 2.6a8 8 0 0 0-2.42 1.4l-2.4-.96-2 3.46 2.05 1.6A8 8 0 0 0 4 12c0 .48.05.95.13 1.4L2.08 15l2 3.46 2.4-.96a8 8 0 0 0 2.42 1.4l.5 2.6h4l.5-2.6a8 8 0 0 0 2.42-1.4l2.4.96 2-3.46-2.05-1.6c.08-.45.13-.92.13-1.4Z"
+              />
+            </svg>
+          </button>
           <h1 className="text-center text-4xl font-light tracking-[0.25em] text-amber-50 drop-shadow-[0_2px_24px_rgba(255,180,120,0.5)]">
             BIBLE TRIVIA RUN
           </h1>
@@ -1784,17 +1809,14 @@ export function Game() {
           </button>
           <MainMenuGroups
             t={t}
-            playerName={playerName}
             equippedAvatar={equippedAvatar}
             isPremium={isPremium}
-            onPlayer={() => setShowNamePrompt(true)}
             onAvatars={() => setShowAvatars(true)}
             onLeaderboard={async () => {
               setShowLeaderboard(true);
               const tops = await fetchTop10();
               setTopTen(tops);
             }}
-            onSettings={() => setShowSettings(true)}
             onPremium={() => setShowPremium(true)}
             onMoreGames={() => setShowMoreGames(true)}
           />
@@ -2139,53 +2161,35 @@ function MenuButton({
 
 function MainMenuGroups({
   t,
-  playerName,
   equippedAvatar,
   isPremium,
-  onPlayer,
   onAvatars,
   onLeaderboard,
-  onSettings,
   onPremium,
   onMoreGames,
 }: {
   t: (key: UIKey) => string;
-  playerName: string | null;
   equippedAvatar: AvatarId;
   isPremium: boolean;
-  onPlayer: () => void;
   onAvatars: () => void;
   onLeaderboard: () => void;
-  onSettings: () => void;
   onPremium: () => void;
   onMoreGames: () => void;
 }) {
   return (
-    <div className="mt-8 flex w-[min(94vw,360px)] flex-col gap-5">
-      <MenuSection label={t("player")}>
-        <button
-          type="button"
-          onClick={onPlayer}
-          className="flex items-center gap-2 rounded-full border border-amber-200/30 bg-black/30 px-3 py-1.5 text-[11px] tracking-[0.2em] text-amber-100/90 backdrop-blur hover:border-amber-200/60 hover:text-amber-50"
-        >
-          <AvatarIcon id={equippedAvatar} size={18} />
-          <span className="text-amber-50">{playerName ?? t("player")}</span>
-        </button>
-        <MenuButton onClick={onAvatars}>{t("avatars")}</MenuButton>
-      </MenuSection>
-
-      <MenuSection label={t("leaderboard")}>
-        <MenuButton onClick={onLeaderboard}>{t("leaderboard")}</MenuButton>
-      </MenuSection>
-
-      <MenuSection label={t("settings")}>
-        <MenuButton onClick={onSettings}>{t("settings")}</MenuButton>
-        <MenuButton onClick={onPremium} active={isPremium}>★ {t("premium")}</MenuButton>
-      </MenuSection>
-
-      <MenuSection label={t("moreGames")}>
-        <MenuButton onClick={onMoreGames}>{t("moreGames")}</MenuButton>
-      </MenuSection>
+    <div className="mt-10 flex w-[min(94vw,420px)] flex-wrap items-center justify-center gap-3">
+      <button
+        type="button"
+        onClick={onAvatars}
+        aria-label={t("avatars")}
+        className="flex items-center gap-2 rounded-full border border-amber-200/40 bg-black/30 px-3 py-1.5 text-[10px] tracking-[0.25em] text-amber-100/85 backdrop-blur hover:border-amber-200/70 hover:text-amber-50"
+      >
+        <AvatarIcon id={equippedAvatar} size={22} />
+        <span>{t("avatars")}</span>
+      </button>
+      <MenuButton onClick={onLeaderboard}>{t("leaderboard")}</MenuButton>
+      <MenuButton onClick={onPremium} active={isPremium}>★ {t("premium")}</MenuButton>
+      <MenuButton onClick={onMoreGames}>{t("moreGames")}</MenuButton>
     </div>
   );
 }

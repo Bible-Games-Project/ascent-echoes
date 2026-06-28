@@ -392,13 +392,22 @@ function drawSunChar(ctx: Ctx, x: number, y: number, s: number, glow: boolean) {
 
 // Crescent moon only — no full-disc background.
 function drawMoonChar(ctx: Ctx, x: number, y: number, s: number, glow: boolean) {
-  // Pure crescent shape via even-odd fill — no full disc, no composite ops,
-  // so nothing dark can show through behind the moon.
+  // Pure crescent: two SEPARATE subpaths filled with even-odd rule.
+  // Calling moveTo before the second arc forces a new subpath, otherwise
+  // canvas draws an implicit line between them and the shape collapses.
+  // Does NOT touch anything else on the canvas (no composite tricks), so
+  // the background and parallax remain intact during gameplay.
+  const r1 = 12 * s;
+  const r2 = 11 * s;
+  const ox = x + 5 * s;
+  const oy = y - 2 * s;
   withGlow(ctx, "#E8E8F4", s, glow, () => {
     ctx.fillStyle = "#E8E8F4";
     ctx.beginPath();
-    ctx.arc(x, y, 12 * s, 0, Math.PI * 2, false);
-    ctx.arc(x + 5 * s, y - 2 * s, 11 * s, 0, Math.PI * 2, true);
+    ctx.moveTo(x + r1, y);
+    ctx.arc(x, y, r1, 0, Math.PI * 2);
+    ctx.moveTo(ox + r2, oy);
+    ctx.arc(ox, oy, r2, 0, Math.PI * 2);
     ctx.fill("evenodd");
   });
 }
