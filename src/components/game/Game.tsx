@@ -135,6 +135,9 @@ export function Game() {
   // Leaderboard / player identity
   const [playerName, setPlayerNameState] = useState<string | null>(null);
   const [showNamePrompt, setShowNamePrompt] = useState(false);
+  const [showLangPrompt, setShowLangPrompt] = useState<boolean>(() => {
+    try { return !localStorage.getItem("btr_lang_set"); } catch { return true; }
+  });
   const [showSettings, setShowSettings] = useState(false);
   const [showLeaderboard, setShowLeaderboard] = useState(false);
   const [showMoreGames, setShowMoreGames] = useState(false);
@@ -216,8 +219,18 @@ export function Game() {
   useEffect(() => {
     const n = getPlayerName();
     setPlayerNameState(n);
-    if (!n) setShowNamePrompt(true);
+    // Defer the name prompt until after language selection is complete.
+    if (!n) {
+      try {
+        if (localStorage.getItem("btr_lang_set")) setShowNamePrompt(true);
+      } catch { setShowNamePrompt(true); }
+    }
   }, []);
+
+  // When language selection completes and no name yet, ask for the name next.
+  useEffect(() => {
+    if (!showLangPrompt && !playerName) setShowNamePrompt(true);
+  }, [showLangPrompt, playerName]);
 
   // Music routing by app state: menu plays Home, gameplay plays the level
   // track, game over stops music. Level transitions are handled inline.
@@ -1948,7 +1961,18 @@ export function Game() {
         </Overlay>
       )}
 
-      {showNamePrompt && (
+      {showLangPrompt && (
+        <LanguagePromptOverlay
+          current={language}
+          onSelect={(l) => {
+            setLanguage(l);
+            try { localStorage.setItem("btr_lang_set", "1"); } catch { /* ignore */ }
+            setShowLangPrompt(false);
+          }}
+        />
+      )}
+
+      {!showLangPrompt && showNamePrompt && (
         <NamePromptOverlay
           initial={playerName ?? ""}
           onSave={handleSaveName}
@@ -2347,6 +2371,41 @@ function NamePromptOverlay({
             {t("cancel")}
           </button>
         )}
+      </div>
+    </div>
+  );
+}
+
+function LanguagePromptOverlay({
+  current,
+  onSelect,
+}: {
+  current: Language;
+  onSelect: (l: Language) => void;
+}) {
+  return (
+    <div className="absolute inset-0 z-50 flex flex-col items-center justify-center bg-black/80 backdrop-blur-md animate-fade-in px-4">
+      <h2 className="text-xl font-light tracking-[0.25em] text-amber-50 text-center">
+        SELECT LANGUAGE
+      </h2>
+      <p className="mt-2 text-[10px] tracking-[0.3em] text-amber-200/70 text-center">
+        ELIGE TU IDIOMA · CHOISISSEZ VOTRE LANGUE
+      </p>
+      <div className="mt-6 flex max-w-[92vw] flex-wrap items-center justify-center gap-2">
+        {LANGUAGES.map((lng) => (
+          <button
+            key={lng}
+            onClick={() => onSelect(lng)}
+            className={
+              "rounded-full border px-4 py-2 text-xs tracking-wider transition " +
+              (current === lng
+                ? "border-amber-200/80 bg-amber-100/20 text-amber-50 shadow-[0_0_18px_rgba(255,200,140,0.4)]"
+                : "border-amber-200/30 bg-black/40 text-amber-100/80 hover:border-amber-200/70 hover:text-amber-50")
+            }
+          >
+            {LANGUAGE_LABELS[lng]}
+          </button>
+        ))}
       </div>
     </div>
   );
