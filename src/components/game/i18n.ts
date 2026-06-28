@@ -183,6 +183,11 @@ const es: PartialDict = {
   equip: "EQUIPAR",
   locked: "BLOQUEADO",
   bestRank: "Mejor rango",
+  continueRunTitle: "¿CONTINUAR LA PARTIDA?",
+  continueRunBody: "Mira un anuncio corto para desbloquear la tercera vida y continuar.",
+  watchAdContinue: "VER ANUNCIO Y CONTINUAR",
+  gameOverBtn: "FIN DE LA PARTIDA",
+  loadingAd: "CARGANDO ANUNCIO…",
 };
 
 const pt: PartialDict = {
@@ -239,6 +244,11 @@ const pt: PartialDict = {
   equip: "EQUIPAR",
   locked: "BLOQUEADO",
   bestRank: "Melhor rank",
+  continueRunTitle: "CONTINUAR A PARTIDA?",
+  continueRunBody: "Assista a um anúncio curto para desbloquear a terceira vida e continuar.",
+  watchAdContinue: "ASSISTIR ANÚNCIO E CONTINUAR",
+  gameOverBtn: "FIM DE JOGO",
+  loadingAd: "CARREGANDO ANÚNCIO…",
 };
 
 const fr: PartialDict = {
@@ -295,6 +305,11 @@ const fr: PartialDict = {
   equip: "ÉQUIPER",
   locked: "VERROUILLÉ",
   bestRank: "Meilleur rang",
+  continueRunTitle: "CONTINUER LA PARTIE ?",
+  continueRunBody: "Regarde une courte publicité pour débloquer la troisième vie et continuer.",
+  watchAdContinue: "REGARDER LA PUB ET CONTINUER",
+  gameOverBtn: "FIN DE PARTIE",
+  loadingAd: "CHARGEMENT DE LA PUB…",
 };
 
 const de: PartialDict = {
@@ -351,6 +366,11 @@ const de: PartialDict = {
   equip: "AUSRÜSTEN",
   locked: "GESPERRT",
   bestRank: "Bester Rang",
+  continueRunTitle: "LAUF FORTSETZEN?",
+  continueRunBody: "Sieh dir eine kurze Werbung an, um das dritte Leben freizuschalten und weiterzuspielen.",
+  watchAdContinue: "WERBUNG ANSEHEN & WEITER",
+  gameOverBtn: "SPIEL VORBEI",
+  loadingAd: "WERBUNG LÄDT…",
 };
 
 const it: PartialDict = {
@@ -407,6 +427,11 @@ const it: PartialDict = {
   equip: "EQUIPAGGIA",
   locked: "BLOCCATO",
   bestRank: "Miglior rango",
+  continueRunTitle: "CONTINUARE LA PARTITA?",
+  continueRunBody: "Guarda un breve annuncio per sbloccare la terza vita e continuare.",
+  watchAdContinue: "GUARDA L'ANNUNCIO E CONTINUA",
+  gameOverBtn: "PARTITA FINITA",
+  loadingAd: "CARICAMENTO ANNUNCIO…",
 };
 
 const pl: PartialDict = {
@@ -463,6 +488,11 @@ const pl: PartialDict = {
   equip: "WYBIERZ",
   locked: "ZABLOKOWANE",
   bestRank: "Najlepsza ranga",
+  continueRunTitle: "KONTYNUOWAĆ GRĘ?",
+  continueRunBody: "Obejrzyj krótką reklamę, aby odblokować trzecie życie i grać dalej.",
+  watchAdContinue: "OBEJRZYJ REKLAMĘ I GRAJ DALEJ",
+  gameOverBtn: "KONIEC GRY",
+  loadingAd: "ŁADOWANIE REKLAMY…",
 };
 
 const ru: PartialDict = {
@@ -519,6 +549,11 @@ const ru: PartialDict = {
   equip: "ВЫБРАТЬ",
   locked: "ЗАКРЫТО",
   bestRank: "Лучший ранг",
+  continueRunTitle: "ПРОДОЛЖИТЬ ЗАБЕГ?",
+  continueRunBody: "Посмотри короткую рекламу, чтобы открыть третью жизнь и продолжить.",
+  watchAdContinue: "СМОТРЕТЬ РЕКЛАМУ И ПРОДОЛЖИТЬ",
+  gameOverBtn: "ИГРА ОКОНЧЕНА",
+  loadingAd: "ЗАГРУЗКА РЕКЛАМЫ…",
 };
 
 const tr: PartialDict = {
@@ -575,6 +610,11 @@ const tr: PartialDict = {
   equip: "KUŞAN",
   locked: "KİLİTLİ",
   bestRank: "En iyi sıra",
+  continueRunTitle: "OYUNA DEVAM EDİLSİN Mİ?",
+  continueRunBody: "Üçüncü canı açmak ve devam etmek için kısa bir reklam izle.",
+  watchAdContinue: "REKLAM İZLE VE DEVAM ET",
+  gameOverBtn: "OYUN BİTTİ",
+  loadingAd: "REKLAM YÜKLENİYOR…",
 };
 
 const ja: PartialDict = {
@@ -631,6 +671,11 @@ const ja: PartialDict = {
   equip: "装備",
   locked: "ロック中",
   bestRank: "最高ランク",
+  continueRunTitle: "ゲームを続けますか？",
+  continueRunBody: "短い広告を見ると3つ目のライフが解放され、続行できます。",
+  watchAdContinue: "広告を見て続行",
+  gameOverBtn: "ゲームオーバー",
+  loadingAd: "広告を読み込み中…",
 };
 
 const ko: PartialDict = {
@@ -687,6 +732,11 @@ const ko: PartialDict = {
   equip: "장착",
   locked: "잠김",
   bestRank: "최고 랭크",
+  continueRunTitle: "게임을 계속할까요?",
+  continueRunBody: "짧은 광고를 시청하면 세 번째 생명이 해제되고 계속할 수 있습니다.",
+  watchAdContinue: "광고 보고 계속하기",
+  gameOverBtn: "게임 오버",
+  loadingAd: "광고 로딩 중…",
 };
 
 const ar: PartialDict = {
@@ -743,6 +793,11 @@ const ar: PartialDict = {
   equip: "تجهيز",
   locked: "مقفل",
   bestRank: "أفضل ترتيب",
+  continueRunTitle: "هل تريد متابعة الجولة؟",
+  continueRunBody: "شاهد إعلاناً قصيراً لفتح الحياة الثالثة والمتابعة.",
+  watchAdContinue: "شاهد الإعلان وتابع",
+  gameOverBtn: "انتهت اللعبة",
+  loadingAd: "جارٍ تحميل الإعلان…",
 };
 
 const DICTS: Record<Language, PartialDict> = {
