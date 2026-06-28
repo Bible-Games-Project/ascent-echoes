@@ -390,25 +390,22 @@ function drawSunChar(ctx: Ctx, x: number, y: number, s: number, glow: boolean) {
   });
 }
 
-// Crescent moon only — no full-disc background.
+// Single crescent shape. Built as ONE closed path from two arcs that meet
+// at the crescent's tips — no hidden full disc, no overlapping circles,
+// no even-odd trickery. Just one filled crescent.
 function drawMoonChar(ctx: Ctx, x: number, y: number, s: number, glow: boolean) {
-  // Pure crescent: two SEPARATE subpaths filled with even-odd rule.
-  // Calling moveTo before the second arc forces a new subpath, otherwise
-  // canvas draws an implicit line between them and the shape collapses.
-  // Does NOT touch anything else on the canvas (no composite tricks), so
-  // the background and parallax remain intact during gameplay.
-  const r1 = 12 * s;
-  const r2 = 11 * s;
-  const ox = x + 5 * s;
-  const oy = y - 2 * s;
+  const R = 12 * s;              // outer radius
+  const d = 7 * s;               // horizontal offset of the "bite" circle
+  const a = Math.acos(d / (2 * R)); // half-angle subtended by the tips
   withGlow(ctx, "#E8E8F4", s, glow, () => {
     ctx.fillStyle = "#E8E8F4";
     ctx.beginPath();
-    ctx.moveTo(x + r1, y);
-    ctx.arc(x, y, r1, 0, Math.PI * 2);
-    ctx.moveTo(ox + r2, oy);
-    ctx.arc(ox, oy, r2, 0, Math.PI * 2);
-    ctx.fill("evenodd");
+    // Outer arc: top tip → around the left → bottom tip.
+    ctx.arc(x, y, R, a, -a, true);
+    // Inner arc: bottom tip → curving right (carving the bite) → top tip.
+    ctx.arc(x + d, y, R, -(Math.PI - a), Math.PI - a, false);
+    ctx.closePath();
+    ctx.fill();
   });
 }
 
