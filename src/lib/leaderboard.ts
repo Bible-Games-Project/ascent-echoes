@@ -205,7 +205,18 @@ export async function fetchTop10(): Promise<LeaderboardEntry[]> {
     console.warn("[leaderboard] top10", error);
     return getCachedTop10();
   }
-  const list = (data ?? []) as LeaderboardEntry[];
+  const raw = (data ?? []) as LeaderboardEntry[];
+  console.debug("[leaderboard] raw supabase response", raw);
+  // Defensive dedupe by player_id (server PK guarantees uniqueness, but we
+  // collapse anyway so any future client-side merge can never produce dupes).
+  const byId = new Map<string, LeaderboardEntry>();
+  for (const row of raw) {
+    const existing = byId.get(row.player_id);
+    if (!existing || row.best_score > existing.best_score) byId.set(row.player_id, row);
+  }
+  const list = Array.from(byId.values())
+    .sort((a, b) => b.best_score - a.best_score)
+    .slice(0, 10);
   writeJSON(TOP_CACHE_KEY, list);
   return list;
 }
