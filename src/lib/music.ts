@@ -22,6 +22,7 @@ const HOME_TRACK: string = home.url;
 
 const FADE_MS = 500;
 const TARGET_VOLUME = 0.55;
+const HOME_VOLUME = TARGET_VOLUME * 0.5;
 const STORAGE_KEY = "btr_music_enabled";
 
 function trackForLevel(level: number): string {
@@ -35,6 +36,7 @@ class MusicEngine {
   private fadeTimers: number[] = [];
   private enabled = true;
   private desiredUrl: string | null = null; // what should be playing right now
+  private targetVol = TARGET_VOLUME;
 
   constructor() {
     try {
@@ -57,11 +59,13 @@ class MusicEngine {
 
   /** Play the home/menu track on loop. */
   playHome() {
+    this.targetVol = HOME_VOLUME;
     this.setTrack(HOME_TRACK);
   }
 
   /** Play the fixed track for the given level. Levels >= 10 reuse track 10. */
   playLevel(level: number) {
+    this.targetVol = TARGET_VOLUME;
     this.setTrack(trackForLevel(level));
   }
 
@@ -115,8 +119,8 @@ class MusicEngine {
     const id = window.setInterval(() => {
       n += 1;
       const k = Math.min(1, n / steps);
-      next.volume = TARGET_VOLUME * k;
-      if (prev) prev.volume = Math.max(0, TARGET_VOLUME * (1 - k));
+      next.volume = this.targetVol * k;
+      if (prev) prev.volume = Math.max(0, this.targetVol * (1 - k));
       if (n >= steps) {
         window.clearInterval(id);
         this.fadeTimers = this.fadeTimers.filter((x) => x !== id);
