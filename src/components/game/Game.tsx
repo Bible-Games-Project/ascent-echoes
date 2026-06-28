@@ -2147,53 +2147,35 @@ function MenuButton({
 
 function MainMenuGroups({
   t,
-  playerName,
   equippedAvatar,
   isPremium,
-  onPlayer,
   onAvatars,
   onLeaderboard,
-  onSettings,
   onPremium,
   onMoreGames,
 }: {
   t: (key: UIKey) => string;
-  playerName: string | null;
   equippedAvatar: AvatarId;
   isPremium: boolean;
-  onPlayer: () => void;
   onAvatars: () => void;
   onLeaderboard: () => void;
-  onSettings: () => void;
   onPremium: () => void;
   onMoreGames: () => void;
 }) {
   return (
-    <div className="mt-8 flex w-[min(94vw,360px)] flex-col gap-5">
-      <MenuSection label={t("player")}>
-        <button
-          type="button"
-          onClick={onPlayer}
-          className="flex items-center gap-2 rounded-full border border-amber-200/30 bg-black/30 px-3 py-1.5 text-[11px] tracking-[0.2em] text-amber-100/90 backdrop-blur hover:border-amber-200/60 hover:text-amber-50"
-        >
-          <AvatarIcon id={equippedAvatar} size={18} />
-          <span className="text-amber-50">{playerName ?? t("player")}</span>
-        </button>
-        <MenuButton onClick={onAvatars}>{t("avatars")}</MenuButton>
-      </MenuSection>
-
-      <MenuSection label={t("leaderboard")}>
-        <MenuButton onClick={onLeaderboard}>{t("leaderboard")}</MenuButton>
-      </MenuSection>
-
-      <MenuSection label={t("settings")}>
-        <MenuButton onClick={onSettings}>{t("settings")}</MenuButton>
-        <MenuButton onClick={onPremium} active={isPremium}>★ {t("premium")}</MenuButton>
-      </MenuSection>
-
-      <MenuSection label={t("moreGames")}>
-        <MenuButton onClick={onMoreGames}>{t("moreGames")}</MenuButton>
-      </MenuSection>
+    <div className="mt-10 flex w-[min(94vw,420px)] flex-wrap items-center justify-center gap-3">
+      <button
+        type="button"
+        onClick={onAvatars}
+        aria-label={t("avatars")}
+        className="flex items-center gap-2 rounded-full border border-amber-200/40 bg-black/30 px-3 py-1.5 text-[10px] tracking-[0.25em] text-amber-100/85 backdrop-blur hover:border-amber-200/70 hover:text-amber-50"
+      >
+        <AvatarIcon id={equippedAvatar} size={22} />
+        <span>{t("avatars")}</span>
+      </button>
+      <MenuButton onClick={onLeaderboard}>{t("leaderboard")}</MenuButton>
+      <MenuButton onClick={onPremium} active={isPremium}>★ {t("premium")}</MenuButton>
+      <MenuButton onClick={onMoreGames}>{t("moreGames")}</MenuButton>
     </div>
   );
 }
