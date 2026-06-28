@@ -47,7 +47,11 @@ import {
   syncDisplayName,
   type LeaderboardEntry,
 } from "@/lib/leaderboard";
-import { submitLeaderboardEntry } from "@/lib/firebaseLeaderboard";
+import {
+  submitLeaderboardEntry,
+  fetchTopLeaderboardEntries,
+  subscribeTopLeaderboardEntries,
+} from "@/lib/firebaseLeaderboard";
 
 type GameState = "start" | "playing" | "offer" | "gameover";
 type Lane = 0 | 1 | 2; // 0 left, 1 center, 2 right
