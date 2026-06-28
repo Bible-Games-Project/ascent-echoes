@@ -35,7 +35,6 @@ import { drawAvatarBody } from "./avatarRender";
 import { motionFor, scaleMultiplierFor } from "./avatarMotion";
 import { AvatarsOverlay } from "./AvatarsOverlay";
 import {
-  fetchRank,
   fetchTop10,
   getLocalBest,
   getPlayerId,
@@ -43,8 +42,7 @@ import {
   NAME_MAX,
   NAME_MIN,
   setPlayerName as savePlayerName,
-  submitIfBest,
-  syncDisplayName,
+  submitScore,
   type LeaderboardEntry,
 } from "@/lib/leaderboard";
 
@@ -279,42 +277,28 @@ export function Game() {
       return () => { cancelled = true; };
     }
     (async () => {
-      // Always refresh the top 10 for display.
+      // Submit first (server keeps GREATEST), then fetch fresh top 10.
+      if (finalScore > 0) {
+        await submitScore(finalScore, levelRef.current);
+      }
+      if (finalScore > prevBest) {
+        bestRef.current = finalScore;
+        setBestScore(finalScore);
+        setIsNewBest(true);
+      }
       const top = await fetchTop10();
       if (cancelled) return;
       setTopTen(top);
-
-      let bestForRank = prevBest;
-      if (finalScore > prevBest) {
-        const res = await submitIfBest(finalScore, levelRef.current);
-        if (cancelled) return;
-        bestForRank = res.best;
-        bestRef.current = res.best;
-        setBestScore(res.best);
-        setIsNewBest(true);
-        // Re-fetch leaderboard so the new placement is visible.
-        const updated = await fetchTop10();
-        if (cancelled) return;
-        setTopTen(updated);
-        if (res.rank != null) {
-          setWorldRank(res.rank);
-          setEnteredTop10(res.rank <= 10);
-          setIsWorldRecord(res.rank === 1);
-          recordRank(res.rank);
-        }
-      } else if (finalScore > 0) {
-        const r = await fetchRank(finalScore);
-        if (!cancelled) {
-          setWorldRank(r);
-          recordRank(r);
-        }
+      // Derive rank from board position when the player is in the top 10.
+      const myId = getPlayerId();
+      const idx = top.findIndex((e) => e.player_id === myId);
+      if (idx >= 0) {
+        const rank = idx + 1;
+        setWorldRank(rank);
+        setEnteredTop10(true);
+        setIsWorldRecord(rank === 1);
+        recordRank(rank);
       }
-      // If we didn't already set rank (e.g. tied best), compute it from bestForRank.
-      if (worldRank == null && bestForRank > 0) {
-        const r = await fetchRank(bestForRank);
-        if (!cancelled && r != null) { setWorldRank(r); recordRank(r); }
-      }
-      // Record best-ever single-run score (cosmetic stat only).
       if (finalScore > 0) recordScore(finalScore);
     })();
     return () => { cancelled = true; };
@@ -1726,16 +1710,8 @@ export function Game() {
     setPlayerNameState(saved);
     setShowNamePrompt(false);
     setShowSettings(false);
-    // Sync the new display name onto this device's existing leaderboard row
-    // (same Player ID, same Best Score, same World Rank). Then refresh the
-    // visible top 10 so the rename is reflected immediately.
-    void (async () => {
-      const ok = await syncDisplayName();
-      if (ok) {
-        const top = await fetchTop10();
-        setTopTen(top);
-      }
-    })();
+    // Name is stored locally; the next score submission will refresh the
+    // player_name on this device's leaderboard row.
   };
 
   const t = getT(language);
@@ -2244,7 +2220,7 @@ function LeaderboardList({
               <span className="w-10 tabular-nums text-amber-200/80">#{idx + 1}</span>
               <span className="flex flex-1 items-center gap-1.5 truncate px-2">
                 {mine && selfAvatar && <AvatarIcon id={selfAvatar} size={16} />}
-                <span className="truncate">{e.name}</span>
+              <span className="truncate">{e.player_name}</span>
               </span>
               <span className="tabular-nums text-amber-50">{e.best_score}</span>
             </li>
