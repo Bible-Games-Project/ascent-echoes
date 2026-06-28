@@ -227,10 +227,15 @@ export function Game() {
     }
   }, []);
 
-  // When language selection completes and no name yet, ask for the name next.
+  // When language selection completes during first-time onboarding and no
+  // name has been stored yet, ask for the name next. We re-check storage
+  // directly to avoid racing the async playerName state hydration on reload
+  // (which would otherwise re-open the prompt on every launch for users who
+  // already have a saved name).
   useEffect(() => {
-    if (!showLangPrompt && !playerName) setShowNamePrompt(true);
-  }, [showLangPrompt, playerName]);
+    if (showLangPrompt) return;
+    if (!getPlayerName()) setShowNamePrompt(true);
+  }, [showLangPrompt]);
 
   // Music routing by app state: menu plays Home, gameplay plays the level
   // track, game over stops music. Level transitions are handled inline.
