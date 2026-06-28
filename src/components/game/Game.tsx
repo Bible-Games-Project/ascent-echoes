@@ -165,6 +165,9 @@ export function Game() {
     sfx.setEnabled(next);
   };
 
+  // Ensure SFX stays in sync with the unified audio toggle on first load.
+  useEffect(() => { sfx.setEnabled(music.isEnabled()); }, []);
+
   const stateRef = useRef<GameState>("start");
   const healthRef = useRef(3);
   const progressRef = useRef(0);
