@@ -1710,16 +1710,8 @@ export function Game() {
     setPlayerNameState(saved);
     setShowNamePrompt(false);
     setShowSettings(false);
-    // Sync the new display name onto this device's existing leaderboard row
-    // (same Player ID, same Best Score, same World Rank). Then refresh the
-    // visible top 10 so the rename is reflected immediately.
-    void (async () => {
-      const ok = await syncDisplayName();
-      if (ok) {
-        const top = await fetchTop10();
-        setTopTen(top);
-      }
-    })();
+    // Name is stored locally; the next score submission will refresh the
+    // player_name on this device's leaderboard row.
   };
 
   const t = getT(language);
@@ -2228,7 +2220,7 @@ function LeaderboardList({
               <span className="w-10 tabular-nums text-amber-200/80">#{idx + 1}</span>
               <span className="flex flex-1 items-center gap-1.5 truncate px-2">
                 {mine && selfAvatar && <AvatarIcon id={selfAvatar} size={16} />}
-                <span className="truncate">{e.name}</span>
+              <span className="truncate">{e.player_name}</span>
               </span>
               <span className="tabular-nums text-amber-50">{e.best_score}</span>
             </li>
