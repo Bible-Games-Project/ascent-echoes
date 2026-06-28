@@ -135,6 +135,9 @@ export function Game() {
   // Leaderboard / player identity
   const [playerName, setPlayerNameState] = useState<string | null>(null);
   const [showNamePrompt, setShowNamePrompt] = useState(false);
+  const [showLangPrompt, setShowLangPrompt] = useState<boolean>(() => {
+    try { return !localStorage.getItem("btr_lang_set"); } catch { return true; }
+  });
   const [showSettings, setShowSettings] = useState(false);
   const [showLeaderboard, setShowLeaderboard] = useState(false);
   const [showMoreGames, setShowMoreGames] = useState(false);
@@ -216,8 +219,18 @@ export function Game() {
   useEffect(() => {
     const n = getPlayerName();
     setPlayerNameState(n);
-    if (!n) setShowNamePrompt(true);
+    // Defer the name prompt until after language selection is complete.
+    if (!n) {
+      try {
+        if (localStorage.getItem("btr_lang_set")) setShowNamePrompt(true);
+      } catch { setShowNamePrompt(true); }
+    }
   }, []);
+
+  // When language selection completes and no name yet, ask for the name next.
+  useEffect(() => {
+    if (!showLangPrompt && !playerName) setShowNamePrompt(true);
+  }, [showLangPrompt, playerName]);
 
   // Music routing by app state: menu plays Home, gameplay plays the level
   // track, game over stops music. Level transitions are handled inline.
