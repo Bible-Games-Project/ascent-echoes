@@ -2360,6 +2360,7 @@ function SettingsOverlay({
   onClose,
   devMode,
   onToggleDevMode,
+  onResetAll,
   isPremium,
   onPremium,
   musicOn,
@@ -2373,6 +2374,7 @@ function SettingsOverlay({
   onClose: () => void;
   devMode: boolean;
   onToggleDevMode: () => void;
+  onResetAll: () => void;
   isPremium: boolean;
   onPremium: () => void;
   musicOn: boolean;
