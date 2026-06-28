@@ -62,7 +62,10 @@ export type UIKey =
   | "equipped"
   | "equip"
   | "locked"
-  | "bestRank";
+  | "bestRank"
+  | "changeNameIsPremium"
+  | "upgradeToCustomize"
+  | "upgrade";
 
 type Dict = Record<UIKey, string>;
 type PartialDict = Partial<Dict>;
@@ -127,6 +130,9 @@ const en: Dict = {
   equip: "EQUIP",
   locked: "LOCKED",
   bestRank: "Best rank",
+  changeNameIsPremium: "Change name is a Premium feature",
+  upgradeToCustomize: "Upgrade to Premium to customize your identity",
+  upgrade: "UPGRADE",
 };
 
 const es: PartialDict = {
@@ -183,6 +189,9 @@ const es: PartialDict = {
   equip: "EQUIPAR",
   locked: "BLOQUEADO",
   bestRank: "Mejor rango",
+  changeNameIsPremium: "Cambiar el nombre es una función Premium",
+  upgradeToCustomize: "Mejora a Premium para personalizar tu identidad",
+  upgrade: "MEJORAR",
   continueRunTitle: "¿CONTINUAR LA PARTIDA?",
   continueRunBody: "Mira un anuncio corto para desbloquear la tercera vida y continuar.",
   watchAdContinue: "VER ANUNCIO Y CONTINUAR",
@@ -244,6 +253,9 @@ const pt: PartialDict = {
   equip: "EQUIPAR",
   locked: "BLOQUEADO",
   bestRank: "Melhor rank",
+  changeNameIsPremium: "Mudar o nome é um recurso Premium",
+  upgradeToCustomize: "Atualize para Premium para personalizar sua identidade",
+  upgrade: "ATUALIZAR",
   continueRunTitle: "CONTINUAR A PARTIDA?",
   continueRunBody: "Assista a um anúncio curto para desbloquear a terceira vida e continuar.",
   watchAdContinue: "ASSISTIR ANÚNCIO E CONTINUAR",
@@ -305,6 +317,9 @@ const fr: PartialDict = {
   equip: "ÉQUIPER",
   locked: "VERROUILLÉ",
   bestRank: "Meilleur rang",
+  changeNameIsPremium: "Changer le nom est une fonction Premium",
+  upgradeToCustomize: "Passe à Premium pour personnaliser ton identité",
+  upgrade: "AMÉLIORER",
   continueRunTitle: "CONTINUER LA PARTIE ?",
   continueRunBody: "Regarde une courte publicité pour débloquer la troisième vie et continuer.",
   watchAdContinue: "REGARDER LA PUB ET CONTINUER",
@@ -366,6 +381,9 @@ const de: PartialDict = {
   equip: "AUSRÜSTEN",
   locked: "GESPERRT",
   bestRank: "Bester Rang",
+  changeNameIsPremium: "Namen ändern ist eine Premium-Funktion",
+  upgradeToCustomize: "Upgrade auf Premium, um deine Identität anzupassen",
+  upgrade: "UPGRADE",
   continueRunTitle: "LAUF FORTSETZEN?",
   continueRunBody: "Sieh dir eine kurze Werbung an, um das dritte Leben freizuschalten und weiterzuspielen.",
   watchAdContinue: "WERBUNG ANSEHEN & WEITER",
@@ -427,6 +445,9 @@ const it: PartialDict = {
   equip: "EQUIPAGGIA",
   locked: "BLOCCATO",
   bestRank: "Miglior rango",
+  changeNameIsPremium: "Cambiare nome è una funzione Premium",
+  upgradeToCustomize: "Passa a Premium per personalizzare la tua identità",
+  upgrade: "AGGIORNA",
   continueRunTitle: "CONTINUARE LA PARTITA?",
   continueRunBody: "Guarda un breve annuncio per sbloccare la terza vita e continuare.",
   watchAdContinue: "GUARDA L'ANNUNCIO E CONTINUA",
@@ -488,6 +509,9 @@ const pl: PartialDict = {
   equip: "WYBIERZ",
   locked: "ZABLOKOWANE",
   bestRank: "Najlepsza ranga",
+  changeNameIsPremium: "Zmiana imienia to funkcja Premium",
+  upgradeToCustomize: "Ulepsz do Premium, aby spersonalizować swoją tożsamość",
+  upgrade: "ULEPSZ",
   continueRunTitle: "KONTYNUOWAĆ GRĘ?",
   continueRunBody: "Obejrzyj krótką reklamę, aby odblokować trzecie życie i grać dalej.",
   watchAdContinue: "OBEJRZYJ REKLAMĘ I GRAJ DALEJ",
@@ -549,6 +573,9 @@ const ru: PartialDict = {
   equip: "ВЫБРАТЬ",
   locked: "ЗАКРЫТО",
   bestRank: "Лучший ранг",
+  changeNameIsPremium: "Смена имени — функция Premium",
+  upgradeToCustomize: "Перейдите на Premium, чтобы настроить свою идентичность",
+  upgrade: "УЛУЧШИТЬ",
   continueRunTitle: "ПРОДОЛЖИТЬ ЗАБЕГ?",
   continueRunBody: "Посмотри короткую рекламу, чтобы открыть третью жизнь и продолжить.",
   watchAdContinue: "СМОТРЕТЬ РЕКЛАМУ И ПРОДОЛЖИТЬ",
@@ -610,6 +637,9 @@ const tr: PartialDict = {
   equip: "KUŞAN",
   locked: "KİLİTLİ",
   bestRank: "En iyi sıra",
+  changeNameIsPremium: "Ad değiştirme Premium özelliğidir",
+  upgradeToCustomize: "Kimliğini özelleştirmek için Premium'a geç",
+  upgrade: "YÜKSELT",
   continueRunTitle: "OYUNA DEVAM EDİLSİN Mİ?",
   continueRunBody: "Üçüncü canı açmak ve devam etmek için kısa bir reklam izle.",
   watchAdContinue: "REKLAM İZLE VE DEVAM ET",
@@ -671,6 +701,9 @@ const ja: PartialDict = {
   equip: "装備",
   locked: "ロック中",
   bestRank: "最高ランク",
+  changeNameIsPremium: "名前の変更はプレミアム機能です",
+  upgradeToCustomize: "プレミアムにアップグレードして自分らしさを表現",
+  upgrade: "アップグレード",
   continueRunTitle: "ゲームを続けますか？",
   continueRunBody: "短い広告を見ると3つ目のライフが解放され、続行できます。",
   watchAdContinue: "広告を見て続行",
@@ -732,6 +765,9 @@ const ko: PartialDict = {
   equip: "장착",
   locked: "잠김",
   bestRank: "최고 랭크",
+  changeNameIsPremium: "이름 변경은 프리미엄 기능입니다",
+  upgradeToCustomize: "프리미엄으로 업그레이드하여 정체성을 맞춤화하세요",
+  upgrade: "업그레이드",
   continueRunTitle: "게임을 계속할까요?",
   continueRunBody: "짧은 광고를 시청하면 세 번째 생명이 해제되고 계속할 수 있습니다.",
   watchAdContinue: "광고 보고 계속하기",
@@ -793,6 +829,9 @@ const ar: PartialDict = {
   equip: "تجهيز",
   locked: "مقفل",
   bestRank: "أفضل ترتيب",
+  changeNameIsPremium: "تغيير الاسم ميزة بريميوم",
+  upgradeToCustomize: "قم بالترقية إلى بريميوم لتخصيص هويتك",
+  upgrade: "ترقية",
   continueRunTitle: "هل تريد متابعة الجولة؟",
   continueRunBody: "شاهد إعلاناً قصيراً لفتح الحياة الثالثة والمتابعة.",
   watchAdContinue: "شاهد الإعلان وتابع",
