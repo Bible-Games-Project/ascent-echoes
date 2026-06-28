@@ -2177,7 +2177,7 @@ function MainMenuGroups({
   onMoreGames: () => void;
 }) {
   return (
-    <div className="mt-10 flex w-[min(94vw,420px)] flex-col items-center gap-3">
+    <div className="mt-10 flex w-[min(94vw,420px)] flex-col items-center gap-5">
       <button
         type="button"
         onClick={onAvatars}
