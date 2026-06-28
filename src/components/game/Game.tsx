@@ -286,7 +286,7 @@ export function Game() {
 
       let bestForRank = prevBest;
       if (finalScore > prevBest) {
-        const res = await submitIfBest(finalScore);
+        const res = await submitIfBest(finalScore, levelRef.current);
         if (cancelled) return;
         bestForRank = res.best;
         bestRef.current = res.best;
