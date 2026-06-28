@@ -230,7 +230,10 @@ export function Game() {
   useEffect(() => {
     const el = canvasRef.current?.parentElement;
     if (!el) return;
-    const onDown = () => sfx.playClick();
+    const onDown = (e: PointerEvent) => {
+      const target = e.target as HTMLElement | null;
+      if (target && target.closest("button")) sfx.playClick();
+    };
     el.addEventListener("pointerdown", onDown);
     return () => el.removeEventListener("pointerdown", onDown);
   }, []);
