@@ -590,25 +590,31 @@ export function Game() {
     const themeFor = (lvl: number): Theme =>
       THEMES[Math.min(Math.max(1, lvl), 10) - 1];
 
-    const drawLayer = (l: LayerDef, offset: number) => {
+    const drawLayer = (l: LayerDef, offset: number, baseYOverride?: number) => {
       ctx.fillStyle = l.color;
       ctx.beginPath();
-      const baseY = H * l.baseFrac;
-      ctx.moveTo(0, H);
-      for (let x = 0; x <= W; x += 8) {
-        let y: number;
+      const baseY = baseYOverride ?? H * l.baseFrac;
+      const yAt = (x: number): number => {
         if (l.sharp) {
           const t = ((x + offset) * l.freq) / Math.PI;
           const frac = ((t % 1) + 1) % 1;
           const tri = 1 - 2 * Math.abs(frac - 0.5);
-          y = baseY - l.amp * Math.max(0, tri);
-        } else {
-          y = baseY
-            + Math.sin((x + offset) * l.freq) * l.amp
-            + Math.sin((x + offset) * l.freq * 2.3) * l.amp * 0.3;
+          return baseY - l.amp * Math.max(0, tri);
         }
-        ctx.lineTo(x, y);
+        return baseY
+          + Math.sin((x + offset) * l.freq) * l.amp
+          + Math.sin((x + offset) * l.freq * 2.3) * l.amp * 0.3;
+      };
+      ctx.moveTo(0, H);
+      ctx.lineTo(0, yAt(0));
+      for (let x = 8; x < W; x += 8) {
+        ctx.lineTo(x, yAt(x));
       }
+      // Always end the silhouette with the exact right-edge sample, then
+      // drop straight down to the bottom-right corner. This removes the
+      // diagonal slope previously caused by jumping from the last 8px
+      // sample directly to (W, H).
+      ctx.lineTo(W, yAt(W));
       ctx.lineTo(W, H);
       ctx.closePath();
       ctx.fill();
@@ -691,7 +697,17 @@ export function Game() {
       ctx.fillRect(0, 0, W, H);
       if (t.fx === "night_sky") drawNightSky();
       if (t.sun) drawSun(t.sun);
-      t.layers.forEach((l) => drawLayer(l, -bgDrift * l.speed));
+      // Anchor background silhouettes to the gameplay ground (lane platform
+      // top) with a small visual gap, instead of letting them float low on
+      // the viewport. The nearest layer sits just above the platform; the
+      // mid/far layers preserve their original relative spacing.
+      const platTopRef = H * PLAYER_Y_FRAC + 22;
+      const GROUND_GAP = 10;
+      const nearFrac = t.layers.reduce((m, l) => Math.max(m, l.baseFrac), 0);
+      t.layers.forEach((l) => {
+        const baseY = (platTopRef - GROUND_GAP) - (nearFrac - l.baseFrac) * H;
+        drawLayer(l, -bgDrift * l.speed, baseY);
+      });
       if (t.house) drawHouse();
       ctx.restore();
     };
