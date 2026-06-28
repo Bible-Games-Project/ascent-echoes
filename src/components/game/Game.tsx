@@ -2511,10 +2511,12 @@ function MoreGamesOverlay({ onClose, t }: { onClose: () => void; t: (key: UIKey)
 
 function PremiumOverlay({
   isPremium,
+  onPurchase,
   onClose,
   t,
 }: {
   isPremium: boolean;
+  onPurchase: () => void;
   onClose: () => void;
   t: (key: UIKey) => string;
 }) {
@@ -2546,7 +2548,7 @@ function PremiumOverlay({
           ) : (
             <button
               type="button"
-              onClick={() => { setIsPremium(true); }}
+              onClick={onPurchase}
               className="rounded-full bg-amber-100 px-7 py-2.5 text-xs font-semibold tracking-[0.25em] text-stone-900 shadow-[0_0_24px_rgba(255,200,140,0.5)] hover:bg-amber-50"
             >
               ★ {t("goPremium")} ★
