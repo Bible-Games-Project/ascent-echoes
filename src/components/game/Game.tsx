@@ -2474,22 +2474,31 @@ function SettingsOverlay({
     <div className="absolute inset-0 z-30 flex flex-col items-center justify-center bg-black/60 backdrop-blur-md animate-fade-in">
       <h2 className="text-xl font-light tracking-[0.25em] text-amber-50">{t("settings")}</h2>
       <div className="mt-5 w-[280px] max-w-[88vw] rounded-2xl border border-amber-200/25 bg-black/45 p-4 backdrop-blur">
-        <div className="flex items-center justify-between">
-          <div>
+        <div className="flex items-center justify-between gap-3">
+          <div className="min-w-0 flex-1">
             <div className="text-[10px] tracking-[0.3em] text-amber-200/70">{t("playerName")}</div>
-            <div className="mt-1 text-base text-amber-50">{name || "—"}</div>
+            <div className="mt-1 truncate text-base text-amber-50">{name || "—"}</div>
+            {!isPremium && (
+              <>
+                <div className="mt-2 text-[10px] leading-snug text-amber-100/80">
+                  {t("changeNameIsPremium")}
+                </div>
+                <div className="mt-1 text-[9px] leading-snug text-amber-200/60">
+                  {t("upgradeToCustomize")}
+                </div>
+              </>
+            )}
           </div>
           <button
             onClick={isPremium ? onChangeName : onPremium}
             className={
-              "rounded-full border px-3 py-1.5 text-[10px] tracking-[0.25em] " +
+              "shrink-0 rounded-full border px-3 py-1.5 text-[10px] tracking-[0.25em] " +
               (isPremium
                 ? "border-amber-200/40 bg-black/30 text-amber-100/90 hover:border-amber-200/70 hover:text-amber-50"
-                : "border-amber-200/30 bg-black/20 text-amber-200/70 hover:border-amber-200/60 hover:text-amber-100")
+                : "border-amber-200/50 bg-amber-200/10 text-amber-100 hover:border-amber-200/80 hover:text-amber-50")
             }
-            title={isPremium ? undefined : t("premiumOnly")}
           >
-            {isPremium ? t("change") : `★ ${t("premiumOnly")}`}
+            {isPremium ? t("change") : `★ ${t("upgrade")}`}
           </button>
         </div>
       </div>
