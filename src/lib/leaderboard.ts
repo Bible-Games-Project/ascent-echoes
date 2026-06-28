@@ -157,16 +157,19 @@ export async function syncDisplayName(): Promise<boolean> {
     enqueuePending({ player_id: id, name, score: best, ts: Date.now() });
     return false;
   }
-  const { error } = await supabase.rpc("submit_score", {
+  console.log("[leaderboard] syncDisplayName calling submit_score", { player_id: id, score: best });
+  const { data, error } = await supabase.rpc("submit_score", {
     p_player_id: id,
     p_name: name,
     p_score: best, // GREATEST(existing, best) === existing, score preserved
   });
   if (error) {
     console.warn("[leaderboard] syncDisplayName", error);
+    console.log("[leaderboard] submit_score error (sync)", error);
     enqueuePending({ player_id: id, name, score: best, ts: Date.now() });
     return false;
   }
+  console.log("[leaderboard] submit_score success (sync)", data);
   return true;
 }
 
