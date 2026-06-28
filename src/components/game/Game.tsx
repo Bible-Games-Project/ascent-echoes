@@ -14,6 +14,7 @@ import {
 import { getT, type UIKey } from "./i18n";
 import { getIsPremium, setIsPremium, simulateRewardedAd } from "@/lib/monetization";
 import { music } from "@/lib/music";
+import { sfx } from "@/lib/sfx";
 import {
   getEquipped as getEquippedAvatar,
   recordAllDifficulties,
