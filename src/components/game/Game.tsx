@@ -13,6 +13,7 @@ import {
 } from "./questionBank";
 import { getT, type UIKey } from "./i18n";
 import { getIsPremium, setIsPremium, simulateRewardedAd } from "@/lib/monetization";
+import { music } from "@/lib/music";
 import {
   getEquipped as getEquippedAvatar,
   recordAllDifficulties,
@@ -155,6 +156,12 @@ export function Game() {
   });
   const devModeRef = useRef(false);
   const [showLevelSelect, setShowLevelSelect] = useState(false);
+  const [musicOn, setMusicOnState] = useState<boolean>(() => music.isEnabled());
+  const toggleMusic = () => {
+    const next = !musicOn;
+    setMusicOnState(next);
+    music.setEnabled(next);
+  };
 
   const stateRef = useRef<GameState>("start");
   const healthRef = useRef(3);
@@ -206,6 +213,13 @@ export function Game() {
     setPlayerNameState(n);
     if (!n) setShowNamePrompt(true);
   }, []);
+
+  // Stop music whenever gameplay ends (game over or back to main menu).
+  useEffect(() => {
+    if (state === "start" || state === "gameover") {
+      music.stop();
+    }
+  }, [state]);
 
   // When game ends: submit if new best, refresh leaderboard + rank.
   useEffect(() => {
@@ -1332,6 +1346,7 @@ export function Game() {
         setLevel(nextLvl);
         buildLevel(nextLvl);
         if (!devModeRef.current) recordLevel(nextLvl);
+        music.advance();
         return;
       }
       // Reset timer + hint for the next decision
@@ -1637,6 +1652,7 @@ export function Game() {
     recordGamePlayed();
     recordDayPlayed();
     recordLevel(1);
+    music.startSessionAndPlay();
   };
 
   const startGameAtLevel = (lvl: number) => {
@@ -1647,6 +1663,7 @@ export function Game() {
     stateRef.current = "playing";
     runDiffMaskRef.current = 0;
     // dev runs intentionally don't bump stats — left untouched
+    music.startSessionAndPlay();
   };
 
   const toggleDevMode = () => {
@@ -1923,6 +1940,8 @@ export function Game() {
           onToggleDevMode={toggleDevMode}
           isPremium={isPremium}
           onPremium={() => { setShowSettings(false); setShowPremium(true); }}
+          musicOn={musicOn}
+          onToggleMusic={toggleMusic}
           t={t}
         />
       )}
@@ -2303,6 +2322,8 @@ function SettingsOverlay({
   onToggleDevMode,
   isPremium,
   onPremium,
+  musicOn,
+  onToggleMusic,
   t,
 }: {
   name: string;
@@ -2314,6 +2335,8 @@ function SettingsOverlay({
   onToggleDevMode: () => void;
   isPremium: boolean;
   onPremium: () => void;
+  musicOn: boolean;
+  onToggleMusic: () => void;
   t: (key: UIKey) => string;
 }) {
   const [showLangs, setShowLangs] = useState(false);
@@ -2371,6 +2394,32 @@ function SettingsOverlay({
             ))}
           </div>
         )}
+      </div>
+      <div className="mt-3 w-[280px] max-w-[88vw] rounded-2xl border border-amber-200/25 bg-black/45 p-4 backdrop-blur">
+        <button
+          type="button"
+          onClick={onToggleMusic}
+          className="flex w-full items-center justify-between gap-3 text-left"
+        >
+          <div>
+            <div className="text-[10px] tracking-[0.3em] text-amber-200/70">{t("music")}</div>
+            <div className="mt-1 text-base text-amber-50">{musicOn ? "ON" : "OFF"}</div>
+          </div>
+          <span
+            className={
+              "relative inline-flex h-5 w-9 items-center rounded-full transition " +
+              (musicOn ? "bg-amber-300/70" : "bg-white/15")
+            }
+            aria-hidden
+          >
+            <span
+              className={
+                "inline-block h-4 w-4 transform rounded-full bg-black/80 transition " +
+                (musicOn ? "translate-x-4" : "translate-x-0.5")
+              }
+            />
+          </span>
+        </button>
       </div>
       <button
         onClick={onClose}
