@@ -701,11 +701,15 @@ export function Game() {
       // top) with a small visual gap, instead of letting them float low on
       // the viewport. The nearest layer sits just above the platform; the
       // mid/far layers preserve their original relative spacing.
+      // Anchor background silhouettes to the gameplay ground (lane platform
+      // top). The nearest layer's BASE sits just above the platform so the
+      // hill bodies are clearly visible above the lane surface and the
+      // scene feels attached to the ground (not stuck at the viewport bottom).
       const platTopRef = H * PLAYER_Y_FRAC + 22;
-      const GROUND_GAP = 10;
+      const NEAR_LIFT = Math.max(40, H * 0.08);
       const nearFrac = t.layers.reduce((m, l) => Math.max(m, l.baseFrac), 0);
       t.layers.forEach((l) => {
-        const baseY = (platTopRef - GROUND_GAP) - (nearFrac - l.baseFrac) * H;
+        const baseY = (platTopRef - NEAR_LIFT) - (nearFrac - l.baseFrac) * H;
         drawLayer(l, -bgDrift * l.speed, baseY);
       });
       if (t.house) drawHouse();
