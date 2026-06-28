@@ -43,17 +43,7 @@ export type Database = {
       [_ in never]: never
     }
     Functions: {
-      submit_score: {
-        Args: {
-          p_level: number
-          p_player_id: string
-          p_player_name: string
-          p_score: number
-        }
-        Returns: {
-          best_score: number
-        }[]
-      }
+      [_ in never]: never
     }
     Enums: {
       [_ in never]: never
