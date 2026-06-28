@@ -234,10 +234,7 @@ export function Game() {
   // already have a saved name).
   useEffect(() => {
     if (showLangPrompt) return;
-    try {
-      const stored = localStorage.getItem("btr_player_name");
-      if (!stored || stored.trim().length === 0) setShowNamePrompt(true);
-    } catch { /* ignore */ }
+    if (!getPlayerName()) setShowNamePrompt(true);
   }, [showLangPrompt]);
 
   // Music routing by app state: menu plays Home, gameplay plays the level
