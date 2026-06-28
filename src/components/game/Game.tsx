@@ -706,7 +706,7 @@ export function Game() {
       // hill bodies are clearly visible above the lane surface and the
       // scene feels attached to the ground (not stuck at the viewport bottom).
       const platTopRef = H * PLAYER_Y_FRAC + 22;
-      const NEAR_LIFT = Math.max(40, H * 0.08);
+      const NEAR_LIFT = Math.max(120, H * 0.2);
       const nearFrac = t.layers.reduce((m, l) => Math.max(m, l.baseFrac), 0);
       t.layers.forEach((l) => {
         const baseY = (platTopRef - NEAR_LIFT) - (nearFrac - l.baseFrac) * H;
