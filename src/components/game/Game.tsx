@@ -864,20 +864,12 @@ export function Game() {
       }
     };
 
-    // Single ground platform at bottom
+    // Lane platforms at bottom
     const drawGround = () => {
       const platTop = H * PLAYER_Y_FRAC + 22;
       const platH = 18;
       const gr = themeFor(levelRef.current).ground;
-      ctx.fillStyle = "rgba(0,0,0,0.25)";
-      ctx.fillRect(0, platTop + platH, W, 8);
-      const g = ctx.createLinearGradient(0, platTop, 0, platTop + platH);
-      g.addColorStop(0, gr.top);
-      g.addColorStop(1, gr.bottom);
-      ctx.fillStyle = g;
-      ctx.fillRect(0, platTop, W, platH);
-      ctx.fillStyle = gr.rim;
-      ctx.fillRect(0, platTop, W, 2);
+      const laneW = 48;
 
       // Subtle lane guide lines rising from platform
       for (let i = 0; i < 3; i++) {
@@ -886,16 +878,26 @@ export function Game() {
         lg.addColorStop(0, "rgba(255, 230, 180, 0)");
         lg.addColorStop(1, "rgba(255, 230, 180, 0.08)");
         ctx.fillStyle = lg;
-        ctx.fillRect(lx - 24, 0, 48, platTop);
+        ctx.fillRect(lx - laneW / 2, 0, laneW, platTop);
       }
-      // Extend lane pillars downward to bottom edge
+
+      // Real lane pillar geometry: each lane starts at the platform top and
+      // physically extends to the bottom edge of the canvas.
       for (let i = 0; i < 3; i++) {
         const lx = laneX(i as Lane);
-        const lg = ctx.createLinearGradient(lx, platTop, lx, H);
-        lg.addColorStop(0, "rgba(255, 230, 180, 0.10)");
-        lg.addColorStop(1, "rgba(255, 230, 180, 0.02)");
-        ctx.fillStyle = lg;
-        ctx.fillRect(lx - 24, platTop, 48, H - platTop);
+        const left = lx - laneW / 2;
+
+        ctx.fillStyle = gr.bottom;
+        ctx.fillRect(left, platTop, laneW, H - platTop);
+
+        ctx.fillStyle = gr.top;
+        ctx.fillRect(left, platTop, laneW, platH);
+
+        ctx.fillStyle = gr.rim;
+        ctx.fillRect(left, platTop, laneW, 2);
+
+        ctx.fillStyle = "rgba(0,0,0,0.25)";
+        ctx.fillRect(left, platTop + platH, laneW, 8);
       }
     };
 
