@@ -17,20 +17,23 @@ export type Database = {
       leaderboard: {
         Row: {
           best_score: number
-          name: string
+          level: number
           player_id: string
+          player_name: string
           updated_at: string
         }
         Insert: {
           best_score?: number
-          name: string
+          level?: number
           player_id: string
+          player_name: string
           updated_at?: string
         }
         Update: {
           best_score?: number
-          name?: string
+          level?: number
           player_id?: string
+          player_name?: string
           updated_at?: string
         }
         Relationships: []
@@ -40,12 +43,15 @@ export type Database = {
       [_ in never]: never
     }
     Functions: {
-      get_rank: { Args: { p_score: number }; Returns: number }
       submit_score: {
-        Args: { p_name: string; p_player_id: string; p_score: number }
+        Args: {
+          p_level: number
+          p_player_id: string
+          p_player_name: string
+          p_score: number
+        }
         Returns: {
           best_score: number
-          rank: number
         }[]
       }
     }
