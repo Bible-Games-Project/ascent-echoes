@@ -2215,9 +2215,16 @@ function LeaderboardList({
       </div>
     );
   }
-  const combined = [...entries]
+  // Final dedupe by player_id (defensive — fetchTop10 already dedupes).
+  const byId = new Map<string, LeaderboardEntry>();
+  for (const e of entries) {
+    const prev = byId.get(e.player_id);
+    if (!prev || e.best_score > prev.best_score) byId.set(e.player_id, e);
+  }
+  const combined = Array.from(byId.values())
     .sort((a, b) => b.best_score - a.best_score)
     .slice(0, 10);
+  console.debug("[leaderboard] final render state", combined);
   return (
     <div className="mt-5 w-[300px] max-w-[92vw] rounded-2xl border border-amber-200/25 bg-black/45 p-2 backdrop-blur-md">
       <ol className="flex flex-col">
