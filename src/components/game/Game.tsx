@@ -214,9 +214,12 @@ export function Game() {
     if (!n) setShowNamePrompt(true);
   }, []);
 
-  // Stop music whenever gameplay ends (game over or back to main menu).
+  // Music routing by app state: menu plays Home, gameplay plays the level
+  // track, game over stops music. Level transitions are handled inline.
   useEffect(() => {
-    if (state === "start" || state === "gameover") {
+    if (state === "start") {
+      music.playHome();
+    } else if (state === "gameover") {
       music.stop();
     }
   }, [state]);
@@ -1346,7 +1349,7 @@ export function Game() {
         setLevel(nextLvl);
         buildLevel(nextLvl);
         if (!devModeRef.current) recordLevel(nextLvl);
-        music.advance();
+        music.playLevel(nextLvl);
         return;
       }
       // Reset timer + hint for the next decision
@@ -1652,7 +1655,7 @@ export function Game() {
     recordGamePlayed();
     recordDayPlayed();
     recordLevel(1);
-    music.startSessionAndPlay();
+    music.playLevel(1);
   };
 
   const startGameAtLevel = (lvl: number) => {
@@ -1663,7 +1666,7 @@ export function Game() {
     stateRef.current = "playing";
     runDiffMaskRef.current = 0;
     // dev runs intentionally don't bump stats — left untouched
-    music.startSessionAndPlay();
+    music.playLevel(lvl);
   };
 
   const toggleDevMode = () => {
@@ -1874,7 +1877,7 @@ export function Game() {
           <p className="text-xs uppercase tracking-[0.4em] text-rose-200/80">{t("windTookYou")}</p>
           <h1 className="mt-3 text-4xl font-light tracking-[0.2em] text-amber-50">{t("fallen")}</h1>
           <p className="mt-1 text-xs text-amber-100/60">
-            {t("level")} {level}{level >= 11 ? ` ${t("endlessSuffix")}` : ""}
+            {t("level")} {level}
           </p>
           {isWorldRecord && (
             <div className="mt-3 rounded-full bg-amber-300/30 px-4 py-1 text-[11px] tracking-[0.35em] text-amber-50 ring-1 ring-amber-200/70 shadow-[0_0_30px_rgba(255,210,140,0.7)] animate-pulse">
