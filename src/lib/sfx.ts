@@ -59,7 +59,7 @@ export const sfx = {
     o.type = "sine";
     o.frequency.setValueAtTime(880, t);
     o.frequency.exponentialRampToValueAtTime(440, t + 0.06);
-    g.gain.setValueAtTime(0.08, t);
+    g.gain.setValueAtTime(0.12, t);
     g.gain.exponentialRampToValueAtTime(0.001, t + 0.06);
     o.connect(g).connect(c.destination);
     o.start(t);
@@ -81,7 +81,7 @@ export const sfx = {
     o1.frequency.setValueAtTime(1046.5, t); // C6
     o1.frequency.exponentialRampToValueAtTime(1568, t + 0.15); // G6 glide
     g1.gain.setValueAtTime(0, t);
-    g1.gain.linearRampToValueAtTime(0.12, t + 0.02);
+    g1.gain.linearRampToValueAtTime(0.144, t + 0.02);
     g1.gain.exponentialRampToValueAtTime(0.001, t + 0.35);
     o1.connect(g1).connect(c.destination);
     o1.start(t);
@@ -93,7 +93,7 @@ export const sfx = {
     o2.type = "triangle";
     o2.frequency.setValueAtTime(1318.5, t + 0.08); // E6
     g2.gain.setValueAtTime(0, t + 0.08);
-    g2.gain.linearRampToValueAtTime(0.08, t + 0.10);
+    g2.gain.linearRampToValueAtTime(0.096, t + 0.10);
     g2.gain.exponentialRampToValueAtTime(0.001, t + 0.40);
     o2.connect(g2).connect(c.destination);
     o2.start(t + 0.08);
@@ -114,7 +114,7 @@ export const sfx = {
     o.frequency.setValueAtTime(240, t);
     o.frequency.exponentialRampToValueAtTime(180, t + 0.18);
     g.gain.setValueAtTime(0, t);
-    g.gain.linearRampToValueAtTime(0.10, t + 0.02);
+    g.gain.linearRampToValueAtTime(0.15, t + 0.02);
     g.gain.exponentialRampToValueAtTime(0.001, t + 0.22);
     o.connect(g).connect(c.destination);
     o.start(t);
