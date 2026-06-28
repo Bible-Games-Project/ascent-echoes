@@ -22,6 +22,7 @@ const HOME_TRACK: string = home.url;
 
 const FADE_MS = 500;
 const TARGET_VOLUME = 0.55;
+const HOME_VOLUME = TARGET_VOLUME * 0.5;
 const STORAGE_KEY = "btr_music_enabled";
 
 function trackForLevel(level: number): string {
