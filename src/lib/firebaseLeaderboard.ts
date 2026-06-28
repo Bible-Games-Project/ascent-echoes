@@ -10,8 +10,9 @@ import {
   setDoc,
   type Timestamp,
 } from "firebase/firestore";
+import { onSnapshot, type Unsubscribe } from "firebase/firestore";
 import { db } from "./firebase";
-import { getPlayerId } from "./leaderboard";
+import { getPlayerId, type LeaderboardEntry } from "./leaderboard";
 
 export interface LeaderboardDoc {
   id: string;
@@ -47,6 +48,7 @@ export async function submitLeaderboardEntry(input: {
   if (snap.exists()) {
     const prev = snap.data() as { score?: number };
     if (typeof prev.score === "number" && score <= prev.score) {
+      console.log("[leaderboard] submit no-op (not higher)", { playerId, score, prev: prev.score });
       return false; // existing personal best is higher or equal — no-op
     }
     await setDoc(
@@ -54,6 +56,7 @@ export async function submitLeaderboardEntry(input: {
       { name, score, level, timestamp: serverTimestamp() },
       { merge: true },
     );
+    console.log("[leaderboard] submit updated", { playerId, score, level });
     return true;
   }
 
@@ -64,6 +67,7 @@ export async function submitLeaderboardEntry(input: {
     level,
     timestamp: serverTimestamp(),
   });
+  console.log("[leaderboard] submit created", { playerId, score, level });
   return true;
 }
 
@@ -82,4 +86,39 @@ export async function fetchTopLeaderboard(n = 10): Promise<LeaderboardDoc[]> {
     const data = d.data() as Omit<LeaderboardDoc, "id">;
     return { id: d.id, ...data };
   });
+}
+
+export async function fetchTopLeaderboardEntries(n = 10): Promise<LeaderboardEntry[]> {
+  const docs = await fetchTopLeaderboard(n);
+  return docs.map((d) => ({
+    player_id: d.id,
+    name: d.name ?? "Player",
+    best_score: Number(d.score ?? 0),
+  }));
+}
+
+export function subscribeTopLeaderboardEntries(
+  n: number,
+  cb: (entries: LeaderboardEntry[]) => void,
+): Unsubscribe {
+  const q = query(
+    collection(db, COLLECTION),
+    orderBy("score", "desc"),
+    limit(n),
+  );
+  return onSnapshot(
+    q,
+    (snap) => {
+      const list: LeaderboardEntry[] = snap.docs.map((d) => {
+        const data = d.data() as { name?: string; score?: number };
+        return {
+          player_id: d.id,
+          name: data.name ?? "Player",
+          best_score: Number(data.score ?? 0),
+        };
+      });
+      cb(list);
+    },
+    (err) => console.warn("[leaderboard] subscribe error", err),
+  );
 }

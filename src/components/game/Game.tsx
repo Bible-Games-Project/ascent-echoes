@@ -36,7 +36,6 @@ import { motionFor, scaleMultiplierFor } from "./avatarMotion";
 import { AvatarsOverlay } from "./AvatarsOverlay";
 import {
   fetchRank,
-  fetchTop10,
   getLocalBest,
   getPlayerId,
   getPlayerName,
@@ -47,7 +46,11 @@ import {
   syncDisplayName,
   type LeaderboardEntry,
 } from "@/lib/leaderboard";
-import { submitLeaderboardEntry } from "@/lib/firebaseLeaderboard";
+import {
+  submitLeaderboardEntry,
+  fetchTopLeaderboardEntries,
+  subscribeTopLeaderboardEntries,
+} from "@/lib/firebaseLeaderboard";
 
 type GameState = "start" | "playing" | "offer" | "gameover";
 type Lane = 0 | 1 | 2; // 0 left, 1 center, 2 right
@@ -261,6 +264,15 @@ export function Game() {
     return () => el.removeEventListener("pointerdown", onDown);
   }, []);
 
+  // Live subscription to the global top 10 — keeps the leaderboard UI
+  // in sync whenever any player submits a higher score.
+  useEffect(() => {
+    const unsub = subscribeTopLeaderboardEntries(10, (list) => {
+      setTopTen(list);
+    });
+    return () => unsub();
+  }, []);
+
   // When game ends: submit if new best, refresh leaderboard + rank.
   useEffect(() => {
     if (state !== "gameover") return;
@@ -274,23 +286,33 @@ export function Game() {
     if (devModeRef.current) {
       // Dev mode runs never touch the leaderboard or saved best.
       (async () => {
-        const top = await fetchTop10();
+        const top = await fetchTopLeaderboardEntries(10);
         if (!cancelled) setTopTen(top);
       })();
       return () => { cancelled = true; };
     }
-    // Fire-and-forget: push this run to the Firestore global leaderboard.
-    // submitLeaderboardEntry is a no-op when the score doesn't beat the
-    // player's stored personal best, so it is safe to call on every run.
-    void submitLeaderboardEntry({
-      name: getPlayerName() ?? "Player",
-      playerId: getPlayerId(),
-      score: finalScore,
-      level: levelRef.current,
-    }).catch((err) => console.warn("[firebase] submitLeaderboardEntry", err));
     (async () => {
-      // Always refresh the top 10 for display.
-      const top = await fetchTop10();
+      // Push this run to the Firestore global leaderboard FIRST, then refresh
+      // the visible top 10 so the new placement is reflected immediately.
+      const submitPlayerId = getPlayerId();
+      const submitName = getPlayerName() ?? "Player";
+      console.log("[leaderboard] submitting", {
+        playerId: submitPlayerId,
+        name: submitName,
+        score: finalScore,
+        level: levelRef.current,
+      });
+      try {
+        await submitLeaderboardEntry({
+          name: submitName,
+          playerId: submitPlayerId,
+          score: finalScore,
+          level: levelRef.current,
+        });
+      } catch (err) {
+        console.warn("[firebase] submitLeaderboardEntry", err);
+      }
+      const top = await fetchTopLeaderboardEntries(10);
       if (cancelled) return;
       setTopTen(top);
 
@@ -303,7 +325,7 @@ export function Game() {
         setBestScore(res.best);
         setIsNewBest(true);
         // Re-fetch leaderboard so the new placement is visible.
-        const updated = await fetchTop10();
+        const updated = await fetchTopLeaderboardEntries(10);
         if (cancelled) return;
         setTopTen(updated);
         if (res.rank != null) {
@@ -1742,7 +1764,7 @@ export function Game() {
     void (async () => {
       const ok = await syncDisplayName();
       if (ok) {
-        const top = await fetchTop10();
+        const top = await fetchTopLeaderboardEntries(10);
         setTopTen(top);
       }
     })();
@@ -1916,7 +1938,7 @@ export function Game() {
             onAvatars={() => setShowAvatars(true)}
             onLeaderboard={async () => {
               setShowLeaderboard(true);
-              const tops = await fetchTop10();
+              const tops = await fetchTopLeaderboardEntries(10);
               setTopTen(tops);
             }}
             onPremium={() => setShowPremium(true)}
