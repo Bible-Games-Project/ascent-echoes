@@ -879,14 +879,14 @@ export function Game() {
       ctx.fillStyle = gr.rim;
       ctx.fillRect(0, platTop, W, 2);
 
-      // Subtle lane guide lines rising from platform
+      // Lane platforms extending full height
       for (let i = 0; i < 3; i++) {
         const lx = laneX(i as Lane);
-        const lg = ctx.createLinearGradient(lx, 0, lx, platTop);
+        const lg = ctx.createLinearGradient(lx, 0, lx, H);
         lg.addColorStop(0, "rgba(255, 230, 180, 0)");
         lg.addColorStop(1, "rgba(255, 230, 180, 0.08)");
         ctx.fillStyle = lg;
-        ctx.fillRect(lx - 24, 0, 48, platTop);
+        ctx.fillRect(lx - 24, 0, 48, H);
       }
     };
 
