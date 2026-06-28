@@ -1,5 +1,12 @@
 import type { AvatarId } from "@/lib/avatars";
 
+// Per-avatar visual scale multiplier. All avatars are boosted by 25% except
+// the three Dove variants, which keep their previous size exactly.
+export function scaleMultiplierFor(id: AvatarId): number {
+  if (id === "white_dove" || id === "black_dove" || id === "seraph_dove") return 1;
+  return 1.25;
+}
+
 // Shared idle-motion descriptor for every avatar.
 // Used by both the static preview (PlayerAvatar) and the in-game player
 // renderer (Game.tsx drawPlayer), so the silhouette moves identically
