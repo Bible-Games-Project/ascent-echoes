@@ -282,17 +282,27 @@ export function Game() {
       })();
       return () => { cancelled = true; };
     }
-    // Fire-and-forget: push this run to the Firestore global leaderboard.
-    // submitLeaderboardEntry is a no-op when the score doesn't beat the
-    // player's stored personal best, so it is safe to call on every run.
-    void submitLeaderboardEntry({
-      name: getPlayerName() ?? "Player",
-      playerId: getPlayerId(),
-      score: finalScore,
-      level: levelRef.current,
-    }).catch((err) => console.warn("[firebase] submitLeaderboardEntry", err));
     (async () => {
-      // Always refresh the top 10 for display.
+      // Push this run to the Firestore global leaderboard FIRST, then refresh
+      // the visible top 10 so the new placement is reflected immediately.
+      const submitPlayerId = getPlayerId();
+      const submitName = getPlayerName() ?? "Player";
+      console.log("[leaderboard] submitting", {
+        playerId: submitPlayerId,
+        name: submitName,
+        score: finalScore,
+        level: levelRef.current,
+      });
+      try {
+        await submitLeaderboardEntry({
+          name: submitName,
+          playerId: submitPlayerId,
+          score: finalScore,
+          level: levelRef.current,
+        });
+      } catch (err) {
+        console.warn("[firebase] submitLeaderboardEntry", err);
+      }
       const top = await fetchTopLeaderboardEntries(10);
       if (cancelled) return;
       setTopTen(top);
