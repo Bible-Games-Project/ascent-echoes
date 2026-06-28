@@ -13,6 +13,7 @@ import {
 } from "./questionBank";
 import { getT, type UIKey } from "./i18n";
 import { getIsPremium, setIsPremium, simulateRewardedAd } from "@/lib/monetization";
+import { music } from "@/lib/music";
 import {
   getEquipped as getEquippedAvatar,
   recordAllDifficulties,
