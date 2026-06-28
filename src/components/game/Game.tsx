@@ -30,6 +30,7 @@ import {
 } from "@/lib/avatars";
 import { PlayerAvatar as AvatarIcon } from "./PlayerAvatar";
 import { drawAvatarBody } from "./avatarRender";
+import { motionFor } from "./avatarMotion";
 import { AvatarsOverlay } from "./AvatarsOverlay";
 import {
   fetchRank,
