@@ -2322,6 +2322,8 @@ function SettingsOverlay({
   onToggleDevMode,
   isPremium,
   onPremium,
+  musicOn,
+  onToggleMusic,
   t,
 }: {
   name: string;
@@ -2333,6 +2335,8 @@ function SettingsOverlay({
   onToggleDevMode: () => void;
   isPremium: boolean;
   onPremium: () => void;
+  musicOn: boolean;
+  onToggleMusic: () => void;
   t: (key: UIKey) => string;
 }) {
   const [showLangs, setShowLangs] = useState(false);
@@ -2390,6 +2394,32 @@ function SettingsOverlay({
             ))}
           </div>
         )}
+      </div>
+      <div className="mt-3 w-[280px] max-w-[88vw] rounded-2xl border border-amber-200/25 bg-black/45 p-4 backdrop-blur">
+        <button
+          type="button"
+          onClick={onToggleMusic}
+          className="flex w-full items-center justify-between gap-3 text-left"
+        >
+          <div>
+            <div className="text-[10px] tracking-[0.3em] text-amber-200/70">{t("music")}</div>
+            <div className="mt-1 text-base text-amber-50">{musicOn ? "ON" : "OFF"}</div>
+          </div>
+          <span
+            className={
+              "relative inline-flex h-5 w-9 items-center rounded-full transition " +
+              (musicOn ? "bg-amber-300/70" : "bg-white/15")
+            }
+            aria-hidden
+          >
+            <span
+              className={
+                "inline-block h-4 w-4 transform rounded-full bg-black/80 transition " +
+                (musicOn ? "translate-x-4" : "translate-x-0.5")
+              }
+            />
+          </span>
+        </button>
       </div>
       <button
         onClick={onClose}
