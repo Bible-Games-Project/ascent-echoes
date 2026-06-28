@@ -208,6 +208,13 @@ export function Game() {
     if (!n) setShowNamePrompt(true);
   }, []);
 
+  // Stop music whenever gameplay ends (game over or back to main menu).
+  useEffect(() => {
+    if (state === "start" || state === "gameover") {
+      music.stop();
+    }
+  }, [state]);
+
   // When game ends: submit if new best, refresh leaderboard + rank.
   useEffect(() => {
     if (state !== "gameover") return;
