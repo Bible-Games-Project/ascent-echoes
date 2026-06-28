@@ -59,11 +59,13 @@ class MusicEngine {
 
   /** Play the home/menu track on loop. */
   playHome() {
+    this.targetVol = HOME_VOLUME;
     this.setTrack(HOME_TRACK);
   }
 
   /** Play the fixed track for the given level. Levels >= 10 reuse track 10. */
   playLevel(level: number) {
+    this.targetVol = TARGET_VOLUME;
     this.setTrack(trackForLevel(level));
   }
 
