@@ -35,7 +35,6 @@ import { drawAvatarBody } from "./avatarRender";
 import { motionFor, scaleMultiplierFor } from "./avatarMotion";
 import { AvatarsOverlay } from "./AvatarsOverlay";
 import {
-  fetchRank,
   fetchTop10,
   getLocalBest,
   getPlayerId,
@@ -43,8 +42,7 @@ import {
   NAME_MAX,
   NAME_MIN,
   setPlayerName as savePlayerName,
-  submitIfBest,
-  syncDisplayName,
+  submitScore,
   type LeaderboardEntry,
 } from "@/lib/leaderboard";
 
