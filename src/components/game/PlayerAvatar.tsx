@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "react";
 import type { AvatarId } from "@/lib/avatars";
 import { drawAvatarBody } from "./avatarRender";
-import { motionFor } from "./avatarMotion";
+import { motionFor, scaleMultiplierFor } from "./avatarMotion";
 
 // Static preview of the in-game player avatar. Uses the exact same canvas
 // renderer as gameplay (drawAvatarBody), so what you see here is what you
@@ -31,7 +31,7 @@ export function PlayerAvatar({ id, size = 32, locked, className, title }: Props)
     const ctx = canvas.getContext("2d");
     if (!ctx) return;
 
-    const fitScale = (boxSize / 60) * 0.95;
+    const fitScale = (boxSize / 60) * 0.95 * scaleMultiplierFor(id);
     const cx = boxSize / 2;
     const cy = boxSize / 2 + 6 * fitScale;
     const unit = boxSize / 64; // motion scales with preview size
