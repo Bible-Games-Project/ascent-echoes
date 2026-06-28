@@ -2538,10 +2538,10 @@ function PremiumOverlay({
           ) : (
             <button
               type="button"
-              disabled
-              className="cursor-not-allowed rounded-full bg-amber-100/30 px-7 py-2.5 text-xs font-medium tracking-[0.25em] text-stone-900/50"
+              onClick={() => { setIsPremium(true); }}
+              className="rounded-full bg-amber-100 px-7 py-2.5 text-xs font-semibold tracking-[0.25em] text-stone-900 shadow-[0_0_24px_rgba(255,200,140,0.5)] hover:bg-amber-50"
             >
-              {t("comingSoon")}
+              ★ {t("goPremium")} ★
             </button>
           )}
           <button
