@@ -14,6 +14,7 @@ import {
 import { getT, type UIKey } from "./i18n";
 import { getIsPremium, setIsPremium, simulateRewardedAd } from "@/lib/monetization";
 import { music } from "@/lib/music";
+import { sfx } from "@/lib/sfx";
 import {
   getEquipped as getEquippedAvatar,
   recordAllDifficulties,
@@ -223,6 +224,19 @@ export function Game() {
       music.stop();
     }
   }, [state]);
+
+  // Button click SFX: delegate from the game container so every button tap
+  // plays a subtle pop without touching individual onClick handlers.
+  useEffect(() => {
+    const el = canvasRef.current?.parentElement;
+    if (!el) return;
+    const onDown = (e: PointerEvent) => {
+      const target = e.target as HTMLElement | null;
+      if (target && target.closest("button")) sfx.playClick();
+    };
+    el.addEventListener("pointerdown", onDown);
+    return () => el.removeEventListener("pointerdown", onDown);
+  }, []);
 
   // When game ends: submit if new best, refresh leaderboard + rank.
   useEffect(() => {
@@ -1412,6 +1426,7 @@ export function Game() {
             d.doorOutcome[lane] = correct ? "open" : "broken";
             // Other lanes: keep falling visually -> just mark them broken for animation off-screen later
             if (correct) {
+              sfx.playCorrect();
               for (let i = 0; i < 12; i++) {
                 const a = Math.random() * Math.PI * 2;
                 const s = 60 + Math.random() * 80;
@@ -1443,6 +1458,7 @@ export function Game() {
                 setTimeout(() => setMultiplierToast(null), 1400);
               }
             } else {
+              sfx.playWrong();
               damage(player.x, playerY());
             }
             onDecisionResolvedAdvance();
