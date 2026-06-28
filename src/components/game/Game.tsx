@@ -1966,6 +1966,17 @@ export function Game() {
           onClose={() => setShowSettings(false)}
           devMode={devMode}
           onToggleDevMode={toggleDevMode}
+          onResetAll={() => {
+            const ok = typeof window !== "undefined"
+              ? window.confirm("Reset ALL data? This will clear name, premium, progress, avatars, and settings.")
+              : true;
+            if (!ok) return;
+            try {
+              localStorage.clear();
+              sessionStorage.clear();
+            } catch { /* ignore */ }
+            try { window.location.reload(); } catch { /* ignore */ }
+          }}
           isPremium={isPremium}
           onPremium={() => { setShowSettings(false); setShowPremium(true); }}
           musicOn={musicOn}
