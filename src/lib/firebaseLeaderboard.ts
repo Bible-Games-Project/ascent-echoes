@@ -1,14 +1,17 @@
 import {
-  addDoc,
   collection,
+  doc,
+  getDoc,
   getDocs,
   limit,
   orderBy,
   query,
   serverTimestamp,
+  setDoc,
   type Timestamp,
 } from "firebase/firestore";
 import { db } from "./firebase";
+import { getPlayerId } from "./leaderboard";
 
 export interface LeaderboardDoc {
   id: string;
@@ -21,21 +24,47 @@ export interface LeaderboardDoc {
 const COLLECTION = "leaderboard";
 
 /**
- * Append a new score entry to the global leaderboard.
- * Entries are never overwritten — each run creates its own document.
+ * Upsert this player's leaderboard entry. Identified by the stable
+ * playerId (document id). Only writes when the new score beats the
+ * stored personal best — otherwise the call is a no-op.
+ *
+ * Returns true when the document was created or updated.
  */
 export async function submitLeaderboardEntry(input: {
   name: string;
   score: number;
   level: number;
-}): Promise<string> {
-  const ref = await addDoc(collection(db, COLLECTION), {
-    name: String(input.name ?? "").slice(0, 24),
-    score: Math.max(0, Math.floor(Number(input.score) || 0)),
-    level: Math.max(1, Math.floor(Number(input.level) || 1)),
+  playerId?: string;
+}): Promise<boolean> {
+  const playerId = input.playerId ?? getPlayerId();
+  const name = String(input.name ?? "").slice(0, 24);
+  const score = Math.max(0, Math.floor(Number(input.score) || 0));
+  const level = Math.max(1, Math.floor(Number(input.level) || 1));
+
+  const ref = doc(db, COLLECTION, playerId);
+  const snap = await getDoc(ref);
+
+  if (snap.exists()) {
+    const prev = snap.data() as { score?: number };
+    if (typeof prev.score === "number" && score <= prev.score) {
+      return false; // existing personal best is higher or equal — no-op
+    }
+    await setDoc(
+      ref,
+      { name, score, level, timestamp: serverTimestamp() },
+      { merge: true },
+    );
+    return true;
+  }
+
+  await setDoc(ref, {
+    playerId,
+    name,
+    score,
+    level,
     timestamp: serverTimestamp(),
   });
-  return ref.id;
+  return true;
 }
 
 /**
