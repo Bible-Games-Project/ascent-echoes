@@ -156,6 +156,12 @@ export function Game() {
   });
   const devModeRef = useRef(false);
   const [showLevelSelect, setShowLevelSelect] = useState(false);
+  const [musicOn, setMusicOnState] = useState<boolean>(() => music.isEnabled());
+  const toggleMusic = () => {
+    const next = !musicOn;
+    setMusicOnState(next);
+    music.setEnabled(next);
+  };
 
   const stateRef = useRef<GameState>("start");
   const healthRef = useRef(3);
