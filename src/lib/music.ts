@@ -11,15 +11,14 @@ import lvl7 from "@/assets/music/Level_7.mp3.asset.json";
 import lvl8 from "@/assets/music/Level_8.mp3.asset.json";
 import lvl9 from "@/assets/music/Level_9.mp3.asset.json";
 import lvl10 from "@/assets/music/Level_10_endless.mp3.asset.json";
+import home from "@/assets/music/Home.mp3.asset.json";
 
 const LEVEL_TRACKS: string[] = [
   lvl1.url, lvl2.url, lvl3.url, lvl4.url, lvl5.url,
   lvl6.url, lvl7.url, lvl8.url, lvl9.url, lvl10.url,
 ];
 
-// Home/menu track. Not yet uploaded — leave null until the asset is provided
-// and the system will simply be silent on the menu rather than guessing.
-const HOME_TRACK: string | null = null;
+const HOME_TRACK: string = home.url;
 
 const FADE_MS = 500;
 const TARGET_VOLUME = 0.55;
