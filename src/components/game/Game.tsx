@@ -871,33 +871,31 @@ export function Game() {
       const gr = themeFor(levelRef.current).ground;
       const laneW = 48;
 
-      // Subtle lane guide lines rising from platform
-      for (let i = 0; i < 3; i++) {
-        const lx = laneX(i as Lane);
-        const lg = ctx.createLinearGradient(lx, 0, lx, platTop);
-        lg.addColorStop(0, "rgba(255, 230, 180, 0)");
-        lg.addColorStop(1, "rgba(255, 230, 180, 0.08)");
+      // Single continuous ground rectangle spanning the full width,
+      // from the platform top down to the bottom edge of the canvas.
+      ctx.fillStyle = gr.bottom;
+      ctx.fillRect(0, platTop, W, H - platTop);
+
+      // Top surface band of the platform
+      ctx.fillStyle = gr.top;
+      ctx.fillRect(0, platTop, W, platH);
+
+      // Bright rim highlight along the top edge
+      ctx.fillStyle = gr.rim;
+      ctx.fillRect(0, platTop, W, 2);
+
+      // Soft shadow line under the platform surface
+      ctx.fillStyle = "rgba(0,0,0,0.25)";
+      ctx.fillRect(0, platTop + platH, W, 8);
+
+      // Subtle internal lane guides (visual only — gameplay lanes unchanged)
+      for (let i = 0; i < 2; i++) {
+        const lx = (laneX(i as Lane) + laneX((i + 1) as Lane)) / 2;
+        const lg = ctx.createLinearGradient(0, platTop, 0, H);
+        lg.addColorStop(0, "rgba(0,0,0,0.18)");
+        lg.addColorStop(1, "rgba(0,0,0,0)");
         ctx.fillStyle = lg;
-        ctx.fillRect(lx - laneW / 2, 0, laneW, platTop);
-      }
-
-      // Real lane pillar geometry: each lane starts at the platform top and
-      // physically extends to the bottom edge of the canvas.
-      for (let i = 0; i < 3; i++) {
-        const lx = laneX(i as Lane);
-        const left = lx - laneW / 2;
-
-        ctx.fillStyle = gr.bottom;
-        ctx.fillRect(left, platTop, laneW, H - platTop);
-
-        ctx.fillStyle = gr.top;
-        ctx.fillRect(left, platTop, laneW, platH);
-
-        ctx.fillStyle = gr.rim;
-        ctx.fillRect(left, platTop, laneW, 2);
-
-        ctx.fillStyle = "rgba(0,0,0,0.25)";
-        ctx.fillRect(left, platTop + platH, laneW, 8);
+        ctx.fillRect(lx - 0.5, platTop + platH + 8, 1, H - (platTop + platH + 8));
       }
     };
 
