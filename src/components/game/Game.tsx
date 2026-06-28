@@ -1940,6 +1940,8 @@ export function Game() {
           onToggleDevMode={toggleDevMode}
           isPremium={isPremium}
           onPremium={() => { setShowSettings(false); setShowPremium(true); }}
+          musicOn={musicOn}
+          onToggleMusic={toggleMusic}
           t={t}
         />
       )}
