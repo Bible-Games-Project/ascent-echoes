@@ -36,6 +36,7 @@ class MusicEngine {
   private fadeTimers: number[] = [];
   private enabled = true;
   private desiredUrl: string | null = null; // what should be playing right now
+  private targetVol = TARGET_VOLUME;
 
   constructor() {
     try {
