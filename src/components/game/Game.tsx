@@ -1413,6 +1413,7 @@ export function Game() {
             d.doorOutcome[lane] = correct ? "open" : "broken";
             // Other lanes: keep falling visually -> just mark them broken for animation off-screen later
             if (correct) {
+              sfx.playCorrect();
               for (let i = 0; i < 12; i++) {
                 const a = Math.random() * Math.PI * 2;
                 const s = 60 + Math.random() * 80;
@@ -1444,6 +1445,7 @@ export function Game() {
                 setTimeout(() => setMultiplierToast(null), 1400);
               }
             } else {
+              sfx.playWrong();
               damage(player.x, playerY());
             }
             onDecisionResolvedAdvance();
