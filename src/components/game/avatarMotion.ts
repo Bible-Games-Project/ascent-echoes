@@ -30,12 +30,13 @@ export function motionFor(id: AvatarId, t: number, unit: number) {
       dy = Math.abs(Math.sin(t * 1.3)) * -0.6 * u;
       break;
     case "ichthys": {
-      const a = t * 0.9;
-      dx = Math.cos(a) * 6 * u;
-      dy = Math.sin(a * 2) * 2 * u;
-      const vx = -Math.sin(a) * 6;
-      const vy = Math.cos(a * 2) * 4;
-      rot = Math.atan2(vy, vx) * 0.25;
+      // Smooth continuous circular path with natural tangent tilt.
+      const a = t * 1.1;
+      const R = 6 * u;
+      dx = Math.cos(a) * R;
+      dy = Math.sin(a) * R;
+      // Tangent direction; slight tilt only (0.35) so the fish doesn't fully flip.
+      rot = (a + Math.PI / 2) * 0.35;
       break;
     }
     case "feather":
