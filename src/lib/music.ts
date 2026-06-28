@@ -1,41 +1,41 @@
-// Music system: session-shuffled playlist with 0.5s crossfade transitions.
-// All available tracks (uploaded). The system reshuffles when reaching the end.
-import t01 from "@/assets/music/Manna_Grove.mp3.asset.json";
-import t02 from "@/assets/music/Manna_Grove_2.mp3.asset.json";
-import t03 from "@/assets/music/Pixel_Pulse.mp3.asset.json";
-import t04 from "@/assets/music/Pixel_Pulse_2.mp3.asset.json";
-import t05 from "@/assets/music/Pixel_Puzzle_Parade.mp3.asset.json";
-import t06 from "@/assets/music/Pixel_Puzzle_Parade_2.mp3.asset.json";
-import t07 from "@/assets/music/Puzzle_Quest.mp3.asset.json";
-import t08 from "@/assets/music/Puzzle_Tile_Parade.mp3.asset.json";
-import t09 from "@/assets/music/Temple_Tokens.mp3.asset.json";
-import t10 from "@/assets/music/Temple_Tokens_2.mp3.asset.json";
+// Music system: fixed level-based tracks with seamless looping and 0.5s
+// crossfade transitions. Each level maps to a specific track. Levels 10+
+// always play the "Level 10 + Endless" track.
+import lvl1 from "@/assets/music/Level_1.mp3.asset.json";
+import lvl2 from "@/assets/music/Level_2.mp3.asset.json";
+import lvl3 from "@/assets/music/Level_3.mp3.asset.json";
+import lvl4 from "@/assets/music/Level_4.mp3.asset.json";
+import lvl5 from "@/assets/music/Level_5.mp3.asset.json";
+import lvl6 from "@/assets/music/Level_6.mp3.asset.json";
+import lvl7 from "@/assets/music/Level_7.mp3.asset.json";
+import lvl8 from "@/assets/music/Level_8.mp3.asset.json";
+import lvl9 from "@/assets/music/Level_9.mp3.asset.json";
+import lvl10 from "@/assets/music/Level_10_endless.mp3.asset.json";
 
-const TRACK_URLS: string[] = [
-  t01.url, t02.url, t03.url, t04.url, t05.url,
-  t06.url, t07.url, t08.url, t09.url, t10.url,
+const LEVEL_TRACKS: string[] = [
+  lvl1.url, lvl2.url, lvl3.url, lvl4.url, lvl5.url,
+  lvl6.url, lvl7.url, lvl8.url, lvl9.url, lvl10.url,
 ];
+
+// Home/menu track. Not yet uploaded — leave null until the asset is provided
+// and the system will simply be silent on the menu rather than guessing.
+const HOME_TRACK: string | null = null;
 
 const FADE_MS = 500;
 const TARGET_VOLUME = 0.55;
 const STORAGE_KEY = "btr_music_enabled";
 
-function shuffle<T>(arr: T[]): T[] {
-  const a = arr.slice();
-  for (let i = a.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [a[i], a[j]] = [a[j], a[i]];
-  }
-  return a;
+function trackForLevel(level: number): string {
+  const idx = Math.max(1, Math.min(10, Math.floor(level))) - 1;
+  return LEVEL_TRACKS[idx];
 }
 
 class MusicEngine {
-  private playlist: string[] = [];
-  private idx = -1;
   private current: HTMLAudioElement | null = null;
+  private currentUrl: string | null = null;
   private fadeTimers: number[] = [];
   private enabled = true;
-  private active = false; // is the music supposed to be playing right now
+  private desiredUrl: string | null = null; // what should be playing right now
 
   constructor() {
     try {
@@ -51,34 +51,34 @@ class MusicEngine {
     try { localStorage.setItem(STORAGE_KEY, on ? "1" : "0"); } catch { /* ignore */ }
     if (!on) {
       this.stopImmediate();
-    } else if (this.active) {
-      this.startSessionAndPlay();
+    } else if (this.desiredUrl) {
+      this.crossfadeTo(this.desiredUrl);
     }
   }
 
-  /** Start a fresh shuffled session and begin playback at track 0. */
-  startSessionAndPlay() {
-    this.active = true;
-    this.playlist = shuffle(TRACK_URLS);
-    this.idx = -1;
+  /** Play the home/menu track on loop. */
+  playHome() {
+    this.setTrack(HOME_TRACK);
+  }
+
+  /** Play the fixed track for the given level. Levels >= 10 reuse track 10. */
+  playLevel(level: number) {
+    this.setTrack(trackForLevel(level));
+  }
+
+  /** Stop all playback (used when the music toggle is turned off). */
+  stop() {
+    this.desiredUrl = null;
+    this.stopImmediate();
+  }
+
+  private setTrack(url: string | null) {
+    this.desiredUrl = url;
     if (!this.enabled) return;
-    this.advance();
+    if (url === null) { this.stopImmediate(); return; }
+    if (url === this.currentUrl && this.current && !this.current.paused) return;
+    this.crossfadeTo(url);
   }
-
-  /** Move to the next track in the shuffled playlist with a crossfade. */
-  advance() {
-    if (!this.active || !this.enabled) return;
-    if (this.playlist.length === 0) this.playlist = shuffle(TRACK_URLS);
-    this.idx += 1;
-    if (this.idx >= this.playlist.length) {
-      this.playlist = shuffle(TRACK_URLS);
-      this.idx = 0;
-    }
-    this.crossfadeTo(this.playlist[this.idx]);
-  }
-
-  /** Stop all playback (used when leaving gameplay / disabling). */
-  stop() { this.active = false; this.stopImmediate(); }
 
   private stopImmediate() {
     this.clearFades();
@@ -86,6 +86,7 @@ class MusicEngine {
       const a = this.current;
       try { a.pause(); } catch { /* ignore */ }
       this.current = null;
+      this.currentUrl = null;
     }
   }
 
@@ -95,21 +96,19 @@ class MusicEngine {
   }
 
   private crossfadeTo(url: string) {
+    this.clearFades();
     const next = new Audio(url);
-    next.loop = false;
+    next.loop = true; // seamless infinite loop per spec
     next.volume = 0;
     next.preload = "auto";
-    // Auto-advance when track ends naturally.
-    next.addEventListener("ended", () => {
-      if (this.current === next) this.advance();
-    });
     const playPromise = next.play();
     if (playPromise && typeof playPromise.catch === "function") {
-      playPromise.catch(() => { /* autoplay blocked; will resume on next user gesture */ });
+      playPromise.catch(() => { /* autoplay blocked; resumes on next gesture */ });
     }
 
     const prev = this.current;
     this.current = next;
+    this.currentUrl = url;
 
     const steps = 20;
     const tick = FADE_MS / steps;
