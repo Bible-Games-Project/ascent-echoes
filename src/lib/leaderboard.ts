@@ -75,13 +75,17 @@ export async function flushPendingSubmits(): Promise<boolean> {
   if (list.length === 0) return true;
   const remaining: PendingSubmit[] = [];
   for (const item of list) {
-    const { error } = await supabase.rpc("submit_score", {
+    console.log("[leaderboard] flushPendingSubmits calling submit_score", { player_id: item.player_id, score: item.score });
+    const { data, error } = await supabase.rpc("submit_score", {
       p_player_id: item.player_id,
       p_name: item.name,
       p_score: item.score,
     });
     if (error) {
+      console.log("[leaderboard] submit_score error (flush)", error);
       remaining.push(item);
+    } else {
+      console.log("[leaderboard] submit_score success (flush)", data);
     }
   }
   setPending(remaining);
