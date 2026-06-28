@@ -1638,6 +1638,7 @@ export function Game() {
     recordGamePlayed();
     recordDayPlayed();
     recordLevel(1);
+    music.startSessionAndPlay();
   };
 
   const startGameAtLevel = (lvl: number) => {
@@ -1648,6 +1649,7 @@ export function Game() {
     stateRef.current = "playing";
     runDiffMaskRef.current = 0;
     // dev runs intentionally don't bump stats — left untouched
+    music.startSessionAndPlay();
   };
 
   const toggleDevMode = () => {
