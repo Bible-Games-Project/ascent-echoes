@@ -162,6 +162,7 @@ export function Game() {
     const next = !musicOn;
     setMusicOnState(next);
     music.setEnabled(next);
+    sfx.setEnabled(next);
   };
 
   const stateRef = useRef<GameState>("start");
