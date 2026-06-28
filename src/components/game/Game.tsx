@@ -278,7 +278,7 @@ export function Game() {
     if (devModeRef.current) {
       // Dev mode runs never touch the leaderboard or saved best.
       (async () => {
-        const top = await fetchTop10();
+        const top = await fetchTopLeaderboardEntries(10);
         if (!cancelled) setTopTen(top);
       })();
       return () => { cancelled = true; };
@@ -294,7 +294,7 @@ export function Game() {
     }).catch((err) => console.warn("[firebase] submitLeaderboardEntry", err));
     (async () => {
       // Always refresh the top 10 for display.
-      const top = await fetchTop10();
+      const top = await fetchTopLeaderboardEntries(10);
       if (cancelled) return;
       setTopTen(top);
 
@@ -307,7 +307,7 @@ export function Game() {
         setBestScore(res.best);
         setIsNewBest(true);
         // Re-fetch leaderboard so the new placement is visible.
-        const updated = await fetchTop10();
+        const updated = await fetchTopLeaderboardEntries(10);
         if (cancelled) return;
         setTopTen(updated);
         if (res.rank != null) {
@@ -1746,7 +1746,7 @@ export function Game() {
     void (async () => {
       const ok = await syncDisplayName();
       if (ok) {
-        const top = await fetchTop10();
+        const top = await fetchTopLeaderboardEntries(10);
         setTopTen(top);
       }
     })();
@@ -1920,7 +1920,7 @@ export function Game() {
             onAvatars={() => setShowAvatars(true)}
             onLeaderboard={async () => {
               setShowLeaderboard(true);
-              const tops = await fetchTop10();
+              const tops = await fetchTopLeaderboardEntries(10);
               setTopTen(tops);
             }}
             onPremium={() => setShowPremium(true)}
