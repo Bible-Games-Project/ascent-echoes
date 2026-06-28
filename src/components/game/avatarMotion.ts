@@ -35,8 +35,8 @@ export function motionFor(id: AvatarId, t: number, unit: number) {
       const R = 6 * u;
       dx = Math.cos(a) * R;
       dy = Math.sin(a) * R;
-      // Tangent direction; slight tilt only (0.35) so the fish doesn't fully flip.
-      rot = (a + Math.PI / 2) * 0.35;
+      // Rotate along the tangent so the fish naturally faces its direction of travel.
+      rot = a + Math.PI / 2;
       break;
     }
     case "feather":
