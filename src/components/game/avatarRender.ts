@@ -392,26 +392,24 @@ function drawSunChar(ctx: Ctx, x: number, y: number, s: number, glow: boolean) {
 
 // Crescent moon only — no full-disc background.
 function drawMoonChar(ctx: Ctx, x: number, y: number, s: number, glow: boolean) {
-  // Pure crescent: fill the outer disc, then PUNCH OUT the inner disc using
-  // 'destination-out'. Two separate subpaths inside a single fill cannot be
-  // relied on (the implicit line between arcs can collapse the shape), so we
-  // composite instead. The whole operation runs on an offscreen layer via
-  // save/restore + globalCompositeOperation so nothing else on the canvas is
-  // affected.
-  ctx.save();
+  // Pure crescent: two SEPARATE subpaths filled with even-odd rule.
+  // Calling moveTo before the second arc forces a new subpath, otherwise
+  // canvas draws an implicit line between them and the shape collapses.
+  // Does NOT touch anything else on the canvas (no composite tricks), so
+  // the background and parallax remain intact during gameplay.
+  const r1 = 12 * s;
+  const r2 = 11 * s;
+  const ox = x + 5 * s;
+  const oy = y - 2 * s;
   withGlow(ctx, "#E8E8F4", s, glow, () => {
-    // Outer disc
     ctx.fillStyle = "#E8E8F4";
     ctx.beginPath();
-    ctx.arc(x, y, 12 * s, 0, Math.PI * 2);
-    ctx.fill();
-    // Punch the offset disc out → crescent
-    ctx.globalCompositeOperation = "destination-out";
-    ctx.beginPath();
-    ctx.arc(x + 5 * s, y - 2 * s, 11 * s, 0, Math.PI * 2);
-    ctx.fill();
+    ctx.moveTo(x + r1, y);
+    ctx.arc(x, y, r1, 0, Math.PI * 2);
+    ctx.moveTo(ox + r2, oy);
+    ctx.arc(ox, oy, r2, 0, Math.PI * 2);
+    ctx.fill("evenodd");
   });
-  ctx.restore();
 }
 
 function drawRainbow(ctx: Ctx, x: number, y: number, s: number) {
