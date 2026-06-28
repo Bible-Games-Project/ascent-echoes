@@ -264,10 +264,18 @@ export function Game() {
     return () => el.removeEventListener("pointerdown", onDown);
   }, []);
 
+  // Live subscription to the global top 10 — keeps the leaderboard UI
+  // in sync whenever any player submits a higher score.
+  useEffect(() => {
+    const unsub = subscribeTopLeaderboardEntries(10, (list) => {
+      setTopTen(list);
+    });
+    return () => unsub();
+  }, []);
+
   // When game ends: submit if new best, refresh leaderboard + rank.
   useEffect(() => {
     if (state !== "gameover") return;
-    // (body below)
     let cancelled = false;
     const prevBest = getLocalBest();
     const finalScore = scoreRef.current;
