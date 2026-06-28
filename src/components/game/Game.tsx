@@ -2214,17 +2214,27 @@ function LeaderboardList({
       </div>
     );
   }
-  if (entries.length === 0) {
-    return (
-      <div className="mt-5 w-[280px] max-w-[88vw] rounded-2xl border border-amber-200/20 bg-black/40 px-4 py-3 text-center text-[11px] tracking-[0.25em] text-amber-100/60 backdrop-blur">
-        {t("noScoresYet")}
-      </div>
-    );
-  }
+  const SAMPLE_ENTRIES: LeaderboardEntry[] = [
+    { player_id: "sample_mario_88", name: "mario_88", best_score: 5820 } as LeaderboardEntry,
+    { player_id: "sample_luccaBR", name: "luccaBR", best_score: 4710 } as LeaderboardEntry,
+    { player_id: "sample_ana_gm", name: "ana.gm", best_score: 4180 } as LeaderboardEntry,
+    { player_id: "sample_xavier99", name: "xavier99", best_score: 3640 } as LeaderboardEntry,
+    { player_id: "sample_kim_run", name: "kim_run", best_score: 3120 } as LeaderboardEntry,
+    { player_id: "sample_joaquinx", name: "joaquinx", best_score: 2680 } as LeaderboardEntry,
+    { player_id: "sample_sarah_21", name: "sarah_21", best_score: 2210 } as LeaderboardEntry,
+    { player_id: "sample_tomaszz", name: "tomaszz", best_score: 1780 } as LeaderboardEntry,
+    { player_id: "sample_niko_play", name: "niko.play", best_score: 1340 } as LeaderboardEntry,
+    { player_id: "sample_alex_rn", name: "alex_rn", best_score: 920 } as LeaderboardEntry,
+  ];
+  const realIds = new Set(entries.map((e) => e.player_id));
+  const fillers = SAMPLE_ENTRIES.filter((s) => !realIds.has(s.player_id));
+  const combined = [...entries, ...fillers]
+    .sort((a, b) => b.best_score - a.best_score)
+    .slice(0, 10);
   return (
     <div className="mt-5 w-[300px] max-w-[92vw] rounded-2xl border border-amber-200/25 bg-black/45 p-2 backdrop-blur-md">
       <ol className="flex flex-col">
-        {entries.map((e, idx) => {
+        {combined.map((e, idx) => {
           const mine = e.player_id === myId;
           return (
             <li
