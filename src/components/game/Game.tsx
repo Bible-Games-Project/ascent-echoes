@@ -1966,6 +1966,17 @@ export function Game() {
           onClose={() => setShowSettings(false)}
           devMode={devMode}
           onToggleDevMode={toggleDevMode}
+          onResetAll={() => {
+            const ok = typeof window !== "undefined"
+              ? window.confirm("Reset ALL data? This will clear name, premium, progress, avatars, and settings.")
+              : true;
+            if (!ok) return;
+            try {
+              localStorage.clear();
+              sessionStorage.clear();
+            } catch { /* ignore */ }
+            try { window.location.reload(); } catch { /* ignore */ }
+          }}
           isPremium={isPremium}
           onPremium={() => { setShowSettings(false); setShowPremium(true); }}
           musicOn={musicOn}
@@ -2349,6 +2360,7 @@ function SettingsOverlay({
   onClose,
   devMode,
   onToggleDevMode,
+  onResetAll,
   isPremium,
   onPremium,
   musicOn,
@@ -2362,6 +2374,7 @@ function SettingsOverlay({
   onClose: () => void;
   devMode: boolean;
   onToggleDevMode: () => void;
+  onResetAll: () => void;
   isPremium: boolean;
   onPremium: () => void;
   musicOn: boolean;
@@ -2482,6 +2495,15 @@ function SettingsOverlay({
             />
           </span>
         </button>
+        {devMode && (
+          <button
+            type="button"
+            onClick={onResetAll}
+            className="mt-3 w-full rounded-full border border-red-400/50 bg-red-500/10 px-4 py-2 text-[10px] tracking-[0.3em] text-red-200 hover:border-red-300 hover:bg-red-500/20 hover:text-red-100"
+          >
+            RESET ALL DATA
+          </button>
+        )}
       </div>
     </div>
   );
