@@ -105,7 +105,7 @@ const en: Dict = {
   noAds: "No advertisements",
   threeLivesBenefit: "Three permanent lives",
   unlimitedNameChanges: "Unlimited name changes",
-  exclusiveAvatars: "Exclusive avatars (Coming Soon)",
+  exclusiveAvatars: "Exclusive avatars (All premium avatars unlocked)",
   continueRunTitle: "CONTINUE YOUR RUN?",
   continueRunBody: "Watch a short ad to unlock the third life and continue.",
   watchAdContinue: "WATCH AD & CONTINUE",
