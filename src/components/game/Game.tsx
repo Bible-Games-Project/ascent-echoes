@@ -277,42 +277,28 @@ export function Game() {
       return () => { cancelled = true; };
     }
     (async () => {
-      // Always refresh the top 10 for display.
+      // Submit first (server keeps GREATEST), then fetch fresh top 10.
+      if (finalScore > 0) {
+        await submitScore(finalScore, levelRef.current);
+      }
+      if (finalScore > prevBest) {
+        bestRef.current = finalScore;
+        setBestScore(finalScore);
+        setIsNewBest(true);
+      }
       const top = await fetchTop10();
       if (cancelled) return;
       setTopTen(top);
-
-      let bestForRank = prevBest;
-      if (finalScore > prevBest) {
-        const res = await submitIfBest(finalScore, levelRef.current);
-        if (cancelled) return;
-        bestForRank = res.best;
-        bestRef.current = res.best;
-        setBestScore(res.best);
-        setIsNewBest(true);
-        // Re-fetch leaderboard so the new placement is visible.
-        const updated = await fetchTop10();
-        if (cancelled) return;
-        setTopTen(updated);
-        if (res.rank != null) {
-          setWorldRank(res.rank);
-          setEnteredTop10(res.rank <= 10);
-          setIsWorldRecord(res.rank === 1);
-          recordRank(res.rank);
-        }
-      } else if (finalScore > 0) {
-        const r = await fetchRank(finalScore);
-        if (!cancelled) {
-          setWorldRank(r);
-          recordRank(r);
-        }
+      // Derive rank from board position when the player is in the top 10.
+      const myId = getPlayerId();
+      const idx = top.findIndex((e) => e.player_id === myId);
+      if (idx >= 0) {
+        const rank = idx + 1;
+        setWorldRank(rank);
+        setEnteredTop10(true);
+        setIsWorldRecord(rank === 1);
+        recordRank(rank);
       }
-      // If we didn't already set rank (e.g. tied best), compute it from bestForRank.
-      if (worldRank == null && bestForRank > 0) {
-        const r = await fetchRank(bestForRank);
-        if (!cancelled && r != null) { setWorldRank(r); recordRank(r); }
-      }
-      // Record best-ever single-run score (cosmetic stat only).
       if (finalScore > 0) recordScore(finalScore);
     })();
     return () => { cancelled = true; };
