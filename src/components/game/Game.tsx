@@ -36,6 +36,7 @@ import { motionFor, scaleMultiplierFor } from "./avatarMotion";
 import { AvatarsOverlay } from "./AvatarsOverlay";
 import {
   fetchRank,
+  fetchTop10,
   getLocalBest,
   getPlayerId,
   getPlayerName,
@@ -46,11 +47,6 @@ import {
   syncDisplayName,
   type LeaderboardEntry,
 } from "@/lib/leaderboard";
-import {
-  submitLeaderboardEntry,
-  fetchTopLeaderboardEntries,
-  subscribeTopLeaderboardEntries,
-} from "@/lib/firebaseLeaderboard";
 
 type GameState = "start" | "playing" | "offer" | "gameover";
 type Lane = 0 | 1 | 2; // 0 left, 1 center, 2 right
@@ -264,15 +260,6 @@ export function Game() {
     return () => el.removeEventListener("pointerdown", onDown);
   }, []);
 
-  // Live subscription to the global top 10 — keeps the leaderboard UI
-  // in sync whenever any player submits a higher score.
-  useEffect(() => {
-    const unsub = subscribeTopLeaderboardEntries(10, (list) => {
-      setTopTen(list);
-    });
-    return () => unsub();
-  }, []);
-
   // When game ends: submit if new best, refresh leaderboard + rank.
   useEffect(() => {
     if (state !== "gameover") return;
@@ -286,33 +273,14 @@ export function Game() {
     if (devModeRef.current) {
       // Dev mode runs never touch the leaderboard or saved best.
       (async () => {
-        const top = await fetchTopLeaderboardEntries(10);
+        const top = await fetchTop10();
         if (!cancelled) setTopTen(top);
       })();
       return () => { cancelled = true; };
     }
     (async () => {
-      // Push this run to the Firestore global leaderboard FIRST, then refresh
-      // the visible top 10 so the new placement is reflected immediately.
-      const submitPlayerId = getPlayerId();
-      const submitName = getPlayerName() ?? "Player";
-      console.log("[leaderboard] submitting", {
-        playerId: submitPlayerId,
-        name: submitName,
-        score: finalScore,
-        level: levelRef.current,
-      });
-      try {
-        await submitLeaderboardEntry({
-          name: submitName,
-          playerId: submitPlayerId,
-          score: finalScore,
-          level: levelRef.current,
-        });
-      } catch (err) {
-        console.warn("[firebase] submitLeaderboardEntry", err);
-      }
-      const top = await fetchTopLeaderboardEntries(10);
+      // Always refresh the top 10 for display.
+      const top = await fetchTop10();
       if (cancelled) return;
       setTopTen(top);
 
@@ -325,7 +293,7 @@ export function Game() {
         setBestScore(res.best);
         setIsNewBest(true);
         // Re-fetch leaderboard so the new placement is visible.
-        const updated = await fetchTopLeaderboardEntries(10);
+        const updated = await fetchTop10();
         if (cancelled) return;
         setTopTen(updated);
         if (res.rank != null) {
@@ -1764,7 +1732,7 @@ export function Game() {
     void (async () => {
       const ok = await syncDisplayName();
       if (ok) {
-        const top = await fetchTopLeaderboardEntries(10);
+        const top = await fetchTop10();
         setTopTen(top);
       }
     })();
@@ -1938,7 +1906,7 @@ export function Game() {
             onAvatars={() => setShowAvatars(true)}
             onLeaderboard={async () => {
               setShowLeaderboard(true);
-              const tops = await fetchTopLeaderboardEntries(10);
+              const tops = await fetchTop10();
               setTopTen(tops);
             }}
             onPremium={() => setShowPremium(true)}
@@ -2229,19 +2197,6 @@ function Stat({ label, value, prefix }: { label: string; value: number; prefix?:
   );
 }
 
-const MOCK_ENTRIES: LeaderboardEntry[] = [
-  { player_id: "__mock_1", name: "alex_run", best_score: 120 },
-  { player_id: "__mock_2", name: "maria88", best_score: 150 },
-  { player_id: "__mock_3", name: "john.play", best_score: 180 },
-  { player_id: "__mock_4", name: "lucas_x", best_score: 200 },
-  { player_id: "__mock_5", name: "anna_g", best_score: 220 },
-  { player_id: "__mock_6", name: "niko123", best_score: 250 },
-  { player_id: "__mock_7", name: "sofia_run", best_score: 300 },
-  { player_id: "__mock_8", name: "tomaszz", best_score: 350 },
-  { player_id: "__mock_9", name: "kim_lee", best_score: 400 },
-  { player_id: "__mock_10", name: "david99", best_score: 450 },
-];
-
 function LeaderboardList({
   entries,
   t,
@@ -2259,9 +2214,7 @@ function LeaderboardList({
       </div>
     );
   }
-  const real = [...entries].sort((a, b) => b.best_score - a.best_score);
-  const needed = Math.max(0, 10 - real.length);
-  const combined = [...real, ...MOCK_ENTRIES.slice(0, needed)]
+  const combined = [...entries]
     .sort((a, b) => b.best_score - a.best_score)
     .slice(0, 10);
   return (
@@ -2269,7 +2222,6 @@ function LeaderboardList({
       <ol className="flex flex-col">
         {combined.map((e, idx) => {
           const mine = e.player_id === myId;
-          const isMock = e.player_id.startsWith("__mock_");
           return (
             <li
               key={e.player_id}
@@ -2277,9 +2229,7 @@ function LeaderboardList({
                 "flex items-center justify-between rounded-lg px-3 py-1.5 text-sm tracking-wide " +
                 (mine
                   ? "bg-amber-200/25 text-amber-50 ring-1 ring-amber-200/60 shadow-[0_0_18px_rgba(255,200,140,0.35)]"
-                  : isMock
-                    ? "text-amber-100/50"
-                    : "text-amber-100/85")
+                  : "text-amber-100/85")
               }
             >
               <span className="w-10 tabular-nums text-amber-200/80">#{idx + 1}</span>
@@ -2496,31 +2446,22 @@ function SettingsOverlay({
     <div className="absolute inset-0 z-30 flex flex-col items-center justify-center bg-black/60 backdrop-blur-md animate-fade-in">
       <h2 className="text-xl font-light tracking-[0.25em] text-amber-50">{t("settings")}</h2>
       <div className="mt-5 w-[280px] max-w-[88vw] rounded-2xl border border-amber-200/25 bg-black/45 p-4 backdrop-blur">
-        <div className="flex items-center justify-between gap-3">
-          <div className="min-w-0 flex-1">
+        <div className="flex items-center justify-between">
+          <div>
             <div className="text-[10px] tracking-[0.3em] text-amber-200/70">{t("playerName")}</div>
-            <div className="mt-1 truncate text-base text-amber-50">{name || "—"}</div>
-            {!isPremium && (
-              <>
-                <div className="mt-2 text-[10px] leading-snug text-amber-100/80">
-                  {t("changeNameIsPremium")}
-                </div>
-                <div className="mt-1 text-[9px] leading-snug text-amber-200/60">
-                  {t("upgradeToCustomize")}
-                </div>
-              </>
-            )}
+            <div className="mt-1 text-base text-amber-50">{name || "—"}</div>
           </div>
           <button
             onClick={isPremium ? onChangeName : onPremium}
             className={
-              "shrink-0 rounded-full border px-3 py-1.5 text-[10px] tracking-[0.25em] " +
+              "rounded-full border px-3 py-1.5 text-[10px] tracking-[0.25em] " +
               (isPremium
                 ? "border-amber-200/40 bg-black/30 text-amber-100/90 hover:border-amber-200/70 hover:text-amber-50"
-                : "border-amber-200/50 bg-amber-200/10 text-amber-100 hover:border-amber-200/80 hover:text-amber-50")
+                : "border-amber-200/30 bg-black/20 text-amber-200/70 hover:border-amber-200/60 hover:text-amber-100")
             }
+            title={isPremium ? undefined : t("premiumOnly")}
           >
-            {isPremium ? t("change") : `★ ${t("upgrade")}`}
+            {isPremium ? t("change") : `★ ${t("premiumOnly")}`}
           </button>
         </div>
       </div>
