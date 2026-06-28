@@ -225,6 +225,16 @@ export function Game() {
     }
   }, [state]);
 
+  // Button click SFX: delegate from the game container so every button tap
+  // plays a subtle pop without touching individual onClick handlers.
+  useEffect(() => {
+    const el = canvasRef.current?.parentElement;
+    if (!el) return;
+    const onDown = () => sfx.playClick();
+    el.addEventListener("pointerdown", onDown);
+    return () => el.removeEventListener("pointerdown", onDown);
+  }, []);
+
   // When game ends: submit if new best, refresh leaderboard + rank.
   useEffect(() => {
     if (state !== "gameover") return;
