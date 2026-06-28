@@ -1921,6 +1921,8 @@ export function Game() {
           onClose={() => setShowSettings(false)}
           devMode={devMode}
           onToggleDevMode={toggleDevMode}
+          isPremium={isPremium}
+          onPremium={() => { setShowSettings(false); setShowPremium(true); }}
           t={t}
         />
       )}
