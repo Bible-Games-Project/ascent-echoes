@@ -1766,7 +1766,7 @@ export function Game() {
               </div>
               <div className="flex items-center gap-2 rounded-full bg-black/45 px-2.5 py-0.5 text-[10px] font-medium tracking-widest text-amber-100 backdrop-blur">
                 <span className="text-amber-200/70">{t("score")}</span>
-                <span className="text-amber-50 tabular-nums">{score}</span>
+                <span className="text-amber-50 tabular-nums">{Math.max(0, Math.floor(Number(score) || 0))}</span>
               </div>
               <div className="flex items-center gap-2 rounded-full bg-black/45 px-2.5 py-0.5 text-[10px] font-medium tracking-widest text-amber-100 backdrop-blur">
                 <span className="text-amber-200/70">{t("questions")}</span>
@@ -2188,11 +2188,12 @@ function LockedHeart() {
 }
 
 function Stat({ label, value, prefix }: { label: string; value: number; prefix?: string }) {
+  const intValue = Math.max(0, Math.floor(Number(value) || 0));
   return (
     <div className="flex flex-col items-center">
       <span className="text-[10px] tracking-[0.3em] text-amber-200/70">{label}</span>
       <span className="mt-1 text-2xl font-light tabular-nums text-amber-50">
-        {value > 0 || !prefix ? `${prefix ?? ""}${value}` : "—"}
+        {intValue > 0 || !prefix ? `${prefix ?? ""}${intValue}` : "—"}
       </span>
     </div>
   );
