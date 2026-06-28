@@ -2376,6 +2376,41 @@ function NamePromptOverlay({
   );
 }
 
+function LanguagePromptOverlay({
+  current,
+  onSelect,
+}: {
+  current: Language;
+  onSelect: (l: Language) => void;
+}) {
+  return (
+    <div className="absolute inset-0 z-50 flex flex-col items-center justify-center bg-black/80 backdrop-blur-md animate-fade-in px-4">
+      <h2 className="text-xl font-light tracking-[0.25em] text-amber-50 text-center">
+        SELECT LANGUAGE
+      </h2>
+      <p className="mt-2 text-[10px] tracking-[0.3em] text-amber-200/70 text-center">
+        ELIGE TU IDIOMA · CHOISISSEZ VOTRE LANGUE
+      </p>
+      <div className="mt-6 flex max-w-[92vw] flex-wrap items-center justify-center gap-2">
+        {LANGUAGES.map((lng) => (
+          <button
+            key={lng}
+            onClick={() => onSelect(lng)}
+            className={
+              "rounded-full border px-4 py-2 text-xs tracking-wider transition " +
+              (current === lng
+                ? "border-amber-200/80 bg-amber-100/20 text-amber-50 shadow-[0_0_18px_rgba(255,200,140,0.4)]"
+                : "border-amber-200/30 bg-black/40 text-amber-100/80 hover:border-amber-200/70 hover:text-amber-50")
+            }
+          >
+            {LANGUAGE_LABELS[lng]}
+          </button>
+        ))}
+      </div>
+    </div>
+  );
+}
+
 function SettingsOverlay({
   name,
   language,
