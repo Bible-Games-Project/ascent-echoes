@@ -1961,7 +1961,18 @@ export function Game() {
         </Overlay>
       )}
 
-      {showNamePrompt && (
+      {showLangPrompt && (
+        <LanguagePromptOverlay
+          current={language}
+          onSelect={(l) => {
+            setLanguage(l);
+            try { localStorage.setItem("btr_lang_set", "1"); } catch { /* ignore */ }
+            setShowLangPrompt(false);
+          }}
+        />
+      )}
+
+      {!showLangPrompt && showNamePrompt && (
         <NamePromptOverlay
           initial={playerName ?? ""}
           onSave={handleSaveName}
