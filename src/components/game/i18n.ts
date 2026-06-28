@@ -56,7 +56,8 @@ export type UIKey =
   | "premiumActive"
   | "avatars"
   | "goPremium"
-  | "premiumOnly";
+  | "premiumOnly"
+  | "music";
 
 type Dict = Record<UIKey, string>;
 type PartialDict = Partial<Dict>;
@@ -115,6 +116,7 @@ const en: Dict = {
   avatars: "AVATARS",
   goPremium: "GO PREMIUM",
   premiumOnly: "PREMIUM ONLY",
+  music: "MUSIC",
 };
 
 const es: PartialDict = {
