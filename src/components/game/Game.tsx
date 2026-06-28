@@ -47,6 +47,7 @@ import {
   syncDisplayName,
   type LeaderboardEntry,
 } from "@/lib/leaderboard";
+import { submitLeaderboardEntry } from "@/lib/firebaseLeaderboard";
 
 type GameState = "start" | "playing" | "offer" | "gameover";
 type Lane = 0 | 1 | 2; // 0 left, 1 center, 2 right
@@ -278,6 +279,15 @@ export function Game() {
       })();
       return () => { cancelled = true; };
     }
+    // Fire-and-forget: push this run to the Firestore global leaderboard.
+    // submitLeaderboardEntry is a no-op when the score doesn't beat the
+    // player's stored personal best, so it is safe to call on every run.
+    void submitLeaderboardEntry({
+      name: getPlayerName() ?? "Player",
+      playerId: getPlayerId(),
+      score: finalScore,
+      level: levelRef.current,
+    }).catch((err) => console.warn("[firebase] submitLeaderboardEntry", err));
     (async () => {
       // Always refresh the top 10 for display.
       const top = await fetchTop10();
