@@ -2207,6 +2207,19 @@ function Stat({ label, value, prefix }: { label: string; value: number; prefix?:
   );
 }
 
+const MOCK_ENTRIES: LeaderboardEntry[] = [
+  { player_id: "__mock_1", name: "alex_run", best_score: 120 },
+  { player_id: "__mock_2", name: "maria88", best_score: 150 },
+  { player_id: "__mock_3", name: "john.play", best_score: 180 },
+  { player_id: "__mock_4", name: "lucas_x", best_score: 200 },
+  { player_id: "__mock_5", name: "anna_g", best_score: 220 },
+  { player_id: "__mock_6", name: "niko123", best_score: 250 },
+  { player_id: "__mock_7", name: "sofia_run", best_score: 300 },
+  { player_id: "__mock_8", name: "tomaszz", best_score: 350 },
+  { player_id: "__mock_9", name: "kim_lee", best_score: 400 },
+  { player_id: "__mock_10", name: "david99", best_score: 450 },
+];
+
 function LeaderboardList({
   entries,
   t,
@@ -2224,7 +2237,9 @@ function LeaderboardList({
       </div>
     );
   }
-  const combined = [...entries]
+  const real = [...entries].sort((a, b) => b.best_score - a.best_score);
+  const needed = Math.max(0, 10 - real.length);
+  const combined = [...real, ...MOCK_ENTRIES.slice(0, needed)]
     .sort((a, b) => b.best_score - a.best_score)
     .slice(0, 10);
   return (
@@ -2232,6 +2247,7 @@ function LeaderboardList({
       <ol className="flex flex-col">
         {combined.map((e, idx) => {
           const mine = e.player_id === myId;
+          const isMock = e.player_id.startsWith("__mock_");
           return (
             <li
               key={e.player_id}
@@ -2239,7 +2255,9 @@ function LeaderboardList({
                 "flex items-center justify-between rounded-lg px-3 py-1.5 text-sm tracking-wide " +
                 (mine
                   ? "bg-amber-200/25 text-amber-50 ring-1 ring-amber-200/60 shadow-[0_0_18px_rgba(255,200,140,0.35)]"
-                  : "text-amber-100/85")
+                  : isMock
+                    ? "text-amber-100/50"
+                    : "text-amber-100/85")
               }
             >
               <span className="w-10 tabular-nums text-amber-200/80">#{idx + 1}</span>
