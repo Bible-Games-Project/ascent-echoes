@@ -1778,6 +1778,23 @@ export function Game() {
 
       {state === "start" && (
         <Overlay>
+          <button
+            type="button"
+            onClick={() => setShowSettings(true)}
+            aria-label={t("settings")}
+            className="absolute right-4 top-4 z-10 flex h-10 w-10 items-center justify-center rounded-full border border-amber-200/40 bg-black/40 text-amber-100/85 backdrop-blur transition hover:border-amber-200/70 hover:text-amber-50 active:scale-95"
+          >
+            <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden>
+              <path
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="1.6"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M12 15.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Zm8-3.5a8 8 0 0 0-.13-1.4l2.05-1.6-2-3.46-2.4.96a8 8 0 0 0-2.42-1.4L14.6 2h-4l-.5 2.6a8 8 0 0 0-2.42 1.4l-2.4-.96-2 3.46 2.05 1.6A8 8 0 0 0 4 12c0 .48.05.95.13 1.4L2.08 15l2 3.46 2.4-.96a8 8 0 0 0 2.42 1.4l.5 2.6h4l.5-2.6a8 8 0 0 0 2.42-1.4l2.4.96 2-3.46-2.05-1.6c.08-.45.13-.92.13-1.4Z"
+              />
+            </svg>
+          </button>
           <h1 className="text-center text-4xl font-light tracking-[0.25em] text-amber-50 drop-shadow-[0_2px_24px_rgba(255,180,120,0.5)]">
             BIBLE TRIVIA RUN
           </h1>
@@ -1792,17 +1809,14 @@ export function Game() {
           </button>
           <MainMenuGroups
             t={t}
-            playerName={playerName}
             equippedAvatar={equippedAvatar}
             isPremium={isPremium}
-            onPlayer={() => setShowNamePrompt(true)}
             onAvatars={() => setShowAvatars(true)}
             onLeaderboard={async () => {
               setShowLeaderboard(true);
               const tops = await fetchTop10();
               setTopTen(tops);
             }}
-            onSettings={() => setShowSettings(true)}
             onPremium={() => setShowPremium(true)}
             onMoreGames={() => setShowMoreGames(true)}
           />
