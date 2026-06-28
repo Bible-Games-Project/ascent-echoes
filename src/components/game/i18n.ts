@@ -57,7 +57,12 @@ export type UIKey =
   | "avatars"
   | "goPremium"
   | "premiumOnly"
-  | "music";
+  | "music"
+  | "unlocked"
+  | "equipped"
+  | "equip"
+  | "locked"
+  | "bestRank";
 
 type Dict = Record<UIKey, string>;
 type PartialDict = Partial<Dict>;
@@ -117,6 +122,11 @@ const en: Dict = {
   goPremium: "GO PREMIUM",
   premiumOnly: "PREMIUM ONLY",
   music: "MUSIC",
+  unlocked: "UNLOCKED",
+  equipped: "EQUIPPED",
+  equip: "EQUIP",
+  locked: "LOCKED",
+  bestRank: "Best rank",
 };
 
 const es: PartialDict = {
@@ -158,6 +168,21 @@ const es: PartialDict = {
   language: "IDIOMA",
   bibleGamesProject: "BIBLE GAMES PROJECT",
   comingSoon: "PRÓXIMAMENTE",
+  premiumBenefits: "BENEFICIOS PREMIUM",
+  noAds: "Sin anuncios",
+  threeLivesBenefit: "Tres vidas permanentes",
+  unlimitedNameChanges: "Cambios de nombre ilimitados",
+  exclusiveAvatars: "Todos los avatares disponibles",
+  premiumActive: "PREMIUM ACTIVO",
+  avatars: "AVATARES",
+  goPremium: "OBTENER PREMIUM",
+  premiumOnly: "SOLO PREMIUM",
+  music: "MÚSICA",
+  unlocked: "DESBLOQUEADO",
+  equipped: "EQUIPADO",
+  equip: "EQUIPAR",
+  locked: "BLOQUEADO",
+  bestRank: "Mejor rango",
 };
 
 const pt: PartialDict = {
@@ -199,6 +224,21 @@ const pt: PartialDict = {
   language: "IDIOMA",
   bibleGamesProject: "BIBLE GAMES PROJECT",
   comingSoon: "EM BREVE",
+  premiumBenefits: "BENEFÍCIOS PREMIUM",
+  noAds: "Sem anúncios",
+  threeLivesBenefit: "Três vidas permanentes",
+  unlimitedNameChanges: "Trocas de nome ilimitadas",
+  exclusiveAvatars: "Todos os avatares disponíveis",
+  premiumActive: "PREMIUM ATIVO",
+  avatars: "AVATARES",
+  goPremium: "OBTER PREMIUM",
+  premiumOnly: "SÓ PREMIUM",
+  music: "MÚSICA",
+  unlocked: "DESBLOQUEADO",
+  equipped: "EQUIPADO",
+  equip: "EQUIPAR",
+  locked: "BLOQUEADO",
+  bestRank: "Melhor rank",
 };
 
 const fr: PartialDict = {
@@ -240,6 +280,21 @@ const fr: PartialDict = {
   language: "LANGUE",
   bibleGamesProject: "BIBLE GAMES PROJECT",
   comingSoon: "BIENTÔT",
+  premiumBenefits: "AVANTAGES PREMIUM",
+  noAds: "Aucune publicité",
+  threeLivesBenefit: "Trois vies permanentes",
+  unlimitedNameChanges: "Changements de nom illimités",
+  exclusiveAvatars: "Tous les avatars disponibles",
+  premiumActive: "PREMIUM ACTIF",
+  avatars: "AVATARS",
+  goPremium: "PASSER PREMIUM",
+  premiumOnly: "PREMIUM UNIQUEMENT",
+  music: "MUSIQUE",
+  unlocked: "DÉBLOQUÉ",
+  equipped: "ÉQUIPÉ",
+  equip: "ÉQUIPER",
+  locked: "VERROUILLÉ",
+  bestRank: "Meilleur rang",
 };
 
 const de: PartialDict = {
@@ -281,6 +336,21 @@ const de: PartialDict = {
   language: "SPRACHE",
   bibleGamesProject: "BIBLE GAMES PROJECT",
   comingSoon: "DEMNÄCHST",
+  premiumBenefits: "PREMIUM-VORTEILE",
+  noAds: "Keine Werbung",
+  threeLivesBenefit: "Drei dauerhafte Leben",
+  unlimitedNameChanges: "Unbegrenzte Namensänderungen",
+  exclusiveAvatars: "Alle Avatare verfügbar",
+  premiumActive: "PREMIUM AKTIV",
+  avatars: "AVATARE",
+  goPremium: "PREMIUM HOLEN",
+  premiumOnly: "NUR PREMIUM",
+  music: "MUSIK",
+  unlocked: "FREIGESCHALTET",
+  equipped: "AUSGERÜSTET",
+  equip: "AUSRÜSTEN",
+  locked: "GESPERRT",
+  bestRank: "Bester Rang",
 };
 
 const it: PartialDict = {
@@ -322,6 +392,21 @@ const it: PartialDict = {
   language: "LINGUA",
   bibleGamesProject: "BIBLE GAMES PROJECT",
   comingSoon: "PROSSIMAMENTE",
+  premiumBenefits: "VANTAGGI PREMIUM",
+  noAds: "Nessuna pubblicità",
+  threeLivesBenefit: "Tre vite permanenti",
+  unlimitedNameChanges: "Cambi nome illimitati",
+  exclusiveAvatars: "Tutti gli avatar disponibili",
+  premiumActive: "PREMIUM ATTIVO",
+  avatars: "AVATAR",
+  goPremium: "OTTIENI PREMIUM",
+  premiumOnly: "SOLO PREMIUM",
+  music: "MUSICA",
+  unlocked: "SBLOCCATO",
+  equipped: "EQUIPAGGIATO",
+  equip: "EQUIPAGGIA",
+  locked: "BLOCCATO",
+  bestRank: "Miglior rango",
 };
 
 const pl: PartialDict = {
@@ -363,6 +448,21 @@ const pl: PartialDict = {
   language: "JĘZYK",
   bibleGamesProject: "BIBLE GAMES PROJECT",
   comingSoon: "WKRÓTCE",
+  premiumBenefits: "KORZYŚCI PREMIUM",
+  noAds: "Bez reklam",
+  threeLivesBenefit: "Trzy stałe życia",
+  unlimitedNameChanges: "Nieograniczone zmiany imienia",
+  exclusiveAvatars: "Wszystkie awatary dostępne",
+  premiumActive: "PREMIUM AKTYWNE",
+  avatars: "AWATARY",
+  goPremium: "KUP PREMIUM",
+  premiumOnly: "TYLKO PREMIUM",
+  music: "MUZYKA",
+  unlocked: "ODBLOKOWANE",
+  equipped: "WYBRANE",
+  equip: "WYBIERZ",
+  locked: "ZABLOKOWANE",
+  bestRank: "Najlepsza ranga",
 };
 
 const ru: PartialDict = {
@@ -404,6 +504,21 @@ const ru: PartialDict = {
   language: "ЯЗЫК",
   bibleGamesProject: "BIBLE GAMES PROJECT",
   comingSoon: "СКОРО",
+  premiumBenefits: "ПРЕИМУЩЕСТВА PREMIUM",
+  noAds: "Без рекламы",
+  threeLivesBenefit: "Три постоянные жизни",
+  unlimitedNameChanges: "Безлимит смены имени",
+  exclusiveAvatars: "Все аватары доступны",
+  premiumActive: "PREMIUM АКТИВНО",
+  avatars: "АВАТАРЫ",
+  goPremium: "ПОЛУЧИТЬ PREMIUM",
+  premiumOnly: "ТОЛЬКО PREMIUM",
+  music: "МУЗЫКА",
+  unlocked: "ОТКРЫТО",
+  equipped: "ЭКИПИРОВАНО",
+  equip: "ВЫБРАТЬ",
+  locked: "ЗАКРЫТО",
+  bestRank: "Лучший ранг",
 };
 
 const tr: PartialDict = {
@@ -445,6 +560,21 @@ const tr: PartialDict = {
   language: "DİL",
   bibleGamesProject: "BIBLE GAMES PROJECT",
   comingSoon: "YAKINDA",
+  premiumBenefits: "PREMIUM AVANTAJLARI",
+  noAds: "Reklam yok",
+  threeLivesBenefit: "Üç kalıcı can",
+  unlimitedNameChanges: "Sınırsız isim değişimi",
+  exclusiveAvatars: "Tüm avatarlar açık",
+  premiumActive: "PREMIUM AKTİF",
+  avatars: "AVATARLAR",
+  goPremium: "PREMIUM AL",
+  premiumOnly: "SADECE PREMIUM",
+  music: "MÜZİK",
+  unlocked: "AÇIK",
+  equipped: "KUŞANILDI",
+  equip: "KUŞAN",
+  locked: "KİLİTLİ",
+  bestRank: "En iyi sıra",
 };
 
 const ja: PartialDict = {
@@ -486,6 +616,21 @@ const ja: PartialDict = {
   language: "言語",
   bibleGamesProject: "BIBLE GAMES PROJECT",
   comingSoon: "近日公開",
+  premiumBenefits: "プレミアム特典",
+  noAds: "広告なし",
+  threeLivesBenefit: "永続3ライフ",
+  unlimitedNameChanges: "名前変更無制限",
+  exclusiveAvatars: "全アバター利用可能",
+  premiumActive: "プレミアム有効",
+  avatars: "アバター",
+  goPremium: "プレミアム購入",
+  premiumOnly: "プレミアム限定",
+  music: "音楽",
+  unlocked: "解放済み",
+  equipped: "装備中",
+  equip: "装備",
+  locked: "ロック中",
+  bestRank: "最高ランク",
 };
 
 const ko: PartialDict = {
@@ -527,6 +672,21 @@ const ko: PartialDict = {
   language: "언어",
   bibleGamesProject: "BIBLE GAMES PROJECT",
   comingSoon: "출시 예정",
+  premiumBenefits: "프리미엄 혜택",
+  noAds: "광고 없음",
+  threeLivesBenefit: "영구 3개 생명",
+  unlimitedNameChanges: "이름 변경 무제한",
+  exclusiveAvatars: "모든 아바타 사용 가능",
+  premiumActive: "프리미엄 활성",
+  avatars: "아바타",
+  goPremium: "프리미엄 구매",
+  premiumOnly: "프리미엄 전용",
+  music: "음악",
+  unlocked: "해제됨",
+  equipped: "장착됨",
+  equip: "장착",
+  locked: "잠김",
+  bestRank: "최고 랭크",
 };
 
 const ar: PartialDict = {
@@ -568,6 +728,21 @@ const ar: PartialDict = {
   language: "اللغة",
   bibleGamesProject: "BIBLE GAMES PROJECT",
   comingSoon: "قريباً",
+  premiumBenefits: "مزايا بريميوم",
+  noAds: "بدون إعلانات",
+  threeLivesBenefit: "ثلاث أرواح دائمة",
+  unlimitedNameChanges: "تغيير الاسم بلا حدود",
+  exclusiveAvatars: "جميع الأفاتار متاحة",
+  premiumActive: "بريميوم مفعل",
+  avatars: "الأفاتار",
+  goPremium: "احصل على بريميوم",
+  premiumOnly: "بريميوم فقط",
+  music: "موسيقى",
+  unlocked: "مفتوح",
+  equipped: "مجهز",
+  equip: "تجهيز",
+  locked: "مقفل",
+  bestRank: "أفضل ترتيب",
 };
 
 const DICTS: Record<Language, PartialDict> = {

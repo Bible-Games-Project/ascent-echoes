@@ -8,6 +8,7 @@ import {
   type AvatarId,
 } from "@/lib/avatars";
 import { PlayerAvatar as AvatarIcon } from "./PlayerAvatar";
+import type { UIKey } from "./i18n";
 
 type Props = {
   isPremium: boolean;
@@ -15,9 +16,10 @@ type Props = {
   onEquip: (id: AvatarId) => void;
   onClose: () => void;
   title: string;
+  t: (key: UIKey) => string;
 };
 
-export function AvatarsOverlay({ isPremium, equipped, onEquip, onClose, title }: Props) {
+export function AvatarsOverlay({ isPremium, equipped, onEquip, onClose, title, t }: Props) {
   const stats = useMemo(() => getStats(), []);
   const [selected, setSelected] = useState<AvatarId>(equipped);
   const selectedDef = AVATARS.find((a) => a.id === selected)!;
@@ -76,7 +78,7 @@ export function AvatarsOverlay({ isPremium, equipped, onEquip, onClose, title }:
           <div className="text-left">
             <div className="text-sm tracking-[0.2em] text-amber-50">{selectedDef.name.toUpperCase()}</div>
             <div className="mt-0.5 text-[10px] tracking-wide text-amber-100/70">
-              {selectedUnlocked ? "Unlocked" : selectedProg.requirement}
+              {selectedUnlocked ? t("unlocked") : selectedProg.requirement}
             </div>
             {!selectedUnlocked && selectedDef.unlock.target != null && (
               <div className="mt-0.5 text-[10px] tracking-wide text-amber-200/70 tabular-nums">
@@ -85,7 +87,7 @@ export function AvatarsOverlay({ isPremium, equipped, onEquip, onClose, title }:
             )}
             {!selectedUnlocked && selectedDef.unlock.kind === "bestRankTop" && (
               <div className="mt-0.5 text-[10px] tracking-wide text-amber-200/70 tabular-nums">
-                Best rank: {selectedProg.label}
+                {t("bestRank")}: {selectedProg.label}
               </div>
             )}
           </div>
@@ -103,14 +105,14 @@ export function AvatarsOverlay({ isPremium, equipped, onEquip, onClose, title }:
                 : "cursor-not-allowed bg-amber-100/20 text-stone-900/40")
             }
           >
-            {selected === equipped ? "EQUIPPED" : selectedUnlocked ? "EQUIP" : "LOCKED"}
+            {selected === equipped ? t("equipped") : selectedUnlocked ? t("equip") : t("locked")}
           </button>
           <button
             type="button"
             onClick={onClose}
             className="rounded-full border border-amber-200/40 bg-black/30 px-5 py-2 text-xs tracking-[0.25em] text-amber-100/90 hover:border-amber-200/70 hover:text-amber-50"
           >
-            CLOSE
+            {t("close")}
           </button>
         </div>
       </div>

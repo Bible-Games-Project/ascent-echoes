@@ -2029,6 +2029,7 @@ export function Game() {
           onEquip={(id) => setEquippedAvatar(id)}
           onClose={() => setShowAvatars(false)}
           title={t("avatars")}
+          t={t}
         />
       )}
 
