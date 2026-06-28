@@ -75,13 +75,17 @@ export async function flushPendingSubmits(): Promise<boolean> {
   if (list.length === 0) return true;
   const remaining: PendingSubmit[] = [];
   for (const item of list) {
-    const { error } = await supabase.rpc("submit_score", {
+    console.log("[leaderboard] flushPendingSubmits calling submit_score", { player_id: item.player_id, score: item.score });
+    const { data, error } = await supabase.rpc("submit_score", {
       p_player_id: item.player_id,
       p_name: item.name,
       p_score: item.score,
     });
     if (error) {
+      console.log("[leaderboard] submit_score error (flush)", error);
       remaining.push(item);
+    } else {
+      console.log("[leaderboard] submit_score success (flush)", data);
     }
   }
   setPending(remaining);
@@ -153,16 +157,19 @@ export async function syncDisplayName(): Promise<boolean> {
     enqueuePending({ player_id: id, name, score: best, ts: Date.now() });
     return false;
   }
-  const { error } = await supabase.rpc("submit_score", {
+  console.log("[leaderboard] syncDisplayName calling submit_score", { player_id: id, score: best });
+  const { data, error } = await supabase.rpc("submit_score", {
     p_player_id: id,
     p_name: name,
     p_score: best, // GREATEST(existing, best) === existing, score preserved
   });
   if (error) {
     console.warn("[leaderboard] syncDisplayName", error);
+    console.log("[leaderboard] submit_score error (sync)", error);
     enqueuePending({ player_id: id, name, score: best, ts: Date.now() });
     return false;
   }
+  console.log("[leaderboard] submit_score success (sync)", data);
   return true;
 }
 
@@ -244,6 +251,7 @@ export async function fetchRank(score: number): Promise<number | null> {
  */
 export async function submitIfBest(
   score: number,
+  level?: number,
 ): Promise<{ best: number; rank: number | null; submitted: boolean }> {
   const localBest = getLocalBest();
   if (score <= localBest) {
@@ -256,6 +264,7 @@ export async function submitIfBest(
     enqueuePending({ player_id: id, name, score, ts: Date.now() });
     return { best: score, rank: getCachedRank(), submitted: true };
   }
+  console.log("[leaderboard] submitIfBest calling submit_score", { player_id: id, score, level });
   const { data, error } = await supabase.rpc("submit_score", {
     p_player_id: id,
     p_name: name,
@@ -263,9 +272,11 @@ export async function submitIfBest(
   });
   if (error) {
     console.warn("[leaderboard] submit_score", error);
+    console.log("[leaderboard] submit_score error", { player_id: id, score, level, error });
     enqueuePending({ player_id: id, name, score, ts: Date.now() });
     return { best: score, rank: null, submitted: true };
   }
+  console.log("[leaderboard] submit_score success", { player_id: id, score, level, data });
   const row = Array.isArray(data) ? data[0] : data;
   const best = (row?.best_score as number) ?? score;
   const rank = (row?.rank as number) ?? null;
