@@ -1333,6 +1333,7 @@ export function Game() {
         setLevel(nextLvl);
         buildLevel(nextLvl);
         if (!devModeRef.current) recordLevel(nextLvl);
+        music.advance();
         return;
       }
       // Reset timer + hint for the next decision
