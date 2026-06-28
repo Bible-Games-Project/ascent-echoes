@@ -2177,19 +2177,21 @@ function MainMenuGroups({
   onMoreGames: () => void;
 }) {
   return (
-    <div className="mt-10 flex w-[min(94vw,420px)] flex-wrap items-center justify-center gap-3">
+    <div className="mt-10 flex w-[min(94vw,420px)] flex-col items-center gap-3">
       <button
         type="button"
         onClick={onAvatars}
         aria-label={t("avatars")}
-        className="flex items-center gap-2 rounded-full border border-amber-200/40 bg-black/30 px-3 py-1.5 text-[10px] tracking-[0.25em] text-amber-100/85 backdrop-blur hover:border-amber-200/70 hover:text-amber-50"
+        className="flex items-center gap-2 rounded-full border border-amber-200/40 bg-black/30 px-4 py-1.5 text-[10px] tracking-[0.25em] text-amber-100/85 backdrop-blur hover:border-amber-200/70 hover:text-amber-50"
       >
         <AvatarIcon id={equippedAvatar} size={22} />
         <span>{t("avatars")}</span>
       </button>
       <MenuButton onClick={onLeaderboard}>{t("leaderboard")}</MenuButton>
-      <MenuButton onClick={onPremium} active={isPremium}>★ {t("premium")}</MenuButton>
-      <MenuButton onClick={onMoreGames}>{t("moreGames")}</MenuButton>
+      <div className="flex items-center justify-center gap-3">
+        <MenuButton onClick={onPremium} active={isPremium}>★ {t("premium")}</MenuButton>
+        <MenuButton onClick={onMoreGames}>{t("moreGames")}</MenuButton>
+      </div>
     </div>
   );
 }
