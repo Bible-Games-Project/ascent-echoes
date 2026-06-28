@@ -2293,6 +2293,8 @@ function SettingsOverlay({
   onClose,
   devMode,
   onToggleDevMode,
+  isPremium,
+  onPremium,
   t,
 }: {
   name: string;
@@ -2302,6 +2304,8 @@ function SettingsOverlay({
   onClose: () => void;
   devMode: boolean;
   onToggleDevMode: () => void;
+  isPremium: boolean;
+  onPremium: () => void;
   t: (key: UIKey) => string;
 }) {
   const [showLangs, setShowLangs] = useState(false);
@@ -2315,10 +2319,16 @@ function SettingsOverlay({
             <div className="mt-1 text-base text-amber-50">{name || "—"}</div>
           </div>
           <button
-            onClick={onChangeName}
-            className="rounded-full border border-amber-200/40 bg-black/30 px-3 py-1.5 text-[10px] tracking-[0.25em] text-amber-100/90 hover:border-amber-200/70 hover:text-amber-50"
+            onClick={isPremium ? onChangeName : onPremium}
+            className={
+              "rounded-full border px-3 py-1.5 text-[10px] tracking-[0.25em] " +
+              (isPremium
+                ? "border-amber-200/40 bg-black/30 text-amber-100/90 hover:border-amber-200/70 hover:text-amber-50"
+                : "border-amber-200/30 bg-black/20 text-amber-200/70 hover:border-amber-200/60 hover:text-amber-100")
+            }
+            title={isPremium ? undefined : t("premiumOnly")}
           >
-            {t("change")}
+            {isPremium ? t("change") : `★ ${t("premiumOnly")}`}
           </button>
         </div>
       </div>
