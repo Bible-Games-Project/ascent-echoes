@@ -267,6 +267,7 @@ export function Game() {
   // When game ends: submit if new best, refresh leaderboard + rank.
   useEffect(() => {
     if (state !== "gameover") return;
+    // (body below)
     let cancelled = false;
     const prevBest = getLocalBest();
     const finalScore = scoreRef.current;
