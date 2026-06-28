@@ -1766,7 +1766,7 @@ export function Game() {
               </div>
               <div className="flex items-center gap-2 rounded-full bg-black/45 px-2.5 py-0.5 text-[10px] font-medium tracking-widest text-amber-100 backdrop-blur">
                 <span className="text-amber-200/70">{t("score")}</span>
-                <span className="text-amber-50 tabular-nums">{score}</span>
+                <span className="text-amber-50 tabular-nums">{Math.max(0, Math.floor(Number(score) || 0))}</span>
               </div>
               <div className="flex items-center gap-2 rounded-full bg-black/45 px-2.5 py-0.5 text-[10px] font-medium tracking-widest text-amber-100 backdrop-blur">
                 <span className="text-amber-200/70">{t("questions")}</span>
