@@ -113,6 +113,8 @@ const en: Dict = {
   loadingAd: "LOADING AD…",
   premiumActive: "PREMIUM ACTIVE",
   avatars: "AVATARS",
+  goPremium: "GO PREMIUM",
+  premiumOnly: "PREMIUM ONLY",
 };
 
 const es: PartialDict = {
