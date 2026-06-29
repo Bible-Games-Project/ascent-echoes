@@ -207,11 +207,11 @@ export const sfx = {
 
     // 5 wind variations: [duration, peakGain, filterStart, filterPeak, filterEnd, q]
     const variants: Array<[number, number, number, number, number, number]> = [
-      [0.55, 0.085, 500, 1100, 600, 1.2],   // light breeze
-      [0.70, 0.095, 380, 900, 420, 1.0],    // medium wind gust
-      [0.60, 0.075, 700, 1400, 800, 1.5],   // airy wind flow
-      [0.85, 0.090, 260, 600, 280, 0.8],    // low atmospheric hum
-      [0.45, 0.070, 600, 1300, 700, 1.3],   // light natural sweep
+      [0.55, 0.0425, 500, 1100, 600, 1.2],   // light breeze
+      [0.70, 0.0475, 380, 900, 420, 1.0],    // medium wind gust
+      [0.60, 0.0375, 700, 1400, 800, 1.5],   // airy wind flow
+      [0.85, 0.0450, 260, 600, 280, 0.8],    // low atmospheric hum
+      [0.45, 0.0350, 600, 1300, 700, 1.3],   // light natural sweep
     ];
     let idx = Math.floor(Math.random() * variants.length);
     if (idx === (this as any)._lastMoveIdx) idx = (idx + 1) % variants.length;
