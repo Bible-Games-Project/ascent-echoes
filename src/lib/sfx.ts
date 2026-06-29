@@ -175,4 +175,39 @@ export const sfx = {
     o.start(t);
     o.stop(t + 0.32);
   },
+
+  /** Subtle whoosh/slide for player movement. 5 variations, random non-repeating. */
+  _lastMoveIdx: -1 as number,
+  playMove() {
+    if (!_enabled) return;
+    const c = ctx();
+    if (!c) return;
+    resumeIfNeeded();
+    const t = now();
+
+    // 5 variations: [startFreq, endFreq, duration, peakGain, type]
+    const variants: Array<[number, number, number, number, OscillatorType]> = [
+      [520, 280, 0.16, 0.08, "sine"],      // soft low whoosh
+      [780, 520, 0.13, 0.07, "triangle"],  // higher airy slide
+      [900, 700, 0.08, 0.06, "sine"],      // short subtle swipe
+      [420, 220, 0.20, 0.09, "sine"],      // deeper smooth glide
+      [1000, 820, 0.10, 0.05, "triangle"], // light airy brush
+    ];
+    let idx = Math.floor(Math.random() * variants.length);
+    if (idx === (this as any)._lastMoveIdx) idx = (idx + 1) % variants.length;
+    (this as any)._lastMoveIdx = idx;
+    const [f0, f1, dur, peak, type] = variants[idx];
+
+    const o = c.createOscillator();
+    const g = c.createGain();
+    o.type = type;
+    o.frequency.setValueAtTime(f0, t);
+    o.frequency.exponentialRampToValueAtTime(Math.max(40, f1), t + dur);
+    g.gain.setValueAtTime(0, t);
+    g.gain.linearRampToValueAtTime(peak, t + 0.015);
+    g.gain.exponentialRampToValueAtTime(0.001, t + dur);
+    o.connect(g).connect(c.destination);
+    o.start(t);
+    o.stop(t + dur + 0.02);
+  },
 };
