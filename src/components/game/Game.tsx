@@ -1571,6 +1571,7 @@ export function Game() {
     const moveLane = (dir: -1 | 1) => {
       if (stateRef.current !== "playing") return;
       const next = Math.max(0, Math.min(2, player.targetLane + dir)) as Lane;
+      if (next !== player.targetLane) sfx.playMove();
       player.targetLane = next;
     };
     const tapLane = (clientX: number) => {
@@ -1578,6 +1579,7 @@ export function Game() {
       const rect = canvas.getBoundingClientRect();
       const rel = (clientX - rect.left) / rect.width;
       const lane: Lane = rel < 1 / 3 ? 0 : rel < 2 / 3 ? 1 : 2;
+      if (lane !== player.targetLane) sfx.playMove();
       player.targetLane = lane;
     };
 
