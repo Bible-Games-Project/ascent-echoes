@@ -176,8 +176,28 @@ export const sfx = {
     o.stop(t + 0.32);
   },
 
-  /** Subtle whoosh/slide for player movement. 5 variations, random non-repeating. */
+  /** Soft wind gust for player movement. 5 natural-wind variations. */
   _lastMoveIdx: -1 as number,
+  _noiseBuffer: null as AudioBuffer | null,
+  _getNoiseBuffer(c: AudioContext): AudioBuffer {
+    if (this._noiseBuffer && this._noiseBuffer.sampleRate === c.sampleRate) {
+      return this._noiseBuffer;
+    }
+    const len = Math.floor(c.sampleRate * 2); // 2s of noise, looped
+    const buf = c.createBuffer(1, len, c.sampleRate);
+    const data = buf.getChannelData(0);
+    // Pink-ish noise for warmer, more natural wind tone
+    let b0 = 0, b1 = 0, b2 = 0;
+    for (let i = 0; i < len; i++) {
+      const white = Math.random() * 2 - 1;
+      b0 = 0.99 * b0 + 0.0555 * white;
+      b1 = 0.96 * b1 + 0.0750 * white;
+      b2 = 0.85 * b2 + 0.1538 * white;
+      data[i] = (b0 + b1 + b2 + white * 0.2) * 0.25;
+    }
+    this._noiseBuffer = buf;
+    return buf;
+  },
   playMove() {
     if (!_enabled) return;
     const c = ctx();
@@ -185,29 +205,44 @@ export const sfx = {
     resumeIfNeeded();
     const t = now();
 
-    // 5 variations: [startFreq, endFreq, duration, peakGain, type]
-    const variants: Array<[number, number, number, number, OscillatorType]> = [
-      [520, 280, 0.16, 0.08, "sine"],      // soft low whoosh
-      [780, 520, 0.13, 0.07, "triangle"],  // higher airy slide
-      [900, 700, 0.08, 0.06, "sine"],      // short subtle swipe
-      [420, 220, 0.20, 0.09, "sine"],      // deeper smooth glide
-      [1000, 820, 0.10, 0.05, "triangle"], // light airy brush
+    // 5 wind variations: [duration, peakGain, filterStart, filterPeak, filterEnd, q]
+    const variants: Array<[number, number, number, number, number, number]> = [
+      [0.55, 0.085, 500, 1100, 600, 1.2],   // light breeze
+      [0.70, 0.095, 380, 900, 420, 1.0],    // medium wind gust
+      [0.60, 0.075, 700, 1400, 800, 1.5],   // airy wind flow
+      [0.85, 0.090, 260, 600, 280, 0.8],    // low atmospheric hum
+      [0.45, 0.070, 600, 1300, 700, 1.3],   // light natural sweep
     ];
     let idx = Math.floor(Math.random() * variants.length);
     if (idx === (this as any)._lastMoveIdx) idx = (idx + 1) % variants.length;
     (this as any)._lastMoveIdx = idx;
-    const [f0, f1, dur, peak, type] = variants[idx];
+    const [dur, peak, fStart, fPeak, fEnd, q] = variants[idx];
 
-    const o = c.createOscillator();
+    const src = c.createBufferSource();
+    src.buffer = this._getNoiseBuffer(c);
+    src.loop = true;
+    // Random start offset so each gust feels unique
+    const offset = Math.random() * src.buffer.duration;
+
+    const bp = c.createBiquadFilter();
+    bp.type = "bandpass";
+    bp.Q.value = q;
+    bp.frequency.setValueAtTime(fStart, t);
+    bp.frequency.linearRampToValueAtTime(fPeak, t + dur * 0.35);
+    bp.frequency.exponentialRampToValueAtTime(Math.max(60, fEnd), t + dur);
+
+    const lp = c.createBiquadFilter();
+    lp.type = "lowpass";
+    lp.frequency.value = 2200;
+
     const g = c.createGain();
-    o.type = type;
-    o.frequency.setValueAtTime(f0, t);
-    o.frequency.exponentialRampToValueAtTime(Math.max(40, f1), t + dur);
     g.gain.setValueAtTime(0, t);
-    g.gain.linearRampToValueAtTime(peak, t + 0.015);
-    g.gain.exponentialRampToValueAtTime(0.001, t + dur);
-    o.connect(g).connect(c.destination);
-    o.start(t);
-    o.stop(t + dur + 0.02);
+    g.gain.linearRampToValueAtTime(peak, t + dur * 0.25);
+    g.gain.linearRampToValueAtTime(peak * 0.6, t + dur * 0.6);
+    g.gain.exponentialRampToValueAtTime(0.0008, t + dur);
+
+    src.connect(bp).connect(lp).connect(g).connect(c.destination);
+    src.start(t, offset);
+    src.stop(t + dur + 0.05);
   },
 };
