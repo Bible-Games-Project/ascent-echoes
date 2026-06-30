@@ -2593,7 +2593,6 @@ const MORE_GAMES: MoreGame[] = [
     android: "https://www.biblegamesproject.com/true-christ",
     ios: "https://www.biblegamesproject.com/true-christ",
     pc: "https://store.steampowered.com/app/4244150/True_Christ/",
-    comingSoon: true,
   },
 ];
 
