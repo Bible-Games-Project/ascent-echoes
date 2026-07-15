@@ -1726,11 +1726,9 @@ export function Game() {
           <div className="pointer-events-none absolute inset-x-0 top-0 z-10 flex items-start justify-between px-3 pt-3">
             <div className="flex flex-col gap-1.5">
               <div className="flex items-center gap-1.5">
-                {maxLives < 3 && <LockedHeart />}
-                {[0, 1, 2].map((i) => {
-                  if (i >= maxLives) return null;
-                  return <Heart key={i} filled={i < health} />;
-                })}
+                {[0, 1, 2].map((i) => (
+                  <Heart key={i} filled={i < health} />
+                ))}
               </div>
               <div className="flex items-center gap-2 rounded-full bg-black/45 px-2.5 py-0.5 text-[10px] font-medium tracking-widest text-amber-100 backdrop-blur">
                 <span className="text-amber-200/70">{t("score")}</span>
@@ -2042,58 +2040,11 @@ export function Game() {
         />
       )}
 
-      {state === "offer" && (
-        <div className="absolute inset-0 z-40 flex items-center justify-center bg-black/70 backdrop-blur-md animate-fade-in px-4">
-          <div className="mx-4 max-w-sm rounded-2xl border border-amber-200/30 bg-black/80 p-6 text-center text-amber-50 shadow-[0_0_40px_rgba(255,200,140,0.3)]">
-            <div className="flex justify-center gap-2 text-2xl">
-              <span>❤️</span><span>❤️</span><span className="opacity-60">🔒</span>
-            </div>
-            <h3 className="mt-4 text-lg font-light tracking-[0.25em] text-amber-50">
-              {t("continueRunTitle")}
-            </h3>
-            <p className="mt-2 text-xs tracking-wide text-amber-100/70" style={{ fontFamily: '"Cormorant Garamond", Georgia, serif', fontSize: 15 }}>
-              {t("continueRunBody")}
-            </p>
-            <div className="mt-5 flex flex-col items-center gap-3">
-              <button
-                type="button"
-                disabled={adLoading}
-                onClick={async () => {
-                  setAdLoading(true);
-                  const ok = await simulateRewardedAd();
-                  setAdLoading(false);
-                  if (!ok) return;
-                  // Unlock the third life, restore exactly one life, resume.
-                  maxLivesRef.current = 3; setMaxLives(3);
-                  healthRef.current = 1; setHealth(1);
-                  extraLifeUsedRef.current = true; setExtraLifeUsed(true);
-                  stateRef.current = "playing"; setState("playing");
-                }}
-                className={
-                  "rounded-full px-7 py-2.5 text-xs font-medium tracking-[0.25em] transition-transform " +
-                  (adLoading
-                    ? "cursor-wait bg-amber-100/40 text-stone-900/60"
-                    : "bg-amber-100 text-stone-900 shadow-[0_0_30px_rgba(255,200,140,0.5)] hover:scale-105 active:scale-95")
-                }
-              >
-                {adLoading ? t("loadingAd") : `▶ ${t("watchAdContinue")}`}
-              </button>
-              <button
-                type="button"
-                disabled={adLoading}
-                onClick={() => {
-                  if (!devModeRef.current && scoreRef.current > bestRef.current) {
-                    bestRef.current = scoreRef.current;
-                    setBestScore(scoreRef.current);
-                    try { localStorage.setItem("dunewalker_best", String(scoreRef.current)); } catch { /* ignore */ }
-                  }
-                  stateRef.current = "gameover"; setState("gameover");
-                }}
-                className="rounded-full border border-amber-200/40 bg-black/30 px-6 py-2 text-[11px] tracking-[0.3em] text-amber-100/90 hover:border-amber-200/70 hover:text-amber-50"
-              >
-                {t("gameOverBtn")}
-              </button>
-            </div>
+      {showAd && (
+        <div className="absolute inset-0 z-50 flex items-center justify-center bg-black/95 backdrop-blur-md animate-fade-in">
+          <div className="text-center text-amber-50/80">
+            <div className="text-[10px] tracking-[0.5em] text-amber-200/70">{t("advertisement")}</div>
+            <div className="mt-3 text-xs tracking-[0.3em] text-amber-100/60">{t("loading")}</div>
           </div>
         </div>
       )}
@@ -2105,9 +2056,6 @@ export function Game() {
             setIsPremium(true);
             setIsPremiumState(true);
             isPremiumRef.current = true;
-            const m = 3;
-            setMaxLives(m); maxLivesRef.current = m;
-            setHealth((h) => Math.min(m, Math.max(h, m))); healthRef.current = m;
           }}
           onClose={() => setShowPremium(false)}
           t={t}
