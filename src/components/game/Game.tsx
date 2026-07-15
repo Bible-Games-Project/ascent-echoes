@@ -240,6 +240,12 @@ export function Game() {
       music.playHome();
     } else if (state === "gameover") {
       music.stop();
+      // Modular interstitial: engine decides eligibility (cooldown, frequency,
+      // premium, first-game guard). We just show the overlay while it runs.
+      if (interstitials.onGameCompleted()) {
+        setShowAd(true);
+        interstitials.showInterstitial().finally(() => setShowAd(false));
+      }
     }
   }, [state]);
 
