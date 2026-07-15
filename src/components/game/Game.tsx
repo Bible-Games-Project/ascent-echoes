@@ -12,7 +12,7 @@ import {
   type GameQuestion,
 } from "./questionBank";
 import { getT, type UIKey } from "./i18n";
-import { getIsPremium, setIsPremium, simulateRewardedAd } from "@/lib/monetization";
+import { getIsPremium, setIsPremium, interstitials, subscribePremium } from "@/lib/monetization";
 import { music } from "@/lib/music";
 import { sfx } from "@/lib/sfx";
 import {
@@ -46,7 +46,7 @@ import {
   type LeaderboardEntry,
 } from "@/lib/leaderboard";
 
-type GameState = "start" | "playing" | "offer" | "gameover";
+type GameState = "start" | "playing" | "gameover";
 type Lane = 0 | 1 | 2; // 0 left, 1 center, 2 right
 
 function formatRunTime(seconds: number): string {
@@ -115,10 +115,8 @@ export function Game() {
   const [correctTotal, setCorrectTotal] = useState(0);
   const [showExitConfirm, setShowExitConfirm] = useState(false);
   const [isPremium, setIsPremiumState] = useState(false);
-  const [maxLives, setMaxLives] = useState(2);
-  const [extraLifeUsed, setExtraLifeUsed] = useState(false);
-  const [adLoading, setAdLoading] = useState(false);
   const [showPremium, setShowPremium] = useState(false);
+  const [showAd, setShowAd] = useState(false);
   const [hintLane, setHintLane] = useState<Lane | null>(null);
   const [distortion, setDistortion] = useState(0);
   const [runTime, setRunTime] = useState(0);
@@ -181,25 +179,25 @@ export function Game() {
   const usedIdsRef = useRef<Set<string>>(new Set());
   const correctTotalRef = useRef(0);
   const isPremiumRef = useRef(false);
-  const maxLivesRef = useRef(2);
-  const extraLifeUsedRef = useRef(false);
 
   useEffect(() => { stateRef.current = state; }, [state]);
   useEffect(() => { healthRef.current = health; }, [health]);
   useEffect(() => { isPremiumRef.current = isPremium; }, [isPremium]);
-  useEffect(() => { maxLivesRef.current = maxLives; }, [maxLives]);
-  useEffect(() => { extraLifeUsedRef.current = extraLifeUsed; }, [extraLifeUsed]);
   useEffect(() => { devModeRef.current = devMode; }, [devMode]);
 
-  // Load premium flag from storage on mount.
+  // Load premium flag from storage on mount. Every player always starts with 3 lives.
   useEffect(() => {
     const p = getIsPremium();
     setIsPremiumState(p);
     isPremiumRef.current = p;
-    const m = p ? 3 : 2;
-    setMaxLives(m); maxLivesRef.current = m;
-    setHealth(m); healthRef.current = m;
+    setHealth(3); healthRef.current = 3;
     setEquippedAvatar(getEquippedAvatar());
+    // Keep local state in sync if premium is toggled (e.g. purchase mid-session).
+    const unsub = subscribePremium((v) => {
+      setIsPremiumState(v);
+      isPremiumRef.current = v;
+    });
+    return unsub;
   }, []);
   useEffect(() => {
     languageRef.current = language;
