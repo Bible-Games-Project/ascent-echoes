@@ -2610,7 +2610,6 @@ function PremiumOverlay({
 
         <ul className="mt-5 flex flex-col gap-2 text-left">
           <Bullet>{t("noAds")}</Bullet>
-          <Bullet>{t("threeLivesBenefit")}</Bullet>
           <Bullet>{t("unlimitedNameChanges")}</Bullet>
           <Bullet>{t("exclusiveAvatars")}</Bullet>
         </ul>
