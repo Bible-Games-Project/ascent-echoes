@@ -104,14 +104,9 @@ const en: Dict = {
   premium: "PREMIUM",
   premiumBenefits: "PREMIUM BENEFITS",
   noAds: "No advertisements",
-  threeLivesBenefit: "Three permanent lives",
+  advertisement: "ADVERTISEMENT",
   unlimitedNameChanges: "Unlimited name changes",
-  exclusiveAvatars: "Todos los avatares disponibles",
-  continueRunTitle: "CONTINUE YOUR RUN?",
-  continueRunBody: "Watch a short ad to unlock the third life and continue.",
-  watchAdContinue: "WATCH AD & CONTINUE",
-  gameOverBtn: "GAME OVER",
-  loadingAd: "LOADING AD…",
+  exclusiveAvatars: "All avatars unlocked",
   premiumActive: "PREMIUM ACTIVE",
   avatars: "AVATARS",
   goPremium: "GO PREMIUM",
@@ -165,7 +160,7 @@ const es: PartialDict = {
   comingSoon: "PRÓXIMAMENTE",
   premiumBenefits: "BENEFICIOS PREMIUM",
   noAds: "Sin anuncios",
-  threeLivesBenefit: "Tres vidas permanentes",
+  advertisement: "PUBLICIDAD",
   unlimitedNameChanges: "Cambios de nombre ilimitados",
   exclusiveAvatars: "Todos los avatares disponibles",
   premiumActive: "PREMIUM ACTIVO",
@@ -178,11 +173,6 @@ const es: PartialDict = {
   equip: "EQUIPAR",
   locked: "BLOQUEADO",
   bestRank: "Mejor rango",
-  continueRunTitle: "¿CONTINUAR LA PARTIDA?",
-  continueRunBody: "Mira un anuncio corto para desbloquear la tercera vida y continuar.",
-  watchAdContinue: "VER ANUNCIO Y CONTINUAR",
-  gameOverBtn: "FIN DE LA PARTIDA",
-  loadingAd: "CARGANDO ANUNCIO…",
 };
 
 const pt: PartialDict = {
@@ -226,7 +216,7 @@ const pt: PartialDict = {
   comingSoon: "EM BREVE",
   premiumBenefits: "BENEFÍCIOS PREMIUM",
   noAds: "Sem anúncios",
-  threeLivesBenefit: "Três vidas permanentes",
+  advertisement: "PUBLICIDADE",
   unlimitedNameChanges: "Trocas de nome ilimitadas",
   exclusiveAvatars: "Todos os avatares disponíveis",
   premiumActive: "PREMIUM ATIVO",
@@ -239,11 +229,6 @@ const pt: PartialDict = {
   equip: "EQUIPAR",
   locked: "BLOQUEADO",
   bestRank: "Melhor rank",
-  continueRunTitle: "CONTINUAR A PARTIDA?",
-  continueRunBody: "Assista a um anúncio curto para desbloquear a terceira vida e continuar.",
-  watchAdContinue: "ASSISTIR ANÚNCIO E CONTINUAR",
-  gameOverBtn: "FIM DE JOGO",
-  loadingAd: "CARREGANDO ANÚNCIO…",
 };
 
 const fr: PartialDict = {
@@ -287,7 +272,7 @@ const fr: PartialDict = {
   comingSoon: "BIENTÔT",
   premiumBenefits: "AVANTAGES PREMIUM",
   noAds: "Aucune publicité",
-  threeLivesBenefit: "Trois vies permanentes",
+  advertisement: "PUBLICITÉ",
   unlimitedNameChanges: "Changements de nom illimités",
   exclusiveAvatars: "Tous les avatars disponibles",
   premiumActive: "PREMIUM ACTIF",
@@ -300,11 +285,6 @@ const fr: PartialDict = {
   equip: "ÉQUIPER",
   locked: "VERROUILLÉ",
   bestRank: "Meilleur rang",
-  continueRunTitle: "CONTINUER LA PARTIE ?",
-  continueRunBody: "Regarde une courte publicité pour débloquer la troisième vie et continuer.",
-  watchAdContinue: "REGARDER LA PUB ET CONTINUER",
-  gameOverBtn: "FIN DE PARTIE",
-  loadingAd: "CHARGEMENT DE LA PUB…",
 };
 
 const de: PartialDict = {
@@ -348,7 +328,7 @@ const de: PartialDict = {
   comingSoon: "DEMNÄCHST",
   premiumBenefits: "PREMIUM-VORTEILE",
   noAds: "Keine Werbung",
-  threeLivesBenefit: "Drei dauerhafte Leben",
+  advertisement: "WERBUNG",
   unlimitedNameChanges: "Unbegrenzte Namensänderungen",
   exclusiveAvatars: "Alle Avatare verfügbar",
   premiumActive: "PREMIUM AKTIV",
@@ -361,11 +341,6 @@ const de: PartialDict = {
   equip: "AUSRÜSTEN",
   locked: "GESPERRT",
   bestRank: "Bester Rang",
-  continueRunTitle: "LAUF FORTSETZEN?",
-  continueRunBody: "Sieh dir eine kurze Werbung an, um das dritte Leben freizuschalten und weiterzuspielen.",
-  watchAdContinue: "WERBUNG ANSEHEN & WEITER",
-  gameOverBtn: "SPIEL VORBEI",
-  loadingAd: "WERBUNG LÄDT…",
 };
 
 const it: PartialDict = {
@@ -409,7 +384,7 @@ const it: PartialDict = {
   comingSoon: "PROSSIMAMENTE",
   premiumBenefits: "VANTAGGI PREMIUM",
   noAds: "Nessuna pubblicità",
-  threeLivesBenefit: "Tre vite permanenti",
+  advertisement: "PUBBLICITÀ",
   unlimitedNameChanges: "Cambi nome illimitati",
   exclusiveAvatars: "Tutti gli avatar disponibili",
   premiumActive: "PREMIUM ATTIVO",
@@ -422,11 +397,6 @@ const it: PartialDict = {
   equip: "EQUIPAGGIA",
   locked: "BLOCCATO",
   bestRank: "Miglior rango",
-  continueRunTitle: "CONTINUARE LA PARTITA?",
-  continueRunBody: "Guarda un breve annuncio per sbloccare la terza vita e continuare.",
-  watchAdContinue: "GUARDA L'ANNUNCIO E CONTINUA",
-  gameOverBtn: "PARTITA FINITA",
-  loadingAd: "CARICAMENTO ANNUNCIO…",
 };
 
 const pl: PartialDict = {
@@ -470,7 +440,7 @@ const pl: PartialDict = {
   comingSoon: "WKRÓTCE",
   premiumBenefits: "KORZYŚCI PREMIUM",
   noAds: "Bez reklam",
-  threeLivesBenefit: "Trzy stałe życia",
+  advertisement: "REKLAMA",
   unlimitedNameChanges: "Nieograniczone zmiany imienia",
   exclusiveAvatars: "Wszystkie awatary dostępne",
   premiumActive: "PREMIUM AKTYWNE",
@@ -483,11 +453,6 @@ const pl: PartialDict = {
   equip: "WYBIERZ",
   locked: "ZABLOKOWANE",
   bestRank: "Najlepsza ranga",
-  continueRunTitle: "KONTYNUOWAĆ GRĘ?",
-  continueRunBody: "Obejrzyj krótką reklamę, aby odblokować trzecie życie i grać dalej.",
-  watchAdContinue: "OBEJRZYJ REKLAMĘ I GRAJ DALEJ",
-  gameOverBtn: "KONIEC GRY",
-  loadingAd: "ŁADOWANIE REKLAMY…",
 };
 
 const ru: PartialDict = {
@@ -531,7 +496,7 @@ const ru: PartialDict = {
   comingSoon: "СКОРО",
   premiumBenefits: "ПРЕИМУЩЕСТВА PREMIUM",
   noAds: "Без рекламы",
-  threeLivesBenefit: "Три постоянные жизни",
+  advertisement: "РЕКЛАМА",
   unlimitedNameChanges: "Безлимит смены имени",
   exclusiveAvatars: "Все аватары доступны",
   premiumActive: "PREMIUM АКТИВНО",
@@ -544,11 +509,6 @@ const ru: PartialDict = {
   equip: "ВЫБРАТЬ",
   locked: "ЗАКРЫТО",
   bestRank: "Лучший ранг",
-  continueRunTitle: "ПРОДОЛЖИТЬ ЗАБЕГ?",
-  continueRunBody: "Посмотри короткую рекламу, чтобы открыть третью жизнь и продолжить.",
-  watchAdContinue: "СМОТРЕТЬ РЕКЛАМУ И ПРОДОЛЖИТЬ",
-  gameOverBtn: "ИГРА ОКОНЧЕНА",
-  loadingAd: "ЗАГРУЗКА РЕКЛАМЫ…",
 };
 
 const tr: PartialDict = {
@@ -592,7 +552,7 @@ const tr: PartialDict = {
   comingSoon: "YAKINDA",
   premiumBenefits: "PREMIUM AVANTAJLARI",
   noAds: "Reklam yok",
-  threeLivesBenefit: "Üç kalıcı can",
+  advertisement: "REKLAM",
   unlimitedNameChanges: "Sınırsız isim değişimi",
   exclusiveAvatars: "Tüm avatarlar açık",
   premiumActive: "PREMIUM AKTİF",
@@ -605,11 +565,6 @@ const tr: PartialDict = {
   equip: "KUŞAN",
   locked: "KİLİTLİ",
   bestRank: "En iyi sıra",
-  continueRunTitle: "OYUNA DEVAM EDİLSİN Mİ?",
-  continueRunBody: "Üçüncü canı açmak ve devam etmek için kısa bir reklam izle.",
-  watchAdContinue: "REKLAM İZLE VE DEVAM ET",
-  gameOverBtn: "OYUN BİTTİ",
-  loadingAd: "REKLAM YÜKLENİYOR…",
 };
 
 const ja: PartialDict = {
@@ -653,7 +608,7 @@ const ja: PartialDict = {
   comingSoon: "近日公開",
   premiumBenefits: "プレミアム特典",
   noAds: "広告なし",
-  threeLivesBenefit: "永続3ライフ",
+  advertisement: "広告",
   unlimitedNameChanges: "名前変更無制限",
   exclusiveAvatars: "全アバター利用可能",
   premiumActive: "プレミアム有効",
@@ -666,11 +621,6 @@ const ja: PartialDict = {
   equip: "装備",
   locked: "ロック中",
   bestRank: "最高ランク",
-  continueRunTitle: "ゲームを続けますか？",
-  continueRunBody: "短い広告を見ると3つ目のライフが解放され、続行できます。",
-  watchAdContinue: "広告を見て続行",
-  gameOverBtn: "ゲームオーバー",
-  loadingAd: "広告を読み込み中…",
 };
 
 const ko: PartialDict = {
@@ -714,7 +664,7 @@ const ko: PartialDict = {
   comingSoon: "출시 예정",
   premiumBenefits: "프리미엄 혜택",
   noAds: "광고 없음",
-  threeLivesBenefit: "영구 3개 생명",
+  advertisement: "광고",
   unlimitedNameChanges: "이름 변경 무제한",
   exclusiveAvatars: "모든 아바타 사용 가능",
   premiumActive: "프리미엄 활성",
@@ -727,11 +677,6 @@ const ko: PartialDict = {
   equip: "장착",
   locked: "잠김",
   bestRank: "최고 랭크",
-  continueRunTitle: "게임을 계속할까요?",
-  continueRunBody: "짧은 광고를 시청하면 세 번째 생명이 해제되고 계속할 수 있습니다.",
-  watchAdContinue: "광고 보고 계속하기",
-  gameOverBtn: "게임 오버",
-  loadingAd: "광고 로딩 중…",
 };
 
 const ar: PartialDict = {
@@ -775,7 +720,7 @@ const ar: PartialDict = {
   comingSoon: "قريباً",
   premiumBenefits: "مزايا بريميوم",
   noAds: "بدون إعلانات",
-  threeLivesBenefit: "ثلاث أرواح دائمة",
+  advertisement: "إعلان",
   unlimitedNameChanges: "تغيير الاسم بلا حدود",
   exclusiveAvatars: "جميع الأفاتار متاحة",
   premiumActive: "بريميوم مفعل",
@@ -788,11 +733,6 @@ const ar: PartialDict = {
   equip: "تجهيز",
   locked: "مقفل",
   bestRank: "أفضل ترتيب",
-  continueRunTitle: "هل تريد متابعة الجولة؟",
-  continueRunBody: "شاهد إعلاناً قصيراً لفتح الحياة الثالثة والمتابعة.",
-  watchAdContinue: "شاهد الإعلان وتابع",
-  gameOverBtn: "انتهت اللعبة",
-  loadingAd: "جارٍ تحميل الإعلان…",
 };
 
 const DICTS: Record<Language, PartialDict> = {
