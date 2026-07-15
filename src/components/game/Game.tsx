@@ -1306,10 +1306,7 @@ export function Game() {
       hintActive = null;
       particles.length = 0;
       powerups.length = 0;
-      const startMax = (isPremiumRef.current || devModeRef.current) ? 3 : 2;
-      maxLivesRef.current = startMax; setMaxLives(startMax);
-      setHealth(startMax); healthRef.current = startMax;
-      extraLifeUsedRef.current = false; setExtraLifeUsed(false);
+      setHealth(3); healthRef.current = 3;
       setProgress(0); progressRef.current = 0;
       scoreRef.current = 0; setScore(0);
       streakRef.current = 0; setStreak(0);
@@ -1334,11 +1331,6 @@ export function Game() {
       spawnImpact(sxImpact, syImpact);
       streakRef.current = 0; setStreak(0);
       if (nh <= 0) {
-        // Free players get one rewarded-ad continue per run.
-        if (!isPremiumRef.current && !devModeRef.current && !extraLifeUsedRef.current) {
-          stateRef.current = "offer"; setState("offer");
-          return;
-        }
         if (!devModeRef.current && scoreRef.current > bestRef.current) {
           bestRef.current = scoreRef.current;
           setBestScore(scoreRef.current);
