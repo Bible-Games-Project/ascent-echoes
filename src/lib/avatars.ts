@@ -138,10 +138,9 @@ export const recordRank = (rank: number | null | undefined) => mutate((s) => {
   if (s.bestRank === 0 || rank < s.bestRank) s.bestRank = rank;
 });
 
-export function isUnlocked(def: AvatarDef, stats: AvatarStats, premium: boolean): boolean {
+export function isUnlocked(def: AvatarDef, stats: AvatarStats): boolean {
   if (isDevModeUnlock()) return true;
-  if (def.premium) return premium;
-  if (premium) return true; // premium unlocks ALL
+  if (isGrandfathered(def.id)) return true;
   const u = def.unlock;
   switch (u.kind) {
     case "default": return true;
@@ -154,7 +153,6 @@ export function isUnlocked(def: AvatarDef, stats: AvatarStats, premium: boolean)
     case "daysPlayed": return stats.daysPlayed.length >= (u.target ?? 0);
     case "allDifficultiesInOneRun": return stats.allDifficultiesEver;
     case "bestRankTop": return stats.bestRank > 0 && stats.bestRank <= (u.target ?? 0);
-    case "premium": return premium;
   }
 }
 
@@ -194,7 +192,6 @@ export function progressFor(def: AvatarDef, stats: AvatarStats): ProgressInfo {
         requirement: `Reach Top ${tgt} global rank`,
       };
     }
-    case "premium": return { current: 0, target: 1, label: "Premium", requirement: "Premium exclusive" };
   }
 }
 
@@ -210,7 +207,7 @@ export function setEquipped(id: AvatarId): AvatarId {
   const stats = getStats();
   const def = AVATARS.find((a) => a.id === id);
   if (!def) return getEquipped();
-  if (!isUnlocked(def, stats, getIsPremium())) return getEquipped();
+  if (!isUnlocked(def, stats)) return getEquipped();
   try { localStorage.setItem(EQUIP_KEY, id); } catch { /* ignore */ }
   return id;
 }
