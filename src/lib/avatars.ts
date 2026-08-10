@@ -1,7 +1,5 @@
 // Avatar progression system. Pure cosmetic, device-local. No gameplay effect.
 
-import { getIsPremium } from "@/lib/monetization";
-
 function isDevModeUnlock(): boolean {
   try { return typeof localStorage !== "undefined" && localStorage.getItem("btr_dev_mode") === "1"; }
   catch { return false; }
@@ -39,15 +37,13 @@ export type UnlockKind =
   | "bonusesCollected"
   | "daysPlayed"
   | "allDifficultiesInOneRun"
-  | "bestRankTop"
-  | "premium";
+  | "bestRankTop";
 
 export interface AvatarDef {
   id: AvatarId;
   name: string;
   glyph: string; // accessibility / fallback label only
   unlock: { kind: UnlockKind; target?: number };
-  premium?: boolean; // premium-exclusive
 }
 
 export const AVATARS: AvatarDef[] = [
@@ -68,9 +64,9 @@ export const AVATARS: AvatarDef[] = [
   { id: "laurel",       name: "Saint Halo",        glyph: "⭕", unlock: { kind: "bestRankTop", target: 100 } },
   { id: "celestial",    name: "Chalice",           glyph: "🏆", unlock: { kind: "bestRankTop", target: 10 } },
   { id: "black_dove",   name: "Black Dove",        glyph: "🕊", unlock: { kind: "correctTotal", target: 1000 } },
-  { id: "crown",        name: "King's Crown",      glyph: "👑", unlock: { kind: "premium" }, premium: true },
-  { id: "shield",       name: "Shield of Faith",   glyph: "🛡", unlock: { kind: "premium" }, premium: true },
-  { id: "seraph_dove",  name: "Golden Seraph Dove", glyph: "🪽", unlock: { kind: "premium" }, premium: true },
+  { id: "crown",        name: "King's Crown",      glyph: "👑", unlock: { kind: "gamesPlayed", target: 1000 } },
+  { id: "shield",       name: "Shield of Faith",   glyph: "🛡", unlock: { kind: "gamesPlayed", target: 5000 } },
+  { id: "seraph_dove",  name: "Golden Seraph Dove", glyph: "🪽", unlock: { kind: "gamesPlayed", target: 10000 } },
 ];
 
 export const DEFAULT_AVATAR: AvatarId = "white_dove";
@@ -89,6 +85,35 @@ export interface AvatarStats {
 
 const STATS_KEY = "btr_avatar_stats_v1";
 const EQUIP_KEY = "btr_avatar_equipped_v1";
+const GRANDFATHER_KEY = "btr_avatar_grandfathered_v1";
+
+// Avatars that used to be unlocked by the removed Premium purchase. Players who
+// already owned Premium keep them unlocked forever; the flag is persisted once
+// so the unlock survives every future session.
+const LEGACY_PREMIUM_AVATARS: AvatarId[] = ["crown", "shield", "seraph_dove"];
+
+let grandfatheredCache: Set<AvatarId> | null = null;
+
+function getGrandfathered(): Set<AvatarId> {
+  if (grandfatheredCache) return grandfatheredCache;
+  const set = new Set<AvatarId>();
+  try {
+    const raw = localStorage.getItem(GRANDFATHER_KEY);
+    if (raw) {
+      for (const id of JSON.parse(raw) as AvatarId[]) set.add(id);
+    } else if (localStorage.getItem("btr_premium") === "1") {
+      // One-time migration from the old Premium flag.
+      for (const id of LEGACY_PREMIUM_AVATARS) set.add(id);
+      localStorage.setItem(GRANDFATHER_KEY, JSON.stringify([...set]));
+    }
+  } catch { /* ignore */ }
+  grandfatheredCache = set;
+  return set;
+}
+
+function isGrandfathered(id: AvatarId): boolean {
+  return getGrandfathered().has(id);
+}
 
 function emptyStats(): AvatarStats {
   return {
@@ -142,10 +167,9 @@ export const recordRank = (rank: number | null | undefined) => mutate((s) => {
   if (s.bestRank === 0 || rank < s.bestRank) s.bestRank = rank;
 });
 
-export function isUnlocked(def: AvatarDef, stats: AvatarStats, premium: boolean): boolean {
+export function isUnlocked(def: AvatarDef, stats: AvatarStats): boolean {
   if (isDevModeUnlock()) return true;
-  if (def.premium) return premium;
-  if (premium) return true; // premium unlocks ALL
+  if (isGrandfathered(def.id)) return true;
   const u = def.unlock;
   switch (u.kind) {
     case "default": return true;
@@ -158,7 +182,6 @@ export function isUnlocked(def: AvatarDef, stats: AvatarStats, premium: boolean)
     case "daysPlayed": return stats.daysPlayed.length >= (u.target ?? 0);
     case "allDifficultiesInOneRun": return stats.allDifficultiesEver;
     case "bestRankTop": return stats.bestRank > 0 && stats.bestRank <= (u.target ?? 0);
-    case "premium": return premium;
   }
 }
 
@@ -198,7 +221,6 @@ export function progressFor(def: AvatarDef, stats: AvatarStats): ProgressInfo {
         requirement: `Reach Top ${tgt} global rank`,
       };
     }
-    case "premium": return { current: 0, target: 1, label: "Premium", requirement: "Premium exclusive" };
   }
 }
 
@@ -214,7 +236,7 @@ export function setEquipped(id: AvatarId): AvatarId {
   const stats = getStats();
   const def = AVATARS.find((a) => a.id === id);
   if (!def) return getEquipped();
-  if (!isUnlocked(def, stats, getIsPremium())) return getEquipped();
+  if (!isUnlocked(def, stats)) return getEquipped();
   try { localStorage.setItem(EQUIP_KEY, id); } catch { /* ignore */ }
   return id;
 }

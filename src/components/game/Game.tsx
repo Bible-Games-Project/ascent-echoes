@@ -12,7 +12,6 @@ import {
   type GameQuestion,
 } from "./questionBank";
 import { getT, type UIKey } from "./i18n";
-import { getIsPremium, setIsPremium, interstitials, subscribePremium } from "@/lib/monetization";
 import { music } from "@/lib/music";
 import { sfx } from "@/lib/sfx";
 import {
@@ -114,9 +113,6 @@ export function Game() {
   const [multiplierToast, setMultiplierToast] = useState<number | null>(null);
   const [correctTotal, setCorrectTotal] = useState(0);
   const [showExitConfirm, setShowExitConfirm] = useState(false);
-  const [isPremium, setIsPremiumState] = useState(false);
-  const [showPremium, setShowPremium] = useState(false);
-  const [showAd, setShowAd] = useState(false);
   const [hintLane, setHintLane] = useState<Lane | null>(null);
   const [distortion, setDistortion] = useState(0);
   const [runTime, setRunTime] = useState(0);
@@ -150,7 +146,7 @@ export function Game() {
   const equippedAvatarRef = useRef<AvatarId>("white_dove");
   useEffect(() => { equippedAvatarRef.current = equippedAvatar; }, [equippedAvatar]);
 
-  // Dev mode (testing only — never affects real monetization or leaderboard)
+  // Dev mode (testing only — never affects the leaderboard)
   const [devMode, setDevMode] = useState<boolean>(() => {
     try { return localStorage.getItem("btr_dev_mode") === "1"; } catch { return false; }
   });
@@ -178,26 +174,15 @@ export function Game() {
   const languageRef = useRef<Language>(language);
   const usedIdsRef = useRef<Set<string>>(new Set());
   const correctTotalRef = useRef(0);
-  const isPremiumRef = useRef(false);
 
   useEffect(() => { stateRef.current = state; }, [state]);
   useEffect(() => { healthRef.current = health; }, [health]);
-  useEffect(() => { isPremiumRef.current = isPremium; }, [isPremium]);
   useEffect(() => { devModeRef.current = devMode; }, [devMode]);
 
-  // Load premium flag from storage on mount. Every player always starts with 3 lives.
+  // Every player always starts with 3 lives.
   useEffect(() => {
-    const p = getIsPremium();
-    setIsPremiumState(p);
-    isPremiumRef.current = p;
     setHealth(3); healthRef.current = 3;
     setEquippedAvatar(getEquippedAvatar());
-    // Keep local state in sync if premium is toggled (e.g. purchase mid-session).
-    const unsub = subscribePremium((v) => {
-      setIsPremiumState(v);
-      isPremiumRef.current = v;
-    });
-    return unsub;
   }, []);
   useEffect(() => {
     languageRef.current = language;
@@ -240,12 +225,6 @@ export function Game() {
       music.playHome();
     } else if (state === "gameover") {
       music.stop();
-      // Modular interstitial: engine decides eligibility (cooldown, frequency,
-      // premium, first-game guard). We just show the overlay while it runs.
-      if (interstitials.onGameCompleted()) {
-        setShowAd(true);
-        interstitials.showInterstitial().finally(() => setShowAd(false));
-      }
     }
   }, [state]);
 
@@ -1874,7 +1853,6 @@ export function Game() {
           <MainMenuGroups
             t={t}
             equippedAvatar={equippedAvatar}
-            isPremium={isPremium}
             onAvatars={() => setShowAvatars(true)}
             onLeaderboard={async () => {
               setShowLeaderboard(true);
@@ -1882,7 +1860,6 @@ export function Game() {
               const tops = await fetchTop10();
               setTopTen(tops); // full replacement, never merged
             }}
-            onPremium={() => setShowPremium(true)}
             onMoreGames={() => setShowMoreGames(true)}
           />
         </Overlay>
@@ -1970,7 +1947,7 @@ export function Game() {
           onToggleDevMode={toggleDevMode}
           onResetAll={() => {
             const ok = typeof window !== "undefined"
-              ? window.confirm("Reset ALL data? This will clear name, premium, progress, avatars, and settings.")
+              ? window.confirm("Reset ALL data? This will clear name, progress, avatars, and settings.")
               : true;
             if (!ok) return;
             try {
@@ -1979,8 +1956,6 @@ export function Game() {
             } catch { /* ignore */ }
             try { window.location.reload(); } catch { /* ignore */ }
           }}
-          isPremium={isPremium}
-          onPremium={() => { setShowSettings(false); setShowPremium(true); }}
           musicOn={musicOn}
           onToggleMusic={toggleMusic}
           t={t}
@@ -2037,33 +2012,10 @@ export function Game() {
 
       {showAvatars && (
         <AvatarsOverlay
-          isPremium={isPremium}
           equipped={equippedAvatar}
           onEquip={(id) => setEquippedAvatar(id)}
           onClose={() => setShowAvatars(false)}
           title={t("avatars")}
-          t={t}
-        />
-      )}
-
-      {showAd && (
-        <div className="absolute inset-0 z-50 flex items-center justify-center bg-black/95 backdrop-blur-md animate-fade-in">
-          <div className="text-center text-amber-50/80">
-            <div className="text-[10px] tracking-[0.5em] text-amber-200/70">{t("advertisement")}</div>
-            <div className="mt-3 text-xs tracking-[0.3em] text-amber-100/60">{t("loading")}</div>
-          </div>
-        </div>
-      )}
-
-      {showPremium && (
-        <PremiumOverlay
-          isPremium={isPremium}
-          onPurchase={() => {
-            setIsPremium(true);
-            setIsPremiumState(true);
-            isPremiumRef.current = true;
-          }}
-          onClose={() => setShowPremium(false)}
           t={t}
         />
       )}
@@ -2173,11 +2125,9 @@ function MenuSection({ label, children }: { label: string; children: React.React
 
 function MenuButton({
   onClick,
-  active,
   children,
 }: {
   onClick: () => void;
-  active?: boolean;
   children: React.ReactNode;
 }) {
   return (
@@ -2185,10 +2135,7 @@ function MenuButton({
       type="button"
       onClick={onClick}
       className={
-        "rounded-full border px-4 py-1.5 text-[10px] tracking-[0.25em] backdrop-blur transition " +
-        (active
-          ? "border-amber-200/70 bg-amber-200/20 text-amber-50 shadow-[0_0_18px_rgba(255,200,140,0.4)]"
-          : "border-amber-200/30 bg-black/30 text-amber-100/80 hover:border-amber-200/60 hover:text-amber-50")
+        "rounded-full border border-amber-200/30 bg-black/30 px-4 py-1.5 text-[10px] tracking-[0.25em] text-amber-100/80 backdrop-blur transition hover:border-amber-200/60 hover:text-amber-50"
       }
     >
       {children}
@@ -2199,18 +2146,14 @@ function MenuButton({
 function MainMenuGroups({
   t,
   equippedAvatar,
-  isPremium,
   onAvatars,
   onLeaderboard,
-  onPremium,
   onMoreGames,
 }: {
   t: (key: UIKey) => string;
   equippedAvatar: AvatarId;
-  isPremium: boolean;
   onAvatars: () => void;
   onLeaderboard: () => void;
-  onPremium: () => void;
   onMoreGames: () => void;
 }) {
   return (
@@ -2225,10 +2168,7 @@ function MainMenuGroups({
         <span>{t("avatars")}</span>
       </button>
       <MenuButton onClick={onLeaderboard}>{t("leaderboard")}</MenuButton>
-      <div className="flex items-center justify-center gap-3">
-        <MenuButton onClick={onPremium} active={isPremium}>★ {t("premium")}</MenuButton>
-        <MenuButton onClick={onMoreGames}>{t("moreGames")}</MenuButton>
-      </div>
+      <MenuButton onClick={onMoreGames}>{t("moreGames")}</MenuButton>
     </div>
   );
 }
@@ -2335,8 +2275,6 @@ function SettingsOverlay({
   devMode,
   onToggleDevMode,
   onResetAll,
-  isPremium,
-  onPremium,
   musicOn,
   onToggleMusic,
   t,
@@ -2349,8 +2287,6 @@ function SettingsOverlay({
   devMode: boolean;
   onToggleDevMode: () => void;
   onResetAll: () => void;
-  isPremium: boolean;
-  onPremium: () => void;
   musicOn: boolean;
   onToggleMusic: () => void;
   t: (key: UIKey) => string;
@@ -2366,16 +2302,10 @@ function SettingsOverlay({
             <div className="mt-1 text-base text-amber-50">{name || "—"}</div>
           </div>
           <button
-            onClick={isPremium ? onChangeName : onPremium}
-            className={
-              "rounded-full border px-3 py-1.5 text-[10px] tracking-[0.25em] " +
-              (isPremium
-                ? "border-amber-200/40 bg-black/30 text-amber-100/90 hover:border-amber-200/70 hover:text-amber-50"
-                : "border-amber-200/30 bg-black/20 text-amber-200/70 hover:border-amber-200/60 hover:text-amber-100")
-            }
-            title={isPremium ? undefined : t("premiumOnly")}
+            onClick={onChangeName}
+            className="rounded-full border border-amber-200/40 bg-black/30 px-3 py-1.5 text-[10px] tracking-[0.25em] text-amber-100/90 hover:border-amber-200/70 hover:text-amber-50"
           >
-            {isPremium ? t("change") : `★ ${t("premiumOnly")}`}
+            {t("change")}
           </button>
         </div>
       </div>
@@ -2579,62 +2509,6 @@ function MoreGamesOverlay({ onClose, t }: { onClose: () => void; t: (key: UIKey)
         >
           {t("close")}
         </button>
-      </div>
-    </div>
-  );
-}
-
-function PremiumOverlay({
-  isPremium,
-  onPurchase,
-  onClose,
-  t,
-}: {
-  isPremium: boolean;
-  onPurchase: () => void;
-  onClose: () => void;
-  t: (key: UIKey) => string;
-}) {
-  const Bullet = ({ children }: { children: React.ReactNode }) => (
-    <li className="flex items-start gap-2 text-sm tracking-wide text-amber-50/90" style={{ fontFamily: '"Cormorant Garamond", Georgia, serif', fontSize: 17 }}>
-      <span className="mt-0.5 text-amber-200">✦</span>
-      <span>{children}</span>
-    </li>
-  );
-  return (
-    <div className="absolute inset-0 z-40 flex flex-col items-center justify-center bg-black/75 backdrop-blur-md animate-fade-in px-4">
-      <div className="mx-4 w-[min(92vw,420px)] rounded-2xl border border-amber-200/40 bg-black/80 p-6 text-center text-amber-50 shadow-[0_0_50px_rgba(255,200,140,0.35)]">
-        <div className="text-[10px] tracking-[0.35em] text-amber-200/80">★ {t("premium")} ★</div>
-        <h2 className="mt-2 text-2xl font-light tracking-[0.25em] text-amber-50">BIBLE TRIVIA RUN</h2>
-        <p className="mt-1 text-[10px] tracking-[0.3em] text-amber-200/70">{t("premiumBenefits")}</p>
-
-        <ul className="mt-5 flex flex-col gap-2 text-left">
-          <Bullet>{t("noAds")}</Bullet>
-          <Bullet>{t("unlimitedNameChanges")}</Bullet>
-          <Bullet>{t("exclusiveAvatars")}</Bullet>
-        </ul>
-
-        <div className="mt-6 flex flex-col items-center gap-3">
-          {isPremium ? (
-            <div className="rounded-full bg-amber-200/25 px-5 py-2 text-[11px] tracking-[0.3em] text-amber-50 ring-1 ring-amber-200/60">
-              ★ {t("premiumActive")} ★
-            </div>
-          ) : (
-            <button
-              type="button"
-              onClick={onPurchase}
-              className="rounded-full bg-amber-100 px-7 py-2.5 text-xs font-semibold tracking-[0.25em] text-stone-900 shadow-[0_0_24px_rgba(255,200,140,0.5)] hover:bg-amber-50"
-            >
-              ★ {t("goPremium")} ★
-            </button>
-          )}
-          <button
-            onClick={onClose}
-            className="rounded-full border border-amber-200/40 bg-black/30 px-6 py-2 text-xs tracking-[0.25em] text-amber-100/90 backdrop-blur hover:border-amber-200/70 hover:text-amber-50"
-          >
-            {t("close")}
-          </button>
-        </div>
       </div>
     </div>
   );
