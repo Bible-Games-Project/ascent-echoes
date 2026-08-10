@@ -12,7 +12,6 @@ import {
   type GameQuestion,
 } from "./questionBank";
 import { getT, type UIKey } from "./i18n";
-import { getIsPremium, setIsPremium, interstitials, subscribePremium } from "@/lib/monetization";
 import { music } from "@/lib/music";
 import { sfx } from "@/lib/sfx";
 import {
@@ -114,9 +113,6 @@ export function Game() {
   const [multiplierToast, setMultiplierToast] = useState<number | null>(null);
   const [correctTotal, setCorrectTotal] = useState(0);
   const [showExitConfirm, setShowExitConfirm] = useState(false);
-  const [isPremium, setIsPremiumState] = useState(false);
-  const [showPremium, setShowPremium] = useState(false);
-  const [showAd, setShowAd] = useState(false);
   const [hintLane, setHintLane] = useState<Lane | null>(null);
   const [distortion, setDistortion] = useState(0);
   const [runTime, setRunTime] = useState(0);
@@ -150,7 +146,7 @@ export function Game() {
   const equippedAvatarRef = useRef<AvatarId>("white_dove");
   useEffect(() => { equippedAvatarRef.current = equippedAvatar; }, [equippedAvatar]);
 
-  // Dev mode (testing only — never affects real monetization or leaderboard)
+  // Dev mode (testing only — never affects the leaderboard)
   const [devMode, setDevMode] = useState<boolean>(() => {
     try { return localStorage.getItem("btr_dev_mode") === "1"; } catch { return false; }
   });
@@ -178,26 +174,15 @@ export function Game() {
   const languageRef = useRef<Language>(language);
   const usedIdsRef = useRef<Set<string>>(new Set());
   const correctTotalRef = useRef(0);
-  const isPremiumRef = useRef(false);
 
   useEffect(() => { stateRef.current = state; }, [state]);
   useEffect(() => { healthRef.current = health; }, [health]);
-  useEffect(() => { isPremiumRef.current = isPremium; }, [isPremium]);
   useEffect(() => { devModeRef.current = devMode; }, [devMode]);
 
-  // Load premium flag from storage on mount. Every player always starts with 3 lives.
+  // Every player always starts with 3 lives.
   useEffect(() => {
-    const p = getIsPremium();
-    setIsPremiumState(p);
-    isPremiumRef.current = p;
     setHealth(3); healthRef.current = 3;
     setEquippedAvatar(getEquippedAvatar());
-    // Keep local state in sync if premium is toggled (e.g. purchase mid-session).
-    const unsub = subscribePremium((v) => {
-      setIsPremiumState(v);
-      isPremiumRef.current = v;
-    });
-    return unsub;
   }, []);
   useEffect(() => {
     languageRef.current = language;
