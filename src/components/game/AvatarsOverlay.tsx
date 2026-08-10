@@ -11,7 +11,6 @@ import { PlayerAvatar as AvatarIcon } from "./PlayerAvatar";
 import type { UIKey } from "./i18n";
 
 type Props = {
-  isPremium: boolean;
   equipped: AvatarId;
   onEquip: (id: AvatarId) => void;
   onClose: () => void;
@@ -19,11 +18,11 @@ type Props = {
   t: (key: UIKey) => string;
 };
 
-export function AvatarsOverlay({ isPremium, equipped, onEquip, onClose, title, t }: Props) {
+export function AvatarsOverlay({ equipped, onEquip, onClose, title, t }: Props) {
   const stats = useMemo(() => getStats(), []);
   const [selected, setSelected] = useState<AvatarId>(equipped);
   const selectedDef = AVATARS.find((a) => a.id === selected)!;
-  const selectedUnlocked = isUnlocked(selectedDef, stats, isPremium);
+  const selectedUnlocked = isUnlocked(selectedDef, stats);
   const selectedProg = progressFor(selectedDef, stats);
 
   const handleEquip = () => {
@@ -36,12 +35,12 @@ export function AvatarsOverlay({ isPremium, equipped, onEquip, onClose, title, t
     <div className="absolute inset-0 z-40 flex flex-col items-center justify-center bg-black/75 backdrop-blur-md animate-fade-in px-4">
       <h2 className="text-xl font-light tracking-[0.25em] text-amber-50">{title}</h2>
       <p className="mt-1 text-[10px] tracking-[0.3em] text-amber-200/70">
-        {AVATARS.filter((a) => isUnlocked(a, stats, isPremium)).length} / {AVATARS.length}
+        {AVATARS.filter((a) => isUnlocked(a, stats)).length} / {AVATARS.length}
       </p>
 
       <div className="mt-4 grid w-[min(94vw,460px)] grid-cols-5 gap-2">
         {AVATARS.map((a) => {
-          const unlocked = isUnlocked(a, stats, isPremium);
+          const unlocked = isUnlocked(a, stats);
           const isSel = a.id === selected;
           const isEq = a.id === equipped;
           return (
@@ -58,9 +57,6 @@ export function AvatarsOverlay({ isPremium, equipped, onEquip, onClose, title, t
               aria-label={a.name}
             >
               <AvatarIcon id={a.id} size={36} locked={!unlocked} />
-              {a.premium && (
-                <span className="absolute right-0.5 top-0.5 rounded-full bg-amber-300/90 px-1 text-[8px] font-bold tracking-wider text-stone-900">★</span>
-              )}
               {!unlocked && (
                 <span className="absolute bottom-0.5 right-0.5 text-[10px] text-amber-100/60">🔒</span>
               )}
