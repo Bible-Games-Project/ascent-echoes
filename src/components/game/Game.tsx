@@ -1853,7 +1853,6 @@ export function Game() {
           <MainMenuGroups
             t={t}
             equippedAvatar={equippedAvatar}
-            isPremium={isPremium}
             onAvatars={() => setShowAvatars(true)}
             onLeaderboard={async () => {
               setShowLeaderboard(true);
@@ -1861,7 +1860,6 @@ export function Game() {
               const tops = await fetchTop10();
               setTopTen(tops); // full replacement, never merged
             }}
-            onPremium={() => setShowPremium(true)}
             onMoreGames={() => setShowMoreGames(true)}
           />
         </Overlay>
@@ -1949,7 +1947,7 @@ export function Game() {
           onToggleDevMode={toggleDevMode}
           onResetAll={() => {
             const ok = typeof window !== "undefined"
-              ? window.confirm("Reset ALL data? This will clear name, premium, progress, avatars, and settings.")
+              ? window.confirm("Reset ALL data? This will clear name, progress, avatars, and settings.")
               : true;
             if (!ok) return;
             try {
@@ -1958,8 +1956,6 @@ export function Game() {
             } catch { /* ignore */ }
             try { window.location.reload(); } catch { /* ignore */ }
           }}
-          isPremium={isPremium}
-          onPremium={() => { setShowSettings(false); setShowPremium(true); }}
           musicOn={musicOn}
           onToggleMusic={toggleMusic}
           t={t}
@@ -2155,18 +2151,14 @@ function MenuButton({
 function MainMenuGroups({
   t,
   equippedAvatar,
-  isPremium,
   onAvatars,
   onLeaderboard,
-  onPremium,
   onMoreGames,
 }: {
   t: (key: UIKey) => string;
   equippedAvatar: AvatarId;
-  isPremium: boolean;
   onAvatars: () => void;
   onLeaderboard: () => void;
-  onPremium: () => void;
   onMoreGames: () => void;
 }) {
   return (
@@ -2181,10 +2173,7 @@ function MainMenuGroups({
         <span>{t("avatars")}</span>
       </button>
       <MenuButton onClick={onLeaderboard}>{t("leaderboard")}</MenuButton>
-      <div className="flex items-center justify-center gap-3">
-        <MenuButton onClick={onPremium} active={isPremium}>★ {t("premium")}</MenuButton>
-        <MenuButton onClick={onMoreGames}>{t("moreGames")}</MenuButton>
-      </div>
+      <MenuButton onClick={onMoreGames}>{t("moreGames")}</MenuButton>
     </div>
   );
 }
