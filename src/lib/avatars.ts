@@ -85,6 +85,35 @@ export interface AvatarStats {
 
 const STATS_KEY = "btr_avatar_stats_v1";
 const EQUIP_KEY = "btr_avatar_equipped_v1";
+const GRANDFATHER_KEY = "btr_avatar_grandfathered_v1";
+
+// Avatars that used to be unlocked by the removed Premium purchase. Players who
+// already owned Premium keep them unlocked forever; the flag is persisted once
+// so the unlock survives every future session.
+const LEGACY_PREMIUM_AVATARS: AvatarId[] = ["crown", "shield", "seraph_dove"];
+
+let grandfatheredCache: Set<AvatarId> | null = null;
+
+function getGrandfathered(): Set<AvatarId> {
+  if (grandfatheredCache) return grandfatheredCache;
+  const set = new Set<AvatarId>();
+  try {
+    const raw = localStorage.getItem(GRANDFATHER_KEY);
+    if (raw) {
+      for (const id of JSON.parse(raw) as AvatarId[]) set.add(id);
+    } else if (localStorage.getItem("btr_premium") === "1") {
+      // One-time migration from the old Premium flag.
+      for (const id of LEGACY_PREMIUM_AVATARS) set.add(id);
+      localStorage.setItem(GRANDFATHER_KEY, JSON.stringify([...set]));
+    }
+  } catch { /* ignore */ }
+  grandfatheredCache = set;
+  return set;
+}
+
+function isGrandfathered(id: AvatarId): boolean {
+  return getGrandfathered().has(id);
+}
 
 function emptyStats(): AvatarStats {
   return {
