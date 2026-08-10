@@ -1,7 +1,5 @@
 // Avatar progression system. Pure cosmetic, device-local. No gameplay effect.
 
-import { getIsPremium } from "@/lib/monetization";
-
 function isDevModeUnlock(): boolean {
   try { return typeof localStorage !== "undefined" && localStorage.getItem("btr_dev_mode") === "1"; }
   catch { return false; }
@@ -39,15 +37,13 @@ export type UnlockKind =
   | "bonusesCollected"
   | "daysPlayed"
   | "allDifficultiesInOneRun"
-  | "bestRankTop"
-  | "premium";
+  | "bestRankTop";
 
 export interface AvatarDef {
   id: AvatarId;
   name: string;
   glyph: string; // accessibility / fallback label only
   unlock: { kind: UnlockKind; target?: number };
-  premium?: boolean; // premium-exclusive
 }
 
 export const AVATARS: AvatarDef[] = [
@@ -68,9 +64,9 @@ export const AVATARS: AvatarDef[] = [
   { id: "laurel",       name: "Saint Halo",        glyph: "⭕", unlock: { kind: "bestRankTop", target: 100 } },
   { id: "celestial",    name: "Chalice",           glyph: "🏆", unlock: { kind: "bestRankTop", target: 10 } },
   { id: "black_dove",   name: "Black Dove",        glyph: "🕊", unlock: { kind: "correctTotal", target: 1000 } },
-  { id: "crown",        name: "King's Crown",      glyph: "👑", unlock: { kind: "premium" }, premium: true },
-  { id: "shield",       name: "Shield of Faith",   glyph: "🛡", unlock: { kind: "premium" }, premium: true },
-  { id: "seraph_dove",  name: "Golden Seraph Dove", glyph: "🪽", unlock: { kind: "premium" }, premium: true },
+  { id: "crown",        name: "King's Crown",      glyph: "👑", unlock: { kind: "gamesPlayed", target: 1000 } },
+  { id: "shield",       name: "Shield of Faith",   glyph: "🛡", unlock: { kind: "gamesPlayed", target: 5000 } },
+  { id: "seraph_dove",  name: "Golden Seraph Dove", glyph: "🪽", unlock: { kind: "gamesPlayed", target: 10000 } },
 ];
 
 export const DEFAULT_AVATAR: AvatarId = "white_dove";
