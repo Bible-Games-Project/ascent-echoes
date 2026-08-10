@@ -225,12 +225,6 @@ export function Game() {
       music.playHome();
     } else if (state === "gameover") {
       music.stop();
-      // Modular interstitial: engine decides eligibility (cooldown, frequency,
-      // premium, first-game guard). We just show the overlay while it runs.
-      if (interstitials.onGameCompleted()) {
-        setShowAd(true);
-        interstitials.showInterstitial().finally(() => setShowAd(false));
-      }
     }
   }, [state]);
 
@@ -2022,33 +2016,10 @@ export function Game() {
 
       {showAvatars && (
         <AvatarsOverlay
-          isPremium={isPremium}
           equipped={equippedAvatar}
           onEquip={(id) => setEquippedAvatar(id)}
           onClose={() => setShowAvatars(false)}
           title={t("avatars")}
-          t={t}
-        />
-      )}
-
-      {showAd && (
-        <div className="absolute inset-0 z-50 flex items-center justify-center bg-black/95 backdrop-blur-md animate-fade-in">
-          <div className="text-center text-amber-50/80">
-            <div className="text-[10px] tracking-[0.5em] text-amber-200/70">{t("advertisement")}</div>
-            <div className="mt-3 text-xs tracking-[0.3em] text-amber-100/60">{t("loading")}</div>
-          </div>
-        </div>
-      )}
-
-      {showPremium && (
-        <PremiumOverlay
-          isPremium={isPremium}
-          onPurchase={() => {
-            setIsPremium(true);
-            setIsPremiumState(true);
-            isPremiumRef.current = true;
-          }}
-          onClose={() => setShowPremium(false)}
           t={t}
         />
       )}
