@@ -2125,11 +2125,9 @@ function MenuSection({ label, children }: { label: string; children: React.React
 
 function MenuButton({
   onClick,
-  active,
   children,
 }: {
   onClick: () => void;
-  active?: boolean;
   children: React.ReactNode;
 }) {
   return (
@@ -2137,10 +2135,7 @@ function MenuButton({
       type="button"
       onClick={onClick}
       className={
-        "rounded-full border px-4 py-1.5 text-[10px] tracking-[0.25em] backdrop-blur transition " +
-        (active
-          ? "border-amber-200/70 bg-amber-200/20 text-amber-50 shadow-[0_0_18px_rgba(255,200,140,0.4)]"
-          : "border-amber-200/30 bg-black/30 text-amber-100/80 hover:border-amber-200/60 hover:text-amber-50")
+        "rounded-full border border-amber-200/30 bg-black/30 px-4 py-1.5 text-[10px] tracking-[0.25em] text-amber-100/80 backdrop-blur transition hover:border-amber-200/60 hover:text-amber-50"
       }
     >
       {children}
