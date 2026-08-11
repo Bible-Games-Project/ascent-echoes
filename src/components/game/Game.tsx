@@ -1753,6 +1753,46 @@ export function Game() {
       player.targetLane = next;
     };
 
+    // Hold detection for vertical movement: after this delay a held key
+    // keeps gliding through the remaining lanes instead of stopping.
+    const VERT_HOLD_MS = 240;
+    let vertHoldTimer: ReturnType<typeof setTimeout> | null = null;
+    const clearVertHold = () => {
+      if (vertHoldTimer !== null) { clearTimeout(vertHoldTimer); vertHoldTimer = null; }
+    };
+    const startVert = (dir: -1 | 1) => {
+      if (stateRef.current !== "playing") return;
+      const held = dir === -1 ? heldY.up : heldY.down;
+      if (held) return;
+      if (dir === -1) { heldY.up = true; heldY.down = false; }
+      else { heldY.down = true; heldY.up = false; }
+      moveLane(dir); // immediate one-lane step (tap behaviour)
+      clearVertHold();
+      vertHoldTimer = setTimeout(() => {
+        vertHoldTimer = null;
+        if (stateRef.current !== "playing") return;
+        if (dir === -1 && heldY.up) player.targetLane = 0;
+        else if (dir === 1 && heldY.down) player.targetLane = 2;
+      }, VERT_HOLD_MS);
+    };
+    const stopVert = (dir: -1 | 1) => {
+      if (dir === -1) heldY.up = false; else heldY.down = false;
+      clearVertHold();
+      if (!heldY.up && !heldY.down) {
+        // Settle on the lane we are heading to; never stop mid-transition.
+        let nearest: Lane = player.targetLane, bestD = Infinity;
+        for (let i = 0; i < 3; i++) {
+          const dd = Math.abs(player.y - laneY(i as Lane));
+          if (dd < bestD) { bestD = dd; nearest = i as Lane; }
+        }
+        // Keep travelling at least to the next lane in the current direction
+        const towards = dir === -1
+          ? Math.min(nearest, player.targetLane)
+          : Math.max(nearest, player.targetLane);
+        player.targetLane = Math.max(0, Math.min(2, towards)) as Lane;
+      }
+    };
+
     // Map a screen point to canvas-local coordinates, accounting for the
     // 90deg stage rotation used to force landscape on portrait devices.
     const toLocal = (clientX: number, clientY: number) => {
@@ -1805,8 +1845,8 @@ export function Game() {
     };
     const onKey = (e: KeyboardEvent) => {
       if (stateRef.current !== "playing") return;
-      if (e.key === "ArrowUp" || e.key === "w") moveLane(-1);
-      else if (e.key === "ArrowDown" || e.key === "s") moveLane(1);
+      if (e.key === "ArrowUp" || e.key === "w") { if (!e.repeat) startVert(-1); }
+      else if (e.key === "ArrowDown" || e.key === "s") { if (!e.repeat) startVert(1); }
       else if (e.key === "ArrowLeft" || e.key === "a") {
         // Immediate nudge, then continuous movement while held
         if (!heldX.left) player.targetX -= W * 0.02;
@@ -1822,8 +1862,13 @@ export function Game() {
     const onKeyUpMove = (e: KeyboardEvent) => {
       if (e.key === "ArrowLeft" || e.key === "a") heldX.left = false;
       else if (e.key === "ArrowRight" || e.key === "d") heldX.right = false;
+      else if (e.key === "ArrowUp" || e.key === "w") stopVert(-1);
+      else if (e.key === "ArrowDown" || e.key === "s") stopVert(1);
     };
-    const onBlurMove = () => { heldX.left = false; heldX.right = false; };
+    const onBlurMove = () => {
+      heldX.left = false; heldX.right = false;
+      heldY.up = false; heldY.down = false; clearVertHold();
+    };
     const onKeyDownTurbo = (e: KeyboardEvent) => {
       if (!isTurboKey(e.key)) return;
       if (e.repeat || keyTurboHeld || keyTurboTimer !== null) return;
