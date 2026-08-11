@@ -2,7 +2,7 @@ import type { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
   appId: "com.biblegames.acent",
-  appName: "Ascent Echoes",
+  appName: 'Bible Trivia Run',
   webDir: "dist/client",
 };
 
