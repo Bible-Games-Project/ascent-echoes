@@ -993,11 +993,52 @@ export function Game() {
     };
 
     // ----- Answer boats (sail right -> left, one per lane) -----
-    const LANE_PASTELS: { hull: string; hullDark: string; sail: string; trim: string }[] = [
-      { hull: "#9fd8cf", hullDark: "#6fb6ac", sail: "#fdf3e3", trim: "#4f8f88" },
-      { hull: "#f7c9a9", hullDark: "#e0a17c", sail: "#fdf3e3", trim: "#b9754f" },
-      { hull: "#c9bef0", hullDark: "#a396dd", sail: "#fdf3e3", trim: "#7466b5" },
-    ];
+    // Boat colours are derived from the CURRENT MAP palette so they always
+    // feel part of the same artistic world: hue comes from the map ground
+    // (shifted for contrast), and brightness encodes the lane hierarchy
+    // (top = deep, middle = medium, bottom = light pastel).
+    const hexToHsl = (hex: string): [number, number, number] => {
+      const h = hex.replace("#", "");
+      const full = h.length === 3 ? h.split("").map((c) => c + c).join("") : h;
+      const r = parseInt(full.slice(0, 2), 16) / 255;
+      const g = parseInt(full.slice(2, 4), 16) / 255;
+      const b = parseInt(full.slice(4, 6), 16) / 255;
+      const max = Math.max(r, g, b), min = Math.min(r, g, b);
+      const l = (max + min) / 2;
+      let s = 0, hue = 0;
+      if (max !== min) {
+        const d = max - min;
+        s = l > 0.5 ? d / (2 - max - min) : d / (max + min);
+        if (max === r) hue = ((g - b) / d + (g < b ? 6 : 0));
+        else if (max === g) hue = (b - r) / d + 2;
+        else hue = (r - g) / d + 4;
+        hue *= 60;
+      }
+      return [hue, s, l];
+    };
+    const hsl = (h: number, s: number, l: number) =>
+      `hsl(${((h % 360) + 360) % 360} ${Math.round(Math.max(0, Math.min(1, s)) * 100)}% ${Math.round(Math.max(0, Math.min(1, l)) * 100)}%)`;
+
+    // Lane brightness ladder: TOP darker -> MIDDLE medium -> BOTTOM lighter
+    const LANE_LIGHT = [0.46, 0.62, 0.78];
+
+    const boatPalette = (lane: number) => {
+      const theme = themeFor(levelRef.current);
+      const [bh, bs] = hexToHsl(theme.ground.top);
+      // Analogous-with-contrast hue: nudge away from the ground hue so the
+      // boats read clearly without clashing with the map.
+      const hue = bh + 28;
+      const sat = Math.max(0.28, Math.min(0.5, bs * 0.75 + 0.18));
+      const l = LANE_LIGHT[lane];
+      return {
+        hull: hsl(hue, sat, l),
+        hullDark: hsl(hue - 6, sat * 1.05, Math.max(0.16, l - 0.14)),
+        sail: hsl(hue + 12, sat * 0.6, Math.min(0.93, l + 0.16)),
+        sailShade: hsl(hue + 12, sat * 0.7, Math.min(0.88, l + 0.06)),
+        trim: hsl(hue - 10, sat * 1.1, Math.max(0.12, l - 0.26)),
+        ink: l > 0.6 ? "#241f14" : "#f6f1e4",
+      };
+    };
 
     const wrapText = (text: string, maxW: number, maxLines = 2): string[] => {
       const words = text.split(/\s+/);
