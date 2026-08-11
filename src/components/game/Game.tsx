@@ -1798,48 +1798,32 @@ export function Game() {
 
     const moveLane = (dir: -1 | 1) => {
       if (stateRef.current !== "playing") return;
-      const next = Math.max(0, Math.min(2, player.targetLane + dir)) as Lane;
+      const next = Math.max(0, Math.min(2, nearestLaneTo(player.targetY) + dir)) as Lane;
       if (next !== player.targetLane) sfx.playMove();
       player.targetLane = next;
+      player.targetY = laneY(next);
     };
 
-    // Hold detection for vertical movement: after this delay a held key
-    // keeps gliding through the remaining lanes instead of stopping.
-    const VERT_HOLD_MS = 240;
-    let vertHoldTimer: ReturnType<typeof setTimeout> | null = null;
-    const clearVertHold = () => {
-      if (vertHoldTimer !== null) { clearTimeout(vertHoldTimer); vertHoldTimer = null; }
-    };
+    const clearVertHold = () => { heldY.up = false; heldY.down = false; };
     const startVert = (dir: -1 | 1) => {
       if (stateRef.current !== "playing") return;
       const held = dir === -1 ? heldY.up : heldY.down;
       if (held) return;
       if (dir === -1) { heldY.up = true; heldY.down = false; }
       else { heldY.down = true; heldY.up = false; }
-      moveLane(dir); // immediate one-lane step (tap behaviour)
-      clearVertHold();
-      vertHoldTimer = setTimeout(() => {
-        vertHoldTimer = null;
-        if (stateRef.current !== "playing") return;
-        if (dir === -1 && heldY.up) player.targetLane = 0;
-        else if (dir === 1 && heldY.down) player.targetLane = 2;
-      }, VERT_HOLD_MS);
+      // Immediate nudge past the midpoint so a short tap settles one lane away
+      const before = nearestLaneTo(player.targetY);
+      player.targetY = Math.max(playerMinY(), Math.min(playerMaxY(),
+        player.targetY + dir * laneGap() * 0.55));
+      if (nearestLaneTo(player.targetY) !== before) sfx.playMove();
     };
     const stopVert = (dir: -1 | 1) => {
       if (dir === -1) heldY.up = false; else heldY.down = false;
-      clearVertHold();
       if (!heldY.up && !heldY.down) {
-        // Settle on the lane we are heading to; never stop mid-transition.
-        let nearest: Lane = player.targetLane, bestD = Infinity;
-        for (let i = 0; i < 3; i++) {
-          const dd = Math.abs(player.y - laneY(i as Lane));
-          if (dd < bestD) { bestD = dd; nearest = i as Lane; }
-        }
-        // Keep travelling at least to the next lane in the current direction
-        const towards = dir === -1
-          ? Math.min(nearest, player.targetLane)
-          : Math.max(nearest, player.targetLane);
-        player.targetLane = Math.max(0, Math.min(2, towards)) as Lane;
+        // Settle on whichever lane the midpoint rule has committed us to.
+        const settle = nearestLaneTo(player.targetY);
+        player.targetLane = settle;
+        player.targetY = laneY(settle);
       }
     };
 
