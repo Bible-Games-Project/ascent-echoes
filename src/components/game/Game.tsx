@@ -1506,6 +1506,7 @@ export function Game() {
       player.x = W * RESOLVE_X_FRAC;
       player.targetX = player.x;
       player.y = laneY(1);
+      player.targetY = laneY(1);
       player.knock = 0;
       shake = 0; flash = 0; invuln = 0;
       slowTimer = 0; distortTimer = 0;
@@ -1851,6 +1852,7 @@ export function Game() {
       }
       if (lane !== player.targetLane) sfx.playMove();
       player.targetLane = lane;
+      player.targetY = Math.max(playerMinY(), Math.min(playerMaxY(), y));
       player.targetX = Math.max(playerMinX(), Math.min(playerMaxX(), x));
     };
 
@@ -1889,9 +1891,9 @@ export function Game() {
         if (!heldX.right) player.targetX += W * 0.02;
         heldX.right = true;
       }
-      else if (e.key === "1") player.targetLane = 0;
-      else if (e.key === "2") player.targetLane = 1;
-      else if (e.key === "3") player.targetLane = 2;
+      else if (e.key === "1") { player.targetLane = 0; player.targetY = laneY(0); }
+      else if (e.key === "2") { player.targetLane = 1; player.targetY = laneY(1); }
+      else if (e.key === "3") { player.targetLane = 2; player.targetY = laneY(2); }
     };
     const onKeyUpMove = (e: KeyboardEvent) => {
       if (e.key === "ArrowLeft" || e.key === "a") heldX.left = false;
@@ -1960,6 +1962,7 @@ export function Game() {
     player.x = W * RESOLVE_X_FRAC;
     player.targetX = player.x;
     player.y = laneY(1);
+    player.targetY = laneY(1);
 
     raf = requestAnimationFrame((t) => { last = t; loop(t); });
 
