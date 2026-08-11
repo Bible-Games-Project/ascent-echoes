@@ -81,7 +81,10 @@ interface Particle {
   size: number;
 }
 
-type PowerupType = "star" | "heart" | "slow" | "hint" | "apple" | "broken";
+type PowerupType = "star" | "heart" | "shineheart" | "slow" | "hint" | "apple" | "broken";
+
+/** Maximum lives reachable via the Shining Heart bonus. */
+const MAX_LIVES = 7;
 
 interface Powerup {
   y: number;
@@ -103,6 +106,7 @@ export function Game() {
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const [state, setState] = useState<GameState>("start");
   const [health, setHealth] = useState(3);
+  const [lifeFlash, setLifeFlash] = useState(0);
   const [progress, setProgress] = useState(0);
   const [level, setLevel] = useState(1);
   const [currentQuestion, setCurrentQuestion] = useState<string | null>(null);
@@ -177,6 +181,11 @@ export function Game() {
 
   useEffect(() => { stateRef.current = state; }, [state]);
   useEffect(() => { healthRef.current = health; }, [health]);
+  useEffect(() => {
+    if (!lifeFlash) return;
+    const id = window.setTimeout(() => setLifeFlash(0), 1200);
+    return () => window.clearTimeout(id);
+  }, [lifeFlash]);
   useEffect(() => { devModeRef.current = devMode; }, [devMode]);
 
   // Every player always starts with 3 lives.
@@ -361,7 +370,12 @@ export function Game() {
 
     const pickType = (): PowerupType => {
       const r = Math.random();
-      if (r < 0.45) return Math.random() < 0.5 ? "star" : "heart";
+      if (r < 0.45) {
+        const q = Math.random();
+        if (q < 0.4) return "star";
+        if (q < 0.8) return "heart";
+        return "shineheart";
+      }
       if (r < 0.9) return Math.random() < 0.5 ? "slow" : "hint";
       return Math.random() < 0.5 ? "apple" : "broken";
     };
@@ -1084,6 +1098,36 @@ export function Game() {
           ctx.bezierCurveTo(-8, -12, -12, -2, 0, 8);
           ctx.closePath(); ctx.fill(); ctx.stroke(); break;
         }
+        case "shineheart": {
+          // Bright, glowing heart — life/health bonus
+          const t2 = performance.now() / 1000;
+          const pulse = 1 + Math.sin(t2 * 5) * 0.06;
+          ctx.save();
+          ctx.scale(pulse, pulse);
+          const g = ctx.createRadialGradient(-3, -4, 1, 0, 0, 14);
+          g.addColorStop(0, "rgba(255, 255, 255, 0.98)");
+          g.addColorStop(0.45, "rgba(255, 170, 195, 0.98)");
+          g.addColorStop(1, "rgba(255, 70, 120, 0.95)");
+          ctx.fillStyle = g;
+          ctx.shadowColor = "rgba(255, 120, 170, 0.95)";
+          ctx.shadowBlur = 16;
+          ctx.beginPath();
+          ctx.moveTo(0, 9);
+          ctx.bezierCurveTo(13, -2, 9, -13, 0, -5.5);
+          ctx.bezierCurveTo(-9, -13, -13, -2, 0, 9);
+          ctx.closePath(); ctx.fill();
+          ctx.shadowBlur = 0;
+          ctx.strokeStyle = "rgba(255, 245, 250, 0.9)";
+          ctx.lineWidth = 1.1;
+          ctx.stroke();
+          // sparkle highlight
+          ctx.fillStyle = "rgba(255,255,255,0.95)";
+          ctx.beginPath();
+          ctx.ellipse(-4, -5, 2.2, 1.4, -0.5, 0, Math.PI * 2);
+          ctx.fill();
+          ctx.restore();
+          break;
+        }
         case "slow": {
           ctx.fillStyle = "#bfe7ff";
           ctx.strokeStyle = "rgba(20,60,90,0.8)";
@@ -1153,6 +1197,7 @@ export function Game() {
         const haloColor =
           p.type === "star" ? "rgba(255, 230, 140, 0.55)" :
           p.type === "heart" ? "rgba(255, 120, 130, 0.5)" :
+          p.type === "shineheart" ? "rgba(255, 150, 190, 0.85)" :
           p.type === "slow" ? "rgba(160, 220, 255, 0.5)" :
           p.type === "hint" ? "rgba(255, 250, 200, 0.55)" :
           p.type === "apple" ? "rgba(180, 90, 90, 0.5)" :
@@ -1183,6 +1228,15 @@ export function Game() {
           const nh = Math.min(3, healthRef.current + 1);
           healthRef.current = nh; setHealth(nh);
           spawnPickupBurst(px, py, "rgba(255, 140, 150, 0.9)");
+          break;
+        }
+        case "shineheart": {
+          const nh = Math.min(MAX_LIVES, healthRef.current + 1);
+          if (nh > healthRef.current) {
+            healthRef.current = nh; setHealth(nh);
+            setLifeFlash(Date.now());
+          }
+          spawnPickupBurst(px, py, "rgba(255, 170, 200, 0.95)");
           break;
         }
         case "slow":
@@ -1765,11 +1819,22 @@ export function Game() {
 
       {state === "playing" && (
         <>
+          {lifeFlash > 0 && (
+            <div
+              key={lifeFlash}
+              className="pointer-events-none absolute left-1/2 top-1/3 z-20 -translate-x-1/2 animate-in fade-in zoom-in duration-200"
+            >
+              <div className="flex items-center gap-2 rounded-full bg-black/50 px-4 py-1.5 text-sm font-bold tracking-widest text-rose-100 shadow-[0_0_28px_rgba(255,120,170,0.8)] backdrop-blur">
+                <span className="text-rose-300 drop-shadow-[0_0_8px_rgba(255,120,170,0.95)]">♥</span>
+                <span>+1</span>
+              </div>
+            </div>
+          )}
           {/* Top HUD: left group (lives/score/questions), right group (level/streak), home button */}
           <div className="pointer-events-none absolute inset-x-0 top-0 z-10 flex items-start justify-between px-3 pt-3">
             <div className="flex flex-col gap-1.5">
               <div className="flex items-center gap-1.5">
-                {[0, 1, 2].map((i) => (
+                {Array.from({ length: Math.max(3, health) }, (_, i) => i).map((i) => (
                   <Heart key={i} filled={i < health} />
                 ))}
               </div>
