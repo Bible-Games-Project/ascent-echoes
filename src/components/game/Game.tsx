@@ -1603,20 +1603,17 @@ export function Game() {
         runTimeRef.current += dt;
         setRunTime(runTimeRef.current);
 
-        // Vertical lane glide (continuous while a direction key is held)
-        const tgtY = laneY(player.targetLane);
-        const dy = tgtY - player.y;
-        player.y += dy * Math.min(1, dt * 14);
-        if (Math.abs(dy) < 0.5) { player.y = tgtY; player.lane = player.targetLane; }
-        else {
-          // Keep player.lane in sync with the nearest lane during the glide
-          let nearest: Lane = 1, bestD = Infinity;
-          for (let i = 0; i < 3; i++) {
-            const dd = Math.abs(player.y - laneY(i as Lane));
-            if (dd < bestD) { bestD = dd; nearest = i as Lane; }
-          }
-          player.lane = nearest;
-        }
+        // Immediate, continuous vertical input while held (same as X)
+        const dirY = (heldY.down ? 1 : 0) - (heldY.up ? 1 : 0);
+        if (dirY !== 0) player.targetY += dirY * V_SPEED() * dt;
+        player.targetY = Math.max(playerMinY(), Math.min(playerMaxY(), player.targetY));
+        const dyv = player.targetY - player.y;
+        player.y += dyv * Math.min(1, dt * 24);
+        if (Math.abs(dyv) < 0.4) player.y = player.targetY;
+        player.y = Math.max(playerMinY(), Math.min(playerMaxY(), player.y));
+        // Lane is derived from the continuous position (midpoint = commit)
+        player.lane = nearestLaneTo(player.y);
+        player.targetLane = nearestLaneTo(player.targetY);
         // Immediate, continuous horizontal input while held
         const dirX = (heldX.right ? 1 : 0) - (heldX.left ? 1 : 0);
         if (dirX !== 0) player.targetX += dirX * H_SPEED() * dt;
