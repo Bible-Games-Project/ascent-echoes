@@ -14,6 +14,7 @@ import {
 import { getT, type UIKey } from "./i18n";
 import { music } from "@/lib/music";
 import { sfx } from "@/lib/sfx";
+import { DEV_MODE_AVAILABLE } from "@/lib/devMode";
 import {
   getEquipped as getEquippedAvatar,
   recordAllDifficulties,
@@ -152,6 +153,7 @@ export function Game() {
 
   // Dev mode (testing only — never affects the leaderboard)
   const [devMode, setDevMode] = useState<boolean>(() => {
+    if (!DEV_MODE_AVAILABLE) return false;
     try { return localStorage.getItem("btr_dev_mode") === "1"; } catch { return false; }
   });
   const devModeRef = useRef(false);
@@ -2511,6 +2513,7 @@ function SettingsOverlay({
       >
         {t("close")}
       </button>
+      {DEV_MODE_AVAILABLE && (
       <div className="mt-4 w-[280px] max-w-[88vw] rounded-2xl border border-amber-200/15 bg-black/35 p-3 backdrop-blur">
         <button
           type="button"
@@ -2547,6 +2550,7 @@ function SettingsOverlay({
           </button>
         )}
       </div>
+      )}
     </div>
   );
 }
