@@ -1818,7 +1818,7 @@ export function Game() {
           <div className="pointer-events-none absolute inset-x-0 top-0 z-10 flex items-start justify-between px-3 pt-3">
             <div className="flex flex-col gap-1.5">
               <div className="flex items-center gap-1.5">
-                {[0, 1, 2].map((i) => (
+                {Array.from({ length: Math.max(3, health) }, (_, i) => i).map((i) => (
                   <Heart key={i} filled={i < health} />
                 ))}
               </div>
