@@ -361,8 +361,15 @@ export function Game() {
     const RESOLVE_X_FRAC = 0.16;
     const laneY = (lane: Lane) => H * LANE_FRACS[lane];
     const laneGap = () => H * (LANE_FRACS[1] - LANE_FRACS[0]);
-    const playerMinX = () => W * 0.06;
-    const playerMaxX = () => W * 0.46;
+    // Player visual half-width (dove silhouette) + safety margin so the
+    // sprite never touches or leaves the screen edges.
+    const playerHalfW = () => Math.max(20, Math.min(46, H * 0.075));
+    const EDGE_MARGIN = () => Math.max(10, W * 0.015);
+    const playerMinX = () => EDGE_MARGIN() + playerHalfW();
+    const playerMaxX = () => W - EDGE_MARGIN() - playerHalfW();
+    // Continuous left/right input (keyboard), applied every frame.
+    const heldX = { left: false, right: false };
+    const H_SPEED = () => W * 0.85; // px per second
 
     const player = {
       lane: 1 as Lane,
@@ -1542,10 +1549,13 @@ export function Game() {
         const dy = tgtY - player.y;
         player.y += dy * Math.min(1, dt * 14);
         if (Math.abs(dy) < 0.5) { player.y = tgtY; player.lane = player.targetLane; }
-        // Smooth horizontal glide with inertia towards the target X
+        // Immediate, continuous horizontal input while held
+        const dirX = (heldX.right ? 1 : 0) - (heldX.left ? 1 : 0);
+        if (dirX !== 0) player.targetX += dirX * H_SPEED() * dt;
+        // Smooth horizontal glide towards the target X (snappy, no lag)
         player.targetX = Math.max(playerMinX(), Math.min(playerMaxX(), player.targetX));
         const dxh = player.targetX - player.x;
-        player.x += dxh * Math.min(1, dt * 9);
+        player.x += dxh * Math.min(1, dt * 24);
         if (Math.abs(dxh) < 0.4) player.x = player.targetX;
         if (player.knock < 0) {
           player.knock += dt * 40;
