@@ -35,6 +35,7 @@ import { PlayerAvatar as AvatarIcon } from "./PlayerAvatar";
 import { drawAvatarBody } from "./avatarRender";
 import { motionFor, scaleMultiplierFor } from "./avatarMotion";
 import { AvatarsOverlay } from "./AvatarsOverlay";
+import { assetUrl } from "@/lib/assetUrl";
 import {
   fetchTop10,
   getLocalBest,
