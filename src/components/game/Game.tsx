@@ -943,7 +943,7 @@ export function Game() {
       const d = queue[activeIdx];
       if (!d) return;
       // helper to draw an answer label above the falling door
-      const drawAnswerLabel = (cx: number, topY: number, text: string) => {
+      const drawAnswerLabel = (cx: number, topY: number, text: string, highlight = false) => {
         ctx.save();
         ctx.font = '600 16px "Cormorant Garamond", Georgia, serif';
         ctx.textAlign = "center";
@@ -976,9 +976,21 @@ export function Game() {
         const boxW = Math.min(maxW + 12, Math.max(...lines.map(l => ctx.measureText(l).width)) + 14);
         const bx = cx - boxW / 2;
         const by = topY - boxH;
-        ctx.fillStyle = "rgba(0,0,0,0.55)";
-        ctx.strokeStyle = "rgba(255, 220, 170, 0.45)";
-        ctx.lineWidth = 1;
+        if (highlight) {
+          const hp = 0.5 + 0.5 * Math.sin(performance.now() / 1000 * 5);
+          ctx.shadowColor = "rgba(255, 235, 150, 0.95)";
+          ctx.shadowBlur = 24 + 16 * hp;
+          const bg = ctx.createLinearGradient(0, by, 0, by + boxH);
+          bg.addColorStop(0, `rgba(255, 226, 140, ${0.9 + 0.08 * hp})`);
+          bg.addColorStop(1, "rgba(255, 196, 90, 0.92)");
+          ctx.fillStyle = bg;
+          ctx.strokeStyle = "rgba(255, 252, 225, 0.95)";
+          ctx.lineWidth = 2.5;
+        } else {
+          ctx.fillStyle = "rgba(0,0,0,0.55)";
+          ctx.strokeStyle = "rgba(255, 220, 170, 0.45)";
+          ctx.lineWidth = 1;
+        }
         ctx.beginPath();
         const r = 6;
         ctx.moveTo(bx + r, by);
@@ -993,7 +1005,13 @@ export function Game() {
         ctx.closePath();
         ctx.fill();
         ctx.stroke();
-        ctx.fillStyle = "#fff3d6";
+        ctx.shadowBlur = 0;
+        if (highlight) {
+          ctx.font = '700 17px "Cormorant Garamond", Georgia, serif';
+          ctx.fillStyle = "#2a1a05";
+        } else {
+          ctx.fillStyle = "#fff3d6";
+        }
         lines.forEach((l, idx) => {
           ctx.fillText(l, cx, by + 3 + (idx + 1) * lineH);
         });
@@ -1007,17 +1025,24 @@ export function Game() {
         if (outcome && anim >= 1) continue;
         if (hintActive === i) {
           const t = performance.now() / 1000;
-          const pulse = 1 + Math.sin(t * 4) * 0.15;
-          const r = 65 * pulse;
+          const pulse = 1 + Math.sin(t * 5) * 0.18;
+          const r = 110 * pulse;
           const g = ctx.createRadialGradient(cx, d.y - 20, 0, cx, d.y - 20, r);
-          g.addColorStop(0, "rgba(255, 250, 200, 0.5)");
+          g.addColorStop(0, "rgba(255, 248, 190, 0.95)");
+          g.addColorStop(0.45, "rgba(255, 235, 150, 0.45)");
           g.addColorStop(1, "rgba(255, 250, 200, 0)");
           ctx.fillStyle = g;
           ctx.fillRect(cx - r, d.y - 20 - r, r * 2, r * 2);
+          // Vertical light beam from the top of the screen down to the answer
+          const beam = ctx.createLinearGradient(cx, 0, cx, d.y);
+          beam.addColorStop(0, "rgba(255, 245, 180, 0)");
+          beam.addColorStop(1, `rgba(255, 240, 165, ${0.22 + 0.08 * Math.sin(t * 5)})`);
+          ctx.fillStyle = beam;
+          ctx.fillRect(cx - 46, 0, 92, Math.max(0, d.y - 4));
         }
         const alpha = outcome ? 1 - anim : 1;
         ctx.globalAlpha = alpha;
-        drawAnswerLabel(cx, d.y, d.answers[i]);
+        drawAnswerLabel(cx, d.y, d.answers[i], hintActive === i);
         ctx.globalAlpha = 1;
       }
     };
@@ -1123,7 +1148,7 @@ export function Game() {
       const t = performance.now() / 1000;
       powerups.forEach((p) => {
         if (p.taken) return;
-        if (p.y < -30 || p.y > H + 30) return;
+        if (p.y < -70 || p.y > H + 70) return;
         const sx = laneX(p.lane) + Math.sin(t * 2.4 + p.bobSeed) * 4;
         const haloColor =
           p.type === "star" ? "rgba(255, 230, 140, 0.55)" :
@@ -1132,13 +1157,15 @@ export function Game() {
           p.type === "hint" ? "rgba(255, 250, 200, 0.55)" :
           p.type === "apple" ? "rgba(180, 90, 90, 0.5)" :
           "rgba(60, 20, 30, 0.6)";
-        const halo = ctx.createRadialGradient(sx, p.y, 0, sx, p.y, 28);
+        const halo = ctx.createRadialGradient(sx, p.y, 0, sx, p.y, 56);
         halo.addColorStop(0, haloColor);
         halo.addColorStop(1, "rgba(0,0,0,0)");
         ctx.fillStyle = halo;
-        ctx.fillRect(sx - 28, p.y - 28, 56, 56);
+        ctx.fillRect(sx - 56, p.y - 56, 112, 112);
         ctx.save();
         ctx.translate(sx, p.y);
+        // Bonus icons render at 2x visual size (gameplay effect unchanged)
+        ctx.scale(2, 2);
         drawPowerupIcon(p.type);
         ctx.restore();
       });
@@ -1530,8 +1557,8 @@ export function Game() {
     let touchStartY = 0;
     let touchStartTime = 0;
     const turboRef = { current: 1 };
-    const setTurbo = (on: boolean) => { turboRef.current = on ? 3 : 1; };
-    const TURBO_HOLD_MS = 600;
+    const setTurbo = (on: boolean) => { turboRef.current = on ? 4 : 1; };
+    const TURBO_HOLD_MS = 500;
     const TURBO_MOVE_TOL = 12;
     let turboHoldTimer: ReturnType<typeof setTimeout> | null = null;
     const clearTurboHold = () => {
@@ -2126,16 +2153,19 @@ function MenuSection({ label, children }: { label: string; children: React.React
 function MenuButton({
   onClick,
   children,
+  className,
 }: {
   onClick: () => void;
   children: React.ReactNode;
+  className?: string;
 }) {
   return (
     <button
       type="button"
       onClick={onClick}
       className={
-        "rounded-full border border-amber-200/30 bg-black/30 px-4 py-1.5 text-[10px] tracking-[0.25em] text-amber-100/80 backdrop-blur transition hover:border-amber-200/60 hover:text-amber-50"
+        "rounded-full border border-amber-200/30 bg-black/30 px-4 py-1.5 text-center text-[10px] tracking-[0.25em] text-amber-100/80 backdrop-blur transition hover:border-amber-200/60 hover:text-amber-50 " +
+        (className ?? "")
       }
     >
       {children}
@@ -2167,8 +2197,14 @@ function MainMenuGroups({
         <AvatarIcon id={equippedAvatar} size={22} />
         <span>{t("avatars")}</span>
       </button>
-      <MenuButton onClick={onLeaderboard}>{t("leaderboard")}</MenuButton>
-      <MenuButton onClick={onMoreGames}>{t("moreGames")}</MenuButton>
+      <div className="grid w-full grid-cols-2 items-stretch gap-3 sm:gap-4">
+        <MenuButton onClick={onLeaderboard} className="w-full">
+          {t("leaderboard")}
+        </MenuButton>
+        <MenuButton onClick={onMoreGames} className="w-full">
+          {t("moreGames")}
+        </MenuButton>
+      </div>
     </div>
   );
 }

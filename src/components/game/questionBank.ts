@@ -97,7 +97,9 @@ function localize(q: RawQuestion, lang: Language): GameQuestion {
   };
 }
 
-// Track used IDs across a run to avoid repeats when possible
+// Track used IDs across a run so a question never repeats within one game.
+// The whole level sequence is generated up-front: the existing difficulty
+// distribution is honoured first, then the resulting set is shuffled.
 export function buildLevelQuestions(
   level: number,
   lang: Language,
@@ -110,9 +112,15 @@ export function buildLevelQuestions(
     const count = dist[diff];
     if (!count) return;
     const pool = RAW[diff] ?? [];
-    // Prefer unseen; fall back to full pool if exhausted
     let candidates = pool.filter((q) => !usedIds.has(q.id));
-    if (candidates.length < count) candidates = pool.slice();
+    if (candidates.length < count) {
+      // This difficulty's pool is exhausted for the run: start a fresh cycle
+      // for it, but keep everything already queued in THIS level excluded so
+      // no duplicate can appear back-to-back within the same sequence.
+      const thisLevelIds = new Set(out.map((q) => q.id));
+      pool.forEach((q) => usedIds.delete(q.id));
+      candidates = pool.filter((q) => !thisLevelIds.has(q.id));
+    }
     const picked = shuffle(candidates).slice(0, count);
     picked.forEach((q) => {
       usedIds.add(q.id);
