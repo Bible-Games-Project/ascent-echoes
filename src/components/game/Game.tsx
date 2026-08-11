@@ -1550,11 +1550,20 @@ export function Game() {
         runTimeRef.current += dt;
         setRunTime(runTimeRef.current);
 
-        // Vertical lane lerp
+        // Vertical lane glide (continuous while a direction key is held)
         const tgtY = laneY(player.targetLane);
         const dy = tgtY - player.y;
         player.y += dy * Math.min(1, dt * 14);
         if (Math.abs(dy) < 0.5) { player.y = tgtY; player.lane = player.targetLane; }
+        else {
+          // Keep player.lane in sync with the nearest lane during the glide
+          let nearest: Lane = 1, bestD = Infinity;
+          for (let i = 0; i < 3; i++) {
+            const dd = Math.abs(player.y - laneY(i as Lane));
+            if (dd < bestD) { bestD = dd; nearest = i as Lane; }
+          }
+          player.lane = nearest;
+        }
         // Immediate, continuous horizontal input while held
         const dirX = (heldX.right ? 1 : 0) - (heldX.left ? 1 : 0);
         if (dirX !== 0) player.targetX += dirX * H_SPEED() * dt;
@@ -1563,6 +1572,8 @@ export function Game() {
         const dxh = player.targetX - player.x;
         player.x += dxh * Math.min(1, dt * 24);
         if (Math.abs(dxh) < 0.4) player.x = player.targetX;
+        // Hard clamp so the sprite is always fully on-screen
+        player.x = Math.max(playerMinX(), Math.min(playerMaxX(), player.x));
         if (player.knock < 0) {
           player.knock += dt * 40;
           if (player.knock > 0) player.knock = 0;
