@@ -181,6 +181,11 @@ export function Game() {
 
   useEffect(() => { stateRef.current = state; }, [state]);
   useEffect(() => { healthRef.current = health; }, [health]);
+  useEffect(() => {
+    if (!lifeFlash) return;
+    const id = window.setTimeout(() => setLifeFlash(0), 1200);
+    return () => window.clearTimeout(id);
+  }, [lifeFlash]);
   useEffect(() => { devModeRef.current = devMode; }, [devMode]);
 
   // Every player always starts with 3 lives.
