@@ -1020,12 +1020,15 @@ export function Game() {
       return lines.slice(0, maxLines);
     };
 
+    // Shared boat width so collision uses the same geometry as rendering.
+    const boatWidth = () => Math.min(W * 0.3, Math.max(150, laneGap() * 3.1));
+
     const drawBoat = (
       cx: number, cy: number, lane: number, text: string,
       highlight: boolean, alpha: number,
     ) => {
       const g = laneGap();
-      const bw = Math.min(W * 0.3, Math.max(150, g * 3.1));
+      const bw = boatWidth();
       const hullH = g * 0.44;
       const sailH = g * 0.5;
       const pal = LANE_PASTELS[lane];
@@ -1570,8 +1573,11 @@ export function Game() {
           d.x -= fallSpeed() * dt;
           // Question timer (visual feedback)
           questionTimer -= dt;
-          // Resolve when the boats physically reach the player
-          if (d.x <= Math.max(player.x, W * RESOLVE_X_FRAC)) {
+          // Resolve when the boat's LEFT/front tip touches the player,
+          // not when its centre arrives.
+          const boatTipX = d.x - boatWidth() / 2;
+          const playerFrontX = player.x + playerHalfW();
+          if (boatTipX <= playerFrontX || d.x <= -boatWidth()) {
             d.resolved = true;
             const lane = player.lane;
             const correct = lane === d.safe;
