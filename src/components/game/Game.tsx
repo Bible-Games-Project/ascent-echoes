@@ -1834,8 +1834,8 @@ export function Game() {
           <div className="pointer-events-none absolute inset-x-0 top-0 z-10 flex items-start justify-between px-3 pt-3">
             <div className="flex flex-col gap-1.5">
               <div className="flex items-center gap-1.5">
-                {Array.from({ length: Math.max(3, health) }, (_, i) => i).map((i) => (
-                  <Heart key={i} filled={i < health} />
+                {Array.from({ length: Math.min(MAX_LIVES, Math.max(3, health)) }, (_, i) => i).map((i) => (
+                  <Heart key={i} filled={i < health} pop={lifeFlash > 0 && i === health - 1} />
                 ))}
               </div>
               <div className="flex items-center gap-2 rounded-full bg-black/45 px-2.5 py-0.5 text-[10px] font-medium tracking-widest text-amber-100 backdrop-blur">
@@ -2154,9 +2154,15 @@ function Overlay({ children }: { children: React.ReactNode }) {
   );
 }
 
-function Heart({ filled }: { filled: boolean }) {
+function Heart({ filled, pop }: { filled: boolean; pop?: boolean }) {
   return (
-    <svg viewBox="0 0 24 24" width={20} height={20} aria-hidden>
+    <svg
+      viewBox="0 0 24 24"
+      width={20}
+      height={20}
+      aria-hidden
+      className={pop ? "animate-in zoom-in-50 duration-300 drop-shadow-[0_0_8px_rgba(255,150,190,0.95)]" : undefined}
+    >
       <path
         d="M12 21s-7-4.5-9.5-9.2C.9 8.5 2.6 5 6 5c2 0 3.4 1 4 2.2C10.6 6 12 5 14 5c3.4 0 5.1 3.5 3.5 6.8C19 16.5 12 21 12 21z"
         fill={filled ? "#ffdca8" : "rgba(255,220,170,0.18)"}
