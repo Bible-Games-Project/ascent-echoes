@@ -369,10 +369,21 @@ export function Game() {
     const playerMaxX = () => W - EDGE_MARGIN() - playerHalfW();
     // Continuous left/right input (keyboard), applied every frame.
     const heldX = { left: false, right: false };
-    // Continuous up/down input: a short tap moves one lane, holding keeps
-    // gliding through the lanes without stopping in the middle.
+    // Continuous up/down input, mirroring the horizontal system: a short tap
+    // nudges past the midpoint (settling one lane away), holding keeps gliding.
     const heldY = { up: false, down: false };
     const H_SPEED = () => W * 0.85; // px per second
+    const V_SPEED = () => laneGap() * 3.2; // px per second (same feel as X)
+    const playerMinY = () => laneY(0);
+    const playerMaxY = () => laneY(2);
+    const nearestLaneTo = (y: number): Lane => {
+      let nearest: Lane = 1, bestD = Infinity;
+      for (let i = 0; i < 3; i++) {
+        const dd = Math.abs(y - laneY(i as Lane));
+        if (dd < bestD) { bestD = dd; nearest = i as Lane; }
+      }
+      return nearest;
+    };
 
     const player = {
       lane: 1 as Lane,
@@ -380,6 +391,7 @@ export function Game() {
       x: 0,
       targetX: 0,
       y: 0,
+      targetY: 0,
       knock: 0, // x knockback
     };
     const playerY = () => player.y + player.knock;
@@ -1494,6 +1506,7 @@ export function Game() {
       player.x = W * RESOLVE_X_FRAC;
       player.targetX = player.x;
       player.y = laneY(1);
+      player.targetY = laneY(1);
       player.knock = 0;
       shake = 0; flash = 0; invuln = 0;
       slowTimer = 0; distortTimer = 0;
@@ -1591,20 +1604,17 @@ export function Game() {
         runTimeRef.current += dt;
         setRunTime(runTimeRef.current);
 
-        // Vertical lane glide (continuous while a direction key is held)
-        const tgtY = laneY(player.targetLane);
-        const dy = tgtY - player.y;
-        player.y += dy * Math.min(1, dt * 14);
-        if (Math.abs(dy) < 0.5) { player.y = tgtY; player.lane = player.targetLane; }
-        else {
-          // Keep player.lane in sync with the nearest lane during the glide
-          let nearest: Lane = 1, bestD = Infinity;
-          for (let i = 0; i < 3; i++) {
-            const dd = Math.abs(player.y - laneY(i as Lane));
-            if (dd < bestD) { bestD = dd; nearest = i as Lane; }
-          }
-          player.lane = nearest;
-        }
+        // Immediate, continuous vertical input while held (same as X)
+        const dirY = (heldY.down ? 1 : 0) - (heldY.up ? 1 : 0);
+        if (dirY !== 0) player.targetY += dirY * V_SPEED() * dt;
+        player.targetY = Math.max(playerMinY(), Math.min(playerMaxY(), player.targetY));
+        const dyv = player.targetY - player.y;
+        player.y += dyv * Math.min(1, dt * 24);
+        if (Math.abs(dyv) < 0.4) player.y = player.targetY;
+        player.y = Math.max(playerMinY(), Math.min(playerMaxY(), player.y));
+        // Lane is derived from the continuous position (midpoint = commit)
+        player.lane = nearestLaneTo(player.y);
+        player.targetLane = nearestLaneTo(player.targetY);
         // Immediate, continuous horizontal input while held
         const dirX = (heldX.right ? 1 : 0) - (heldX.left ? 1 : 0);
         if (dirX !== 0) player.targetX += dirX * H_SPEED() * dt;
@@ -1789,48 +1799,32 @@ export function Game() {
 
     const moveLane = (dir: -1 | 1) => {
       if (stateRef.current !== "playing") return;
-      const next = Math.max(0, Math.min(2, player.targetLane + dir)) as Lane;
+      const next = Math.max(0, Math.min(2, nearestLaneTo(player.targetY) + dir)) as Lane;
       if (next !== player.targetLane) sfx.playMove();
       player.targetLane = next;
+      player.targetY = laneY(next);
     };
 
-    // Hold detection for vertical movement: after this delay a held key
-    // keeps gliding through the remaining lanes instead of stopping.
-    const VERT_HOLD_MS = 240;
-    let vertHoldTimer: ReturnType<typeof setTimeout> | null = null;
-    const clearVertHold = () => {
-      if (vertHoldTimer !== null) { clearTimeout(vertHoldTimer); vertHoldTimer = null; }
-    };
+    const clearVertHold = () => { heldY.up = false; heldY.down = false; };
     const startVert = (dir: -1 | 1) => {
       if (stateRef.current !== "playing") return;
       const held = dir === -1 ? heldY.up : heldY.down;
       if (held) return;
       if (dir === -1) { heldY.up = true; heldY.down = false; }
       else { heldY.down = true; heldY.up = false; }
-      moveLane(dir); // immediate one-lane step (tap behaviour)
-      clearVertHold();
-      vertHoldTimer = setTimeout(() => {
-        vertHoldTimer = null;
-        if (stateRef.current !== "playing") return;
-        if (dir === -1 && heldY.up) player.targetLane = 0;
-        else if (dir === 1 && heldY.down) player.targetLane = 2;
-      }, VERT_HOLD_MS);
+      // Immediate nudge past the midpoint so a short tap settles one lane away
+      const before = nearestLaneTo(player.targetY);
+      player.targetY = Math.max(playerMinY(), Math.min(playerMaxY(),
+        player.targetY + dir * laneGap() * 0.55));
+      if (nearestLaneTo(player.targetY) !== before) sfx.playMove();
     };
     const stopVert = (dir: -1 | 1) => {
       if (dir === -1) heldY.up = false; else heldY.down = false;
-      clearVertHold();
       if (!heldY.up && !heldY.down) {
-        // Settle on the lane we are heading to; never stop mid-transition.
-        let nearest: Lane = player.targetLane, bestD = Infinity;
-        for (let i = 0; i < 3; i++) {
-          const dd = Math.abs(player.y - laneY(i as Lane));
-          if (dd < bestD) { bestD = dd; nearest = i as Lane; }
-        }
-        // Keep travelling at least to the next lane in the current direction
-        const towards = dir === -1
-          ? Math.min(nearest, player.targetLane)
-          : Math.max(nearest, player.targetLane);
-        player.targetLane = Math.max(0, Math.min(2, towards)) as Lane;
+        // Settle on whichever lane the midpoint rule has committed us to.
+        const settle = nearestLaneTo(player.targetY);
+        player.targetLane = settle;
+        player.targetY = laneY(settle);
       }
     };
 
@@ -1858,6 +1852,7 @@ export function Game() {
       }
       if (lane !== player.targetLane) sfx.playMove();
       player.targetLane = lane;
+      player.targetY = Math.max(playerMinY(), Math.min(playerMaxY(), y));
       player.targetX = Math.max(playerMinX(), Math.min(playerMaxX(), x));
     };
 
@@ -1896,9 +1891,9 @@ export function Game() {
         if (!heldX.right) player.targetX += W * 0.02;
         heldX.right = true;
       }
-      else if (e.key === "1") player.targetLane = 0;
-      else if (e.key === "2") player.targetLane = 1;
-      else if (e.key === "3") player.targetLane = 2;
+      else if (e.key === "1") { player.targetLane = 0; player.targetY = laneY(0); }
+      else if (e.key === "2") { player.targetLane = 1; player.targetY = laneY(1); }
+      else if (e.key === "3") { player.targetLane = 2; player.targetY = laneY(2); }
     };
     const onKeyUpMove = (e: KeyboardEvent) => {
       if (e.key === "ArrowLeft" || e.key === "a") heldX.left = false;
@@ -1967,6 +1962,7 @@ export function Game() {
     player.x = W * RESOLVE_X_FRAC;
     player.targetX = player.x;
     player.y = laneY(1);
+    player.targetY = laneY(1);
 
     raf = requestAnimationFrame((t) => { last = t; loop(t); });
 
