@@ -109,6 +109,19 @@ export function Game() {
   const [health, setHealth] = useState(3);
   const [maxLives, setMaxLives] = useState(3);
   const [lifeFlash, setLifeFlash] = useState(0);
+  const [viewport, setViewport] = useState({ w: 0, h: 0 });
+
+  // Track the real viewport so the stage can be rotated to landscape.
+  useEffect(() => {
+    const read = () => setViewport({ w: window.innerWidth, h: window.innerHeight });
+    read();
+    window.addEventListener("resize", read);
+    window.addEventListener("orientationchange", read);
+    return () => {
+      window.removeEventListener("resize", read);
+      window.removeEventListener("orientationchange", read);
+    };
+  }, []);
   const [progress, setProgress] = useState(0);
   const [level, setLevel] = useState(1);
   const [currentQuestion, setCurrentQuestion] = useState<string | null>(null);
