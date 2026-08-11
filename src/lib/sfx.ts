@@ -27,6 +27,20 @@ function ctx(): AudioContext | null {
   return _ctx;
 }
 
+/**
+ * Shared AudioContext, also used by the music engine so both systems live on
+ * the same (already user-unlocked) audio graph. Does not affect SFX playback.
+ */
+export function getAudioContext(): AudioContext | null {
+  return ctx();
+}
+
+/** Resume the shared context — safe to call from any user gesture. */
+export function resumeAudioContext(): void {
+  const c = ctx();
+  if (c && c.state === "suspended") c.resume().catch(() => { /* ignore */ });
+}
+
 function resumeIfNeeded() {
   const c = ctx();
   if (c && c.state === "suspended") {
