@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import didacticJesusImg from "@/assets/didactic-jesus.png.asset.json";
+import boatImg from "@/assets/boat.png.asset.json";
 import lostSheepImg from "@/assets/lost-sheep.png.asset.json";
 import bibleUnlockedImg from "@/assets/bible-unlocked.png.asset.json";
 import trueChristImg from "@/assets/true-christ.png.asset.json";
