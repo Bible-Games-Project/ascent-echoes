@@ -14,6 +14,7 @@ import {
 import { getT, type UIKey } from "./i18n";
 import { music } from "@/lib/music";
 import { sfx } from "@/lib/sfx";
+import { DEV_MODE_AVAILABLE } from "@/lib/devMode";
 import {
   getEquipped as getEquippedAvatar,
   recordAllDifficulties,
