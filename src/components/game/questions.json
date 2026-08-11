@@ -65507,18 +65507,18 @@
         {
           "id": "a",
           "text": {
-            "en": "Bridge between covenants",
-            "es": "Puente entre pactos",
-            "pt": "Ponte entre alianças",
-            "fr": "Pont entre les alliances",
-            "de": "Brücke zwischen den Bündnissen",
-            "it": "Ponte tra le alleanze",
-            "pl": "Pomost między przymierzami",
-            "ru": "Мост между заветами",
-            "tr": "Antlaşmalar arasında köprü",
-            "ja": "契約の架け橋",
-            "ko": "언약 사이의 다리",
-            "ar": "جسر بين العهود"
+            "en": "Covenant bridge",
+            "es": "Puente del pacto",
+            "pt": "Ponte da aliança",
+            "fr": "Pont de l’alliance",
+            "de": "Bundesbrücke",
+            "it": "Ponte dell’alleanza",
+            "pl": "Most przymierza",
+            "ru": "Мост завета",
+            "tr": "Antlaşma köprüsü",
+            "ja": "契約の橋",
+            "ko": "언약의 다리",
+            "ar": "جسر العهد"
           },
           "correct": true
         },
@@ -66091,18 +66091,18 @@
         {
           "id": "a",
           "text": {
-            "en": "Bridge between covenants",
-            "es": "Puente entre pactos",
-            "pt": "Ponte entre alianças",
-            "fr": "Pont entre les alliances",
-            "de": "Brücke zwischen den Bündnissen",
-            "it": "Ponte tra le alleanze",
-            "pl": "Pomost między przymierzami",
-            "ru": "Мост между заветами",
-            "tr": "Antlaşmalar arasında köprü",
-            "ja": "契約の架け橋",
-            "ko": "언약 사이의 다리",
-            "ar": "جسر بين العهود"
+            "en": "Covenant bridge",
+            "es": "Puente del pacto",
+            "pt": "Ponte da aliança",
+            "fr": "Pont de l’alliance",
+            "de": "Bundesbrücke",
+            "it": "Ponte dell’alleanza",
+            "pl": "Most przymierza",
+            "ru": "Мост завета",
+            "tr": "Antlaşma köprüsü",
+            "ja": "契約の橋",
+            "ko": "언약의 다리",
+            "ar": "جسر العهد"
           },
           "correct": true
         },
@@ -73108,7 +73108,7 @@
             "pl": "Odkupiciel rodziny",
             "ru": "Искупитель семьи",
             "tr": "Ailenin kurtarıcısı",
-            "ja": "family の贖い主",
+            "ja": "家族の贖い主",
             "ko": "가문의 구속자",
             "ar": "فادي العائلة"
           },
