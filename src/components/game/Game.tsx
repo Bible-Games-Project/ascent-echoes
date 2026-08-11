@@ -1819,6 +1819,17 @@ export function Game() {
 
       {state === "playing" && (
         <>
+          {lifeFlash > 0 && (
+            <div
+              key={lifeFlash}
+              className="pointer-events-none absolute left-1/2 top-1/3 z-20 -translate-x-1/2 animate-in fade-in zoom-in duration-200"
+            >
+              <div className="flex items-center gap-2 rounded-full bg-black/50 px-4 py-1.5 text-sm font-bold tracking-widest text-rose-100 shadow-[0_0_28px_rgba(255,120,170,0.8)] backdrop-blur">
+                <span className="text-rose-300 drop-shadow-[0_0_8px_rgba(255,120,170,0.95)]">♥</span>
+                <span>+1</span>
+              </div>
+            </div>
+          )}
           {/* Top HUD: left group (lives/score/questions), right group (level/streak), home button */}
           <div className="pointer-events-none absolute inset-x-0 top-0 z-10 flex items-start justify-between px-3 pt-3">
             <div className="flex flex-col gap-1.5">
