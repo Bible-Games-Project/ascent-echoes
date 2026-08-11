@@ -24,6 +24,14 @@ on:
         description: "Build AAB without uploading to Google Play (saves as downloadable artifact)"
         type: boolean
         default: false
+      production:
+        description: "Publish to production (Play Store production track + submit iOS build for App Store review)"
+        type: boolean
+        default: false
+      release_notes:
+        description: "Release notes / What's New (required for iOS production submission)"
+        type: string
+        default: ""
 
 jobs:
   ios:
@@ -34,6 +42,9 @@ jobs:
     uses: Bible-Games-Project/bgp-admin/.github/workflows/deploy-ios.yml@main
     with:
       marketing-version: ${{ inputs.marketing_version }}
+      bundle-identifier: "com.biblegames.acent"
+      submit-for-review: ${{ inputs.production == true }}
+      release-notes: ${{ inputs.release_notes }}
     secrets:
       IOS_TEAM_ID: ${{ secrets.IOS_TEAM_ID }}
       IOS_BUILD_CERTIFICATE_BASE64: ${{ secrets.IOS_BUILD_CERTIFICATE_BASE64 }}
@@ -55,7 +66,8 @@ jobs:
     with:
       package-name: com.biblegames.acent
       marketing-version: ${{ inputs.marketing_version }}
-      skip-upload: ${{ inputs.generate_aab_only }}
+      skip-upload: ${{ inputs.generate_aab_only == true }}
+      play-track: ${{ inputs.production == true && 'production' || 'internal' }}
     secrets:
       ANDROID_KEYSTORE: ${{ secrets.ANDROID_KEYSTORE }}
       KEYSTORE_PASSWORD: ${{ secrets.KEYSTORE_PASSWORD }}
@@ -67,7 +79,7 @@ jobs:
     if: always() && (needs.ios.result == 'success' || needs.android.result == 'success')
     uses: Bible-Games-Project/bgp-admin/.github/workflows/notify-telegram.yml@main
     with:
-      app-name: "Ascent Echoes"
+      app-name: "Bible Trivia Run"
     secrets:
       TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
       TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
