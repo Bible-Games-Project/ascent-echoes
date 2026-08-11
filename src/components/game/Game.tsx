@@ -152,6 +152,7 @@ export function Game() {
 
   // Dev mode (testing only — never affects the leaderboard)
   const [devMode, setDevMode] = useState<boolean>(() => {
+    if (!DEV_MODE_AVAILABLE) return false;
     try { return localStorage.getItem("btr_dev_mode") === "1"; } catch { return false; }
   });
   const devModeRef = useRef(false);
