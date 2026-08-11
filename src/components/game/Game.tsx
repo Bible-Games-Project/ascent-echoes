@@ -374,7 +374,7 @@ export function Game() {
     // ---- Landscape geometry ----
     // Three horizontal lanes; the player flies on the LEFT, answer boats
     // sail in from the RIGHT edge towards the player.
-    const LANE_FRACS = [0.40, 0.58, 0.76];
+    const LANE_FRACS = [0.34, 0.585, 0.83];
     const GROUND_FRAC = 0.88;
     const SPAWN_X_FRAC = 1.18;
     const RESOLVE_X_FRAC = 0.16;
@@ -1096,7 +1096,21 @@ export function Game() {
     };
 
     // Shared boat width so collision uses the same geometry as rendering.
-    const boatWidth = () => Math.min(W * 0.32, Math.max(150, laneGap() * 1.85));
+    const boatWidth = () => Math.min(W * 0.32, Math.max(150, laneGap() * 1.2));
+
+    // Base hue of the boat artwork (purple). Per-map tinting rotates this hue
+    // towards a monochromatic / complementary relation with the ground theme.
+    const BOAT_ART_HUE = 265;
+    const boatHueRotate = () => {
+      const theme = themeFor(levelRef.current);
+      const [gh] = hexToHsl(theme.ground.top);
+      // Complementary relation to the map's ground hue.
+      const target = gh + 180;
+      let delta = (target - BOAT_ART_HUE) % 360;
+      if (delta > 180) delta -= 360;
+      if (delta < -180) delta += 360;
+      return delta;
+    };
 
     const drawBoat = (
       cx: number, cy: number, lane: number, text: string,
@@ -1133,6 +1147,7 @@ export function Game() {
       // Boat sprite, mirrored so the bow points right (into the travel side).
       if (sprite) {
         ctx.save();
+        ctx.filter = `hue-rotate(${boatHueRotate().toFixed(1)}deg)`;
         ctx.scale(-1, 1);
         ctx.drawImage(sprite, -(imgLeft + bw), imgTop, bw, bh);
         ctx.restore();
