@@ -2513,6 +2513,7 @@ function SettingsOverlay({
       >
         {t("close")}
       </button>
+      {DEV_MODE_AVAILABLE && (
       <div className="mt-4 w-[280px] max-w-[88vw] rounded-2xl border border-amber-200/15 bg-black/35 p-3 backdrop-blur">
         <button
           type="button"
@@ -2549,6 +2550,7 @@ function SettingsOverlay({
           </button>
         )}
       </div>
+      )}
     </div>
   );
 }
