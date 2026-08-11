@@ -1570,6 +1570,16 @@ export function Game() {
     };
     const releaseTurbo = () => { clearTurboHold(); setTurbo(false); };
 
+    // Keyboard hold-to-accelerate (Down Arrow / S), independent from pointer hold
+    const KEY_TURBO_HOLD_MS = 300;
+    let keyTurboTimer: ReturnType<typeof setTimeout> | null = null;
+    let keyTurboHeld = false;
+    const isTurboKey = (k: string) => k === "ArrowDown" || k.toLowerCase() === "s";
+    const releaseKeyTurbo = () => {
+      if (keyTurboTimer !== null) { clearTimeout(keyTurboTimer); keyTurboTimer = null; }
+      if (keyTurboHeld) { keyTurboHeld = false; setTurbo(false); }
+    };
+
     const moveLane = (dir: -1 | 1) => {
       if (stateRef.current !== "playing") return;
       const next = Math.max(0, Math.min(2, player.targetLane + dir)) as Lane;
@@ -1620,6 +1630,20 @@ export function Game() {
       else if (e.key === "2") player.targetLane = 1;
       else if (e.key === "3") player.targetLane = 2;
     };
+    const onKeyDownTurbo = (e: KeyboardEvent) => {
+      if (!isTurboKey(e.key)) return;
+      if (e.repeat || keyTurboHeld || keyTurboTimer !== null) return;
+      keyTurboTimer = setTimeout(() => {
+        keyTurboTimer = null;
+        keyTurboHeld = true;
+        setTurbo(true);
+      }, KEY_TURBO_HOLD_MS);
+    };
+    const onKeyUpTurbo = (e: KeyboardEvent) => {
+      if (!isTurboKey(e.key)) return;
+      releaseKeyTurbo();
+    };
+    const onWindowBlurTurbo = () => releaseKeyTurbo();
     const onMouseDown = (e: MouseEvent) => { tapLane(e.clientX); };
     let mouseDownX = 0, mouseDownY = 0;
     const onMouseDownTurbo = (e: MouseEvent) => {
@@ -1651,6 +1675,9 @@ export function Game() {
     canvas.addEventListener("touchend", onTouchEndTurbo, { passive: true });
     canvas.addEventListener("touchcancel", onTouchEndTurbo, { passive: true });
     window.addEventListener("keydown", onKey);
+    window.addEventListener("keydown", onKeyDownTurbo);
+    window.addEventListener("keyup", onKeyUpTurbo);
+    window.addEventListener("blur", onWindowBlurTurbo);
 
     player.x = laneX(1);
 
