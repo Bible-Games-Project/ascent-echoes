@@ -2126,16 +2126,19 @@ function MenuSection({ label, children }: { label: string; children: React.React
 function MenuButton({
   onClick,
   children,
+  className,
 }: {
   onClick: () => void;
   children: React.ReactNode;
+  className?: string;
 }) {
   return (
     <button
       type="button"
       onClick={onClick}
       className={
-        "rounded-full border border-amber-200/30 bg-black/30 px-4 py-1.5 text-[10px] tracking-[0.25em] text-amber-100/80 backdrop-blur transition hover:border-amber-200/60 hover:text-amber-50"
+        "rounded-full border border-amber-200/30 bg-black/30 px-4 py-1.5 text-center text-[10px] tracking-[0.25em] text-amber-100/80 backdrop-blur transition hover:border-amber-200/60 hover:text-amber-50 " +
+        (className ?? "")
       }
     >
       {children}
@@ -2167,8 +2170,14 @@ function MainMenuGroups({
         <AvatarIcon id={equippedAvatar} size={22} />
         <span>{t("avatars")}</span>
       </button>
-      <MenuButton onClick={onLeaderboard}>{t("leaderboard")}</MenuButton>
-      <MenuButton onClick={onMoreGames}>{t("moreGames")}</MenuButton>
+      <div className="grid w-full grid-cols-2 items-stretch gap-3 sm:gap-4">
+        <MenuButton onClick={onLeaderboard} className="w-full">
+          {t("leaderboard")}
+        </MenuButton>
+        <MenuButton onClick={onMoreGames} className="w-full">
+          {t("moreGames")}
+        </MenuButton>
+      </div>
     </div>
   );
 }
