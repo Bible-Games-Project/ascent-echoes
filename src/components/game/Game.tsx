@@ -1791,15 +1791,25 @@ export function Game() {
     };
     const onKey = (e: KeyboardEvent) => {
       if (stateRef.current !== "playing") return;
-      const step = W * 0.06;
       if (e.key === "ArrowUp" || e.key === "w") moveLane(-1);
       else if (e.key === "ArrowDown" || e.key === "s") moveLane(1);
-      else if (e.key === "ArrowLeft" || e.key === "a") player.targetX -= step;
-      else if (e.key === "ArrowRight" || e.key === "d") player.targetX += step;
+      else if (e.key === "ArrowLeft" || e.key === "a") {
+        // Immediate nudge, then continuous movement while held
+        if (!heldX.left) player.targetX -= W * 0.02;
+        heldX.left = true;
+      } else if (e.key === "ArrowRight" || e.key === "d") {
+        if (!heldX.right) player.targetX += W * 0.02;
+        heldX.right = true;
+      }
       else if (e.key === "1") player.targetLane = 0;
       else if (e.key === "2") player.targetLane = 1;
       else if (e.key === "3") player.targetLane = 2;
     };
+    const onKeyUpMove = (e: KeyboardEvent) => {
+      if (e.key === "ArrowLeft" || e.key === "a") heldX.left = false;
+      else if (e.key === "ArrowRight" || e.key === "d") heldX.right = false;
+    };
+    const onBlurMove = () => { heldX.left = false; heldX.right = false; };
     const onKeyDownTurbo = (e: KeyboardEvent) => {
       if (!isTurboKey(e.key)) return;
       if (e.repeat || keyTurboHeld || keyTurboTimer !== null) return;
@@ -1848,6 +1858,8 @@ export function Game() {
     canvas.addEventListener("touchend", onTouchEndTurbo, { passive: true });
     canvas.addEventListener("touchcancel", onTouchEndTurbo, { passive: true });
     window.addEventListener("keydown", onKey);
+    window.addEventListener("keyup", onKeyUpMove);
+    window.addEventListener("blur", onBlurMove);
     window.addEventListener("keydown", onKeyDownTurbo);
     window.addEventListener("keyup", onKeyUpTurbo);
     window.addEventListener("blur", onWindowBlurTurbo);
@@ -1873,6 +1885,8 @@ export function Game() {
       canvas.removeEventListener("touchend", onTouchEndTurbo);
       canvas.removeEventListener("touchcancel", onTouchEndTurbo);
       window.removeEventListener("keydown", onKey);
+      window.removeEventListener("keyup", onKeyUpMove);
+      window.removeEventListener("blur", onBlurMove);
       window.removeEventListener("keydown", onKeyDownTurbo);
       window.removeEventListener("keyup", onKeyUpTurbo);
       window.removeEventListener("blur", onWindowBlurTurbo);
