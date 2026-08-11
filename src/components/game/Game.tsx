@@ -1834,8 +1834,8 @@ export function Game() {
           <div className="pointer-events-none absolute inset-x-0 top-0 z-10 flex items-start justify-between px-3 pt-3">
             <div className="flex flex-col gap-1.5">
               <div className="flex items-center gap-1.5">
-                {Array.from({ length: Math.max(3, health) }, (_, i) => i).map((i) => (
-                  <Heart key={i} filled={i < health} />
+                {Array.from({ length: Math.min(MAX_LIVES, Math.max(3, health)) }, (_, i) => i).map((i) => (
+                  <Heart key={i} filled={i < health} pop={lifeFlash > 0 && i === health - 1} />
                 ))}
               </div>
               <div className="flex items-center gap-2 rounded-full bg-black/45 px-2.5 py-0.5 text-[10px] font-medium tracking-widest text-amber-100 backdrop-blur">
