@@ -68,6 +68,7 @@ jobs:
       marketing-version: ${{ inputs.marketing_version }}
       skip-upload: ${{ inputs.generate_aab_only == true }}
       play-track: ${{ inputs.production == true && 'production' || 'internal' }}
+      release-notes: ${{ inputs.release_notes }}
     secrets:
       ANDROID_KEYSTORE: ${{ secrets.ANDROID_KEYSTORE }}
       KEYSTORE_PASSWORD: ${{ secrets.KEYSTORE_PASSWORD }}
