@@ -12,6 +12,8 @@ import lvl8 from "@/assets/music/Level_8.mp3.asset.json";
 import lvl9 from "@/assets/music/Level_9.mp3.asset.json";
 import lvl10 from "@/assets/music/Level_10_endless.mp3.asset.json";
 import home from "@/assets/music/Home.mp3.asset.json";
+import { ASSET_ORIGINS, assetUrl, isNativeShell } from "@/lib/assetUrl";
+import { getAudioContext, resumeAudioContext } from "@/lib/sfx";
 
 const LEVEL_TRACKS: string[] = [
   lvl1.url, lvl2.url, lvl3.url, lvl4.url, lvl5.url,
@@ -37,12 +39,45 @@ class MusicEngine {
   private enabled = true;
   private desiredUrl: string | null = null; // what should be playing right now
   private targetVol = TARGET_VOLUME;
+  private gains = new WeakMap<HTMLAudioElement, GainNode>();
+  private sources = new WeakMap<HTMLAudioElement, MediaElementAudioSourceNode>();
+  private originIndex = 0;      // which hosted origin we resolve assets against
+  private gestureHooked = false;
 
   constructor() {
     try {
       const v = localStorage.getItem(STORAGE_KEY);
       this.enabled = v === null ? true : v === "1";
     } catch { /* ignore */ }
+    if (typeof window !== "undefined") this.installLifecycleHooks();
+  }
+
+  /**
+   * Mobile webviews block playback until a user gesture and suspend audio when
+   * the app goes to the background. Retry whatever should be playing on the
+   * next gesture and whenever the app becomes visible/resumed again.
+   */
+  private installLifecycleHooks() {
+    const retry = () => {
+      resumeAudioContext();
+      const g = this.current ? this.gains.get(this.current) : undefined;
+      if (g) g.context.state === "suspended" && (g.context as AudioContext).resume().catch(() => {});
+      if (!this.enabled || !this.desiredUrl) return;
+      if (this.current && !this.current.paused) return;
+      const url = this.desiredUrl;
+      this.currentUrl = null;
+      this.crossfadeTo(url);
+    };
+    for (const ev of ["pointerdown", "touchend", "keydown"]) {
+      window.addEventListener(ev, retry, { passive: true });
+    }
+    document.addEventListener("visibilitychange", () => {
+      if (document.visibilityState === "visible") retry();
+    });
+    window.addEventListener("pageshow", retry);
+    document.addEventListener("resume", retry);       // Cordova/Capacitor app resume
+    window.addEventListener("focus", retry);
+    this.gestureHooked = true;
   }
 
   isEnabled() { return this.enabled; }
@@ -100,10 +135,38 @@ class MusicEngine {
 
   private crossfadeTo(url: string) {
     this.clearFades();
-    const next = new Audio(url);
+    const next = new Audio();
+    // Cross-origin is required in native shells (assets live on the hosted
+    // origin); "anonymous" also keeps the stream Web Audio-routable.
+    next.crossOrigin = "anonymous";
+    (next as any).playsInline = true;
+    next.src = assetUrl(url, this.originIndex);
     next.loop = true; // seamless infinite loop per spec
-    next.volume = 0;
     next.preload = "auto";
+
+    // iOS/WKWebView ignores HTMLAudioElement.volume, so fades and the volume
+    // setting silently do nothing there. Route through the shared AudioContext
+    // gain node when possible and only fall back to element volume.
+    const gain = this.attachGain(next);
+    if (gain) {
+      gain.gain.value = 0;
+      next.volume = 1;
+    } else {
+      next.volume = 0;
+    }
+
+    // If the current origin cannot serve the file (unpublished / offline),
+    // retry the next known hosted origin once.
+    next.addEventListener("error", () => {
+      if (this.current !== next) return;
+      if (!isNativeShell()) return;
+      if (this.originIndex >= ASSET_ORIGINS.length - 1) return;
+      this.originIndex += 1;
+      this.currentUrl = null;
+      this.crossfadeTo(url);
+    });
+
+    resumeAudioContext();
     const playPromise = next.play();
     if (playPromise && typeof playPromise.catch === "function") {
       playPromise.catch(() => { /* autoplay blocked; resumes on next gesture */ });
@@ -119,8 +182,8 @@ class MusicEngine {
     const id = window.setInterval(() => {
       n += 1;
       const k = Math.min(1, n / steps);
-      next.volume = this.targetVol * k;
-      if (prev) prev.volume = Math.max(0, this.targetVol * (1 - k));
+      this.applyVolume(next, this.targetVol * k);
+      if (prev) this.applyVolume(prev, Math.max(0, this.targetVol * (1 - k)));
       if (n >= steps) {
         window.clearInterval(id);
         this.fadeTimers = this.fadeTimers.filter((x) => x !== id);
@@ -128,6 +191,30 @@ class MusicEngine {
       }
     }, tick);
     this.fadeTimers.push(id);
+  }
+
+  /** Connect an element to the shared audio graph; null when unavailable. */
+  private attachGain(el: HTMLAudioElement): GainNode | null {
+    const c = getAudioContext();
+    if (!c) return null;
+    try {
+      const src = c.createMediaElementSource(el);
+      const g = c.createGain();
+      src.connect(g).connect(c.destination);
+      this.sources.set(el, src);
+      this.gains.set(el, g);
+      return g;
+    } catch {
+      return null;
+    }
+  }
+
+  private applyVolume(el: HTMLAudioElement, vol: number) {
+    const g = this.gains.get(el);
+    if (g) {
+      try { g.gain.value = vol; return; } catch { /* fall through */ }
+    }
+    try { el.volume = vol; } catch { /* ignore */ }
   }
 }
 
