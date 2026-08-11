@@ -361,14 +361,17 @@ export function Game() {
     const RESOLVE_X_FRAC = 0.16;
     const laneY = (lane: Lane) => H * LANE_FRACS[lane];
     const laneGap = () => H * (LANE_FRACS[1] - LANE_FRACS[0]);
-    // Player visual half-width (dove silhouette) + safety margin so the
-    // sprite never touches or leaves the screen edges.
-    const playerHalfW = () => Math.max(20, Math.min(46, H * 0.075));
-    const EDGE_MARGIN = () => Math.max(10, W * 0.015);
+    // Player visual half-width (dove silhouette, wings included) + safety
+    // margin so the sprite never touches or leaves the screen edges.
+    const playerHalfW = () => Math.max(28, Math.min(62, H * 0.1));
+    const EDGE_MARGIN = () => Math.max(18, W * 0.032);
     const playerMinX = () => EDGE_MARGIN() + playerHalfW();
     const playerMaxX = () => W - EDGE_MARGIN() - playerHalfW();
     // Continuous left/right input (keyboard), applied every frame.
     const heldX = { left: false, right: false };
+    // Continuous up/down input: a short tap moves one lane, holding keeps
+    // gliding through the lanes without stopping in the middle.
+    const heldY = { up: false, down: false };
     const H_SPEED = () => W * 0.85; // px per second
 
     const player = {
