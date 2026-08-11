@@ -47,7 +47,19 @@ import {
 } from "@/lib/leaderboard";
 
 type GameState = "start" | "playing" | "gameover";
-type Lane = 0 | 1 | 2; // 0 left, 1 center, 2 right
+type Lane = 0 | 1 | 2; // 0 top, 1 middle, 2 bottom (horizontal lanes)
+
+// Landscape shell state, shared between the React tree (which applies the
+// rotation) and the canvas input handlers (which must un-rotate pointer
+// coordinates). The game world is ALWAYS landscape; on a portrait device the
+// whole interface is rotated 90deg.
+const viewport = { rotated: false, screenW: 0, screenH: 0 };
+
+/** Convert a client (screen) point into game-surface coordinates. */
+function toSurfacePoint(clientX: number, clientY: number): { x: number; y: number } {
+  if (!viewport.rotated) return { x: clientX, y: clientY };
+  return { x: clientY, y: viewport.screenW - clientX };
+}
 
 function formatRunTime(seconds: number): string {
   const total = Math.max(0, Math.floor(seconds));
@@ -61,7 +73,7 @@ function formatRunTime(seconds: number): string {
 }
 
 interface FallingDecision {
-  y: number; // world Y position of the falling object (in screen px)
+  x: number; // world X position of the incoming boats (travels right -> left)
   safe: Lane;
   question: string;
   answers: [string, string, string];
@@ -88,6 +100,7 @@ type PowerupType = "star" | "heart" | "shineheart" | "slow" | "hint" | "apple" |
 const MAX_LIVES = 7;
 
 interface Powerup {
+  x: number;
   y: number;
   lane: Lane;
   type: PowerupType;
@@ -310,9 +323,11 @@ export function Game() {
     let H = 0;
 
     const resize = () => {
-      const rect = canvas.getBoundingClientRect();
-      W = rect.width;
-      H = rect.height;
+      // NOTE: use layout size (not getBoundingClientRect) because the whole
+      // shell may be rotated 90deg on portrait devices, which would swap the
+      // axis-aligned bounding box.
+      W = canvas.clientWidth;
+      H = canvas.clientHeight;
       canvas.width = Math.floor(W * dpr);
       canvas.height = Math.floor(H * dpr);
       ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
@@ -336,18 +351,28 @@ export function Game() {
     let prevLevel = 1;
     let themeBlend = 1; // 0..1, 1 = fully on current theme
 
-    // Player (bottom of screen)
-    const PLAYER_Y_FRAC = 0.82;
-    const RESOLVE_LINE_FRAC = 0.78; // where falling objects resolve
-    const laneX = (lane: Lane) => W * [0.2, 0.5, 0.8][lane];
-    const playerY = () => H * PLAYER_Y_FRAC;
+    // ----- Landscape layout -----
+    // Three horizontal lanes; player lives on the left, answer boats sail in
+    // from the right edge towards the resolve line.
+    const LANE_Y_FRACS = [0.44, 0.62, 0.80];
+    const GROUND_TOP_FRAC = 0.9;
+    const RESOLVE_X_FRAC = 0.14; // where incoming boats resolve
+    const PLAYER_MIN_X_FRAC = 0.07;
+    const PLAYER_MAX_X_FRAC = 0.6;
+    const laneY = (lane: Lane) => H * LANE_Y_FRACS[lane];
+    const playerMinX = () => W * PLAYER_MIN_X_FRAC;
+    const playerMaxX = () => W * PLAYER_MAX_X_FRAC;
+    const resolveX = () => W * RESOLVE_X_FRAC;
 
     const player = {
       lane: 1 as Lane,
       targetLane: 1 as Lane,
       x: 0,
-      knock: 0, // y knockback
+      y: 0,
+      targetX: 0,
+      knock: 0, // x knockback
     };
+    const playerY = () => player.y;
 
     // Decisions queue: a flat list, only the first unresolved one is "active"
     // and visibly falling. The next one spawns after the current resolves.
@@ -362,10 +387,10 @@ export function Game() {
     const currentQuestionRef = { current: null as string | null };
 
     const fallSpeed = () => {
-      // Time per question maps to how long the object takes to fall from
-      // top to resolve line. Distance ≈ H * (RESOLVE_LINE_FRAC + 0.1).
+      // Time per question maps to how long a boat takes to sail from the
+      // right edge to the resolve line.
       const t = timePerQuestionForLevel(levelRef.current);
-      const dist = H * (RESOLVE_LINE_FRAC + 0.1);
+      const dist = W * (1.15 - RESOLVE_X_FRAC);
       const base = dist / Math.max(1, t);
       return slowTimer > 0 ? base * 0.5 : base;
     };
@@ -383,9 +408,14 @@ export function Game() {
     };
 
     const spawnPowerup = () => {
+      // Bonuses drop from the sky at varied horizontal positions across the
+      // playfield, so the player has to move left/right (and between lanes)
+      // to catch them.
+      const lane = Math.floor(Math.random() * 3) as Lane;
       powerups.push({
+        x: playerMinX() + Math.random() * (playerMaxX() - playerMinX()),
         y: -120,
-        lane: Math.floor(Math.random() * 3) as Lane,
+        lane,
         type: pickType(),
         taken: false,
         bobSeed: Math.random() * Math.PI * 2,
@@ -421,7 +451,7 @@ export function Game() {
     const buildLevel = (lvl: number) => {
       const qs: GameQuestion[] = buildLevelQuestions(lvl, languageRef.current, usedIdsRef.current);
       queue = qs.map((item) => ({
-        y: -120,
+        x: 0, // set on activation (spawns just off the right edge)
         safe: item.safe as Lane,
         question: item.prompt,
         answers: item.answers,
@@ -741,7 +771,7 @@ export function Game() {
       // top). The nearest layer's BASE sits just above the platform so the
       // hill bodies are clearly visible above the lane surface and the
       // scene feels attached to the ground (not stuck at the viewport bottom).
-      const platTopRef = H * PLAYER_Y_FRAC + 22;
+      const platTopRef = H * GROUND_TOP_FRAC;
       const NEAR_LIFT = Math.max(120, H * 0.2);
       const nearFrac = t.layers.reduce((m, l) => Math.max(m, l.baseFrac), 0);
       t.layers.forEach((l) => {
@@ -920,12 +950,11 @@ export function Game() {
       }
     };
 
-    // Lane platforms at bottom
+    // Horizontal lanes + ground band at the bottom of the landscape stage
     const drawGround = () => {
-      const platTop = H * PLAYER_Y_FRAC + 22;
+      const platTop = H * GROUND_TOP_FRAC;
       const platH = 18;
       const gr = themeFor(levelRef.current).ground;
-      const laneW = 48;
 
       // Single continuous ground rectangle spanning the full width,
       // from the platform top down to the bottom edge of the canvas.
@@ -944,122 +973,181 @@ export function Game() {
       ctx.fillStyle = "rgba(0,0,0,0.25)";
       ctx.fillRect(0, platTop + platH, W, 8);
 
-      // Subtle internal lane guides (visual only — gameplay lanes unchanged)
-      for (let i = 0; i < 2; i++) {
-        const lx = (laneX(i as Lane) + laneX((i + 1) as Lane)) / 2;
-        const lg = ctx.createLinearGradient(0, platTop, 0, H);
-        lg.addColorStop(0, "rgba(0,0,0,0.18)");
-        lg.addColorStop(1, "rgba(0,0,0,0)");
+      // Three horizontal lane bands: soft water channels the boats sail along.
+      const bandH = (laneY(2) - laneY(0)) / 2;
+      for (let i = 0; i < 3; i++) {
+        const cy = laneY(i as Lane);
+        const top = cy - bandH * 0.44;
+        const lg = ctx.createLinearGradient(0, top, 0, top + bandH * 0.88);
+        lg.addColorStop(0, "rgba(255,255,255,0.05)");
+        lg.addColorStop(0.5, "rgba(255,255,255,0.10)");
+        lg.addColorStop(1, "rgba(0,0,0,0.10)");
         ctx.fillStyle = lg;
-        ctx.fillRect(lx - 0.5, platTop + platH + 8, 1, H - (platTop + platH + 8));
+        ctx.fillRect(0, top, W, bandH * 0.88);
+        // Lane centre guide line
+        ctx.fillStyle = "rgba(255, 225, 170, 0.16)";
+        ctx.fillRect(0, cy - 0.5, W, 1);
       }
+      // Lane separators
+      for (let i = 0; i < 2; i++) {
+        const sy = (laneY(i as Lane) + laneY((i + 1) as Lane)) / 2;
+        ctx.fillStyle = "rgba(0,0,0,0.22)";
+        ctx.fillRect(0, sy - 0.5, W, 1);
+      }
+    };
+
+    // ----- Answer boats (sail right -> left, one per lane) -----
+    const drawBoat = (
+      cx: number,
+      cy: number,
+      text: string,
+      lane: Lane,
+      highlight: boolean,
+      alpha: number,
+    ) => {
+      // A boat must fit inside its own lane band, so every dimension is
+      // derived from the vertical gap between lanes.
+      const laneGap = (LANE_Y_FRACS[1] - LANE_Y_FRACS[0]) * H;
+      const boatW = Math.max(140, Math.min(300, W * 0.28));
+      const hullH = Math.max(12, laneGap * 0.2);
+      const t = performance.now() / 1000;
+      const bob = Math.sin(t * 1.6 + lane * 1.3) * 3;
+      // Push the hull down a little so hull + sail stay centred on the lane.
+      const y = cy + bob + laneGap * 0.26;
+
+      ctx.save();
+      ctx.globalAlpha = alpha;
+
+      // Per-lane hull tint keeps the three boats visually distinct.
+      const hulls: [string, string][] = [
+        ["#6b4a2f", "#3a2617"],
+        ["#5a4470", "#2e2140"],
+        ["#2f5a58", "#16302f"],
+      ];
+      const [hullTop, hullBottom] = hulls[lane];
+
+      if (highlight) {
+        const hp = 0.5 + 0.5 * Math.sin(t * 5);
+        const g = ctx.createRadialGradient(cx, y, 0, cx, y, boatW * 0.8);
+        g.addColorStop(0, `rgba(255, 240, 170, ${0.4 + 0.18 * hp})`);
+        g.addColorStop(1, "rgba(255, 240, 170, 0)");
+        ctx.fillStyle = g;
+        ctx.fillRect(cx - boatW, y - boatW * 0.8, boatW * 2, boatW * 1.6);
+      }
+
+      // Sail / banner carrying the answer text
+      const fontPx = Math.round(Math.max(10, Math.min(18, laneGap * 0.17)));
+      ctx.font = `600 ${fontPx}px "Cormorant Garamond", Georgia, serif`;
+      const maxW = boatW - 26;
+      const words = text.split(/\s+/);
+      const lines: string[] = [];
+      let cur = "";
+      for (const w of words) {
+        const test = cur ? cur + " " + w : w;
+        if (ctx.measureText(test).width > maxW && cur) { lines.push(cur); cur = w; }
+        else cur = test;
+      }
+      if (cur) lines.push(cur);
+      while (lines.length > 2) lines.splice(2, lines.length - 2);
+      const lineH = Math.round(fontPx * 1.15);
+      const sailH = lines.length * lineH + 8;
+      const sailW = boatW - 16;
+      const sailY = y - hullH * 0.55 - sailH;
+
+      // Mast
+      ctx.strokeStyle = "rgba(60,40,25,0.9)";
+      ctx.lineWidth = 3;
+      ctx.beginPath();
+      ctx.moveTo(cx, y);
+      ctx.lineTo(cx, sailY);
+      ctx.stroke();
+
+      // Sail panel
+      const sx = cx - sailW / 2;
+      const sg = ctx.createLinearGradient(0, sailY, 0, sailY + sailH);
+      if (highlight) {
+        sg.addColorStop(0, "rgba(255, 232, 155, 0.98)");
+        sg.addColorStop(1, "rgba(255, 200, 96, 0.95)");
+      } else {
+        sg.addColorStop(0, "rgba(250, 244, 226, 0.95)");
+        sg.addColorStop(1, "rgba(226, 213, 186, 0.95)");
+      }
+      ctx.fillStyle = sg;
+      ctx.strokeStyle = highlight ? "rgba(255,252,225,0.95)" : "rgba(90,65,40,0.75)";
+      ctx.lineWidth = highlight ? 2.5 : 1.5;
+      const r = 8;
+      ctx.beginPath();
+      ctx.moveTo(sx + r, sailY);
+      ctx.lineTo(sx + sailW - r, sailY);
+      ctx.quadraticCurveTo(sx + sailW, sailY, sx + sailW, sailY + r);
+      ctx.lineTo(sx + sailW, sailY + sailH - r);
+      ctx.quadraticCurveTo(sx + sailW, sailY + sailH, sx + sailW - r, sailY + sailH);
+      ctx.lineTo(sx + r, sailY + sailH);
+      ctx.quadraticCurveTo(sx, sailY + sailH, sx, sailY + sailH - r);
+      ctx.lineTo(sx, sailY + r);
+      ctx.quadraticCurveTo(sx, sailY, sx + r, sailY);
+      ctx.closePath();
+      ctx.fill();
+      ctx.stroke();
+
+      // Answer text
+      ctx.fillStyle = "#2a1a05";
+      ctx.textAlign = "center";
+      ctx.textBaseline = "middle";
+      lines.forEach((l, i) => {
+        ctx.fillText(l, cx, sailY + 6 + lineH * (i + 0.5));
+      });
+
+      // Hull
+      const hg = ctx.createLinearGradient(0, y - hullH / 2, 0, y + hullH / 2);
+      hg.addColorStop(0, hullTop);
+      hg.addColorStop(1, hullBottom);
+      ctx.fillStyle = hg;
+      ctx.strokeStyle = "rgba(255, 225, 175, 0.35)";
+      ctx.lineWidth = 1.5;
+      ctx.beginPath();
+      ctx.moveTo(cx - boatW / 2, y - hullH * 0.45);
+      ctx.lineTo(cx + boatW / 2, y - hullH * 0.45);
+      ctx.quadraticCurveTo(cx + boatW * 0.42, y + hullH * 0.55, cx, y + hullH * 0.55);
+      ctx.quadraticCurveTo(cx - boatW * 0.42, y + hullH * 0.55, cx - boatW / 2, y - hullH * 0.45);
+      ctx.closePath();
+      ctx.fill();
+      ctx.stroke();
+
+      // Deck rim
+      ctx.fillStyle = "rgba(255, 230, 185, 0.35)";
+      ctx.fillRect(cx - boatW / 2, y - hullH * 0.45, boatW, 2);
+
+      // Wake in front of the bow (boats travel leftwards)
+      const wg = ctx.createLinearGradient(cx - boatW / 2 - 30, 0, cx - boatW / 2, 0);
+      wg.addColorStop(0, "rgba(255,255,255,0)");
+      wg.addColorStop(1, "rgba(255,255,255,0.22)");
+      ctx.fillStyle = wg;
+      ctx.fillRect(cx - boatW / 2 - 30, y + hullH * 0.35, 30, 3);
+
+      ctx.restore();
+      ctx.globalAlpha = 1;
     };
 
     const drawActiveDecision = (dt: number) => {
       const d = queue[activeIdx];
       if (!d) return;
-      // helper to draw an answer label above the falling door
-      const drawAnswerLabel = (cx: number, topY: number, text: string, highlight = false) => {
-        ctx.save();
-        ctx.font = '600 16px "Cormorant Garamond", Georgia, serif';
-        ctx.textAlign = "center";
-        ctx.textBaseline = "bottom";
-        const maxW = W / 3 - 14;
-        // word-wrap to up to 2 lines
-        const words = text.split(/\s+/);
-        const lines: string[] = [];
-        let cur = "";
-        for (const w of words) {
-          const test = cur ? cur + " " + w : w;
-          if (ctx.measureText(test).width > maxW && cur) {
-            lines.push(cur);
-            cur = w;
-            if (lines.length === 1) {
-              // last line: append rest, truncate with ellipsis if needed
-              const rest = words.slice(words.indexOf(w)).join(" ");
-              let r = rest;
-              while (ctx.measureText(r + "…").width > maxW && r.length > 1) r = r.slice(0, -1);
-              if (r !== rest) r = r + "…";
-              lines.push(r);
-              cur = "";
-              break;
-            }
-          } else cur = test;
-        }
-        if (cur) lines.push(cur);
-        const lineH = 18;
-        const boxH = lines.length * lineH + 6;
-        const boxW = Math.min(maxW + 12, Math.max(...lines.map(l => ctx.measureText(l).width)) + 14);
-        const bx = cx - boxW / 2;
-        const by = topY - boxH;
-        if (highlight) {
-          const hp = 0.5 + 0.5 * Math.sin(performance.now() / 1000 * 5);
-          ctx.shadowColor = "rgba(255, 235, 150, 0.95)";
-          ctx.shadowBlur = 24 + 16 * hp;
-          const bg = ctx.createLinearGradient(0, by, 0, by + boxH);
-          bg.addColorStop(0, `rgba(255, 226, 140, ${0.9 + 0.08 * hp})`);
-          bg.addColorStop(1, "rgba(255, 196, 90, 0.92)");
-          ctx.fillStyle = bg;
-          ctx.strokeStyle = "rgba(255, 252, 225, 0.95)";
-          ctx.lineWidth = 2.5;
-        } else {
-          ctx.fillStyle = "rgba(0,0,0,0.55)";
-          ctx.strokeStyle = "rgba(255, 220, 170, 0.45)";
-          ctx.lineWidth = 1;
-        }
-        ctx.beginPath();
-        const r = 6;
-        ctx.moveTo(bx + r, by);
-        ctx.lineTo(bx + boxW - r, by);
-        ctx.quadraticCurveTo(bx + boxW, by, bx + boxW, by + r);
-        ctx.lineTo(bx + boxW, by + boxH - r);
-        ctx.quadraticCurveTo(bx + boxW, by + boxH, bx + boxW - r, by + boxH);
-        ctx.lineTo(bx + r, by + boxH);
-        ctx.quadraticCurveTo(bx, by + boxH, bx, by + boxH - r);
-        ctx.lineTo(bx, by + r);
-        ctx.quadraticCurveTo(bx, by, bx + r, by);
-        ctx.closePath();
-        ctx.fill();
-        ctx.stroke();
-        ctx.shadowBlur = 0;
-        if (highlight) {
-          ctx.font = '700 17px "Cormorant Garamond", Georgia, serif';
-          ctx.fillStyle = "#2a1a05";
-        } else {
-          ctx.fillStyle = "#fff3d6";
-        }
-        lines.forEach((l, idx) => {
-          ctx.fillText(l, cx, by + 3 + (idx + 1) * lineH);
-        });
-        ctx.restore();
-      };
       for (let i = 0; i < 3; i++) {
         const outcome = d.doorOutcome[i];
-        const cx = laneX(i as Lane);
+        const cy = laneY(i as Lane);
         if (outcome) d.doorAnim[i] = Math.min(1, d.doorAnim[i] + dt * 3);
         const anim = d.doorAnim[i];
         if (outcome && anim >= 1) continue;
         if (hintActive === i) {
-          const t = performance.now() / 1000;
-          const pulse = 1 + Math.sin(t * 5) * 0.18;
-          const r = 110 * pulse;
-          const g = ctx.createRadialGradient(cx, d.y - 20, 0, cx, d.y - 20, r);
-          g.addColorStop(0, "rgba(255, 248, 190, 0.95)");
-          g.addColorStop(0.45, "rgba(255, 235, 150, 0.45)");
-          g.addColorStop(1, "rgba(255, 250, 200, 0)");
-          ctx.fillStyle = g;
-          ctx.fillRect(cx - r, d.y - 20 - r, r * 2, r * 2);
-          // Vertical light beam from the top of the screen down to the answer
-          const beam = ctx.createLinearGradient(cx, 0, cx, d.y);
-          beam.addColorStop(0, "rgba(255, 245, 180, 0)");
-          beam.addColorStop(1, `rgba(255, 240, 165, ${0.22 + 0.08 * Math.sin(t * 5)})`);
+          // Horizontal light beam running along the hinted lane
+          const beam = ctx.createLinearGradient(0, 0, d.x, 0);
+          const p = 0.22 + 0.08 * Math.sin(performance.now() / 200);
+          beam.addColorStop(0, `rgba(255, 240, 165, ${p})`);
+          beam.addColorStop(1, "rgba(255, 245, 180, 0)");
           ctx.fillStyle = beam;
-          ctx.fillRect(cx - 46, 0, 92, Math.max(0, d.y - 4));
+          ctx.fillRect(0, cy - 34, Math.max(0, d.x), 68);
         }
-        const alpha = outcome ? 1 - anim : 1;
-        ctx.globalAlpha = alpha;
-        drawAnswerLabel(cx, d.y, d.answers[i], hintActive === i);
-        ctx.globalAlpha = 1;
+        drawBoat(d.x, cy, d.answers[i], i as Lane, hintActive === i, outcome ? 1 - anim : 1);
       }
     };
 
@@ -1195,7 +1283,7 @@ export function Game() {
       powerups.forEach((p) => {
         if (p.taken) return;
         if (p.y < -70 || p.y > H + 70) return;
-        const sx = laneX(p.lane) + Math.sin(t * 2.4 + p.bobSeed) * 4;
+        const sx = p.x + Math.sin(t * 2.4 + p.bobSeed) * 4;
         const haloColor =
           p.type === "star" ? "rgba(255, 230, 140, 0.55)" :
           p.type === "heart" ? "rgba(255, 120, 130, 0.5)" :
@@ -1219,7 +1307,7 @@ export function Game() {
     };
 
     const applyPowerup = (p: Powerup) => {
-      const px = laneX(player.lane);
+      const px = player.x;
       const py = playerY();
       switch (p.type) {
         case "star":
@@ -1265,8 +1353,8 @@ export function Game() {
 
     // ----- Player draw (Dove of Light: minimal glowing silhouette) -----
     const drawPlayer = () => {
-      const x = player.x;
-      const y = playerY() + player.knock;
+      const x = player.x + player.knock; // knockback pushes leftwards
+      const y = playerY();
       const wrong = player.knock < 0;
       const flicker = invuln > 0 && Math.floor(invuln * 20) % 2 === 0;
       const dimming = wrong ? 0.45 + 0.55 * Math.abs(Math.sin(timeSec * 40)) : 1;
@@ -1329,15 +1417,15 @@ export function Game() {
 
       // Bombilla hint: subtle light beam toward safe lane (no UI changes)
       if (hintActive !== null) {
-        const targetX = laneX(hintActive);
-        const grd = ctx.createLinearGradient(x, y, targetX, y - 40);
+        const targetY = laneY(hintActive);
+        const grd = ctx.createLinearGradient(x, y, x + 90, targetY);
         grd.addColorStop(0, "rgba(255, 240, 180, 0.35)");
         grd.addColorStop(1, "rgba(255, 240, 180, 0)");
         ctx.strokeStyle = grd;
         ctx.lineWidth = 2;
         ctx.beginPath();
-        ctx.moveTo(x, y - 6);
-        ctx.lineTo(targetX, y - 80);
+        ctx.moveTo(x + 6, y);
+        ctx.lineTo(x + 90, targetY);
         ctx.stroke();
       }
     };
@@ -1367,7 +1455,9 @@ export function Game() {
     const reset = (startLevel: number = 1) => {
       player.lane = 1;
       player.targetLane = 1;
-      player.x = laneX(1);
+      player.x = W * 0.16;
+      player.targetX = W * 0.16;
+      player.y = laneY(1);
       player.knock = 0;
       shake = 0; flash = 0; invuln = 0;
       slowTimer = 0; distortTimer = 0;
@@ -1464,26 +1554,37 @@ export function Game() {
         runTimeRef.current += dt;
         setRunTime(runTimeRef.current);
 
-        // Player lane lerp
-        const tgtX = laneX(player.targetLane);
-        const dx = tgtX - player.x;
-        player.x += dx * Math.min(1, dt * 14);
-        if (Math.abs(dx) < 0.5) { player.x = tgtX; player.lane = player.targetLane; }
+        // Player lane (vertical) lerp
+        const tgtY = laneY(player.targetLane);
+        const dy = tgtY - player.y;
+        player.y += dy * Math.min(1, dt * 14);
+        if (Math.abs(dy) < 0.5) { player.y = tgtY; player.lane = player.targetLane; }
+        // Free horizontal movement, clamped to the playable area
+        player.targetX = Math.max(playerMinX(), Math.min(playerMaxX(), player.targetX));
+        const dxh = player.targetX - player.x;
+        player.x += dxh * Math.min(1, dt * 12);
+        if (Math.abs(dxh) < 0.5) player.x = player.targetX;
         if (player.knock < 0) {
           player.knock += dt * 40;
           if (player.knock > 0) player.knock = 0;
         }
         if (invuln > 0) invuln -= dt;
-        if (Math.random() < dt * 8) spawnDust(player.x + (Math.random() - 0.5) * 12, playerY() + 22, 1);
+        if (Math.random() < dt * 8) spawnDust(player.x - 14 + (Math.random() - 0.5) * 12, playerY() + 8, 1);
 
-        // Active decision falls
+        // Active decision: boats sail right -> left
         const d = queue[activeIdx];
         if (d && !d.resolved) {
-          d.y += fallSpeed() * dt;
+          if (d.x === 0) d.x = W * 1.15;
+          d.x -= fallSpeed() * dt;
           // Question timer (visual feedback)
           questionTimer -= dt;
-          // Resolve when object reaches resolve line
-          if (d.y >= H * RESOLVE_LINE_FRAC) {
+          // Resolve on physical contact with the player's boat, or when the
+          // convoy reaches the resolve line at the left of the stage.
+          const boatHalf = Math.max(150, Math.min(280, W * 0.24)) / 2;
+          const hitPlayer =
+            Math.abs(player.y - laneY(player.lane)) < 24 &&
+            d.x - boatHalf <= player.x + 18;
+          if (hitPlayer || d.x <= resolveX()) {
             d.resolved = true;
             const lane = player.lane;
             const correct = lane === d.safe;
@@ -1551,14 +1652,26 @@ export function Game() {
           lastBonusSpawnIdx = activeIdx;
         }
 
-        // Power-ups fall at the same global speed as answers
+        // Bonuses drop from the sky onto their lane, then drift left along it
+        // at the same global speed as the answer boats.
         const ps = fallSpeed();
+        const dropSpeed = H / Math.max(1, timePerQuestionForLevel(levelRef.current) * 0.5);
         for (let i = powerups.length - 1; i >= 0; i--) {
           const p = powerups[i];
           if (p.taken) { powerups.splice(i, 1); continue; }
-          p.y += ps * dt;
-          // Pickup test (lane match, near player Y)
-          if (!p.taken && p.lane === player.lane && p.y >= playerY() - 16 && p.y <= playerY() + 24) {
+          const targetY = laneY(p.lane);
+          if (p.y < targetY) {
+            p.y = Math.min(targetY, p.y + dropSpeed * dt);
+          } else {
+            p.y = targetY;
+            p.x -= ps * dt;
+          }
+          // Pickup test: physical proximity in both axes
+          if (
+            !p.taken &&
+            Math.abs(p.x - player.x) < 34 &&
+            Math.abs(p.y - playerY()) < 30
+          ) {
             p.taken = true;
             applyPowerup(p);
             if (p.type === "apple" || p.type === "broken") {
@@ -1570,8 +1683,8 @@ export function Game() {
             powerups.splice(i, 1);
             continue;
           }
-          // Off-screen below
-          if (p.y > H + 40) powerups.splice(i, 1);
+          // Off-screen (sailed past the player)
+          if (p.x < -60) powerups.splice(i, 1);
         }
 
         // Sync question UI
@@ -1608,10 +1721,9 @@ export function Game() {
 
     (canvas as unknown as { __reset?: (startLevel?: number) => void }).__reset = reset;
 
-    // ----- Input -----
-    let touchStartX = 0;
-    let touchStartY = 0;
-    let touchStartTime = 0;
+    // ----- Input (landscape) -----
+    // Vertical = lane switching, horizontal = free movement inside the
+    // playable area. Pointer/touch drag steers the player directly.
     const turboRef = { current: 1 };
     const setTurbo = (on: boolean) => { turboRef.current = on ? 4 : 1; };
     const TURBO_HOLD_MS = 500;
@@ -1626,11 +1738,11 @@ export function Game() {
     };
     const releaseTurbo = () => { clearTurboHold(); setTurbo(false); };
 
-    // Keyboard hold-to-accelerate (Down Arrow / S), independent from pointer hold
+    // Keyboard hold-to-accelerate (Shift / Space)
     const KEY_TURBO_HOLD_MS = 300;
     let keyTurboTimer: ReturnType<typeof setTimeout> | null = null;
     let keyTurboHeld = false;
-    const isTurboKey = (k: string) => k === "ArrowDown" || k.toLowerCase() === "s";
+    const isTurboKey = (k: string) => k === "Shift" || k === " " || k === "Spacebar";
     const releaseKeyTurbo = () => {
       if (keyTurboTimer !== null) { clearTimeout(keyTurboTimer); keyTurboTimer = null; }
       if (keyTurboHeld) { keyTurboHeld = false; setTurbo(false); }
@@ -1642,49 +1754,60 @@ export function Game() {
       if (next !== player.targetLane) sfx.playMove();
       player.targetLane = next;
     };
-    const tapLane = (clientX: number) => {
+    const nudgeX = (dir: -1 | 1) => {
       if (stateRef.current !== "playing") return;
-      const rect = canvas.getBoundingClientRect();
-      const rel = (clientX - rect.left) / rect.width;
-      const lane: Lane = rel < 1 / 3 ? 0 : rel < 2 / 3 ? 1 : 2;
-      if (lane !== player.targetLane) sfx.playMove();
-      player.targetLane = lane;
+      const step = W * 0.06;
+      const next = Math.max(playerMinX(), Math.min(playerMaxX(), player.targetX + dir * step));
+      if (Math.abs(next - player.targetX) > 1) sfx.playMove();
+      player.targetX = next;
+    };
+    const laneForY = (y: number): Lane => {
+      let best: Lane = 0;
+      let bestD = Infinity;
+      for (let i = 0; i < 3; i++) {
+        const d = Math.abs(y - laneY(i as Lane));
+        if (d < bestD) { bestD = d; best = i as Lane; }
+      }
+      return best;
     };
 
-    const onTouchStart = (e: TouchEvent) => {
-      const t = e.touches[0];
-      touchStartX = t.clientX;
-      touchStartY = t.clientY;
-      touchStartTime = performance.now();
+    // Direct steering: the player follows the finger / cursor while pressed.
+    let steering = false;
+    let pressX = 0, pressY = 0;
+    const steerTo = (clientX: number, clientY: number) => {
+      if (stateRef.current !== "playing") return;
+      const pt = toSurfacePoint(clientX, clientY);
+      const lane = laneForY(pt.y);
+      if (lane !== player.targetLane) sfx.playMove();
+      player.targetLane = lane;
+      player.targetX = Math.max(playerMinX(), Math.min(playerMaxX(), pt.x));
     };
-    const onTouchMoveTurbo = (e: TouchEvent) => {
-      const t = e.touches[0];
-      if (!t) return;
-      const dx = t.clientX - touchStartX;
-      const dy = t.clientY - touchStartY;
-      if (Math.abs(dx) > TURBO_MOVE_TOL || Math.abs(dy) > TURBO_MOVE_TOL) {
+
+    const onPointerDown = (e: PointerEvent) => {
+      steering = true;
+      pressX = e.clientX; pressY = e.clientY;
+      try { canvas.setPointerCapture(e.pointerId); } catch { /* ignore */ }
+      armTurboHold();
+      steerTo(e.clientX, e.clientY);
+    };
+    const onPointerMove = (e: PointerEvent) => {
+      if (!steering) return;
+      if (Math.abs(e.clientX - pressX) > TURBO_MOVE_TOL || Math.abs(e.clientY - pressY) > TURBO_MOVE_TOL) {
         clearTurboHold();
       }
+      steerTo(e.clientX, e.clientY);
     };
-    const onTouchEnd = (e: TouchEvent) => {
-      const t = e.changedTouches[0];
-      const dx = t.clientX - touchStartX;
-      const dy = t.clientY - touchStartY;
-      const dt2 = performance.now() - touchStartTime;
-      const ax = Math.abs(dx);
-      const ay = Math.abs(dy);
-      if (ax > 30 && ax > ay) {
-        moveLane(dx < 0 ? -1 : 1);
-      } else if (dt2 < 300 && ax < 20 && ay < 20) {
-        tapLane(t.clientX);
-      }
-    };
+    const onPointerUp = () => { steering = false; releaseTurbo(); };
+
     const onKey = (e: KeyboardEvent) => {
-      if (e.key === "ArrowLeft" || e.key === "a") moveLane(-1);
-      else if (e.key === "ArrowRight" || e.key === "d") moveLane(1);
-      else if (e.key === "1") player.targetLane = 0;
-      else if (e.key === "2") player.targetLane = 1;
-      else if (e.key === "3") player.targetLane = 2;
+      const k = e.key;
+      if (k === "ArrowUp" || k.toLowerCase() === "w") moveLane(-1);
+      else if (k === "ArrowDown" || k.toLowerCase() === "s") moveLane(1);
+      else if (k === "ArrowLeft" || k.toLowerCase() === "a") nudgeX(-1);
+      else if (k === "ArrowRight" || k.toLowerCase() === "d") nudgeX(1);
+      else if (k === "1") player.targetLane = 0;
+      else if (k === "2") player.targetLane = 1;
+      else if (k === "3") player.targetLane = 2;
     };
     const onKeyDownTurbo = (e: KeyboardEvent) => {
       if (!isTurboKey(e.key)) return;
@@ -1699,60 +1822,30 @@ export function Game() {
       if (!isTurboKey(e.key)) return;
       releaseKeyTurbo();
     };
-    const onWindowBlurTurbo = () => releaseKeyTurbo();
-    const onMouseDown = (e: MouseEvent) => { tapLane(e.clientX); };
-    let mouseDownX = 0, mouseDownY = 0;
-    const onMouseDownTurbo = (e: MouseEvent) => {
-      if (e.button !== 0) return;
-      mouseDownX = e.clientX; mouseDownY = e.clientY;
-      armTurboHold();
-    };
-    const onMouseMoveTurbo = (e: MouseEvent) => {
-      if (turboHoldTimer === null) return;
-      if (Math.abs(e.clientX - mouseDownX) > TURBO_MOVE_TOL ||
-          Math.abs(e.clientY - mouseDownY) > TURBO_MOVE_TOL) {
-        clearTurboHold();
-      }
-    };
-    const onMouseUpTurbo = () => releaseTurbo();
-    const onMouseLeaveTurbo = () => releaseTurbo();
-    const onTouchStartTurbo = () => armTurboHold();
-    const onTouchEndTurbo = () => releaseTurbo();
+    const onWindowBlurTurbo = () => { releaseKeyTurbo(); releaseTurbo(); steering = false; };
 
-    canvas.addEventListener("touchstart", onTouchStart, { passive: true });
-    canvas.addEventListener("touchend", onTouchEnd, { passive: true });
-    canvas.addEventListener("mousedown", onMouseDown);
-    canvas.addEventListener("mousedown", onMouseDownTurbo);
-    canvas.addEventListener("mousemove", onMouseMoveTurbo);
-    window.addEventListener("mouseup", onMouseUpTurbo);
-    canvas.addEventListener("mouseleave", onMouseLeaveTurbo);
-    canvas.addEventListener("touchstart", onTouchStartTurbo, { passive: true });
-    canvas.addEventListener("touchmove", onTouchMoveTurbo, { passive: true });
-    canvas.addEventListener("touchend", onTouchEndTurbo, { passive: true });
-    canvas.addEventListener("touchcancel", onTouchEndTurbo, { passive: true });
+    canvas.addEventListener("pointerdown", onPointerDown);
+    canvas.addEventListener("pointermove", onPointerMove);
+    window.addEventListener("pointerup", onPointerUp);
+    window.addEventListener("pointercancel", onPointerUp);
     window.addEventListener("keydown", onKey);
     window.addEventListener("keydown", onKeyDownTurbo);
     window.addEventListener("keyup", onKeyUpTurbo);
     window.addEventListener("blur", onWindowBlurTurbo);
 
-    player.x = laneX(1);
+    player.x = W * 0.16;
+    player.targetX = player.x;
+    player.y = laneY(1);
 
     raf = requestAnimationFrame((t) => { last = t; loop(t); });
 
     return () => {
       cancelAnimationFrame(raf);
       ro.disconnect();
-      canvas.removeEventListener("touchstart", onTouchStart);
-      canvas.removeEventListener("touchend", onTouchEnd);
-      canvas.removeEventListener("mousedown", onMouseDown);
-      canvas.removeEventListener("mousedown", onMouseDownTurbo);
-      canvas.removeEventListener("mousemove", onMouseMoveTurbo);
-      window.removeEventListener("mouseup", onMouseUpTurbo);
-      canvas.removeEventListener("mouseleave", onMouseLeaveTurbo);
-      canvas.removeEventListener("touchstart", onTouchStartTurbo);
-      canvas.removeEventListener("touchmove", onTouchMoveTurbo);
-      canvas.removeEventListener("touchend", onTouchEndTurbo);
-      canvas.removeEventListener("touchcancel", onTouchEndTurbo);
+      canvas.removeEventListener("pointerdown", onPointerDown);
+      canvas.removeEventListener("pointermove", onPointerMove);
+      window.removeEventListener("pointerup", onPointerUp);
+      window.removeEventListener("pointercancel", onPointerUp);
       window.removeEventListener("keydown", onKey);
       window.removeEventListener("keydown", onKeyDownTurbo);
       window.removeEventListener("keyup", onKeyUpTurbo);
@@ -1807,8 +1900,47 @@ export function Game() {
 
   const t = getT(language);
 
+  // ----- Landscape shell -----
+  // The game is landscape-only. On a portrait viewport the entire interface
+  // (canvas + overlays) is rotated 90deg so the player always sees a
+  // horizontal stage, exactly like a traditional landscape mobile game.
+  const [shell, setShell] = useState(() => ({
+    w: typeof window === "undefined" ? 1024 : window.innerWidth,
+    h: typeof window === "undefined" ? 576 : window.innerHeight,
+  }));
+  useEffect(() => {
+    const update = () => setShell({ w: window.innerWidth, h: window.innerHeight });
+    update();
+    window.addEventListener("resize", update);
+    window.addEventListener("orientationchange", update);
+    // Best-effort native orientation lock (works inside the app shell).
+    const so = (screen as unknown as { orientation?: { lock?: (o: string) => Promise<void> } }).orientation;
+    so?.lock?.("landscape").catch(() => { /* unsupported on most browsers */ });
+    return () => {
+      window.removeEventListener("resize", update);
+      window.removeEventListener("orientationchange", update);
+    };
+  }, []);
+  const rotated = shell.h > shell.w;
+  const stageH = rotated ? shell.w : shell.h;
+  viewport.rotated = rotated;
+  viewport.screenW = shell.w;
+  viewport.screenH = shell.h;
+  const stageStyle: React.CSSProperties = rotated
+    ? {
+        position: "absolute",
+        top: 0,
+        left: 0,
+        width: shell.h,
+        height: shell.w,
+        transformOrigin: "0 0",
+        transform: `rotate(90deg) translate(0, -${shell.w}px)`,
+      }
+    : { position: "absolute", inset: 0 };
+
   return (
-    <div className="relative h-[100svh] w-screen overflow-hidden bg-black select-none">
+    <div className="fixed inset-0 overflow-hidden bg-black select-none">
+      <div className="overflow-hidden" style={stageStyle}>
       <canvas
         ref={canvasRef}
         className="absolute inset-0 h-full w-full touch-none transition-[filter] duration-300"
@@ -1916,12 +2048,12 @@ export function Game() {
 
           {/* Question - top center */}
           {currentQuestion && (
-            <div className="pointer-events-none absolute inset-x-0 top-24 z-10 flex justify-center px-3 animate-fade-in">
+            <div className="pointer-events-none absolute inset-x-0 top-12 z-10 flex justify-center px-3 animate-fade-in">
               <div
-                className="rounded-2xl border border-amber-200/30 bg-black/55 px-5 py-3 text-center font-light tracking-wide text-amber-50 backdrop-blur-md shadow-[0_0_24px_rgba(255,200,140,0.2)] max-w-[94%]"
+                className="rounded-2xl border border-amber-200/30 bg-black/55 px-5 py-2 text-center font-light tracking-wide text-amber-50 backdrop-blur-md shadow-[0_0_24px_rgba(255,200,140,0.2)] max-w-[80%]"
                 style={{
                   fontFamily: '"Cormorant Garamond", "Cormorant", Georgia, serif',
-                  fontSize: "clamp(18px, 4.6vw, 30px)",
+                  fontSize: Math.round(Math.max(16, Math.min(30, stageH * 0.055))),
                   lineHeight: 1.25,
                   letterSpacing: "0.02em",
                   fontWeight: 500,
@@ -2144,6 +2276,7 @@ export function Game() {
           t={t}
         />
       )}
+      </div>
     </div>
   );
 }
