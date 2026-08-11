@@ -1096,7 +1096,7 @@ export function Game() {
     };
 
     // Shared boat width so collision uses the same geometry as rendering.
-    const boatWidth = () => Math.min(W * 0.3, Math.max(150, laneGap() * 3.1));
+    const boatWidth = () => Math.min(W * 0.32, Math.max(150, laneGap() * 1.85));
 
     const drawBoat = (
       cx: number, cy: number, lane: number, text: string,
@@ -1104,11 +1104,20 @@ export function Game() {
     ) => {
       const g = laneGap();
       const bw = boatWidth();
-      const hullH = g * 0.44;
-      const sailH = g * 0.5;
       const pal = boatPalette(lane);
       const bob = Math.sin(timeSec * 2 + lane * 1.3) * g * 0.035;
       const tilt = Math.sin(timeSec * 1.6 + lane) * 0.02;
+      const sprite = getBoatSprite();
+      // Boat height keeps the artwork proportions but stays lane-sized.
+      const bh = bw * 0.92;
+      // Plaque geometry (mirrored horizontally), in local boat coordinates
+      // with the plaque centred on the lane line.
+      const plaqueW = (BOAT_PLAQUE.x1 - BOAT_PLAQUE.x0) * bw;
+      const plaqueH = (BOAT_PLAQUE.y1 - BOAT_PLAQUE.y0) * bh;
+      const plaqueCyN = (BOAT_PLAQUE.y0 + BOAT_PLAQUE.y1) / 2;
+      const plaqueCxN = 1 - (BOAT_PLAQUE.x0 + BOAT_PLAQUE.x1) / 2; // mirrored
+      const imgLeft = -plaqueCxN * bw;
+      const imgTop = -plaqueCyN * bh;
 
       ctx.save();
       ctx.globalAlpha *= alpha;
@@ -1121,70 +1130,44 @@ export function Game() {
         ctx.shadowBlur = 26 + 14 * hp;
       }
 
-      // Mast + sail (soft pastel triangle above the hull)
-      const mastTop = -hullH / 2 - sailH;
-      ctx.strokeStyle = "rgba(120,95,70,0.75)";
-      ctx.lineWidth = Math.max(1.6, g * 0.035);
-      ctx.beginPath();
-      ctx.moveTo(0, -hullH / 2);
-      ctx.lineTo(0, mastTop);
-      ctx.stroke();
-      const sg = ctx.createLinearGradient(0, mastTop, 0, -hullH / 2);
-      sg.addColorStop(0, highlight ? "#fff2c2" : pal.sail);
-      sg.addColorStop(1, highlight ? "#ffd98a" : pal.hull);
-      ctx.fillStyle = sg;
-      ctx.beginPath();
-      ctx.moveTo(1, mastTop);
-      ctx.lineTo(bw * 0.3, -hullH / 2 - 2);
-      ctx.lineTo(1, -hullH / 2 - 2);
-      ctx.closePath();
-      ctx.fill();
-      ctx.fillStyle = highlight ? "#ffe9b0" : pal.sailShade;
-      ctx.beginPath();
-      ctx.moveTo(-1, mastTop);
-      ctx.lineTo(-bw * 0.18, -hullH / 2 - 2);
-      ctx.lineTo(-1, -hullH / 2 - 2);
-      ctx.closePath();
-      ctx.fill();
-
-      // Hull — rounded pastel trapezoid
-      const hg = ctx.createLinearGradient(0, -hullH / 2, 0, hullH / 2);
-      hg.addColorStop(0, highlight ? "#ffe6a6" : pal.hull);
-      hg.addColorStop(1, highlight ? "#f3bf6a" : pal.hullDark);
-      ctx.fillStyle = hg;
-      ctx.beginPath();
-      ctx.moveTo(-bw / 2, -hullH / 2);
-      ctx.lineTo(bw / 2, -hullH / 2);
-      ctx.quadraticCurveTo(bw / 2 - hullH * 0.15, hullH / 2, bw * 0.32, hullH / 2);
-      ctx.lineTo(-bw * 0.32, hullH / 2);
-      ctx.quadraticCurveTo(-bw / 2 + hullH * 0.15, hullH / 2, -bw / 2, -hullH / 2);
-      ctx.closePath();
-      ctx.fill();
+      // Boat sprite, mirrored so the bow points right (into the travel side).
+      if (sprite) {
+        ctx.save();
+        ctx.scale(-1, 1);
+        ctx.drawImage(sprite, -(imgLeft + bw), imgTop, bw, bh);
+        ctx.restore();
+      } else {
+        // Fallback plaque while the artwork loads.
+        ctx.fillStyle = pal.hull;
+        ctx.beginPath();
+        ctx.roundRect(-plaqueW / 2, -plaqueH / 2, plaqueW, plaqueH, plaqueH / 2);
+        ctx.fill();
+      }
       ctx.shadowBlur = 0;
 
-      // Deck trim
-      ctx.fillStyle = highlight ? "rgba(255,250,225,0.95)" : pal.sail;
-      ctx.fillRect(-bw / 2, -hullH / 2, bw, Math.max(2, g * 0.045));
-      ctx.strokeStyle = highlight ? "rgba(255,252,225,0.95)" : pal.trim;
-      ctx.lineWidth = Math.max(1.2, g * 0.028);
-      ctx.beginPath();
-      ctx.moveTo(-bw / 2, -hullH / 2);
-      ctx.lineTo(bw / 2, -hullH / 2);
-      ctx.quadraticCurveTo(bw / 2 - hullH * 0.15, hullH / 2, bw * 0.32, hullH / 2);
-      ctx.lineTo(-bw * 0.32, hullH / 2);
-      ctx.quadraticCurveTo(-bw / 2 + hullH * 0.15, hullH / 2, -bw / 2, -hullH / 2);
-      ctx.closePath();
-      ctx.stroke();
+      if (highlight) {
+        ctx.fillStyle = `rgba(255, 236, 160, ${0.28 + 0.12 * Math.sin(timeSec * 5)})`;
+        ctx.beginPath();
+        ctx.roundRect(-plaqueW / 2, -plaqueH / 2, plaqueW, plaqueH, plaqueH / 2);
+        ctx.fill();
+      }
 
-      // Answer text on the hull — dark ink on pastel, always readable
-      const fs = Math.max(12, Math.min(26, g * 0.21));
-      ctx.font = `600 ${fs}px "Cormorant Garamond", Georgia, serif`;
+      // Answer text, always inside the plaque under the sail.
+      const maxTextW = plaqueW * 0.9;
+      let fs = Math.max(11, Math.min(24, plaqueH * 0.46));
       ctx.textAlign = "center";
       ctx.textBaseline = "middle";
-      const lines = wrapText(text, bw * 0.82, 2);
-      const lh = fs * 1.02;
-      const startY = -((lines.length - 1) * lh) / 2 + hullH * 0.04;
-      ctx.fillStyle = highlight ? "#3a2405" : pal.ink;
+      let lines: string[] = [];
+      for (let attempt = 0; attempt < 6; attempt++) {
+        ctx.font = `600 ${fs}px "Cormorant Garamond", Georgia, serif`;
+        lines = wrapText(text, maxTextW, 2);
+        const lh = fs * 1.05;
+        if (lines.length * lh <= plaqueH * 0.92) break;
+        fs *= 0.88;
+      }
+      const lh = fs * 1.05;
+      const startY = -((lines.length - 1) * lh) / 2;
+      ctx.fillStyle = "#3a2405";
       lines.forEach((l, i) => ctx.fillText(l, 0, startY + i * lh));
 
       ctx.restore();
