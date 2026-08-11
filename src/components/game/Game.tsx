@@ -1148,7 +1148,7 @@ export function Game() {
       const t = performance.now() / 1000;
       powerups.forEach((p) => {
         if (p.taken) return;
-        if (p.y < -30 || p.y > H + 30) return;
+        if (p.y < -70 || p.y > H + 70) return;
         const sx = laneX(p.lane) + Math.sin(t * 2.4 + p.bobSeed) * 4;
         const haloColor =
           p.type === "star" ? "rgba(255, 230, 140, 0.55)" :
@@ -1557,7 +1557,7 @@ export function Game() {
     let touchStartY = 0;
     let touchStartTime = 0;
     const turboRef = { current: 1 };
-    const setTurbo = (on: boolean) => { turboRef.current = on ? 3 : 1; };
+    const setTurbo = (on: boolean) => { turboRef.current = on ? 4 : 1; };
     const TURBO_HOLD_MS = 500;
     const TURBO_MOVE_TOL = 12;
     let turboHoldTimer: ReturnType<typeof setTimeout> | null = null;
