@@ -1698,6 +1698,10 @@ export function Game() {
       canvas.removeEventListener("touchend", onTouchEndTurbo);
       canvas.removeEventListener("touchcancel", onTouchEndTurbo);
       window.removeEventListener("keydown", onKey);
+      window.removeEventListener("keydown", onKeyDownTurbo);
+      window.removeEventListener("keyup", onKeyUpTurbo);
+      window.removeEventListener("blur", onWindowBlurTurbo);
+      releaseKeyTurbo();
       clearTurboHold();
     };
   }, []);
