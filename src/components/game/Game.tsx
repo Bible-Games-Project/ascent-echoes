@@ -1075,7 +1075,7 @@ export function Game() {
       const bw = boatWidth();
       const hullH = g * 0.44;
       const sailH = g * 0.5;
-      const pal = LANE_PASTELS[lane];
+      const pal = boatPalette(lane);
       const bob = Math.sin(timeSec * 2 + lane * 1.3) * g * 0.035;
       const tilt = Math.sin(timeSec * 1.6 + lane) * 0.02;
 
@@ -1108,7 +1108,7 @@ export function Game() {
       ctx.lineTo(1, -hullH / 2 - 2);
       ctx.closePath();
       ctx.fill();
-      ctx.fillStyle = "rgba(255,255,255,0.55)";
+      ctx.fillStyle = highlight ? "#ffe9b0" : pal.sailShade;
       ctx.beginPath();
       ctx.moveTo(-1, mastTop);
       ctx.lineTo(-bw * 0.18, -hullH / 2 - 2);
@@ -1132,7 +1132,7 @@ export function Game() {
       ctx.shadowBlur = 0;
 
       // Deck trim
-      ctx.fillStyle = highlight ? "rgba(255,250,225,0.95)" : "rgba(255,255,255,0.55)";
+      ctx.fillStyle = highlight ? "rgba(255,250,225,0.95)" : pal.sail;
       ctx.fillRect(-bw / 2, -hullH / 2, bw, Math.max(2, g * 0.045));
       ctx.strokeStyle = highlight ? "rgba(255,252,225,0.95)" : pal.trim;
       ctx.lineWidth = Math.max(1.2, g * 0.028);
@@ -1153,7 +1153,7 @@ export function Game() {
       const lines = wrapText(text, bw * 0.82, 2);
       const lh = fs * 1.02;
       const startY = -((lines.length - 1) * lh) / 2 + hullH * 0.04;
-      ctx.fillStyle = highlight ? "#3a2405" : "#2b2b33";
+      ctx.fillStyle = highlight ? "#3a2405" : pal.ink;
       lines.forEach((l, i) => ctx.fillText(l, 0, startY + i * lh));
 
       ctx.restore();
