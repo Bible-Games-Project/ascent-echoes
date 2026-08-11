@@ -47,6 +47,23 @@ import {
   type LeaderboardEntry,
 } from "@/lib/leaderboard";
 
+// ----- Boat sprite -----
+// The artwork faces left; boats are drawn mirrored so the bow points right.
+// Normalized bounds of the wooden text plaque inside the artwork (pre-mirror).
+const BOAT_PLAQUE = { x0: 0.104, x1: 0.9, y0: 0.63, y1: 0.855 };
+let boatSprite: HTMLImageElement | null = null;
+let boatSpriteReady = false;
+function getBoatSprite(): HTMLImageElement | null {
+  if (typeof window === "undefined") return null;
+  if (!boatSprite) {
+    const img = new Image();
+    img.onload = () => { boatSpriteReady = true; };
+    img.src = assetUrl(boatImg.url);
+    boatSprite = img;
+  }
+  return boatSpriteReady ? boatSprite : null;
+}
+
 type GameState = "start" | "playing" | "gameover";
 type Lane = 0 | 1 | 2; // 0 left, 1 center, 2 right
 
