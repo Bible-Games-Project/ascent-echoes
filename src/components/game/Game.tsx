@@ -47,19 +47,7 @@ import {
 } from "@/lib/leaderboard";
 
 type GameState = "start" | "playing" | "gameover";
-type Lane = 0 | 1 | 2; // 0 top, 1 middle, 2 bottom (horizontal lanes)
-
-// Landscape shell state, shared between the React tree (which applies the
-// rotation) and the canvas input handlers (which must un-rotate pointer
-// coordinates). The game world is ALWAYS landscape; on a portrait device the
-// whole interface is rotated 90deg.
-const viewport = { rotated: false, screenW: 0, screenH: 0 };
-
-/** Convert a client (screen) point into game-surface coordinates. */
-function toSurfacePoint(clientX: number, clientY: number): { x: number; y: number } {
-  if (!viewport.rotated) return { x: clientX, y: clientY };
-  return { x: clientY, y: viewport.screenW - clientX };
-}
+type Lane = 0 | 1 | 2; // 0 left, 1 center, 2 right
 
 function formatRunTime(seconds: number): string {
   const total = Math.max(0, Math.floor(seconds));
@@ -73,7 +61,7 @@ function formatRunTime(seconds: number): string {
 }
 
 interface FallingDecision {
-  x: number; // world X position of the incoming boats (travels right -> left)
+  x: number; // world X position of the answer boats (right -> left)
   safe: Lane;
   question: string;
   answers: [string, string, string];
@@ -102,7 +90,6 @@ const MAX_LIVES = 7;
 interface Powerup {
   x: number;
   y: number;
-  lane: Lane;
   type: PowerupType;
   taken: boolean;
   bobSeed: number;
@@ -120,7 +107,21 @@ export function Game() {
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const [state, setState] = useState<GameState>("start");
   const [health, setHealth] = useState(3);
+  const [maxLives, setMaxLives] = useState(3);
   const [lifeFlash, setLifeFlash] = useState(0);
+  const [viewport, setViewport] = useState({ w: 0, h: 0 });
+
+  // Track the real viewport so the stage can be rotated to landscape.
+  useEffect(() => {
+    const read = () => setViewport({ w: window.innerWidth, h: window.innerHeight });
+    read();
+    window.addEventListener("resize", read);
+    window.addEventListener("orientationchange", read);
+    return () => {
+      window.removeEventListener("resize", read);
+      window.removeEventListener("orientationchange", read);
+    };
+  }, []);
   const [progress, setProgress] = useState(0);
   const [level, setLevel] = useState(1);
   const [currentQuestion, setCurrentQuestion] = useState<string | null>(null);
@@ -184,6 +185,7 @@ export function Game() {
 
   const stateRef = useRef<GameState>("start");
   const healthRef = useRef(3);
+  const maxLivesRef = useRef(3);
   const progressRef = useRef(0);
   const scoreRef = useRef(0);
   const streakRef = useRef(0);
@@ -323,11 +325,10 @@ export function Game() {
     let H = 0;
 
     const resize = () => {
-      // NOTE: use layout size (not getBoundingClientRect) because the whole
-      // shell may be rotated 90deg on portrait devices, which would swap the
-      // axis-aligned bounding box.
-      W = canvas.clientWidth;
-      H = canvas.clientHeight;
+      // Use layout size (not getBoundingClientRect) because the stage may be
+      // rotated 90deg to force landscape on portrait devices.
+      W = canvas.offsetWidth || canvas.getBoundingClientRect().width;
+      H = canvas.offsetHeight || canvas.getBoundingClientRect().height;
       canvas.width = Math.floor(W * dpr);
       canvas.height = Math.floor(H * dpr);
       ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
@@ -351,28 +352,27 @@ export function Game() {
     let prevLevel = 1;
     let themeBlend = 1; // 0..1, 1 = fully on current theme
 
-    // ----- Landscape layout -----
-    // Three horizontal lanes; player lives on the left, answer boats sail in
-    // from the right edge towards the resolve line.
-    const LANE_Y_FRACS = [0.44, 0.62, 0.80];
-    const GROUND_TOP_FRAC = 0.9;
-    const RESOLVE_X_FRAC = 0.14; // where incoming boats resolve
-    const PLAYER_MIN_X_FRAC = 0.07;
-    const PLAYER_MAX_X_FRAC = 0.6;
-    const laneY = (lane: Lane) => H * LANE_Y_FRACS[lane];
-    const playerMinX = () => W * PLAYER_MIN_X_FRAC;
-    const playerMaxX = () => W * PLAYER_MAX_X_FRAC;
-    const resolveX = () => W * RESOLVE_X_FRAC;
+    // ---- Landscape geometry ----
+    // Three horizontal lanes; the player flies on the LEFT, answer boats
+    // sail in from the RIGHT edge towards the player.
+    const LANE_FRACS = [0.40, 0.58, 0.76];
+    const GROUND_FRAC = 0.88;
+    const SPAWN_X_FRAC = 1.18;
+    const RESOLVE_X_FRAC = 0.16;
+    const laneY = (lane: Lane) => H * LANE_FRACS[lane];
+    const laneGap = () => H * (LANE_FRACS[1] - LANE_FRACS[0]);
+    const playerMinX = () => W * 0.06;
+    const playerMaxX = () => W * 0.46;
 
     const player = {
       lane: 1 as Lane,
       targetLane: 1 as Lane,
       x: 0,
-      y: 0,
       targetX: 0,
+      y: 0,
       knock: 0, // x knockback
     };
-    const playerY = () => player.y;
+    const playerY = () => player.y + player.knock;
 
     // Decisions queue: a flat list, only the first unresolved one is "active"
     // and visibly falling. The next one spawns after the current resolves.
@@ -388,10 +388,17 @@ export function Game() {
 
     const fallSpeed = () => {
       // Time per question maps to how long a boat takes to sail from the
-      // right edge to the resolve line.
+      // right edge to the player's resolve line.
       const t = timePerQuestionForLevel(levelRef.current);
-      const dist = W * (1.15 - RESOLVE_X_FRAC);
+      const dist = W * (SPAWN_X_FRAC - RESOLVE_X_FRAC);
       const base = dist / Math.max(1, t);
+      return slowTimer > 0 ? base * 0.5 : base;
+    };
+
+    // Bonuses always fall straight DOWN across the whole play area.
+    const bonusFallSpeed = () => {
+      const t = timePerQuestionForLevel(levelRef.current);
+      const base = (H + 240) / Math.max(1, t);
       return slowTimer > 0 ? base * 0.5 : base;
     };
 
@@ -408,14 +415,9 @@ export function Game() {
     };
 
     const spawnPowerup = () => {
-      // Bonuses drop from the sky at varied horizontal positions across the
-      // playfield, so the player has to move left/right (and between lanes)
-      // to catch them.
-      const lane = Math.floor(Math.random() * 3) as Lane;
       powerups.push({
-        x: playerMinX() + Math.random() * (playerMaxX() - playerMinX()),
-        y: -120,
-        lane,
+        x: W * (0.18 + Math.random() * 0.62),
+        y: -80,
         type: pickType(),
         taken: false,
         bobSeed: Math.random() * Math.PI * 2,
@@ -451,7 +453,7 @@ export function Game() {
     const buildLevel = (lvl: number) => {
       const qs: GameQuestion[] = buildLevelQuestions(lvl, languageRef.current, usedIdsRef.current);
       queue = qs.map((item) => ({
-        x: 0, // set on activation (spawns just off the right edge)
+        x: W * SPAWN_X_FRAC,
         safe: item.safe as Lane,
         question: item.prompt,
         answers: item.answers,
@@ -771,7 +773,7 @@ export function Game() {
       // top). The nearest layer's BASE sits just above the platform so the
       // hill bodies are clearly visible above the lane surface and the
       // scene feels attached to the ground (not stuck at the viewport bottom).
-      const platTopRef = H * GROUND_TOP_FRAC;
+      const platTopRef = H * GROUND_FRAC;
       const NEAR_LIFT = Math.max(120, H * 0.2);
       const nearFrac = t.layers.reduce((m, l) => Math.max(m, l.baseFrac), 0);
       t.layers.forEach((l) => {
@@ -950,183 +952,157 @@ export function Game() {
       }
     };
 
-    // Horizontal lanes + ground band at the bottom of the landscape stage
+    // Horizontal lane tracks + ground band at the bottom.
     const drawGround = () => {
-      const platTop = H * GROUND_TOP_FRAC;
-      const platH = 18;
+      const platTop = H * GROUND_FRAC;
       const gr = themeFor(levelRef.current).ground;
+      const g = laneGap();
 
-      // Single continuous ground rectangle spanning the full width,
-      // from the platform top down to the bottom edge of the canvas.
+      // Ground band under the lowest lane
       ctx.fillStyle = gr.bottom;
       ctx.fillRect(0, platTop, W, H - platTop);
-
-      // Top surface band of the platform
       ctx.fillStyle = gr.top;
-      ctx.fillRect(0, platTop, W, platH);
-
-      // Bright rim highlight along the top edge
+      ctx.fillRect(0, platTop, W, Math.max(10, g * 0.16));
       ctx.fillStyle = gr.rim;
       ctx.fillRect(0, platTop, W, 2);
 
-      // Soft shadow line under the platform surface
-      ctx.fillStyle = "rgba(0,0,0,0.25)";
-      ctx.fillRect(0, platTop + platH, W, 8);
-
-      // Three horizontal lane bands: soft water channels the boats sail along.
-      const bandH = (laneY(2) - laneY(0)) / 2;
+      // Three horizontal lane tracks the boats sail along
       for (let i = 0; i < 3; i++) {
         const cy = laneY(i as Lane);
-        const top = cy - bandH * 0.44;
-        const lg = ctx.createLinearGradient(0, top, 0, top + bandH * 0.88);
-        lg.addColorStop(0, "rgba(255,255,255,0.05)");
+        const th = g * 0.82;
+        const lg = ctx.createLinearGradient(0, cy - th / 2, 0, cy + th / 2);
+        lg.addColorStop(0, "rgba(255,255,255,0.03)");
         lg.addColorStop(0.5, "rgba(255,255,255,0.10)");
         lg.addColorStop(1, "rgba(0,0,0,0.10)");
         ctx.fillStyle = lg;
-        ctx.fillRect(0, top, W, bandH * 0.88);
-        // Lane centre guide line
-        ctx.fillStyle = "rgba(255, 225, 170, 0.16)";
-        ctx.fillRect(0, cy - 0.5, W, 1);
-      }
-      // Lane separators
-      for (let i = 0; i < 2; i++) {
-        const sy = (laneY(i as Lane) + laneY((i + 1) as Lane)) / 2;
-        ctx.fillStyle = "rgba(0,0,0,0.22)";
-        ctx.fillRect(0, sy - 0.5, W, 1);
+        ctx.fillRect(0, cy - th / 2, W, th);
+        // soft guide line along the lane center
+        ctx.fillStyle = "rgba(255,240,210,0.10)";
+        ctx.fillRect(0, cy + th / 2 - 1, W, 1);
       }
     };
 
     // ----- Answer boats (sail right -> left, one per lane) -----
-    const drawBoat = (
-      cx: number,
-      cy: number,
-      text: string,
-      lane: Lane,
-      highlight: boolean,
-      alpha: number,
-    ) => {
-      // A boat must fit inside its own lane band, so every dimension is
-      // derived from the vertical gap between lanes.
-      const laneGap = (LANE_Y_FRACS[1] - LANE_Y_FRACS[0]) * H;
-      const boatW = Math.max(140, Math.min(300, W * 0.28));
-      const hullH = Math.max(12, laneGap * 0.2);
-      const t = performance.now() / 1000;
-      const bob = Math.sin(t * 1.6 + lane * 1.3) * 3;
-      // Push the hull down a little so hull + sail stay centred on the lane.
-      const y = cy + bob + laneGap * 0.26;
+    const LANE_PASTELS: { hull: string; hullDark: string; sail: string; trim: string }[] = [
+      { hull: "#9fd8cf", hullDark: "#6fb6ac", sail: "#fdf3e3", trim: "#4f8f88" },
+      { hull: "#f7c9a9", hullDark: "#e0a17c", sail: "#fdf3e3", trim: "#b9754f" },
+      { hull: "#c9bef0", hullDark: "#a396dd", sail: "#fdf3e3", trim: "#7466b5" },
+    ];
 
-      ctx.save();
-      ctx.globalAlpha = alpha;
-
-      // Per-lane hull tint keeps the three boats visually distinct.
-      const hulls: [string, string][] = [
-        ["#6b4a2f", "#3a2617"],
-        ["#5a4470", "#2e2140"],
-        ["#2f5a58", "#16302f"],
-      ];
-      const [hullTop, hullBottom] = hulls[lane];
-
-      if (highlight) {
-        const hp = 0.5 + 0.5 * Math.sin(t * 5);
-        const g = ctx.createRadialGradient(cx, y, 0, cx, y, boatW * 0.8);
-        g.addColorStop(0, `rgba(255, 240, 170, ${0.4 + 0.18 * hp})`);
-        g.addColorStop(1, "rgba(255, 240, 170, 0)");
-        ctx.fillStyle = g;
-        ctx.fillRect(cx - boatW, y - boatW * 0.8, boatW * 2, boatW * 1.6);
-      }
-
-      // Sail / banner carrying the answer text
-      const fontPx = Math.round(Math.max(10, Math.min(18, laneGap * 0.17)));
-      ctx.font = `600 ${fontPx}px "Cormorant Garamond", Georgia, serif`;
-      const maxW = boatW - 26;
+    const wrapText = (text: string, maxW: number, maxLines = 2): string[] => {
       const words = text.split(/\s+/);
       const lines: string[] = [];
       let cur = "";
       for (const w of words) {
         const test = cur ? cur + " " + w : w;
-        if (ctx.measureText(test).width > maxW && cur) { lines.push(cur); cur = w; }
-        else cur = test;
+        if (ctx.measureText(test).width > maxW && cur) {
+          lines.push(cur);
+          cur = w;
+          if (lines.length === maxLines - 1) {
+            const rest = words.slice(words.indexOf(w)).join(" ");
+            let r = rest;
+            while (ctx.measureText(r + "\u2026").width > maxW && r.length > 1) r = r.slice(0, -1);
+            if (r !== rest) r += "\u2026";
+            lines.push(r);
+            cur = "";
+            break;
+          }
+        } else cur = test;
       }
       if (cur) lines.push(cur);
-      while (lines.length > 2) lines.splice(2, lines.length - 2);
-      const lineH = Math.round(fontPx * 1.15);
-      const sailH = lines.length * lineH + 8;
-      const sailW = boatW - 16;
-      const sailY = y - hullH * 0.55 - sailH;
+      return lines.slice(0, maxLines);
+    };
 
-      // Mast
-      ctx.strokeStyle = "rgba(60,40,25,0.9)";
-      ctx.lineWidth = 3;
-      ctx.beginPath();
-      ctx.moveTo(cx, y);
-      ctx.lineTo(cx, sailY);
-      ctx.stroke();
+    const drawBoat = (
+      cx: number, cy: number, lane: number, text: string,
+      highlight: boolean, alpha: number,
+    ) => {
+      const g = laneGap();
+      const bw = Math.min(W * 0.3, Math.max(150, g * 3.1));
+      const hullH = g * 0.44;
+      const sailH = g * 0.5;
+      const pal = LANE_PASTELS[lane];
+      const bob = Math.sin(timeSec * 2 + lane * 1.3) * g * 0.035;
+      const tilt = Math.sin(timeSec * 1.6 + lane) * 0.02;
 
-      // Sail panel
-      const sx = cx - sailW / 2;
-      const sg = ctx.createLinearGradient(0, sailY, 0, sailY + sailH);
+      ctx.save();
+      ctx.globalAlpha *= alpha;
+      ctx.translate(cx, cy + bob);
+      ctx.rotate(tilt);
+
       if (highlight) {
-        sg.addColorStop(0, "rgba(255, 232, 155, 0.98)");
-        sg.addColorStop(1, "rgba(255, 200, 96, 0.95)");
-      } else {
-        sg.addColorStop(0, "rgba(250, 244, 226, 0.95)");
-        sg.addColorStop(1, "rgba(226, 213, 186, 0.95)");
+        const hp = 0.5 + 0.5 * Math.sin(timeSec * 5);
+        ctx.shadowColor = "rgba(255, 226, 140, 0.95)";
+        ctx.shadowBlur = 26 + 14 * hp;
       }
-      ctx.fillStyle = sg;
-      ctx.strokeStyle = highlight ? "rgba(255,252,225,0.95)" : "rgba(90,65,40,0.75)";
-      ctx.lineWidth = highlight ? 2.5 : 1.5;
-      const r = 8;
+
+      // Mast + sail (soft pastel triangle above the hull)
+      const mastTop = -hullH / 2 - sailH;
+      ctx.strokeStyle = "rgba(120,95,70,0.75)";
+      ctx.lineWidth = Math.max(1.6, g * 0.035);
       ctx.beginPath();
-      ctx.moveTo(sx + r, sailY);
-      ctx.lineTo(sx + sailW - r, sailY);
-      ctx.quadraticCurveTo(sx + sailW, sailY, sx + sailW, sailY + r);
-      ctx.lineTo(sx + sailW, sailY + sailH - r);
-      ctx.quadraticCurveTo(sx + sailW, sailY + sailH, sx + sailW - r, sailY + sailH);
-      ctx.lineTo(sx + r, sailY + sailH);
-      ctx.quadraticCurveTo(sx, sailY + sailH, sx, sailY + sailH - r);
-      ctx.lineTo(sx, sailY + r);
-      ctx.quadraticCurveTo(sx, sailY, sx + r, sailY);
+      ctx.moveTo(0, -hullH / 2);
+      ctx.lineTo(0, mastTop);
+      ctx.stroke();
+      const sg = ctx.createLinearGradient(0, mastTop, 0, -hullH / 2);
+      sg.addColorStop(0, highlight ? "#fff2c2" : pal.sail);
+      sg.addColorStop(1, highlight ? "#ffd98a" : pal.hull);
+      ctx.fillStyle = sg;
+      ctx.beginPath();
+      ctx.moveTo(1, mastTop);
+      ctx.lineTo(bw * 0.3, -hullH / 2 - 2);
+      ctx.lineTo(1, -hullH / 2 - 2);
       ctx.closePath();
       ctx.fill();
+      ctx.fillStyle = "rgba(255,255,255,0.55)";
+      ctx.beginPath();
+      ctx.moveTo(-1, mastTop);
+      ctx.lineTo(-bw * 0.18, -hullH / 2 - 2);
+      ctx.lineTo(-1, -hullH / 2 - 2);
+      ctx.closePath();
+      ctx.fill();
+
+      // Hull — rounded pastel trapezoid
+      const hg = ctx.createLinearGradient(0, -hullH / 2, 0, hullH / 2);
+      hg.addColorStop(0, highlight ? "#ffe6a6" : pal.hull);
+      hg.addColorStop(1, highlight ? "#f3bf6a" : pal.hullDark);
+      ctx.fillStyle = hg;
+      ctx.beginPath();
+      ctx.moveTo(-bw / 2, -hullH / 2);
+      ctx.lineTo(bw / 2, -hullH / 2);
+      ctx.quadraticCurveTo(bw / 2 - hullH * 0.15, hullH / 2, bw * 0.32, hullH / 2);
+      ctx.lineTo(-bw * 0.32, hullH / 2);
+      ctx.quadraticCurveTo(-bw / 2 + hullH * 0.15, hullH / 2, -bw / 2, -hullH / 2);
+      ctx.closePath();
+      ctx.fill();
+      ctx.shadowBlur = 0;
+
+      // Deck trim
+      ctx.fillStyle = highlight ? "rgba(255,250,225,0.95)" : "rgba(255,255,255,0.55)";
+      ctx.fillRect(-bw / 2, -hullH / 2, bw, Math.max(2, g * 0.045));
+      ctx.strokeStyle = highlight ? "rgba(255,252,225,0.95)" : pal.trim;
+      ctx.lineWidth = Math.max(1.2, g * 0.028);
+      ctx.beginPath();
+      ctx.moveTo(-bw / 2, -hullH / 2);
+      ctx.lineTo(bw / 2, -hullH / 2);
+      ctx.quadraticCurveTo(bw / 2 - hullH * 0.15, hullH / 2, bw * 0.32, hullH / 2);
+      ctx.lineTo(-bw * 0.32, hullH / 2);
+      ctx.quadraticCurveTo(-bw / 2 + hullH * 0.15, hullH / 2, -bw / 2, -hullH / 2);
+      ctx.closePath();
       ctx.stroke();
 
-      // Answer text
-      ctx.fillStyle = "#2a1a05";
+      // Answer text on the hull — dark ink on pastel, always readable
+      const fs = Math.max(12, Math.min(26, g * 0.21));
+      ctx.font = `600 ${fs}px "Cormorant Garamond", Georgia, serif`;
       ctx.textAlign = "center";
       ctx.textBaseline = "middle";
-      lines.forEach((l, i) => {
-        ctx.fillText(l, cx, sailY + 6 + lineH * (i + 0.5));
-      });
-
-      // Hull
-      const hg = ctx.createLinearGradient(0, y - hullH / 2, 0, y + hullH / 2);
-      hg.addColorStop(0, hullTop);
-      hg.addColorStop(1, hullBottom);
-      ctx.fillStyle = hg;
-      ctx.strokeStyle = "rgba(255, 225, 175, 0.35)";
-      ctx.lineWidth = 1.5;
-      ctx.beginPath();
-      ctx.moveTo(cx - boatW / 2, y - hullH * 0.45);
-      ctx.lineTo(cx + boatW / 2, y - hullH * 0.45);
-      ctx.quadraticCurveTo(cx + boatW * 0.42, y + hullH * 0.55, cx, y + hullH * 0.55);
-      ctx.quadraticCurveTo(cx - boatW * 0.42, y + hullH * 0.55, cx - boatW / 2, y - hullH * 0.45);
-      ctx.closePath();
-      ctx.fill();
-      ctx.stroke();
-
-      // Deck rim
-      ctx.fillStyle = "rgba(255, 230, 185, 0.35)";
-      ctx.fillRect(cx - boatW / 2, y - hullH * 0.45, boatW, 2);
-
-      // Wake in front of the bow (boats travel leftwards)
-      const wg = ctx.createLinearGradient(cx - boatW / 2 - 30, 0, cx - boatW / 2, 0);
-      wg.addColorStop(0, "rgba(255,255,255,0)");
-      wg.addColorStop(1, "rgba(255,255,255,0.22)");
-      ctx.fillStyle = wg;
-      ctx.fillRect(cx - boatW / 2 - 30, y + hullH * 0.35, 30, 3);
+      const lines = wrapText(text, bw * 0.82, 2);
+      const lh = fs * 1.02;
+      const startY = -((lines.length - 1) * lh) / 2 + hullH * 0.04;
+      ctx.fillStyle = highlight ? "#3a2405" : "#2b2b33";
+      lines.forEach((l, i) => ctx.fillText(l, 0, startY + i * lh));
 
       ctx.restore();
-      ctx.globalAlpha = 1;
     };
 
     const drawActiveDecision = (dt: number) => {
@@ -1138,16 +1114,17 @@ export function Game() {
         if (outcome) d.doorAnim[i] = Math.min(1, d.doorAnim[i] + dt * 3);
         const anim = d.doorAnim[i];
         if (outcome && anim >= 1) continue;
-        if (hintActive === i) {
-          // Horizontal light beam running along the hinted lane
-          const beam = ctx.createLinearGradient(0, 0, d.x, 0);
-          const p = 0.22 + 0.08 * Math.sin(performance.now() / 200);
-          beam.addColorStop(0, `rgba(255, 240, 165, ${p})`);
-          beam.addColorStop(1, "rgba(255, 245, 180, 0)");
+        const highlight = hintActive === i;
+        if (highlight) {
+          // Horizontal light beam from the right edge to the boat
+          const beam = ctx.createLinearGradient(W, cy, d.x, cy);
+          beam.addColorStop(0, "rgba(255, 245, 180, 0)");
+          beam.addColorStop(1, `rgba(255, 240, 165, ${0.24 + 0.08 * Math.sin(timeSec * 5)})`);
           ctx.fillStyle = beam;
-          ctx.fillRect(0, cy - 34, Math.max(0, d.x), 68);
+          const bh = laneGap() * 0.78;
+          ctx.fillRect(d.x, cy - bh / 2, Math.max(0, W - d.x), bh);
         }
-        drawBoat(d.x, cy, d.answers[i], i as Lane, hintActive === i, outcome ? 1 - anim : 1);
+        drawBoat(d.x, cy, i, d.answers[i], highlight, outcome ? 1 - anim : 1);
       }
     };
 
@@ -1315,13 +1292,18 @@ export function Game() {
           spawnPickupBurst(px, py, "rgba(255, 230, 140, 0.9)");
           break;
         case "heart": {
-          const nh = Math.min(3, healthRef.current + 1);
+          const nh = Math.min(maxLivesRef.current, healthRef.current + 1);
           healthRef.current = nh; setHealth(nh);
           spawnPickupBurst(px, py, "rgba(255, 140, 150, 0.9)");
           break;
         }
         case "shineheart": {
-          const nh = Math.min(MAX_LIVES, healthRef.current + 1);
+          // +1 current life AND +1 maximum life (capped at MAX_LIVES)
+          if (maxLivesRef.current < MAX_LIVES) {
+            maxLivesRef.current += 1;
+            setMaxLives(maxLivesRef.current);
+          }
+          const nh = Math.min(maxLivesRef.current, healthRef.current + 1);
           if (nh > healthRef.current) {
             healthRef.current = nh; setHealth(nh);
             setLifeFlash(Date.now());
@@ -1353,8 +1335,8 @@ export function Game() {
 
     // ----- Player draw (Dove of Light: minimal glowing silhouette) -----
     const drawPlayer = () => {
-      const x = player.x + player.knock; // knockback pushes leftwards
-      const y = playerY();
+      const x = player.x + player.knock;
+      const y = player.y;
       const wrong = player.knock < 0;
       const flicker = invuln > 0 && Math.floor(invuln * 20) % 2 === 0;
       const dimming = wrong ? 0.45 + 0.55 * Math.abs(Math.sin(timeSec * 40)) : 1;
@@ -1418,7 +1400,7 @@ export function Game() {
       // Bombilla hint: subtle light beam toward safe lane (no UI changes)
       if (hintActive !== null) {
         const targetY = laneY(hintActive);
-        const grd = ctx.createLinearGradient(x, y, x + 90, targetY);
+        const grd = ctx.createLinearGradient(x, y, x + 80, targetY);
         grd.addColorStop(0, "rgba(255, 240, 180, 0.35)");
         grd.addColorStop(1, "rgba(255, 240, 180, 0)");
         ctx.strokeStyle = grd;
@@ -1455,8 +1437,8 @@ export function Game() {
     const reset = (startLevel: number = 1) => {
       player.lane = 1;
       player.targetLane = 1;
-      player.x = W * 0.16;
-      player.targetX = W * 0.16;
+      player.x = W * RESOLVE_X_FRAC;
+      player.targetX = player.x;
       player.y = laneY(1);
       player.knock = 0;
       shake = 0; flash = 0; invuln = 0;
@@ -1465,6 +1447,7 @@ export function Game() {
       particles.length = 0;
       powerups.length = 0;
       setHealth(3); healthRef.current = 3;
+      setMaxLives(3); maxLivesRef.current = 3;
       setProgress(0); progressRef.current = 0;
       scoreRef.current = 0; setScore(0);
       streakRef.current = 0; setStreak(0);
@@ -1554,37 +1537,31 @@ export function Game() {
         runTimeRef.current += dt;
         setRunTime(runTimeRef.current);
 
-        // Player lane (vertical) lerp
+        // Vertical lane lerp
         const tgtY = laneY(player.targetLane);
         const dy = tgtY - player.y;
         player.y += dy * Math.min(1, dt * 14);
         if (Math.abs(dy) < 0.5) { player.y = tgtY; player.lane = player.targetLane; }
-        // Free horizontal movement, clamped to the playable area
+        // Smooth horizontal glide with inertia towards the target X
         player.targetX = Math.max(playerMinX(), Math.min(playerMaxX(), player.targetX));
         const dxh = player.targetX - player.x;
-        player.x += dxh * Math.min(1, dt * 12);
-        if (Math.abs(dxh) < 0.5) player.x = player.targetX;
+        player.x += dxh * Math.min(1, dt * 9);
+        if (Math.abs(dxh) < 0.4) player.x = player.targetX;
         if (player.knock < 0) {
           player.knock += dt * 40;
           if (player.knock > 0) player.knock = 0;
         }
         if (invuln > 0) invuln -= dt;
-        if (Math.random() < dt * 8) spawnDust(player.x - 14 + (Math.random() - 0.5) * 12, playerY() + 8, 1);
+        if (Math.random() < dt * 8) spawnDust(player.x - 14, player.y + (Math.random() - 0.5) * 12, 1);
 
-        // Active decision: boats sail right -> left
+        // Active decision sails right -> left
         const d = queue[activeIdx];
         if (d && !d.resolved) {
-          if (d.x === 0) d.x = W * 1.15;
           d.x -= fallSpeed() * dt;
           // Question timer (visual feedback)
           questionTimer -= dt;
-          // Resolve on physical contact with the player's boat, or when the
-          // convoy reaches the resolve line at the left of the stage.
-          const boatHalf = Math.max(150, Math.min(280, W * 0.24)) / 2;
-          const hitPlayer =
-            Math.abs(player.y - laneY(player.lane)) < 24 &&
-            d.x - boatHalf <= player.x + 18;
-          if (hitPlayer || d.x <= resolveX()) {
+          // Resolve when the boats physically reach the player
+          if (d.x <= Math.max(player.x, W * RESOLVE_X_FRAC)) {
             d.resolved = true;
             const lane = player.lane;
             const correct = lane === d.safe;
@@ -1596,7 +1573,7 @@ export function Game() {
                 const a = Math.random() * Math.PI * 2;
                 const s = 60 + Math.random() * 80;
                 particles.push({
-                  x: player.x, y: playerY() - 10,
+                  x: player.x, y: player.y - 10,
                   vx: Math.cos(a) * s, vy: Math.sin(a) * s - 40,
                   life: 0, max: 0.6, color: "rgba(255, 240, 180, 0.9)",
                   size: 1.5 + Math.random() * 1.5,
@@ -1624,7 +1601,7 @@ export function Game() {
               }
             } else {
               sfx.playWrong();
-              damage(player.x, playerY());
+              damage(player.x, player.y);
             }
             onDecisionResolvedAdvance();
           }
@@ -1652,26 +1629,16 @@ export function Game() {
           lastBonusSpawnIdx = activeIdx;
         }
 
-        // Bonuses drop from the sky onto their lane, then drift left along it
-        // at the same global speed as the answer boats.
-        const ps = fallSpeed();
-        const dropSpeed = H / Math.max(1, timePerQuestionForLevel(levelRef.current) * 0.5);
+        // Power-ups always keep falling straight DOWN through the play area
+        const ps = bonusFallSpeed();
         for (let i = powerups.length - 1; i >= 0; i--) {
           const p = powerups[i];
           if (p.taken) { powerups.splice(i, 1); continue; }
-          const targetY = laneY(p.lane);
-          if (p.y < targetY) {
-            p.y = Math.min(targetY, p.y + dropSpeed * dt);
-          } else {
-            p.y = targetY;
-            p.x -= ps * dt;
-          }
-          // Pickup test: physical proximity in both axes
-          if (
-            !p.taken &&
-            Math.abs(p.x - player.x) < 34 &&
-            Math.abs(p.y - playerY()) < 30
-          ) {
+          p.y += ps * dt;
+          // Pickup test — radial proximity to the player
+          const pdx = p.x - player.x;
+          const pdy = p.y - player.y;
+          if (!p.taken && pdx * pdx + pdy * pdy <= 44 * 44) {
             p.taken = true;
             applyPowerup(p);
             if (p.type === "apple" || p.type === "broken") {
@@ -1683,8 +1650,8 @@ export function Game() {
             powerups.splice(i, 1);
             continue;
           }
-          // Off-screen (sailed past the player)
-          if (p.x < -60) powerups.splice(i, 1);
+          // Off-screen below
+          if (p.y > H + 40) powerups.splice(i, 1);
         }
 
         // Sync question UI
@@ -1721,9 +1688,10 @@ export function Game() {
 
     (canvas as unknown as { __reset?: (startLevel?: number) => void }).__reset = reset;
 
-    // ----- Input (landscape) -----
-    // Vertical = lane switching, horizontal = free movement inside the
-    // playable area. Pointer/touch drag steers the player directly.
+    // ----- Input -----
+    let touchStartX = 0;
+    let touchStartY = 0;
+    let touchStartTime = 0;
     const turboRef = { current: 1 };
     const setTurbo = (on: boolean) => { turboRef.current = on ? 4 : 1; };
     const TURBO_HOLD_MS = 500;
@@ -1738,11 +1706,11 @@ export function Game() {
     };
     const releaseTurbo = () => { clearTurboHold(); setTurbo(false); };
 
-    // Keyboard hold-to-accelerate (Shift / Space)
+    // Keyboard hold-to-accelerate (Shift), independent from pointer hold
     const KEY_TURBO_HOLD_MS = 300;
     let keyTurboTimer: ReturnType<typeof setTimeout> | null = null;
     let keyTurboHeld = false;
-    const isTurboKey = (k: string) => k === "Shift" || k === " " || k === "Spacebar";
+    const isTurboKey = (k: string) => k === "Shift";
     const releaseKeyTurbo = () => {
       if (keyTurboTimer !== null) { clearTimeout(keyTurboTimer); keyTurboTimer = null; }
       if (keyTurboHeld) { keyTurboHeld = false; setTurbo(false); }
@@ -1754,60 +1722,67 @@ export function Game() {
       if (next !== player.targetLane) sfx.playMove();
       player.targetLane = next;
     };
-    const nudgeX = (dir: -1 | 1) => {
-      if (stateRef.current !== "playing") return;
-      const step = W * 0.06;
-      const next = Math.max(playerMinX(), Math.min(playerMaxX(), player.targetX + dir * step));
-      if (Math.abs(next - player.targetX) > 1) sfx.playMove();
-      player.targetX = next;
-    };
-    const laneForY = (y: number): Lane => {
-      let best: Lane = 0;
-      let bestD = Infinity;
-      for (let i = 0; i < 3; i++) {
-        const d = Math.abs(y - laneY(i as Lane));
-        if (d < bestD) { bestD = d; best = i as Lane; }
-      }
-      return best;
+
+    // Map a screen point to canvas-local coordinates, accounting for the
+    // 90deg stage rotation used to force landscape on portrait devices.
+    const toLocal = (clientX: number, clientY: number) => {
+      const rect = canvas.getBoundingClientRect();
+      const cx = rect.left + rect.width / 2;
+      const cy = rect.top + rect.height / 2;
+      const rotated = window.innerHeight > window.innerWidth;
+      if (!rotated) return { x: clientX - rect.left, y: clientY - rect.top };
+      return { x: W / 2 + (clientY - cy), y: H / 2 - (clientX - cx) };
     };
 
-    // Direct steering: the player follows the finger / cursor while pressed.
-    let steering = false;
-    let pressX = 0, pressY = 0;
+    // Pointer steering: vertical position picks the lane, horizontal
+    // position sets the smooth target X inside the playable band.
     const steerTo = (clientX: number, clientY: number) => {
       if (stateRef.current !== "playing") return;
-      const pt = toSurfacePoint(clientX, clientY);
-      const lane = laneForY(pt.y);
+      const { x, y } = toLocal(clientX, clientY);
+      let lane: Lane = 1;
+      let best = Infinity;
+      for (let i = 0; i < 3; i++) {
+        const d = Math.abs(y - laneY(i as Lane));
+        if (d < best) { best = d; lane = i as Lane; }
+      }
       if (lane !== player.targetLane) sfx.playMove();
       player.targetLane = lane;
-      player.targetX = Math.max(playerMinX(), Math.min(playerMaxX(), pt.x));
+      player.targetX = Math.max(playerMinX(), Math.min(playerMaxX(), x));
     };
 
-    const onPointerDown = (e: PointerEvent) => {
-      steering = true;
-      pressX = e.clientX; pressY = e.clientY;
-      try { canvas.setPointerCapture(e.pointerId); } catch { /* ignore */ }
-      armTurboHold();
-      steerTo(e.clientX, e.clientY);
+    const onTouchStart = (e: TouchEvent) => {
+      const t = e.touches[0];
+      touchStartX = t.clientX;
+      touchStartY = t.clientY;
+      touchStartTime = performance.now();
+      steerTo(t.clientX, t.clientY);
     };
-    const onPointerMove = (e: PointerEvent) => {
-      if (!steering) return;
-      if (Math.abs(e.clientX - pressX) > TURBO_MOVE_TOL || Math.abs(e.clientY - pressY) > TURBO_MOVE_TOL) {
+    const onTouchMoveTurbo = (e: TouchEvent) => {
+      const t = e.touches[0];
+      if (!t) return;
+      steerTo(t.clientX, t.clientY);
+      const dx = t.clientX - touchStartX;
+      const dy = t.clientY - touchStartY;
+      if (Math.abs(dx) > TURBO_MOVE_TOL || Math.abs(dy) > TURBO_MOVE_TOL) {
         clearTurboHold();
       }
-      steerTo(e.clientX, e.clientY);
     };
-    const onPointerUp = () => { steering = false; releaseTurbo(); };
-
+    const onTouchEnd = (e: TouchEvent) => {
+      const t = e.changedTouches[0];
+      const dy = t.clientY - touchStartY;
+      const dt2 = performance.now() - touchStartTime;
+      if (dt2 < 400 && Math.abs(dy) > 40) moveLane(dy < 0 ? -1 : 1);
+    };
     const onKey = (e: KeyboardEvent) => {
-      const k = e.key;
-      if (k === "ArrowUp" || k.toLowerCase() === "w") moveLane(-1);
-      else if (k === "ArrowDown" || k.toLowerCase() === "s") moveLane(1);
-      else if (k === "ArrowLeft" || k.toLowerCase() === "a") nudgeX(-1);
-      else if (k === "ArrowRight" || k.toLowerCase() === "d") nudgeX(1);
-      else if (k === "1") player.targetLane = 0;
-      else if (k === "2") player.targetLane = 1;
-      else if (k === "3") player.targetLane = 2;
+      if (stateRef.current !== "playing") return;
+      const step = W * 0.06;
+      if (e.key === "ArrowUp" || e.key === "w") moveLane(-1);
+      else if (e.key === "ArrowDown" || e.key === "s") moveLane(1);
+      else if (e.key === "ArrowLeft" || e.key === "a") player.targetX -= step;
+      else if (e.key === "ArrowRight" || e.key === "d") player.targetX += step;
+      else if (e.key === "1") player.targetLane = 0;
+      else if (e.key === "2") player.targetLane = 1;
+      else if (e.key === "3") player.targetLane = 2;
     };
     const onKeyDownTurbo = (e: KeyboardEvent) => {
       if (!isTurboKey(e.key)) return;
@@ -1822,18 +1797,46 @@ export function Game() {
       if (!isTurboKey(e.key)) return;
       releaseKeyTurbo();
     };
-    const onWindowBlurTurbo = () => { releaseKeyTurbo(); releaseTurbo(); steering = false; };
+    const onWindowBlurTurbo = () => releaseKeyTurbo();
+    const onMouseDown = (e: MouseEvent) => { steerTo(e.clientX, e.clientY); };
+    let mouseDownX = 0, mouseDownY = 0;
+    let mouseDragging = false;
+    const onMouseDownTurbo = (e: MouseEvent) => {
+      if (e.button !== 0) return;
+      mouseDownX = e.clientX; mouseDownY = e.clientY;
+      mouseDragging = true;
+      armTurboHold();
+    };
+    const onMouseMoveTurbo = (e: MouseEvent) => {
+      if (mouseDragging) steerTo(e.clientX, e.clientY);
+      if (turboHoldTimer === null) return;
+      if (Math.abs(e.clientX - mouseDownX) > TURBO_MOVE_TOL ||
+          Math.abs(e.clientY - mouseDownY) > TURBO_MOVE_TOL) {
+        clearTurboHold();
+      }
+    };
+    const onMouseUpTurbo = () => { mouseDragging = false; releaseTurbo(); };
+    const onMouseLeaveTurbo = () => { mouseDragging = false; releaseTurbo(); };
+    const onTouchStartTurbo = () => armTurboHold();
+    const onTouchEndTurbo = () => releaseTurbo();
 
-    canvas.addEventListener("pointerdown", onPointerDown);
-    canvas.addEventListener("pointermove", onPointerMove);
-    window.addEventListener("pointerup", onPointerUp);
-    window.addEventListener("pointercancel", onPointerUp);
+    canvas.addEventListener("touchstart", onTouchStart, { passive: true });
+    canvas.addEventListener("touchend", onTouchEnd, { passive: true });
+    canvas.addEventListener("mousedown", onMouseDown);
+    canvas.addEventListener("mousedown", onMouseDownTurbo);
+    canvas.addEventListener("mousemove", onMouseMoveTurbo);
+    window.addEventListener("mouseup", onMouseUpTurbo);
+    canvas.addEventListener("mouseleave", onMouseLeaveTurbo);
+    canvas.addEventListener("touchstart", onTouchStartTurbo, { passive: true });
+    canvas.addEventListener("touchmove", onTouchMoveTurbo, { passive: true });
+    canvas.addEventListener("touchend", onTouchEndTurbo, { passive: true });
+    canvas.addEventListener("touchcancel", onTouchEndTurbo, { passive: true });
     window.addEventListener("keydown", onKey);
     window.addEventListener("keydown", onKeyDownTurbo);
     window.addEventListener("keyup", onKeyUpTurbo);
     window.addEventListener("blur", onWindowBlurTurbo);
 
-    player.x = W * 0.16;
+    player.x = W * RESOLVE_X_FRAC;
     player.targetX = player.x;
     player.y = laneY(1);
 
@@ -1842,10 +1845,17 @@ export function Game() {
     return () => {
       cancelAnimationFrame(raf);
       ro.disconnect();
-      canvas.removeEventListener("pointerdown", onPointerDown);
-      canvas.removeEventListener("pointermove", onPointerMove);
-      window.removeEventListener("pointerup", onPointerUp);
-      window.removeEventListener("pointercancel", onPointerUp);
+      canvas.removeEventListener("touchstart", onTouchStart);
+      canvas.removeEventListener("touchend", onTouchEnd);
+      canvas.removeEventListener("mousedown", onMouseDown);
+      canvas.removeEventListener("mousedown", onMouseDownTurbo);
+      canvas.removeEventListener("mousemove", onMouseMoveTurbo);
+      window.removeEventListener("mouseup", onMouseUpTurbo);
+      canvas.removeEventListener("mouseleave", onMouseLeaveTurbo);
+      canvas.removeEventListener("touchstart", onTouchStartTurbo);
+      canvas.removeEventListener("touchmove", onTouchMoveTurbo);
+      canvas.removeEventListener("touchend", onTouchEndTurbo);
+      canvas.removeEventListener("touchcancel", onTouchEndTurbo);
       window.removeEventListener("keydown", onKey);
       window.removeEventListener("keydown", onKeyDownTurbo);
       window.removeEventListener("keyup", onKeyUpTurbo);
@@ -1900,47 +1910,26 @@ export function Game() {
 
   const t = getT(language);
 
-  // ----- Landscape shell -----
-  // The game is landscape-only. On a portrait viewport the entire interface
-  // (canvas + overlays) is rotated 90deg so the player always sees a
-  // horizontal stage, exactly like a traditional landscape mobile game.
-  const [shell, setShell] = useState(() => ({
-    w: typeof window === "undefined" ? 1024 : window.innerWidth,
-    h: typeof window === "undefined" ? 576 : window.innerHeight,
-  }));
-  useEffect(() => {
-    const update = () => setShell({ w: window.innerWidth, h: window.innerHeight });
-    update();
-    window.addEventListener("resize", update);
-    window.addEventListener("orientationchange", update);
-    // Best-effort native orientation lock (works inside the app shell).
-    const so = (screen as unknown as { orientation?: { lock?: (o: string) => Promise<void> } }).orientation;
-    so?.lock?.("landscape").catch(() => { /* unsupported on most browsers */ });
-    return () => {
-      window.removeEventListener("resize", update);
-      window.removeEventListener("orientationchange", update);
-    };
-  }, []);
-  const rotated = shell.h > shell.w;
-  const stageH = rotated ? shell.w : shell.h;
-  viewport.rotated = rotated;
-  viewport.screenW = shell.w;
-  viewport.screenH = shell.h;
-  const stageStyle: React.CSSProperties = rotated
-    ? {
-        position: "absolute",
-        top: 0,
-        left: 0,
-        width: shell.h,
-        height: shell.w,
-        transformOrigin: "0 0",
-        transform: `rotate(90deg) translate(0, -${shell.w}px)`,
-      }
-    : { position: "absolute", inset: 0 };
+  // Forced landscape: when the device is held in portrait, the whole stage
+  // (canvas + every HTML overlay) is rotated 90deg so the game always
+  // renders horizontally.
+  const stageW = viewport.h > viewport.w ? viewport.h : viewport.w;
+  const stageH = viewport.h > viewport.w ? viewport.w : viewport.h;
+  const rotated = viewport.w > 0 && viewport.h > viewport.w;
 
   return (
     <div className="fixed inset-0 overflow-hidden bg-black select-none">
-      <div className="overflow-hidden" style={stageStyle}>
+    <div
+      className="absolute left-1/2 top-1/2 overflow-hidden"
+      style={{
+        width: stageW || "100%",
+        height: stageH || "100%",
+        transform: rotated
+          ? "translate(-50%, -50%) rotate(90deg)"
+          : "translate(-50%, -50%)",
+        transformOrigin: "center center",
+      }}
+    >
       <canvas
         ref={canvasRef}
         className="absolute inset-0 h-full w-full touch-none transition-[filter] duration-300"
@@ -1968,7 +1957,7 @@ export function Game() {
           <div className="pointer-events-none absolute inset-x-0 top-0 z-10 flex items-start justify-between px-3 pt-3">
             <div className="flex flex-col gap-1.5">
               <div className="flex items-center gap-1.5">
-                {Array.from({ length: Math.min(MAX_LIVES, Math.max(3, health)) }, (_, i) => i).map((i) => (
+                {Array.from({ length: Math.min(MAX_LIVES, Math.max(3, maxLives)) }, (_, i) => i).map((i) => (
                   <Heart key={i} filled={i < health} pop={lifeFlash > 0 && i === health - 1} />
                 ))}
               </div>
@@ -2048,12 +2037,12 @@ export function Game() {
 
           {/* Question - top center */}
           {currentQuestion && (
-            <div className="pointer-events-none absolute inset-x-0 top-12 z-10 flex justify-center px-3 animate-fade-in">
+            <div className="pointer-events-none absolute inset-x-0 top-24 z-10 flex justify-center px-3 animate-fade-in">
               <div
-                className="rounded-2xl border border-amber-200/30 bg-black/55 px-5 py-2 text-center font-light tracking-wide text-amber-50 backdrop-blur-md shadow-[0_0_24px_rgba(255,200,140,0.2)] max-w-[80%]"
+                className="rounded-2xl border border-amber-200/30 bg-black/55 px-5 py-3 text-center font-light tracking-wide text-amber-50 backdrop-blur-md shadow-[0_0_24px_rgba(255,200,140,0.2)] max-w-[94%]"
                 style={{
                   fontFamily: '"Cormorant Garamond", "Cormorant", Georgia, serif',
-                  fontSize: Math.round(Math.max(16, Math.min(30, stageH * 0.055))),
+                  fontSize: "clamp(18px, 4.6vw, 30px)",
                   lineHeight: 1.25,
                   letterSpacing: "0.02em",
                   fontWeight: 500,
@@ -2276,7 +2265,7 @@ export function Game() {
           t={t}
         />
       )}
-      </div>
+    </div>
     </div>
   );
 }
