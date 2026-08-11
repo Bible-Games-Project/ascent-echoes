@@ -1,6 +1,9 @@
 // Avatar progression system. Pure cosmetic, device-local. No gameplay effect.
 
+import { DEV_MODE_AVAILABLE } from "@/lib/devMode";
+
 function isDevModeUnlock(): boolean {
+  if (!DEV_MODE_AVAILABLE) return false;
   try { return typeof localStorage !== "undefined" && localStorage.getItem("btr_dev_mode") === "1"; }
   catch { return false; }
 }
