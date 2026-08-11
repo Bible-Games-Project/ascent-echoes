@@ -361,14 +361,17 @@ export function Game() {
     const RESOLVE_X_FRAC = 0.16;
     const laneY = (lane: Lane) => H * LANE_FRACS[lane];
     const laneGap = () => H * (LANE_FRACS[1] - LANE_FRACS[0]);
-    // Player visual half-width (dove silhouette) + safety margin so the
-    // sprite never touches or leaves the screen edges.
-    const playerHalfW = () => Math.max(20, Math.min(46, H * 0.075));
-    const EDGE_MARGIN = () => Math.max(10, W * 0.015);
+    // Player visual half-width (dove silhouette, wings included) + safety
+    // margin so the sprite never touches or leaves the screen edges.
+    const playerHalfW = () => Math.max(28, Math.min(62, H * 0.1));
+    const EDGE_MARGIN = () => Math.max(18, W * 0.032);
     const playerMinX = () => EDGE_MARGIN() + playerHalfW();
     const playerMaxX = () => W - EDGE_MARGIN() - playerHalfW();
     // Continuous left/right input (keyboard), applied every frame.
     const heldX = { left: false, right: false };
+    // Continuous up/down input: a short tap moves one lane, holding keeps
+    // gliding through the lanes without stopping in the middle.
+    const heldY = { up: false, down: false };
     const H_SPEED = () => W * 0.85; // px per second
 
     const player = {
@@ -990,11 +993,52 @@ export function Game() {
     };
 
     // ----- Answer boats (sail right -> left, one per lane) -----
-    const LANE_PASTELS: { hull: string; hullDark: string; sail: string; trim: string }[] = [
-      { hull: "#9fd8cf", hullDark: "#6fb6ac", sail: "#fdf3e3", trim: "#4f8f88" },
-      { hull: "#f7c9a9", hullDark: "#e0a17c", sail: "#fdf3e3", trim: "#b9754f" },
-      { hull: "#c9bef0", hullDark: "#a396dd", sail: "#fdf3e3", trim: "#7466b5" },
-    ];
+    // Boat colours are derived from the CURRENT MAP palette so they always
+    // feel part of the same artistic world: hue comes from the map ground
+    // (shifted for contrast), and brightness encodes the lane hierarchy
+    // (top = deep, middle = medium, bottom = light pastel).
+    const hexToHsl = (hex: string): [number, number, number] => {
+      const h = hex.replace("#", "");
+      const full = h.length === 3 ? h.split("").map((c) => c + c).join("") : h;
+      const r = parseInt(full.slice(0, 2), 16) / 255;
+      const g = parseInt(full.slice(2, 4), 16) / 255;
+      const b = parseInt(full.slice(4, 6), 16) / 255;
+      const max = Math.max(r, g, b), min = Math.min(r, g, b);
+      const l = (max + min) / 2;
+      let s = 0, hue = 0;
+      if (max !== min) {
+        const d = max - min;
+        s = l > 0.5 ? d / (2 - max - min) : d / (max + min);
+        if (max === r) hue = ((g - b) / d + (g < b ? 6 : 0));
+        else if (max === g) hue = (b - r) / d + 2;
+        else hue = (r - g) / d + 4;
+        hue *= 60;
+      }
+      return [hue, s, l];
+    };
+    const hsl = (h: number, s: number, l: number) =>
+      `hsl(${((h % 360) + 360) % 360} ${Math.round(Math.max(0, Math.min(1, s)) * 100)}% ${Math.round(Math.max(0, Math.min(1, l)) * 100)}%)`;
+
+    // Lane brightness ladder: TOP darker -> MIDDLE medium -> BOTTOM lighter
+    const LANE_LIGHT = [0.46, 0.62, 0.78];
+
+    const boatPalette = (lane: number) => {
+      const theme = themeFor(levelRef.current);
+      const [bh, bs] = hexToHsl(theme.ground.top);
+      // Analogous-with-contrast hue: nudge away from the ground hue so the
+      // boats read clearly without clashing with the map.
+      const hue = bh + 28;
+      const sat = Math.max(0.28, Math.min(0.5, bs * 0.75 + 0.18));
+      const l = LANE_LIGHT[lane];
+      return {
+        hull: hsl(hue, sat, l),
+        hullDark: hsl(hue - 6, sat * 1.05, Math.max(0.16, l - 0.14)),
+        sail: hsl(hue + 12, sat * 0.6, Math.min(0.93, l + 0.16)),
+        sailShade: hsl(hue + 12, sat * 0.7, Math.min(0.88, l + 0.06)),
+        trim: hsl(hue - 10, sat * 1.1, Math.max(0.12, l - 0.26)),
+        ink: l > 0.6 ? "#241f14" : "#f6f1e4",
+      };
+    };
 
     const wrapText = (text: string, maxW: number, maxLines = 2): string[] => {
       const words = text.split(/\s+/);
@@ -1031,7 +1075,7 @@ export function Game() {
       const bw = boatWidth();
       const hullH = g * 0.44;
       const sailH = g * 0.5;
-      const pal = LANE_PASTELS[lane];
+      const pal = boatPalette(lane);
       const bob = Math.sin(timeSec * 2 + lane * 1.3) * g * 0.035;
       const tilt = Math.sin(timeSec * 1.6 + lane) * 0.02;
 
@@ -1064,7 +1108,7 @@ export function Game() {
       ctx.lineTo(1, -hullH / 2 - 2);
       ctx.closePath();
       ctx.fill();
-      ctx.fillStyle = "rgba(255,255,255,0.55)";
+      ctx.fillStyle = highlight ? "#ffe9b0" : pal.sailShade;
       ctx.beginPath();
       ctx.moveTo(-1, mastTop);
       ctx.lineTo(-bw * 0.18, -hullH / 2 - 2);
@@ -1088,7 +1132,7 @@ export function Game() {
       ctx.shadowBlur = 0;
 
       // Deck trim
-      ctx.fillStyle = highlight ? "rgba(255,250,225,0.95)" : "rgba(255,255,255,0.55)";
+      ctx.fillStyle = highlight ? "rgba(255,250,225,0.95)" : pal.sail;
       ctx.fillRect(-bw / 2, -hullH / 2, bw, Math.max(2, g * 0.045));
       ctx.strokeStyle = highlight ? "rgba(255,252,225,0.95)" : pal.trim;
       ctx.lineWidth = Math.max(1.2, g * 0.028);
@@ -1109,7 +1153,7 @@ export function Game() {
       const lines = wrapText(text, bw * 0.82, 2);
       const lh = fs * 1.02;
       const startY = -((lines.length - 1) * lh) / 2 + hullH * 0.04;
-      ctx.fillStyle = highlight ? "#3a2405" : "#2b2b33";
+      ctx.fillStyle = highlight ? "#3a2405" : pal.ink;
       lines.forEach((l, i) => ctx.fillText(l, 0, startY + i * lh));
 
       ctx.restore();
@@ -1547,11 +1591,20 @@ export function Game() {
         runTimeRef.current += dt;
         setRunTime(runTimeRef.current);
 
-        // Vertical lane lerp
+        // Vertical lane glide (continuous while a direction key is held)
         const tgtY = laneY(player.targetLane);
         const dy = tgtY - player.y;
         player.y += dy * Math.min(1, dt * 14);
         if (Math.abs(dy) < 0.5) { player.y = tgtY; player.lane = player.targetLane; }
+        else {
+          // Keep player.lane in sync with the nearest lane during the glide
+          let nearest: Lane = 1, bestD = Infinity;
+          for (let i = 0; i < 3; i++) {
+            const dd = Math.abs(player.y - laneY(i as Lane));
+            if (dd < bestD) { bestD = dd; nearest = i as Lane; }
+          }
+          player.lane = nearest;
+        }
         // Immediate, continuous horizontal input while held
         const dirX = (heldX.right ? 1 : 0) - (heldX.left ? 1 : 0);
         if (dirX !== 0) player.targetX += dirX * H_SPEED() * dt;
@@ -1560,6 +1613,8 @@ export function Game() {
         const dxh = player.targetX - player.x;
         player.x += dxh * Math.min(1, dt * 24);
         if (Math.abs(dxh) < 0.4) player.x = player.targetX;
+        // Hard clamp so the sprite is always fully on-screen
+        player.x = Math.max(playerMinX(), Math.min(playerMaxX(), player.x));
         if (player.knock < 0) {
           player.knock += dt * 40;
           if (player.knock > 0) player.knock = 0;
@@ -1739,6 +1794,46 @@ export function Game() {
       player.targetLane = next;
     };
 
+    // Hold detection for vertical movement: after this delay a held key
+    // keeps gliding through the remaining lanes instead of stopping.
+    const VERT_HOLD_MS = 240;
+    let vertHoldTimer: ReturnType<typeof setTimeout> | null = null;
+    const clearVertHold = () => {
+      if (vertHoldTimer !== null) { clearTimeout(vertHoldTimer); vertHoldTimer = null; }
+    };
+    const startVert = (dir: -1 | 1) => {
+      if (stateRef.current !== "playing") return;
+      const held = dir === -1 ? heldY.up : heldY.down;
+      if (held) return;
+      if (dir === -1) { heldY.up = true; heldY.down = false; }
+      else { heldY.down = true; heldY.up = false; }
+      moveLane(dir); // immediate one-lane step (tap behaviour)
+      clearVertHold();
+      vertHoldTimer = setTimeout(() => {
+        vertHoldTimer = null;
+        if (stateRef.current !== "playing") return;
+        if (dir === -1 && heldY.up) player.targetLane = 0;
+        else if (dir === 1 && heldY.down) player.targetLane = 2;
+      }, VERT_HOLD_MS);
+    };
+    const stopVert = (dir: -1 | 1) => {
+      if (dir === -1) heldY.up = false; else heldY.down = false;
+      clearVertHold();
+      if (!heldY.up && !heldY.down) {
+        // Settle on the lane we are heading to; never stop mid-transition.
+        let nearest: Lane = player.targetLane, bestD = Infinity;
+        for (let i = 0; i < 3; i++) {
+          const dd = Math.abs(player.y - laneY(i as Lane));
+          if (dd < bestD) { bestD = dd; nearest = i as Lane; }
+        }
+        // Keep travelling at least to the next lane in the current direction
+        const towards = dir === -1
+          ? Math.min(nearest, player.targetLane)
+          : Math.max(nearest, player.targetLane);
+        player.targetLane = Math.max(0, Math.min(2, towards)) as Lane;
+      }
+    };
+
     // Map a screen point to canvas-local coordinates, accounting for the
     // 90deg stage rotation used to force landscape on portrait devices.
     const toLocal = (clientX: number, clientY: number) => {
@@ -1791,8 +1886,8 @@ export function Game() {
     };
     const onKey = (e: KeyboardEvent) => {
       if (stateRef.current !== "playing") return;
-      if (e.key === "ArrowUp" || e.key === "w") moveLane(-1);
-      else if (e.key === "ArrowDown" || e.key === "s") moveLane(1);
+      if (e.key === "ArrowUp" || e.key === "w") { if (!e.repeat) startVert(-1); }
+      else if (e.key === "ArrowDown" || e.key === "s") { if (!e.repeat) startVert(1); }
       else if (e.key === "ArrowLeft" || e.key === "a") {
         // Immediate nudge, then continuous movement while held
         if (!heldX.left) player.targetX -= W * 0.02;
@@ -1808,8 +1903,13 @@ export function Game() {
     const onKeyUpMove = (e: KeyboardEvent) => {
       if (e.key === "ArrowLeft" || e.key === "a") heldX.left = false;
       else if (e.key === "ArrowRight" || e.key === "d") heldX.right = false;
+      else if (e.key === "ArrowUp" || e.key === "w") stopVert(-1);
+      else if (e.key === "ArrowDown" || e.key === "s") stopVert(1);
     };
-    const onBlurMove = () => { heldX.left = false; heldX.right = false; };
+    const onBlurMove = () => {
+      heldX.left = false; heldX.right = false;
+      heldY.up = false; heldY.down = false; clearVertHold();
+    };
     const onKeyDownTurbo = (e: KeyboardEvent) => {
       if (!isTurboKey(e.key)) return;
       if (e.repeat || keyTurboHeld || keyTurboTimer !== null) return;
