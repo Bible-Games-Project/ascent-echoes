@@ -369,10 +369,21 @@ export function Game() {
     const playerMaxX = () => W - EDGE_MARGIN() - playerHalfW();
     // Continuous left/right input (keyboard), applied every frame.
     const heldX = { left: false, right: false };
-    // Continuous up/down input: a short tap moves one lane, holding keeps
-    // gliding through the lanes without stopping in the middle.
+    // Continuous up/down input, mirroring the horizontal system: a short tap
+    // nudges past the midpoint (settling one lane away), holding keeps gliding.
     const heldY = { up: false, down: false };
     const H_SPEED = () => W * 0.85; // px per second
+    const V_SPEED = () => laneGap() * 3.2; // px per second (same feel as X)
+    const playerMinY = () => laneY(0);
+    const playerMaxY = () => laneY(2);
+    const nearestLaneTo = (y: number): Lane => {
+      let nearest: Lane = 1, bestD = Infinity;
+      for (let i = 0; i < 3; i++) {
+        const dd = Math.abs(y - laneY(i as Lane));
+        if (dd < bestD) { bestD = dd; nearest = i as Lane; }
+      }
+      return nearest;
+    };
 
     const player = {
       lane: 1 as Lane,
@@ -380,6 +391,7 @@ export function Game() {
       x: 0,
       targetX: 0,
       y: 0,
+      targetY: 0,
       knock: 0, // x knockback
     };
     const playerY = () => player.y + player.knock;
