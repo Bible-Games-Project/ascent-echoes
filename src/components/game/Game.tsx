@@ -374,7 +374,7 @@ export function Game() {
     // ---- Landscape geometry ----
     // Three horizontal lanes; the player flies on the LEFT, answer boats
     // sail in from the RIGHT edge towards the player.
-    const LANE_FRACS = [0.40, 0.58, 0.76];
+    const LANE_FRACS = [0.46, 0.67, 0.88];
     const GROUND_FRAC = 0.88;
     const SPAWN_X_FRAC = 1.18;
     const RESOLVE_X_FRAC = 0.16;
