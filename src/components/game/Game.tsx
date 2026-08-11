@@ -361,8 +361,15 @@ export function Game() {
     const RESOLVE_X_FRAC = 0.16;
     const laneY = (lane: Lane) => H * LANE_FRACS[lane];
     const laneGap = () => H * (LANE_FRACS[1] - LANE_FRACS[0]);
-    const playerMinX = () => W * 0.06;
-    const playerMaxX = () => W * 0.46;
+    // Player visual half-width (dove silhouette) + safety margin so the
+    // sprite never touches or leaves the screen edges.
+    const playerHalfW = () => Math.max(20, Math.min(46, H * 0.075));
+    const EDGE_MARGIN = () => Math.max(10, W * 0.015);
+    const playerMinX = () => EDGE_MARGIN() + playerHalfW();
+    const playerMaxX = () => W - EDGE_MARGIN() - playerHalfW();
+    // Continuous left/right input (keyboard), applied every frame.
+    const heldX = { left: false, right: false };
+    const H_SPEED = () => W * 0.85; // px per second
 
     const player = {
       lane: 1 as Lane,
@@ -1013,12 +1020,15 @@ export function Game() {
       return lines.slice(0, maxLines);
     };
 
+    // Shared boat width so collision uses the same geometry as rendering.
+    const boatWidth = () => Math.min(W * 0.3, Math.max(150, laneGap() * 3.1));
+
     const drawBoat = (
       cx: number, cy: number, lane: number, text: string,
       highlight: boolean, alpha: number,
     ) => {
       const g = laneGap();
-      const bw = Math.min(W * 0.3, Math.max(150, g * 3.1));
+      const bw = boatWidth();
       const hullH = g * 0.44;
       const sailH = g * 0.5;
       const pal = LANE_PASTELS[lane];
@@ -1542,10 +1552,13 @@ export function Game() {
         const dy = tgtY - player.y;
         player.y += dy * Math.min(1, dt * 14);
         if (Math.abs(dy) < 0.5) { player.y = tgtY; player.lane = player.targetLane; }
-        // Smooth horizontal glide with inertia towards the target X
+        // Immediate, continuous horizontal input while held
+        const dirX = (heldX.right ? 1 : 0) - (heldX.left ? 1 : 0);
+        if (dirX !== 0) player.targetX += dirX * H_SPEED() * dt;
+        // Smooth horizontal glide towards the target X (snappy, no lag)
         player.targetX = Math.max(playerMinX(), Math.min(playerMaxX(), player.targetX));
         const dxh = player.targetX - player.x;
-        player.x += dxh * Math.min(1, dt * 9);
+        player.x += dxh * Math.min(1, dt * 24);
         if (Math.abs(dxh) < 0.4) player.x = player.targetX;
         if (player.knock < 0) {
           player.knock += dt * 40;
@@ -1560,8 +1573,11 @@ export function Game() {
           d.x -= fallSpeed() * dt;
           // Question timer (visual feedback)
           questionTimer -= dt;
-          // Resolve when the boats physically reach the player
-          if (d.x <= Math.max(player.x, W * RESOLVE_X_FRAC)) {
+          // Resolve when the boat's LEFT/front tip touches the player,
+          // not when its centre arrives.
+          const boatTipX = d.x - boatWidth() / 2;
+          const playerFrontX = player.x + playerHalfW();
+          if (boatTipX <= playerFrontX || d.x <= -boatWidth()) {
             d.resolved = true;
             const lane = player.lane;
             const correct = lane === d.safe;
@@ -1775,15 +1791,25 @@ export function Game() {
     };
     const onKey = (e: KeyboardEvent) => {
       if (stateRef.current !== "playing") return;
-      const step = W * 0.06;
       if (e.key === "ArrowUp" || e.key === "w") moveLane(-1);
       else if (e.key === "ArrowDown" || e.key === "s") moveLane(1);
-      else if (e.key === "ArrowLeft" || e.key === "a") player.targetX -= step;
-      else if (e.key === "ArrowRight" || e.key === "d") player.targetX += step;
+      else if (e.key === "ArrowLeft" || e.key === "a") {
+        // Immediate nudge, then continuous movement while held
+        if (!heldX.left) player.targetX -= W * 0.02;
+        heldX.left = true;
+      } else if (e.key === "ArrowRight" || e.key === "d") {
+        if (!heldX.right) player.targetX += W * 0.02;
+        heldX.right = true;
+      }
       else if (e.key === "1") player.targetLane = 0;
       else if (e.key === "2") player.targetLane = 1;
       else if (e.key === "3") player.targetLane = 2;
     };
+    const onKeyUpMove = (e: KeyboardEvent) => {
+      if (e.key === "ArrowLeft" || e.key === "a") heldX.left = false;
+      else if (e.key === "ArrowRight" || e.key === "d") heldX.right = false;
+    };
+    const onBlurMove = () => { heldX.left = false; heldX.right = false; };
     const onKeyDownTurbo = (e: KeyboardEvent) => {
       if (!isTurboKey(e.key)) return;
       if (e.repeat || keyTurboHeld || keyTurboTimer !== null) return;
@@ -1832,6 +1858,8 @@ export function Game() {
     canvas.addEventListener("touchend", onTouchEndTurbo, { passive: true });
     canvas.addEventListener("touchcancel", onTouchEndTurbo, { passive: true });
     window.addEventListener("keydown", onKey);
+    window.addEventListener("keyup", onKeyUpMove);
+    window.addEventListener("blur", onBlurMove);
     window.addEventListener("keydown", onKeyDownTurbo);
     window.addEventListener("keyup", onKeyUpTurbo);
     window.addEventListener("blur", onWindowBlurTurbo);
@@ -1857,6 +1885,8 @@ export function Game() {
       canvas.removeEventListener("touchend", onTouchEndTurbo);
       canvas.removeEventListener("touchcancel", onTouchEndTurbo);
       window.removeEventListener("keydown", onKey);
+      window.removeEventListener("keyup", onKeyUpMove);
+      window.removeEventListener("blur", onBlurMove);
       window.removeEventListener("keydown", onKeyDownTurbo);
       window.removeEventListener("keyup", onKeyUpTurbo);
       window.removeEventListener("blur", onWindowBlurTurbo);
