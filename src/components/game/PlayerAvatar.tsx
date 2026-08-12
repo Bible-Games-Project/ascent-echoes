@@ -1,6 +1,6 @@
 import { useEffect, useRef } from "react";
 import type { AvatarId } from "@/lib/avatars";
-import { drawAvatarBody } from "./avatarRender";
+import { drawAvatarBody, preloadAvatars } from "./avatarRender";
 import { motionFor, scaleMultiplierFor } from "./avatarMotion";
 
 // Static preview of the in-game player avatar. Uses the exact same canvas
@@ -23,6 +23,7 @@ export function PlayerAvatar({ id, size = 32, locked, className, title }: Props)
   const boxSize = size * 2;
 
   useEffect(() => {
+    preloadAvatars();
     const canvas = ref.current;
     if (!canvas) return;
     const dpr = Math.min(2, Math.max(1, window.devicePixelRatio || 1));
