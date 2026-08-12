@@ -82,6 +82,74 @@ export function motionFor(id: AvatarId, t: number, unit: number) {
       rot = Math.sin(t * 0.7) * 0.03;
       flap = Math.sin(t * 1.4) * 0.6;
       break;
+    case "fish":
+      // smooth swimming: gentle vertical glide with a tail-driven sway
+      dy = Math.sin(t * 1.5) * 1.8 * u;
+      dx = Math.sin(t * 0.75) * 1.0 * u;
+      rot = Math.sin(t * 1.5) * 0.07;
+      flap = Math.sin(t * 3.0) * 0.4;
+      break;
+    case "ant":
+      // quick, busy scurrying
+      dy = -Math.abs(Math.sin(t * 6.0)) * 0.9 * u;
+      dx = Math.sin(t * 3.0) * 0.8 * u;
+      rot = Math.sin(t * 6.0) * 0.04;
+      flap = Math.sin(t * 6.0) * 0.3;
+      break;
+    case "hyrax":
+      // small cautious hops with a pause
+      dy = -Math.abs(Math.sin(t * 1.8)) * 1.6 * u;
+      rot = Math.sin(t * 1.8) * 0.05;
+      flap = Math.sin(t * 2.2) * 0.4;
+      break;
+    case "goat":
+      // springy, bouncy leaps
+      dy = -Math.abs(Math.sin(t * 2.6)) * 2.2 * u;
+      dx = Math.sin(t * 1.3) * 0.9 * u;
+      rot = Math.sin(t * 2.6) * 0.07;
+      flap = Math.sin(t * 2.6) * 0.45;
+      break;
+    case "camel":
+      // slow, rolling desert stride
+      dy = Math.sin(t * 1.0) * 1.4 * u;
+      dx = Math.sin(t * 0.5) * 1.2 * u;
+      rot = Math.sin(t * 1.0) * 0.035;
+      flap = Math.sin(t * 1.0) * 0.4;
+      break;
+    case "rooster":
+      // strutting steps with a head bob
+      dy = -Math.abs(Math.sin(t * 3.4)) * 1.3 * u;
+      dx = Math.sin(t * 1.7) * 0.7 * u;
+      rot = Math.sin(t * 3.4) * 0.06;
+      flap = Math.sin(t * 6.8) * 0.5;
+      break;
+    case "spider":
+      // creeping crawl with tiny leg jitter
+      dx = Math.sin(t * 2.4) * 1.3 * u;
+      dy = Math.sin(t * 4.8) * 0.6 * u;
+      rot = Math.sin(t * 2.4) * 0.05;
+      flap = Math.sin(t * 9.0) * 0.3;
+      break;
+    case "raven":
+      // steady corvid flight, slower and heavier than the dove
+      dy = Math.sin(t * 1.3) * 1.8 * u;
+      rot = Math.sin(t * 1.3) * 0.05;
+      flap = Math.sin(t * 2.6) * 0.95;
+      break;
+    case "ox":
+      // massive, ponderous charge
+      dy = -Math.abs(Math.sin(t * 1.6)) * 1.2 * u;
+      dx = Math.sin(t * 0.8) * 1.5 * u;
+      rot = Math.sin(t * 1.6) * 0.03;
+      flap = Math.sin(t * 1.6) * 0.55;
+      break;
+    case "falcon":
+      // fast glide with sharp, snapping wing beats
+      dy = Math.sin(t * 2.0) * 1.5 * u;
+      dx = Math.sin(t * 1.0) * 0.6 * u;
+      rot = Math.sin(t * 2.0) * 0.06;
+      flap = Math.sin(t * 5.0) * 1.0;
+      break;
   }
   return { dx, dy, rot, sx, flap };
 }
