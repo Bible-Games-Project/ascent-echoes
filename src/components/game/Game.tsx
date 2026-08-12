@@ -2389,7 +2389,16 @@ export function Game() {
   );
 }
 
-function Overlay({ children }: { children: React.ReactNode }) {
+function Overlay({ children, scrollable }: { children: React.ReactNode; scrollable?: boolean }) {
+  if (scrollable) {
+    return (
+      <div className="absolute inset-0 z-20 overflow-y-auto overscroll-contain bg-black/40 backdrop-blur-sm animate-fade-in">
+        <div className="flex min-h-full flex-col items-center justify-center px-4 py-8">
+          {children}
+        </div>
+      </div>
+    );
+  }
   return (
     <div className="absolute inset-0 z-20 flex flex-col items-center justify-center bg-black/40 backdrop-blur-sm animate-fade-in">
       {children}
