@@ -1162,20 +1162,8 @@ export function Game() {
       ctx.fillStyle = gr.rim;
       ctx.fillRect(0, platTop, W, 2);
 
-      // Three horizontal lane tracks the boats sail along
-      for (let i = 0; i < 3; i++) {
-        const cy = laneY(i as Lane);
-        const th = g * 0.82;
-        const lg = ctx.createLinearGradient(0, cy - th / 2, 0, cy + th / 2);
-        lg.addColorStop(0, "rgba(255,255,255,0.03)");
-        lg.addColorStop(0.5, "rgba(255,255,255,0.10)");
-        lg.addColorStop(1, "rgba(0,0,0,0.10)");
-        ctx.fillStyle = lg;
-        ctx.fillRect(0, cy - th / 2, W, th);
-        // soft guide line along the lane center
-        ctx.fillStyle = "rgba(255,240,210,0.10)";
-        ctx.fillRect(0, cy + th / 2 - 1, W, 1);
-      }
+      // Lane tracks are intentionally not drawn: lanes stay functional but
+      // have no visible lines or bands.
     };
 
     // ----- Answer boats (sail right -> left, one per lane) -----
