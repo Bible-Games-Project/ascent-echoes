@@ -2231,7 +2231,7 @@ export function Game() {
       )}
 
       {state === "gameover" && (
-        <Overlay>
+        <Overlay scrollable>
           <p className="text-xs uppercase tracking-[0.4em] text-rose-200/80">{t("windTookYou")}</p>
           <h1 className="mt-3 text-4xl font-light tracking-[0.2em] text-amber-50">{t("fallen")}</h1>
           <p className="mt-1 text-xs text-amber-100/60">
