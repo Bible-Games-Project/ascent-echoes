@@ -1266,8 +1266,13 @@ export function Game() {
         : "none";
       // Ark height keeps the artwork proportions but stays lane-sized.
       const bh = bw * 0.66;
-      const artH = bh;
-      const artW = artH * (spriteAspect || 1.5);
+      // Levels 1-2 use square artwork and define the reference visual size.
+      // Levels 3-10 ship wider artwork, so normalise their scale to cover the
+      // same on-screen footprint as the level 1 ark (no squashing).
+      const asp = spriteAspect || 1;
+      const sizeFix = asp > 1 ? 1 / Math.sqrt(asp) : 1;
+      const artH = bh * sizeFix;
+      const artW = artH * asp;
       // Plaque geometry in local ark coordinates, centred on the lane line.
       const plaqueW = (BOAT_PLAQUE.x1 - BOAT_PLAQUE.x0) * artW;
       const plaqueH = (BOAT_PLAQUE.y1 - BOAT_PLAQUE.y0) * artH;
