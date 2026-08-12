@@ -1797,6 +1797,7 @@ export function Game() {
       if (stateRef.current !== "playing") return;
       const held = dir === -1 ? heldY.up : heldY.down;
       if (held) return;
+      lastVertDir = dir;
       if (dir === -1) { heldY.up = true; heldY.down = false; }
       else { heldY.down = true; heldY.up = false; }
       // Immediate nudge past the midpoint so a short tap settles one lane away
@@ -1808,8 +1809,12 @@ export function Game() {
     const stopVert = (dir: -1 | 1) => {
       if (dir === -1) heldY.up = false; else heldY.down = false;
       if (!heldY.up && !heldY.down) {
-        // Settle on whichever lane the midpoint rule has committed us to.
-        const settle = nearestLaneTo(player.targetY);
+        // Never step backwards on release: finish the committed transition by
+        // settling on the next lane in the direction of travel.
+        const d = lastVertDir;
+        let settle = nearestLaneTo(player.targetY);
+        if (d === 1 && laneY(settle) < player.targetY - 0.5) settle = Math.min(2, settle + 1) as Lane;
+        if (d === -1 && laneY(settle) > player.targetY + 0.5) settle = Math.max(0, settle - 1) as Lane;
         player.targetLane = settle;
         player.targetY = laneY(settle);
       }
