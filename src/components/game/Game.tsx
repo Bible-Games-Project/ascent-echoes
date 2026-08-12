@@ -1164,7 +1164,7 @@ export function Game() {
       const pal = boatPalette(lane);
       const bob = Math.sin(timeSec * 2 + lane * 1.3) * g * 0.035;
       const tilt = Math.sin(timeSec * 1.6 + lane) * 0.02;
-      const sprite = getBoatSprite();
+      const sprite = getArkSprite(levelRef.current);
       // Ark height keeps the artwork proportions but stays lane-sized.
       const bh = bw * 0.66;
       // Plaque geometry in local ark coordinates, centred on the lane line.
