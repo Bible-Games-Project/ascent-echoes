@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import didacticJesusImg from "@/assets/didactic-jesus.png.asset.json";
-import boatImg from "@/assets/boat.png.asset.json";
+import boatImg from "@/assets/ark.png.asset.json";
 import lostSheepImg from "@/assets/lost-sheep.png.asset.json";
 import bibleUnlockedImg from "@/assets/bible-unlocked.png.asset.json";
 import trueChristImg from "@/assets/true-christ.png.asset.json";
@@ -1108,14 +1108,13 @@ export function Game() {
       const bob = Math.sin(timeSec * 2 + lane * 1.3) * g * 0.035;
       const tilt = Math.sin(timeSec * 1.6 + lane) * 0.02;
       const sprite = getBoatSprite();
-      // Boat height keeps the artwork proportions but stays lane-sized.
-      const bh = bw * 0.92;
-      // Plaque geometry (mirrored horizontally), in local boat coordinates
-      // with the plaque centred on the lane line.
+      // Ark height keeps the artwork proportions but stays lane-sized.
+      const bh = bw * 0.66;
+      // Plaque geometry in local ark coordinates, centred on the lane line.
       const plaqueW = (BOAT_PLAQUE.x1 - BOAT_PLAQUE.x0) * bw;
       const plaqueH = (BOAT_PLAQUE.y1 - BOAT_PLAQUE.y0) * bh;
       const plaqueCyN = (BOAT_PLAQUE.y0 + BOAT_PLAQUE.y1) / 2;
-      const plaqueCxN = 1 - (BOAT_PLAQUE.x0 + BOAT_PLAQUE.x1) / 2; // mirrored
+      const plaqueCxN = (BOAT_PLAQUE.x0 + BOAT_PLAQUE.x1) / 2;
       const imgLeft = -plaqueCxN * bw;
       const imgTop = -plaqueCyN * bh;
 
@@ -1124,31 +1123,84 @@ export function Game() {
       ctx.translate(cx, cy + bob);
       ctx.rotate(tilt);
 
+      // ----- Water wake / splash, under and behind the ark -----
+      // Drawn in local space so it bobs and tilts with the hull.
+      {
+        const hullBottom = imgTop + bh * 0.96;
+        const waveY = hullBottom - bh * 0.06;
+        ctx.save();
+        ctx.globalAlpha *= 0.85;
+        // Soft wake trail streaming out behind (to the right).
+        const trailW = bw * 0.55;
+        const grad = ctx.createLinearGradient(imgLeft + bw * 0.75, 0, imgLeft + bw * 0.75 + trailW, 0);
+        grad.addColorStop(0, "rgba(226, 244, 255, 0.42)");
+        grad.addColorStop(1, "rgba(226, 244, 255, 0)");
+        ctx.fillStyle = grad;
+        ctx.beginPath();
+        ctx.moveTo(imgLeft + bw * 0.72, waveY - bh * 0.05);
+        ctx.lineTo(imgLeft + bw * 0.72 + trailW, waveY - bh * 0.11);
+        ctx.lineTo(imgLeft + bw * 0.72 + trailW, waveY + bh * 0.11);
+        ctx.lineTo(imgLeft + bw * 0.72, waveY + bh * 0.05);
+        ctx.closePath();
+        ctx.fill();
+
+        // Foam line hugging the hull bottom.
+        ctx.lineCap = "round";
+        for (let k = 0; k < 2; k++) {
+          const amp = bh * (0.022 + k * 0.014);
+          const ph = timeSec * (2.4 + k * 0.7) + lane * 1.7 + k;
+          ctx.strokeStyle = k === 0
+            ? "rgba(255,255,255,0.75)"
+            : "rgba(198, 232, 255, 0.55)";
+          ctx.lineWidth = Math.max(1.5, bh * (0.02 - k * 0.006));
+          ctx.beginPath();
+          const x0 = imgLeft + bw * 0.06;
+          const x1 = imgLeft + bw * 0.95;
+          for (let x = x0; x <= x1; x += bw * 0.03) {
+            const t = (x - x0) / (x1 - x0);
+            const y = waveY + k * bh * 0.035 + Math.sin(t * 7 + ph) * amp * (0.5 + t);
+            if (x === x0) ctx.moveTo(x, y); else ctx.lineTo(x, y);
+          }
+          ctx.stroke();
+        }
+
+        // Small splashes pushed aside at the prow and along the wake.
+        ctx.fillStyle = "rgba(255,255,255,0.7)";
+        for (let s2 = 0; s2 < 6; s2++) {
+          const ph = timeSec * 1.6 + s2 * 1.31 + lane * 0.9;
+          const t = (ph % 1);
+          const x = imgLeft + bw * (0.1 + s2 * 0.145) + t * bw * 0.06;
+          const y = waveY - t * bh * 0.09 + Math.sin(ph * 3) * bh * 0.01;
+          const r = Math.max(1, bh * 0.016 * (1 - t));
+          ctx.globalAlpha = 0.7 * (1 - t);
+          ctx.beginPath();
+          ctx.arc(x, y, r, 0, Math.PI * 2);
+          ctx.fill();
+        }
+        ctx.restore();
+      }
+
       if (highlight) {
         const hp = 0.5 + 0.5 * Math.sin(timeSec * 5);
         ctx.shadowColor = "rgba(255, 226, 140, 0.95)";
         ctx.shadowBlur = 30 + 18 * hp;
       }
 
-      // Boat sprite, mirrored so the bow points right (into the travel side).
       if (sprite) {
-        ctx.save();
-        ctx.scale(-1, 1);
-        ctx.drawImage(sprite, -(imgLeft + bw), imgTop, bw, bh);
+        ctx.drawImage(sprite, imgLeft, imgTop, bw, bh);
         if (highlight) {
-          // Soft halo that follows the boat silhouette (no square edges):
-          // repeated shadowed passes + an additive brightness pass.
           const hp = 0.5 + 0.5 * Math.sin(timeSec * 5);
+          ctx.save();
           ctx.shadowColor = `rgba(255, 224, 140, ${0.75 + 0.2 * hp})`;
           ctx.shadowBlur = 34 + 20 * hp;
-          ctx.drawImage(sprite, -(imgLeft + bw), imgTop, bw, bh);
-          ctx.drawImage(sprite, -(imgLeft + bw), imgTop, bw, bh);
+          ctx.drawImage(sprite, imgLeft, imgTop, bw, bh);
+          ctx.drawImage(sprite, imgLeft, imgTop, bw, bh);
           ctx.shadowBlur = 0;
           ctx.globalCompositeOperation = "lighter";
           ctx.globalAlpha *= 0.22 + 0.14 * hp;
-          ctx.drawImage(sprite, -(imgLeft + bw), imgTop, bw, bh);
+          ctx.drawImage(sprite, imgLeft, imgTop, bw, bh);
+          ctx.restore();
         }
-        ctx.restore();
       } else {
         // Fallback plaque while the artwork loads.
         ctx.fillStyle = pal.hull;
