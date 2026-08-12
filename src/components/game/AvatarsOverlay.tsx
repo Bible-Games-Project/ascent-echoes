@@ -5,8 +5,10 @@ import {
   isUnlocked,
   progressFor,
   setEquipped,
+  avatarName,
   type AvatarId,
 } from "@/lib/avatars";
+import type { Language } from "./questionBank";
 import { PlayerAvatar as AvatarIcon } from "./PlayerAvatar";
 import type { UIKey } from "./i18n";
 
@@ -15,10 +17,11 @@ type Props = {
   onEquip: (id: AvatarId) => void;
   onClose: () => void;
   title: string;
+  lang: Language;
   t: (key: UIKey) => string;
 };
 
-export function AvatarsOverlay({ equipped, onEquip, onClose, title, t }: Props) {
+export function AvatarsOverlay({ equipped, onEquip, onClose, title, lang, t }: Props) {
   const stats = useMemo(() => getStats(), []);
   const [selected, setSelected] = useState<AvatarId>(equipped);
   const selectedDef = AVATARS.find((a) => a.id === selected)!;
@@ -54,7 +57,7 @@ export function AvatarsOverlay({ equipped, onEquip, onClose, title, t }: Props) 
                   ? "border-amber-200/80 bg-amber-200/15 shadow-[0_0_18px_rgba(255,200,140,0.45)]"
                   : "border-amber-200/20 bg-black/45 hover:border-amber-200/50")
               }
-              aria-label={a.name}
+              aria-label={avatarName(a.id, lang)}
             >
               <AvatarIcon id={a.id} size={36} locked={!unlocked} />
               {!unlocked && (
@@ -72,7 +75,7 @@ export function AvatarsOverlay({ equipped, onEquip, onClose, title, t }: Props) 
         <div className="flex items-center justify-center gap-3">
           <AvatarIcon id={selected} size={42} locked={!selectedUnlocked} />
           <div className="text-left">
-            <div className="text-sm tracking-[0.2em] text-amber-50">{selectedDef.name.toUpperCase()}</div>
+            <div className="text-sm tracking-[0.2em] text-amber-50">{avatarName(selected, lang).toUpperCase()}</div>
             <div className="mt-0.5 text-[10px] tracking-wide text-amber-100/70">
               {selectedUnlocked ? t("unlocked") : selectedProg.requirement}
             </div>

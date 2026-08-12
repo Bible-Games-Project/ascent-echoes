@@ -178,10 +178,10 @@ export function Game() {
   const [isWorldRecord, setIsWorldRecord] = useState(false);
 
   // Avatars (cosmetic only)
-  const [equippedAvatar, setEquippedAvatar] = useState<AvatarId>("white_dove");
+  const [equippedAvatar, setEquippedAvatar] = useState<AvatarId>("pigeon");
   const [showAvatars, setShowAvatars] = useState(false);
   const runDiffMaskRef = useRef(0);
-  const equippedAvatarRef = useRef<AvatarId>("white_dove");
+  const equippedAvatarRef = useRef<AvatarId>("pigeon");
   useEffect(() => { equippedAvatarRef.current = equippedAvatar; }, [equippedAvatar]);
 
   // Dev mode (testing only — never affects the leaderboard)
@@ -2381,6 +2381,7 @@ export function Game() {
           onEquip={(id) => setEquippedAvatar(id)}
           onClose={() => setShowAvatars(false)}
           title={t("avatars")}
+          lang={language}
           t={t}
         />
       )}
