@@ -1,6 +1,7 @@
 // Avatar progression system. Pure cosmetic, device-local. No gameplay effect.
 
 import { DEV_MODE_AVAILABLE } from "@/lib/devMode";
+import type { Language } from "@/components/game/questionBank";
 
 function isDevModeUnlock(): boolean {
   if (!DEV_MODE_AVAILABLE) return false;
@@ -9,26 +10,16 @@ function isDevModeUnlock(): boolean {
 }
 
 export type AvatarId =
-  | "white_dove"
-  | "oil_lamp"
-  | "scroll"
-  | "star"
-  | "olive_branch"
-  | "anchor"
-  | "ichthys"
-  | "feather"
-  | "water_drop"
-  | "sun"
-  | "moon"
-  | "rainbow"
-  | "golden_key"
-  | "crystal"
-  | "laurel"
-  | "celestial"
-  | "black_dove"
-  | "crown"
-  | "shield"
-  | "seraph_dove";
+  | "pigeon"
+  | "sheep"
+  | "fly"
+  | "locust"
+  | "mosquito"
+  | "snake"
+  | "wolf"
+  | "leopard"
+  | "bear"
+  | "lion";
 
 export type UnlockKind =
   | "default"
@@ -50,29 +41,39 @@ export interface AvatarDef {
 }
 
 export const AVATARS: AvatarDef[] = [
-  { id: "white_dove",   name: "White Dove",        glyph: "🕊", unlock: { kind: "default" } },
-  { id: "oil_lamp",     name: "Candle",            glyph: "🕯", unlock: { kind: "correctTotal", target: 100 } },
-  { id: "scroll",       name: "Scroll",            glyph: "📜", unlock: { kind: "highestLevel", target: 10 } },
-  { id: "star",         name: "Star",              glyph: "⭐", unlock: { kind: "bestStreak", target: 25 } },
-  { id: "olive_branch", name: "Olive Tree",        glyph: "🌳", unlock: { kind: "correctTotal", target: 500 } },
-  { id: "anchor",       name: "Anchor of Hope",    glyph: "⚓", unlock: { kind: "gamesPlayed", target: 50 } },
-  { id: "ichthys",      name: "Fish",              glyph: "🐟", unlock: { kind: "highestScore", target: 5000 } },
-  { id: "feather",      name: "Feather",           glyph: "🪶", unlock: { kind: "bonusesCollected", target: 100 } },
-  { id: "water_drop",   name: "Water Drop",        glyph: "💧", unlock: { kind: "bestStreak", target: 50 } },
-  { id: "sun",          name: "Sun",               glyph: "☀️", unlock: { kind: "highestLevel", target: 20 } },
-  { id: "moon",         name: "Moon",              glyph: "🌙", unlock: { kind: "daysPlayed", target: 7 } },
-  { id: "rainbow",      name: "Rainbow",           glyph: "🌈", unlock: { kind: "allDifficultiesInOneRun" } },
-  { id: "golden_key",   name: "Golden Key",        glyph: "🗝", unlock: { kind: "highestScore", target: 10000 } },
-  { id: "crystal",      name: "Drachma",           glyph: "🪙", unlock: { kind: "bestRankTop", target: 1000 } },
-  { id: "laurel",       name: "Saint Halo",        glyph: "⭕", unlock: { kind: "bestRankTop", target: 100 } },
-  { id: "celestial",    name: "Chalice",           glyph: "🏆", unlock: { kind: "bestRankTop", target: 10 } },
-  { id: "black_dove",   name: "Black Dove",        glyph: "🕊", unlock: { kind: "correctTotal", target: 1000 } },
-  { id: "crown",        name: "King's Crown",      glyph: "👑", unlock: { kind: "gamesPlayed", target: 1000 } },
-  { id: "shield",       name: "Shield of Faith",   glyph: "🛡", unlock: { kind: "gamesPlayed", target: 5000 } },
-  { id: "seraph_dove",  name: "Golden Seraph Dove", glyph: "🪽", unlock: { kind: "gamesPlayed", target: 10000 } },
+  { id: "pigeon",   name: "Dove",     glyph: "🕊", unlock: { kind: "default" } },
+  { id: "sheep",    name: "Sheep",    glyph: "🐑", unlock: { kind: "correctTotal", target: 100 } },
+  { id: "fly",      name: "Fly",      glyph: "🪰", unlock: { kind: "highestLevel", target: 10 } },
+  { id: "locust",   name: "Locust",   glyph: "🦗", unlock: { kind: "bestStreak", target: 25 } },
+  { id: "mosquito", name: "Mosquito", glyph: "🦟", unlock: { kind: "correctTotal", target: 500 } },
+  { id: "snake",    name: "Serpent",  glyph: "🐍", unlock: { kind: "gamesPlayed", target: 50 } },
+  { id: "wolf",     name: "Wolf",     glyph: "🐺", unlock: { kind: "highestScore", target: 5000 } },
+  { id: "leopard",  name: "Leopard",  glyph: "🐆", unlock: { kind: "bonusesCollected", target: 100 } },
+  { id: "bear",     name: "Bear",     glyph: "🐻", unlock: { kind: "bestStreak", target: 50 } },
+  { id: "lion",     name: "Lion",     glyph: "🦁", unlock: { kind: "highestLevel", target: 20 } },
 ];
 
-export const DEFAULT_AVATAR: AvatarId = "white_dove";
+// Avatar names in every supported language. Only the avatar name is localized
+// here — no other game text is affected.
+export const AVATAR_NAMES: Record<AvatarId, Record<Language, string>> = {
+  pigeon:   { en: "Dove", es: "Paloma", pt: "Pomba", fr: "Colombe", de: "Taube", it: "Colomba", pl: "Gołębica", ru: "Голубь", tr: "Güvercin", ja: "ハト", ko: "비둘기", ar: "حمامة" },
+  sheep:    { en: "Sheep", es: "Oveja", pt: "Ovelha", fr: "Brebis", de: "Schaf", it: "Pecora", pl: "Owca", ru: "Овца", tr: "Koyun", ja: "ヒツジ", ko: "양", ar: "خروف" },
+  fly:      { en: "Fly", es: "Mosca", pt: "Mosca", fr: "Mouche", de: "Fliege", it: "Mosca", pl: "Mucha", ru: "Муха", tr: "Sinek", ja: "ハエ", ko: "파리", ar: "ذبابة" },
+  locust:   { en: "Locust", es: "Langosta", pt: "Gafanhoto", fr: "Sauterelle", de: "Heuschrecke", it: "Cavalletta", pl: "Szarańcza", ru: "Саранча", tr: "Çekirge", ja: "イナゴ", ko: "메뚜기", ar: "جراد" },
+  mosquito: { en: "Mosquito", es: "Mosquito", pt: "Mosquito", fr: "Moustique", de: "Mücke", it: "Zanzara", pl: "Komar", ru: "Комар", tr: "Sivrisinek", ja: "蚊", ko: "모기", ar: "بعوضة" },
+  snake:    { en: "Serpent", es: "Serpiente", pt: "Serpente", fr: "Serpent", de: "Schlange", it: "Serpente", pl: "Wąż", ru: "Змей", tr: "Yılan", ja: "ヘビ", ko: "뱀", ar: "أفعى" },
+  wolf:     { en: "Wolf", es: "Lobo", pt: "Lobo", fr: "Loup", de: "Wolf", it: "Lupo", pl: "Wilk", ru: "Волк", tr: "Kurt", ja: "オオカミ", ko: "늑대", ar: "ذئب" },
+  leopard:  { en: "Leopard", es: "Leopardo", pt: "Leopardo", fr: "Léopard", de: "Leopard", it: "Leopardo", pl: "Lampart", ru: "Леопард", tr: "Leopar", ja: "ヒョウ", ko: "표범", ar: "فهد" },
+  bear:     { en: "Bear", es: "Oso", pt: "Urso", fr: "Ours", de: "Bär", it: "Orso", pl: "Niedźwiedź", ru: "Медведь", tr: "Ayı", ja: "クマ", ko: "곰", ar: "دب" },
+  lion:     { en: "Lion", es: "León", pt: "Leão", fr: "Lion", de: "Löwe", it: "Leone", pl: "Lew", ru: "Лев", tr: "Aslan", ja: "ライオン", ko: "사자", ar: "أسد" },
+};
+
+export function avatarName(id: AvatarId, lang: Language): string {
+  const row = AVATAR_NAMES[id];
+  return row?.[lang] ?? row?.en ?? id;
+}
+
+export const DEFAULT_AVATAR: AvatarId = "pigeon";
 
 export interface AvatarStats {
   correctTotal: number;
@@ -88,35 +89,6 @@ export interface AvatarStats {
 
 const STATS_KEY = "btr_avatar_stats_v1";
 const EQUIP_KEY = "btr_avatar_equipped_v1";
-const GRANDFATHER_KEY = "btr_avatar_grandfathered_v1";
-
-// Avatars that used to be unlocked by the removed Premium purchase. Players who
-// already owned Premium keep them unlocked forever; the flag is persisted once
-// so the unlock survives every future session.
-const LEGACY_PREMIUM_AVATARS: AvatarId[] = ["crown", "shield", "seraph_dove"];
-
-let grandfatheredCache: Set<AvatarId> | null = null;
-
-function getGrandfathered(): Set<AvatarId> {
-  if (grandfatheredCache) return grandfatheredCache;
-  const set = new Set<AvatarId>();
-  try {
-    const raw = localStorage.getItem(GRANDFATHER_KEY);
-    if (raw) {
-      for (const id of JSON.parse(raw) as AvatarId[]) set.add(id);
-    } else if (localStorage.getItem("btr_premium") === "1") {
-      // One-time migration from the old Premium flag.
-      for (const id of LEGACY_PREMIUM_AVATARS) set.add(id);
-      localStorage.setItem(GRANDFATHER_KEY, JSON.stringify([...set]));
-    }
-  } catch { /* ignore */ }
-  grandfatheredCache = set;
-  return set;
-}
-
-function isGrandfathered(id: AvatarId): boolean {
-  return getGrandfathered().has(id);
-}
 
 function emptyStats(): AvatarStats {
   return {
@@ -172,7 +144,6 @@ export const recordRank = (rank: number | null | undefined) => mutate((s) => {
 
 export function isUnlocked(def: AvatarDef, stats: AvatarStats): boolean {
   if (isDevModeUnlock()) return true;
-  if (isGrandfathered(def.id)) return true;
   const u = def.unlock;
   switch (u.kind) {
     case "default": return true;
