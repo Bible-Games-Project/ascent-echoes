@@ -2433,8 +2433,7 @@ export function Game() {
             <Stat label={t("best")} value={bestScore} />
             <Stat label={t("worldRank")} value={worldRank ?? 0} prefix="#" />
           </div>
-          <LeaderboardList entries={topTen} t={t} selfAvatar={equippedAvatar} />
-          <div className="mt-8 flex items-center gap-3">
+          <div className="mt-6 flex items-center gap-3">
             <button
               onClick={startGame}
               className="rounded-full bg-amber-100 px-8 py-3 text-sm font-medium tracking-[0.2em] text-stone-900 shadow-[0_0_40px_rgba(255,200,140,0.5)] transition-transform hover:scale-105 active:scale-95"
@@ -2448,6 +2447,7 @@ export function Game() {
               {t("mainMenu")}
             </button>
           </div>
+          <LeaderboardList entries={topTen} t={t} selfAvatar={equippedAvatar} />
           <button
             onClick={() => setShowMoreGames(true)}
             className="mt-4 rounded-full border border-amber-200/30 bg-black/30 px-5 py-2 text-[10px] tracking-[0.25em] text-amber-100/80 backdrop-blur hover:border-amber-200/60 hover:text-amber-50"
