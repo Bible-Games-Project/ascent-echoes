@@ -1260,7 +1260,6 @@ export function Game() {
         : 1;
       // Every ark is drawn at the SAME visual height, with its own artwork
       // aspect preserved (no squashing), so levels 1-2 read as tall as 3-10.
-      const arkScale = 1;
       // Level 1 artwork reads more saturated/darker than the pastel avatars.
       const arkFilter = levelRef.current === 1
         ? "saturate(0.62) brightness(1.3) contrast(0.96)"
@@ -1281,28 +1280,27 @@ export function Game() {
       ctx.globalAlpha *= alpha;
       ctx.translate(cx, cy + bob);
       ctx.rotate(tilt);
-      if (arkScale !== 1) ctx.scale(arkScale, arkScale);
 
       // ----- Subtle wind streaks behind the ark (opposite travel direction) -----
       {
         ctx.save();
         ctx.lineCap = "round";
-        const baseX = imgLeft + bw * 0.98;
+        const baseX = imgLeft + artW * 0.98;
         for (let k = 0; k < 3; k++) {
           const ph = timeSec * 0.9 + k * 0.83 + lane * 0.6;
           const t = ph % 1;
-          const len = bw * (0.16 + 0.1 * k) * (0.5 + 0.5 * Math.sin(ph * 2));
-          const y = imgTop + bh * (0.34 + k * 0.18) + Math.sin(ph * 1.7) * bh * 0.02;
-          const x = baseX + t * bw * 0.1;
+          const len = artW * (0.16 + 0.1 * k) * (0.5 + 0.5 * Math.sin(ph * 2));
+          const y = imgTop + artH * (0.34 + k * 0.18) + Math.sin(ph * 1.7) * artH * 0.02;
+          const x = baseX + t * artW * 0.1;
           const grad = ctx.createLinearGradient(x, 0, x + len, 0);
           grad.addColorStop(0, "rgba(255,255,255,0.20)");
           grad.addColorStop(1, "rgba(255,255,255,0)");
           ctx.strokeStyle = grad;
-          ctx.lineWidth = Math.max(1, bh * 0.012);
+          ctx.lineWidth = Math.max(1, artH * 0.012);
           ctx.globalAlpha = 0.55 * (1 - t * 0.6);
           ctx.beginPath();
           ctx.moveTo(x, y);
-          ctx.lineTo(x + len, y - bh * 0.012);
+          ctx.lineTo(x + len, y - artH * 0.012);
           ctx.stroke();
         }
         ctx.restore();
