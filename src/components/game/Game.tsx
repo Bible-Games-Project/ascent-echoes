@@ -111,7 +111,32 @@ const rampAt = (stops: [number, number, number][], v: number): [number, number, 
 };
 
 const arkVariants = new Map<number, HTMLCanvasElement>();
+
+// Levels 1 and 2 use dedicated hand-made artwork instead of the recoloured
+// grayscale master. Everything else (size, motion, plaque mapping) is unchanged.
+const arkOverrideUrls: Record<number, string> = {
+  1: arkLevel1Img.url,
+  2: arkLevel2Img.url,
+};
+const arkOverrides = new Map<number, { img: HTMLImageElement; ready: boolean }>();
+function getArkOverride(level: number): CanvasImageSource | null {
+  const url = arkOverrideUrls[level];
+  if (!url) return null;
+  let entry = arkOverrides.get(level);
+  if (!entry) {
+    const img = new Image();
+    const e = { img, ready: false };
+    img.onload = () => { e.ready = true; };
+    img.src = assetUrl(url);
+    arkOverrides.set(level, e);
+    entry = e;
+  }
+  return entry.ready ? entry.img : null;
+}
+
 function getArkSprite(level: number): CanvasImageSource | null {
+  const override = getArkOverride(level);
+  if (override) return override;
   const base = getBoatSprite();
   if (!base) return null;
   const idx = Math.min(Math.max(1, level), 10) - 1;
