@@ -20,7 +20,6 @@ export type AvatarId =
   | "leopard"
   | "bear"
   | "lion";
-  | "seraph_dove";
 
 export type UnlockKind =
   | "default"
