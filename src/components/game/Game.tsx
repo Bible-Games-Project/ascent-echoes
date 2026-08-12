@@ -3,6 +3,14 @@ import didacticJesusImg from "@/assets/didactic-jesus.png.asset.json";
 import boatImg from "@/assets/ark.png.asset.json";
 import arkLevel1Img from "@/assets/ark-level-1.png.asset.json";
 import arkLevel2Img from "@/assets/ark-level-2.png.asset.json";
+import arkLevel3Img from "@/assets/ark-level-3.png.asset.json";
+import arkLevel4Img from "@/assets/ark-level-4.png.asset.json";
+import arkLevel5Img from "@/assets/ark-level-5.png.asset.json";
+import arkLevel6Img from "@/assets/ark-level-6.png.asset.json";
+import arkLevel7Img from "@/assets/ark-level-7.png.asset.json";
+import arkLevel8Img from "@/assets/ark-level-8.png.asset.json";
+import arkLevel9Img from "@/assets/ark-level-9.png.asset.json";
+import arkLevel10Img from "@/assets/ark-level-10.png.asset.json";
 import lostSheepImg from "@/assets/lost-sheep.png.asset.json";
 import bibleUnlockedImg from "@/assets/bible-unlocked.png.asset.json";
 import trueChristImg from "@/assets/true-christ.png.asset.json";
@@ -114,11 +122,19 @@ const rampAt = (stops: [number, number, number][], v: number): [number, number, 
 
 const arkVariants = new Map<number, HTMLCanvasElement>();
 
-// Levels 1 and 2 use dedicated hand-made artwork instead of the recoloured
+// Levels 1-10 use dedicated hand-made artwork instead of the recoloured
 // grayscale master. Everything else (size, motion, plaque mapping) is unchanged.
 const arkOverrideUrls: Record<number, string> = {
   1: arkLevel1Img.url,
   2: arkLevel2Img.url,
+  3: arkLevel3Img.url,
+  4: arkLevel4Img.url,
+  5: arkLevel5Img.url,
+  6: arkLevel6Img.url,
+  7: arkLevel7Img.url,
+  8: arkLevel8Img.url,
+  9: arkLevel9Img.url,
+  10: arkLevel10Img.url,
 };
 const arkOverrides = new Map<number, { img: HTMLImageElement; ready: boolean }>();
 function getArkOverride(level: number): CanvasImageSource | null {
