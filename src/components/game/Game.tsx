@@ -1127,7 +1127,7 @@ export function Game() {
       if (highlight) {
         const hp = 0.5 + 0.5 * Math.sin(timeSec * 5);
         ctx.shadowColor = "rgba(255, 226, 140, 0.95)";
-        ctx.shadowBlur = 26 + 14 * hp;
+        ctx.shadowBlur = 30 + 18 * hp;
       }
 
       // Boat sprite, mirrored so the bow points right (into the travel side).
@@ -1135,6 +1135,19 @@ export function Game() {
         ctx.save();
         ctx.scale(-1, 1);
         ctx.drawImage(sprite, -(imgLeft + bw), imgTop, bw, bh);
+        if (highlight) {
+          // Soft halo that follows the boat silhouette (no square edges):
+          // repeated shadowed passes + an additive brightness pass.
+          const hp = 0.5 + 0.5 * Math.sin(timeSec * 5);
+          ctx.shadowColor = `rgba(255, 224, 140, ${0.75 + 0.2 * hp})`;
+          ctx.shadowBlur = 34 + 20 * hp;
+          ctx.drawImage(sprite, -(imgLeft + bw), imgTop, bw, bh);
+          ctx.drawImage(sprite, -(imgLeft + bw), imgTop, bw, bh);
+          ctx.shadowBlur = 0;
+          ctx.globalCompositeOperation = "lighter";
+          ctx.globalAlpha *= 0.22 + 0.14 * hp;
+          ctx.drawImage(sprite, -(imgLeft + bw), imgTop, bw, bh);
+        }
         ctx.restore();
       } else {
         // Fallback plaque while the artwork loads.
@@ -1144,13 +1157,6 @@ export function Game() {
         ctx.fill();
       }
       ctx.shadowBlur = 0;
-
-      if (highlight) {
-        ctx.fillStyle = `rgba(255, 236, 160, ${0.28 + 0.12 * Math.sin(timeSec * 5)})`;
-        ctx.beginPath();
-        ctx.roundRect(-plaqueW / 2, -plaqueH / 2, plaqueW, plaqueH, plaqueH / 2);
-        ctx.fill();
-      }
 
       // Answer text, always inside the plaque under the sail.
       const maxTextW = plaqueW * 0.9;
@@ -1176,22 +1182,14 @@ export function Game() {
     const drawActiveDecision = (dt: number) => {
       const d = queue[activeIdx];
       if (!d) return;
-      for (let i = 0; i < 3; i++) {
+      // Depth order: BOTTOM behind, MIDDLE, TOP in front.
+      for (const i of [2, 1, 0]) {
         const outcome = d.doorOutcome[i];
         const cy = laneY(i as Lane);
         if (outcome) d.doorAnim[i] = Math.min(1, d.doorAnim[i] + dt * 3);
         const anim = d.doorAnim[i];
         if (outcome && anim >= 1) continue;
         const highlight = hintActive === i;
-        if (highlight) {
-          // Horizontal light beam from the right edge to the boat
-          const beam = ctx.createLinearGradient(W, cy, d.x, cy);
-          beam.addColorStop(0, "rgba(255, 245, 180, 0)");
-          beam.addColorStop(1, `rgba(255, 240, 165, ${0.24 + 0.08 * Math.sin(timeSec * 5)})`);
-          ctx.fillStyle = beam;
-          const bh = laneGap() * 0.78;
-          ctx.fillRect(d.x, cy - bh / 2, Math.max(0, W - d.x), bh);
-        }
         drawBoat(d.x, cy, i, d.answers[i], highlight, outcome ? 1 - anim : 1);
       }
     };
@@ -1465,19 +1463,6 @@ export function Game() {
       });
       ctx.restore();
 
-      // Bombilla hint: subtle light beam toward safe lane (no UI changes)
-      if (hintActive !== null) {
-        const targetY = laneY(hintActive);
-        const grd = ctx.createLinearGradient(x, y, x + 80, targetY);
-        grd.addColorStop(0, "rgba(255, 240, 180, 0.35)");
-        grd.addColorStop(1, "rgba(255, 240, 180, 0)");
-        ctx.strokeStyle = grd;
-        ctx.lineWidth = 2;
-        ctx.beginPath();
-        ctx.moveTo(x + 6, y);
-        ctx.lineTo(x + 90, targetY);
-        ctx.stroke();
-      }
     };
 
     const drawParticles = (dt: number) => {
@@ -1807,11 +1792,13 @@ export function Game() {
       player.targetY = laneY(next);
     };
 
+    let lastVertDir: -1 | 1 = 1;
     const clearVertHold = () => { heldY.up = false; heldY.down = false; };
     const startVert = (dir: -1 | 1) => {
       if (stateRef.current !== "playing") return;
       const held = dir === -1 ? heldY.up : heldY.down;
       if (held) return;
+      lastVertDir = dir;
       if (dir === -1) { heldY.up = true; heldY.down = false; }
       else { heldY.down = true; heldY.up = false; }
       // Immediate nudge past the midpoint so a short tap settles one lane away
@@ -1823,8 +1810,12 @@ export function Game() {
     const stopVert = (dir: -1 | 1) => {
       if (dir === -1) heldY.up = false; else heldY.down = false;
       if (!heldY.up && !heldY.down) {
-        // Settle on whichever lane the midpoint rule has committed us to.
-        const settle = nearestLaneTo(player.targetY);
+        // Never step backwards on release: finish the committed transition by
+        // settling on the next lane in the direction of travel.
+        const d = lastVertDir;
+        let settle = nearestLaneTo(player.targetY);
+        if (d === 1 && laneY(settle) < player.targetY - 0.5) settle = Math.min(2, settle + 1) as Lane;
+        if (d === -1 && laneY(settle) > player.targetY + 0.5) settle = Math.max(0, settle - 1) as Lane;
         player.targetLane = settle;
         player.targetY = laneY(settle);
       }
@@ -2240,7 +2231,7 @@ export function Game() {
       )}
 
       {state === "gameover" && (
-        <Overlay>
+        <Overlay scrollable>
           <p className="text-xs uppercase tracking-[0.4em] text-rose-200/80">{t("windTookYou")}</p>
           <h1 className="mt-3 text-4xl font-light tracking-[0.2em] text-amber-50">{t("fallen")}</h1>
           <p className="mt-1 text-xs text-amber-100/60">
@@ -2398,7 +2389,16 @@ export function Game() {
   );
 }
 
-function Overlay({ children }: { children: React.ReactNode }) {
+function Overlay({ children, scrollable }: { children: React.ReactNode; scrollable?: boolean }) {
+  if (scrollable) {
+    return (
+      <div className="absolute inset-0 z-20 overflow-y-auto overscroll-contain bg-black/40 backdrop-blur-sm animate-fade-in">
+        <div className="flex min-h-full flex-col items-center justify-center px-4 py-8">
+          {children}
+        </div>
+      </div>
+    );
+  }
   return (
     <div className="absolute inset-0 z-20 flex flex-col items-center justify-center bg-black/40 backdrop-blur-sm animate-fade-in">
       {children}
