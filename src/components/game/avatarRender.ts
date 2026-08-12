@@ -337,9 +337,9 @@ export function drawAvatarBody(
     const sy = 1 + flap * (winged ? 0.05 : 0.02);
     const sx = 1 - flap * (winged ? 0.02 : 0.008);
     ctx.scale(sx, sy);
-    // Pastelize the artwork to match the game's soft palette: slightly
-    // desaturate and lift brightness so the animal colors feel gentle.
-    ctx.filter = "saturate(0.72) brightness(1.06)";
+    // Pastelize the artwork to match the game's soft palette: reduce
+    // saturation and lift brightness so the animal colors feel gentle.
+    ctx.filter = "saturate(0.55) brightness(1.08) contrast(0.95)";
     ctx.drawImage(img, -w / 2, -h / 2, w, h);
     ctx.filter = "none";
   } else {
