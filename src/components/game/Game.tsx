@@ -65,6 +65,63 @@ function getBoatSprite(): HTMLImageElement | null {
   return boatSpriteReady ? boatSprite : null;
 }
 
+// ----- Per-level ark colour variants -----
+// Exactly the same artwork, recoloured to harmonize with each level background.
+// hue: hue-rotation in degrees, sat/bri: saturation & brightness multipliers,
+// tint/tintA: soft colour wash kept inside the sprite silhouette.
+type ArkTint = { hue: number; sat: number; bri: number; tint: string; tintA: number };
+const ARK_TINTS: ArkTint[] = [
+  // 1 Desert sunset — warm amber/plum, analogous to the sky
+  { hue: -12, sat: 1.05, bri: 1.04, tint: "#ffb27a", tintA: 0.12 },
+  // 2 Summer forest — soft teal/green complement of the warm wood
+  { hue: 118, sat: 0.82, bri: 1.06, tint: "#9fd6a8", tintA: 0.16 },
+  // 3 Summer sea — pastel blue monochrome with the water
+  { hue: 172, sat: 0.78, bri: 1.08, tint: "#a8cfe8", tintA: 0.18 },
+  // 4 Autumn forest — deep warm copper, analogous
+  { hue: -22, sat: 1.15, bri: 0.96, tint: "#e0813f", tintA: 0.14 },
+  // 5 Autumn meadow — muted sand/olive
+  { hue: 36, sat: 0.72, bri: 1.05, tint: "#e7cb96", tintA: 0.16 },
+  // 6 Winter forest — cold pale blue
+  { hue: 190, sat: 0.6, bri: 1.12, tint: "#c6dcf0", tintA: 0.2 },
+  // 7 Winter mountain — icy slate with a violet edge
+  { hue: 205, sat: 0.55, bri: 1.1, tint: "#c3c9e4", tintA: 0.2 },
+  // 8 Spring forest — fresh mint green
+  { hue: 96, sat: 0.85, bri: 1.1, tint: "#bfe3bd", tintA: 0.16 },
+  // 9 Spring meadow — lavender/rose complement of the floral field
+  { hue: 265, sat: 0.8, bri: 1.06, tint: "#d8bde8", tintA: 0.18 },
+  // 10 Night sky — indigo hull lifted so it stays readable at night
+  { hue: 225, sat: 0.7, bri: 1.0, tint: "#8fa2e0", tintA: 0.22 },
+];
+const arkVariants = new Map<number, HTMLCanvasElement>();
+function getArkSprite(level: number): CanvasImageSource | null {
+  const base = getBoatSprite();
+  if (!base) return null;
+  const idx = Math.min(Math.max(1, level), 10) - 1;
+  const cached = arkVariants.get(idx);
+  if (cached) return cached;
+  const t = ARK_TINTS[idx];
+  const w = base.naturalWidth || base.width;
+  const h = base.naturalHeight || base.height;
+  if (!w || !h) return base;
+  const cv = document.createElement("canvas");
+  cv.width = w; cv.height = h;
+  const c = cv.getContext("2d");
+  if (!c) return base;
+  try {
+    c.filter = `hue-rotate(${t.hue}deg) saturate(${t.sat}) brightness(${t.bri})`;
+  } catch { /* filter unsupported — fall back to plain draw */ }
+  c.drawImage(base, 0, 0, w, h);
+  c.filter = "none";
+  c.globalCompositeOperation = "source-atop";
+  c.globalAlpha = t.tintA;
+  c.fillStyle = t.tint;
+  c.fillRect(0, 0, w, h);
+  c.globalAlpha = 1;
+  c.globalCompositeOperation = "source-over";
+  arkVariants.set(idx, cv);
+  return cv;
+}
+
 type GameState = "start" | "playing" | "gameover";
 type Lane = 0 | 1 | 2; // 0 left, 1 center, 2 right
 
@@ -1107,7 +1164,7 @@ export function Game() {
       const pal = boatPalette(lane);
       const bob = Math.sin(timeSec * 2 + lane * 1.3) * g * 0.035;
       const tilt = Math.sin(timeSec * 1.6 + lane) * 0.02;
-      const sprite = getBoatSprite();
+      const sprite = getArkSprite(levelRef.current);
       // Ark height keeps the artwork proportions but stays lane-sized.
       const bh = bw * 0.66;
       // Plaque geometry in local ark coordinates, centred on the lane line.
