@@ -1123,59 +1123,27 @@ export function Game() {
       ctx.translate(cx, cy + bob);
       ctx.rotate(tilt);
 
-      // ----- Water wake / splash, under and behind the ark -----
-      // Drawn in local space so it bobs and tilts with the hull.
+      // ----- Subtle wind streaks behind the ark (opposite travel direction) -----
       {
-        const hullBottom = imgTop + bh * 0.96;
-        const waveY = hullBottom - bh * 0.06;
         ctx.save();
-        ctx.globalAlpha *= 0.85;
-        // Soft wake trail streaming out behind (to the right).
-        const trailW = bw * 0.55;
-        const grad = ctx.createLinearGradient(imgLeft + bw * 0.75, 0, imgLeft + bw * 0.75 + trailW, 0);
-        grad.addColorStop(0, "rgba(226, 244, 255, 0.42)");
-        grad.addColorStop(1, "rgba(226, 244, 255, 0)");
-        ctx.fillStyle = grad;
-        ctx.beginPath();
-        ctx.moveTo(imgLeft + bw * 0.72, waveY - bh * 0.05);
-        ctx.lineTo(imgLeft + bw * 0.72 + trailW, waveY - bh * 0.11);
-        ctx.lineTo(imgLeft + bw * 0.72 + trailW, waveY + bh * 0.11);
-        ctx.lineTo(imgLeft + bw * 0.72, waveY + bh * 0.05);
-        ctx.closePath();
-        ctx.fill();
-
-        // Foam line hugging the hull bottom.
         ctx.lineCap = "round";
-        for (let k = 0; k < 2; k++) {
-          const amp = bh * (0.022 + k * 0.014);
-          const ph = timeSec * (2.4 + k * 0.7) + lane * 1.7 + k;
-          ctx.strokeStyle = k === 0
-            ? "rgba(255,255,255,0.75)"
-            : "rgba(198, 232, 255, 0.55)";
-          ctx.lineWidth = Math.max(1.5, bh * (0.02 - k * 0.006));
+        const baseX = imgLeft + bw * 0.98;
+        for (let k = 0; k < 3; k++) {
+          const ph = timeSec * 0.9 + k * 0.83 + lane * 0.6;
+          const t = ph % 1;
+          const len = bw * (0.16 + 0.1 * k) * (0.5 + 0.5 * Math.sin(ph * 2));
+          const y = imgTop + bh * (0.34 + k * 0.18) + Math.sin(ph * 1.7) * bh * 0.02;
+          const x = baseX + t * bw * 0.1;
+          const grad = ctx.createLinearGradient(x, 0, x + len, 0);
+          grad.addColorStop(0, "rgba(255,255,255,0.20)");
+          grad.addColorStop(1, "rgba(255,255,255,0)");
+          ctx.strokeStyle = grad;
+          ctx.lineWidth = Math.max(1, bh * 0.012);
+          ctx.globalAlpha = 0.55 * (1 - t * 0.6);
           ctx.beginPath();
-          const x0 = imgLeft + bw * 0.06;
-          const x1 = imgLeft + bw * 0.95;
-          for (let x = x0; x <= x1; x += bw * 0.03) {
-            const t = (x - x0) / (x1 - x0);
-            const y = waveY + k * bh * 0.035 + Math.sin(t * 7 + ph) * amp * (0.5 + t);
-            if (x === x0) ctx.moveTo(x, y); else ctx.lineTo(x, y);
-          }
+          ctx.moveTo(x, y);
+          ctx.lineTo(x + len, y - bh * 0.012);
           ctx.stroke();
-        }
-
-        // Small splashes pushed aside at the prow and along the wake.
-        ctx.fillStyle = "rgba(255,255,255,0.7)";
-        for (let s2 = 0; s2 < 6; s2++) {
-          const ph = timeSec * 1.6 + s2 * 1.31 + lane * 0.9;
-          const t = (ph % 1);
-          const x = imgLeft + bw * (0.1 + s2 * 0.145) + t * bw * 0.06;
-          const y = waveY - t * bh * 0.09 + Math.sin(ph * 3) * bh * 0.01;
-          const r = Math.max(1, bh * 0.016 * (1 - t));
-          ctx.globalAlpha = 0.7 * (1 - t);
-          ctx.beginPath();
-          ctx.arc(x, y, r, 0, Math.PI * 2);
-          ctx.fill();
         }
         ctx.restore();
       }
@@ -1758,7 +1726,8 @@ export function Game() {
           // Pickup test — radial proximity to the player
           const pdx = p.x - player.x;
           const pdy = p.y - player.y;
-          if (!p.taken && pdx * pdx + pdy * pdy <= 44 * 44) {
+          // Forgiving pickup radius — visual size unchanged
+          if (!p.taken && pdx * pdx + pdy * pdy <= 68 * 68) {
             p.taken = true;
             applyPowerup(p);
             if (p.type === "apple" || p.type === "broken") {
