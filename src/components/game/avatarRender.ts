@@ -308,6 +308,24 @@ const BASE_W: Record<AvatarId, number> = {
   snake: 44, falcon: 48, wolf: 44, leopard: 46, bear: 44, lion: 46,
 };
 
+function applyPastelOverlay(ctx: Ctx, w: number, h: number, alpha: number) {
+  ctx.save();
+  ctx.globalCompositeOperation = "soft-light";
+  ctx.globalAlpha = alpha * 0.34;
+  const g = ctx.createRadialGradient(
+    0, -h * 0.05, Math.min(w, h) * 0.12,
+    0, -h * 0.05, Math.max(w, h) * 0.85,
+  );
+  g.addColorStop(0, "rgba(255, 252, 245, 0.95)");
+  g.addColorStop(0.5, "rgba(255, 248, 238, 0.55)");
+  g.addColorStop(1, "rgba(255, 244, 230, 0)");
+  ctx.fillStyle = g;
+  ctx.beginPath();
+  ctx.ellipse(0, 0, w * 0.62, h * 0.68, 0, 0, Math.PI * 2);
+  ctx.fill();
+  ctx.restore();
+}
+
 export function drawAvatarBody(
   ctx: Ctx,
   id: AvatarId,
@@ -345,6 +363,11 @@ export function drawAvatarBody(
     ctx.ellipse(0, 0, w * 0.35, h * 0.35, 0, 0, Math.PI * 2);
     ctx.fill();
   }
+
+  // Pastel wash: a soft, warm white layer over the animal so the vivid
+  // avatar colors blend with the game's pastel palette without changing
+  // the original artwork.
+  applyPastelOverlay(ctx, w, h, alpha);
 
   ctx.restore();
 }
