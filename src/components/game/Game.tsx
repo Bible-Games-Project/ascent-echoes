@@ -1263,6 +1263,18 @@ export function Game() {
       const bob = Math.sin(timeSec * 2 + lane * 1.3) * g * 0.035;
       const tilt = Math.sin(timeSec * 1.6 + lane) * 0.02;
       const sprite = getArkSprite(levelRef.current);
+      // Levels 1-2 use square artwork, levels 3-10 use 3:2 artwork. Drawn into
+      // the same box the 3:2 arks read much bigger, so scale the whole boat
+      // group (art + text) down to match the level 1-2 footprint.
+      const spriteAspect = sprite
+        ? (sprite as HTMLImageElement | HTMLCanvasElement).width /
+          Math.max(1, (sprite as HTMLImageElement | HTMLCanvasElement).height)
+        : 1;
+      const arkScale = spriteAspect >= 1.3 ? 0.82 : 1;
+      // Level 1 artwork reads more saturated/darker than the pastel avatars.
+      const arkFilter = levelRef.current === 1
+        ? "saturate(0.62) brightness(1.3) contrast(0.96)"
+        : "none";
       // Ark height keeps the artwork proportions but stays lane-sized.
       const bh = bw * 0.66;
       // Plaque geometry in local ark coordinates, centred on the lane line.
@@ -1277,6 +1289,7 @@ export function Game() {
       ctx.globalAlpha *= alpha;
       ctx.translate(cx, cy + bob);
       ctx.rotate(tilt);
+      if (arkScale !== 1) ctx.scale(arkScale, arkScale);
 
       // ----- Subtle wind streaks behind the ark (opposite travel direction) -----
       {
@@ -1310,7 +1323,9 @@ export function Game() {
       }
 
       if (sprite) {
+        ctx.filter = arkFilter;
         ctx.drawImage(sprite, imgLeft, imgTop, bw, bh);
+        ctx.filter = "none";
         if (highlight) {
           const hp = 0.5 + 0.5 * Math.sin(timeSec * 5);
           ctx.save();
