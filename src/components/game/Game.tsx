@@ -1162,20 +1162,8 @@ export function Game() {
       ctx.fillStyle = gr.rim;
       ctx.fillRect(0, platTop, W, 2);
 
-      // Three horizontal lane tracks the boats sail along
-      for (let i = 0; i < 3; i++) {
-        const cy = laneY(i as Lane);
-        const th = g * 0.82;
-        const lg = ctx.createLinearGradient(0, cy - th / 2, 0, cy + th / 2);
-        lg.addColorStop(0, "rgba(255,255,255,0.03)");
-        lg.addColorStop(0.5, "rgba(255,255,255,0.10)");
-        lg.addColorStop(1, "rgba(0,0,0,0.10)");
-        ctx.fillStyle = lg;
-        ctx.fillRect(0, cy - th / 2, W, th);
-        // soft guide line along the lane center
-        ctx.fillStyle = "rgba(255,240,210,0.10)";
-        ctx.fillRect(0, cy + th / 2 - 1, W, 1);
-      }
+      // Lane tracks are intentionally not drawn: lanes stay functional but
+      // have no visible lines or bands.
     };
 
     // ----- Answer boats (sail right -> left, one per lane) -----
@@ -1270,47 +1258,49 @@ export function Game() {
         ? (sprite as HTMLImageElement | HTMLCanvasElement).width /
           Math.max(1, (sprite as HTMLImageElement | HTMLCanvasElement).height)
         : 1;
-      const arkScale = spriteAspect >= 1.3 ? 0.82 : 1;
+      // Every ark is drawn at the SAME visual height, with its own artwork
+      // aspect preserved (no squashing), so levels 1-2 read as tall as 3-10.
       // Level 1 artwork reads more saturated/darker than the pastel avatars.
       const arkFilter = levelRef.current === 1
         ? "saturate(0.62) brightness(1.3) contrast(0.96)"
         : "none";
       // Ark height keeps the artwork proportions but stays lane-sized.
       const bh = bw * 0.66;
+      const artH = bh;
+      const artW = artH * (spriteAspect || 1.5);
       // Plaque geometry in local ark coordinates, centred on the lane line.
-      const plaqueW = (BOAT_PLAQUE.x1 - BOAT_PLAQUE.x0) * bw;
-      const plaqueH = (BOAT_PLAQUE.y1 - BOAT_PLAQUE.y0) * bh;
+      const plaqueW = (BOAT_PLAQUE.x1 - BOAT_PLAQUE.x0) * artW;
+      const plaqueH = (BOAT_PLAQUE.y1 - BOAT_PLAQUE.y0) * artH;
       const plaqueCyN = (BOAT_PLAQUE.y0 + BOAT_PLAQUE.y1) / 2;
       const plaqueCxN = (BOAT_PLAQUE.x0 + BOAT_PLAQUE.x1) / 2;
-      const imgLeft = -plaqueCxN * bw;
-      const imgTop = -plaqueCyN * bh;
+      const imgLeft = -plaqueCxN * artW;
+      const imgTop = -plaqueCyN * artH;
 
       ctx.save();
       ctx.globalAlpha *= alpha;
       ctx.translate(cx, cy + bob);
       ctx.rotate(tilt);
-      if (arkScale !== 1) ctx.scale(arkScale, arkScale);
 
       // ----- Subtle wind streaks behind the ark (opposite travel direction) -----
       {
         ctx.save();
         ctx.lineCap = "round";
-        const baseX = imgLeft + bw * 0.98;
+        const baseX = imgLeft + artW * 0.98;
         for (let k = 0; k < 3; k++) {
           const ph = timeSec * 0.9 + k * 0.83 + lane * 0.6;
           const t = ph % 1;
-          const len = bw * (0.16 + 0.1 * k) * (0.5 + 0.5 * Math.sin(ph * 2));
-          const y = imgTop + bh * (0.34 + k * 0.18) + Math.sin(ph * 1.7) * bh * 0.02;
-          const x = baseX + t * bw * 0.1;
+          const len = artW * (0.16 + 0.1 * k) * (0.5 + 0.5 * Math.sin(ph * 2));
+          const y = imgTop + artH * (0.34 + k * 0.18) + Math.sin(ph * 1.7) * artH * 0.02;
+          const x = baseX + t * artW * 0.1;
           const grad = ctx.createLinearGradient(x, 0, x + len, 0);
           grad.addColorStop(0, "rgba(255,255,255,0.20)");
           grad.addColorStop(1, "rgba(255,255,255,0)");
           ctx.strokeStyle = grad;
-          ctx.lineWidth = Math.max(1, bh * 0.012);
+          ctx.lineWidth = Math.max(1, artH * 0.012);
           ctx.globalAlpha = 0.55 * (1 - t * 0.6);
           ctx.beginPath();
           ctx.moveTo(x, y);
-          ctx.lineTo(x + len, y - bh * 0.012);
+          ctx.lineTo(x + len, y - artH * 0.012);
           ctx.stroke();
         }
         ctx.restore();
@@ -1324,19 +1314,19 @@ export function Game() {
 
       if (sprite) {
         ctx.filter = arkFilter;
-        ctx.drawImage(sprite, imgLeft, imgTop, bw, bh);
+        ctx.drawImage(sprite, imgLeft, imgTop, artW, artH);
         ctx.filter = "none";
         if (highlight) {
           const hp = 0.5 + 0.5 * Math.sin(timeSec * 5);
           ctx.save();
           ctx.shadowColor = `rgba(255, 224, 140, ${0.75 + 0.2 * hp})`;
           ctx.shadowBlur = 34 + 20 * hp;
-          ctx.drawImage(sprite, imgLeft, imgTop, bw, bh);
-          ctx.drawImage(sprite, imgLeft, imgTop, bw, bh);
+          ctx.drawImage(sprite, imgLeft, imgTop, artW, artH);
+          ctx.drawImage(sprite, imgLeft, imgTop, artW, artH);
           ctx.shadowBlur = 0;
           ctx.globalCompositeOperation = "lighter";
           ctx.globalAlpha *= 0.22 + 0.14 * hp;
-          ctx.drawImage(sprite, imgLeft, imgTop, bw, bh);
+          ctx.drawImage(sprite, imgLeft, imgTop, artW, artH);
           ctx.restore();
         }
       } else {
