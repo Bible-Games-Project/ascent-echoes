@@ -1792,6 +1792,7 @@ export function Game() {
       player.targetY = laneY(next);
     };
 
+    let lastVertDir: -1 | 1 = 1;
     const clearVertHold = () => { heldY.up = false; heldY.down = false; };
     const startVert = (dir: -1 | 1) => {
       if (stateRef.current !== "playing") return;
