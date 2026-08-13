@@ -1838,7 +1838,10 @@ export function Game() {
           // Resolve when the boat's LEFT/front tip touches the player,
           // not when its centre arrives.
           const boatTipX = d.x - arkFrontOffset();
-          const playerFrontX = player.x + playerHalfW();
+          // Collision reach is calibrated on the Dove (reference avatar),
+          // drawn at BASE_W 46 with scale 2 -> 46px half width, so the answer
+          // triggers when the dove visually touches the ark's front tip.
+          const playerFrontX = player.x + DOVE_COLLIDE_HALF_W;
           if (boatTipX <= playerFrontX || d.x <= -boatWidth()) {
             d.resolved = true;
             const lane = player.lane;
