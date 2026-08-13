@@ -35,7 +35,8 @@ export function AvatarsOverlay({ equipped, onEquip, onClose, title, lang, t }: P
   };
 
   return (
-    <div className="absolute inset-0 z-40 flex flex-col items-center justify-center bg-black/75 backdrop-blur-md animate-fade-in px-4">
+    <div className="absolute inset-0 z-40 overflow-y-auto overscroll-contain bg-black/75 backdrop-blur-md animate-fade-in">
+      <div className="flex min-h-full flex-col items-center justify-center px-4 py-6">
       <h2 className="text-xl font-light tracking-[0.25em] text-amber-50">{title}</h2>
       <p className="mt-1 text-[10px] tracking-[0.3em] text-amber-200/70">
         {AVATARS.filter((a) => isUnlocked(a, stats)).length} / {AVATARS.length}
@@ -114,6 +115,7 @@ export function AvatarsOverlay({ equipped, onEquip, onClose, title, lang, t }: P
             {t("close")}
           </button>
         </div>
+      </div>
       </div>
     </div>
   );
