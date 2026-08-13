@@ -19,6 +19,7 @@ import bonusStarImg from "@/assets/bonus/Bonus_Estrella.png.asset.json";
 import bonusLightImg from "@/assets/bonus/Bonus_Luz.png.asset.json";
 import bonusAppleImg from "@/assets/bonus/Bonus_ManzanaPodrida.png.asset.json";
 import bonusClockImg from "@/assets/bonus/Bonus_Reloj.png.asset.json";
+import bonusWebImg from "@/assets/bonus/Bonus_Telarana.png.asset.json";
 import bibleUnlockedImg from "@/assets/bible-unlocked.png.asset.json";
 import trueChristImg from "@/assets/true-christ.png.asset.json";
 import {
@@ -263,7 +264,7 @@ interface Particle {
   size: number;
 }
 
-type PowerupType = "star" | "heart" | "shineheart" | "slow" | "hint" | "apple" | "broken" | "shield";
+type PowerupType = "star" | "heart" | "shineheart" | "slow" | "hint" | "apple" | "broken" | "shield" | "web";
 
 /** Hand-made artwork for each bonus (vector fallback stays for anything unmapped). */
 const BONUS_SPRITE_URLS: Partial<Record<PowerupType, string>> = {
@@ -274,6 +275,7 @@ const BONUS_SPRITE_URLS: Partial<Record<PowerupType, string>> = {
   hint: bonusLightImg.url,
   apple: bonusAppleImg.url,
   slow: bonusClockImg.url,
+  web: bonusWebImg.url,
 };
 const bonusSprites = new Map<PowerupType, { img: HTMLImageElement; ready: boolean }>();
 function getBonusSprite(type: PowerupType): HTMLImageElement | null {
@@ -291,7 +293,7 @@ function getBonusSprite(type: PowerupType): HTMLImageElement | null {
   return entry.ready ? entry.img : null;
 }
 /** Bonuses whose glow should read as ominous rather than magical. */
-const NEGATIVE_BONUSES: PowerupType[] = ["apple", "broken"];
+const NEGATIVE_BONUSES: PowerupType[] = ["apple", "broken", "web"];
 
 /** Maximum lives reachable via the Shining Heart bonus. */
 const MAX_LIVES = 7;
@@ -625,6 +627,8 @@ export function Game() {
       tween.tx = tx; tween.ty = ty;
     };
     const playerY = () => player.y + player.knock;
+    // Spider Web trap: while set, the player is locked to this lane.
+    let webLane: Lane | null = null;
 
     // Decisions queue: a flat list, only the first unresolved one is "active"
     // and visibly falling. The next one spawns after the current resolves.
@@ -632,7 +636,7 @@ export function Game() {
     let activeIdx = 0;
     const powerups: Powerup[] = [];
     let questionTimer = 0;
-    let bonusSchedule: boolean[] = [];
+    let bonusSchedule: number[] = [];
     let lastBonusSpawnIdx = -1;
     let activeIdxTimer = 0;
     let lastTrackedActiveIdx = -1;
@@ -664,13 +668,16 @@ export function Game() {
         return "shineheart";
       }
       if (r < 0.9) return Math.random() < 0.5 ? "slow" : "hint";
-      return Math.random() < 0.5 ? "apple" : "broken";
+      const n = Math.random();
+      if (n < 0.34) return "apple";
+      if (n < 0.67) return "broken";
+      return "web";
     };
 
-    const spawnPowerup = () => {
+    const spawnPowerup = (yOffset = 0) => {
       powerups.push({
         x: W * (0.18 + Math.random() * 0.62),
-        y: -80,
+        y: -80 - yOffset,
         type: pickType(),
         taken: false,
         bobSeed: Math.random() * Math.PI * 2,
@@ -678,26 +685,16 @@ export function Game() {
     };
 
     // Build a per-question bonus schedule: for every 10-question block, pick
-    // 2..4 question indices, spread out (no two consecutive). Each scheduled
-    // question spawns exactly one bonus when it becomes active.
-    const buildBonusSchedule = (n: number): boolean[] => {
-      const out = new Array<boolean>(n).fill(false);
+    // 6..12 bonuses (3x the previous 2..4), spread across the block. Each
+    // question can now carry more than one bonus.
+    const buildBonusSchedule = (n: number): number[] => {
+      const out = new Array<number>(n).fill(0);
       for (let start = 0; start < n; start += 10) {
         const len = Math.min(10, n - start);
         if (len <= 0) break;
-        const count = Math.min(len, 2 + Math.floor(Math.random() * 3)); // 2..4
-        const seg = len / count;
-        let last = -2;
+        const count = (2 + Math.floor(Math.random() * 3)) * 3; // 6..12
         for (let i = 0; i < count; i++) {
-          const lo = Math.floor(i * seg);
-          const hi = Math.max(lo, Math.floor((i + 1) * seg) - 1);
-          let p = lo + Math.floor(Math.random() * (hi - lo + 1));
-          if (p === last + 1) {
-            if (p < hi) p += 1;
-            else if (p > lo) p -= 1;
-          }
-          out[start + p] = true;
-          last = p;
+          out[start + Math.floor((i / count) * len)] += 1;
         }
       }
       return out;
@@ -1614,6 +1611,23 @@ export function Game() {
           ctx.fillRect(-7, -3.5, 14, 3.6);
           break;
         }
+        case "web": {
+          ctx.strokeStyle = "rgba(240, 205, 175, 0.95)";
+          ctx.lineWidth = 1.4;
+          for (let i = 0; i < 8; i++) {
+            const a = (i / 8) * Math.PI * 2;
+            ctx.beginPath();
+            ctx.moveTo(0, 0);
+            ctx.lineTo(Math.cos(a) * 12, Math.sin(a) * 12);
+            ctx.stroke();
+          }
+          for (let r = 4; r <= 12; r += 4) {
+            ctx.beginPath();
+            ctx.arc(0, 0, r, 0, Math.PI * 2);
+            ctx.stroke();
+          }
+          break;
+        }
       }
     };
 
@@ -1633,6 +1647,7 @@ export function Game() {
           p.type === "slow" ? "rgba(180, 225, 255, 0.45)" :
           p.type === "hint" ? "rgba(255, 235, 175, 0.5)" :
           p.type === "apple" ? "rgba(20, 8, 12, 0.62)" :
+          p.type === "web" ? "rgba(12, 6, 14, 0.64)" :
           "rgba(14, 6, 10, 0.66)";
         const R = negative ? 48 : 56;
         const halo = ctx.createRadialGradient(sx, p.y, negative ? 12 : 0, sx, p.y, R);
@@ -1708,6 +1723,12 @@ export function Game() {
         case "broken":
           damage(px, py);
           spawnPickupBurst(px, py, "rgba(255, 80, 80, 0.95)");
+          break;
+        case "web":
+          // Lane-lock trap: the player is stuck in the current lane until the
+          // next ark/answer collision.
+          webLane = player.lane;
+          spawnPickupBurst(px, py, "rgba(120, 90, 110, 0.85)");
           break;
       }
     };
@@ -1809,6 +1830,7 @@ export function Game() {
       player.targetY = laneY(1);
       player.knock = 0;
       shake = 0; flash = 0; invuln = 0;
+      webLane = null;
       slowTimer = 0; distortTimer = 0;
       hintActive = null;
       particles.length = 0;
@@ -1941,6 +1963,13 @@ export function Game() {
           const kX = 1 - Math.exp(-16 * dt);
           player.x += (player.targetX - player.x) * kX;
         }
+        // Spider Web lane lock: vertical position is pinned to the trapped
+        // lane (horizontal movement stays free).
+        if (webLane !== null) {
+          player.targetY = laneY(webLane);
+          const kW = 1 - Math.exp(-16 * dt);
+          player.y += (laneY(webLane) - player.y) * kW;
+        }
         // Hard clamps so the sprite is always fully on-screen
         player.y = Math.max(playerMinY(), Math.min(playerMaxY(), player.y));
         player.x = Math.max(playerMinX(), Math.min(playerMaxX(), player.x));
@@ -1969,6 +1998,8 @@ export function Game() {
           const playerFrontX = player.x + DOVE_COLLIDE_HALF_W;
           if (boatTipX <= playerFrontX || d.x <= -boatWidth()) {
             d.resolved = true;
+            // Hitting an ark/answer frees the player from the Spider Web.
+            webLane = null;
             const lane = player.lane;
             const correct = lane === d.safe;
             d.doorOutcome[lane] = correct ? "open" : "broken";
@@ -2027,11 +2058,12 @@ export function Game() {
         const halfTravel = timePerQuestionForLevel(levelRef.current) / 2;
         if (
           activeIdx !== lastBonusSpawnIdx &&
-          bonusSchedule[activeIdx] === true &&
+          (bonusSchedule[activeIdx] ?? 0) > 0 &&
           queue[activeIdx] && !queue[activeIdx].resolved &&
           activeIdxTimer >= halfTravel
         ) {
-          spawnPowerup();
+          const count = bonusSchedule[activeIdx];
+          for (let i = 0; i < count; i++) spawnPowerup(i * 210);
           lastBonusSpawnIdx = activeIdx;
         }
 
@@ -2048,7 +2080,7 @@ export function Game() {
           if (!p.taken && pdx * pdx + pdy * pdy <= 68 * 68) {
             p.taken = true;
             applyPowerup(p);
-            if (p.type === "apple" || p.type === "broken") {
+            if (NEGATIVE_BONUSES.includes(p.type)) {
               sfx.playPenalty();
             } else {
               sfx.playBonus();
