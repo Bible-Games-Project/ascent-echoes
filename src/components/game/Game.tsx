@@ -538,8 +538,9 @@ export function Game() {
     // Player visual half-width (dove silhouette, wings included) + safety
     // margin so the sprite never touches or leaves the screen edges.
     const playerHalfW = () => Math.max(28, Math.min(62, H * 0.1));
-    // Dove (pigeon) artwork half width in gameplay pixels: BASE_W 46 * scale 2 / 2.
-    const DOVE_COLLIDE_HALF_W = 46;
+    // Dove (pigeon) artwork half width in gameplay pixels, trimmed to the
+    // sprite's opaque body so the trigger fires on visual contact.
+    const DOVE_COLLIDE_HALF_W = 34;
     const EDGE_MARGIN = () => Math.max(18, W * 0.032);
     const playerMinX = () => EDGE_MARGIN() + playerHalfW();
     const playerMaxX = () => W - EDGE_MARGIN() - playerHalfW();
@@ -569,6 +570,16 @@ export function Game() {
       y: 0,
       targetY: 0,
       knock: 0, // x knockback
+    };
+    // Tap-to-move tween: 0.5s ease-in-out glide to the tapped lane position.
+    const TAP_TWEEN_DUR = 0.5;
+    const tween = { active: false, t: 0, fx: 0, fy: 0, tx: 0, ty: 0 };
+    const easeInOut = (p: number) =>
+      p < 0.5 ? 4 * p * p * p : 1 - Math.pow(-2 * p + 2, 3) / 2;
+    const startTween = (tx: number, ty: number) => {
+      tween.active = true; tween.t = 0;
+      tween.fx = player.x; tween.fy = player.y;
+      tween.tx = tx; tween.ty = ty;
     };
     const playerY = () => player.y + player.knock;
 
