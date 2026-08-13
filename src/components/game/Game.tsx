@@ -1815,6 +1815,7 @@ export function Game() {
       powerups.length = 0;
       setHealth(3); healthRef.current = 3;
       setMaxLives(3); maxLivesRef.current = 3;
+      shieldRef.current = false; setShieldActive(false); setShieldBreak(0);
       setProgress(0); progressRef.current = 0;
       scoreRef.current = 0; setScore(0);
       streakRef.current = 0; setStreak(0);
@@ -1832,6 +1833,16 @@ export function Game() {
 
     function damage(sxImpact: number, syImpact: number) {
       if (invuln > 0) return;
+      // Shield absorbs exactly one impact and is then consumed.
+      if (shieldRef.current) {
+        shieldRef.current = false;
+        setShieldActive(false);
+        setShieldBreak(Date.now());
+        shake = 10; flash = 0.22; invuln = 1.2;
+        player.knock = -6;
+        spawnPickupBurst(sxImpact, syImpact, "rgba(255, 225, 165, 0.95)");
+        return;
+      }
       const nh = Math.max(0, healthRef.current - 1);
       healthRef.current = nh; setHealth(nh);
       shake = 18; flash = 0.4; invuln = 1.2;
