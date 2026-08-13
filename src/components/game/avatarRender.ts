@@ -4,8 +4,8 @@ import { assetUrl } from "@/lib/assetUrl";
 import pigeonAsset from "@/assets/avatars/Pigeon.png.asset.json";
 import sheepAsset from "@/assets/avatars/Sheep.png.asset.json";
 import fishAsset from "@/assets/avatars/Fish.webp.asset.json";
-import antAsset from "@/assets/avatars/Hormiga.webp.asset.json";
-import hyraxAsset from "@/assets/avatars/Daman.webp.asset.json";
+import antAsset from "@/assets/avatars/Hormiga.png.asset.json";
+import hyraxAsset from "@/assets/avatars/Daman.png.asset.json";
 import goatAsset from "@/assets/avatars/Goat.webp.asset.json";
 import camelAsset from "@/assets/avatars/Camello.webp.asset.json";
 import roosterAsset from "@/assets/avatars/Gallo.webp.asset.json";
@@ -13,14 +13,14 @@ import flyAsset from "@/assets/avatars/Mosca.webp.asset.json";
 import locustAsset from "@/assets/avatars/Langosta.webp.asset.json";
 import mosquitoAsset from "@/assets/avatars/Mosquito.webp.asset.json";
 import spiderAsset from "@/assets/avatars/Spider.webp.asset.json";
-import ravenAsset from "@/assets/avatars/Cuervo.webp.asset.json";
-import oxAsset from "@/assets/avatars/Buey.webp.asset.json";
-import snakeAsset from "@/assets/avatars/Serpiente.webp.asset.json";
-import falconAsset from "@/assets/avatars/Falcon.webp.asset.json";
+import ravenAsset from "@/assets/avatars/Cuervo.png.asset.json";
+import oxAsset from "@/assets/avatars/Buey.png.asset.json";
+import snakeAsset from "@/assets/avatars/Serpiente.png.asset.json";
+import falconAsset from "@/assets/avatars/Falcon.png.asset.json";
 import wolfAsset from "@/assets/avatars/Lobo.png.asset.json";
-import leopardAsset from "@/assets/avatars/Leopardo.webp.asset.json";
-import bearAsset from "@/assets/avatars/Oso.webp.asset.json";
-import lionAsset from "@/assets/avatars/Lion.webp.asset.json";
+import leopardAsset from "@/assets/avatars/Leopardo.png.asset.json";
+import bearAsset from "@/assets/avatars/Oso.png.asset.json";
+import lionAsset from "@/assets/avatars/Lion.png.asset.json";
 
 // Single source of truth for how each avatar is drawn — used by both the
 // in-game player and the previews shown in the Avatar Menu / HUD.
