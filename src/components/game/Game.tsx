@@ -1830,6 +1830,7 @@ export function Game() {
       player.targetY = laneY(1);
       player.knock = 0;
       shake = 0; flash = 0; invuln = 0;
+      webLane = null;
       slowTimer = 0; distortTimer = 0;
       hintActive = null;
       particles.length = 0;
