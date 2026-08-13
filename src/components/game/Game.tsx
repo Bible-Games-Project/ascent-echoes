@@ -2420,8 +2420,19 @@ export function Game() {
             <div className="flex flex-col gap-1.5">
               <div className="flex items-center gap-1.5">
                 {Array.from({ length: Math.min(MAX_LIVES, Math.max(3, maxLives)) }, (_, i) => i).map((i) => (
-                  <Heart key={i} filled={i < health} pop={lifeFlash > 0 && i === health - 1} />
+                  <Heart
+                    key={i}
+                    filled={i < health}
+                    pop={lifeFlash > 0 && i === health - 1}
+                    shielded={shieldActive && i === health - 1}
+                    shieldBroke={shieldBreak > 0 && i === health - 1}
+                  />
                 ))}
+                {shieldActive && (
+                  <span className="ml-1 rounded-full bg-black/45 px-1.5 py-0.5 text-[10px] text-amber-100 backdrop-blur animate-pulse drop-shadow-[0_0_6px_rgba(255,225,165,0.9)]">
+                    ✛
+                  </span>
+                )}
               </div>
               <div className="flex items-center gap-2 rounded-full bg-black/45 px-2.5 py-0.5 text-[10px] font-medium tracking-widest text-amber-100 backdrop-blur">
                 <span className="text-amber-200/70">{t("score")}</span>
