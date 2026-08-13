@@ -12,6 +12,13 @@ import arkLevel8Img from "@/assets/ark-level-8.png.asset.json";
 import arkLevel9Img from "@/assets/ark-level-9.png.asset.json";
 import arkLevel10Img from "@/assets/ark-level-10.png.asset.json";
 import lostSheepImg from "@/assets/lost-sheep.png.asset.json";
+import bonusHeartImg from "@/assets/bonus/Bonus_Corazon.png.asset.json";
+import bonusShineHeartImg from "@/assets/bonus/Bonus_CorazonBrillante.png.asset.json";
+import bonusShieldImg from "@/assets/bonus/Bonus_Escudo.png.asset.json";
+import bonusStarImg from "@/assets/bonus/Bonus_Estrella.png.asset.json";
+import bonusLightImg from "@/assets/bonus/Bonus_Luz.png.asset.json";
+import bonusAppleImg from "@/assets/bonus/Bonus_ManzanaPodrida.png.asset.json";
+import bonusClockImg from "@/assets/bonus/Bonus_Reloj.png.asset.json";
 import bibleUnlockedImg from "@/assets/bible-unlocked.png.asset.json";
 import trueChristImg from "@/assets/true-christ.png.asset.json";
 import {
@@ -256,7 +263,35 @@ interface Particle {
   size: number;
 }
 
-type PowerupType = "star" | "heart" | "shineheart" | "slow" | "hint" | "apple" | "broken";
+type PowerupType = "star" | "heart" | "shineheart" | "slow" | "hint" | "apple" | "broken" | "shield";
+
+/** Hand-made artwork for each bonus (vector fallback stays for anything unmapped). */
+const BONUS_SPRITE_URLS: Partial<Record<PowerupType, string>> = {
+  heart: bonusHeartImg.url,
+  shineheart: bonusShineHeartImg.url,
+  shield: bonusShieldImg.url,
+  star: bonusStarImg.url,
+  hint: bonusLightImg.url,
+  apple: bonusAppleImg.url,
+  slow: bonusClockImg.url,
+};
+const bonusSprites = new Map<PowerupType, { img: HTMLImageElement; ready: boolean }>();
+function getBonusSprite(type: PowerupType): HTMLImageElement | null {
+  const url = BONUS_SPRITE_URLS[type];
+  if (!url || typeof window === "undefined") return null;
+  let entry = bonusSprites.get(type);
+  if (!entry) {
+    const img = new Image();
+    const e = { img, ready: false };
+    img.onload = () => { e.ready = true; };
+    img.src = assetUrl(url);
+    bonusSprites.set(type, e);
+    entry = e;
+  }
+  return entry.ready ? entry.img : null;
+}
+/** Bonuses whose glow should read as ominous rather than magical. */
+const NEGATIVE_BONUSES: PowerupType[] = ["apple", "broken"];
 
 /** Maximum lives reachable via the Shining Heart bonus. */
 const MAX_LIVES = 7;
@@ -283,6 +318,8 @@ export function Game() {
   const [health, setHealth] = useState(3);
   const [maxLives, setMaxLives] = useState(3);
   const [lifeFlash, setLifeFlash] = useState(0);
+  const [shieldActive, setShieldActive] = useState(false);
+  const [shieldBreak, setShieldBreak] = useState(0);
   const [viewport, setViewport] = useState({ w: 0, h: 0 });
 
   // Track the real viewport so the stage can be rotated to landscape.
@@ -369,6 +406,7 @@ export function Game() {
   const languageRef = useRef<Language>(language);
   const usedIdsRef = useRef<Set<string>>(new Set());
   const correctTotalRef = useRef(0);
+  const shieldRef = useRef(false);
 
   useEffect(() => { stateRef.current = state; }, [state]);
   useEffect(() => { healthRef.current = health; }, [health]);
@@ -378,6 +416,11 @@ export function Game() {
     return () => window.clearTimeout(id);
   }, [lifeFlash]);
   useEffect(() => { devModeRef.current = devMode; }, [devMode]);
+  useEffect(() => {
+    if (!shieldBreak) return;
+    const id = window.setTimeout(() => setShieldBreak(0), 900);
+    return () => window.clearTimeout(id);
+  }, [shieldBreak]);
 
   // Every player always starts with 3 lives.
   useEffect(() => {
@@ -615,8 +658,9 @@ export function Game() {
       const r = Math.random();
       if (r < 0.45) {
         const q = Math.random();
-        if (q < 0.4) return "star";
-        if (q < 0.8) return "heart";
+        if (q < 0.34) return "star";
+        if (q < 0.62) return "heart";
+        if (q < 0.84) return "shield";
         return "shineheart";
       }
       if (r < 0.9) return Math.random() < 0.5 ? "slow" : "hint";
@@ -1419,6 +1463,18 @@ export function Game() {
 
     // ----- Powerups -----
     const drawPowerupIcon = (type: PowerupType) => {
+      // Hand-made artwork when available; the vector shapes below stay as a
+      // fallback until the sprite has finished loading.
+      const sprite = getBonusSprite(type);
+      if (sprite) {
+        const iw = sprite.naturalWidth || 1;
+        const ih = sprite.naturalHeight || 1;
+        const box = 30;
+        const k = box / Math.max(iw, ih);
+        const w = iw * k, h = ih * k;
+        ctx.drawImage(sprite, -w / 2, -h / 2, w, h);
+        return;
+      }
       switch (type) {
         case "star": {
           // Soft glow halo behind the star to match the game's luminous palette
@@ -1541,6 +1597,23 @@ export function Game() {
           ctx.moveTo(0, -6); ctx.lineTo(-2, -2); ctx.lineTo(2, 1); ctx.lineTo(-1, 5);
           ctx.stroke(); break;
         }
+        case "shield": {
+          ctx.fillStyle = "#d9b477";
+          ctx.strokeStyle = "rgba(90,60,20,0.85)";
+          ctx.lineWidth = 1.4;
+          ctx.beginPath();
+          ctx.moveTo(0, -12);
+          ctx.lineTo(11, -7);
+          ctx.lineTo(9, 6);
+          ctx.lineTo(0, 13);
+          ctx.lineTo(-9, 6);
+          ctx.lineTo(-11, -7);
+          ctx.closePath(); ctx.fill(); ctx.stroke();
+          ctx.fillStyle = "rgba(255,235,180,0.95)";
+          ctx.fillRect(-1.8, -8, 3.6, 16);
+          ctx.fillRect(-7, -3.5, 14, 3.6);
+          break;
+        }
       }
     };
 
@@ -1550,23 +1623,35 @@ export function Game() {
         if (p.taken) return;
         if (p.y < -70 || p.y > H + 70) return;
         const sx = p.x + Math.sin(t * 2.4 + p.bobSeed) * 4;
+        const negative = NEGATIVE_BONUSES.includes(p.type);
+        const pulse = 0.85 + 0.15 * Math.sin(t * 3 + p.bobSeed);
         const haloColor =
-          p.type === "star" ? "rgba(255, 230, 140, 0.55)" :
-          p.type === "heart" ? "rgba(255, 120, 130, 0.5)" :
-          p.type === "shineheart" ? "rgba(255, 150, 190, 0.85)" :
-          p.type === "slow" ? "rgba(160, 220, 255, 0.5)" :
-          p.type === "hint" ? "rgba(255, 250, 200, 0.55)" :
-          p.type === "apple" ? "rgba(180, 90, 90, 0.5)" :
-          "rgba(60, 20, 30, 0.6)";
-        const halo = ctx.createRadialGradient(sx, p.y, 0, sx, p.y, 56);
+          p.type === "star" ? "rgba(255, 232, 150, 0.5)" :
+          p.type === "heart" ? "rgba(255, 140, 150, 0.45)" :
+          p.type === "shineheart" ? "rgba(170, 200, 255, 0.6)" :
+          p.type === "shield" ? "rgba(255, 225, 165, 0.5)" :
+          p.type === "slow" ? "rgba(180, 225, 255, 0.45)" :
+          p.type === "hint" ? "rgba(255, 235, 175, 0.5)" :
+          p.type === "apple" ? "rgba(20, 8, 12, 0.62)" :
+          "rgba(14, 6, 10, 0.66)";
+        const R = negative ? 48 : 56;
+        const halo = ctx.createRadialGradient(sx, p.y, negative ? 12 : 0, sx, p.y, R);
         halo.addColorStop(0, haloColor);
         halo.addColorStop(1, "rgba(0,0,0,0)");
+        ctx.save();
+        ctx.globalAlpha = pulse;
+        if (!negative) ctx.globalCompositeOperation = "lighter";
         ctx.fillStyle = halo;
-        ctx.fillRect(sx - 56, p.y - 56, 112, 112);
+        ctx.fillRect(sx - R, p.y - R, R * 2, R * 2);
+        ctx.restore();
         ctx.save();
         ctx.translate(sx, p.y);
         // Bonus icons render at 2x visual size (gameplay effect unchanged)
         ctx.scale(2, 2);
+        if (!negative) {
+          ctx.shadowColor = haloColor;
+          ctx.shadowBlur = 8 * pulse;
+        }
         drawPowerupIcon(p.type);
         ctx.restore();
       });
@@ -1579,6 +1664,11 @@ export function Game() {
         case "star":
           invuln = Math.max(invuln, 7);
           spawnPickupBurst(px, py, "rgba(255, 230, 140, 0.9)");
+          break;
+        case "shield":
+          shieldRef.current = true;
+          setShieldActive(true);
+          spawnPickupBurst(px, py, "rgba(255, 225, 165, 0.95)");
           break;
         case "heart": {
           const nh = Math.min(maxLivesRef.current, healthRef.current + 1);
@@ -1725,6 +1815,7 @@ export function Game() {
       powerups.length = 0;
       setHealth(3); healthRef.current = 3;
       setMaxLives(3); maxLivesRef.current = 3;
+      shieldRef.current = false; setShieldActive(false); setShieldBreak(0);
       setProgress(0); progressRef.current = 0;
       scoreRef.current = 0; setScore(0);
       streakRef.current = 0; setStreak(0);
@@ -1742,6 +1833,16 @@ export function Game() {
 
     function damage(sxImpact: number, syImpact: number) {
       if (invuln > 0) return;
+      // Shield absorbs exactly one impact and is then consumed.
+      if (shieldRef.current) {
+        shieldRef.current = false;
+        setShieldActive(false);
+        setShieldBreak(Date.now());
+        shake = 10; flash = 0.22; invuln = 1.2;
+        player.knock = -6;
+        spawnPickupBurst(sxImpact, syImpact, "rgba(255, 225, 165, 0.95)");
+        return;
+      }
       const nh = Math.max(0, healthRef.current - 1);
       healthRef.current = nh; setHealth(nh);
       shake = 18; flash = 0.4; invuln = 1.2;
@@ -2319,8 +2420,19 @@ export function Game() {
             <div className="flex flex-col gap-1.5">
               <div className="flex items-center gap-1.5">
                 {Array.from({ length: Math.min(MAX_LIVES, Math.max(3, maxLives)) }, (_, i) => i).map((i) => (
-                  <Heart key={i} filled={i < health} pop={lifeFlash > 0 && i === health - 1} />
+                  <Heart
+                    key={i}
+                    filled={i < health}
+                    pop={lifeFlash > 0 && i === health - 1}
+                    shielded={shieldActive && i === health - 1}
+                    shieldBroke={shieldBreak > 0 && i === health - 1}
+                  />
                 ))}
+                {shieldActive && (
+                  <span className="ml-1 rounded-full bg-black/45 px-1.5 py-0.5 text-[10px] text-amber-100 backdrop-blur animate-pulse drop-shadow-[0_0_6px_rgba(255,225,165,0.9)]">
+                    ✛
+                  </span>
+                )}
               </div>
               <div className="flex items-center gap-2 rounded-full bg-black/45 px-2.5 py-0.5 text-[10px] font-medium tracking-widest text-amber-100 backdrop-blur">
                 <span className="text-amber-200/70">{t("score")}</span>
@@ -2649,22 +2761,37 @@ function Overlay({ children, scrollable }: { children: React.ReactNode; scrollab
   );
 }
 
-function Heart({ filled, pop }: { filled: boolean; pop?: boolean }) {
+function Heart({ filled, pop, shielded, shieldBroke }: {
+  filled: boolean; pop?: boolean; shielded?: boolean; shieldBroke?: boolean;
+}) {
   return (
-    <svg
-      viewBox="0 0 24 24"
-      width={20}
-      height={20}
-      aria-hidden
-      className={pop ? "animate-in zoom-in-50 duration-300 drop-shadow-[0_0_8px_rgba(255,150,190,0.95)]" : undefined}
-    >
-      <path
-        d="M12 21s-7-4.5-9.5-9.2C.9 8.5 2.6 5 6 5c2 0 3.4 1 4 2.2C10.6 6 12 5 14 5c3.4 0 5.1 3.5 3.5 6.8C19 16.5 12 21 12 21z"
-        fill={filled ? "#ffdca8" : "rgba(255,220,170,0.18)"}
-        stroke="rgba(255,220,170,0.9)"
-        strokeWidth={1.2}
-      />
-    </svg>
+    <span className="relative inline-flex">
+      {shielded && (
+        <span className="pointer-events-none absolute -inset-1 rounded-full border border-amber-200/70 animate-pulse shadow-[0_0_10px_rgba(255,225,165,0.85)]" />
+      )}
+      <svg
+        viewBox="0 0 24 24"
+        width={20}
+        height={20}
+        aria-hidden
+        className={
+          shieldBroke
+            ? "animate-in zoom-in-50 duration-300 drop-shadow-[0_0_10px_rgba(255,225,165,1)]"
+            : pop
+              ? "animate-in zoom-in-50 duration-300 drop-shadow-[0_0_8px_rgba(255,150,190,0.95)]"
+              : shielded
+                ? "animate-pulse drop-shadow-[0_0_8px_rgba(255,225,165,0.95)]"
+                : undefined
+        }
+      >
+        <path
+          d="M12 21s-7-4.5-9.5-9.2C.9 8.5 2.6 5 6 5c2 0 3.4 1 4 2.2C10.6 6 12 5 14 5c3.4 0 5.1 3.5 3.5 6.8C19 16.5 12 21 12 21z"
+          fill={filled ? "#ffdca8" : "rgba(255,220,170,0.18)"}
+          stroke="rgba(255,220,170,0.9)"
+          strokeWidth={1.2}
+        />
+      </svg>
+    </span>
   );
 }
 
