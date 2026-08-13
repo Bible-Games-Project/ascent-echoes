@@ -634,7 +634,7 @@ export function Game() {
     let activeIdx = 0;
     const powerups: Powerup[] = [];
     let questionTimer = 0;
-    let bonusSchedule: boolean[] = [];
+    let bonusSchedule: number[] = [];
     let lastBonusSpawnIdx = -1;
     let activeIdxTimer = 0;
     let lastTrackedActiveIdx = -1;
