@@ -1241,6 +1241,20 @@ export function Game() {
     // Shared boat width so collision uses the same geometry as rendering.
     const boatWidth = () => Math.min(W * 0.32, Math.max(150, laneGap() * 1.85));
 
+    // Distance from the lane-centred anchor (d.x) to the ark's actual LEFT/front
+    // tip, matching exactly the drawn artwork geometry below (imgLeft).
+    const arkFrontOffset = () => {
+      const sprite = getArkSprite(levelRef.current);
+      const asp = sprite
+        ? (sprite as HTMLImageElement | HTMLCanvasElement).width /
+          Math.max(1, (sprite as HTMLImageElement | HTMLCanvasElement).height)
+        : 1;
+      const sizeFix = asp > 1 ? 1 / Math.sqrt(asp) : 1;
+      const artW = boatWidth() * 0.66 * sizeFix * asp;
+      const plaqueCxN = (BOAT_PLAQUE.x0 + BOAT_PLAQUE.x1) / 2;
+      return plaqueCxN * artW;
+    };
+
     const drawBoat = (
       cx: number, cy: number, lane: number, text: string,
       highlight: boolean, alpha: number,
