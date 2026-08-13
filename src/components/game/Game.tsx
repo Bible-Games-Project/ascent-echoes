@@ -12,6 +12,13 @@ import arkLevel8Img from "@/assets/ark-level-8.png.asset.json";
 import arkLevel9Img from "@/assets/ark-level-9.png.asset.json";
 import arkLevel10Img from "@/assets/ark-level-10.png.asset.json";
 import lostSheepImg from "@/assets/lost-sheep.png.asset.json";
+import bonusHeartImg from "@/assets/bonus/Bonus_Corazon.png.asset.json";
+import bonusShineHeartImg from "@/assets/bonus/Bonus_CorazonBrillante.png.asset.json";
+import bonusShieldImg from "@/assets/bonus/Bonus_Escudo.png.asset.json";
+import bonusStarImg from "@/assets/bonus/Bonus_Estrella.png.asset.json";
+import bonusLightImg from "@/assets/bonus/Bonus_Luz.png.asset.json";
+import bonusAppleImg from "@/assets/bonus/Bonus_ManzanaPodrida.png.asset.json";
+import bonusClockImg from "@/assets/bonus/Bonus_Reloj.png.asset.json";
 import bibleUnlockedImg from "@/assets/bible-unlocked.png.asset.json";
 import trueChristImg from "@/assets/true-christ.png.asset.json";
 import {
@@ -256,7 +263,35 @@ interface Particle {
   size: number;
 }
 
-type PowerupType = "star" | "heart" | "shineheart" | "slow" | "hint" | "apple" | "broken";
+type PowerupType = "star" | "heart" | "shineheart" | "slow" | "hint" | "apple" | "broken" | "shield";
+
+/** Hand-made artwork for each bonus (vector fallback stays for anything unmapped). */
+const BONUS_SPRITE_URLS: Partial<Record<PowerupType, string>> = {
+  heart: bonusHeartImg.url,
+  shineheart: bonusShineHeartImg.url,
+  shield: bonusShieldImg.url,
+  star: bonusStarImg.url,
+  hint: bonusLightImg.url,
+  apple: bonusAppleImg.url,
+  slow: bonusClockImg.url,
+};
+const bonusSprites = new Map<PowerupType, { img: HTMLImageElement; ready: boolean }>();
+function getBonusSprite(type: PowerupType): HTMLImageElement | null {
+  const url = BONUS_SPRITE_URLS[type];
+  if (!url || typeof window === "undefined") return null;
+  let entry = bonusSprites.get(type);
+  if (!entry) {
+    const img = new Image();
+    const e = { img, ready: false };
+    img.onload = () => { e.ready = true; };
+    img.src = assetUrl(url);
+    bonusSprites.set(type, e);
+    entry = e;
+  }
+  return entry.ready ? entry.img : null;
+}
+/** Bonuses whose glow should read as ominous rather than magical. */
+const NEGATIVE_BONUSES: PowerupType[] = ["apple", "broken"];
 
 /** Maximum lives reachable via the Shining Heart bonus. */
 const MAX_LIVES = 7;
