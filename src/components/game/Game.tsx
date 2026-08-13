@@ -2022,11 +2022,12 @@ export function Game() {
         const halfTravel = timePerQuestionForLevel(levelRef.current) / 2;
         if (
           activeIdx !== lastBonusSpawnIdx &&
-          bonusSchedule[activeIdx] === true &&
+          (bonusSchedule[activeIdx] ?? 0) > 0 &&
           queue[activeIdx] && !queue[activeIdx].resolved &&
           activeIdxTimer >= halfTravel
         ) {
-          spawnPowerup();
+          const count = bonusSchedule[activeIdx];
+          for (let i = 0; i < count; i++) spawnPowerup(i * 210);
           lastBonusSpawnIdx = activeIdx;
         }
 
