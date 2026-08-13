@@ -2761,22 +2761,37 @@ function Overlay({ children, scrollable }: { children: React.ReactNode; scrollab
   );
 }
 
-function Heart({ filled, pop }: { filled: boolean; pop?: boolean }) {
+function Heart({ filled, pop, shielded, shieldBroke }: {
+  filled: boolean; pop?: boolean; shielded?: boolean; shieldBroke?: boolean;
+}) {
   return (
-    <svg
-      viewBox="0 0 24 24"
-      width={20}
-      height={20}
-      aria-hidden
-      className={pop ? "animate-in zoom-in-50 duration-300 drop-shadow-[0_0_8px_rgba(255,150,190,0.95)]" : undefined}
-    >
-      <path
-        d="M12 21s-7-4.5-9.5-9.2C.9 8.5 2.6 5 6 5c2 0 3.4 1 4 2.2C10.6 6 12 5 14 5c3.4 0 5.1 3.5 3.5 6.8C19 16.5 12 21 12 21z"
-        fill={filled ? "#ffdca8" : "rgba(255,220,170,0.18)"}
-        stroke="rgba(255,220,170,0.9)"
-        strokeWidth={1.2}
-      />
-    </svg>
+    <span className="relative inline-flex">
+      {shielded && (
+        <span className="pointer-events-none absolute -inset-1 rounded-full border border-amber-200/70 animate-pulse shadow-[0_0_10px_rgba(255,225,165,0.85)]" />
+      )}
+      <svg
+        viewBox="0 0 24 24"
+        width={20}
+        height={20}
+        aria-hidden
+        className={
+          shieldBroke
+            ? "animate-in zoom-in-50 duration-300 drop-shadow-[0_0_10px_rgba(255,225,165,1)]"
+            : pop
+              ? "animate-in zoom-in-50 duration-300 drop-shadow-[0_0_8px_rgba(255,150,190,0.95)]"
+              : shielded
+                ? "animate-pulse drop-shadow-[0_0_8px_rgba(255,225,165,0.95)]"
+                : undefined
+        }
+      >
+        <path
+          d="M12 21s-7-4.5-9.5-9.2C.9 8.5 2.6 5 6 5c2 0 3.4 1 4 2.2C10.6 6 12 5 14 5c3.4 0 5.1 3.5 3.5 6.8C19 16.5 12 21 12 21z"
+          fill={filled ? "#ffdca8" : "rgba(255,220,170,0.18)"}
+          stroke="rgba(255,220,170,0.9)"
+          strokeWidth={1.2}
+        />
+      </svg>
+    </span>
   );
 }
 
