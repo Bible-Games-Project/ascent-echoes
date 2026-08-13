@@ -2024,6 +2024,7 @@ export function Game() {
 
     const moveLane = (dir: -1 | 1) => {
       if (stateRef.current !== "playing") return;
+      tween.active = false;
       const next = Math.max(0, Math.min(2, nearestLaneTo(player.targetY) + dir)) as Lane;
       if (next !== player.targetLane) sfx.playMove();
       player.targetLane = next;
@@ -2034,6 +2035,7 @@ export function Game() {
     const clearVertHold = () => { heldY.up = false; heldY.down = false; };
     const startVert = (dir: -1 | 1) => {
       if (stateRef.current !== "playing") return;
+      tween.active = false;
       const held = dir === -1 ? heldY.up : heldY.down;
       if (held) return;
       lastVertDir = dir;
@@ -2072,19 +2074,21 @@ export function Game() {
 
     // Pointer steering: vertical position picks the lane, horizontal
     // position sets the smooth target X inside the playable band.
-    const steerTo = (clientX: number, clientY: number) => {
+    const steerTo = (clientX: number, clientY: number, smooth = false) => {
       if (stateRef.current !== "playing") return;
       const { x, y } = toLocal(clientX, clientY);
-      let lane: Lane = 1;
-      let best = Infinity;
-      for (let i = 0; i < 3; i++) {
-        const d = Math.abs(y - laneY(i as Lane));
-        if (d < best) { best = d; lane = i as Lane; }
-      }
+      const lane = nearestLaneTo(y);
       if (lane !== player.targetLane) sfx.playMove();
       player.targetLane = lane;
-      player.targetY = Math.max(playerMinY(), Math.min(playerMaxY(), y));
-      player.targetX = Math.max(playerMinX(), Math.min(playerMaxX(), x));
+      const tx = Math.max(playerMinX(), Math.min(playerMaxX(), x));
+      if (smooth) {
+        // Tap: glide to the nearest walkable lane position over 0.5s.
+        startTween(tx, laneY(lane));
+      } else {
+        tween.active = false;
+        player.targetY = Math.max(playerMinY(), Math.min(playerMaxY(), y));
+        player.targetX = tx;
+      }
     };
 
     const onTouchStart = (e: TouchEvent) => {
@@ -2092,7 +2096,7 @@ export function Game() {
       touchStartX = t.clientX;
       touchStartY = t.clientY;
       touchStartTime = performance.now();
-      steerTo(t.clientX, t.clientY);
+      steerTo(t.clientX, t.clientY, true);
     };
     const onTouchMoveTurbo = (e: TouchEvent) => {
       const t = e.touches[0];
@@ -2150,7 +2154,7 @@ export function Game() {
       releaseKeyTurbo();
     };
     const onWindowBlurTurbo = () => releaseKeyTurbo();
-    const onMouseDown = (e: MouseEvent) => { steerTo(e.clientX, e.clientY); };
+    const onMouseDown = (e: MouseEvent) => { steerTo(e.clientX, e.clientY, true); };
     let mouseDownX = 0, mouseDownY = 0;
     let mouseDragging = false;
     const onMouseDownTurbo = (e: MouseEvent) => {
