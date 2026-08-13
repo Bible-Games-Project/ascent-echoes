@@ -538,6 +538,8 @@ export function Game() {
     // Player visual half-width (dove silhouette, wings included) + safety
     // margin so the sprite never touches or leaves the screen edges.
     const playerHalfW = () => Math.max(28, Math.min(62, H * 0.1));
+    // Dove (pigeon) artwork half width in gameplay pixels: BASE_W 46 * scale 2 / 2.
+    const DOVE_COLLIDE_HALF_W = 46;
     const EDGE_MARGIN = () => Math.max(18, W * 0.032);
     const playerMinX = () => EDGE_MARGIN() + playerHalfW();
     const playerMaxX = () => W - EDGE_MARGIN() - playerHalfW();
