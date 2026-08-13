@@ -1962,6 +1962,13 @@ export function Game() {
           const kX = 1 - Math.exp(-16 * dt);
           player.x += (player.targetX - player.x) * kX;
         }
+        // Spider Web lane lock: vertical position is pinned to the trapped
+        // lane (horizontal movement stays free).
+        if (webLane !== null) {
+          player.targetY = laneY(webLane);
+          const kW = 1 - Math.exp(-16 * dt);
+          player.y += (laneY(webLane) - player.y) * kW;
+        }
         // Hard clamps so the sprite is always fully on-screen
         player.y = Math.max(playerMinY(), Math.min(playerMaxY(), player.y));
         player.x = Math.max(playerMinX(), Math.min(playerMaxX(), player.x));
@@ -1990,6 +1997,8 @@ export function Game() {
           const playerFrontX = player.x + DOVE_COLLIDE_HALF_W;
           if (boatTipX <= playerFrontX || d.x <= -boatWidth()) {
             d.resolved = true;
+            // Hitting an ark/answer frees the player from the Spider Web.
+            webLane = null;
             const lane = player.lane;
             const correct = lane === d.safe;
             d.doorOutcome[lane] = correct ? "open" : "broken";
