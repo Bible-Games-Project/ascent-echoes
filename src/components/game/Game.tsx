@@ -318,6 +318,8 @@ export function Game() {
   const [health, setHealth] = useState(3);
   const [maxLives, setMaxLives] = useState(3);
   const [lifeFlash, setLifeFlash] = useState(0);
+  const [shieldActive, setShieldActive] = useState(false);
+  const [shieldBreak, setShieldBreak] = useState(0);
   const [viewport, setViewport] = useState({ w: 0, h: 0 });
 
   // Track the real viewport so the stage can be rotated to landscape.
@@ -404,6 +406,7 @@ export function Game() {
   const languageRef = useRef<Language>(language);
   const usedIdsRef = useRef<Set<string>>(new Set());
   const correctTotalRef = useRef(0);
+  const shieldRef = useRef(false);
 
   useEffect(() => { stateRef.current = state; }, [state]);
   useEffect(() => { healthRef.current = health; }, [health]);
@@ -413,6 +416,11 @@ export function Game() {
     return () => window.clearTimeout(id);
   }, [lifeFlash]);
   useEffect(() => { devModeRef.current = devMode; }, [devMode]);
+  useEffect(() => {
+    if (!shieldBreak) return;
+    const id = window.setTimeout(() => setShieldBreak(0), 900);
+    return () => window.clearTimeout(id);
+  }, [shieldBreak]);
 
   // Every player always starts with 3 lives.
   useEffect(() => {
