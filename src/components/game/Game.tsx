@@ -658,8 +658,9 @@ export function Game() {
       const r = Math.random();
       if (r < 0.45) {
         const q = Math.random();
-        if (q < 0.4) return "star";
-        if (q < 0.8) return "heart";
+        if (q < 0.34) return "star";
+        if (q < 0.62) return "heart";
+        if (q < 0.84) return "shield";
         return "shineheart";
       }
       if (r < 0.9) return Math.random() < 0.5 ? "slow" : "hint";
