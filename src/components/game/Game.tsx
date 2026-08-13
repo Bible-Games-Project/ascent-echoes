@@ -538,8 +538,9 @@ export function Game() {
     // Player visual half-width (dove silhouette, wings included) + safety
     // margin so the sprite never touches or leaves the screen edges.
     const playerHalfW = () => Math.max(28, Math.min(62, H * 0.1));
-    // Dove (pigeon) artwork half width in gameplay pixels: BASE_W 46 * scale 2 / 2.
-    const DOVE_COLLIDE_HALF_W = 46;
+    // Dove (pigeon) artwork half width in gameplay pixels, trimmed to the
+    // sprite's opaque body so the trigger fires on visual contact.
+    const DOVE_COLLIDE_HALF_W = 34;
     const EDGE_MARGIN = () => Math.max(18, W * 0.032);
     const playerMinX = () => EDGE_MARGIN() + playerHalfW();
     const playerMaxX = () => W - EDGE_MARGIN() - playerHalfW();
@@ -569,6 +570,16 @@ export function Game() {
       y: 0,
       targetY: 0,
       knock: 0, // x knockback
+    };
+    // Tap-to-move tween: 0.5s ease-in-out glide to the tapped lane position.
+    const TAP_TWEEN_DUR = 0.5;
+    const tween = { active: false, t: 0, fx: 0, fy: 0, tx: 0, ty: 0 };
+    const easeInOut = (p: number) =>
+      p < 0.5 ? 4 * p * p * p : 1 - Math.pow(-2 * p + 2, 3) / 2;
+    const startTween = (tx: number, ty: number) => {
+      tween.active = true; tween.t = 0;
+      tween.fx = player.x; tween.fy = player.y;
+      tween.tx = tx; tween.ty = ty;
     };
     const playerY = () => player.y + player.knock;
 
@@ -1803,27 +1814,38 @@ export function Game() {
         runTimeRef.current += dt;
         setRunTime(runTimeRef.current);
 
-        // Immediate, continuous vertical input while held (same as X)
         const dirY = (heldY.down ? 1 : 0) - (heldY.up ? 1 : 0);
-        if (dirY !== 0) player.targetY += dirY * V_SPEED() * dt;
-        player.targetY = Math.max(playerMinY(), Math.min(playerMaxY(), player.targetY));
-        const dyv = player.targetY - player.y;
-        player.y += dyv * Math.min(1, dt * 24);
-        if (Math.abs(dyv) < 0.4) player.y = player.targetY;
+        const dirX = (heldX.right ? 1 : 0) - (heldX.left ? 1 : 0);
+        if (tween.active && (dirX !== 0 || dirY !== 0)) tween.active = false;
+        if (tween.active) {
+          // 0.5s ease-in-out glide (slow -> fast -> slow), no snapping.
+          tween.t += dt;
+          const p = Math.min(1, tween.t / TAP_TWEEN_DUR);
+          const e = easeInOut(p);
+          player.x = tween.fx + (tween.tx - tween.fx) * e;
+          player.y = tween.fy + (tween.ty - tween.fy) * e;
+          player.targetX = player.x;
+          player.targetY = player.y;
+          if (p >= 1) { tween.active = false; player.x = tween.tx; player.y = tween.ty; }
+        } else {
+          // Immediate, continuous vertical input while held (same as X)
+          if (dirY !== 0) player.targetY += dirY * V_SPEED() * dt;
+          player.targetY = Math.max(playerMinY(), Math.min(playerMaxY(), player.targetY));
+          // Frame-rate independent exponential smoothing -> continuous glide.
+          const kY = 1 - Math.exp(-16 * dt);
+          player.y += (player.targetY - player.y) * kY;
+          // Immediate, continuous horizontal input while held
+          if (dirX !== 0) player.targetX += dirX * H_SPEED() * dt;
+          player.targetX = Math.max(playerMinX(), Math.min(playerMaxX(), player.targetX));
+          const kX = 1 - Math.exp(-16 * dt);
+          player.x += (player.targetX - player.x) * kX;
+        }
+        // Hard clamps so the sprite is always fully on-screen
         player.y = Math.max(playerMinY(), Math.min(playerMaxY(), player.y));
+        player.x = Math.max(playerMinX(), Math.min(playerMaxX(), player.x));
         // Lane is derived from the continuous position (midpoint = commit)
         player.lane = nearestLaneTo(player.y);
         player.targetLane = nearestLaneTo(player.targetY);
-        // Immediate, continuous horizontal input while held
-        const dirX = (heldX.right ? 1 : 0) - (heldX.left ? 1 : 0);
-        if (dirX !== 0) player.targetX += dirX * H_SPEED() * dt;
-        // Smooth horizontal glide towards the target X (snappy, no lag)
-        player.targetX = Math.max(playerMinX(), Math.min(playerMaxX(), player.targetX));
-        const dxh = player.targetX - player.x;
-        player.x += dxh * Math.min(1, dt * 24);
-        if (Math.abs(dxh) < 0.4) player.x = player.targetX;
-        // Hard clamp so the sprite is always fully on-screen
-        player.x = Math.max(playerMinX(), Math.min(playerMaxX(), player.x));
         if (player.knock < 0) {
           player.knock += dt * 40;
           if (player.knock > 0) player.knock = 0;
@@ -2002,6 +2024,7 @@ export function Game() {
 
     const moveLane = (dir: -1 | 1) => {
       if (stateRef.current !== "playing") return;
+      tween.active = false;
       const next = Math.max(0, Math.min(2, nearestLaneTo(player.targetY) + dir)) as Lane;
       if (next !== player.targetLane) sfx.playMove();
       player.targetLane = next;
@@ -2012,6 +2035,7 @@ export function Game() {
     const clearVertHold = () => { heldY.up = false; heldY.down = false; };
     const startVert = (dir: -1 | 1) => {
       if (stateRef.current !== "playing") return;
+      tween.active = false;
       const held = dir === -1 ? heldY.up : heldY.down;
       if (held) return;
       lastVertDir = dir;
@@ -2050,19 +2074,21 @@ export function Game() {
 
     // Pointer steering: vertical position picks the lane, horizontal
     // position sets the smooth target X inside the playable band.
-    const steerTo = (clientX: number, clientY: number) => {
+    const steerTo = (clientX: number, clientY: number, smooth = false) => {
       if (stateRef.current !== "playing") return;
       const { x, y } = toLocal(clientX, clientY);
-      let lane: Lane = 1;
-      let best = Infinity;
-      for (let i = 0; i < 3; i++) {
-        const d = Math.abs(y - laneY(i as Lane));
-        if (d < best) { best = d; lane = i as Lane; }
-      }
+      const lane = nearestLaneTo(y);
       if (lane !== player.targetLane) sfx.playMove();
       player.targetLane = lane;
-      player.targetY = Math.max(playerMinY(), Math.min(playerMaxY(), y));
-      player.targetX = Math.max(playerMinX(), Math.min(playerMaxX(), x));
+      const tx = Math.max(playerMinX(), Math.min(playerMaxX(), x));
+      if (smooth) {
+        // Tap: glide to the nearest walkable lane position over 0.5s.
+        startTween(tx, laneY(lane));
+      } else {
+        tween.active = false;
+        player.targetY = Math.max(playerMinY(), Math.min(playerMaxY(), y));
+        player.targetX = tx;
+      }
     };
 
     const onTouchStart = (e: TouchEvent) => {
@@ -2070,7 +2096,7 @@ export function Game() {
       touchStartX = t.clientX;
       touchStartY = t.clientY;
       touchStartTime = performance.now();
-      steerTo(t.clientX, t.clientY);
+      steerTo(t.clientX, t.clientY, true);
     };
     const onTouchMoveTurbo = (e: TouchEvent) => {
       const t = e.touches[0];
@@ -2100,9 +2126,9 @@ export function Game() {
         if (!heldX.right) player.targetX += W * 0.02;
         heldX.right = true;
       }
-      else if (e.key === "1") { player.targetLane = 0; player.targetY = laneY(0); }
-      else if (e.key === "2") { player.targetLane = 1; player.targetY = laneY(1); }
-      else if (e.key === "3") { player.targetLane = 2; player.targetY = laneY(2); }
+      else if (e.key === "1") { tween.active = false; player.targetLane = 0; player.targetY = laneY(0); }
+      else if (e.key === "2") { tween.active = false; player.targetLane = 1; player.targetY = laneY(1); }
+      else if (e.key === "3") { tween.active = false; player.targetLane = 2; player.targetY = laneY(2); }
     };
     const onKeyUpMove = (e: KeyboardEvent) => {
       if (e.key === "ArrowLeft" || e.key === "a") heldX.left = false;
@@ -2128,7 +2154,7 @@ export function Game() {
       releaseKeyTurbo();
     };
     const onWindowBlurTurbo = () => releaseKeyTurbo();
-    const onMouseDown = (e: MouseEvent) => { steerTo(e.clientX, e.clientY); };
+    const onMouseDown = (e: MouseEvent) => { steerTo(e.clientX, e.clientY, true); };
     let mouseDownX = 0, mouseDownY = 0;
     let mouseDragging = false;
     const onMouseDownTurbo = (e: MouseEvent) => {
