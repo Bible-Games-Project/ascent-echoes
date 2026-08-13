@@ -2126,9 +2126,9 @@ export function Game() {
         if (!heldX.right) player.targetX += W * 0.02;
         heldX.right = true;
       }
-      else if (e.key === "1") { player.targetLane = 0; player.targetY = laneY(0); }
-      else if (e.key === "2") { player.targetLane = 1; player.targetY = laneY(1); }
-      else if (e.key === "3") { player.targetLane = 2; player.targetY = laneY(2); }
+      else if (e.key === "1") { tween.active = false; player.targetLane = 0; player.targetY = laneY(0); }
+      else if (e.key === "2") { tween.active = false; player.targetLane = 1; player.targetY = laneY(1); }
+      else if (e.key === "3") { tween.active = false; player.targetLane = 2; player.targetY = laneY(2); }
     };
     const onKeyUpMove = (e: KeyboardEvent) => {
       if (e.key === "ArrowLeft" || e.key === "a") heldX.left = false;
