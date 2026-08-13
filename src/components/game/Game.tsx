@@ -1463,6 +1463,18 @@ export function Game() {
 
     // ----- Powerups -----
     const drawPowerupIcon = (type: PowerupType) => {
+      // Hand-made artwork when available; the vector shapes below stay as a
+      // fallback until the sprite has finished loading.
+      const sprite = getBonusSprite(type);
+      if (sprite) {
+        const iw = sprite.naturalWidth || 1;
+        const ih = sprite.naturalHeight || 1;
+        const box = 30;
+        const k = box / Math.max(iw, ih);
+        const w = iw * k, h = ih * k;
+        ctx.drawImage(sprite, -w / 2, -h / 2, w, h);
+        return;
+      }
       switch (type) {
         case "star": {
           // Soft glow halo behind the star to match the game's luminous palette
@@ -1585,6 +1597,23 @@ export function Game() {
           ctx.moveTo(0, -6); ctx.lineTo(-2, -2); ctx.lineTo(2, 1); ctx.lineTo(-1, 5);
           ctx.stroke(); break;
         }
+        case "shield": {
+          ctx.fillStyle = "#d9b477";
+          ctx.strokeStyle = "rgba(90,60,20,0.85)";
+          ctx.lineWidth = 1.4;
+          ctx.beginPath();
+          ctx.moveTo(0, -12);
+          ctx.lineTo(11, -7);
+          ctx.lineTo(9, 6);
+          ctx.lineTo(0, 13);
+          ctx.lineTo(-9, 6);
+          ctx.lineTo(-11, -7);
+          ctx.closePath(); ctx.fill(); ctx.stroke();
+          ctx.fillStyle = "rgba(255,235,180,0.95)";
+          ctx.fillRect(-1.8, -8, 3.6, 16);
+          ctx.fillRect(-7, -3.5, 14, 3.6);
+          break;
+        }
       }
     };
 
@@ -1594,23 +1623,35 @@ export function Game() {
         if (p.taken) return;
         if (p.y < -70 || p.y > H + 70) return;
         const sx = p.x + Math.sin(t * 2.4 + p.bobSeed) * 4;
+        const negative = NEGATIVE_BONUSES.includes(p.type);
+        const pulse = 0.85 + 0.15 * Math.sin(t * 3 + p.bobSeed);
         const haloColor =
-          p.type === "star" ? "rgba(255, 230, 140, 0.55)" :
-          p.type === "heart" ? "rgba(255, 120, 130, 0.5)" :
-          p.type === "shineheart" ? "rgba(255, 150, 190, 0.85)" :
-          p.type === "slow" ? "rgba(160, 220, 255, 0.5)" :
-          p.type === "hint" ? "rgba(255, 250, 200, 0.55)" :
-          p.type === "apple" ? "rgba(180, 90, 90, 0.5)" :
-          "rgba(60, 20, 30, 0.6)";
-        const halo = ctx.createRadialGradient(sx, p.y, 0, sx, p.y, 56);
+          p.type === "star" ? "rgba(255, 232, 150, 0.5)" :
+          p.type === "heart" ? "rgba(255, 140, 150, 0.45)" :
+          p.type === "shineheart" ? "rgba(170, 200, 255, 0.6)" :
+          p.type === "shield" ? "rgba(255, 225, 165, 0.5)" :
+          p.type === "slow" ? "rgba(180, 225, 255, 0.45)" :
+          p.type === "hint" ? "rgba(255, 235, 175, 0.5)" :
+          p.type === "apple" ? "rgba(20, 8, 12, 0.62)" :
+          "rgba(14, 6, 10, 0.66)";
+        const R = negative ? 48 : 56;
+        const halo = ctx.createRadialGradient(sx, p.y, negative ? 12 : 0, sx, p.y, R);
         halo.addColorStop(0, haloColor);
         halo.addColorStop(1, "rgba(0,0,0,0)");
+        ctx.save();
+        ctx.globalAlpha = pulse;
+        if (!negative) ctx.globalCompositeOperation = "lighter";
         ctx.fillStyle = halo;
-        ctx.fillRect(sx - 56, p.y - 56, 112, 112);
+        ctx.fillRect(sx - R, p.y - R, R * 2, R * 2);
+        ctx.restore();
         ctx.save();
         ctx.translate(sx, p.y);
         // Bonus icons render at 2x visual size (gameplay effect unchanged)
         ctx.scale(2, 2);
+        if (!negative) {
+          ctx.shadowColor = haloColor;
+          ctx.shadowBlur = 8 * pulse;
+        }
         drawPowerupIcon(p.type);
         ctx.restore();
       });
@@ -1623,6 +1664,11 @@ export function Game() {
         case "star":
           invuln = Math.max(invuln, 7);
           spawnPickupBurst(px, py, "rgba(255, 230, 140, 0.9)");
+          break;
+        case "shield":
+          shieldRef.current = true;
+          setShieldActive(true);
+          spawnPickupBurst(px, py, "rgba(255, 225, 165, 0.95)");
           break;
         case "heart": {
           const nh = Math.min(maxLivesRef.current, healthRef.current + 1);
