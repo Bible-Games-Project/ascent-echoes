@@ -1332,6 +1332,17 @@ export function Game() {
       }
 
       if (sprite) {
+        // Subtle, always-on glow so the ark feels lit like the avatars.
+        if (!highlight) {
+          const gp = 0.5 + 0.5 * Math.sin(timeSec * 1.6 + lane);
+          ctx.save();
+          ctx.filter = arkFilter;
+          ctx.shadowColor = `rgba(255, 240, 205, ${0.32 + 0.08 * gp})`;
+          ctx.shadowBlur = artH * (0.09 + 0.02 * gp);
+          ctx.drawImage(sprite, imgLeft, imgTop, artW, artH);
+          ctx.filter = "none";
+          ctx.restore();
+        }
         ctx.filter = arkFilter;
         ctx.drawImage(sprite, imgLeft, imgTop, artW, artH);
         ctx.filter = "none";
