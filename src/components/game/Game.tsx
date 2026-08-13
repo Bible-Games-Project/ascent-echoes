@@ -672,10 +672,10 @@ export function Game() {
       return "web";
     };
 
-    const spawnPowerup = () => {
+    const spawnPowerup = (yOffset = 0) => {
       powerups.push({
         x: W * (0.18 + Math.random() * 0.62),
-        y: -80,
+        y: -80 - yOffset,
         type: pickType(),
         taken: false,
         bobSeed: Math.random() * Math.PI * 2,
