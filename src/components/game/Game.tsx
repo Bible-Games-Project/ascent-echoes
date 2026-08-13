@@ -19,6 +19,7 @@ import bonusStarImg from "@/assets/bonus/Bonus_Estrella.png.asset.json";
 import bonusLightImg from "@/assets/bonus/Bonus_Luz.png.asset.json";
 import bonusAppleImg from "@/assets/bonus/Bonus_ManzanaPodrida.png.asset.json";
 import bonusClockImg from "@/assets/bonus/Bonus_Reloj.png.asset.json";
+import bonusWebImg from "@/assets/bonus/Bonus_Telarana.png.asset.json";
 import bibleUnlockedImg from "@/assets/bible-unlocked.png.asset.json";
 import trueChristImg from "@/assets/true-christ.png.asset.json";
 import {
@@ -263,7 +264,7 @@ interface Particle {
   size: number;
 }
 
-type PowerupType = "star" | "heart" | "shineheart" | "slow" | "hint" | "apple" | "broken" | "shield";
+type PowerupType = "star" | "heart" | "shineheart" | "slow" | "hint" | "apple" | "broken" | "shield" | "web";
 
 /** Hand-made artwork for each bonus (vector fallback stays for anything unmapped). */
 const BONUS_SPRITE_URLS: Partial<Record<PowerupType, string>> = {
@@ -274,6 +275,7 @@ const BONUS_SPRITE_URLS: Partial<Record<PowerupType, string>> = {
   hint: bonusLightImg.url,
   apple: bonusAppleImg.url,
   slow: bonusClockImg.url,
+  web: bonusWebImg.url,
 };
 const bonusSprites = new Map<PowerupType, { img: HTMLImageElement; ready: boolean }>();
 function getBonusSprite(type: PowerupType): HTMLImageElement | null {
@@ -291,7 +293,7 @@ function getBonusSprite(type: PowerupType): HTMLImageElement | null {
   return entry.ready ? entry.img : null;
 }
 /** Bonuses whose glow should read as ominous rather than magical. */
-const NEGATIVE_BONUSES: PowerupType[] = ["apple", "broken"];
+const NEGATIVE_BONUSES: PowerupType[] = ["apple", "broken", "web"];
 
 /** Maximum lives reachable via the Shining Heart bonus. */
 const MAX_LIVES = 7;
