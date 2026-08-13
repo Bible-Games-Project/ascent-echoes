@@ -1,8 +1,8 @@
 import type { AvatarId } from "@/lib/avatars";
 import { assetUrl } from "@/lib/assetUrl";
 
-import pigeonAsset from "@/assets/avatars/Pigeon.webp.asset.json";
-import sheepAsset from "@/assets/avatars/Sheep.webp.asset.json";
+import pigeonAsset from "@/assets/avatars/Pigeon.png.asset.json";
+import sheepAsset from "@/assets/avatars/Sheep.png.asset.json";
 import fishAsset from "@/assets/avatars/Fish.webp.asset.json";
 import antAsset from "@/assets/avatars/Hormiga.webp.asset.json";
 import hyraxAsset from "@/assets/avatars/Daman.webp.asset.json";
@@ -17,7 +17,7 @@ import ravenAsset from "@/assets/avatars/Cuervo.webp.asset.json";
 import oxAsset from "@/assets/avatars/Buey.webp.asset.json";
 import snakeAsset from "@/assets/avatars/Serpiente.webp.asset.json";
 import falconAsset from "@/assets/avatars/Falcon.webp.asset.json";
-import wolfAsset from "@/assets/avatars/Lobo.webp.asset.json";
+import wolfAsset from "@/assets/avatars/Lobo.png.asset.json";
 import leopardAsset from "@/assets/avatars/Leopardo.webp.asset.json";
 import bearAsset from "@/assets/avatars/Oso.webp.asset.json";
 import lionAsset from "@/assets/avatars/Lion.webp.asset.json";
@@ -336,7 +336,8 @@ export function drawAvatarBody(
       || id === "falcon" || id === "raven" || id === "rooster";
     const sy = 1 + flap * (winged ? 0.05 : 0.02);
     const sx = 1 - flap * (winged ? 0.02 : 0.008);
-    ctx.scale(sx, sy);
+    // The wolf artwork faces the opposite way, so mirror it horizontally.
+    ctx.scale(id === "wolf" ? -sx : sx, sy);
     // Pastelize the artwork to match the game's soft palette: reduce
     // Pastel treatment: keep original hues but lift brightness and add
     // a gentle saturation so the animals feel luminous yet soft.
