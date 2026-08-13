@@ -538,6 +538,8 @@ export function Game() {
     // Player visual half-width (dove silhouette, wings included) + safety
     // margin so the sprite never touches or leaves the screen edges.
     const playerHalfW = () => Math.max(28, Math.min(62, H * 0.1));
+    // Dove (pigeon) artwork half width in gameplay pixels: BASE_W 46 * scale 2 / 2.
+    const DOVE_COLLIDE_HALF_W = 46;
     const EDGE_MARGIN = () => Math.max(18, W * 0.032);
     const playerMinX = () => EDGE_MARGIN() + playerHalfW();
     const playerMaxX = () => W - EDGE_MARGIN() - playerHalfW();
@@ -1332,6 +1334,17 @@ export function Game() {
       }
 
       if (sprite) {
+        // Subtle, always-on glow so the ark feels lit like the avatars.
+        if (!highlight) {
+          const gp = 0.5 + 0.5 * Math.sin(timeSec * 1.6 + lane);
+          ctx.save();
+          ctx.filter = arkFilter;
+          ctx.shadowColor = `rgba(255, 240, 205, ${0.32 + 0.08 * gp})`;
+          ctx.shadowBlur = artH * (0.09 + 0.02 * gp);
+          ctx.drawImage(sprite, imgLeft, imgTop, artW, artH);
+          ctx.filter = "none";
+          ctx.restore();
+        }
         ctx.filter = arkFilter;
         ctx.drawImage(sprite, imgLeft, imgTop, artW, artH);
         ctx.filter = "none";
@@ -1827,7 +1840,10 @@ export function Game() {
           // Resolve when the boat's LEFT/front tip touches the player,
           // not when its centre arrives.
           const boatTipX = d.x - arkFrontOffset();
-          const playerFrontX = player.x + playerHalfW();
+          // Collision reach is calibrated on the Dove (reference avatar),
+          // drawn at BASE_W 46 with scale 2 -> 46px half width, so the answer
+          // triggers when the dove visually touches the ark's front tip.
+          const playerFrontX = player.x + DOVE_COLLIDE_HALF_W;
           if (boatTipX <= playerFrontX || d.x <= -boatWidth()) {
             d.resolved = true;
             const lane = player.lane;
