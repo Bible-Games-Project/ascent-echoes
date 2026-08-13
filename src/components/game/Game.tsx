@@ -1814,27 +1814,38 @@ export function Game() {
         runTimeRef.current += dt;
         setRunTime(runTimeRef.current);
 
-        // Immediate, continuous vertical input while held (same as X)
         const dirY = (heldY.down ? 1 : 0) - (heldY.up ? 1 : 0);
-        if (dirY !== 0) player.targetY += dirY * V_SPEED() * dt;
-        player.targetY = Math.max(playerMinY(), Math.min(playerMaxY(), player.targetY));
-        const dyv = player.targetY - player.y;
-        player.y += dyv * Math.min(1, dt * 24);
-        if (Math.abs(dyv) < 0.4) player.y = player.targetY;
+        const dirX = (heldX.right ? 1 : 0) - (heldX.left ? 1 : 0);
+        if (tween.active && (dirX !== 0 || dirY !== 0)) tween.active = false;
+        if (tween.active) {
+          // 0.5s ease-in-out glide (slow -> fast -> slow), no snapping.
+          tween.t += dt;
+          const p = Math.min(1, tween.t / TAP_TWEEN_DUR);
+          const e = easeInOut(p);
+          player.x = tween.fx + (tween.tx - tween.fx) * e;
+          player.y = tween.fy + (tween.ty - tween.fy) * e;
+          player.targetX = player.x;
+          player.targetY = player.y;
+          if (p >= 1) { tween.active = false; player.x = tween.tx; player.y = tween.ty; }
+        } else {
+          // Immediate, continuous vertical input while held (same as X)
+          if (dirY !== 0) player.targetY += dirY * V_SPEED() * dt;
+          player.targetY = Math.max(playerMinY(), Math.min(playerMaxY(), player.targetY));
+          // Frame-rate independent exponential smoothing -> continuous glide.
+          const kY = 1 - Math.exp(-16 * dt);
+          player.y += (player.targetY - player.y) * kY;
+          // Immediate, continuous horizontal input while held
+          if (dirX !== 0) player.targetX += dirX * H_SPEED() * dt;
+          player.targetX = Math.max(playerMinX(), Math.min(playerMaxX(), player.targetX));
+          const kX = 1 - Math.exp(-16 * dt);
+          player.x += (player.targetX - player.x) * kX;
+        }
+        // Hard clamps so the sprite is always fully on-screen
         player.y = Math.max(playerMinY(), Math.min(playerMaxY(), player.y));
+        player.x = Math.max(playerMinX(), Math.min(playerMaxX(), player.x));
         // Lane is derived from the continuous position (midpoint = commit)
         player.lane = nearestLaneTo(player.y);
         player.targetLane = nearestLaneTo(player.targetY);
-        // Immediate, continuous horizontal input while held
-        const dirX = (heldX.right ? 1 : 0) - (heldX.left ? 1 : 0);
-        if (dirX !== 0) player.targetX += dirX * H_SPEED() * dt;
-        // Smooth horizontal glide towards the target X (snappy, no lag)
-        player.targetX = Math.max(playerMinX(), Math.min(playerMaxX(), player.targetX));
-        const dxh = player.targetX - player.x;
-        player.x += dxh * Math.min(1, dt * 24);
-        if (Math.abs(dxh) < 0.4) player.x = player.targetX;
-        // Hard clamp so the sprite is always fully on-screen
-        player.x = Math.max(playerMinX(), Math.min(playerMaxX(), player.x));
         if (player.knock < 0) {
           player.knock += dt * 40;
           if (player.knock > 0) player.knock = 0;
