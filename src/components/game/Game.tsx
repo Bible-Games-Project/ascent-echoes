@@ -2080,7 +2080,7 @@ export function Game() {
           if (!p.taken && pdx * pdx + pdy * pdy <= 68 * 68) {
             p.taken = true;
             applyPowerup(p);
-            if (p.type === "apple" || p.type === "broken") {
+            if (NEGATIVE_BONUSES.includes(p.type)) {
               sfx.playPenalty();
             } else {
               sfx.playBonus();
