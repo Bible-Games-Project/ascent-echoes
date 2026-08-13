@@ -1609,6 +1609,23 @@ export function Game() {
           ctx.fillRect(-7, -3.5, 14, 3.6);
           break;
         }
+        case "web": {
+          ctx.strokeStyle = "rgba(240, 205, 175, 0.95)";
+          ctx.lineWidth = 1.4;
+          for (let i = 0; i < 8; i++) {
+            const a = (i / 8) * Math.PI * 2;
+            ctx.beginPath();
+            ctx.moveTo(0, 0);
+            ctx.lineTo(Math.cos(a) * 12, Math.sin(a) * 12);
+            ctx.stroke();
+          }
+          for (let r = 4; r <= 12; r += 4) {
+            ctx.beginPath();
+            ctx.arc(0, 0, r, 0, Math.PI * 2);
+            ctx.stroke();
+          }
+          break;
+        }
       }
     };
 
@@ -1628,6 +1645,7 @@ export function Game() {
           p.type === "slow" ? "rgba(180, 225, 255, 0.45)" :
           p.type === "hint" ? "rgba(255, 235, 175, 0.5)" :
           p.type === "apple" ? "rgba(20, 8, 12, 0.62)" :
+          p.type === "web" ? "rgba(12, 6, 14, 0.64)" :
           "rgba(14, 6, 10, 0.66)";
         const R = negative ? 48 : 56;
         const halo = ctx.createRadialGradient(sx, p.y, negative ? 12 : 0, sx, p.y, R);
@@ -1703,6 +1721,12 @@ export function Game() {
         case "broken":
           damage(px, py);
           spawnPickupBurst(px, py, "rgba(255, 80, 80, 0.95)");
+          break;
+        case "web":
+          // Lane-lock trap: the player is stuck in the current lane until the
+          // next ark/answer collision.
+          webLane = player.lane;
+          spawnPickupBurst(px, py, "rgba(120, 90, 110, 0.85)");
           break;
       }
     };
