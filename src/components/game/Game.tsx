@@ -1826,7 +1826,7 @@ export function Game() {
           questionTimer -= dt;
           // Resolve when the boat's LEFT/front tip touches the player,
           // not when its centre arrives.
-          const boatTipX = d.x - boatWidth() / 2;
+          const boatTipX = d.x - arkFrontOffset();
           const playerFrontX = player.x + playerHalfW();
           if (boatTipX <= playerFrontX || d.x <= -boatWidth()) {
             d.resolved = true;
