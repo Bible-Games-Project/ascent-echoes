@@ -627,6 +627,8 @@ export function Game() {
       tween.tx = tx; tween.ty = ty;
     };
     const playerY = () => player.y + player.knock;
+    // Spider Web trap: while set, the player is locked to this lane.
+    let webLane: Lane | null = null;
 
     // Decisions queue: a flat list, only the first unresolved one is "active"
     // and visibly falling. The next one spawns after the current resolves.
