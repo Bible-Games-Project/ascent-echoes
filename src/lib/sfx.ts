@@ -4,6 +4,8 @@
 
 const STORAGE_KEY = "btr_sfx_enabled";
 
+import { playSample, playSampleGroup, preloadSamples } from "./sfxSamples";
+
 function getCtx(): AudioContext | null {
   try {
     const Ctx = (window as any).AudioContext || (window as any).webkitAudioContext;
@@ -61,9 +63,31 @@ export const sfx = {
     try { localStorage.setItem(STORAGE_KEY, on ? "1" : "0"); } catch { /* ignore */ }
   },
 
+  /** Decode the recorded samples up front so triggers are instant. */
+  preload() {
+    resumeIfNeeded();
+    preloadSamples();
+  },
+
+  /** Level advance jingle. */
+  playLevelUp() {
+    if (!_enabled) return;
+    resumeIfNeeded();
+    playSample("levelChange", 0.9);
+  },
+
+  /** Streak start stinger. */
+  playStreakStart() {
+    if (!_enabled) return;
+    resumeIfNeeded();
+    playSample("streakStart", 0.9);
+  },
+
   /** Short, clean, subtle tap / pop for UI buttons. */
   playClick() {
     if (!_enabled) return;
+    resumeIfNeeded();
+    if (playSample("button", 0.9)) return;
     const c = ctx();
     if (!c) return;
     resumeIfNeeded();
@@ -80,9 +104,11 @@ export const sfx = {
     o.stop(t + 0.07);
   },
 
-  /** Pleasant two-tone chime for correct answers. */
-  playCorrect() {
+  /** Correct answer. Recorded stinger differs when the player is on a streak. */
+  playCorrect(onStreak = false) {
     if (!_enabled) return;
+    resumeIfNeeded();
+    if (playSample(onStreak ? "questionGoodStreak" : "questionGood", 0.9)) return;
     const c = ctx();
     if (!c) return;
     resumeIfNeeded();
@@ -114,9 +140,11 @@ export const sfx = {
     o2.stop(t + 0.41);
   },
 
-  /** Soft, non-aggressive muted tone for wrong answers. */
+  /** Wrong answer — random wood-impact clip once those samples exist. */
   playWrong() {
     if (!_enabled) return;
+    resumeIfNeeded();
+    if (playSampleGroup("wood", 0.9)) return;
     const c = ctx();
     if (!c) return;
     resumeIfNeeded();
@@ -135,7 +163,7 @@ export const sfx = {
     o.stop(t + 0.23);
   },
 
-  /** Uplifting sparkle chime for positive bonuses. */
+  /** Uplifting sparkle chime for positive bonuses (any positive bonus). */
   playBonus() {
     if (!_enabled) return;
     const c = ctx();
@@ -169,9 +197,11 @@ export const sfx = {
     o2.stop(t + 0.32);
   },
 
-  /** Soft muted drop for negative bonuses / penalties. */
+  /** Negative bonus / penalty — generic for every bad bonus. */
   playPenalty() {
     if (!_enabled) return;
+    resumeIfNeeded();
+    if (playSample("bonusBad", 0.9)) return;
     const c = ctx();
     if (!c) return;
     resumeIfNeeded();
@@ -214,6 +244,8 @@ export const sfx = {
   },
   playMove() {
     if (!_enabled) return;
+    resumeIfNeeded();
+    if (playSampleGroup("move", 0.9)) return;
     const c = ctx();
     if (!c) return;
     resumeIfNeeded();
@@ -258,5 +290,20 @@ export const sfx = {
     src.connect(bp).connect(lp).connect(g).connect(c.destination);
     src.start(t, offset);
     src.stop(t + dur + 0.05);
+  },
+
+  /**
+   * Move sound gated by input holds: one clip when a movement input starts,
+   * silence while it is held, a new clip on the next press.
+   * `token` identifies the active input (direction/pointer).
+   */
+  _moveToken: null as string | null,
+  playMoveStart(token: string) {
+    if (this._moveToken === token) return;
+    this._moveToken = token;
+    this.playMove();
+  },
+  endMove(token?: string) {
+    if (token === undefined || this._moveToken === token) this._moveToken = null;
   },
 };

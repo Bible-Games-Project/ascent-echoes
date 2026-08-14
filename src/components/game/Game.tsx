@@ -479,6 +479,7 @@ export function Game() {
     const el = canvasRef.current?.parentElement;
     if (!el) return;
     const onDown = (e: PointerEvent) => {
+      sfx.preload();
       const target = e.target as HTMLElement | null;
       if (target && target.closest("button")) sfx.playClick();
     };
@@ -1899,6 +1900,7 @@ export function Game() {
         themeBlend = 0;
         setLevel(nextLvl);
         buildLevel(nextLvl);
+        sfx.playLevelUp();
         if (!devModeRef.current) recordLevel(nextLvl);
         music.playLevel(nextLvl);
         return;
@@ -1954,14 +1956,19 @@ export function Game() {
           // Immediate, continuous vertical input while held (same as X)
           if (dirY !== 0) player.targetY += dirY * V_SPEED() * dt;
           player.targetY = Math.max(playerMinY(), Math.min(playerMaxY(), player.targetY));
-          // Frame-rate independent exponential smoothing -> continuous glide.
-          const kY = 1 - Math.exp(-16 * dt);
+          // Frame-rate independent exponential smoothing. A high rate keeps the
+          // response immediate (no sticky start) while staying continuous.
+          const FOLLOW = 34;
+          const kY = 1 - Math.exp(-FOLLOW * dt);
           player.y += (player.targetY - player.y) * kY;
           // Immediate, continuous horizontal input while held
           if (dirX !== 0) player.targetX += dirX * H_SPEED() * dt;
           player.targetX = Math.max(playerMinX(), Math.min(playerMaxX(), player.targetX));
-          const kX = 1 - Math.exp(-16 * dt);
+          const kX = 1 - Math.exp(-FOLLOW * dt);
           player.x += (player.targetX - player.x) * kX;
+          // Snap out sub-pixel residue so the glide never crawls at the end.
+          if (Math.abs(player.targetX - player.x) < 0.25) player.x = player.targetX;
+          if (Math.abs(player.targetY - player.y) < 0.25) player.y = player.targetY;
         }
         // Spider Web lane lock: vertical position is pinned to the trapped
         // lane (horizontal movement stays free).
@@ -2005,7 +2012,7 @@ export function Game() {
             d.doorOutcome[lane] = correct ? "open" : "broken";
             // Other lanes: keep falling visually -> just mark them broken for animation off-screen later
             if (correct) {
-              sfx.playCorrect();
+              sfx.playCorrect(streakRef.current > 0);
               for (let i = 0; i < 12; i++) {
                 const a = Math.random() * Math.PI * 2;
                 const s = 60 + Math.random() * 80;
@@ -2033,6 +2040,7 @@ export function Game() {
                 }
               }
               if (newMult > prevMult) {
+                sfx.playStreakStart();
                 setMultiplierToast(newMult);
                 setTimeout(() => setMultiplierToast(null), 1400);
               }
@@ -2159,9 +2167,10 @@ export function Game() {
       if (stateRef.current !== "playing") return;
       tween.active = false;
       const next = Math.max(0, Math.min(2, nearestLaneTo(player.targetY) + dir)) as Lane;
-      if (next !== player.targetLane) sfx.playMove();
+      if (next !== player.targetLane) sfx.playMoveStart(dir === -1 ? "swipe-up" : "swipe-down");
       player.targetLane = next;
       player.targetY = laneY(next);
+      sfx.endMove(dir === -1 ? "swipe-up" : "swipe-down");
     };
 
     let lastVertDir: -1 | 1 = 1;
@@ -2174,14 +2183,16 @@ export function Game() {
       lastVertDir = dir;
       if (dir === -1) { heldY.up = true; heldY.down = false; }
       else { heldY.down = true; heldY.up = false; }
+      sfx.playMoveStart(dir === -1 ? "up" : "down");
       // Immediate nudge past the midpoint so a short tap settles one lane away
       const before = nearestLaneTo(player.targetY);
       player.targetY = Math.max(playerMinY(), Math.min(playerMaxY(),
         player.targetY + dir * laneGap() * 0.55));
-      if (nearestLaneTo(player.targetY) !== before) sfx.playMove();
+      void before;
     };
     const stopVert = (dir: -1 | 1) => {
       if (dir === -1) heldY.up = false; else heldY.down = false;
+      sfx.endMove(dir === -1 ? "up" : "down");
       if (!heldY.up && !heldY.down) {
         // Never step backwards on release: finish the committed transition by
         // settling on the next lane in the direction of travel.
@@ -2211,7 +2222,7 @@ export function Game() {
       if (stateRef.current !== "playing") return;
       const { x, y } = toLocal(clientX, clientY);
       const lane = nearestLaneTo(y);
-      if (lane !== player.targetLane) sfx.playMove();
+      if (lane !== player.targetLane) sfx.playMoveStart("pointer");
       player.targetLane = lane;
       const tx = Math.max(playerMinX(), Math.min(playerMaxX(), x));
       if (smooth) {
@@ -2245,6 +2256,7 @@ export function Game() {
       const t = e.changedTouches[0];
       const dy = t.clientY - touchStartY;
       const dt2 = performance.now() - touchStartTime;
+      sfx.endMove("pointer");
       if (dt2 < 400 && Math.abs(dy) > 40) moveLane(dy < 0 ? -1 : 1);
     };
     const onKey = (e: KeyboardEvent) => {
@@ -2253,10 +2265,10 @@ export function Game() {
       else if (e.key === "ArrowDown" || e.key === "s") { if (!e.repeat) startVert(1); }
       else if (e.key === "ArrowLeft" || e.key === "a") {
         // Immediate nudge, then continuous movement while held
-        if (!heldX.left) player.targetX -= W * 0.02;
+        if (!heldX.left) { player.targetX -= W * 0.03; sfx.playMoveStart("left"); }
         heldX.left = true;
       } else if (e.key === "ArrowRight" || e.key === "d") {
-        if (!heldX.right) player.targetX += W * 0.02;
+        if (!heldX.right) { player.targetX += W * 0.03; sfx.playMoveStart("right"); }
         heldX.right = true;
       }
       else if (e.key === "1") { tween.active = false; player.targetLane = 0; player.targetY = laneY(0); }
@@ -2264,14 +2276,15 @@ export function Game() {
       else if (e.key === "3") { tween.active = false; player.targetLane = 2; player.targetY = laneY(2); }
     };
     const onKeyUpMove = (e: KeyboardEvent) => {
-      if (e.key === "ArrowLeft" || e.key === "a") heldX.left = false;
-      else if (e.key === "ArrowRight" || e.key === "d") heldX.right = false;
+      if (e.key === "ArrowLeft" || e.key === "a") { heldX.left = false; sfx.endMove("left"); }
+      else if (e.key === "ArrowRight" || e.key === "d") { heldX.right = false; sfx.endMove("right"); }
       else if (e.key === "ArrowUp" || e.key === "w") stopVert(-1);
       else if (e.key === "ArrowDown" || e.key === "s") stopVert(1);
     };
     const onBlurMove = () => {
       heldX.left = false; heldX.right = false;
       heldY.up = false; heldY.down = false; clearVertHold();
+      sfx.endMove();
     };
     const onKeyDownTurbo = (e: KeyboardEvent) => {
       if (!isTurboKey(e.key)) return;
@@ -2304,10 +2317,10 @@ export function Game() {
         clearTurboHold();
       }
     };
-    const onMouseUpTurbo = () => { mouseDragging = false; releaseTurbo(); };
+    const onMouseUpTurbo = () => { mouseDragging = false; sfx.endMove("pointer"); releaseTurbo(); };
     const onMouseLeaveTurbo = () => { mouseDragging = false; releaseTurbo(); };
     const onTouchStartTurbo = () => armTurboHold();
-    const onTouchEndTurbo = () => releaseTurbo();
+    const onTouchEndTurbo = () => { sfx.endMove("pointer"); releaseTurbo(); };
 
     canvas.addEventListener("touchstart", onTouchStart, { passive: true });
     canvas.addEventListener("touchend", onTouchEnd, { passive: true });
