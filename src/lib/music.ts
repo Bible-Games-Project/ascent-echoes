@@ -26,6 +26,7 @@ const FADE_MS = 500;
 const TARGET_VOLUME = 0.55;
 const HOME_VOLUME = TARGET_VOLUME * 0.5;
 const STORAGE_KEY = "btr_music_enabled";
+const VOLUME_KEY = "btr_music_volume";
 
 function trackForLevel(level: number): string {
   const idx = Math.max(1, Math.min(10, Math.floor(level))) - 1;
@@ -39,6 +40,7 @@ class MusicEngine {
   private enabled = true;
   private desiredUrl: string | null = null; // what should be playing right now
   private targetVol = TARGET_VOLUME;
+  private userVol = 1;
   private gains = new WeakMap<HTMLAudioElement, GainNode>();
   private sources = new WeakMap<HTMLAudioElement, MediaElementAudioSourceNode>();
   private originIndex = 0;      // which hosted origin we resolve assets against
@@ -48,6 +50,11 @@ class MusicEngine {
     try {
       const v = localStorage.getItem(STORAGE_KEY);
       this.enabled = v === null ? true : v === "1";
+      const uv = localStorage.getItem(VOLUME_KEY);
+      if (uv !== null) {
+        const n = Number(uv);
+        if (Number.isFinite(n)) this.userVol = Math.min(1, Math.max(0, n));
+      }
     } catch { /* ignore */ }
     if (typeof window !== "undefined") this.installLifecycleHooks();
   }
@@ -90,6 +97,14 @@ class MusicEngine {
     } else if (this.desiredUrl) {
       this.crossfadeTo(this.desiredUrl);
     }
+  }
+
+  /** Music volume, 0..1. Remembered across sessions. */
+  getVolume() { return this.userVol; }
+  setVolume(v: number) {
+    this.userVol = Math.min(1, Math.max(0, v));
+    try { localStorage.setItem(VOLUME_KEY, String(this.userVol)); } catch { /* ignore */ }
+    if (this.current) this.applyVolume(this.current, this.targetVol);
   }
 
   /** Play the home/menu track on loop. */
@@ -209,7 +224,8 @@ class MusicEngine {
     }
   }
 
-  private applyVolume(el: HTMLAudioElement, vol: number) {
+  private applyVolume(el: HTMLAudioElement, volRaw: number) {
+    const vol = volRaw * this.userVol;
     const g = this.gains.get(el);
     if (g) {
       try { g.gain.value = vol; return; } catch { /* fall through */ }

@@ -386,15 +386,21 @@ export function Game() {
   const devModeRef = useRef(false);
   const [showLevelSelect, setShowLevelSelect] = useState(false);
   const [musicOn, setMusicOnState] = useState<boolean>(() => music.isEnabled());
+  const [musicVol, setMusicVolState] = useState<number>(() => music.getVolume());
+  const [soundsOn, setSoundsOnState] = useState<boolean>(() => sfx.isEnabled());
+  const [soundsVol, setSoundsVolState] = useState<number>(() => sfx.getVolume());
   const toggleMusic = () => {
     const next = !musicOn;
     setMusicOnState(next);
     music.setEnabled(next);
+  };
+  const changeMusicVol = (v: number) => { setMusicVolState(v); music.setVolume(v); };
+  const toggleSounds = () => {
+    const next = !soundsOn;
+    setSoundsOnState(next);
     sfx.setEnabled(next);
   };
-
-  // Ensure SFX stays in sync with the unified audio toggle on first load.
-  useEffect(() => { sfx.setEnabled(music.isEnabled()); }, []);
+  const changeSoundsVol = (v: number) => { setSoundsVolState(v); sfx.setVolume(v); };
 
   const stateRef = useRef<GameState>("start");
   const healthRef = useRef(3);
@@ -1982,6 +1988,7 @@ export function Game() {
         player.x = Math.max(playerMinX(), Math.min(playerMaxX(), player.x));
         // Lane is derived from the continuous position (midpoint = commit)
         player.lane = nearestLaneTo(player.y);
+        sfx.updateMovePos(player.x, player.y);
         player.targetLane = nearestLaneTo(player.targetY);
         if (player.knock < 0) {
           player.knock += dt * 40;
@@ -2167,7 +2174,7 @@ export function Game() {
       if (stateRef.current !== "playing") return;
       tween.active = false;
       const next = Math.max(0, Math.min(2, nearestLaneTo(player.targetY) + dir)) as Lane;
-      if (next !== player.targetLane) sfx.playMoveStart(dir === -1 ? "swipe-up" : "swipe-down");
+      if (next !== player.targetLane) sfx.armMove(dir === -1 ? "swipe-up" : "swipe-down", player.x, player.y);
       player.targetLane = next;
       player.targetY = laneY(next);
       sfx.endMove(dir === -1 ? "swipe-up" : "swipe-down");
@@ -2183,7 +2190,7 @@ export function Game() {
       lastVertDir = dir;
       if (dir === -1) { heldY.up = true; heldY.down = false; }
       else { heldY.down = true; heldY.up = false; }
-      sfx.playMoveStart(dir === -1 ? "up" : "down");
+      sfx.armMove(dir === -1 ? "up" : "down", player.x, player.y);
       // Immediate nudge past the midpoint so a short tap settles one lane away
       const before = nearestLaneTo(player.targetY);
       player.targetY = Math.max(playerMinY(), Math.min(playerMaxY(),
@@ -2222,7 +2229,7 @@ export function Game() {
       if (stateRef.current !== "playing") return;
       const { x, y } = toLocal(clientX, clientY);
       const lane = nearestLaneTo(y);
-      if (lane !== player.targetLane) sfx.playMoveStart("pointer");
+      if (lane !== player.targetLane) sfx.armMove("pointer", player.x, player.y);
       player.targetLane = lane;
       const tx = Math.max(playerMinX(), Math.min(playerMaxX(), x));
       if (smooth) {
@@ -2265,10 +2272,10 @@ export function Game() {
       else if (e.key === "ArrowDown" || e.key === "s") { if (!e.repeat) startVert(1); }
       else if (e.key === "ArrowLeft" || e.key === "a") {
         // Immediate nudge, then continuous movement while held
-        if (!heldX.left) { player.targetX -= W * 0.03; sfx.playMoveStart("left"); }
+        if (!heldX.left) { player.targetX -= W * 0.03; sfx.armMove("left", player.x, player.y); }
         heldX.left = true;
       } else if (e.key === "ArrowRight" || e.key === "d") {
-        if (!heldX.right) { player.targetX += W * 0.03; sfx.playMoveStart("right"); }
+        if (!heldX.right) { player.targetX += W * 0.03; sfx.armMove("right", player.x, player.y); }
         heldX.right = true;
       }
       else if (e.key === "1") { tween.active = false; player.targetLane = 0; player.targetY = laneY(0); }
@@ -2507,6 +2514,17 @@ export function Game() {
                     <path d="M10 20v-6h4v6" />
                   </svg>
                 </button>
+                <button
+                  type="button"
+                  onClick={() => setShowSettings(true)}
+                  aria-label={t("settings")}
+                  className="pointer-events-auto flex h-7 w-7 items-center justify-center rounded-full bg-black/55 text-amber-100 ring-1 ring-amber-200/30 backdrop-blur transition hover:bg-black/70"
+                >
+                  <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                    <circle cx="12" cy="12" r="3.2" />
+                    <path d="M19.4 15a1.7 1.7 0 0 0 .34 1.87l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06A1.7 1.7 0 0 0 15 19.4a1.7 1.7 0 0 0-1 1.55V21a2 2 0 1 1-4 0v-.09A1.7 1.7 0 0 0 9 19.4a1.7 1.7 0 0 0-1.87.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06A1.7 1.7 0 0 0 4.6 15a1.7 1.7 0 0 0-1.55-1H3a2 2 0 1 1 0-4h.09A1.7 1.7 0 0 0 4.6 9a1.7 1.7 0 0 0-.33-1.87l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06A1.7 1.7 0 0 0 9 4.6a1.7 1.7 0 0 0 1-1.55V3a2 2 0 1 1 4 0v.09A1.7 1.7 0 0 0 15 4.6a1.7 1.7 0 0 0 1.87-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06A1.7 1.7 0 0 0 19.4 9v.09a1.7 1.7 0 0 0 1.55 1H21a2 2 0 1 1 0 4h-.09a1.7 1.7 0 0 0-1.51 1Z" />
+                  </svg>
+                </button>
               </div>
               <div className="flex items-center gap-2 rounded-full bg-black/45 px-2.5 py-0.5 text-[10px] font-medium tracking-widest text-amber-100 backdrop-blur">
                 <span className="text-amber-200/70">{t("streak")}</span>
@@ -2722,6 +2740,12 @@ export function Game() {
           }}
           musicOn={musicOn}
           onToggleMusic={toggleMusic}
+          musicVol={musicVol}
+          onChangeMusicVol={changeMusicVol}
+          soundsOn={soundsOn}
+          onToggleSounds={toggleSounds}
+          soundsVol={soundsVol}
+          onChangeSoundsVol={changeSoundsVol}
           t={t}
         />
       )}
@@ -3071,6 +3095,48 @@ function LanguagePromptOverlay({
   );
 }
 
+function AudioRow({
+  label,
+  on,
+  onToggle,
+  value,
+  onChange,
+}: {
+  label: string;
+  on: boolean;
+  onToggle: () => void;
+  value: number;
+  onChange: (v: number) => void;
+}) {
+  return (
+    <div>
+      <button type="button" onClick={onToggle} className="flex w-full items-center justify-between gap-3 text-left">
+        <div>
+          <div className="text-[10px] tracking-[0.3em] text-amber-200/70">{label}</div>
+          <div className="mt-1 text-base text-amber-50">{on ? "ON" : "OFF"}</div>
+        </div>
+        <span
+          className={"relative inline-flex h-5 w-9 items-center rounded-full transition " + (on ? "bg-amber-300/70" : "bg-white/15")}
+          aria-hidden
+        >
+          <span className={"inline-block h-4 w-4 transform rounded-full bg-black/80 transition " + (on ? "translate-x-4" : "translate-x-0.5")} />
+        </span>
+      </button>
+      <input
+        type="range"
+        min={0}
+        max={100}
+        step={1}
+        value={Math.round(value * 100)}
+        disabled={!on}
+        onChange={(e) => onChange(Number(e.target.value) / 100)}
+        aria-label={label + " volume"}
+        className={"mt-3 w-full accent-amber-200 " + (on ? "opacity-100" : "opacity-40")}
+      />
+    </div>
+  );
+}
+
 function SettingsOverlay({
   name,
   language,
@@ -3082,6 +3148,12 @@ function SettingsOverlay({
   onResetAll,
   musicOn,
   onToggleMusic,
+  musicVol,
+  onChangeMusicVol,
+  soundsOn,
+  onToggleSounds,
+  soundsVol,
+  onChangeSoundsVol,
   t,
 }: {
   name: string;
@@ -3094,6 +3166,12 @@ function SettingsOverlay({
   onResetAll: () => void;
   musicOn: boolean;
   onToggleMusic: () => void;
+  musicVol: number;
+  onChangeMusicVol: (v: number) => void;
+  soundsOn: boolean;
+  onToggleSounds: () => void;
+  soundsVol: number;
+  onChangeSoundsVol: (v: number) => void;
   t: (key: UIKey) => string;
 }) {
   const [showLangs, setShowLangs] = useState(false);
@@ -3147,30 +3225,21 @@ function SettingsOverlay({
         )}
       </div>
       <div className="mt-3 w-[280px] max-w-[88vw] rounded-2xl border border-amber-200/25 bg-black/45 p-4 backdrop-blur">
-        <button
-          type="button"
-          onClick={onToggleMusic}
-          className="flex w-full items-center justify-between gap-3 text-left"
-        >
-          <div>
-            <div className="text-[10px] tracking-[0.3em] text-amber-200/70">{t("music")}</div>
-            <div className="mt-1 text-base text-amber-50">{musicOn ? "ON" : "OFF"}</div>
-          </div>
-          <span
-            className={
-              "relative inline-flex h-5 w-9 items-center rounded-full transition " +
-              (musicOn ? "bg-amber-300/70" : "bg-white/15")
-            }
-            aria-hidden
-          >
-            <span
-              className={
-                "inline-block h-4 w-4 transform rounded-full bg-black/80 transition " +
-                (musicOn ? "translate-x-4" : "translate-x-0.5")
-              }
-            />
-          </span>
-        </button>
+        <AudioRow
+          label={t("music")}
+          on={musicOn}
+          onToggle={onToggleMusic}
+          value={musicVol}
+          onChange={onChangeMusicVol}
+        />
+        <div className="my-3 h-px bg-amber-200/15" />
+        <AudioRow
+          label="SOUNDS"
+          on={soundsOn}
+          onToggle={onToggleSounds}
+          value={soundsVol}
+          onChange={onChangeSoundsVol}
+        />
       </div>
       <button
         onClick={onClose}
