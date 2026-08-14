@@ -1954,14 +1954,19 @@ export function Game() {
           // Immediate, continuous vertical input while held (same as X)
           if (dirY !== 0) player.targetY += dirY * V_SPEED() * dt;
           player.targetY = Math.max(playerMinY(), Math.min(playerMaxY(), player.targetY));
-          // Frame-rate independent exponential smoothing -> continuous glide.
-          const kY = 1 - Math.exp(-16 * dt);
+          // Frame-rate independent exponential smoothing. A high rate keeps the
+          // response immediate (no sticky start) while staying continuous.
+          const FOLLOW = 34;
+          const kY = 1 - Math.exp(-FOLLOW * dt);
           player.y += (player.targetY - player.y) * kY;
           // Immediate, continuous horizontal input while held
           if (dirX !== 0) player.targetX += dirX * H_SPEED() * dt;
           player.targetX = Math.max(playerMinX(), Math.min(playerMaxX(), player.targetX));
-          const kX = 1 - Math.exp(-16 * dt);
+          const kX = 1 - Math.exp(-FOLLOW * dt);
           player.x += (player.targetX - player.x) * kX;
+          // Snap out sub-pixel residue so the glide never crawls at the end.
+          if (Math.abs(player.targetX - player.x) < 0.25) player.x = player.targetX;
+          if (Math.abs(player.targetY - player.y) < 0.25) player.y = player.targetY;
         }
         // Spider Web lane lock: vertical position is pinned to the trapped
         // lane (horizontal movement stays free).
