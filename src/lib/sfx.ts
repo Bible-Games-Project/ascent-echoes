@@ -244,6 +244,8 @@ export const sfx = {
   },
   playMove() {
     if (!_enabled) return;
+    resumeIfNeeded();
+    if (playSampleGroup("move", 0.9)) return;
     const c = ctx();
     if (!c) return;
     resumeIfNeeded();
@@ -288,5 +290,20 @@ export const sfx = {
     src.connect(bp).connect(lp).connect(g).connect(c.destination);
     src.start(t, offset);
     src.stop(t + dur + 0.05);
+  },
+
+  /**
+   * Move sound gated by input holds: one clip when a movement input starts,
+   * silence while it is held, a new clip on the next press.
+   * `token` identifies the active input (direction/pointer).
+   */
+  _moveToken: null as string | null,
+  playMoveStart(token: string) {
+    if (this._moveToken === token) return;
+    this._moveToken = token;
+    this.playMove();
+  },
+  endMove(token?: string) {
+    if (token === undefined || this._moveToken === token) this._moveToken = null;
   },
 };
