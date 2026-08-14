@@ -479,6 +479,7 @@ export function Game() {
     const el = canvasRef.current?.parentElement;
     if (!el) return;
     const onDown = (e: PointerEvent) => {
+      sfx.preload();
       const target = e.target as HTMLElement | null;
       if (target && target.closest("button")) sfx.playClick();
     };
