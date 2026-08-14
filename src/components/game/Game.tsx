@@ -386,15 +386,21 @@ export function Game() {
   const devModeRef = useRef(false);
   const [showLevelSelect, setShowLevelSelect] = useState(false);
   const [musicOn, setMusicOnState] = useState<boolean>(() => music.isEnabled());
+  const [musicVol, setMusicVolState] = useState<number>(() => music.getVolume());
+  const [soundsOn, setSoundsOnState] = useState<boolean>(() => sfx.isEnabled());
+  const [soundsVol, setSoundsVolState] = useState<number>(() => sfx.getVolume());
   const toggleMusic = () => {
     const next = !musicOn;
     setMusicOnState(next);
     music.setEnabled(next);
+  };
+  const changeMusicVol = (v: number) => { setMusicVolState(v); music.setVolume(v); };
+  const toggleSounds = () => {
+    const next = !soundsOn;
+    setSoundsOnState(next);
     sfx.setEnabled(next);
   };
-
-  // Ensure SFX stays in sync with the unified audio toggle on first load.
-  useEffect(() => { sfx.setEnabled(music.isEnabled()); }, []);
+  const changeSoundsVol = (v: number) => { setSoundsVolState(v); sfx.setVolume(v); };
 
   const stateRef = useRef<GameState>("start");
   const healthRef = useRef(3);
@@ -1982,6 +1988,7 @@ export function Game() {
         player.x = Math.max(playerMinX(), Math.min(playerMaxX(), player.x));
         // Lane is derived from the continuous position (midpoint = commit)
         player.lane = nearestLaneTo(player.y);
+        sfx.updateMovePos(player.x, player.y);
         player.targetLane = nearestLaneTo(player.targetY);
         if (player.knock < 0) {
           player.knock += dt * 40;
@@ -2167,7 +2174,7 @@ export function Game() {
       if (stateRef.current !== "playing") return;
       tween.active = false;
       const next = Math.max(0, Math.min(2, nearestLaneTo(player.targetY) + dir)) as Lane;
-      if (next !== player.targetLane) sfx.playMoveStart(dir === -1 ? "swipe-up" : "swipe-down");
+      if (next !== player.targetLane) sfx.armMove(dir === -1 ? "swipe-up" : "swipe-down", player.x, player.y);
       player.targetLane = next;
       player.targetY = laneY(next);
       sfx.endMove(dir === -1 ? "swipe-up" : "swipe-down");
@@ -2183,7 +2190,7 @@ export function Game() {
       lastVertDir = dir;
       if (dir === -1) { heldY.up = true; heldY.down = false; }
       else { heldY.down = true; heldY.up = false; }
-      sfx.playMoveStart(dir === -1 ? "up" : "down");
+      sfx.armMove(dir === -1 ? "up" : "down", player.x, player.y);
       // Immediate nudge past the midpoint so a short tap settles one lane away
       const before = nearestLaneTo(player.targetY);
       player.targetY = Math.max(playerMinY(), Math.min(playerMaxY(),
@@ -2222,7 +2229,7 @@ export function Game() {
       if (stateRef.current !== "playing") return;
       const { x, y } = toLocal(clientX, clientY);
       const lane = nearestLaneTo(y);
-      if (lane !== player.targetLane) sfx.playMoveStart("pointer");
+      if (lane !== player.targetLane) sfx.armMove("pointer", player.x, player.y);
       player.targetLane = lane;
       const tx = Math.max(playerMinX(), Math.min(playerMaxX(), x));
       if (smooth) {
@@ -2265,10 +2272,10 @@ export function Game() {
       else if (e.key === "ArrowDown" || e.key === "s") { if (!e.repeat) startVert(1); }
       else if (e.key === "ArrowLeft" || e.key === "a") {
         // Immediate nudge, then continuous movement while held
-        if (!heldX.left) { player.targetX -= W * 0.03; sfx.playMoveStart("left"); }
+        if (!heldX.left) { player.targetX -= W * 0.03; sfx.armMove("left", player.x, player.y); }
         heldX.left = true;
       } else if (e.key === "ArrowRight" || e.key === "d") {
-        if (!heldX.right) { player.targetX += W * 0.03; sfx.playMoveStart("right"); }
+        if (!heldX.right) { player.targetX += W * 0.03; sfx.armMove("right", player.x, player.y); }
         heldX.right = true;
       }
       else if (e.key === "1") { tween.active = false; player.targetLane = 0; player.targetY = laneY(0); }
