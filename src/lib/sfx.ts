@@ -61,9 +61,32 @@ export const sfx = {
     try { localStorage.setItem(STORAGE_KEY, on ? "1" : "0"); } catch { /* ignore */ }
   },
 
+  /** Decode the recorded samples up front so triggers are instant. */
+  preload() {
+    resumeIfNeeded();
+    void import("./sfxSamples").then((m) => m.preloadSamples());
+  },
+
+  /** Level advance jingle. */
+  playLevelUp() {
+    if (!_enabled) return;
+    resumeIfNeeded();
+    void import("./sfxSamples").then((m) => m.playSample("levelChange", 0.9));
+  },
+
+  /** Streak start stinger. */
+  playStreakStart() {
+    if (!_enabled) return;
+    resumeIfNeeded();
+    void import("./sfxSamples").then((m) => m.playSample("streakStart", 0.9));
+  },
+
   /** Short, clean, subtle tap / pop for UI buttons. */
   playClick() {
     if (!_enabled) return;
+    resumeIfNeeded();
+    if (_samples?.playSample("button", 0.9)) return;
+    void import("./sfxSamples").then((m) => { _samples = m; m.playSample("button", 0.9); });
     const c = ctx();
     if (!c) return;
     resumeIfNeeded();
