@@ -5,7 +5,7 @@
 // with no immediate repeats) — nothing else in the game has to change.
 
 import { assetUrl } from "@/lib/assetUrl";
-import { getAudioContext } from "@/lib/sfx";
+import { getAudioContext, getSfxDestination } from "@/lib/sfx";
 
 import move1 from "@/assets/sfx/Move_1.mp3.asset.json";
 import move2 from "@/assets/sfx/Move_2.mp3.asset.json";
@@ -70,7 +70,7 @@ function playUrl(url: string, gain: number): boolean {
   src.buffer = buf;
   const g = c.createGain();
   g.gain.value = gain;
-  src.connect(g).connect(c.destination);
+  src.connect(g).connect(getSfxDestination() ?? c.destination);
   src.start();
   return true;
 }

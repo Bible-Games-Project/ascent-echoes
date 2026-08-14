@@ -18,15 +18,51 @@ function getCtx(): AudioContext | null {
 
 let _ctx: AudioContext | null = null;
 let _enabled = true;
+let _volume = 1;
+let _master: GainNode | null = null;
+
+const VOLUME_KEY = "btr_sfx_volume";
 
 try {
   const v = localStorage.getItem(STORAGE_KEY);
   _enabled = v === null ? true : v === "1";
 } catch { /* ignore */ }
 
+try {
+  const v = localStorage.getItem(VOLUME_KEY);
+  if (v !== null) {
+    const n = Number(v);
+    if (Number.isFinite(n)) _volume = Math.min(1, Math.max(0, n));
+  }
+} catch { /* ignore */ }
+
 function ctx(): AudioContext | null {
   if (!_ctx) _ctx = getCtx();
   return _ctx;
+}
+
+/**
+ * Master SFX gain node. Every effect (sample or synth) routes through it so
+ * the sounds toggle and the sounds volume slider apply globally.
+ */
+export function getSfxDestination(): AudioNode | null {
+  const c = ctx();
+  if (!c) return null;
+  if (!_master) {
+    _master = c.createGain();
+    _master.connect(dest(c));
+  }
+  _master.gain.value = _enabled ? _volume : 0;
+  return _master;
+}
+
+function dest(c: AudioContext): AudioNode {
+  return getSfxDestination() ?? c.destination;
+}
+
+function applyMaster() {
+  if (!_master) return;
+  _master.gain.value = _enabled ? _volume : 0;
 }
 
 /**
@@ -61,6 +97,15 @@ export const sfx = {
   setEnabled(on: boolean) {
     _enabled = on;
     try { localStorage.setItem(STORAGE_KEY, on ? "1" : "0"); } catch { /* ignore */ }
+    applyMaster();
+  },
+
+  /** Sound-effects volume, 0..1. Remembered across sessions. */
+  getVolume() { return _volume; },
+  setVolume(v: number) {
+    _volume = Math.min(1, Math.max(0, v));
+    try { localStorage.setItem(VOLUME_KEY, String(_volume)); } catch { /* ignore */ }
+    applyMaster();
   },
 
   /** Decode the recorded samples up front so triggers are instant. */
@@ -99,7 +144,7 @@ export const sfx = {
     o.frequency.exponentialRampToValueAtTime(440, t + 0.06);
     g.gain.setValueAtTime(0.18, t);
     g.gain.exponentialRampToValueAtTime(0.001, t + 0.06);
-    o.connect(g).connect(c.destination);
+    o.connect(g).connect(dest(c));
     o.start(t);
     o.stop(t + 0.07);
   },
@@ -123,7 +168,7 @@ export const sfx = {
     g1.gain.setValueAtTime(0, t);
     g1.gain.linearRampToValueAtTime(0.216, t + 0.02);
     g1.gain.exponentialRampToValueAtTime(0.001, t + 0.35);
-    o1.connect(g1).connect(c.destination);
+    o1.connect(g1).connect(dest(c));
     o1.start(t);
     o1.stop(t + 0.36);
 
@@ -135,7 +180,7 @@ export const sfx = {
     g2.gain.setValueAtTime(0, t + 0.08);
     g2.gain.linearRampToValueAtTime(0.144, t + 0.10);
     g2.gain.exponentialRampToValueAtTime(0.001, t + 0.40);
-    o2.connect(g2).connect(c.destination);
+    o2.connect(g2).connect(dest(c));
     o2.start(t + 0.08);
     o2.stop(t + 0.41);
   },
@@ -158,7 +203,7 @@ export const sfx = {
     g.gain.setValueAtTime(0, t);
     g.gain.linearRampToValueAtTime(0.225, t + 0.02);
     g.gain.exponentialRampToValueAtTime(0.001, t + 0.22);
-    o.connect(g).connect(c.destination);
+    o.connect(g).connect(dest(c));
     o.start(t);
     o.stop(t + 0.23);
   },
@@ -180,7 +225,7 @@ export const sfx = {
     g.gain.setValueAtTime(0, t);
     g.gain.linearRampToValueAtTime(0.18, t + 0.02);
     g.gain.exponentialRampToValueAtTime(0.001, t + 0.28);
-    o.connect(g).connect(c.destination);
+    o.connect(g).connect(dest(c));
     o.start(t);
     o.stop(t + 0.30);
 
@@ -192,7 +237,7 @@ export const sfx = {
     g2.gain.setValueAtTime(0, t + 0.06);
     g2.gain.linearRampToValueAtTime(0.12, t + 0.08);
     g2.gain.exponentialRampToValueAtTime(0.001, t + 0.30);
-    o2.connect(g2).connect(c.destination);
+    o2.connect(g2).connect(dest(c));
     o2.start(t + 0.06);
     o2.stop(t + 0.32);
   },
@@ -215,7 +260,7 @@ export const sfx = {
     g.gain.setValueAtTime(0, t);
     g.gain.linearRampToValueAtTime(0.18, t + 0.02);
     g.gain.exponentialRampToValueAtTime(0.001, t + 0.30);
-    o.connect(g).connect(c.destination);
+    o.connect(g).connect(dest(c));
     o.start(t);
     o.stop(t + 0.32);
   },
@@ -245,7 +290,7 @@ export const sfx = {
   playMove() {
     if (!_enabled) return;
     resumeIfNeeded();
-    if (playSampleGroup("move", 0.9)) return;
+    if (playSampleGroup("move", 0.675)) return;
     const c = ctx();
     if (!c) return;
     resumeIfNeeded();
@@ -287,7 +332,7 @@ export const sfx = {
     g.gain.linearRampToValueAtTime(peak * 0.6, t + dur * 0.6);
     g.gain.exponentialRampToValueAtTime(0.0008, t + dur);
 
-    src.connect(bp).connect(lp).connect(g).connect(c.destination);
+    src.connect(bp).connect(lp).connect(g).connect(dest(c));
     src.start(t, offset);
     src.stop(t + dur + 0.05);
   },
@@ -298,12 +343,42 @@ export const sfx = {
    * `token` identifies the active input (direction/pointer).
    */
   _moveToken: null as string | null,
+  _movePending: false,
+  _armX: 0,
+  _armY: 0,
+  /**
+   * Arm a movement sound for an input press. The clip only plays once the
+   * player has actually travelled a meaningful distance, so blocked inputs
+   * (already at a boundary) stay silent. Only one sound is ever armed at a
+   * time, so diagonal input produces a single clip.
+   */
+  armMove(token: string, x: number, y: number) {
+    if (this._moveToken === token) return;
+    this._moveToken = token;
+    if (this._movePending) return;
+    this._movePending = true;
+    this._armX = x;
+    this._armY = y;
+  },
+  /** Report the player's current position; plays the armed clip if it moved. */
+  updateMovePos(x: number, y: number) {
+    if (!this._movePending) return;
+    const dx = x - this._armX;
+    const dy = y - this._armY;
+    if (dx * dx + dy * dy >= 14 * 14) {
+      this._movePending = false;
+      this.playMove();
+    }
+  },
   playMoveStart(token: string) {
     if (this._moveToken === token) return;
     this._moveToken = token;
     this.playMove();
   },
   endMove(token?: string) {
-    if (token === undefined || this._moveToken === token) this._moveToken = null;
+    if (token === undefined || this._moveToken === token) {
+      this._moveToken = null;
+      this._movePending = false;
+    }
   },
 };
