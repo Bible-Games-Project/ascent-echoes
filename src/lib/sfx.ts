@@ -50,7 +50,7 @@ export function getSfxDestination(): AudioNode | null {
   if (!c) return null;
   if (!_master) {
     _master = c.createGain();
-    _master.connect(dest(c));
+    _master.connect(c.destination);
   }
   _master.gain.value = _enabled ? _volume : 0;
   return _master;
