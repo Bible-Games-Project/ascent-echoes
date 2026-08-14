@@ -2255,6 +2255,7 @@ export function Game() {
       const t = e.changedTouches[0];
       const dy = t.clientY - touchStartY;
       const dt2 = performance.now() - touchStartTime;
+      sfx.endMove("pointer");
       if (dt2 < 400 && Math.abs(dy) > 40) moveLane(dy < 0 ? -1 : 1);
     };
     const onKey = (e: KeyboardEvent) => {
