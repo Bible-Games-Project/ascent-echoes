@@ -4,6 +4,8 @@
 
 const STORAGE_KEY = "btr_sfx_enabled";
 
+import { playSample, playSampleGroup, preloadSamples } from "./sfxSamples";
+
 function getCtx(): AudioContext | null {
   try {
     const Ctx = (window as any).AudioContext || (window as any).webkitAudioContext;
@@ -64,29 +66,28 @@ export const sfx = {
   /** Decode the recorded samples up front so triggers are instant. */
   preload() {
     resumeIfNeeded();
-    void import("./sfxSamples").then((m) => m.preloadSamples());
+    preloadSamples();
   },
 
   /** Level advance jingle. */
   playLevelUp() {
     if (!_enabled) return;
     resumeIfNeeded();
-    void import("./sfxSamples").then((m) => m.playSample("levelChange", 0.9));
+    playSample("levelChange", 0.9);
   },
 
   /** Streak start stinger. */
   playStreakStart() {
     if (!_enabled) return;
     resumeIfNeeded();
-    void import("./sfxSamples").then((m) => m.playSample("streakStart", 0.9));
+    playSample("streakStart", 0.9);
   },
 
   /** Short, clean, subtle tap / pop for UI buttons. */
   playClick() {
     if (!_enabled) return;
     resumeIfNeeded();
-    if (_samples?.playSample("button", 0.9)) return;
-    void import("./sfxSamples").then((m) => { _samples = m; m.playSample("button", 0.9); });
+    if (playSample("button", 0.9)) return;
     const c = ctx();
     if (!c) return;
     resumeIfNeeded();
@@ -103,9 +104,11 @@ export const sfx = {
     o.stop(t + 0.07);
   },
 
-  /** Pleasant two-tone chime for correct answers. */
-  playCorrect() {
+  /** Correct answer. Recorded stinger differs when the player is on a streak. */
+  playCorrect(onStreak = false) {
     if (!_enabled) return;
+    resumeIfNeeded();
+    if (playSample(onStreak ? "questionGoodStreak" : "questionGood", 0.9)) return;
     const c = ctx();
     if (!c) return;
     resumeIfNeeded();
