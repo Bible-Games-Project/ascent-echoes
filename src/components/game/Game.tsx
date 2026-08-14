@@ -2220,7 +2220,7 @@ export function Game() {
       if (stateRef.current !== "playing") return;
       const { x, y } = toLocal(clientX, clientY);
       const lane = nearestLaneTo(y);
-      if (lane !== player.targetLane) sfx.playMove();
+      if (lane !== player.targetLane) sfx.playMoveStart("pointer");
       player.targetLane = lane;
       const tx = Math.max(playerMinX(), Math.min(playerMaxX(), x));
       if (smooth) {
@@ -2262,10 +2262,10 @@ export function Game() {
       else if (e.key === "ArrowDown" || e.key === "s") { if (!e.repeat) startVert(1); }
       else if (e.key === "ArrowLeft" || e.key === "a") {
         // Immediate nudge, then continuous movement while held
-        if (!heldX.left) player.targetX -= W * 0.02;
+        if (!heldX.left) { player.targetX -= W * 0.03; sfx.playMoveStart("left"); }
         heldX.left = true;
       } else if (e.key === "ArrowRight" || e.key === "d") {
-        if (!heldX.right) player.targetX += W * 0.02;
+        if (!heldX.right) { player.targetX += W * 0.03; sfx.playMoveStart("right"); }
         heldX.right = true;
       }
       else if (e.key === "1") { tween.active = false; player.targetLane = 0; player.targetY = laneY(0); }
@@ -2273,14 +2273,15 @@ export function Game() {
       else if (e.key === "3") { tween.active = false; player.targetLane = 2; player.targetY = laneY(2); }
     };
     const onKeyUpMove = (e: KeyboardEvent) => {
-      if (e.key === "ArrowLeft" || e.key === "a") heldX.left = false;
-      else if (e.key === "ArrowRight" || e.key === "d") heldX.right = false;
+      if (e.key === "ArrowLeft" || e.key === "a") { heldX.left = false; sfx.endMove("left"); }
+      else if (e.key === "ArrowRight" || e.key === "d") { heldX.right = false; sfx.endMove("right"); }
       else if (e.key === "ArrowUp" || e.key === "w") stopVert(-1);
       else if (e.key === "ArrowDown" || e.key === "s") stopVert(1);
     };
     const onBlurMove = () => {
       heldX.left = false; heldX.right = false;
       heldY.up = false; heldY.down = false; clearVertHold();
+      sfx.endMove();
     };
     const onKeyDownTurbo = (e: KeyboardEvent) => {
       if (!isTurboKey(e.key)) return;
