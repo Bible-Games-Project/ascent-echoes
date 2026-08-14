@@ -2316,10 +2316,10 @@ export function Game() {
         clearTurboHold();
       }
     };
-    const onMouseUpTurbo = () => { mouseDragging = false; releaseTurbo(); };
+    const onMouseUpTurbo = () => { mouseDragging = false; sfx.endMove("pointer"); releaseTurbo(); };
     const onMouseLeaveTurbo = () => { mouseDragging = false; releaseTurbo(); };
     const onTouchStartTurbo = () => armTurboHold();
-    const onTouchEndTurbo = () => releaseTurbo();
+    const onTouchEndTurbo = () => { sfx.endMove("pointer"); releaseTurbo(); };
 
     canvas.addEventListener("touchstart", onTouchStart, { passive: true });
     canvas.addEventListener("touchend", onTouchEnd, { passive: true });
