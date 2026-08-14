@@ -140,9 +140,11 @@ export const sfx = {
     o2.stop(t + 0.41);
   },
 
-  /** Soft, non-aggressive muted tone for wrong answers. */
+  /** Wrong answer — random wood-impact clip once those samples exist. */
   playWrong() {
     if (!_enabled) return;
+    resumeIfNeeded();
+    if (playSampleGroup("wood", 0.9)) return;
     const c = ctx();
     if (!c) return;
     resumeIfNeeded();
@@ -161,7 +163,7 @@ export const sfx = {
     o.stop(t + 0.23);
   },
 
-  /** Uplifting sparkle chime for positive bonuses. */
+  /** Uplifting sparkle chime for positive bonuses (any positive bonus). */
   playBonus() {
     if (!_enabled) return;
     const c = ctx();
@@ -195,9 +197,11 @@ export const sfx = {
     o2.stop(t + 0.32);
   },
 
-  /** Soft muted drop for negative bonuses / penalties. */
+  /** Negative bonus / penalty — generic for every bad bonus. */
   playPenalty() {
     if (!_enabled) return;
+    resumeIfNeeded();
+    if (playSample("bonusBad", 0.9)) return;
     const c = ctx();
     if (!c) return;
     resumeIfNeeded();
