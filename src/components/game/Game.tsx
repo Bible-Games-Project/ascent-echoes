@@ -1899,6 +1899,7 @@ export function Game() {
         themeBlend = 0;
         setLevel(nextLvl);
         buildLevel(nextLvl);
+        sfx.playLevelUp();
         if (!devModeRef.current) recordLevel(nextLvl);
         music.playLevel(nextLvl);
         return;
