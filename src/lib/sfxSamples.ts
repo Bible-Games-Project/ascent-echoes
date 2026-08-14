@@ -17,6 +17,11 @@ import levelChangeSnd from "@/assets/sfx/Level_Change.mp3.asset.json";
 import streakStartSnd from "@/assets/sfx/Streak_Start.mp3.asset.json";
 import questionGoodSnd from "@/assets/sfx/Question_Good.mp3.asset.json";
 import questionGoodStreakSnd from "@/assets/sfx/Question_Good_Streak.mp3.asset.json";
+import wood1 from "@/assets/sfx/Wood_1.mp3.asset.json";
+import wood2 from "@/assets/sfx/Wood_2.mp3.asset.json";
+import wood3 from "@/assets/sfx/Wood_3.mp3.asset.json";
+import wood4 from "@/assets/sfx/Wood_4.mp3.asset.json";
+import wood5 from "@/assets/sfx/Wood_5.mp3.asset.json";
 
 /** Single-file sounds. */
 const SOUND_URLS: Record<string, string> = {
@@ -28,14 +33,10 @@ const SOUND_URLS: Record<string, string> = {
   questionGoodStreak: questionGoodStreakSnd.url,
 };
 
-/**
- * Random pools. A pool never plays the same clip twice in a row.
- * `wood` (wrong answer / ark collision) is intentionally empty until the 5
- * wood clips are supplied — callers fall back to the synth sound meanwhile.
- */
+/** Random pools. A pool never plays the same clip twice in a row. */
 const SOUND_GROUPS: Record<string, string[]> = {
   move: [move1.url, move2.url, move3.url, move4.url],
-  wood: [],
+  wood: [wood1.url, wood2.url, wood3.url, wood4.url, wood5.url],
 };
 
 const buffers = new Map<string, AudioBuffer>();
