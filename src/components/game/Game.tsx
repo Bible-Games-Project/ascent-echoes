@@ -2816,7 +2816,7 @@ export function Game() {
 function Overlay({ children, scrollable }: { children: React.ReactNode; scrollable?: boolean }) {
   if (scrollable) {
     return (
-      <div className="absolute inset-0 z-20 overflow-y-auto overscroll-contain bg-black/40 backdrop-blur-sm animate-fade-in">
+      <div className="absolute inset-0 z-20 overflow-y-auto overscroll-contain scrollbar-none bg-black/40 backdrop-blur-sm animate-fade-in" tabIndex={-1}>
         <div className="flex min-h-full flex-col items-center justify-center px-4 py-8">
           {children}
         </div>
