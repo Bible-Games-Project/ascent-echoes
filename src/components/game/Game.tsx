@@ -3286,6 +3286,7 @@ function SettingsOverlay({
         )}
       </div>
       )}
+      </div>
     </div>
   );
 }
