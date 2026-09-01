@@ -35,7 +35,7 @@ export function AvatarsOverlay({ equipped, onEquip, onClose, title, lang, t }: P
   };
 
   return (
-    <div className="absolute inset-0 z-40 overflow-y-auto overscroll-contain bg-black/75 backdrop-blur-md animate-fade-in">
+    <div className="absolute inset-0 z-40 overflow-y-auto overscroll-contain scrollbar-none bg-black/75 backdrop-blur-md animate-fade-in" tabIndex={-1}>
       <div className="flex min-h-full flex-col items-center justify-center px-4 py-6">
       <h2 className="text-xl font-light tracking-[0.25em] text-amber-50">{title}</h2>
       <p className="mt-1 text-[10px] tracking-[0.3em] text-amber-200/70">

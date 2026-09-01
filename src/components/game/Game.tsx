@@ -3342,7 +3342,7 @@ function detectPlatformUrl(g: MoreGame): string {
 
 function MoreGamesOverlay({ onClose, t }: { onClose: () => void; t: (key: UIKey) => string }) {
   return (
-    <div className="absolute inset-0 z-40 flex flex-col items-center overflow-y-auto bg-black/70 backdrop-blur-md animate-fade-in px-4">
+    <div className="absolute inset-0 z-40 flex flex-col items-center overflow-y-auto overscroll-contain scrollbar-none bg-black/70 backdrop-blur-md animate-fade-in px-4" tabIndex={-1}>
       <div className="flex flex-col items-center m-auto py-8">
         <h2 className="text-2xl font-light tracking-[0.25em] text-amber-50">{t("moreGames")}</h2>
         <p className="mt-1 text-[10px] tracking-[0.3em] text-amber-200/70">{t("bibleGamesProject")}</p>
