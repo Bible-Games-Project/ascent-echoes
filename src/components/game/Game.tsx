@@ -2781,7 +2781,7 @@ export function Game() {
       )}
 
       {showLeaderboard && (
-        <Overlay>
+        <Overlay scrollable>
           <h2 className="text-2xl font-light tracking-[0.25em] text-amber-50">{t("leaderboard")}</h2>
           <p className="mt-1 text-[10px] tracking-[0.3em] text-amber-200/70">{t("top10Worldwide")}</p>
           <LeaderboardList entries={topTen} t={t} selfAvatar={equippedAvatar} />
@@ -2816,7 +2816,7 @@ export function Game() {
 function Overlay({ children, scrollable }: { children: React.ReactNode; scrollable?: boolean }) {
   if (scrollable) {
     return (
-      <div className="absolute inset-0 z-20 overflow-y-auto overscroll-contain bg-black/40 backdrop-blur-sm animate-fade-in">
+      <div className="absolute inset-0 z-20 overflow-y-auto overscroll-contain scrollbar-none bg-black/40 backdrop-blur-sm animate-fade-in" tabIndex={-1}>
         <div className="flex min-h-full flex-col items-center justify-center px-4 py-8">
           {children}
         </div>
@@ -3176,7 +3176,8 @@ function SettingsOverlay({
 }) {
   const [showLangs, setShowLangs] = useState(false);
   return (
-    <div className="absolute inset-0 z-30 flex flex-col items-center justify-center bg-black/60 backdrop-blur-md animate-fade-in">
+    <div className="absolute inset-0 z-30 overflow-y-auto overscroll-contain scrollbar-none bg-black/60 backdrop-blur-md animate-fade-in" tabIndex={-1}>
+      <div className="flex min-h-full flex-col items-center justify-center px-4 py-6">
       <h2 className="text-xl font-light tracking-[0.25em] text-amber-50">{t("settings")}</h2>
       <div className="mt-5 w-[280px] max-w-[88vw] rounded-2xl border border-amber-200/25 bg-black/45 p-4 backdrop-blur">
         <div className="flex items-center justify-between">
@@ -3285,6 +3286,7 @@ function SettingsOverlay({
         )}
       </div>
       )}
+      </div>
     </div>
   );
 }
@@ -3340,7 +3342,7 @@ function detectPlatformUrl(g: MoreGame): string {
 
 function MoreGamesOverlay({ onClose, t }: { onClose: () => void; t: (key: UIKey) => string }) {
   return (
-    <div className="absolute inset-0 z-40 flex flex-col items-center overflow-y-auto bg-black/70 backdrop-blur-md animate-fade-in px-4">
+    <div className="absolute inset-0 z-40 flex flex-col items-center overflow-y-auto overscroll-contain scrollbar-none bg-black/70 backdrop-blur-md animate-fade-in px-4" tabIndex={-1}>
       <div className="flex flex-col items-center m-auto py-8">
         <h2 className="text-2xl font-light tracking-[0.25em] text-amber-50">{t("moreGames")}</h2>
         <p className="mt-1 text-[10px] tracking-[0.3em] text-amber-200/70">{t("bibleGamesProject")}</p>
