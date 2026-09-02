@@ -63,7 +63,7 @@ const SOURCES: Record<AvatarId, string> = {
 
 const cache = new Map<AvatarId, HTMLImageElement>();
 
-function image(id: AvatarId): HTMLImageElement | null {
+function loadImage(id: AvatarId): HTMLImageElement | null {
   if (typeof window === "undefined") return null;
   let img = cache.get(id);
   if (!img) {
@@ -72,12 +72,27 @@ function image(id: AvatarId): HTMLImageElement | null {
     img.src = assetUrl(SOURCES[id]);
     cache.set(id, img);
   }
+  return img;
+}
+
+function image(id: AvatarId): HTMLImageElement | null {
+  const img = loadImage(id);
+  if (!img) return null;
   return img.complete && img.naturalWidth > 0 ? img : null;
 }
 
 /** Warm the image cache so the first frame already has artwork. */
-export function preloadAvatars() {
-  for (const id of Object.keys(SOURCES) as AvatarId[]) image(id);
+export function preloadAvatars(): Promise<void> {
+  const pending = (Object.keys(SOURCES) as AvatarId[]).map(async (id) => {
+    const img = loadImage(id);
+    if (!img || (img.complete && img.naturalWidth > 0)) return;
+    try {
+      await img.decode();
+    } catch {
+      // A later render retries naturally; never substitute legacy artwork.
+    }
+  });
+  return Promise.all(pending).then(() => undefined);
 }
 
 // ---------- particle effects ----------
@@ -344,12 +359,6 @@ export function drawAvatarBody(
     ctx.filter = "saturate(0.62) brightness(1.32) contrast(0.96)";
     ctx.drawImage(img, -w / 2, -h / 2, w, h);
     ctx.filter = "none";
-  } else {
-    ctx.globalAlpha = alpha * 0.35;
-    ctx.fillStyle = "rgba(255,240,210,0.6)";
-    ctx.beginPath();
-    ctx.ellipse(0, 0, w * 0.35, h * 0.35, 0, 0, Math.PI * 2);
-    ctx.fill();
   }
 
   ctx.restore();

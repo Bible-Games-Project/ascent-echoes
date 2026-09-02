@@ -1,6 +1,5 @@
 import { useEffect, useRef, useState } from "react";
 import didacticJesusImg from "@/assets/didactic-jesus.png.asset.json";
-import boatImg from "@/assets/ark.png.asset.json";
 import arkLevel1Img from "@/assets/ark-level-1.png.asset.json";
 import arkLevel2Img from "@/assets/ark-level-2.png.asset.json";
 import arkLevel3Img from "@/assets/ark-level-3.png.asset.json";
@@ -50,7 +49,7 @@ import {
   type AvatarId,
 } from "@/lib/avatars";
 import { PlayerAvatar as AvatarIcon } from "./PlayerAvatar";
-import { drawAvatarBody } from "./avatarRender";
+import { drawAvatarBody, preloadAvatars } from "./avatarRender";
 import { motionFor, scaleMultiplierFor } from "./avatarMotion";
 import { AvatarsOverlay } from "./AvatarsOverlay";
 import { assetUrl } from "@/lib/assetUrl";
@@ -67,71 +66,9 @@ import {
 } from "@/lib/leaderboard";
 
 // ----- Ark sprite -----
-// The artwork's ornate prow faces left, which is the travel direction.
 // Normalized bounds of the cream text plaque inside the artwork.
 const BOAT_PLAQUE = { x0: 0.16, x1: 0.92, y0: 0.44, y1: 0.79 };
-let boatSprite: HTMLImageElement | null = null;
-let boatSpriteReady = false;
-function getBoatSprite(): HTMLImageElement | null {
-  if (typeof window === "undefined") return null;
-  if (!boatSprite) {
-    const img = new Image();
-    img.onload = () => { boatSpriteReady = true; };
-    img.src = assetUrl(boatImg.url);
-    boatSprite = img;
-  }
-  return boatSpriteReady ? boatSprite : null;
-}
-
-// ----- Per-level ark colour variants -----
-// The artwork is first reduced to a proper grayscale master (perceptual
-// luminance, so shadows / midtones / highlights keep their value structure)
-// and then re-coloured through value ramps. Each level gets a dominant,
-// mostly-monochromatic family plus a small complementary accent applied to the
-// roof, trim and windows (the warm-red regions of the original artwork).
-type Ramp = [string, string, string, string];
-type ArkPalette = { dom: Ramp; accent: Ramp };
-const ARK_PALETTES: ArkPalette[] = [
-  // 1 Desert sunset — dusty plum monochrome, warm gold accents
-  { dom: ["#3b2540", "#6d4a68", "#a98ba6", "#e6d6e4"], accent: ["#8a5a1e", "#c68a35", "#e8b866", "#f7e0ad"] },
-  // 2 Summer forest — soft sage/green, coral accents
-  { dom: ["#22412f", "#4c7a58", "#8fb894", "#dceadb"], accent: ["#8f3f38", "#c47164", "#e39d8c", "#f6d6c9"] },
-  // 3 Summer sea — pastel blue, warm sand accents
-  { dom: ["#1e3a52", "#3f6d92", "#8ab3cf", "#dceaf3"], accent: ["#8a6423", "#c39348", "#e5bd7c", "#f7e3bd"] },
-  // 4 Autumn forest — deep teal, amber accents
-  { dom: ["#123536", "#2f6163", "#78a5a3", "#d6e8e4"], accent: ["#8c4a17", "#c47b2c", "#e6a95c", "#f7dcac"] },
-  // 5 Autumn meadow — warm clay/terracotta, sage accents
-  { dom: ["#402318", "#7a4632", "#b5836a", "#eddbcd"], accent: ["#3f5a3a", "#6d8c60", "#a3bd93", "#dcead0"] },
-  // 6 Winter forest — icy pale blue, soft rose accents
-  { dom: ["#28394f", "#546e8c", "#9db4c9", "#e6eff6"], accent: ["#8a4550", "#bd7480", "#dda2a6", "#f5dade"] },
-  // 7 Winter mountain — lavender slate, pale gold accents
-  { dom: ["#2b2d43", "#565a7d", "#9b9fbc", "#e6e7f1"], accent: ["#836a2c", "#b89a52", "#dcc084", "#f4e6c2"] },
-  // 8 Spring forest — fresh mint, soft rose accents
-  { dom: ["#22422f", "#4f8560", "#96c3a1", "#e0f0e2"], accent: ["#8e4353", "#c07484", "#e0a2ab", "#f6dbdf"] },
-  // 9 Spring meadow — lavender/violet, soft gold accents
-  { dom: ["#33244a", "#61497f", "#a08cbb", "#e8dff2"], accent: ["#87682a", "#bb954c", "#dfbd7d", "#f6e5bd"] },
-  // 10 Night sky — indigo, warm lamplight gold accents
-  { dom: ["#1c2547", "#3d4b7d", "#7f8cb6", "#dbe2f2"], accent: ["#8a6520", "#c49543", "#e8c176", "#f8e6b6"] },
-];
-
-const hexRgb = (hex: string): [number, number, number] => [
-  parseInt(hex.slice(1, 3), 16),
-  parseInt(hex.slice(3, 5), 16),
-  parseInt(hex.slice(5, 7), 16),
-];
-// Sample a 4-stop ramp at value v (0 = deepest shadow, 1 = brightest highlight).
-const rampAt = (stops: [number, number, number][], v: number): [number, number, number] => {
-  const t = Math.min(1, Math.max(0, v)) * (stops.length - 1);
-  const i = Math.min(stops.length - 2, Math.floor(t));
-  const f = t - i;
-  const a = stops[i], b = stops[i + 1];
-  return [a[0] + (b[0] - a[0]) * f, a[1] + (b[1] - a[1]) * f, a[2] + (b[2] - a[2]) * f];
-};
-
-const arkVariants = new Map<number, HTMLCanvasElement>();
-
-// Levels 1-10 use dedicated hand-made artwork instead of the recoloured
-// grayscale master. Everything else (size, motion, plaque mapping) is unchanged.
+// Levels 1-10 use dedicated hand-made artwork exclusively.
 const arkOverrideUrls: Record<number, string> = {
   1: arkLevel1Img.url,
   2: arkLevel2Img.url,
@@ -161,71 +98,7 @@ function getArkOverride(level: number): CanvasImageSource | null {
 }
 
 function getArkSprite(level: number): CanvasImageSource | null {
-  const override = getArkOverride(level);
-  if (override) return override;
-  const base = getBoatSprite();
-  if (!base) return null;
-  const idx = Math.min(Math.max(1, level), 10) - 1;
-  const cached = arkVariants.get(idx);
-  if (cached) return cached;
-  const w = base.naturalWidth || base.width;
-  const h = base.naturalHeight || base.height;
-  if (!w || !h) return base;
-  const cv = document.createElement("canvas");
-  cv.width = w; cv.height = h;
-  const c = cv.getContext("2d", { willReadFrequently: true });
-  if (!c) return base;
-  c.drawImage(base, 0, 0, w, h);
-  let img: ImageData;
-  try {
-    img = c.getImageData(0, 0, w, h);
-  } catch {
-    // Cross-origin canvas — keep the untouched artwork rather than failing.
-    return base;
-  }
-  const pal = ARK_PALETTES[idx];
-  const domStops = pal.dom.map(hexRgb);
-  const accStops = pal.accent.map(hexRgb);
-  const d = img.data;
-  for (let i = 0; i < d.length; i += 4) {
-    const a = d[i + 3];
-    if (a === 0) continue;
-    const r = d[i], g = d[i + 1], b = d[i + 2];
-    // Grayscale master: perceptual luminance with a gentle S-curve so the
-    // shadows stay deep and the highlights stay luminous.
-    const lum = (0.2126 * r + 0.7152 * g + 0.0722 * b) / 255;
-    const v = Math.min(1, Math.max(0, lum * 1.06 - 0.03));
-    const val = v * v * (3 - 2 * v) * 0.35 + v * 0.65;
-    // Accent mask: warm-red family of the original (roof, trim, windows).
-    const mx = Math.max(r, g, b), mn = Math.min(r, g, b);
-    const sat = mx === 0 ? 0 : (mx - mn) / mx;
-    let hue = 0;
-    if (mx !== mn) {
-      const dl = mx - mn;
-      if (mx === r) hue = ((g - b) / dl) % 6;
-      else if (mx === g) hue = (b - r) / dl + 2;
-      else hue = (r - g) / dl + 4;
-      hue *= 60;
-      if (hue < 0) hue += 360;
-    }
-    const isAccent = sat > 0.35 && (hue < 16 || hue > 348);
-    const out = rampAt(isAccent ? accStops : domStops, val);
-    // Near-neutral areas (the cream plaque) keep a very light, desaturated
-    // version of the family so the answer text stays highly readable.
-    if (!isAccent && sat < 0.16) {
-      const pale = 235 * val + 20;
-      d[i] = out[0] * 0.25 + pale * 0.75;
-      d[i + 1] = out[1] * 0.25 + pale * 0.75;
-      d[i + 2] = out[2] * 0.25 + pale * 0.75;
-    } else {
-      d[i] = out[0];
-      d[i + 1] = out[1];
-      d[i + 2] = out[2];
-    }
-  }
-  c.putImageData(img, 0, 0);
-  arkVariants.set(idx, cv);
-  return cv;
+  return getArkOverride(Math.min(Math.max(1, level), 10));
 }
 
 type GameState = "start" | "playing" | "gameover";
@@ -291,6 +164,11 @@ function getBonusSprite(type: PowerupType): HTMLImageElement | null {
     entry = e;
   }
   return entry.ready ? entry.img : null;
+}
+function preloadCurrentArtwork() {
+  preloadAvatars();
+  for (let level = 1; level <= 10; level++) getArkOverride(level);
+  for (const type of Object.keys(BONUS_SPRITE_URLS) as PowerupType[]) getBonusSprite(type);
 }
 /** Bonuses whose glow should read as ominous rather than magical. */
 const NEGATIVE_BONUSES: PowerupType[] = ["apple", "broken", "web"];
@@ -541,6 +419,7 @@ export function Game() {
   }, [state]);
 
   useEffect(() => {
+    preloadCurrentArtwork();
     const canvas = canvasRef.current;
     if (!canvas) return;
     const ctx = canvas.getContext("2d");
@@ -1322,7 +1201,6 @@ export function Game() {
     ) => {
       const g = laneGap();
       const bw = boatWidth();
-      const pal = boatPalette(lane);
       const bob = Math.sin(timeSec * 2 + lane * 1.3) * g * 0.035;
       const tilt = Math.sin(timeSec * 1.6 + lane) * 0.02;
       const sprite = getArkSprite(levelRef.current);
@@ -1420,12 +1298,6 @@ export function Game() {
           ctx.drawImage(sprite, imgLeft, imgTop, artW, artH);
           ctx.restore();
         }
-      } else {
-        // Fallback plaque while the artwork loads.
-        ctx.fillStyle = pal.hull;
-        ctx.beginPath();
-        ctx.roundRect(-plaqueW / 2, -plaqueH / 2, plaqueW, plaqueH, plaqueH / 2);
-        ctx.fill();
       }
       ctx.shadowBlur = 0;
 
@@ -1467,8 +1339,6 @@ export function Game() {
 
     // ----- Powerups -----
     const drawPowerupIcon = (type: PowerupType) => {
-      // Hand-made artwork when available; the vector shapes below stay as a
-      // fallback until the sprite has finished loading.
       const sprite = getBonusSprite(type);
       if (sprite) {
         const iw = sprite.naturalWidth || 1;
@@ -1477,8 +1347,8 @@ export function Game() {
         const k = box / Math.max(iw, ih);
         const w = iw * k, h = ih * k;
         ctx.drawImage(sprite, -w / 2, -h / 2, w, h);
-        return;
       }
+      return;
       switch (type) {
         case "star": {
           // Soft glow halo behind the star to match the game's luminous palette
