@@ -139,7 +139,7 @@ interface Particle {
 
 type PowerupType = "star" | "heart" | "shineheart" | "slow" | "hint" | "apple" | "broken" | "shield" | "web";
 
-/** Hand-made artwork for each bonus (vector fallback stays for anything unmapped). */
+/** Current hand-made artwork for every bonus type. */
 const BONUS_SPRITE_URLS: Partial<Record<PowerupType, string>> = {
   heart: bonusHeartImg.url,
   shineheart: bonusShineHeartImg.url,
@@ -147,6 +147,7 @@ const BONUS_SPRITE_URLS: Partial<Record<PowerupType, string>> = {
   star: bonusStarImg.url,
   hint: bonusLightImg.url,
   apple: bonusAppleImg.url,
+  broken: bonusAppleImg.url,
   slow: bonusClockImg.url,
   web: bonusWebImg.url,
 };
@@ -1340,172 +1341,13 @@ export function Game() {
     // ----- Powerups -----
     const drawPowerupIcon = (type: PowerupType) => {
       const sprite = getBonusSprite(type);
-      if (sprite) {
-        const iw = sprite.naturalWidth || 1;
-        const ih = sprite.naturalHeight || 1;
-        const box = 30;
-        const k = box / Math.max(iw, ih);
-        const w = iw * k, h = ih * k;
-        ctx.drawImage(sprite, -w / 2, -h / 2, w, h);
-      }
-      return;
-      switch (type) {
-        case "star": {
-          // Soft glow halo behind the star to match the game's luminous palette
-          const halo = ctx.createRadialGradient(0, 0, 2, 0, 0, 18);
-          halo.addColorStop(0, "rgba(255, 236, 180, 0.55)");
-          halo.addColorStop(1, "rgba(255, 236, 180, 0)");
-          ctx.fillStyle = halo;
-          ctx.beginPath(); ctx.arc(0, 0, 18, 0, Math.PI * 2); ctx.fill();
-          // Star body — soft warm ivory, no harsh outline
-          const grad = ctx.createRadialGradient(0, -2, 1, 0, 0, 12);
-          grad.addColorStop(0, "rgba(255, 248, 220, 0.98)");
-          grad.addColorStop(1, "rgba(240, 200, 130, 0.95)");
-          ctx.fillStyle = grad;
-          ctx.beginPath();
-          for (let i = 0; i < 10; i++) {
-            const ang = -Math.PI / 2 + (i * Math.PI) / 5;
-            const r = i % 2 === 0 ? 12 : 5;
-            const px = Math.cos(ang) * r;
-            const py = Math.sin(ang) * r;
-            if (i === 0) ctx.moveTo(px, py); else ctx.lineTo(px, py);
-          }
-          ctx.closePath();
-          ctx.fill();
-          break;
-        }
-        case "heart": {
-          ctx.fillStyle = "#ff5c6c";
-          ctx.strokeStyle = "rgba(80,10,20,0.7)";
-          ctx.lineWidth = 1.2;
-          ctx.beginPath();
-          ctx.moveTo(0, 8);
-          ctx.bezierCurveTo(12, -2, 8, -12, 0, -5);
-          ctx.bezierCurveTo(-8, -12, -12, -2, 0, 8);
-          ctx.closePath(); ctx.fill(); ctx.stroke(); break;
-        }
-        case "shineheart": {
-          // Bright, glowing heart — life/health bonus
-          const t2 = performance.now() / 1000;
-          const pulse = 1 + Math.sin(t2 * 5) * 0.06;
-          ctx.save();
-          ctx.scale(pulse, pulse);
-          const g = ctx.createRadialGradient(-3, -4, 1, 0, 0, 14);
-          g.addColorStop(0, "rgba(255, 255, 255, 0.98)");
-          g.addColorStop(0.45, "rgba(255, 170, 195, 0.98)");
-          g.addColorStop(1, "rgba(255, 70, 120, 0.95)");
-          ctx.fillStyle = g;
-          ctx.shadowColor = "rgba(255, 120, 170, 0.95)";
-          ctx.shadowBlur = 16;
-          ctx.beginPath();
-          ctx.moveTo(0, 9);
-          ctx.bezierCurveTo(13, -2, 9, -13, 0, -5.5);
-          ctx.bezierCurveTo(-9, -13, -13, -2, 0, 9);
-          ctx.closePath(); ctx.fill();
-          ctx.shadowBlur = 0;
-          ctx.strokeStyle = "rgba(255, 245, 250, 0.9)";
-          ctx.lineWidth = 1.1;
-          ctx.stroke();
-          // sparkle highlight
-          ctx.fillStyle = "rgba(255,255,255,0.95)";
-          ctx.beginPath();
-          ctx.ellipse(-4, -5, 2.2, 1.4, -0.5, 0, Math.PI * 2);
-          ctx.fill();
-          ctx.restore();
-          break;
-        }
-        case "slow": {
-          ctx.fillStyle = "#bfe7ff";
-          ctx.strokeStyle = "rgba(20,60,90,0.8)";
-          ctx.lineWidth = 1.4;
-          ctx.beginPath();
-          ctx.moveTo(-9, -10); ctx.lineTo(9, -10); ctx.lineTo(-9, 10); ctx.lineTo(9, 10);
-          ctx.closePath(); ctx.fill(); ctx.stroke();
-          ctx.fillStyle = "rgba(20,60,90,0.85)";
-          ctx.fillRect(-10, -12, 20, 2);
-          ctx.fillRect(-10, 10, 20, 2); break;
-        }
-        case "hint": {
-          ctx.fillStyle = "#fff6c8";
-          ctx.strokeStyle = "rgba(150,110,20,0.7)";
-          ctx.lineWidth = 1.2;
-          ctx.beginPath(); ctx.arc(0, -2, 9, 0, Math.PI * 2); ctx.fill(); ctx.stroke();
-          ctx.fillStyle = "rgba(120,80,20,0.85)";
-          ctx.fillRect(-5, 7, 10, 3);
-          ctx.fillRect(-3, 10, 6, 2);
-          ctx.strokeStyle = "rgba(255,240,180,0.85)";
-          ctx.lineWidth = 1.2;
-          for (let i = 0; i < 6; i++) {
-            const a = (i / 6) * Math.PI * 2;
-            ctx.beginPath();
-            ctx.moveTo(Math.cos(a) * 12, Math.sin(a) * 12 - 2);
-            ctx.lineTo(Math.cos(a) * 16, Math.sin(a) * 16 - 2);
-            ctx.stroke();
-          }
-          break;
-        }
-        case "apple": {
-          ctx.fillStyle = "#7a1f2a";
-          ctx.strokeStyle = "rgba(20,0,5,0.9)";
-          ctx.lineWidth = 1.4;
-          ctx.beginPath(); ctx.arc(0, 2, 10, 0, Math.PI * 2); ctx.fill(); ctx.stroke();
-          ctx.fillStyle = "rgba(0,0,0,0.85)";
-          ctx.beginPath(); ctx.arc(7, 0, 5, 0, Math.PI * 2); ctx.fill();
-          ctx.strokeStyle = "#3a2010"; ctx.lineWidth = 2;
-          ctx.beginPath(); ctx.moveTo(0, -8); ctx.lineTo(3, -13); ctx.stroke();
-          ctx.fillStyle = "rgba(120, 200, 80, 0.6)";
-          ctx.beginPath(); ctx.arc(-4, 10, 2, 0, Math.PI * 2); ctx.fill(); break;
-        }
-        case "broken": {
-          ctx.fillStyle = "#2a0810";
-          ctx.strokeStyle = "rgba(255,80,80,0.9)";
-          ctx.lineWidth = 1.6;
-          ctx.beginPath();
-          ctx.moveTo(0, 8);
-          ctx.bezierCurveTo(12, -2, 8, -12, 0, -5);
-          ctx.bezierCurveTo(-8, -12, -12, -2, 0, 8);
-          ctx.closePath(); ctx.fill(); ctx.stroke();
-          ctx.strokeStyle = "rgba(255,200,200,0.95)";
-          ctx.lineWidth = 1.6;
-          ctx.beginPath();
-          ctx.moveTo(0, -6); ctx.lineTo(-2, -2); ctx.lineTo(2, 1); ctx.lineTo(-1, 5);
-          ctx.stroke(); break;
-        }
-        case "shield": {
-          ctx.fillStyle = "#d9b477";
-          ctx.strokeStyle = "rgba(90,60,20,0.85)";
-          ctx.lineWidth = 1.4;
-          ctx.beginPath();
-          ctx.moveTo(0, -12);
-          ctx.lineTo(11, -7);
-          ctx.lineTo(9, 6);
-          ctx.lineTo(0, 13);
-          ctx.lineTo(-9, 6);
-          ctx.lineTo(-11, -7);
-          ctx.closePath(); ctx.fill(); ctx.stroke();
-          ctx.fillStyle = "rgba(255,235,180,0.95)";
-          ctx.fillRect(-1.8, -8, 3.6, 16);
-          ctx.fillRect(-7, -3.5, 14, 3.6);
-          break;
-        }
-        case "web": {
-          ctx.strokeStyle = "rgba(240, 205, 175, 0.95)";
-          ctx.lineWidth = 1.4;
-          for (let i = 0; i < 8; i++) {
-            const a = (i / 8) * Math.PI * 2;
-            ctx.beginPath();
-            ctx.moveTo(0, 0);
-            ctx.lineTo(Math.cos(a) * 12, Math.sin(a) * 12);
-            ctx.stroke();
-          }
-          for (let r = 4; r <= 12; r += 4) {
-            ctx.beginPath();
-            ctx.arc(0, 0, r, 0, Math.PI * 2);
-            ctx.stroke();
-          }
-          break;
-        }
-      }
+      if (!sprite) return;
+      const iw = sprite.naturalWidth || 1;
+      const ih = sprite.naturalHeight || 1;
+      const box = 30;
+      const k = box / Math.max(iw, ih);
+      const w = iw * k, h = ih * k;
+      ctx.drawImage(sprite, -w / 2, -h / 2, w, h);
     };
 
     const drawPowerups = () => {

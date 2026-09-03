@@ -23,7 +23,7 @@ export function PlayerAvatar({ id, size = 32, locked, className, title }: Props)
   const boxSize = size * 2;
 
   useEffect(() => {
-    let cancelled = false;
+    void preloadAvatars();
     const canvas = ref.current;
     if (!canvas) return;
     const dpr = Math.min(2, Math.max(1, window.devicePixelRatio || 1));
@@ -75,13 +75,8 @@ export function PlayerAvatar({ id, size = 32, locked, className, title }: Props)
       ctx.restore();
       raf = requestAnimationFrame(render);
     };
-    void preloadAvatars().then(() => {
-      if (!cancelled) raf = requestAnimationFrame(render);
-    });
-    return () => {
-      cancelled = true;
-      cancelAnimationFrame(raf);
-    };
+    raf = requestAnimationFrame(render);
+    return () => cancelAnimationFrame(raf);
   }, [id, boxSize, locked]);
 
   return (
