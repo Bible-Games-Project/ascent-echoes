@@ -6938,35 +6938,35 @@
   {
    "id": "easy_096",
    "question": {
-    "en": "Who was justified in prayer?",
-    "es": "¿Quién fue justificado en la oración?",
-    "pt": "Quem foi justificado na oração?",
-    "fr": "Qui a été justifié dans la prière ?",
-    "de": "Wer wurde im Gebet gerechtfertigt?",
-    "it": "Chi fu giustificato nella preghiera?",
-    "pl": "Kto został usprawiedliwiony w modlitwie?",
-    "ru": "Кто был оправдан в молитве?",
-    "tr": "Kim dua ederken aklandı?",
-    "ja": "祈りで義とされたのは誰ですか？",
-    "ko": "기도에서 의롭다 여김을 받은 사람은 누구입니까?",
-    "ar": "من تبرر في الصلاة؟"
+    "en": "Which collector was justified in prayer?",
+    "es": "¿Qué cobrador fue justificado en la oración?",
+    "pt": "Qual cobrador foi justificado na oração?",
+    "fr": "Quel collecteur a été justifié dans la prière ?",
+    "de": "Welcher Zöllner wurde im Gebet gerechtfertigt?",
+    "it": "Quale esattore fu giustificato nella preghiera?",
+    "pl": "Który poborca został usprawiedliwiony w modlitwie?",
+    "ru": "Какой сборщик был оправдан в молитве?",
+    "tr": "Hangi tahsildar duada aklandı?",
+    "ja": "祈りの中で義とされた徴収人は誰ですか？",
+    "ko": "기도 중에 의롭다 하심을 받은 수집가는 누구입니까?",
+    "ar": "أي جابي تبرر في الصلاة؟"
    },
    "answers": [
     {
      "id": "a",
      "text": {
       "en": "Tax",
-      "es": "Recaudador",
+      "es": "Publicano",
       "pt": "Publicano",
       "fr": "Publicain",
       "de": "Zöllner",
       "it": "Pubblicano",
       "pl": "Celnik",
       "ru": "Мытарь",
-      "tr": "Görevlisi",
+      "tr": "Vergici",
       "ja": "取税人",
       "ko": "세리",
-      "ar": "العشار"
+      "ar": "عشار"
      },
      "correct": true
     },
@@ -6981,7 +6981,7 @@
       "it": "Fariseo",
       "pl": "Faryzeusz",
       "ru": "Фарисей",
-      "tr": "Ferisî",
+      "tr": "Ferisi",
       "ja": "パリサイ人",
       "ko": "바리새인",
       "ar": "فريسي"
@@ -9055,35 +9055,35 @@
   {
    "id": "easy_125",
    "question": {
-    "en": "What did the seed fall on?",
-    "es": "¿Sobre qué cayó la semilla?",
-    "pt": "Em que a semente caiu?",
-    "fr": "Sur quoi la graine est-elle tombée ?",
-    "de": "Auf was fiel der Samen?",
-    "it": "Su cosa è caduto il seme?",
-    "pl": "Na co padło ziarno?",
-    "ru": "На что упало семя?",
-    "tr": "Tohum neyin üzerine düştü?",
-    "ja": "種は何の上に落ちましたか？",
-    "ko": "씨앗은 무엇 위에 떨어졌습니까?",
-    "ar": "على ماذا سقطت البذرة؟"
+    "en": "The seed in the parable fell on what kind of ground?",
+    "es": "En la parábola, ¿sobre qué tipo de terreno cayó la semilla?",
+    "pt": "Na parábola, em que tipo de solo caiu a semente?",
+    "fr": "Dans la parabole, sur quel type de sol la semence est-elle tombée ?",
+    "de": "Auf welche Art von Boden fiel der Samen im Gleichnis?",
+    "it": "Nella parabola, su che tipo di terreno cadde il seme?",
+    "pl": "Na jaki grunt padło ziarno w przypowieści?",
+    "ru": "На какую почву упало семя в притче?",
+    "tr": "Benzetmedeki tohum ne tür bir toprağa düştü?",
+    "ja": "たとえ話で、種はどのような地面に落ちましたか？",
+    "ko": "비유에서 씨앗은 어떤 땅에 떨어졌습니까?",
+    "ar": "على أي نوع من الأرض سقطت البذرة في المثل؟"
    },
    "answers": [
     {
      "id": "a",
      "text": {
-      "en": "Different",
-      "es": "Diferentes",
-      "pt": "Solos",
-      "fr": "Différents",
-      "de": "Böden",
-      "it": "Terreni",
-      "pl": "Gleby",
-      "ru": "почвы",
-      "tr": "Topraklar",
-      "ja": "さまざまな土壌",
-      "ko": "토양",
-      "ar": "ترب"
+      "en": "Various",
+      "es": "Varios",
+      "pt": "Vários",
+      "fr": "Divers",
+      "de": "Verschiedene",
+      "it": "Diversi",
+      "pl": "Różne",
+      "ru": "Разная",
+      "tr": "Çeşitli",
+      "ja": "様々",
+      "ko": "여러가지",
+      "ar": "متنوعة"
      },
      "correct": true
     },
@@ -9785,34 +9785,34 @@
   {
    "id": "easy_135",
    "question": {
-    "en": "Blessed are the pure in heart, they will…",
-    "es": "Bienaventurados los limpios de corazón, ellos…",
-    "pt": "Bem-aventurados os puros de coração, eles…",
-    "fr": "Heureux les cœurs purs, ils…",
-    "de": "Selig sind die reinen Herzens sind, sie werden…",
-    "it": "Beati i puri di cuore, essi…",
-    "pl": "Błogosławieni czystego serca, oni…",
-    "ru": "Блаженны чистые сердцем, ибо они…",
-    "tr": "Ne mutlu temiz kalplilere, çünkü onlar…",
-    "ja": "心の清い者は幸いです、彼らは…",
-    "ko": "마음이 청결한 자는 복이 있나니 그들은…",
-    "ar": "طوبى لأنقياء القلب لأنهم…"
+    "en": "Blessed are the pure in heart, for they shall see...?",
+    "es": "Bienaventurados los limpios de corazón, porque ellos verán a...",
+    "pt": "Bem-aventurados os limpos de coração, porque eles verão a...",
+    "fr": "Heureux ceux qui ont le cœur pur, car ils verront...",
+    "de": "Selig sind, die reinen Herzens sind; denn sie werden ... sehen.",
+    "it": "Beati i puri di cuore, perché vedranno...",
+    "pl": "Błogosławieni czystego serca, albowiem oni ... ujrzą.",
+    "ru": "Блаженны чистые сердцем, ибо они увидят...",
+    "tr": "Ne mutlu yüreği temiz olanlara! Çünkü onlar ...'yı görecekler.",
+    "ja": "心の清い者は幸いです、その人たちは……を見るからです。",
+    "ko": "마음이 청결한 자는 복이 있나니 그들이 ...을 볼 것임이요.",
+    "ar": "طوبى لأنقياء القلب، لأنهم يعاينون..."
    },
    "answers": [
     {
      "id": "a",
      "text": {
-      "en": "See",
-      "es": "Ver",
-      "pt": "Ver",
-      "fr": "Voir",
+      "en": "God",
+      "es": "Dios",
+      "pt": "Deus",
+      "fr": "Dieu",
       "de": "Gott",
-      "it": "Vedranno",
+      "it": "Dio",
       "pl": "Boga",
-      "ru": "Узрят",
-      "tr": "Görecekler",
-      "ja": "神を見る",
-      "ko": "볼",
+      "ru": "Бога",
+      "tr": "Tanrı",
+      "ja": "神",
+      "ko": "하나님",
       "ar": "الله"
      },
      "correct": true
@@ -9826,12 +9826,12 @@
       "fr": "Rois",
       "de": "Könige",
       "it": "Re",
-      "pl": "Królami",
-      "ru": "царями",
-      "tr": "Olacaklar",
-      "ja": "王になる",
-      "ko": "왕이",
-      "ar": "ملوكاً"
+      "pl": "Królów",
+      "ru": "Царей",
+      "tr": "Kralları",
+      "ja": "王たち",
+      "ko": "왕들",
+      "ar": "ملوكا"
      },
      "correct": false
     },
@@ -9842,13 +9842,13 @@
       "es": "Ricos",
       "pt": "Ricos",
       "fr": "Riches",
-      "de": "Reich",
+      "de": "Reiche",
       "it": "Ricchi",
-      "pl": "Bogatymi",
-      "ru": "богатыми",
-      "tr": "Olmak",
-      "ja": "金持ちになる",
-      "ko": "부자",
+      "pl": "Bogaczy",
+      "ru": "Богатых",
+      "tr": "Zenginleri",
+      "ja": "富者",
+      "ko": "부자들",
       "ar": "أغنياء"
      },
      "correct": false
@@ -9931,71 +9931,71 @@
   {
    "id": "easy_137",
    "question": {
-    "en": "What was Jesus’ first miracle?",
-    "es": "¿Cuál fue el primer milagro de Jesús?",
-    "pt": "Qual foi o primeiro milagre de Jesus?",
-    "fr": "Quel était le premier miracle de Jésus ?",
-    "de": "Was war Jesu erstes Wunder?",
-    "it": "Qual è stato il primo miracolo di Gesù?",
-    "pl": "Jaki był pierwszy cud Jezusa?",
-    "ru": "Какое было первое чудо Иисуса?",
-    "tr": "İsa’nın ilk mucizesi neydi?",
-    "ja": "イエスの最初の奇跡は何でしたか？",
-    "ko": "예수님의 첫 번째 기적은 무엇이었습니까?",
-    "ar": "ما هي أول معجزة ليسوع؟"
+    "en": "What did Jesus turn water into at Cana?",
+    "es": "¿En qué convirtió Jesús el agua en Caná?",
+    "pt": "Em que Jesus transformou a água em Caná?",
+    "fr": "En quoi Jésus a-t-il changé l'eau à Cana ?",
+    "de": "In was verwandelte Jesus das Wasser in Kana?",
+    "it": "In cosa Gesù trasformò l'acqua a Cana?",
+    "pl": "W co Jezus przemienił wodę w Kanie?",
+    "ru": "Во что Иисус превратил воду в Кане?",
+    "tr": "İsa, Kana'da suyu neye dönüştürdü?",
+    "ja": "カナでイエスは水を何に変えましたか？",
+    "ko": "예수님은 가나에서 물을 무엇으로 바꾸셨습니까?",
+    "ar": "ماذا حول يسوع الماء إليه في قانا؟"
    },
    "answers": [
     {
      "id": "a",
      "text": {
-      "en": "Turning",
-      "es": "Convertir",
-      "pt": "Transformar",
-      "fr": "Transformer",
+      "en": "Wine",
+      "es": "Vino",
+      "pt": "Vinho",
+      "fr": "Vin",
       "de": "Wein",
-      "it": "Trasformare",
-      "pl": "Wody",
-      "ru": "воды",
-      "tr": "Çevirmek",
-      "ja": "水をぶどう酒に変える",
-      "ko": "바꾸",
-      "ar": "تحويل"
+      "it": "Vino",
+      "pl": "Wino",
+      "ru": "Вино",
+      "tr": "Şarap",
+      "ja": "葡萄汁",
+      "ko": "포도주",
+      "ar": "خمرا"
      },
      "correct": true
     },
     {
      "id": "b",
      "text": {
-      "en": "Healing",
-      "es": "Sanar",
-      "pt": "Curar",
-      "fr": "Guérir",
-      "de": "Blinden",
-      "it": "Guarire",
-      "pl": "Uzdrowienie",
-      "ru": "слепого",
-      "tr": "Iyileştirmek",
-      "ja": "盲人を癒す",
-      "ko": "고치",
-      "ar": "شفاء"
+      "en": "Blood",
+      "es": "Sangre",
+      "pt": "Sangue",
+      "fr": "Sang",
+      "de": "Blut",
+      "it": "Sangue",
+      "pl": "Krew",
+      "ru": "Кровь",
+      "tr": "Kan",
+      "ja": "血",
+      "ko": "피",
+      "ar": "دما"
      },
      "correct": false
     },
     {
      "id": "c",
      "text": {
-      "en": "Walking",
-      "es": "Caminar",
-      "pt": "Andar",
-      "fr": "Marcher",
-      "de": "Wasser",
-      "it": "Camminare",
-      "pl": "Chodzenie",
-      "ru": "воде",
-      "tr": "Yürümek",
-      "ja": "水の上を歩く",
-      "ko": "걷는",
-      "ar": "المشي"
+      "en": "Milk",
+      "es": "Leche",
+      "pt": "Leite",
+      "fr": "Lait",
+      "de": "Milch",
+      "it": "Latte",
+      "pl": "Mleko",
+      "ru": "Молоко",
+      "tr": "Süt",
+      "ja": "乳",
+      "ko": "우유",
+      "ar": "لبنا"
      },
      "correct": false
     }
@@ -12632,35 +12632,35 @@
   {
    "id": "easy_174",
    "question": {
-    "en": "What did Job lose?",
-    "es": "¿Qué perdió Job?",
-    "pt": "O que Jó perdeu?",
-    "fr": "Qu’a perdu Job ?",
-    "de": "Was verlor Hiob?",
-    "it": "Cosa perse Giobbe?",
-    "pl": "Co stracił Hiob?",
-    "ru": "Что потерял Иов?",
-    "tr": "Eyüp neyi kaybetti?",
-    "ja": "ヨブは何を失いましたか？",
-    "ko": "욥은 무엇을 잃었습니까?",
-    "ar": "ماذا فقد أيوب؟"
+    "en": "What did Job lose first in his trials?",
+    "es": "¿Qué fue lo primero que perdió Job en sus pruebas?",
+    "pt": "O que Jó perdeu primeiro em suas provações?",
+    "fr": "Qu'est-ce que Job a perdu en premier dans ses épreuves ?",
+    "de": "Was verlor Hiob in seinen Prüfungen zuerst?",
+    "it": "Cosa perse per primo Giobbe nelle sue prove?",
+    "pl": "Co Job stracił jako pierwsze w swoich próbach?",
+    "ru": "Что Иов потерял первым в своих испытаниях?",
+    "tr": "Eyüp denemelerinde ilk neyi kaybetti?",
+    "ja": "ヨブは試練の中で最初に何を失いましたか？",
+    "ko": "욥은 시련 중에 무엇을 가장 먼저 잃었습니까?",
+    "ar": "ماذا خسر أيوب أولاً في تجاربه؟"
    },
    "answers": [
     {
      "id": "a",
      "text": {
-      "en": "Everything",
-      "es": "Todo",
-      "pt": "Tudo",
-      "fr": "Tout",
-      "de": "Alles",
-      "it": "Tutto",
-      "pl": "Wszystko",
-      "ru": "Всё",
-      "tr": "Şey",
-      "ja": "すべて",
-      "ko": "것",
-      "ar": "شيء"
+      "en": "Livestock",
+      "es": "Ganado",
+      "pt": "Gado",
+      "fr": "Bétail",
+      "de": "Vieh",
+      "it": "Bestiame",
+      "pl": "Inwentarz",
+      "ru": "Скот",
+      "tr": "Sürülerini",
+      "ja": "家畜",
+      "ko": "가축",
+      "ar": "مواشيه"
      },
      "correct": true
     },
@@ -12672,13 +12672,13 @@
       "pt": "Dinheiro",
       "fr": "Argent",
       "de": "Geld",
-      "it": "Soldi",
+      "it": "Denaro",
       "pl": "Pieniądze",
-      "ru": "деньги",
+      "ru": "Деньги",
       "tr": "Para",
-      "ja": "お金だけ",
-      "ko": "돈만",
-      "ar": "المال"
+      "ja": "金銭",
+      "ko": "재물",
+      "ar": "ماله"
      },
      "correct": false
     },
@@ -12692,11 +12692,11 @@
       "de": "Gesundheit",
       "it": "Salute",
       "pl": "Zdrowie",
-      "ru": "здоровье",
+      "ru": "Здоровье",
       "tr": "Sağlık",
-      "ja": "健康だけ",
-      "ko": "건강만",
-      "ar": "الصحة"
+      "ja": "健康",
+      "ko": "건강",
+      "ar": "صحته"
      },
      "correct": false
     }
@@ -12851,35 +12851,35 @@
   {
    "id": "easy_178",
    "question": {
-    "en": "Who led the return to rebuild the Temple?",
-    "es": "¿Quién lideró el regreso para reconstruir el templo?",
-    "pt": "Quem liderou o retorno para reconstruir o templo?",
-    "fr": "Qui a dirigé le retour pour reconstruire le Temple ?",
-    "de": "Wer führte die Rückkehr zum Wiederaufbau des Tempels an?",
-    "it": "Chi guidò il ritorno per ricostruire il Tempio?",
-    "pl": "Kto poprowadził powrót, aby odbudować Świątynię?",
-    "ru": "Кто возглавил возвращение для восстановления Храма?",
-    "tr": "Tapınağı yeniden inşa etmek için dönüşe kim liderlik etti?",
-    "ja": "神殿を再建するための帰還を導いたのは誰ですか？",
-    "ko": "성전을 재건하기 위한 귀환을 이끈 사람은 누구입니까?",
-    "ar": "من قاد العودة لإعادة بناء الهيكل؟"
+    "en": "Who led the first return to rebuild the Temple?",
+    "es": "¿Quién lideró el primer regreso para reconstruir el Templo?",
+    "pt": "Quem liderou o primeiro retorno para reconstruir o Templo?",
+    "fr": "Qui a mené le premier retour pour reconstruire le Temple ?",
+    "de": "Wer leitete die erste Rückkehr zum Wiederaufbau des Tempels?",
+    "it": "Chi guidò il primo ritorno per ricostruire il Tempio?",
+    "pl": "Kto poprowadził pierwszy powrót, aby odbudować Świątynię?",
+    "ru": "Кто возглавил первое возвращение для восстановления Храма?",
+    "tr": "Tapınağı yeniden inşa etmek için ilk dönüşe kim önderlik etti?",
+    "ja": "神殿再建のための最初の帰還を率いたのは誰ですか？",
+    "ko": "성전 재건을 위한 1차 귀환을 이끈 사람은 누구입니까?",
+    "ar": "من قاد العودة الأولى لإعادة بناء الهيكل؟"
    },
    "answers": [
     {
      "id": "a",
      "text": {
-      "en": "Ezra",
-      "es": "Esdras",
-      "pt": "Esdras",
-      "fr": "Esdras",
-      "de": "Esra",
-      "it": "Esdra",
-      "pl": "Ezdrasz",
-      "ru": "Ездра",
-      "tr": "Ezra",
-      "ja": "エズラ",
-      "ko": "에스라",
-      "ar": "عزرا"
+      "en": "Zerubbabel",
+      "es": "Zorobabel",
+      "pt": "Zorobabel",
+      "fr": "Zorobabel",
+      "de": "Serubbabel",
+      "it": "Zorobabele",
+      "pl": "Zorobabel",
+      "ru": "Зоровавель",
+      "tr": "Zerubbabil",
+      "ja": "ゼルバベル",
+      "ko": "스룹바벨",
+      "ar": "زربابل"
      },
      "correct": true
     },
@@ -13143,35 +13143,35 @@
   {
    "id": "easy_182",
    "question": {
-    "en": "What did Ezra restore?",
-    "es": "¿Qué restauró Esdras?",
-    "pt": "O que Esdras restaurou?",
-    "fr": "Qu'est-ce qu'Esdras a restauré ?",
-    "de": "Was stellte Esra wieder her?",
-    "it": "Che cosa restaurò Esdra?",
-    "pl": "Co przywrócił Ezdrasz?",
-    "ru": "Что восстановил Ездра?",
-    "tr": "Ezra neyi restore etti?",
-    "ja": "エズラは何を回復しましたか？",
-    "ko": "에스라는 무엇을 회복시켰습니까?",
-    "ar": "ماذا أعاد عزرا؟"
+    "en": "What did Ezra restore to the people?",
+    "es": "¿Qué restauró Esdras al pueblo?",
+    "pt": "O que Esdras restaurou ao povo?",
+    "fr": "Qu'est-ce qu'Esdras a restauré pour le peuple ?",
+    "de": "Was stellte Esra dem Volk wieder her?",
+    "it": "Cosa restaurò Esdra al popolo?",
+    "pl": "Co Ezdrasz przywrócił ludowi?",
+    "ru": "Что Ездра восстановил для народа?",
+    "tr": "Ezra halka neyi geri verdi?",
+    "ja": "エズラは民に何を回復させましたか？",
+    "ko": "에스라는 백성에게 무엇을 회복시켰습니까?",
+    "ar": "ماذا استرد عزرا للشعب؟"
    },
    "answers": [
     {
      "id": "a",
      "text": {
-      "en": "God",
+      "en": "Law",
       "es": "Ley",
       "pt": "Lei",
       "fr": "Loi",
       "de": "Gesetz",
       "it": "Legge",
-      "pl": "Prawo",
+      "pl": "Zakon",
       "ru": "Закон",
-      "tr": "Yasası",
-      "ja": "神の律法",
+      "tr": "Yasa",
+      "ja": "律法",
       "ko": "율법",
-      "ar": "شريعة"
+      "ar": "الشريعة"
      },
      "correct": true
     },
@@ -13182,14 +13182,14 @@
       "es": "Ejército",
       "pt": "Exército",
       "fr": "Armée",
-      "de": "Armee",
+      "de": "Heer",
       "it": "Esercito",
-      "pl": "Armia",
-      "ru": "Армия",
+      "pl": "Wojsko",
+      "ru": "Войско",
       "tr": "Ordu",
       "ja": "軍隊",
       "ko": "군대",
-      "ar": "جيش"
+      "ar": "الجيش"
      },
      "correct": false
     },
@@ -13207,7 +13207,7 @@
       "tr": "Krallık",
       "ja": "王国",
       "ko": "왕국",
-      "ar": "مملكة"
+      "ar": "المملكة"
      },
      "correct": false
     }
@@ -14165,35 +14165,35 @@
   {
    "id": "easy_196",
    "question": {
-    "en": "What did Daniel refuse to eat?",
-    "es": "¿Qué se negó a comer Daniel?",
-    "pt": "O que Daniel se recusou a comer?",
-    "fr": "Qu'est-ce que Daniel a refusé de manger ?",
-    "de": "Was weigerte sich Daniel zu essen?",
-    "it": "Che cosa si rifiutò di mangiare Daniele?",
-    "pl": "Czego Daniel odmówił jedzenia?",
-    "ru": "Что Даниил отказался есть?",
-    "tr": "Daniel neyi yemeyi reddetti?",
+    "en": "What food did Daniel refuse to eat?",
+    "es": "¿Qué comida se negó a comer Daniel?",
+    "pt": "Que comida Daniel se recusou a comer?",
+    "fr": "Quelle nourriture Daniel a-t-il refusé de manger ?",
+    "de": "Welche Speise weigerte sich Daniel zu essen?",
+    "it": "Quale cibo Daniele si rifiutò di mangiare?",
+    "pl": "Jakiego jedzenia Daniel odmówił jedzenia?",
+    "ru": "Какую пищу Даниил отказался есть?",
+    "tr": "Daniel hangi yemeği yemeyi reddetti?",
     "ja": "ダニエルは何を食べるのを拒みましたか？",
-    "ko": "다니엘은 무엇을 먹기를 거부했습니까?",
-    "ar": "ماذا رفض دانيال أن يأكل؟"
+    "ko": "다니엘은 어떤 음식을 먹기를 거부했습니까?",
+    "ar": "ما هو الطعام الذي رفض دانيال أكله؟"
    },
    "answers": [
     {
      "id": "a",
      "text": {
-      "en": "King",
-      "es": "Comida",
-      "pt": "Comida",
-      "fr": "Nourriture",
-      "de": "Königs",
-      "it": "Cibo",
-      "pl": "Jedzenie",
-      "ru": "Пищу",
-      "tr": "Yemeği",
-      "ja": "王の食べ物",
-      "ko": "음식",
-      "ar": "طعام"
+      "en": "Meat",
+      "es": "Carne",
+      "pt": "Carne",
+      "fr": "Viande",
+      "de": "Fleisch",
+      "it": "Carne",
+      "pl": "Mięso",
+      "ru": "Мясо",
+      "tr": "Et",
+      "ja": "肉",
+      "ko": "고기",
+      "ar": "لذائذ"
      },
      "correct": true
     },
@@ -14210,7 +14210,7 @@
       "ru": "Хлеб",
       "tr": "Ekmek",
       "ja": "パン",
-      "ko": "빵",
+      "ko": "떡",
       "ar": "خبز"
      },
      "correct": false
@@ -17020,27 +17020,27 @@
     "it": "Chi allevò Mosè in Egitto?",
     "pl": "Kto wychował Mojżesza w Egipcie?",
     "ru": "Кто воспитал Моисея в Египте?",
-    "tr": "Musa'yı Mısır'da kim büyüttü?",
+    "tr": "Mısır'da Musa'yı kim büyüttü?",
     "ja": "エジプトでモーセを育てたのは誰ですか？",
-    "ko": "이집트에서 모세를 키운 사람은 누구입니까?",
-    "ar": "من ربّى موسى في مصر؟"
+    "ko": "애굽에서 모세를 키운 사람은 누구입니까?",
+    "ar": "من ربى موسى في مصر؟"
    },
    "answers": [
     {
      "id": "a",
      "text": {
-      "en": "Pharaoh",
-      "es": "Hija",
-      "pt": "Filha",
-      "fr": "Fille",
-      "de": "Pharao",
-      "it": "Figlia",
-      "pl": "Faraona",
-      "ru": "Дочь",
-      "tr": "Kızı",
-      "ja": "ファラオの娘",
-      "ko": "딸",
-      "ar": "ابنة"
+      "en": "Princess",
+      "es": "Princesa",
+      "pt": "Princesa",
+      "fr": "Princesse",
+      "de": "Prinzessin",
+      "it": "Principessa",
+      "pl": "Księżniczka",
+      "ru": "Царевна",
+      "tr": "Prenses",
+      "ja": "王女",
+      "ko": "공주",
+      "ar": "ابنة‌فرعون"
      },
      "correct": true
     },
@@ -17054,9 +17054,9 @@
       "de": "Mutter",
       "it": "Madre",
       "pl": "Matka",
-      "ru": "мать",
-      "tr": "Annesi",
-      "ja": "彼の母",
+      "ru": "Мать",
+      "tr": "Anne",
+      "ja": "母",
       "ko": "어머니",
       "ar": "أمه"
      },
@@ -17073,7 +17073,7 @@
       "it": "Sacerdote",
       "pl": "Kapłan",
       "ru": "Священник",
-      "tr": "Kâhin",
+      "tr": "Kahin",
       "ja": "祭司",
       "ko": "제사장",
       "ar": "كاهن"
@@ -17232,34 +17232,34 @@
    "id": "easy_238",
    "question": {
     "en": "What sign did God show Moses?",
-    "es": "¿Qué señal mostró Dios a Moisés?",
+    "es": "¿Qué señal le mostró Dios a Moisés?",
     "pt": "Que sinal Deus mostrou a Moisés?",
     "fr": "Quel signe Dieu a-t-il montré à Moïse ?",
     "de": "Welches Zeichen zeigte Gott Mose?",
-    "it": "Quale segno mostrò Dio a Mosè?",
+    "it": "Quale segno Dio mostrò a Mosè?",
     "pl": "Jaki znak Bóg pokazał Mojżeszowi?",
     "ru": "Какое знамение Бог показал Моисею?",
     "tr": "Tanrı Musa'ya hangi işareti gösterdi?",
-    "ja": "神はモーセにどんなしるしを見せましたか？",
-    "ko": "하나님은 모세에게 어떤 표적을 보여 주셨습니까?",
-    "ar": "ما العلامة التي أظهرها الله لموسى؟"
+    "ja": "神はモーセにどのようなしるしを見せましたか？",
+    "ko": "하나님은 모세에게 어떤 표징을 보여주셨습니까?",
+    "ar": "ما الآية التي أراها الله لموسى؟"
    },
    "answers": [
     {
      "id": "a",
      "text": {
-      "en": "Burning",
-      "es": "Zarza",
-      "pt": "Sarça",
-      "fr": "Buisson",
-      "de": "Busch",
-      "it": "Roveto",
-      "pl": "Gorejący",
-      "ru": "куст",
-      "tr": "Çalı",
-      "ja": "燃える柴",
-      "ko": "떨기나무",
-      "ar": "العليقة"
+      "en": "Fire",
+      "es": "Fuego",
+      "pt": "Fogo",
+      "fr": "Feu",
+      "de": "Feuer",
+      "it": "Fuoco",
+      "pl": "Ogień",
+      "ru": "Огонь",
+      "tr": "Ateş",
+      "ja": "火",
+      "ko": "불",
+      "ar": "نار"
      },
      "correct": true
     },
@@ -17267,17 +17267,17 @@
      "id": "b",
      "text": {
       "en": "Flood",
-      "es": "Diluvio",
-      "pt": "Dilúvio",
+      "es": "Inundación",
+      "pt": "Inundação",
       "fr": "Déluge",
-      "de": "Sintflut",
+      "de": "Flut",
       "it": "Diluvio",
       "pl": "Potop",
       "ru": "Потоп",
       "tr": "Tufan",
       "ja": "洪水",
       "ko": "홍수",
-      "ar": "الطوفان"
+      "ar": "طوفان"
      },
      "correct": false
     },
@@ -17286,8 +17286,8 @@
      "text": {
       "en": "Rainbow",
       "es": "Arcoíris",
-      "pt": "Arco",
-      "fr": "Arc",
+      "pt": "Arco-íris",
+      "fr": "Arc-en-ciel",
       "de": "Regenbogen",
       "it": "Arcobaleno",
       "pl": "Tęcza",
@@ -17295,7 +17295,7 @@
       "tr": "Gökkuşağı",
       "ja": "虹",
       "ko": "무지개",
-      "ar": "قوس"
+      "ar": "قوس‌قزح"
      },
      "correct": false
     }
@@ -45705,35 +45705,35 @@
   {
    "id": "hard_128",
    "question": {
-    "en": "Why did Herod feel threatened?",
-    "es": "¿Por qué Herodes se sintió amenazado?",
-    "pt": "Por que Herodes se sentiu ameaçado?",
-    "fr": "Pourquoi Hérode se sentait-il menacé ?",
-    "de": "Warum fühlte sich Herodes bedroht?",
-    "it": "Perché Erode si sentiva minacciato?",
-    "pl": "Dlaczego Herod czuł się zagrożony?",
-    "ru": "Почему Ирод почувствовал угрозу?",
-    "tr": "Hirodes neden tehdit altında hissetti?",
-    "ja": "なぜヘロデは脅威を感じたのですか？",
-    "ko": "헤롯은 왜 위협을 느꼈습니까?",
-    "ar": "لماذا شعر هيرودس بالتهديد؟"
+    "en": "By what title did Herod feel threatened regarding Jesus?",
+    "es": "¿Por qué título se sintió amenazado Herodes con respecto a Jesús?",
+    "pt": "Por qual título Herodes se sentiu ameaçado em relação a Jesus?",
+    "fr": "Quel titre a menacé Hérode à propos de Jésus ?",
+    "de": "Welcher Titel bedrohte Herodes in Bezug auf Jesus?",
+    "it": "Quale titolo fece sentire Erode minacciato riguardo a Gesù?",
+    "pl": "Jaki tytuł sprawił, że Herod poczuł się zagrożony przez Jezusa?",
+    "ru": "Какой титул Иисуса испугал Ирода?",
+    "tr": "Herod İsa ile ilgili hangi unvandan dolayı tehdit altında hissetti?",
+    "ja": "ヘロデはイエスのどのような称号に脅威を感じましたか？",
+    "ko": "헤롯은 예수의 어떤 칭호 때문에 위협을 느꼈습니까?",
+    "ar": "بأي لقب شعر هيرودس بالتهديد فيما يتعلق بيسوع؟"
    },
    "answers": [
     {
      "id": "a",
      "text": {
-      "en": "New",
-      "es": "Nacimiento",
-      "pt": "Nascimento",
-      "fr": "Naissance",
-      "de": "Königs",
-      "it": "Nascita",
-      "pl": "Nowego",
-      "ru": "нового",
-      "tr": "Doğması",
-      "ja": "新しい王の誕生",
-      "ko": "탄생",
-      "ar": "ولادة"
+      "en": "King",
+      "es": "Rey",
+      "pt": "Rei",
+      "fr": "Roi",
+      "de": "König",
+      "it": "Re",
+      "pl": "Król",
+      "ru": "Царь",
+      "tr": "Kral",
+      "ja": "王",
+      "ko": "왕",
+      "ar": "ملك"
      },
      "correct": true
     },
@@ -45747,11 +45747,11 @@
       "de": "Krieg",
       "it": "Guerra",
       "pl": "Wojna",
-      "ru": "война",
+      "ru": "Война",
       "tr": "Savaş",
-      "ja": "戦争に敗北",
-      "ko": "패배",
-      "ar": "خسارة"
+      "ja": "戦争",
+      "ko": "전쟁",
+      "ar": "حرب"
      },
      "correct": false
     },
@@ -45759,17 +45759,17 @@
      "id": "c",
      "text": {
       "en": "Tax",
-      "es": "Subida",
-      "pt": "Aumento",
-      "fr": "Augmentation",
-      "de": "Steuererhöhung",
-      "it": "Aumento",
-      "pl": "Podatków",
-      "ru": "налогов",
-      "tr": "Artışı",
-      "ja": "増税",
-      "ko": "인상",
-      "ar": "زيادة"
+      "es": "Impuesto",
+      "pt": "Imposto",
+      "fr": "Taxe",
+      "de": "Steuer",
+      "it": "Tasse",
+      "pl": "Podatek",
+      "ru": "Налог",
+      "tr": "Vergi",
+      "ja": "税",
+      "ko": "세금",
+      "ar": "ضريبة"
      },
      "correct": false
     }
@@ -45778,35 +45778,35 @@
   {
    "id": "hard_129",
    "question": {
-    "en": "What did Joseph receive in a dream?",
-    "es": "¿Qué recibió José en un sueño?",
-    "pt": "O que José recebeu em um sonho?",
-    "fr": "Que reçut Joseph en rêve ?",
-    "de": "Was erhielt Josef im Traum?",
-    "it": "Cosa ricevette Giuseppe in sogno?",
-    "pl": "Co Józef otrzymał we śnie?",
-    "ru": "Что Иосиф получил во сне?",
-    "tr": "Yusuf rüyasında ne aldı?",
-    "ja": "ヨセフは夢で何を受け取りましたか？",
-    "ko": "요셉은 꿈에서 무엇을 받았습니까?",
-    "ar": "ماذا تلقى يوسف في حلم؟"
+    "en": "What kind of guidance did Joseph receive in a dream?",
+    "es": "¿Qué tipo de guía recibió José en un sueño?",
+    "pt": "Que tipo de orientação José recebeu em um sonho?",
+    "fr": "Quel genre de direction Joseph a-t-il reçu en rêve ?",
+    "de": "Welche Art von Führung erhielt Josef im Traum?",
+    "it": "Che tipo di guida ricevette Giuseppe in sogno?",
+    "pl": "Jakie wskazówki otrzymał Józef we śnie?",
+    "ru": "Какое руководство получил Иосиф во сне?",
+    "tr": "Yusuf rüyasında ne tür bir rehberlik aldı?",
+    "ja": "ヨセフは夢の中でどのような導きを受けましたか？",
+    "ko": "요셉은 꿈에서 어떤 인도를 받았습니까?",
+    "ar": "ما نوع التوجيه الذي تلقاه يوسف في الحلم؟"
    },
    "answers": [
     {
      "id": "a",
      "text": {
       "en": "Divine",
-      "es": "Instrucciones",
-      "pt": "Instruções",
-      "fr": "Instructions",
-      "de": "Anweisungen",
-      "it": "Istruzioni",
-      "pl": "Instrukcje",
-      "ru": "указания",
-      "tr": "Talimatlar",
-      "ja": "神の指示",
-      "ko": "지시",
-      "ar": "تعليمات"
+      "es": "Divina",
+      "pt": "Divina",
+      "fr": "Divine",
+      "de": "Göttliche",
+      "it": "Divina",
+      "pl": "Boskie",
+      "ru": "Божественное",
+      "tr": "İlahi",
+      "ja": "神聖",
+      "ko": "신성",
+      "ar": "إلهي"
      },
      "correct": true
     },
@@ -45840,9 +45840,9 @@
       "pl": "Władza",
       "ru": "Власть",
       "tr": "Güç",
-      "ja": "力",
+      "ja": "権力",
       "ko": "권력",
-      "ar": "قوة"
+      "ar": "سلطة"
      },
      "correct": false
     }
@@ -45851,35 +45851,35 @@
   {
    "id": "hard_130",
    "question": {
-    "en": "What did the star represent?",
-    "es": "¿Qué representaba la estrella?",
-    "pt": "O que a estrela representava?",
-    "fr": "Que représentait l’étoile ?",
-    "de": "Was stellte der Stern dar?",
-    "it": "Cosa rappresentava la stella?",
-    "pl": "Co oznaczała gwiazda?",
-    "ru": "Что символизировала звезда?",
-    "tr": "Yıldız neyi temsil ediyordu?",
-    "ja": "その星は何を表していましたか？",
-    "ko": "그 별은 무엇을 나타냈습니까?",
-    "ar": "ماذا مثل النجم؟"
+    "en": "What kind of sign did the star represent?",
+    "es": "¿Qué tipo de señal representaba la estrella?",
+    "pt": "Que tipo de sinal a estrela representava?",
+    "fr": "Quel genre de signe l'étoile représentait-elle ?",
+    "de": "Was für ein Zeichen stellte der Stern dar?",
+    "it": "Che tipo di segno rappresentava la stella?",
+    "pl": "Jaki rodzaj znaku reprezentowała gwiazda?",
+    "ru": "Каким знаком была звезда?",
+    "tr": "Yıldız ne tür bir alamet temsil ediyordu?",
+    "ja": "星はどのような兆候を表していましたか？",
+    "ko": "별은 어떤 표적을 나타냈습니까?",
+    "ar": "ما نوع الآية التي مثلتها النجمة؟"
    },
    "answers": [
     {
      "id": "a",
      "text": {
       "en": "Divine",
-      "es": "Guía",
-      "pt": "Guia",
-      "fr": "Guidance",
-      "de": "Führung",
-      "it": "Guida",
-      "pl": "Prowadzenie",
-      "ru": "руководство",
-      "tr": "Rehberlik",
-      "ja": "神の導き",
-      "ko": "인도",
-      "ar": "إرشاد"
+      "es": "Divina",
+      "pt": "Divina",
+      "fr": "Divine",
+      "de": "Göttliches",
+      "it": "Divino",
+      "pl": "Boski",
+      "ru": "Божественный",
+      "tr": "İlahi",
+      "ja": "神聖",
+      "ko": "신성",
+      "ar": "إلهية"
      },
      "correct": true
     },
@@ -45887,17 +45887,17 @@
      "id": "b",
      "text": {
       "en": "Astronomy",
-      "es": "Solo",
-      "pt": "Apenas",
+      "es": "Astronomía",
+      "pt": "Astronomia",
       "fr": "Astronomie",
       "de": "Astronomie",
-      "it": "Solo",
-      "pl": "Tylko",
-      "ru": "Только",
+      "it": "Astronomia",
+      "pl": "Astronomia",
+      "ru": "Астрономия",
       "tr": "Astronomi",
-      "ja": "天文学だけ",
-      "ko": "천문학만",
-      "ar": "علم"
+      "ja": "天文",
+      "ko": "천문",
+      "ar": "فلك"
      },
      "correct": false
     },
@@ -45905,17 +45905,17 @@
      "id": "c",
      "text": {
       "en": "Random",
-      "es": "Luz",
-      "pt": "Luz",
-      "fr": "Lumière",
-      "de": "Licht",
-      "it": "Luce",
-      "pl": "Światło",
-      "ru": "свет",
-      "tr": "Işık",
-      "ja": "ランダムな光",
-      "ko": "빛",
-      "ar": "ضوء"
+      "es": "Azar",
+      "pt": "Acaso",
+      "fr": "Aléatoire",
+      "de": "Zufall",
+      "it": "Casuale",
+      "pl": "Przypadek",
+      "ru": "Случайность",
+      "tr": "Rastgele",
+      "ja": "偶然",
+      "ko": "우연",
+      "ar": "عشوائي"
      },
      "correct": false
     }
@@ -45924,35 +45924,35 @@
   {
    "id": "hard_131",
    "question": {
-    "en": "What did shepherds represent?",
-    "es": "¿Qué representaban los pastores?",
-    "pt": "O que os pastores representavam?",
-    "fr": "Que représentaient les bergers ?",
-    "de": "Was stellten die Hirten dar?",
-    "it": "Cosa rappresentavano i pastori?",
-    "pl": "Co reprezentowali pasterze?",
-    "ru": "Что символизировали пастухи?",
-    "tr": "Çobanlar neyi temsil ediyordu?",
-    "ja": "羊飼いたちは何を表していましたか？",
-    "ko": "목자들은 무엇을 상징했습니까?",
-    "ar": "ماذا مثل الرعاة؟"
+    "en": "Which social class did the shepherds represent at the nativity?",
+    "es": "¿Qué clase social representaban los pastores en el nacimiento?",
+    "pt": "Qual classe social os pastores representavam no nascimento?",
+    "fr": "Quelle classe sociale les bergers représentaient-ils à la nativité ?",
+    "de": "Welche soziale Schicht vertraten die Hirten bei der Geburt?",
+    "it": "Quale classe sociale rappresentavano i pastori alla natività?",
+    "pl": "Jaką klasę społeczną reprezentowali pasterze przy narodzeniu?",
+    "ru": "Какой социальный слой представляли пастухи?",
+    "tr": "Çobanlar doğuşta hangi sosyal sınıfı temsil ediyordu?",
+    "ja": "降誕の場面で羊飼いはどの社会階層を代表していましたか？",
+    "ko": "목자들은 탄생 때 어떤 사회 계층을 대표했습니까?",
+    "ar": "أي طبقة اجتماعية مثلها الرعاة عند الميلاد؟"
    },
    "answers": [
     {
      "id": "a",
      "text": {
       "en": "Lowly",
-      "es": "Testigos",
-      "pt": "Testemunhas",
-      "fr": "Témoins",
-      "de": "Zeugen",
-      "it": "Testimoni",
-      "pl": "Świadkowie",
-      "ru": "свидетели",
-      "tr": "Tanıklar",
-      "ja": "へりくだった証人",
-      "ko": "증인",
-      "ar": "شهود"
+      "es": "Humilde",
+      "pt": "Humilde",
+      "fr": "Humble",
+      "de": "Niedrige",
+      "it": "Umili",
+      "pl": "Uboga",
+      "ru": "Низкая",
+      "tr": "Düşük",
+      "ja": "卑賤",
+      "ko": "천민",
+      "ar": "متواضعة"
      },
      "correct": true
     },
@@ -45968,8 +45968,8 @@
       "pl": "Królowie",
       "ru": "Цари",
       "tr": "Krallar",
-      "ja": "王たち",
-      "ko": "왕들",
+      "ja": "王",
+      "ko": "왕",
       "ar": "ملوك"
      },
      "correct": false
@@ -45997,35 +45997,35 @@
   {
    "id": "hard_132",
    "question": {
-    "en": "What danger came after Jesus' birth?",
-    "es": "¿Qué peligro vino después del nacimiento de Jesús?",
-    "pt": "Que perigo veio após o nascimento de Jesus?",
-    "fr": "Quel danger est venu après la naissance de Jésus ?",
-    "de": "Welche Gefahr kam nach Jesu Geburt?",
-    "it": "Quale pericolo venne dopo la nascita di Gesù?",
-    "pl": "Jakie niebezpieczeństwo pojawiło się po narodzinach Jezusa?",
-    "ru": "Какая опасность возникла после рождения Иисуса?",
-    "tr": "İsa’nın doğumundan sonra hangi tehlike geldi?",
-    "ja": "イエスの誕生後にどんな危険がありましたか？",
-    "ko": "예수 탄생 후 어떤 위험이 있었습니까?",
-    "ar": "ما الخطر الذي جاء بعد ولادة يسوع؟"
+    "en": "Herod ordered the slaughter of whom following Jesus' birth?",
+    "es": "¿A quién ordenó Herodes masacrar tras el nacimiento de Jesús?",
+    "pt": "Herodes ordenou o massacre de quem após o nascimento de Jesus?",
+    "fr": "Hérode a ordonné le massacre de qui après la naissance de Jésus ?",
+    "de": "Wen ließ Herodes nach Jesu Geburt abschlachten?",
+    "it": "Chi ordinò di uccidere Erode dopo la nascita di Gesù?",
+    "pl": "Czyją rzeź nakazał Herod po narodzeniu Jezusa?",
+    "ru": "Кого приказал убить Ирод после рождения Иисуса?",
+    "tr": "Herod İsa'nın doğumundan sonra kimin katledilmesini emretti?",
+    "ja": "イエスの誕生後、ヘロデは誰の虐殺を命じましたか？",
+    "ko": "헤롯은 예수 탄생 이후 누구를 학살하라고 명령했습니까?",
+    "ar": "من أمر هيرودس بذبحهم بعد ولادة يسوع؟"
    },
    "answers": [
     {
      "id": "a",
      "text": {
-      "en": "Innocent",
-      "es": "Masacre",
-      "pt": "Massacre",
-      "fr": "Massacre",
-      "de": "Kindermord",
-      "it": "Strage",
-      "pl": "Rzeź",
-      "ru": "младенцев",
-      "tr": "Katli",
-      "ja": "幼児虐殺",
-      "ko": "학살",
-      "ar": "مذبحة"
+      "en": "Innocents",
+      "es": "Inocentes",
+      "pt": "Inocentes",
+      "fr": "Innocents",
+      "de": "Unschuldige",
+      "it": "Innocenti",
+      "pl": "Niewiniątek",
+      "ru": "Младенцы",
+      "tr": "Masumlar",
+      "ja": "幼子",
+      "ko": "유아",
+      "ar": "أبرياء"
      },
      "correct": true
     },
@@ -46034,16 +46034,16 @@
      "text": {
       "en": "Flood",
       "es": "Inundación",
-      "pt": "Inundação",
-      "fr": "Inondation",
+      "pt": "Dilúvio",
+      "fr": "Déluge",
       "de": "Flut",
-      "it": "Inondazione",
-      "pl": "Powódź",
-      "ru": "Наводнение",
-      "tr": "Sel",
+      "it": "Diluvio",
+      "pl": "Potop",
+      "ru": "Потоп",
+      "tr": "Tufan",
       "ja": "洪水",
       "ko": "홍수",
-      "ar": "فيضان"
+      "ar": "طوفان"
      },
      "correct": false
     },
@@ -46053,7 +46053,7 @@
       "en": "Earthquake",
       "es": "Terremoto",
       "pt": "Terremoto",
-      "fr": "Tremblement",
+      "fr": "Séisme",
       "de": "Erdbeben",
       "it": "Terremoto",
       "pl": "Trzęsienie",
@@ -46143,35 +46143,35 @@
   {
    "id": "hard_134",
    "question": {
-    "en": "What did Mary treasure?",
-    "es": "¿Qué guardaba María?",
-    "pt": "O que Maria guardava?",
-    "fr": "Que gardait Marie ?",
-    "de": "Was bewahrte Maria?",
-    "it": "Cosa custodiva Maria?",
-    "pl": "Co Maria zachowywała?",
-    "ru": "Что хранила Мария?",
-    "tr": "Meryem neyi sakladı?",
-    "ja": "マリアは何を大切にしていましたか？",
-    "ko": "마리아는 무엇을 간직했습니까?",
-    "ar": "ماذا حفظت مريم؟"
+    "en": "What did Mary ponder in her heart?",
+    "es": "¿Qué meditaba María en su corazón?",
+    "pt": "O que Maria meditava em seu coração?",
+    "fr": "Que méditait Marie dans son cœur ?",
+    "de": "Was erwog Maria in ihrem Herzen?",
+    "it": "Cosa meditava Maria nel suo cuore?",
+    "pl": "Co Maryja rozważała w swoim sercu?",
+    "ru": "О чем размышляла Мария в сердце своем?",
+    "tr": "Meryem yüreğinde neyin üzerinde düşündü?",
+    "ja": "マリアは心の中で何を思い巡らしましたか？",
+    "ko": "마리아는 마음속에 무엇을 간직하고 생각했습니까?",
+    "ar": "ماذا كانت مريم تتأمل في قلبها؟"
    },
    "answers": [
     {
      "id": "a",
      "text": {
-      "en": "Events",
-      "es": "Eventos",
-      "pt": "Eventos",
-      "fr": "Événements",
-      "de": "Herzen",
-      "it": "Eventi",
-      "pl": "Wydarzenia",
-      "ru": "События",
-      "tr": "Olaylar",
-      "ja": "心の中の出来事",
-      "ko": "일들",
-      "ar": "الأحداث"
+      "en": "Words",
+      "es": "Palabras",
+      "pt": "Palavras",
+      "fr": "Paroles",
+      "de": "Worte",
+      "it": "Parole",
+      "pl": "Słowa",
+      "ru": "Слова",
+      "tr": "Sözler",
+      "ja": "言葉",
+      "ko": "말씀",
+      "ar": "كلمات"
      },
      "correct": true
     },
@@ -46205,9 +46205,9 @@
       "pl": "Władza",
       "ru": "Власть",
       "tr": "Güç",
-      "ja": "力",
+      "ja": "権力",
       "ko": "권력",
-      "ar": "قوة"
+      "ar": "سلطة"
      },
      "correct": false
     }
@@ -46289,35 +46289,35 @@
   {
    "id": "hard_136",
    "question": {
-    "en": "What did God restore to Job?",
-    "es": "¿Qué restauró Dios a Job?",
-    "pt": "O que Deus restaurou a Jó?",
-    "fr": "Que Dieu a-t-il restauré à Job ?",
-    "de": "Was stellte Gott Hiob wieder her?",
-    "it": "Cosa restaurò Dio a Giobbe?",
-    "pl": "Co Bóg przywrócił Hiobowi?",
-    "ru": "Что Бог восстановил Иову?",
-    "tr": "Tanrı Eyüp’e neyi geri verdi?",
-    "ja": "神はヨブに何を回復しましたか？",
-    "ko": "하나님은 욥에게 무엇을 회복시켰습니까?",
-    "ar": "ماذا أعاد الله لأيوب؟"
+    "en": "How much of Job's loss did God eventually restore?",
+    "es": "¿Cuánto de la pérdida de Job restauró Dios finalmente?",
+    "pt": "Quanto da perda de Jó Deus finalmente restaurou?",
+    "fr": "Quelle proportion de la perte de Job Dieu a-t-il finalement restaurée ?",
+    "de": "Wie viel von Hiobs Verlust stellte Gott schließlich wieder her?",
+    "it": "Quanto della perdita di Giobbe restaurò infine Dio?",
+    "pl": "Ile ze strat Hioba Bóg ostatecznie przywrócił?",
+    "ru": "Сколько из того, что потерял Иов, Бог восстановил?",
+    "tr": "Tanrı sonunda Eyüp'ün kaybının ne kadarını geri verdi?",
+    "ja": "神は最終的にヨブの損失のどれだけを回復させましたか？",
+    "ko": "하나님은 결국 욥이 잃은 것의 얼마를 회복시키셨습니까?",
+    "ar": "كم استرد الله من خسارة أيوب في النهاية؟"
    },
    "answers": [
     {
      "id": "a",
      "text": {
-      "en": "Everything",
-      "es": "Todo",
-      "pt": "Tudo",
-      "fr": "Tout",
-      "de": "Alles",
-      "it": "Tutto",
-      "pl": "Wszystko",
-      "ru": "Все",
-      "tr": "Her",
-      "ja": "すべて",
-      "ko": "것",
-      "ar": "كل"
+      "en": "Double",
+      "es": "Doble",
+      "pt": "Dobro",
+      "fr": "Double",
+      "de": "Doppelte",
+      "it": "Doppio",
+      "pl": "Podwójnie",
+      "ru": "Вдвое",
+      "tr": "Katıyla",
+      "ja": "二倍",
+      "ko": "두배",
+      "ar": "ضعف"
      },
      "correct": true
     },
@@ -46329,31 +46329,31 @@
       "pt": "Nada",
       "fr": "Rien",
       "de": "Nichts",
-      "it": "Niente",
+      "it": "Nulla",
       "pl": "Nic",
       "ru": "Ничего",
-      "tr": "Hiçbir",
-      "ja": "何もない",
+      "tr": "Hiç",
+      "ja": "無",
       "ko": "없음",
-      "ar": "لا"
+      "ar": "لاشيء"
      },
      "correct": false
     },
     {
      "id": "c",
      "text": {
-      "en": "Only",
-      "es": "Solo",
-      "pt": "Apenas",
-      "fr": "Seulement",
-      "de": "Gesundheit",
-      "it": "Solo",
-      "pl": "Tylko",
-      "ru": "Только",
-      "tr": "Sadece",
-      "ja": "健康だけ",
-      "ko": "건강만",
-      "ar": "فقط"
+      "en": "Half",
+      "es": "Mitad",
+      "pt": "Metade",
+      "fr": "Moitié",
+      "de": "Hälfte",
+      "it": "Metà",
+      "pl": "Połowę",
+      "ru": "Половина",
+      "tr": "Yarım",
+      "ja": "半分",
+      "ko": "절반",
+      "ar": "نصف"
      },
      "correct": false
     }
@@ -46362,35 +46362,35 @@
   {
    "id": "hard_137",
    "question": {
-    "en": "What is Proverbs centered on?",
-    "es": "¿En qué se centra Proverbios?",
-    "pt": "Em que Provérbios se concentra?",
-    "fr": "Sur quoi les Proverbes sont-ils centrés ?",
-    "de": "Worauf konzentrieren sich die Sprüche?",
-    "it": "Su cosa si concentra Proverbi?",
-    "pl": "Na czym skupiają się Przysłowia?",
-    "ru": "На чем сосредоточены Притчи?",
-    "tr": "Süleyman’ın Özdeyişleri neye odaklanır?",
-    "ja": "箴言は何に焦点を当てていますか？",
-    "ko": "잠언은 무엇에 초점을 맞춥니까?",
-    "ar": "على ماذا يركز سفر الأمثال؟"
+    "en": "What kind of advice is the book of Proverbs centered on?",
+    "es": "¿En qué tipo de consejo se centra el libro de Proverbios?",
+    "pt": "Em que tipo de conselho o livro de Provérbios se concentra?",
+    "fr": "Sur quel type de conseil le livre des Proverbes est-il centré ?",
+    "de": "Auf welche Art von Rat konzentriert sich das Buch der Sprichwörter?",
+    "it": "Su che tipo di consigli si concentra il libro dei Proverbi?",
+    "pl": "Na jakim rodzaju porad skupia się Księga Przysłów?",
+    "ru": "На какого рода советах сосредоточена книга Притчей?",
+    "tr": "Süleyman'ın Özdeyişleri kitabı ne tür öğütlere odaklanır?",
+    "ja": "箴言の書はどのような助言を中心としていますか？",
+    "ko": "잠언은 어떤 종류의 조언에 집중합니까?",
+    "ar": "ما هو نوع النصيحة التي يتمحور حولها سفر الأمثال؟"
    },
    "answers": [
     {
      "id": "a",
      "text": {
       "en": "Practical",
-      "es": "Sabiduría",
-      "pt": "Sabedoria",
-      "fr": "Sagesse",
-      "de": "Weisheit",
-      "it": "Saggezza",
-      "pl": "Mądrość",
-      "ru": "мудрость",
-      "tr": "Bilgelik",
-      "ja": "実践的な知恵",
-      "ko": "지혜",
-      "ar": "حكمة"
+      "es": "Práctico",
+      "pt": "Prático",
+      "fr": "Pratique",
+      "de": "Praktisch",
+      "it": "Pratico",
+      "pl": "Praktyczne",
+      "ru": "Практические",
+      "tr": "Pratik",
+      "ja": "実用的",
+      "ko": "실용적",
+      "ar": "عملية"
      },
      "correct": true
     },
@@ -46426,7 +46426,7 @@
       "tr": "Peygamberlik",
       "ja": "預言",
       "ko": "예언",
-      "ar": "نبوة"
+      "ar": "نبوءة"
      },
      "correct": false
     }
@@ -46435,18 +46435,18 @@
   {
    "id": "hard_138",
    "question": {
-    "en": "What is Ecclesiastes conclusion?",
-    "es": "¿Cuál es la conclusión de Eclesiastés?",
-    "pt": "Qual é a conclusão de Eclesiastes?",
-    "fr": "Quelle est la conclusion de l’Ecclésiaste ?",
-    "de": "Was ist die Schlussfolgerung des Predigers?",
-    "it": "Qual è la conclusione dell’Ecclesiaste?",
-    "pl": "Jaki jest wniosek z Księgi Koheleta?",
-    "ru": "Каков вывод Экклезиаста?",
-    "tr": "Vaiz kitabının sonucu nedir?",
-    "ja": "伝道者の書の結論は何ですか？",
-    "ko": "전도서의 결론은 무엇입니까?",
-    "ar": "ما خاتمة سفر الجامعة؟"
+    "en": "What is the final command of Ecclesiastes regarding God?",
+    "es": "¿Cuál es el mandato final de Eclesiastés con respecto a Dios?",
+    "pt": "Qual é o mandamento final de Eclesiastes em relação a Deus?",
+    "fr": "Quel est le dernier commandement de l'Ecclésiaste concernant Dieu ?",
+    "de": "Was ist das letzte Gebot des Predigers in Bezug auf Gott?",
+    "it": "Qual è il comando finale dell'Ecclesiaste riguardo a Dio?",
+    "pl": "Jakie jest końcowe polecenie Koheleta dotyczące Boga?",
+    "ru": "Какова последняя заповедь Екклесиаста относительно Бога?",
+    "tr": "Vaiz kitabının Tanrı ile ilgili son emri nedir?",
+    "ja": "伝道者の書の神に関する最後の命令は何ですか？",
+    "ko": "전도서가 하나님에 대해 내리는 마지막 명령은 무엇입니까?",
+    "ar": "ما هي الوصية الأخيرة في سفر الجامعة فيما يتعلق بالله؟"
    },
    "answers": [
     {
@@ -46456,14 +46456,14 @@
       "es": "Temer",
       "pt": "Temer",
       "fr": "Craindre",
-      "de": "Gott",
+      "de": "Fürchten",
       "it": "Temere",
       "pl": "Bać",
       "ru": "Бояться",
-      "tr": "Korkmak",
-      "ja": "神を恐れる",
-      "ko": "경외함",
-      "ar": "مخافة"
+      "tr": "Kork",
+      "ja": "恐れる",
+      "ko": "경외",
+      "ar": "خف"
      },
      "correct": true
     },
@@ -46474,14 +46474,14 @@
       "es": "Buscar",
       "pt": "Buscar",
       "fr": "Chercher",
-      "de": "Reichtum",
+      "de": "Suchen",
       "it": "Cercare",
       "pl": "Szukać",
       "ru": "Искать",
-      "tr": "Aramak",
-      "ja": "富を求める",
-      "ko": "추구함",
-      "ar": "السعي"
+      "tr": "Ara",
+      "ja": "探す",
+      "ko": "찾음",
+      "ar": "اطلب"
      },
      "correct": false
     },
@@ -46492,12 +46492,12 @@
       "es": "Evitar",
       "pt": "Evitar",
       "fr": "Éviter",
-      "de": "Leben",
+      "de": "Meiden",
       "it": "Evitare",
       "pl": "Unikać",
       "ru": "Избегать",
-      "tr": "Kaçınmak",
-      "ja": "人生を避ける",
+      "tr": "Sakın",
+      "ja": "避ける",
       "ko": "피함",
       "ar": "تجنب"
      },
@@ -46727,18 +46727,18 @@
   {
    "id": "hard_142",
    "question": {
-    "en": "What does Proverbs contrast?",
-    "es": "¿Qué contrasta Proverbios?",
-    "pt": "O que Provérbios contrasta?",
-    "fr": "Que contrastent les Proverbes ?",
-    "de": "Was stellen die Sprüche gegenüber?",
-    "it": "Cosa contrasta Proverbi?",
-    "pl": "Co kontrastują Przysłowia?",
-    "ru": "Что противопоставляют Притчи?",
-    "tr": "Özdeyişler neyi karşılaştırır?",
-    "ja": "箴言は何を対比していますか？",
-    "ko": "잠언은 무엇을 대비합니까?",
-    "ar": "ماذا يقارن سفر الأمثال؟"
+    "en": "Whom does Proverbs contrast with the fool?",
+    "es": "¿Con quién contrasta Proverbios al necio?",
+    "pt": "Com quem Provérbios contrasta o tolo?",
+    "fr": "À qui les Proverbes opposent-ils l'insensé ?",
+    "de": "Wem stellt das Buch der Sprichwörter den Narren gegenüber?",
+    "it": "A chi i Proverbi contrastano lo stolto?",
+    "pl": "Z kim Księga Przysłów kontrastuje głupca?",
+    "ru": "Кому Притчи противопоставляют глупого?",
+    "tr": "Özdeyişler akılsız kişiyi kiminle karşılaştırır?",
+    "ja": "箴言は愚か者を誰と対比させていますか？",
+    "ko": "잠언은 미련한 자를 누구와 대조합니까?",
+    "ar": "بمن يقارن سفر الأمثال الجاهل؟"
    },
    "answers": [
     {
@@ -46751,11 +46751,11 @@
       "de": "Weise",
       "it": "Saggio",
       "pl": "Mądry",
-      "ru": "глупого",
-      "tr": "Aptal",
-      "ja": "賢者と愚か者",
-      "ko": "어리석",
-      "ar": "الحكيم"
+      "ru": "Мудрый",
+      "tr": "Bilge",
+      "ja": "知恵者",
+      "ko": "지혜자",
+      "ar": "حكيم"
      },
      "correct": true
     },
@@ -46768,12 +46768,12 @@
       "fr": "Riche",
       "de": "Reich",
       "it": "Ricco",
-      "pl": "Bogaty",
-      "ru": "бедного",
-      "tr": "Fakir",
-      "ja": "金持ちと貧しい人",
-      "ko": "가난한",
-      "ar": "الغني"
+      "pl": "Bogacz",
+      "ru": "Богач",
+      "tr": "Zengin",
+      "ja": "富者",
+      "ko": "부자",
+      "ar": "غني"
      },
      "correct": false
     },
@@ -46784,14 +46784,14 @@
       "es": "Rey",
       "pt": "Rei",
       "fr": "Roi",
-      "de": "Sklave",
+      "de": "König",
       "it": "Re",
       "pl": "Król",
-      "ru": "против",
-      "tr": "Köle",
-      "ja": "王と奴隷",
+      "ru": "Царь",
+      "tr": "Kral",
+      "ja": "王",
       "ko": "왕",
-      "ar": "الملك"
+      "ar": "ملك"
      },
      "correct": false
     }
