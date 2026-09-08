@@ -2179,9 +2179,9 @@ export function Game() {
               </div>
             </div>
           )}
-          {/* Top HUD: left group (lives/score/questions), right group (level/streak), home button */}
-          <div className="pointer-events-none absolute inset-x-0 top-0 z-10 flex items-start justify-between px-3 pt-3">
-            <div className="flex flex-col gap-1.5">
+          {/* Top HUD: left group, centered question, and right group */}
+          <div className="pointer-events-none absolute inset-x-0 top-0 z-10 grid grid-cols-[auto_minmax(0,1fr)_auto] items-start px-3 pt-3">
+            <div className="flex shrink-0 flex-col gap-1.5">
               <div className="flex items-center gap-1.5">
                 {Array.from({ length: Math.min(MAX_LIVES, Math.max(3, maxLives)) }, (_, i) => i).map((i) => (
                   <Heart
@@ -2207,7 +2207,25 @@ export function Game() {
                 <span className="text-amber-50 tabular-nums">{correctTotal}</span>
               </div>
             </div>
-            <div className="flex flex-col items-end gap-1.5">
+            <div className="min-w-0 px-3">
+              {currentQuestion && (
+                <div className="flex min-w-0 justify-center animate-fade-in">
+                  <div
+                    className="max-w-full rounded-2xl border border-amber-200/30 bg-black/55 px-5 py-3 text-center font-light tracking-wide text-amber-50 backdrop-blur-md shadow-[0_0_24px_rgba(255,200,140,0.2)]"
+                    style={{
+                      fontFamily: '"Cormorant Garamond", "Cormorant", Georgia, serif',
+                      fontSize: "clamp(18px, 4.6vw, 30px)",
+                      lineHeight: 1.25,
+                      letterSpacing: "0.02em",
+                      fontWeight: 500,
+                    }}
+                  >
+                    {currentQuestion}
+                  </div>
+                </div>
+              )}
+            </div>
+            <div className="flex shrink-0 flex-col items-end gap-1.5">
               <div className="flex items-center gap-1.5">
                 <div className="rounded-full bg-black/45 px-2.5 py-0.5 text-[10px] font-medium tracking-widest text-amber-100 backdrop-blur">
                   <span className="text-amber-200/70">{t("level")} </span>
@@ -2279,24 +2297,6 @@ export function Game() {
                     {t("no")}
                   </button>
                 </div>
-              </div>
-            </div>
-          )}
-
-          {/* Question - top center */}
-          {currentQuestion && (
-            <div className="pointer-events-none absolute inset-x-0 top-24 z-10 flex justify-center px-3 animate-fade-in">
-              <div
-                className="rounded-2xl border border-amber-200/30 bg-black/55 px-5 py-3 text-center font-light tracking-wide text-amber-50 backdrop-blur-md shadow-[0_0_24px_rgba(255,200,140,0.2)] max-w-[94%]"
-                style={{
-                  fontFamily: '"Cormorant Garamond", "Cormorant", Georgia, serif',
-                  fontSize: "clamp(18px, 4.6vw, 30px)",
-                  lineHeight: 1.25,
-                  letterSpacing: "0.02em",
-                  fontWeight: 500,
-                }}
-              >
-                {currentQuestion}
               </div>
             </div>
           )}
