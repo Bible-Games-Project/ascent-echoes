@@ -77,7 +77,7 @@ jobs:
 
   notify:
     needs: [ios, android]
-    if: |-
+    if: |
       always() && (needs.ios.result != 'skipped' || needs.android.result != 'skipped')
     uses: Bible-Games-Project/bgp-admin/.github/workflows/notify-telegram.yml@main
     with:
