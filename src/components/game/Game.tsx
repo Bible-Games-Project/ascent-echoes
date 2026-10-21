@@ -23,6 +23,7 @@ import bibleUnlockedImg from "@/assets/bible-unlocked.png.asset.json";
 import trueChristImg from "@/assets/true-christ.png.asset.json";
 import {
   buildLevelQuestions,
+  loadQuestionBank,
   timePerQuestionForLevel,
   LANGUAGES,
   LANGUAGE_LABELS,
@@ -316,6 +317,7 @@ export function Game() {
   }, []);
   useEffect(() => {
     languageRef.current = language;
+    void loadQuestionBank(language);
     try { localStorage.setItem("dunewalker_lang", language); } catch { /* ignore */ }
   }, [language]);
 

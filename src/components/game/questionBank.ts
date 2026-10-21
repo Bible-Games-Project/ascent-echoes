@@ -1,4 +1,4 @@
-import bank from "./questions.json";
+import enBank from "./questions/en.json";
 
 export type Difficulty = "easy" | "medium" | "hard" | "expert" | "impossible";
 
@@ -22,19 +22,40 @@ export const LANGUAGE_LABELS: Record<Language, string> = {
   ar: "العربية",
 };
 
-interface RawAnswer {
-  id: string;
-  text: Partial<Record<Language, string>>;
-  correct: boolean;
-}
-interface RawQuestion {
-  id: string;
-  question: Partial<Record<Language, string>>;
-  answers: RawAnswer[];
-}
+// One entry per question: [id, question, correct answer, wrong answer, wrong answer].
+// The files are generated from content/questions by scripts/build-questions.mjs.
+type RawQuestion = [string, string, string, string, string];
 type RawBank = Record<Difficulty, RawQuestion[]>;
 
-const RAW = bank as unknown as RawBank;
+// English ships with the app; every other language is its own chunk, loaded
+// when the player picks it, so the app does not carry all 12 at start-up.
+const LOADERS: Record<Exclude<Language, "en">, () => Promise<{ default: unknown }>> = {
+  es: () => import("./questions/es.json"),
+  pt: () => import("./questions/pt.json"),
+  fr: () => import("./questions/fr.json"),
+  de: () => import("./questions/de.json"),
+  it: () => import("./questions/it.json"),
+  pl: () => import("./questions/pl.json"),
+  ru: () => import("./questions/ru.json"),
+  tr: () => import("./questions/tr.json"),
+  ja: () => import("./questions/ja.json"),
+  ko: () => import("./questions/ko.json"),
+  ar: () => import("./questions/ar.json"),
+};
+
+const banks: Partial<Record<Language, RawBank>> = { en: enBank as unknown as RawBank };
+
+/** Loads a language's questions; until it arrives the game falls back to English. */
+export function loadQuestionBank(lang: Language): Promise<void> {
+  if (lang === "en" || banks[lang]) return Promise.resolve();
+  return LOADERS[lang]()
+    .then((m) => {
+      banks[lang] = m.default as RawBank;
+    })
+    .catch(() => {
+      /* keep using English */
+    });
+}
 
 // Level → distribution of difficulties (must sum to 10)
 const LEVEL_DIST: Record<number, Record<Difficulty, number>> = {
@@ -78,22 +99,16 @@ export interface GameQuestion {
   safe: 0 | 1 | 2;
 }
 
-function pickText(loc: Partial<Record<Language, string>>, lang: Language): string {
-  return loc[lang] ?? loc.en ?? "";
-}
-
-function localize(q: RawQuestion, lang: Language): GameQuestion {
+function localize(q: RawQuestion, difficulty: Difficulty): GameQuestion {
   // Randomize answer order; correct answer's new index is `safe`
-  const shuffled = shuffle(q.answers).slice(0, 3);
-  const texts = shuffled.map((a) => pickText(a.text, lang)) as string[];
-  const safeIdx = shuffled.findIndex((a) => a.correct);
-  const safe = (safeIdx >= 0 ? safeIdx : 0) as 0 | 1 | 2;
+  const [id, prompt, ...options] = q;
+  const order = shuffle([0, 1, 2]);
   return {
-    id: q.id,
-    difficulty: (q.id.split("_")[0] as Difficulty) ?? "easy",
-    prompt: pickText(q.question, lang),
-    answers: [texts[0] ?? "", texts[1] ?? "", texts[2] ?? ""] as [string, string, string],
-    safe,
+    id,
+    difficulty,
+    prompt,
+    answers: order.map((i) => options[i]) as [string, string, string],
+    safe: order.indexOf(0) as 0 | 1 | 2,
   };
 }
 
@@ -111,20 +126,20 @@ export function buildLevelQuestions(
   (Object.keys(dist) as Difficulty[]).forEach((diff) => {
     const count = dist[diff];
     if (!count) return;
-    const pool = RAW[diff] ?? [];
-    let candidates = pool.filter((q) => !usedIds.has(q.id));
+    const pool = (banks[lang] ?? banks.en!)[diff] ?? [];
+    let candidates = pool.filter((q) => !usedIds.has(q[0]));
     if (candidates.length < count) {
       // This difficulty's pool is exhausted for the run: start a fresh cycle
       // for it, but keep everything already queued in THIS level excluded so
       // no duplicate can appear back-to-back within the same sequence.
       const thisLevelIds = new Set(out.map((q) => q.id));
-      pool.forEach((q) => usedIds.delete(q.id));
-      candidates = pool.filter((q) => !thisLevelIds.has(q.id));
+      pool.forEach((q) => usedIds.delete(q[0]));
+      candidates = pool.filter((q) => !thisLevelIds.has(q[0]));
     }
     const picked = shuffle(candidates).slice(0, count);
     picked.forEach((q) => {
-      usedIds.add(q.id);
-      out.push(localize(q, lang));
+      usedIds.add(q[0]);
+      out.push(localize(q, diff));
     });
   });
 
