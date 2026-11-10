@@ -74,3 +74,22 @@ the next sync; if a rule you are adding applies to every game, it belongs in
 bgp-admin at `templates/agent-docs/`, so ask before adding it.
 
 <!-- BGP-ADMIN:END -->
+
+## Trivia questions
+
+- Source of truth: `content/questions/<book>.json` (all 12 languages, difficulty,
+  Bible reference). After editing, run `node scripts/build-questions.mjs` to
+  regenerate `src/components/game/questions/<lang>.json`, and commit both.
+- House style (the maintainer's rules): short question (max 12 words in English),
+  exactly 3 options, every answer ONE real word in all 12 languages (never glue
+  two words), numbers as digits, wrong options clearly wrong. Names follow each
+  language's Catholic Bible (73 books): e.g. ko 바오로, ja ペトロ.
+- Traps seen in review: fill-in-the-blank wording that only fits the right
+  answer in inflected languages (pl/ru/de/tr); "what hour" questions (ja/ko
+  Bibles use clock times); verses whose key word differs between Catholic
+  translations; Russian Synodal psalm numbering differs.
+- `npm install` fails here: bun.lock points at Lovable's private registry.
+  For a local build, temporarily rewrite those URLs to registry.npmjs.org,
+  run `bun install`, then `git checkout bun.lock`.
+- Usage limits: run review/writing agents one at a time. Running several in
+  parallel burned the whole limit in minutes and lost their half-done work.
