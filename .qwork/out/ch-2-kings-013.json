@@ -1,0 +1,5269 @@
+{
+ "questions": [
+  {
+   "id": "ch-2-kings-013-01",
+   "book": "2-kings",
+   "chapter": 13,
+   "difficulty": "easy",
+   "ref": "2 Kings 13:21",
+   "text": {
+    "en": [
+     "Whose bones brought a dead man back to life in a tomb?",
+     "Elisha",
+     "Elijah",
+     "Samuel"
+    ],
+    "es": [
+     "¿Los huesos de quién devolvieron la vida a un muerto en una tumba?",
+     "Eliseo",
+     "Elías",
+     "Samuel"
+    ],
+    "pt": [
+     "Os ossos de quem devolveram a vida a um morto num túmulo?",
+     "Eliseu",
+     "Elias",
+     "Samuel"
+    ],
+    "fr": [
+     "Les ossements de qui ont ramené un mort à la vie dans un tombeau ?",
+     "Élisée",
+     "Élie",
+     "Samuel"
+    ],
+    "de": [
+     "Wessen Gebeine erweckten einen Toten in einem Grab wieder zum Leben?",
+     "Elischa",
+     "Elija",
+     "Samuel"
+    ],
+    "it": [
+     "Le ossa di chi riportarono in vita un morto in una tomba?",
+     "Eliseo",
+     "Elia",
+     "Samuele"
+    ],
+    "pl": [
+     "Czyje kości przywróciły życie zmarłemu w grobie?",
+     "Elizeusz",
+     "Eliasz",
+     "Samuel"
+    ],
+    "ru": [
+     "Чьи кости вернули к жизни мертвеца в гробнице?",
+     "Елисей",
+     "Илия",
+     "Самуил"
+    ],
+    "tr": [
+     "Kimin kemikleri bir mezarda ölü bir adamı diriltti?",
+     "Elişa",
+     "İlyas",
+     "Samuel"
+    ],
+    "ja": [
+     "墓の中で、誰の骨が死んだ人を生き返らせましたか？",
+     "エリシャ",
+     "エリヤ",
+     "サムエル"
+    ],
+    "ko": [
+     "무덤에서 누구의 뼈가 죽은 사람을 되살렸습니까?",
+     "엘리사",
+     "엘리야",
+     "사무엘"
+    ],
+    "ar": [
+     "عظام مَن أحيت رجلًا ميتًا في قبر؟",
+     "أليشع",
+     "إيليا",
+     "صموئيل"
+    ]
+   }
+  },
+  {
+   "id": "ch-2-kings-013-02",
+   "book": "2-kings",
+   "chapter": 13,
+   "difficulty": "medium",
+   "ref": "2 Kings 13:18",
+   "text": {
+    "en": [
+     "How many times did King Joash strike the ground with arrows?",
+     "3",
+     "5",
+     "6"
+    ],
+    "es": [
+     "¿Cuántas veces golpeó el rey Joás el suelo con las flechas?",
+     "3",
+     "5",
+     "6"
+    ],
+    "pt": [
+     "Quantas vezes o rei Joás bateu no chão com as flechas?",
+     "3",
+     "5",
+     "6"
+    ],
+    "fr": [
+     "Combien de fois le roi Joas a-t-il frappé le sol avec les flèches ?",
+     "3",
+     "5",
+     "6"
+    ],
+    "de": [
+     "Wie oft schlug König Joasch mit den Pfeilen auf den Boden?",
+     "3",
+     "5",
+     "6"
+    ],
+    "it": [
+     "Quante volte il re Ioas colpì il suolo con le frecce?",
+     "3",
+     "5",
+     "6"
+    ],
+    "pl": [
+     "Ile razy król Joasz uderzył strzałami o ziemię?",
+     "3",
+     "5",
+     "6"
+    ],
+    "ru": [
+     "Сколько раз царь Иоас ударил стрелами в землю?",
+     "3",
+     "5",
+     "6"
+    ],
+    "tr": [
+     "Kral Yoaş okları kaç kez yere vurdu?",
+     "3",
+     "5",
+     "6"
+    ],
+    "ja": [
+     "ヨアシュ王は矢で何度地面を打ちましたか？",
+     "3",
+     "5",
+     "6"
+    ],
+    "ko": [
+     "요아스 임금은 화살로 땅을 몇 번 쳤습니까?",
+     "3",
+     "5",
+     "6"
+    ],
+    "ar": [
+     "كم مرة ضرب الملك يوآش الأرض بالسهام؟",
+     "3",
+     "5",
+     "6"
+    ]
+   }
+  },
+  {
+   "id": "ch-2-kings-013-03",
+   "book": "2-kings",
+   "chapter": 13,
+   "difficulty": "hard",
+   "ref": "2 Kings 13:14",
+   "text": {
+    "en": [
+     "Which king of Israel wept over the dying prophet Elisha?",
+     "Joash",
+     "Jehu",
+     "Ahab"
+    ],
+    "es": [
+     "¿Qué rey de Israel lloró sobre el profeta Eliseo moribundo?",
+     "Joás",
+     "Jehú",
+     "Ajab"
+    ],
+    "pt": [
+     "Que rei de Israel chorou sobre o profeta Eliseu moribundo?",
+     "Joás",
+     "Jeú",
+     "Acab"
+    ],
+    "fr": [
+     "Quel roi d'Israël pleura sur le prophète Élisée mourant ?",
+     "Joas",
+     "Jéhu",
+     "Achab"
+    ],
+    "de": [
+     "Welcher König von Israel weinte über den sterbenden Propheten Elischa?",
+     "Joasch",
+     "Jehu",
+     "Ahab"
+    ],
+    "it": [
+     "Quale re d'Israele pianse sul profeta Eliseo morente?",
+     "Ioas",
+     "Ieu",
+     "Acab"
+    ],
+    "pl": [
+     "Który król Izraela płakał nad umierającym prorokiem Elizeuszem?",
+     "Joasz",
+     "Jehu",
+     "Achab"
+    ],
+    "ru": [
+     "Какой царь Израиля плакал над умирающим пророком Елисеем?",
+     "Иоас",
+     "Ииуй",
+     "Ахав"
+    ],
+    "tr": [
+     "İsrail'in hangi kralı ölmekte olan Elişa Peygamber için ağladı?",
+     "Yoaş",
+     "Yehu",
+     "Ahav"
+    ],
+    "ja": [
+     "死の床にある預言者エリシャのために泣いたイスラエルの王は誰ですか？",
+     "ヨアシュ",
+     "イエフ",
+     "アハブ"
+    ],
+    "ko": [
+     "임종을 앞둔 예언자 엘리사 앞에서 운 이스라엘 임금은 누구입니까?",
+     "요아스",
+     "예후",
+     "아합"
+    ],
+    "ar": [
+     "أي ملك لإسرائيل بكى على النبي أليشع المحتضر؟",
+     "يوآش",
+     "ياهو",
+     "أخآب"
+    ]
+   }
+  },
+  {
+   "id": "ch-2-kings-013-04",
+   "book": "2-kings",
+   "chapter": 13,
+   "difficulty": "expert",
+   "ref": "2 Kings 13:20",
+   "text": {
+    "en": [
+     "After Elisha's death, raiders from which nation invaded Israel each spring?",
+     "Moab",
+     "Edom",
+     "Ammon"
+    ],
+    "es": [
+     "¿Qué nación enviaba bandas a invadir Israel cada primavera tras la muerte de Eliseo?",
+     "Moab",
+     "Edom",
+     "Amón"
+    ],
+    "pt": [
+     "Que nação enviava bandos para invadir Israel a cada primavera depois da morte de Eliseu?",
+     "Moab",
+     "Edom",
+     "Amon"
+    ],
+    "fr": [
+     "Quelle nation envoyait des bandes envahir Israël chaque printemps après la mort d'Élisée ?",
+     "Moab",
+     "Édom",
+     "Ammon"
+    ],
+    "de": [
+     "Welches Volk schickte nach Elischas Tod jeden Frühling Räuberbanden nach Israel?",
+     "Moab",
+     "Edom",
+     "Ammon"
+    ],
+    "it": [
+     "Quale popolo mandava bande a invadere Israele ogni primavera dopo la morte di Eliseo?",
+     "Moab",
+     "Edom",
+     "Ammon"
+    ],
+    "pl": [
+     "Który naród co roku na wiosnę napadał na Izrael po śmierci Elizeusza?",
+     "Moab",
+     "Edom",
+     "Ammon"
+    ],
+    "ru": [
+     "Какой народ после смерти Елисея каждую весну вторгался в Израиль отрядами?",
+     "Моав",
+     "Едом",
+     "Аммон"
+    ],
+    "tr": [
+     "Elişa'nın ölümünden sonra hangi ulus her ilkbahar İsrail'e akıncı çeteler gönderdi?",
+     "Moav",
+     "Edom",
+     "Ammon"
+    ],
+    "ja": [
+     "エリシャの死後、毎年春にイスラエルへ略奪隊を送った民はどこですか？",
+     "モアブ",
+     "エドム",
+     "アンモン"
+    ],
+    "ko": [
+     "엘리사가 죽은 뒤 해마다 봄에 이스라엘에 약탈대를 보낸 민족은 어디입니까?",
+     "모압",
+     "에돔",
+     "암몬"
+    ],
+    "ar": [
+     "أي شعب كان يرسل غزاة إلى إسرائيل كل ربيع بعد موت أليشع؟",
+     "موآب",
+     "أدوم",
+     "عمون"
+    ]
+   }
+  },
+  {
+   "id": "ch-2-kings-013-05",
+   "book": "2-kings",
+   "chapter": 13,
+   "difficulty": "impossible",
+   "ref": "2 Kings 13:1",
+   "text": {
+    "en": [
+     "How many years did Jehoahaz son of Jehu reign over Israel?",
+     "17",
+     "16",
+     "28"
+    ],
+    "es": [
+     "¿Cuántos años reinó Joacaz, hijo de Jehú, sobre Israel?",
+     "17",
+     "16",
+     "28"
+    ],
+    "pt": [
+     "Quantos anos reinou Joacaz, filho de Jeú, sobre Israel?",
+     "17",
+     "16",
+     "28"
+    ],
+    "fr": [
+     "Combien d'années Joachaz, fils de Jéhu, a-t-il régné sur Israël ?",
+     "17",
+     "16",
+     "28"
+    ],
+    "de": [
+     "Wie viele Jahre regierte Joahas, der Sohn Jehus, über Israel?",
+     "17",
+     "16",
+     "28"
+    ],
+    "it": [
+     "Per quanti anni regnò su Israele Ioacaz, figlio di Ieu?",
+     "17",
+     "16",
+     "28"
+    ],
+    "pl": [
+     "Ile lat panował nad Izraelem Joachaz, syn Jehu?",
+     "17",
+     "16",
+     "28"
+    ],
+    "ru": [
+     "Сколько лет царствовал над Израилем Иоахаз, сын Ииуя?",
+     "17",
+     "16",
+     "28"
+    ],
+    "tr": [
+     "Yehu'nun oğlu Yehoahaz İsrail'de kaç yıl krallık etti?",
+     "17",
+     "16",
+     "28"
+    ],
+    "ja": [
+     "イエフの子ヨアハズはイスラエルを何年治めましたか？",
+     "17",
+     "16",
+     "28"
+    ],
+    "ko": [
+     "예후의 아들 여호아하즈는 이스라엘을 몇 년 동안 다스렸습니까?",
+     "17",
+     "16",
+     "28"
+    ],
+    "ar": [
+     "كم سنة ملك يهوآحاز بن ياهو على إسرائيل؟",
+     "17",
+     "16",
+     "28"
+    ]
+   }
+  },
+  {
+   "id": "ch-2-kings-013-06",
+   "book": "2-kings",
+   "chapter": 14,
+   "difficulty": "easy",
+   "ref": "2 Kings 14:25",
+   "text": {
+    "en": [
+     "Which prophet, son of Amittai, foretold Jeroboam II's restored borders?",
+     "Jonah",
+     "Amos",
+     "Hosea"
+    ],
+    "es": [
+     "¿Qué profeta, hijo de Amitay, anunció que Jeroboán II recuperaría las fronteras de Israel?",
+     "Jonás",
+     "Amós",
+     "Oseas"
+    ],
+    "pt": [
+     "Que profeta, filho de Amati, anunciou as fronteiras restauradas de Jeroboão II?",
+     "Jonas",
+     "Amós",
+     "Oseias"
+    ],
+    "fr": [
+     "Quel prophète, fils d'Amittaï, annonça le rétablissement des frontières sous Jéroboam II ?",
+     "Jonas",
+     "Amos",
+     "Osée"
+    ],
+    "de": [
+     "Welcher Prophet, Sohn Amittais, kündigte die wiederhergestellten Grenzen unter Jerobeam II. an?",
+     "Jona",
+     "Amos",
+     "Hosea"
+    ],
+    "it": [
+     "Quale profeta, figlio di Amittài, annunciò il ripristino dei confini sotto Geroboamo II?",
+     "Giona",
+     "Amos",
+     "Osea"
+    ],
+    "pl": [
+     "Który prorok, syn Amittaja, zapowiedział odzyskanie granic Izraela za Jeroboama II?",
+     "Jonasz",
+     "Amos",
+     "Ozeasz"
+    ],
+    "ru": [
+     "Какой пророк, сын Амафии, предрёк восстановление границ Израиля при Иеровоаме II?",
+     "Иона",
+     "Амос",
+     "Осия"
+    ],
+    "tr": [
+     "Amittay oğlu hangi peygamber II. Yarovam döneminde sınırların geri alınacağını bildirdi?",
+     "Yunus",
+     "Amos",
+     "Hoşea"
+    ],
+    "ja": [
+     "アミタイの子で、ヤロブアム2世の時代に国境の回復を告げた預言者は誰ですか？",
+     "ヨナ",
+     "アモス",
+     "ホセア"
+    ],
+    "ko": [
+     "아미타이의 아들로서 예로보암 2세 때 국경 회복을 예언한 예언자는 누구입니까?",
+     "요나",
+     "아모스",
+     "호세아"
+    ],
+    "ar": [
+     "أي نبي، ابن أمتاي، تنبأ باستعادة حدود إسرائيل أيام يربعام الثاني؟",
+     "يونان",
+     "عاموس",
+     "هوشع"
+    ]
+   }
+  },
+  {
+   "id": "ch-2-kings-013-07",
+   "book": "2-kings",
+   "chapter": 14,
+   "difficulty": "medium",
+   "ref": "2 Kings 14:7",
+   "text": {
+    "en": [
+     "Which nation did King Amaziah of Judah defeat in the Valley of Salt?",
+     "Edom",
+     "Moab",
+     "Ammon"
+    ],
+    "es": [
+     "¿A quién derrotó el rey Amasías de Judá en el valle de la Sal?",
+     "Edom",
+     "Moab",
+     "Amón"
+    ],
+    "pt": [
+     "Quem o rei Amazias de Judá derrotou no vale do Sal?",
+     "Edom",
+     "Moab",
+     "Amon"
+    ],
+    "fr": [
+     "Qui le roi Amasias de Juda battit-il dans la vallée du Sel ?",
+     "Édom",
+     "Moab",
+     "Ammon"
+    ],
+    "de": [
+     "Wen besiegte König Amazja von Juda im Salztal?",
+     "Edom",
+     "Moab",
+     "Ammon"
+    ],
+    "it": [
+     "Chi sconfisse il re Amazia di Giuda nella valle del Sale?",
+     "Edom",
+     "Moab",
+     "Ammon"
+    ],
+    "pl": [
+     "Kogo pokonał król Judy Amazjasz w Dolinie Soli?",
+     "Edom",
+     "Moab",
+     "Ammon"
+    ],
+    "ru": [
+     "Кого победил царь Иудеи Амасия в Соляной долине?",
+     "Едом",
+     "Моав",
+     "Аммон"
+    ],
+    "tr": [
+     "Yahuda Kralı Amasya Tuz Vadisi'nde kimi yendi?",
+     "Edom",
+     "Moav",
+     "Ammon"
+    ],
+    "ja": [
+     "ユダの王アマツヤは塩の谷で誰を打ち破りましたか？",
+     "エドム",
+     "モアブ",
+     "アンモン"
+    ],
+    "ko": [
+     "유다 임금 아마츠야는 소금 골짜기에서 누구를 무찔렀습니까?",
+     "에돔",
+     "모압",
+     "암몬"
+    ],
+    "ar": [
+     "من هزم الملك أمصيا ملك يهوذا في وادي الملح؟",
+     "أدوم",
+     "موآب",
+     "عمون"
+    ]
+   }
+  },
+  {
+   "id": "ch-2-kings-013-08",
+   "book": "2-kings",
+   "chapter": 14,
+   "difficulty": "hard",
+   "ref": "2 Kings 14:9",
+   "text": {
+    "en": [
+     "In Jehoash's parable, the Lebanon thistle sent word to which tree?",
+     "Cedar",
+     "Oak",
+     "Olive"
+    ],
+    "es": [
+     "¿A qué árbol envió un mensaje el cardo del Líbano en la parábola de Joás?",
+     "Cedro",
+     "Roble",
+     "Olivo"
+    ],
+    "pt": [
+     "A que árvore o cardo do Líbano enviou recado na parábola de Joás?",
+     "Cedro",
+     "Carvalho",
+     "Oliveira"
+    ],
+    "fr": [
+     "À quel arbre le chardon du Liban envoya-t-il un message dans la parabole de Joas ?",
+     "Cèdre",
+     "Chêne",
+     "Olivier"
+    ],
+    "de": [
+     "Zu welchem Baum schickte die Distel des Libanon in Joaschs Gleichnis eine Botschaft?",
+     "Zeder",
+     "Eiche",
+     "Ölbaum"
+    ],
+    "it": [
+     "A quale albero mandò un messaggio il cardo del Libano nella parabola di Ioas?",
+     "Cedro",
+     "Quercia",
+     "Ulivo"
+    ],
+    "pl": [
+     "Do jakiego drzewa wysłał posłanie oset libański w przypowieści Joasza?",
+     "Cedr",
+     "Dąb",
+     "Oliwka"
+    ],
+    "ru": [
+     "Какому дереву послал весть ливанский терновник в притче Иоаса?",
+     "Кедр",
+     "Дуб",
+     "Маслина"
+    ],
+    "tr": [
+     "Yoaş'ın benzetmesinde Lübnan çalısı hangi ağaca haber gönderdi?",
+     "Sedir",
+     "Meşe",
+     "Zeytin"
+    ],
+    "ja": [
+     "ヨアシュのたとえで、レバノンのあざみが使いを送った木は何ですか？",
+     "杉",
+     "樫",
+     "オリーブ"
+    ],
+    "ko": [
+     "요아스의 비유에서 레바논의 엉겅퀴이 전갈을 보낸 나무는 무엇입니까?",
+     "향백나무",
+     "떡갈나무",
+     "올리브"
+    ],
+    "ar": [
+     "في مَثَل يوآش، إلى أي شجرة أرسل شوك لبنان رسالة؟",
+     "أرز",
+     "بلوط",
+     "زيتون"
+    ]
+   }
+  },
+  {
+   "id": "ch-2-kings-013-09",
+   "book": "2-kings",
+   "chapter": 14,
+   "difficulty": "expert",
+   "ref": "2 Kings 14:13",
+   "text": {
+    "en": [
+     "How many cubits of Jerusalem's wall did Jehoash of Israel tear down?",
+     "400",
+     "200",
+     "600"
+    ],
+    "es": [
+     "¿Cuántos codos de la muralla de Jerusalén derribó Joás de Israel?",
+     "400",
+     "200",
+     "600"
+    ],
+    "pt": [
+     "Quantos côvados da muralha de Jerusalém Joás de Israel derrubou?",
+     "400",
+     "200",
+     "600"
+    ],
+    "fr": [
+     "Combien de coudées de la muraille de Jérusalem Joas d'Israël démolit-il ?",
+     "400",
+     "200",
+     "600"
+    ],
+    "de": [
+     "Wie viele Ellen der Mauer Jerusalems riss Joasch von Israel nieder?",
+     "400",
+     "200",
+     "600"
+    ],
+    "it": [
+     "Quanti cubiti delle mura di Gerusalemme abbatté Ioas d'Israele?",
+     "400",
+     "200",
+     "600"
+    ],
+    "pl": [
+     "Ile łokci muru Jerozolimy zburzył Joasz, król Izraela?",
+     "400",
+     "200",
+     "600"
+    ],
+    "ru": [
+     "Сколько локтей стены Иерусалима разрушил Иоас, царь Израиля?",
+     "400",
+     "200",
+     "600"
+    ],
+    "tr": [
+     "İsrail Kralı Yoaş Yeruşalim surunun kaç arşınını yıktı?",
+     "400",
+     "200",
+     "600"
+    ],
+    "ja": [
+     "イスラエルの王ヨアシュはエルサレムの城壁を何アンマ破壊しましたか？",
+     "400",
+     "200",
+     "600"
+    ],
+    "ko": [
+     "이스라엘 임금 요아스는 예루살렘 성벽을 몇 암마나 허물었습니까?",
+     "400",
+     "200",
+     "600"
+    ],
+    "ar": [
+     "كم ذراعًا من سور أورشليم هدم يوآش ملك إسرائيل؟",
+     "400",
+     "200",
+     "600"
+    ]
+   }
+  },
+  {
+   "id": "ch-2-kings-013-10",
+   "book": "2-kings",
+   "chapter": 14,
+   "difficulty": "impossible",
+   "ref": "2 Kings 14:19",
+   "text": {
+    "en": [
+     "Conspirators chased fleeing King Amaziah to which city and killed him?",
+     "Lachish",
+     "Hebron",
+     "Jericho"
+    ],
+    "es": [
+     "¿A qué ciudad persiguieron los conspiradores al rey Amasías, que huía, y lo mataron?",
+     "Laquis",
+     "Hebrón",
+     "Jericó"
+    ],
+    "pt": [
+     "A que cidade os conspiradores perseguiram o fugitivo rei Amazias e o mataram?",
+     "Laquis",
+     "Hebron",
+     "Jericó"
+    ],
+    "fr": [
+     "Dans quelle ville les conjurés poursuivirent-ils le roi Amasias en fuite pour le tuer ?",
+     "Lakish",
+     "Hébron",
+     "Jéricho"
+    ],
+    "de": [
+     "In welcher Stadt töteten Verschwörer den fliehenden König Amazja?",
+     "Lachisch",
+     "Hebron",
+     "Jericho"
+    ],
+    "it": [
+     "In quale città i congiurati inseguirono e uccisero il re Amazia in fuga?",
+     "Lachis",
+     "Ebron",
+     "Gerico"
+    ],
+    "pl": [
+     "W którym mieście spiskowcy ścigali i zabili uciekającego króla Amazjasza?",
+     "Lakisz",
+     "Hebron",
+     "Jerycho"
+    ],
+    "ru": [
+     "В какой город бежал царь Амасия, где заговорщики убили его?",
+     "Лахис",
+     "Хеврон",
+     "Иерихон"
+    ],
+    "tr": [
+     "Komplocular kaçan Kral Amasya'yı hangi şehirde yakalayıp öldürdü?",
+     "Lakiş",
+     "Hebron",
+     "Eriha"
+    ],
+    "ja": [
+     "逃げたアマツヤ王を陰謀者たちが追って殺した町はどこですか？",
+     "ラキシュ",
+     "ヘブロン",
+     "エリコ"
+    ],
+    "ko": [
+     "음모자들이 도망친 아마츠야 임금을 쫓아가 죽인 성읍은 어디입니까?",
+     "라키스",
+     "헤브론",
+     "예리코"
+    ],
+    "ar": [
+     "في أي مدينة لاحق المتآمرون الملك أمصيا الهارب وقتلوه؟",
+     "لخيش",
+     "حبرون",
+     "أريحا"
+    ]
+   }
+  },
+  {
+   "id": "ch-2-kings-013-11",
+   "book": "2-kings",
+   "chapter": 15,
+   "difficulty": "easy",
+   "ref": "2 Kings 15:5",
+   "text": {
+    "en": [
+     "With what disease did the Lord strike King Azariah of Judah?",
+     "Leprosy",
+     "Blindness",
+     "Fever"
+    ],
+    "es": [
+     "¿Con qué enfermedad hirió el Señor al rey Azarías de Judá?",
+     "Lepra",
+     "Ceguera",
+     "Fiebre"
+    ],
+    "pt": [
+     "Com que doença o Senhor feriu o rei Azarias de Judá?",
+     "Lepra",
+     "Cegueira",
+     "Febre"
+    ],
+    "fr": [
+     "De quelle maladie le Seigneur frappa-t-il le roi Azarias de Juda ?",
+     "Lèpre",
+     "Cécité",
+     "Fièvre"
+    ],
+    "de": [
+     "Mit welcher Krankheit schlug der Herr König Asarja von Juda?",
+     "Aussatz",
+     "Blindheit",
+     "Fieber"
+    ],
+    "it": [
+     "Con quale malattia il Signore colpì il re Azaria di Giuda?",
+     "Lebbra",
+     "Cecità",
+     "Febbre"
+    ],
+    "pl": [
+     "Jaką chorobą Pan dotknął króla Judy Azariasza?",
+     "Trąd",
+     "Ślepota",
+     "Gorączka"
+    ],
+    "ru": [
+     "Какой болезнью поразил Господь царя Иудеи Азарию?",
+     "Проказа",
+     "Слепота",
+     "Лихорадка"
+    ],
+    "tr": [
+     "RAB, Yahuda Kralı Azarya'yı hangi hastalıkla vurdu?",
+     "Cüzam",
+     "Körlük",
+     "Ateş"
+    ],
+    "ja": [
+     "主はユダの王アザルヤをどんな病で打たれましたか？",
+     "皮膚病",
+     "失明",
+     "熱病"
+    ],
+    "ko": [
+     "주님께서는 유다 임금 아자르야를 어떤 병으로 치셨습니까?",
+     "나병",
+     "실명",
+     "열병"
+    ],
+    "ar": [
+     "بأي مرض ضرب الرب الملك عزريا ملك يهوذا؟",
+     "برص",
+     "عمى",
+     "حمى"
+    ]
+   }
+  },
+  {
+   "id": "ch-2-kings-013-12",
+   "book": "2-kings",
+   "chapter": 15,
+   "difficulty": "medium",
+   "ref": "2 Kings 15:19",
+   "text": {
+    "en": [
+     "How many talents of silver did Israel's king give Pul of Assyria?",
+     "1000",
+     "100",
+     "500"
+    ],
+    "es": [
+     "¿Cuántos talentos de plata dio el rey de Israel a Pul de Asiria?",
+     "1000",
+     "100",
+     "500"
+    ],
+    "pt": [
+     "Quantos talentos de prata o rei de Israel deu a Pul da Assíria?",
+     "1000",
+     "100",
+     "500"
+    ],
+    "fr": [
+     "Combien de talents d'argent le roi d'Israël donna-t-il à Poul d'Assyrie ?",
+     "1000",
+     "100",
+     "500"
+    ],
+    "de": [
+     "Wie viele Talente Silber gab Israels König dem Assyrer Pul?",
+     "1000",
+     "100",
+     "500"
+    ],
+    "it": [
+     "Quanti talenti d'argento diede il re d'Israele a Pul d'Assiria?",
+     "1000",
+     "100",
+     "500"
+    ],
+    "pl": [
+     "Ile talentów srebra dał król Izraela Pulowi, władcy Asyrii?",
+     "1000",
+     "100",
+     "500"
+    ],
+    "ru": [
+     "Сколько талантов серебра дал царь Израиля Фулу, царю Ассирии?",
+     "1000",
+     "100",
+     "500"
+    ],
+    "tr": [
+     "İsrail kralı Asurlu Pul'a kaç talant gümüş verdi?",
+     "1000",
+     "100",
+     "500"
+    ],
+    "ja": [
+     "イスラエルの王はアッシリアのプルに銀を何タラント贈りましたか？",
+     "1000",
+     "100",
+     "500"
+    ],
+    "ko": [
+     "이스라엘 임금은 아시리아의 풀에게 은 몇 탈렌트를 주었습니까?",
+     "1000",
+     "100",
+     "500"
+    ],
+    "ar": [
+     "كم وزنة فضة أعطى ملك إسرائيل لفول ملك أشور؟",
+     "1000",
+     "100",
+     "500"
+    ]
+   }
+  },
+  {
+   "id": "ch-2-kings-013-13",
+   "book": "2-kings",
+   "chapter": 15,
+   "difficulty": "hard",
+   "ref": "2 Kings 15:14",
+   "text": {
+    "en": [
+     "Which man killed King Shallum of Israel and took the throne?",
+     "Menahem",
+     "Pekah",
+     "Hoshea"
+    ],
+    "es": [
+     "¿Qué hombre mató al rey Salún de Israel y se apoderó del trono?",
+     "Menajem",
+     "Pécaj",
+     "Oseas"
+    ],
+    "pt": [
+     "Quem matou o rei Salum de Israel e tomou o trono?",
+     "Manaém",
+     "Faceia",
+     "Oseias"
+    ],
+    "fr": [
+     "Qui tua le roi Shallum d'Israël et prit le trône ?",
+     "Menahem",
+     "Pékah",
+     "Osée"
+    ],
+    "de": [
+     "Wer tötete König Schallum von Israel und wurde König?",
+     "Menahem",
+     "Pekach",
+     "Hoschea"
+    ],
+    "it": [
+     "Chi uccise il re Sallum d'Israele e prese il trono?",
+     "Menachem",
+     "Pekach",
+     "Osea"
+    ],
+    "pl": [
+     "Kto zabił króla Izraela Szalluma i zajął tron?",
+     "Menachem",
+     "Pekach",
+     "Ozeasz"
+    ],
+    "ru": [
+     "Кто убил царя Израиля Селлума и занял престол?",
+     "Менаим",
+     "Факей",
+     "Осия"
+    ],
+    "tr": [
+     "İsrail Kralı Şallum'u kim öldürüp tahta çıktı?",
+     "Menahem",
+     "Pekah",
+     "Hoşea"
+    ],
+    "ja": [
+     "イスラエルの王シャルムを殺して王位に就いたのは誰ですか？",
+     "メナヘム",
+     "ペカ",
+     "ホシェア"
+    ],
+    "ko": [
+     "이스라엘 임금 살룸을 죽이고 왕위에 오른 사람은 누구입니까?",
+     "므나헴",
+     "프카",
+     "호세아"
+    ],
+    "ar": [
+     "من قتل شلوم ملك إسرائيل وتولى العرش؟",
+     "منحيم",
+     "فقح",
+     "هوشع"
+    ]
+   }
+  },
+  {
+   "id": "ch-2-kings-013-14",
+   "book": "2-kings",
+   "chapter": 15,
+   "difficulty": "expert",
+   "ref": "2 Kings 15:30",
+   "text": {
+    "en": [
+     "Who conspired against King Pekah of Israel, killed him, and became king?",
+     "Hoshea",
+     "Menahem",
+     "Jehu"
+    ],
+    "es": [
+     "¿Quién conspiró contra el rey Pécaj de Israel, lo mató y reinó en su lugar?",
+     "Oseas",
+     "Menajem",
+     "Jehú"
+    ],
+    "pt": [
+     "Quem conspirou contra o rei Faceia de Israel, o matou e reinou?",
+     "Oseias",
+     "Manaém",
+     "Jeú"
+    ],
+    "fr": [
+     "Qui conspira contre le roi Pékah d'Israël, le tua et devint roi ?",
+     "Osée",
+     "Menahem",
+     "Jéhu"
+    ],
+    "de": [
+     "Wer verschwor sich gegen König Pekach von Israel, tötete ihn und wurde König?",
+     "Hoschea",
+     "Menahem",
+     "Jehu"
+    ],
+    "it": [
+     "Chi congiurò contro il re Pekach d'Israele, lo uccise e divenne re?",
+     "Osea",
+     "Menachem",
+     "Ieu"
+    ],
+    "pl": [
+     "Kto sprzysiągł się przeciw królowi Izraela Pekachowi, zabił go i objął tron?",
+     "Ozeasz",
+     "Menachem",
+     "Jehu"
+    ],
+    "ru": [
+     "Кто составил заговор против царя Израиля Факея, убил его и воцарился?",
+     "Осия",
+     "Менаим",
+     "Ииуй"
+    ],
+    "tr": [
+     "Kim İsrail Kralı Pekah'a karşı komplo kurup onu öldürdü ve kral oldu?",
+     "Hoşea",
+     "Menahem",
+     "Yehu"
+    ],
+    "ja": [
+     "イスラエルの王ペカに謀反を起こして殺し、王となったのは誰ですか？",
+     "ホシェア",
+     "メナヘム",
+     "イエフ"
+    ],
+    "ko": [
+     "이스라엘 임금 프카를 거슬러 모반하여 죽이고 왕이 된 사람은 누구입니까?",
+     "호세아",
+     "므나헴",
+     "예후"
+    ],
+    "ar": [
+     "من تآمر على فقح ملك إسرائيل وقتله وملك؟",
+     "هوشع",
+     "منحيم",
+     "ياهو"
+    ]
+   }
+  },
+  {
+   "id": "ch-2-kings-013-15",
+   "book": "2-kings",
+   "chapter": 15,
+   "difficulty": "impossible",
+   "ref": "2 Kings 15:33",
+   "text": {
+    "en": [
+     "King Jotham's mother Jerusha was the daughter of whom?",
+     "Zadok",
+     "Nathan",
+     "Abiathar"
+    ],
+    "es": [
+     "¿De quién era hija Jerusá, madre del rey Jotán?",
+     "Sadoc",
+     "Natán",
+     "Abiatar"
+    ],
+    "pt": [
+     "De quem era filha Jerusa, mãe do rei Jotão?",
+     "Sadoc",
+     "Natã",
+     "Abiatar"
+    ],
+    "fr": [
+     "De qui Yerousha, mère du roi Yotam, était-elle la fille ?",
+     "Sadoq",
+     "Nathan",
+     "Abiatar"
+    ],
+    "de": [
+     "Wessen Tochter war Jeruscha, die Mutter König Jotams?",
+     "Zadok",
+     "Natan",
+     "Abjatar"
+    ],
+    "it": [
+     "Di chi era figlia Ieruscia, madre del re Iotam?",
+     "Zadok",
+     "Natan",
+     "Abiatar"
+    ],
+    "pl": [
+     "Czyją córką była Jerusza, matka króla Jotama?",
+     "Sadok",
+     "Natan",
+     "Abiatar"
+    ],
+    "ru": [
+     "Чьей дочерью была Иеруша, мать царя Иофама?",
+     "Садок",
+     "Нафан",
+     "Авиафар"
+    ],
+    "tr": [
+     "Kral Yotam'ın annesi Yeruşa kimin kızıydı?",
+     "Sadok",
+     "Natan",
+     "Evyatar"
+    ],
+    "ja": [
+     "ヨタム王の母エルシャは誰の娘ですか？",
+     "ツァドク",
+     "ナタン",
+     "アビアタル"
+    ],
+    "ko": [
+     "요탐 임금의 어머니 예루사는 누구의 딸입니까?",
+     "차독",
+     "나탄",
+     "에브야타르"
+    ],
+    "ar": [
+     "ابنة من كانت يروشة أم الملك يوثام؟",
+     "صادوق",
+     "ناثان",
+     "أبياثار"
+    ]
+   }
+  },
+  {
+   "id": "ch-2-kings-013-16",
+   "book": "2-kings",
+   "chapter": 16,
+   "difficulty": "easy",
+   "ref": "2 Kings 16:10",
+   "text": {
+    "en": [
+     "Ahaz met Assyria's king in which city, and copied its altar?",
+     "Damascus",
+     "Tyre",
+     "Nineveh"
+    ],
+    "es": [
+     "¿En qué ciudad se reunió Ajaz con el rey de Asiria y copió su altar?",
+     "Damasco",
+     "Tiro",
+     "Nínive"
+    ],
+    "pt": [
+     "Em que cidade Acaz encontrou o rei da Assíria e copiou seu altar?",
+     "Damasco",
+     "Tiro",
+     "Nínive"
+    ],
+    "fr": [
+     "Dans quelle ville Achaz rencontra-t-il le roi d'Assyrie et copia-t-il son autel ?",
+     "Damas",
+     "Tyr",
+     "Ninive"
+    ],
+    "de": [
+     "In welcher Stadt traf Ahas den König von Assyrien und kopierte ihren Altar?",
+     "Damaskus",
+     "Tyrus",
+     "Ninive"
+    ],
+    "it": [
+     "In quale città Acaz incontrò il re d'Assiria e copiò il suo altare?",
+     "Damasco",
+     "Tiro",
+     "Ninive"
+    ],
+    "pl": [
+     "W jakim mieście Achaz spotkał króla Asyrii i skopiował tamtejszy ołtarz?",
+     "Damaszek",
+     "Tyr",
+     "Niniwa"
+    ],
+    "ru": [
+     "В каком городе Ахаз встретил царя Ассирии и срисовал тамошний жертвенник?",
+     "Дамаск",
+     "Тир",
+     "Ниневия"
+    ],
+    "tr": [
+     "Ahaz Asur kralıyla hangi şehirde buluştu ve oradaki sunağı örnek aldı?",
+     "Şam",
+     "Sur",
+     "Ninova"
+    ],
+    "ja": [
+     "アハズはどの町でアッシリアの王に会い、そこの祭壇を写しましたか？",
+     "ダマスコ",
+     "ティルス",
+     "ニネベ"
+    ],
+    "ko": [
+     "아하즈는 어느 성읍에서 아시리아 임금을 만나고 그곳 제단을 본떴습니까?",
+     "다마스쿠스",
+     "티로",
+     "니네베"
+    ],
+    "ar": [
+     "في أي مدينة التقى آحاز بملك أشور ونسخ مذبحها؟",
+     "دمشق",
+     "صور",
+     "نينوى"
+    ]
+   }
+  },
+  {
+   "id": "ch-2-kings-013-17",
+   "book": "2-kings",
+   "chapter": 16,
+   "difficulty": "medium",
+   "ref": "2 Kings 16:10-11",
+   "text": {
+    "en": [
+     "Which priest built King Ahaz's new altar, copied from Damascus?",
+     "Uriah",
+     "Hilkiah",
+     "Jehoiada"
+    ],
+    "es": [
+     "¿Qué sacerdote construyó el nuevo altar de Ajaz, copiado del de Damasco?",
+     "Urías",
+     "Jilquías",
+     "Joyadá"
+    ],
+    "pt": [
+     "Que sacerdote construiu o novo altar de Acaz, copiado do de Damasco?",
+     "Urias",
+     "Helcias",
+     "Joiada"
+    ],
+    "fr": [
+     "Quel prêtre construisit le nouvel autel d'Achaz, copié sur celui de Damas ?",
+     "Urie",
+     "Helcias",
+     "Joïada"
+    ],
+    "de": [
+     "Welcher Priester baute Ahas' neuen Altar nach dem Vorbild von Damaskus?",
+     "Urija",
+     "Hilkija",
+     "Jojada"
+    ],
+    "it": [
+     "Quale sacerdote costruì il nuovo altare di Acaz, copiato da quello di Damasco?",
+     "Uria",
+     "Chelkia",
+     "Ioiadà"
+    ],
+    "pl": [
+     "Który kapłan zbudował nowy ołtarz Achaza wzorowany na damasceńskim?",
+     "Uriasz",
+     "Chilkiasz",
+     "Jojada"
+    ],
+    "ru": [
+     "Какой священник построил новый жертвенник Ахаза по образцу дамасского?",
+     "Урия",
+     "Хелкия",
+     "Иодай"
+    ],
+    "tr": [
+     "Hangi kâhin, Ahaz için Şam'daki sunağın örneğine göre yeni bir sunak yaptı?",
+     "Uriya",
+     "Hilkiya",
+     "Yehoyada"
+    ],
+    "ja": [
+     "アハズのためにダマスコの祭壇に倣った新しい祭壇を築いた祭司は誰ですか？",
+     "ウリヤ",
+     "ヒルキヤ",
+     "ヨヤダ"
+    ],
+    "ko": [
+     "아하즈를 위해 다마스쿠스 제단을 본떠 새 제단을 세운 사제는 누구입니까?",
+     "우리야",
+     "힐키야",
+     "여호야다"
+    ],
+    "ar": [
+     "أي كاهن بنى مذبح آحاز الجديد على مثال مذبح دمشق؟",
+     "أوريا",
+     "حلقيا",
+     "يهوياداع"
+    ]
+   }
+  },
+  {
+   "id": "ch-2-kings-013-18",
+   "book": "2-kings",
+   "chapter": 16,
+   "difficulty": "hard",
+   "ref": "2 Kings 16:17",
+   "text": {
+    "en": [
+     "King Ahaz took the bronze Sea down from which bronze animals?",
+     "Oxen",
+     "Horses",
+     "Camels"
+    ],
+    "es": [
+     "¿De qué animales de bronce quitó Ajaz el depósito llamado «el Mar»?",
+     "Bueyes",
+     "Caballos",
+     "Camellos"
+    ],
+    "pt": [
+     "De que animais de bronze Acaz removeu a bacia chamada «Mar»?",
+     "Bois",
+     "Cavalos",
+     "Camelos"
+    ],
+    "fr": [
+     "De quels animaux de bronze Achaz retira-t-il le bassin appelé « mer » ?",
+     "Bœufs",
+     "Chevaux",
+     "Chameaux"
+    ],
+    "de": [
+     "Von welchen bronzenen Tieren nahm Ahas das Becken «Meer» herunter?",
+     "Rinder",
+     "Pferde",
+     "Kamele"
+    ],
+    "it": [
+     "Da quali animali di bronzo Acaz tolse la vasca detta «il Mare»?",
+     "Buoi",
+     "Cavalli",
+     "Cammelli"
+    ],
+    "pl": [
+     "Z grzbietów jakich zwierząt Achaz zdjął spiżowe morze?",
+     "Woły",
+     "Konie",
+     "Wielbłądy"
+    ],
+    "ru": [
+     "С каких медных животных Ахаз снял медное море?",
+     "Волы",
+     "Кони",
+     "Верблюды"
+    ],
+    "tr": [
+     "Ahaz «Deniz» denilen tunç havuzu hangi tunç hayvanların üzerinden indirdi?",
+     "Öküzler",
+     "Atlar",
+     "Develer"
+    ],
+    "ja": [
+     "アハズは「海」と呼ばれる青銅の水槽を、どの青銅の動物から降ろしましたか？",
+     "牛",
+     "馬",
+     "ラクダ"
+    ],
+    "ko": [
+     "아하즈는 '바다'라 불린 청동 물통을 어떤 청동 짐승들 위에서 내렸습니까?",
+     "소",
+     "말",
+     "낙타"
+    ],
+    "ar": [
+     "عن أي حيوانات نحاسية أنزل آحاز الحوض المسمى «البحر»؟",
+     "ثيران",
+     "خيول",
+     "جمال"
+    ]
+   }
+  },
+  {
+   "id": "ch-2-kings-013-19",
+   "book": "2-kings",
+   "chapter": 16,
+   "difficulty": "expert",
+   "ref": "2 Kings 16:9",
+   "text": {
+    "en": [
+     "To which place did Assyria deport the people of Damascus?",
+     "Kir",
+     "Egypt",
+     "Babylon"
+    ],
+    "es": [
+     "¿A qué lugar deportó Asiria a los habitantes de Damasco?",
+     "Quir",
+     "Egipto",
+     "Babilonia"
+    ],
+    "pt": [
+     "Para que lugar a Assíria deportou os habitantes de Damasco?",
+     "Quir",
+     "Egito",
+     "Babilônia"
+    ],
+    "fr": [
+     "Vers quel lieu l'Assyrie déporta-t-elle les habitants de Damas ?",
+     "Qir",
+     "Égypte",
+     "Babylone"
+    ],
+    "de": [
+     "Wohin deportierte Assyrien die Einwohner von Damaskus?",
+     "Kir",
+     "Ägypten",
+     "Babylon"
+    ],
+    "it": [
+     "In quale luogo l'Assiria deportò gli abitanti di Damasco?",
+     "Kir",
+     "Egitto",
+     "Babilonia"
+    ],
+    "pl": [
+     "Dokąd Asyria wywiozła mieszkańców Damaszku?",
+     "Kir",
+     "Egipt",
+     "Babilon"
+    ],
+    "ru": [
+     "Куда Ассирия переселила жителей Дамаска?",
+     "Кир",
+     "Египет",
+     "Вавилон"
+    ],
+    "tr": [
+     "Asur, Şam halkını nereye sürgün etti?",
+     "Kir",
+     "Mısır",
+     "Babil"
+    ],
+    "ja": [
+     "アッシリアはダマスコの住民をどこへ捕らえ移しましたか？",
+     "キル",
+     "エジプト",
+     "バビロン"
+    ],
+    "ko": [
+     "아시리아는 다마스쿠스 주민들을 어디로 유배시켰습니까?",
+     "키르",
+     "이집트",
+     "바빌론"
+    ],
+    "ar": [
+     "إلى أين رحّلت أشور سكان دمشق؟",
+     "قير",
+     "مصر",
+     "بابل"
+    ]
+   }
+  },
+  {
+   "id": "ch-2-kings-013-20",
+   "book": "2-kings",
+   "chapter": 16,
+   "difficulty": "impossible",
+   "ref": "2 Kings 16:2",
+   "text": {
+    "en": [
+     "How old was Ahaz when he became king of Judah?",
+     "20",
+     "25",
+     "12"
+    ],
+    "es": [
+     "¿Qué edad tenía Ajaz cuando se hizo rey de Judá?",
+     "20",
+     "25",
+     "12"
+    ],
+    "pt": [
+     "Que idade tinha Acaz quando se tornou rei de Judá?",
+     "20",
+     "25",
+     "12"
+    ],
+    "fr": [
+     "Quel âge avait Achaz lorsqu'il devint roi de Juda ?",
+     "20",
+     "25",
+     "12"
+    ],
+    "de": [
+     "Wie alt war Ahas, als er König von Juda wurde?",
+     "20",
+     "25",
+     "12"
+    ],
+    "it": [
+     "Quanti anni aveva Acaz quando divenne re di Giuda?",
+     "20",
+     "25",
+     "12"
+    ],
+    "pl": [
+     "Ile lat miał Achaz, gdy został królem Judy?",
+     "20",
+     "25",
+     "12"
+    ],
+    "ru": [
+     "Сколько лет было Ахазу, когда он стал царём Иудеи?",
+     "20",
+     "25",
+     "12"
+    ],
+    "tr": [
+     "Ahaz Yahuda kralı olduğunda kaç yaşındaydı?",
+     "20",
+     "25",
+     "12"
+    ],
+    "ja": [
+     "アハズはユダの王になったとき何歳でしたか？",
+     "20",
+     "25",
+     "12"
+    ],
+    "ko": [
+     "아하즈는 유다 임금이 되었을 때 몇 살이었습니까?",
+     "20",
+     "25",
+     "12"
+    ],
+    "ar": [
+     "كم كان عمر آحاز عندما صار ملكًا على يهوذا؟",
+     "20",
+     "25",
+     "12"
+    ]
+   }
+  },
+  {
+   "id": "ch-2-kings-013-21",
+   "book": "2-kings",
+   "chapter": 17,
+   "difficulty": "easy",
+   "ref": "2 Kings 17:6",
+   "text": {
+    "en": [
+     "Which empire conquered Samaria and deported the Israelites?",
+     "Assyria",
+     "Babylon",
+     "Egypt"
+    ],
+    "es": [
+     "¿Qué imperio conquistó Samaría y deportó a los israelitas?",
+     "Asiria",
+     "Babilonia",
+     "Egipto"
+    ],
+    "pt": [
+     "Que império conquistou Samaria e deportou os israelitas?",
+     "Assíria",
+     "Babilônia",
+     "Egito"
+    ],
+    "fr": [
+     "Quel empire conquit Samarie et déporta les Israélites ?",
+     "Assyrie",
+     "Babylone",
+     "Égypte"
+    ],
+    "de": [
+     "Welches Reich eroberte Samaria und deportierte die Israeliten?",
+     "Assyrien",
+     "Babylon",
+     "Ägypten"
+    ],
+    "it": [
+     "Quale impero conquistò Samaria e deportò gli Israeliti?",
+     "Assiria",
+     "Babilonia",
+     "Egitto"
+    ],
+    "pl": [
+     "Które imperium zdobyło Samarię i wywiozło Izraelitów?",
+     "Asyria",
+     "Babilon",
+     "Egipt"
+    ],
+    "ru": [
+     "Какая империя взяла Самарию и переселила израильтян?",
+     "Ассирия",
+     "Вавилон",
+     "Египет"
+    ],
+    "tr": [
+     "Hangi imparatorluk Samiriye'yi fethedip İsrailoğullarını sürgün etti?",
+     "Asur",
+     "Babil",
+     "Mısır"
+    ],
+    "ja": [
+     "サマリアを征服してイスラエル人を捕らえ移した帝国はどこですか？",
+     "アッシリア",
+     "バビロン",
+     "エジプト"
+    ],
+    "ko": [
+     "사마리아를 정복하고 이스라엘 백성을 유배시킨 제국은 어디입니까?",
+     "아시리아",
+     "바빌론",
+     "이집트"
+    ],
+    "ar": [
+     "أي إمبراطورية احتلت السامرة ورحّلت بني إسرائيل؟",
+     "أشور",
+     "بابل",
+     "مصر"
+    ]
+   }
+  },
+  {
+   "id": "ch-2-kings-013-22",
+   "book": "2-kings",
+   "chapter": 17,
+   "difficulty": "medium",
+   "ref": "2 Kings 17:3-5",
+   "text": {
+    "en": [
+     "Which Assyrian king imprisoned Hoshea and besieged Samaria?",
+     "Shalmaneser",
+     "Sennacherib",
+     "Nebuchadnezzar"
+    ],
+    "es": [
+     "¿Qué rey asirio encarceló a Oseas y sitió Samaría?",
+     "Salmanasar",
+     "Senaquerib",
+     "Nabucodonosor"
+    ],
+    "pt": [
+     "Que rei assírio prendeu Oseias e sitiou Samaria?",
+     "Salmanasar",
+     "Senaquerib",
+     "Nabucodonosor"
+    ],
+    "fr": [
+     "Quel roi d'Assyrie emprisonna Osée et assiégea Samarie ?",
+     "Salmanasar",
+     "Sennachérib",
+     "Nabuchodonosor"
+    ],
+    "de": [
+     "Welcher assyrische König ließ Hoschea einsperren und belagerte Samaria?",
+     "Salmanassar",
+     "Sanherib",
+     "Nebukadnezzar"
+    ],
+    "it": [
+     "Quale re assiro imprigionò Osea e assediò Samaria?",
+     "Salmanassar",
+     "Sennacherib",
+     "Nabucodonosor"
+    ],
+    "pl": [
+     "Który król asyryjski uwięził Ozeasza i oblegał Samarię?",
+     "Salmanasar",
+     "Sennacheryb",
+     "Nabuchodonozor"
+    ],
+    "ru": [
+     "Какой царь Ассирии заключил Осию в темницу и осаждал Самарию?",
+     "Салманасар",
+     "Сеннахирим",
+     "Навуходоносор"
+    ],
+    "tr": [
+     "Hangi Asur kralı Hoşea'yı hapse atıp Samiriye'yi kuşattı?",
+     "Şalmaneser",
+     "Sanherib",
+     "Nebukadnezar"
+    ],
+    "ja": [
+     "ホシェアを獄に入れ、サマリアを包囲したアッシリアの王は誰ですか？",
+     "シャルマナサル",
+     "センナケリブ",
+     "ネブカドネツァル"
+    ],
+    "ko": [
+     "호세아를 가두고 사마리아를 포위한 아시리아 임금은 누구입니까?",
+     "살만에세르",
+     "산헤립",
+     "네부카드네자르"
+    ],
+    "ar": [
+     "أي ملك أشوري سجن هوشع وحاصر السامرة؟",
+     "شلمنأسر",
+     "سنحاريب",
+     "نبوخذنصر"
+    ]
+   }
+  },
+  {
+   "id": "ch-2-kings-013-23",
+   "book": "2-kings",
+   "chapter": 17,
+   "difficulty": "hard",
+   "ref": "2 Kings 17:25",
+   "text": {
+    "en": [
+     "What wild animals did the Lord send against the settlers in Samaria?",
+     "Lions",
+     "Wolves",
+     "Bears"
+    ],
+    "es": [
+     "¿Qué animales salvajes envió el Señor contra los colonos de Samaría?",
+     "Leones",
+     "Lobos",
+     "Osos"
+    ],
+    "pt": [
+     "Que animais selvagens o Senhor enviou contra os colonos de Samaria?",
+     "Leões",
+     "Lobos",
+     "Ursos"
+    ],
+    "fr": [
+     "Quels animaux sauvages le Seigneur envoya-t-il contre les colons de Samarie ?",
+     "Lions",
+     "Loups",
+     "Ours"
+    ],
+    "de": [
+     "Welche wilden Tiere sandte der Herr gegen die Siedler in Samaria?",
+     "Löwen",
+     "Wölfe",
+     "Bären"
+    ],
+    "it": [
+     "Quali animali selvatici mandò il Signore contro i coloni di Samaria?",
+     "Leoni",
+     "Lupi",
+     "Orsi"
+    ],
+    "pl": [
+     "Jakie dzikie zwierzęta zesłał Pan na osadników w Samarii?",
+     "Lwy",
+     "Wilki",
+     "Niedźwiedzie"
+    ],
+    "ru": [
+     "Каких диких зверей послал Господь на поселенцев в Самарии?",
+     "Львы",
+     "Волки",
+     "Медведи"
+    ],
+    "tr": [
+     "RAB, Samiriye'ye yerleşenlerin üzerine hangi yabani hayvanları gönderdi?",
+     "Aslanlar",
+     "Kurtlar",
+     "Ayılar"
+    ],
+    "ja": [
+     "主はサマリアの入植者たちにどんな野獣を送られましたか？",
+     "ライオン",
+     "狼",
+     "熊"
+    ],
+    "ko": [
+     "주님께서는 사마리아에 정착한 이들에게 어떤 맹수를 보내셨습니까?",
+     "사자",
+     "늑대",
+     "곰"
+    ],
+    "ar": [
+     "أي وحوش أرسل الرب على المستوطنين في السامرة؟",
+     "أسود",
+     "ذئاب",
+     "دببة"
+    ]
+   }
+  },
+  {
+   "id": "ch-2-kings-013-24",
+   "book": "2-kings",
+   "chapter": 17,
+   "difficulty": "expert",
+   "ref": "2 Kings 17:1",
+   "text": {
+    "en": [
+     "How many years did Hoshea reign over Israel in Samaria?",
+     "9",
+     "19",
+     "12"
+    ],
+    "es": [
+     "¿Cuántos años reinó Oseas sobre Israel en Samaría?",
+     "9",
+     "19",
+     "12"
+    ],
+    "pt": [
+     "Quantos anos reinou Oseias sobre Israel em Samaria?",
+     "9",
+     "19",
+     "12"
+    ],
+    "fr": [
+     "Combien d'années Osée régna-t-il sur Israël à Samarie ?",
+     "9",
+     "19",
+     "12"
+    ],
+    "de": [
+     "Wie viele Jahre regierte Hoschea in Samaria über Israel?",
+     "9",
+     "19",
+     "12"
+    ],
+    "it": [
+     "Per quanti anni regnò Osea su Israele a Samaria?",
+     "9",
+     "19",
+     "12"
+    ],
+    "pl": [
+     "Ile lat Ozeasz panował nad Izraelem w Samarii?",
+     "9",
+     "19",
+     "12"
+    ],
+    "ru": [
+     "Сколько лет царствовал Осия над Израилем в Самарии?",
+     "9",
+     "19",
+     "12"
+    ],
+    "tr": [
+     "Hoşea Samiriye'de İsrail üzerinde kaç yıl krallık etti?",
+     "9",
+     "19",
+     "12"
+    ],
+    "ja": [
+     "ホシェアはサマリアでイスラエルを何年治めましたか？",
+     "9",
+     "19",
+     "12"
+    ],
+    "ko": [
+     "호세아는 사마리아에서 이스라엘을 몇 년 동안 다스렸습니까?",
+     "9",
+     "19",
+     "12"
+    ],
+    "ar": [
+     "كم سنة ملك هوشع على إسرائيل في السامرة؟",
+     "9",
+     "19",
+     "12"
+    ]
+   }
+  },
+  {
+   "id": "ch-2-kings-013-25",
+   "book": "2-kings",
+   "chapter": 17,
+   "difficulty": "impossible",
+   "ref": "2 Kings 17:6",
+   "text": {
+    "en": [
+     "Assyria settled Israel's exiles in Halah and on which river of Gozan?",
+     "Habor",
+     "Tigris",
+     "Euphrates"
+    ],
+    "es": [
+     "¿En Jalaj y en qué río de Gozán asentó Asiria a los desterrados de Israel?",
+     "Jabor",
+     "Tigris",
+     "Éufrates"
+    ],
+    "pt": [
+     "Em Hala e em que rio de Gozã a Assíria instalou os exilados de Israel?",
+     "Habor",
+     "Tigre",
+     "Eufrates"
+    ],
+    "fr": [
+     "Dans Halah et sur quel fleuve de Gozân l'Assyrie installa-t-elle les exilés d'Israël ?",
+     "Habor",
+     "Tigre",
+     "Euphrate"
+    ],
+    "de": [
+     "In Halach und an welchem Fluss von Gosan siedelte Assyrien Israels Verbannte an?",
+     "Habor",
+     "Tigris",
+     "Eufrat"
+    ],
+    "it": [
+     "A Calach e su quale fiume di Gozan l'Assiria stabilì gli esiliati d'Israele?",
+     "Cabor",
+     "Tigri",
+     "Eufrate"
+    ],
+    "pl": [
+     "W Chalach i nad którą rzeką Gozanu osadziła Asyria wygnańców z Izraela?",
+     "Chabor",
+     "Tygrys",
+     "Eufrat"
+    ],
+    "ru": [
+     "В Халахе и на какой реке Гозана поселила Ассирия изгнанных израильтян?",
+     "Хавор",
+     "Тигр",
+     "Евфрат"
+    ],
+    "tr": [
+     "Asur, İsrailli sürgünleri Halah'a ve Gozan'ın hangi nehri kıyısına yerleştirdi?",
+     "Habur",
+     "Dicle",
+     "Fırat"
+    ],
+    "ja": [
+     "アッシリアはイスラエルの捕囚民をハラと、ゴザンのどの川に住まわせましたか？",
+     "ハボル",
+     "チグリス",
+     "ユーフラテス"
+    ],
+    "ko": [
+     "아시리아는 이스라엘 유배민을 할라와 고잔의 어느 강가에 살게 했습니까?",
+     "하보르",
+     "티그리스",
+     "유프라테스"
+    ],
+    "ar": [
+     "في حالح وعلى أي نهر من جوزان أسكنت أشور مسبيي إسرائيل؟",
+     "خابور",
+     "دجلة",
+     "الفرات"
+    ]
+   }
+  },
+  {
+   "id": "ch-2-kings-013-26",
+   "book": "2-kings",
+   "chapter": 18,
+   "difficulty": "easy",
+   "ref": "2 Kings 18:4",
+   "text": {
+    "en": [
+     "Hezekiah smashed Moses' bronze Nehushtan, shaped like which animal?",
+     "Serpent",
+     "Lion",
+     "Calf"
+    ],
+    "es": [
+     "¿Qué animal representaba el Nejustán de bronce de Moisés, que destruyó Ezequías?",
+     "Serpiente",
+     "León",
+     "Becerro"
+    ],
+    "pt": [
+     "Que animal representava a Neustã de bronze de Moisés, destruída por Ezequias?",
+     "Serpente",
+     "Leão",
+     "Bezerro"
+    ],
+    "fr": [
+     "Quel animal représentait le Nehoushtân de bronze de Moïse, détruit par Ézéchias ?",
+     "Serpent",
+     "Lion",
+     "Veau"
+    ],
+    "de": [
+     "Welches Tier stellte das von Hiskija zerschlagene bronzene Nehuschtan des Mose dar?",
+     "Schlange",
+     "Löwe",
+     "Kalb"
+    ],
+    "it": [
+     "Quale animale raffigurava il Necustan di bronzo di Mosè, distrutto da Ezechia?",
+     "Serpente",
+     "Leone",
+     "Vitello"
+    ],
+    "pl": [
+     "Jakie zwierzę przedstawiał spiżowy Nechusztan Mojżesza, który zniszczył Ezechiasz?",
+     "Wąż",
+     "Lew",
+     "Cielec"
+    ],
+    "ru": [
+     "Какое животное изображал медный Нехуштан Моисея, разбитый Езекией?",
+     "Змей",
+     "Лев",
+     "Телец"
+    ],
+    "tr": [
+     "Hizkiya'nın parçaladığı, Musa'nın yaptığı tunç Nehuştan hangi hayvanı temsil ediyordu?",
+     "Yılan",
+     "Aslan",
+     "Buzağı"
+    ],
+    "ja": [
+     "ヒゼキヤが砕いたモーセの青銅のネフシュタンは、どの動物の形でしたか？",
+     "蛇",
+     "ライオン",
+     "子牛"
+    ],
+    "ko": [
+     "히즈키야가 부순, 모세가 만든 청동 느후스탄은 어떤 짐승의 모양이었습니까?",
+     "뱀",
+     "사자",
+     "송아지"
+    ],
+    "ar": [
+     "على شكل أي حيوان كانت نحشتان النحاسية التي صنعها موسى وحطمها حزقيا؟",
+     "حية",
+     "أسد",
+     "عجل"
+    ]
+   }
+  },
+  {
+   "id": "ch-2-kings-013-27",
+   "book": "2-kings",
+   "chapter": 18,
+   "difficulty": "medium",
+   "ref": "2 Kings 18:13",
+   "text": {
+    "en": [
+     "Which king captured Judah's fortified cities in Hezekiah's reign?",
+     "Sennacherib",
+     "Nebuchadnezzar",
+     "Cyrus"
+    ],
+    "es": [
+     "¿Qué rey conquistó las ciudades fortificadas de Judá en tiempos de Ezequías?",
+     "Senaquerib",
+     "Nabucodonosor",
+     "Ciro"
+    ],
+    "pt": [
+     "Que rei conquistou as cidades fortificadas de Judá no tempo de Ezequias?",
+     "Senaquerib",
+     "Nabucodonosor",
+     "Ciro"
+    ],
+    "fr": [
+     "Quel roi s'empara des villes fortes de Juda sous Ézéchias ?",
+     "Sennachérib",
+     "Nabuchodonosor",
+     "Cyrus"
+    ],
+    "de": [
+     "Welcher König eroberte unter Hiskija die befestigten Städte Judas?",
+     "Sanherib",
+     "Nebukadnezzar",
+     "Kyrus"
+    ],
+    "it": [
+     "Quale re conquistò le città fortificate di Giuda ai tempi di Ezechia?",
+     "Sennacherib",
+     "Nabucodonosor",
+     "Ciro"
+    ],
+    "pl": [
+     "Który król zdobył warowne miasta Judy za czasów Ezechiasza?",
+     "Sennacheryb",
+     "Nabuchodonozor",
+     "Cyrus"
+    ],
+    "ru": [
+     "Какой царь взял укреплённые города Иудеи при Езекии?",
+     "Сеннахирим",
+     "Навуходоносор",
+     "Кир"
+    ],
+    "tr": [
+     "Hizkiya döneminde Yahuda'nın surlu kentlerini hangi kral ele geçirdi?",
+     "Sanherib",
+     "Nebukadnezar",
+     "Koreş"
+    ],
+    "ja": [
+     "ヒゼキヤの時代にユダの砦の町々を攻め取った王は誰ですか？",
+     "センナケリブ",
+     "ネブカドネツァル",
+     "キュロス"
+    ],
+    "ko": [
+     "히즈키야 시대에 유다의 요새 성읍들을 점령한 임금은 누구입니까?",
+     "산헤립",
+     "네부카드네자르",
+     "키루스"
+    ],
+    "ar": [
+     "أي ملك استولى على مدن يهوذا الحصينة في أيام حزقيا؟",
+     "سنحاريب",
+     "نبوخذنصر",
+     "قورش"
+    ]
+   }
+  },
+  {
+   "id": "ch-2-kings-013-28",
+   "book": "2-kings",
+   "chapter": 18,
+   "difficulty": "hard",
+   "ref": "2 Kings 18:8",
+   "text": {
+    "en": [
+     "Hezekiah struck the Philistines as far as which city?",
+     "Gaza",
+     "Ashdod",
+     "Ashkelon"
+    ],
+    "es": [
+     "¿Hasta qué ciudad hirió Ezequías a los filisteos?",
+     "Gaza",
+     "Asdod",
+     "Ascalón"
+    ],
+    "pt": [
+     "Até que cidade Ezequias feriu os filisteus?",
+     "Gaza",
+     "Asdod",
+     "Ascalon"
+    ],
+    "fr": [
+     "Jusqu'à quelle ville Ézéchias battit-il les Philistins ?",
+     "Gaza",
+     "Ashdod",
+     "Ashqelon"
+    ],
+    "de": [
+     "Bis zu welcher Stadt schlug Hiskija die Philister?",
+     "Gaza",
+     "Aschdod",
+     "Aschkelon"
+    ],
+    "it": [
+     "Fino a quale città Ezechia sconfisse i Filistei?",
+     "Gaza",
+     "Asdod",
+     "Ascalon"
+    ],
+    "pl": [
+     "Aż do którego miasta Ezechiasz pobił Filistynów?",
+     "Gaza",
+     "Aszdod",
+     "Aszkelon"
+    ],
+    "ru": [
+     "До какого города Езекия поражал филистимлян?",
+     "Газа",
+     "Азот",
+     "Аскалон"
+    ],
+    "tr": [
+     "Hizkiya Filistlileri hangi şehre kadar bozguna uğrattı?",
+     "Gazze",
+     "Aşdod",
+     "Aşkelon"
+    ],
+    "ja": [
+     "ヒゼキヤはペリシテ人をどの町まで撃ちましたか？",
+     "ガザ",
+     "アシュドド",
+     "アシュケロン"
+    ],
+    "ko": [
+     "히즈키야는 필리스티아인들을 어느 성읍까지 쳤습니까?",
+     "가자",
+     "아스돗",
+     "아스칼론"
+    ],
+    "ar": [
+     "إلى أي مدينة ضرب حزقيا الفلسطينيين؟",
+     "غزة",
+     "أشدود",
+     "عسقلان"
+    ]
+   }
+  },
+  {
+   "id": "ch-2-kings-013-29",
+   "book": "2-kings",
+   "chapter": 18,
+   "difficulty": "expert",
+   "ref": "2 Kings 18:14",
+   "text": {
+    "en": [
+     "How many talents of gold did Hezekiah pay Sennacherib?",
+     "30",
+     "50",
+     "100"
+    ],
+    "es": [
+     "¿Cuántos talentos de oro pagó Ezequías a Senaquerib?",
+     "30",
+     "50",
+     "100"
+    ],
+    "pt": [
+     "Quantos talentos de ouro Ezequias pagou a Senaquerib?",
+     "30",
+     "50",
+     "100"
+    ],
+    "fr": [
+     "Combien de talents d'or Ézéchias paya-t-il à Sennachérib ?",
+     "30",
+     "50",
+     "100"
+    ],
+    "de": [
+     "Wie viele Talente Gold zahlte Hiskija an Sanherib?",
+     "30",
+     "50",
+     "100"
+    ],
+    "it": [
+     "Quanti talenti d'oro pagò Ezechia a Sennacherib?",
+     "30",
+     "50",
+     "100"
+    ],
+    "pl": [
+     "Ile talentów złota zapłacił Ezechiasz Sennacherybowi?",
+     "30",
+     "50",
+     "100"
+    ],
+    "ru": [
+     "Сколько талантов золота заплатил Езекия Сеннахириму?",
+     "30",
+     "50",
+     "100"
+    ],
+    "tr": [
+     "Hizkiya Sanherib'e kaç talant altın ödedi?",
+     "30",
+     "50",
+     "100"
+    ],
+    "ja": [
+     "ヒゼキヤはセンナケリブに金を何タラント払いましたか？",
+     "30",
+     "50",
+     "100"
+    ],
+    "ko": [
+     "히즈키야는 산헤립에게 금 몇 탈렌트를 바쳤습니까?",
+     "30",
+     "50",
+     "100"
+    ],
+    "ar": [
+     "كم وزنة ذهب دفع حزقيا لسنحاريب؟",
+     "30",
+     "50",
+     "100"
+    ]
+   }
+  },
+  {
+   "id": "ch-2-kings-013-30",
+   "book": "2-kings",
+   "chapter": 18,
+   "difficulty": "impossible",
+   "ref": "2 Kings 18:18",
+   "text": {
+    "en": [
+     "Which secretary accompanied Eliakim to meet Sennacherib's envoy outside Jerusalem?",
+     "Shebna",
+     "Baruch",
+     "Ezra"
+    ],
+    "es": [
+     "¿Qué secretario acompañó a Eliaquim a recibir al enviado de Senaquerib fuera de Jerusalén?",
+     "Sebná",
+     "Baruc",
+     "Esdras"
+    ],
+    "pt": [
+     "Que secretário acompanhou Eliacim ao encontro do enviado de Senaquerib fora de Jerusalém?",
+     "Sobna",
+     "Baruc",
+     "Esdras"
+    ],
+    "fr": [
+     "Quel secrétaire accompagna Éliaqim à la rencontre de l'envoyé de Sennachérib hors de Jérusalem ?",
+     "Shebna",
+     "Baruch",
+     "Esdras"
+    ],
+    "de": [
+     "Welcher Schreiber ging mit Eljakim hinaus zum Gesandten Sanheribs vor Jerusalem?",
+     "Schebna",
+     "Baruch",
+     "Esra"
+    ],
+    "it": [
+     "Quale segretario accompagnò Eliakim all'incontro con l'inviato di Sennacherib fuori Gerusalemme?",
+     "Sebna",
+     "Baruc",
+     "Esdra"
+    ],
+    "pl": [
+     "Który pisarz towarzyszył Eliakimowi na spotkaniu z posłem Sennacheryba pod Jerozolimą?",
+     "Szebna",
+     "Baruch",
+     "Ezdrasz"
+    ],
+    "ru": [
+     "Какой писец вышел с Елиакимом к посланнику Сеннахирима у стен Иерусалима?",
+     "Севна",
+     "Варух",
+     "Ездра"
+    ],
+    "tr": [
+     "Hangi katip, Eliyakim'le birlikte Sanherib'in elçisini karşılamaya çıktı?",
+     "Şevna",
+     "Baruk",
+     "Ezra"
+    ],
+    "ja": [
+     "エルヤキムと共にセンナケリブの使者を迎えに出た書記官は誰ですか？",
+     "シェブナ",
+     "バルク",
+     "エズラ"
+    ],
+    "ko": [
+     "엘리야킴과 함께 산헤립의 사절을 맞으러 나간 서기관은 누구입니까?",
+     "셉나",
+     "바룩",
+     "에즈라"
+    ],
+    "ar": [
+     "أي كاتب خرج مع الياقيم للقاء رسول سنحاريب؟",
+     "شبنة",
+     "باروخ",
+     "عزرا"
+    ]
+   }
+  },
+  {
+   "id": "ch-2-kings-013-31",
+   "book": "2-kings",
+   "chapter": 19,
+   "difficulty": "easy",
+   "ref": "2 Kings 19:35",
+   "text": {
+    "en": [
+     "How many Assyrians did the Lord's angel strike down in one night?",
+     "185000",
+     "85000",
+     "120000"
+    ],
+    "es": [
+     "¿A cuántos asirios hirió el ángel del Señor en una sola noche?",
+     "185000",
+     "85000",
+     "120000"
+    ],
+    "pt": [
+     "Quantos assírios o anjo do Senhor feriu numa só noite?",
+     "185000",
+     "85000",
+     "120000"
+    ],
+    "fr": [
+     "Combien d'Assyriens l'ange du Seigneur frappa-t-il en une seule nuit ?",
+     "185000",
+     "85000",
+     "120000"
+    ],
+    "de": [
+     "Wie viele Assyrer erschlug der Engel des Herrn in einer einzigen Nacht?",
+     "185000",
+     "85000",
+     "120000"
+    ],
+    "it": [
+     "Quanti Assiri colpì in una sola notte l'angelo del Signore?",
+     "185000",
+     "85000",
+     "120000"
+    ],
+    "pl": [
+     "Ilu Asyryjczyków zabił w jedną noc anioł Pański?",
+     "185000",
+     "85000",
+     "120000"
+    ],
+    "ru": [
+     "Сколько ассирийцев поразил ангел Господень в одну ночь?",
+     "185000",
+     "85000",
+     "120000"
+    ],
+    "tr": [
+     "RAB'bin meleği tek gecede kaç Asurlu'yu vurdu?",
+     "185000",
+     "85000",
+     "120000"
+    ],
+    "ja": [
+     "主の使いは一夜のうちに何人のアッシリア人を打ちましたか？",
+     "185000",
+     "85000",
+     "120000"
+    ],
+    "ko": [
+     "주님의 천사는 하룻밤에 아시리아 사람을 몇 명이나 쳤습니까?",
+     "185000",
+     "85000",
+     "120000"
+    ],
+    "ar": [
+     "كم أشوريًا ضرب ملاك الرب في ليلة واحدة؟",
+     "185000",
+     "85000",
+     "120000"
+    ]
+   }
+  },
+  {
+   "id": "ch-2-kings-013-32",
+   "book": "2-kings",
+   "chapter": 19,
+   "difficulty": "medium",
+   "ref": "2 Kings 19:6-7",
+   "text": {
+    "en": [
+     "Which prophet, son of Amoz, assured Hezekiah that Jerusalem would be spared?",
+     "Isaiah",
+     "Jeremiah",
+     "Micah"
+    ],
+    "es": [
+     "¿Qué profeta, hijo de Amós, aseguró a Ezequías que Jerusalén se salvaría?",
+     "Isaías",
+     "Jeremías",
+     "Miqueas"
+    ],
+    "pt": [
+     "Que profeta, filho de Amós, garantiu a Ezequias que Jerusalém seria poupada?",
+     "Isaías",
+     "Jeremias",
+     "Miqueias"
+    ],
+    "fr": [
+     "Quel prophète, fils d'Amoz, assura à Ézéchias que Jérusalem serait épargnée ?",
+     "Isaïe",
+     "Jérémie",
+     "Michée"
+    ],
+    "de": [
+     "Welcher Prophet, Sohn des Amoz, versicherte Hiskija, Jerusalem werde verschont?",
+     "Jesaja",
+     "Jeremia",
+     "Micha"
+    ],
+    "it": [
+     "Quale profeta, figlio di Amoz, assicurò a Ezechia che Gerusalemme sarebbe stata risparmiata?",
+     "Isaia",
+     "Geremia",
+     "Michea"
+    ],
+    "pl": [
+     "Który prorok, syn Amosa, zapewnił Ezechiasza, że Jerozolima zostanie oszczędzona?",
+     "Izajasz",
+     "Jeremiasz",
+     "Micheasz"
+    ],
+    "ru": [
+     "Какой пророк, сын Амоса, заверил Езекию, что Иерусалим будет пощажён?",
+     "Исайя",
+     "Иеремия",
+     "Михей"
+    ],
+    "tr": [
+     "Amots oğlu hangi peygamber Hizkiya'ya Yeruşalim'in kurtulacağını bildirdi?",
+     "Yeşaya",
+     "Yeremya",
+     "Mika"
+    ],
+    "ja": [
+     "アモツの子で、エルサレムは救われるとヒゼキヤに告げた預言者は誰ですか？",
+     "イザヤ",
+     "エレミヤ",
+     "ミカ"
+    ],
+    "ko": [
+     "아모츠의 아들로서 예루살렘이 구원되리라고 히즈키야에게 알려 준 예언자는 누구입니까?",
+     "이사야",
+     "예레미야",
+     "미카"
+    ],
+    "ar": [
+     "أي نبي، ابن آموص، أكد لحزقيا أن أورشليم ستنجو؟",
+     "إشعيا",
+     "إرميا",
+     "ميخا"
+    ]
+   }
+  },
+  {
+   "id": "ch-2-kings-013-33",
+   "book": "2-kings",
+   "chapter": 19,
+   "difficulty": "hard",
+   "ref": "2 Kings 19:36",
+   "text": {
+    "en": [
+     "After the angel struck his army, in which city did Sennacherib stay?",
+     "Nineveh",
+     "Babylon",
+     "Damascus"
+    ],
+    "es": [
+     "Tras herir el ángel a su ejército, ¿en qué ciudad se quedó Senaquerib?",
+     "Nínive",
+     "Babilonia",
+     "Damasco"
+    ],
+    "pt": [
+     "Depois que o anjo feriu o seu exército, em que cidade Senaquerib ficou?",
+     "Nínive",
+     "Babilônia",
+     "Damasco"
+    ],
+    "fr": [
+     "Après que l'ange eut frappé son armée, dans quelle ville Sennachérib demeura-t-il ?",
+     "Ninive",
+     "Babylone",
+     "Damas"
+    ],
+    "de": [
+     "In welcher Stadt blieb Sanherib, nachdem der Engel sein Heer geschlagen hatte?",
+     "Ninive",
+     "Babylon",
+     "Damaskus"
+    ],
+    "it": [
+     "Dopo che l'angelo colpì il suo esercito, in quale città rimase Sennacherib?",
+     "Ninive",
+     "Babilonia",
+     "Damasco"
+    ],
+    "pl": [
+     "W którym mieście zamieszkał Sennacheryb po tym, jak anioł pobił jego wojsko?",
+     "Niniwa",
+     "Babilon",
+     "Damaszek"
+    ],
+    "ru": [
+     "В каком городе остался Сеннахирим после того, как ангел поразил его войско?",
+     "Ниневия",
+     "Вавилон",
+     "Дамаск"
+    ],
+    "tr": [
+     "Melek ordusunu vurduktan sonra Sanherib hangi şehirde kaldı?",
+     "Ninova",
+     "Babil",
+     "Şam"
+    ],
+    "ja": [
+     "天使が軍勢を打った後、センナケリブはどの町にとどまりましたか？",
+     "ニネベ",
+     "バビロン",
+     "ダマスコ"
+    ],
+    "ko": [
+     "천사가 그의 군대를 친 뒤 산헤립은 어느 성읍에 머물렀습니까?",
+     "니네베",
+     "바빌론",
+     "다마스쿠스"
+    ],
+    "ar": [
+     "بعد أن ضرب الملاك جيشه، في أي مدينة أقام سنحاريب؟",
+     "نينوى",
+     "بابل",
+     "دمشق"
+    ]
+   }
+  },
+  {
+   "id": "ch-2-kings-013-34",
+   "book": "2-kings",
+   "chapter": 19,
+   "difficulty": "expert",
+   "ref": "2 Kings 19:37",
+   "text": {
+    "en": [
+     "To which land did the sons who killed Sennacherib flee?",
+     "Ararat",
+     "Egypt",
+     "Moab"
+    ],
+    "es": [
+     "¿A qué tierra huyeron los hijos que mataron a Senaquerib?",
+     "Ararat",
+     "Egipto",
+     "Moab"
+    ],
+    "pt": [
+     "Para que terra fugiram os filhos que mataram Senaquerib?",
+     "Ararate",
+     "Egito",
+     "Moab"
+    ],
+    "fr": [
+     "Dans quel pays s'enfuirent les fils qui avaient tué Sennachérib ?",
+     "Ararat",
+     "Égypte",
+     "Moab"
+    ],
+    "de": [
+     "In welches Land flohen die Söhne, die Sanherib ermordet hatten?",
+     "Ararat",
+     "Ägypten",
+     "Moab"
+    ],
+    "it": [
+     "In quale paese fuggirono i figli che avevano ucciso Sennacherib?",
+     "Araràt",
+     "Egitto",
+     "Moab"
+    ],
+    "pl": [
+     "Do jakiej krainy uciekli synowie, którzy zabili Sennacheryba?",
+     "Ararat",
+     "Egipt",
+     "Moab"
+    ],
+    "ru": [
+     "В какую землю бежали сыновья, убившие Сеннахирима?",
+     "Арарат",
+     "Египет",
+     "Моав"
+    ],
+    "tr": [
+     "Sanherib'i öldüren oğulları hangi diyara kaçtı?",
+     "Ararat",
+     "Mısır",
+     "Moav"
+    ],
+    "ja": [
+     "センナケリブを殺した息子たちが逃れた地はどこですか？",
+     "アララト",
+     "エジプト",
+     "モアブ"
+    ],
+    "ko": [
+     "산헤립을 죽인 아들들이 달아난 땅은 어디입니까?",
+     "아라랏",
+     "이집트",
+     "모압"
+    ],
+    "ar": [
+     "إلى أي أرض هرب أبناء سنحاريب الذين قتلوه؟",
+     "أراراط",
+     "مصر",
+     "موآب"
+    ]
+   }
+  },
+  {
+   "id": "ch-2-kings-013-35",
+   "book": "2-kings",
+   "chapter": 19,
+   "difficulty": "impossible",
+   "ref": "2 Kings 19:29",
+   "text": {
+    "en": [
+     "In which year of Isaiah's sign does Judah sow and reap normally again?",
+     "3",
+     "2",
+     "1"
+    ],
+    "es": [
+     "Según la señal de Isaías, ¿en qué año vuelve Judá a sembrar y cosechar normalmente?",
+     "3",
+     "2",
+     "1"
+    ],
+    "pt": [
+     "Segundo o sinal de Isaías, em que ano Judá volta a semear e colher normalmente?",
+     "3",
+     "2",
+     "1"
+    ],
+    "fr": [
+     "Selon le signe d'Isaïe, en quelle année Juda sème-t-il et moissonne-t-il de nouveau normalement ?",
+     "3",
+     "2",
+     "1"
+    ],
+    "de": [
+     "Nach Jesajas Zeichen: In welchem Jahr sät und erntet Juda wieder normal?",
+     "3",
+     "2",
+     "1"
+    ],
+    "it": [
+     "Secondo il segno di Isaia, in quale anno Giuda torna a seminare e mietere normalmente?",
+     "3",
+     "2",
+     "1"
+    ],
+    "pl": [
+     "Według znaku Izajasza, w którym roku Juda znów normalnie sieje i żnie?",
+     "3",
+     "2",
+     "1"
+    ],
+    "ru": [
+     "По знамению Исайи, на какой год Иудея снова сеет и жнёт как обычно?",
+     "3",
+     "2",
+     "1"
+    ],
+    "tr": [
+     "Yeşaya'nın belirtisine göre Yahuda hangi yıl yeniden normal ekip biçecek?",
+     "3",
+     "2",
+     "1"
+    ],
+    "ja": [
+     "イザヤのしるしによれば、ユダが再び普通に種を蒔き刈り入れるのは何年目ですか？",
+     "3",
+     "2",
+     "1"
+    ],
+    "ko": [
+     "이사야의 표징에 따르면 유다는 몇 해째에 다시 정상적으로 씨 뿌리고 거두게 됩니까?",
+     "3",
+     "2",
+     "1"
+    ],
+    "ar": [
+     "حسب علامة إشعيا، في أي سنة يزرع يهوذا ويحصد من جديد بصورة عادية؟",
+     "3",
+     "2",
+     "1"
+    ]
+   }
+  },
+  {
+   "id": "ch-2-kings-013-36",
+   "book": "2-kings",
+   "chapter": 20,
+   "difficulty": "easy",
+   "ref": "2 Kings 20:6",
+   "text": {
+    "en": [
+     "How many years did God add to Hezekiah's life after his illness?",
+     "15",
+     "10",
+     "30"
+    ],
+    "es": [
+     "¿Cuántos años añadió Dios a la vida de Ezequías tras su enfermedad?",
+     "15",
+     "10",
+     "30"
+    ],
+    "pt": [
+     "Quantos anos Deus acrescentou à vida de Ezequias depois da doença?",
+     "15",
+     "10",
+     "30"
+    ],
+    "fr": [
+     "Combien d'années Dieu ajouta-t-il à la vie d'Ézéchias après sa maladie ?",
+     "15",
+     "10",
+     "30"
+    ],
+    "de": [
+     "Um wie viele Jahre verlängerte Gott Hiskijas Leben nach seiner Krankheit?",
+     "15",
+     "10",
+     "30"
+    ],
+    "it": [
+     "Quanti anni Dio aggiunse alla vita di Ezechia dopo la sua malattia?",
+     "15",
+     "10",
+     "30"
+    ],
+    "pl": [
+     "O ile lat Bóg przedłużył życie Ezechiasza po jego chorobie?",
+     "15",
+     "10",
+     "30"
+    ],
+    "ru": [
+     "На сколько лет Бог продлил жизнь Езекии после его болезни?",
+     "15",
+     "10",
+     "30"
+    ],
+    "tr": [
+     "Tanrı, Hizkiya'nın ömrüne hastalığından sonra kaç yıl ekledi?",
+     "15",
+     "10",
+     "30"
+    ],
+    "ja": [
+     "ヒゼキヤの病の後、神は彼の寿命に何年を加えられましたか？",
+     "15",
+     "10",
+     "30"
+    ],
+    "ko": [
+     "하느님께서는 히즈키야가 병든 뒤 그의 수명을 몇 해 늘리셨습니까?",
+     "15",
+     "10",
+     "30"
+    ],
+    "ar": [
+     "كم سنة أضاف الله إلى عمر حزقيا بعد مرضه؟",
+     "15",
+     "10",
+     "30"
+    ]
+   }
+  },
+  {
+   "id": "ch-2-kings-013-37",
+   "book": "2-kings",
+   "chapter": 20,
+   "difficulty": "medium",
+   "ref": "2 Kings 20:7",
+   "text": {
+    "en": [
+     "Isaiah had a poultice of what fruit applied to Hezekiah's boil?",
+     "Figs",
+     "Grapes",
+     "Pomegranates"
+    ],
+    "es": [
+     "¿De qué fruta mandó Isaías hacer una cataplasma para la llaga de Ezequías?",
+     "Higos",
+     "Uvas",
+     "Granadas"
+    ],
+    "pt": [
+     "De que fruta Isaías mandou fazer um emplastro para a úlcera de Ezequias?",
+     "Figos",
+     "Uvas",
+     "Romãs"
+    ],
+    "fr": [
+     "De quel fruit Isaïe fit-il un cataplasme pour l'ulcère d'Ézéchias ?",
+     "Figues",
+     "Raisins",
+     "Grenades"
+    ],
+    "de": [
+     "Aus welcher Frucht ließ Jesaja ein Pflaster für Hiskijas Geschwür machen?",
+     "Feigen",
+     "Trauben",
+     "Granatäpfel"
+    ],
+    "it": [
+     "Di quale frutto Isaia fece un impiastro per l'ulcera di Ezechia?",
+     "Fichi",
+     "Uva",
+     "Melagrane"
+    ],
+    "pl": [
+     "Z jakiego owocu Izajasz kazał zrobić okład na wrzód Ezechiasza?",
+     "Figi",
+     "Winogrona",
+     "Granaty"
+    ],
+    "ru": [
+     "Из какого плода Исайя велел сделать пластырь для нарыва Езекии?",
+     "Смоквы",
+     "Виноград",
+     "Гранаты"
+    ],
+    "tr": [
+     "Yeşaya, Hizkiya'nın çıbanı için hangi meyveden lapa yaptırdı?",
+     "İncir",
+     "Üzüm",
+     "Nar"
+    ],
+    "ja": [
+     "イザヤはヒゼキヤの腫れ物に、何の果物の湿布を当てさせましたか？",
+     "イチジク",
+     "ぶどう",
+     "ざくろ"
+    ],
+    "ko": [
+     "이사야는 히즈키야의 종기에 어떤 열매로 만든 찜질약을 붙이게 했습니까?",
+     "무화과",
+     "포도",
+     "석류"
+    ],
+    "ar": [
+     "من أي فاكهة أمر إشعيا بعمل لبخة لقرحة حزقيا؟",
+     "تين",
+     "عنب",
+     "رمان"
+    ]
+   }
+  },
+  {
+   "id": "ch-2-kings-013-38",
+   "book": "2-kings",
+   "chapter": 20,
+   "difficulty": "hard",
+   "ref": "2 Kings 20:11",
+   "text": {
+    "en": [
+     "As a sign for Hezekiah, what went back ten steps?",
+     "Shadow",
+     "Moon",
+     "Cloud"
+    ],
+    "es": [
+     "¿Qué retrocedió diez gradas como señal para Ezequías?",
+     "Sombra",
+     "Luna",
+     "Nube"
+    ],
+    "pt": [
+     "O que recuou dez degraus como sinal para Ezequias?",
+     "Sombra",
+     "Lua",
+     "Nuvem"
+    ],
+    "fr": [
+     "Quelle chose recula de dix degrés comme signe pour Ézéchias ?",
+     "Ombre",
+     "Lune",
+     "Nuage"
+    ],
+    "de": [
+     "Was ging als Zeichen für Hiskija zehn Stufen zurück?",
+     "Schatten",
+     "Mond",
+     "Wolke"
+    ],
+    "it": [
+     "Che cosa tornò indietro di dieci gradini come segno per Ezechia?",
+     "Ombra",
+     "Luna",
+     "Nuvola"
+    ],
+    "pl": [
+     "Co cofnęło się o dziesięć stopni jako znak dla Ezechiasza?",
+     "Cień",
+     "Księżyc",
+     "Chmura"
+    ],
+    "ru": [
+     "Что вернулось назад на десять ступеней как знамение для Езекии?",
+     "Тень",
+     "Луна",
+     "Облако"
+    ],
+    "tr": [
+     "Hizkiya için bir belirti olarak ne on basamak geri gitti?",
+     "Gölge",
+     "Ay",
+     "Bulut"
+    ],
+    "ja": [
+     "ヒゼキヤへのしるしとして、十段戻ったものは何ですか？",
+     "影",
+     "月",
+     "雲"
+    ],
+    "ko": [
+     "히즈키야에게 주어진 표징으로 열 계단 뒤로 물러난 것은 무엇입니까?",
+     "그림자",
+     "달",
+     "구름"
+    ],
+    "ar": [
+     "ما الذي رجع عشر درجات علامةً لحزقيا؟",
+     "ظل",
+     "قمر",
+     "سحابة"
+    ]
+   }
+  },
+  {
+   "id": "ch-2-kings-013-39",
+   "book": "2-kings",
+   "chapter": 20,
+   "difficulty": "expert",
+   "ref": "2 Kings 20:17-18",
+   "text": {
+    "en": [
+     "Isaiah foretold Hezekiah's descendants would be palace eunuchs in which city?",
+     "Babylon",
+     "Nineveh",
+     "Damascus"
+    ],
+    "es": [
+     "¿En qué ciudad anunció Isaías que los descendientes de Ezequías serían eunucos de palacio?",
+     "Babilonia",
+     "Nínive",
+     "Damasco"
+    ],
+    "pt": [
+     "Em que cidade Isaías anunciou que descendentes de Ezequias seriam eunucos no palácio?",
+     "Babilônia",
+     "Nínive",
+     "Damasco"
+    ],
+    "fr": [
+     "Dans quelle ville Isaïe annonça-t-il que des descendants d'Ézéchias seraient eunuques au palais ?",
+     "Babylone",
+     "Ninive",
+     "Damas"
+    ],
+    "de": [
+     "In welcher Stadt sollten laut Jesaja Hiskijas Nachkommen Palasteunuchen werden?",
+     "Babylon",
+     "Ninive",
+     "Damaskus"
+    ],
+    "it": [
+     "In quale città, secondo Isaia, i discendenti di Ezechia sarebbero stati eunuchi di palazzo?",
+     "Babilonia",
+     "Ninive",
+     "Damasco"
+    ],
+    "pl": [
+     "W jakim mieście potomkowie Ezechiasza mieli być według Izajasza eunuchami na dworze?",
+     "Babilon",
+     "Niniwa",
+     "Damaszek"
+    ],
+    "ru": [
+     "В каком городе, по слову Исайи, потомки Езекии станут евнухами во дворце?",
+     "Вавилон",
+     "Ниневия",
+     "Дамаск"
+    ],
+    "tr": [
+     "Yeşaya'ya göre Hizkiya'nın soyundan gelenler hangi şehirde saray hadımı olacaktı?",
+     "Babil",
+     "Ninova",
+     "Şam"
+    ],
+    "ja": [
+     "イザヤによれば、ヒゼキヤの子孫は、どの町の宮殿で宦官になりますか？",
+     "バビロン",
+     "ニネベ",
+     "ダマスコ"
+    ],
+    "ko": [
+     "이사야에 따르면 히즈키야의 후손은 어느 도성의 궁에서 내시가 됩니까?",
+     "바빌론",
+     "니네베",
+     "다마스쿠스"
+    ],
+    "ar": [
+     "حسب إشعيا، في أي مدينة سيصير نسل حزقيا خصيانًا في القصر؟",
+     "بابل",
+     "نينوى",
+     "دمشق"
+    ]
+   }
+  },
+  {
+   "id": "ch-2-kings-013-40",
+   "book": "2-kings",
+   "chapter": 20,
+   "difficulty": "impossible",
+   "ref": "2 Kings 20:5",
+   "text": {
+    "en": [
+     "After healing, in how many days would Hezekiah go up to the temple?",
+     "3",
+     "7",
+     "5"
+    ],
+    "es": [
+     "¿Al cabo de cuántos días subiría Ezequías al templo del Señor tras ser curado?",
+     "3",
+     "7",
+     "5"
+    ],
+    "pt": [
+     "Quantos dias depois de curado Ezequias subiria ao templo?",
+     "3",
+     "7",
+     "5"
+    ],
+    "fr": [
+     "Au bout de combien de jours Ézéchias, guéri, monterait-il au temple ?",
+     "3",
+     "7",
+     "5"
+    ],
+    "de": [
+     "Nach wie vielen Tagen würde der geheilte Hiskija zum Tempel hinaufgehen?",
+     "3",
+     "7",
+     "5"
+    ],
+    "it": [
+     "Dopo quanti giorni Ezechia, guarito, sarebbe salito al tempio?",
+     "3",
+     "7",
+     "5"
+    ],
+    "pl": [
+     "Po ilu dniach uzdrowiony Ezechiasz miał wejść do świątyni?",
+     "3",
+     "7",
+     "5"
+    ],
+    "ru": [
+     "Через сколько дней исцелённый Езекия должен был взойти в храм?",
+     "3",
+     "7",
+     "5"
+    ],
+    "tr": [
+     "İyileşen Hizkiya kaç gün sonra tapınağa çıkacaktı?",
+     "3",
+     "7",
+     "5"
+    ],
+    "ja": [
+     "いやされたヒゼキヤは何日目に神殿に上ることになっていましたか？",
+     "3",
+     "7",
+     "5"
+    ],
+    "ko": [
+     "병이 나은 히즈키야는 며칠 뒤에 성전에 올라가게 되어 있었습니까?",
+     "3",
+     "7",
+     "5"
+    ],
+    "ar": [
+     "بعد كم يومًا من شفائه كان حزقيا سيصعد إلى الهيكل؟",
+     "3",
+     "7",
+     "5"
+    ]
+   }
+  },
+  {
+   "id": "ch-2-kings-013-41",
+   "book": "2-kings",
+   "chapter": 21,
+   "difficulty": "easy",
+   "ref": "2 Kings 21:1",
+   "text": {
+    "en": [
+     "How many years did Manasseh reign in Jerusalem?",
+     "55",
+     "29",
+     "40"
+    ],
+    "es": [
+     "¿Cuántos años reinó Manasés en Jerusalén?",
+     "55",
+     "29",
+     "40"
+    ],
+    "pt": [
+     "Quantos anos Manassés reinou em Jerusalém?",
+     "55",
+     "29",
+     "40"
+    ],
+    "fr": [
+     "Combien d'années Manassé régna-t-il à Jérusalem ?",
+     "55",
+     "29",
+     "40"
+    ],
+    "de": [
+     "Wie viele Jahre regierte Manasse in Jerusalem?",
+     "55",
+     "29",
+     "40"
+    ],
+    "it": [
+     "Per quanti anni regnò Manasse a Gerusalemme?",
+     "55",
+     "29",
+     "40"
+    ],
+    "pl": [
+     "Ile lat Manasses panował w Jerozolimie?",
+     "55",
+     "29",
+     "40"
+    ],
+    "ru": [
+     "Сколько лет царствовал Манассия в Иерусалиме?",
+     "55",
+     "29",
+     "40"
+    ],
+    "tr": [
+     "Manaşşe Yeruşalim'de kaç yıl krallık etti?",
+     "55",
+     "29",
+     "40"
+    ],
+    "ja": [
+     "マナセはエルサレムで何年王位にありましたか？",
+     "55",
+     "29",
+     "40"
+    ],
+    "ko": [
+     "므나쎄는 예루살렘에서 몇 년 동안 다스렸습니까?",
+     "55",
+     "29",
+     "40"
+    ],
+    "ar": [
+     "كم سنة ملك منسى في أورشليم؟",
+     "55",
+     "29",
+     "40"
+    ]
+   }
+  },
+  {
+   "id": "ch-2-kings-013-42",
+   "book": "2-kings",
+   "chapter": 21,
+   "difficulty": "medium",
+   "ref": "2 Kings 21:6",
+   "text": {
+    "en": [
+     "Through which element did Manasseh pass his own son as an offering?",
+     "Fire",
+     "Water",
+     "Smoke"
+    ],
+    "es": [
+     "¿Por qué elemento hizo pasar Manasés a su propio hijo como ofrenda?",
+     "Fuego",
+     "Agua",
+     "Humo"
+    ],
+    "pt": [
+     "Por qual elemento Manassés fez passar o próprio filho como oferta?",
+     "Fogo",
+     "Água",
+     "Fumaça"
+    ],
+    "fr": [
+     "Par quoi Manassé fit-il passer son propre fils en offrande ?",
+     "Feu",
+     "Eau",
+     "Fumée"
+    ],
+    "de": [
+     "Durch welches Element ließ Manasse seinen eigenen Sohn als Opfer gehen?",
+     "Feuer",
+     "Wasser",
+     "Rauch"
+    ],
+    "it": [
+     "Attraverso quale elemento Manasse fece passare il proprio figlio come offerta?",
+     "Fuoco",
+     "Acqua",
+     "Fumo"
+    ],
+    "pl": [
+     "Przez co Manasses przeprowadził własnego syna jako ofiarę?",
+     "Ogień",
+     "Woda",
+     "Dym"
+    ],
+    "ru": [
+     "Через что Манассия провёл своего сына в жертву?",
+     "Огонь",
+     "Вода",
+     "Дым"
+    ],
+    "tr": [
+     "Manaşşe öz oğlunu sunu olarak neyin içinden geçirdi?",
+     "Ateş",
+     "Su",
+     "Duman"
+    ],
+    "ja": [
+     "マナセは自分の子を供え物として何の中を通らせましたか？",
+     "火",
+     "水",
+     "煙"
+    ],
+    "ko": [
+     "므나쎄는 자기 아들을 제물로 무엇 사이로 지나가게 했습니까?",
+     "불",
+     "물",
+     "연기"
+    ],
+    "ar": [
+     "عبر أي عنصر أمرّ منسى ابنه قربانًا؟",
+     "نار",
+     "ماء",
+     "دخان"
+    ]
+   }
+  },
+  {
+   "id": "ch-2-kings-013-43",
+   "book": "2-kings",
+   "chapter": 21,
+   "difficulty": "hard",
+   "ref": "2 Kings 21:23-24",
+   "text": {
+    "en": [
+     "After servants killed King Amon, whom did the people make king?",
+     "Josiah",
+     "Hezekiah",
+     "Jehoiakim"
+    ],
+    "es": [
+     "¿A quién hizo rey el pueblo después de que los siervos mataran al rey Amón?",
+     "Josías",
+     "Ezequías",
+     "Joaquim"
+    ],
+    "pt": [
+     "Quem o povo fez rei depois que os servos mataram o rei Amon?",
+     "Josias",
+     "Ezequias",
+     "Joaquim"
+    ],
+    "fr": [
+     "Qui le peuple établit-il roi après l'assassinat du roi Amon par ses serviteurs ?",
+     "Josias",
+     "Ézéchias",
+     "Yoyaqim"
+    ],
+    "de": [
+     "Wen machte das Volk zum König, nachdem Diener König Amon ermordet hatten?",
+     "Joschija",
+     "Hiskija",
+     "Jojakim"
+    ],
+    "it": [
+     "Chi fece re il popolo dopo che i servi uccisero il re Amon?",
+     "Giosia",
+     "Ezechia",
+     "Ioiakim"
+    ],
+    "pl": [
+     "Kogo lud ustanowił królem po tym, jak słudzy zabili króla Amona?",
+     "Jozjasz",
+     "Ezechiasz",
+     "Jojakim"
+    ],
+    "ru": [
+     "Кого народ сделал царём после того, как слуги убили царя Амона?",
+     "Иосия",
+     "Езекия",
+     "Иоаким"
+    ],
+    "tr": [
+     "Hizmetkârlar Kral Amon'u öldürdükten sonra halk kimi kral yaptı?",
+     "Yoşiya",
+     "Hizkiya",
+     "Yehoyakim"
+    ],
+    "ja": [
+     "家臣たちがアモン王を殺した後、民は誰を王にしましたか？",
+     "ヨシヤ",
+     "ヒゼキヤ",
+     "ヨヤキム"
+    ],
+    "ko": [
+     "신하들이 아몬 임금을 죽인 뒤 백성은 누구를 임금으로 세웠습니까?",
+     "요시야",
+     "히즈키야",
+     "여호야킴"
+    ],
+    "ar": [
+     "بعد أن قتل الخدم الملك آمون، من أقام الشعب ملكًا؟",
+     "يوشيا",
+     "حزقيا",
+     "يوياقيم"
+    ]
+   }
+  },
+  {
+   "id": "ch-2-kings-013-44",
+   "book": "2-kings",
+   "chapter": 21,
+   "difficulty": "expert",
+   "ref": "2 Kings 21:3",
+   "text": {
+    "en": [
+     "Manasseh made an Asherah pole, imitating which king of Israel?",
+     "Ahab",
+     "Jehu",
+     "Joash"
+    ],
+    "es": [
+     "¿A qué rey de Israel imitó Manasés al hacer una Aserá?",
+     "Ajab",
+     "Jehú",
+     "Joás"
+    ],
+    "pt": [
+     "Que rei de Israel Manassés imitou ao fazer uma Aserá?",
+     "Acab",
+     "Jeú",
+     "Joás"
+    ],
+    "fr": [
+     "Quel roi d'Israël Manassé imita-t-il en faisant une Ashéra ?",
+     "Achab",
+     "Jéhu",
+     "Joas"
+    ],
+    "de": [
+     "Welchen König von Israel ahmte Manasse nach, als er eine Aschera machte?",
+     "Ahab",
+     "Jehu",
+     "Joasch"
+    ],
+    "it": [
+     "Quale re d'Israele imitò Manasse facendo un palo sacro?",
+     "Acab",
+     "Ieu",
+     "Ioas"
+    ],
+    "pl": [
+     "Którego króla Izraela naśladował Manasses, czyniąc aszerę?",
+     "Achab",
+     "Jehu",
+     "Joasz"
+    ],
+    "ru": [
+     "Какому царю Израиля подражал Манассия, сделав Ашеру?",
+     "Ахав",
+     "Ииуй",
+     "Иоас"
+    ],
+    "tr": [
+     "Manaşşe Aşera direği yaparken İsrail'in hangi kralını örnek aldı?",
+     "Ahav",
+     "Yehu",
+     "Yoaş"
+    ],
+    "ja": [
+     "マナセはアシェラ像を造るとき、イスラエルのどの王にならいましたか？",
+     "アハブ",
+     "イエフ",
+     "ヨアシュ"
+    ],
+    "ko": [
+     "므나쎄는 아세라 목상을 만들면서 이스라엘의 어느 임금을 본받았습니까?",
+     "아합",
+     "예후",
+     "요아스"
+    ],
+    "ar": [
+     "أي ملك لإسرائيل قلّده منسى حين صنع الأشيرة؟",
+     "أخآب",
+     "ياهو",
+     "يوآش"
+    ]
+   }
+  },
+  {
+   "id": "ch-2-kings-013-45",
+   "book": "2-kings",
+   "chapter": 21,
+   "difficulty": "impossible",
+   "ref": "2 Kings 21:19",
+   "text": {
+    "en": [
+     "King Amon's mother came from which town?",
+     "Jotbah",
+     "Bethel",
+     "Hebron"
+    ],
+    "es": [
+     "¿De qué ciudad era la madre del rey Amón?",
+     "Yotbá",
+     "Betel",
+     "Hebrón"
+    ],
+    "pt": [
+     "De que cidade era a mãe do rei Amon?",
+     "Jotba",
+     "Betel",
+     "Hebron"
+    ],
+    "fr": [
+     "De quelle ville était la mère du roi Amon ?",
+     "Yotba",
+     "Béthel",
+     "Hébron"
+    ],
+    "de": [
+     "Aus welcher Stadt stammte die Mutter König Amons?",
+     "Jotba",
+     "Bethel",
+     "Hebron"
+    ],
+    "it": [
+     "Di quale città era la madre del re Amon?",
+     "Iotba",
+     "Betel",
+     "Ebron"
+    ],
+    "pl": [
+     "Z jakiego miasta pochodziła matka króla Amona?",
+     "Jotba",
+     "Betel",
+     "Hebron"
+    ],
+    "ru": [
+     "Из какого города была мать царя Амона?",
+     "Иотва",
+     "Вефиль",
+     "Хеврон"
+    ],
+    "tr": [
+     "Kral Amon'un annesi hangi kentliydi?",
+     "Yotva",
+     "Beytel",
+     "Hebron"
+    ],
+    "ja": [
+     "アモン王の母はどの町の出身ですか？",
+     "ヨトバ",
+     "ベテル",
+     "ヘブロン"
+    ],
+    "ko": [
+     "아몬 임금의 어머니는 어느 성읍 출신입니까?",
+     "요트바",
+     "베텔",
+     "헤브론"
+    ],
+    "ar": [
+     "من أي مدينة كانت أم الملك آمون؟",
+     "يطبة",
+     "بيتيل",
+     "حبرون"
+    ]
+   }
+  },
+  {
+   "id": "ch-2-kings-013-46",
+   "book": "2-kings",
+   "chapter": 22,
+   "difficulty": "easy",
+   "ref": "2 Kings 22:8",
+   "text": {
+    "en": [
+     "What did High Priest Hilkiah find in the temple during Josiah's reign?",
+     "Book",
+     "Ark",
+     "Sword"
+    ],
+    "es": [
+     "¿Qué encontró el sumo sacerdote Jilquías en el templo en tiempos de Josías?",
+     "Libro",
+     "Arca",
+     "Espada"
+    ],
+    "pt": [
+     "O que o sumo sacerdote Helcias encontrou no templo no tempo de Josias?",
+     "Livro",
+     "Arca",
+     "Espada"
+    ],
+    "fr": [
+     "Qu'est-ce que le grand prêtre Helcias trouva dans le temple sous Josias ?",
+     "Livre",
+     "Arche",
+     "Épée"
+    ],
+    "de": [
+     "Was fand der Hohepriester Hilkija zur Zeit Joschijas im Tempel?",
+     "Buch",
+     "Lade",
+     "Schwert"
+    ],
+    "it": [
+     "Che cosa trovò nel tempio il sommo sacerdote Chelkia ai tempi di Giosia?",
+     "Libro",
+     "Arca",
+     "Spada"
+    ],
+    "pl": [
+     "Co znalazł w świątyni arcykapłan Chilkiasz za czasów Jozjasza?",
+     "Księga",
+     "Arka",
+     "Miecz"
+    ],
+    "ru": [
+     "Что нашёл в храме первосвященник Хелкия при Иосии?",
+     "Книга",
+     "Ковчег",
+     "Меч"
+    ],
+    "tr": [
+     "Başkâhin Hilkiya, Yoşiya döneminde tapınakta ne buldu?",
+     "Kitap",
+     "Sandık",
+     "Kılıç"
+    ],
+    "ja": [
+     "大祭司ヒルキヤはヨシヤの時代に神殿で何を見つけましたか？",
+     "書物",
+     "箱",
+     "剣"
+    ],
+    "ko": [
+     "대사제 힐키야는 요시야 시대에 성전에서 무엇을 찾아냈습니까?",
+     "책",
+     "궤",
+     "칼"
+    ],
+    "ar": [
+     "ماذا وجد الكاهن الأعظم حلقيا في الهيكل أيام يوشيا؟",
+     "كتاب",
+     "تابوت",
+     "سيف"
+    ]
+   }
+  },
+  {
+   "id": "ch-2-kings-013-47",
+   "book": "2-kings",
+   "chapter": 22,
+   "difficulty": "medium",
+   "ref": "2 Kings 22:11",
+   "text": {
+    "en": [
+     "What did King Josiah do to his clothes upon hearing the book's words?",
+     "Tore",
+     "Washed",
+     "Burned"
+    ],
+    "es": [
+     "¿Qué hizo el rey Josías con sus vestiduras al oír las palabras del libro?",
+     "Rasgó",
+     "Lavó",
+     "Quemó"
+    ],
+    "pt": [
+     "O que o rei Josias fez com suas vestes ao ouvir as palavras do livro?",
+     "Rasgou",
+     "Lavou",
+     "Queimou"
+    ],
+    "fr": [
+     "Que fit le roi Josias de ses vêtements en entendant les paroles du livre ?",
+     "Déchira",
+     "Lava",
+     "Brûla"
+    ],
+    "de": [
+     "Was tat König Joschija mit seinen Kleidern, als er die Worte des Buches hörte?",
+     "Zerriss",
+     "Wusch",
+     "Verbrannte"
+    ],
+    "it": [
+     "Che cosa fece il re Giosia alle sue vesti ascoltando le parole del libro?",
+     "Stracciò",
+     "Lavò",
+     "Bruciò"
+    ],
+    "pl": [
+     "Co zrobił król Jozjasz ze swoimi szatami, słysząc słowa księgi?",
+     "Rozdarł",
+     "Wyprał",
+     "Spalił"
+    ],
+    "ru": [
+     "Что сделал царь Иосия со своими одеждами, услышав слова книги?",
+     "Разодрал",
+     "Постирал",
+     "Сжёг"
+    ],
+    "tr": [
+     "Kral Yoşiya kitabın sözlerini duyunca giysilerine ne yaptı?",
+     "Yırttı",
+     "Yıkadı",
+     "Yaktı"
+    ],
+    "ja": [
+     "ヨシヤ王は書の言葉を聞いて、自分の衣をどうしましたか？",
+     "裂いた",
+     "洗った",
+     "焼いた"
+    ],
+    "ko": [
+     "요시야 임금은 책의 말씀을 듣고 자기 옷을 어떻게 했습니까?",
+     "찢었다",
+     "빨았다",
+     "태웠다"
+    ],
+    "ar": [
+     "ماذا فعل الملك يوشيا بثيابه عندما سمع كلام الكتاب؟",
+     "مزّق",
+     "غسل",
+     "أحرق"
+    ]
+   }
+  },
+  {
+   "id": "ch-2-kings-013-48",
+   "book": "2-kings",
+   "chapter": 22,
+   "difficulty": "hard",
+   "ref": "2 Kings 22:14",
+   "text": {
+    "en": [
+     "Which prophetess did Hilkiah consult about the newly found book?",
+     "Huldah",
+     "Deborah",
+     "Miriam"
+    ],
+    "es": [
+     "¿A qué profetisa consultó Jilquías sobre el libro recién hallado?",
+     "Juldá",
+     "Débora",
+     "María"
+    ],
+    "pt": [
+     "A que profetisa Helcias consultou sobre o livro recém-encontrado?",
+     "Hulda",
+     "Débora",
+     "Maria"
+    ],
+    "fr": [
+     "Quelle prophétesse Helcias consulta-t-il au sujet du livre trouvé ?",
+     "Houlda",
+     "Débora",
+     "Miryam"
+    ],
+    "de": [
+     "Welche Prophetin befragte Hilkija wegen des gefundenen Buches?",
+     "Hulda",
+     "Debora",
+     "Mirjam"
+    ],
+    "it": [
+     "Quale profetessa consultò Chelkia riguardo al libro ritrovato?",
+     "Culda",
+     "Debora",
+     "Maria"
+    ],
+    "pl": [
+     "Którą prorokinię zapytał Chilkiasz o odnalezioną księgę?",
+     "Chulda",
+     "Debora",
+     "Miriam"
+    ],
+    "ru": [
+     "Какую пророчицу расспросил Хелкия о найденной книге?",
+     "Олдама",
+     "Девора",
+     "Мариам"
+    ],
+    "tr": [
+     "Hilkiya, bulunan kitap hakkında hangi kadın peygamberle görüştü?",
+     "Hulda",
+     "Debora",
+     "Miryam"
+    ],
+    "ja": [
+     "ヒルキヤは見つかった書について、どの女預言者に尋ねましたか？",
+     "フルダ",
+     "デボラ",
+     "ミリアム"
+    ],
+    "ko": [
+     "힐키야는 발견된 책에 관해 어느 여예언자에게 물었습니까?",
+     "훌다",
+     "드보라",
+     "미르얌"
+    ],
+    "ar": [
+     "أي نبية استشارها حلقيا بشأن الكتاب الذي وُجد؟",
+     "خلدة",
+     "دبورة",
+     "مريم"
+    ]
+   }
+  },
+  {
+   "id": "ch-2-kings-013-49",
+   "book": "2-kings",
+   "chapter": 22,
+   "difficulty": "expert",
+   "ref": "2 Kings 22:10",
+   "text": {
+    "en": [
+     "Which secretary carried the newly found book to King Josiah?",
+     "Shaphan",
+     "Baruch",
+     "Ezra"
+    ],
+    "es": [
+     "¿Qué secretario llevó al rey Josías el libro recién hallado?",
+     "Safán",
+     "Baruc",
+     "Esdras"
+    ],
+    "pt": [
+     "Que secretário levou ao rei Josias o livro recém-encontrado?",
+     "Safã",
+     "Baruc",
+     "Esdras"
+    ],
+    "fr": [
+     "Quel secrétaire porta au roi Josias le livre trouvé ?",
+     "Shaphân",
+     "Baruch",
+     "Esdras"
+    ],
+    "de": [
+     "Welcher Schreiber brachte König Joschija das gefundene Buch?",
+     "Schafan",
+     "Baruch",
+     "Esra"
+    ],
+    "it": [
+     "Quale segretario portò al re Giosia il libro ritrovato?",
+     "Safan",
+     "Baruc",
+     "Esdra"
+    ],
+    "pl": [
+     "Który pisarz zaniósł królowi Jozjaszowi odnalezioną księgę?",
+     "Szafan",
+     "Baruch",
+     "Ezdrasz"
+    ],
+    "ru": [
+     "Какой писец принёс царю Иосии найденную книгу?",
+     "Сафан",
+     "Варух",
+     "Ездра"
+    ],
+    "tr": [
+     "Hangi katip bulunan kitabı Kral Yoşiya'ya götürdü?",
+     "Şafan",
+     "Baruk",
+     "Ezra"
+    ],
+    "ja": [
+     "見つかった書をヨシヤ王に持って行った書記官は誰ですか？",
+     "シャファン",
+     "バルク",
+     "エズラ"
+    ],
+    "ko": [
+     "발견된 책을 요시야 임금에게 가져간 서기관은 누구입니까?",
+     "사판",
+     "바룩",
+     "에즈라"
+    ],
+    "ar": [
+     "أي كاتب حمل الكتاب الذي وُجد إلى الملك يوشيا؟",
+     "شافان",
+     "باروخ",
+     "عزرا"
+    ]
+   }
+  },
+  {
+   "id": "ch-2-kings-013-50",
+   "book": "2-kings",
+   "chapter": 22,
+   "difficulty": "impossible",
+   "ref": "2 Kings 22:14",
+   "text": {
+    "en": [
+     "Whose wife was the prophetess Huldah?",
+     "Shallum",
+     "Hilkiah",
+     "Shaphan"
+    ],
+    "es": [
+     "¿De quién era esposa la profetisa Juldá?",
+     "Salún",
+     "Jilquías",
+     "Safán"
+    ],
+    "pt": [
+     "De quem era esposa a profetisa Hulda?",
+     "Salum",
+     "Helcias",
+     "Safã"
+    ],
+    "fr": [
+     "De qui la prophétesse Houlda était-elle l'épouse ?",
+     "Shallum",
+     "Helcias",
+     "Shaphân"
+    ],
+    "de": [
+     "Wessen Frau war die Prophetin Hulda?",
+     "Schallum",
+     "Hilkija",
+     "Schafan"
+    ],
+    "it": [
+     "Di chi era moglie la profetessa Culda?",
+     "Sallum",
+     "Chelkia",
+     "Safan"
+    ],
+    "pl": [
+     "Czyją żoną była prorokini Chulda?",
+     "Szallum",
+     "Chilkiasz",
+     "Szafan"
+    ],
+    "ru": [
+     "Чьей женой была пророчица Олдама?",
+     "Селлум",
+     "Хелкия",
+     "Сафан"
+    ],
+    "tr": [
+     "Kadın peygamber Hulda kimin karısıydı?",
+     "Şallum",
+     "Hilkiya",
+     "Şafan"
+    ],
+    "ja": [
+     "女預言者フルダは誰の妻でしたか？",
+     "シャルム",
+     "ヒルキヤ",
+     "シャファン"
+    ],
+    "ko": [
+     "여예언자 훌다는 누구의 아내였습니까?",
+     "살룸",
+     "힐키야",
+     "사판"
+    ],
+    "ar": [
+     "زوجة من كانت النبية خلدة؟",
+     "شلوم",
+     "حلقيا",
+     "شافان"
+    ]
+   }
+  },
+  {
+   "id": "ch-2-kings-013-51",
+   "book": "2-kings",
+   "chapter": 23,
+   "difficulty": "easy",
+   "ref": "2 Kings 23:29",
+   "text": {
+    "en": [
+     "In which city did Pharaoh Neco kill King Josiah?",
+     "Megiddo",
+     "Shiloh",
+     "Hebron"
+    ],
+    "es": [
+     "¿En qué ciudad mató el faraón Necó al rey Josías?",
+     "Meguido",
+     "Silo",
+     "Hebrón"
+    ],
+    "pt": [
+     "Em que cidade o faraó Necao matou o rei Josias?",
+     "Megido",
+     "Silo",
+     "Hebron"
+    ],
+    "fr": [
+     "Dans quelle ville le pharaon Néko tua-t-il le roi Josias ?",
+     "Meguiddo",
+     "Silo",
+     "Hébron"
+    ],
+    "de": [
+     "In welcher Stadt tötete der Pharao Necho König Joschija?",
+     "Megiddo",
+     "Schilo",
+     "Hebron"
+    ],
+    "it": [
+     "In quale città il faraone Necao uccise il re Giosia?",
+     "Meghiddo",
+     "Silo",
+     "Ebron"
+    ],
+    "pl": [
+     "W jakim mieście faraon Neko zabił króla Jozjasza?",
+     "Megiddo",
+     "Szilo",
+     "Hebron"
+    ],
+    "ru": [
+     "В каком городе фараон Нехао убил царя Иосию?",
+     "Мегиддо",
+     "Силом",
+     "Хеврон"
+    ],
+    "tr": [
+     "Firavun Neko, Kral Yoşiya'yı hangi şehirde öldürdü?",
+     "Megiddo",
+     "Silo",
+     "Hebron"
+    ],
+    "ja": [
+     "ファラオ・ネコはどの町でヨシヤ王を殺しましたか？",
+     "メギド",
+     "シロ",
+     "ヘブロン"
+    ],
+    "ko": [
+     "파라오 느코는 어느 성읍에서 요시야 임금을 죽였습니까?",
+     "므기또",
+     "실로",
+     "헤브론"
+    ],
+    "ar": [
+     "في أي مدينة قتل فرعون نكو الملك يوشيا؟",
+     "مجدو",
+     "شيلو",
+     "حبرون"
+    ]
+   }
+  },
+  {
+   "id": "ch-2-kings-013-52",
+   "book": "2-kings",
+   "chapter": 23,
+   "difficulty": "medium",
+   "ref": "2 Kings 23:21-22",
+   "text": {
+    "en": [
+     "Which festival did Josiah order kept, unseen since the judges' days?",
+     "Passover",
+     "Pentecost",
+     "Purim"
+    ],
+    "es": [
+     "¿Qué fiesta mandó celebrar Josías, no vista desde los días de los jueces?",
+     "Pascua",
+     "Pentecostés",
+     "Purim"
+    ],
+    "pt": [
+     "Que festa Josias mandou celebrar, como não se via desde os dias dos juízes?",
+     "Páscoa",
+     "Pentecostes",
+     "Purim"
+    ],
+    "fr": [
+     "Quelle fête Josias ordonna-t-il de célébrer, comme on n'en avait pas vu depuis les juges ?",
+     "Pâque",
+     "Pentecôte",
+     "Pourim"
+    ],
+    "de": [
+     "Welches Fest ließ Joschija feiern, wie man es seit den Richtern nicht mehr kannte?",
+     "Pascha",
+     "Pfingsten",
+     "Purim"
+    ],
+    "it": [
+     "Quale festa Giosia fece celebrare, come non se ne vedeva dai tempi dei giudici?",
+     "Pasqua",
+     "Pentecoste",
+     "Purim"
+    ],
+    "pl": [
+     "Które święto kazał obchodzić Jozjasz, jakiego nie było od czasów sędziów?",
+     "Pascha",
+     "Pięćdziesiątnica",
+     "Purim"
+    ],
+    "ru": [
+     "Какой праздник велел справить Иосия, какого не бывало со времён судей?",
+     "Пасха",
+     "Пятидесятница",
+     "Пурим"
+    ],
+    "tr": [
+     "Yoşiya'nın kutlattığı, hâkimler çağından beri görülmemiş bayram hangisidir?",
+     "Fısıh",
+     "Pentikost",
+     "Purim"
+    ],
+    "ja": [
+     "ヨシヤが守らせた、士師の時代以来なかった祭りは何ですか？",
+     "過越",
+     "五旬祭",
+     "プリム"
+    ],
+    "ko": [
+     "요시야가 지키게 한, 판관 시대 이래 없던 축제는 무엇입니까?",
+     "파스카",
+     "오순절",
+     "부림"
+    ],
+    "ar": [
+     "أي عيد أمر يوشيا بإقامته، ولم يُقَم مثله منذ أيام القضاة؟",
+     "فصح",
+     "عنصرة",
+     "فوريم"
+    ]
+   }
+  },
+  {
+   "id": "ch-2-kings-013-53",
+   "book": "2-kings",
+   "chapter": 23,
+   "difficulty": "hard",
+   "ref": "2 Kings 23:10",
+   "text": {
+    "en": [
+     "In which valley did Josiah defile Topheth, ending child sacrifices to Molech?",
+     "Hinnom",
+     "Jezreel",
+     "Elah"
+    ],
+    "es": [
+     "¿En qué valle profanó Josías el Tofet para acabar con los sacrificios de niños a Moloc?",
+     "Hinón",
+     "Yizreel",
+     "Elá"
+    ],
+    "pt": [
+     "Em que vale Josias profanou o Tofet para acabar com os sacrifícios de crianças a Moloc?",
+     "Hinom",
+     "Jezrael",
+     "Elá"
+    ],
+    "fr": [
+     "Dans quelle vallée Josias profana-t-il le Tofet pour mettre fin aux sacrifices d'enfants à Molek ?",
+     "Hinnom",
+     "Yizréel",
+     "Éla"
+    ],
+    "de": [
+     "In welchem Tal entweihte Joschija das Tofet, um die Kinderopfer für Moloch zu beenden?",
+     "Hinnom",
+     "Jesreel",
+     "Ela"
+    ],
+    "it": [
+     "In quale valle Giosia profanò il Tofet, ponendo fine ai sacrifici di bambini a Moloc?",
+     "Innom",
+     "Izreèl",
+     "Ela"
+    ],
+    "pl": [
+     "W której dolinie Jozjasz zbezcześcił Tofet, kończąc ofiary z dzieci dla Molocha?",
+     "Hinnom",
+     "Jezreel",
+     "Ela"
+    ],
+    "ru": [
+     "В какой долине осквернил Иосия Тофет, прекратив жертвы детей Молоху?",
+     "Енном",
+     "Изреель",
+     "Эла"
+    ],
+    "tr": [
+     "Yoşiya çocukları Molek'e kurban etmeyi bitirmek için Tofet'i hangi vadide kirletti?",
+     "Hinnom",
+     "Yizreel",
+     "Ela"
+    ],
+    "ja": [
+     "ヨシヤはモレクへの子どもの犠牲をやめさせるため、どの谷のトフェトを汚しましたか？",
+     "ヒノム",
+     "イズレエル",
+     "エラ"
+    ],
+    "ko": [
+     "요시야는 몰렉에게 바치는 어린이 제물을 막으려고 어느 골짜기의 토펫을 더럽혔습니까?",
+     "힌놈",
+     "이즈르엘",
+     "엘라"
+    ],
+    "ar": [
+     "في أي وادٍ نجّس يوشيا التوفة لإنهاء ذبائح الأطفال لمولك؟",
+     "هنوم",
+     "يزرعيل",
+     "إيلة"
+    ]
+   }
+  },
+  {
+   "id": "ch-2-kings-013-54",
+   "book": "2-kings",
+   "chapter": 23,
+   "difficulty": "expert",
+   "ref": "2 Kings 23:33",
+   "text": {
+    "en": [
+     "How many talents of silver did Pharaoh Neco impose on Judah?",
+     "100",
+     "50",
+     "1000"
+    ],
+    "es": [
+     "¿Cuántos talentos de plata impuso el faraón Necó a Judá?",
+     "100",
+     "50",
+     "1000"
+    ],
+    "pt": [
+     "Quantos talentos de prata o faraó Necao impôs a Judá?",
+     "100",
+     "50",
+     "1000"
+    ],
+    "fr": [
+     "Combien de talents d'argent le pharaon Néko imposa-t-il à Juda ?",
+     "100",
+     "50",
+     "1000"
+    ],
+    "de": [
+     "Wie viele Talente Silber legte der Pharao Necho Juda auf?",
+     "100",
+     "50",
+     "1000"
+    ],
+    "it": [
+     "Quanti talenti d'argento impose il faraone Necao a Giuda?",
+     "100",
+     "50",
+     "1000"
+    ],
+    "pl": [
+     "Ile talentów srebra nałożył faraon Neko na Judę?",
+     "100",
+     "50",
+     "1000"
+    ],
+    "ru": [
+     "Сколько талантов серебра наложил фараон Нехао на Иудею?",
+     "100",
+     "50",
+     "1000"
+    ],
+    "tr": [
+     "Firavun Neko, Yahuda'ya kaç talant gümüş vergi yükledi?",
+     "100",
+     "50",
+     "1000"
+    ],
+    "ja": [
+     "ファラオ・ネコはユダに銀を何タラント課しましたか？",
+     "100",
+     "50",
+     "1000"
+    ],
+    "ko": [
+     "파라오 느코는 유다에 은 몇 탈렌트를 부과했습니까?",
+     "100",
+     "50",
+     "1000"
+    ],
+    "ar": [
+     "كم وزنة فضة فرض فرعون نكو على يهوذا؟",
+     "100",
+     "50",
+     "1000"
+    ]
+   }
+  },
+  {
+   "id": "ch-2-kings-013-55",
+   "book": "2-kings",
+   "chapter": 23,
+   "difficulty": "impossible",
+   "ref": "2 Kings 23:31",
+   "text": {
+    "en": [
+     "Jehoahaz's mother Hamutal came from which town?",
+     "Libnah",
+     "Lachish",
+     "Gibeah"
+    ],
+    "es": [
+     "¿De qué ciudad era Jamutal, madre de Joacaz?",
+     "Libná",
+     "Laquis",
+     "Guibeá"
+    ],
+    "pt": [
+     "De que cidade era Hamutal, mãe de Joacaz?",
+     "Lebna",
+     "Laquis",
+     "Gabaá"
+    ],
+    "fr": [
+     "De quelle ville était Hamoutal, mère de Joachaz ?",
+     "Libna",
+     "Lakish",
+     "Guibéa"
+    ],
+    "de": [
+     "Aus welcher Stadt stammte Hamutal, die Mutter Joahas'?",
+     "Libna",
+     "Lachisch",
+     "Gibea"
+    ],
+    "it": [
+     "Di quale città era Camutal, madre di Ioacaz?",
+     "Libna",
+     "Lachis",
+     "Gabaa"
+    ],
+    "pl": [
+     "Z jakiego miasta pochodziła Chamutal, matka Joachaza?",
+     "Libna",
+     "Lakisz",
+     "Gibea"
+    ],
+    "ru": [
+     "Из какого города была Хамуталь, мать Иоахаза?",
+     "Ливна",
+     "Лахис",
+     "Гива"
+    ],
+    "tr": [
+     "Yehoahaz'ın annesi Hamutal hangi kentliydi?",
+     "Livna",
+     "Lakiş",
+     "Giva"
+    ],
+    "ja": [
+     "ヨアハズの母ハムタルはどの町の出身ですか？",
+     "リブナ",
+     "ラキシュ",
+     "ギブア"
+    ],
+    "ko": [
+     "여호아하즈의 어머니 하무탈은 어느 성읍 출신입니까?",
+     "리브나",
+     "라키스",
+     "기브아"
+    ],
+    "ar": [
+     "من أي مدينة كانت حموطل أم يوآحاز؟",
+     "لبنة",
+     "لخيش",
+     "جبعة"
+    ]
+   }
+  },
+  {
+   "id": "ch-2-kings-013-56",
+   "book": "2-kings",
+   "chapter": 24,
+   "difficulty": "easy",
+   "ref": "2 Kings 24:10-12",
+   "text": {
+    "en": [
+     "Which king of Babylon besieged Jerusalem and exiled King Jehoiachin?",
+     "Nebuchadnezzar",
+     "Shalmaneser",
+     "Darius"
+    ],
+    "es": [
+     "¿Qué rey de Babilonia sitió Jerusalén y desterró al rey Joaquín?",
+     "Nabucodonosor",
+     "Salmanasar",
+     "Darío"
+    ],
+    "pt": [
+     "Que rei da Babilônia cercou Jerusalém e exilou o rei Joaquin?",
+     "Nabucodonosor",
+     "Salmanasar",
+     "Dario"
+    ],
+    "fr": [
+     "Quel roi de Babylone assiégea Jérusalem et déporta le roi Yoyakîn ?",
+     "Nabuchodonosor",
+     "Salmanasar",
+     "Darius"
+    ],
+    "de": [
+     "Welcher König von Babylon belagerte Jerusalem und verschleppte König Jojachin?",
+     "Nebukadnezzar",
+     "Salmanassar",
+     "Darius"
+    ],
+    "it": [
+     "Quale re di Babilonia assediò Gerusalemme e deportò il re Ioiachin?",
+     "Nabucodonosor",
+     "Salmanassar",
+     "Dario"
+    ],
+    "pl": [
+     "Który król Babilonu oblegał Jerozolimę i wywiózł króla Jojakina?",
+     "Nabuchodonozor",
+     "Salmanasar",
+     "Dariusz"
+    ],
+    "ru": [
+     "Какой царь Вавилона осадил Иерусалим и увёл в плен царя Иехонию?",
+     "Навуходоносор",
+     "Салманасар",
+     "Дарий"
+    ],
+    "tr": [
+     "Hangi Babil kralı Yeruşalim'i kuşatıp Kral Yehoyakin'i sürgün etti?",
+     "Nebukadnezar",
+     "Şalmaneser",
+     "Darius"
+    ],
+    "ja": [
+     "エルサレムを包囲し、ヨヤキン王を捕らえ移したバビロンの王は誰ですか？",
+     "ネブカドネツァル",
+     "シャルマナサル",
+     "ダレイオス"
+    ],
+    "ko": [
+     "예루살렘을 포위하고 여호야킨 임금을 유배시킨 바빌론 임금은 누구입니까?",
+     "네부카드네자르",
+     "살만에세르",
+     "다리우스"
+    ],
+    "ar": [
+     "أي ملك لبابل حاصر أورشليم ورحّل الملك يهوياكين؟",
+     "نبوخذنصر",
+     "شلمنأسر",
+     "داريوس"
+    ]
+   }
+  },
+  {
+   "id": "ch-2-kings-013-57",
+   "book": "2-kings",
+   "chapter": 24,
+   "difficulty": "medium",
+   "ref": "2 Kings 24:14",
+   "text": {
+    "en": [
+     "How many captives did Nebuchadnezzar carry off from Jerusalem, besides craftsmen?",
+     "10000",
+     "5000",
+     "20000"
+    ],
+    "es": [
+     "¿Cuántos cautivos se llevó Nabucodonosor de Jerusalén, además de los artesanos?",
+     "10000",
+     "5000",
+     "20000"
+    ],
+    "pt": [
+     "Quantos cativos Nabucodonosor levou de Jerusalém, além dos artesãos?",
+     "10000",
+     "5000",
+     "20000"
+    ],
+    "fr": [
+     "Combien de captifs Nabuchodonosor emmena-t-il de Jérusalem, sans compter les artisans ?",
+     "10000",
+     "5000",
+     "20000"
+    ],
+    "de": [
+     "Wie viele Gefangene führte Nebukadnezzar aus Jerusalem weg, abgesehen von den Handwerkern?",
+     "10000",
+     "5000",
+     "20000"
+    ],
+    "it": [
+     "Quanti prigionieri portò via Nabucodonosor da Gerusalemme, oltre agli artigiani?",
+     "10000",
+     "5000",
+     "20000"
+    ],
+    "pl": [
+     "Ilu jeńców uprowadził Nabuchodonozor z Jerozolimy, nie licząc rzemieślników?",
+     "10000",
+     "5000",
+     "20000"
+    ],
+    "ru": [
+     "Сколько пленных увёл Навуходоносор из Иерусалима, не считая ремесленников?",
+     "10000",
+     "5000",
+     "20000"
+    ],
+    "tr": [
+     "Nebukadnezar, zanaatkârlar dışında Yeruşalim'den kaç tutsak götürdü?",
+     "10000",
+     "5000",
+     "20000"
+    ],
+    "ja": [
+     "ネブカドネツァルは職人たちを除いて、エルサレムから何人を捕らえ移しましたか？",
+     "10000",
+     "5000",
+     "20000"
+    ],
+    "ko": [
+     "네부카드네자르는 장인들을 제외하고 예루살렘에서 몇 명을 포로로 끌고 갔습니까?",
+     "10000",
+     "5000",
+     "20000"
+    ],
+    "ar": [
+     "كم أسيرًا أخذ نبوخذنصر من أورشليم، عدا الصنّاع؟",
+     "10000",
+     "5000",
+     "20000"
+    ]
+   }
+  },
+  {
+   "id": "ch-2-kings-013-58",
+   "book": "2-kings",
+   "chapter": 24,
+   "difficulty": "hard",
+   "ref": "2 Kings 24:17",
+   "text": {
+    "en": [
+     "What name did Nebuchadnezzar give Mattaniah when making him king?",
+     "Zedekiah",
+     "Jehoiakim",
+     "Hezekiah"
+    ],
+    "es": [
+     "¿Qué nombre dio Nabucodonosor a Matanías al hacerlo rey?",
+     "Sedecías",
+     "Joaquim",
+     "Ezequías"
+    ],
+    "pt": [
+     "Que nome Nabucodonosor deu a Matanias ao fazê-lo rei?",
+     "Sedecias",
+     "Joaquim",
+     "Ezequias"
+    ],
+    "fr": [
+     "Quel nom Nabuchodonosor donna-t-il à Mattania en le faisant roi ?",
+     "Sédécias",
+     "Yoyaqim",
+     "Ézéchias"
+    ],
+    "de": [
+     "Welchen Namen gab Nebukadnezzar Mattanja, als er ihn zum König machte?",
+     "Zidkija",
+     "Jojakim",
+     "Hiskija"
+    ],
+    "it": [
+     "Quale nome diede Nabucodonosor a Mattania facendolo re?",
+     "Sedecia",
+     "Ioiakim",
+     "Ezechia"
+    ],
+    "pl": [
+     "Jakie imię nadał Nabuchodonozor Matanniaszowi, czyniąc go królem?",
+     "Sedecjasz",
+     "Jojakim",
+     "Ezechiasz"
+    ],
+    "ru": [
+     "Какое имя дал Навуходоносор Маттании, поставив его царём?",
+     "Седекия",
+     "Иоаким",
+     "Езекия"
+    ],
+    "tr": [
+     "Nebukadnezar, Mattanya'yı kral yaparken ona hangi adı verdi?",
+     "Sidkiya",
+     "Yehoyakim",
+     "Hizkiya"
+    ],
+    "ja": [
+     "ネブカドネツァルはマタンヤを王とするとき、どんな名を与えましたか？",
+     "ゼデキヤ",
+     "ヨヤキム",
+     "ヒゼキヤ"
+    ],
+    "ko": [
+     "네부카드네자르는 마타니야를 임금으로 세우며 어떤 이름을 지어 주었습니까?",
+     "치드키야",
+     "여호야킴",
+     "히즈키야"
+    ],
+    "ar": [
+     "أي اسم أعطى نبوخذنصر لمتنيا عندما أقامه ملكًا؟",
+     "صدقيا",
+     "يوياقيم",
+     "حزقيا"
+    ]
+   }
+  },
+  {
+   "id": "ch-2-kings-013-59",
+   "book": "2-kings",
+   "chapter": 24,
+   "difficulty": "expert",
+   "ref": "2 Kings 24:8",
+   "text": {
+    "en": [
+     "How old was Jehoiachin when he became king of Judah?",
+     "18",
+     "30",
+     "25"
+    ],
+    "es": [
+     "¿Qué edad tenía Joaquín cuando se hizo rey de Judá?",
+     "18",
+     "30",
+     "25"
+    ],
+    "pt": [
+     "Que idade tinha Joaquin quando se tornou rei de Judá?",
+     "18",
+     "30",
+     "25"
+    ],
+    "fr": [
+     "Quel âge avait Yoyakîn lorsqu'il devint roi de Juda ?",
+     "18",
+     "30",
+     "25"
+    ],
+    "de": [
+     "Wie alt war Jojachin, als er König von Juda wurde?",
+     "18",
+     "30",
+     "25"
+    ],
+    "it": [
+     "Quanti anni aveva Ioiachin quando divenne re di Giuda?",
+     "18",
+     "30",
+     "25"
+    ],
+    "pl": [
+     "Ile lat miał Jojakin, gdy został królem Judy?",
+     "18",
+     "30",
+     "25"
+    ],
+    "ru": [
+     "Сколько лет было Иехонии, когда он стал царём Иудеи?",
+     "18",
+     "30",
+     "25"
+    ],
+    "tr": [
+     "Yehoyakin Yahuda kralı olduğunda kaç yaşındaydı?",
+     "18",
+     "30",
+     "25"
+    ],
+    "ja": [
+     "ヨヤキンはユダの王になったとき何歳でしたか？",
+     "18",
+     "30",
+     "25"
+    ],
+    "ko": [
+     "여호야킨은 유다 임금이 되었을 때 몇 살이었습니까?",
+     "18",
+     "30",
+     "25"
+    ],
+    "ar": [
+     "كم كان عمر يهوياكين عندما صار ملكًا على يهوذا؟",
+     "18",
+     "30",
+     "25"
+    ]
+   }
+  },
+  {
+   "id": "ch-2-kings-013-60",
+   "book": "2-kings",
+   "chapter": 24,
+   "difficulty": "impossible",
+   "ref": "2 Kings 24:8",
+   "text": {
+    "en": [
+     "Whose daughter was King Jehoiachin's mother?",
+     "Elnathan",
+     "Nathan",
+     "Zadok"
+    ],
+    "es": [
+     "¿De quién era hija la madre del rey Joaquín?",
+     "Elnatán",
+     "Natán",
+     "Sadoc"
+    ],
+    "pt": [
+     "De quem era filha a mãe do rei Joaquin?",
+     "Elnatã",
+     "Natã",
+     "Sadoc"
+    ],
+    "fr": [
+     "De qui la mère du roi Yoyakîn était-elle la fille ?",
+     "Elnatân",
+     "Nathan",
+     "Sadoq"
+    ],
+    "de": [
+     "Wessen Tochter war die Mutter König Jojachins?",
+     "Elnatan",
+     "Natan",
+     "Zadok"
+    ],
+    "it": [
+     "Di chi era figlia la madre del re Ioiachin?",
+     "Elnatan",
+     "Natan",
+     "Zadok"
+    ],
+    "pl": [
+     "Czyją córką była matka króla Jojakina?",
+     "Elnatan",
+     "Natan",
+     "Sadok"
+    ],
+    "ru": [
+     "Чьей дочерью была мать царя Иехонии?",
+     "Елнафан",
+     "Нафан",
+     "Садок"
+    ],
+    "tr": [
+     "Kral Yehoyakin'in annesi kimin kızıydı?",
+     "Elnatan",
+     "Natan",
+     "Sadok"
+    ],
+    "ja": [
+     "ヨヤキン王の母は誰の娘でしたか？",
+     "エルナタン",
+     "ナタン",
+     "ツァドク"
+    ],
+    "ko": [
+     "여호야킨 임금의 어머니는 누구의 딸이었습니까?",
+     "엘나탄",
+     "나탄",
+     "차독"
+    ],
+    "ar": [
+     "ابنة من كانت أم الملك يهوياكين؟",
+     "ألناتان",
+     "ناثان",
+     "صادوق"
+    ]
+   }
+  },
+  {
+   "id": "ch-2-kings-013-61",
+   "book": "2-kings",
+   "chapter": 25,
+   "difficulty": "easy",
+   "ref": "2 Kings 25:7",
+   "text": {
+    "en": [
+     "To which city did the Chaldeans take blinded King Zedekiah in chains?",
+     "Babylon",
+     "Nineveh",
+     "Damascus"
+    ],
+    "es": [
+     "¿A qué ciudad llevaron los caldeos encadenado al rey Sedecías, cegado?",
+     "Babilonia",
+     "Nínive",
+     "Damasco"
+    ],
+    "pt": [
+     "Para que cidade os caldeus levaram acorrentado o rei Sedecias, cego?",
+     "Babilônia",
+     "Nínive",
+     "Damasco"
+    ],
+    "fr": [
+     "Dans quelle ville les Chaldéens emmenèrent-ils le roi Sédécias aveuglé et enchaîné ?",
+     "Babylone",
+     "Ninive",
+     "Damas"
+    ],
+    "de": [
+     "In welche Stadt brachten die Chaldäer den geblendeten König Zidkija in Ketten?",
+     "Babylon",
+     "Ninive",
+     "Damaskus"
+    ],
+    "it": [
+     "In quale città i Caldei portarono in catene il re Sedecia accecato?",
+     "Babilonia",
+     "Ninive",
+     "Damasco"
+    ],
+    "pl": [
+     "Do jakiego miasta Chaldejczycy zaprowadzili w kajdanach oślepionego króla Sedecjasza?",
+     "Babilon",
+     "Niniwa",
+     "Damaszek"
+    ],
+    "ru": [
+     "В какой город халдеи отвели в оковах ослеплённого царя Седекию?",
+     "Вавилон",
+     "Ниневия",
+     "Дамаск"
+    ],
+    "tr": [
+     "Keldaniler gözleri kör edilen Kral Sidkiya'yı zincirlerle hangi şehre götürdü?",
+     "Babil",
+     "Ninova",
+     "Şam"
+    ],
+    "ja": [
+     "カルデア人は目をつぶされたゼデキヤ王を鎖につなぎ、どの町へ連れて行きましたか？",
+     "バビロン",
+     "ニネベ",
+     "ダマスコ"
+    ],
+    "ko": [
+     "칼데아인들은 눈이 멀게 된 치드키야 임금을 사슬로 묶어 어느 도성으로 데려갔습니까?",
+     "바빌론",
+     "니네베",
+     "다마스쿠스"
+    ],
+    "ar": [
+     "إلى أي مدينة اقتاد الكلدانيون الملك صدقيا الأعمى مقيدًا؟",
+     "بابل",
+     "نينوى",
+     "دمشق"
+    ]
+   }
+  },
+  {
+   "id": "ch-2-kings-013-62",
+   "book": "2-kings",
+   "chapter": 25,
+   "difficulty": "medium",
+   "ref": "2 Kings 25:22",
+   "text": {
+    "en": [
+     "Whom did Nebuchadnezzar appoint governor over the people left in Judah?",
+     "Gedaliah",
+     "Baruch",
+     "Jehoiachin"
+    ],
+    "es": [
+     "¿A quién nombró Nabucodonosor gobernador del pueblo que quedó en Judá?",
+     "Godolías",
+     "Baruc",
+     "Joaquín"
+    ],
+    "pt": [
+     "Quem Nabucodonosor nomeou governador do povo que ficou em Judá?",
+     "Godolias",
+     "Baruc",
+     "Joaquin"
+    ],
+    "fr": [
+     "Qui Nabuchodonosor établit-il gouverneur du peuple resté en Juda ?",
+     "Godolias",
+     "Baruch",
+     "Yoyakîn"
+    ],
+    "de": [
+     "Wen setzte Nebukadnezzar als Statthalter über das in Juda verbliebene Volk ein?",
+     "Gedalja",
+     "Baruch",
+     "Jojachin"
+    ],
+    "it": [
+     "Chi nominò Nabucodonosor governatore del popolo rimasto in Giuda?",
+     "Godolia",
+     "Baruc",
+     "Ioiachin"
+    ],
+    "pl": [
+     "Kogo Nabuchodonozor ustanowił namiestnikiem ludu pozostałego w Judzie?",
+     "Godoliasz",
+     "Baruch",
+     "Jojakin"
+    ],
+    "ru": [
+     "Кого Навуходоносор поставил правителем над оставшимся в Иудее народом?",
+     "Годолия",
+     "Варух",
+     "Иехония"
+    ],
+    "tr": [
+     "Nebukadnezar, Yahuda'da kalan halkın başına kimi vali atadı?",
+     "Gedalya",
+     "Baruk",
+     "Yehoyakin"
+    ],
+    "ja": [
+     "ネブカドネツァルはユダに残った民の総督に誰を任命しましたか？",
+     "ゲダルヤ",
+     "バルク",
+     "ヨヤキン"
+    ],
+    "ko": [
+     "네부카드네자르는 유다에 남은 백성의 총독으로 누구를 세웠습니까?",
+     "그달리야",
+     "바룩",
+     "여호야킨"
+    ],
+    "ar": [
+     "من عيّن نبوخذنصر حاكمًا على الشعب المتبقي في يهوذا؟",
+     "جدليا",
+     "باروخ",
+     "يهوياكين"
+    ]
+   }
+  },
+  {
+   "id": "ch-2-kings-013-63",
+   "book": "2-kings",
+   "chapter": 25,
+   "difficulty": "hard",
+   "ref": "2 Kings 25:25",
+   "text": {
+    "en": [
+     "Who assassinated Governor Gedaliah at Mizpah?",
+     "Ishmael",
+     "Johanan",
+     "Seraiah"
+    ],
+    "es": [
+     "¿Quién asesinó en Mispá al gobernador Godolías?",
+     "Ismael",
+     "Johanán",
+     "Seraías"
+    ],
+    "pt": [
+     "Quem assassinou o governador Godolias em Masfa?",
+     "Ismael",
+     "Joanã",
+     "Saraías"
+    ],
+    "fr": [
+     "Qui assassina le gouverneur Godolias à Maspha ?",
+     "Ismaël",
+     "Yohanân",
+     "Seraya"
+    ],
+    "de": [
+     "Wer ermordete den Statthalter Gedalja in Mizpa?",
+     "Jischmael",
+     "Johanan",
+     "Seraja"
+    ],
+    "it": [
+     "Chi assassinò a Mizpa il governatore Godolia?",
+     "Ismaele",
+     "Giovanni",
+     "Seraia"
+    ],
+    "pl": [
+     "Kto zamordował w Mispa namiestnika Godoliasza?",
+     "Izmael",
+     "Jochanan",
+     "Serajasz"
+    ],
+    "ru": [
+     "Кто убил в Массифе правителя Годолию?",
+     "Исмаил",
+     "Иоханан",
+     "Сараия"
+    ],
+    "tr": [
+     "Vali Gedalya'yı Mispa'da kim öldürdü?",
+     "İsmail",
+     "Yohanan",
+     "Seraya"
+    ],
+    "ja": [
+     "ミツパで総督ゲダルヤを殺したのは誰ですか？",
+     "イシュマエル",
+     "ヨハナン",
+     "セラヤ"
+    ],
+    "ko": [
+     "미츠파에서 총독 그달리야를 살해한 사람은 누구입니까?",
+     "이스마엘",
+     "요하난",
+     "스라야"
+    ],
+    "ar": [
+     "من اغتال الحاكم جدليا في المصفاة؟",
+     "إسماعيل",
+     "يوحانان",
+     "سرايا"
+    ]
+   }
+  },
+  {
+   "id": "ch-2-kings-013-64",
+   "book": "2-kings",
+   "chapter": 25,
+   "difficulty": "expert",
+   "ref": "2 Kings 25:17",
+   "text": {
+    "en": [
+     "How tall in cubits was each bronze pillar of Solomon's temple?",
+     "18",
+     "12",
+     "30"
+    ],
+    "es": [
+     "¿Cuántos codos de alto medía cada columna de bronce del templo de Salomón?",
+     "18",
+     "12",
+     "30"
+    ],
+    "pt": [
+     "Quantos côvados de altura media cada coluna de bronze do templo de Salomão?",
+     "18",
+     "12",
+     "30"
+    ],
+    "fr": [
+     "Combien de coudées de haut mesurait chaque colonne de bronze du temple de Salomon ?",
+     "18",
+     "12",
+     "30"
+    ],
+    "de": [
+     "Wie viele Ellen hoch war jede Bronzesäule des Tempels Salomos?",
+     "18",
+     "12",
+     "30"
+    ],
+    "it": [
+     "Quanti cubiti era alta ciascuna colonna di bronzo del tempio di Salomone?",
+     "18",
+     "12",
+     "30"
+    ],
+    "pl": [
+     "Ile łokci wysokości miała każda spiżowa kolumna świątyni Salomona?",
+     "18",
+     "12",
+     "30"
+    ],
+    "ru": [
+     "Сколько локтей высотой был каждый медный столп храма Соломона?",
+     "18",
+     "12",
+     "30"
+    ],
+    "tr": [
+     "Süleyman'ın tapınağındaki her tunç sütun kaç arşın yüksekliğindeydi?",
+     "18",
+     "12",
+     "30"
+    ],
+    "ja": [
+     "ソロモンの神殿の青銅の柱は、それぞれ高さ何アンマでしたか？",
+     "18",
+     "12",
+     "30"
+    ],
+    "ko": [
+     "솔로몬 성전의 청동 기둥은 각각 높이가 몇 암마였습니까?",
+     "18",
+     "12",
+     "30"
+    ],
+    "ar": [
+     "كم كان ارتفاع كل عمود نحاسي في هيكل سليمان بالأذرع؟",
+     "18",
+     "12",
+     "30"
+    ]
+   }
+  },
+  {
+   "id": "ch-2-kings-013-65",
+   "book": "2-kings",
+   "chapter": 25,
+   "difficulty": "impossible",
+   "ref": "2 Kings 25:27",
+   "text": {
+    "en": [
+     "Jehoiachin was freed from prison in which year of his exile?",
+     "37",
+     "27",
+     "47"
+    ],
+    "es": [
+     "¿En qué año de su destierro fue liberado Joaquín de la cárcel?",
+     "37",
+     "27",
+     "47"
+    ],
+    "pt": [
+     "Em que ano do seu exílio Joaquin foi libertado da prisão?",
+     "37",
+     "27",
+     "47"
+    ],
+    "fr": [
+     "En quelle année de son exil Yoyakîn fut-il libéré de prison ?",
+     "37",
+     "27",
+     "47"
+    ],
+    "de": [
+     "In welchem Jahr seiner Verbannung kam Jojachin aus dem Gefängnis frei?",
+     "37",
+     "27",
+     "47"
+    ],
+    "it": [
+     "In quale anno del suo esilio Ioiachin fu liberato dalla prigione?",
+     "37",
+     "27",
+     "47"
+    ],
+    "pl": [
+     "W którym roku wygnania Jojakin został uwolniony z więzienia?",
+     "37",
+     "27",
+     "47"
+    ],
+    "ru": [
+     "На каком году своего изгнания Иехония был освобождён из темницы?",
+     "37",
+     "27",
+     "47"
+    ],
+    "tr": [
+     "Yehoyakin sürgününün kaçıncı yılında hapisten çıkarıldı?",
+     "37",
+     "27",
+     "47"
+    ],
+    "ja": [
+     "ヨヤキンは捕囚の何年目に牢から解放されましたか？",
+     "37",
+     "27",
+     "47"
+    ],
+    "ko": [
+     "여호야킨은 유배 몇 해째에 감옥에서 풀려났습니까?",
+     "37",
+     "27",
+     "47"
+    ],
+    "ar": [
+     "في أي سنة من سبيه أُطلق يهوياكين من السجن؟",
+     "37",
+     "27",
+     "47"
+    ]
+   }
+  }
+ ]
+}
