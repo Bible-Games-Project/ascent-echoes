@@ -1,0 +1,5674 @@
+{
+ "questions": [
+  {
+   "id": "ch-job-001-01",
+   "book": "job",
+   "chapter": 1,
+   "difficulty": "easy",
+   "ref": "Job 1:2",
+   "text": {
+    "en": [
+     "How many sons did Job have?",
+     "7",
+     "12",
+     "5"
+    ],
+    "es": [
+     "¿Cuántos hijos varones tenía Job?",
+     "7",
+     "12",
+     "5"
+    ],
+    "pt": [
+     "Quantos filhos homens Jó tinha?",
+     "7",
+     "12",
+     "5"
+    ],
+    "fr": [
+     "Combien de fils Job avait-il ?",
+     "7",
+     "12",
+     "5"
+    ],
+    "de": [
+     "Wie viele Söhne hatte Ijob?",
+     "7",
+     "12",
+     "5"
+    ],
+    "it": [
+     "Quanti figli maschi aveva Giobbe?",
+     "7",
+     "12",
+     "5"
+    ],
+    "pl": [
+     "Ilu synów miał Hiob?",
+     "7",
+     "12",
+     "5"
+    ],
+    "ru": [
+     "Сколько сыновей было у Иова?",
+     "7",
+     "12",
+     "5"
+    ],
+    "tr": [
+     "Eyüp'ün kaç oğlu vardı?",
+     "7",
+     "12",
+     "5"
+    ],
+    "ja": [
+     "ヨブには息子が何人いましたか？",
+     "7",
+     "12",
+     "5"
+    ],
+    "ko": [
+     "욥에게는 아들이 몇 명 있었습니까?",
+     "7",
+     "12",
+     "5"
+    ],
+    "ar": [
+     "كم ابنًا كان لأيوب؟",
+     "7",
+     "12",
+     "5"
+    ]
+   }
+  },
+  {
+   "id": "ch-job-001-02",
+   "book": "job",
+   "chapter": 1,
+   "difficulty": "medium",
+   "ref": "Job 1:6-11",
+   "text": {
+    "en": [
+     "Who challenged God about Job's faithfulness in the heavenly court?",
+     "Satan",
+     "Gabriel",
+     "Michael"
+    ],
+    "es": [
+     "¿Quién desafió a Dios sobre la fidelidad de Job en la corte celestial?",
+     "Satanás",
+     "Gabriel",
+     "Miguel"
+    ],
+    "pt": [
+     "Quem desafiou Deus sobre a fidelidade de Jó na corte celeste?",
+     "Satanás",
+     "Gabriel",
+     "Miguel"
+    ],
+    "fr": [
+     "Qui a mis en doute devant Dieu la fidélité de Job, à la cour céleste ?",
+     "Satan",
+     "Gabriel",
+     "Michel"
+    ],
+    "de": [
+     "Wer stellte vor dem himmlischen Hofstaat Ijobs Treue gegenüber Gott infrage?",
+     "Satan",
+     "Gabriel",
+     "Michael"
+    ],
+    "it": [
+     "Chi mise in dubbio davanti a Dio la fedeltà di Giobbe nella corte celeste?",
+     "Satana",
+     "Gabriele",
+     "Michele"
+    ],
+    "pl": [
+     "Kto w niebiańskim dworze zakwestionował wobec Boga wierność Hioba?",
+     "Szatan",
+     "Gabriel",
+     "Michał"
+    ],
+    "ru": [
+     "Кто в небесном совете усомнился в верности Иова Богу?",
+     "Сатана",
+     "Гавриил",
+     "Михаил"
+    ],
+    "tr": [
+     "Gökteki mecliste Eyüp'ün sadakatini Tanrı'nın önünde kim sorguladı?",
+     "Şeytan",
+     "Cebrail",
+     "Mikail"
+    ],
+    "ja": [
+     "天の会議で、ヨブの信仰を神の前で疑ったのはだれですか？",
+     "サタン",
+     "ガブリエル",
+     "ミカエル"
+    ],
+    "ko": [
+     "하늘의 회의에서 하느님 앞에 욥의 신실함을 의심한 이는 누구입니까?",
+     "사탄",
+     "가브리엘",
+     "미카엘"
+    ],
+    "ar": [
+     "من شكّك أمام الله في أمانة أيوب في المجلس السماوي؟",
+     "الشيطان",
+     "جبرائيل",
+     "ميخائيل"
+    ]
+   }
+  },
+  {
+   "id": "ch-job-001-03",
+   "book": "job",
+   "chapter": 1,
+   "difficulty": "hard",
+   "ref": "Job 1:3",
+   "text": {
+    "en": [
+     "How many sheep did Job own?",
+     "7000",
+     "3000",
+     "500"
+    ],
+    "es": [
+     "¿Cuántas ovejas poseía Job?",
+     "7000",
+     "3000",
+     "500"
+    ],
+    "pt": [
+     "Quantas ovelhas Jó possuía?",
+     "7000",
+     "3000",
+     "500"
+    ],
+    "fr": [
+     "Combien de brebis Job possédait-il ?",
+     "7000",
+     "3000",
+     "500"
+    ],
+    "de": [
+     "Wie viele Schafe besaß Ijob?",
+     "7000",
+     "3000",
+     "500"
+    ],
+    "it": [
+     "Quante pecore possedeva Giobbe?",
+     "7000",
+     "3000",
+     "500"
+    ],
+    "pl": [
+     "Ile owiec miał Hiob?",
+     "7000",
+     "3000",
+     "500"
+    ],
+    "ru": [
+     "Сколько овец было у Иова?",
+     "7000",
+     "3000",
+     "500"
+    ],
+    "tr": [
+     "Eyüp'ün kaç koyunu vardı?",
+     "7000",
+     "3000",
+     "500"
+    ],
+    "ja": [
+     "ヨブは羊を何頭持っていましたか？",
+     "7000",
+     "3000",
+     "500"
+    ],
+    "ko": [
+     "욥은 양을 몇 마리 가지고 있었습니까?",
+     "7000",
+     "3000",
+     "500"
+    ],
+    "ar": [
+     "كم رأسًا من الغنم كان لأيوب؟",
+     "7000",
+     "3000",
+     "500"
+    ]
+   }
+  },
+  {
+   "id": "ch-job-001-04",
+   "book": "job",
+   "chapter": 1,
+   "difficulty": "expert",
+   "ref": "Job 1:16",
+   "text": {
+    "en": [
+     "What fell from heaven and burned Job's sheep and servants?",
+     "Fire",
+     "Hail",
+     "Locusts"
+    ],
+    "es": [
+     "¿Qué cayó del cielo y consumió las ovejas y los siervos de Job?",
+     "Fuego",
+     "Granizo",
+     "Langostas"
+    ],
+    "pt": [
+     "O que caiu do céu e queimou as ovelhas e os servos de Jó?",
+     "Fogo",
+     "Granizo",
+     "Gafanhotos"
+    ],
+    "fr": [
+     "Qu'est-ce qui est tombé du ciel et a consumé les brebis et les serviteurs de Job ?",
+     "Feu",
+     "Grêle",
+     "Sauterelles"
+    ],
+    "de": [
+     "Was fiel vom Himmel und verzehrte Ijobs Schafe und Knechte?",
+     "Feuer",
+     "Hagel",
+     "Heuschrecken"
+    ],
+    "it": [
+     "Che cosa cadde dal cielo e divorò le pecore e i servi di Giobbe?",
+     "Fuoco",
+     "Grandine",
+     "Cavallette"
+    ],
+    "pl": [
+     "Co spadło z nieba i strawiło owce oraz sługi Hioba?",
+     "Ogień",
+     "Grad",
+     "Szarańcza"
+    ],
+    "ru": [
+     "Что упало с неба и сожгло овец и слуг Иова?",
+     "Огонь",
+     "Град",
+     "Саранча"
+    ],
+    "tr": [
+     "Gökten ne düşüp Eyüp'ün koyunlarını ve hizmetkârlarını yaktı?",
+     "Ateş",
+     "Dolu",
+     "Çekirge"
+    ],
+    "ja": [
+     "天から降って、ヨブの羊と僕たちを焼き尽くしたものは何ですか？",
+     "火",
+     "雹",
+     "イナゴ"
+    ],
+    "ko": [
+     "하늘에서 떨어져 욥의 양과 종들을 삼켜 버린 것은 무엇입니까?",
+     "불",
+     "우박",
+     "메뚜기"
+    ],
+    "ar": [
+     "ماذا سقط من السماء وأحرق غنم أيوب وعبيده؟",
+     "نار",
+     "برد",
+     "جراد"
+    ]
+   }
+  },
+  {
+   "id": "ch-job-001-05",
+   "book": "job",
+   "chapter": 1,
+   "difficulty": "impossible",
+   "ref": "Job 1:17",
+   "text": {
+    "en": [
+     "Which people formed three bands and raided Job's camels?",
+     "Chaldeans",
+     "Philistines",
+     "Egyptians"
+    ],
+    "es": [
+     "¿Qué pueblo formó tres bandas y asaltó los camellos de Job?",
+     "Caldeos",
+     "Filisteos",
+     "Egipcios"
+    ],
+    "pt": [
+     "Que povo formou três bandos e atacou os camelos de Jó?",
+     "Caldeus",
+     "Filisteus",
+     "Egípcios"
+    ],
+    "fr": [
+     "Quel peuple, en trois bandes, a razzié les chameaux de Job ?",
+     "Chaldéens",
+     "Philistins",
+     "Égyptiens"
+    ],
+    "de": [
+     "Welches Volk überfiel in drei Abteilungen Ijobs Kamele?",
+     "Chaldäer",
+     "Philister",
+     "Ägypter"
+    ],
+    "it": [
+     "Quale popolo, in tre bande, assalì i cammelli di Giobbe?",
+     "Caldei",
+     "Filistei",
+     "Egiziani"
+    ],
+    "pl": [
+     "Który lud w trzech oddziałach napadł na wielbłądy Hioba?",
+     "Chaldejczycy",
+     "Filistyni",
+     "Egipcjanie"
+    ],
+    "ru": [
+     "Какой народ тремя отрядами напал на верблюдов Иова?",
+     "Халдеи",
+     "Филистимляне",
+     "Египтяне"
+    ],
+    "tr": [
+     "Hangi halk üç bölük hâlinde Eyüp'ün develerine saldırdı?",
+     "Keldaniler",
+     "Filistinliler",
+     "Mısırlılar"
+    ],
+    "ja": [
+     "三つの隊を組んでヨブのらくだを襲ったのは、どの民ですか？",
+     "カルデア人",
+     "ペリシテ人",
+     "エジプト人"
+    ],
+    "ko": [
+     "세 무리를 이루어 욥의 낙타들을 습격한 민족은 어느 민족입니까?",
+     "칼데아인",
+     "필리스티아인",
+     "이집트인"
+    ],
+    "ar": [
+     "أيّ شعب هاجم جِمال أيوب في ثلاث فرق؟",
+     "الكلدانيون",
+     "الفلسطينيون",
+     "المصريون"
+    ]
+   }
+  },
+  {
+   "id": "ch-job-001-06",
+   "book": "job",
+   "chapter": 2,
+   "difficulty": "easy",
+   "ref": "Job 2:11",
+   "text": {
+    "en": [
+     "How many friends came to comfort Job in his suffering?",
+     "3",
+     "2",
+     "5"
+    ],
+    "es": [
+     "¿Cuántos amigos vinieron a consolar a Job en su sufrimiento?",
+     "3",
+     "2",
+     "5"
+    ],
+    "pt": [
+     "Quantos amigos vieram consolar Jó em seu sofrimento?",
+     "3",
+     "2",
+     "5"
+    ],
+    "fr": [
+     "Combien d'amis sont venus consoler Job dans sa souffrance ?",
+     "3",
+     "2",
+     "5"
+    ],
+    "de": [
+     "Wie viele Freunde kamen, um Ijob in seinem Leiden zu trösten?",
+     "3",
+     "2",
+     "5"
+    ],
+    "it": [
+     "Quanti amici vennero a consolare Giobbe nella sua sofferenza?",
+     "3",
+     "2",
+     "5"
+    ],
+    "pl": [
+     "Ilu przyjaciół przyszło pocieszyć Hioba w jego cierpieniu?",
+     "3",
+     "2",
+     "5"
+    ],
+    "ru": [
+     "Сколько друзей пришли утешить Иова в его страдании?",
+     "3",
+     "2",
+     "5"
+    ],
+    "tr": [
+     "Kaç arkadaş acı çeken Eyüp'ü teselli etmeye geldi?",
+     "3",
+     "2",
+     "5"
+    ],
+    "ja": [
+     "苦しむヨブを慰めに来た友人は何人でしたか？",
+     "3",
+     "2",
+     "5"
+    ],
+    "ko": [
+     "고통받는 욥을 위로하러 온 친구는 몇 명이었습니까?",
+     "3",
+     "2",
+     "5"
+    ],
+    "ar": [
+     "كم صديقًا جاء ليعزّي أيوب في معاناته؟",
+     "3",
+     "2",
+     "5"
+    ]
+   }
+  },
+  {
+   "id": "ch-job-001-07",
+   "book": "job",
+   "chapter": 2,
+   "difficulty": "medium",
+   "ref": "Job 2:9",
+   "text": {
+    "en": [
+     "Who told the suffering Job to curse God and die?",
+     "Wife",
+     "Servant",
+     "Brother"
+    ],
+    "es": [
+     "¿Quién le dijo al sufriente Job que maldijera a Dios y muriera?",
+     "Esposa",
+     "Siervo",
+     "Hermano"
+    ],
+    "pt": [
+     "Quem disse ao sofredor Jó que amaldiçoasse a Deus e morresse?",
+     "Esposa",
+     "Servo",
+     "Irmão"
+    ],
+    "fr": [
+     "Qui a dit à Job, souffrant, de maudire Dieu et de mourir ?",
+     "Épouse",
+     "Serviteur",
+     "Frère"
+    ],
+    "de": [
+     "Wer sagte dem leidenden Ijob, er solle Gott absagen und sterben?",
+     "Frau",
+     "Knecht",
+     "Bruder"
+    ],
+    "it": [
+     "Chi disse al sofferente Giobbe di maledire Dio e morire?",
+     "Moglie",
+     "Servo",
+     "Fratello"
+    ],
+    "pl": [
+     "Kto powiedział cierpiącemu Hiobowi, by złorzeczył Bogu i umarł?",
+     "Żona",
+     "Sługa",
+     "Brat"
+    ],
+    "ru": [
+     "Кто посоветовал страдающему Иову хулить Бога и умереть?",
+     "Жена",
+     "Слуга",
+     "Брат"
+    ],
+    "tr": [
+     "Acı çeken Eyüp'e Tanrı'ya lanet edip ölmesini kim söyledi?",
+     "Eş",
+     "Hizmetkâr",
+     "Kardeş"
+    ],
+    "ja": [
+     "苦しむヨブに、神を呪って死になさいと言ったのはだれですか？",
+     "妻",
+     "召し使い",
+     "兄弟"
+    ],
+    "ko": [
+     "고통받는 욥에게 하느님을 저주하고 죽으라고 말한 사람은 누구입니까?",
+     "아내",
+     "종",
+     "형제"
+    ],
+    "ar": [
+     "من قال لأيوب المتألم أن يلعن الله ويموت؟",
+     "زوجة",
+     "خادم",
+     "أخ"
+    ]
+   }
+  },
+  {
+   "id": "ch-job-001-08",
+   "book": "job",
+   "chapter": 2,
+   "difficulty": "hard",
+   "ref": "Job 2:13",
+   "text": {
+    "en": [
+     "How many days and nights did Job's friends sit silent beside him?",
+     "7",
+     "3",
+     "40"
+    ],
+    "es": [
+     "¿Cuántos días y noches se sentaron en silencio los amigos junto a Job?",
+     "7",
+     "3",
+     "40"
+    ],
+    "pt": [
+     "Quantos dias e noites os amigos se sentaram em silêncio junto de Jó?",
+     "7",
+     "3",
+     "40"
+    ],
+    "fr": [
+     "Combien de jours et de nuits les amis de Job sont-ils restés assis près de lui en silence ?",
+     "7",
+     "3",
+     "40"
+    ],
+    "de": [
+     "Wie viele Tage und Nächte saßen Ijobs Freunde schweigend bei ihm?",
+     "7",
+     "3",
+     "40"
+    ],
+    "it": [
+     "Quanti giorni e notti gli amici di Giobbe rimasero seduti in silenzio accanto a lui?",
+     "7",
+     "3",
+     "40"
+    ],
+    "pl": [
+     "Przez ile dni i nocy przyjaciele Hioba siedzieli przy nim w milczeniu?",
+     "7",
+     "3",
+     "40"
+    ],
+    "ru": [
+     "Сколько дней и ночей друзья Иова молча просидели рядом с ним?",
+     "7",
+     "3",
+     "40"
+    ],
+    "tr": [
+     "Eyüp'ün arkadaşları kaç gün kaç gece onun yanında sessizce oturdu?",
+     "7",
+     "3",
+     "40"
+    ],
+    "ja": [
+     "ヨブの友人たちは、何日何晩、黙って彼のそばに座っていましたか？",
+     "7",
+     "3",
+     "40"
+    ],
+    "ko": [
+     "욥의 친구들은 며칠 밤낮을 그 곁에 말없이 앉아 있었습니까?",
+     "7",
+     "3",
+     "40"
+    ],
+    "ar": [
+     "كم يومًا وليلة جلس أصدقاء أيوب صامتين بجانبه؟",
+     "7",
+     "3",
+     "40"
+    ]
+   }
+  },
+  {
+   "id": "ch-job-001-09",
+   "book": "job",
+   "chapter": 2,
+   "difficulty": "expert",
+   "ref": "Job 2:11",
+   "text": {
+    "en": [
+     "Eliphaz, Job's friend, came from which place?",
+     "Teman",
+     "Damascus",
+     "Hebron"
+    ],
+    "es": [
+     "¿De qué lugar procedía Elifaz, amigo de Job?",
+     "Temán",
+     "Damasco",
+     "Hebrón"
+    ],
+    "pt": [
+     "De que lugar vinha Elifaz, amigo de Jó?",
+     "Temã",
+     "Damasco",
+     "Hebron"
+    ],
+    "fr": [
+     "De quel lieu venait Éliphaz, l'ami de Job ?",
+     "Théman",
+     "Damas",
+     "Hébron"
+    ],
+    "de": [
+     "Aus welchem Ort stammte Elifas, Ijobs Freund?",
+     "Teman",
+     "Damaskus",
+     "Hebron"
+    ],
+    "it": [
+     "Da quale luogo veniva Elifaz, amico di Giobbe?",
+     "Teman",
+     "Damasco",
+     "Ebron"
+    ],
+    "pl": [
+     "Z jakiego miejsca pochodził Elifaz, przyjaciel Hioba?",
+     "Teman",
+     "Damaszek",
+     "Hebron"
+    ],
+    "ru": [
+     "Из какого места был Елифаз, друг Иова?",
+     "Феман",
+     "Дамаск",
+     "Хеврон"
+    ],
+    "tr": [
+     "Eyüp'ün arkadaşı Elifaz hangi yerdendi?",
+     "Teman",
+     "Şam",
+     "Hebron"
+    ],
+    "ja": [
+     "ヨブの友人エリファズは、どこの出身ですか？",
+     "テマン",
+     "ダマスコ",
+     "ヘブロン"
+    ],
+    "ko": [
+     "욥의 친구 엘리파즈는 어느 곳 출신입니까?",
+     "테만",
+     "다마스쿠스",
+     "헤브론"
+    ],
+    "ar": [
+     "من أي مكان جاء أليفاز صديق أيوب؟",
+     "تيمان",
+     "دمشق",
+     "حبرون"
+    ]
+   }
+  },
+  {
+   "id": "ch-job-001-10",
+   "book": "job",
+   "chapter": 2,
+   "difficulty": "impossible",
+   "ref": "Job 2:12",
+   "text": {
+    "en": [
+     "What did Job's friends toss toward heaven over their heads?",
+     "Dust",
+     "Sand",
+     "Straw"
+    ],
+    "es": [
+     "¿Qué lanzaron al cielo, sobre sus cabezas, los amigos de Job?",
+     "Polvo",
+     "Arena",
+     "Paja"
+    ],
+    "pt": [
+     "O que os amigos de Jó lançaram ao céu, sobre suas cabeças?",
+     "Pó",
+     "Areia",
+     "Palha"
+    ],
+    "fr": [
+     "Qu'ont lancé vers le ciel, au-dessus de leurs têtes, les amis de Job ?",
+     "Poussière",
+     "Sable",
+     "Paille"
+    ],
+    "de": [
+     "Was warfen Ijobs Freunde über ihrem Kopf zum Himmel?",
+     "Staub",
+     "Sand",
+     "Stroh"
+    ],
+    "it": [
+     "Che cosa lanciarono verso il cielo, sopra il capo, gli amici di Giobbe?",
+     "Polvere",
+     "Sabbia",
+     "Paglia"
+    ],
+    "pl": [
+     "Co rzucili ku niebu nad swoje głowy przyjaciele Hioba?",
+     "Proch",
+     "Piasek",
+     "Słoma"
+    ],
+    "ru": [
+     "Что бросили к небу над своими головами друзья Иова?",
+     "Прах",
+     "Песок",
+     "Солома"
+    ],
+    "tr": [
+     "Eyüp'ün arkadaşları başlarının üzerinden göğe doğru ne savurdu?",
+     "Toz",
+     "Kum",
+     "Saman"
+    ],
+    "ja": [
+     "ヨブの友人たちは、頭の上で天に向かって何をまき散らしましたか？",
+     "塵",
+     "砂",
+     "わら"
+    ],
+    "ko": [
+     "욥의 친구들은 머리 위로 하늘을 향해 무엇을 뿌렸습니까?",
+     "먼지",
+     "모래",
+     "짚"
+    ],
+    "ar": [
+     "ماذا ذرّى أصدقاء أيوب نحو السماء فوق رؤوسهم؟",
+     "تراب",
+     "رمل",
+     "قش"
+    ]
+   }
+  },
+  {
+   "id": "ch-job-001-11",
+   "book": "job",
+   "chapter": 3,
+   "difficulty": "easy",
+   "ref": "Job 3:3",
+   "text": {
+    "en": [
+     "Job curses the day of which event in his life?",
+     "Birth",
+     "Wedding",
+     "Harvest"
+    ],
+    "es": [
+     "¿El día de qué acontecimiento de su vida maldijo Job?",
+     "Nacimiento",
+     "Boda",
+     "Cosecha"
+    ],
+    "pt": [
+     "O dia de qual acontecimento de sua vida Jó amaldiçoou?",
+     "Nascimento",
+     "Casamento",
+     "Colheita"
+    ],
+    "fr": [
+     "Le jour de quel événement de sa vie Job maudit-il ?",
+     "Naissance",
+     "Mariage",
+     "Récolte"
+    ],
+    "de": [
+     "Den Tag welches Ereignisses seines Lebens verfluchte Ijob?",
+     "Geburt",
+     "Hochzeit",
+     "Ernte"
+    ],
+    "it": [
+     "Il giorno di quale evento della sua vita maledisse Giobbe?",
+     "Nascita",
+     "Nozze",
+     "Raccolto"
+    ],
+    "pl": [
+     "Dzień jakiego wydarzenia ze swojego życia przeklął Hiob?",
+     "Narodziny",
+     "Wesele",
+     "Żniwa"
+    ],
+    "ru": [
+     "День какого события своей жизни проклял Иов?",
+     "Рождение",
+     "Свадьба",
+     "Жатва"
+    ],
+    "tr": [
+     "Eyüp hayatındaki hangi olayın gününe lanet etti?",
+     "Doğum",
+     "Düğün",
+     "Hasat"
+    ],
+    "ja": [
+     "ヨブは、自分の人生のどの出来事の日を呪いましたか？",
+     "誕生",
+     "結婚式",
+     "収穫"
+    ],
+    "ko": [
+     "욥은 자기 삶의 어떤 사건의 날을 저주했습니까?",
+     "탄생",
+     "결혼식",
+     "수확"
+    ],
+    "ar": [
+     "يوم أيّ حدث في حياته لعنه أيوب؟",
+     "ولادة",
+     "زفاف",
+     "حصاد"
+    ]
+   }
+  },
+  {
+   "id": "ch-job-001-12",
+   "book": "job",
+   "chapter": 3,
+   "difficulty": "medium",
+   "ref": "Job 3:8",
+   "text": {
+    "en": [
+     "Which sea monster is named in Job's curse on his birthday?",
+     "Leviathan",
+     "Rahab",
+     "Dagon"
+    ],
+    "es": [
+     "¿Qué monstruo marino se nombra en la maldición de Job contra el día de su nacimiento?",
+     "Leviatán",
+     "Rahab",
+     "Dagón"
+    ],
+    "pt": [
+     "Que monstro marinho é citado na maldição de Jó contra o dia do seu nascimento?",
+     "Leviatã",
+     "Raab",
+     "Dagon"
+    ],
+    "fr": [
+     "Quel monstre marin est nommé dans la malédiction de Job contre le jour de sa naissance ?",
+     "Léviathan",
+     "Rahab",
+     "Dagon"
+    ],
+    "de": [
+     "Welches Meeresungeheuer wird in Ijobs Verfluchung seines Geburtstags genannt?",
+     "Leviatan",
+     "Rahab",
+     "Dagon"
+    ],
+    "it": [
+     "Quale mostro marino è nominato nella maledizione di Giobbe contro il giorno della sua nascita?",
+     "Leviatan",
+     "Raab",
+     "Dagon"
+    ],
+    "pl": [
+     "Jaki morski potwór pojawia się w przekleństwie Hioba nad dniem jego narodzin?",
+     "Lewiatan",
+     "Rahab",
+     "Dagon"
+    ],
+    "ru": [
+     "Какое морское чудовище названо в проклятии Иовом дня его рождения?",
+     "Левиафан",
+     "Рахав",
+     "Дагон"
+    ],
+    "tr": [
+     "Eyüp'ün doğum gününe lanetinde hangi deniz canavarı anılır?",
+     "Livyatan",
+     "Rahav",
+     "Dagon"
+    ],
+    "ja": [
+     "ヨブが誕生の日を呪う言葉の中に出てくる海の怪獣はどれですか？",
+     "レビヤタン",
+     "ラハブ",
+     "ダゴン"
+    ],
+    "ko": [
+     "욥이 자기 생일을 저주하는 말에 나오는 바다 괴물은 무엇입니까?",
+     "레비아탄",
+     "라합",
+     "다곤"
+    ],
+    "ar": [
+     "أيّ وحش بحري يُذكر في لعنة أيوب ليوم ميلاده؟",
+     "لوياثان",
+     "راحاب",
+     "داجون"
+    ]
+   }
+  },
+  {
+   "id": "ch-job-001-13",
+   "book": "job",
+   "chapter": 3,
+   "difficulty": "hard",
+   "ref": "Job 3:24",
+   "text": {
+    "en": [
+     "In his lament, Job says his groans pour out like what?",
+     "Water",
+     "Blood",
+     "Oil"
+    ],
+    "es": [
+     "¿Como qué dice Job en su lamento que se derraman sus gemidos?",
+     "Agua",
+     "Sangre",
+     "Aceite"
+    ],
+    "pt": [
+     "Em seu lamento, Jó diz que seus gemidos se derramam como o quê?",
+     "Água",
+     "Sangue",
+     "Óleo"
+    ],
+    "fr": [
+     "Dans sa plainte, Job dit que ses gémissements se répandent comme quoi ?",
+     "Eau",
+     "Sang",
+     "Huile"
+    ],
+    "de": [
+     "Womit vergleicht Ijob in seiner Klage seine ausströmenden Seufzer?",
+     "Wasser",
+     "Blut",
+     "Öl"
+    ],
+    "it": [
+     "Nel suo lamento, Giobbe dice che i suoi gemiti si riversano come che cosa?",
+     "Acqua",
+     "Sangue",
+     "Olio"
+    ],
+    "pl": [
+     "Do czego Hiob w skardze przyrównuje swoje wylewające się jęki?",
+     "Woda",
+     "Krew",
+     "Oliwa"
+    ],
+    "ru": [
+     "В своей жалобе Иов говорит, что его стоны изливаются как что?",
+     "Вода",
+     "Кровь",
+     "Масло"
+    ],
+    "tr": [
+     "Eyüp ağıtında iniltilerinin neye benzer şekilde döküldüğünü söyler?",
+     "Su",
+     "Kan",
+     "Yağ"
+    ],
+    "ja": [
+     "ヨブは嘆きの中で、自分のうめきが何のように注ぎ出されると言いましたか？",
+     "水",
+     "血",
+     "油"
+    ],
+    "ko": [
+     "욥은 탄식하며 자기 신음이 무엇처럼 쏟아진다고 말합니까?",
+     "물",
+     "피",
+     "기름"
+    ],
+    "ar": [
+     "في رثائه، يقول أيوب إن أنينه ينسكب مثل ماذا؟",
+     "ماء",
+     "دم",
+     "زيت"
+    ]
+   }
+  },
+  {
+   "id": "ch-job-001-14",
+   "book": "job",
+   "chapter": 3,
+   "difficulty": "expert",
+   "ref": "Job 3:14-15",
+   "text": {
+    "en": [
+     "Which metal filled the houses of the princes Job wished to rest beside?",
+     "Silver",
+     "Bronze",
+     "Iron"
+    ],
+    "es": [
+     "¿Qué metal llenaba las casas de los príncipes junto a los que Job quería reposar?",
+     "Plata",
+     "Bronce",
+     "Hierro"
+    ],
+    "pt": [
+     "Que metal enchia as casas dos príncipes junto aos quais Jó queria repousar?",
+     "Prata",
+     "Bronze",
+     "Ferro"
+    ],
+    "fr": [
+     "Quel métal remplissait les maisons des princes auprès de qui Job voulait reposer ?",
+     "Argent",
+     "Bronze",
+     "Fer"
+    ],
+    "de": [
+     "Welches Metall füllte die Häuser der Fürsten, bei denen Ijob ruhen wollte?",
+     "Silber",
+     "Bronze",
+     "Eisen"
+    ],
+    "it": [
+     "Quale metallo riempiva le case dei prìncipi accanto ai quali Giobbe voleva riposare?",
+     "Argento",
+     "Bronzo",
+     "Ferro"
+    ],
+    "pl": [
+     "Jaki metal wypełniał domy książąt, przy których Hiob chciał spoczywać?",
+     "Srebro",
+     "Brąz",
+     "Żelazo"
+    ],
+    "ru": [
+     "Какой металл наполнял дома князей, рядом с которыми Иов хотел бы покоиться?",
+     "Серебро",
+     "Медь",
+     "Железо"
+    ],
+    "tr": [
+     "Eyüp'ün yanında yatmak istediği önderlerin evlerini hangi maden doldurmuştu?",
+     "Gümüş",
+     "Bronz",
+     "Demir"
+    ],
+    "ja": [
+     "ヨブが共に憩いたいと願った君侯たちの家を満たしていた金属は何ですか？",
+     "銀",
+     "青銅",
+     "鉄"
+    ],
+    "ko": [
+     "욥이 곁에서 쉬고 싶어 한 군주들의 집을 가득 채운 금속은 무엇입니까?",
+     "은",
+     "청동",
+     "쇠"
+    ],
+    "ar": [
+     "أيّ معدن ملأ بيوت الرؤساء الذين تمنى أيوب أن يستريح معهم؟",
+     "فضة",
+     "نحاس",
+     "حديد"
+    ]
+   }
+  },
+  {
+   "id": "ch-job-001-15",
+   "book": "job",
+   "chapter": 3,
+   "difficulty": "impossible",
+   "ref": "Job 3:3",
+   "text": {
+    "en": [
+     "In Job's curse, which child did the night announce as conceived?",
+     "Boy",
+     "Girl",
+     "Twin"
+    ],
+    "es": [
+     "¿La concepción de qué niño anunció la noche en la maldición de Job?",
+     "Varón",
+     "Niña",
+     "Gemelo"
+    ],
+    "pt": [
+     "A concepção de que filho a noite anunciou, na maldição de Jó?",
+     "Menino",
+     "Menina",
+     "Gêmeo"
+    ],
+    "fr": [
+     "Dans la malédiction de Job, la nuit annonce la conception de quel enfant ?",
+     "Garçon",
+     "Fille",
+     "Jumeau"
+    ],
+    "de": [
+     "Welches Kind kündigte die Nacht in Ijobs Fluch als empfangen an?",
+     "Junge",
+     "Mädchen",
+     "Zwilling"
+    ],
+    "it": [
+     "La concezione di quale figlio annunciò la notte, nella maledizione di Giobbe?",
+     "Maschio",
+     "Femmina",
+     "Gemello"
+    ],
+    "pl": [
+     "Które dziecko ogłosiła noc jako poczęte w przekleństwie Hioba?",
+     "Chłopiec",
+     "Dziewczynka",
+     "Bliźniak"
+    ],
+    "ru": [
+     "Какое дитя, по слову ночи, было зачато в проклятии Иова?",
+     "Мальчик",
+     "Девочка",
+     "Близнец"
+    ],
+    "tr": [
+     "Eyüp'ün lanetinde gece hangi çocuğun gebe kaldığını duyurdu?",
+     "Erkek",
+     "Kız",
+     "İkiz"
+    ],
+    "ja": [
+     "ヨブの呪いの中で、夜はどんな子が身ごもられたと告げましたか？",
+     "男の子",
+     "女の子",
+     "双子"
+    ],
+    "ko": [
+     "욥의 저주에서 밤은 어떤 아이가 잉태되었다고 알렸습니까?",
+     "사내아이",
+     "여자아이",
+     "쌍둥이"
+    ],
+    "ar": [
+     "في لعنة أيوب، أيّ ولد أعلنت الليلة أنه حُبل به؟",
+     "ذكر",
+     "أنثى",
+     "توأم"
+    ]
+   }
+  },
+  {
+   "id": "ch-job-001-16",
+   "book": "job",
+   "chapter": 4,
+   "difficulty": "easy",
+   "ref": "Job 4:1",
+   "text": {
+    "en": [
+     "Which friend is the first to answer Job's lament?",
+     "Eliphaz",
+     "Bildad",
+     "Zophar"
+    ],
+    "es": [
+     "¿Qué amigo es el primero en responder al lamento de Job?",
+     "Elifaz",
+     "Bildad",
+     "Sofar"
+    ],
+    "pt": [
+     "Qual amigo é o primeiro a responder ao lamento de Jó?",
+     "Elifaz",
+     "Baldad",
+     "Sofar"
+    ],
+    "fr": [
+     "Quel ami est le premier à répondre à la plainte de Job ?",
+     "Éliphaz",
+     "Bildad",
+     "Sophar"
+    ],
+    "de": [
+     "Welcher Freund antwortet als Erster auf Ijobs Klage?",
+     "Elifas",
+     "Bildad",
+     "Zofar"
+    ],
+    "it": [
+     "Quale amico è il primo a rispondere al lamento di Giobbe?",
+     "Elifaz",
+     "Bildad",
+     "Zofar"
+    ],
+    "pl": [
+     "Który przyjaciel jako pierwszy odpowiada na skargę Hioba?",
+     "Elifaz",
+     "Bildad",
+     "Sofar"
+    ],
+    "ru": [
+     "Какой друг первым отвечает на жалобу Иова?",
+     "Елифаз",
+     "Вилдад",
+     "Софар"
+    ],
+    "tr": [
+     "Hangi arkadaş Eyüp'ün ağıtına ilk karşılık verir?",
+     "Elifaz",
+     "Bildat",
+     "Sofar"
+    ],
+    "ja": [
+     "ヨブの嘆きに最初に答える友人はだれですか？",
+     "エリファズ",
+     "ビルダド",
+     "ツォファル"
+    ],
+    "ko": [
+     "욥의 탄식에 가장 먼저 대답하는 친구는 누구입니까?",
+     "엘리파즈",
+     "빌닷",
+     "초바르"
+    ],
+    "ar": [
+     "أيّ صديق هو أول من يجيب على رثاء أيوب؟",
+     "أليفاز",
+     "بلدد",
+     "صوفر"
+    ]
+   }
+  },
+  {
+   "id": "ch-job-001-17",
+   "book": "job",
+   "chapter": 4,
+   "difficulty": "medium",
+   "ref": "Job 4:15",
+   "text": {
+    "en": [
+     "During his night vision, what stood on end on Eliphaz's body?",
+     "Hair",
+     "Knees",
+     "Fingers"
+    ],
+    "es": [
+     "En su visión nocturna, ¿qué parte del cuerpo de Elifaz se erizó?",
+     "Pelo",
+     "Rodillas",
+     "Dedos"
+    ],
+    "pt": [
+     "Na visão noturna, que parte do corpo de Elifaz se arrepiou?",
+     "Cabelo",
+     "Joelhos",
+     "Dedos"
+    ],
+    "fr": [
+     "Dans sa vision nocturne, quelle partie du corps d'Éliphaz s'est hérissée ?",
+     "Poils",
+     "Genoux",
+     "Doigts"
+    ],
+    "de": [
+     "Welcher Teil von Elifas' Körper sträubte sich in der nächtlichen Vision?",
+     "Haare",
+     "Knie",
+     "Finger"
+    ],
+    "it": [
+     "Nella visione notturna, quale parte del corpo di Elifaz si drizzò?",
+     "Peli",
+     "Ginocchia",
+     "Dita"
+    ],
+    "pl": [
+     "Która część ciała Elifaza zjeżyła się w nocnej wizji?",
+     "Włosy",
+     "Kolana",
+     "Palce"
+    ],
+    "ru": [
+     "Какая часть тела Елифаза встала дыбом в ночном видении?",
+     "Волосы",
+     "Колени",
+     "Пальцы"
+    ],
+    "tr": [
+     "Elifaz'ın gece görümünde bedeninin hangi bölümü diken diken oldu?",
+     "Tüyler",
+     "Dizler",
+     "Parmaklar"
+    ],
+    "ja": [
+     "エリファズの夜の幻の中で、体のどの部分が逆立ちましたか？",
+     "毛",
+     "膝",
+     "指"
+    ],
+    "ko": [
+     "엘리파즈의 밤의 환시에서 그의 몸의 어느 부분이 곤두섰습니까?",
+     "털",
+     "무릎",
+     "손가락"
+    ],
+    "ar": [
+     "في رؤيا أليفاز الليلية، أيّ جزء من جسده اقشعرّ؟",
+     "شعر",
+     "ركب",
+     "أصابع"
+    ]
+   }
+  },
+  {
+   "id": "ch-job-001-18",
+   "book": "job",
+   "chapter": 4,
+   "difficulty": "hard",
+   "ref": "Job 4:3-4",
+   "text": {
+    "en": [
+     "Besides weak hands, what feeble body part did Job once strengthen, said Eliphaz?",
+     "Knees",
+     "Shoulders",
+     "Ears"
+    ],
+    "es": [
+     "Además de las manos débiles, ¿qué parte del cuerpo débil fortaleció Job, según Elifaz?",
+     "Rodillas",
+     "Hombros",
+     "Orejas"
+    ],
+    "pt": [
+     "Além das mãos fracas, que parte frágil do corpo Jó fortaleceu, segundo Elifaz?",
+     "Joelhos",
+     "Ombros",
+     "Orelhas"
+    ],
+    "fr": [
+     "Outre les mains faibles, quelle partie fragile du corps Job a-t-il fortifiée, selon Éliphaz ?",
+     "Genoux",
+     "Épaules",
+     "Oreilles"
+    ],
+    "de": [
+     "Welchen schwachen Körperteil außer den Händen stärkte Ijob laut Elifas?",
+     "Knie",
+     "Schultern",
+     "Ohren"
+    ],
+    "it": [
+     "Oltre alle mani deboli, quale parte fragile del corpo Giobbe rafforzò, secondo Elifaz?",
+     "Ginocchia",
+     "Spalle",
+     "Orecchie"
+    ],
+    "pl": [
+     "Oprócz słabych rąk, jaką słabą część ciała umacniał Hiob według Elifaza?",
+     "Kolana",
+     "Ramiona",
+     "Uszy"
+    ],
+    "ru": [
+     "Кроме слабых рук, какую слабую часть тела Иов укреплял, по словам Елифаза?",
+     "Колени",
+     "Плечи",
+     "Уши"
+    ],
+    "tr": [
+     "Elifaz'a göre Eyüp, zayıf ellerin yanı sıra vücudun hangi zayıf bölümünü güçlendirmişti?",
+     "Dizler",
+     "Omuzlar",
+     "Kulaklar"
+    ],
+    "ja": [
+     "エリファズによれば、ヨブは弱い手のほかに、体のどの弱い部分を強めましたか？",
+     "膝",
+     "肩",
+     "耳"
+    ],
+    "ko": [
+     "엘리파즈에 따르면 욥은 약한 손 외에 몸의 어떤 약한 부분을 굳세게 했습니까?",
+     "무릎",
+     "어깨",
+     "귀"
+    ],
+    "ar": [
+     "بحسب أليفاز، ماذا قوّى أيوب غير الأيدي الضعيفة من أعضاء الجسد؟",
+     "ركب",
+     "أكتاف",
+     "آذان"
+    ]
+   }
+  },
+  {
+   "id": "ch-job-001-19",
+   "book": "job",
+   "chapter": 4,
+   "difficulty": "expert",
+   "ref": "Job 4:18",
+   "text": {
+    "en": [
+     "In Eliphaz's vision, whom does God charge with error?",
+     "Angels",
+     "Prophets",
+     "Kings"
+    ],
+    "es": [
+     "En la visión de Elifaz, ¿a quién acusa Dios de error?",
+     "Ángeles",
+     "Profetas",
+     "Reyes"
+    ],
+    "pt": [
+     "Na visão de Elifaz, a quem Deus acusa de erro?",
+     "Anjos",
+     "Profetas",
+     "Reis"
+    ],
+    "fr": [
+     "Dans la vision d'Éliphaz, qui Dieu accuse-t-il d'erreur ?",
+     "Anges",
+     "Prophètes",
+     "Rois"
+    ],
+    "de": [
+     "Wen beschuldigt Gott in Elifas' Vision des Irrtums?",
+     "Engel",
+     "Propheten",
+     "Könige"
+    ],
+    "it": [
+     "Nella visione di Elifaz, chi Dio accusa di errore?",
+     "Angeli",
+     "Profeti",
+     "Re"
+    ],
+    "pl": [
+     "Kogo w wizji Elifaza Bóg oskarża o błąd?",
+     "Aniołowie",
+     "Prorocy",
+     "Królowie"
+    ],
+    "ru": [
+     "Кого в видении Елифаза Бог обвиняет в заблуждении?",
+     "Ангелы",
+     "Пророки",
+     "Цари"
+    ],
+    "tr": [
+     "Elifaz'ın görümünde Tanrı kimi hatayla suçlar?",
+     "Melekler",
+     "Peygamberler",
+     "Krallar"
+    ],
+    "ja": [
+     "エリファズの幻の中で、神が過ちを咎めるのはだれですか？",
+     "天使",
+     "預言者",
+     "王"
+    ],
+    "ko": [
+     "엘리파즈의 환시에서 하느님께서 잘못을 책망하시는 이는 누구입니까?",
+     "천사",
+     "예언자",
+     "임금"
+    ],
+    "ar": [
+     "في رؤيا أليفاز، من يتّهمه الله بالخطأ؟",
+     "ملائكة",
+     "أنبياء",
+     "ملوك"
+    ]
+   }
+  },
+  {
+   "id": "ch-job-001-20",
+   "book": "job",
+   "chapter": 4,
+   "difficulty": "impossible",
+   "ref": "Job 4:12",
+   "text": {
+    "en": [
+     "What did Eliphaz's ear catch of the secret word brought to him?",
+     "Whisper",
+     "Shout",
+     "Song"
+    ],
+    "es": [
+     "¿Qué percibió el oído de Elifaz de la palabra secreta que le llegó?",
+     "Susurro",
+     "Grito",
+     "Canto"
+    ],
+    "pt": [
+     "O que o ouvido de Elifaz captou da palavra secreta que lhe chegou?",
+     "Sussurro",
+     "Grito",
+     "Canto"
+    ],
+    "fr": [
+     "Qu'est-ce que l'oreille d'Éliphaz a perçu de la parole secrète qui lui parvint ?",
+     "Murmure",
+     "Cri",
+     "Chant"
+    ],
+    "de": [
+     "Was nahm Elifas' Ohr von dem heimlich zu ihm gelangten Wort wahr?",
+     "Flüstern",
+     "Schrei",
+     "Lied"
+    ],
+    "it": [
+     "Che cosa percepì l'orecchio di Elifaz della parola segreta che gli giunse?",
+     "Sussurro",
+     "Grido",
+     "Canto"
+    ],
+    "pl": [
+     "Co pochwyciło ucho Elifaza z tajemnego słowa, które do niego dotarło?",
+     "Szept",
+     "Krzyk",
+     "Pieśń"
+    ],
+    "ru": [
+     "Что уловило ухо Елифаза из тайно дошедшего до него слова?",
+     "Шепот",
+     "Крик",
+     "Песня"
+    ],
+    "tr": [
+     "Elifaz'ın kulağı, kendisine gizlice ulaşan sözden ne yakaladı?",
+     "Fısıltı",
+     "Çığlık",
+     "Şarkı"
+    ],
+    "ja": [
+     "エリファズの耳は、ひそかに自分に届いた言葉の何を捉えましたか？",
+     "ささやき",
+     "叫び",
+     "歌"
+    ],
+    "ko": [
+     "엘리파즈의 귀는 몰래 자기에게 이른 말씀에서 무엇을 포착했습니까?",
+     "속삭임",
+     "외침",
+     "노래"
+    ],
+    "ar": [
+     "ماذا التقطت أذن أليفاز من الكلمة السرية التي وصلته؟",
+     "همس",
+     "صرخة",
+     "أغنية"
+    ]
+   }
+  },
+  {
+   "id": "ch-job-001-21",
+   "book": "job",
+   "chapter": 5,
+   "difficulty": "easy",
+   "ref": "Job 5:10",
+   "text": {
+    "en": [
+     "What does God send on the earth to water fields, says Eliphaz?",
+     "Rain",
+     "Snow",
+     "Wind"
+    ],
+    "es": [
+     "Según Elifaz, ¿qué envía Dios sobre la tierra para regar los campos?",
+     "Lluvia",
+     "Nieve",
+     "Viento"
+    ],
+    "pt": [
+     "Segundo Elifaz, o que Deus envia sobre a terra para regar os campos?",
+     "Chuva",
+     "Neve",
+     "Vento"
+    ],
+    "fr": [
+     "Selon Éliphaz, qu'envoie Dieu sur la terre pour arroser les champs ?",
+     "Pluie",
+     "Neige",
+     "Vent"
+    ],
+    "de": [
+     "Was schickt Gott nach Elifas auf die Erde, um die Felder zu tränken?",
+     "Regen",
+     "Schnee",
+     "Wind"
+    ],
+    "it": [
+     "Secondo Elifaz, che cosa manda Dio sulla terra per irrigare i campi?",
+     "Pioggia",
+     "Neve",
+     "Vento"
+    ],
+    "pl": [
+     "Co według Elifaza Bóg zsyła na ziemię, by nawadniać pola?",
+     "Deszcz",
+     "Śnieg",
+     "Wiatr"
+    ],
+    "ru": [
+     "Что, по словам Елифаза, Бог посылает на землю, чтобы орошать поля?",
+     "Дождь",
+     "Снег",
+     "Ветер"
+    ],
+    "tr": [
+     "Elifaz'a göre Tanrı tarlaları sulamak için yeryüzüne ne gönderir?",
+     "Yağmur",
+     "Kar",
+     "Rüzgâr"
+    ],
+    "ja": [
+     "エリファズによると、神は畑を潤すために地上に何を送りますか？",
+     "雨",
+     "雪",
+     "風"
+    ],
+    "ko": [
+     "엘리파즈에 따르면 하느님께서는 밭을 적시도록 땅에 무엇을 내리십니까?",
+     "비",
+     "눈",
+     "바람"
+    ],
+    "ar": [
+     "بحسب أليفاز، ماذا يرسل الله على الأرض ليسقي الحقول؟",
+     "مطر",
+     "ثلج",
+     "ريح"
+    ]
+   }
+  },
+  {
+   "id": "ch-job-001-22",
+   "book": "job",
+   "chapter": 5,
+   "difficulty": "medium",
+   "ref": "Job 5:4",
+   "text": {
+    "en": [
+     "Where does Eliphaz say the fool's children are crushed, with none to rescue?",
+     "Gate",
+     "Field",
+     "Well"
+    ],
+    "es": [
+     "¿Dónde dice Elifaz que son aplastados los hijos del necio, sin nadie que los libre?",
+     "Puerta",
+     "Campo",
+     "Pozo"
+    ],
+    "pt": [
+     "Onde Elifaz diz que os filhos do insensato são esmagados, sem ninguém que os livre?",
+     "Porta",
+     "Campo",
+     "Poço"
+    ],
+    "fr": [
+     "Où, selon Éliphaz, les fils de l'insensé sont-ils écrasés, sans personne pour les délivrer ?",
+     "Porte",
+     "Champ",
+     "Puits"
+    ],
+    "de": [
+     "Wo werden nach Elifas die Söhne des Toren zertreten, ohne dass einer sie rettet?",
+     "Tor",
+     "Feld",
+     "Brunnen"
+    ],
+    "it": [
+     "Dove, secondo Elifaz, sono schiacciati i figli dello stolto, senza nessuno che li liberi?",
+     "Porta",
+     "Campo",
+     "Pozzo"
+    ],
+    "pl": [
+     "Gdzie według Elifaza są zgniatani synowie głupca, a nie ma nikogo, kto by ich wybawił?",
+     "Brama",
+     "Pole",
+     "Studnia"
+    ],
+    "ru": [
+     "Где, по словам Елифаза, угнетены сыновья глупца, и нет им избавителя?",
+     "Ворота",
+     "Поле",
+     "Колодец"
+    ],
+    "tr": [
+     "Elifaz'a göre akılsızın oğulları nerede ezilir ve onları kurtaracak kimse yoktur?",
+     "Kapı",
+     "Tarla",
+     "Kuyu"
+    ],
+    "ja": [
+     "エリファズによると、愚か者の子らはどこで踏みつぶされ、救う者がいないのですか？",
+     "門",
+     "畑",
+     "井戸"
+    ],
+    "ko": [
+     "엘리파즈에 따르면 어리석은 자의 아들들은 어디에서 짓밟히는데 구해 줄 이가 없습니까?",
+     "성문",
+     "들",
+     "우물"
+    ],
+    "ar": [
+     "أين، بحسب أليفاز، يُسحق أبناء الأحمق دون من ينقذهم؟",
+     "باب",
+     "حقل",
+     "بئر"
+    ]
+   }
+  },
+  {
+   "id": "ch-job-001-23",
+   "book": "job",
+   "chapter": 5,
+   "difficulty": "hard",
+   "ref": "Job 5:25",
+   "text": {
+    "en": [
+     "To what does Eliphaz compare Job's future descendants?",
+     "Grass",
+     "Stars",
+     "Sand"
+    ],
+    "es": [
+     "¿Con qué compara Elifaz a los futuros descendientes de Job?",
+     "Hierba",
+     "Estrellas",
+     "Arena"
+    ],
+    "pt": [
+     "Com o que Elifaz compara os futuros descendentes de Jó?",
+     "Erva",
+     "Estrelas",
+     "Areia"
+    ],
+    "fr": [
+     "À quoi Éliphaz compare-t-il les futurs descendants de Job ?",
+     "Herbe",
+     "Étoiles",
+     "Sable"
+    ],
+    "de": [
+     "Womit vergleicht Elifas Ijobs künftige Nachkommen?",
+     "Gras",
+     "Sterne",
+     "Sand"
+    ],
+    "it": [
+     "A che cosa Elifaz paragona i futuri discendenti di Giobbe?",
+     "Erba",
+     "Stelle",
+     "Sabbia"
+    ],
+    "pl": [
+     "Z czym Elifaz porównuje przyszłych potomków Hioba?",
+     "Trawa",
+     "Gwiazdy",
+     "Piasek"
+    ],
+    "ru": [
+     "С чем Елифаз сравнивает будущих потомков Иова?",
+     "Трава",
+     "Звезды",
+     "Песок"
+    ],
+    "tr": [
+     "Elifaz, Eyüp'ün gelecekteki torunlarını neye benzetir?",
+     "Ot",
+     "Yıldızlar",
+     "Kum"
+    ],
+    "ja": [
+     "エリファズは、ヨブの将来の子孫を何に例えていますか？",
+     "草",
+     "星",
+     "砂"
+    ],
+    "ko": [
+     "엘리파즈는 욥의 장차 후손을 무엇에 비깁니까?",
+     "풀",
+     "별",
+     "모래"
+    ],
+    "ar": [
+     "بماذا يشبّه أليفاز نسل أيوب في المستقبل؟",
+     "عشب",
+     "نجوم",
+     "رمل"
+    ]
+   }
+  },
+  {
+   "id": "ch-job-001-24",
+   "book": "job",
+   "chapter": 5,
+   "difficulty": "expert",
+   "ref": "Job 5:19",
+   "text": {
+    "en": [
+     "From how many troubles will God rescue you, says Eliphaz?",
+     "6",
+     "3",
+     "12"
+    ],
+    "es": [
+     "¿De cuántas angustias te librará Dios, según Elifaz?",
+     "6",
+     "3",
+     "12"
+    ],
+    "pt": [
+     "De quantas angústias Deus te livrará, segundo Elifaz?",
+     "6",
+     "3",
+     "12"
+    ],
+    "fr": [
+     "De combien de détresses Dieu te délivrera-t-il, selon Éliphaz ?",
+     "6",
+     "3",
+     "12"
+    ],
+    "de": [
+     "Aus wie vielen Nöten wird Gott dich nach Elifas erretten?",
+     "6",
+     "3",
+     "12"
+    ],
+    "it": [
+     "Da quante angosce ti libererà Dio, secondo Elifaz?",
+     "6",
+     "3",
+     "12"
+    ],
+    "pl": [
+     "Z ilu ucisków wybawi cię Bóg według Elifaza?",
+     "6",
+     "3",
+     "12"
+    ],
+    "ru": [
+     "Из скольких бедствий избавит тебя Бог, по словам Елифаза?",
+     "6",
+     "3",
+     "12"
+    ],
+    "tr": [
+     "Elifaz'a göre Tanrı seni kaç sıkıntıdan kurtaracak?",
+     "6",
+     "3",
+     "12"
+    ],
+    "ja": [
+     "エリファズによると、神は幾つの苦難からあなたを救い出しますか？",
+     "6",
+     "3",
+     "12"
+    ],
+    "ko": [
+     "엘리파즈에 따르면 하느님께서는 몇 가지 고난에서 당신을 구하시겠습니까?",
+     "6",
+     "3",
+     "12"
+    ],
+    "ar": [
+     "من كم ضيقة سينجيك الله بحسب أليفاز؟",
+     "6",
+     "3",
+     "12"
+    ]
+   }
+  },
+  {
+   "id": "ch-job-001-25",
+   "book": "job",
+   "chapter": 5,
+   "difficulty": "impossible",
+   "ref": "Job 5:20",
+   "text": {
+    "en": [
+     "In which disaster does God redeem you from death, says Eliphaz?",
+     "Famine",
+     "Flood",
+     "Earthquake"
+    ],
+    "es": [
+     "¿En qué calamidad te redime Dios de la muerte, según Elifaz?",
+     "Hambre",
+     "Diluvio",
+     "Terremoto"
+    ],
+    "pt": [
+     "Em que calamidade Deus te resgata da morte, segundo Elifaz?",
+     "Fome",
+     "Dilúvio",
+     "Terremoto"
+    ],
+    "fr": [
+     "Dans quel malheur Dieu te rachète-t-il de la mort, selon Éliphaz ?",
+     "Famine",
+     "Déluge",
+     "Séisme"
+    ],
+    "de": [
+     "In welchem Unglück erlöst Gott dich nach Elifas vom Tod?",
+     "Hunger",
+     "Flut",
+     "Erdbeben"
+    ],
+    "it": [
+     "In quale calamità Dio ti riscatta dalla morte, secondo Elifaz?",
+     "Carestia",
+     "Diluvio",
+     "Terremoto"
+    ],
+    "pl": [
+     "W jakim nieszczęściu Bóg wybawia cię od śmierci według Elifaza?",
+     "Głód",
+     "Potop",
+     "Trzęsienie"
+    ],
+    "ru": [
+     "В какой беде Бог избавляет от смерти, по словам Елифаза?",
+     "Голод",
+     "Потоп",
+     "Землетрясение"
+    ],
+    "tr": [
+     "Elifaz'a göre Tanrı seni hangi felakette ölümden kurtarır?",
+     "Kıtlık",
+     "Tufan",
+     "Deprem"
+    ],
+    "ja": [
+     "エリファズによると、神はどの災いの中であなたを死から救い出しますか？",
+     "飢饉",
+     "洪水",
+     "地震"
+    ],
+    "ko": [
+     "엘리파즈에 따르면 하느님께서는 어떤 재앙 속에서 당신을 죽음에서 구하십니까?",
+     "기근",
+     "홍수",
+     "지진"
+    ],
+    "ar": [
+     "في أيّ كارثة يفديك الله من الموت بحسب أليفاز؟",
+     "مجاعة",
+     "طوفان",
+     "زلزال"
+    ]
+   }
+  },
+  {
+   "id": "ch-job-001-26",
+   "book": "job",
+   "chapter": 6,
+   "difficulty": "easy",
+   "ref": "Job 6:4",
+   "text": {
+    "en": [
+     "Which weapons of the Almighty does Job say have pierced him?",
+     "Arrows",
+     "Swords",
+     "Spears"
+    ],
+    "es": [
+     "¿Qué armas del Todopoderoso dice Job que lo han traspasado?",
+     "Flechas",
+     "Espadas",
+     "Lanzas"
+    ],
+    "pt": [
+     "Que armas do Todo-Poderoso Jó diz que o atravessaram?",
+     "Flechas",
+     "Espadas",
+     "Lanças"
+    ],
+    "fr": [
+     "Quelles armes du Tout-Puissant, dit Job, l'ont transpercé ?",
+     "Flèches",
+     "Épées",
+     "Lances"
+    ],
+    "de": [
+     "Welche Waffen des Allmächtigen haben Ijob nach seinen Worten durchbohrt?",
+     "Pfeile",
+     "Schwerter",
+     "Speere"
+    ],
+    "it": [
+     "Quali armi dell'Onnipotente, dice Giobbe, lo hanno trafitto?",
+     "Frecce",
+     "Spade",
+     "Lance"
+    ],
+    "pl": [
+     "Jaka broń Wszechmocnego przeszyła Hioba według jego słów?",
+     "Strzały",
+     "Miecze",
+     "Włócznie"
+    ],
+    "ru": [
+     "Какое оружие Всемогущего, говорит Иов, пронзило его?",
+     "Стрелы",
+     "Мечи",
+     "Копья"
+    ],
+    "tr": [
+     "Eyüp'e göre Her Şeye Gücü Yeten'in hangi silahları onu deldi?",
+     "Oklar",
+     "Kılıçlar",
+     "Mızraklar"
+    ],
+    "ja": [
+     "ヨブによると、全能者のどの武器が自分に突き刺さっていますか？",
+     "矢",
+     "剣",
+     "槍"
+    ],
+    "ko": [
+     "욥에 따르면 전능하신 분의 어떤 무기가 그를 꿰뚫었습니까?",
+     "화살",
+     "칼",
+     "창"
+    ],
+    "ar": [
+     "أيّ أسلحة للقدير اخترقت أيوب بحسب قوله؟",
+     "سهام",
+     "سيوف",
+     "رماح"
+    ]
+   }
+  },
+  {
+   "id": "ch-job-001-27",
+   "book": "job",
+   "chapter": 6,
+   "difficulty": "medium",
+   "ref": "Job 6:5",
+   "text": {
+    "en": [
+     "In Job's complaint, which animal does not low while it has fodder?",
+     "Ox",
+     "Horse",
+     "Camel"
+    ],
+    "es": [
+     "En la queja de Job, ¿qué animal no muge mientras tiene forraje?",
+     "Buey",
+     "Caballo",
+     "Camello"
+    ],
+    "pt": [
+     "Na queixa de Jó, que animal não muge enquanto tem forragem?",
+     "Boi",
+     "Cavalo",
+     "Camelo"
+    ],
+    "fr": [
+     "Dans la plainte de Job, quel animal ne mugit pas tant qu'il a du fourrage ?",
+     "Bœuf",
+     "Cheval",
+     "Chameau"
+    ],
+    "de": [
+     "Welches Tier brüllt in Ijobs Klage nicht, solange es Futter hat?",
+     "Ochse",
+     "Pferd",
+     "Kamel"
+    ],
+    "it": [
+     "Nel lamento di Giobbe, quale animale non muggisce quando ha il foraggio?",
+     "Bue",
+     "Cavallo",
+     "Cammello"
+    ],
+    "pl": [
+     "W skardze Hioba, które zwierzę nie ryczy, gdy ma paszę?",
+     "Wół",
+     "Koń",
+     "Wielbłąd"
+    ],
+    "ru": [
+     "Какое животное, по словам Иова, не мычит, когда у него есть корм?",
+     "Вол",
+     "Конь",
+     "Верблюд"
+    ],
+    "tr": [
+     "Eyüp'ün yakınmasında, yemi varken hangi hayvan böğürmez?",
+     "Öküz",
+     "At",
+     "Deve"
+    ],
+    "ja": [
+     "ヨブの嘆きによると、飼い葉があるときに鳴かない動物はどれですか？",
+     "牛",
+     "馬",
+     "ラクダ"
+    ],
+    "ko": [
+     "욥의 탄식에서, 꼴이 있을 때 울지 않는 동물은 무엇입니까?",
+     "소",
+     "말",
+     "낙타"
+    ],
+    "ar": [
+     "في شكوى أيوب، أيّ حيوان لا يخور وعنده علف؟",
+     "ثور",
+     "حصان",
+     "جمل"
+    ]
+   }
+  },
+  {
+   "id": "ch-job-001-28",
+   "book": "job",
+   "chapter": 6,
+   "difficulty": "hard",
+   "ref": "Job 6:3",
+   "text": {
+    "en": [
+     "Job says his grief outweighs the sand of which body of water?",
+     "Sea",
+     "River",
+     "Lake"
+    ],
+    "es": [
+     "¿Más que la arena de qué masa de agua pesa, según Job, su aflicción?",
+     "Mar",
+     "Río",
+     "Lago"
+    ],
+    "pt": [
+     "Mais do que a areia de que massa de água pesa, segundo Jó, o seu sofrimento?",
+     "Mar",
+     "Rio",
+     "Lago"
+    ],
+    "fr": [
+     "Plus lourde que le sable de quelle étendue d'eau est, selon Job, sa détresse ?",
+     "Mer",
+     "Fleuve",
+     "Lac"
+    ],
+    "de": [
+     "Schwerer als der Sand welchen Gewässers wiegt nach Ijob sein Leid?",
+     "Meer",
+     "Fluss",
+     "See"
+    ],
+    "it": [
+     "Più pesante della sabbia di quale distesa d'acqua è, secondo Giobbe, il suo dolore?",
+     "Mare",
+     "Fiume",
+     "Lago"
+    ],
+    "pl": [
+     "Cięższe od piasku którego zbiornika wody jest według Hioba jego cierpienie?",
+     "Morze",
+     "Rzeka",
+     "Jezioro"
+    ],
+    "ru": [
+     "Тяжелее песка какого водоема, по словам Иова, его страдание?",
+     "Море",
+     "Река",
+     "Озеро"
+    ],
+    "tr": [
+     "Eyüp'e göre acısı hangi su kütlesinin kumundan daha ağırdır?",
+     "Deniz",
+     "Nehir",
+     "Göl"
+    ],
+    "ja": [
+     "ヨブは、自分の苦悩はどの水域の砂よりも重いと言いましたか？",
+     "海",
+     "川",
+     "湖"
+    ],
+    "ko": [
+     "욥은 자기 고뇌가 어느 물의 모래보다 무겁다고 말했습니까?",
+     "바다",
+     "강",
+     "호수"
+    ],
+    "ar": [
+     "أثقل من رمل أيّ مسطح مائي هي مصيبة أيوب بحسب قوله؟",
+     "بحر",
+     "نهر",
+     "بحيرة"
+    ]
+   }
+  },
+  {
+   "id": "ch-job-001-29",
+   "book": "job",
+   "chapter": 6,
+   "difficulty": "expert",
+   "ref": "Job 6:27",
+   "text": {
+    "en": [
+     "Whom does Job accuse his friends of being ready to cast lots over?",
+     "Orphan",
+     "Widow",
+     "Stranger"
+    ],
+    "es": [
+     "¿Sobre quién acusa Job a sus amigos de estar dispuestos a echar suertes?",
+     "Huérfano",
+     "Viuda",
+     "Extranjero"
+    ],
+    "pt": [
+     "Sobre quem Jó acusa os amigos de estarem prontos para lançar sorte?",
+     "Órfão",
+     "Viúva",
+     "Estrangeiro"
+    ],
+    "fr": [
+     "Sur qui Job accuse-t-il ses amis d'être prêts à jouer au sort ?",
+     "Orphelin",
+     "Veuve",
+     "Étranger"
+    ],
+    "de": [
+     "Über wen würden Ijobs Freunde nach seinem Vorwurf das Los werfen?",
+     "Waise",
+     "Witwe",
+     "Fremder"
+    ],
+    "it": [
+     "Su chi Giobbe accusa gli amici di essere pronti a tirare a sorte?",
+     "Orfano",
+     "Vedova",
+     "Straniero"
+    ],
+    "pl": [
+     "O kogo według zarzutu Hioba przyjaciele gotowi byliby rzucać losy?",
+     "Sierota",
+     "Wdowa",
+     "Obcy"
+    ],
+    "ru": [
+     "О ком, по обвинению Иова, его друзья готовы бросать жребий?",
+     "Сирота",
+     "Вдова",
+     "Чужеземец"
+    ],
+    "tr": [
+     "Eyüp, arkadaşlarını kimin üzerine kura atmakla suçlar?",
+     "Yetim",
+     "Dul",
+     "Yabancı"
+    ],
+    "ja": [
+     "ヨブは、友人たちがだれについてくじを引きかねないと責めましたか？",
+     "孤児",
+     "やもめ",
+     "寄留者"
+    ],
+    "ko": [
+     "욥은 친구들이 누구를 두고 제비를 뽑을 것이라고 책망했습니까?",
+     "고아",
+     "과부",
+     "이방인"
+    ],
+    "ar": [
+     "على من يتّهم أيوب أصدقاءه بأنهم يلقون القرعة؟",
+     "يتيم",
+     "أرملة",
+     "غريب"
+    ]
+   }
+  },
+  {
+   "id": "ch-job-001-30",
+   "book": "job",
+   "chapter": 6,
+   "difficulty": "impossible",
+   "ref": "Job 6:19",
+   "text": {
+    "en": [
+     "Besides Tema's caravans, which land's travelers does Job say hoped in vain?",
+     "Sheba",
+     "Egypt",
+     "Assyria"
+    ],
+    "es": [
+     "Además de las caravanas de Temá, ¿los viajeros de qué tierra esperaban en vano, según Job?",
+     "Sabá",
+     "Egipto",
+     "Asiria"
+    ],
+    "pt": [
+     "Além das caravanas de Temá, os viajantes de que terra esperavam em vão, segundo Jó?",
+     "Sabá",
+     "Egito",
+     "Assíria"
+    ],
+    "fr": [
+     "Outre les caravanes de Téma, les voyageurs de quel pays espéraient en vain, selon Job ?",
+     "Saba",
+     "Égypte",
+     "Assyrie"
+    ],
+    "de": [
+     "Außer Temas Karawanen: Die Reisenden welches Landes hofften nach Ijob vergeblich?",
+     "Saba",
+     "Ägypten",
+     "Assyrien"
+    ],
+    "it": [
+     "Oltre alle carovane di Tema, i viandanti di quale paese speravano invano, secondo Giobbe?",
+     "Saba",
+     "Egitto",
+     "Assiria"
+    ],
+    "pl": [
+     "Oprócz karawan z Temy, podróżni z jakiej krainy daremnie mieli nadzieję według Hioba?",
+     "Saba",
+     "Egipt",
+     "Asyria"
+    ],
+    "ru": [
+     "Кроме караванов Фемы, путники какой страны, по словам Иова, тщетно надеялись?",
+     "Сава",
+     "Египет",
+     "Ассирия"
+    ],
+    "tr": [
+     "Eyüp'e göre Tema kervanlarının yanı sıra hangi ülkenin yolcuları boş yere umut etti?",
+     "Şeba",
+     "Mısır",
+     "Asur"
+    ],
+    "ja": [
+     "ヨブによると、テマの隊商のほかに、どの地の旅人が空しく望みを抱きましたか？",
+     "シェバ",
+     "エジプト",
+     "アッシリア"
+    ],
+    "ko": [
+     "욥에 따르면 테마의 대상들 외에 어느 땅의 나그네들이 헛되이 희망했습니까?",
+     "스바",
+     "이집트",
+     "아시리아"
+    ],
+    "ar": [
+     "بحسب أيوب، إلى جانب قوافل تيماء، مسافرو أيّ أرض رجَوا عبثًا؟",
+     "سبأ",
+     "مصر",
+     "أشور"
+    ]
+   }
+  },
+  {
+   "id": "ch-job-001-31",
+   "book": "job",
+   "chapter": 7,
+   "difficulty": "easy",
+   "ref": "Job 7:14",
+   "text": {
+    "en": [
+     "What does Job say God uses at night to frighten him?",
+     "Dreams",
+     "Snakes",
+     "Wolves"
+    ],
+    "es": [
+     "¿Qué dice Job que usa Dios de noche para asustarlo?",
+     "Sueños",
+     "Serpientes",
+     "Lobos"
+    ],
+    "pt": [
+     "O que Jó diz que Deus usa à noite para assustá-lo?",
+     "Sonhos",
+     "Serpentes",
+     "Lobos"
+    ],
+    "fr": [
+     "De quoi Dieu se sert-il la nuit pour effrayer Job, dit-il ?",
+     "Rêves",
+     "Serpents",
+     "Loups"
+    ],
+    "de": [
+     "Was setzt Gott nach Ijob nachts ein, um ihn zu erschrecken?",
+     "Träume",
+     "Schlangen",
+     "Wölfe"
+    ],
+    "it": [
+     "Di che cosa, dice Giobbe, Dio si serve di notte per spaventarlo?",
+     "Sogni",
+     "Serpenti",
+     "Lupi"
+    ],
+    "pl": [
+     "Czego według Hioba Bóg używa nocą, by go przerazić?",
+     "Sny",
+     "Węże",
+     "Wilki"
+    ],
+    "ru": [
+     "Что, по словам Иова, Бог использует ночью, чтобы напугать его?",
+     "Сны",
+     "Змеи",
+     "Волки"
+    ],
+    "tr": [
+     "Eyüp'e göre Tanrı onu korkutmak için geceleyin neyi kullanır?",
+     "Rüyalar",
+     "Yılanlar",
+     "Kurtlar"
+    ],
+    "ja": [
+     "ヨブによると、神は夜に彼を怯えさせるために何を用いますか？",
+     "夢",
+     "蛇",
+     "狼"
+    ],
+    "ko": [
+     "욥에 따르면 하느님께서는 밤에 그를 놀라게 하시려고 무엇을 쓰십니까?",
+     "꿈",
+     "뱀",
+     "늑대"
+    ],
+    "ar": [
+     "ماذا يستخدم الله ليلًا ليُرعب أيوب بحسب قوله؟",
+     "أحلام",
+     "ثعابين",
+     "ذئاب"
+    ]
+   }
+  },
+  {
+   "id": "ch-job-001-32",
+   "book": "job",
+   "chapter": 7,
+   "difficulty": "medium",
+   "ref": "Job 7:2",
+   "text": {
+    "en": [
+     "Job likens himself to a servant longing for what?",
+     "Shade",
+     "Bread",
+     "Gold"
+    ],
+    "es": [
+     "¿Qué anhela el siervo con quien Job se compara?",
+     "Sombra",
+     "Pan",
+     "Oro"
+    ],
+    "pt": [
+     "O que anseia o servo com quem Jó se compara?",
+     "Sombra",
+     "Pão",
+     "Ouro"
+    ],
+    "fr": [
+     "Job se compare à un serviteur qui aspire à quoi ?",
+     "Ombre",
+     "Pain",
+     "Or"
+    ],
+    "de": [
+     "Wonach sehnt sich der Knecht, mit dem sich Ijob vergleicht?",
+     "Schatten",
+     "Brot",
+     "Gold"
+    ],
+    "it": [
+     "Che cosa brama il servo a cui Giobbe si paragona?",
+     "Ombra",
+     "Pane",
+     "Oro"
+    ],
+    "pl": [
+     "Za czym tęskni sługa, z którym Hiob się porównuje?",
+     "Cień",
+     "Chleb",
+     "Złoto"
+    ],
+    "ru": [
+     "Чего жаждет раб, с которым Иов себя сравнивает?",
+     "Тень",
+     "Хлеб",
+     "Золото"
+    ],
+    "tr": [
+     "Eyüp'ün kendisini benzettiği hizmetkâr neyi özler?",
+     "Gölge",
+     "Ekmek",
+     "Altın"
+    ],
+    "ja": [
+     "ヨブは自分を、何を慕い求める僕に例えましたか？",
+     "影",
+     "パン",
+     "金"
+    ],
+    "ko": [
+     "욥은 자신을 무엇을 애타게 바라는 종에 비깁니까?",
+     "그림자",
+     "빵",
+     "금"
+    ],
+    "ar": [
+     "ما الذي يشتاق إليه العبد الذي يشبّه أيوب نفسه به؟",
+     "ظل",
+     "خبز",
+     "ذهب"
+    ]
+   }
+  },
+  {
+   "id": "ch-job-001-33",
+   "book": "job",
+   "chapter": 7,
+   "difficulty": "hard",
+   "ref": "Job 7:9",
+   "text": {
+    "en": [
+     "To which fading thing does Job compare the dead?",
+     "Cloud",
+     "Smoke",
+     "Dew"
+    ],
+    "es": [
+     "¿Con qué cosa que se desvanece compara Job a los muertos?",
+     "Nube",
+     "Humo",
+     "Rocío"
+    ],
+    "pt": [
+     "Com que coisa que se desfaz Jó compara os mortos?",
+     "Nuvem",
+     "Fumaça",
+     "Orvalho"
+    ],
+    "fr": [
+     "À quelle chose qui s'efface Job compare-t-il les morts ?",
+     "Nuage",
+     "Fumée",
+     "Rosée"
+    ],
+    "de": [
+     "Mit welcher vergehenden Sache vergleicht Ijob die Toten?",
+     "Wolke",
+     "Rauch",
+     "Tau"
+    ],
+    "it": [
+     "A quale cosa che svanisce Giobbe paragona i morti?",
+     "Nube",
+     "Fumo",
+     "Rugiada"
+    ],
+    "pl": [
+     "Z czym znikającym Hiob porównuje zmarłych?",
+     "Chmura",
+     "Dym",
+     "Rosa"
+    ],
+    "ru": [
+     "С чем исчезающим Иов сравнивает умерших?",
+     "Облако",
+     "Дым",
+     "Роса"
+    ],
+    "tr": [
+     "Eyüp ölüleri yok olan hangi şeye benzetir?",
+     "Bulut",
+     "Duman",
+     "Çiy"
+    ],
+    "ja": [
+     "ヨブは死者を、消え去るどんなものに例えていますか？",
+     "雲",
+     "煙",
+     "露"
+    ],
+    "ko": [
+     "욥은 죽은 이들을 사라지는 어떤 것에 비깁니까?",
+     "구름",
+     "연기",
+     "이슬"
+    ],
+    "ar": [
+     "بأيّ شيء يتلاشى يشبّه أيوب الأموات؟",
+     "سحابة",
+     "دخان",
+     "ندى"
+    ]
+   }
+  },
+  {
+   "id": "ch-job-001-34",
+   "book": "job",
+   "chapter": 7,
+   "difficulty": "expert",
+   "ref": "Job 7:19",
+   "text": {
+    "en": [
+     "What does Job ask God for time to swallow?",
+     "Spittle",
+     "Water",
+     "Honey"
+    ],
+    "es": [
+     "¿Qué le pide Job a Dios que lo deje tragar?",
+     "Saliva",
+     "Agua",
+     "Miel"
+    ],
+    "pt": [
+     "O que Jó pede que Deus o deixe engolir?",
+     "Saliva",
+     "Água",
+     "Mel"
+    ],
+    "fr": [
+     "Que Job demande-t-il à Dieu de le laisser avaler ?",
+     "Salive",
+     "Eau",
+     "Miel"
+    ],
+    "de": [
+     "Was bittet Ijob Gott, ihn schlucken zu lassen?",
+     "Speichel",
+     "Wasser",
+     "Honig"
+    ],
+    "it": [
+     "Che cosa Giobbe chiede a Dio di lasciargli inghiottire?",
+     "Saliva",
+     "Acqua",
+     "Miele"
+    ],
+    "pl": [
+     "Co Hiob prosi Boga, by pozwolił mu połknąć?",
+     "Ślina",
+     "Woda",
+     "Miód"
+    ],
+    "ru": [
+     "Что Иов просит Бога позволить ему проглотить?",
+     "Слюна",
+     "Вода",
+     "Мед"
+    ],
+    "tr": [
+     "Eyüp, Tanrı'dan neyi yutmasına izin vermesini ister?",
+     "Tükürük",
+     "Su",
+     "Bal"
+    ],
+    "ja": [
+     "ヨブは神に、何を飲み込むのを許してほしいと願いましたか？",
+     "唾",
+     "水",
+     "蜜"
+    ],
+    "ko": [
+     "욥은 하느님께 무엇을 삼키도록 허락해 달라고 청합니까?",
+     "침",
+     "물",
+     "꿀"
+    ],
+    "ar": [
+     "ماذا يطلب أيوب من الله أن يدعه يبتلعه؟",
+     "ريق",
+     "ماء",
+     "عسل"
+    ]
+   }
+  },
+  {
+   "id": "ch-job-001-35",
+   "book": "job",
+   "chapter": 7,
+   "difficulty": "impossible",
+   "ref": "Job 7:3",
+   "text": {
+    "en": [
+     "In what unit of time does Job count his empty allotment of suffering?",
+     "Months",
+     "Years",
+     "Weeks"
+    ],
+    "es": [
+     "¿En qué unidad de tiempo cuenta Job su vacía porción de sufrimiento?",
+     "Meses",
+     "Años",
+     "Semanas"
+    ],
+    "pt": [
+     "Em que unidade de tempo Jó conta a sua vazia porção de sofrimento?",
+     "Meses",
+     "Anos",
+     "Semanas"
+    ],
+    "fr": [
+     "En quelle unité de temps Job compte-t-il son lot vide de souffrance ?",
+     "Mois",
+     "Années",
+     "Semaines"
+    ],
+    "de": [
+     "In welcher Zeiteinheit zählt Ijob sein leeres Los an Leiden?",
+     "Monate",
+     "Jahre",
+     "Wochen"
+    ],
+    "it": [
+     "In quale unità di tempo Giobbe conta la sua vuota porzione di sofferenza?",
+     "Mesi",
+     "Anni",
+     "Settimane"
+    ],
+    "pl": [
+     "W jakiej jednostce czasu Hiob liczy swój próżny przydział cierpienia?",
+     "Miesiące",
+     "Lata",
+     "Tygodnie"
+    ],
+    "ru": [
+     "В какой единице времени Иов считает свой пустой удел страдания?",
+     "Месяцы",
+     "Годы",
+     "Недели"
+    ],
+    "tr": [
+     "Eyüp boş acı payını hangi zaman birimiyle sayar?",
+     "Aylar",
+     "Yıllar",
+     "Haftalar"
+    ],
+    "ja": [
+     "ヨブは、空しい苦しみの割り当てを、どの時間の単位で数えていますか？",
+     "月",
+     "年",
+     "週"
+    ],
+    "ko": [
+     "욥은 헛된 고통의 몫을 어떤 시간 단위로 헤아립니까?",
+     "달",
+     "해",
+     "주"
+    ],
+    "ar": [
+     "بأيّ وحدة زمنية يعدّ أيوب نصيبه الفارغ من الألم؟",
+     "أشهر",
+     "سنوات",
+     "أسابيع"
+    ]
+   }
+  },
+  {
+   "id": "ch-job-001-36",
+   "book": "job",
+   "chapter": 8,
+   "difficulty": "easy",
+   "ref": "Job 8:3",
+   "text": {
+    "en": [
+     "Which friend of Job insists that God never perverts justice?",
+     "Bildad",
+     "Eliphaz",
+     "Zophar"
+    ],
+    "es": [
+     "¿Qué amigo de Job sostiene que Dios nunca tuerce la justicia?",
+     "Bildad",
+     "Elifaz",
+     "Sofar"
+    ],
+    "pt": [
+     "Que amigo de Jó afirma que Deus nunca perverte a justiça?",
+     "Baldad",
+     "Elifaz",
+     "Sofar"
+    ],
+    "fr": [
+     "Quel ami de Job affirme que Dieu ne fausse jamais la justice ?",
+     "Bildad",
+     "Éliphaz",
+     "Sophar"
+    ],
+    "de": [
+     "Welcher Freund Ijobs behauptet, Gott beuge nie das Recht?",
+     "Bildad",
+     "Elifas",
+     "Zofar"
+    ],
+    "it": [
+     "Quale amico di Giobbe sostiene che Dio non travisa mai la giustizia?",
+     "Bildad",
+     "Elifaz",
+     "Zofar"
+    ],
+    "pl": [
+     "Który przyjaciel Hioba twierdzi, że Bóg nigdy nie wypacza sprawiedliwości?",
+     "Bildad",
+     "Elifaz",
+     "Sofar"
+    ],
+    "ru": [
+     "Какой друг Иова утверждает, что Бог никогда не извращает правосудия?",
+     "Вилдад",
+     "Елифаз",
+     "Софар"
+    ],
+    "tr": [
+     "Eyüp'ün hangi arkadaşı Tanrı'nın adaleti asla çarpıtmadığını savunur?",
+     "Bildat",
+     "Elifaz",
+     "Sofar"
+    ],
+    "ja": [
+     "神は決して正義を曲げないと主張するヨブの友人はだれですか？",
+     "ビルダド",
+     "エリファズ",
+     "ツォファル"
+    ],
+    "ko": [
+     "하느님께서 결코 정의를 굽히지 않으신다고 주장하는 욥의 친구는 누구입니까?",
+     "빌닷",
+     "엘리파즈",
+     "초바르"
+    ],
+    "ar": [
+     "أيّ صديق لأيوب يؤكد أن الله لا يعوّج العدل أبدًا؟",
+     "بلدد",
+     "أليفاز",
+     "صوفر"
+    ]
+   }
+  },
+  {
+   "id": "ch-job-001-37",
+   "book": "job",
+   "chapter": 8,
+   "difficulty": "medium",
+   "ref": "Job 8:14",
+   "text": {
+    "en": [
+     "Bildad compares the trust of the godless to the web of which creature?",
+     "Spider",
+     "Ant",
+     "Moth"
+    ],
+    "es": [
+     "¿Con la tela de qué criatura compara Bildad la confianza del impío?",
+     "Araña",
+     "Hormiga",
+     "Polilla"
+    ],
+    "pt": [
+     "Com a teia de que criatura Baldad compara a confiança do ímpio?",
+     "Aranha",
+     "Formiga",
+     "Traça"
+    ],
+    "fr": [
+     "À la toile de quelle créature Bildad compare-t-il la confiance de l'impie ?",
+     "Araignée",
+     "Fourmi",
+     "Mite"
+    ],
+    "de": [
+     "Mit dem Netz welches Tieres vergleicht Bildad das Vertrauen des Ruchlosen?",
+     "Spinne",
+     "Ameise",
+     "Motte"
+    ],
+    "it": [
+     "Alla tela di quale creatura Bildad paragona la fiducia dell'empio?",
+     "Ragno",
+     "Formica",
+     "Tarma"
+    ],
+    "pl": [
+     "Z pajęczyną jakiego stworzenia Bildad porównuje ufność bezbożnego?",
+     "Pająk",
+     "Mrówka",
+     "Mól"
+    ],
+    "ru": [
+     "С паутиной какого существа Вилдад сравнивает упование нечестивого?",
+     "Паук",
+     "Муравей",
+     "Моль"
+    ],
+    "tr": [
+     "Bildat, tanrısızın güvenini hangi canlının ağına benzetir?",
+     "Örümcek",
+     "Karınca",
+     "Güve"
+    ],
+    "ja": [
+     "ビルダドは、神を無視する者の頼みを、どの生き物の巣に例えますか？",
+     "クモ",
+     "アリ",
+     "蛾"
+    ],
+    "ko": [
+     "빌닷은 불경한 자의 믿음을 어떤 생물의 집에 비깁니까?",
+     "거미",
+     "개미",
+     "나방"
+    ],
+    "ar": [
+     "بشبكة أيّ كائن يشبّه بلدد اتكال الفاجر؟",
+     "عنكبوت",
+     "نملة",
+     "عثة"
+    ]
+   }
+  },
+  {
+   "id": "ch-job-001-38",
+   "book": "job",
+   "chapter": 8,
+   "difficulty": "hard",
+   "ref": "Job 8:9",
+   "text": {
+    "en": [
+     "Bildad says our days on earth are only what?",
+     "Shadow",
+     "Wind",
+     "Dust"
+    ],
+    "es": [
+     "¿Qué dice Bildad que son nuestros días sobre la tierra?",
+     "Sombra",
+     "Viento",
+     "Polvo"
+    ],
+    "pt": [
+     "O que Baldad diz que são os nossos dias sobre a terra?",
+     "Sombra",
+     "Vento",
+     "Pó"
+    ],
+    "fr": [
+     "Que sont nos jours sur la terre, d'après Bildad ?",
+     "Ombre",
+     "Vent",
+     "Poussière"
+    ],
+    "de": [
+     "Was sind nach Bildad unsere Tage auf Erden?",
+     "Schatten",
+     "Wind",
+     "Staub"
+    ],
+    "it": [
+     "Che cosa sono i nostri giorni sulla terra, secondo Bildad?",
+     "Ombra",
+     "Vento",
+     "Polvere"
+    ],
+    "pl": [
+     "Czym według Bildada są nasze dni na ziemi?",
+     "Cień",
+     "Wiatr",
+     "Proch"
+    ],
+    "ru": [
+     "Чем, по словам Вилдада, являются наши дни на земле?",
+     "Тень",
+     "Ветер",
+     "Прах"
+    ],
+    "tr": [
+     "Bildat'a göre yeryüzündeki günlerimiz nedir?",
+     "Gölge",
+     "Rüzgâr",
+     "Toz"
+    ],
+    "ja": [
+     "ビルダドによると、地上での私たちの日々は何にすぎませんか？",
+     "影",
+     "風",
+     "塵"
+    ],
+    "ko": [
+     "빌닷에 따르면 땅 위의 우리의 날들은 무엇일 뿐입니까?",
+     "그림자",
+     "바람",
+     "먼지"
+    ],
+    "ar": [
+     "ماذا تكون أيامنا على الأرض بحسب بلدد؟",
+     "ظل",
+     "ريح",
+     "تراب"
+    ]
+   }
+  },
+  {
+   "id": "ch-job-001-39",
+   "book": "job",
+   "chapter": 8,
+   "difficulty": "expert",
+   "ref": "Job 8:21",
+   "text": {
+    "en": [
+     "Bildad promises God will fill the blameless Job's mouth with what?",
+     "Laughter",
+     "Tears",
+     "Sighs"
+    ],
+    "es": [
+     "¿De qué promete Bildad que Dios llenará la boca del íntegro Job?",
+     "Risa",
+     "Lágrimas",
+     "Suspiros"
+    ],
+    "pt": [
+     "De que Baldad promete que Deus encherá a boca do íntegro Jó?",
+     "Riso",
+     "Lágrimas",
+     "Suspiros"
+    ],
+    "fr": [
+     "De quoi Bildad promet-il que Dieu remplira la bouche de Job l'intègre ?",
+     "Rire",
+     "Larmes",
+     "Soupirs"
+    ],
+    "de": [
+     "Womit wird Gott nach Bildads Verheißung den Mund des frommen Ijob füllen?",
+     "Lachen",
+     "Tränen",
+     "Seufzer"
+    ],
+    "it": [
+     "Di che cosa Bildad promette che Dio riempirà la bocca dell'integro Giobbe?",
+     "Riso",
+     "Lacrime",
+     "Sospiri"
+    ],
+    "pl": [
+     "Czym według obietnicy Bildada Bóg napełni usta nienagannego Hioba?",
+     "Śmiech",
+     "Łzy",
+     "Westchnienia"
+    ],
+    "ru": [
+     "Чем, по обещанию Вилдада, Бог наполнит уста непорочного Иова?",
+     "Смех",
+     "Слезы",
+     "Вздохи"
+    ],
+    "tr": [
+     "Bildat, Tanrı'nın kusursuz Eyüp'ün ağzını neyle dolduracağını vaat eder?",
+     "Kahkaha",
+     "Gözyaşı",
+     "Ahlar"
+    ],
+    "ja": [
+     "ビルダドは、神が無垢なヨブの口を何で満たすと約束しましたか？",
+     "笑い",
+     "涙",
+     "ため息"
+    ],
+    "ko": [
+     "빌닷은 하느님께서 흠 없는 욥의 입을 무엇으로 채우실 것이라고 약속합니까?",
+     "웃음",
+     "눈물",
+     "한숨"
+    ],
+    "ar": [
+     "بماذا وعد بلدد أن الله سيملأ فم أيوب البار؟",
+     "ضحك",
+     "دموع",
+     "تنهدات"
+    ]
+   }
+  },
+  {
+   "id": "ch-job-001-40",
+   "book": "job",
+   "chapter": 8,
+   "difficulty": "impossible",
+   "ref": "Job 8:17",
+   "text": {
+    "en": [
+     "Bildad says the godless plant's roots twine around a heap of what?",
+     "Stones",
+     "Sand",
+     "Ashes"
+    ],
+    "es": [
+     "Según Bildad, ¿en un montón de qué se enredan las raíces de la planta del impío?",
+     "Piedras",
+     "Arena",
+     "Ceniza"
+    ],
+    "pt": [
+     "Segundo Baldad, as raízes da planta do ímpio se enroscam num monte de quê?",
+     "Pedras",
+     "Areia",
+     "Cinzas"
+    ],
+    "fr": [
+     "Selon Bildad, les racines de la plante de l'impie s'enlacent autour d'un tas de quoi ?",
+     "Pierres",
+     "Sable",
+     "Cendres"
+    ],
+    "de": [
+     "Nach Bildad umschlingen die Wurzeln der Pflanze des Ruchlosen einen Haufen wovon?",
+     "Steine",
+     "Sand",
+     "Asche"
+    ],
+    "it": [
+     "Secondo Bildad, le radici della pianta dell'empio si intrecciano su un mucchio di che cosa?",
+     "Pietre",
+     "Sabbia",
+     "Cenere"
+    ],
+    "pl": [
+     "Według Bildada korzenie rośliny bezbożnego oplatają stos czego?",
+     "Kamienie",
+     "Piasek",
+     "Popiół"
+    ],
+    "ru": [
+     "По словам Вилдада, корни растения нечестивого переплетаются вокруг груды чего?",
+     "Камни",
+     "Песок",
+     "Пепел"
+    ],
+    "tr": [
+     "Bildat'a göre tanrısızın bitkisinin kökleri neyin yığınına dolanır?",
+     "Taşlar",
+     "Kum",
+     "Kül"
+    ],
+    "ja": [
+     "ビルダドによると、神を無視する者の植物の根は、何の山に絡みつきますか？",
+     "石",
+     "砂",
+     "灰"
+    ],
+    "ko": [
+     "빌닷에 따르면 불경한 자의 식물은 그 뿌리가 무엇의 더미를 휘감습니까?",
+     "돌",
+     "모래",
+     "재"
+    ],
+    "ar": [
+     "بحسب بلدد، حول كومة ماذا تلتف جذور نبتة الفاجر؟",
+     "حجارة",
+     "رمل",
+     "رماد"
+    ]
+   }
+  },
+  {
+   "id": "ch-job-001-41",
+   "book": "job",
+   "chapter": 9,
+   "difficulty": "easy",
+   "ref": "Job 9:5",
+   "text": {
+    "en": [
+     "Job says God removes what without their knowing it?",
+     "Mountains",
+     "Cities",
+     "Forests"
+    ],
+    "es": [
+     "Según Job, ¿qué remueve Dios sin que lo sepan?",
+     "Montañas",
+     "Ciudades",
+     "Bosques"
+    ],
+    "pt": [
+     "Segundo Jó, o que Deus remove sem que saibam?",
+     "Montanhas",
+     "Cidades",
+     "Florestas"
+    ],
+    "fr": [
+     "Selon Job, qu'est-ce que Dieu déplace sans qu'ils le sachent ?",
+     "Montagnes",
+     "Villes",
+     "Forêts"
+    ],
+    "de": [
+     "Was versetzt Gott nach Ijob, ohne dass sie es merken?",
+     "Berge",
+     "Städte",
+     "Wälder"
+    ],
+    "it": [
+     "Secondo Giobbe, che cosa Dio sposta senza che se ne accorgano?",
+     "Montagne",
+     "Città",
+     "Foreste"
+    ],
+    "pl": [
+     "Co według Hioba Bóg przenosi, a one o tym nie wiedzą?",
+     "Góry",
+     "Miasta",
+     "Lasy"
+    ],
+    "ru": [
+     "Что, по словам Иова, Бог переставляет, и они не знают об этом?",
+     "Горы",
+     "Города",
+     "Леса"
+    ],
+    "tr": [
+     "Eyüp'e göre Tanrı, onlar fark etmeden neyi yerinden oynatır?",
+     "Dağlar",
+     "Şehirler",
+     "Ormanlar"
+    ],
+    "ja": [
+     "ヨブによると、神は気づかれないうちに何を移されますか？",
+     "山々",
+     "都市",
+     "森"
+    ],
+    "ko": [
+     "욥에 따르면 하느님께서는 모르는 사이에 무엇을 옮기십니까?",
+     "산",
+     "도시",
+     "숲"
+    ],
+    "ar": [
+     "ماذا ينقل الله بحسب أيوب دون أن تشعر؟",
+     "جبال",
+     "مدن",
+     "غابات"
+    ]
+   }
+  },
+  {
+   "id": "ch-job-001-42",
+   "book": "job",
+   "chapter": 9,
+   "difficulty": "medium",
+   "ref": "Job 9:26",
+   "text": {
+    "en": [
+     "Job says his days fly past like which swooping bird?",
+     "Eagle",
+     "Dove",
+     "Owl"
+    ],
+    "es": [
+     "¿A qué ave que se abalanza se parecen los días de Job que vuelan?",
+     "Águila",
+     "Paloma",
+     "Búho"
+    ],
+    "pt": [
+     "A que ave que mergulha se parecem os dias de Jó que voam?",
+     "Águia",
+     "Pomba",
+     "Coruja"
+    ],
+    "fr": [
+     "À quel oiseau qui fond sur sa proie les jours de Job ressemblent-ils ?",
+     "Aigle",
+     "Colombe",
+     "Hibou"
+    ],
+    "de": [
+     "Welchem herabstoßenden Vogel gleichen Ijobs vorüberfliegende Tage?",
+     "Adler",
+     "Taube",
+     "Eule"
+    ],
+    "it": [
+     "A quale uccello che si lancia in picchiata somigliano i giorni di Giobbe?",
+     "Aquila",
+     "Colomba",
+     "Gufo"
+    ],
+    "pl": [
+     "Do jakiego rzucającego się ptaka są podobne szybko mijające dni Hioba?",
+     "Orzeł",
+     "Gołąb",
+     "Sowa"
+    ],
+    "ru": [
+     "На какую птицу, бросающуюся на добычу, похожи пролетающие дни Иова?",
+     "Орел",
+     "Голубь",
+     "Сова"
+    ],
+    "tr": [
+     "Eyüp'ün uçup giden günleri, avına atılan hangi kuşa benzer?",
+     "Kartal",
+     "Güvercin",
+     "Baykuş"
+    ],
+    "ja": [
+     "ヨブの日々は、獲物に飛びかかるどの鳥のように過ぎ去りますか？",
+     "鷲",
+     "鳩",
+     "フクロウ"
+    ],
+    "ko": [
+     "욥의 날들은 먹이를 덮치는 어떤 새처럼 지나갑니까?",
+     "독수리",
+     "비둘기",
+     "올빼미"
+    ],
+    "ar": [
+     "أيّ طائر منقضّ تشبه أيام أيوب السريعة؟",
+     "نسر",
+     "حمامة",
+     "بومة"
+    ]
+   }
+  },
+  {
+   "id": "ch-job-001-43",
+   "book": "job",
+   "chapter": 9,
+   "difficulty": "hard",
+   "ref": "Job 9:3",
+   "text": {
+    "en": [
+     "Job says a man cannot answer God once in how many questions?",
+     "1000",
+     "100",
+     "10"
+    ],
+    "es": [
+     "¿De cuántas preguntas de Dios no puede el hombre responder ni una, según Job?",
+     "1000",
+     "100",
+     "10"
+    ],
+    "pt": [
+     "Segundo Jó, o homem não consegue responder a Deus nem a uma de quantas perguntas?",
+     "1000",
+     "100",
+     "10"
+    ],
+    "fr": [
+     "Selon Job, l'homme ne peut pas répondre à Dieu une seule fois sur combien de questions ?",
+     "1000",
+     "100",
+     "10"
+    ],
+    "de": [
+     "Wie vielen Fragen kann ein Mensch nach Ijob Gott nicht einmal antworten?",
+     "1000",
+     "100",
+     "10"
+    ],
+    "it": [
+     "Secondo Giobbe, l'uomo non può rispondere a Dio nemmeno a una domanda su quante?",
+     "1000",
+     "100",
+     "10"
+    ],
+    "pl": [
+     "Według Hioba człowiek nie odpowie Bogu choć raz na ile pytań?",
+     "1000",
+     "100",
+     "10"
+    ],
+    "ru": [
+     "По словам Иова, человек не ответит Богу на один из скольких вопросов?",
+     "1000",
+     "100",
+     "10"
+    ],
+    "tr": [
+     "Eyüp'e göre insan, Tanrı'nın kaç sorusundan birine bile cevap veremez?",
+     "1000",
+     "100",
+     "10"
+    ],
+    "ja": [
+     "ヨブによると、人は神の何個の問いのうち一つにも答えられませんか？",
+     "1000",
+     "100",
+     "10"
+    ],
+    "ko": [
+     "욥에 따르면 사람은 하느님의 몇 가지 물음 중 하나에도 대답할 수 없습니까?",
+     "1000",
+     "100",
+     "10"
+    ],
+    "ar": [
+     "بحسب أيوب، لا يستطيع الإنسان أن يجيب الله عن واحد من كم سؤالًا؟",
+     "1000",
+     "100",
+     "10"
+    ]
+   }
+  },
+  {
+   "id": "ch-job-001-44",
+   "book": "job",
+   "chapter": 9,
+   "difficulty": "expert",
+   "ref": "Job 9:7",
+   "text": {
+    "en": [
+     "Job says God commands which heavenly body not to rise?",
+     "Sun",
+     "Moon",
+     "Comet"
+    ],
+    "es": [
+     "Según Job, ¿a qué cuerpo celeste ordena Dios que no salga?",
+     "Sol",
+     "Luna",
+     "Cometa"
+    ],
+    "pt": [
+     "Segundo Jó, a que corpo celeste Deus ordena que não nasça?",
+     "Sol",
+     "Lua",
+     "Cometa"
+    ],
+    "fr": [
+     "Selon Job, quel astre Dieu commande-t-il de ne pas se lever ?",
+     "Soleil",
+     "Lune",
+     "Comète"
+    ],
+    "de": [
+     "Welchem Himmelskörper befiehlt Gott nach Ijob, nicht aufzugehen?",
+     "Sonne",
+     "Mond",
+     "Komet"
+    ],
+    "it": [
+     "Secondo Giobbe, a quale corpo celeste Dio comanda di non sorgere?",
+     "Sole",
+     "Luna",
+     "Cometa"
+    ],
+    "pl": [
+     "Któremu ciału niebieskiemu Bóg według Hioba rozkazuje nie wschodzić?",
+     "Słońce",
+     "Księżyc",
+     "Kometa"
+    ],
+    "ru": [
+     "Какому небесному светилу, по словам Иова, Бог повелевает не восходить?",
+     "Солнце",
+     "Луна",
+     "Комета"
+    ],
+    "tr": [
+     "Eyüp'e göre Tanrı hangi gök cismine doğmamasını emreder?",
+     "Güneş",
+     "Ay",
+     "Komet"
+    ],
+    "ja": [
+     "ヨブによると、神はどの天体に昇るなと命じますか？",
+     "太陽",
+     "月",
+     "彗星"
+    ],
+    "ko": [
+     "욥에 따르면 하느님께서는 어떤 천체에게 떠오르지 말라고 명령하십니까?",
+     "해",
+     "달",
+     "혜성"
+    ],
+    "ar": [
+     "بحسب أيوب، أيّ جرم سماوي يأمر الله ألّا يشرق؟",
+     "شمس",
+     "قمر",
+     "مذنّب"
+    ]
+   }
+  },
+  {
+   "id": "ch-job-001-45",
+   "book": "job",
+   "chapter": 9,
+   "difficulty": "impossible",
+   "ref": "Job 9:6",
+   "text": {
+    "en": [
+     "What parts of the earth does Job say tremble when God shakes it?",
+     "Pillars",
+     "Walls",
+     "Gates"
+    ],
+    "es": [
+     "¿Qué partes de la tierra dice Job que tiemblan cuando Dios la sacude?",
+     "Columnas",
+     "Muros",
+     "Puertas"
+    ],
+    "pt": [
+     "Que partes da terra Jó diz que tremem quando Deus a sacode?",
+     "Colunas",
+     "Muros",
+     "Portas"
+    ],
+    "fr": [
+     "Quelles parties de la terre, dit Job, tremblent quand Dieu l'ébranle ?",
+     "Colonnes",
+     "Murs",
+     "Portes"
+    ],
+    "de": [
+     "Welche Teile der Erde erzittern nach Ijob, wenn Gott sie erschüttert?",
+     "Säulen",
+     "Mauern",
+     "Tore"
+    ],
+    "it": [
+     "Quali parti della terra, dice Giobbe, tremano quando Dio la scuote?",
+     "Colonne",
+     "Muri",
+     "Porte"
+    ],
+    "pl": [
+     "Które części ziemi według Hioba drżą, gdy Bóg nią wstrząsa?",
+     "Filary",
+     "Mury",
+     "Bramy"
+    ],
+    "ru": [
+     "Какие части земли, по словам Иова, дрожат, когда Бог сотрясает ее?",
+     "Столпы",
+     "Стены",
+     "Ворота"
+    ],
+    "tr": [
+     "Eyüp'e göre Tanrı yeri sarsınca yerin hangi parçaları titrer?",
+     "Sütunlar",
+     "Duvarlar",
+     "Kapılar"
+    ],
+    "ja": [
+     "ヨブによると、神が地を揺り動かすとき、地のどの部分が震えますか？",
+     "柱",
+     "壁",
+     "門"
+    ],
+    "ko": [
+     "욥에 따르면 하느님께서 땅을 흔드실 때 땅의 어떤 부분이 떨립니까?",
+     "기둥",
+     "벽",
+     "성문"
+    ],
+    "ar": [
+     "أيّ أجزاء من الأرض ترتجف عندما يزلزلها الله بحسب أيوب؟",
+     "أعمدة",
+     "جدران",
+     "أبواب"
+    ]
+   }
+  },
+  {
+   "id": "ch-job-001-46",
+   "book": "job",
+   "chapter": 10,
+   "difficulty": "easy",
+   "ref": "Job 10:9",
+   "text": {
+    "en": [
+     "Job reminds God that He fashioned him from what material?",
+     "Clay",
+     "Stone",
+     "Wood"
+    ],
+    "es": [
+     "¿De qué material le recuerda Job a Dios que lo modeló?",
+     "Barro",
+     "Piedra",
+     "Madera"
+    ],
+    "pt": [
+     "Jó lembra a Deus que o modelou com que material?",
+     "Argila",
+     "Pedra",
+     "Madeira"
+    ],
+    "fr": [
+     "De quelle matière Job rappelle-t-il à Dieu qu'il l'a façonné ?",
+     "Argile",
+     "Pierre",
+     "Bois"
+    ],
+    "de": [
+     "Aus welchem Material hat Gott Ijob nach dessen Erinnerung geformt?",
+     "Lehm",
+     "Stein",
+     "Holz"
+    ],
+    "it": [
+     "Giobbe ricorda a Dio che lo ha plasmato con quale materiale?",
+     "Argilla",
+     "Pietra",
+     "Legno"
+    ],
+    "pl": [
+     "Z jakiego materiału Bóg ulepił Hioba, jak mu przypomina?",
+     "Glina",
+     "Kamień",
+     "Drewno"
+    ],
+    "ru": [
+     "Из какого материала Бог создал Иова, как он напоминает Ему?",
+     "Глина",
+     "Камень",
+     "Дерево"
+    ],
+    "tr": [
+     "Eyüp, Tanrı'ya kendisini hangi malzemeden yaptığını hatırlatır?",
+     "Kil",
+     "Taş",
+     "Odun"
+    ],
+    "ja": [
+     "ヨブは、神が自分を何から形作ったと神に思い起こさせましたか？",
+     "粘土",
+     "石",
+     "木材"
+    ],
+    "ko": [
+     "욥은 하느님께서 자기를 어떤 재료로 빚으셨다고 상기시킵니까?",
+     "진흙",
+     "돌",
+     "목재"
+    ],
+    "ar": [
+     "من أيّ مادة يذكّر أيوب الله أنه جبله؟",
+     "طين",
+     "حجر",
+     "خشب"
+    ]
+   }
+  },
+  {
+   "id": "ch-job-001-47",
+   "book": "job",
+   "chapter": 10,
+   "difficulty": "medium",
+   "ref": "Job 10:18",
+   "text": {
+    "en": [
+     "Job asks God why He brought him out of what?",
+     "Womb",
+     "Tomb",
+     "Desert"
+    ],
+    "es": [
+     "¿De dónde pregunta Job a Dios por qué lo hizo salir?",
+     "Vientre",
+     "Tumba",
+     "Desierto"
+    ],
+    "pt": [
+     "De onde Jó pergunta a Deus por que o fez sair?",
+     "Ventre",
+     "Sepulcro",
+     "Deserto"
+    ],
+    "fr": [
+     "D'où Job demande-t-il à Dieu pourquoi il l'a fait sortir ?",
+     "Ventre",
+     "Tombeau",
+     "Désert"
+    ],
+    "de": [
+     "Woraus, fragt Ijob Gott, hat er ihn hervorgeholt?",
+     "Mutterleib",
+     "Grab",
+     "Wüste"
+    ],
+    "it": [
+     "Da dove Giobbe chiede a Dio perché lo ha fatto uscire?",
+     "Grembo",
+     "Tomba",
+     "Deserto"
+    ],
+    "pl": [
+     "Skąd Hiob pyta Boga, dlaczego go wyprowadził?",
+     "Łono",
+     "Grób",
+     "Pustynia"
+    ],
+    "ru": [
+     "Откуда, спрашивает Иов Бога, зачем Он его вывел?",
+     "Чрево",
+     "Гроб",
+     "Пустыня"
+    ],
+    "tr": [
+     "Eyüp, Tanrı'ya onu hangi yerden neden çıkardığını sorar?",
+     "Rahim",
+     "Mezar",
+     "Çöl"
+    ],
+    "ja": [
+     "ヨブは神に、なぜ自分をどこから連れ出されたのかと尋ねましたか？",
+     "母胎",
+     "墓",
+     "荒れ野"
+    ],
+    "ko": [
+     "욥은 하느님께 왜 자기를 어디에서 나오게 하셨느냐고 묻습니까?",
+     "모태",
+     "무덤",
+     "광야"
+    ],
+    "ar": [
+     "من أين يسأل أيوب الله لماذا أخرجه؟",
+     "رحم",
+     "قبر",
+     "صحراء"
+    ]
+   }
+  },
+  {
+   "id": "ch-job-001-48",
+   "book": "job",
+   "chapter": 10,
+   "difficulty": "hard",
+   "ref": "Job 10:11",
+   "text": {
+    "en": [
+     "Job says God clothed him with what, then knit bones together?",
+     "Skin",
+     "Wool",
+     "Linen"
+    ],
+    "es": [
+     "Según Job, ¿con qué lo vistió Dios antes de entretejer sus huesos?",
+     "Piel",
+     "Lana",
+     "Lino"
+    ],
+    "pt": [
+     "Segundo Jó, com o que Deus o vestiu antes de tecer seus ossos?",
+     "Pele",
+     "Lã",
+     "Linho"
+    ],
+    "fr": [
+     "Selon Job, de quoi Dieu l'a-t-il revêtu avant de tisser ses os ?",
+     "Peau",
+     "Laine",
+     "Lin"
+    ],
+    "de": [
+     "Womit hat Gott Ijob nach dessen Worten bekleidet, bevor er Knochen verflocht?",
+     "Haut",
+     "Wolle",
+     "Leinen"
+    ],
+    "it": [
+     "Secondo Giobbe, di che cosa Dio lo rivestì prima di intrecciare le sue ossa?",
+     "Pelle",
+     "Lana",
+     "Lino"
+    ],
+    "pl": [
+     "Czym według Hioba Bóg go odział, zanim splótł jego kości?",
+     "Skóra",
+     "Wełna",
+     "Len"
+    ],
+    "ru": [
+     "Чем, по словам Иова, Бог одел его, прежде чем соткать кости?",
+     "Кожа",
+     "Шерсть",
+     "Лен"
+    ],
+    "tr": [
+     "Eyüp'e göre Tanrı, kemiklerini örmeden önce onu neyle giydirdi?",
+     "Deri",
+     "Yün",
+     "Keten"
+    ],
+    "ja": [
+     "ヨブによると、神は骨を組み合わせる前に、彼を何で覆いましたか？",
+     "皮",
+     "羊毛",
+     "亜麻布"
+    ],
+    "ko": [
+     "욥에 따르면 하느님께서는 뼈를 엮으시기 전에 그에게 무엇을 입히셨습니까?",
+     "살갗",
+     "양털",
+     "아마포"
+    ],
+    "ar": [
+     "بماذا ألبسه الله بحسب أيوب قبل أن ينسج عظامه؟",
+     "جلد",
+     "صوف",
+     "كتان"
+    ]
+   }
+  },
+  {
+   "id": "ch-job-001-49",
+   "book": "job",
+   "chapter": 10,
+   "difficulty": "expert",
+   "ref": "Job 10:10",
+   "text": {
+    "en": [
+     "Job says God curdled him like which food?",
+     "Cheese",
+     "Bread",
+     "Honey"
+    ],
+    "es": [
+     "¿Como qué alimento dice Job que Dios lo hizo cuajar?",
+     "Queso",
+     "Pan",
+     "Miel"
+    ],
+    "pt": [
+     "Como que alimento Jó diz que Deus o coalhou?",
+     "Queijo",
+     "Pão",
+     "Mel"
+    ],
+    "fr": [
+     "Comme quel aliment Job dit-il que Dieu l'a caillé ?",
+     "Fromage",
+     "Pain",
+     "Miel"
+    ],
+    "de": [
+     "Wie welches Nahrungsmittel hat Gott Ijob nach dessen Worten gerinnen lassen?",
+     "Käse",
+     "Brot",
+     "Honig"
+    ],
+    "it": [
+     "Come quale alimento Giobbe dice che Dio lo ha fatto cagliare?",
+     "Formaggio",
+     "Pane",
+     "Miele"
+    ],
+    "pl": [
+     "Jaki pokarm przypomina to, jak według Hioba Bóg go zsiadł?",
+     "Ser",
+     "Chleb",
+     "Miód"
+    ],
+    "ru": [
+     "Иов говорит, что Бог сгустил его, словно какую пищу?",
+     "Творог",
+     "Хлеб",
+     "Мед"
+    ],
+    "tr": [
+     "Eyüp'e göre Tanrı onu hangi yiyecek gibi mayaladı?",
+     "Peynir",
+     "Ekmek",
+     "Bal"
+    ],
+    "ja": [
+     "ヨブによると、神は彼をどの食べ物のように凝結させましたか？",
+     "チーズ",
+     "パン",
+     "蜜"
+    ],
+    "ko": [
+     "욥에 따르면 하느님께서는 어떤 음식처럼 그를 응고시키셨습니까?",
+     "치즈",
+     "빵",
+     "꿀"
+    ],
+    "ar": [
+     "مثل أيّ طعام قال أيوب إن الله خثّره؟",
+     "جبن",
+     "خبز",
+     "عسل"
+    ]
+   }
+  },
+  {
+   "id": "ch-job-001-50",
+   "book": "job",
+   "chapter": 10,
+   "difficulty": "impossible",
+   "ref": "Job 10:22",
+   "text": {
+    "en": [
+     "What does Job say covers the land of no return?",
+     "Darkness",
+     "Fire",
+     "Smoke"
+    ],
+    "es": [
+     "¿Qué dice Job que cubre la tierra sin retorno?",
+     "Tinieblas",
+     "Fuego",
+     "Humo"
+    ],
+    "pt": [
+     "O que Jó diz que cobre a terra sem volta?",
+     "Trevas",
+     "Fogo",
+     "Fumaça"
+    ],
+    "fr": [
+     "Qu'est-ce qui, selon Job, couvre le pays sans retour ?",
+     "Ténèbres",
+     "Feu",
+     "Fumée"
+    ],
+    "de": [
+     "Was bedeckt nach Ijob das Land ohne Wiederkehr?",
+     "Finsternis",
+     "Feuer",
+     "Rauch"
+    ],
+    "it": [
+     "Che cosa, secondo Giobbe, copre la terra senza ritorno?",
+     "Tenebre",
+     "Fuoco",
+     "Fumo"
+    ],
+    "pl": [
+     "Co według Hioba okrywa kraj bez powrotu?",
+     "Ciemność",
+     "Ogień",
+     "Dym"
+    ],
+    "ru": [
+     "Что, по словам Иова, покрывает страну, откуда нет возврата?",
+     "Тьма",
+     "Огонь",
+     "Дым"
+    ],
+    "tr": [
+     "Eyüp'e göre dönüşü olmayan diyarı ne kaplar?",
+     "Karanlık",
+     "Ateş",
+     "Duman"
+    ],
+    "ja": [
+     "ヨブによると、帰らぬ地を覆っているものは何ですか？",
+     "闇",
+     "火",
+     "煙"
+    ],
+    "ko": [
+     "욥에 따르면 돌아올 수 없는 땅을 덮고 있는 것은 무엇입니까?",
+     "어둠",
+     "불",
+     "연기"
+    ],
+    "ar": [
+     "ماذا يغطي أرض اللاعودة بحسب أيوب؟",
+     "ظلمة",
+     "نار",
+     "دخان"
+    ]
+   }
+  },
+  {
+   "id": "ch-job-001-51",
+   "book": "job",
+   "chapter": 11,
+   "difficulty": "easy",
+   "ref": "Job 11:1",
+   "text": {
+    "en": [
+     "Which friend of Job, a Naamathite, accuses him of empty talk?",
+     "Zophar",
+     "Bildad",
+     "Eliphaz"
+    ],
+    "es": [
+     "¿Qué amigo de Job, el naamatita, lo acusa de hablar en vano?",
+     "Sofar",
+     "Bildad",
+     "Elifaz"
+    ],
+    "pt": [
+     "Que amigo de Jó, o naamatita, o acusa de falar em vão?",
+     "Sofar",
+     "Baldad",
+     "Elifaz"
+    ],
+    "fr": [
+     "Quel ami de Job, le Naamathite, l'accuse de vains discours ?",
+     "Sophar",
+     "Bildad",
+     "Éliphaz"
+    ],
+    "de": [
+     "Welcher Freund Ijobs, der Naamatiter, wirft ihm leeres Gerede vor?",
+     "Zofar",
+     "Bildad",
+     "Elifas"
+    ],
+    "it": [
+     "Quale amico di Giobbe, il naamatita, lo accusa di vane parole?",
+     "Zofar",
+     "Bildad",
+     "Elifaz"
+    ],
+    "pl": [
+     "Który przyjaciel Hioba, Naamatczyk, zarzuca mu puste gadanie?",
+     "Sofar",
+     "Bildad",
+     "Elifaz"
+    ],
+    "ru": [
+     "Какой друг Иова, наамитянин, обвиняет его в пустословии?",
+     "Софар",
+     "Вилдад",
+     "Елифаз"
+    ],
+    "tr": [
+     "Eyüp'ün Naamalı hangi arkadaşı onu boş konuşmakla suçlar?",
+     "Sofar",
+     "Bildat",
+     "Elifaz"
+    ],
+    "ja": [
+     "ヨブの言葉は空しいと責めるナアマ人の友人はだれですか？",
+     "ツォファル",
+     "ビルダド",
+     "エリファズ"
+    ],
+    "ko": [
+     "욥을 공허한 말을 한다고 책망하는 나아마 사람 친구는 누구입니까?",
+     "초바르",
+     "빌닷",
+     "엘리파즈"
+    ],
+    "ar": [
+     "أيّ صديق لأيوب، النعماتي، يتّهمه بالكلام الفارغ؟",
+     "صوفر",
+     "بلدد",
+     "أليفاز"
+    ]
+   }
+  },
+  {
+   "id": "ch-job-001-52",
+   "book": "job",
+   "chapter": 11,
+   "difficulty": "medium",
+   "ref": "Job 11:18",
+   "text": {
+    "en": [
+     "What does Zophar say will make Job feel secure?",
+     "Hope",
+     "Wealth",
+     "Strength"
+    ],
+    "es": [
+     "¿Qué dice Sofar que hará que Job se sienta seguro?",
+     "Esperanza",
+     "Riqueza",
+     "Fuerza"
+    ],
+    "pt": [
+     "O que Sofar diz que fará Jó se sentir seguro?",
+     "Esperança",
+     "Riqueza",
+     "Força"
+    ],
+    "fr": [
+     "Qu'est-ce qui, selon Sophar, rendra Job confiant ?",
+     "Espérance",
+     "Richesse",
+     "Force"
+    ],
+    "de": [
+     "Was wird Ijob nach Zofar Sicherheit geben?",
+     "Hoffnung",
+     "Reichtum",
+     "Kraft"
+    ],
+    "it": [
+     "Che cosa, dice Zofar, farà sentire Giobbe sicuro?",
+     "Speranza",
+     "Ricchezza",
+     "Forza"
+    ],
+    "pl": [
+     "Co według Sofara sprawi, że Hiob poczuje się bezpieczny?",
+     "Nadzieja",
+     "Bogactwo",
+     "Siła"
+    ],
+    "ru": [
+     "Что, по словам Софара, даст Иову спокойствие?",
+     "Надежда",
+     "Богатство",
+     "Сила"
+    ],
+    "tr": [
+     "Sofar'a göre Eyüp'ü ne güvende kılacaktır?",
+     "Umut",
+     "Zenginlik",
+     "Güç"
+    ],
+    "ja": [
+     "ツォファルによると、ヨブを安心させるものは何ですか？",
+     "希望",
+     "富",
+     "力"
+    ],
+    "ko": [
+     "초바르에 따르면 욥을 안심하게 할 것은 무엇입니까?",
+     "희망",
+     "재물",
+     "힘"
+    ],
+    "ar": [
+     "ما الذي سيجعل أيوب مطمئنًا بحسب صوفر؟",
+     "رجاء",
+     "ثروة",
+     "قوة"
+    ]
+   }
+  },
+  {
+   "id": "ch-job-001-53",
+   "book": "job",
+   "chapter": 11,
+   "difficulty": "hard",
+   "ref": "Job 11:16",
+   "text": {
+    "en": [
+     "Zophar says Job will recall his misery like what that has flowed away?",
+     "Water",
+     "Wine",
+     "Oil"
+    ],
+    "es": [
+     "Según Sofar, ¿como qué líquido que ya pasó recordará Job su miseria?",
+     "Agua",
+     "Vino",
+     "Aceite"
+    ],
+    "pt": [
+     "Segundo Sofar, como que líquido já escoado Jó se lembrará de sua miséria?",
+     "Água",
+     "Vinho",
+     "Óleo"
+    ],
+    "fr": [
+     "Selon Sophar, Job se souviendra de sa misère comme de quel liquide écoulé ?",
+     "Eau",
+     "Vin",
+     "Huile"
+    ],
+    "de": [
+     "Wie an welche abgeflossene Flüssigkeit wird sich Ijob nach Zofar an sein Elend erinnern?",
+     "Wasser",
+     "Wein",
+     "Öl"
+    ],
+    "it": [
+     "Secondo Zofar, a quale liquido ormai scorso via somiglierà il ricordo della miseria di Giobbe?",
+     "Acqua",
+     "Vino",
+     "Olio"
+    ],
+    "pl": [
+     "Według Sofara Hiob będzie wspominał swoją nędzę jak jaki płyn, który już spłynął?",
+     "Woda",
+     "Wino",
+     "Oliwa"
+    ],
+    "ru": [
+     "На какую утекшую жидкость, по словам Софара, будет похожа в памяти Иова его беда?",
+     "Вода",
+     "Вино",
+     "Масло"
+    ],
+    "tr": [
+     "Sofar'a göre Eyüp sıkıntısını akıp gitmiş hangi sıvı gibi hatırlayacak?",
+     "Su",
+     "Şarap",
+     "Yağ"
+    ],
+    "ja": [
+     "ツォファルによると、ヨブは自分の苦しみを、流れ去った何のように思い出しますか？",
+     "水",
+     "ぶどう酒",
+     "油"
+    ],
+    "ko": [
+     "초바르에 따르면 욥은 자기 불행을 흘러간 무엇처럼 기억하게 됩니까?",
+     "물",
+     "포도주",
+     "기름"
+    ],
+    "ar": [
+     "بحسب صوفر، سيتذكر أيوب شقاءه كأيّ سائل جرى ومضى؟",
+     "ماء",
+     "خمر",
+     "زيت"
+    ]
+   }
+  },
+  {
+   "id": "ch-job-001-54",
+   "book": "job",
+   "chapter": 11,
+   "difficulty": "expert",
+   "ref": "Job 11:20",
+   "text": {
+    "en": [
+     "Which body part of the wicked, says Zophar, will fail?",
+     "Eyes",
+     "Ears",
+     "Teeth"
+    ],
+    "es": [
+     "¿Qué parte del cuerpo de los malvados fallará, según Sofar?",
+     "Ojos",
+     "Orejas",
+     "Dientes"
+    ],
+    "pt": [
+     "Que parte do corpo dos maus falhará, segundo Sofar?",
+     "Olhos",
+     "Orelhas",
+     "Dentes"
+    ],
+    "fr": [
+     "Quelle partie du corps des méchants faiblira, selon Sophar ?",
+     "Yeux",
+     "Oreilles",
+     "Dents"
+    ],
+    "de": [
+     "Welcher Körperteil der Frevler versagt nach Zofar?",
+     "Augen",
+     "Ohren",
+     "Zähne"
+    ],
+    "it": [
+     "Quale parte del corpo dei malvagi verrà meno, secondo Zofar?",
+     "Occhi",
+     "Orecchie",
+     "Denti"
+    ],
+    "pl": [
+     "Która część ciała występnych osłabnie według Sofara?",
+     "Oczy",
+     "Uszy",
+     "Zęby"
+    ],
+    "ru": [
+     "Какая часть тела нечестивых, по словам Софара, изнемогает?",
+     "Глаза",
+     "Уши",
+     "Зубы"
+    ],
+    "tr": [
+     "Sofar'a göre kötülerin hangi organı tükenecek?",
+     "Gözler",
+     "Kulaklar",
+     "Dişler"
+    ],
+    "ja": [
+     "ツォファルによると、悪者のどの体の部分が衰え果てますか？",
+     "目",
+     "耳",
+     "歯"
+    ],
+    "ko": [
+     "초바르에 따르면 악인들의 몸의 어느 부분이 쇠약해집니까?",
+     "눈",
+     "귀",
+     "이"
+    ],
+    "ar": [
+     "أيّ عضو من أعضاء الأشرار سيفشل بحسب صوفر؟",
+     "عيون",
+     "آذان",
+     "أسنان"
+    ]
+   }
+  },
+  {
+   "id": "ch-job-001-55",
+   "book": "job",
+   "chapter": 11,
+   "difficulty": "impossible",
+   "ref": "Job 11:13",
+   "text": {
+    "en": [
+     "What does Zophar tell Job to stretch out toward God?",
+     "Hands",
+     "Lips",
+     "Feet"
+    ],
+    "es": [
+     "¿Qué dice Sofar a Job que extienda hacia Dios?",
+     "Manos",
+     "Labios",
+     "Pies"
+    ],
+    "pt": [
+     "O que Sofar diz a Jó que estenda para Deus?",
+     "Mãos",
+     "Lábios",
+     "Pés"
+    ],
+    "fr": [
+     "Qu'est-ce que Sophar dit à Job de tendre vers Dieu ?",
+     "Mains",
+     "Lèvres",
+     "Pieds"
+    ],
+    "de": [
+     "Was soll Ijob nach Zofar zu Gott ausstrecken?",
+     "Hände",
+     "Lippen",
+     "Füße"
+    ],
+    "it": [
+     "Che cosa Zofar dice a Giobbe di tendere verso Dio?",
+     "Mani",
+     "Labbra",
+     "Piedi"
+    ],
+    "pl": [
+     "Co Sofar każe Hiobowi wyciągnąć ku Bogu?",
+     "Ręce",
+     "Wargi",
+     "Stopy"
+    ],
+    "ru": [
+     "Что Софар велит Иову простереть к Богу?",
+     "Руки",
+     "Губы",
+     "Ноги"
+    ],
+    "tr": [
+     "Sofar, Eyüp'e Tanrı'ya doğru neyi uzatmasını söyler?",
+     "Eller",
+     "Dudaklar",
+     "Ayaklar"
+    ],
+    "ja": [
+     "ツォファルは、ヨブに神に向かって何を差し伸べるよう言いましたか？",
+     "手",
+     "唇",
+     "足"
+    ],
+    "ko": [
+     "초바르는 욥에게 하느님을 향해 무엇을 뻗으라고 말합니까?",
+     "손",
+     "입술",
+     "발"
+    ],
+    "ar": [
+     "ماذا يقول صوفر لأيوب أن يمدّه نحو الله؟",
+     "أيدي",
+     "شفاه",
+     "أقدام"
+    ]
+   }
+  },
+  {
+   "id": "ch-job-001-56",
+   "book": "job",
+   "chapter": 12,
+   "difficulty": "easy",
+   "ref": "Job 12:2",
+   "text": {
+    "en": [
+     "What does Job sarcastically say will die with his friends?",
+     "Wisdom",
+     "Wealth",
+     "Fame"
+    ],
+    "es": [
+     "¿Qué dice Job con sarcasmo que morirá con sus amigos?",
+     "Sabiduría",
+     "Riqueza",
+     "Fama"
+    ],
+    "pt": [
+     "O que Jó diz com sarcasmo que morrerá com seus amigos?",
+     "Sabedoria",
+     "Riqueza",
+     "Fama"
+    ],
+    "fr": [
+     "Selon l'ironie de Job, qu'est-ce qui mourra avec ses amis ?",
+     "Sagesse",
+     "Richesse",
+     "Gloire"
+    ],
+    "de": [
+     "Was wird nach Ijobs spöttischen Worten mit seinen Freunden sterben?",
+     "Weisheit",
+     "Reichtum",
+     "Ruhm"
+    ],
+    "it": [
+     "Che cosa dice con sarcasmo Giobbe che morirà con i suoi amici?",
+     "Sapienza",
+     "Ricchezza",
+     "Fama"
+    ],
+    "pl": [
+     "Co według sarkastycznych słów Hioba umrze wraz z jego przyjaciółmi?",
+     "Mądrość",
+     "Bogactwo",
+     "Sława"
+    ],
+    "ru": [
+     "Что, по язвительным словам Иова, умрет вместе с его друзьями?",
+     "Мудрость",
+     "Богатство",
+     "Слава"
+    ],
+    "tr": [
+     "Eyüp alaycı biçimde arkadaşlarıyla birlikte neyin öleceğini söyler?",
+     "Bilgelik",
+     "Zenginlik",
+     "Şöhret"
+    ],
+    "ja": [
+     "ヨブは皮肉を込めて、友人たちと共に何が死に絶えると言いましたか？",
+     "知恵",
+     "富",
+     "名声"
+    ],
+    "ko": [
+     "욥은 비꼬면서 친구들과 함께 무엇이 죽을 것이라고 말합니까?",
+     "지혜",
+     "재물",
+     "명성"
+    ],
+    "ar": [
+     "ما الذي سيموت مع أصدقاء أيوب بحسب سخريته؟",
+     "حكمة",
+     "ثروة",
+     "شهرة"
+    ]
+   }
+  },
+  {
+   "id": "ch-job-001-57",
+   "book": "job",
+   "chapter": 12,
+   "difficulty": "medium",
+   "ref": "Job 12:7",
+   "text": {
+    "en": [
+     "Besides beasts, which air creatures does Job tell his friends to ask?",
+     "Birds",
+     "Bees",
+     "Flies"
+    ],
+    "es": [
+     "Además de las bestias, ¿a qué criaturas del aire manda Job a sus amigos preguntar?",
+     "Aves",
+     "Abejas",
+     "Moscas"
+    ],
+    "pt": [
+     "Além das feras, a que criaturas do ar Jó manda seus amigos perguntarem?",
+     "Aves",
+     "Abelhas",
+     "Moscas"
+    ],
+    "fr": [
+     "Outre les bêtes, quelles créatures de l'air Job dit-il à ses amis d'interroger ?",
+     "Oiseaux",
+     "Abeilles",
+     "Mouches"
+    ],
+    "de": [
+     "Welche Luftbewohner sollen Ijobs Freunde außer den Tieren befragen?",
+     "Vögel",
+     "Bienen",
+     "Fliegen"
+    ],
+    "it": [
+     "Oltre alle bestie, quali creature dell'aria Giobbe dice ai suoi amici di interrogare?",
+     "Uccelli",
+     "Api",
+     "Mosche"
+    ],
+    "pl": [
+     "Oprócz zwierząt, jakie stworzenia powietrza Hiob każe pytać przyjaciołom?",
+     "Ptaki",
+     "Pszczoły",
+     "Muchy"
+    ],
+    "ru": [
+     "Кого из обитателей воздуха, кроме скотов, Иов велит спросить друзьям?",
+     "Птицы",
+     "Пчелы",
+     "Мухи"
+    ],
+    "tr": [
+     "Eyüp, arkadaşlarına hayvanların yanı sıra havadaki hangi canlılara sormalarını söyler?",
+     "Kuşlar",
+     "Arılar",
+     "Sinekler"
+    ],
+    "ja": [
+     "ヨブは友人たちに、獣のほかに空のどの生き物に尋ねよと言いましたか？",
+     "鳥",
+     "蜂",
+     "ハエ"
+    ],
+    "ko": [
+     "욥은 친구들에게 짐승 외에 하늘의 어떤 생물에게 물어보라고 말합니까?",
+     "새",
+     "벌",
+     "파리"
+    ],
+    "ar": [
+     "غير البهائم، أيّ كائنات الجوّ يطلب أيوب من أصدقائه أن يسألوها؟",
+     "طيور",
+     "نحل",
+     "ذباب"
+    ]
+   }
+  },
+  {
+   "id": "ch-job-001-58",
+   "book": "job",
+   "chapter": 12,
+   "difficulty": "hard",
+   "ref": "Job 12:17",
+   "text": {
+    "en": [
+     "Whom does Job say God makes fools?",
+     "Judges",
+     "Physicians",
+     "Teachers"
+    ],
+    "es": [
+     "¿A quiénes dice Job que Dios convierte en necios?",
+     "Jueces",
+     "Médicos",
+     "Maestros"
+    ],
+    "pt": [
+     "A quem Jó diz que Deus torna insensatos?",
+     "Juízes",
+     "Médicos",
+     "Mestres"
+    ],
+    "fr": [
+     "Qui Job dit-il que Dieu rend insensés ?",
+     "Juges",
+     "Médecins",
+     "Maîtres"
+    ],
+    "de": [
+     "Wen macht Gott nach Ijob zu Narren?",
+     "Richter",
+     "Ärzte",
+     "Lehrer"
+    ],
+    "it": [
+     "Chi, dice Giobbe, Dio rende stolti?",
+     "Giudici",
+     "Medici",
+     "Maestri"
+    ],
+    "pl": [
+     "Kogo według Hioba Bóg czyni głupcami?",
+     "Sędziowie",
+     "Lekarze",
+     "Nauczyciele"
+    ],
+    "ru": [
+     "Кого, по словам Иова, Бог делает глупцами?",
+     "Судьи",
+     "Врачи",
+     "Учителя"
+    ],
+    "tr": [
+     "Eyüp'e göre Tanrı kimleri akılsız yapar?",
+     "Hakimler",
+     "Hekimler",
+     "Öğretmenler"
+    ],
+    "ja": [
+     "ヨブによると、神はだれを愚か者にしますか？",
+     "裁判官",
+     "医者",
+     "教師"
+    ],
+    "ko": [
+     "욥에 따르면 하느님께서는 누구를 어리석게 만드십니까?",
+     "재판관",
+     "의사",
+     "스승"
+    ],
+    "ar": [
+     "من يجعله الله أحمق بحسب أيوب؟",
+     "قضاة",
+     "أطباء",
+     "معلمون"
+    ]
+   }
+  },
+  {
+   "id": "ch-job-001-59",
+   "book": "job",
+   "chapter": 12,
+   "difficulty": "expert",
+   "ref": "Job 12:6",
+   "text": {
+    "en": [
+     "Job says whose tents are at peace, though they provoke God?",
+     "Robbers",
+     "Shepherds",
+     "Fishermen"
+    ],
+    "es": [
+     "¿De quiénes dice Job que las tiendas están en paz, aunque provocan a Dios?",
+     "Ladrones",
+     "Pastores",
+     "Pescadores"
+    ],
+    "pt": [
+     "De quem Jó diz que as tendas estão em paz, embora provoquem a Deus?",
+     "Ladrões",
+     "Pastores",
+     "Pescadores"
+    ],
+    "fr": [
+     "De qui Job dit-il que les tentes sont en paix, bien qu'ils provoquent Dieu ?",
+     "Brigands",
+     "Bergers",
+     "Pêcheurs"
+    ],
+    "de": [
+     "Wessen Zelte sind nach Ijob in Frieden, obwohl sie Gott herausfordern?",
+     "Räuber",
+     "Hirten",
+     "Fischer"
+    ],
+    "it": [
+     "Di chi, dice Giobbe, le tende sono in pace, benché provochino Dio?",
+     "Predoni",
+     "Pastori",
+     "Pescatori"
+    ],
+    "pl": [
+     "Czyje namioty według Hioba są spokojne, choć drażnią Boga?",
+     "Rabusie",
+     "Pasterze",
+     "Rybacy"
+    ],
+    "ru": [
+     "Чьи шатры, по словам Иова, спокойны, хотя они раздражают Бога?",
+     "Грабители",
+     "Пастухи",
+     "Рыбаки"
+    ],
+    "tr": [
+     "Eyüp'e göre Tanrı'yı kızdırdıkları hâlde kimlerin çadırları huzur içindedir?",
+     "Haydutlar",
+     "Çobanlar",
+     "Balıkçılar"
+    ],
+    "ja": [
+     "ヨブによると、神を怒らせながらも天幕が安らかなのはだれですか？",
+     "盗賊",
+     "羊飼い",
+     "漁師"
+    ],
+    "ko": [
+     "욥에 따르면 하느님을 분노하게 하면서도 천막이 평안한 이들은 누구입니까?",
+     "강도",
+     "목동",
+     "어부"
+    ],
+    "ar": [
+     "خيام من تنعم بالسلام رغم أنهم يستفزون الله بحسب أيوب؟",
+     "لصوص",
+     "رعاة",
+     "صيادون"
+    ]
+   }
+  },
+  {
+   "id": "ch-job-001-60",
+   "book": "job",
+   "chapter": 12,
+   "difficulty": "impossible",
+   "ref": "Job 12:20",
+   "text": {
+    "en": [
+     "Whose discernment does Job say God takes away?",
+     "Elders",
+     "Children",
+     "Merchants"
+    ],
+    "es": [
+     "¿De quiénes dice Job que Dios quita el discernimiento?",
+     "Ancianos",
+     "Niños",
+     "Comerciantes"
+    ],
+    "pt": [
+     "De quem Jó diz que Deus tira o discernimento?",
+     "Anciãos",
+     "Crianças",
+     "Comerciantes"
+    ],
+    "fr": [
+     "À qui Job dit-il que Dieu retire le discernement ?",
+     "Vieillards",
+     "Enfants",
+     "Marchands"
+    ],
+    "de": [
+     "Wem nimmt Gott nach Ijob die Einsicht?",
+     "Alte",
+     "Kinder",
+     "Händler"
+    ],
+    "it": [
+     "A chi, dice Giobbe, Dio toglie il discernimento?",
+     "Anziani",
+     "Bambini",
+     "Mercanti"
+    ],
+    "pl": [
+     "Komu według Hioba Bóg odbiera rozsądek?",
+     "Starcy",
+     "Dzieci",
+     "Kupcy"
+    ],
+    "ru": [
+     "У кого, по словам Иова, Бог отнимает рассудительность?",
+     "Старцы",
+     "Дети",
+     "Купцы"
+    ],
+    "tr": [
+     "Eyüp'e göre Tanrı kimlerin sağduyusunu alır?",
+     "Yaşlılar",
+     "Çocuklar",
+     "Tüccarlar"
+    ],
+    "ja": [
+     "ヨブによると、神はだれの判断力を奪いますか？",
+     "長老",
+     "子ども",
+     "商人"
+    ],
+    "ko": [
+     "욥에 따르면 하느님께서는 누구의 분별력을 빼앗으십니까?",
+     "노인",
+     "아이들",
+     "상인"
+    ],
+    "ar": [
+     "ممن ينزع الله التمييز بحسب أيوب؟",
+     "شيوخ",
+     "أطفال",
+     "تجار"
+    ]
+   }
+  },
+  {
+   "id": "ch-job-001-61",
+   "book": "job",
+   "chapter": 13,
+   "difficulty": "easy",
+   "ref": "Job 13:5",
+   "text": {
+    "en": [
+     "What does Job say would count as his friends' wisdom?",
+     "Silence",
+     "Prayer",
+     "Fasting"
+    ],
+    "es": [
+     "Según Job, ¿qué se les contaría a sus amigos como sabiduría?",
+     "Silencio",
+     "Oración",
+     "Ayuno"
+    ],
+    "pt": [
+     "Segundo Jó, o que seria considerado sabedoria de seus amigos?",
+     "Silêncio",
+     "Oração",
+     "Jejum"
+    ],
+    "fr": [
+     "Selon Job, qu'est-ce qui serait compté comme sagesse pour ses amis ?",
+     "Silence",
+     "Prière",
+     "Jeûne"
+    ],
+    "de": [
+     "Was würde nach Ijob seinen Freunden als Weisheit angerechnet?",
+     "Schweigen",
+     "Gebet",
+     "Fasten"
+    ],
+    "it": [
+     "Secondo Giobbe, che cosa verrebbe contato come saggezza per i suoi amici?",
+     "Silenzio",
+     "Preghiera",
+     "Digiuno"
+    ],
+    "pl": [
+     "Co według Hioba byłoby poczytane jego przyjaciołom za mądrość?",
+     "Milczenie",
+     "Modlitwa",
+     "Post"
+    ],
+    "ru": [
+     "Что, по словам Иова, было бы вменено его друзьям в мудрость?",
+     "Молчание",
+     "Молитва",
+     "Пост"
+    ],
+    "tr": [
+     "Eyüp'e göre arkadaşlarına bilgelik sayılacak olan nedir?",
+     "Sessizlik",
+     "Dua",
+     "Oruç"
+    ],
+    "ja": [
+     "ヨブによると、友人たちにとって知恵とみなされるものは何ですか？",
+     "沈黙",
+     "祈り",
+     "断食"
+    ],
+    "ko": [
+     "욥에 따르면 친구들에게 지혜로 여겨질 것은 무엇입니까?",
+     "침묵",
+     "기도",
+     "단식"
+    ],
+    "ar": [
+     "ما الذي يُحسب حكمة لأصدقاء أيوب بحسب قوله؟",
+     "صمت",
+     "صلاة",
+     "صوم"
+    ]
+   }
+  },
+  {
+   "id": "ch-job-001-62",
+   "book": "job",
+   "chapter": 13,
+   "difficulty": "medium",
+   "ref": "Job 13:27",
+   "text": {
+    "en": [
+     "Job accuses God of putting which part of him in the stocks?",
+     "Feet",
+     "Hands",
+     "Neck"
+    ],
+    "es": [
+     "¿Qué parte de su cuerpo acusa Job a Dios de poner en el cepo?",
+     "Pies",
+     "Manos",
+     "Cuello"
+    ],
+    "pt": [
+     "Que parte do corpo Jó acusa Deus de pôr no tronco?",
+     "Pés",
+     "Mãos",
+     "Pescoço"
+    ],
+    "fr": [
+     "Quelle partie de son corps Job accuse-t-il Dieu de mettre aux ceps ?",
+     "Pieds",
+     "Mains",
+     "Cou"
+    ],
+    "de": [
+     "Welchen Körperteil Ijobs steckt Gott nach dessen Klage in den Block?",
+     "Füße",
+     "Hände",
+     "Hals"
+    ],
+    "it": [
+     "Quale parte del suo corpo Giobbe accusa Dio di mettere nei ceppi?",
+     "Piedi",
+     "Mani",
+     "Collo"
+    ],
+    "pl": [
+     "Którą część jego ciała Bóg według skargi Hioba wsadził w dyby?",
+     "Stopy",
+     "Ręce",
+     "Szyja"
+    ],
+    "ru": [
+     "Какую часть тела Иова, по его жалобе, Бог забил в колодки?",
+     "Ноги",
+     "Руки",
+     "Шея"
+    ],
+    "tr": [
+     "Eyüp, Tanrı'yı bedeninin hangi bölümünü kütüğe koymakla suçlar?",
+     "Ayaklar",
+     "Eller",
+     "Boyun"
+    ],
+    "ja": [
+     "ヨブは、神が自分の体のどの部分を足かせにはめたと訴えていますか？",
+     "足",
+     "手",
+     "首"
+    ],
+    "ko": [
+     "욥은 하느님께서 자기 몸의 어느 부분을 차꼬에 채우셨다고 하소연합니까?",
+     "발",
+     "손",
+     "목"
+    ],
+    "ar": [
+     "أيّ جزء من جسده يتّهم أيوب الله بوضعه في القيود؟",
+     "أقدام",
+     "أيدي",
+     "عنق"
+    ]
+   }
+  },
+  {
+   "id": "ch-job-001-63",
+   "book": "job",
+   "chapter": 13,
+   "difficulty": "hard",
+   "ref": "Job 13:12",
+   "text": {
+    "en": [
+     "Job says his friends' proverbs are made of what?",
+     "Ashes",
+     "Silver",
+     "Iron"
+    ],
+    "es": [
+     "¿De qué dice Job que están hechos los proverbios de sus amigos?",
+     "Ceniza",
+     "Plata",
+     "Hierro"
+    ],
+    "pt": [
+     "De que Jó diz que são feitos os provérbios de seus amigos?",
+     "Cinzas",
+     "Prata",
+     "Ferro"
+    ],
+    "fr": [
+     "De quoi, selon Job, les proverbes de ses amis sont-ils faits ?",
+     "Cendres",
+     "Argent",
+     "Fer"
+    ],
+    "de": [
+     "Woraus bestehen nach Ijob die Sprüche seiner Freunde?",
+     "Asche",
+     "Silber",
+     "Eisen"
+    ],
+    "it": [
+     "Di che cosa, dice Giobbe, sono fatti i proverbi dei suoi amici?",
+     "Cenere",
+     "Argento",
+     "Ferro"
+    ],
+    "pl": [
+     "Z czego według Hioba są zrobione przysłowia jego przyjaciół?",
+     "Popiół",
+     "Srebro",
+     "Żelazo"
+    ],
+    "ru": [
+     "Из чего, по словам Иова, сделаны изречения его друзей?",
+     "Пепел",
+     "Серебро",
+     "Железо"
+    ],
+    "tr": [
+     "Eyüp'e göre arkadaşlarının atasözleri neyden yapılmıştır?",
+     "Kül",
+     "Gümüş",
+     "Demir"
+    ],
+    "ja": [
+     "ヨブによると、友人たちの格言は何でできていますか？",
+     "灰",
+     "銀",
+     "鉄"
+    ],
+    "ko": [
+     "욥에 따르면 친구들의 잠언은 무엇으로 되어 있습니까?",
+     "재",
+     "은",
+     "쇠"
+    ],
+    "ar": [
+     "مِمّ تتكوّن أمثال أصدقاء أيوب بحسب قوله؟",
+     "رماد",
+     "فضة",
+     "حديد"
+    ]
+   }
+  },
+  {
+   "id": "ch-job-001-64",
+   "book": "job",
+   "chapter": 13,
+   "difficulty": "expert",
+   "ref": "Job 13:14",
+   "text": {
+    "en": [
+     "Job says he will take his flesh in which body part?",
+     "Teeth",
+     "Tongue",
+     "Neck"
+    ],
+    "es": [
+     "¿En qué parte del cuerpo dice Job que tomará su carne?",
+     "Dientes",
+     "Lengua",
+     "Cuello"
+    ],
+    "pt": [
+     "Em que parte do corpo Jó diz que tomará sua carne?",
+     "Dentes",
+     "Língua",
+     "Pescoço"
+    ],
+    "fr": [
+     "Dans quelle partie du corps Job dit-il qu'il prendra sa chair ?",
+     "Dents",
+     "Langue",
+     "Cou"
+    ],
+    "de": [
+     "In welchen Körperteil will Ijob nach eigenen Worten sein Fleisch nehmen?",
+     "Zähne",
+     "Zunge",
+     "Hals"
+    ],
+    "it": [
+     "In quale parte del corpo Giobbe dice che prenderà la sua carne?",
+     "Denti",
+     "Lingua",
+     "Collo"
+    ],
+    "pl": [
+     "W którą część ciała Hiob mówi, że weźmie swoje ciało?",
+     "Zęby",
+     "Język",
+     "Szyja"
+    ],
+    "ru": [
+     "В какую часть тела, по словам Иова, он возьмет свою плоть?",
+     "Зубы",
+     "Язык",
+     "Шея"
+    ],
+    "tr": [
+     "Eyüp etini bedeninin hangi bölümüne alacağını söyler?",
+     "Dişler",
+     "Dil",
+     "Boyun"
+    ],
+    "ja": [
+     "ヨブは、自分の肉を体のどの部分でくわえると言いましたか？",
+     "歯",
+     "舌",
+     "首"
+    ],
+    "ko": [
+     "욥은 자기 살을 몸의 어느 부분으로 물겠다고 말합니까?",
+     "이",
+     "혀",
+     "목"
+    ],
+    "ar": [
+     "بأيّ جزء من الجسد يقول أيوب إنه سيأخذ لحمه؟",
+     "أسنان",
+     "لسان",
+     "عنق"
+    ]
+   }
+  },
+  {
+   "id": "ch-job-001-65",
+   "book": "job",
+   "chapter": 13,
+   "difficulty": "impossible",
+   "ref": "Job 13:25",
+   "text": {
+    "en": [
+     "What windblown thing does Job ask whether God will terrify?",
+     "Leaf",
+     "Branch",
+     "Flower"
+    ],
+    "es": [
+     "¿Qué cosa arrastrada por el viento pregunta Job si Dios aterrará?",
+     "Hoja",
+     "Rama",
+     "Flor"
+    ],
+    "pt": [
+     "Que coisa levada pelo vento Jó pergunta se Deus aterrorizará?",
+     "Folha",
+     "Galho",
+     "Flor"
+    ],
+    "fr": [
+     "Quelle chose emportée par le vent Job demande-t-il si Dieu va terrifier ?",
+     "Feuille",
+     "Branche",
+     "Fleur"
+    ],
+    "de": [
+     "Welches vom Wind getriebene Ding will Gott nach Ijobs Frage erschrecken?",
+     "Blatt",
+     "Ast",
+     "Blume"
+    ],
+    "it": [
+     "Quale cosa portata dal vento Giobbe chiede se Dio spaventerà?",
+     "Foglia",
+     "Ramo",
+     "Fiore"
+    ],
+    "pl": [
+     "Jaką porwaną przez wiatr rzecz Bóg według pytania Hioba chce przestraszyć?",
+     "Liść",
+     "Gałąź",
+     "Kwiat"
+    ],
+    "ru": [
+     "Какую гонимую ветром вещь, спрашивает Иов, Бог хочет устрашить?",
+     "Лист",
+     "Ветвь",
+     "Цветок"
+    ],
+    "tr": [
+     "Eyüp, Tanrı'nın rüzgârın sürüklediği hangi şeyi korkutacağını sorar?",
+     "Yaprak",
+     "Dal",
+     "Çiçek"
+    ],
+    "ja": [
+     "ヨブは、風に吹かれるどんなものを神が脅かすのかと尋ねましたか？",
+     "葉",
+     "枝",
+     "花"
+    ],
+    "ko": [
+     "욥은 하느님께서 바람에 날리는 어떤 것을 놀라게 하시겠느냐고 묻습니까?",
+     "잎",
+     "가지",
+     "꽃"
+    ],
+    "ar": [
+     "أيّ شيء تذروه الريح يسأل أيوب هل سيرعبه الله؟",
+     "ورقة",
+     "غصن",
+     "زهرة"
+    ]
+   }
+  },
+  {
+   "id": "ch-job-001-66",
+   "book": "job",
+   "chapter": 14,
+   "difficulty": "easy",
+   "ref": "Job 14:2",
+   "text": {
+    "en": [
+     "To which plant does Job compare man's brief life?",
+     "Flower",
+     "Cedar",
+     "Wheat"
+    ],
+    "es": [
+     "¿Con qué planta compara Job la breve vida del hombre?",
+     "Flor",
+     "Cedro",
+     "Trigo"
+    ],
+    "pt": [
+     "Com que planta Jó compara a breve vida do homem?",
+     "Flor",
+     "Cedro",
+     "Trigo"
+    ],
+    "fr": [
+     "À quelle plante Job compare-t-il la brève vie de l'homme ?",
+     "Fleur",
+     "Cèdre",
+     "Blé"
+    ],
+    "de": [
+     "Mit welcher Pflanze vergleicht Ijob das kurze Leben des Menschen?",
+     "Blume",
+     "Zeder",
+     "Weizen"
+    ],
+    "it": [
+     "A quale pianta Giobbe paragona la breve vita dell'uomo?",
+     "Fiore",
+     "Cedro",
+     "Grano"
+    ],
+    "pl": [
+     "Z jaką rośliną Hiob porównuje krótkie życie człowieka?",
+     "Kwiat",
+     "Cedr",
+     "Pszenica"
+    ],
+    "ru": [
+     "С каким растением Иов сравнивает краткую жизнь человека?",
+     "Цветок",
+     "Кедр",
+     "Пшеница"
+    ],
+    "tr": [
+     "Eyüp insanın kısa ömrünü hangi bitkiye benzetir?",
+     "Çiçek",
+     "Sedir",
+     "Buğday"
+    ],
+    "ja": [
+     "ヨブは人の短い命をどの植物に例えていますか？",
+     "花",
+     "杉",
+     "小麦"
+    ],
+    "ko": [
+     "욥은 사람의 짧은 삶을 어떤 식물에 비깁니까?",
+     "꽃",
+     "향백나무",
+     "밀"
+    ],
+    "ar": [
+     "بأيّ نبات يشبّه أيوب حياة الإنسان القصيرة؟",
+     "زهرة",
+     "أرز",
+     "قمح"
+    ]
+   }
+  },
+  {
+   "id": "ch-job-001-67",
+   "book": "job",
+   "chapter": 14,
+   "difficulty": "medium",
+   "ref": "Job 14:7",
+   "text": {
+    "en": [
+     "If cut down, which plant does Job say still has hope of sprouting?",
+     "Tree",
+     "Vine",
+     "Wheat"
+    ],
+    "es": [
+     "Si lo cortan, ¿qué planta tiene aún esperanza de retoñar, según Job?",
+     "Árbol",
+     "Vid",
+     "Trigo"
+    ],
+    "pt": [
+     "Se cortada, que planta ainda tem esperança de brotar, segundo Jó?",
+     "Árvore",
+     "Videira",
+     "Trigo"
+    ],
+    "fr": [
+     "Une fois coupée, quelle plante a encore l'espoir de repousser, selon Job ?",
+     "Arbre",
+     "Vigne",
+     "Blé"
+    ],
+    "de": [
+     "Welche Pflanze hat nach Ijob noch Hoffnung, nach dem Fällen neu auszutreiben?",
+     "Baum",
+     "Rebe",
+     "Weizen"
+    ],
+    "it": [
+     "Se tagliata, quale pianta ha ancora speranza di germogliare, secondo Giobbe?",
+     "Albero",
+     "Vite",
+     "Grano"
+    ],
+    "pl": [
+     "Jaka roślina według Hioba ma nadzieję odrodzić się po ścięciu?",
+     "Drzewo",
+     "Winorośl",
+     "Pszenica"
+    ],
+    "ru": [
+     "Какое растение, по словам Иова, после срубания имеет надежду пустить новые побеги?",
+     "Дерево",
+     "Лоза",
+     "Пшеница"
+    ],
+    "tr": [
+     "Eyüp'e göre kesilince hangi bitkinin yeniden sürgün verme umudu vardır?",
+     "Ağaç",
+     "Asma",
+     "Buğday"
+    ],
+    "ja": [
+     "ヨブによると、切られても再び芽を出す望みがあるのはどの植物ですか？",
+     "木",
+     "ぶどう",
+     "小麦"
+    ],
+    "ko": [
+     "욥에 따르면 잘려도 다시 싹틀 희망이 있는 식물은 무엇입니까?",
+     "나무",
+     "포도나무",
+     "밀"
+    ],
+    "ar": [
+     "بحسب أيوب، أيّ نبات يبقى له رجاء أن يُفرِخ ثانية بعد قطعه؟",
+     "شجرة",
+     "كرمة",
+     "قمح"
+    ]
+   }
+  },
+  {
+   "id": "ch-job-001-68",
+   "book": "job",
+   "chapter": 14,
+   "difficulty": "hard",
+   "ref": "Job 14:19",
+   "text": {
+    "en": [
+     "What does Job say wears away stones?",
+     "Water",
+     "Fire",
+     "Iron"
+    ],
+    "es": [
+     "¿Qué dice Job que desgasta las piedras?",
+     "Agua",
+     "Fuego",
+     "Hierro"
+    ],
+    "pt": [
+     "O que Jó diz que desgasta as pedras?",
+     "Água",
+     "Fogo",
+     "Ferro"
+    ],
+    "fr": [
+     "Qu'est-ce que, selon Job, use les pierres ?",
+     "Eau",
+     "Feu",
+     "Fer"
+    ],
+    "de": [
+     "Was höhlt nach Ijob die Steine aus?",
+     "Wasser",
+     "Feuer",
+     "Eisen"
+    ],
+    "it": [
+     "Che cosa, dice Giobbe, consuma le pietre?",
+     "Acqua",
+     "Fuoco",
+     "Ferro"
+    ],
+    "pl": [
+     "Co według Hioba żłobi kamienie?",
+     "Woda",
+     "Ogień",
+     "Żelazo"
+    ],
+    "ru": [
+     "Что, по словам Иова, точит камни?",
+     "Вода",
+     "Огонь",
+     "Железо"
+    ],
+    "tr": [
+     "Eyüp'e göre taşları ne aşındırır?",
+     "Su",
+     "Ateş",
+     "Demir"
+    ],
+    "ja": [
+     "ヨブによると、石をすり減らすものは何ですか？",
+     "水",
+     "火",
+     "鉄"
+    ],
+    "ko": [
+     "욥에 따르면 돌을 닳게 하는 것은 무엇입니까?",
+     "물",
+     "불",
+     "쇠"
+    ],
+    "ar": [
+     "ما الذي يبلي الحجارة بحسب أيوب؟",
+     "ماء",
+     "نار",
+     "حديد"
+    ]
+   }
+  },
+  {
+   "id": "ch-job-001-69",
+   "book": "job",
+   "chapter": 14,
+   "difficulty": "expert",
+   "ref": "Job 14:17",
+   "text": {
+    "en": [
+     "In what does Job say God would seal up his transgression?",
+     "Bag",
+     "Jar",
+     "Basket"
+    ],
+    "es": [
+     "¿En qué dice Job que Dios sellaría su pecado?",
+     "Bolsa",
+     "Jarra",
+     "Cesta"
+    ],
+    "pt": [
+     "Em que Jó diz que Deus selaria sua transgressão?",
+     "Bolsa",
+     "Jarro",
+     "Cesto"
+    ],
+    "fr": [
+     "Dans quoi Job dit-il que Dieu scellerait sa faute ?",
+     "Sac",
+     "Jarre",
+     "Panier"
+    ],
+    "de": [
+     "Worin würde Gott nach Ijob seine Schuld versiegeln?",
+     "Beutel",
+     "Krug",
+     "Korb"
+    ],
+    "it": [
+     "In che cosa Giobbe dice che Dio sigillerebbe la sua colpa?",
+     "Sacchetto",
+     "Giara",
+     "Cesto"
+    ],
+    "pl": [
+     "W czym według Hioba Bóg zapieczętowałby jego przestępstwo?",
+     "Woreczek",
+     "Dzban",
+     "Kosz"
+    ],
+    "ru": [
+     "В чем, по словам Иова, Бог запечатал бы его беззаконие?",
+     "Мешок",
+     "Кувшин",
+     "Корзина"
+    ],
+    "tr": [
+     "Eyüp'e göre Tanrı suçunu neyin içinde mühürlerdi?",
+     "Kese",
+     "Küp",
+     "Sepet"
+    ],
+    "ja": [
+     "ヨブによると、神は彼の咎を何の中に封じ込めるでしょうか？",
+     "袋",
+     "壺",
+     "かご"
+    ],
+    "ko": [
+     "욥에 따르면 하느님께서는 그의 죄를 무엇 안에 봉하시겠습니까?",
+     "주머니",
+     "항아리",
+     "바구니"
+    ],
+    "ar": [
+     "في أيّ شيء كان الله سيختم معصية أيوب بحسب قوله؟",
+     "كيس",
+     "جرة",
+     "سلة"
+    ]
+   }
+  },
+  {
+   "id": "ch-job-001-70",
+   "book": "job",
+   "chapter": 14,
+   "difficulty": "impossible",
+   "ref": "Job 14:12",
+   "text": {
+    "en": [
+     "Job says man will not wake until what is no more?",
+     "Heaven",
+     "Mountains",
+     "Stars"
+    ],
+    "es": [
+     "¿Qué tiene que dejar de existir para que el hombre despierte, según Job?",
+     "Cielo",
+     "Montañas",
+     "Estrellas"
+    ],
+    "pt": [
+     "O que precisa deixar de existir para que o homem desperte, segundo Jó?",
+     "Céu",
+     "Montanhas",
+     "Estrelas"
+    ],
+    "fr": [
+     "Qu'est-ce qui doit cesser d'exister pour que l'homme se réveille, selon Job ?",
+     "Ciel",
+     "Montagnes",
+     "Étoiles"
+    ],
+    "de": [
+     "Was muss nach Ijob vergehen, damit der Mensch aufwacht?",
+     "Himmel",
+     "Berge",
+     "Sterne"
+    ],
+    "it": [
+     "Che cosa deve cessare di esistere perché l'uomo si svegli, secondo Giobbe?",
+     "Cielo",
+     "Montagne",
+     "Stelle"
+    ],
+    "pl": [
+     "Co musi przestać istnieć, by człowiek się obudził, według Hioba?",
+     "Niebo",
+     "Góry",
+     "Gwiazdy"
+    ],
+    "ru": [
+     "Что должно перестать существовать, чтобы человек пробудился, по словам Иова?",
+     "Небо",
+     "Горы",
+     "Звезды"
+    ],
+    "tr": [
+     "Eyüp'e göre insanın uyanması için neyin ortadan kalkması gerekir?",
+     "Gök",
+     "Dağlar",
+     "Yıldızlar"
+    ],
+    "ja": [
+     "ヨブによると、人が目覚めるには何が消え去らなければなりませんか？",
+     "天",
+     "山々",
+     "星々"
+    ],
+    "ko": [
+     "욥에 따르면 사람이 깨어나려면 무엇이 사라져야 합니까?",
+     "하늘",
+     "산",
+     "별들"
+    ],
+    "ar": [
+     "ما الذي يجب أن يزول ليستيقظ الإنسان بحسب أيوب؟",
+     "سماء",
+     "جبال",
+     "نجوم"
+    ]
+   }
+  }
+ ]
+}
