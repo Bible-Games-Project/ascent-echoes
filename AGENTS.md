@@ -77,6 +77,7 @@ bgp-admin at `templates/agent-docs/`, so ask before adding it.
 
 ## Trivia questions
 
+- Writing or reviewing questions with agents: see `.qwork/README.md` (queue, tools, current progress).
 - Source of truth: `content/questions/<book>.json` (all 12 languages, difficulty,
   Bible reference). After editing, run `node scripts/build-questions.mjs` to
   regenerate `src/components/game/questions/<lang>.json`, and commit both.
