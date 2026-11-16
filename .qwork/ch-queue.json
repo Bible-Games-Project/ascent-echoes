@@ -345,19 +345,19 @@
 "unit": "ch-2-samuel-013",
 "step": "write",
 "model": "sonnet",
-"status": "todo"
+"status": "done"
 },
 {
 "unit": "ch-2-samuel-013",
 "step": "en",
 "model": "opus",
-"status": "todo"
+"status": "done"
 },
 {
 "unit": "ch-2-samuel-013",
 "step": "tr",
 "model": "sonnet",
-"status": "todo"
+"status": "done"
 },
 {
 "unit": "ch-1-kings-001",
