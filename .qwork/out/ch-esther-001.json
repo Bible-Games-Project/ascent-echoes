@@ -1,0 +1,4054 @@
+{
+ "questions": [
+  {
+   "id": "ch-esther-001-01",
+   "book": "esther",
+   "chapter": 1,
+   "difficulty": "easy",
+   "ref": "Esther 1:12",
+   "text": {
+    "en": [
+     "Which queen refused King Ahasuerus's summons to his banquet?",
+     "Vashti",
+     "Esther",
+     "Ruth"
+    ],
+    "es": [
+     "¿Qué reina se negó a acudir al banquete cuando la llamó el rey Asuero?",
+     "Vasti",
+     "Ester",
+     "Rut"
+    ],
+    "pt": [
+     "Que rainha se recusou a comparecer quando o rei Assuero a chamou ao banquete?",
+     "Vasti",
+     "Ester",
+     "Rute"
+    ],
+    "fr": [
+     "Quelle reine refusa de venir au banquet quand le roi Assuérus la fit appeler ?",
+     "Vasthi",
+     "Esther",
+     "Ruth"
+    ],
+    "de": [
+     "Welche Königin weigerte sich, auf Befehl von König Xerxes beim Gastmahl zu erscheinen?",
+     "Waschti",
+     "Ester",
+     "Rut"
+    ],
+    "it": [
+     "Quale regina rifiutò di presentarsi al banchetto quando il re Assuero la chiamò?",
+     "Vasti",
+     "Ester",
+     "Rut"
+    ],
+    "pl": [
+     "Która królowa odmówiła przybycia na ucztę, gdy król Kserkses ją wezwał?",
+     "Wasti",
+     "Estera",
+     "Rut"
+    ],
+    "ru": [
+     "Какая царица отказалась прийти на пир, когда её позвал царь Артаксеркс?",
+     "Астинь",
+     "Есфирь",
+     "Руфь"
+    ],
+    "tr": [
+     "Kral Ahaşveroş çağırdığında ziyafete gelmeyi reddeden kraliçe kimdi?",
+     "Vaşti",
+     "Ester",
+     "Rut"
+    ],
+    "ja": [
+     "クセルクセス王の召しを拒んだ王妃は誰？",
+     "ワシュティ",
+     "エステル",
+     "ルツ"
+    ],
+    "ko": [
+     "아하스에로스 임금이 불렀을 때 잔치에 나오기를 거부한 왕비는 누구인가?",
+     "와스티",
+     "에스테르",
+     "룻"
+    ],
+    "ar": [
+     "أي ملكة رفضت المجيء إلى الوليمة حين دعاها الملك أحشويروش؟",
+     "وشتي",
+     "أستير",
+     "راعوث"
+    ]
+   }
+  },
+  {
+   "id": "ch-esther-001-02",
+   "book": "esther",
+   "chapter": 1,
+   "difficulty": "medium",
+   "ref": "Esther 1:1",
+   "text": {
+    "en": [
+     "How many provinces did King Ahasuerus rule from India to Ethiopia?",
+     "127",
+     "100",
+     "150"
+    ],
+    "es": [
+     "¿Cuántas provincias gobernaba el rey Asuero, desde la India hasta Etiopía?",
+     "127",
+     "100",
+     "150"
+    ],
+    "pt": [
+     "Quantas províncias governava o rei Assuero, da Índia até a Etiópia?",
+     "127",
+     "100",
+     "150"
+    ],
+    "fr": [
+     "Combien de provinces le roi Assuérus gouvernait-il, de l'Inde à l'Éthiopie ?",
+     "127",
+     "100",
+     "150"
+    ],
+    "de": [
+     "Wie viele Provinzen beherrschte König Xerxes, von Indien bis Äthiopien?",
+     "127",
+     "100",
+     "150"
+    ],
+    "it": [
+     "Quante province governava il re Assuero, dall'India all'Etiopia?",
+     "127",
+     "100",
+     "150"
+    ],
+    "pl": [
+     "Ile prowincji obejmowało panowanie króla Kserksesa od Indii po Etiopię?",
+     "127",
+     "100",
+     "150"
+    ],
+    "ru": [
+     "Сколько областей было под властью царя Артаксеркса от Индии до Эфиопии?",
+     "127",
+     "100",
+     "150"
+    ],
+    "tr": [
+     "Kral Ahaşveroş Hindistan'dan Etiyopya'ya kadar kaç ili yönetiyordu?",
+     "127",
+     "100",
+     "150"
+    ],
+    "ja": [
+     "クセルクセス王はインドからエチオピアまで何州を治めた？",
+     "127",
+     "100",
+     "150"
+    ],
+    "ko": [
+     "아하스에로스 임금은 인도에서 에티오피아까지 몇 개 지방을 다스렸는가?",
+     "127",
+     "100",
+     "150"
+    ],
+    "ar": [
+     "كم مقاطعة حكم الملك أحشويروش من الهند إلى إثيوبيا؟",
+     "127",
+     "100",
+     "150"
+    ]
+   }
+  },
+  {
+   "id": "ch-esther-001-03",
+   "book": "esther",
+   "chapter": 1,
+   "difficulty": "hard",
+   "ref": "Esther 1:16",
+   "text": {
+    "en": [
+     "Which counselor advised King Ahasuerus to depose Queen Vashti?",
+     "Memucan",
+     "Haman",
+     "Mordecai"
+    ],
+    "es": [
+     "¿Qué consejero aconsejó al rey Asuero deponer a la reina Vasti?",
+     "Memucán",
+     "Amán",
+     "Mardoqueo"
+    ],
+    "pt": [
+     "Que conselheiro aconselhou o rei Assuero a depor a rainha Vasti?",
+     "Memucã",
+     "Amã",
+     "Mardoqueu"
+    ],
+    "fr": [
+     "Quel conseiller conseilla au roi Assuérus de déposer la reine Vasthi ?",
+     "Memucân",
+     "Haman",
+     "Mardochée"
+    ],
+    "de": [
+     "Welcher Berater riet König Xerxes, Königin Waschti abzusetzen?",
+     "Memuchan",
+     "Haman",
+     "Mordechai"
+    ],
+    "it": [
+     "Quale consigliere suggerì al re Assuero di deporre la regina Vasti?",
+     "Memucan",
+     "Aman",
+     "Mardocheo"
+    ],
+    "pl": [
+     "Który doradca radził królowi Kserksesowi odsunąć królową Wasti?",
+     "Memukan",
+     "Haman",
+     "Mardocheusz"
+    ],
+    "ru": [
+     "Какой советник посоветовал царю Артаксерксу сместить царицу Астинь?",
+     "Мемухан",
+     "Аман",
+     "Мардохей"
+    ],
+    "tr": [
+     "Hangi danışman Kral Ahaşveroş'a Kraliçe Vaşti'yi tahttan indirmesini öğütledi?",
+     "Memukan",
+     "Haman",
+     "Mordekay"
+    ],
+    "ja": [
+     "クセルクセス王にワシュティ王妃の廃位を進言した側近は？",
+     "メムカン",
+     "ハマン",
+     "モルデカイ"
+    ],
+    "ko": [
+     "아하스에로스 임금에게 와스티 왕비를 폐위하라고 조언한 대신은 누구인가?",
+     "므무칸",
+     "하만",
+     "모르도카이"
+    ],
+    "ar": [
+     "من الوزير الذي نصح الملك أحشويروش بعزل الملكة وشتي؟",
+     "مموكان",
+     "هامان",
+     "مردخاي"
+    ]
+   }
+  },
+  {
+   "id": "ch-esther-001-04",
+   "book": "esther",
+   "chapter": 1,
+   "difficulty": "expert",
+   "ref": "Esther 1:5",
+   "text": {
+    "en": [
+     "How many days did Ahasuerus's banquet last for all the people in Susa?",
+     "7",
+     "14",
+     "30"
+    ],
+    "es": [
+     "¿Cuántos días duró el banquete del rey Asuero para todo el pueblo de Susa?",
+     "7",
+     "14",
+     "30"
+    ],
+    "pt": [
+     "Quantos dias durou o banquete do rei Assuero para todo o povo de Susa?",
+     "7",
+     "14",
+     "30"
+    ],
+    "fr": [
+     "Combien de jours dura le banquet d'Assuérus pour tout le peuple de Suse ?",
+     "7",
+     "14",
+     "30"
+    ],
+    "de": [
+     "Wie viele Tage dauerte das Gastmahl des Xerxes für alles Volk in Susa?",
+     "7",
+     "14",
+     "30"
+    ],
+    "it": [
+     "Quanti giorni durò il banchetto di Assuero per tutto il popolo di Susa?",
+     "7",
+     "14",
+     "30"
+    ],
+    "pl": [
+     "Ile dni trwała uczta króla Kserksesa dla całego ludu w Suzie?",
+     "7",
+     "14",
+     "30"
+    ],
+    "ru": [
+     "Сколько дней длился пир царя Артаксеркса для всего народа в Сузах?",
+     "7",
+     "14",
+     "30"
+    ],
+    "tr": [
+     "Ahaşveroş'un Şuşan'daki halk için verdiği ziyafet kaç gün sürdü?",
+     "7",
+     "14",
+     "30"
+    ],
+    "ja": [
+     "スサの全住民のためのクセルクセス王の宴は何日続いた？",
+     "7",
+     "14",
+     "30"
+    ],
+    "ko": [
+     "수사의 모든 백성을 위한 아하스에로스 임금의 잔치는 며칠 계속되었는가?",
+     "7",
+     "14",
+     "30"
+    ],
+    "ar": [
+     "كم يومًا استمرت وليمة الملك أحشويروش لجميع الشعب في شوشن؟",
+     "7",
+     "14",
+     "30"
+    ]
+   }
+  },
+  {
+   "id": "ch-esther-001-05",
+   "book": "esther",
+   "chapter": 1,
+   "difficulty": "impossible",
+   "ref": "Esther 1:7",
+   "text": {
+    "en": [
+     "Of which metal were the drinking goblets at Ahasuerus's banquet made?",
+     "Gold",
+     "Bronze",
+     "Iron"
+    ],
+    "es": [
+     "¿De qué metal eran las copas del banquete del rey Asuero?",
+     "Oro",
+     "Bronce",
+     "Hierro"
+    ],
+    "pt": [
+     "De que metal eram as taças do banquete do rei Assuero?",
+     "Ouro",
+     "Bronze",
+     "Ferro"
+    ],
+    "fr": [
+     "En quel métal étaient les coupes du banquet du roi Assuérus ?",
+     "Or",
+     "Bronze",
+     "Fer"
+    ],
+    "de": [
+     "Aus welchem Metall waren die Trinkbecher beim Gastmahl des Xerxes?",
+     "Gold",
+     "Bronze",
+     "Eisen"
+    ],
+    "it": [
+     "Di quale metallo erano le coppe del banchetto del re Assuero?",
+     "Oro",
+     "Bronzo",
+     "Ferro"
+    ],
+    "pl": [
+     "Z jakiego metalu były puchary na uczcie króla Kserksesa?",
+     "Złoto",
+     "Brąz",
+     "Żelazo"
+    ],
+    "ru": [
+     "Из какого металла были чаши на пиру царя Артаксеркса?",
+     "Золото",
+     "Бронза",
+     "Железо"
+    ],
+    "tr": [
+     "Ahaşveroş'un ziyafetindeki kadehler hangi madendendi?",
+     "Altın",
+     "Bronz",
+     "Demir"
+    ],
+    "ja": [
+     "クセルクセス王の宴の杯は何の金属でできていた？",
+     "金",
+     "青銅",
+     "鉄"
+    ],
+    "ko": [
+     "아하스에로스 임금의 잔치에서 쓰인 잔은 어떤 금속이었는가?",
+     "금",
+     "청동",
+     "철"
+    ],
+    "ar": [
+     "من أي معدن كانت الكؤوس في وليمة الملك أحشويروش؟",
+     "ذهب",
+     "نحاس",
+     "حديد"
+    ]
+   }
+  },
+  {
+   "id": "ch-esther-001-06",
+   "book": "esther",
+   "chapter": 2,
+   "difficulty": "easy",
+   "ref": "Esther 2:17",
+   "text": {
+    "en": [
+     "Which Jewish orphan did Ahasuerus crown queen in place of Vashti?",
+     "Esther",
+     "Ruth",
+     "Judith"
+    ],
+    "es": [
+     "¿A qué joven judía huérfana coronó Asuero reina en lugar de Vasti?",
+     "Ester",
+     "Rut",
+     "Judit"
+    ],
+    "pt": [
+     "Que órfã judia Assuero coroou rainha no lugar de Vasti?",
+     "Ester",
+     "Rute",
+     "Judite"
+    ],
+    "fr": [
+     "Quelle orpheline juive Assuérus couronna-t-il reine à la place de Vasthi ?",
+     "Esther",
+     "Ruth",
+     "Judith"
+    ],
+    "de": [
+     "Welche jüdische Waise krönte Xerxes anstelle von Waschti zur Königin?",
+     "Ester",
+     "Rut",
+     "Judit"
+    ],
+    "it": [
+     "Quale orfana ebrea Assuero incoronò regina al posto di Vasti?",
+     "Ester",
+     "Rut",
+     "Giuditta"
+    ],
+    "pl": [
+     "Którą żydowską sierotę Kserkses ukoronował na królową zamiast Wasti?",
+     "Estera",
+     "Rut",
+     "Judyta"
+    ],
+    "ru": [
+     "Какую сироту-иудейку Артаксеркс сделал царицей вместо Астинь?",
+     "Есфирь",
+     "Руфь",
+     "Иудифь"
+    ],
+    "tr": [
+     "Ahaşveroş, Vaşti'nin yerine hangi Yahudi yetimi kraliçe yaptı?",
+     "Ester",
+     "Rut",
+     "Yudit"
+    ],
+    "ja": [
+     "クセルクセス王がワシュティに代えて王妃にしたユダヤ人の孤児は？",
+     "エステル",
+     "ルツ",
+     "ユディト"
+    ],
+    "ko": [
+     "아하스에로스 임금이 와스티 대신 왕비로 삼은 유다인 고아는 누구인가?",
+     "에스테르",
+     "룻",
+     "유딧"
+    ],
+    "ar": [
+     "أي يتيمة يهودية جعلها الملك أحشويروش ملكة بدل وشتي؟",
+     "أستير",
+     "راعوث",
+     "يهوديت"
+    ]
+   }
+  },
+  {
+   "id": "ch-esther-001-07",
+   "book": "esther",
+   "chapter": 2,
+   "difficulty": "medium",
+   "ref": "Esther 2:7",
+   "text": {
+    "en": [
+     "Who adopted the orphan Esther and raised her as his own daughter?",
+     "Mordecai",
+     "Haman",
+     "Daniel"
+    ],
+    "es": [
+     "¿Quién adoptó a la huérfana Ester y la crió como a su propia hija?",
+     "Mardoqueo",
+     "Amán",
+     "Daniel"
+    ],
+    "pt": [
+     "Quem adotou a órfã Ester e a criou como sua própria filha?",
+     "Mardoqueu",
+     "Amã",
+     "Daniel"
+    ],
+    "fr": [
+     "Qui adopta l'orpheline Esther et l'éleva comme sa propre fille ?",
+     "Mardochée",
+     "Haman",
+     "Daniel"
+    ],
+    "de": [
+     "Wer nahm die Waise Ester an und zog sie wie eine eigene Tochter auf?",
+     "Mordechai",
+     "Haman",
+     "Daniel"
+    ],
+    "it": [
+     "Chi adottò l'orfana Ester e la allevò come una propria figlia?",
+     "Mardocheo",
+     "Aman",
+     "Daniele"
+    ],
+    "pl": [
+     "Kto przygarnął osieroconą Esterę i wychował ją jak własną córkę?",
+     "Mardocheusz",
+     "Haman",
+     "Daniel"
+    ],
+    "ru": [
+     "Кто усыновил сироту Есфирь и воспитал её как собственную дочь?",
+     "Мардохей",
+     "Аман",
+     "Даниил"
+    ],
+    "tr": [
+     "Yetim Ester'i kızı olarak evlat edinip büyüten kimdi?",
+     "Mordekay",
+     "Haman",
+     "Daniel"
+    ],
+    "ja": [
+     "孤児エステルを引き取り、我が子として育てたのは誰？",
+     "モルデカイ",
+     "ハマン",
+     "ダニエル"
+    ],
+    "ko": [
+     "고아 에스테르를 딸로 삼아 길러 준 사람은 누구인가?",
+     "모르도카이",
+     "하만",
+     "다니엘"
+    ],
+    "ar": [
+     "من تبنّى اليتيمة أستير وربّاها كابنته؟",
+     "مردخاي",
+     "هامان",
+     "دانيال"
+    ]
+   }
+  },
+  {
+   "id": "ch-esther-001-08",
+   "book": "esther",
+   "chapter": 2,
+   "difficulty": "hard",
+   "ref": "Esther 2:7",
+   "text": {
+    "en": [
+     "What was Queen Esther's original Hebrew name?",
+     "Hadassah",
+     "Sarah",
+     "Rachel"
+    ],
+    "es": [
+     "¿Cuál era el nombre hebreo original de la reina Ester?",
+     "Hadasá",
+     "Sara",
+     "Raquel"
+    ],
+    "pt": [
+     "Qual era o nome hebraico original da rainha Ester?",
+     "Hadassa",
+     "Sara",
+     "Raquel"
+    ],
+    "fr": [
+     "Quel était le nom hébreu d'origine de la reine Esther ?",
+     "Hadassa",
+     "Sara",
+     "Rachel"
+    ],
+    "de": [
+     "Wie lautete der ursprüngliche hebräische Name der Königin Ester?",
+     "Hadassa",
+     "Sara",
+     "Rahel"
+    ],
+    "it": [
+     "Qual era il nome ebraico originale della regina Ester?",
+     "Adassa",
+     "Sara",
+     "Rachele"
+    ],
+    "pl": [
+     "Jakie było pierwotne hebrajskie imię królowej Estery?",
+     "Hadasa",
+     "Sara",
+     "Rachela"
+    ],
+    "ru": [
+     "Как звали царицу Есфирь первоначально по-еврейски?",
+     "Гадасса",
+     "Сарра",
+     "Рахиль"
+    ],
+    "tr": [
+     "Kraliçe Ester'in asıl İbranice adı neydi?",
+     "Hadassa",
+     "Sara",
+     "Rahel"
+    ],
+    "ja": [
+     "エステル王妃のもとのヘブライ語の名は？",
+     "ハダサ",
+     "サラ",
+     "ラケル"
+    ],
+    "ko": [
+     "에스테르 왕비의 본래 히브리 이름은 무엇인가?",
+     "하다사",
+     "사라",
+     "라헬"
+    ],
+    "ar": [
+     "ما اسم الملكة أستير العبري الأصلي؟",
+     "هدسة",
+     "سارة",
+     "راحيل"
+    ]
+   }
+  },
+  {
+   "id": "ch-esther-001-09",
+   "book": "esther",
+   "chapter": 2,
+   "difficulty": "expert",
+   "ref": "Esther 2:12",
+   "text": {
+    "en": [
+     "How many months of beauty treatments did each girl receive before meeting the king?",
+     "12",
+     "3",
+     "9"
+    ],
+    "es": [
+     "¿Cuántos meses de tratamientos de belleza recibía cada joven antes de ver al rey?",
+     "12",
+     "3",
+     "9"
+    ],
+    "pt": [
+     "Quantos meses de tratamentos de beleza cada jovem recebia antes de ver o rei?",
+     "12",
+     "3",
+     "9"
+    ],
+    "fr": [
+     "Pendant combien de mois chaque jeune fille suivait-elle des soins de beauté avant de voir le roi ?",
+     "12",
+     "3",
+     "9"
+    ],
+    "de": [
+     "Wie viele Monate dauerten die Schönheitsbehandlungen, bevor ein Mädchen zum König kam?",
+     "12",
+     "3",
+     "9"
+    ],
+    "it": [
+     "Quanti mesi di trattamenti di bellezza riceveva ogni giovane prima di presentarsi al re?",
+     "12",
+     "3",
+     "9"
+    ],
+    "pl": [
+     "Przez ile miesięcy każda dziewczyna poddawała się zabiegom upiększającym przed spotkaniem z królem?",
+     "12",
+     "3",
+     "9"
+    ],
+    "ru": [
+     "Сколько месяцев каждая девушка проходила косметический уход перед встречей с царём?",
+     "12",
+     "3",
+     "9"
+    ],
+    "tr": [
+     "Her genç kız krala gitmeden önce kaç ay güzellik bakımı gördü?",
+     "12",
+     "3",
+     "9"
+    ],
+    "ja": [
+     "王のもとへ行く前に、乙女たちは何か月美容の手入れを受けた？",
+     "12",
+     "3",
+     "9"
+    ],
+    "ko": [
+     "왕에게 나아가기 전에 처녀들은 몇 달 동안 미용 관리를 받았는가?",
+     "12",
+     "3",
+     "9"
+    ],
+    "ar": [
+     "كم شهرًا من العناية بالجمال كانت تتلقى كل فتاة قبل الدخول إلى الملك؟",
+     "12",
+     "3",
+     "9"
+    ]
+   }
+  },
+  {
+   "id": "ch-esther-001-10",
+   "book": "esther",
+   "chapter": 2,
+   "difficulty": "impossible",
+   "ref": "Esther 2:8",
+   "text": {
+    "en": [
+     "Which royal official oversaw the women of the harem and cared for Esther?",
+     "Hegai",
+     "Haman",
+     "Memucan"
+    ],
+    "es": [
+     "¿Qué funcionario real estaba a cargo de las mujeres del harén y cuidó de Ester?",
+     "Hegai",
+     "Amán",
+     "Memucán"
+    ],
+    "pt": [
+     "Que oficial real cuidava das mulheres do harém e tratou de Ester?",
+     "Hegai",
+     "Amã",
+     "Memucã"
+    ],
+    "fr": [
+     "Quel officier royal avait la charge des femmes du harem et prit soin d'Esther ?",
+     "Hégaï",
+     "Haman",
+     "Memucân"
+    ],
+    "de": [
+     "Welcher Hofbeamte beaufsichtigte die Frauen im Harem und sorgte für Ester?",
+     "Hegai",
+     "Haman",
+     "Memuchan"
+    ],
+    "it": [
+     "Quale funzionario regio sorvegliava le donne dell'harem e si occupò di Ester?",
+     "Egai",
+     "Aman",
+     "Memucan"
+    ],
+    "pl": [
+     "Który urzędnik królewski opiekował się kobietami w haremie i zajął się Esterą?",
+     "Hegaj",
+     "Haman",
+     "Memukan"
+    ],
+    "ru": [
+     "Какой царедворец ведал женщинами гарема и заботился об Есфири?",
+     "Гегей",
+     "Аман",
+     "Мемухан"
+    ],
+    "tr": [
+     "Haremdeki kadınlardan sorumlu olup Ester'e göz kulak olan saray görevlisi kimdi?",
+     "Hegay",
+     "Haman",
+     "Memukan"
+    ],
+    "ja": [
+     "後宮の女たちを管理し、エステルの世話をした役人は？",
+     "ヘガイ",
+     "ハマン",
+     "メムカン"
+    ],
+    "ko": [
+     "후궁의 여인들을 관리하며 에스테르를 돌보아 준 궁정 관리는 누구인가?",
+     "헤가이",
+     "하만",
+     "므무칸"
+    ],
+    "ar": [
+     "من المسؤول الملكي عن نساء الحريم الذي اعتنى بأستير؟",
+     "هيجاي",
+     "هامان",
+     "مموكان"
+    ]
+   }
+  },
+  {
+   "id": "ch-esther-001-11",
+   "book": "esther",
+   "chapter": 3,
+   "difficulty": "easy",
+   "ref": "Esther 3:6",
+   "text": {
+    "en": [
+     "Which official plotted to destroy all the Jews in Ahasuerus's empire?",
+     "Haman",
+     "Mordecai",
+     "Memucan"
+    ],
+    "es": [
+     "¿Qué funcionario planeó exterminar a todos los judíos del imperio de Asuero?",
+     "Amán",
+     "Mardoqueo",
+     "Memucán"
+    ],
+    "pt": [
+     "Que oficial planejou exterminar todos os judeus do império de Assuero?",
+     "Amã",
+     "Mardoqueu",
+     "Memucã"
+    ],
+    "fr": [
+     "Quel dignitaire projeta d'exterminer tous les Juifs de l'empire d'Assuérus ?",
+     "Haman",
+     "Mardochée",
+     "Memucân"
+    ],
+    "de": [
+     "Welcher Beamte plante, alle Juden im Reich des Xerxes auszurotten?",
+     "Haman",
+     "Mordechai",
+     "Memuchan"
+    ],
+    "it": [
+     "Quale funzionario progettò di sterminare tutti i Giudei nell'impero di Assuero?",
+     "Aman",
+     "Mardocheo",
+     "Memucan"
+    ],
+    "pl": [
+     "Który dostojnik zamierzał wytępić wszystkich Żydów w państwie Kserksesa?",
+     "Haman",
+     "Mardocheusz",
+     "Memukan"
+    ],
+    "ru": [
+     "Какой вельможа замыслил истребить всех иудеев в царстве Артаксеркса?",
+     "Аман",
+     "Мардохей",
+     "Мемухан"
+    ],
+    "tr": [
+     "Ahaşveroş'un imparatorluğundaki bütün Yahudileri yok etmeyi tasarlayan görevli kimdi?",
+     "Haman",
+     "Mordekay",
+     "Memukan"
+    ],
+    "ja": [
+     "クセルクセス王の国のユダヤ人を皆殺しにしようと企てた高官は？",
+     "ハマン",
+     "モルデカイ",
+     "メムカン"
+    ],
+    "ko": [
+     "아하스에로스 제국의 모든 유다인을 없애려고 꾀한 대신은 누구인가?",
+     "하만",
+     "모르도카이",
+     "므무칸"
+    ],
+    "ar": [
+     "أي مسؤول دبّر إبادة جميع اليهود في مملكة الملك أحشويروش؟",
+     "هامان",
+     "مردخاي",
+     "مموكان"
+    ]
+   }
+  },
+  {
+   "id": "ch-esther-001-12",
+   "book": "esther",
+   "chapter": 3,
+   "difficulty": "medium",
+   "ref": "Esther 3:10",
+   "text": {
+    "en": [
+     "What did Ahasuerus take from his hand and give Haman to seal the decree?",
+     "Ring",
+     "Crown",
+     "Sword"
+    ],
+    "es": [
+     "¿Qué se quitó Asuero de la mano para dárselo a Amán y sellar el decreto?",
+     "Anillo",
+     "Corona",
+     "Espada"
+    ],
+    "pt": [
+     "O que Assuero tirou da mão e deu a Amã para selar o decreto?",
+     "Anel",
+     "Coroa",
+     "Espada"
+    ],
+    "fr": [
+     "Qu'Assuérus ôta-t-il de sa main pour le donner à Haman et sceller le décret ?",
+     "Anneau",
+     "Couronne",
+     "Épée"
+    ],
+    "de": [
+     "Was zog Xerxes sich vom Finger und gab es Haman, um den Erlass zu besiegeln?",
+     "Ring",
+     "Krone",
+     "Schwert"
+    ],
+    "it": [
+     "Che cosa si tolse Assuero dalla mano e diede ad Aman per sigillare il decreto?",
+     "Anello",
+     "Corona",
+     "Spada"
+    ],
+    "pl": [
+     "Co zdjął z ręki Kserkses i dał Hamanowi, by przypieczętować dekret?",
+     "Pierścień",
+     "Korona",
+     "Miecz"
+    ],
+    "ru": [
+     "Что снял с руки Артаксеркс и отдал Аману для скрепления указа?",
+     "Перстень",
+     "Корона",
+     "Меч"
+    ],
+    "tr": [
+     "Ahaşveroş fermanı mühürlemesi için elinden neyi çıkarıp Haman'a verdi?",
+     "Yüzük",
+     "Taç",
+     "Kılıç"
+    ],
+    "ja": [
+     "クセルクセス王が手から外し、勅令を封印するためハマンに与えた物は？",
+     "指輪",
+     "冠",
+     "剣"
+    ],
+    "ko": [
+     "아하스에로스 임금이 칙령에 도장을 찍도록 손에서 빼서 하만에게 준 것은?",
+     "반지",
+     "왕관",
+     "칼"
+    ],
+    "ar": [
+     "ماذا خلع الملك أحشويروش من يده وأعطاه لهامان ليختم المرسوم؟",
+     "خاتم",
+     "تاج",
+     "سيف"
+    ]
+   }
+  },
+  {
+   "id": "ch-esther-001-13",
+   "book": "esther",
+   "chapter": 3,
+   "difficulty": "hard",
+   "ref": "Esther 3:13",
+   "text": {
+    "en": [
+     "Which day of the twelfth month did Haman's decree set for destroying the Jews?",
+     "13",
+     "1",
+     "20"
+    ],
+    "es": [
+     "¿Qué día del mes duodécimo fijó el decreto de Amán para destruir a los judíos?",
+     "13",
+     "1",
+     "20"
+    ],
+    "pt": [
+     "Que dia do décimo segundo mês o decreto de Amã fixou para destruir os judeus?",
+     "13",
+     "1",
+     "20"
+    ],
+    "fr": [
+     "Quel jour du douzième mois le décret de Haman fixa-t-il pour détruire les Juifs ?",
+     "13",
+     "1",
+     "20"
+    ],
+    "de": [
+     "Welchen Tag des zwölften Monats setzte Hamans Erlass für die Vernichtung der Juden an?",
+     "13",
+     "1",
+     "20"
+    ],
+    "it": [
+     "Quale giorno del dodicesimo mese fissò il decreto di Aman per distruggere i Giudei?",
+     "13",
+     "1",
+     "20"
+    ],
+    "pl": [
+     "Który dzień dwunastego miesiąca wyznaczył dekret Hamana na zagładę Żydów?",
+     "13",
+     "1",
+     "20"
+    ],
+    "ru": [
+     "Какой день двенадцатого месяца назначил указ Амана для истребления иудеев?",
+     "13",
+     "1",
+     "20"
+    ],
+    "tr": [
+     "Haman'ın fermanı Yahudileri yok etmek için on ikinci ayın hangi gününü belirledi?",
+     "13",
+     "1",
+     "20"
+    ],
+    "ja": [
+     "ハマンの勅令は、ユダヤ人を滅ぼす日を12番目の月の何日と定めた？",
+     "13",
+     "1",
+     "20"
+    ],
+    "ko": [
+     "하만의 칙령은 유다인을 없앨 날을 열두째 달 며칠로 정했는가?",
+     "13",
+     "1",
+     "20"
+    ],
+    "ar": [
+     "أي يوم من الشهر الثاني عشر حدّده مرسوم هامان لإبادة اليهود؟",
+     "13",
+     "1",
+     "20"
+    ]
+   }
+  },
+  {
+   "id": "ch-esther-001-14",
+   "book": "esther",
+   "chapter": 3,
+   "difficulty": "expert",
+   "ref": "Esther 3:9",
+   "text": {
+    "en": [
+     "How many talents of silver did Haman offer the king to destroy the Jews?",
+     "10000",
+     "1000",
+     "50000"
+    ],
+    "es": [
+     "¿Cuántos talentos de plata ofreció Amán al rey para destruir a los judíos?",
+     "10000",
+     "1000",
+     "50000"
+    ],
+    "pt": [
+     "Quantos talentos de prata Amã ofereceu ao rei para destruir os judeus?",
+     "10000",
+     "1000",
+     "50000"
+    ],
+    "fr": [
+     "Combien de talents d'argent Haman offrit-il au roi pour détruire les Juifs ?",
+     "10000",
+     "1000",
+     "50000"
+    ],
+    "de": [
+     "Wie viele Talente Silber bot Haman dem König an, um die Juden zu vernichten?",
+     "10000",
+     "1000",
+     "50000"
+    ],
+    "it": [
+     "Quanti talenti d'argento offrì Aman al re per distruggere i Giudei?",
+     "10000",
+     "1000",
+     "50000"
+    ],
+    "pl": [
+     "Ile talentów srebra zaofiarował Haman królowi za zgładzenie Żydów?",
+     "10000",
+     "1000",
+     "50000"
+    ],
+    "ru": [
+     "Сколько талантов серебра предложил Аман царю за истребление иудеев?",
+     "10000",
+     "1000",
+     "50000"
+    ],
+    "tr": [
+     "Haman, Yahudileri yok etmek için krala kaç talant gümüş önerdi?",
+     "10000",
+     "1000",
+     "50000"
+    ],
+    "ja": [
+     "ハマンはユダヤ人を滅ぼすため、王に銀を何タラント差し出すと言った？",
+     "10000",
+     "1000",
+     "50000"
+    ],
+    "ko": [
+     "하만은 유다인을 없애려고 임금에게 은 몇 탈렌트를 바치겠다고 했는가?",
+     "10000",
+     "1000",
+     "50000"
+    ],
+    "ar": [
+     "كم وزنة فضة عرض هامان على الملك لإبادة اليهود؟",
+     "10000",
+     "1000",
+     "50000"
+    ]
+   }
+  },
+  {
+   "id": "ch-esther-001-15",
+   "book": "esther",
+   "chapter": 3,
+   "difficulty": "impossible",
+   "ref": "Esther 3:7",
+   "text": {
+    "en": [
+     "In which year of Ahasuerus's reign did Haman cast lots to choose a date?",
+     "12",
+     "3",
+     "20"
+    ],
+    "es": [
+     "¿En qué año del reinado de Asuero echó Amán suertes para elegir una fecha?",
+     "12",
+     "3",
+     "20"
+    ],
+    "pt": [
+     "Em que ano do reinado de Assuero Amã lançou a sorte para escolher uma data?",
+     "12",
+     "3",
+     "20"
+    ],
+    "fr": [
+     "En quelle année du règne d'Assuérus Haman jeta-t-il le sort pour choisir une date ?",
+     "12",
+     "3",
+     "20"
+    ],
+    "de": [
+     "In welchem Regierungsjahr des Xerxes warf Haman das Los, um ein Datum zu wählen?",
+     "12",
+     "3",
+     "20"
+    ],
+    "it": [
+     "In quale anno del regno di Assuero Aman gettò le sorti per scegliere una data?",
+     "12",
+     "3",
+     "20"
+    ],
+    "pl": [
+     "W którym roku panowania Kserksesa Haman rzucił los, aby wybrać datę?",
+     "12",
+     "3",
+     "20"
+    ],
+    "ru": [
+     "На каком году царствования Артаксеркса Аман бросал жребий, выбирая день?",
+     "12",
+     "3",
+     "20"
+    ],
+    "tr": [
+     "Haman, Ahaşveroş'un saltanatının kaçıncı yılında tarih seçmek için kura attı?",
+     "12",
+     "3",
+     "20"
+    ],
+    "ja": [
+     "ハマンが日を選ぶためにくじを投げたのは、クセルクセス王の治世の何年？",
+     "12",
+     "3",
+     "20"
+    ],
+    "ko": [
+     "하만이 날짜를 정하려고 제비를 뽑은 것은 아하스에로스 임금 재위 몇 년인가?",
+     "12",
+     "3",
+     "20"
+    ],
+    "ar": [
+     "في أي سنة من حكم الملك أحشويروش ألقى هامان القرعة لاختيار موعد؟",
+     "12",
+     "3",
+     "20"
+    ]
+   }
+  },
+  {
+   "id": "ch-esther-001-16",
+   "book": "esther",
+   "chapter": 4,
+   "difficulty": "easy",
+   "ref": "Esther 4:16",
+   "text": {
+    "en": [
+     "For how many days did Esther ask the Jews of Susa to fast?",
+     "3",
+     "7",
+     "40"
+    ],
+    "es": [
+     "¿Cuántos días pidió Ester a los judíos de Susa que ayunaran?",
+     "3",
+     "7",
+     "40"
+    ],
+    "pt": [
+     "Por quantos dias Ester pediu que os judeus de Susa jejuassem?",
+     "3",
+     "7",
+     "40"
+    ],
+    "fr": [
+     "Pendant combien de jours Esther demanda-t-elle aux Juifs de Suse de jeûner ?",
+     "3",
+     "7",
+     "40"
+    ],
+    "de": [
+     "Wie viele Tage sollten die Juden in Susa auf Esters Bitte fasten?",
+     "3",
+     "7",
+     "40"
+    ],
+    "it": [
+     "Per quanti giorni Ester chiese ai Giudei di Susa di digiunare?",
+     "3",
+     "7",
+     "40"
+    ],
+    "pl": [
+     "Przez ile dni Estera prosiła Żydów w Suzie o post?",
+     "3",
+     "7",
+     "40"
+    ],
+    "ru": [
+     "На сколько дней Есфирь попросила иудеев в Сузах поститься?",
+     "3",
+     "7",
+     "40"
+    ],
+    "tr": [
+     "Ester, Şuşan'daki Yahudilerden kaç gün oruç tutmalarını istedi?",
+     "3",
+     "7",
+     "40"
+    ],
+    "ja": [
+     "エステルはスサのユダヤ人に何日間の断食を求めた？",
+     "3",
+     "7",
+     "40"
+    ],
+    "ko": [
+     "에스테르는 수사의 유다인들에게 며칠 동안 단식하라고 청했는가?",
+     "3",
+     "7",
+     "40"
+    ],
+    "ar": [
+     "كم يومًا طلبت أستير من يهود شوشن أن يصوموا؟",
+     "3",
+     "7",
+     "40"
+    ]
+   }
+  },
+  {
+   "id": "ch-esther-001-17",
+   "book": "esther",
+   "chapter": 4,
+   "difficulty": "medium",
+   "ref": "Esther 4:1",
+   "text": {
+    "en": [
+     "What did Mordecai put on, with ashes, when he learned of Haman's decree?",
+     "Sackcloth",
+     "Silk",
+     "Armor"
+    ],
+    "es": [
+     "¿Qué se puso Mardoqueo junto con ceniza al enterarse del decreto de Amán?",
+     "Saco",
+     "Seda",
+     "Armadura"
+    ],
+    "pt": [
+     "O que Mardoqueu vestiu, com cinzas, ao saber do decreto de Amã?",
+     "Saco",
+     "Seda",
+     "Armadura"
+    ],
+    "fr": [
+     "Que revêtit Mardochée, avec de la cendre, en apprenant le décret de Haman ?",
+     "Sac",
+     "Soie",
+     "Armure"
+    ],
+    "de": [
+     "Was zog Mordechai samt Asche an, als er von Hamans Erlass erfuhr?",
+     "Sack",
+     "Seide",
+     "Rüstung"
+    ],
+    "it": [
+     "Che cosa indossò Mardocheo, con la cenere, quando seppe del decreto di Aman?",
+     "Sacco",
+     "Seta",
+     "Armatura"
+    ],
+    "pl": [
+     "Co włożył Mardocheusz wraz z popiołem, gdy dowiedział się o dekrecie Hamana?",
+     "Wór",
+     "Jedwab",
+     "Zbroja"
+    ],
+    "ru": [
+     "Что надел Мардохей вместе с пеплом, узнав об указе Амана?",
+     "Вретище",
+     "Шёлк",
+     "Доспехи"
+    ],
+    "tr": [
+     "Mordekay, Haman'ın fermanını öğrenince küllerle birlikte ne giydi?",
+     "Çul",
+     "İpek",
+     "Zırh"
+    ],
+    "ja": [
+     "モルデカイはハマンの勅令を知り、灰とともに何をまとった？",
+     "粗布",
+     "絹",
+     "鎧"
+    ],
+    "ko": [
+     "모르도카이는 하만의 칙령을 알고 재와 함께 무엇을 입었는가?",
+     "자루옷",
+     "비단",
+     "갑옷"
+    ],
+    "ar": [
+     "ماذا لبس مردخاي مع الرماد عندما علم بمرسوم هامان؟",
+     "مسح",
+     "حرير",
+     "درع"
+    ]
+   }
+  },
+  {
+   "id": "ch-esther-001-18",
+   "book": "esther",
+   "chapter": 4,
+   "difficulty": "hard",
+   "ref": "Esther 4:5",
+   "text": {
+    "en": [
+     "Which eunuch carried messages between Queen Esther and Mordecai?",
+     "Hathach",
+     "Hegai",
+     "Harbona"
+    ],
+    "es": [
+     "¿Qué eunuco llevó mensajes entre la reina Ester y Mardoqueo?",
+     "Hatac",
+     "Hegai",
+     "Harbona"
+    ],
+    "pt": [
+     "Que eunuco levou mensagens entre a rainha Ester e Mardoqueu?",
+     "Hatac",
+     "Hegai",
+     "Harbona"
+    ],
+    "fr": [
+     "Quel eunuque porta les messages entre la reine Esther et Mardochée ?",
+     "Hatac",
+     "Hégaï",
+     "Harbona"
+    ],
+    "de": [
+     "Welcher Eunuch überbrachte Botschaften zwischen Königin Ester und Mordechai?",
+     "Hatach",
+     "Hegai",
+     "Charbona"
+    ],
+    "it": [
+     "Quale eunuco portò i messaggi tra la regina Ester e Mardocheo?",
+     "Atac",
+     "Egai",
+     "Carbona"
+    ],
+    "pl": [
+     "Który eunuch przenosił wiadomości między królową Esterą a Mardocheuszem?",
+     "Hatach",
+     "Hegaj",
+     "Charbona"
+    ],
+    "ru": [
+     "Какой евнух передавал вести между царицей Есфирью и Мардохеем?",
+     "Гафах",
+     "Гегей",
+     "Харвона"
+    ],
+    "tr": [
+     "Kraliçe Ester ile Mordekay arasında haber taşıyan haremağası kimdi?",
+     "Hatak",
+     "Hegay",
+     "Harbona"
+    ],
+    "ja": [
+     "エステル王妃とモルデカイの間で伝言を運んだ宦官は？",
+     "ハタク",
+     "ヘガイ",
+     "ハルボナ"
+    ],
+    "ko": [
+     "에스테르 왕비와 모르도카이 사이에서 소식을 전한 내시는 누구인가?",
+     "하탁",
+     "헤가이",
+     "하르보나"
+    ],
+    "ar": [
+     "أي خصي نقل الرسائل بين الملكة أستير ومردخاي؟",
+     "هتاخ",
+     "هيجاي",
+     "حربونا"
+    ]
+   }
+  },
+  {
+   "id": "ch-esther-001-19",
+   "book": "esther",
+   "chapter": 4,
+   "difficulty": "expert",
+   "ref": "Esther 4:11",
+   "text": {
+    "en": [
+     "For how many days had the king not summoned Esther before she approached him?",
+     "30",
+     "7",
+     "100"
+    ],
+    "es": [
+     "¿Cuántos días llevaba el rey sin llamar a Ester antes de que ella se presentara?",
+     "30",
+     "7",
+     "100"
+    ],
+    "pt": [
+     "Quantos dias fazia que o rei não chamava Ester, antes de ela se apresentar?",
+     "30",
+     "7",
+     "100"
+    ],
+    "fr": [
+     "Depuis combien de jours le roi n'avait-il pas appelé Esther avant qu'elle se présente ?",
+     "30",
+     "7",
+     "100"
+    ],
+    "de": [
+     "Seit wie vielen Tagen hatte der König Ester nicht gerufen, bevor sie zu ihm ging?",
+     "30",
+     "7",
+     "100"
+    ],
+    "it": [
+     "Da quanti giorni il re non chiamava Ester prima che lei si presentasse?",
+     "30",
+     "7",
+     "100"
+    ],
+    "pl": [
+     "Od ilu dni król nie wzywał Estery, zanim sama do niego poszła?",
+     "30",
+     "7",
+     "100"
+    ],
+    "ru": [
+     "Сколько дней царь не звал Есфирь до того, как она пришла к нему?",
+     "30",
+     "7",
+     "100"
+    ],
+    "tr": [
+     "Ester krala gitmeden önce, kral onu kaç gündür yanına çağırmamıştı?",
+     "30",
+     "7",
+     "100"
+    ],
+    "ja": [
+     "エステルが王の前に出る前、王に召されずに何日たっていた？",
+     "30",
+     "7",
+     "100"
+    ],
+    "ko": [
+     "에스테르가 임금 앞에 나아가기 전, 임금이 그를 부르지 않은 지 며칠이었는가?",
+     "30",
+     "7",
+     "100"
+    ],
+    "ar": [
+     "منذ كم يومًا لم يدعُ الملك أستير قبل أن تتقدم إليه؟",
+     "30",
+     "7",
+     "100"
+    ]
+   }
+  },
+  {
+   "id": "ch-esther-001-20",
+   "book": "esther",
+   "chapter": 4,
+   "difficulty": "impossible",
+   "ref": "Esther 4:6",
+   "text": {
+    "en": [
+     "In which open place of Susa did Esther's messenger find Mordecai?",
+     "Square",
+     "Temple",
+     "Prison"
+    ],
+    "es": [
+     "¿En qué lugar abierto de Susa encontró el mensajero de Ester a Mardoqueo?",
+     "Plaza",
+     "Templo",
+     "Prisión"
+    ],
+    "pt": [
+     "Em que lugar aberto de Susa o mensageiro de Ester encontrou Mardoqueu?",
+     "Praça",
+     "Templo",
+     "Prisão"
+    ],
+    "fr": [
+     "Dans quel lieu ouvert de Suse le messager d'Esther trouva-t-il Mardochée ?",
+     "Place",
+     "Temple",
+     "Prison"
+    ],
+    "de": [
+     "An welchem offenen Ort in Susa fand Esters Bote Mordechai?",
+     "Platz",
+     "Tempel",
+     "Gefängnis"
+    ],
+    "it": [
+     "In quale spazio aperto di Susa il messaggero di Ester trovò Mardocheo?",
+     "Piazza",
+     "Tempio",
+     "Prigione"
+    ],
+    "pl": [
+     "Na jakim otwartym miejscu w Suzie wysłannik Estery znalazł Mardocheusza?",
+     "Plac",
+     "Świątynia",
+     "Więzienie"
+    ],
+    "ru": [
+     "На каком открытом месте в Сузах посланец Есфири нашёл Мардохея?",
+     "Площадь",
+     "Храм",
+     "Тюрьма"
+    ],
+    "tr": [
+     "Ester'in elçisi Mordekay'ı Şuşan'ın hangi açık yerinde buldu?",
+     "Meydan",
+     "Tapınak",
+     "Hapishane"
+    ],
+    "ja": [
+     "エステルの使者はスサのどこでモルデカイに会った？",
+     "広場",
+     "神殿",
+     "牢獄"
+    ],
+    "ko": [
+     "에스테르의 사자는 수사의 어느 탁 트인 곳에서 모르도카이를 만났는가?",
+     "광장",
+     "성전",
+     "감옥"
+    ],
+    "ar": [
+     "في أي مكان مفتوح بشوشن وجد رسول أستير مردخاي؟",
+     "ساحة",
+     "هيكل",
+     "سجن"
+    ]
+   }
+  },
+  {
+   "id": "ch-esther-001-21",
+   "book": "esther",
+   "chapter": 5,
+   "difficulty": "easy",
+   "ref": "Esther 5:2",
+   "text": {
+    "en": [
+     "What did the king hold out to Esther, sparing her when she entered uninvited?",
+     "Scepter",
+     "Sword",
+     "Ring"
+    ],
+    "es": [
+     "¿Qué extendió el rey hacia Ester, perdonándole la vida cuando entró sin ser llamada?",
+     "Cetro",
+     "Espada",
+     "Anillo"
+    ],
+    "pt": [
+     "O que o rei estendeu a Ester, poupando-a quando ela entrou sem ser chamada?",
+     "Cetro",
+     "Espada",
+     "Anel"
+    ],
+    "fr": [
+     "Que le roi tendit-il à Esther, l'épargnant quand elle entra sans être appelée ?",
+     "Sceptre",
+     "Épée",
+     "Anneau"
+    ],
+    "de": [
+     "Was streckte der König Ester entgegen, als sie ungerufen eintrat und verschont wurde?",
+     "Zepter",
+     "Schwert",
+     "Ring"
+    ],
+    "it": [
+     "Che cosa porse il re a Ester, risparmiandola quando entrò senza essere chiamata?",
+     "Scettro",
+     "Spada",
+     "Anello"
+    ],
+    "pl": [
+     "Co król wyciągnął ku Esterze, darując jej życie, gdy weszła niewezwana?",
+     "Berło",
+     "Miecz",
+     "Pierścień"
+    ],
+    "ru": [
+     "Что царь протянул Есфири, пощадив её, когда она вошла без зова?",
+     "Скипетр",
+     "Меч",
+     "Перстень"
+    ],
+    "tr": [
+     "Ester çağrılmadan içeri girdiğinde kral onu bağışlayarak ona ne uzattı?",
+     "Asa",
+     "Kılıç",
+     "Yüzük"
+    ],
+    "ja": [
+     "召されずに入ったエステルに、王が差し伸べて命を救った物は？",
+     "笏",
+     "剣",
+     "指輪"
+    ],
+    "ko": [
+     "부름 없이 들어온 에스테르에게 임금이 내밀어 살려 준 것은?",
+     "홀",
+     "칼",
+     "반지"
+    ],
+    "ar": [
+     "ماذا مدّ الملك إلى أستير ليُبقي على حياتها حين دخلت دون أن تُدعى؟",
+     "صولجان",
+     "سيف",
+     "خاتم"
+    ]
+   }
+  },
+  {
+   "id": "ch-esther-001-22",
+   "book": "esther",
+   "chapter": 5,
+   "difficulty": "medium",
+   "ref": "Esther 5:4",
+   "text": {
+    "en": [
+     "To what did Queen Esther invite the king and Haman?",
+     "Banquet",
+     "Wedding",
+     "Funeral"
+    ],
+    "es": [
+     "¿A qué invitó la reina Ester al rey y a Amán?",
+     "Banquete",
+     "Boda",
+     "Funeral"
+    ],
+    "pt": [
+     "A que a rainha Ester convidou o rei e Amã?",
+     "Banquete",
+     "Casamento",
+     "Funeral"
+    ],
+    "fr": [
+     "À quoi la reine Esther invita-t-elle le roi et Haman ?",
+     "Banquet",
+     "Mariage",
+     "Enterrement"
+    ],
+    "de": [
+     "Wozu lud Königin Ester den König und Haman ein?",
+     "Gastmahl",
+     "Hochzeit",
+     "Begräbnis"
+    ],
+    "it": [
+     "A che cosa invitò la regina Ester il re e Aman?",
+     "Banchetto",
+     "Nozze",
+     "Funerale"
+    ],
+    "pl": [
+     "Na co królowa Estera zaprosiła króla i Hamana?",
+     "Uczta",
+     "Wesele",
+     "Pogrzeb"
+    ],
+    "ru": [
+     "На что царица Есфирь пригласила царя и Амана?",
+     "Пир",
+     "Свадьба",
+     "Похороны"
+    ],
+    "tr": [
+     "Kraliçe Ester, kral ile Haman'ı neye davet etti?",
+     "Ziyafet",
+     "Düğün",
+     "Cenaze"
+    ],
+    "ja": [
+     "エステル王妃は王とハマンを何に招いた？",
+     "宴会",
+     "結婚式",
+     "葬儀"
+    ],
+    "ko": [
+     "에스테르 왕비는 임금과 하만을 무엇에 초대했는가?",
+     "잔치",
+     "결혼식",
+     "장례식"
+    ],
+    "ar": [
+     "إلى ماذا دعت الملكة أستير الملك وهامان؟",
+     "وليمة",
+     "عرس",
+     "جنازة"
+    ]
+   }
+  },
+  {
+   "id": "ch-esther-001-23",
+   "book": "esther",
+   "chapter": 5,
+   "difficulty": "hard",
+   "ref": "Esther 5:14",
+   "text": {
+    "en": [
+     "How many cubits high was the gallows Haman built for Mordecai?",
+     "50",
+     "30",
+     "100"
+    ],
+    "es": [
+     "¿Cuántos codos de altura tenía la horca que Amán levantó para Mardoqueo?",
+     "50",
+     "30",
+     "100"
+    ],
+    "pt": [
+     "Quantos côvados de altura tinha a forca que Amã construiu para Mardoqueu?",
+     "50",
+     "30",
+     "100"
+    ],
+    "fr": [
+     "De combien de coudées de haut était la potence que Haman fit dresser pour Mardochée ?",
+     "50",
+     "30",
+     "100"
+    ],
+    "de": [
+     "Wie viele Ellen hoch war der Galgen, den Haman für Mordechai errichten ließ?",
+     "50",
+     "30",
+     "100"
+    ],
+    "it": [
+     "Quanti cubiti era alta la forca che Aman fece preparare per Mardocheo?",
+     "50",
+     "30",
+     "100"
+    ],
+    "pl": [
+     "Ile łokci wysokości miała szubienica, którą Haman kazał postawić dla Mardocheusza?",
+     "50",
+     "30",
+     "100"
+    ],
+    "ru": [
+     "Сколько локтей высотой была виселица, которую Аман приготовил для Мардохея?",
+     "50",
+     "30",
+     "100"
+    ],
+    "tr": [
+     "Haman'ın Mordekay için kurdurduğu darağacı kaç arşın yüksekliğindeydi?",
+     "50",
+     "30",
+     "100"
+    ],
+    "ja": [
+     "ハマンがモルデカイのために立てさせた柱は、高さ何アンマ？",
+     "50",
+     "30",
+     "100"
+    ],
+    "ko": [
+     "하만이 모르도카이를 위해 세운 교수대는 높이가 몇 암마였는가?",
+     "50",
+     "30",
+     "100"
+    ],
+    "ar": [
+     "كم ذراعًا كان ارتفاع الخشبة التي نصبها هامان لمردخاي؟",
+     "50",
+     "30",
+     "100"
+    ]
+   }
+  },
+  {
+   "id": "ch-esther-001-24",
+   "book": "esther",
+   "chapter": 5,
+   "difficulty": "expert",
+   "ref": "Esther 5:14",
+   "text": {
+    "en": [
+     "Which woman advised Haman to build a gallows for Mordecai?",
+     "Zeresh",
+     "Vashti",
+     "Esther"
+    ],
+    "es": [
+     "¿Qué mujer aconsejó a Amán levantar una horca para Mardoqueo?",
+     "Zeres",
+     "Vasti",
+     "Ester"
+    ],
+    "pt": [
+     "Que mulher aconselhou Amã a construir uma forca para Mardoqueu?",
+     "Zares",
+     "Vasti",
+     "Ester"
+    ],
+    "fr": [
+     "Quelle femme conseilla à Haman de dresser une potence pour Mardochée ?",
+     "Zérèsh",
+     "Vasthi",
+     "Esther"
+    ],
+    "de": [
+     "Welche Frau riet Haman, einen Galgen für Mordechai zu errichten?",
+     "Seresch",
+     "Waschti",
+     "Ester"
+    ],
+    "it": [
+     "Quale donna consigliò ad Aman di preparare una forca per Mardocheo?",
+     "Zeres",
+     "Vasti",
+     "Ester"
+    ],
+    "pl": [
+     "Która kobieta poradziła Hamanowi postawić szubienicę dla Mardocheusza?",
+     "Zeresz",
+     "Wasti",
+     "Estera"
+    ],
+    "ru": [
+     "Какая женщина посоветовала Аману приготовить виселицу для Мардохея?",
+     "Зерешь",
+     "Астинь",
+     "Есфирь"
+    ],
+    "tr": [
+     "Hangi kadın Haman'a Mordekay için darağacı kurdurmasını öğütledi?",
+     "Zereş",
+     "Vaşti",
+     "Ester"
+    ],
+    "ja": [
+     "ハマンにモルデカイのための柱を立てるよう勧めた女性は？",
+     "ゼレシュ",
+     "ワシュティ",
+     "エステル"
+    ],
+    "ko": [
+     "하만에게 모르도카이를 위한 교수대를 세우라고 권한 여인은 누구인가?",
+     "제레스",
+     "와스티",
+     "에스테르"
+    ],
+    "ar": [
+     "أي امرأة أشارت على هامان بنصب خشبة لمردخاي؟",
+     "زرش",
+     "وشتي",
+     "أستير"
+    ]
+   }
+  },
+  {
+   "id": "ch-esther-001-25",
+   "book": "esther",
+   "chapter": 5,
+   "difficulty": "impossible",
+   "ref": "Esther 5:6",
+   "text": {
+    "en": [
+     "At Esther's first banquet for the king and Haman, what was served to drink?",
+     "Wine",
+     "Milk",
+     "Water"
+    ],
+    "es": [
+     "¿Qué se sirvió de beber en el primer banquete de Ester para el rey y Amán?",
+     "Vino",
+     "Leche",
+     "Agua"
+    ],
+    "pt": [
+     "O que se serviu para beber no primeiro banquete de Ester para o rei e Amã?",
+     "Vinho",
+     "Leite",
+     "Água"
+    ],
+    "fr": [
+     "Qu'a-t-on servi à boire au premier banquet d'Esther pour le roi et Haman ?",
+     "Vin",
+     "Lait",
+     "Eau"
+    ],
+    "de": [
+     "Was wurde beim ersten Gastmahl Esters für den König und Haman zu trinken serviert?",
+     "Wein",
+     "Milch",
+     "Wasser"
+    ],
+    "it": [
+     "Che cosa si servì da bere al primo banchetto di Ester per il re e Aman?",
+     "Vino",
+     "Latte",
+     "Acqua"
+    ],
+    "pl": [
+     "Co podano do picia na pierwszej uczcie Estery dla króla i Hamana?",
+     "Wino",
+     "Mleko",
+     "Woda"
+    ],
+    "ru": [
+     "Что подавали пить на первом пиру Есфири для царя и Амана?",
+     "Вино",
+     "Молоко",
+     "Вода"
+    ],
+    "tr": [
+     "Ester'in kral ve Haman için verdiği ilk ziyafette içmek için ne sunuldu?",
+     "Şarap",
+     "Süt",
+     "Su"
+    ],
+    "ja": [
+     "エステルが王とハマンのために開いた最初の宴で、飲み物は何が出された？",
+     "ぶどう酒",
+     "乳",
+     "水"
+    ],
+    "ko": [
+     "에스테르가 임금과 하만을 위해 연 첫 잔치에서 마실 것으로 무엇이 나왔는가?",
+     "포도주",
+     "젖",
+     "물"
+    ],
+    "ar": [
+     "ما الذي قُدّم للشرب في أول وليمة أقامتها أستير للملك وهامان؟",
+     "خمر",
+     "لبن",
+     "ماء"
+    ]
+   }
+  },
+  {
+   "id": "ch-esther-001-26",
+   "book": "esther",
+   "chapter": 6,
+   "difficulty": "easy",
+   "ref": "Esther 6:11",
+   "text": {
+    "en": [
+     "Haman thought the king wished to honor him. Whom did the king honor instead?",
+     "Mordecai",
+     "Memucan",
+     "Hegai"
+    ],
+    "es": [
+     "Amán creyó que el rey lo honraría a él. ¿A quién honró el rey en cambio?",
+     "Mardoqueo",
+     "Memucán",
+     "Hegai"
+    ],
+    "pt": [
+     "Amã achou que o rei o honraria. A quem o rei honrou em vez disso?",
+     "Mardoqueu",
+     "Memucã",
+     "Hegai"
+    ],
+    "fr": [
+     "Haman crut que le roi voulait l'honorer. Qui le roi honora-t-il à sa place ?",
+     "Mardochée",
+     "Memucân",
+     "Hégaï"
+    ],
+    "de": [
+     "Haman dachte, der König wolle ihn ehren. Wen ehrte der König stattdessen?",
+     "Mordechai",
+     "Memuchan",
+     "Hegai"
+    ],
+    "it": [
+     "Aman pensava che il re volesse onorare lui. Chi onorò invece il re?",
+     "Mardocheo",
+     "Memucan",
+     "Egai"
+    ],
+    "pl": [
+     "Haman sądził, że król chce uhonorować jego. Kogo król uhonorował zamiast niego?",
+     "Mardocheusz",
+     "Memukan",
+     "Hegaj"
+    ],
+    "ru": [
+     "Аман думал, что царь хочет почтить его. Кого царь почтил вместо него?",
+     "Мардохей",
+     "Мемухан",
+     "Гегей"
+    ],
+    "tr": [
+     "Haman kralın kendisini onurlandıracağını sandı. Kral bunun yerine kimi onurlandırdı?",
+     "Mordekay",
+     "Memukan",
+     "Hegay"
+    ],
+    "ja": [
+     "ハマンは王が自分を称えると思った。王が代わりに称えたのは誰？",
+     "モルデカイ",
+     "メムカン",
+     "ヘガイ"
+    ],
+    "ko": [
+     "하만은 임금이 자기를 높여 주리라 생각했다. 임금이 대신 높인 사람은 누구인가?",
+     "모르도카이",
+     "므무칸",
+     "헤가이"
+    ],
+    "ar": [
+     "ظنّ هامان أن الملك يريد تكريمه. فمن كرّم الملك بدلًا منه؟",
+     "مردخاي",
+     "مموكان",
+     "هيجاي"
+    ]
+   }
+  },
+  {
+   "id": "ch-esther-001-27",
+   "book": "esther",
+   "chapter": 6,
+   "difficulty": "medium",
+   "ref": "Esther 6:11",
+   "text": {
+    "en": [
+     "On which animal did Haman parade Mordecai through the city square?",
+     "Horse",
+     "Camel",
+     "Donkey"
+    ],
+    "es": [
+     "¿Sobre qué animal paseó Amán a Mardoqueo por la plaza de la ciudad?",
+     "Caballo",
+     "Camello",
+     "Asno"
+    ],
+    "pt": [
+     "Em que animal Amã conduziu Mardoqueu pela praça da cidade?",
+     "Cavalo",
+     "Camelo",
+     "Jumento"
+    ],
+    "fr": [
+     "Sur quel animal Haman promena-t-il Mardochée sur la place de la ville ?",
+     "Cheval",
+     "Chameau",
+     "Âne"
+    ],
+    "de": [
+     "Auf welchem Tier führte Haman Mordechai über den Platz der Stadt?",
+     "Pferd",
+     "Kamel",
+     "Esel"
+    ],
+    "it": [
+     "Su quale animale Aman condusse Mardocheo per la piazza della città?",
+     "Cavallo",
+     "Cammello",
+     "Asino"
+    ],
+    "pl": [
+     "Na jakim zwierzęciu Haman oprowadzał Mardocheusza po placu miejskim?",
+     "Koń",
+     "Wielbłąd",
+     "Osioł"
+    ],
+    "ru": [
+     "На каком животном Аман провёл Мардохея по городской площади?",
+     "Конь",
+     "Верблюд",
+     "Осёл"
+    ],
+    "tr": [
+     "Haman, Mordekay'ı şehir meydanında hangi hayvanın üstünde dolaştırdı?",
+     "At",
+     "Deve",
+     "Eşek"
+    ],
+    "ja": [
+     "ハマンはモルデカイを何の動物に乗せて町の広場を巡らせた？",
+     "馬",
+     "ラクダ",
+     "ロバ"
+    ],
+    "ko": [
+     "하만은 모르도카이를 어떤 짐승에 태워 도성 광장을 돌았는가?",
+     "말",
+     "낙타",
+     "나귀"
+    ],
+    "ar": [
+     "على أي حيوان طاف هامان بمردخاي في ساحة المدينة؟",
+     "حصان",
+     "جمل",
+     "حمار"
+    ]
+   }
+  },
+  {
+   "id": "ch-esther-001-28",
+   "book": "esther",
+   "chapter": 6,
+   "difficulty": "hard",
+   "ref": "Esther 6:12",
+   "text": {
+    "en": [
+     "After Haman's parade, to which place did Mordecai return?",
+     "Gate",
+     "Home",
+     "Temple"
+    ],
+    "es": [
+     "Tras el desfile de Amán, ¿a qué lugar volvió Mardoqueo?",
+     "Puerta",
+     "Casa",
+     "Templo"
+    ],
+    "pt": [
+     "Depois do desfile de Amã, a que lugar Mardoqueu voltou?",
+     "Porta",
+     "Casa",
+     "Templo"
+    ],
+    "fr": [
+     "Après le défilé de Haman, à quel endroit Mardochée retourna-t-il ?",
+     "Porte",
+     "Maison",
+     "Temple"
+    ],
+    "de": [
+     "Wohin kehrte Mordechai nach Hamans Umzug zurück?",
+     "Tor",
+     "Haus",
+     "Tempel"
+    ],
+    "it": [
+     "Dopo la parata di Aman, in quale luogo tornò Mardocheo?",
+     "Porta",
+     "Casa",
+     "Tempio"
+    ],
+    "pl": [
+     "Do jakiego miejsca wrócił Mardocheusz po pochodzie Hamana?",
+     "Brama",
+     "Dom",
+     "Świątynia"
+    ],
+    "ru": [
+     "В какое место вернулся Мардохей после шествия, устроенного Аманом?",
+     "Ворота",
+     "Дом",
+     "Храм"
+    ],
+    "tr": [
+     "Haman'ın düzenlediği geçit töreninden sonra Mordekay nereye döndü?",
+     "Kapı",
+     "Ev",
+     "Tapınak"
+    ],
+    "ja": [
+     "ハマンによる行進の後、モルデカイはどこへ戻った？",
+     "門",
+     "家",
+     "神殿"
+    ],
+    "ko": [
+     "하만이 행렬을 이끈 뒤 모르도카이는 어디로 돌아갔는가?",
+     "대문",
+     "집",
+     "성전"
+    ],
+    "ar": [
+     "إلى أين عاد مردخاي بعد موكب هامان؟",
+     "باب",
+     "بيت",
+     "هيكل"
+    ]
+   }
+  },
+  {
+   "id": "ch-esther-001-29",
+   "book": "esther",
+   "chapter": 6,
+   "difficulty": "expert",
+   "ref": "Esther 6:14",
+   "text": {
+    "en": [
+     "Who hurried Haman away to Esther's second banquet?",
+     "Eunuchs",
+     "Soldiers",
+     "Priests"
+    ],
+    "es": [
+     "¿Quiénes se llevaron a toda prisa a Amán al segundo banquete de Ester?",
+     "Eunucos",
+     "Soldados",
+     "Sacerdotes"
+    ],
+    "pt": [
+     "Quem levou Amã às pressas ao segundo banquete de Ester?",
+     "Eunucos",
+     "Soldados",
+     "Sacerdotes"
+    ],
+    "fr": [
+     "Qui emmena en hâte Haman au second banquet d'Esther ?",
+     "Eunuques",
+     "Soldats",
+     "Prêtres"
+    ],
+    "de": [
+     "Wer holte Haman eilig zu Esters zweitem Gastmahl ab?",
+     "Eunuchen",
+     "Soldaten",
+     "Priester"
+    ],
+    "it": [
+     "Chi condusse in fretta Aman al secondo banchetto di Ester?",
+     "Eunuchi",
+     "Soldati",
+     "Sacerdoti"
+    ],
+    "pl": [
+     "Kto pospiesznie zabrał Hamana na drugą ucztę Estery?",
+     "Eunuchowie",
+     "Żołnierze",
+     "Kapłani"
+    ],
+    "ru": [
+     "Кто поспешно увёл Амана на второй пир Есфири?",
+     "Евнухи",
+     "Воины",
+     "Священники"
+    ],
+    "tr": [
+     "Haman'ı Ester'in ikinci ziyafetine aceleyle kimler götürdü?",
+     "Hadımlar",
+     "Askerler",
+     "Kâhinler"
+    ],
+    "ja": [
+     "ハマンをエステルの二度目の宴へ急がせたのは誰？",
+     "宦官",
+     "兵士",
+     "祭司"
+    ],
+    "ko": [
+     "하만을 서둘러 에스테르의 두 번째 잔치로 데려간 이들은 누구인가?",
+     "내시",
+     "군인",
+     "사제"
+    ],
+    "ar": [
+     "من استعجل هامان إلى وليمة أستير الثانية؟",
+     "خصيان",
+     "جنود",
+     "كهنة"
+    ]
+   }
+  },
+  {
+   "id": "ch-esther-001-30",
+   "book": "esther",
+   "chapter": 6,
+   "difficulty": "impossible",
+   "ref": "Esther 6:12",
+   "text": {
+    "en": [
+     "After parading Mordecai, which body part did Haman cover hurrying home?",
+     "Head",
+     "Feet",
+     "Hands"
+    ],
+    "es": [
+     "¿Qué parte del cuerpo se cubrió Amán al volver aprisa a casa tras pasear a Mardoqueo?",
+     "Cabeza",
+     "Pies",
+     "Manos"
+    ],
+    "pt": [
+     "Que parte do corpo Amã cobriu ao voltar apressado para casa depois de conduzir Mardoqueu?",
+     "Cabeça",
+     "Pés",
+     "Mãos"
+    ],
+    "fr": [
+     "Après avoir promené Mardochée, quelle partie du corps Haman se couvrit-il en rentrant hâtivement chez lui ?",
+     "Tête",
+     "Pieds",
+     "Mains"
+    ],
+    "de": [
+     "Welchen Körperteil verhüllte Haman, als er nach Mordechais Umzug eilig heimkehrte?",
+     "Kopf",
+     "Füße",
+     "Hände"
+    ],
+    "it": [
+     "Dopo aver condotto Mardocheo in giro, quale parte del corpo si coprì Aman tornando in fretta a casa?",
+     "Testa",
+     "Piedi",
+     "Mani"
+    ],
+    "pl": [
+     "Co ze swego ciała zakrył Haman, gdy po pochodzie z Mardocheuszem pospieszył do domu?",
+     "Głowę",
+     "Stopy",
+     "Ręce"
+    ],
+    "ru": [
+     "Что из частей тела закрыл Аман, поспешив домой после шествия с Мардохеем?",
+     "Голову",
+     "Ноги",
+     "Руки"
+    ],
+    "tr": [
+     "Mordekay'ı dolaştırdıktan sonra Haman acele evine dönerken vücudunun neresini örttü?",
+     "Başını",
+     "Ayaklarını",
+     "Ellerini"
+    ],
+    "ja": [
+     "モルデカイを行進させた後、急いで帰宅したハマンが覆ったのは体のどこ？",
+     "頭",
+     "足",
+     "手"
+    ],
+    "ko": [
+     "하만은 모르도카이를 행렬시킨 뒤 서둘러 집으로 가면서 몸의 어디를 가렸는가?",
+     "머리",
+     "발",
+     "손"
+    ],
+    "ar": [
+     "بعد موكب مردخاي، أي جزء من جسده غطّاه هامان وهو يسرع إلى بيته؟",
+     "رأس",
+     "أقدام",
+     "أيدي"
+    ]
+   }
+  },
+  {
+   "id": "ch-esther-001-31",
+   "book": "esther",
+   "chapter": 7,
+   "difficulty": "easy",
+   "ref": "Esther 7:10",
+   "text": {
+    "en": [
+     "Whom did the king hang on the gallows built for Mordecai?",
+     "Haman",
+     "Memucan",
+     "Hathach"
+    ],
+    "es": [
+     "¿A quién hizo ahorcar el rey en la horca construida para Mardoqueo?",
+     "Amán",
+     "Memucán",
+     "Hatac"
+    ],
+    "pt": [
+     "Quem o rei mandou enforcar na forca construída para Mardoqueu?",
+     "Amã",
+     "Memucã",
+     "Hatac"
+    ],
+    "fr": [
+     "Qui le roi fit-il pendre à la potence dressée pour Mardochée ?",
+     "Haman",
+     "Memucân",
+     "Hatac"
+    ],
+    "de": [
+     "Wen ließ der König an dem für Mordechai errichteten Galgen hängen?",
+     "Haman",
+     "Memuchan",
+     "Hatach"
+    ],
+    "it": [
+     "Chi fece impiccare il re sulla forca preparata per Mardocheo?",
+     "Aman",
+     "Memucan",
+     "Atac"
+    ],
+    "pl": [
+     "Kogo król kazał powiesić na szubienicy zbudowanej dla Mardocheusza?",
+     "Haman",
+     "Memukan",
+     "Hatach"
+    ],
+    "ru": [
+     "Кого царь велел повесить на виселице, приготовленной для Мардохея?",
+     "Аман",
+     "Мемухан",
+     "Гафах"
+    ],
+    "tr": [
+     "Kral, Mordekay için kurulan darağacına kimi astırdı?",
+     "Haman",
+     "Memukan",
+     "Hatak"
+    ],
+    "ja": [
+     "王はモルデカイのために立てられた柱に誰を掛けさせた？",
+     "ハマン",
+     "メムカン",
+     "ハタク"
+    ],
+    "ko": [
+     "임금은 모르도카이를 위해 세워진 교수대에 누구를 매달게 했는가?",
+     "하만",
+     "므무칸",
+     "하탁"
+    ],
+    "ar": [
+     "من أمر الملك بشنقه على الخشبة المعدّة لمردخاي؟",
+     "هامان",
+     "مموكان",
+     "هتاخ"
+    ]
+   }
+  },
+  {
+   "id": "ch-esther-001-32",
+   "book": "esther",
+   "chapter": 7,
+   "difficulty": "medium",
+   "ref": "Esther 7:7",
+   "text": {
+    "en": [
+     "What did Haman beg Queen Esther to spare after seeing the king's anger?",
+     "Life",
+     "Wealth",
+     "Honor"
+    ],
+    "es": [
+     "¿Qué rogó Amán a la reina Ester que le perdonara al ver la ira del rey?",
+     "Vida",
+     "Riqueza",
+     "Honor"
+    ],
+    "pt": [
+     "O que Amã suplicou à rainha Ester que poupasse ao ver a ira do rei?",
+     "Vida",
+     "Riqueza",
+     "Honra"
+    ],
+    "fr": [
+     "Que supplia Haman la reine Esther d'épargner en voyant la colère du roi ?",
+     "Vie",
+     "Richesse",
+     "Honneur"
+    ],
+    "de": [
+     "Worum flehte Haman Königin Ester an, als er den Zorn des Königs sah?",
+     "Leben",
+     "Reichtum",
+     "Ehre"
+    ],
+    "it": [
+     "Che cosa supplicò Aman alla regina Ester di risparmiare vedendo l'ira del re?",
+     "Vita",
+     "Ricchezza",
+     "Onore"
+    ],
+    "pl": [
+     "O co błagał królową Esterę Haman, widząc gniew króla?",
+     "Życie",
+     "Bogactwo",
+     "Honor"
+    ],
+    "ru": [
+     "Что Аман умолял царицу Есфирь сохранить, увидев гнев царя?",
+     "Жизнь",
+     "Богатство",
+     "Честь"
+    ],
+    "tr": [
+     "Haman, kralın öfkesini görünce Kraliçe Ester'den neyi bağışlamasını diledi?",
+     "Can",
+     "Servet",
+     "Onur"
+    ],
+    "ja": [
+     "ハマンは王の怒りを知り、王妃エステルに何を乞うた？",
+     "命",
+     "富",
+     "名誉"
+    ],
+    "ko": [
+     "하만은 임금의 분노를 보고 에스테르 왕비에게 무엇을 살려 달라고 빌었는가?",
+     "목숨",
+     "재산",
+     "명예"
+    ],
+    "ar": [
+     "ماذا توسّل هامان إلى الملكة أستير أن تُنقذ حين رأى غضب الملك؟",
+     "حياة",
+     "ثروة",
+     "شرف"
+    ]
+   }
+  },
+  {
+   "id": "ch-esther-001-33",
+   "book": "esther",
+   "chapter": 7,
+   "difficulty": "hard",
+   "ref": "Esther 7:7",
+   "text": {
+    "en": [
+     "In anger, to which place did King Ahasuerus go from the banquet?",
+     "Garden",
+     "Temple",
+     "Prison"
+    ],
+    "es": [
+     "¿A qué lugar salió el rey Asuero, furioso, desde el banquete?",
+     "Jardín",
+     "Templo",
+     "Prisión"
+    ],
+    "pt": [
+     "Furioso, para que lugar o rei Assuero saiu do banquete?",
+     "Jardim",
+     "Templo",
+     "Prisão"
+    ],
+    "fr": [
+     "Furieux, dans quel lieu le roi Assuérus sortit-il du banquet ?",
+     "Jardin",
+     "Temple",
+     "Prison"
+    ],
+    "de": [
+     "Wohin ging König Xerxes zornig vom Gastmahl weg?",
+     "Garten",
+     "Tempel",
+     "Gefängnis"
+    ],
+    "it": [
+     "Pieno d'ira, in quale luogo uscì dal banchetto il re Assuero?",
+     "Giardino",
+     "Tempio",
+     "Prigione"
+    ],
+    "pl": [
+     "Do jakiego miejsca wyszedł z uczty rozgniewany król Kserkses?",
+     "Ogród",
+     "Świątynia",
+     "Więzienie"
+    ],
+    "ru": [
+     "В какое место в гневе вышел с пира царь Артаксеркс?",
+     "Сад",
+     "Храм",
+     "Тюрьма"
+    ],
+    "tr": [
+     "Kral Ahaşveroş öfkeyle ziyafetten kalkıp nereye gitti?",
+     "Bahçe",
+     "Tapınak",
+     "Hapishane"
+    ],
+    "ja": [
+     "怒ったクセルクセス王は宴席を立ってどこへ出て行った？",
+     "庭",
+     "神殿",
+     "牢獄"
+    ],
+    "ko": [
+     "분노한 아하스에로스 임금은 잔치 자리를 떠나 어디로 갔는가?",
+     "정원",
+     "성전",
+     "감옥"
+    ],
+    "ar": [
+     "غاضبًا، إلى أي مكان خرج الملك أحشويروش من الوليمة؟",
+     "بستان",
+     "هيكل",
+     "سجن"
+    ]
+   }
+  },
+  {
+   "id": "ch-esther-001-34",
+   "book": "esther",
+   "chapter": 7,
+   "difficulty": "expert",
+   "ref": "Esther 7:9",
+   "text": {
+    "en": [
+     "Which eunuch told the king about the gallows at Haman's house?",
+     "Harbona",
+     "Hegai",
+     "Hathach"
+    ],
+    "es": [
+     "¿Qué eunuco informó al rey de la horca que había en casa de Amán?",
+     "Harbona",
+     "Hegai",
+     "Hatac"
+    ],
+    "pt": [
+     "Que eunuco informou ao rei sobre a forca que havia na casa de Amã?",
+     "Harbona",
+     "Hegai",
+     "Hatac"
+    ],
+    "fr": [
+     "Quel eunuque parla au roi de la potence dressée chez Haman ?",
+     "Harbona",
+     "Hégaï",
+     "Hatac"
+    ],
+    "de": [
+     "Welcher Eunuch berichtete dem König vom Galgen in Hamans Haus?",
+     "Charbona",
+     "Hegai",
+     "Hatach"
+    ],
+    "it": [
+     "Quale eunuco parlò al re della forca nella casa di Aman?",
+     "Carbona",
+     "Egai",
+     "Atac"
+    ],
+    "pl": [
+     "Który eunuch powiedział królowi o szubienicy w domu Hamana?",
+     "Charbona",
+     "Hegaj",
+     "Hatach"
+    ],
+    "ru": [
+     "Какой евнух сказал царю о виселице в доме Амана?",
+     "Харвона",
+     "Гегей",
+     "Гафах"
+    ],
+    "tr": [
+     "Hangi haremağası krala Haman'ın evindeki darağacından söz etti?",
+     "Harbona",
+     "Hegay",
+     "Hatak"
+    ],
+    "ja": [
+     "ハマンの家にある柱のことを王に告げた宦官は？",
+     "ハルボナ",
+     "ヘガイ",
+     "ハタク"
+    ],
+    "ko": [
+     "하만의 집에 있는 교수대를 임금에게 알린 내시는 누구인가?",
+     "하르보나",
+     "헤가이",
+     "하탁"
+    ],
+    "ar": [
+     "أي خصي أخبر الملك بالخشبة الموجودة في بيت هامان؟",
+     "حربونا",
+     "هيجاي",
+     "هتاخ"
+    ]
+   }
+  },
+  {
+   "id": "ch-esther-001-35",
+   "book": "esther",
+   "chapter": 7,
+   "difficulty": "impossible",
+   "ref": "Esther 7:10",
+   "text": {
+    "en": [
+     "After Haman was hanged, what subsided in King Ahasuerus?",
+     "Wrath",
+     "Sadness",
+     "Hunger"
+    ],
+    "es": [
+     "Tras la ejecución de Amán, ¿qué se calmó en el rey Asuero?",
+     "Ira",
+     "Tristeza",
+     "Hambre"
+    ],
+    "pt": [
+     "Depois que Amã foi enforcado, o que se acalmou no rei Assuero?",
+     "Ira",
+     "Tristeza",
+     "Fome"
+    ],
+    "fr": [
+     "Après la pendaison de Haman, qu'est-ce qui s'apaisa chez le roi Assuérus ?",
+     "Colère",
+     "Tristesse",
+     "Faim"
+    ],
+    "de": [
+     "Was legte sich bei König Xerxes, nachdem Haman gehängt worden war?",
+     "Zorn",
+     "Trauer",
+     "Hunger"
+    ],
+    "it": [
+     "Dopo l'impiccagione di Aman, che cosa si placò nel re Assuero?",
+     "Ira",
+     "Tristezza",
+     "Fame"
+    ],
+    "pl": [
+     "Co ucichło w królu Kserksesie po powieszeniu Hamana?",
+     "Gniew",
+     "Smutek",
+     "Głód"
+    ],
+    "ru": [
+     "Что утихло в царе Артаксерксе после повешения Амана?",
+     "Гнев",
+     "Печаль",
+     "Голод"
+    ],
+    "tr": [
+     "Haman asıldıktan sonra Kral Ahaşveroş'ta ne yatıştı?",
+     "Öfke",
+     "Üzüntü",
+     "Açlık"
+    ],
+    "ja": [
+     "ハマンが処刑された後、クセルクセス王の中で収まったものは？",
+     "怒り",
+     "悲しみ",
+     "飢え"
+    ],
+    "ko": [
+     "하만이 매달린 뒤 아하스에로스 임금에게서 가라앉은 것은 무엇인가?",
+     "분노",
+     "슬픔",
+     "허기"
+    ],
+    "ar": [
+     "بعد شنق هامان، ما الذي هدأ عند الملك أحشويروش؟",
+     "غضب",
+     "حزن",
+     "جوع"
+    ]
+   }
+  },
+  {
+   "id": "ch-esther-001-36",
+   "book": "esther",
+   "chapter": 8,
+   "difficulty": "easy",
+   "ref": "Esther 8:1",
+   "text": {
+    "en": [
+     "From Haman's property, what did King Ahasuerus give Queen Esther?",
+     "House",
+     "Throne",
+     "Army"
+    ],
+    "es": [
+     "De los bienes de Amán, ¿qué dio el rey Asuero a la reina Ester?",
+     "Casa",
+     "Trono",
+     "Ejército"
+    ],
+    "pt": [
+     "Dos bens de Amã, o que o rei Assuero deu à rainha Ester?",
+     "Casa",
+     "Trono",
+     "Exército"
+    ],
+    "fr": [
+     "Des biens de Haman, que le roi Assuérus donna-t-il à la reine Esther ?",
+     "Maison",
+     "Trône",
+     "Armée"
+    ],
+    "de": [
+     "Was von Hamans Besitz gab König Xerxes der Königin Ester?",
+     "Haus",
+     "Thron",
+     "Heer"
+    ],
+    "it": [
+     "Dei beni di Aman, che cosa diede il re Assuero alla regina Ester?",
+     "Casa",
+     "Trono",
+     "Esercito"
+    ],
+    "pl": [
+     "Co z majątku Hamana król Kserkses dał królowej Esterze?",
+     "Dom",
+     "Tron",
+     "Wojsko"
+    ],
+    "ru": [
+     "Что из имущества Амана царь Артаксеркс отдал царице Есфири?",
+     "Дом",
+     "Трон",
+     "Войско"
+    ],
+    "tr": [
+     "Kral Ahaşveroş, Haman'ın mallarından Kraliçe Ester'e neyi verdi?",
+     "Ev",
+     "Taht",
+     "Ordu"
+    ],
+    "ja": [
+     "クセルクセス王はハマンの財産のうち何をエステル王妃に与えた？",
+     "家",
+     "王座",
+     "軍隊"
+    ],
+    "ko": [
+     "아하스에로스 임금은 하만의 재산 가운데 무엇을 에스테르 왕비에게 주었는가?",
+     "집",
+     "왕좌",
+     "군대"
+    ],
+    "ar": [
+     "من ممتلكات هامان، ماذا أعطى الملك أحشويروش للملكة أستير؟",
+     "بيت",
+     "عرش",
+     "جيش"
+    ]
+   }
+  },
+  {
+   "id": "ch-esther-001-37",
+   "book": "esther",
+   "chapter": 8,
+   "difficulty": "medium",
+   "ref": "Esther 8:15",
+   "text": {
+    "en": [
+     "What golden headwear did Mordecai wear on leaving the king's presence?",
+     "Crown",
+     "Helmet",
+     "Veil"
+    ],
+    "es": [
+     "¿Qué adorno de oro llevó Mardoqueo en la cabeza al salir de ante el rey?",
+     "Corona",
+     "Casco",
+     "Velo"
+    ],
+    "pt": [
+     "Que enfeite de ouro Mardoqueu levava na cabeça ao sair da presença do rei?",
+     "Coroa",
+     "Capacete",
+     "Véu"
+    ],
+    "fr": [
+     "Quel ornement d'or Mardochée portait-il sur la tête en sortant de chez le roi ?",
+     "Couronne",
+     "Casque",
+     "Voile"
+    ],
+    "de": [
+     "Welchen goldenen Kopfschmuck trug Mordechai, als er vom König wegging?",
+     "Krone",
+     "Helm",
+     "Schleier"
+    ],
+    "it": [
+     "Quale ornamento d'oro portava sul capo Mardocheo uscendo dalla presenza del re?",
+     "Corona",
+     "Elmo",
+     "Velo"
+    ],
+    "pl": [
+     "Jaką złotą ozdobę na głowie miał Mardocheusz, wychodząc od króla?",
+     "Korona",
+     "Hełm",
+     "Welon"
+    ],
+    "ru": [
+     "Какое золотое украшение было на голове Мардохея, когда он вышел от царя?",
+     "Венец",
+     "Шлем",
+     "Покрывало"
+    ],
+    "tr": [
+     "Mordekay kralın huzurundan çıkarken başında hangi altın süs vardı?",
+     "Taç",
+     "Miğfer",
+     "Peçe"
+    ],
+    "ja": [
+     "モルデカイが王の前から退くとき頭に着けた金の物は？",
+     "冠",
+     "兜",
+     "ベール"
+    ],
+    "ko": [
+     "모르도카이가 임금 앞에서 나올 때 머리에 쓴 금으로 된 것은 무엇인가?",
+     "왕관",
+     "투구",
+     "베일"
+    ],
+    "ar": [
+     "ما الزينة الذهبية على رأس مردخاي عند خروجه من حضرة الملك؟",
+     "تاج",
+     "خوذة",
+     "نقاب"
+    ]
+   }
+  },
+  {
+   "id": "ch-esther-001-38",
+   "book": "esther",
+   "chapter": 8,
+   "difficulty": "hard",
+   "ref": "Esther 8:2",
+   "text": {
+    "en": [
+     "Whom did Queen Esther set over the house of Haman?",
+     "Mordecai",
+     "Hathach",
+     "Hegai"
+    ],
+    "es": [
+     "¿A quién puso la reina Ester al frente de la casa de Amán?",
+     "Mardoqueo",
+     "Hatac",
+     "Hegai"
+    ],
+    "pt": [
+     "Quem a rainha Ester pôs à frente da casa de Amã?",
+     "Mardoqueu",
+     "Hatac",
+     "Hegai"
+    ],
+    "fr": [
+     "Qui la reine Esther établit-elle sur la maison de Haman ?",
+     "Mardochée",
+     "Hatac",
+     "Hégaï"
+    ],
+    "de": [
+     "Wen setzte Königin Ester über das Haus Hamans?",
+     "Mordechai",
+     "Hatach",
+     "Hegai"
+    ],
+    "it": [
+     "Chi fu messo dalla regina Ester a capo della casa di Aman?",
+     "Mardocheo",
+     "Atac",
+     "Egai"
+    ],
+    "pl": [
+     "Kto został ustanowiony przez królową Esterę zarządcą domu Hamana?",
+     "Mardocheusz",
+     "Hatach",
+     "Hegaj"
+    ],
+    "ru": [
+     "Кто был поставлен царицей Есфирью над домом Амана?",
+     "Мардохей",
+     "Гафах",
+     "Гегей"
+    ],
+    "tr": [
+     "Kraliçe Ester'in Haman'ın evinin başına getirdiği kişi kimdi?",
+     "Mordekay",
+     "Hatak",
+     "Hegay"
+    ],
+    "ja": [
+     "エステル王妃がハマンの家の管理を任せたのは誰？",
+     "モルデカイ",
+     "ハタク",
+     "ヘガイ"
+    ],
+    "ko": [
+     "에스테르 왕비가 하만의 집을 맡긴 사람은 누구인가?",
+     "모르도카이",
+     "하탁",
+     "헤가이"
+    ],
+    "ar": [
+     "من الذي أقامته الملكة أستير على بيت هامان؟",
+     "مردخاي",
+     "هتاخ",
+     "هيجاي"
+    ]
+   }
+  },
+  {
+   "id": "ch-esther-001-39",
+   "book": "esther",
+   "chapter": 8,
+   "difficulty": "expert",
+   "ref": "Esther 8:17",
+   "text": {
+    "en": [
+     "After Mordecai's decree, what fell on many peoples, so they became Jews?",
+     "Fear",
+     "Famine",
+     "Plague"
+    ],
+    "es": [
+     "Tras el decreto de Mardoqueo, ¿qué cayó sobre muchos pueblos, de modo que se hicieron judíos?",
+     "Miedo",
+     "Hambre",
+     "Peste"
+    ],
+    "pt": [
+     "Depois do decreto de Mardoqueu, o que caiu sobre muitos povos, de modo que se tornaram judeus?",
+     "Medo",
+     "Fome",
+     "Peste"
+    ],
+    "fr": [
+     "Après le décret de Mardochée, qu'est-ce qui tomba sur de nombreux peuples, au point qu'ils se firent juifs ?",
+     "Peur",
+     "Famine",
+     "Peste"
+    ],
+    "de": [
+     "Was fiel nach Mordechais Erlass auf viele Völker, sodass sie Juden wurden?",
+     "Furcht",
+     "Hungersnot",
+     "Pest"
+    ],
+    "it": [
+     "Dopo il decreto di Mardocheo, che cosa cadde su molti popoli, così che diventarono giudei?",
+     "Timore",
+     "Carestia",
+     "Peste"
+    ],
+    "pl": [
+     "Co padło na narody po dekrecie Mardocheusza, tak że wielu przyjęło judaizm?",
+     "Strach",
+     "Głód",
+     "Zaraza"
+    ],
+    "ru": [
+     "Что напало на многие народы после указа Мардохея, так что они стали иудеями?",
+     "Страх",
+     "Голод",
+     "Чума"
+    ],
+    "tr": [
+     "Mordekay'ın fermanından sonra birçok halkın üzerine ne çöktü de Yahudi oldular?",
+     "Korku",
+     "Kıtlık",
+     "Veba"
+    ],
+    "ja": [
+     "モルデカイの勅令の後、多くの民に何が臨み、彼らはユダヤ人になった？",
+     "恐れ",
+     "飢饉",
+     "疫病"
+    ],
+    "ko": [
+     "모르도카이의 칙령 뒤에 무엇이 많은 백성에게 덮쳐 그들이 유다인이 되었는가?",
+     "두려움",
+     "기근",
+     "역병"
+    ],
+    "ar": [
+     "بعد مرسوم مردخاي، ماذا وقع على شعوب كثيرة حتى صاروا يهودًا؟",
+     "خوف",
+     "مجاعة",
+     "وباء"
+    ]
+   }
+  },
+  {
+   "id": "ch-esther-001-40",
+   "book": "esther",
+   "chapter": 8,
+   "difficulty": "impossible",
+   "ref": "Esther 8:9",
+   "text": {
+    "en": [
+     "On which day of the month was Mordecai's decree written?",
+     "23",
+     "13",
+     "30"
+    ],
+    "es": [
+     "¿Qué día del mes se redactó el decreto de Mardoqueo?",
+     "23",
+     "13",
+     "30"
+    ],
+    "pt": [
+     "Em que dia do mês foi redigido o decreto de Mardoqueu?",
+     "23",
+     "13",
+     "30"
+    ],
+    "fr": [
+     "Quel jour du mois le décret de Mardochée fut-il rédigé ?",
+     "23",
+     "13",
+     "30"
+    ],
+    "de": [
+     "An welchem Tag des Monats wurde Mordechais Erlass niedergeschrieben?",
+     "23",
+     "13",
+     "30"
+    ],
+    "it": [
+     "In quale giorno del mese fu scritto il decreto di Mardocheo?",
+     "23",
+     "13",
+     "30"
+    ],
+    "pl": [
+     "Którego dnia miesiąca spisano dekret Mardocheusza?",
+     "23",
+     "13",
+     "30"
+    ],
+    "ru": [
+     "В какой день месяца был написан указ Мардохея?",
+     "23",
+     "13",
+     "30"
+    ],
+    "tr": [
+     "Mordekay'ın fermanı ayın hangi günü yazıldı?",
+     "23",
+     "13",
+     "30"
+    ],
+    "ja": [
+     "モルデカイの勅令が書かれたのは、その月の何日？",
+     "23",
+     "13",
+     "30"
+    ],
+    "ko": [
+     "모르도카이의 칙령은 그달 며칠에 작성되었는가?",
+     "23",
+     "13",
+     "30"
+    ],
+    "ar": [
+     "في أي يوم من الشهر كُتب مرسوم مردخاي؟",
+     "23",
+     "13",
+     "30"
+    ]
+   }
+  },
+  {
+   "id": "ch-esther-001-41",
+   "book": "esther",
+   "chapter": 9,
+   "difficulty": "easy",
+   "ref": "Esther 9:26",
+   "text": {
+    "en": [
+     "What festival did the Jews establish to remember their rescue from Haman?",
+     "Purim",
+     "Passover",
+     "Pentecost"
+    ],
+    "es": [
+     "¿Qué fiesta instituyeron los judíos para recordar su liberación de Amán?",
+     "Purim",
+     "Pascua",
+     "Pentecostés"
+    ],
+    "pt": [
+     "Que festa os judeus instituíram para lembrar o seu livramento de Amã?",
+     "Purim",
+     "Páscoa",
+     "Pentecostes"
+    ],
+    "fr": [
+     "Quelle fête les Juifs instituèrent-ils pour rappeler leur délivrance de Haman ?",
+     "Pourim",
+     "Pâque",
+     "Pentecôte"
+    ],
+    "de": [
+     "Welches Fest führten die Juden ein, um an ihre Rettung vor Haman zu erinnern?",
+     "Purim",
+     "Pessach",
+     "Pfingsten"
+    ],
+    "it": [
+     "Quale festa istituirono i Giudei per ricordare la liberazione da Aman?",
+     "Purim",
+     "Pasqua",
+     "Pentecoste"
+    ],
+    "pl": [
+     "Jakie święto ustanowili Żydzi na pamiątkę wybawienia od Hamana?",
+     "Purim",
+     "Pascha",
+     "Pięćdziesiątnica"
+    ],
+    "ru": [
+     "Какой праздник установили иудеи в память об избавлении от Амана?",
+     "Пурим",
+     "Пасха",
+     "Пятидесятница"
+    ],
+    "tr": [
+     "Yahudiler Haman'dan kurtuluşlarını anmak için hangi bayramı başlattı?",
+     "Purim",
+     "Fısıh",
+     "Pentikost"
+    ],
+    "ja": [
+     "ユダヤ人がハマンからの救いを記念して定めた祭りは？",
+     "プリム",
+     "過越",
+     "五旬祭"
+    ],
+    "ko": [
+     "유다인들이 하만에게서 구원받은 것을 기념하여 정한 축제는 무엇인가?",
+     "푸림",
+     "파스카",
+     "오순절"
+    ],
+    "ar": [
+     "أي عيد أسّسه اليهود لتذكّر نجاتهم من هامان؟",
+     "فوريم",
+     "فصح",
+     "عنصرة"
+    ]
+   }
+  },
+  {
+   "id": "ch-esther-001-42",
+   "book": "esther",
+   "chapter": 9,
+   "difficulty": "medium",
+   "ref": "Esther 9:10",
+   "text": {
+    "en": [
+     "How many sons of Haman did the Jews kill in Susa?",
+     "10",
+     "7",
+     "12"
+    ],
+    "es": [
+     "¿Cuántos hijos de Amán mataron los judíos en Susa?",
+     "10",
+     "7",
+     "12"
+    ],
+    "pt": [
+     "Quantos filhos de Amã os judeus mataram em Susa?",
+     "10",
+     "7",
+     "12"
+    ],
+    "fr": [
+     "Combien de fils de Haman les Juifs tuèrent-ils à Suse ?",
+     "10",
+     "7",
+     "12"
+    ],
+    "de": [
+     "Wie viele Söhne Hamans töteten die Juden in Susa?",
+     "10",
+     "7",
+     "12"
+    ],
+    "it": [
+     "Quanti figli di Aman uccisero i Giudei a Susa?",
+     "10",
+     "7",
+     "12"
+    ],
+    "pl": [
+     "Ilu synów Hamana zabili Żydzi w Suzie?",
+     "10",
+     "7",
+     "12"
+    ],
+    "ru": [
+     "Сколько сыновей Амана убили иудеи в Сузах?",
+     "10",
+     "7",
+     "12"
+    ],
+    "tr": [
+     "Yahudiler Şuşan'da Haman'ın kaç oğlunu öldürdü?",
+     "10",
+     "7",
+     "12"
+    ],
+    "ja": [
+     "ユダヤ人はスサでハマンの息子を何人殺した？",
+     "10",
+     "7",
+     "12"
+    ],
+    "ko": [
+     "유다인들은 수사에서 하만의 아들을 몇 명 죽였는가?",
+     "10",
+     "7",
+     "12"
+    ],
+    "ar": [
+     "كم ابنًا لهامان قتل اليهود في شوشن؟",
+     "10",
+     "7",
+     "12"
+    ]
+   }
+  },
+  {
+   "id": "ch-esther-001-43",
+   "book": "esther",
+   "chapter": 9,
+   "difficulty": "hard",
+   "ref": "Esther 9:16",
+   "text": {
+    "en": [
+     "How many enemies did the Jews in the king's provinces kill?",
+     "75000",
+     "7000",
+     "150000"
+    ],
+    "es": [
+     "¿Cuántos enemigos mataron los judíos de las provincias del rey?",
+     "75000",
+     "7000",
+     "150000"
+    ],
+    "pt": [
+     "Quantos inimigos os judeus das províncias do rei mataram?",
+     "75000",
+     "7000",
+     "150000"
+    ],
+    "fr": [
+     "Combien d'ennemis les Juifs des provinces du roi tuèrent-ils ?",
+     "75000",
+     "7000",
+     "150000"
+    ],
+    "de": [
+     "Wie viele Feinde töteten die Juden in den Provinzen des Königs?",
+     "75000",
+     "7000",
+     "150000"
+    ],
+    "it": [
+     "Quanti nemici uccisero i Giudei nelle province del re?",
+     "75000",
+     "7000",
+     "150000"
+    ],
+    "pl": [
+     "Ilu wrogów zabili Żydzi w prowincjach króla?",
+     "75000",
+     "7000",
+     "150000"
+    ],
+    "ru": [
+     "Сколько врагов убили иудеи в областях царя?",
+     "75000",
+     "7000",
+     "150000"
+    ],
+    "tr": [
+     "Yahudiler kralın illerinde kaç düşmanı öldürdü?",
+     "75000",
+     "7000",
+     "150000"
+    ],
+    "ja": [
+     "王の諸州のユダヤ人は敵を何人殺した？",
+     "75000",
+     "7000",
+     "150000"
+    ],
+    "ko": [
+     "왕의 지방들에서 유다인들은 적을 몇 명 죽였는가?",
+     "75000",
+     "7000",
+     "150000"
+    ],
+    "ar": [
+     "كم عدوًّا قتل اليهود في مقاطعات الملك؟",
+     "75000",
+     "7000",
+     "150000"
+    ]
+   }
+  },
+  {
+   "id": "ch-esther-001-44",
+   "book": "esther",
+   "chapter": 9,
+   "difficulty": "expert",
+   "ref": "Esther 9:10",
+   "text": {
+    "en": [
+     "When the Jews killed Haman's sons and their enemies, what did they not take?",
+     "Plunder",
+     "Slaves",
+     "Land"
+    ],
+    "es": [
+     "¿Qué no tomaron los judíos cuando mataron a los hijos de Amán y a sus enemigos?",
+     "Botín",
+     "Esclavos",
+     "Tierra"
+    ],
+    "pt": [
+     "O que os judeus não tomaram quando mataram os filhos de Amã e os seus inimigos?",
+     "Despojos",
+     "Escravos",
+     "Terra"
+    ],
+    "fr": [
+     "Que ne prirent pas les Juifs quand ils tuèrent les fils de Haman et leurs ennemis ?",
+     "Butin",
+     "Esclaves",
+     "Terre"
+    ],
+    "de": [
+     "Was nahmen die Juden nicht, als sie Hamans Söhne und ihre Feinde töteten?",
+     "Beute",
+     "Sklaven",
+     "Land"
+    ],
+    "it": [
+     "Che cosa non presero i Giudei quando uccisero i figli di Aman e i loro nemici?",
+     "Bottino",
+     "Schiavi",
+     "Terra"
+    ],
+    "pl": [
+     "Czego nie wzięli Żydzi, gdy zabili synów Hamana i swoich wrogów?",
+     "Łupów",
+     "Niewolników",
+     "Ziemi"
+    ],
+    "ru": [
+     "Чего не взяли иудеи, убив сыновей Амана и своих врагов?",
+     "Добычи",
+     "Рабов",
+     "Земли"
+    ],
+    "tr": [
+     "Yahudiler Haman'ın oğullarını ve düşmanlarını öldürünce neyi almadı?",
+     "Ganimeti",
+     "Köleleri",
+     "Toprağı"
+    ],
+    "ja": [
+     "ユダヤ人はハマンの息子たちと敵を討ったとき、何を取らなかった？",
+     "戦利品",
+     "奴隷",
+     "土地"
+    ],
+    "ko": [
+     "유다인들은 하만의 아들들과 원수들을 죽였을 때 무엇을 취하지 않았는가?",
+     "약탈품",
+     "노예",
+     "땅"
+    ],
+    "ar": [
+     "ماذا لم يأخذ اليهود عندما قتلوا أبناء هامان وأعداءهم؟",
+     "غنيمة",
+     "عبيد",
+     "أرض"
+    ]
+   }
+  },
+  {
+   "id": "ch-esther-001-45",
+   "book": "esther",
+   "chapter": 9,
+   "difficulty": "impossible",
+   "ref": "Esther 9:18",
+   "text": {
+    "en": [
+     "On which day of Adar did the Jews of Susa rest and feast?",
+     "15",
+     "7",
+     "20"
+    ],
+    "es": [
+     "¿Qué día de Adar descansaron y festejaron los judíos de Susa?",
+     "15",
+     "7",
+     "20"
+    ],
+    "pt": [
+     "Em que dia de Adar os judeus de Susa descansaram e festejaram?",
+     "15",
+     "7",
+     "20"
+    ],
+    "fr": [
+     "Quel jour d'Adar les Juifs de Suse se reposèrent-ils et firent-ils fête ?",
+     "15",
+     "7",
+     "20"
+    ],
+    "de": [
+     "An welchem Tag des Adar ruhten und feierten die Juden in Susa?",
+     "15",
+     "7",
+     "20"
+    ],
+    "it": [
+     "In quale giorno di Adar i Giudei di Susa si riposarono e fecero festa?",
+     "15",
+     "7",
+     "20"
+    ],
+    "pl": [
+     "W którym dniu miesiąca Adar Żydzi w Suzie odpoczęli i ucztowali?",
+     "15",
+     "7",
+     "20"
+    ],
+    "ru": [
+     "В какой день адара иудеи в Сузах отдыхали и пировали?",
+     "15",
+     "7",
+     "20"
+    ],
+    "tr": [
+     "Şuşan'daki Yahudiler Adar ayının hangi günü dinlenip şenlik yaptı?",
+     "15",
+     "7",
+     "20"
+    ],
+    "ja": [
+     "スサのユダヤ人がアダルの月の何日に休んで祝宴を開いた？",
+     "15",
+     "7",
+     "20"
+    ],
+    "ko": [
+     "수사의 유다인들은 아다르 달 며칠에 쉬며 잔치를 벌였는가?",
+     "15",
+     "7",
+     "20"
+    ],
+    "ar": [
+     "في أي يوم من آذار استراح يهود شوشن واحتفلوا؟",
+     "15",
+     "7",
+     "20"
+    ]
+   }
+  },
+  {
+   "id": "ch-esther-001-46",
+   "book": "esther",
+   "chapter": 10,
+   "difficulty": "easy",
+   "ref": "Esther 10:3",
+   "text": {
+    "en": [
+     "Who ranked second only to King Ahasuerus at the end of Esther's story?",
+     "Mordecai",
+     "Haman",
+     "Hegai"
+    ],
+    "es": [
+     "¿Quién ocupó el segundo puesto después del rey Asuero al final de la historia de Ester?",
+     "Mardoqueo",
+     "Amán",
+     "Hegai"
+    ],
+    "pt": [
+     "Quem ocupava o segundo lugar depois do rei Assuero no fim da história de Ester?",
+     "Mardoqueu",
+     "Amã",
+     "Hegai"
+    ],
+    "fr": [
+     "Qui occupait le deuxième rang après le roi Assuérus à la fin de l'histoire d'Esther ?",
+     "Mardochée",
+     "Haman",
+     "Hégaï"
+    ],
+    "de": [
+     "Wer stand am Ende von Esters Geschichte im Rang direkt nach König Xerxes?",
+     "Mordechai",
+     "Haman",
+     "Hegai"
+    ],
+    "it": [
+     "Chi era secondo solo al re Assuero alla fine della storia di Ester?",
+     "Mardocheo",
+     "Aman",
+     "Egai"
+    ],
+    "pl": [
+     "Kto był drugi po królu Kserksesie na końcu historii Estery?",
+     "Mardocheusz",
+     "Haman",
+     "Hegaj"
+    ],
+    "ru": [
+     "Кто был вторым после царя Артаксеркса в конце истории Есфири?",
+     "Мардохей",
+     "Аман",
+     "Гегей"
+    ],
+    "tr": [
+     "Ester'in öyküsünün sonunda Kral Ahaşveroş'tan sonra gelen ikinci kişi kimdi?",
+     "Mordekay",
+     "Haman",
+     "Hegay"
+    ],
+    "ja": [
+     "エステル物語の終わりで、王に次ぐ地位にあったのは誰？",
+     "モルデカイ",
+     "ハマン",
+     "ヘガイ"
+    ],
+    "ko": [
+     "에스테르 이야기의 끝에서 임금 다음가는 자리에 오른 사람은 누구인가?",
+     "모르도카이",
+     "하만",
+     "헤가이"
+    ],
+    "ar": [
+     "من كان الثاني بعد الملك أحشويروش في نهاية قصة أستير؟",
+     "مردخاي",
+     "هامان",
+     "هيجاي"
+    ]
+   }
+  },
+  {
+   "id": "ch-esther-001-47",
+   "book": "esther",
+   "chapter": 10,
+   "difficulty": "medium",
+   "ref": "Esther 10:2",
+   "text": {
+    "en": [
+     "Mordecai's rise was written in the royal chronicles of Media and which land?",
+     "Persia",
+     "Egypt",
+     "Babylon"
+    ],
+    "es": [
+     "¿En las crónicas reales de Media y de qué otra tierra se escribió el ascenso de Mardoqueo?",
+     "Persia",
+     "Egipto",
+     "Babilonia"
+    ],
+    "pt": [
+     "A ascensão de Mardoqueu foi escrita nas crônicas reais da Média e de que terra?",
+     "Pérsia",
+     "Egito",
+     "Babilônia"
+    ],
+    "fr": [
+     "L'élévation de Mardochée fut écrite dans les chroniques royales de Médie et de quel pays ?",
+     "Perse",
+     "Égypte",
+     "Babylone"
+    ],
+    "de": [
+     "Mordechais Aufstieg steht in den königlichen Chroniken von Medien und welchem Land?",
+     "Persien",
+     "Ägypten",
+     "Babylon"
+    ],
+    "it": [
+     "L'ascesa di Mardocheo fu scritta nelle cronache reali della Media e di quale terra?",
+     "Persia",
+     "Egitto",
+     "Babilonia"
+    ],
+    "pl": [
+     "Awans Mardocheusza zapisano w kronikach królewskich Medii i którego kraju?",
+     "Persja",
+     "Egipt",
+     "Babilon"
+    ],
+    "ru": [
+     "Возвышение Мардохея записано в летописях царей Мидии и какой страны?",
+     "Персия",
+     "Египет",
+     "Вавилон"
+    ],
+    "tr": [
+     "Mordekay'ın yükselişi Medya'nın ve hangi ülkenin kraliyet vakayinamelerine yazıldı?",
+     "Pers",
+     "Mısır",
+     "Babil"
+    ],
+    "ja": [
+     "モルデカイの昇進はメディアとどの国の王の年代記に記されている？",
+     "ペルシア",
+     "エジプト",
+     "バビロン"
+    ],
+    "ko": [
+     "모르도카이의 출세는 메디아와 어느 나라의 왕실 연대기에 기록되었는가?",
+     "페르시아",
+     "이집트",
+     "바빌론"
+    ],
+    "ar": [
+     "في سجلات ملوك ماداي وأي بلد دُوّن ارتقاء مردخاي؟",
+     "فارس",
+     "مصر",
+     "بابل"
+    ]
+   }
+  },
+  {
+   "id": "ch-esther-001-48",
+   "book": "esther",
+   "chapter": 10,
+   "difficulty": "hard",
+   "ref": "Esther 10:1",
+   "text": {
+    "en": [
+     "Besides the land, what in the sea did Ahasuerus place under tribute?",
+     "Islands",
+     "Ships",
+     "Fish"
+    ],
+    "es": [
+     "Además de la tierra, ¿qué del mar sometió a tributo el rey Asuero?",
+     "Islas",
+     "Barcos",
+     "Peces"
+    ],
+    "pt": [
+     "Além da terra, o que do mar o rei Assuero submeteu a tributo?",
+     "Ilhas",
+     "Navios",
+     "Peixes"
+    ],
+    "fr": [
+     "Outre le pays, que de la mer le roi Assuérus soumit-il au tribut ?",
+     "Îles",
+     "Navires",
+     "Poissons"
+    ],
+    "de": [
+     "Außer dem Festland: Was im Meer belegte König Xerxes mit Abgaben?",
+     "Inseln",
+     "Schiffe",
+     "Fische"
+    ],
+    "it": [
+     "Oltre alla terra, che cosa del mare il re Assuero sottopose a tributo?",
+     "Isole",
+     "Navi",
+     "Pesci"
+    ],
+    "pl": [
+     "Co oprócz lądu król Kserkses obłożył daniną na morzu?",
+     "Wyspy",
+     "Statki",
+     "Ryby"
+    ],
+    "ru": [
+     "Что на море, кроме суши, царь Артаксеркс обложил данью?",
+     "Острова",
+     "Корабли",
+     "Рыб"
+    ],
+    "tr": [
+     "Kral Ahaşveroş karanın yanı sıra denizde neyi haraca bağladı?",
+     "Adaları",
+     "Gemileri",
+     "Balıkları"
+    ],
+    "ja": [
+     "クセルクセス王は陸のほか、海の何に貢ぎを課した？",
+     "島々",
+     "船",
+     "魚"
+    ],
+    "ko": [
+     "아하스에로스 임금은 육지 외에 바다의 무엇에 조공을 부과했는가?",
+     "섬",
+     "배",
+     "물고기"
+    ],
+    "ar": [
+     "إلى جانب البرّ، ماذا في البحر فرض عليه الملك أحشويروش الجزية؟",
+     "جزر",
+     "سفن",
+     "أسماك"
+    ]
+   }
+  },
+  {
+   "id": "ch-esther-001-49",
+   "book": "esther",
+   "chapter": 10,
+   "difficulty": "expert",
+   "ref": "Esther 10:7",
+   "text": {
+    "en": [
+     "In Mordecai's dream, which creatures represented him and Haman?",
+     "Dragons",
+     "Lions",
+     "Eagles"
+    ],
+    "es": [
+     "¿Qué criaturas representaban a Mardoqueo y a Amán en el sueño de Mardoqueo?",
+     "Dragones",
+     "Leones",
+     "Águilas"
+    ],
+    "pt": [
+     "No sonho de Mardoqueu, que criaturas representavam a ele e a Amã?",
+     "Dragões",
+     "Leões",
+     "Águias"
+    ],
+    "fr": [
+     "Dans le rêve de Mardochée, quelles créatures le représentaient, lui et Haman ?",
+     "Dragons",
+     "Lions",
+     "Aigles"
+    ],
+    "de": [
+     "Welche Wesen standen in Mordechais Traum für ihn und Haman?",
+     "Drachen",
+     "Löwen",
+     "Adler"
+    ],
+    "it": [
+     "Nel sogno di Mardocheo, quali creature rappresentavano lui e Aman?",
+     "Draghi",
+     "Leoni",
+     "Aquile"
+    ],
+    "pl": [
+     "Jakie istoty przedstawiały Mardocheusza i Hamana w jego śnie?",
+     "Smoki",
+     "Lwy",
+     "Orły"
+    ],
+    "ru": [
+     "Какие существа изображали Мардохея и Амана в его сне?",
+     "Драконы",
+     "Львы",
+     "Орлы"
+    ],
+    "tr": [
+     "Mordekay'ın rüyasında hangi yaratıklar onu ve Haman'ı temsil ediyordu?",
+     "Ejderhalar",
+     "Aslanlar",
+     "Kartallar"
+    ],
+    "ja": [
+     "モルデカイの夢の中で、彼とハマンを表していた生き物は？",
+     "竜",
+     "ライオン",
+     "鷲"
+    ],
+    "ko": [
+     "모르도카이의 꿈에서 그와 하만을 나타낸 생물은 무엇인가?",
+     "용",
+     "사자",
+     "독수리"
+    ],
+    "ar": [
+     "في حلم مردخاي، أي كائنات رمزت إليه وإلى هامان؟",
+     "تنانين",
+     "أسود",
+     "نسور"
+    ]
+   }
+  },
+  {
+   "id": "ch-esther-001-50",
+   "book": "esther",
+   "chapter": 10,
+   "difficulty": "impossible",
+   "ref": "Esther 10:6",
+   "text": {
+    "en": [
+     "In Mordecai's dream, Esther was a little spring that became what?",
+     "River",
+     "Lake",
+     "Mountain"
+    ],
+    "es": [
+     "¿En qué se convirtió la pequeña fuente que era Ester en el sueño de Mardoqueo?",
+     "Río",
+     "Lago",
+     "Montaña"
+    ],
+    "pt": [
+     "No sonho de Mardoqueu, Ester era uma pequena fonte: em que ela se transformou?",
+     "Rio",
+     "Lago",
+     "Montanha"
+    ],
+    "fr": [
+     "Dans le rêve de Mardochée, Esther était une petite source : en quoi devint-elle ?",
+     "Fleuve",
+     "Lac",
+     "Montagne"
+    ],
+    "de": [
+     "In Mordechais Traum war Ester eine kleine Quelle. Was wurde daraus?",
+     "Fluss",
+     "See",
+     "Berg"
+    ],
+    "it": [
+     "Nel sogno di Mardocheo Ester era una piccola fonte: in che cosa si trasformò?",
+     "Fiume",
+     "Lago",
+     "Monte"
+    ],
+    "pl": [
+     "W co zmieniło się źródełko, którym była Estera, we śnie Mardocheusza?",
+     "Rzekę",
+     "Jezioro",
+     "Górę"
+    ],
+    "ru": [
+     "Во что превратился малый источник — Есфирь — во сне Мардохея?",
+     "Реку",
+     "Озеро",
+     "Гору"
+    ],
+    "tr": [
+     "Mordekay'ın rüyasında Ester küçük bir pınardı. Bu pınar neye dönüştü?",
+     "Nehre",
+     "Göle",
+     "Dağa"
+    ],
+    "ja": [
+     "モルデカイの夢で、エステルは小さな泉だった。その泉は何になった？",
+     "川",
+     "湖",
+     "山"
+    ],
+    "ko": [
+     "모르도카이의 꿈에서 에스테르는 작은 샘이었다. 그 샘은 무엇이 되었는가?",
+     "강",
+     "호수",
+     "산"
+    ],
+    "ar": [
+     "في حلم مردخاي كانت أستير نبعًا صغيرًا. ماذا صار؟",
+     "نهر",
+     "بحيرة",
+     "جبل"
+    ]
+   }
+  }
+ ]
+}
