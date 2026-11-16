@@ -1,0 +1,5674 @@
+{
+ "questions": [
+  {
+   "id": "review-16-01",
+   "orig": "easy_016",
+   "book": "genesis",
+   "difficulty": "easy",
+   "ref": "Genesis 1:10",
+   "text": {
+    "en": [
+     "What name did God give to the dry land?",
+     "Earth",
+     "Heaven",
+     "Sea"
+    ],
+    "es": [
+     "¿Qué nombre dio Dios a lo seco?",
+     "Tierra",
+     "Cielo",
+     "Mar"
+    ],
+    "pt": [
+     "Que nome Deus deu à parte seca?",
+     "Terra",
+     "Céu",
+     "Mar"
+    ],
+    "fr": [
+     "Quel nom Dieu donna-t-il au sec ?",
+     "Terre",
+     "Ciel",
+     "Mer"
+    ],
+    "de": [
+     "Welchen Namen gab Gott dem Trockenen?",
+     "Land",
+     "Himmel",
+     "Meer"
+    ],
+    "it": [
+     "Quale nome diede Dio all'asciutto?",
+     "Terra",
+     "Cielo",
+     "Mare"
+    ],
+    "pl": [
+     "Jak Bóg nazwał suchy ląd?",
+     "Ziemia",
+     "Niebo",
+     "Morze"
+    ],
+    "ru": [
+     "Как Бог назвал сушу?",
+     "Земля",
+     "Небо",
+     "Море"
+    ],
+    "tr": [
+     "Tanrı kuru alana ne ad verdi?",
+     "Kara",
+     "Gök",
+     "Deniz"
+    ],
+    "ja": [
+     "神は乾いた所を何と名付けましたか？",
+     "地",
+     "天",
+     "海"
+    ],
+    "ko": [
+     "하느님께서는 뭍을 무엇이라 부르셨습니까?",
+     "땅",
+     "하늘",
+     "바다"
+    ],
+    "ar": [
+     "ماذا سمّى الله اليابسة؟",
+     "أرض",
+     "سماء",
+     "بحر"
+    ]
+   }
+  },
+  {
+   "id": "review-16-02",
+   "orig": "easy_035",
+   "book": "genesis",
+   "difficulty": "easy",
+   "ref": "Genesis 1:20-23",
+   "text": {
+    "en": [
+     "On which day did God create birds and sea creatures?",
+     "5",
+     "3",
+     "2"
+    ],
+    "es": [
+     "¿En qué día creó Dios las aves y los animales del mar?",
+     "5",
+     "3",
+     "2"
+    ],
+    "pt": [
+     "Em que dia Deus criou as aves e os animais do mar?",
+     "5",
+     "3",
+     "2"
+    ],
+    "fr": [
+     "Quel jour Dieu créa-t-il les oiseaux et les animaux de la mer ?",
+     "5",
+     "3",
+     "2"
+    ],
+    "de": [
+     "An welchem Tag schuf Gott die Vögel und die Meerestiere?",
+     "5",
+     "3",
+     "2"
+    ],
+    "it": [
+     "In quale giorno Dio creò gli uccelli e gli animali del mare?",
+     "5",
+     "3",
+     "2"
+    ],
+    "pl": [
+     "W którym dniu Bóg stworzył ptaki i zwierzęta morskie?",
+     "5",
+     "3",
+     "2"
+    ],
+    "ru": [
+     "В какой день Бог создал птиц и морских животных?",
+     "5",
+     "3",
+     "2"
+    ],
+    "tr": [
+     "Tanrı kuşları ve deniz canlılarını hangi gün yarattı?",
+     "5",
+     "3",
+     "2"
+    ],
+    "ja": [
+     "神は何日目に鳥と海の生き物を造りましたか？",
+     "5",
+     "3",
+     "2"
+    ],
+    "ko": [
+     "하느님께서는 며칠째 되는 날 새와 바다 생물을 창조하셨습니까?",
+     "5",
+     "3",
+     "2"
+    ],
+    "ar": [
+     "في أي يوم خلق الله الطيور والكائنات البحرية؟",
+     "5",
+     "3",
+     "2"
+    ]
+   }
+  },
+  {
+   "id": "review-16-03",
+   "orig": "easy_054",
+   "book": "psalms",
+   "difficulty": "easy",
+   "ref": "Psalm 23:4",
+   "text": {
+    "en": [
+     "Besides the rod, what comforts me in Psalm 23?",
+     "Staff",
+     "Sword",
+     "Crown"
+    ],
+    "es": [
+     "¿Qué me consuela en el Salmo 23, además de la vara?",
+     "Cayado",
+     "Espada",
+     "Corona"
+    ],
+    "pt": [
+     "O que me conforta no Salmo 23, além da vara?",
+     "Cajado",
+     "Espada",
+     "Coroa"
+    ],
+    "fr": [
+     "Dans le psaume 23, qu'est-ce qui me console avec la houlette ?",
+     "Bâton",
+     "Épée",
+     "Couronne"
+    ],
+    "de": [
+     "Was tröstet mich in Psalm 23 außer dem Stock?",
+     "Stab",
+     "Schwert",
+     "Krone"
+    ],
+    "it": [
+     "Nel Salmo 23, che cosa mi dà sicurezza oltre al bastone?",
+     "Vincastro",
+     "Spada",
+     "Corona"
+    ],
+    "pl": [
+     "Co oprócz kija pociesza mnie w Psalmie 23?",
+     "Laska",
+     "Miecz",
+     "Korona"
+    ],
+    "ru": [
+     "Что, кроме жезла, успокаивает меня в псалме о пастыре?",
+     "Посох",
+     "Меч",
+     "Корона"
+    ],
+    "tr": [
+     "Mezmur 23'te çomakla birlikte bana ne güven verir?",
+     "Değnek",
+     "Kılıç",
+     "Taç"
+    ],
+    "ja": [
+     "詩編23編で、鞭と共に私を慰めるものは何ですか？",
+     "杖",
+     "剣",
+     "冠"
+    ],
+    "ko": [
+     "시편 23편에서 막대와 함께 저를 안심시키는 것은 무엇입니까?",
+     "지팡이",
+     "칼",
+     "왕관"
+    ],
+    "ar": [
+     "في المزمور 23، ما الذي يعزيني مع العصا؟",
+     "عكاز",
+     "سيف",
+     "تاج"
+    ]
+   }
+  },
+  {
+   "id": "review-16-04",
+   "orig": "easy_073",
+   "book": "john",
+   "difficulty": "easy",
+   "ref": "John 14:6",
+   "text": {
+    "en": [
+     "In John 14:6, Jesus is the way, the truth and what?",
+     "Life",
+     "Peace",
+     "Hope"
+    ],
+    "es": [
+     "¿Qué más es Jesús en Juan 14,6, además del camino y la verdad?",
+     "Vida",
+     "Paz",
+     "Esperanza"
+    ],
+    "pt": [
+     "O que mais Jesus é em João 14,6, além do caminho e da verdade?",
+     "Vida",
+     "Paz",
+     "Esperança"
+    ],
+    "fr": [
+     "Dans Jean 14, 6, que Jésus dit-il être, en plus du chemin et de la vérité ?",
+     "Vie",
+     "Paix",
+     "Espérance"
+    ],
+    "de": [
+     "Was ist Jesus nach Johannes 14,6 außer dem Weg und der Wahrheit?",
+     "Leben",
+     "Frieden",
+     "Hoffnung"
+    ],
+    "it": [
+     "In Giovanni 14,6, che cosa è Gesù oltre alla via e alla verità?",
+     "Vita",
+     "Pace",
+     "Speranza"
+    ],
+    "pl": [
+     "Co jeszcze mówi o sobie Jezus w J 14,6, oprócz drogi i prawdy?",
+     "Życie",
+     "Pokój",
+     "Nadzieja"
+    ],
+    "ru": [
+     "Кем ещё называет Себя Иисус в Ин 14:6, кроме пути и истины?",
+     "Жизнь",
+     "Мир",
+     "Надежда"
+    ],
+    "tr": [
+     "Yuhanna 14:6'da İsa yoldan ve gerçekten başka ne olduğunu söyler?",
+     "Yaşam",
+     "Barış",
+     "Umut"
+    ],
+    "ja": [
+     "ヨハネ14章6節で、イエスは道と真理のほかに何と言いましたか？",
+     "命",
+     "平和",
+     "希望"
+    ],
+    "ko": [
+     "요한 14,6에서 예수님은 길과 진리 외에 무엇이라고 하셨습니까?",
+     "생명",
+     "평화",
+     "희망"
+    ],
+    "ar": [
+     "في يوحنا 14: 6، ماذا قال يسوع إنه، إضافة إلى الطريق والحق؟",
+     "حياة",
+     "سلام",
+     "رجاء"
+    ]
+   }
+  },
+  {
+   "id": "review-16-05",
+   "orig": "easy_092",
+   "book": "1-corinthians",
+   "difficulty": "easy",
+   "ref": "1 Corinthians 13:4",
+   "text": {
+    "en": [
+     "According to Paul, love is patient and what else?",
+     "Kind",
+     "Proud",
+     "Jealous"
+    ],
+    "es": [
+     "¿Cómo es además el amor, que es paciente, según Pablo?",
+     "Amable",
+     "Orgulloso",
+     "Celoso"
+    ],
+    "pt": [
+     "Além de paciente, como é o amor, segundo Paulo?",
+     "Bondoso",
+     "Orgulhoso",
+     "Ciumento"
+    ],
+    "fr": [
+     "Selon Paul, comment est l'amour, en plus d'être patient ?",
+     "Bienveillant",
+     "Orgueilleux",
+     "Jaloux"
+    ],
+    "de": [
+     "Wie ist die Liebe nach Paulus außer langmütig?",
+     "Gütig",
+     "Stolz",
+     "Eifersüchtig"
+    ],
+    "it": [
+     "Secondo Paolo, com'è l'amore, oltre che paziente?",
+     "Benevolo",
+     "Orgoglioso",
+     "Geloso"
+    ],
+    "pl": [
+     "Jaka jest miłość według Pawła, oprócz tego, że cierpliwa?",
+     "Łaskawa",
+     "Pyszna",
+     "Zazdrosna"
+    ],
+    "ru": [
+     "Какова любовь по Павлу, кроме того, что она долготерпелива?",
+     "Милосердна",
+     "Горда",
+     "Завистлива"
+    ],
+    "tr": [
+     "Pavlus'a göre sevgi sabırlı olmasının yanında nasıldır?",
+     "Şefkatli",
+     "Kibirli",
+     "Kıskanç"
+    ],
+    "ja": [
+     "パウロによれば、愛は忍耐強く、そのほかにどうですか？",
+     "情け深い",
+     "高慢",
+     "嫉妬深い"
+    ],
+    "ko": [
+     "바오로에 따르면 사랑은 참을성이 있고 또 어떠합니까?",
+     "친절",
+     "교만",
+     "질투"
+    ],
+    "ar": [
+     "بحسب بولس، كيف تكون المحبة إلى جانب كونها طويلة الأناة؟",
+     "لطيفة",
+     "متكبرة",
+     "حسودة"
+    ]
+   }
+  },
+  {
+   "id": "review-16-06",
+   "orig": "easy_111",
+   "book": "ecclesiastes",
+   "difficulty": "easy",
+   "ref": "Ecclesiastes 1:9",
+   "text": {
+    "en": [
+     "Under which heavenly body is nothing new, says Ecclesiastes?",
+     "Sun",
+     "Moon",
+     "Star"
+    ],
+    "es": [
+     "¿Bajo qué astro no hay nada nuevo, según el Eclesiastés?",
+     "Sol",
+     "Luna",
+     "Estrella"
+    ],
+    "pt": [
+     "Sob qual astro não há nada de novo, segundo Eclesiastes?",
+     "Sol",
+     "Lua",
+     "Estrela"
+    ],
+    "fr": [
+     "Sous quel astre n'y a-t-il rien de nouveau, selon l'Ecclésiaste ?",
+     "Soleil",
+     "Lune",
+     "Étoile"
+    ],
+    "de": [
+     "Unter welchem Himmelskörper gibt es laut Kohelet nichts Neues?",
+     "Sonne",
+     "Mond",
+     "Stern"
+    ],
+    "it": [
+     "Sotto quale astro non c'è nulla di nuovo, secondo Qoelet?",
+     "Sole",
+     "Luna",
+     "Stella"
+    ],
+    "pl": [
+     "Pod którym ciałem niebieskim nie ma nic nowego według Koheleta?",
+     "Słońce",
+     "Księżyc",
+     "Gwiazda"
+    ],
+    "ru": [
+     "Под каким светилом нет ничего нового, по Екклесиасту?",
+     "Солнце",
+     "Луна",
+     "Звезда"
+    ],
+    "tr": [
+     "Vaiz'e göre hangi gök cisminin altında yeni bir şey yoktur?",
+     "Güneş",
+     "Ay",
+     "Yıldız"
+    ],
+    "ja": [
+     "コヘレトの言葉では、どの天体の下に新しいものはありませんか？",
+     "太陽",
+     "月",
+     "星"
+    ],
+    "ko": [
+     "코헬렛에 따르면 어떤 천체 아래에 새것이 없습니까?",
+     "해",
+     "달",
+     "별"
+    ],
+    "ar": [
+     "بحسب الجامعة، تحت أي جرم سماوي لا جديد؟",
+     "شمس",
+     "قمر",
+     "نجم"
+    ]
+   }
+  },
+  {
+   "id": "review-16-07",
+   "orig": "easy_130",
+   "book": "psalms",
+   "difficulty": "easy",
+   "ref": "Psalm 27:1",
+   "text": {
+    "en": [
+     "Besides my light, what is the Lord in Psalm 27?",
+     "Salvation",
+     "Sword",
+     "Crown"
+    ],
+    "es": [
+     "Además de mi luz, ¿qué es el Señor en el Salmo 27?",
+     "Salvación",
+     "Espada",
+     "Corona"
+    ],
+    "pt": [
+     "Além de minha luz, o que é o Senhor no Salmo 27?",
+     "Salvação",
+     "Espada",
+     "Coroa"
+    ],
+    "fr": [
+     "Dans le psaume 27, le Seigneur est ma lumière et mon quoi ?",
+     "Salut",
+     "Épée",
+     "Couronne"
+    ],
+    "de": [
+     "Was ist der Herr im Psalm 27 neben meinem Licht?",
+     "Heil",
+     "Schwert",
+     "Krone"
+    ],
+    "it": [
+     "Che cosa è il Signore nel Salmo 27, oltre alla mia luce?",
+     "Salvezza",
+     "Spada",
+     "Corona"
+    ],
+    "pl": [
+     "Czym jest Pan w Psalmie 27 oprócz mojego światła?",
+     "Zbawienie",
+     "Miecz",
+     "Korona"
+    ],
+    "ru": [
+     "Чем является Господь в Псалме 26, кроме света моего?",
+     "Спасение",
+     "Меч",
+     "Венец"
+    ],
+    "tr": [
+     "Mezmur 27'de Rab, ışığımın yanında nedir?",
+     "Kurtuluş",
+     "Kılıç",
+     "Taç"
+    ],
+    "ja": [
+     "詩編27編で、主は私の光のほかに何ですか？",
+     "救い",
+     "剣",
+     "冠"
+    ],
+    "ko": [
+     "시편 27편에서 주님은 나의 빛 외에 무엇이십니까?",
+     "구원",
+     "칼",
+     "왕관"
+    ],
+    "ar": [
+     "في المزمور 27، ماذا يكون الرب بالإضافة إلى نوري؟",
+     "خلاص",
+     "سيف",
+     "تاج"
+    ]
+   }
+  },
+  {
+   "id": "review-16-08",
+   "orig": "easy_149",
+   "book": "john",
+   "difficulty": "easy",
+   "ref": "John 15:1",
+   "text": {
+    "en": [
+     "Jesus calls himself the true what, and the Father the vinedresser?",
+     "Vine",
+     "Palm",
+     "Olive"
+    ],
+    "es": [
+     "¿Qué planta dice Jesús que es él, siendo su Padre el viñador?",
+     "Vid",
+     "Palmera",
+     "Olivo"
+    ],
+    "pt": [
+     "Que planta Jesus diz ser, sendo o Pai o agricultor?",
+     "Videira",
+     "Palmeira",
+     "Oliveira"
+    ],
+    "fr": [
+     "Quelle plante Jésus dit-il être, son Père étant le vigneron ?",
+     "Vigne",
+     "Palmier",
+     "Olivier"
+    ],
+    "de": [
+     "Welche Pflanze ist Jesus nach eigenen Worten, wobei der Vater der Winzer ist?",
+     "Weinstock",
+     "Palme",
+     "Ölbaum"
+    ],
+    "it": [
+     "Quale pianta dice di essere Gesù, mentre il Padre è il vignaiolo?",
+     "Vite",
+     "Palma",
+     "Ulivo"
+    ],
+    "pl": [
+     "Jaką rośliną jest Jezus, a Ojciec jest winogrodnikiem?",
+     "Winorośl",
+     "Palma",
+     "Oliwka"
+    ],
+    "ru": [
+     "Какое растение — это Иисус, а Отец — виноградарь?",
+     "Лоза",
+     "Пальма",
+     "Маслина"
+    ],
+    "tr": [
+     "İsa kendini hangi bitki olarak tanıtır, Baba ise bağcıdır?",
+     "Asma",
+     "Palmiye",
+     "Zeytin"
+    ],
+    "ja": [
+     "イエスは自分をまことの何にたとえ、父を農夫と呼びましたか？",
+     "ぶどう",
+     "ナツメヤシ",
+     "オリーブ"
+    ],
+    "ko": [
+     "예수님은 자신을 참 무엇이라 하시고 아버지를 농부라 하셨습니까?",
+     "포도나무",
+     "야자나무",
+     "올리브나무"
+    ],
+    "ar": [
+     "ما هي النبتة التي قال يسوع إنه هو، وأبوه الكرام؟",
+     "كرمة",
+     "نخلة",
+     "زيتونة"
+    ]
+   }
+  },
+  {
+   "id": "review-16-09",
+   "orig": "easy_168",
+   "book": "matthew",
+   "difficulty": "easy",
+   "ref": "Matthew 1:1",
+   "text": {
+    "en": [
+     "Which Gospel begins with the genealogy of Jesus Christ?",
+     "Matthew",
+     "Mark",
+     "John"
+    ],
+    "es": [
+     "¿Qué Evangelio comienza con la genealogía de Jesucristo?",
+     "Mateo",
+     "Marcos",
+     "Juan"
+    ],
+    "pt": [
+     "Qual Evangelho começa com a genealogia de Jesus Cristo?",
+     "Mateus",
+     "Marcos",
+     "João"
+    ],
+    "fr": [
+     "Quel Évangile commence par la généalogie de Jésus Christ ?",
+     "Matthieu",
+     "Marc",
+     "Jean"
+    ],
+    "de": [
+     "Welches Evangelium beginnt mit dem Stammbaum Jesu Christi?",
+     "Matthäus",
+     "Markus",
+     "Johannes"
+    ],
+    "it": [
+     "Quale Vangelo inizia con la genealogia di Gesù Cristo?",
+     "Matteo",
+     "Marco",
+     "Giovanni"
+    ],
+    "pl": [
+     "Która Ewangelia zaczyna się od rodowodu Jezusa Chrystusa?",
+     "Mateusz",
+     "Marek",
+     "Jan"
+    ],
+    "ru": [
+     "Какое Евангелие начинается с родословия Иисуса Христа?",
+     "Матфей",
+     "Марк",
+     "Иоанн"
+    ],
+    "tr": [
+     "Hangi İncil İsa Mesih'in soyağacıyla başlar?",
+     "Matta",
+     "Markos",
+     "Yuhanna"
+    ],
+    "ja": [
+     "イエス・キリストの系図で始まる福音書はどれですか？",
+     "マタイ",
+     "マルコ",
+     "ヨハネ"
+    ],
+    "ko": [
+     "예수 그리스도의 족보로 시작하는 복음서는 무엇입니까?",
+     "마태오",
+     "마르코",
+     "요한"
+    ],
+    "ar": [
+     "أي إنجيل يبدأ بنسب يسوع المسيح؟",
+     "متى",
+     "مرقس",
+     "يوحنا"
+    ]
+   }
+  },
+  {
+   "id": "review-16-10",
+   "orig": "easy_188",
+   "book": "luke",
+   "difficulty": "easy",
+   "ref": "Luke 2:14",
+   "text": {
+    "en": [
+     "What did the angels wish on earth for people of good will?",
+     "Peace",
+     "Wealth",
+     "Victory"
+    ],
+    "es": [
+     "¿Qué desearon los ángeles en la tierra a los hombres de buena voluntad?",
+     "Paz",
+     "Riqueza",
+     "Victoria"
+    ],
+    "pt": [
+     "O que os anjos desejaram na terra aos homens de boa vontade?",
+     "Paz",
+     "Riqueza",
+     "Vitória"
+    ],
+    "fr": [
+     "Que les anges souhaitèrent-ils sur la terre aux hommes de bonne volonté ?",
+     "Paix",
+     "Richesse",
+     "Victoire"
+    ],
+    "de": [
+     "Was wünschten die Engel den Menschen auf Erden?",
+     "Frieden",
+     "Reichtum",
+     "Sieg"
+    ],
+    "it": [
+     "Che cosa augurarono gli angeli in terra agli uomini che egli ama?",
+     "Pace",
+     "Ricchezza",
+     "Vittoria"
+    ],
+    "pl": [
+     "Czego życzyli aniołowie ludziom na ziemi?",
+     "Pokój",
+     "Bogactwo",
+     "Zwycięstwo"
+    ],
+    "ru": [
+     "Что провозгласили ангелы на земле людям благоволения?",
+     "Мир",
+     "Богатство",
+     "Победа"
+    ],
+    "tr": [
+     "Melekler yeryüzünde insanlara ne diledi?",
+     "Barış",
+     "Servet",
+     "Zafer"
+    ],
+    "ja": [
+     "天使たちは地上の人々に何を告げましたか？",
+     "平和",
+     "富",
+     "勝利"
+    ],
+    "ko": [
+     "천사들은 땅에 있는 사람들에게 무엇을 선포했습니까?",
+     "평화",
+     "부",
+     "승리"
+    ],
+    "ar": [
+     "ماذا تمنت الملائكة للناس على الأرض؟",
+     "سلام",
+     "غنى",
+     "نصر"
+    ]
+   }
+  },
+  {
+   "id": "review-16-11",
+   "orig": "easy_207",
+   "book": "john",
+   "difficulty": "easy",
+   "ref": "John 8:32",
+   "text": {
+    "en": [
+     "What will the truth bring you, said Jesus?",
+     "Freedom",
+     "Wealth",
+     "Fame"
+    ],
+    "es": [
+     "¿Qué dijo Jesús que nos traerá la verdad?",
+     "Libertad",
+     "Riqueza",
+     "Fama"
+    ],
+    "pt": [
+     "O que Jesus disse que a verdade nos trará?",
+     "Liberdade",
+     "Riqueza",
+     "Fama"
+    ],
+    "fr": [
+     "Que Jésus a-t-il dit que la vérité nous apportera ?",
+     "Liberté",
+     "Richesse",
+     "Gloire"
+    ],
+    "de": [
+     "Was bringt die Wahrheit uns nach Jesu Worten?",
+     "Freiheit",
+     "Reichtum",
+     "Ruhm"
+    ],
+    "it": [
+     "Che cosa ci darà la verità, secondo Gesù?",
+     "Libertà",
+     "Ricchezza",
+     "Fama"
+    ],
+    "pl": [
+     "Co da nam prawda, według słów Jezusa?",
+     "Wolność",
+     "Bogactwo",
+     "Sława"
+    ],
+    "ru": [
+     "Что даст вам истина, по слову Иисуса?",
+     "Свобода",
+     "Богатство",
+     "Слава"
+    ],
+    "tr": [
+     "İsa'ya göre gerçek bize ne kazandıracak?",
+     "Özgürlük",
+     "Servet",
+     "Şöhret"
+    ],
+    "ja": [
+     "イエスによれば、真理は人に何をもたらしますか？",
+     "自由",
+     "富",
+     "名声"
+    ],
+    "ko": [
+     "예수님께서 진리가 우리에게 무엇을 줄 것이라고 하셨습니까?",
+     "자유",
+     "부",
+     "명성"
+    ],
+    "ar": [
+     "ماذا قال يسوع إن الحق سيمنحنا؟",
+     "حرية",
+     "غنى",
+     "شهرة"
+    ]
+   }
+  },
+  {
+   "id": "review-16-12",
+   "orig": "easy_226",
+   "book": "luke",
+   "difficulty": "easy",
+   "ref": "Luke 2:8",
+   "text": {
+    "en": [
+     "What were the shepherds watching at night when the angel appeared?",
+     "Flocks",
+     "Vineyards",
+     "City"
+    ],
+    "es": [
+     "¿Qué vigilaban los pastores de noche cuando apareció el ángel?",
+     "Rebaño",
+     "Viñas",
+     "Ciudad"
+    ],
+    "pt": [
+     "O que os pastores vigiavam à noite quando o anjo apareceu?",
+     "Rebanho",
+     "Vinhas",
+     "Cidade"
+    ],
+    "fr": [
+     "Que gardaient les bergers pendant la nuit quand l'ange apparut ?",
+     "Troupeau",
+     "Vignes",
+     "Ville"
+    ],
+    "de": [
+     "Was bewachten die Hirten in der Nacht, als der Engel erschien?",
+     "Herde",
+     "Weinberge",
+     "Stadt"
+    ],
+    "it": [
+     "Che cosa custodivano i pastori di notte quando apparve l'angelo?",
+     "Gregge",
+     "Vigne",
+     "Città"
+    ],
+    "pl": [
+     "Czego strzegli pasterze nocą, gdy ukazał się anioł?",
+     "Trzoda",
+     "Winnice",
+     "Miasto"
+    ],
+    "ru": [
+     "Что сторожили пастухи ночью, когда явился ангел?",
+     "Стадо",
+     "Виноградники",
+     "Город"
+    ],
+    "tr": [
+     "Melek göründüğünde çobanlar geceleyin neyi bekliyordu?",
+     "Sürü",
+     "Bağ",
+     "Kent"
+    ],
+    "ja": [
+     "天使が現れたとき、羊飼いたちは夜、何の番をしていましたか？",
+     "群れ",
+     "ぶどう畑",
+     "町"
+    ],
+    "ko": [
+     "천사가 나타났을 때 목자들은 밤에 무엇을 지키고 있었습니까?",
+     "양들",
+     "포도밭",
+     "성읍"
+    ],
+    "ar": [
+     "ماذا كان الرعاة يحرسون ليلا عندما ظهر الملاك؟",
+     "قطيع",
+     "كروم",
+     "مدينة"
+    ]
+   }
+  },
+  {
+   "id": "review-16-13",
+   "orig": "easy_245",
+   "book": "luke",
+   "difficulty": "medium",
+   "ref": "Luke 24:42-43",
+   "text": {
+    "en": [
+     "What did the risen Jesus eat before the disciples in Luke 24?",
+     "Fish",
+     "Lamb",
+     "Figs"
+    ],
+    "es": [
+     "¿Qué comió Jesús resucitado delante de los discípulos en Lucas 24?",
+     "Pescado",
+     "Cordero",
+     "Higos"
+    ],
+    "pt": [
+     "O que Jesus ressuscitado comeu diante dos discípulos em Lucas 24?",
+     "Peixe",
+     "Cordeiro",
+     "Figos"
+    ],
+    "fr": [
+     "Dans Luc 24, que mangea Jésus ressuscité devant les disciples ?",
+     "Poisson",
+     "Agneau",
+     "Figues"
+    ],
+    "de": [
+     "Was aß der auferstandene Jesus in Lukas 24 vor den Jüngern?",
+     "Fisch",
+     "Lamm",
+     "Feigen"
+    ],
+    "it": [
+     "In Luca 24, che cosa mangiò Gesù risorto davanti ai discepoli?",
+     "Pesce",
+     "Agnello",
+     "Fichi"
+    ],
+    "pl": [
+     "Co zjadł zmartwychwstały Jezus przy uczniach w Łk 24?",
+     "Ryba",
+     "Baranek",
+     "Figi"
+    ],
+    "ru": [
+     "Что ел воскресший Иисус перед учениками в Лк 24?",
+     "Рыба",
+     "Агнец",
+     "Смоквы"
+    ],
+    "tr": [
+     "Luka 24'te dirilen İsa öğrencilerin önünde ne yedi?",
+     "Balık",
+     "Kuzu",
+     "İncir"
+    ],
+    "ja": [
+     "ルカ24章で、復活したイエスは弟子たちの前で何を食べましたか？",
+     "魚",
+     "小羊",
+     "いちじく"
+    ],
+    "ko": [
+     "루카 24장에서 부활하신 예수님은 제자들 앞에서 무엇을 잡수셨습니까?",
+     "생선",
+     "어린양",
+     "무화과"
+    ],
+    "ar": [
+     "في لوقا 24، ماذا أكل يسوع القائم أمام التلاميذ؟",
+     "سمك",
+     "حمل",
+     "تين"
+    ]
+   }
+  },
+  {
+   "id": "review-16-14",
+   "orig": "easy_264",
+   "book": "matthew",
+   "difficulty": "easy",
+   "ref": "Matthew 17:2",
+   "text": {
+    "en": [
+     "What color did Jesus' clothes become at the Transfiguration?",
+     "White",
+     "Red",
+     "Gold"
+    ],
+    "es": [
+     "¿De qué color se volvieron las vestiduras de Jesús en la Transfiguración?",
+     "Blanco",
+     "Rojo",
+     "Dorado"
+    ],
+    "pt": [
+     "De que cor ficaram as vestes de Jesus na Transfiguração?",
+     "Branco",
+     "Vermelho",
+     "Dourado"
+    ],
+    "fr": [
+     "De quelle couleur devinrent les vêtements de Jésus à la Transfiguration ?",
+     "Blanc",
+     "Rouge",
+     "Doré"
+    ],
+    "de": [
+     "Welche Farbe bekamen Jesu Kleider bei der Verklärung?",
+     "Weiß",
+     "Rot",
+     "Golden"
+    ],
+    "it": [
+     "Di che colore divennero le vesti di Gesù alla Trasfigurazione?",
+     "Bianco",
+     "Rosso",
+     "Dorato"
+    ],
+    "pl": [
+     "Jaki kolor przybrały szaty Jezusa podczas Przemienienia?",
+     "Biały",
+     "Czerwony",
+     "Złoty"
+    ],
+    "ru": [
+     "Какого цвета стали одежды Иисуса при Преображении?",
+     "Белый",
+     "Красный",
+     "Золотой"
+    ],
+    "tr": [
+     "İsa'nın giysileri başkalaşım sırasında hangi renge döndü?",
+     "Beyaz",
+     "Kırmızı",
+     "Altın"
+    ],
+    "ja": [
+     "変容のとき、イエスの服は何色になりましたか？",
+     "白",
+     "赤",
+     "金"
+    ],
+    "ko": [
+     "거룩한 변모 때 예수님의 옷은 무슨 색이 되었습니까?",
+     "흰색",
+     "붉은색",
+     "황금색"
+    ],
+    "ar": [
+     "ما لون ثياب يسوع عند التجلي؟",
+     "أبيض",
+     "أحمر",
+     "ذهبي"
+    ]
+   }
+  },
+  {
+   "id": "review-16-15",
+   "orig": "easy_283",
+   "book": "exodus",
+   "difficulty": "easy",
+   "ref": "Exodus 20:3",
+   "text": {
+    "en": [
+     "What does the first commandment forbid having besides the Lord?",
+     "Gods",
+     "Kings",
+     "Servants"
+    ],
+    "es": [
+     "¿Qué prohíbe el primer mandamiento tener además del Señor?",
+     "Dioses",
+     "Reyes",
+     "Siervos"
+    ],
+    "pt": [
+     "O que o primeiro mandamento proíbe ter além do Senhor?",
+     "Deuses",
+     "Reis",
+     "Servos"
+    ],
+    "fr": [
+     "Que le premier commandement interdit-il d'avoir en dehors du Seigneur ?",
+     "Dieux",
+     "Rois",
+     "Serviteurs"
+    ],
+    "de": [
+     "Was verbietet das erste Gebot außer dem Herrn zu haben?",
+     "Götter",
+     "Könige",
+     "Diener"
+    ],
+    "it": [
+     "Che cosa vieta di avere il primo comandamento oltre al Signore?",
+     "Dèi",
+     "Re",
+     "Servi"
+    ],
+    "pl": [
+     "Czego zabrania mieć pierwsze przykazanie oprócz Pana?",
+     "Bogowie",
+     "Królowie",
+     "Słudzy"
+    ],
+    "ru": [
+     "Что запрещает иметь первая заповедь, кроме Господа?",
+     "Боги",
+     "Цари",
+     "Слуги"
+    ],
+    "tr": [
+     "Birinci buyruk Rab'bin yanında neye sahip olmayı yasaklar?",
+     "Tanrılar",
+     "Krallar",
+     "Hizmetkârlar"
+    ],
+    "ja": [
+     "第一の戒めは、主のほかに何を持つことを禁じていますか？",
+     "神々",
+     "王",
+     "僕"
+    ],
+    "ko": [
+     "첫째 계명은 주님 외에 무엇을 두는 것을 금합니까?",
+     "신들",
+     "왕들",
+     "종들"
+    ],
+    "ar": [
+     "ماذا تمنع الوصية الأولى أن يكون لنا إلى جانب الرب؟",
+     "آلهة",
+     "ملوك",
+     "عبيد"
+    ]
+   }
+  },
+  {
+   "id": "review-16-16",
+   "orig": "medium_009",
+   "book": "acts",
+   "difficulty": "medium",
+   "ref": "Acts 18:3",
+   "text": {
+    "en": [
+     "What did Paul, Aquila and Priscilla make for a living?",
+     "Tents",
+     "Sandals",
+     "Nets"
+    ],
+    "es": [
+     "¿Qué fabricaban Pablo, Áquila y Priscila para ganarse la vida?",
+     "Tiendas",
+     "Sandalias",
+     "Redes"
+    ],
+    "pt": [
+     "O que Paulo, Áquila e Priscila fabricavam para viver?",
+     "Tendas",
+     "Sandálias",
+     "Redes"
+    ],
+    "fr": [
+     "Que fabriquaient Paul, Aquilas et Priscille pour vivre ?",
+     "Tentes",
+     "Sandales",
+     "Filets"
+    ],
+    "de": [
+     "Was stellten Paulus, Aquila und Priszilla zum Lebensunterhalt her?",
+     "Zelte",
+     "Sandalen",
+     "Netze"
+    ],
+    "it": [
+     "Che cosa fabbricavano Paolo, Aquila e Priscilla per vivere?",
+     "Tende",
+     "Sandali",
+     "Reti"
+    ],
+    "pl": [
+     "Co wytwarzali Paweł, Akwila i Pryscylla na swoje utrzymanie?",
+     "Namioty",
+     "Sandały",
+     "Sieci"
+    ],
+    "ru": [
+     "Что делали Павел, Акила и Прискилла, чтобы зарабатывать на жизнь?",
+     "Палатки",
+     "Сандалии",
+     "Сети"
+    ],
+    "tr": [
+     "Pavlus, Akvila ve Priskilla geçimlerini neyi yaparak sağlıyordu?",
+     "Çadır",
+     "Sandalet",
+     "Ağ"
+    ],
+    "ja": [
+     "パウロ、アキラ、プリスキラは何を作って生計を立てていましたか？",
+     "テント",
+     "サンダル",
+     "網"
+    ],
+    "ko": [
+     "바오로와 아퀼라와 프리스킬라는 무엇을 만들어 생계를 꾸렸습니까?",
+     "천막",
+     "샌들",
+     "그물"
+    ],
+    "ar": [
+     "ماذا صنع بولس وأكيلا وبريسكلا ليعيشوا؟",
+     "خيام",
+     "صنادل",
+     "شباك"
+    ]
+   }
+  },
+  {
+   "id": "review-16-17",
+   "orig": "medium_028",
+   "book": "luke",
+   "difficulty": "medium",
+   "ref": "Luke 12:6",
+   "text": {
+    "en": [
+     "In Luke 12, five sparrows are sold for how many small coins?",
+     "2",
+     "4",
+     "10"
+    ],
+    "es": [
+     "En Lucas 12, ¿por cuántas monedas pequeñas se venden cinco gorriones?",
+     "2",
+     "4",
+     "10"
+    ],
+    "pt": [
+     "Em Lucas 12, por quantas moedinhas se vendem cinco pardais?",
+     "2",
+     "4",
+     "10"
+    ],
+    "fr": [
+     "Dans Luc 12, pour combien de petites pièces vend-on cinq moineaux ?",
+     "2",
+     "4",
+     "10"
+    ],
+    "de": [
+     "In Lukas 12: Für wie viele Münzen verkauft man fünf Spatzen?",
+     "2",
+     "4",
+     "10"
+    ],
+    "it": [
+     "In Luca 12, per quanti spiccioli si vendono cinque passeri?",
+     "2",
+     "4",
+     "10"
+    ],
+    "pl": [
+     "W Łk 12: za ile groszy sprzedaje się pięć wróbli?",
+     "2",
+     "4",
+     "10"
+    ],
+    "ru": [
+     "В Лк 12: за сколько мелких монет продают пять воробьёв?",
+     "2",
+     "4",
+     "10"
+    ],
+    "tr": [
+     "Luka 12'de beş serçe kaç bakır paraya satılır?",
+     "2",
+     "4",
+     "10"
+    ],
+    "ja": [
+     "ルカ12章で、5羽のすずめは何枚の小銭で売られていますか？",
+     "2",
+     "4",
+     "10"
+    ],
+    "ko": [
+     "루카 12장에서 참새 다섯 마리는 몇 닢에 팔립니까?",
+     "2",
+     "4",
+     "10"
+    ],
+    "ar": [
+     "في لوقا 12، بكم فلسا تباع خمسة عصافير؟",
+     "2",
+     "4",
+     "10"
+    ]
+   }
+  },
+  {
+   "id": "review-16-18",
+   "orig": "medium_047",
+   "book": "luke",
+   "difficulty": "medium",
+   "ref": "Luke 9:62",
+   "text": {
+    "en": [
+     "Whoever sets a hand to which tool must not look back?",
+     "Plow",
+     "Hammer",
+     "Sickle"
+    ],
+    "es": [
+     "Según Jesús, ¿quién pone la mano en qué herramienta no debe mirar atrás?",
+     "Arado",
+     "Martillo",
+     "Hoz"
+    ],
+    "pt": [
+     "Segundo Jesus, quem põe a mão em que ferramenta não deve olhar para trás?",
+     "Arado",
+     "Martelo",
+     "Foice"
+    ],
+    "fr": [
+     "Selon Jésus, qui met la main à quel outil ne doit pas regarder en arrière ?",
+     "Charrue",
+     "Marteau",
+     "Faucille"
+    ],
+    "de": [
+     "Wer die Hand an welches Gerät legt, darf laut Jesus nicht zurückblicken?",
+     "Pflug",
+     "Hammer",
+     "Sichel"
+    ],
+    "it": [
+     "Secondo Gesù, chi mette mano a quale attrezzo non deve voltarsi indietro?",
+     "Aratro",
+     "Martello",
+     "Falce"
+    ],
+    "pl": [
+     "Do jakiego narzędzia przykłada rękę ten, kto nie ma oglądać się wstecz?",
+     "Pług",
+     "Młot",
+     "Sierp"
+    ],
+    "ru": [
+     "Возложив руку на какое орудие, нельзя оглядываться назад, по словам Иисуса?",
+     "Плуг",
+     "Молот",
+     "Серп"
+    ],
+    "tr": [
+     "İsa'ya göre elini hangi araca atan geriye bakmamalıdır?",
+     "Saban",
+     "Çekiç",
+     "Orak"
+    ],
+    "ja": [
+     "イエスによれば、手をかけて後ろを振り向いてはならない道具は何ですか？",
+     "鋤",
+     "槌",
+     "鎌"
+    ],
+    "ko": [
+     "예수님께서 손을 대고 뒤를 돌아보면 안 된다고 하신 도구는 무엇입니까?",
+     "쟁기",
+     "망치",
+     "낫"
+    ],
+    "ar": [
+     "أي أداة لا ينبغي لمن وضع يده عليها أن ينظر إلى الوراء؟",
+     "محراث",
+     "مطرقة",
+     "منجل"
+    ]
+   }
+  },
+  {
+   "id": "review-16-19",
+   "orig": "medium_066",
+   "book": "song-of-songs",
+   "difficulty": "medium",
+   "ref": "Song of Songs 2:11",
+   "text": {
+    "en": [
+     "In Song of Songs 2, which season has passed?",
+     "Winter",
+     "Summer",
+     "Autumn"
+    ],
+    "es": [
+     "En el Cantar de los Cantares 2, ¿qué estación ya pasó?",
+     "Invierno",
+     "Verano",
+     "Otoño"
+    ],
+    "pt": [
+     "No Cântico dos Cânticos 2, que estação já passou?",
+     "Inverno",
+     "Verão",
+     "Outono"
+    ],
+    "fr": [
+     "Dans le Cantique des Cantiques 2, quelle saison est passée ?",
+     "Hiver",
+     "Été",
+     "Automne"
+    ],
+    "de": [
+     "Welche Jahreszeit ist im Hohelied 2 vorüber?",
+     "Winter",
+     "Sommer",
+     "Herbst"
+    ],
+    "it": [
+     "Nel Cantico dei Cantici 2, quale stagione è passata?",
+     "Inverno",
+     "Estate",
+     "Autunno"
+    ],
+    "pl": [
+     "Jaka pora roku minęła w Pieśni nad Pieśniami 2?",
+     "Zima",
+     "Lato",
+     "Jesień"
+    ],
+    "ru": [
+     "Какое время года прошло в Песни песней 2?",
+     "Зима",
+     "Лето",
+     "Осень"
+    ],
+    "tr": [
+     "Ezgiler Ezgisi 2'de hangi mevsim geçti?",
+     "Kış",
+     "Yaz",
+     "Sonbahar"
+    ],
+    "ja": [
+     "雅歌2章で、過ぎ去った季節は何ですか？",
+     "冬",
+     "夏",
+     "秋"
+    ],
+    "ko": [
+     "아가 2장에서 지나간 계절은 무엇입니까?",
+     "겨울",
+     "여름",
+     "가을"
+    ],
+    "ar": [
+     "في نشيد الأنشاد 2، أي فصل قد مضى؟",
+     "شتاء",
+     "صيف",
+     "خريف"
+    ]
+   }
+  },
+  {
+   "id": "review-16-20",
+   "orig": "medium_085",
+   "book": "song-of-songs",
+   "difficulty": "medium",
+   "ref": "Song of Songs 8:7",
+   "text": {
+    "en": [
+     "Many waters cannot quench what, says Song of Songs?",
+     "Love",
+     "Hunger",
+     "Anger"
+    ],
+    "es": [
+     "¿Qué no pueden apagar las muchas aguas, según el Cantar de los Cantares?",
+     "Amor",
+     "Hambre",
+     "Ira"
+    ],
+    "pt": [
+     "O que as muitas águas não podem apagar, segundo o Cântico dos Cânticos?",
+     "Amor",
+     "Fome",
+     "Ira"
+    ],
+    "fr": [
+     "Que les grandes eaux ne peuvent-elles éteindre, selon le Cantique ?",
+     "Amour",
+     "Faim",
+     "Colère"
+    ],
+    "de": [
+     "Was können viele Wasser nach dem Hohelied nicht auslöschen?",
+     "Liebe",
+     "Hunger",
+     "Zorn"
+    ],
+    "it": [
+     "Che cosa non possono spegnere le grandi acque, secondo il Cantico?",
+     "Amore",
+     "Fame",
+     "Ira"
+    ],
+    "pl": [
+     "Czego nie zdołają ugasić wody wielkie według Pieśni nad Pieśniami?",
+     "Miłość",
+     "Głód",
+     "Gniew"
+    ],
+    "ru": [
+     "Что не могут потушить большие воды, по Песни песней?",
+     "Любовь",
+     "Голод",
+     "Гнев"
+    ],
+    "tr": [
+     "Ezgiler Ezgisi'ne göre büyük sular neyi söndüremez?",
+     "Sevgi",
+     "Açlık",
+     "Öfke"
+    ],
+    "ja": [
+     "雅歌によれば、大水も消せないものは何ですか？",
+     "愛",
+     "飢え",
+     "怒り"
+    ],
+    "ko": [
+     "아가에 따르면 큰물도 끄지 못하는 것은 무엇입니까?",
+     "사랑",
+     "굶주림",
+     "분노"
+    ],
+    "ar": [
+     "بحسب نشيد الأنشاد، ما الذي لا تستطيع المياه الكثيرة أن تطفئه؟",
+     "محبة",
+     "جوع",
+     "غضب"
+    ]
+   }
+  },
+  {
+   "id": "review-16-21",
+   "orig": "medium_104",
+   "book": "galatians",
+   "difficulty": "medium",
+   "ref": "Galatians 4:4",
+   "text": {
+    "en": [
+     "According to Galatians, God's Son was born of whom?",
+     "Woman",
+     "Angel",
+     "Queen"
+    ],
+    "es": [
+     "Según Gálatas, ¿de quién nació el Hijo de Dios?",
+     "Mujer",
+     "Ángel",
+     "Reina"
+    ],
+    "pt": [
+     "Segundo Gálatas, de quem nasceu o Filho de Deus?",
+     "Mulher",
+     "Anjo",
+     "Rainha"
+    ],
+    "fr": [
+     "Selon Galates, de qui est né le Fils de Dieu ?",
+     "Femme",
+     "Ange",
+     "Reine"
+    ],
+    "de": [
+     "Von wem wurde nach dem Galaterbrief Gottes Sohn geboren?",
+     "Frau",
+     "Engel",
+     "Königin"
+    ],
+    "it": [
+     "Secondo Galati, da chi nacque il Figlio di Dio?",
+     "Donna",
+     "Angelo",
+     "Regina"
+    ],
+    "pl": [
+     "Z kogo według Listu do Galatów narodził się Syn Boży?",
+     "Kobieta",
+     "Anioł",
+     "Królowa"
+    ],
+    "ru": [
+     "От кого, по Галатам, родился Сын Божий?",
+     "Женщина",
+     "Ангел",
+     "Царица"
+    ],
+    "tr": [
+     "Galatyalılar'a göre Tanrı'nın Oğlu kimden doğdu?",
+     "Kadın",
+     "Melek",
+     "Kraliçe"
+    ],
+    "ja": [
+     "ガラテヤ書によれば、神の子は誰から生まれましたか？",
+     "女",
+     "天使",
+     "女王"
+    ],
+    "ko": [
+     "갈라티아서에 따르면 하느님의 아드님은 누구에게서 태어나셨습니까?",
+     "여자",
+     "천사",
+     "여왕"
+    ],
+    "ar": [
+     "بحسب غلاطية، ممن وُلد ابن الله؟",
+     "امرأة",
+     "ملاك",
+     "ملكة"
+    ]
+   }
+  },
+  {
+   "id": "review-16-22",
+   "orig": "medium_123",
+   "book": "galatians",
+   "difficulty": "medium",
+   "ref": "Galatians 5:22",
+   "text": {
+    "en": [
+     "Which of these is a fruit of the Spirit?",
+     "Joy",
+     "Envy",
+     "Anger"
+    ],
+    "es": [
+     "¿Cuál de estos es un fruto del Espíritu?",
+     "Alegría",
+     "Envidia",
+     "Ira"
+    ],
+    "pt": [
+     "Qual destes é fruto do Espírito?",
+     "Alegria",
+     "Inveja",
+     "Ira"
+    ],
+    "fr": [
+     "Lequel de ces mots est un fruit de l'Esprit ?",
+     "Joie",
+     "Envie",
+     "Colère"
+    ],
+    "de": [
+     "Welches davon ist eine Frucht des Geistes?",
+     "Freude",
+     "Neid",
+     "Zorn"
+    ],
+    "it": [
+     "Quale di questi è un frutto dello Spirito?",
+     "Gioia",
+     "Invidia",
+     "Ira"
+    ],
+    "pl": [
+     "Który z tych jest owocem Ducha?",
+     "Radość",
+     "Zawiść",
+     "Gniew"
+    ],
+    "ru": [
+     "Что из этого — плод Духа?",
+     "Радость",
+     "Зависть",
+     "Гнев"
+    ],
+    "tr": [
+     "Bunlardan hangisi Ruh'un meyvesidir?",
+     "Sevinç",
+     "Kıskançlık",
+     "Öfke"
+    ],
+    "ja": [
+     "次のうち、霊の結ぶ実はどれですか？",
+     "喜び",
+     "ねたみ",
+     "怒り"
+    ],
+    "ko": [
+     "다음 중 성령의 열매는 무엇입니까?",
+     "기쁨",
+     "질투",
+     "분노"
+    ],
+    "ar": [
+     "أي مما يلي هو من ثمر الروح؟",
+     "فرح",
+     "حسد",
+     "غضب"
+    ]
+   }
+  },
+  {
+   "id": "review-16-23",
+   "orig": "medium_142",
+   "book": "hebrews",
+   "difficulty": "medium",
+   "ref": "Hebrews 6:19",
+   "text": {
+    "en": [
+     "Hebrews calls hope a sure anchor of what?",
+     "Soul",
+     "Body",
+     "Ship"
+    ],
+    "es": [
+     "¿De qué dice Hebreos que la esperanza es un ancla segura?",
+     "Alma",
+     "Cuerpo",
+     "Barco"
+    ],
+    "pt": [
+     "De que Hebreus diz que a esperança é âncora segura?",
+     "Alma",
+     "Corpo",
+     "Navio"
+    ],
+    "fr": [
+     "De quoi l'épître aux Hébreux dit-elle que l'espérance est l'ancre sûre ?",
+     "Âme",
+     "Corps",
+     "Navire"
+    ],
+    "de": [
+     "Wovon ist die Hoffnung nach dem Hebräerbrief ein sicherer Anker?",
+     "Seele",
+     "Leib",
+     "Schiff"
+    ],
+    "it": [
+     "Di che cosa Ebrei dice che la speranza è àncora sicura?",
+     "Anima",
+     "Corpo",
+     "Nave"
+    ],
+    "pl": [
+     "Czego kotwicą pewną i mocną jest nadzieja według Listu do Hebrajczyków?",
+     "Dusza",
+     "Ciało",
+     "Statek"
+    ],
+    "ru": [
+     "Чего якорем, по Посланию к евреям, является надежда?",
+     "Душа",
+     "Тело",
+     "Корабль"
+    ],
+    "tr": [
+     "İbraniler'e göre umut neyin güvenli çapasıdır?",
+     "Can",
+     "Beden",
+     "Gemi"
+    ],
+    "ja": [
+     "ヘブライ書で、希望は何にとって確かな錨ですか？",
+     "魂",
+     "体",
+     "船"
+    ],
+    "ko": [
+     "히브리서에서 희망은 무엇을 위한 확실한 닻입니까?",
+     "영혼",
+     "몸",
+     "배"
+    ],
+    "ar": [
+     "ما الذي يكون الرجاء له مرساة أكيدة في رسالة العبرانيين؟",
+     "نفس",
+     "جسد",
+     "سفينة"
+    ]
+   }
+  },
+  {
+   "id": "review-16-24",
+   "orig": "medium_161",
+   "book": "1-john",
+   "difficulty": "medium",
+   "ref": "1 John 4:18",
+   "text": {
+    "en": [
+     "According to 1 John, what does perfect love drive out?",
+     "Fear",
+     "Anger",
+     "Pride"
+    ],
+    "es": [
+     "Según 1 Juan, ¿qué expulsa el amor perfecto?",
+     "Temor",
+     "Ira",
+     "Orgullo"
+    ],
+    "pt": [
+     "Segundo 1 João, o que o amor perfeito expulsa?",
+     "Medo",
+     "Ira",
+     "Orgulho"
+    ],
+    "fr": [
+     "Selon 1 Jean, que chasse l'amour parfait ?",
+     "Crainte",
+     "Colère",
+     "Orgueil"
+    ],
+    "de": [
+     "Was vertreibt nach 1 Johannes die vollkommene Liebe?",
+     "Furcht",
+     "Zorn",
+     "Stolz"
+    ],
+    "it": [
+     "Secondo 1 Giovanni, che cosa scaccia l'amore perfetto?",
+     "Timore",
+     "Ira",
+     "Orgoglio"
+    ],
+    "pl": [
+     "Co według 1 J wypędza doskonała miłość?",
+     "Bojaźń",
+     "Gniew",
+     "Pycha"
+    ],
+    "ru": [
+     "Что изгоняет совершенная любовь, по 1 Ин?",
+     "Страх",
+     "Гнев",
+     "Гордость"
+    ],
+    "tr": [
+     "1. Yuhanna'ya göre kusursuz sevgi neyi kovar?",
+     "Korku",
+     "Öfke",
+     "Kibir"
+    ],
+    "ja": [
+     "ヨハネの手紙一によれば、完全な愛は何を締め出しますか？",
+     "恐れ",
+     "怒り",
+     "高慢"
+    ],
+    "ko": [
+     "요한 1서에 따르면 완전한 사랑은 무엇을 쫓아냅니까?",
+     "두려움",
+     "분노",
+     "교만"
+    ],
+    "ar": [
+     "بحسب رسالة يوحنا الأولى، ماذا تطرد المحبة الكاملة؟",
+     "خوف",
+     "غضب",
+     "كبرياء"
+    ]
+   }
+  },
+  {
+   "id": "review-16-25",
+   "orig": "medium_180",
+   "book": "hebrews",
+   "difficulty": "medium",
+   "ref": "Hebrews 12:29",
+   "text": {
+    "en": [
+     "Which consuming element does Hebrews say God is?",
+     "Fire",
+     "Water",
+     "Wind"
+    ],
+    "es": [
+     "¿Qué elemento devorador dice Hebreos que es Dios?",
+     "Fuego",
+     "Agua",
+     "Viento"
+    ],
+    "pt": [
+     "Que elemento devorador Hebreus diz que Deus é?",
+     "Fogo",
+     "Água",
+     "Vento"
+    ],
+    "fr": [
+     "Quel élément dévorant l'épître aux Hébreux dit-elle que Dieu est ?",
+     "Feu",
+     "Eau",
+     "Vent"
+    ],
+    "de": [
+     "Welches verzehrende Element ist Gott nach dem Hebräerbrief?",
+     "Feuer",
+     "Wasser",
+     "Wind"
+    ],
+    "it": [
+     "Quale elemento divorante dice Ebrei che Dio è?",
+     "Fuoco",
+     "Acqua",
+     "Vento"
+    ],
+    "pl": [
+     "Jakim pochłaniającym żywiołem jest Bóg według Listu do Hebrajczyków?",
+     "Ogień",
+     "Woda",
+     "Wiatr"
+    ],
+    "ru": [
+     "Чем поядающим назван Бог в Послании к евреям?",
+     "Огонь",
+     "Вода",
+     "Ветер"
+    ],
+    "tr": [
+     "İbraniler'e göre Tanrı hangi yakıp yok eden unsurdur?",
+     "Ateş",
+     "Su",
+     "Rüzgâr"
+    ],
+    "ja": [
+     "ヘブライ書で、神は焼き尽くす何だと言われていますか？",
+     "火",
+     "水",
+     "風"
+    ],
+    "ko": [
+     "히브리서에 따르면 하느님은 태워 없애는 무엇이십니까?",
+     "불",
+     "물",
+     "바람"
+    ],
+    "ar": [
+     "بحسب العبرانيين، أي عنصر آكل هو إلهنا؟",
+     "نار",
+     "ماء",
+     "ريح"
+    ]
+   }
+  },
+  {
+   "id": "review-16-26",
+   "orig": "medium_199",
+   "book": "galatians",
+   "difficulty": "medium",
+   "ref": "Galatians 6:2",
+   "text": {
+    "en": [
+     "What should we bear for one another, says Galatians?",
+     "Burdens",
+     "Names",
+     "Gifts"
+    ],
+    "es": [
+     "¿Qué debemos llevar unos de otros, según Gálatas?",
+     "Cargas",
+     "Nombres",
+     "Regalos"
+    ],
+    "pt": [
+     "O que devemos levar uns dos outros, segundo Gálatas?",
+     "Fardos",
+     "Nomes",
+     "Presentes"
+    ],
+    "fr": [
+     "Que devons-nous porter les uns des autres, selon Galates ?",
+     "Fardeaux",
+     "Noms",
+     "Cadeaux"
+    ],
+    "de": [
+     "Was sollen wir nach dem Galaterbrief einander tragen?",
+     "Lasten",
+     "Namen",
+     "Geschenke"
+    ],
+    "it": [
+     "Che cosa dobbiamo portare gli uni degli altri, secondo Galati?",
+     "Pesi",
+     "Nomi",
+     "Doni"
+    ],
+    "pl": [
+     "Co mamy nosić jedni drugim według Listu do Galatów?",
+     "Brzemiona",
+     "Imiona",
+     "Dary"
+    ],
+    "ru": [
+     "Что друг друга следует носить, согласно Посланию к Галатам?",
+     "Бремена",
+     "Имена",
+     "Дары"
+    ],
+    "tr": [
+     "Galatyalılar'a göre birbirimizin neyini taşımalıyız?",
+     "Yük",
+     "İsim",
+     "Armağan"
+    ],
+    "ja": [
+     "ガラテヤ書は、互いに何を担い合うよう勧めていますか？",
+     "重荷",
+     "名前",
+     "贈り物"
+    ],
+    "ko": [
+     "갈라티아서는 서로 무엇을 짊어지라고 합니까?",
+     "짐",
+     "이름",
+     "선물"
+    ],
+    "ar": [
+     "ماذا علينا أن نحمل بعضنا عن بعض، بحسب غلاطية؟",
+     "أثقال",
+     "أسماء",
+     "هدايا"
+    ]
+   }
+  },
+  {
+   "id": "review-16-27",
+   "orig": "medium_218",
+   "book": "revelation",
+   "difficulty": "medium",
+   "ref": "Revelation 21:2",
+   "text": {
+    "en": [
+     "In Revelation 21, the holy city is adorned like whom?",
+     "Bride",
+     "Queen",
+     "Widow"
+    ],
+    "es": [
+     "En Apocalipsis 21, ¿a quién se asemeja la ciudad santa adornada?",
+     "Novia",
+     "Reina",
+     "Viuda"
+    ],
+    "pt": [
+     "Em Apocalipse 21, a quem se assemelha a cidade santa adornada?",
+     "Noiva",
+     "Rainha",
+     "Viúva"
+    ],
+    "fr": [
+     "Dans Apocalypse 21, à qui ressemble la ville sainte parée ?",
+     "Mariée",
+     "Reine",
+     "Veuve"
+    ],
+    "de": [
+     "Wem gleicht die geschmückte heilige Stadt in Offenbarung 21?",
+     "Braut",
+     "Königin",
+     "Witwe"
+    ],
+    "it": [
+     "In Apocalisse 21, a chi è simile la città santa adorna?",
+     "Sposa",
+     "Regina",
+     "Vedova"
+    ],
+    "pl": [
+     "Do kogo podobne jest przystrojone miasto święte w Ap 21?",
+     "Oblubienica",
+     "Królowa",
+     "Wdowa"
+    ],
+    "ru": [
+     "На кого похож украшенный святой город в Откровении 21?",
+     "Невеста",
+     "Царица",
+     "Вдова"
+    ],
+    "tr": [
+     "Vahiy 21'de kutsal kent kime benzer biçimde süslenmiştir?",
+     "Gelin",
+     "Kraliçe",
+     "Dul"
+    ],
+    "ja": [
+     "黙示録21章で、聖なる都は誰のように装われていますか？",
+     "花嫁",
+     "女王",
+     "寡婦"
+    ],
+    "ko": [
+     "요한 묵시록 21장에서 거룩한 도성은 누구처럼 단장했습니까?",
+     "신부",
+     "여왕",
+     "과부"
+    ],
+    "ar": [
+     "في رؤيا يوحنا 21، بمن تشبه المدينة المقدسة المزينة؟",
+     "عروس",
+     "ملكة",
+     "أرملة"
+    ]
+   }
+  },
+  {
+   "id": "review-16-28",
+   "orig": "medium_237",
+   "book": "john",
+   "difficulty": "medium",
+   "ref": "John 10:7",
+   "text": {
+    "en": [
+     "In John 10, Jesus says he is the what of the sheep?",
+     "Door",
+     "Wall",
+     "Well"
+    ],
+    "es": [
+     "En Juan 10, ¿qué dice Jesús que es él para las ovejas?",
+     "Puerta",
+     "Muro",
+     "Pozo"
+    ],
+    "pt": [
+     "Em João 10, o que Jesus diz ser para as ovelhas?",
+     "Porta",
+     "Muro",
+     "Poço"
+    ],
+    "fr": [
+     "Dans Jean 10, Jésus dit qu'il est la quoi des brebis ?",
+     "Porte",
+     "Mur",
+     "Puits"
+    ],
+    "de": [
+     "Was ist Jesus nach Johannes 10 für die Schafe?",
+     "Tür",
+     "Mauer",
+     "Brunnen"
+    ],
+    "it": [
+     "In Giovanni 10, Gesù dice di essere che cosa delle pecore?",
+     "Porta",
+     "Muro",
+     "Pozzo"
+    ],
+    "pl": [
+     "Kim jest Jezus dla owiec według J 10?",
+     "Brama",
+     "Mur",
+     "Studnia"
+    ],
+    "ru": [
+     "Чем называет Себя Иисус для овец в Ин 10?",
+     "Дверь",
+     "Стена",
+     "Колодец"
+    ],
+    "tr": [
+     "Yuhanna 10'da İsa kendini koyunların neyi olarak tanıtır?",
+     "Kapı",
+     "Duvar",
+     "Kuyu"
+    ],
+    "ja": [
+     "ヨハネ10章で、イエスは自分を羊の何だと言いましたか？",
+     "門",
+     "壁",
+     "井戸"
+    ],
+    "ko": [
+     "요한 10장에서 예수님은 당신을 양들의 무엇이라고 하셨습니까?",
+     "문",
+     "벽",
+     "우물"
+    ],
+    "ar": [
+     "في يوحنا 10، ماذا قال يسوع إنه للخراف؟",
+     "باب",
+     "سور",
+     "بئر"
+    ]
+   }
+  },
+  {
+   "id": "review-16-29",
+   "orig": "medium_256",
+   "book": "john",
+   "difficulty": "medium",
+   "ref": "John 12:24",
+   "text": {
+    "en": [
+     "Jesus said a grain of what must die to bear fruit?",
+     "Wheat",
+     "Barley",
+     "Mustard"
+    ],
+    "es": [
+     "¿Qué grano dijo Jesús que debe morir para dar fruto?",
+     "Trigo",
+     "Cebada",
+     "Mostaza"
+    ],
+    "pt": [
+     "Que grão Jesus disse que deve morrer para dar fruto?",
+     "Trigo",
+     "Cevada",
+     "Mostarda"
+    ],
+    "fr": [
+     "Quel grain Jésus dit-il devoir mourir pour porter du fruit ?",
+     "Blé",
+     "Orge",
+     "Moutarde"
+    ],
+    "de": [
+     "Welches Korn muss nach Jesus sterben, um Frucht zu bringen?",
+     "Weizen",
+     "Gerste",
+     "Senf"
+    ],
+    "it": [
+     "Quale chicco disse Gesù che deve morire per portare frutto?",
+     "Grano",
+     "Orzo",
+     "Senape"
+    ],
+    "pl": [
+     "Które ziarno musi obumrzeć, aby przynieść plon, według Jezusa?",
+     "Pszenica",
+     "Jęczmień",
+     "Gorczyca"
+    ],
+    "ru": [
+     "Какое зерно, по слову Иисуса, должно умереть, чтобы принести плод?",
+     "Пшеница",
+     "Ячмень",
+     "Горчица"
+    ],
+    "tr": [
+     "İsa'ya göre hangi tane ölmeden meyve vermez?",
+     "Buğday",
+     "Arpa",
+     "Hardal"
+    ],
+    "ja": [
+     "イエスは何の一粒が死ねば多くの実を結ぶと言いましたか？",
+     "小麦",
+     "大麦",
+     "からし種"
+    ],
+    "ko": [
+     "예수님은 어떤 낟알이 죽어야 열매를 맺는다고 하셨습니까?",
+     "밀",
+     "보리",
+     "겨자"
+    ],
+    "ar": [
+     "أي حبة قال يسوع إنها يجب أن تموت لتأتي بثمر؟",
+     "قمح",
+     "شعير",
+     "خردل"
+    ]
+   }
+  },
+  {
+   "id": "review-16-30",
+   "orig": "medium_275",
+   "book": "john",
+   "difficulty": "medium",
+   "ref": "John 15:13",
+   "text": {
+    "en": [
+     "Greater love has no one than laying down life for whom?",
+     "Friends",
+     "Enemies",
+     "Strangers"
+    ],
+    "es": [
+     "¿Por quiénes dar la vida es el mayor amor, según Jesús?",
+     "Amigos",
+     "Enemigos",
+     "Extraños"
+    ],
+    "pt": [
+     "Por quem dar a vida é o maior amor, segundo Jesus?",
+     "Amigos",
+     "Inimigos",
+     "Estranhos"
+    ],
+    "fr": [
+     "Pour qui donner sa vie est-il le plus grand amour, selon Jésus ?",
+     "Amis",
+     "Ennemis",
+     "Étrangers"
+    ],
+    "de": [
+     "Für wen sein Leben hinzugeben ist nach Jesus die größte Liebe?",
+     "Freunde",
+     "Feinde",
+     "Fremde"
+    ],
+    "it": [
+     "Per chi dare la vita è il più grande amore, secondo Gesù?",
+     "Amici",
+     "Nemici",
+     "Stranieri"
+    ],
+    "pl": [
+     "Za kogo oddać życie to największa miłość według Jezusa?",
+     "Przyjaciele",
+     "Wrogowie",
+     "Obcy"
+    ],
+    "ru": [
+     "За кого отдать жизнь — величайшая любовь, по словам Иисуса?",
+     "Друзья",
+     "Враги",
+     "Чужие"
+    ],
+    "tr": [
+     "İsa'ya göre en büyük sevgi, canını kimler için vermektir?",
+     "Dostlar",
+     "Düşmanlar",
+     "Yabancılar"
+    ],
+    "ja": [
+     "イエスによれば、最も大きな愛は誰のために命を捨てることですか？",
+     "友",
+     "敵",
+     "他人"
+    ],
+    "ko": [
+     "예수님에 따르면 가장 큰 사랑은 누구를 위해 목숨을 바치는 것입니까?",
+     "친구",
+     "원수",
+     "타인"
+    ],
+    "ar": [
+     "لأجل من يكون بذل النفس أعظم حب بحسب يسوع؟",
+     "أصدقاء",
+     "أعداء",
+     "غرباء"
+    ]
+   }
+  },
+  {
+   "id": "review-16-31",
+   "orig": "hard_087",
+   "book": "john",
+   "difficulty": "hard",
+   "ref": "John 8:6",
+   "text": {
+    "en": [
+     "With what did Jesus write on the ground in John 8?",
+     "Finger",
+     "Stick",
+     "Reed"
+    ],
+    "es": [
+     "¿Con qué escribió Jesús en el suelo, según Juan 8?",
+     "Dedo",
+     "Palo",
+     "Caña"
+    ],
+    "pt": [
+     "Com que Jesus escreveu no chão, segundo João 8?",
+     "Dedo",
+     "Vara",
+     "Caniço"
+    ],
+    "fr": [
+     "Avec quoi Jésus écrivit-il sur le sol, selon Jean 8 ?",
+     "Doigt",
+     "Bâton",
+     "Roseau"
+    ],
+    "de": [
+     "Womit schrieb Jesus nach Johannes 8 auf die Erde?",
+     "Finger",
+     "Stock",
+     "Rohr"
+    ],
+    "it": [
+     "Con che cosa scrisse Gesù per terra, secondo Giovanni 8?",
+     "Dito",
+     "Bastone",
+     "Canna"
+    ],
+    "pl": [
+     "Czym pisał Jezus na ziemi według J 8?",
+     "Palec",
+     "Kij",
+     "Trzcina"
+    ],
+    "ru": [
+     "Чем писал Иисус на земле, по Ин 8?",
+     "Перст",
+     "Палка",
+     "Тростник"
+    ],
+    "tr": [
+     "İsa, Yuhanna 8'de yere neyle yazdı?",
+     "Parmak",
+     "Değnek",
+     "Kamış"
+    ],
+    "ja": [
+     "ヨハネ8章で、イエスは何で地面に書きましたか？",
+     "指",
+     "棒",
+     "葦"
+    ],
+    "ko": [
+     "요한 8장에서 예수님은 무엇으로 땅에 글을 쓰셨습니까?",
+     "손가락",
+     "막대",
+     "갈대"
+    ],
+    "ar": [
+     "بماذا كتب يسوع على الأرض في يوحنا 8؟",
+     "إصبع",
+     "عصا",
+     "قصبة"
+    ]
+   }
+  },
+  {
+   "id": "review-16-32",
+   "orig": "hard_106",
+   "book": "isaiah",
+   "difficulty": "hard",
+   "ref": "Isaiah 38:21",
+   "text": {
+    "en": [
+     "What was placed on Hezekiah's boil to heal him?",
+     "Figs",
+     "Honey",
+     "Oil"
+    ],
+    "es": [
+     "¿Qué se puso sobre la llaga de Ezequías para curarlo?",
+     "Higos",
+     "Miel",
+     "Aceite"
+    ],
+    "pt": [
+     "O que foi posto sobre a úlcera de Ezequias para curá-lo?",
+     "Figos",
+     "Mel",
+     "Óleo"
+    ],
+    "fr": [
+     "Que mit-on sur l'ulcère d'Ézéchias pour le guérir ?",
+     "Figues",
+     "Miel",
+     "Huile"
+    ],
+    "de": [
+     "Was legte man auf Hiskijas Geschwür, um ihn zu heilen?",
+     "Feigen",
+     "Honig",
+     "Öl"
+    ],
+    "it": [
+     "Che cosa fu posto sull'ulcera di Ezechia per guarirlo?",
+     "Fichi",
+     "Miele",
+     "Olio"
+    ],
+    "pl": [
+     "Co położono na wrzód Ezechiasza, aby go uleczyć?",
+     "Figi",
+     "Miód",
+     "Oliwa"
+    ],
+    "ru": [
+     "Что приложили к нарыву Езекии, чтобы исцелить его?",
+     "Смоквы",
+     "Мёд",
+     "Масло"
+    ],
+    "tr": [
+     "Hizkiya'nın çıbanına iyileşmesi için ne konuldu?",
+     "İncir",
+     "Bal",
+     "Yağ"
+    ],
+    "ja": [
+     "ヒゼキヤのできものを治すために何が当てられましたか？",
+     "いちじく",
+     "蜂蜜",
+     "油"
+    ],
+    "ko": [
+     "히즈키야의 종기를 낫게 하려고 무엇을 붙였습니까?",
+     "무화과",
+     "꿀",
+     "기름"
+    ],
+    "ar": [
+     "ماذا وُضع على دمّل حزقيا ليشفى؟",
+     "تين",
+     "عسل",
+     "زيت"
+    ]
+   }
+  },
+  {
+   "id": "review-16-33",
+   "orig": "hard_125",
+   "book": "amos",
+   "difficulty": "hard",
+   "ref": "Amos 7:14",
+   "text": {
+    "en": [
+     "Besides herding, Amos tended which trees?",
+     "Sycamores",
+     "Cedars",
+     "Palms"
+    ],
+    "es": [
+     "Además de pastorear, ¿qué árboles cuidaba Amós?",
+     "Sicomoros",
+     "Cedros",
+     "Palmeras"
+    ],
+    "pt": [
+     "Além de pastorear, que árvores Amós cuidava?",
+     "Sicômoros",
+     "Cedros",
+     "Palmeiras"
+    ],
+    "fr": [
+     "En plus d'être berger, quels arbres Amos soignait-il ?",
+     "Sycomores",
+     "Cèdres",
+     "Palmiers"
+    ],
+    "de": [
+     "Welche Bäume pflegte Amos neben dem Viehhüten?",
+     "Maulbeerfeigen",
+     "Zedern",
+     "Palmen"
+    ],
+    "it": [
+     "Oltre a pascolare, di quali alberi si prendeva cura Amos?",
+     "Sicomori",
+     "Cedri",
+     "Palme"
+    ],
+    "pl": [
+     "Jakie drzewa pielęgnował Amos oprócz pasania?",
+     "Sykomory",
+     "Cedry",
+     "Palmy"
+    ],
+    "ru": [
+     "Какие деревья, помимо пастушества, возделывал Амос?",
+     "Сикоморы",
+     "Кедры",
+     "Пальмы"
+    ],
+    "tr": [
+     "Amos, sığır gütmenin yanında hangi ağaçlara bakardı?",
+     "Sikomor",
+     "Sedir",
+     "Palmiye"
+    ],
+    "ja": [
+     "アモスは家畜を飼うほかに、何の木を栽培していましたか？",
+     "いちじく桑",
+     "レバノン杉",
+     "ヤシ"
+    ],
+    "ko": [
+     "아모스는 가축을 치는 것 외에 어떤 나무를 가꾸었습니까?",
+     "돌무화과나무",
+     "향백나무",
+     "야자나무"
+    ],
+    "ar": [
+     "ما الأشجار التي اعتنى بها عاموس إلى جانب رعي الماشية؟",
+     "جميز",
+     "أرز",
+     "نخيل"
+    ]
+   }
+  },
+  {
+   "id": "review-16-34",
+   "orig": "hard_144",
+   "book": "wisdom",
+   "difficulty": "hard",
+   "ref": "Wisdom 2:24",
+   "text": {
+    "en": [
+     "Through whose envy did death enter the world?",
+     "Devil",
+     "Pharaoh",
+     "Herod"
+    ],
+    "es": [
+     "¿Por la envidia de quién entró la muerte en el mundo?",
+     "Diablo",
+     "Faraón",
+     "Herodes"
+    ],
+    "pt": [
+     "Pela inveja de quem a morte entrou no mundo?",
+     "Diabo",
+     "Faraó",
+     "Herodes"
+    ],
+    "fr": [
+     "Par l'envie de qui la mort est-elle entrée dans le monde ?",
+     "Diable",
+     "Pharaon",
+     "Hérode"
+    ],
+    "de": [
+     "Durch wessen Neid kam der Tod in die Welt?",
+     "Teufel",
+     "Pharao",
+     "Herodes"
+    ],
+    "it": [
+     "Per l'invidia di chi la morte è entrata nel mondo?",
+     "Diavolo",
+     "Faraone",
+     "Erode"
+    ],
+    "pl": [
+     "Przez czyją zazdrość śmierć weszła na świat?",
+     "Diabeł",
+     "Faraon",
+     "Herod"
+    ],
+    "ru": [
+     "Чьей завистью смерть вошла в мир?",
+     "Дьявол",
+     "Фараон",
+     "Ирод"
+    ],
+    "tr": [
+     "Ölüm kimin kıskançlığıyla dünyaya girdi?",
+     "İblis",
+     "Firavun",
+     "Hirodes"
+    ],
+    "ja": [
+     "誰のねたみによって死が世に入りましたか？",
+     "悪魔",
+     "ファラオ",
+     "ヘロデ"
+    ],
+    "ko": [
+     "누구의 시기 때문에 죽음이 세상에 들어왔습니까?",
+     "악마",
+     "파라오",
+     "헤로데"
+    ],
+    "ar": [
+     "بحسد من دخل الموت إلى العالم؟",
+     "إبليس",
+     "فرعون",
+     "هيرودس"
+    ]
+   }
+  },
+  {
+   "id": "review-16-35",
+   "orig": "hard_163",
+   "book": "luke",
+   "difficulty": "hard",
+   "ref": "Luke 16:19",
+   "text": {
+    "en": [
+     "What color clothes did the rich man wear in Jesus' parable?",
+     "Purple",
+     "Green",
+     "Black"
+    ],
+    "es": [
+     "¿De qué color vestía el rico de la parábola de Jesús?",
+     "Púrpura",
+     "Verde",
+     "Negro"
+    ],
+    "pt": [
+     "De que cor se vestia o rico na parábola de Jesus?",
+     "Púrpura",
+     "Verde",
+     "Preto"
+    ],
+    "fr": [
+     "De quelle couleur s'habillait le riche dans la parabole de Jésus ?",
+     "Pourpre",
+     "Vert",
+     "Noir"
+    ],
+    "de": [
+     "Welche Farbe trug der reiche Mann im Gleichnis Jesu?",
+     "Purpur",
+     "Grün",
+     "Schwarz"
+    ],
+    "it": [
+     "Di che colore si vestiva il ricco nella parabola di Gesù?",
+     "Porpora",
+     "Verde",
+     "Nero"
+    ],
+    "pl": [
+     "W jaki kolor ubierał się bogacz w przypowieści Jezusa?",
+     "Purpura",
+     "Zieleń",
+     "Czerń"
+    ],
+    "ru": [
+     "В какой цвет одевался богач в притче Иисуса?",
+     "Пурпурный",
+     "Зелёный",
+     "Чёрный"
+    ],
+    "tr": [
+     "İsa'nın benzetmesindeki zengin hangi renkte giyinirdi?",
+     "Mor",
+     "Yeşil",
+     "Siyah"
+    ],
+    "ja": [
+     "イエスのたとえで、金持ちは何色の服を着ていましたか？",
+     "紫",
+     "緑",
+     "黒"
+    ],
+    "ko": [
+     "예수님의 비유에서 부자는 무슨 색 옷을 입었습니까?",
+     "자주색",
+     "초록색",
+     "검은색"
+    ],
+    "ar": [
+     "ما لون ثياب الغني في مثل يسوع؟",
+     "أرجواني",
+     "أخضر",
+     "أسود"
+    ]
+   }
+  },
+  {
+   "id": "review-16-36",
+   "orig": "hard_182",
+   "book": "daniel",
+   "difficulty": "hard",
+   "ref": "Daniel 4:30",
+   "text": {
+    "en": [
+     "What did Nebuchadnezzar eat like oxen after being driven away?",
+     "Grass",
+     "Bread",
+     "Fruit"
+    ],
+    "es": [
+     "¿Qué comió Nabucodonosor como los bueyes tras ser expulsado?",
+     "Hierba",
+     "Pan",
+     "Fruta"
+    ],
+    "pt": [
+     "O que Nabucodonosor comeu como os bois depois de ser expulso?",
+     "Erva",
+     "Pão",
+     "Fruta"
+    ],
+    "fr": [
+     "Que mangea Nabuchodonosor comme les bœufs après avoir été chassé ?",
+     "Herbe",
+     "Pain",
+     "Fruits"
+    ],
+    "de": [
+     "Was fraß Nebukadnezzar wie die Rinder, nachdem er verstoßen war?",
+     "Gras",
+     "Brot",
+     "Früchte"
+    ],
+    "it": [
+     "Che cosa mangiò Nabucodonosor come i buoi dopo essere stato scacciato?",
+     "Erba",
+     "Pane",
+     "Frutta"
+    ],
+    "pl": [
+     "Co jadł Nabuchodonozor jak woły po wygnaniu spośród ludzi?",
+     "Trawa",
+     "Chleb",
+     "Owoce"
+    ],
+    "ru": [
+     "Что ел Навуходоносор, как волы, будучи изгнан от людей?",
+     "Трава",
+     "Хлеб",
+     "Плоды"
+    ],
+    "tr": [
+     "Nebukadnessar, insanlar arasından kovulunca öküz gibi ne yedi?",
+     "Ot",
+     "Ekmek",
+     "Meyve"
+    ],
+    "ja": [
+     "ネブカドネツァルは追放後、牛のように何を食べましたか？",
+     "草",
+     "パン",
+     "果物"
+    ],
+    "ko": [
+     "네부카드네자르는 쫓겨난 뒤 소처럼 무엇을 먹었습니까?",
+     "풀",
+     "빵",
+     "과일"
+    ],
+    "ar": [
+     "ماذا أكل نبوخذنصر كالثيران بعد طرده؟",
+     "عشب",
+     "خبز",
+     "فاكهة"
+    ]
+   }
+  },
+  {
+   "id": "review-16-37",
+   "orig": "hard_201",
+   "book": "mark",
+   "difficulty": "hard",
+   "ref": "Mark 14:36",
+   "text": {
+    "en": [
+     "Which Aramaic word for \"Father\" did Jesus pray in Gethsemane?",
+     "Abba",
+     "Rabbi",
+     "Amen"
+    ],
+    "es": [
+     "¿Qué palabra aramea para «Padre» usó Jesús al orar en Getsemaní?",
+     "Abbá",
+     "Rabí",
+     "Amén"
+    ],
+    "pt": [
+     "Que palavra aramaica para «Pai» Jesus usou ao orar no Getsêmani?",
+     "Abá",
+     "Rabi",
+     "Amém"
+    ],
+    "fr": [
+     "Quel mot araméen pour « Père » Jésus employa-t-il à Gethsémani ?",
+     "Abba",
+     "Rabbi",
+     "Amen"
+    ],
+    "de": [
+     "Welches aramäische Wort für „Vater“ gebrauchte Jesus in Getsemani?",
+     "Abba",
+     "Rabbi",
+     "Amen"
+    ],
+    "it": [
+     "Quale parola aramaica per «Padre» usò Gesù nel Getsemani?",
+     "Abbà",
+     "Rabbì",
+     "Amen"
+    ],
+    "pl": [
+     "Jakiego aramejskiego słowa na „Ojca” użył Jezus w Getsemani?",
+     "Abba",
+     "Rabbi",
+     "Amen"
+    ],
+    "ru": [
+     "Какое арамейское слово «Отец» произнёс Иисус в Гефсимании?",
+     "Авва",
+     "Равви",
+     "Аминь"
+    ],
+    "tr": [
+     "İsa Getsemani'de \"Baba\" için hangi Aramice sözcüğü kullandı?",
+     "Abba",
+     "Rabbi",
+     "Amin"
+    ],
+    "ja": [
+     "イエスはゲツセマネで「父」を意味するどのアラム語で祈りましたか？",
+     "アッバ",
+     "ラビ",
+     "アーメン"
+    ],
+    "ko": [
+     "예수님은 겟세마니에서 '아버지'를 뜻하는 어떤 아람어로 기도하셨습니까?",
+     "아빠",
+     "라삐",
+     "아멘"
+    ],
+    "ar": [
+     "أي كلمة آرامية بمعنى «أب» صلى بها يسوع في جتسيماني؟",
+     "أبّا",
+     "ربي",
+     "آمين"
+    ]
+   }
+  },
+  {
+   "id": "review-16-38",
+   "orig": "hard_220",
+   "book": "luke",
+   "difficulty": "hard",
+   "ref": "Luke 22:10",
+   "text": {
+    "en": [
+     "In Luke 22, the disciples were to follow a man carrying what?",
+     "Jar",
+     "Lamp",
+     "Basket"
+    ],
+    "es": [
+     "En Lucas 22, ¿qué llevaba el hombre al que debían seguir los discípulos?",
+     "Cántaro",
+     "Lámpara",
+     "Cesta"
+    ],
+    "pt": [
+     "Em Lucas 22, o que levava o homem que os discípulos deviam seguir?",
+     "Bilha",
+     "Lâmpada",
+     "Cesto"
+    ],
+    "fr": [
+     "Dans Luc 22, que portait l'homme que les disciples devaient suivre ?",
+     "Cruche",
+     "Lampe",
+     "Panier"
+    ],
+    "de": [
+     "Was trug in Lukas 22 der Mann, dem die Jünger folgen sollten?",
+     "Wasserkrug",
+     "Lampe",
+     "Korb"
+    ],
+    "it": [
+     "In Luca 22, che cosa portava l'uomo che i discepoli dovevano seguire?",
+     "Brocca",
+     "Lampada",
+     "Cesto"
+    ],
+    "pl": [
+     "Co niósł człowiek, za którym mieli pójść uczniowie w Łk 22?",
+     "Dzban",
+     "Lampa",
+     "Kosz"
+    ],
+    "ru": [
+     "Что нёс человек, за которым должны были пойти ученики в Лк 22?",
+     "Кувшин",
+     "Светильник",
+     "Корзина"
+    ],
+    "tr": [
+     "Luka 22'de öğrencilerin izleyeceği adam ne taşıyordu?",
+     "Testi",
+     "Kandil",
+     "Sepet"
+    ],
+    "ja": [
+     "ルカ22章で、弟子たちが後について行くべき男は何を運んでいましたか？",
+     "水がめ",
+     "灯火",
+     "かご"
+    ],
+    "ko": [
+     "루카 22장에서 제자들이 따라갈 사람은 무엇을 메고 있었습니까?",
+     "물동이",
+     "등불",
+     "바구니"
+    ],
+    "ar": [
+     "في لوقا 22، ماذا كان يحمل الرجل الذي كان على التلاميذ أن يتبعوه؟",
+     "جرة",
+     "سراج",
+     "سلة"
+    ]
+   }
+  },
+  {
+   "id": "review-16-39",
+   "orig": "hard_239",
+   "book": "acts",
+   "difficulty": "hard",
+   "ref": "Acts 5:15",
+   "text": {
+    "en": [
+     "In Acts 5, the sick hoped Peter's what would fall on them?",
+     "Shadow",
+     "Cloak",
+     "Hand"
+    ],
+    "es": [
+     "En Hechos 5, ¿qué esperaban los enfermos que cayera sobre ellos al pasar Pedro?",
+     "Sombra",
+     "Manto",
+     "Mano"
+    ],
+    "pt": [
+     "Em Atos 5, o que os doentes esperavam que caísse sobre eles quando Pedro passasse?",
+     "Sombra",
+     "Manto",
+     "Mão"
+    ],
+    "fr": [
+     "Dans Actes 5, qu'est-ce que les malades espéraient voir tomber de Pierre sur eux ?",
+     "Ombre",
+     "Manteau",
+     "Main"
+    ],
+    "de": [
+     "Was sollte nach Apostelgeschichte 5 auf die Kranken fallen, wenn Petrus vorüberkam?",
+     "Schatten",
+     "Mantel",
+     "Hand"
+    ],
+    "it": [
+     "In Atti 5, quando Pietro passava, che cosa speravano coprisse i malati?",
+     "Ombra",
+     "Mantello",
+     "Mano"
+    ],
+    "pl": [
+     "Co według Dz 5 miało paść na chorych, gdy Piotr przechodził?",
+     "Cień",
+     "Płaszcz",
+     "Ręka"
+    ],
+    "ru": [
+     "Что от проходящего Петра должно было осенить больных, по Деян 5?",
+     "Тень",
+     "Плащ",
+     "Рука"
+    ],
+    "tr": [
+     "Elçilerin İşleri 5'te hastalar Petrus'un neyinin üzerlerine düşmesini umdu?",
+     "Gölge",
+     "Pelerin",
+     "El"
+    ],
+    "ja": [
+     "使徒言行録5章で、病人たちはペトロの何が自分に落ちることを望みましたか？",
+     "影",
+     "外套",
+     "手"
+    ],
+    "ko": [
+     "사도행전 5장에서 병자들은 베드로의 무엇이 자신에게 드리우기를 바랐습니까?",
+     "그림자",
+     "외투",
+     "손"
+    ],
+    "ar": [
+     "في أعمال الرسل 5، ماذا رجا المرضى أن يقع عليهم من بطرس المارّ؟",
+     "ظل",
+     "رداء",
+     "يد"
+    ]
+   }
+  },
+  {
+   "id": "review-16-40",
+   "orig": "hard_258",
+   "book": "revelation",
+   "difficulty": "hard",
+   "ref": "Revelation 14:14",
+   "text": {
+    "en": [
+     "What sharp tool did the one on the white cloud hold?",
+     "Sickle",
+     "Sword",
+     "Axe"
+    ],
+    "es": [
+     "¿Qué herramienta afilada tenía en la mano el que estaba sobre la nube blanca?",
+     "Hoz",
+     "Espada",
+     "Hacha"
+    ],
+    "pt": [
+     "Que ferramenta afiada tinha na mão quem estava sobre a nuvem branca?",
+     "Foice",
+     "Espada",
+     "Machado"
+    ],
+    "fr": [
+     "Quel outil tranchant tenait celui qui était assis sur la nuée blanche ?",
+     "Faucille",
+     "Épée",
+     "Hache"
+    ],
+    "de": [
+     "Welches scharfe Werkzeug hielt der, der auf der weißen Wolke saß?",
+     "Sichel",
+     "Schwert",
+     "Axt"
+    ],
+    "it": [
+     "Quale attrezzo affilato teneva colui che sedeva sulla nube bianca?",
+     "Falce",
+     "Spada",
+     "Ascia"
+    ],
+    "pl": [
+     "Jakie ostre narzędzie trzymał ten, który siedział na białym obłoku?",
+     "Sierp",
+     "Miecz",
+     "Siekiera"
+    ],
+    "ru": [
+     "Какое острое орудие держал Сидящий на белом облаке?",
+     "Серп",
+     "Меч",
+     "Топор"
+    ],
+    "tr": [
+     "Beyaz bulutun üzerinde oturan hangi keskin aleti tuttu?",
+     "Orak",
+     "Kılıç",
+     "Balta"
+    ],
+    "ja": [
+     "白い雲の上に座っていた方は、どんな鋭い道具を持っていましたか？",
+     "鎌",
+     "剣",
+     "斧"
+    ],
+    "ko": [
+     "흰 구름 위에 앉아 계신 분은 어떤 날카로운 도구를 들고 있었습니까?",
+     "낫",
+     "칼",
+     "도끼"
+    ],
+    "ar": [
+     "أي أداة حادة حملها الجالس على السحابة البيضاء؟",
+     "منجل",
+     "سيف",
+     "فأس"
+    ]
+   }
+  },
+  {
+   "id": "review-16-41",
+   "orig": "expert_013",
+   "book": "daniel",
+   "difficulty": "expert",
+   "ref": "Daniel 7:4",
+   "text": {
+    "en": [
+     "Daniel's first beast from the sea was like which animal?",
+     "Lion",
+     "Bear",
+     "Leopard"
+    ],
+    "es": [
+     "¿A qué animal se parecía la primera bestia que Daniel vio salir del mar?",
+     "León",
+     "Oso",
+     "Leopardo"
+    ],
+    "pt": [
+     "A que animal se parecia a primeira fera que Daniel viu sair do mar?",
+     "Leão",
+     "Urso",
+     "Leopardo"
+    ],
+    "fr": [
+     "À quel animal ressemblait la première bête sortie de la mer chez Daniel ?",
+     "Lion",
+     "Ours",
+     "Léopard"
+    ],
+    "de": [
+     "Welchem Tier glich das erste Tier, das Daniel aus dem Meer steigen sah?",
+     "Löwe",
+     "Bär",
+     "Leopard"
+    ],
+    "it": [
+     "A quale animale somigliava la prima bestia che Daniele vide uscire dal mare?",
+     "Leone",
+     "Orso",
+     "Leopardo"
+    ],
+    "pl": [
+     "Do jakiego zwierzęcia podobne było pierwsze zwierzę wychodzące z morza u Daniela?",
+     "Lew",
+     "Niedźwiedź",
+     "Lampart"
+    ],
+    "ru": [
+     "На какого зверя походил первый зверь, вышедший из моря у Даниила?",
+     "Лев",
+     "Медведь",
+     "Барс"
+    ],
+    "tr": [
+     "Daniel'in denizden çıkan ilk canavarı hangi hayvana benziyordu?",
+     "Aslan",
+     "Ayı",
+     "Leopar"
+    ],
+    "ja": [
+     "ダニエルが見た海から上がる最初の獣は何に似ていましたか？",
+     "獅子",
+     "熊",
+     "豹"
+    ],
+    "ko": [
+     "다니엘이 본 바다에서 올라온 첫째 짐승은 무엇과 같았습니까?",
+     "사자",
+     "곰",
+     "표범"
+    ],
+    "ar": [
+     "بأي حيوان شبيه كان الوحش الأول الصاعد من البحر عند دانيال؟",
+     "أسد",
+     "دب",
+     "نمر"
+    ]
+   }
+  },
+  {
+   "id": "review-16-42",
+   "orig": "expert_032",
+   "book": "daniel",
+   "difficulty": "expert",
+   "ref": "Daniel 10:4",
+   "text": {
+    "en": [
+     "By which great river did Daniel see the man in linen?",
+     "Tigris",
+     "Nile",
+     "Jordan"
+    ],
+    "es": [
+     "¿Junto a qué gran río vio Daniel al hombre vestido de lino?",
+     "Tigris",
+     "Nilo",
+     "Jordán"
+    ],
+    "pt": [
+     "Junto a que grande rio Daniel viu o homem vestido de linho?",
+     "Tigre",
+     "Nilo",
+     "Jordão"
+    ],
+    "fr": [
+     "Près de quel grand fleuve Daniel vit-il l'homme vêtu de lin ?",
+     "Tigre",
+     "Nil",
+     "Jourdain"
+    ],
+    "de": [
+     "An welchem großen Fluss sah Daniel den Mann in Leinen?",
+     "Tigris",
+     "Nil",
+     "Jordan"
+    ],
+    "it": [
+     "Presso quale grande fiume Daniele vide l'uomo vestito di lino?",
+     "Tigri",
+     "Nilo",
+     "Giordano"
+    ],
+    "pl": [
+     "Nad jaką wielką rzeką Daniel ujrzał męża w lnianej szacie?",
+     "Tygrys",
+     "Nil",
+     "Jordan"
+    ],
+    "ru": [
+     "У какой великой реки Даниил увидел мужа в льняной одежде?",
+     "Тигр",
+     "Нил",
+     "Иордан"
+    ],
+    "tr": [
+     "Daniel, keten giysili adamı hangi büyük nehrin kıyısında gördü?",
+     "Dicle",
+     "Nil",
+     "Ürdün"
+    ],
+    "ja": [
+     "ダニエルは亜麻布の服を着た人をどの大河のほとりで見ましたか？",
+     "チグリス",
+     "ナイル",
+     "ヨルダン"
+    ],
+    "ko": [
+     "다니엘은 아마 옷을 입은 사람을 어느 큰 강가에서 보았습니까?",
+     "티그리스",
+     "나일",
+     "요르단"
+    ],
+    "ar": [
+     "عند أي نهر عظيم رأى دانيال الرجل اللابس الكتان؟",
+     "دجلة",
+     "النيل",
+     "الأردن"
+    ]
+   }
+  },
+  {
+   "id": "review-16-43",
+   "orig": "expert_051",
+   "book": "daniel",
+   "difficulty": "expert",
+   "ref": "Daniel 5:31",
+   "text": {
+    "en": [
+     "How old was Darius the Mede when he received the kingdom?",
+     "62",
+     "40",
+     "70"
+    ],
+    "es": [
+     "¿Qué edad tenía Darío el medo al recibir el reino?",
+     "62",
+     "40",
+     "70"
+    ],
+    "pt": [
+     "Que idade tinha Dario, o medo, ao receber o reino?",
+     "62",
+     "40",
+     "70"
+    ],
+    "fr": [
+     "Quel âge avait Darius le Mède en recevant le royaume ?",
+     "62",
+     "40",
+     "70"
+    ],
+    "de": [
+     "Wie alt war Darius der Meder, als er das Reich übernahm?",
+     "62",
+     "40",
+     "70"
+    ],
+    "it": [
+     "Quanti anni aveva Dario il Medo quando ricevette il regno?",
+     "62",
+     "40",
+     "70"
+    ],
+    "pl": [
+     "Ile lat miał Dariusz Med, gdy objął królestwo?",
+     "62",
+     "40",
+     "70"
+    ],
+    "ru": [
+     "Сколько лет было Дарию Мидянину, когда он принял царство?",
+     "62",
+     "40",
+     "70"
+    ],
+    "tr": [
+     "Medyalı Darius krallığı aldığında kaç yaşındaydı?",
+     "62",
+     "40",
+     "70"
+    ],
+    "ja": [
+     "メディア人ダレイオスは王国を受けたとき何歳でしたか？",
+     "62",
+     "40",
+     "70"
+    ],
+    "ko": [
+     "메디아 사람 다리우스는 왕국을 받았을 때 몇 살이었습니까?",
+     "62",
+     "40",
+     "70"
+    ],
+    "ar": [
+     "كم كان عمر داريوس المادي حين تسلّم الملك؟",
+     "62",
+     "40",
+     "70"
+    ]
+   }
+  },
+  {
+   "id": "review-16-44",
+   "orig": "expert_070",
+   "book": "job",
+   "difficulty": "expert",
+   "ref": "Job 1:3",
+   "text": {
+    "en": [
+     "Before his trials, how many camels did Job own?",
+     "3000",
+     "500",
+     "7000"
+    ],
+    "es": [
+     "¿Cuántos camellos tenía Job antes de sus pruebas?",
+     "3000",
+     "500",
+     "7000"
+    ],
+    "pt": [
+     "Quantos camelos Jó possuía antes de suas provações?",
+     "3000",
+     "500",
+     "7000"
+    ],
+    "fr": [
+     "Combien de chameaux Job possédait-il avant ses épreuves ?",
+     "3000",
+     "500",
+     "7000"
+    ],
+    "de": [
+     "Wie viele Kamele besaß Ijob vor seinen Prüfungen?",
+     "3000",
+     "500",
+     "7000"
+    ],
+    "it": [
+     "Quanti cammelli possedeva Giobbe prima delle sue prove?",
+     "3000",
+     "500",
+     "7000"
+    ],
+    "pl": [
+     "Ile wielbłądów miał Hiob przed swoimi próbami?",
+     "3000",
+     "500",
+     "7000"
+    ],
+    "ru": [
+     "Сколько верблюдов было у Иова до его испытаний?",
+     "3000",
+     "500",
+     "7000"
+    ],
+    "tr": [
+     "Eyüp sınanmadan önce kaç deveye sahipti?",
+     "3000",
+     "500",
+     "7000"
+    ],
+    "ja": [
+     "試練の前、ヨブはらくだを何頭持っていましたか？",
+     "3000",
+     "500",
+     "7000"
+    ],
+    "ko": [
+     "시련을 겪기 전에 욥은 낙타를 몇 마리 가지고 있었습니까?",
+     "3000",
+     "500",
+     "7000"
+    ],
+    "ar": [
+     "كم جملا كان يملك أيوب قبل محنته؟",
+     "3000",
+     "500",
+     "7000"
+    ]
+   }
+  },
+  {
+   "id": "review-16-45",
+   "orig": "expert_089",
+   "book": "numbers",
+   "difficulty": "expert",
+   "ref": "Numbers 19:2",
+   "text": {
+    "en": [
+     "Which red animal's ashes were used for purification water?",
+     "Heifer",
+     "Ram",
+     "Goat"
+    ],
+    "es": [
+     "¿Las cenizas de qué animal rojo servían para el agua de purificación?",
+     "Novilla",
+     "Carnero",
+     "Cabra"
+    ],
+    "pt": [
+     "As cinzas de que animal vermelho serviam para a água de purificação?",
+     "Novilha",
+     "Carneiro",
+     "Cabra"
+    ],
+    "fr": [
+     "Les cendres de quel animal roux servaient à l'eau de purification ?",
+     "Génisse",
+     "Bélier",
+     "Chèvre"
+    ],
+    "de": [
+     "Die Asche welches roten Tieres wurde für das Reinigungswasser verwendet?",
+     "Kuh",
+     "Widder",
+     "Ziege"
+    ],
+    "it": [
+     "La cenere di quale animale rosso serviva per l'acqua di purificazione?",
+     "Giovenca",
+     "Ariete",
+     "Capra"
+    ],
+    "pl": [
+     "Popiół jakiego rudego zwierzęcia służył do wody oczyszczenia?",
+     "Jałówka",
+     "Baran",
+     "Koza"
+    ],
+    "ru": [
+     "Пепел какого рыжего животного шёл на воду очищения?",
+     "Телица",
+     "Овен",
+     "Коза"
+    ],
+    "tr": [
+     "Hangi kızıl hayvanın külü arınma suyunda kullanılırdı?",
+     "Düve",
+     "Koç",
+     "Keçi"
+    ],
+    "ja": [
+     "どの赤い動物の灰が清めの水に使われましたか？",
+     "雌牛",
+     "雄羊",
+     "山羊"
+    ],
+    "ko": [
+     "어떤 붉은 동물의 재가 정화수에 쓰였습니까?",
+     "암소",
+     "숫양",
+     "염소"
+    ],
+    "ar": [
+     "رماد أي حيوان أحمر كان يستخدم لماء التطهير؟",
+     "عجلة",
+     "كبش",
+     "ماعز"
+    ]
+   }
+  },
+  {
+   "id": "review-16-46",
+   "orig": "expert_108",
+   "book": "jude",
+   "difficulty": "expert",
+   "ref": "Jude 14",
+   "text": {
+    "en": [
+     "Counting from Adam, which generation was Enoch, per Jude?",
+     "7",
+     "10",
+     "12"
+    ],
+    "es": [
+     "Contando desde Adán, ¿qué generación fue Henoc, según Judas?",
+     "7",
+     "10",
+     "12"
+    ],
+    "pt": [
+     "Contando desde Adão, que geração foi Henoc, segundo Judas?",
+     "7",
+     "10",
+     "12"
+    ],
+    "fr": [
+     "En comptant depuis Adam, quelle génération fut Hénoch, selon Jude ?",
+     "7",
+     "10",
+     "12"
+    ],
+    "de": [
+     "Die wievielte Generation nach Adam war Henoch laut Judas?",
+     "7",
+     "10",
+     "12"
+    ],
+    "it": [
+     "Contando da Adamo, quale generazione fu Enoc, secondo Giuda?",
+     "7",
+     "10",
+     "12"
+    ],
+    "pl": [
+     "Którym pokoleniem od Adama był Henoch według Judy?",
+     "7",
+     "10",
+     "12"
+    ],
+    "ru": [
+     "Каким по счёту от Адама был Енох, по Иуде?",
+     "7",
+     "10",
+     "12"
+    ],
+    "tr": [
+     "Yahuda'ya göre Hanok Âdem'den sayılınca kaçıncı kuşaktı?",
+     "7",
+     "10",
+     "12"
+    ],
+    "ja": [
+     "ユダの手紙によれば、アダムから数えてエノクは何代目でしたか？",
+     "7",
+     "10",
+     "12"
+    ],
+    "ko": [
+     "유다서에 따르면 아담부터 헤아려 에녹은 몇 대째였습니까?",
+     "7",
+     "10",
+     "12"
+    ],
+    "ar": [
+     "بحسب رسالة يهوذا، كم كان ترتيب أخنوخ من آدم؟",
+     "7",
+     "10",
+     "12"
+    ]
+   }
+  },
+  {
+   "id": "review-16-47",
+   "orig": "expert_127",
+   "book": "2-kings",
+   "difficulty": "expert",
+   "ref": "2 Kings 7:3",
+   "text": {
+    "en": [
+     "How many lepers sat at the gate of Samaria?",
+     "4",
+     "2",
+     "10"
+    ],
+    "es": [
+     "¿Cuántos leprosos estaban a la puerta de Samaria?",
+     "4",
+     "2",
+     "10"
+    ],
+    "pt": [
+     "Quantos leprosos estavam à porta de Samaria?",
+     "4",
+     "2",
+     "10"
+    ],
+    "fr": [
+     "Combien de lépreux se trouvaient à l'entrée de la porte de Samarie ?",
+     "4",
+     "2",
+     "10"
+    ],
+    "de": [
+     "Wie viele Aussätzige saßen am Tor von Samaria?",
+     "4",
+     "2",
+     "10"
+    ],
+    "it": [
+     "Quanti lebbrosi stavano all'ingresso della porta di Samaria?",
+     "4",
+     "2",
+     "10"
+    ],
+    "pl": [
+     "Ilu trędowatych siedziało u bramy Samarii?",
+     "4",
+     "2",
+     "10"
+    ],
+    "ru": [
+     "Сколько прокажённых сидело у ворот Самарии?",
+     "4",
+     "2",
+     "10"
+    ],
+    "tr": [
+     "Samiriye'nin kapısında kaç cüzamlı oturuyordu?",
+     "4",
+     "2",
+     "10"
+    ],
+    "ja": [
+     "サマリアの門には何人の重い皮膚病の人がいましたか？",
+     "4",
+     "2",
+     "10"
+    ],
+    "ko": [
+     "사마리아 성문에는 몇 명의 나병 환자가 앉아 있었습니까?",
+     "4",
+     "2",
+     "10"
+    ],
+    "ar": [
+     "كم عدد البرص الجالسين عند باب السامرة؟",
+     "4",
+     "2",
+     "10"
+    ]
+   }
+  },
+  {
+   "id": "review-16-48",
+   "orig": "expert_146",
+   "book": "2-kings",
+   "difficulty": "expert",
+   "ref": "2 Kings 4:41",
+   "text": {
+    "en": [
+     "What did Elisha add to the poisoned stew to heal it?",
+     "Flour",
+     "Salt",
+     "Oil"
+    ],
+    "es": [
+     "¿Qué echó Eliseo en la olla envenenada para sanarla?",
+     "Harina",
+     "Sal",
+     "Aceite"
+    ],
+    "pt": [
+     "O que Eliseu pôs na panela envenenada para curá-la?",
+     "Farinha",
+     "Sal",
+     "Azeite"
+    ],
+    "fr": [
+     "Qu'Élisée jeta-t-il dans la marmite empoisonnée pour la guérir ?",
+     "Farine",
+     "Sel",
+     "Huile"
+    ],
+    "de": [
+     "Was tat Elischa in den vergifteten Eintopf, um ihn zu heilen?",
+     "Mehl",
+     "Salz",
+     "Öl"
+    ],
+    "it": [
+     "Che cosa mise Eliseo nella pentola avvelenata per risanarla?",
+     "Farina",
+     "Sale",
+     "Olio"
+    ],
+    "pl": [
+     "Co wsypał Elizeusz do zatrutego garnka, aby go uzdrowić?",
+     "Mąka",
+     "Sól",
+     "Oliwa"
+    ],
+    "ru": [
+     "Что бросил Елисей в отравленный котёл, чтобы исцелить его?",
+     "Мука",
+     "Соль",
+     "Масло"
+    ],
+    "tr": [
+     "Elişa zehirli yahniyi iyileştirmek için içine ne attı?",
+     "Un",
+     "Tuz",
+     "Yağ"
+    ],
+    "ja": [
+     "エリシャは毒の入った煮物を直すために何を入れましたか？",
+     "小麦粉",
+     "塩",
+     "油"
+    ],
+    "ko": [
+     "엘리사는 독이 든 국을 고치려고 무엇을 넣었습니까?",
+     "밀가루",
+     "소금",
+     "기름"
+    ],
+    "ar": [
+     "ماذا ألقى أليشع في القدر المسمومة ليشفيها؟",
+     "دقيق",
+     "ملح",
+     "زيت"
+    ]
+   }
+  },
+  {
+   "id": "review-16-49",
+   "orig": "expert_165",
+   "book": "james",
+   "difficulty": "expert",
+   "ref": "James 5:17",
+   "text": {
+    "en": [
+     "Besides three years, how many months did Elijah's drought last?",
+     "6",
+     "3",
+     "12"
+    ],
+    "es": [
+     "¿Cuántos meses, además de tres años, duró la sequía de Elías según Santiago?",
+     "6",
+     "3",
+     "12"
+    ],
+    "pt": [
+     "Além de três anos, quantos meses durou a seca de Elias, segundo Tiago?",
+     "6",
+     "3",
+     "12"
+    ],
+    "fr": [
+     "En plus de trois ans, combien de mois dura la sécheresse d'Élie, selon Jacques ?",
+     "6",
+     "3",
+     "12"
+    ],
+    "de": [
+     "Wie viele Monate dauerte Elijas Dürre nach Jakobus zusätzlich zu drei Jahren?",
+     "6",
+     "3",
+     "12"
+    ],
+    "it": [
+     "Oltre a tre anni, quanti mesi durò la siccità di Elia, secondo Giacomo?",
+     "6",
+     "3",
+     "12"
+    ],
+    "pl": [
+     "Ile miesięcy oprócz trzech lat trwała susza Eliasza według Jakuba?",
+     "6",
+     "3",
+     "12"
+    ],
+    "ru": [
+     "Сколько месяцев, кроме трёх лет, длилась засуха Илии по Иакову?",
+     "6",
+     "3",
+     "12"
+    ],
+    "tr": [
+     "Yakup'a göre İlyas'ın kuraklığı üç yılın yanında kaç ay sürdü?",
+     "6",
+     "3",
+     "12"
+    ],
+    "ja": [
+     "ヤコブの手紙によれば、エリヤの干ばつは3年に加えて何か月続きましたか？",
+     "6",
+     "3",
+     "12"
+    ],
+    "ko": [
+     "야고보서에 따르면 엘리야의 가뭄은 3년에 더해 몇 달 계속되었습니까?",
+     "6",
+     "3",
+     "12"
+    ],
+    "ar": [
+     "بحسب يعقوب، كم شهرا استمر جفاف إيليا بالإضافة إلى ثلاث سنوات؟",
+     "6",
+     "3",
+     "12"
+    ]
+   }
+  },
+  {
+   "id": "review-16-50",
+   "orig": "expert_184",
+   "book": "1-maccabees",
+   "difficulty": "expert",
+   "ref": "1 Maccabees 4:56",
+   "text": {
+    "en": [
+     "For how many days did Judas celebrate the altar's dedication?",
+     "8",
+     "3",
+     "14"
+    ],
+    "es": [
+     "¿Durante cuántos días celebró Judas la dedicación del altar?",
+     "8",
+     "3",
+     "14"
+    ],
+    "pt": [
+     "Durante quantos dias Judas celebrou a dedicação do altar?",
+     "8",
+     "3",
+     "14"
+    ],
+    "fr": [
+     "Pendant combien de jours Judas célébra-t-il la dédicace de l'autel ?",
+     "8",
+     "3",
+     "14"
+    ],
+    "de": [
+     "Wie viele Tage feierte Judas die Altarweihe?",
+     "8",
+     "3",
+     "14"
+    ],
+    "it": [
+     "Per quanti giorni Giuda celebrò la dedicazione dell'altare?",
+     "8",
+     "3",
+     "14"
+    ],
+    "pl": [
+     "Przez ile dni Juda obchodził poświęcenie ołtarza?",
+     "8",
+     "3",
+     "14"
+    ],
+    "ru": [
+     "Сколько дней Иуда праздновал обновление жертвенника?",
+     "8",
+     "3",
+     "14"
+    ],
+    "tr": [
+     "Yahuda sunağın adanışını kaç gün kutladı?",
+     "8",
+     "3",
+     "14"
+    ],
+    "ja": [
+     "ユダは祭壇の奉献を何日間祝いましたか？",
+     "8",
+     "3",
+     "14"
+    ],
+    "ko": [
+     "유다는 제단 봉헌을 며칠 동안 경축했습니까?",
+     "8",
+     "3",
+     "14"
+    ],
+    "ar": [
+     "كم يوما احتفل يهوذا بتدشين المذبح؟",
+     "8",
+     "3",
+     "14"
+    ]
+   }
+  },
+  {
+   "id": "review-16-51",
+   "orig": "expert_203",
+   "book": "zechariah",
+   "difficulty": "expert",
+   "ref": "Zechariah 1:8",
+   "text": {
+    "en": [
+     "Zechariah saw a rider on a red horse among which trees?",
+     "Myrtles",
+     "Cedars",
+     "Palms"
+    ],
+    "es": [
+     "¿Entre qué árboles vio Zacarías al jinete en un caballo rojo?",
+     "Mirtos",
+     "Cedros",
+     "Palmeras"
+    ],
+    "pt": [
+     "Entre que árvores Zacarias viu o cavaleiro num cavalo vermelho?",
+     "Murtas",
+     "Cedros",
+     "Palmeiras"
+    ],
+    "fr": [
+     "Parmi quels arbres Zacharie vit-il le cavalier sur un cheval roux ?",
+     "Myrtes",
+     "Cèdres",
+     "Palmiers"
+    ],
+    "de": [
+     "Zwischen welchen Bäumen sah Sacharja den Reiter auf dem roten Pferd?",
+     "Myrten",
+     "Zedern",
+     "Palmen"
+    ],
+    "it": [
+     "Tra quali alberi Zaccaria vide il cavaliere su un cavallo rosso?",
+     "Mirti",
+     "Cedri",
+     "Palme"
+    ],
+    "pl": [
+     "Wśród jakich drzew Zachariasz ujrzał jeźdźca na czerwonym koniu?",
+     "Mirty",
+     "Cedry",
+     "Palmy"
+    ],
+    "ru": [
+     "Среди каких деревьев Захария увидел всадника на рыжем коне?",
+     "Мирты",
+     "Кедры",
+     "Пальмы"
+    ],
+    "tr": [
+     "Zekeriya, kızıl atlı süvariyi hangi ağaçların arasında gördü?",
+     "Mersin",
+     "Sedir",
+     "Palmiye"
+    ],
+    "ja": [
+     "ゼカルヤは赤い馬に乗った人を何の木の間に見ましたか？",
+     "ミルトス",
+     "レバノン杉",
+     "ヤシ"
+    ],
+    "ko": [
+     "즈카르야는 붉은 말을 탄 사람을 어떤 나무들 사이에서 보았습니까?",
+     "도금양",
+     "향백나무",
+     "야자나무"
+    ],
+    "ar": [
+     "بين أي أشجار رأى زكريا الراكب على الفرس الحمراء؟",
+     "آس",
+     "أرز",
+     "نخيل"
+    ]
+   }
+  },
+  {
+   "id": "review-16-52",
+   "orig": "expert_222",
+   "book": "1-samuel",
+   "difficulty": "expert",
+   "ref": "1 Samuel 1:3",
+   "text": {
+    "en": [
+     "To which town did Elkanah's family go up yearly to worship?",
+     "Shiloh",
+     "Hebron",
+     "Gilgal"
+    ],
+    "es": [
+     "¿A qué ciudad subía cada año la familia de Elcaná para adorar?",
+     "Siló",
+     "Hebrón",
+     "Guilgal"
+    ],
+    "pt": [
+     "A que cidade subia a cada ano a família de Elcana para adorar?",
+     "Silo",
+     "Hebron",
+     "Guilgal"
+    ],
+    "fr": [
+     "Dans quelle ville la famille d'Elqana montait-elle chaque année pour adorer ?",
+     "Silo",
+     "Hébron",
+     "Guilgal"
+    ],
+    "de": [
+     "In welche Stadt zog Elkanas Familie jedes Jahr zum Gottesdienst?",
+     "Schilo",
+     "Hebron",
+     "Gilgal"
+    ],
+    "it": [
+     "A quale città saliva ogni anno la famiglia di Elkana per adorare?",
+     "Silo",
+     "Ebron",
+     "Gàlgala"
+    ],
+    "pl": [
+     "Do jakiego miasta co roku chodziła rodzina Elkany na pokłon?",
+     "Szilo",
+     "Hebron",
+     "Gilgal"
+    ],
+    "ru": [
+     "В какой город ежегодно ходило семейство Елканы на богослужение?",
+     "Силом",
+     "Хеврон",
+     "Галгал"
+    ],
+    "tr": [
+     "Elkana'nın ailesi her yıl tapınmak için hangi kente giderdi?",
+     "Şilo",
+     "Hevron",
+     "Gilgal"
+    ],
+    "ja": [
+     "エルカナの家族は毎年どの町に礼拝のために上りましたか？",
+     "シロ",
+     "ヘブロン",
+     "ギルガル"
+    ],
+    "ko": [
+     "엘카나의 가족은 해마다 어느 성읍에 예배하러 올라갔습니까?",
+     "실로",
+     "헤브론",
+     "길갈"
+    ],
+    "ar": [
+     "إلى أي مدينة كانت عائلة ألقانة تصعد كل سنة للعبادة؟",
+     "شيلوه",
+     "حبرون",
+     "جلجال"
+    ]
+   }
+  },
+  {
+   "id": "review-16-53",
+   "orig": "expert_241",
+   "book": "romans",
+   "difficulty": "expert",
+   "ref": "Romans 15:24",
+   "text": {
+    "en": [
+     "Paul hoped to visit which western land after Rome?",
+     "Spain",
+     "Britain",
+     "Germany"
+    ],
+    "es": [
+     "¿Qué tierra occidental esperaba visitar Pablo después de Roma?",
+     "España",
+     "Britania",
+     "Germania"
+    ],
+    "pt": [
+     "Que terra ocidental Paulo esperava visitar depois de Roma?",
+     "Espanha",
+     "Britânia",
+     "Germânia"
+    ],
+    "fr": [
+     "Quel pays occidental Paul espérait-il visiter après Rome ?",
+     "Espagne",
+     "Bretagne",
+     "Germanie"
+    ],
+    "de": [
+     "Welches westliche Land wollte Paulus nach Rom besuchen?",
+     "Spanien",
+     "Britannien",
+     "Germanien"
+    ],
+    "it": [
+     "Quale terra occidentale Paolo sperava di visitare dopo Roma?",
+     "Spagna",
+     "Britannia",
+     "Germania"
+    ],
+    "pl": [
+     "Który zachodni kraj Paweł zamierzał odwiedzić po Rzymie?",
+     "Hiszpania",
+     "Brytania",
+     "Germania"
+    ],
+    "ru": [
+     "Какую западную страну Павел надеялся посетить после Рима?",
+     "Испания",
+     "Британия",
+     "Германия"
+    ],
+    "tr": [
+     "Pavlus Roma'dan sonra hangi batı ülkesini ziyaret etmeyi umuyordu?",
+     "İspanya",
+     "Britanya",
+     "Germanya"
+    ],
+    "ja": [
+     "パウロはローマの後、西のどの地を訪れたいと望みましたか？",
+     "スペイン",
+     "ブリタニア",
+     "ゲルマニア"
+    ],
+    "ko": [
+     "바오로는 로마 다음에 서쪽의 어느 땅을 방문하기를 바랐습니까?",
+     "에스파냐",
+     "브리타니아",
+     "게르마니아"
+    ],
+    "ar": [
+     "أي أرض غربية رجا بولس أن يزورها بعد روما؟",
+     "إسبانيا",
+     "بريطانيا",
+     "ألمانيا"
+    ]
+   }
+  },
+  {
+   "id": "review-16-54",
+   "orig": "expert_260",
+   "book": "revelation",
+   "difficulty": "expert",
+   "ref": "Revelation 9:5",
+   "text": {
+    "en": [
+     "For how many months were the locusts to torment people?",
+     "5",
+     "3",
+     "12"
+    ],
+    "es": [
+     "¿Durante cuántos meses debían atormentar las langostas a la gente?",
+     "5",
+     "3",
+     "12"
+    ],
+    "pt": [
+     "Durante quantos meses os gafanhotos deviam atormentar as pessoas?",
+     "5",
+     "3",
+     "12"
+    ],
+    "fr": [
+     "Pendant combien de mois les sauterelles devaient-elles tourmenter les hommes ?",
+     "5",
+     "3",
+     "12"
+    ],
+    "de": [
+     "Wie viele Monate sollten die Heuschrecken die Menschen quälen?",
+     "5",
+     "3",
+     "12"
+    ],
+    "it": [
+     "Per quanti mesi le cavallette dovevano tormentare gli uomini?",
+     "5",
+     "3",
+     "12"
+    ],
+    "pl": [
+     "Przez ile miesięcy szarańcza miała dręczyć ludzi?",
+     "5",
+     "3",
+     "12"
+    ],
+    "ru": [
+     "Сколько месяцев саранча должна была мучить людей?",
+     "5",
+     "3",
+     "12"
+    ],
+    "tr": [
+     "Çekirgeler insanlara kaç ay boyunca azap verecekti?",
+     "5",
+     "3",
+     "12"
+    ],
+    "ja": [
+     "いなごは何か月間、人々を苦しめることになっていましたか？",
+     "5",
+     "3",
+     "12"
+    ],
+    "ko": [
+     "메뚜기들은 몇 달 동안 사람들을 괴롭히기로 되어 있었습니까?",
+     "5",
+     "3",
+     "12"
+    ],
+    "ar": [
+     "كم شهرا كان على الجراد أن يعذب الناس؟",
+     "5",
+     "3",
+     "12"
+    ]
+   }
+  },
+  {
+   "id": "review-16-55",
+   "orig": "impossible_006",
+   "book": "luke",
+   "difficulty": "impossible",
+   "ref": "Luke 8:3",
+   "text": {
+    "en": [
+     "Whose wife was Joanna, a follower of Jesus?",
+     "Chuza",
+     "Jairus",
+     "Nicodemus"
+    ],
+    "es": [
+     "¿De quién era esposa Juana, seguidora de Jesús?",
+     "Cusa",
+     "Jairo",
+     "Nicodemo"
+    ],
+    "pt": [
+     "De quem era esposa Joana, seguidora de Jesus?",
+     "Cuza",
+     "Jairo",
+     "Nicodemos"
+    ],
+    "fr": [
+     "De qui Jeanne, disciple de Jésus, était-elle l'épouse ?",
+     "Chouza",
+     "Jaïre",
+     "Nicodème"
+    ],
+    "de": [
+     "Wessen Frau war Johanna, eine Anhängerin Jesu?",
+     "Chuzas",
+     "Jaïrus",
+     "Nikodemus"
+    ],
+    "it": [
+     "Di chi era moglie Giovanna, seguace di Gesù?",
+     "Cuza",
+     "Giairo",
+     "Nicodemo"
+    ],
+    "pl": [
+     "Czyją żoną była Joanna, uczennica Jezusa?",
+     "Chuza",
+     "Jair",
+     "Nikodem"
+    ],
+    "ru": [
+     "Чьей женой была Иоанна, последовательница Иисуса?",
+     "Хуза",
+     "Иаир",
+     "Никодим"
+    ],
+    "tr": [
+     "İsa'nın izleyicisi Yohanna kimin karısıydı?",
+     "Kuza",
+     "Yair",
+     "Nikodemus"
+    ],
+    "ja": [
+     "イエスに従った女ヨハナは誰の妻でしたか？",
+     "クザ",
+     "ヤイロ",
+     "ニコデモ"
+    ],
+    "ko": [
+     "예수님을 따른 요안나는 누구의 아내였습니까?",
+     "쿠자",
+     "야이로",
+     "니코데모"
+    ],
+    "ar": [
+     "زوجة من كانت يونّا، التي تبعت يسوع؟",
+     "خوزي",
+     "يايرس",
+     "نيقوديموس"
+    ]
+   }
+  },
+  {
+   "id": "review-16-56",
+   "orig": "impossible_025",
+   "book": "2-timothy",
+   "difficulty": "impossible",
+   "ref": "2 Timothy 4:20",
+   "text": {
+    "en": [
+     "Who stayed behind at Corinth, according to 2 Timothy?",
+     "Erastus",
+     "Trophimus",
+     "Titus"
+    ],
+    "es": [
+     "¿Quién se quedó en Corinto, según 2 Timoteo?",
+     "Erasto",
+     "Trófimo",
+     "Tito"
+    ],
+    "pt": [
+     "Quem ficou em Corinto, segundo 2 Timóteo?",
+     "Erasto",
+     "Trófimo",
+     "Tito"
+    ],
+    "fr": [
+     "Qui resta à Corinthe, selon 2 Timothée ?",
+     "Éraste",
+     "Trophime",
+     "Tite"
+    ],
+    "de": [
+     "Wer blieb nach 2 Timotheus in Korinth zurück?",
+     "Erastus",
+     "Trophimus",
+     "Titus"
+    ],
+    "it": [
+     "Chi rimase a Corinto, secondo 2 Timoteo?",
+     "Erasto",
+     "Trofimo",
+     "Tito"
+    ],
+    "pl": [
+     "Kto pozostał w Koryncie według 2 Tm?",
+     "Erast",
+     "Trofim",
+     "Tytus"
+    ],
+    "ru": [
+     "Кто остался в Коринфе, по 2 Тим?",
+     "Ераст",
+     "Трофим",
+     "Тит"
+    ],
+    "tr": [
+     "2. Timoteos'a göre Korint'te kim kaldı?",
+     "Erastus",
+     "Trofimus",
+     "Titus"
+    ],
+    "ja": [
+     "テモテへの手紙二によれば、コリントに残ったのは誰ですか？",
+     "エラスト",
+     "トロフィモ",
+     "テトス"
+    ],
+    "ko": [
+     "티모테오 2서에 따르면 코린토에 남은 사람은 누구입니까?",
+     "에라스토",
+     "트로피모",
+     "티토"
+    ],
+    "ar": [
+     "بحسب رسالة تيموثاوس الثانية، من بقي في كورنثوس؟",
+     "أراستس",
+     "تروفيمس",
+     "تيطس"
+    ]
+   }
+  },
+  {
+   "id": "review-16-57",
+   "orig": "impossible_044",
+   "book": "titus",
+   "difficulty": "impossible",
+   "ref": "Titus 3:12",
+   "text": {
+    "en": [
+     "Where did Paul plan to spend the winter, according to Titus?",
+     "Nicopolis",
+     "Alexandria",
+     "Damascus"
+    ],
+    "es": [
+     "¿Dónde planeaba Pablo pasar el invierno, según Tito?",
+     "Nicópolis",
+     "Alejandría",
+     "Damasco"
+    ],
+    "pt": [
+     "Onde Paulo planejava passar o inverno, segundo Tito?",
+     "Nicópolis",
+     "Alexandria",
+     "Damasco"
+    ],
+    "fr": [
+     "Où Paul comptait-il passer l'hiver, selon Tite ?",
+     "Nicopolis",
+     "Alexandrie",
+     "Damas"
+    ],
+    "de": [
+     "Wo wollte Paulus nach dem Titusbrief den Winter verbringen?",
+     "Nikopolis",
+     "Alexandria",
+     "Damaskus"
+    ],
+    "it": [
+     "Dove Paolo contava di passare l'inverno, secondo Tito?",
+     "Nicopoli",
+     "Alessandria",
+     "Damasco"
+    ],
+    "pl": [
+     "Gdzie Paweł zamierzał spędzić zimę według Listu do Tytusa?",
+     "Nikopolis",
+     "Aleksandria",
+     "Damaszek"
+    ],
+    "ru": [
+     "Где Павел собирался провести зиму, по Посланию к Титу?",
+     "Никополь",
+     "Александрия",
+     "Дамаск"
+    ],
+    "tr": [
+     "Pavlus Titus'a göre kışı nerede geçirmeyi planlıyordu?",
+     "Nikopolis",
+     "İskenderiye",
+     "Şam"
+    ],
+    "ja": [
+     "テトスへの手紙で、パウロは冬をどこで過ごすつもりでしたか？",
+     "ニコポリ",
+     "アレクサンドリア",
+     "ダマスコ"
+    ],
+    "ko": [
+     "티토서에서 바오로는 겨울을 어디에서 보낼 계획이었습니까?",
+     "니코폴리스",
+     "알렉산드리아",
+     "다마스쿠스"
+    ],
+    "ar": [
+     "أين خطط بولس أن يقضي الشتاء بحسب رسالة تيطس؟",
+     "نيكوبوليس",
+     "الإسكندرية",
+     "دمشق"
+    ]
+   }
+  },
+  {
+   "id": "review-16-58",
+   "orig": "impossible_063",
+   "book": "exodus",
+   "difficulty": "impossible",
+   "ref": "Exodus 31:6",
+   "text": {
+    "en": [
+     "Which craftsman of Dan assisted Bezalel in building the tabernacle?",
+     "Oholiab",
+     "Hur",
+     "Caleb"
+    ],
+    "es": [
+     "¿Qué artesano de la tribu de Dan ayudó a Besalel a construir el tabernáculo?",
+     "Oholiab",
+     "Hur",
+     "Caleb"
+    ],
+    "pt": [
+     "Que artesão da tribo de Dã ajudou Bezalel a construir a tenda?",
+     "Ooliab",
+     "Hur",
+     "Caleb"
+    ],
+    "fr": [
+     "Quel artisan de la tribu de Dan aida Beçalel à construire la Demeure ?",
+     "Oholiab",
+     "Hour",
+     "Caleb"
+    ],
+    "de": [
+     "Welcher Handwerker aus dem Stamm Dan half Bezalel beim Bau des Zeltes?",
+     "Oholiab",
+     "Hur",
+     "Kaleb"
+    ],
+    "it": [
+     "Quale artigiano della tribù di Dan aiutò Bezalel a costruire la tenda?",
+     "Ooliab",
+     "Cur",
+     "Caleb"
+    ],
+    "pl": [
+     "Który rzemieślnik z pokolenia Dana pomagał Besalelowi przy budowie przybytku?",
+     "Oholiab",
+     "Chur",
+     "Kaleb"
+    ],
+    "ru": [
+     "Какой мастер из колена Дана помогал Веселиилу строить скинию?",
+     "Аголиав",
+     "Ор",
+     "Халев"
+    ],
+    "tr": [
+     "Dan oymağından hangi usta Besalel'e konutu yapmada yardım etti?",
+     "Oholiav",
+     "Hur",
+     "Kalev"
+    ],
+    "ja": [
+     "ダン族のどの職人がベツァルエルを助けて幕屋を造りましたか？",
+     "オホリアブ",
+     "フル",
+     "カレブ"
+    ],
+    "ko": [
+     "단 지파의 어느 장인이 브찰엘을 도와 성막을 지었습니까?",
+     "오홀리압",
+     "후르",
+     "칼렙"
+    ],
+    "ar": [
+     "أي صانع من سبط دان ساعد بصلئيل في بناء الخيمة؟",
+     "أهوليآب",
+     "حور",
+     "كالب"
+    ]
+   }
+  },
+  {
+   "id": "review-16-59",
+   "orig": "impossible_082",
+   "book": "2-maccabees",
+   "difficulty": "impossible",
+   "ref": "2 Maccabees 3:24-27",
+   "text": {
+    "en": [
+     "Which official was scourged by angels for entering the Temple treasury?",
+     "Heliodorus",
+     "Nicanor",
+     "Lysias"
+    ],
+    "es": [
+     "¿Qué funcionario fue azotado por ángeles al entrar en el tesoro del Templo?",
+     "Heliodoro",
+     "Nicanor",
+     "Lisias"
+    ],
+    "pt": [
+     "Que funcionário foi açoitado por anjos ao entrar no tesouro do Templo?",
+     "Heliodoro",
+     "Nicanor",
+     "Lísias"
+    ],
+    "fr": [
+     "Quel officier fut flagellé par des anges pour être entré dans le trésor du Temple ?",
+     "Héliodore",
+     "Nicanor",
+     "Lysias"
+    ],
+    "de": [
+     "Welcher Beamte wurde von Engeln gegeißelt, weil er in die Tempelschatzkammer eindrang?",
+     "Heliodor",
+     "Nikanor",
+     "Lysias"
+    ],
+    "it": [
+     "Quale funzionario fu flagellato da angeli per essere entrato nel tesoro del Tempio?",
+     "Eliodoro",
+     "Nicànore",
+     "Lisia"
+    ],
+    "pl": [
+     "Który urzędnik został ubiczowany przez aniołów za wtargnięcie do skarbca Świątyni?",
+     "Heliodor",
+     "Nikanor",
+     "Lizjasz"
+    ],
+    "ru": [
+     "Какой сановник был избит ангелами за вторжение в казну Храма?",
+     "Илиодор",
+     "Никанор",
+     "Лисий"
+    ],
+    "tr": [
+     "Hangi görevli Tapınağın hazinesine girdiği için melekler tarafından dövüldü?",
+     "Heliodoros",
+     "Nikanor",
+     "Lisias"
+    ],
+    "ja": [
+     "神殿の宝物庫に入って天使に打たれた役人は誰ですか？",
+     "ヘリオドロス",
+     "ニカノル",
+     "リシアス"
+    ],
+    "ko": [
+     "성전 보물 창고에 들어갔다가 천사들에게 매 맞은 관리는 누구입니까?",
+     "헬리오도로스",
+     "니카노르",
+     "리시아스"
+    ],
+    "ar": [
+     "أي موظف جلدته الملائكة لدخوله خزانة الهيكل؟",
+     "هليودورس",
+     "نيكانور",
+     "ليسياس"
+    ]
+   }
+  },
+  {
+   "id": "review-16-60",
+   "orig": "impossible_101",
+   "book": "ezekiel",
+   "difficulty": "impossible",
+   "ref": "Ezekiel 8:14",
+   "text": {
+    "en": [
+     "For which god were women weeping at the temple's north gate?",
+     "Tammuz",
+     "Baal",
+     "Dagon"
+    ],
+    "es": [
+     "¿Por qué dios lloraban las mujeres en la puerta norte del Templo?",
+     "Tamuz",
+     "Baal",
+     "Dagón"
+    ],
+    "pt": [
+     "Por que deus choravam as mulheres à porta norte do Templo?",
+     "Tamuz",
+     "Baal",
+     "Dagon"
+    ],
+    "fr": [
+     "Quel dieu pleuraient les femmes à la porte nord du Temple ?",
+     "Tammouz",
+     "Baal",
+     "Dagon"
+    ],
+    "de": [
+     "Welchen Gott beweinten die Frauen am Nordtor des Tempels?",
+     "Tammus",
+     "Baal",
+     "Dagon"
+    ],
+    "it": [
+     "Quale dio piangevano le donne alla porta settentrionale del Tempio?",
+     "Tammuz",
+     "Baal",
+     "Dagon"
+    ],
+    "pl": [
+     "Którego boga opłakiwały kobiety przy północnej bramie Świątyni?",
+     "Tammuz",
+     "Baal",
+     "Dagon"
+    ],
+    "ru": [
+     "Какого бога оплакивали женщины у северных ворот Храма?",
+     "Фаммуз",
+     "Ваал",
+     "Дагон"
+    ],
+    "tr": [
+     "Kadınlar Tapınağın kuzey kapısında hangi tanrıya ağlıyordu?",
+     "Tammuz",
+     "Baal",
+     "Dagon"
+    ],
+    "ja": [
+     "女たちは神殿の北の門でどの神のために泣いていましたか？",
+     "タンムズ",
+     "バアル",
+     "ダゴン"
+    ],
+    "ko": [
+     "여자들은 성전 북쪽 문에서 어느 신을 위해 울고 있었습니까?",
+     "탐무즈",
+     "바알",
+     "다곤"
+    ],
+    "ar": [
+     "على أي إله كانت النساء يبكين عند الباب الشمالي للهيكل؟",
+     "تموز",
+     "بعل",
+     "داجون"
+    ]
+   }
+  },
+  {
+   "id": "review-16-61",
+   "orig": "impossible_120",
+   "book": "deuteronomy",
+   "difficulty": "impossible",
+   "ref": "Deuteronomy 22:8",
+   "text": {
+    "en": [
+     "What must a new house roof have so no one falls?",
+     "Parapet",
+     "Ladder",
+     "Gate"
+    ],
+    "es": [
+     "¿Qué debe tener el tejado de una casa nueva para que nadie caiga?",
+     "Pretil",
+     "Escalera",
+     "Puerta"
+    ],
+    "pt": [
+     "O que deve ter o terraço de uma casa nova para que ninguém caia?",
+     "Parapeito",
+     "Escada",
+     "Porta"
+    ],
+    "fr": [
+     "Que doit avoir le toit d'une maison neuve pour que personne ne tombe ?",
+     "Parapet",
+     "Échelle",
+     "Porte"
+    ],
+    "de": [
+     "Was muss das Dach eines neuen Hauses haben, damit niemand hinabstürzt?",
+     "Brüstung",
+     "Leiter",
+     "Tor"
+    ],
+    "it": [
+     "Che cosa deve avere il tetto di una casa nuova perché nessuno cada?",
+     "Parapetto",
+     "Scala",
+     "Porta"
+    ],
+    "pl": [
+     "Co musi mieć dach nowego domu, aby nikt nie spadł?",
+     "Balustrada",
+     "Drabina",
+     "Brama"
+    ],
+    "ru": [
+     "Что должна иметь кровля нового дома, чтобы никто не упал?",
+     "Перила",
+     "Лестница",
+     "Ворота"
+    ],
+    "tr": [
+     "Yeni bir evin damında kimse düşmesin diye ne bulunmalıdır?",
+     "Korkuluk",
+     "Merdiven",
+     "Kapı"
+    ],
+    "ja": [
+     "新しい家の屋上には、人が落ちないように何を設けるべきですか？",
+     "手すり",
+     "はしご",
+     "門"
+    ],
+    "ko": [
+     "새 집 지붕에는 사람이 떨어지지 않도록 무엇을 둘러야 합니까?",
+     "난간",
+     "사다리",
+     "대문"
+    ],
+    "ar": [
+     "ماذا يجب أن يكون لسطح البيت الجديد لئلا يسقط أحد؟",
+     "درابزين",
+     "سلم",
+     "بوابة"
+    ]
+   }
+  },
+  {
+   "id": "review-16-62",
+   "orig": "impossible_139",
+   "book": "wisdom",
+   "difficulty": "impossible",
+   "ref": "Wisdom 11:20",
+   "text": {
+    "en": [
+     "Besides measure and number, by what did God arrange all things?",
+     "Weight",
+     "Color",
+     "Sound"
+    ],
+    "es": [
+     "Además de la medida y el número, ¿con qué dispuso Dios todas las cosas?",
+     "Peso",
+     "Color",
+     "Sonido"
+    ],
+    "pt": [
+     "Além da medida e do número, com que Deus dispôs todas as coisas?",
+     "Peso",
+     "Cor",
+     "Som"
+    ],
+    "fr": [
+     "Outre la mesure et le nombre, par quoi Dieu a-t-il tout réglé ?",
+     "Poids",
+     "Couleur",
+     "Son"
+    ],
+    "de": [
+     "Außer Maß und Zahl: wonach hat Gott alles geordnet?",
+     "Gewicht",
+     "Farbe",
+     "Klang"
+    ],
+    "it": [
+     "Oltre alla misura e al numero, con che cosa Dio dispose ogni cosa?",
+     "Peso",
+     "Colore",
+     "Suono"
+    ],
+    "pl": [
+     "Oprócz miary i liczby, czym Bóg uporządkował wszystko?",
+     "Waga",
+     "Barwa",
+     "Dźwięk"
+    ],
+    "ru": [
+     "Кроме меры и числа, чем Бог устроил всё?",
+     "Вес",
+     "Цвет",
+     "Звук"
+    ],
+    "tr": [
+     "Ölçü ve sayının yanında Tanrı her şeyi neyle düzenledi?",
+     "Ağırlık",
+     "Renk",
+     "Ses"
+    ],
+    "ja": [
+     "神は尺度と数のほかに、何ですべてを整えましたか？",
+     "重さ",
+     "色",
+     "音"
+    ],
+    "ko": [
+     "하느님은 치수와 수 외에 무엇으로 모든 것을 정돈하셨습니까?",
+     "무게",
+     "색",
+     "소리"
+    ],
+    "ar": [
+     "إلى جانب المقياس والعدد، بماذا رتب الله كل شيء؟",
+     "وزن",
+     "لون",
+     "صوت"
+    ]
+   }
+  },
+  {
+   "id": "review-16-63",
+   "orig": "impossible_158",
+   "book": "joshua",
+   "difficulty": "impossible",
+   "ref": "Joshua 10:12",
+   "text": {
+    "en": [
+     "At Joshua's command, the moon stood still over which valley?",
+     "Aijalon",
+     "Jezreel",
+     "Kidron"
+    ],
+    "es": [
+     "Por orden de Josué, ¿sobre qué valle se detuvo la luna?",
+     "Ayalón",
+     "Jezreel",
+     "Cedrón"
+    ],
+    "pt": [
+     "Por ordem de Josué, sobre que vale parou a lua?",
+     "Aialon",
+     "Jezrael",
+     "Cedron"
+    ],
+    "fr": [
+     "Sur ordre de Josué, au-dessus de quelle vallée la lune s'arrêta-t-elle ?",
+     "Ayalon",
+     "Yizréel",
+     "Cédron"
+    ],
+    "de": [
+     "Über welchem Tal stand auf Josuas Befehl der Mond still?",
+     "Ajalon",
+     "Jesreel",
+     "Kidron"
+    ],
+    "it": [
+     "Per ordine di Giosuè, su quale valle si fermò la luna?",
+     "Aialon",
+     "Izreel",
+     "Cedron"
+    ],
+    "pl": [
+     "Nad jaką doliną na rozkaz Jozuego zatrzymał się księżyc?",
+     "Ajjalon",
+     "Jizreel",
+     "Cedron"
+    ],
+    "ru": [
+     "Над какой долиной по слову Иисуса Навина остановилась луна?",
+     "Аиалон",
+     "Изреель",
+     "Кедрон"
+    ],
+    "tr": [
+     "Yeşu'nun buyruğuyla ay hangi vadinin üzerinde durdu?",
+     "Ayalon",
+     "Yizreel",
+     "Kidron"
+    ],
+    "ja": [
+     "ヨシュアの命令で、月はどの谷の上にとどまりましたか？",
+     "アヤロン",
+     "イズレエル",
+     "キドロン"
+    ],
+    "ko": [
+     "여호수아의 명령으로 달은 어느 골짜기 위에 멈추었습니까?",
+     "아얄론",
+     "이즈르엘",
+     "키드론"
+    ],
+    "ar": [
+     "بأمر يشوع، فوق أي وادٍ وقف القمر؟",
+     "أيلون",
+     "يزرعيل",
+     "قدرون"
+    ]
+   }
+  },
+  {
+   "id": "review-16-64",
+   "orig": "impossible_177",
+   "book": "revelation",
+   "difficulty": "impossible",
+   "ref": "Revelation 8:11",
+   "text": {
+    "en": [
+     "What name does Revelation give the star that made waters bitter?",
+     "Wormwood",
+     "Abaddon",
+     "Orion"
+    ],
+    "es": [
+     "¿Qué nombre da el Apocalipsis a la estrella que volvió amargas las aguas?",
+     "Ajenjo",
+     "Abadón",
+     "Orión"
+    ],
+    "pt": [
+     "Que nome o Apocalipse dá à estrela que tornou amargas as águas?",
+     "Absinto",
+     "Abadom",
+     "Órion"
+    ],
+    "fr": [
+     "Quel nom l'Apocalypse donne-t-il à l'étoile qui rendit les eaux amères ?",
+     "Absinthe",
+     "Abaddon",
+     "Orion"
+    ],
+    "de": [
+     "Wie heißt im Buch der Offenbarung der Stern, der das Wasser bitter machte?",
+     "Wermut",
+     "Abaddon",
+     "Orion"
+    ],
+    "it": [
+     "Come l'Apocalisse chiama la stella che rese amare le acque?",
+     "Assenzio",
+     "Abaddon",
+     "Orione"
+    ],
+    "pl": [
+     "Jak Apokalipsa nazywa gwiazdę, która uczyniła wody gorzkimi?",
+     "Piołun",
+     "Abaddon",
+     "Orion"
+    ],
+    "ru": [
+     "Как названа в Откровении звезда, сделавшая воды горькими?",
+     "Полынь",
+     "Аваддон",
+     "Орион"
+    ],
+    "tr": [
+     "Vahiy kitabında suları acılaştıran yıldızın adı nedir?",
+     "Pelin",
+     "Abaddon",
+     "Orion"
+    ],
+    "ja": [
+     "黙示録で、水を苦くした星は何と呼ばれていますか？",
+     "苦よもぎ",
+     "アバドン",
+     "オリオン"
+    ],
+    "ko": [
+     "요한 묵시록에서 물을 쓰게 만든 별의 이름은 무엇입니까?",
+     "쓴쑥",
+     "아바돈",
+     "오리온"
+    ],
+    "ar": [
+     "ما اسم النجم الذي جعل المياه مرة في رؤيا يوحنا؟",
+     "أفسنتين",
+     "أبدون",
+     "أوريون"
+    ]
+   }
+  },
+  {
+   "id": "review-16-65",
+   "orig": "impossible_197",
+   "book": "philippians",
+   "difficulty": "impossible",
+   "ref": "Philippians 4:2",
+   "text": {
+    "en": [
+     "In Philippians 4, Paul urges Euodia to agree with whom?",
+     "Syntyche",
+     "Lydia",
+     "Phoebe"
+    ],
+    "es": [
+     "En Filipenses 4, ¿con quién exhorta Pablo a Evodia a ponerse de acuerdo?",
+     "Síntique",
+     "Lidia",
+     "Febe"
+    ],
+    "pt": [
+     "Em Filipenses 4, com quem Paulo exorta Evódia a entrar em acordo?",
+     "Síntique",
+     "Lídia",
+     "Febe"
+    ],
+    "fr": [
+     "Dans Philippiens 4, avec qui Paul exhorte-t-il Évodie à s'entendre ?",
+     "Syntyche",
+     "Lydie",
+     "Phébé"
+    ],
+    "de": [
+     "Mit wem soll sich Evodia nach Philipper 4 vertragen?",
+     "Syntyche",
+     "Lydia",
+     "Phöbe"
+    ],
+    "it": [
+     "In Filippesi 4, con chi Paolo esorta Evodia ad andare d'accordo?",
+     "Sìntiche",
+     "Lidia",
+     "Febe"
+    ],
+    "pl": [
+     "Z kim Paweł w Flp 4 wzywa Ewodię do zgody?",
+     "Syntyche",
+     "Lidia",
+     "Febe"
+    ],
+    "ru": [
+     "С кем Павел в Флп 4 призывает Еводию жить в согласии?",
+     "Синтихия",
+     "Лидия",
+     "Феба"
+    ],
+    "tr": [
+     "Filipililer 4'te Pavlus Evodiya'yı kiminle uyum içinde olmaya çağırır?",
+     "Sintihi",
+     "Lidya",
+     "Febe"
+    ],
+    "ja": [
+     "フィリピ4章で、パウロはエボディアに誰と心を合わせるよう勧めていますか？",
+     "シンティケ",
+     "リディア",
+     "フェベ"
+    ],
+    "ko": [
+     "필리피 4장에서 바오로는 에우오디아에게 누구와 한마음이 되라고 권합니까?",
+     "신티케",
+     "리디아",
+     "포이베"
+    ],
+    "ar": [
+     "في فيلبي 4، مع من يحث بولس أفودية على الاتفاق؟",
+     "سنتيخي",
+     "ليدية",
+     "فيبي"
+    ]
+   }
+  },
+  {
+   "id": "review-16-66",
+   "orig": "impossible_216",
+   "book": "3-john",
+   "difficulty": "impossible",
+   "ref": "3 John 12",
+   "text": {
+    "en": [
+     "Which man does 3 John say has a good testimony from everyone?",
+     "Demetrius",
+     "Gaius",
+     "Diotrephes"
+    ],
+    "es": [
+     "¿Qué hombre tiene buen testimonio de todos, según 3 Juan?",
+     "Demetrio",
+     "Gayo",
+     "Diótrefes"
+    ],
+    "pt": [
+     "Que homem tem bom testemunho de todos, segundo 3 João?",
+     "Demétrio",
+     "Gaio",
+     "Diótrefes"
+    ],
+    "fr": [
+     "Quel homme a bon témoignage de tous, selon 3 Jean ?",
+     "Démétrius",
+     "Gaïus",
+     "Diotrèphe"
+    ],
+    "de": [
+     "Welcher Mann hat nach 3 Johannes ein gutes Zeugnis von allen?",
+     "Demetrius",
+     "Gaius",
+     "Diotrephes"
+    ],
+    "it": [
+     "Quale uomo ha una buona testimonianza da tutti, secondo 3 Giovanni?",
+     "Demetrio",
+     "Gaio",
+     "Diotrefe"
+    ],
+    "pl": [
+     "Który człowiek ma według 3 J dobre świadectwo wszystkich?",
+     "Demetriusz",
+     "Gajusz",
+     "Diotrefes"
+    ],
+    "ru": [
+     "Какой человек, по 3 Ин, имеет добрую славу у всех?",
+     "Димитрий",
+     "Гаий",
+     "Диотреф"
+    ],
+    "tr": [
+     "3. Yuhanna'ya göre herkesçe iyi tanıklık edilen adam kimdir?",
+     "Demetrios",
+     "Gayus",
+     "Diotrefes"
+    ],
+    "ja": [
+     "ヨハネの手紙三で、皆から良い証しを得ているのは誰ですか？",
+     "デメトリオ",
+     "ガイオ",
+     "ディオトレフェス"
+    ],
+    "ko": [
+     "요한 3서에서 모든 사람에게 좋은 평판을 받는 사람은 누구입니까?",
+     "데메트리오",
+     "가이오",
+     "디오트레페스"
+    ],
+    "ar": [
+     "بحسب رسالة يوحنا الثالثة، من له شهادة حسنة من الجميع؟",
+     "ديمتريوس",
+     "غايوس",
+     "ديوتريفس"
+    ]
+   }
+  },
+  {
+   "id": "review-16-67",
+   "orig": "impossible_236",
+   "book": "baruch",
+   "difficulty": "impossible",
+   "ref": "Baruch 6:70",
+   "text": {
+    "en": [
+     "In Baruch 6, idols are like a scarecrow guarding which crop?",
+     "Cucumbers",
+     "Wheat",
+     "Grapes"
+    ],
+    "es": [
+     "En Baruc 6, ¿los ídolos son como un espantapájaros en un campo de qué?",
+     "Pepinos",
+     "Trigo",
+     "Uvas"
+    ],
+    "pt": [
+     "Em Baruc 6, que cultura guarda o espantalho ao qual os ídolos são comparados?",
+     "Pepinos",
+     "Trigo",
+     "Uvas"
+    ],
+    "fr": [
+     "Dans Baruch 6, quelle culture garde l'épouvantail auquel les idoles sont comparées ?",
+     "Concombres",
+     "Blé",
+     "Raisins"
+    ],
+    "de": [
+     "Welche Pflanzung bewacht in Baruch 6 die Vogelscheuche, der die Götzen gleichen?",
+     "Gurken",
+     "Weizen",
+     "Trauben"
+    ],
+    "it": [
+     "In Baruc 6, quale coltura custodisce lo spaventapasseri a cui sono paragonati gli idoli?",
+     "Cetrioli",
+     "Grano",
+     "Uva"
+    ],
+    "pl": [
+     "W Ba 6 bożki są jak strach na wróble pilnujący czego?",
+     "Ogórki",
+     "Pszenica",
+     "Winogrona"
+    ],
+    "ru": [
+     "В Послании Иеремии идолы подобны пугалу, охраняющему что?",
+     "Огурцы",
+     "Пшеница",
+     "Виноград"
+    ],
+    "tr": [
+     "Baruk 6'da putlar neyi koruyan bir korkuluğa benzetilir?",
+     "Salatalık",
+     "Buğday",
+     "Üzüm"
+    ],
+    "ja": [
+     "エレミヤの手紙で、偶像は何の畑のかかしにたとえられていますか？",
+     "きゅうり",
+     "小麦",
+     "ぶどう"
+    ],
+    "ko": [
+     "바룩 6장에서 우상은 무엇을 지키는 허수아비에 비유됩니까?",
+     "오이",
+     "밀",
+     "포도"
+    ],
+    "ar": [
+     "في باروخ 6، تُشبَّه الأصنام بفزاعة تحرس ماذا؟",
+     "خيار",
+     "قمح",
+     "عنب"
+    ]
+   }
+  },
+  {
+   "id": "review-16-68",
+   "orig": "impossible_255",
+   "book": "2-kings",
+   "difficulty": "impossible",
+   "ref": "2 Kings 18:4",
+   "text": {
+    "en": [
+     "What was the bronze serpent called that Hezekiah destroyed?",
+     "Nehushtan",
+     "Leviathan",
+     "Moloch"
+    ],
+    "es": [
+     "¿Cómo se llamaba la serpiente de bronce que destruyó Ezequías?",
+     "Nejustán",
+     "Leviatán",
+     "Moloc"
+    ],
+    "pt": [
+     "Como se chamava a serpente de bronze que Ezequias destruiu?",
+     "Neustã",
+     "Leviatã",
+     "Moloc"
+    ],
+    "fr": [
+     "Comment s'appelait le serpent d'airain qu'Ézéchias détruisit ?",
+     "Nehushtan",
+     "Léviathan",
+     "Moloch"
+    ],
+    "de": [
+     "Wie hieß die bronzene Schlange, die Hiskija zerschlug?",
+     "Nehuschtan",
+     "Leviatan",
+     "Moloch"
+    ],
+    "it": [
+     "Come si chiamava il serpente di bronzo che Ezechia distrusse?",
+     "Necustan",
+     "Leviatan",
+     "Moloc"
+    ],
+    "pl": [
+     "Jak nazywał się miedziany wąż, którego zniszczył Ezechiasz?",
+     "Nechusztan",
+     "Lewiatan",
+     "Molech"
+    ],
+    "ru": [
+     "Как назывался медный змей, которого разбил Езекия?",
+     "Нехуштан",
+     "Левиафан",
+     "Молох"
+    ],
+    "tr": [
+     "Hizkiya'nın parçaladığı tunç yılanın adı neydi?",
+     "Nehuştan",
+     "Livyatan",
+     "Molek"
+    ],
+    "ja": [
+     "ヒゼキヤが砕いた青銅の蛇は何と呼ばれていましたか？",
+     "ネフシュタン",
+     "レビヤタン",
+     "モレク"
+    ],
+    "ko": [
+     "히즈키야가 부순 구리 뱀은 무엇이라 불렸습니까?",
+     "느후스탄",
+     "레비아탄",
+     "몰렉"
+    ],
+    "ar": [
+     "ماذا كان اسم الحية النحاسية التي حطمها حزقيا؟",
+     "نحشتان",
+     "لوياثان",
+     "مولك"
+    ]
+   }
+  },
+  {
+   "id": "review-16-69",
+   "orig": "impossible_274",
+   "book": "leviticus",
+   "difficulty": "impossible",
+   "ref": "Leviticus 10:6",
+   "text": {
+    "en": [
+     "Besides Eleazar, which son of Aaron survived after Nadab died?",
+     "Ithamar",
+     "Abihu",
+     "Phinehas"
+    ],
+    "es": [
+     "Además de Eleazar, ¿qué hijo de Aarón sobrevivió tras la muerte de Nadab?",
+     "Itamar",
+     "Abiú",
+     "Pinjás"
+    ],
+    "pt": [
+     "Além de Eleazar, que filho de Arão sobreviveu depois da morte de Nadab?",
+     "Itamar",
+     "Abiú",
+     "Finéias"
+    ],
+    "fr": [
+     "Outre Éléazar, quel fils d'Aaron survécut à la mort de Nadab ?",
+     "Ithamar",
+     "Abihou",
+     "Pinhas"
+    ],
+    "de": [
+     "Welcher Sohn Aarons überlebte außer Eleasar den Tod Nadabs?",
+     "Itamar",
+     "Abihu",
+     "Pinhas"
+    ],
+    "it": [
+     "Oltre a Eleazaro, quale figlio di Aronne sopravvisse alla morte di Nadab?",
+     "Itamar",
+     "Abiu",
+     "Pincas"
+    ],
+    "pl": [
+     "Który syn Aarona przeżył śmierć Nadaba oprócz Eleazara?",
+     "Itamar",
+     "Abihu",
+     "Pinchas"
+    ],
+    "ru": [
+     "Какой сын Аарона, кроме Елеазара, остался жив после смерти Надава?",
+     "Ифамар",
+     "Авиуд",
+     "Финеес"
+    ],
+    "tr": [
+     "Nadav öldükten sonra Elazar'dan başka Harun'un hangi oğlu sağ kaldı?",
+     "İtamar",
+     "Avihu",
+     "Pinehas"
+    ],
+    "ja": [
+     "ナダブの死後、エルアザルのほかに生き残ったアロンの子は誰ですか？",
+     "イタマル",
+     "アビフ",
+     "ピンハス"
+    ],
+    "ko": [
+     "나답이 죽은 뒤 엘아자르 외에 살아남은 아론의 아들은 누구입니까?",
+     "이타마르",
+     "아비후",
+     "비느하스"
+    ],
+    "ar": [
+     "من هو ابن هارون الذي نجا مع ألعازار بعد موت ناداب؟",
+     "إيثامار",
+     "أبيهو",
+     "فينحاس"
+    ]
+   }
+  },
+  {
+   "id": "review-16-70",
+   "orig": "impossible_293",
+   "book": "2-john",
+   "difficulty": "impossible",
+   "ref": "2 John 1",
+   "text": {
+    "en": [
+     "To whom is the Second Letter of John addressed?",
+     "Lady",
+     "Gaius",
+     "Philemon"
+    ],
+    "es": [
+     "¿A quién está dirigida la Segunda Carta de Juan?",
+     "Señora",
+     "Gayo",
+     "Filemón"
+    ],
+    "pt": [
+     "A quem é dirigida a Segunda Carta de João?",
+     "Senhora",
+     "Gaio",
+     "Filêmon"
+    ],
+    "fr": [
+     "À qui est adressée la Deuxième lettre de Jean ?",
+     "Dame",
+     "Gaïus",
+     "Philémon"
+    ],
+    "de": [
+     "An wen ist der Zweite Johannesbrief gerichtet?",
+     "Herrin",
+     "Gaius",
+     "Philemon"
+    ],
+    "it": [
+     "A chi è indirizzata la Seconda lettera di Giovanni?",
+     "Signora",
+     "Gaio",
+     "Filemone"
+    ],
+    "pl": [
+     "Do kogo skierowany jest Drugi List św. Jana?",
+     "Pani",
+     "Gajusz",
+     "Filemon"
+    ],
+    "ru": [
+     "Кому адресовано Второе послание Иоанна?",
+     "Госпожа",
+     "Гаий",
+     "Филимон"
+    ],
+    "tr": [
+     "2. Yuhanna mektubu kime yazılmıştır?",
+     "Hanım",
+     "Gayus",
+     "Filimon"
+    ],
+    "ja": [
+     "ヨハネの手紙二は誰にあてて書かれていますか？",
+     "婦人",
+     "ガイオ",
+     "フィレモン"
+    ],
+    "ko": [
+     "요한 2서는 누구에게 보낸 편지입니까?",
+     "부인",
+     "가이오",
+     "필레몬"
+    ],
+    "ar": [
+     "إلى من وُجّهت رسالة يوحنا الثانية؟",
+     "سيدة",
+     "غايوس",
+     "فليمون"
+    ]
+   }
+  }
+ ]
+}

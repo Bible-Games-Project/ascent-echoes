@@ -1,0 +1,6889 @@
+{
+ "questions": [
+  {
+   "id": "ch-genesis-034-01",
+   "book": "genesis",
+   "chapter": 34,
+   "difficulty": "easy",
+   "ref": "Genesis 34:1-2",
+   "text": {
+    "en": [
+     "Who was the father of Dinah, seized by Shechem?",
+     "Jacob",
+     "Isaac",
+     "Laban"
+    ],
+    "es": [
+     "¿Quién era el padre de Dina, a quien Siquén tomó?",
+     "Jacob",
+     "Isaac",
+     "Labán"
+    ],
+    "pt": [
+     "Quem era o pai de Diná, raptada por Siquém?",
+     "Jacó",
+     "Isaque",
+     "Labão"
+    ],
+    "fr": [
+     "Qui était le père de Dina, enlevée par Sichem ?",
+     "Jacob",
+     "Isaac",
+     "Laban"
+    ],
+    "de": [
+     "Wer war der Vater von Dina, die Sichem entführte?",
+     "Jakob",
+     "Isaak",
+     "Laban"
+    ],
+    "it": [
+     "Chi era il padre di Dina, rapita da Sichem?",
+     "Giacobbe",
+     "Isacco",
+     "Làbano"
+    ],
+    "pl": [
+     "Kto był ojcem Diny, którą porwał Sychem?",
+     "Jakub",
+     "Izaak",
+     "Laban"
+    ],
+    "ru": [
+     "Кто был отцом Дины, которую взял Сихем?",
+     "Иаков",
+     "Исаак",
+     "Лаван"
+    ],
+    "tr": [
+     "Şekem'in kaçırdığı Dina'nın babası kimdi?",
+     "Yakup",
+     "İshak",
+     "Lavan"
+    ],
+    "ja": [
+     "シケムに連れ去られたディナの父は誰ですか？",
+     "ヤコブ",
+     "イサク",
+     "ラバン"
+    ],
+    "ko": [
+     "스켐에게 붙잡힌 디나의 아버지는 누구입니까?",
+     "야곱",
+     "이사악",
+     "라반"
+    ],
+    "ar": [
+     "من كان أبو دينة التي أخذها شكيم؟",
+     "يعقوب",
+     "إسحاق",
+     "لابان"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-034-02",
+   "book": "genesis",
+   "chapter": 34,
+   "difficulty": "medium",
+   "ref": "Genesis 34:25",
+   "text": {
+    "en": [
+     "Which son of Jacob, with Levi, avenged Dinah at Shechem?",
+     "Simeon",
+     "Reuben",
+     "Judah"
+    ],
+    "es": [
+     "¿Qué hijo de Jacob, junto con Leví, vengó a Dina en Siquén?",
+     "Simeón",
+     "Rubén",
+     "Judá"
+    ],
+    "pt": [
+     "Que filho de Jacó, com Levi, vingou Diná em Siquém?",
+     "Simeão",
+     "Rúben",
+     "Judá"
+    ],
+    "fr": [
+     "Quel fils de Jacob, avec Lévi, vengea Dina à Sichem ?",
+     "Siméon",
+     "Ruben",
+     "Juda"
+    ],
+    "de": [
+     "Welcher Sohn Jakobs rächte mit Levi Dina in Sichem?",
+     "Simeon",
+     "Ruben",
+     "Juda"
+    ],
+    "it": [
+     "Quale figlio di Giacobbe, con Levi, vendicò Dina a Sichem?",
+     "Simeone",
+     "Ruben",
+     "Giuda"
+    ],
+    "pl": [
+     "Który syn Jakuba razem z Lewim pomścił Dinę w Sychem?",
+     "Symeon",
+     "Ruben",
+     "Juda"
+    ],
+    "ru": [
+     "Какой сын Иакова вместе с Левием отомстил за Дину в Сихеме?",
+     "Симеон",
+     "Рувим",
+     "Иуда"
+    ],
+    "tr": [
+     "Yakup'un hangi oğlu, Levi ile birlikte Şekem'de Dina'nın öcünü aldı?",
+     "Şimon",
+     "Ruben",
+     "Yahuda"
+    ],
+    "ja": [
+     "ヤコブの息子のうち、レビと共にシケムでディナの仕返しをしたのは誰？",
+     "シメオン",
+     "ルベン",
+     "ユダ"
+    ],
+    "ko": [
+     "야곱의 아들 중 레위와 함께 스켐에서 디나의 복수를 한 사람은?",
+     "시메온",
+     "르우벤",
+     "유다"
+    ],
+    "ar": [
+     "أي ابن ليعقوب انتقم مع لاوي لدينة في شكيم؟",
+     "شمعون",
+     "رأوبين",
+     "يهوذا"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-034-03",
+   "book": "genesis",
+   "chapter": 34,
+   "difficulty": "hard",
+   "ref": "Genesis 34:15-17",
+   "text": {
+    "en": [
+     "Which rite was Jacob's sons' condition for intermarrying with Shechem?",
+     "Circumcision",
+     "Fasting",
+     "Sacrifice"
+    ],
+    "es": [
+     "¿Qué rito fue la condición de los hijos de Jacob para emparentar con Siquén?",
+     "Circuncisión",
+     "Ayuno",
+     "Sacrificio"
+    ],
+    "pt": [
+     "Que rito foi a condição dos filhos de Jacó para o casamento com os de Siquém?",
+     "Circuncisão",
+     "Jejum",
+     "Sacrifício"
+    ],
+    "fr": [
+     "Quel rite fut la condition des fils de Jacob pour s'allier à Sichem ?",
+     "Circoncision",
+     "Jeûne",
+     "Sacrifice"
+    ],
+    "de": [
+     "Welcher Ritus war die Bedingung der Söhne Jakobs für die Verschwägerung mit Sichem?",
+     "Beschneidung",
+     "Fasten",
+     "Opfer"
+    ],
+    "it": [
+     "Quale rito fu la condizione dei figli di Giacobbe per imparentarsi con Sichem?",
+     "Circoncisione",
+     "Digiuno",
+     "Sacrificio"
+    ],
+    "pl": [
+     "Jaki obrzęd synowie Jakuba postawili jako warunek małżeństw z Sychemitami?",
+     "Obrzezanie",
+     "Post",
+     "Ofiara"
+    ],
+    "ru": [
+     "Какой обряд был условием сыновей Иакова для родства с Сихемом?",
+     "Обрезание",
+     "Пост",
+     "Жертва"
+    ],
+    "tr": [
+     "Yakup'un oğullarının Şekem'le akrabalık için koştuğu şart hangi ayindi?",
+     "Sünnet",
+     "Oruç",
+     "Kurban"
+    ],
+    "ja": [
+     "ヤコブの息子たちがシケムとの縁組の条件とした儀式は何？",
+     "割礼",
+     "断食",
+     "犠牲"
+    ],
+    "ko": [
+     "야곱의 아들들이 스켐과 혼인하는 조건으로 내건 의식은 무엇입니까?",
+     "할례",
+     "단식",
+     "희생"
+    ],
+    "ar": [
+     "أي طقس كان شرط بني يعقوب للمصاهرة مع شكيم؟",
+     "ختان",
+     "صوم",
+     "ذبيحة"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-034-04",
+   "book": "genesis",
+   "chapter": 34,
+   "difficulty": "expert",
+   "ref": "Genesis 34:2",
+   "text": {
+    "en": [
+     "Who was Shechem's father, the prince of the land?",
+     "Hamor",
+     "Ephron",
+     "Esau"
+    ],
+    "es": [
+     "¿Quién era el padre de Siquén, príncipe de aquella tierra?",
+     "Jamor",
+     "Efrón",
+     "Esaú"
+    ],
+    "pt": [
+     "Quem era o pai de Siquém, príncipe daquela terra?",
+     "Hemor",
+     "Efron",
+     "Esaú"
+    ],
+    "fr": [
+     "Qui était le père de Sichem, prince du pays ?",
+     "Hamor",
+     "Éphron",
+     "Ésaü"
+    ],
+    "de": [
+     "Wer war der Vater von Sichem, dem Fürsten des Landes?",
+     "Hamor",
+     "Efron",
+     "Esau"
+    ],
+    "it": [
+     "Chi era il padre di Sichem, principe di quella terra?",
+     "Camor",
+     "Efron",
+     "Esaù"
+    ],
+    "pl": [
+     "Kto był ojcem Sychema, władcy tej ziemi?",
+     "Chamor",
+     "Efron",
+     "Ezaw"
+    ],
+    "ru": [
+     "Кто был отцом Сихема, князя той земли?",
+     "Еммор",
+     "Ефрон",
+     "Исав"
+    ],
+    "tr": [
+     "Şekem'in babası, o ülkenin önderi kimdi?",
+     "Hamor",
+     "Efron",
+     "Esav"
+    ],
+    "ja": [
+     "土地の長であったシケムの父は誰ですか？",
+     "ハモル",
+     "エフロン",
+     "エサウ"
+    ],
+    "ko": [
+     "그 땅의 족장 스켐의 아버지는 누구입니까?",
+     "하몰",
+     "에프론",
+     "에사오"
+    ],
+    "ar": [
+     "من كان أبو شكيم، رئيس تلك الأرض؟",
+     "حمور",
+     "عفرون",
+     "عيسو"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-034-05",
+   "book": "genesis",
+   "chapter": 34,
+   "difficulty": "impossible",
+   "ref": "Genesis 34:30",
+   "text": {
+    "en": [
+     "After the Shechem massacre, Jacob feared the Canaanites and which people?",
+     "Perizzites",
+     "Philistines",
+     "Egyptians"
+    ],
+    "es": [
+     "¿Qué pueblo, además de los cananeos, temió Jacob tras lo de Siquén?",
+     "Perizitas",
+     "Filisteos",
+     "Egipcios"
+    ],
+    "pt": [
+     "Depois de Siquém, que povo, além dos cananeus, Jacó temeu?",
+     "Ferezeus",
+     "Filisteus",
+     "Egípcios"
+    ],
+    "fr": [
+     "Après Sichem, quel peuple, outre les Cananéens, Jacob craignit-il ?",
+     "Perizzites",
+     "Philistins",
+     "Égyptiens"
+    ],
+    "de": [
+     "Welches Volk fürchtete Jakob nach Sichem neben den Kanaanitern?",
+     "Perisiter",
+     "Philister",
+     "Ägypter"
+    ],
+    "it": [
+     "Dopo Sichem, quale popolo oltre ai Cananei temette Giacobbe?",
+     "Perizziti",
+     "Filistei",
+     "Egiziani"
+    ],
+    "pl": [
+     "Który lud, obok Kananejczyków, budził lęk Jakuba po Sychem?",
+     "Peryzzyci",
+     "Filistyni",
+     "Egipcjanie"
+    ],
+    "ru": [
+     "Какой народ, кроме хананеев, внушал страх Иакову после Сихема?",
+     "Ферезеи",
+     "Филистимляне",
+     "Египтяне"
+    ],
+    "tr": [
+     "Şekem olayından sonra Kenanlılar'la birlikte Yakup'un korktuğu halk hangisiydi?",
+     "Perizliler",
+     "Filistliler",
+     "Mısırlılar"
+    ],
+    "ja": [
+     "シケムの事件の後、ヤコブがカナン人のほかに恐れた民は？",
+     "ペリジ人",
+     "ペリシテ人",
+     "エジプト人"
+    ],
+    "ko": [
+     "스켐 사건 뒤 야곱이 가나안족 외에 두려워한 민족은?",
+     "프리즈족",
+     "필리스티아인",
+     "이집트인"
+    ],
+    "ar": [
+     "بعد شكيم، أي شعب غير الكنعانيين خافه يعقوب؟",
+     "فرزيون",
+     "فلسطينيون",
+     "مصريون"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-034-06",
+   "book": "genesis",
+   "chapter": 35,
+   "difficulty": "easy",
+   "ref": "Genesis 35:18",
+   "text": {
+    "en": [
+     "Which wife of Jacob died giving birth to Benjamin?",
+     "Rachel",
+     "Leah",
+     "Zilpah"
+    ],
+    "es": [
+     "¿Qué esposa de Jacob murió al dar a luz a Benjamín?",
+     "Raquel",
+     "Lía",
+     "Zilpá"
+    ],
+    "pt": [
+     "Qual esposa de Jacó morreu ao dar à luz Benjamim?",
+     "Raquel",
+     "Lia",
+     "Zilpa"
+    ],
+    "fr": [
+     "Quelle épouse de Jacob mourut en donnant naissance à Benjamin ?",
+     "Rachel",
+     "Léa",
+     "Zilpa"
+    ],
+    "de": [
+     "Welche Frau Jakobs starb bei der Geburt Benjamins?",
+     "Rahel",
+     "Lea",
+     "Silpa"
+    ],
+    "it": [
+     "Quale moglie di Giacobbe morì dando alla luce Beniamino?",
+     "Rachele",
+     "Lia",
+     "Zilpa"
+    ],
+    "pl": [
+     "Która żona Jakuba zmarła, rodząc Beniamina?",
+     "Rachela",
+     "Lea",
+     "Zilpa"
+    ],
+    "ru": [
+     "Какая жена Иакова умерла, родив Вениамина?",
+     "Рахиль",
+     "Лия",
+     "Зелфа"
+    ],
+    "tr": [
+     "Yakup'un hangi karısı Binyamin'i doğururken öldü?",
+     "Rahel",
+     "Lea",
+     "Zilpa"
+    ],
+    "ja": [
+     "ヤコブの妻のうち、ベニヤミンを産んで亡くなったのは誰？",
+     "ラケル",
+     "レア",
+     "ジルパ"
+    ],
+    "ko": [
+     "야곱의 아내 가운데 벤야민을 낳다가 죽은 사람은?",
+     "라헬",
+     "레아",
+     "질파"
+    ],
+    "ar": [
+     "أي زوجة ليعقوب ماتت وهي تلد بنيامين؟",
+     "راحيل",
+     "ليئة",
+     "زلفة"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-034-07",
+   "book": "genesis",
+   "chapter": 35,
+   "difficulty": "medium",
+   "ref": "Genesis 35:10",
+   "text": {
+    "en": [
+     "What new name did God give Jacob at Bethel?",
+     "Israel",
+     "Abraham",
+     "Esau"
+    ],
+    "es": [
+     "¿Qué nuevo nombre dio Dios a Jacob en Betel?",
+     "Israel",
+     "Abrahán",
+     "Esaú"
+    ],
+    "pt": [
+     "Que novo nome Deus deu a Jacó em Betel?",
+     "Israel",
+     "Abraão",
+     "Esaú"
+    ],
+    "fr": [
+     "Quel nouveau nom Dieu donna-t-il à Jacob à Béthel ?",
+     "Israël",
+     "Abraham",
+     "Ésaü"
+    ],
+    "de": [
+     "Welchen neuen Namen gab Gott Jakob in Bet-El?",
+     "Israel",
+     "Abraham",
+     "Esau"
+    ],
+    "it": [
+     "Quale nuovo nome Dio diede a Giacobbe a Betel?",
+     "Israele",
+     "Abramo",
+     "Esaù"
+    ],
+    "pl": [
+     "Jakie nowe imię nadał Bóg Jakubowi w Betel?",
+     "Izrael",
+     "Abraham",
+     "Ezaw"
+    ],
+    "ru": [
+     "Какое новое имя Бог дал Иакову в Вефиле?",
+     "Израиль",
+     "Авраам",
+     "Исав"
+    ],
+    "tr": [
+     "Tanrı, Beytel'de Yakup'a hangi yeni adı verdi?",
+     "İsrail",
+     "İbrahim",
+     "Esav"
+    ],
+    "ja": [
+     "神はベテルでヤコブにどんな新しい名を与えましたか？",
+     "イスラエル",
+     "アブラハム",
+     "エサウ"
+    ],
+    "ko": [
+     "하느님은 베텔에서 야곱에게 어떤 새 이름을 주셨습니까?",
+     "이스라엘",
+     "아브라함",
+     "에사오"
+    ],
+    "ar": [
+     "ما الاسم الجديد الذي أعطاه الله ليعقوب في بيت إيل؟",
+     "إسرائيل",
+     "إبراهيم",
+     "عيسو"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-034-08",
+   "book": "genesis",
+   "chapter": 35,
+   "difficulty": "hard",
+   "ref": "Genesis 35:4",
+   "text": {
+    "en": [
+     "What did Jacob bury under the oak near Shechem?",
+     "Idols",
+     "Weapons",
+     "Treasure"
+    ],
+    "es": [
+     "¿Qué enterró Jacob bajo la encina cerca de Siquén?",
+     "Ídolos",
+     "Armas",
+     "Tesoro"
+    ],
+    "pt": [
+     "O que Jacó enterrou debaixo do carvalho perto de Siquém?",
+     "Ídolos",
+     "Armas",
+     "Tesouro"
+    ],
+    "fr": [
+     "Qu'enterra Jacob sous le chêne près de Sichem ?",
+     "Idoles",
+     "Armes",
+     "Trésor"
+    ],
+    "de": [
+     "Was vergrub Jakob unter der Eiche bei Sichem?",
+     "Götzen",
+     "Waffen",
+     "Schatz"
+    ],
+    "it": [
+     "Che cosa seppellì Giacobbe sotto la quercia presso Sichem?",
+     "Idoli",
+     "Armi",
+     "Tesoro"
+    ],
+    "pl": [
+     "Co Jakub zakopał pod dębem koło Sychem?",
+     "Bożki",
+     "Broń",
+     "Skarb"
+    ],
+    "ru": [
+     "Что Иаков закопал под дубом близ Сихема?",
+     "Идолы",
+     "Оружие",
+     "Сокровище"
+    ],
+    "tr": [
+     "Yakup, Şekem yakınındaki meşenin altına ne gömdü?",
+     "Putlar",
+     "Silahlar",
+     "Hazine"
+    ],
+    "ja": [
+     "ヤコブはシケムの近くの樫の木の下に何を埋めましたか？",
+     "偶像",
+     "武器",
+     "宝"
+    ],
+    "ko": [
+     "야곱은 스켐 근처의 참나무 아래에 무엇을 묻었습니까?",
+     "우상",
+     "무기",
+     "보물"
+    ],
+    "ar": [
+     "ماذا دفن يعقوب تحت البلوطة قرب شكيم؟",
+     "أصنام",
+     "أسلحة",
+     "كنز"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-034-09",
+   "book": "genesis",
+   "chapter": 35,
+   "difficulty": "expert",
+   "ref": "Genesis 35:8",
+   "text": {
+    "en": [
+     "Deborah, nurse of which woman, was buried below Bethel?",
+     "Rebekah",
+     "Sarah",
+     "Rachel"
+    ],
+    "es": [
+     "¿De qué mujer era nodriza Débora, enterrada al pie de Betel?",
+     "Rebeca",
+     "Sara",
+     "Raquel"
+    ],
+    "pt": [
+     "Débora, ama de qual mulher, foi sepultada ao pé de Betel?",
+     "Rebeca",
+     "Sara",
+     "Raquel"
+    ],
+    "fr": [
+     "Déborah, nourrice de quelle femme, fut enterrée au pied de Béthel ?",
+     "Rébecca",
+     "Sara",
+     "Rachel"
+    ],
+    "de": [
+     "Debora, die Amme welcher Frau, wurde unterhalb von Bet-El begraben?",
+     "Rebekka",
+     "Sara",
+     "Rahel"
+    ],
+    "it": [
+     "Debora, nutrice di quale donna, fu sepolta ai piedi di Betel?",
+     "Rebecca",
+     "Sara",
+     "Rachele"
+    ],
+    "pl": [
+     "Debora, piastunka której kobiety, została pochowana pod Betel?",
+     "Rebeka",
+     "Sara",
+     "Rachela"
+    ],
+    "ru": [
+     "Девора, кормилица какой женщины, была погребена ниже Вефиля?",
+     "Ревекка",
+     "Сарра",
+     "Рахиль"
+    ],
+    "tr": [
+     "Beytel'in altına gömülen Debora, hangi kadının sütannesiydi?",
+     "Rebeka",
+     "Sara",
+     "Rahel"
+    ],
+    "ja": [
+     "ベテルのふもとに葬られた乳母デボラは、誰の乳母でしたか？",
+     "リベカ",
+     "サラ",
+     "ラケル"
+    ],
+    "ko": [
+     "베텔 아래에 묻힌 유모 드보라는 누구의 유모였습니까?",
+     "리브가",
+     "사라",
+     "라헬"
+    ],
+    "ar": [
+     "دبورة التي دفنت تحت بيت إيل كانت مرضعة أي امرأة؟",
+     "رفقة",
+     "سارة",
+     "راحيل"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-034-10",
+   "book": "genesis",
+   "chapter": 35,
+   "difficulty": "impossible",
+   "ref": "Genesis 35:28",
+   "text": {
+    "en": [
+     "How many years did Isaac live?",
+     "180",
+     "175",
+     "147"
+    ],
+    "es": [
+     "¿Cuántos años vivió Isaac?",
+     "180",
+     "175",
+     "147"
+    ],
+    "pt": [
+     "Quantos anos Isaque viveu?",
+     "180",
+     "175",
+     "147"
+    ],
+    "fr": [
+     "Combien d'années Isaac a-t-il vécu ?",
+     "180",
+     "175",
+     "147"
+    ],
+    "de": [
+     "Wie viele Jahre lebte Isaak?",
+     "180",
+     "175",
+     "147"
+    ],
+    "it": [
+     "Quanti anni visse Isacco?",
+     "180",
+     "175",
+     "147"
+    ],
+    "pl": [
+     "Ile lat żył Izaak?",
+     "180",
+     "175",
+     "147"
+    ],
+    "ru": [
+     "Сколько лет прожил Исаак?",
+     "180",
+     "175",
+     "147"
+    ],
+    "tr": [
+     "İshak kaç yıl yaşadı?",
+     "180",
+     "175",
+     "147"
+    ],
+    "ja": [
+     "イサクは何年生きましたか？",
+     "180",
+     "175",
+     "147"
+    ],
+    "ko": [
+     "이사악은 몇 해를 살았습니까?",
+     "180",
+     "175",
+     "147"
+    ],
+    "ar": [
+     "كم سنة عاش إسحاق؟",
+     "180",
+     "175",
+     "147"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-034-11",
+   "book": "genesis",
+   "chapter": 36,
+   "difficulty": "easy",
+   "ref": "Genesis 36:1",
+   "text": {
+    "en": [
+     "Esau, ancestor of a neighboring nation, was also known by what name?",
+     "Edom",
+     "Moab",
+     "Ammon"
+    ],
+    "es": [
+     "¿Con qué otro nombre se conocía a Esaú, antepasado de una nación vecina?",
+     "Edom",
+     "Moab",
+     "Amón"
+    ],
+    "pt": [
+     "Por qual outro nome era conhecido Esaú, antepassado de uma nação vizinha?",
+     "Edom",
+     "Moab",
+     "Amon"
+    ],
+    "fr": [
+     "Par quel autre nom Ésaü, ancêtre d'une nation voisine, était-il connu ?",
+     "Édom",
+     "Moab",
+     "Ammon"
+    ],
+    "de": [
+     "Unter welchem anderen Namen war Esau, Ahnherr eines Nachbarvolkes, bekannt?",
+     "Edom",
+     "Moab",
+     "Ammon"
+    ],
+    "it": [
+     "Con quale altro nome era conosciuto Esaù, antenato di una nazione vicina?",
+     "Edom",
+     "Moab",
+     "Ammon"
+    ],
+    "pl": [
+     "Pod jakim innym imieniem znany był Ezaw, przodek sąsiedniego narodu?",
+     "Edom",
+     "Moab",
+     "Ammon"
+    ],
+    "ru": [
+     "Под каким ещё именем был известен Исав, предок соседнего народа?",
+     "Едом",
+     "Моав",
+     "Аммон"
+    ],
+    "tr": [
+     "Komşu bir ulusun atası Esav, başka hangi adla da bilinirdi?",
+     "Edom",
+     "Moab",
+     "Ammon"
+    ],
+    "ja": [
+     "隣国の祖となったエサウは、別の名で何と呼ばれましたか？",
+     "エドム",
+     "モアブ",
+     "アンモン"
+    ],
+    "ko": [
+     "이웃 민족의 조상 에사오는 달리 무엇이라 불렸습니까?",
+     "에돔",
+     "모압",
+     "암몬"
+    ],
+    "ar": [
+     "بأي اسم آخر عُرف عيسو، أبو أمة مجاورة؟",
+     "أدوم",
+     "موآب",
+     "عمون"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-034-12",
+   "book": "genesis",
+   "chapter": 36,
+   "difficulty": "medium",
+   "ref": "Genesis 36:8",
+   "text": {
+    "en": [
+     "In which hill country did Esau settle, leaving Jacob?",
+     "Seir",
+     "Gilead",
+     "Sinai"
+    ],
+    "es": [
+     "¿En qué región montañosa se estableció Esaú, lejos de Jacob?",
+     "Seír",
+     "Galaad",
+     "Sinaí"
+    ],
+    "pt": [
+     "Em qual região montanhosa Esaú se estabeleceu, deixando Jacó?",
+     "Seir",
+     "Galaad",
+     "Sinai"
+    ],
+    "fr": [
+     "Dans quelle région montagneuse Ésaü s'établit-il, loin de Jacob ?",
+     "Séir",
+     "Galaad",
+     "Sinaï"
+    ],
+    "de": [
+     "In welchem Gebirge ließ sich Esau nieder, fern von Jakob?",
+     "Seïr",
+     "Gilead",
+     "Sinai"
+    ],
+    "it": [
+     "In quale regione montuosa si stabilì Esaù, lontano da Giacobbe?",
+     "Seir",
+     "Gàlaad",
+     "Sinai"
+    ],
+    "pl": [
+     "W jakich górach osiadł Ezaw, odchodząc od Jakuba?",
+     "Seir",
+     "Gilead",
+     "Synaj"
+    ],
+    "ru": [
+     "В какой горной стране поселился Исав, отделившись от Иакова?",
+     "Сеир",
+     "Галаад",
+     "Синай"
+    ],
+    "tr": [
+     "Esav, Yakup'tan ayrılıp hangi dağlık bölgeye yerleşti?",
+     "Seir",
+     "Gilat",
+     "Sina"
+    ],
+    "ja": [
+     "エサウはヤコブから離れ、どの山地に住みましたか？",
+     "セイル",
+     "ギレアド",
+     "シナイ"
+    ],
+    "ko": [
+     "에사오는 야곱을 떠나 어느 산악 지방에 정착했습니까?",
+     "세이르",
+     "길앗",
+     "시나이"
+    ],
+    "ar": [
+     "في أي جبال استقر عيسو بعيدا عن يعقوب؟",
+     "سعير",
+     "جلعاد",
+     "سيناء"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-034-13",
+   "book": "genesis",
+   "chapter": 36,
+   "difficulty": "hard",
+   "ref": "Genesis 36:2",
+   "text": {
+    "en": [
+     "Which wife of Esau was the daughter of Elon?",
+     "Adah",
+     "Dinah",
+     "Tamar"
+    ],
+    "es": [
+     "¿Qué esposa de Esaú era hija de Elón?",
+     "Ada",
+     "Dina",
+     "Tamar"
+    ],
+    "pt": [
+     "Qual esposa de Esaú era filha de Elon?",
+     "Ada",
+     "Diná",
+     "Tamar"
+    ],
+    "fr": [
+     "Quelle épouse d'Ésaü était la fille d'Élon ?",
+     "Ada",
+     "Dina",
+     "Thamar"
+    ],
+    "de": [
+     "Welche Frau Esaus war die Tochter Elons?",
+     "Ada",
+     "Dina",
+     "Tamar"
+    ],
+    "it": [
+     "Quale moglie di Esaù era figlia di Elon?",
+     "Ada",
+     "Dina",
+     "Tamar"
+    ],
+    "pl": [
+     "Która żona Ezawa była córką Elona?",
+     "Ada",
+     "Dina",
+     "Tamar"
+    ],
+    "ru": [
+     "Какая жена Исава была дочерью Елона?",
+     "Ада",
+     "Дина",
+     "Фамарь"
+    ],
+    "tr": [
+     "Esav'ın hangi karısı Elon'un kızıydı?",
+     "Ada",
+     "Dina",
+     "Tamar"
+    ],
+    "ja": [
+     "エサウの妻のうち、エロンの娘だったのは誰？",
+     "アダ",
+     "ディナ",
+     "タマル"
+    ],
+    "ko": [
+     "에사오의 아내 가운데 엘론의 딸은 누구입니까?",
+     "아다",
+     "디나",
+     "타마르"
+    ],
+    "ar": [
+     "أي زوجة لعيسو كانت ابنة إيلون؟",
+     "عادة",
+     "دينة",
+     "ثامار"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-034-14",
+   "book": "genesis",
+   "chapter": 36,
+   "difficulty": "expert",
+   "ref": "Genesis 36:4",
+   "text": {
+    "en": [
+     "Which son did Adah bear to Esau?",
+     "Eliphaz",
+     "Reuel",
+     "Jeush"
+    ],
+    "es": [
+     "¿Qué hijo dio a luz Ada a Esaú?",
+     "Elifaz",
+     "Reuel",
+     "Jeús"
+    ],
+    "pt": [
+     "Que filho Ada deu a Esaú?",
+     "Elifaz",
+     "Reuel",
+     "Jeús"
+    ],
+    "fr": [
+     "Quel fils Ada donna-t-elle à Ésaü ?",
+     "Élifaz",
+     "Réuel",
+     "Yéush"
+    ],
+    "de": [
+     "Welchen Sohn gebar Ada dem Esau?",
+     "Elifas",
+     "Reguël",
+     "Jëusch"
+    ],
+    "it": [
+     "Quale figlio Ada partorì a Esaù?",
+     "Elifaz",
+     "Reuel",
+     "Ieus"
+    ],
+    "pl": [
+     "Którego syna Ada urodziła Ezawowi?",
+     "Elifaz",
+     "Reuel",
+     "Jeusz"
+    ],
+    "ru": [
+     "Какого сына родила Ада Исаву?",
+     "Елифаз",
+     "Рагуил",
+     "Иеус"
+    ],
+    "tr": [
+     "Ada, Esav'a hangi oğlu doğurdu?",
+     "Elifaz",
+     "Reuel",
+     "Yeuş"
+    ],
+    "ja": [
+     "アダがエサウに産んだ息子は誰？",
+     "エリファズ",
+     "レウエル",
+     "エウシュ"
+    ],
+    "ko": [
+     "아다가 에사오에게 낳아 준 아들은 누구입니까?",
+     "엘리파즈",
+     "르우엘",
+     "여우스"
+    ],
+    "ar": [
+     "أي ابن ولدته عادة لعيسو؟",
+     "أليفاز",
+     "رعوئيل",
+     "يعوش"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-034-15",
+   "book": "genesis",
+   "chapter": 36,
+   "difficulty": "impossible",
+   "ref": "Genesis 36:32",
+   "text": {
+    "en": [
+     "Which son of Beor first reigned as king in Edom?",
+     "Bela",
+     "Balak",
+     "Reuel"
+    ],
+    "es": [
+     "¿Qué hijo de Beor reinó primero como rey en Edom?",
+     "Bela",
+     "Balac",
+     "Reuel"
+    ],
+    "pt": [
+     "Qual filho de Beor reinou primeiro como rei em Edom?",
+     "Bela",
+     "Balac",
+     "Reuel"
+    ],
+    "fr": [
+     "Quel fils de Beor régna le premier comme roi en Édom ?",
+     "Béla",
+     "Balaq",
+     "Réuel"
+    ],
+    "de": [
+     "Welcher Sohn Beors war der erste König in Edom?",
+     "Bela",
+     "Balak",
+     "Reguël"
+    ],
+    "it": [
+     "Quale figlio di Beor fu il primo a regnare in Edom?",
+     "Bela",
+     "Balak",
+     "Reuel"
+    ],
+    "pl": [
+     "Który syn Beora jako pierwszy panował w Edomie?",
+     "Bela",
+     "Balak",
+     "Reuel"
+    ],
+    "ru": [
+     "Какой сын Веора первым царствовал в Едоме?",
+     "Бела",
+     "Валак",
+     "Рагуил"
+    ],
+    "tr": [
+     "Beor'un hangi oğlu Edom'da ilk kral oldu?",
+     "Bela",
+     "Balak",
+     "Reuel"
+    ],
+    "ja": [
+     "ベオルの子で、エドムで最初に王となったのは誰？",
+     "ベラ",
+     "バラク",
+     "レウエル"
+    ],
+    "ko": [
+     "브오르의 아들 중 에돔의 첫 임금이 된 이는 누구입니까?",
+     "벨라",
+     "발락",
+     "르우엘"
+    ],
+    "ar": [
+     "أي ابن لبعور ملك أولا في أدوم؟",
+     "بالع",
+     "بالاق",
+     "رعوئيل"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-034-16",
+   "book": "genesis",
+   "chapter": 37,
+   "difficulty": "easy",
+   "ref": "Genesis 37:28",
+   "text": {
+    "en": [
+     "Joseph's brothers sold him to traders bound for which land?",
+     "Egypt",
+     "Canaan",
+     "Babylon"
+    ],
+    "es": [
+     "¿A qué tierra se dirigían los mercaderes a quienes los hermanos vendieron a José?",
+     "Egipto",
+     "Canaán",
+     "Babilonia"
+    ],
+    "pt": [
+     "Para que terra iam os mercadores a quem os irmãos venderam José?",
+     "Egito",
+     "Canaã",
+     "Babilônia"
+    ],
+    "fr": [
+     "Vers quel pays allaient les marchands à qui les frères vendirent Joseph ?",
+     "Égypte",
+     "Canaan",
+     "Babylone"
+    ],
+    "de": [
+     "In welches Land zogen die Händler, an die Josefs Brüder ihn verkauften?",
+     "Ägypten",
+     "Kanaan",
+     "Babylon"
+    ],
+    "it": [
+     "Verso quale terra erano diretti i mercanti a cui i fratelli vendettero Giuseppe?",
+     "Egitto",
+     "Canaan",
+     "Babilonia"
+    ],
+    "pl": [
+     "Dokąd zmierzali kupcy, którym bracia sprzedali Józefa?",
+     "Egipt",
+     "Kanaan",
+     "Babilon"
+    ],
+    "ru": [
+     "В какую страну шли купцы, которым братья продали Иосифа?",
+     "Египет",
+     "Ханаан",
+     "Вавилон"
+    ],
+    "tr": [
+     "Kardeşlerinin Yusuf'u sattığı tüccarlar hangi ülkeye gidiyordu?",
+     "Mısır",
+     "Kenan",
+     "Babil"
+    ],
+    "ja": [
+     "兄弟たちがヨセフを売った商人は、どの国へ向かっていましたか？",
+     "エジプト",
+     "カナン",
+     "バビロン"
+    ],
+    "ko": [
+     "형제들이 요셉을 판 상인들은 어느 나라로 가고 있었습니까?",
+     "이집트",
+     "가나안",
+     "바빌론"
+    ],
+    "ar": [
+     "إلى أي بلد ذهب التجار الذين اشتروا يوسف من إخوته؟",
+     "مصر",
+     "كنعان",
+     "بابل"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-034-17",
+   "book": "genesis",
+   "chapter": 37,
+   "difficulty": "medium",
+   "ref": "Genesis 37:28",
+   "text": {
+    "en": [
+     "For how many pieces of silver was Joseph sold?",
+     "20",
+     "30",
+     "50"
+    ],
+    "es": [
+     "¿Por cuántas monedas de plata fue vendido José?",
+     "20",
+     "30",
+     "50"
+    ],
+    "pt": [
+     "Por quantas moedas de prata José foi vendido?",
+     "20",
+     "30",
+     "50"
+    ],
+    "fr": [
+     "Pour combien de pièces d'argent Joseph fut-il vendu ?",
+     "20",
+     "30",
+     "50"
+    ],
+    "de": [
+     "Für wie viele Silberstücke wurde Josef verkauft?",
+     "20",
+     "30",
+     "50"
+    ],
+    "it": [
+     "Per quanti pezzi d'argento fu venduto Giuseppe?",
+     "20",
+     "30",
+     "50"
+    ],
+    "pl": [
+     "Za ile srebrników sprzedano Józefa?",
+     "20",
+     "30",
+     "50"
+    ],
+    "ru": [
+     "За сколько сребреников был продан Иосиф?",
+     "20",
+     "30",
+     "50"
+    ],
+    "tr": [
+     "Yusuf kaç gümüş paraya satıldı?",
+     "20",
+     "30",
+     "50"
+    ],
+    "ja": [
+     "ヨセフは銀何枚で売られましたか？",
+     "20",
+     "30",
+     "50"
+    ],
+    "ko": [
+     "요셉은 은 몇 닢에 팔렸습니까?",
+     "20",
+     "30",
+     "50"
+    ],
+    "ar": [
+     "بكم قطعة فضة بيع يوسف؟",
+     "20",
+     "30",
+     "50"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-034-18",
+   "book": "genesis",
+   "chapter": 37,
+   "difficulty": "hard",
+   "ref": "Genesis 37:21-22",
+   "text": {
+    "en": [
+     "Which brother secretly planned to rescue Joseph from the pit?",
+     "Reuben",
+     "Simeon",
+     "Levi"
+    ],
+    "es": [
+     "¿Qué hermano planeaba en secreto rescatar a José de la cisterna?",
+     "Rubén",
+     "Simeón",
+     "Leví"
+    ],
+    "pt": [
+     "Qual irmão planejava secretamente resgatar José da cisterna?",
+     "Rúben",
+     "Simeão",
+     "Levi"
+    ],
+    "fr": [
+     "Quel frère projetait de sauver secrètement Joseph de la citerne ?",
+     "Ruben",
+     "Siméon",
+     "Lévi"
+    ],
+    "de": [
+     "Welcher Bruder wollte Josef heimlich aus der Zisterne retten?",
+     "Ruben",
+     "Simeon",
+     "Levi"
+    ],
+    "it": [
+     "Quale fratello voleva liberare di nascosto Giuseppe dalla cisterna?",
+     "Ruben",
+     "Simeone",
+     "Levi"
+    ],
+    "pl": [
+     "Który brat chciał potajemnie uratować Józefa z cysterny?",
+     "Ruben",
+     "Symeon",
+     "Lewi"
+    ],
+    "ru": [
+     "Какой брат тайно хотел спасти Иосифа из ямы?",
+     "Рувим",
+     "Симеон",
+     "Левий"
+    ],
+    "tr": [
+     "Hangi kardeş Yusuf'u gizlice kuyudan kurtarmak istedi?",
+     "Ruben",
+     "Şimon",
+     "Levi"
+    ],
+    "ja": [
+     "どの兄が、ヨセフを穴から密かに救い出そうとしましたか？",
+     "ルベン",
+     "シメオン",
+     "レビ"
+    ],
+    "ko": [
+     "어느 형이 요셉을 구덩이에서 몰래 구하려 했습니까?",
+     "르우벤",
+     "시메온",
+     "레위"
+    ],
+    "ar": [
+     "أي أخ أراد سرا إنقاذ يوسف من البئر؟",
+     "رأوبين",
+     "شمعون",
+     "لاوي"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-034-19",
+   "book": "genesis",
+   "chapter": 37,
+   "difficulty": "expert",
+   "ref": "Genesis 37:31-32",
+   "text": {
+    "en": [
+     "What stained Joseph's robe that his brothers showed Jacob?",
+     "Blood",
+     "Wine",
+     "Mud"
+    ],
+    "es": [
+     "¿Qué manchaba la túnica de José que sus hermanos mostraron a Jacob?",
+     "Sangre",
+     "Vino",
+     "Barro"
+    ],
+    "pt": [
+     "O que manchava a túnica de José que os irmãos mostraram a Jacó?",
+     "Sangue",
+     "Vinho",
+     "Barro"
+    ],
+    "fr": [
+     "Qu'est-ce qui tachait la tunique de Joseph montrée à Jacob par ses frères ?",
+     "Sang",
+     "Vin",
+     "Boue"
+    ],
+    "de": [
+     "Was befleckte Josefs Gewand, das seine Brüder Jakob zeigten?",
+     "Blut",
+     "Wein",
+     "Schlamm"
+    ],
+    "it": [
+     "Che cosa macchiava la tunica di Giuseppe mostrata a Giacobbe dai fratelli?",
+     "Sangue",
+     "Vino",
+     "Fango"
+    ],
+    "pl": [
+     "Co splamiło szatę Józefa, którą bracia pokazali Jakubowi?",
+     "Krew",
+     "Wino",
+     "Błoto"
+    ],
+    "ru": [
+     "Что запятнало одежду Иосифа, которую братья показали Иакову?",
+     "Кровь",
+     "Вино",
+     "Грязь"
+    ],
+    "tr": [
+     "Kardeşlerinin Yakup'a gösterdiği Yusuf'un entarisini ne lekelemişti?",
+     "Kan",
+     "Şarap",
+     "Çamur"
+    ],
+    "ja": [
+     "兄弟たちがヤコブに見せたヨセフの上着を汚していたものは何？",
+     "血",
+     "ぶどう酒",
+     "泥"
+    ],
+    "ko": [
+     "형제들이 야곱에게 보여 준 요셉의 옷을 더럽힌 것은 무엇입니까?",
+     "피",
+     "포도주",
+     "진흙"
+    ],
+    "ar": [
+     "ما الذي لطخ ثوب يوسف الذي أراه إخوته ليعقوب؟",
+     "دم",
+     "خمر",
+     "طين"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-034-20",
+   "book": "genesis",
+   "chapter": 37,
+   "difficulty": "impossible",
+   "ref": "Genesis 37:17",
+   "text": {
+    "en": [
+     "Sent by Jacob, Joseph finally found his brothers at which town?",
+     "Dothan",
+     "Shechem",
+     "Hebron"
+    ],
+    "es": [
+     "Enviado por Jacob, ¿en qué ciudad encontró José por fin a sus hermanos?",
+     "Dotán",
+     "Siquén",
+     "Hebrón"
+    ],
+    "pt": [
+     "Enviado por Jacó, em que cidade José por fim encontrou os irmãos?",
+     "Dotã",
+     "Siquém",
+     "Hebrom"
+    ],
+    "fr": [
+     "Envoyé par Jacob, dans quelle ville Joseph retrouva-t-il enfin ses frères ?",
+     "Dothan",
+     "Sichem",
+     "Hébron"
+    ],
+    "de": [
+     "Von Jakob gesandt, in welcher Stadt fand Josef endlich seine Brüder?",
+     "Dotan",
+     "Sichem",
+     "Hebron"
+    ],
+    "it": [
+     "Mandato da Giacobbe, in quale città Giuseppe trovò infine i fratelli?",
+     "Dotan",
+     "Sichem",
+     "Ebron"
+    ],
+    "pl": [
+     "Posłany przez Jakuba, w którym mieście Józef w końcu znalazł braci?",
+     "Dotan",
+     "Sychem",
+     "Hebron"
+    ],
+    "ru": [
+     "Посланный Иаковом, в каком городе Иосиф наконец нашёл братьев?",
+     "Дофан",
+     "Сихем",
+     "Хеврон"
+    ],
+    "tr": [
+     "Yakup'un gönderdiği Yusuf, kardeşlerini sonunda hangi kentte buldu?",
+     "Dotan",
+     "Şekem",
+     "Hebron"
+    ],
+    "ja": [
+     "ヤコブに遣わされたヨセフは、どの町で兄たちを見つけましたか？",
+     "ドタン",
+     "シケム",
+     "ヘブロン"
+    ],
+    "ko": [
+     "야곱이 보낸 요셉은 마침내 어느 성읍에서 형들을 찾았습니까?",
+     "도탄",
+     "스켐",
+     "헤브론"
+    ],
+    "ar": [
+     "أرسل يعقوب يوسف، فوجد إخوته أخيرا في أي مدينة؟",
+     "دوثان",
+     "شكيم",
+     "حبرون"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-034-21",
+   "book": "genesis",
+   "chapter": 38,
+   "difficulty": "easy",
+   "ref": "Genesis 38:27-30",
+   "text": {
+    "en": [
+     "Which daughter-in-law of Judah bore him twin sons?",
+     "Tamar",
+     "Dinah",
+     "Leah"
+    ],
+    "es": [
+     "¿Qué nuera de Judá le dio a luz gemelos?",
+     "Tamar",
+     "Dina",
+     "Lía"
+    ],
+    "pt": [
+     "Qual nora de Judá lhe deu filhos gêmeos?",
+     "Tamar",
+     "Diná",
+     "Lia"
+    ],
+    "fr": [
+     "Quelle belle-fille de Juda lui donna des jumeaux ?",
+     "Thamar",
+     "Dina",
+     "Léa"
+    ],
+    "de": [
+     "Welche Schwiegertochter Judas gebar ihm Zwillinge?",
+     "Tamar",
+     "Dina",
+     "Lea"
+    ],
+    "it": [
+     "Quale nuora di Giuda gli partorì due gemelli?",
+     "Tamar",
+     "Dina",
+     "Lia"
+    ],
+    "pl": [
+     "Która synowa Judy urodziła mu bliźnięta?",
+     "Tamar",
+     "Dina",
+     "Lea"
+    ],
+    "ru": [
+     "Какая невестка Иуды родила ему близнецов?",
+     "Фамарь",
+     "Дина",
+     "Лия"
+    ],
+    "tr": [
+     "Yahuda'nın hangi gelini ona ikiz oğullar doğurdu?",
+     "Tamar",
+     "Dina",
+     "Lea"
+    ],
+    "ja": [
+     "ユダに双子を産んだ嫁は誰？",
+     "タマル",
+     "ディナ",
+     "レア"
+    ],
+    "ko": [
+     "유다에게 쌍둥이를 낳아 준 며느리는 누구입니까?",
+     "타마르",
+     "디나",
+     "레아"
+    ],
+    "ar": [
+     "أي كنة ليهوذا ولدت له توأمين؟",
+     "ثامار",
+     "دينة",
+     "ليئة"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-034-22",
+   "book": "genesis",
+   "chapter": 38,
+   "difficulty": "medium",
+   "ref": "Genesis 38:28-30",
+   "text": {
+    "en": [
+     "Which of Tamar's twins had a scarlet thread tied on his hand?",
+     "Zerah",
+     "Perez",
+     "Shelah"
+    ],
+    "es": [
+     "¿Cuál de los gemelos de Tamar tenía un hilo escarlata atado en la mano?",
+     "Zéraj",
+     "Fares",
+     "Selá"
+    ],
+    "pt": [
+     "Qual dos gêmeos de Tamar teve um fio escarlate atado à mão?",
+     "Zara",
+     "Farés",
+     "Sela"
+    ],
+    "fr": [
+     "Lequel des jumeaux de Tamar eut un fil écarlate attaché à la main ?",
+     "Zérah",
+     "Pérets",
+     "Shéla"
+    ],
+    "de": [
+     "Welcher von Tamars Zwillingen hatte einen Scharlachfaden an der Hand?",
+     "Serach",
+     "Perez",
+     "Schela"
+    ],
+    "it": [
+     "Quale dei gemelli di Tamar ebbe un filo scarlatto legato alla mano?",
+     "Zerach",
+     "Peres",
+     "Sela"
+    ],
+    "pl": [
+     "Który z bliźniaków Tamar miał szkarłatną nić przywiązaną do ręki?",
+     "Zerach",
+     "Peres",
+     "Szela"
+    ],
+    "ru": [
+     "Который из близнецов Фамари родился с алой нитью на руке?",
+     "Зара",
+     "Фарес",
+     "Шела"
+    ],
+    "tr": [
+     "Tamar'ın ikizlerinden hangisinin eline kırmızı iplik bağlandı?",
+     "Zerah",
+     "Peres",
+     "Şela"
+    ],
+    "ja": [
+     "タマルの双子のうち、手に緋色の糸を結ばれたのは誰？",
+     "ゼラ",
+     "ペレツ",
+     "シェラ"
+    ],
+    "ko": [
+     "타마르의 쌍둥이 가운데 손에 붉은 실을 맨 아들은 누구입니까?",
+     "제라",
+     "페레츠",
+     "셀라"
+    ],
+    "ar": [
+     "أي توأم لثامار رُبط خيط قرمزي على يده؟",
+     "زارح",
+     "فارص",
+     "شيلة"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-034-23",
+   "book": "genesis",
+   "chapter": 38,
+   "difficulty": "hard",
+   "ref": "Genesis 38:18",
+   "text": {
+    "en": [
+     "Judah gave Tamar his seal, cord and which other pledge?",
+     "Staff",
+     "Sword",
+     "Bow"
+    ],
+    "es": [
+     "¿Qué otra prenda dio Judá a Tamar, además de su sello y su cordón?",
+     "Bastón",
+     "Espada",
+     "Arco"
+    ],
+    "pt": [
+     "Que outro penhor Judá deu a Tamar, além do selo e do cordão?",
+     "Cajado",
+     "Espada",
+     "Arco"
+    ],
+    "fr": [
+     "Quel autre gage Juda donna-t-il à Tamar, outre son sceau et son cordon ?",
+     "Bâton",
+     "Épée",
+     "Arc"
+    ],
+    "de": [
+     "Welches weitere Pfand gab Juda Tamar neben Siegel und Schnur?",
+     "Stab",
+     "Schwert",
+     "Bogen"
+    ],
+    "it": [
+     "Quale altro pegno Giuda diede a Tamar, oltre a sigillo e cordone?",
+     "Bastone",
+     "Spada",
+     "Arco"
+    ],
+    "pl": [
+     "Który przedmiot, oprócz pieczęci i sznura, Juda zostawił Tamar w zastaw?",
+     "Laska",
+     "Miecz",
+     "Łuk"
+    ],
+    "ru": [
+     "Какой ещё предмет, кроме печати и перевязи, Иуда дал Фамари в залог?",
+     "Трость",
+     "Меч",
+     "Лук"
+    ],
+    "tr": [
+     "Yahuda, Tamar'a mühür ve kordonun yanında hangi nesneyi rehin verdi?",
+     "Asa",
+     "Kılıç",
+     "Yay"
+    ],
+    "ja": [
+     "ユダは印章と紐のほか、何を担保としてタマルに渡しましたか？",
+     "杖",
+     "剣",
+     "弓"
+    ],
+    "ko": [
+     "유다는 인장과 끈 외에 무엇을 담보로 타마르에게 주었습니까?",
+     "지팡이",
+     "칼",
+     "활"
+    ],
+    "ar": [
+     "ماذا أعطى يهوذا ثامار رهنا، غير خاتمه وخيطه؟",
+     "عصا",
+     "سيف",
+     "قوس"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-034-24",
+   "book": "genesis",
+   "chapter": 38,
+   "difficulty": "expert",
+   "ref": "Genesis 38:2",
+   "text": {
+    "en": [
+     "Judah married the daughter of which Canaanite man?",
+     "Shua",
+     "Hirah",
+     "Hamor"
+    ],
+    "es": [
+     "¿Con la hija de qué cananeo se casó Judá?",
+     "Súa",
+     "Hirá",
+     "Jamor"
+    ],
+    "pt": [
+     "Judá se casou com a filha de qual cananeu?",
+     "Sua",
+     "Hira",
+     "Hemor"
+    ],
+    "fr": [
+     "Juda épousa la fille de quel Cananéen ?",
+     "Shua",
+     "Hira",
+     "Hamor"
+    ],
+    "de": [
+     "Mit der Tochter welches Kanaanäers heiratete Juda?",
+     "Schua",
+     "Hira",
+     "Hamor"
+    ],
+    "it": [
+     "Giuda sposò la figlia di quale cananeo?",
+     "Sua",
+     "Chira",
+     "Camor"
+    ],
+    "pl": [
+     "Z córką którego Kananejczyka ożenił się Juda?",
+     "Szua",
+     "Chira",
+     "Chamor"
+    ],
+    "ru": [
+     "На дочери какого хананеянина женился Иуда?",
+     "Сава",
+     "Ира",
+     "Еммор"
+    ],
+    "tr": [
+     "Yahuda hangi Kenanlının kızıyla evlendi?",
+     "Şua",
+     "Hira",
+     "Hamor"
+    ],
+    "ja": [
+     "ユダは、どのカナン人の娘と結婚しましたか？",
+     "シュア",
+     "ヒラ",
+     "ハモル"
+    ],
+    "ko": [
+     "유다는 어느 가나안 사람의 딸과 혼인했습니까?",
+     "수아",
+     "히라",
+     "하몰"
+    ],
+    "ar": [
+     "ابنة أي رجل كنعاني تزوج يهوذا؟",
+     "شوع",
+     "حيرة",
+     "حمور"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-034-25",
+   "book": "genesis",
+   "chapter": 38,
+   "difficulty": "impossible",
+   "ref": "Genesis 38:12",
+   "text": {
+    "en": [
+     "To which town did Judah go up to shear his sheep?",
+     "Timnah",
+     "Hebron",
+     "Shechem"
+    ],
+    "es": [
+     "¿A qué ciudad subió Judá para esquilar sus ovejas?",
+     "Timná",
+     "Hebrón",
+     "Siquén"
+    ],
+    "pt": [
+     "A que cidade Judá subiu para tosquiar suas ovelhas?",
+     "Timna",
+     "Hebrom",
+     "Siquém"
+    ],
+    "fr": [
+     "À quelle ville Juda monta-t-il pour tondre ses brebis ?",
+     "Timna",
+     "Hébron",
+     "Sichem"
+    ],
+    "de": [
+     "In welche Stadt ging Juda hinauf, um seine Schafe zu scheren?",
+     "Timna",
+     "Hebron",
+     "Sichem"
+    ],
+    "it": [
+     "A quale città salì Giuda per tosare le sue pecore?",
+     "Timna",
+     "Ebron",
+     "Sichem"
+    ],
+    "pl": [
+     "Do jakiego miasta poszedł Juda, aby strzyc owce?",
+     "Timna",
+     "Hebron",
+     "Sychem"
+    ],
+    "ru": [
+     "В какой город пошёл Иуда стричь овец?",
+     "Фамна",
+     "Хеврон",
+     "Сихем"
+    ],
+    "tr": [
+     "Yahuda koyunlarını kırkmak için hangi kente gitti?",
+     "Timna",
+     "Hebron",
+     "Şekem"
+    ],
+    "ja": [
+     "ユダは羊の毛を刈るためにどの町へ上りましたか？",
+     "ティムナ",
+     "ヘブロン",
+     "シケム"
+    ],
+    "ko": [
+     "유다는 양털을 깎으려고 어느 성읍으로 올라갔습니까?",
+     "팀나",
+     "헤브론",
+     "스켐"
+    ],
+    "ar": [
+     "إلى أي مدينة صعد يهوذا ليجز غنمه؟",
+     "تمنة",
+     "حبرون",
+     "شكيم"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-034-26",
+   "book": "genesis",
+   "chapter": 39,
+   "difficulty": "easy",
+   "ref": "Genesis 39:7-19",
+   "text": {
+    "en": [
+     "Whose wife falsely accused Joseph after he refused her?",
+     "Potiphar",
+     "Pharaoh",
+     "Laban"
+    ],
+    "es": [
+     "¿La esposa de quién acusó falsamente a José tras ser rechazada?",
+     "Putifar",
+     "Faraón",
+     "Labán"
+    ],
+    "pt": [
+     "A esposa de quem acusou falsamente José depois de ser rejeitada?",
+     "Potifar",
+     "Faraó",
+     "Labão"
+    ],
+    "fr": [
+     "La femme de qui accusa faussement Joseph après son refus ?",
+     "Putiphar",
+     "Pharaon",
+     "Laban"
+    ],
+    "de": [
+     "Wessen Frau beschuldigte Josef fälschlich, nachdem er sie abgewiesen hatte?",
+     "Potifar",
+     "Pharao",
+     "Laban"
+    ],
+    "it": [
+     "La moglie di chi accusò falsamente Giuseppe dopo il suo rifiuto?",
+     "Potifar",
+     "Faraone",
+     "Làbano"
+    ],
+    "pl": [
+     "Czyja żona fałszywie oskarżyła Józefa po jego odmowie?",
+     "Putyfar",
+     "Faraon",
+     "Laban"
+    ],
+    "ru": [
+     "Чья жена ложно обвинила Иосифа после его отказа?",
+     "Потифар",
+     "Фараон",
+     "Лаван"
+    ],
+    "tr": [
+     "Kimin karısı reddedildikten sonra Yusuf'u yalan yere suçladı?",
+     "Potifar",
+     "Firavun",
+     "Lavan"
+    ],
+    "ja": [
+     "拒まれた後、ヨセフを偽って訴えたのは誰の妻？",
+     "ポティファル",
+     "ファラオ",
+     "ラバン"
+    ],
+    "ko": [
+     "거절당한 뒤 요셉을 거짓으로 고발한 아내는 누구의 아내입니까?",
+     "보디발",
+     "파라오",
+     "라반"
+    ],
+    "ar": [
+     "زوجة من اتهمت يوسف زورا بعد أن رفضها؟",
+     "فوطيفار",
+     "فرعون",
+     "لابان"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-034-27",
+   "book": "genesis",
+   "chapter": 39,
+   "difficulty": "medium",
+   "ref": "Genesis 39:12",
+   "text": {
+    "en": [
+     "What did Joseph leave in his master's wife's hand when fleeing?",
+     "Cloak",
+     "Sword",
+     "Bow"
+    ],
+    "es": [
+     "¿Qué dejó José en la mano de la mujer de su amo al huir?",
+     "Manto",
+     "Espada",
+     "Arco"
+    ],
+    "pt": [
+     "O que José deixou na mão da mulher de seu senhor ao fugir?",
+     "Manto",
+     "Espada",
+     "Arco"
+    ],
+    "fr": [
+     "Que laissa Joseph dans la main de la femme de son maître en fuyant ?",
+     "Vêtement",
+     "Épée",
+     "Arc"
+    ],
+    "de": [
+     "Was ließ Josef bei der Flucht in der Hand der Frau seines Herrn zurück?",
+     "Gewand",
+     "Schwert",
+     "Bogen"
+    ],
+    "it": [
+     "Che cosa lasciò Giuseppe in mano alla moglie del padrone fuggendo?",
+     "Mantello",
+     "Spada",
+     "Arco"
+    ],
+    "pl": [
+     "Co zostawił Józef w ręku żony swego pana, uciekając?",
+     "Płaszcz",
+     "Miecz",
+     "Łuk"
+    ],
+    "ru": [
+     "Что оставил Иосиф в руках жены господина, убегая?",
+     "Плащ",
+     "Меч",
+     "Лук"
+    ],
+    "tr": [
+     "Yusuf kaçarken efendisinin karısının elinde ne bıraktı?",
+     "Giysi",
+     "Kılıç",
+     "Yay"
+    ],
+    "ja": [
+     "ヨセフは逃げるとき、主人の妻の手に何を残しましたか？",
+     "上着",
+     "剣",
+     "弓"
+    ],
+    "ko": [
+     "요셉은 도망치면서 주인의 아내 손에 무엇을 남겼습니까?",
+     "옷",
+     "칼",
+     "활"
+    ],
+    "ar": [
+     "ماذا ترك يوسف في يد امرأة سيده عندما هرب؟",
+     "ثوب",
+     "سيف",
+     "قوس"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-034-28",
+   "book": "genesis",
+   "chapter": 39,
+   "difficulty": "hard",
+   "ref": "Genesis 39:22",
+   "text": {
+    "en": [
+     "Who put Joseph in charge of all the prisoners in the jail?",
+     "Jailer",
+     "Pharaoh",
+     "Potiphar"
+    ],
+    "es": [
+     "¿Quién puso a José a cargo de todos los presos de la cárcel?",
+     "Carcelero",
+     "Faraón",
+     "Putifar"
+    ],
+    "pt": [
+     "Quem pôs José encarregado de todos os presos da prisão?",
+     "Carcereiro",
+     "Faraó",
+     "Potifar"
+    ],
+    "fr": [
+     "Qui confia à Joseph la charge de tous les détenus de la prison ?",
+     "Geôlier",
+     "Pharaon",
+     "Putiphar"
+    ],
+    "de": [
+     "Wer setzte Josef über alle Gefangenen im Gefängnis?",
+     "Kerkermeister",
+     "Pharao",
+     "Potifar"
+    ],
+    "it": [
+     "Chi affidò a Giuseppe tutti i prigionieri della prigione?",
+     "Carceriere",
+     "Faraone",
+     "Potifar"
+    ],
+    "pl": [
+     "Kto powierzył Józefowi wszystkich więźniów w więzieniu?",
+     "Strażnik",
+     "Faraon",
+     "Putyfar"
+    ],
+    "ru": [
+     "Кто поручил Иосифу всех узников в тюрьме?",
+     "Тюремщик",
+     "Фараон",
+     "Потифар"
+    ],
+    "tr": [
+     "Yusuf'u hapishanedeki tüm tutukluların başına kim geçirdi?",
+     "Gardiyan",
+     "Firavun",
+     "Potifar"
+    ],
+    "ja": [
+     "牢獄の囚人全員をヨセフに任せたのは誰ですか？",
+     "看守",
+     "ファラオ",
+     "ポティファル"
+    ],
+    "ko": [
+     "감옥의 모든 죄수를 요셉에게 맡긴 사람은 누구입니까?",
+     "간수",
+     "파라오",
+     "보디발"
+    ],
+    "ar": [
+     "من جعل يوسف مسؤولا عن جميع الأسرى في السجن؟",
+     "سجان",
+     "فرعون",
+     "فوطيفار"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-034-29",
+   "book": "genesis",
+   "chapter": 39,
+   "difficulty": "expert",
+   "ref": "Genesis 39:6",
+   "text": {
+    "en": [
+     "Joseph's master left him in charge, concerned only about what?",
+     "Food",
+     "Gold",
+     "Wine"
+    ],
+    "es": [
+     "El amo de José le confió todo; ¿de qué se ocupaba solo él?",
+     "Comida",
+     "Oro",
+     "Vino"
+    ],
+    "pt": [
+     "Seu senhor confiou tudo a José, preocupando-se apenas com o quê?",
+     "Comida",
+     "Ouro",
+     "Vinho"
+    ],
+    "fr": [
+     "Le maître de Joseph lui confia tout, ne s'occupant que de quoi ?",
+     "Nourriture",
+     "Or",
+     "Vin"
+    ],
+    "de": [
+     "Josefs Herr überließ ihm alles und kümmerte sich nur um was?",
+     "Essen",
+     "Gold",
+     "Wein"
+    ],
+    "it": [
+     "Il padrone di Giuseppe gli affidò tutto, occupandosi solo di che cosa?",
+     "Cibo",
+     "Oro",
+     "Vino"
+    ],
+    "pl": [
+     "Pan Józefa powierzył mu wszystko, troszcząc się tylko o co?",
+     "Jedzenie",
+     "Złoto",
+     "Wino"
+    ],
+    "ru": [
+     "Господин Иосифа всё доверил ему, заботясь лишь о чём?",
+     "Пища",
+     "Золото",
+     "Вино"
+    ],
+    "tr": [
+     "Yusuf'un efendisi her şeyi ona bırakıp yalnızca neyle ilgilendi?",
+     "Yemek",
+     "Altın",
+     "Şarap"
+    ],
+    "ja": [
+     "ヨセフの主人は全てを任せ、ただ何だけを気にかけましたか？",
+     "食べ物",
+     "金",
+     "ぶどう酒"
+    ],
+    "ko": [
+     "요셉의 주인은 모든 것을 맡기고 오직 무엇만 신경 썼습니까?",
+     "음식",
+     "금",
+     "포도주"
+    ],
+    "ar": [
+     "ترك سيد يوسف له كل شيء، ولم يهتم إلا بماذا؟",
+     "طعام",
+     "ذهب",
+     "خمر"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-034-30",
+   "book": "genesis",
+   "chapter": 39,
+   "difficulty": "impossible",
+   "ref": "Genesis 39:1",
+   "text": {
+    "en": [
+     "From which people did Potiphar buy Joseph?",
+     "Ishmaelites",
+     "Amorites",
+     "Philistines"
+    ],
+    "es": [
+     "¿A qué pueblo le compró Putifar a José?",
+     "Ismaelitas",
+     "Amorreos",
+     "Filisteos"
+    ],
+    "pt": [
+     "De que povo Potifar comprou José?",
+     "Ismaelitas",
+     "Amorreus",
+     "Filisteus"
+    ],
+    "fr": [
+     "À quel peuple Putiphar acheta-t-il Joseph ?",
+     "Ismaélites",
+     "Amorrites",
+     "Philistins"
+    ],
+    "de": [
+     "Von welchem Volk kaufte Potifar den Josef?",
+     "Ismaeliter",
+     "Amoriter",
+     "Philister"
+    ],
+    "it": [
+     "Da quale popolo Potifar comprò Giuseppe?",
+     "Ismaeliti",
+     "Amorrei",
+     "Filistei"
+    ],
+    "pl": [
+     "Od jakiego ludu Putyfar kupił Józefa?",
+     "Izmaelici",
+     "Amoryci",
+     "Filistyni"
+    ],
+    "ru": [
+     "У какого народа Потифар купил Иосифа?",
+     "Измаильтяне",
+     "Аморреи",
+     "Филистимляне"
+    ],
+    "tr": [
+     "Potifar, Yusuf'u hangi halktan satın aldı?",
+     "İsmaililer",
+     "Amorlular",
+     "Filistliler"
+    ],
+    "ja": [
+     "ポティファルはヨセフをどの民から買いましたか？",
+     "イシュマエル人",
+     "アモリ人",
+     "ペリシテ人"
+    ],
+    "ko": [
+     "보디발은 어느 민족에게서 요셉을 샀습니까?",
+     "이스마엘인",
+     "아모리족",
+     "필리스티아인"
+    ],
+    "ar": [
+     "من أي شعب اشترى فوطيفار يوسف؟",
+     "إسماعيليون",
+     "أموريون",
+     "فلسطينيون"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-034-31",
+   "book": "genesis",
+   "chapter": 40,
+   "difficulty": "easy",
+   "ref": "Genesis 40:1-2",
+   "text": {
+    "en": [
+     "Besides the baker, which of Pharaoh's officers was jailed with Joseph?",
+     "Cupbearer",
+     "Priest",
+     "Soldier"
+    ],
+    "es": [
+     "Además del panadero, ¿qué oficial del faraón estuvo preso con José?",
+     "Copero",
+     "Sacerdote",
+     "Soldado"
+    ],
+    "pt": [
+     "Além do padeiro, qual oficial do faraó esteve preso com José?",
+     "Copeiro",
+     "Sacerdote",
+     "Soldado"
+    ],
+    "fr": [
+     "Outre le panetier, quel officier de Pharaon fut emprisonné avec Joseph ?",
+     "Échanson",
+     "Prêtre",
+     "Soldat"
+    ],
+    "de": [
+     "Welcher Beamte Pharaos saß neben dem Bäcker mit Josef im Gefängnis?",
+     "Mundschenk",
+     "Priester",
+     "Soldat"
+    ],
+    "it": [
+     "Oltre al panettiere, quale funzionario del faraone fu in prigione con Giuseppe?",
+     "Coppiere",
+     "Sacerdote",
+     "Soldato"
+    ],
+    "pl": [
+     "Który urzędnik faraona, obok piekarza, siedział z Józefem w więzieniu?",
+     "Podczaszy",
+     "Kapłan",
+     "Żołnierz"
+    ],
+    "ru": [
+     "Кто из царедворцев фараона, кроме хлебодара, сидел в тюрьме с Иосифом?",
+     "Виночерпий",
+     "Жрец",
+     "Воин"
+    ],
+    "tr": [
+     "Fırıncının yanında, firavunun hangi görevlisi Yusuf'la hapisteydi?",
+     "Sakî",
+     "Rahip",
+     "Asker"
+    ],
+    "ja": [
+     "パン焼き役のほか、ヨセフと共に投獄されたファラオの役人の役職は？",
+     "給仕役",
+     "祭司",
+     "兵士"
+    ],
+    "ko": [
+     "제빵관 외에 요셉과 함께 갇힌 파라오의 관리는 어떤 직책입니까?",
+     "헌작관",
+     "사제",
+     "군인"
+    ],
+    "ar": [
+     "غير الخباز، أي موظف لفرعون سُجن مع يوسف؟",
+     "ساقي",
+     "كاهن",
+     "جندي"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-034-32",
+   "book": "genesis",
+   "chapter": 40,
+   "difficulty": "medium",
+   "ref": "Genesis 40:9-10",
+   "text": {
+    "en": [
+     "In the cupbearer's dream, which plant had three branches?",
+     "Vine",
+     "Palm",
+     "Cedar"
+    ],
+    "es": [
+     "En el sueño del copero, ¿qué planta tenía tres ramas?",
+     "Vid",
+     "Palmera",
+     "Cedro"
+    ],
+    "pt": [
+     "No sonho do copeiro, que planta tinha três ramos?",
+     "Videira",
+     "Palmeira",
+     "Cedro"
+    ],
+    "fr": [
+     "Dans le rêve de l'échanson, quelle plante avait trois sarments ?",
+     "Vigne",
+     "Palmier",
+     "Cèdre"
+    ],
+    "de": [
+     "Welche Pflanze hatte im Traum des Mundschenks drei Ranken?",
+     "Weinstock",
+     "Palme",
+     "Zeder"
+    ],
+    "it": [
+     "Nel sogno del coppiere, quale pianta aveva tre tralci?",
+     "Vite",
+     "Palma",
+     "Cedro"
+    ],
+    "pl": [
+     "Jaka roślina miała trzy gałązki w śnie podczaszego?",
+     "Winorośl",
+     "Palma",
+     "Cedr"
+    ],
+    "ru": [
+     "Какое растение имело три ветви во сне виночерпия?",
+     "Лоза",
+     "Пальма",
+     "Кедр"
+    ],
+    "tr": [
+     "Sakînin rüyasında üç dalı olan bitki neydi?",
+     "Asma",
+     "Palmiye",
+     "Sedir"
+    ],
+    "ja": [
+     "給仕役の夢で、三本の枝があった植物は何？",
+     "ぶどうの木",
+     "ヤシ",
+     "杉"
+    ],
+    "ko": [
+     "헌작관의 꿈에서 가지 세 개가 있던 식물은 무엇입니까?",
+     "포도나무",
+     "야자나무",
+     "향백나무"
+    ],
+    "ar": [
+     "في حلم الساقي، أي نبتة كان لها ثلاثة أغصان؟",
+     "كرمة",
+     "نخلة",
+     "أرز"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-034-33",
+   "book": "genesis",
+   "chapter": 40,
+   "difficulty": "hard",
+   "ref": "Genesis 40:16",
+   "text": {
+    "en": [
+     "In the baker's dream, how many baskets of bread were on his head?",
+     "3",
+     "7",
+     "12"
+    ],
+    "es": [
+     "En el sueño del panadero, ¿cuántos canastos de pan llevaba en la cabeza?",
+     "3",
+     "7",
+     "12"
+    ],
+    "pt": [
+     "No sonho do padeiro, quantos cestos de pão estavam em sua cabeça?",
+     "3",
+     "7",
+     "12"
+    ],
+    "fr": [
+     "Dans le rêve du panetier, combien de corbeilles de pain avait-il sur la tête ?",
+     "3",
+     "7",
+     "12"
+    ],
+    "de": [
+     "Wie viele Körbe Brot trug der Bäcker in seinem Traum auf dem Kopf?",
+     "3",
+     "7",
+     "12"
+    ],
+    "it": [
+     "Nel sogno del panettiere, quanti canestri di pane aveva sul capo?",
+     "3",
+     "7",
+     "12"
+    ],
+    "pl": [
+     "Ile koszy chleba niósł na głowie piekarz w swoim śnie?",
+     "3",
+     "7",
+     "12"
+    ],
+    "ru": [
+     "Сколько корзин с хлебом было на голове у хлебодара во сне?",
+     "3",
+     "7",
+     "12"
+    ],
+    "tr": [
+     "Fırıncının rüyasında başında kaç sepet ekmek vardı?",
+     "3",
+     "7",
+     "12"
+    ],
+    "ja": [
+     "パン焼き役の夢で、頭の上にパンのかごはいくつありましたか？",
+     "3",
+     "7",
+     "12"
+    ],
+    "ko": [
+     "제빵관의 꿈에서 머리 위에 빵 광주리는 몇 개였습니까?",
+     "3",
+     "7",
+     "12"
+    ],
+    "ar": [
+     "في حلم الخباز، كم سلة خبز كانت على رأسه؟",
+     "3",
+     "7",
+     "12"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-034-34",
+   "book": "genesis",
+   "chapter": 40,
+   "difficulty": "expert",
+   "ref": "Genesis 40:17",
+   "text": {
+    "en": [
+     "In the baker's dream, which creatures ate from the top basket?",
+     "Birds",
+     "Dogs",
+     "Rats"
+    ],
+    "es": [
+     "En el sueño del panadero, ¿qué criaturas comían del canasto superior?",
+     "Aves",
+     "Perros",
+     "Ratas"
+    ],
+    "pt": [
+     "No sonho do padeiro, que criaturas comiam do cesto de cima?",
+     "Aves",
+     "Cães",
+     "Ratos"
+    ],
+    "fr": [
+     "Dans le rêve du panetier, quelles créatures mangeaient dans la corbeille du dessus ?",
+     "Oiseaux",
+     "Chiens",
+     "Rats"
+    ],
+    "de": [
+     "Welche Geschöpfe fraßen im Traum des Bäckers aus dem obersten Korb?",
+     "Vögel",
+     "Hunde",
+     "Ratten"
+    ],
+    "it": [
+     "Nel sogno del panettiere, quali creature mangiavano dal canestro superiore?",
+     "Uccelli",
+     "Cani",
+     "Topi"
+    ],
+    "pl": [
+     "Jakie stworzenia jadły z wierzchniego kosza w śnie piekarza?",
+     "Ptaki",
+     "Psy",
+     "Szczury"
+    ],
+    "ru": [
+     "Какие существа ели из верхней корзины во сне хлебодара?",
+     "Птицы",
+     "Собаки",
+     "Крысы"
+    ],
+    "tr": [
+     "Fırıncının rüyasında üstteki sepetten yiyenler hangi yaratıklardı?",
+     "Kuşlar",
+     "Köpekler",
+     "Fareler"
+    ],
+    "ja": [
+     "パン焼き役の夢で、一番上のかごから食べたのは何でしたか？",
+     "鳥",
+     "犬",
+     "ネズミ"
+    ],
+    "ko": [
+     "제빵관의 꿈에서 맨 위 광주리의 빵을 먹은 것은 무엇입니까?",
+     "새",
+     "개",
+     "쥐"
+    ],
+    "ar": [
+     "في حلم الخباز، أي مخلوقات أكلت من السلة العليا؟",
+     "طيور",
+     "كلاب",
+     "فئران"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-034-35",
+   "book": "genesis",
+   "chapter": 40,
+   "difficulty": "impossible",
+   "ref": "Genesis 40:15",
+   "text": {
+    "en": [
+     "Joseph said he was stolen from the land of which people?",
+     "Hebrews",
+     "Egyptians",
+     "Philistines"
+    ],
+    "es": [
+     "¿De la tierra de qué pueblo dijo José que lo habían raptado?",
+     "Hebreos",
+     "Egipcios",
+     "Filisteos"
+    ],
+    "pt": [
+     "Da terra de qual povo José disse ter sido raptado?",
+     "Hebreus",
+     "Egípcios",
+     "Filisteus"
+    ],
+    "fr": [
+     "Du pays de quel peuple Joseph dit-il avoir été enlevé ?",
+     "Hébreux",
+     "Égyptiens",
+     "Philistins"
+    ],
+    "de": [
+     "Aus dem Land welchen Volkes sagte Josef, er sei geraubt worden?",
+     "Hebräer",
+     "Ägypter",
+     "Philister"
+    ],
+    "it": [
+     "Dalla terra di quale popolo Giuseppe disse di essere stato rapito?",
+     "Ebrei",
+     "Egiziani",
+     "Filistei"
+    ],
+    "pl": [
+     "Z ziemi jakiego ludu, według Józefa, został porwany?",
+     "Hebrajczycy",
+     "Egipcjanie",
+     "Filistyni"
+    ],
+    "ru": [
+     "Из земли какого народа, по словам Иосифа, он был похищен?",
+     "Евреи",
+     "Египтяне",
+     "Филистимляне"
+    ],
+    "tr": [
+     "Yusuf, hangi halkın ülkesinden kaçırıldığını söyledi?",
+     "İbraniler",
+     "Mısırlılar",
+     "Filistliler"
+    ],
+    "ja": [
+     "ヨセフは、どの民の国から連れ去られたと言いましたか？",
+     "ヘブライ人",
+     "エジプト人",
+     "ペリシテ人"
+    ],
+    "ko": [
+     "요셉은 어느 민족의 땅에서 끌려왔다고 말했습니까?",
+     "히브리인",
+     "이집트인",
+     "필리스티아인"
+    ],
+    "ar": [
+     "من أرض أي شعب قال يوسف إنه خُطف؟",
+     "عبرانيون",
+     "مصريون",
+     "فلسطينيون"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-034-36",
+   "book": "genesis",
+   "chapter": 41,
+   "difficulty": "easy",
+   "ref": "Genesis 41:2",
+   "text": {
+    "en": [
+     "In Pharaoh's dream, how many fat cows came up from the Nile?",
+     "7",
+     "3",
+     "12"
+    ],
+    "es": [
+     "En el sueño del faraón, ¿cuántas vacas gordas salieron del Nilo?",
+     "7",
+     "3",
+     "12"
+    ],
+    "pt": [
+     "No sonho do faraó, quantas vacas gordas saíram do Nilo?",
+     "7",
+     "3",
+     "12"
+    ],
+    "fr": [
+     "Dans le rêve de Pharaon, combien de vaches grasses sortirent du Nil ?",
+     "7",
+     "3",
+     "12"
+    ],
+    "de": [
+     "Wie viele fette Kühe stiegen in Pharaos Traum aus dem Nil?",
+     "7",
+     "3",
+     "12"
+    ],
+    "it": [
+     "Nel sogno del faraone, quante vacche grasse uscirono dal Nilo?",
+     "7",
+     "3",
+     "12"
+    ],
+    "pl": [
+     "Ile tłustych krów wyszło z Nilu w śnie faraona?",
+     "7",
+     "3",
+     "12"
+    ],
+    "ru": [
+     "Сколько тучных коров вышло из Нила во сне фараона?",
+     "7",
+     "3",
+     "12"
+    ],
+    "tr": [
+     "Firavunun rüyasında Nil'den kaç besili inek çıktı?",
+     "7",
+     "3",
+     "12"
+    ],
+    "ja": [
+     "ファラオの夢で、ナイル川から上がった肥えた雌牛は何頭？",
+     "7",
+     "3",
+     "12"
+    ],
+    "ko": [
+     "파라오의 꿈에서 나일 강에서 올라온 살진 암소는 몇 마리였습니까?",
+     "7",
+     "3",
+     "12"
+    ],
+    "ar": [
+     "في حلم فرعون، كم بقرة سمينة صعدت من النيل؟",
+     "7",
+     "3",
+     "12"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-034-37",
+   "book": "genesis",
+   "chapter": 41,
+   "difficulty": "medium",
+   "ref": "Genesis 41:42",
+   "text": {
+    "en": [
+     "What did Pharaoh take from his hand and put on Joseph's?",
+     "Ring",
+     "Staff",
+     "Sword"
+    ],
+    "es": [
+     "¿Qué se quitó el faraón de la mano y puso en la de José?",
+     "Anillo",
+     "Bastón",
+     "Espada"
+    ],
+    "pt": [
+     "O que o faraó tirou da mão e pôs na mão de José?",
+     "Anel",
+     "Cajado",
+     "Espada"
+    ],
+    "fr": [
+     "Que Pharaon ôta-t-il de sa main pour le mettre à celle de Joseph ?",
+     "Anneau",
+     "Bâton",
+     "Épée"
+    ],
+    "de": [
+     "Was zog Pharao von seiner Hand und steckte es Josef an?",
+     "Ring",
+     "Stab",
+     "Schwert"
+    ],
+    "it": [
+     "Che cosa si tolse il faraone dalla mano per metterlo a Giuseppe?",
+     "Anello",
+     "Bastone",
+     "Spada"
+    ],
+    "pl": [
+     "Co zdjął faraon ze swojej ręki i włożył Józefowi?",
+     "Pierścień",
+     "Laska",
+     "Miecz"
+    ],
+    "ru": [
+     "Что снял фараон со своей руки и надел на руку Иосифа?",
+     "Перстень",
+     "Посох",
+     "Меч"
+    ],
+    "tr": [
+     "Firavun elinden ne çıkarıp Yusuf'un eline taktı?",
+     "Yüzük",
+     "Asa",
+     "Kılıç"
+    ],
+    "ja": [
+     "ファラオは自分の手から何を外してヨセフの手にはめましたか？",
+     "指輪",
+     "杖",
+     "剣"
+    ],
+    "ko": [
+     "파라오는 자기 손에서 무엇을 빼어 요셉의 손에 끼워 주었습니까?",
+     "반지",
+     "지팡이",
+     "칼"
+    ],
+    "ar": [
+     "ماذا نزع فرعون من يده ووضعه في يد يوسف؟",
+     "خاتم",
+     "عصا",
+     "سيف"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-034-38",
+   "book": "genesis",
+   "chapter": 41,
+   "difficulty": "hard",
+   "ref": "Genesis 41:45",
+   "text": {
+    "en": [
+     "Which Egyptian woman did Pharaoh give Joseph as his wife?",
+     "Asenath",
+     "Hagar",
+     "Zipporah"
+    ],
+    "es": [
+     "¿Qué egipcia dio el faraón a José por esposa?",
+     "Asenat",
+     "Agar",
+     "Séfora"
+    ],
+    "pt": [
+     "Que egípcia o faraó deu a José por esposa?",
+     "Asenet",
+     "Agar",
+     "Séfora"
+    ],
+    "fr": [
+     "Quelle Égyptienne Pharaon donna-t-il pour épouse à Joseph ?",
+     "Asénath",
+     "Agar",
+     "Séphora"
+    ],
+    "de": [
+     "Welche Ägypterin gab Pharao dem Josef zur Frau?",
+     "Asenat",
+     "Hagar",
+     "Zippora"
+    ],
+    "it": [
+     "Quale egiziana il faraone diede in moglie a Giuseppe?",
+     "Asenat",
+     "Agar",
+     "Sipporà"
+    ],
+    "pl": [
+     "Którą Egipcjankę faraon dał Józefowi za żonę?",
+     "Asenat",
+     "Hagar",
+     "Sefora"
+    ],
+    "ru": [
+     "Какую египтянку фараон дал Иосифу в жёны?",
+     "Асенефа",
+     "Агарь",
+     "Сепфора"
+    ],
+    "tr": [
+     "Firavun, Yusuf'a eş olarak hangi Mısırlı kadını verdi?",
+     "Asenat",
+     "Hacer",
+     "Sippora"
+    ],
+    "ja": [
+     "ファラオはヨセフにどのエジプト人女性を妻として与えましたか？",
+     "アセナト",
+     "ハガル",
+     "ツィポラ"
+    ],
+    "ko": [
+     "파라오는 요셉에게 어느 이집트 여인을 아내로 주었습니까?",
+     "아세나트",
+     "하가르",
+     "치포라"
+    ],
+    "ar": [
+     "أي مصرية أعطاها فرعون ليوسف زوجة؟",
+     "أسنات",
+     "هاجر",
+     "صفورة"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-034-39",
+   "book": "genesis",
+   "chapter": 41,
+   "difficulty": "expert",
+   "ref": "Genesis 41:46",
+   "text": {
+    "en": [
+     "How old was Joseph when he entered Pharaoh's service?",
+     "30",
+     "17",
+     "40"
+    ],
+    "es": [
+     "¿Cuántos años tenía José cuando entró al servicio del faraón?",
+     "30",
+     "17",
+     "40"
+    ],
+    "pt": [
+     "Quantos anos José tinha quando entrou a serviço do faraó?",
+     "30",
+     "17",
+     "40"
+    ],
+    "fr": [
+     "Quel âge avait Joseph lorsqu'il entra au service de Pharaon ?",
+     "30",
+     "17",
+     "40"
+    ],
+    "de": [
+     "Wie alt war Josef, als er in Pharaos Dienst trat?",
+     "30",
+     "17",
+     "40"
+    ],
+    "it": [
+     "Quanti anni aveva Giuseppe quando entrò al servizio del faraone?",
+     "30",
+     "17",
+     "40"
+    ],
+    "pl": [
+     "Ile lat miał Józef, gdy wstąpił na służbę faraona?",
+     "30",
+     "17",
+     "40"
+    ],
+    "ru": [
+     "Сколько лет было Иосифу, когда он поступил на службу к фараону?",
+     "30",
+     "17",
+     "40"
+    ],
+    "tr": [
+     "Yusuf firavunun hizmetine girdiğinde kaç yaşındaydı?",
+     "30",
+     "17",
+     "40"
+    ],
+    "ja": [
+     "ヨセフはファラオに仕え始めたとき、何歳でしたか？",
+     "30",
+     "17",
+     "40"
+    ],
+    "ko": [
+     "요셉은 파라오를 섬기기 시작했을 때 몇 살이었습니까?",
+     "30",
+     "17",
+     "40"
+    ],
+    "ar": [
+     "كم كان عمر يوسف عندما دخل خدمة فرعون؟",
+     "30",
+     "17",
+     "40"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-034-40",
+   "book": "genesis",
+   "chapter": 41,
+   "difficulty": "impossible",
+   "ref": "Genesis 41:45",
+   "text": {
+    "en": [
+     "Joseph's father-in-law, a priest, served in which city?",
+     "On",
+     "Memphis",
+     "Pithom"
+    ],
+    "es": [
+     "¿En qué ciudad era sacerdote el suegro de José?",
+     "On",
+     "Menfis",
+     "Pitom"
+    ],
+    "pt": [
+     "Em que cidade era sacerdote o sogro de José?",
+     "On",
+     "Mênfis",
+     "Pitom"
+    ],
+    "fr": [
+     "Dans quelle ville le beau-père de Joseph était-il prêtre ?",
+     "On",
+     "Memphis",
+     "Pithom"
+    ],
+    "de": [
+     "In welcher Stadt war Josefs Schwiegervater Priester?",
+     "On",
+     "Memphis",
+     "Pitom"
+    ],
+    "it": [
+     "In quale città era sacerdote il suocero di Giuseppe?",
+     "On",
+     "Menfi",
+     "Pitom"
+    ],
+    "pl": [
+     "W jakim mieście kapłanem był teść Józefa?",
+     "On",
+     "Memfis",
+     "Pitom"
+    ],
+    "ru": [
+     "В каком городе был жрецом тесть Иосифа?",
+     "Илиополь",
+     "Мемфис",
+     "Пифом"
+    ],
+    "tr": [
+     "Yusuf'un kayınpederi hangi kentte rahipti?",
+     "On",
+     "Memfis",
+     "Pitom"
+    ],
+    "ja": [
+     "ヨセフの義父は、どの町の祭司でしたか？",
+     "オン",
+     "メンフィス",
+     "ピトム"
+    ],
+    "ko": [
+     "요셉의 장인은 어느 도시의 사제였습니까?",
+     "온",
+     "멤피스",
+     "피톰"
+    ],
+    "ar": [
+     "في أي مدينة كان حمو يوسف كاهنا؟",
+     "أون",
+     "منف",
+     "فيثوم"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-034-41",
+   "book": "genesis",
+   "chapter": 42,
+   "difficulty": "easy",
+   "ref": "Genesis 42:2",
+   "text": {
+    "en": [
+     "What did Jacob send his sons to buy in Egypt?",
+     "Grain",
+     "Gold",
+     "Wine"
+    ],
+    "es": [
+     "¿Qué envió Jacob a sus hijos a comprar a Egipto?",
+     "Trigo",
+     "Oro",
+     "Vino"
+    ],
+    "pt": [
+     "O que Jacó mandou os filhos comprar no Egito?",
+     "Trigo",
+     "Ouro",
+     "Vinho"
+    ],
+    "fr": [
+     "Qu'est-ce que Jacob envoya ses fils acheter en Égypte ?",
+     "Blé",
+     "Or",
+     "Vin"
+    ],
+    "de": [
+     "Was schickte Jakob seine Söhne in Ägypten kaufen?",
+     "Getreide",
+     "Gold",
+     "Wein"
+    ],
+    "it": [
+     "Che cosa Giacobbe mandò i figli a comprare in Egitto?",
+     "Grano",
+     "Oro",
+     "Vino"
+    ],
+    "pl": [
+     "Co Jakub wysłał synów kupić w Egipcie?",
+     "Zboże",
+     "Złoto",
+     "Wino"
+    ],
+    "ru": [
+     "Что Иаков послал сыновей купить в Египте?",
+     "Зерно",
+     "Золото",
+     "Вино"
+    ],
+    "tr": [
+     "Yakup oğullarını Mısır'a ne satın almaya gönderdi?",
+     "Tahıl",
+     "Altın",
+     "Şarap"
+    ],
+    "ja": [
+     "ヤコブは息子たちをエジプトへ何を買いに行かせましたか？",
+     "穀物",
+     "金",
+     "ぶどう酒"
+    ],
+    "ko": [
+     "야곱은 아들들을 이집트로 무엇을 사러 보냈습니까?",
+     "곡식",
+     "금",
+     "포도주"
+    ],
+    "ar": [
+     "ماذا أرسل يعقوب أبناءه ليشتروه من مصر؟",
+     "قمح",
+     "ذهب",
+     "خمر"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-034-42",
+   "book": "genesis",
+   "chapter": 42,
+   "difficulty": "medium",
+   "ref": "Genesis 42:24",
+   "text": {
+    "en": [
+     "Which brother did Joseph keep bound in Egypt as a hostage?",
+     "Simeon",
+     "Reuben",
+     "Judah"
+    ],
+    "es": [
+     "¿Qué hermano retuvo José atado en Egipto como rehén?",
+     "Simeón",
+     "Rubén",
+     "Judá"
+    ],
+    "pt": [
+     "Que irmão José manteve preso no Egito como refém?",
+     "Simeão",
+     "Rúben",
+     "Judá"
+    ],
+    "fr": [
+     "Quel frère Joseph garda-t-il lié en Égypte comme otage ?",
+     "Siméon",
+     "Ruben",
+     "Juda"
+    ],
+    "de": [
+     "Welchen Bruder behielt Josef gefesselt in Ägypten als Geisel?",
+     "Simeon",
+     "Ruben",
+     "Juda"
+    ],
+    "it": [
+     "Quale fratello Giuseppe trattenne legato in Egitto come ostaggio?",
+     "Simeone",
+     "Ruben",
+     "Giuda"
+    ],
+    "pl": [
+     "Którego brata Józef zatrzymał w Egipcie związanego jako zakładnika?",
+     "Symeon",
+     "Ruben",
+     "Juda"
+    ],
+    "ru": [
+     "Какого брата Иосиф оставил связанным в Египте заложником?",
+     "Симеон",
+     "Рувим",
+     "Иуда"
+    ],
+    "tr": [
+     "Yusuf, hangi kardeşini Mısır'da rehin olarak bağlı tuttu?",
+     "Şimon",
+     "Ruben",
+     "Yahuda"
+    ],
+    "ja": [
+     "ヨセフはどの兄をエジプトで縛って人質にしましたか？",
+     "シメオン",
+     "ルベン",
+     "ユダ"
+    ],
+    "ko": [
+     "요셉은 어느 형을 이집트에서 묶어 인질로 잡아 두었습니까?",
+     "시메온",
+     "르우벤",
+     "유다"
+    ],
+    "ar": [
+     "أي أخ احتجزه يوسف مقيدا رهينة في مصر؟",
+     "شمعون",
+     "رأوبين",
+     "يهوذا"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-034-43",
+   "book": "genesis",
+   "chapter": 42,
+   "difficulty": "hard",
+   "ref": "Genesis 42:15-20",
+   "text": {
+    "en": [
+     "To prove they were not spies, which brother must the brothers bring?",
+     "Benjamin",
+     "Reuben",
+     "Levi"
+    ],
+    "es": [
+     "Para probar que no eran espías, ¿qué hermano debían llevar?",
+     "Benjamín",
+     "Rubén",
+     "Leví"
+    ],
+    "pt": [
+     "Para provar que não eram espiões, que irmão deviam levar?",
+     "Benjamim",
+     "Rúben",
+     "Levi"
+    ],
+    "fr": [
+     "Pour prouver qu'ils n'étaient pas des espions, quel frère devaient-ils amener ?",
+     "Benjamin",
+     "Ruben",
+     "Lévi"
+    ],
+    "de": [
+     "Welcher Bruder musste mitgebracht werden, um zu beweisen, dass sie keine Spione waren?",
+     "Benjamin",
+     "Ruben",
+     "Levi"
+    ],
+    "it": [
+     "Per provare di non essere spie, quale fratello dovevano portare?",
+     "Beniamino",
+     "Ruben",
+     "Levi"
+    ],
+    "pl": [
+     "Który brat miał zostać przyprowadzony na dowód, że nie są szpiegami?",
+     "Beniamin",
+     "Ruben",
+     "Lewi"
+    ],
+    "ru": [
+     "Какой брат должен был быть приведён, чтобы доказать, что они не соглядатаи?",
+     "Вениамин",
+     "Рувим",
+     "Левий"
+    ],
+    "tr": [
+     "Casus olmadıklarını kanıtlamak için hangi kardeşin getirilmesi gerekiyordu?",
+     "Binyamin",
+     "Ruben",
+     "Levi"
+    ],
+    "ja": [
+     "スパイでない証拠として、兄弟たちが連れて来るべき兄弟は誰？",
+     "ベニヤミン",
+     "ルベン",
+     "レビ"
+    ],
+    "ko": [
+     "정탐꾼이 아님을 증명하려면 어느 형제를 데려와야 했습니까?",
+     "벤야민",
+     "르우벤",
+     "레위"
+    ],
+    "ar": [
+     "لإثبات أنهم ليسوا جواسيس، أي أخ كان عليهم أن يحضروه؟",
+     "بنيامين",
+     "رأوبين",
+     "لاوي"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-034-44",
+   "book": "genesis",
+   "chapter": 42,
+   "difficulty": "expert",
+   "ref": "Genesis 42:25",
+   "text": {
+    "en": [
+     "What did Joseph secretly return in his brothers' grain sacks?",
+     "Money",
+     "Weapons",
+     "Idols"
+    ],
+    "es": [
+     "¿Qué hizo José devolver en secreto en los sacos de grano de sus hermanos?",
+     "Dinero",
+     "Armas",
+     "Ídolos"
+    ],
+    "pt": [
+     "O que José mandou devolver em segredo nos sacos de cereais dos irmãos?",
+     "Dinheiro",
+     "Armas",
+     "Ídolos"
+    ],
+    "fr": [
+     "Que Joseph fit-il remettre en secret dans les sacs de blé de ses frères ?",
+     "Argent",
+     "Armes",
+     "Idoles"
+    ],
+    "de": [
+     "Was ließ Josef heimlich in die Getreidesäcke seiner Brüder zurücklegen?",
+     "Geld",
+     "Waffen",
+     "Götzen"
+    ],
+    "it": [
+     "Che cosa Giuseppe fece rimettere di nascosto nei sacchi di grano dei fratelli?",
+     "Denaro",
+     "Armi",
+     "Idoli"
+    ],
+    "pl": [
+     "Co Józef kazał potajemnie włożyć z powrotem do worków ze zbożem swych braci?",
+     "Pieniądze",
+     "Broń",
+     "Bożki"
+    ],
+    "ru": [
+     "Что Иосиф велел тайно вложить обратно в мешки с зерном его братьев?",
+     "Деньги",
+     "Оружие",
+     "Идолы"
+    ],
+    "tr": [
+     "Yusuf'un kardeşlerinin tahıl çuvallarına gizlice geri koydurduğu şey neydi?",
+     "Para",
+     "Silahlar",
+     "Putlar"
+    ],
+    "ja": [
+     "ヨセフは兄たちの穀物の袋に、ひそかに何を戻させましたか？",
+     "お金",
+     "武器",
+     "偶像"
+    ],
+    "ko": [
+     "요셉은 형들의 곡식 자루에 몰래 무엇을 도로 넣게 했습니까?",
+     "돈",
+     "무기",
+     "우상"
+    ],
+    "ar": [
+     "ماذا أمر يوسف أن يُعاد سرا في أكياس قمح إخوته؟",
+     "مال",
+     "أسلحة",
+     "أصنام"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-034-45",
+   "book": "genesis",
+   "chapter": 42,
+   "difficulty": "impossible",
+   "ref": "Genesis 42:37",
+   "text": {
+    "en": [
+     "Which brother offered Jacob his own two sons as pledge?",
+     "Reuben",
+     "Judah",
+     "Levi"
+    ],
+    "es": [
+     "¿Qué hermano ofreció a Jacob a sus dos hijos como garantía?",
+     "Rubén",
+     "Judá",
+     "Leví"
+    ],
+    "pt": [
+     "Que irmão ofereceu a Jacó seus dois filhos como garantia?",
+     "Rúben",
+     "Judá",
+     "Levi"
+    ],
+    "fr": [
+     "Quel frère offrit à Jacob ses deux fils en garantie ?",
+     "Ruben",
+     "Juda",
+     "Lévi"
+    ],
+    "de": [
+     "Welcher Bruder bot Jakob seine beiden Söhne als Pfand an?",
+     "Ruben",
+     "Juda",
+     "Levi"
+    ],
+    "it": [
+     "Quale fratello offrì a Giacobbe i suoi due figli come garanzia?",
+     "Ruben",
+     "Giuda",
+     "Levi"
+    ],
+    "pl": [
+     "Który brat ofiarował Jakubowi swych dwóch synów jako zakład?",
+     "Ruben",
+     "Juda",
+     "Lewi"
+    ],
+    "ru": [
+     "Какой брат предложил Иакову в залог своих двух сыновей?",
+     "Рувим",
+     "Иуда",
+     "Левий"
+    ],
+    "tr": [
+     "Hangi kardeş Yakup'a iki oğlunu güvence olarak sundu?",
+     "Ruben",
+     "Yahuda",
+     "Levi"
+    ],
+    "ja": [
+     "どの兄が、自分の二人の息子を保証としてヤコブに差し出しましたか？",
+     "ルベン",
+     "ユダ",
+     "レビ"
+    ],
+    "ko": [
+     "어느 형이 자기 두 아들을 담보로 야곱에게 내놓았습니까?",
+     "르우벤",
+     "유다",
+     "레위"
+    ],
+    "ar": [
+     "أي أخ عرض على يعقوب ابنيه ضمانا؟",
+     "رأوبين",
+     "يهوذا",
+     "لاوي"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-034-46",
+   "book": "genesis",
+   "chapter": 43,
+   "difficulty": "easy",
+   "ref": "Genesis 43:29-30",
+   "text": {
+    "en": [
+     "Which brother's sight moved Joseph to rush out and weep?",
+     "Benjamin",
+     "Reuben",
+     "Simeon"
+    ],
+    "es": [
+     "¿A la vista de qué hermano José salió corriendo a llorar?",
+     "Benjamín",
+     "Rubén",
+     "Simeón"
+    ],
+    "pt": [
+     "Ao ver qual irmão José saiu às pressas para chorar?",
+     "Benjamim",
+     "Rúben",
+     "Simeão"
+    ],
+    "fr": [
+     "À la vue de quel frère Joseph sortit-il précipitamment pour pleurer ?",
+     "Benjamin",
+     "Ruben",
+     "Siméon"
+    ],
+    "de": [
+     "Beim Anblick welches Bruders eilte Josef hinaus, um zu weinen?",
+     "Benjamin",
+     "Ruben",
+     "Simeon"
+    ],
+    "it": [
+     "Alla vista di quale fratello Giuseppe uscì in fretta a piangere?",
+     "Beniamino",
+     "Ruben",
+     "Simeone"
+    ],
+    "pl": [
+     "Na widok którego brata Józef wybiegł, by płakać?",
+     "Beniamin",
+     "Ruben",
+     "Symeon"
+    ],
+    "ru": [
+     "При виде какого брата Иосиф поспешно вышел и заплакал?",
+     "Вениамин",
+     "Рувим",
+     "Симеон"
+    ],
+    "tr": [
+     "Yusuf hangi kardeşi görünce aceleyle çıkıp ağladı?",
+     "Binyamin",
+     "Ruben",
+     "Şimon"
+    ],
+    "ja": [
+     "ヨセフは、どの弟を見て急いで退き、泣きましたか？",
+     "ベニヤミン",
+     "ルベン",
+     "シメオン"
+    ],
+    "ko": [
+     "요셉은 어느 동생을 보고 서둘러 나가 울었습니까?",
+     "벤야민",
+     "르우벤",
+     "시메온"
+    ],
+    "ar": [
+     "عند رؤية أي أخ أسرع يوسف خارجا وبكى؟",
+     "بنيامين",
+     "رأوبين",
+     "شمعون"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-034-47",
+   "book": "genesis",
+   "chapter": 43,
+   "difficulty": "medium",
+   "ref": "Genesis 43:11",
+   "text": {
+    "en": [
+     "Which sweet food did Jacob send as a gift to Egypt's governor?",
+     "Honey",
+     "Salt",
+     "Bread"
+    ],
+    "es": [
+     "¿Qué alimento dulce envió Jacob como regalo al gobernador de Egipto?",
+     "Miel",
+     "Sal",
+     "Pan"
+    ],
+    "pt": [
+     "Que alimento doce Jacó enviou de presente ao governador do Egito?",
+     "Mel",
+     "Sal",
+     "Pão"
+    ],
+    "fr": [
+     "Quel aliment sucré Jacob envoya-t-il en cadeau au gouverneur d'Égypte ?",
+     "Miel",
+     "Sel",
+     "Pain"
+    ],
+    "de": [
+     "Welche süße Speise schickte Jakob als Geschenk an den Herrscher Ägyptens?",
+     "Honig",
+     "Salz",
+     "Brot"
+    ],
+    "it": [
+     "Quale cibo dolce mandò Giacobbe in dono al governatore d'Egitto?",
+     "Miele",
+     "Sale",
+     "Pane"
+    ],
+    "pl": [
+     "Jaki słodki pokarm Jakub posłał w darze władcy Egiptu?",
+     "Miód",
+     "Sól",
+     "Chleb"
+    ],
+    "ru": [
+     "Какая сладкая пища была послана Иаковом в дар правителю Египта?",
+     "Мёд",
+     "Соль",
+     "Хлеб"
+    ],
+    "tr": [
+     "Yakup'un Mısır valisine armağan olarak gönderdiği tatlı yiyecek hangisiydi?",
+     "Bal",
+     "Tuz",
+     "Ekmek"
+    ],
+    "ja": [
+     "ヤコブがエジプトの総督への贈り物にした甘い食べ物は何？",
+     "蜂蜜",
+     "塩",
+     "パン"
+    ],
+    "ko": [
+     "야곱이 이집트 총리에게 선물로 보낸 단 음식은 무엇입니까?",
+     "꿀",
+     "소금",
+     "빵"
+    ],
+    "ar": [
+     "أي طعام حلو أرسله يعقوب هدية لحاكم مصر؟",
+     "عسل",
+     "ملح",
+     "خبز"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-034-48",
+   "book": "genesis",
+   "chapter": 43,
+   "difficulty": "hard",
+   "ref": "Genesis 43:34",
+   "text": {
+    "en": [
+     "Benjamin's portion at Joseph's meal was how many times larger?",
+     "5",
+     "3",
+     "10"
+    ],
+    "es": [
+     "¿Cuántas veces mayor fue la porción de Benjamín en la comida de José?",
+     "5",
+     "3",
+     "10"
+    ],
+    "pt": [
+     "Quantas vezes maior foi a porção de Benjamim na refeição de José?",
+     "5",
+     "3",
+     "10"
+    ],
+    "fr": [
+     "Combien de fois plus grande fut la part de Benjamin au repas de Joseph ?",
+     "5",
+     "3",
+     "10"
+    ],
+    "de": [
+     "Wie viel mal größer war Benjamins Portion bei Josefs Mahl?",
+     "5",
+     "3",
+     "10"
+    ],
+    "it": [
+     "Quante volte più grande fu la porzione di Beniamino al banchetto di Giuseppe?",
+     "5",
+     "3",
+     "10"
+    ],
+    "pl": [
+     "Ile razy większa była porcja Beniamina na uczcie Józefa?",
+     "5",
+     "3",
+     "10"
+    ],
+    "ru": [
+     "Во сколько раз порция Вениамина на пире Иосифа была больше?",
+     "5",
+     "3",
+     "10"
+    ],
+    "tr": [
+     "Yusuf'un sofrasında Binyamin'in payı kaç kat büyüktü?",
+     "5",
+     "3",
+     "10"
+    ],
+    "ja": [
+     "ヨセフの食事でベニヤミンの分は何倍多かったですか？",
+     "5",
+     "3",
+     "10"
+    ],
+    "ko": [
+     "요셉의 식사에서 벤야민의 몫은 몇 배 더 많았습니까?",
+     "5",
+     "3",
+     "10"
+    ],
+    "ar": [
+     "كم ضعفا كانت حصة بنيامين أكبر في مائدة يوسف؟",
+     "5",
+     "3",
+     "10"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-034-49",
+   "book": "genesis",
+   "chapter": 43,
+   "difficulty": "expert",
+   "ref": "Genesis 43:32",
+   "text": {
+    "en": [
+     "Which people could not eat with the Hebrews, finding it abhorrent?",
+     "Egyptians",
+     "Philistines",
+     "Midianites"
+    ],
+    "es": [
+     "¿Qué pueblo no podía comer con los hebreos, por considerarlo abominable?",
+     "Egipcios",
+     "Filisteos",
+     "Madianitas"
+    ],
+    "pt": [
+     "Que povo não podia comer com os hebreus, por considerar abominação?",
+     "Egípcios",
+     "Filisteus",
+     "Midianitas"
+    ],
+    "fr": [
+     "Quel peuple ne pouvait manger avec les Hébreux, y voyant une abomination ?",
+     "Égyptiens",
+     "Philistins",
+     "Madianites"
+    ],
+    "de": [
+     "Welches Volk durfte nicht mit den Hebräern essen, weil es ein Gräuel war?",
+     "Ägypter",
+     "Philister",
+     "Midianiter"
+    ],
+    "it": [
+     "Quale popolo non poteva mangiare con gli Ebrei, considerandolo abominio?",
+     "Egiziani",
+     "Filistei",
+     "Madianiti"
+    ],
+    "pl": [
+     "Który lud nie mógł jeść z Hebrajczykami, uznając to za obrzydliwość?",
+     "Egipcjanie",
+     "Filistyni",
+     "Madianici"
+    ],
+    "ru": [
+     "Какой народ не мог есть с евреями, считая это мерзостью?",
+     "Египтяне",
+     "Филистимляне",
+     "Мадианитяне"
+    ],
+    "tr": [
+     "Hangi halk iğrenç sayarak İbranilerle yemek yiyemezdi?",
+     "Mısırlılar",
+     "Filistliler",
+     "Midyanlılar"
+    ],
+    "ja": [
+     "どの民が、ヘブライ人と共に食事をすることを忌み嫌って避けましたか？",
+     "エジプト人",
+     "ペリシテ人",
+     "ミディアン人"
+    ],
+    "ko": [
+     "어느 민족이 가증스럽게 여겨 히브리인들과 함께 먹지 않았습니까?",
+     "이집트인",
+     "필리스티아인",
+     "미디안인"
+    ],
+    "ar": [
+     "أي شعب لم يكن يأكل مع العبرانيين لأنه رجس؟",
+     "مصريون",
+     "فلسطينيون",
+     "مديانيون"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-034-50",
+   "book": "genesis",
+   "chapter": 43,
+   "difficulty": "impossible",
+   "ref": "Genesis 43:33",
+   "text": {
+    "en": [
+     "What decided where the brothers sat at Joseph's feast?",
+     "Age",
+     "Height",
+     "Wealth"
+    ],
+    "es": [
+     "¿Qué decidió dónde se sentaron los hermanos en el banquete de José?",
+     "Edad",
+     "Estatura",
+     "Riqueza"
+    ],
+    "pt": [
+     "O que decidiu onde os irmãos se sentaram no banquete de José?",
+     "Idade",
+     "Altura",
+     "Riqueza"
+    ],
+    "fr": [
+     "Qu'est-ce qui décida de la place des frères au festin de Joseph ?",
+     "Âge",
+     "Taille",
+     "Richesse"
+    ],
+    "de": [
+     "Was bestimmte, wo die Brüder bei Josefs Mahl saßen?",
+     "Alter",
+     "Größe",
+     "Reichtum"
+    ],
+    "it": [
+     "Che cosa decise dove sedettero i fratelli al banchetto di Giuseppe?",
+     "Età",
+     "Statura",
+     "Ricchezza"
+    ],
+    "pl": [
+     "Co zadecydowało o miejscach braci na uczcie Józefa?",
+     "Wiek",
+     "Wzrost",
+     "Bogactwo"
+    ],
+    "ru": [
+     "Что определило места братьев на пиру Иосифа?",
+     "Возраст",
+     "Рост",
+     "Богатство"
+    ],
+    "tr": [
+     "Yusuf'un sofrasında kardeşlerin yerini ne belirledi?",
+     "Yaş",
+     "Boy",
+     "Zenginlik"
+    ],
+    "ja": [
+     "ヨセフの宴席で、兄弟の席順を決めたものは何？",
+     "年齢",
+     "身長",
+     "富"
+    ],
+    "ko": [
+     "요셉의 잔치에서 형제들의 자리를 정한 것은 무엇입니까?",
+     "나이",
+     "키",
+     "재산"
+    ],
+    "ar": [
+     "ما الذي حدد أماكن جلوس الإخوة في مائدة يوسف؟",
+     "عمر",
+     "قامة",
+     "ثروة"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-034-51",
+   "book": "genesis",
+   "chapter": 44,
+   "difficulty": "easy",
+   "ref": "Genesis 44:2",
+   "text": {
+    "en": [
+     "What did Joseph's steward hide in Benjamin's sack?",
+     "Cup",
+     "Ring",
+     "Sword"
+    ],
+    "es": [
+     "¿Qué escondió el mayordomo de José en el saco de Benjamín?",
+     "Copa",
+     "Anillo",
+     "Espada"
+    ],
+    "pt": [
+     "O que o mordomo de José escondeu no saco de Benjamim?",
+     "Taça",
+     "Anel",
+     "Espada"
+    ],
+    "fr": [
+     "Qu'est-ce que l'intendant de Joseph cacha dans le sac de Benjamin ?",
+     "Coupe",
+     "Anneau",
+     "Épée"
+    ],
+    "de": [
+     "Was versteckte Josefs Verwalter in Benjamins Sack?",
+     "Becher",
+     "Ring",
+     "Schwert"
+    ],
+    "it": [
+     "Che cosa nascose l'amministratore di Giuseppe nel sacco di Beniamino?",
+     "Coppa",
+     "Anello",
+     "Spada"
+    ],
+    "pl": [
+     "Co ukrył zarządca Józefa w worku Beniamina?",
+     "Puchar",
+     "Pierścień",
+     "Miecz"
+    ],
+    "ru": [
+     "Что спрятал управитель Иосифа в мешке Вениамина?",
+     "Кубок",
+     "Перстень",
+     "Меч"
+    ],
+    "tr": [
+     "Yusuf'un kâhyası Binyamin'in çuvalına ne sakladı?",
+     "Kupa",
+     "Yüzük",
+     "Kılıç"
+    ],
+    "ja": [
+     "ヨセフの家令はベニヤミンの袋に何を入れましたか？",
+     "杯",
+     "指輪",
+     "剣"
+    ],
+    "ko": [
+     "요셉의 집사는 벤야민의 자루에 무엇을 넣어 두었습니까?",
+     "잔",
+     "반지",
+     "칼"
+    ],
+    "ar": [
+     "ماذا وضع وكيل يوسف في كيس بنيامين؟",
+     "كأس",
+     "خاتم",
+     "سيف"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-034-52",
+   "book": "genesis",
+   "chapter": 44,
+   "difficulty": "medium",
+   "ref": "Genesis 44:33",
+   "text": {
+    "en": [
+     "Who offered to stay as Joseph's slave instead of Benjamin?",
+     "Judah",
+     "Reuben",
+     "Levi"
+    ],
+    "es": [
+     "¿Quién se ofreció a quedarse como esclavo de José en lugar de Benjamín?",
+     "Judá",
+     "Rubén",
+     "Leví"
+    ],
+    "pt": [
+     "Quem se ofereceu para ficar como escravo de José no lugar de Benjamim?",
+     "Judá",
+     "Rúben",
+     "Levi"
+    ],
+    "fr": [
+     "Qui offrit de rester esclave de Joseph à la place de Benjamin ?",
+     "Juda",
+     "Ruben",
+     "Lévi"
+    ],
+    "de": [
+     "Wer bot an, statt Benjamin Josefs Sklave zu bleiben?",
+     "Juda",
+     "Ruben",
+     "Levi"
+    ],
+    "it": [
+     "Chi si offrì di restare schiavo di Giuseppe al posto di Beniamino?",
+     "Giuda",
+     "Ruben",
+     "Levi"
+    ],
+    "pl": [
+     "Kto zaofiarował się zostać niewolnikiem Józefa zamiast Beniamina?",
+     "Juda",
+     "Ruben",
+     "Lewi"
+    ],
+    "ru": [
+     "Кто предложил остаться рабом Иосифа вместо Вениамина?",
+     "Иуда",
+     "Рувим",
+     "Левий"
+    ],
+    "tr": [
+     "Binyamin yerine Yusuf'un kölesi olarak kalmayı kim önerdi?",
+     "Yahuda",
+     "Ruben",
+     "Levi"
+    ],
+    "ja": [
+     "ベニヤミンの代わりにヨセフの奴隷として残ると申し出たのは誰？",
+     "ユダ",
+     "ルベン",
+     "レビ"
+    ],
+    "ko": [
+     "벤야민 대신 요셉의 종으로 남겠다고 나선 사람은 누구입니까?",
+     "유다",
+     "르우벤",
+     "레위"
+    ],
+    "ar": [
+     "من عرض أن يبقى عبدا ليوسف بدل بنيامين؟",
+     "يهوذا",
+     "رأوبين",
+     "لاوي"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-034-53",
+   "book": "genesis",
+   "chapter": 44,
+   "difficulty": "hard",
+   "ref": "Genesis 44:13",
+   "text": {
+    "en": [
+     "When the cup was found, what did the brothers tear?",
+     "Clothes",
+     "Tents",
+     "Sacks"
+    ],
+    "es": [
+     "Al hallarse la copa, ¿qué rasgaron los hermanos?",
+     "Vestiduras",
+     "Tiendas",
+     "Sacos"
+    ],
+    "pt": [
+     "Ao encontrarem a taça, o que os irmãos rasgaram?",
+     "Roupas",
+     "Tendas",
+     "Sacos"
+    ],
+    "fr": [
+     "Quand la coupe fut trouvée, que déchirèrent les frères ?",
+     "Vêtements",
+     "Tentes",
+     "Sacs"
+    ],
+    "de": [
+     "Als der Becher gefunden wurde, was zerrissen die Brüder?",
+     "Kleider",
+     "Zelte",
+     "Säcke"
+    ],
+    "it": [
+     "Quando la coppa fu trovata, che cosa strapparono i fratelli?",
+     "Vesti",
+     "Tende",
+     "Sacchi"
+    ],
+    "pl": [
+     "Gdy znaleziono puchar, co rozdarli bracia?",
+     "Szaty",
+     "Namioty",
+     "Worki"
+    ],
+    "ru": [
+     "Когда нашли кубок, что разодрали братья?",
+     "Одежды",
+     "Шатры",
+     "Мешки"
+    ],
+    "tr": [
+     "Kupa bulununca kardeşler neyi yırttı?",
+     "Giysiler",
+     "Çadırlar",
+     "Çuvallar"
+    ],
+    "ja": [
+     "杯が見つかったとき、兄弟たちは何を引き裂きましたか？",
+     "衣",
+     "天幕",
+     "袋"
+    ],
+    "ko": [
+     "잔이 발견되자 형제들은 무엇을 찢었습니까?",
+     "옷",
+     "천막",
+     "자루"
+    ],
+    "ar": [
+     "عندما وُجدت الكأس، ماذا مزق الإخوة؟",
+     "ثياب",
+     "خيام",
+     "أكياس"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-034-54",
+   "book": "genesis",
+   "chapter": 44,
+   "difficulty": "expert",
+   "ref": "Genesis 44:18",
+   "text": {
+    "en": [
+     "In Judah's words, who was Joseph's equal?",
+     "Pharaoh",
+     "Potiphar",
+     "Laban"
+    ],
+    "es": [
+     "Según las palabras de Judá, ¿quién era igual a José?",
+     "Faraón",
+     "Putifar",
+     "Labán"
+    ],
+    "pt": [
+     "Segundo as palavras de Judá, quem era igual a José?",
+     "Faraó",
+     "Potifar",
+     "Labão"
+    ],
+    "fr": [
+     "Selon les mots de Juda, qui était l'égal de Joseph ?",
+     "Pharaon",
+     "Putiphar",
+     "Laban"
+    ],
+    "de": [
+     "Wer war nach Judas Worten Josef gleich?",
+     "Pharao",
+     "Potifar",
+     "Laban"
+    ],
+    "it": [
+     "Secondo le parole di Giuda, chi era pari a Giuseppe?",
+     "Faraone",
+     "Potifar",
+     "Làbano"
+    ],
+    "pl": [
+     "Kto według słów Judy był równy Józefowi?",
+     "Faraon",
+     "Putyfar",
+     "Laban"
+    ],
+    "ru": [
+     "Кто, по словам Иуды, был равен Иосифу?",
+     "Фараон",
+     "Потифар",
+     "Лаван"
+    ],
+    "tr": [
+     "Yahuda'nın sözüne göre Yusuf'a denk olan kimdi?",
+     "Firavun",
+     "Potifar",
+     "Lavan"
+    ],
+    "ja": [
+     "ユダの言葉で、ヨセフと同じとされたのは誰？",
+     "ファラオ",
+     "ポティファル",
+     "ラバン"
+    ],
+    "ko": [
+     "유다의 말에서 요셉과 같다고 한 사람은 누구입니까?",
+     "파라오",
+     "보디발",
+     "라반"
+    ],
+    "ar": [
+     "بحسب كلام يهوذا، من كان مساويا ليوسف؟",
+     "فرعون",
+     "فوطيفار",
+     "لابان"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-034-55",
+   "book": "genesis",
+   "chapter": 44,
+   "difficulty": "impossible",
+   "ref": "Genesis 44:27",
+   "text": {
+    "en": [
+     "Judah told Joseph that Rachel bore Jacob how many sons?",
+     "2",
+     "3",
+     "12"
+    ],
+    "es": [
+     "¿Cuántos hijos dijo Judá a José que Raquel dio a Jacob?",
+     "2",
+     "3",
+     "12"
+    ],
+    "pt": [
+     "Quantos filhos Judá disse a José que Raquel deu a Jacó?",
+     "2",
+     "3",
+     "12"
+    ],
+    "fr": [
+     "Combien de fils Juda dit-il à Joseph que Rachel avait donnés à Jacob ?",
+     "2",
+     "3",
+     "12"
+    ],
+    "de": [
+     "Wie viele Söhne, sagte Juda zu Josef, gebar Rachel dem Jakob?",
+     "2",
+     "3",
+     "12"
+    ],
+    "it": [
+     "Quanti figli Giuda disse a Giuseppe che Rachele aveva dato a Giacobbe?",
+     "2",
+     "3",
+     "12"
+    ],
+    "pl": [
+     "Ilu synów, jak Juda rzekł Józefowi, Rachela urodziła Jakubowi?",
+     "2",
+     "3",
+     "12"
+    ],
+    "ru": [
+     "Сколько сыновей, по словам Иуды Иосифу, родила Иакову Рахиль?",
+     "2",
+     "3",
+     "12"
+    ],
+    "tr": [
+     "Yahuda, Yusuf'a Rahel'in Yakup'a kaç oğul doğurduğunu söyledi?",
+     "2",
+     "3",
+     "12"
+    ],
+    "ja": [
+     "ユダはヨセフに、ラケルがヤコブに産んだ息子は何人だと言いましたか？",
+     "2",
+     "3",
+     "12"
+    ],
+    "ko": [
+     "유다는 요셉에게 라헬이 야곱에게 아들을 몇 명 낳아 주었다고 말했습니까?",
+     "2",
+     "3",
+     "12"
+    ],
+    "ar": [
+     "كم ابنا قال يهوذا ليوسف إن راحيل ولدت ليعقوب؟",
+     "2",
+     "3",
+     "12"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-034-56",
+   "book": "genesis",
+   "chapter": 45,
+   "difficulty": "easy",
+   "ref": "Genesis 45:3",
+   "text": {
+    "en": [
+     "Revealing himself, which relative did Joseph ask if still alive?",
+     "Father",
+     "Mother",
+     "Uncle"
+    ],
+    "es": [
+     "Al revelarse, ¿por qué familiar preguntó José si aún vivía?",
+     "Padre",
+     "Madre",
+     "Tío"
+    ],
+    "pt": [
+     "Ao se revelar, por qual parente José perguntou se ainda vivia?",
+     "Pai",
+     "Mãe",
+     "Tio"
+    ],
+    "fr": [
+     "En se révélant, de quel parent Joseph demanda-t-il s'il vivait encore ?",
+     "Père",
+     "Mère",
+     "Oncle"
+    ],
+    "de": [
+     "Welcher Verwandte war es, nach dem Josef sich bei seiner Offenbarung erkundigte, ob er noch lebe?",
+     "Vater",
+     "Mutter",
+     "Onkel"
+    ],
+    "it": [
+     "Rivelandosi, di quale parente Giuseppe chiese se fosse ancora vivo?",
+     "Padre",
+     "Madre",
+     "Zio"
+    ],
+    "pl": [
+     "Który krewny był przedmiotem pytania Józefa po ujawnieniu się: czy jeszcze żyje?",
+     "Ojciec",
+     "Matka",
+     "Wuj"
+    ],
+    "ru": [
+     "Открывшись, о каком родственнике Иосиф спросил, жив ли он ещё?",
+     "Отец",
+     "Мать",
+     "Дядя"
+    ],
+    "tr": [
+     "Kendini tanıtırken Yusuf hangi akrabasının hâlâ yaşayıp yaşamadığını sordu?",
+     "Baba",
+     "Anne",
+     "Amca"
+    ],
+    "ja": [
+     "身を明かしたヨセフは、どの身内がまだ生きているかと尋ねましたか？",
+     "父",
+     "母",
+     "叔父"
+    ],
+    "ko": [
+     "정체를 밝힌 요셉은 어느 친척이 아직 살아 있느냐고 물었습니까?",
+     "아버지",
+     "어머니",
+     "삼촌"
+    ],
+    "ar": [
+     "عندما كشف يوسف نفسه، عن أي قريب سأل هل ما زال حيا؟",
+     "أب",
+     "أم",
+     "عم"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-034-57",
+   "book": "genesis",
+   "chapter": 45,
+   "difficulty": "medium",
+   "ref": "Genesis 45:10",
+   "text": {
+    "en": [
+     "In which land of Egypt did Joseph tell Jacob to settle?",
+     "Goshen",
+     "Memphis",
+     "Pithom"
+    ],
+    "es": [
+     "¿En qué región de Egipto dijo José que Jacob se instalara?",
+     "Gosén",
+     "Menfis",
+     "Pitom"
+    ],
+    "pt": [
+     "Em que região do Egito José disse que Jacó se estabelecesse?",
+     "Gósen",
+     "Mênfis",
+     "Pitom"
+    ],
+    "fr": [
+     "Dans quelle région d'Égypte Joseph dit-il à Jacob de s'établir ?",
+     "Goshèn",
+     "Memphis",
+     "Pithom"
+    ],
+    "de": [
+     "In welchem Landstrich Ägyptens sollte sich Jakob laut Josef niederlassen?",
+     "Goschen",
+     "Memphis",
+     "Pitom"
+    ],
+    "it": [
+     "In quale regione d'Egitto Giuseppe disse a Giacobbe di stabilirsi?",
+     "Gosen",
+     "Menfi",
+     "Pitom"
+    ],
+    "pl": [
+     "W której krainie Egiptu Józef kazał Jakubowi osiąść?",
+     "Goszen",
+     "Memfis",
+     "Pitom"
+    ],
+    "ru": [
+     "В какой области Египта Иосиф велел Иакову поселиться?",
+     "Гесем",
+     "Мемфис",
+     "Пифом"
+    ],
+    "tr": [
+     "Yusuf, Yakup'un Mısır'ın hangi bölgesine yerleşmesini söyledi?",
+     "Goşen",
+     "Memfis",
+     "Pitom"
+    ],
+    "ja": [
+     "ヨセフはヤコブに、エジプトのどの地方に住むよう言いましたか？",
+     "ゴシェン",
+     "メンフィス",
+     "ピトム"
+    ],
+    "ko": [
+     "요셉은 야곱에게 이집트의 어느 지방에 정착하라고 했습니까?",
+     "고센",
+     "멤피스",
+     "피톰"
+    ],
+    "ar": [
+     "في أي منطقة من مصر قال يوسف ليعقوب أن يسكن؟",
+     "جاسان",
+     "منف",
+     "فيثوم"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-034-58",
+   "book": "genesis",
+   "chapter": 45,
+   "difficulty": "hard",
+   "ref": "Genesis 45:6",
+   "text": {
+    "en": [
+     "When Joseph revealed himself, how many years of famine remained?",
+     "5",
+     "7",
+     "2"
+    ],
+    "es": [
+     "Cuando José se reveló, ¿cuántos años de hambre quedaban?",
+     "5",
+     "7",
+     "2"
+    ],
+    "pt": [
+     "Quando José se revelou, quantos anos de fome restavam?",
+     "5",
+     "7",
+     "2"
+    ],
+    "fr": [
+     "Quand Joseph se révéla, combien d'années de famine restaient-ils ?",
+     "5",
+     "7",
+     "2"
+    ],
+    "de": [
+     "Als Josef sich offenbarte, wie viele Hungerjahre standen noch bevor?",
+     "5",
+     "7",
+     "2"
+    ],
+    "it": [
+     "Quando Giuseppe si rivelò, quanti anni di carestia restavano?",
+     "5",
+     "7",
+     "2"
+    ],
+    "pl": [
+     "Gdy Józef się ujawnił, ile lat głodu jeszcze zostało?",
+     "5",
+     "7",
+     "2"
+    ],
+    "ru": [
+     "Когда Иосиф открылся, сколько лет голода ещё оставалось?",
+     "5",
+     "7",
+     "2"
+    ],
+    "tr": [
+     "Yusuf kendini tanıtınca kaç yıllık kıtlık kalmıştı?",
+     "5",
+     "7",
+     "2"
+    ],
+    "ja": [
+     "ヨセフが身を明かしたとき、飢饉はあと何年残っていましたか？",
+     "5",
+     "7",
+     "2"
+    ],
+    "ko": [
+     "요셉이 정체를 밝혔을 때 흉년은 몇 해 남아 있었습니까?",
+     "5",
+     "7",
+     "2"
+    ],
+    "ar": [
+     "عندما كشف يوسف نفسه، كم سنة جوع بقيت؟",
+     "5",
+     "7",
+     "2"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-034-59",
+   "book": "genesis",
+   "chapter": 45,
+   "difficulty": "expert",
+   "ref": "Genesis 45:22",
+   "text": {
+    "en": [
+     "How many pieces of silver did Joseph give Benjamin?",
+     "300",
+     "30",
+     "500"
+    ],
+    "es": [
+     "¿Cuántas monedas de plata dio José a Benjamín?",
+     "300",
+     "30",
+     "500"
+    ],
+    "pt": [
+     "Quantas moedas de prata José deu a Benjamim?",
+     "300",
+     "30",
+     "500"
+    ],
+    "fr": [
+     "Combien de pièces d'argent Joseph donna-t-il à Benjamin ?",
+     "300",
+     "30",
+     "500"
+    ],
+    "de": [
+     "Wie viele Silberstücke gab Josef dem Benjamin?",
+     "300",
+     "30",
+     "500"
+    ],
+    "it": [
+     "Quanti pezzi d'argento Giuseppe diede a Beniamino?",
+     "300",
+     "30",
+     "500"
+    ],
+    "pl": [
+     "Ile srebrników dał Józef Beniaminowi?",
+     "300",
+     "30",
+     "500"
+    ],
+    "ru": [
+     "Сколько сребреников дал Иосиф Вениамину?",
+     "300",
+     "30",
+     "500"
+    ],
+    "tr": [
+     "Yusuf, Binyamin'e kaç gümüş verdi?",
+     "300",
+     "30",
+     "500"
+    ],
+    "ja": [
+     "ヨセフはベニヤミンに銀何枚を与えましたか？",
+     "300",
+     "30",
+     "500"
+    ],
+    "ko": [
+     "요셉은 벤야민에게 은 몇 닢을 주었습니까?",
+     "300",
+     "30",
+     "500"
+    ],
+    "ar": [
+     "كم قطعة فضة أعطى يوسف لبنيامين؟",
+     "300",
+     "30",
+     "500"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-034-60",
+   "book": "genesis",
+   "chapter": 45,
+   "difficulty": "impossible",
+   "ref": "Genesis 45:23",
+   "text": {
+    "en": [
+     "How many donkeys did Joseph send Jacob loaded with Egypt's best?",
+     "10",
+     "3",
+     "40"
+    ],
+    "es": [
+     "¿Cuántos asnos envió José a Jacob cargados con lo mejor de Egipto?",
+     "10",
+     "3",
+     "40"
+    ],
+    "pt": [
+     "Quantos jumentos José enviou a Jacó carregados do melhor do Egito?",
+     "10",
+     "3",
+     "40"
+    ],
+    "fr": [
+     "Combien d'ânes Joseph envoya-t-il à Jacob chargés des meilleurs biens d'Égypte ?",
+     "10",
+     "3",
+     "40"
+    ],
+    "de": [
+     "Wie viele Esel schickte Josef dem Jakob, beladen mit Ägyptens Bestem?",
+     "10",
+     "3",
+     "40"
+    ],
+    "it": [
+     "Quanti asini Giuseppe inviò a Giacobbe carichi dei migliori beni d'Egitto?",
+     "10",
+     "3",
+     "40"
+    ],
+    "pl": [
+     "Ile osłów posłał Józef Jakubowi, objuczonych najlepszymi dobrami Egiptu?",
+     "10",
+     "3",
+     "40"
+    ],
+    "ru": [
+     "Сколько ослов послал Иосиф Иакову, навьюченных лучшим из Египта?",
+     "10",
+     "3",
+     "40"
+    ],
+    "tr": [
+     "Yusuf, Yakup'a Mısır'ın en iyisiyle yüklü kaç eşek gönderdi?",
+     "10",
+     "3",
+     "40"
+    ],
+    "ja": [
+     "ヨセフはヤコブに、エジプトの良い物を積んだロバを何頭送りましたか？",
+     "10",
+     "3",
+     "40"
+    ],
+    "ko": [
+     "요셉은 야곱에게 이집트의 좋은 것을 실은 나귀를 몇 마리 보냈습니까?",
+     "10",
+     "3",
+     "40"
+    ],
+    "ar": [
+     "كم حمارا أرسل يوسف ليعقوب محملة بخيرات مصر؟",
+     "10",
+     "3",
+     "40"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-034-61",
+   "book": "genesis",
+   "chapter": 46,
+   "difficulty": "easy",
+   "ref": "Genesis 46:27",
+   "text": {
+    "en": [
+     "How many people of Jacob's household came to Egypt?",
+     "70",
+     "12",
+     "40"
+    ],
+    "es": [
+     "¿Cuántas personas de la casa de Jacob llegaron a Egipto?",
+     "70",
+     "12",
+     "40"
+    ],
+    "pt": [
+     "Quantas pessoas da casa de Jacó chegaram ao Egito?",
+     "70",
+     "12",
+     "40"
+    ],
+    "fr": [
+     "Combien de personnes de la maison de Jacob arrivèrent en Égypte ?",
+     "70",
+     "12",
+     "40"
+    ],
+    "de": [
+     "Wie viele Personen aus Jakobs Haus kamen nach Ägypten?",
+     "70",
+     "12",
+     "40"
+    ],
+    "it": [
+     "Quante persone della casa di Giacobbe giunsero in Egitto?",
+     "70",
+     "12",
+     "40"
+    ],
+    "pl": [
+     "Ile osób z domu Jakuba przybyło do Egiptu?",
+     "70",
+     "12",
+     "40"
+    ],
+    "ru": [
+     "Сколько человек из дома Иакова пришло в Египет?",
+     "70",
+     "12",
+     "40"
+    ],
+    "tr": [
+     "Yakup'un ev halkından kaç kişi Mısır'a geldi?",
+     "70",
+     "12",
+     "40"
+    ],
+    "ja": [
+     "ヤコブの家の者のうち、何人がエジプトに来ましたか？",
+     "70",
+     "12",
+     "40"
+    ],
+    "ko": [
+     "야곱의 집안에서 몇 명이 이집트로 갔습니까?",
+     "70",
+     "12",
+     "40"
+    ],
+    "ar": [
+     "كم شخصا من بيت يعقوب جاءوا إلى مصر؟",
+     "70",
+     "12",
+     "40"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-034-62",
+   "book": "genesis",
+   "chapter": 46,
+   "difficulty": "medium",
+   "ref": "Genesis 46:28",
+   "text": {
+    "en": [
+     "Which son did Jacob send ahead to Joseph to prepare Goshen?",
+     "Judah",
+     "Simeon",
+     "Levi"
+    ],
+    "es": [
+     "¿Qué hijo envió Jacob delante a José para preparar Gosén?",
+     "Judá",
+     "Simeón",
+     "Leví"
+    ],
+    "pt": [
+     "Que filho Jacó enviou adiante a José para preparar Gósen?",
+     "Judá",
+     "Simeão",
+     "Levi"
+    ],
+    "fr": [
+     "Quel fils Jacob envoya-t-il en avant vers Joseph pour préparer Goshèn ?",
+     "Juda",
+     "Siméon",
+     "Lévi"
+    ],
+    "de": [
+     "Welchen Sohn schickte Jakob voraus zu Josef, um Goschen vorzubereiten?",
+     "Juda",
+     "Simeon",
+     "Levi"
+    ],
+    "it": [
+     "Quale figlio Giacobbe mandò avanti da Giuseppe per preparare Gosen?",
+     "Giuda",
+     "Simeone",
+     "Levi"
+    ],
+    "pl": [
+     "Którego syna Jakub posłał przodem do Józefa, by przygotował Goszen?",
+     "Juda",
+     "Symeon",
+     "Lewi"
+    ],
+    "ru": [
+     "Какого сына Иаков послал вперёд к Иосифу подготовить Гесем?",
+     "Иуда",
+     "Симеон",
+     "Левий"
+    ],
+    "tr": [
+     "Yakup, Goşen'i hazırlamak için hangi oğlunu Yusuf'a önden gönderdi?",
+     "Yahuda",
+     "Şimon",
+     "Levi"
+    ],
+    "ja": [
+     "ヤコブはゴシェンを整えるため、どの息子をヨセフのもとへ先に遣わしましたか？",
+     "ユダ",
+     "シメオン",
+     "レビ"
+    ],
+    "ko": [
+     "야곱은 고센을 준비시키려고 어느 아들을 요셉에게 먼저 보냈습니까?",
+     "유다",
+     "시메온",
+     "레위"
+    ],
+    "ar": [
+     "أي ابن أرسله يعقوب أمامه إلى يوسف ليهيئ جاسان؟",
+     "يهوذا",
+     "شمعون",
+     "لاوي"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-034-63",
+   "book": "genesis",
+   "chapter": 46,
+   "difficulty": "hard",
+   "ref": "Genesis 46:3",
+   "text": {
+    "en": [
+     "What did God promise to make of Jacob's descendants in Egypt?",
+     "Nation",
+     "Army",
+     "Kingdom"
+    ],
+    "es": [
+     "¿Qué prometió Dios hacer de los descendientes de Jacob en Egipto?",
+     "Nación",
+     "Ejército",
+     "Reino"
+    ],
+    "pt": [
+     "O que Deus prometeu fazer dos descendentes de Jacó no Egito?",
+     "Nação",
+     "Exército",
+     "Reino"
+    ],
+    "fr": [
+     "Que Dieu promit-il de faire des descendants de Jacob en Égypte ?",
+     "Nation",
+     "Armée",
+     "Royaume"
+    ],
+    "de": [
+     "Was versprach Gott aus Jakobs Nachkommen in Ägypten zu machen?",
+     "Volk",
+     "Heer",
+     "Königreich"
+    ],
+    "it": [
+     "Che cosa Dio promise di fare dei discendenti di Giacobbe in Egitto?",
+     "Nazione",
+     "Esercito",
+     "Regno"
+    ],
+    "pl": [
+     "Co Bóg obiecał uczynić z potomków Jakuba w Egipcie?",
+     "Naród",
+     "Wojsko",
+     "Królestwo"
+    ],
+    "ru": [
+     "Что Бог обещал сделать из потомков Иакова в Египте?",
+     "Народ",
+     "Войско",
+     "Царство"
+    ],
+    "tr": [
+     "Tanrı, Yakup'un soyundan Mısır'da ne yapacağını vaat etti?",
+     "Ulus",
+     "Ordu",
+     "Krallık"
+    ],
+    "ja": [
+     "神はエジプトでヤコブの子孫を何にすると約束されましたか？",
+     "国民",
+     "軍隊",
+     "王国"
+    ],
+    "ko": [
+     "하느님은 이집트에서 야곱의 후손을 무엇으로 만들겠다고 약속하셨습니까?",
+     "민족",
+     "군대",
+     "왕국"
+    ],
+    "ar": [
+     "ماذا وعد الله أن يجعل نسل يعقوب في مصر؟",
+     "أمة",
+     "جيش",
+     "مملكة"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-034-64",
+   "book": "genesis",
+   "chapter": 46,
+   "difficulty": "expert",
+   "ref": "Genesis 46:21",
+   "text": {
+    "en": [
+     "How many sons of Benjamin are listed among Jacob's family?",
+     "10",
+     "5",
+     "3"
+    ],
+    "es": [
+     "¿Cuántos hijos de Benjamín figuran entre la familia de Jacob?",
+     "10",
+     "5",
+     "3"
+    ],
+    "pt": [
+     "Quantos filhos de Benjamim constam entre a família de Jacó?",
+     "10",
+     "5",
+     "3"
+    ],
+    "fr": [
+     "Combien de fils de Benjamin figurent dans la famille de Jacob ?",
+     "10",
+     "5",
+     "3"
+    ],
+    "de": [
+     "Wie viele Söhne Benjamins stehen in Jakobs Familienliste?",
+     "10",
+     "5",
+     "3"
+    ],
+    "it": [
+     "Quanti figli di Beniamino compaiono nella famiglia di Giacobbe?",
+     "10",
+     "5",
+     "3"
+    ],
+    "pl": [
+     "Ilu synów Beniamina wymieniono w rodzinie Jakuba?",
+     "10",
+     "5",
+     "3"
+    ],
+    "ru": [
+     "Сколько сыновей Вениамина названо в семье Иакова?",
+     "10",
+     "5",
+     "3"
+    ],
+    "tr": [
+     "Yakup'un ailesi listesinde Binyamin'in kaç oğlu sayılır?",
+     "10",
+     "5",
+     "3"
+    ],
+    "ja": [
+     "ヤコブの家族の名簿に、ベニヤミンの息子は何人載っていますか？",
+     "10",
+     "5",
+     "3"
+    ],
+    "ko": [
+     "야곱 가족 명단에 벤야민의 아들은 몇 명 올라 있습니까?",
+     "10",
+     "5",
+     "3"
+    ],
+    "ar": [
+     "كم ابنا لبنيامين مذكورون في عائلة يعقوب؟",
+     "10",
+     "5",
+     "3"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-034-65",
+   "book": "genesis",
+   "chapter": 46,
+   "difficulty": "impossible",
+   "ref": "Genesis 46:29",
+   "text": {
+    "en": [
+     "Meeting Jacob in Goshen, Joseph fell on which part of him?",
+     "Neck",
+     "Feet",
+     "Hand"
+    ],
+    "es": [
+     "¿Sobre qué parte del cuerpo de Jacob se echó José llorando al verlo en Gosén?",
+     "Cuello",
+     "Pies",
+     "Mano"
+    ],
+    "pt": [
+     "Ao ver Jacó em Gósen, José se lançou sobre qual parte do corpo dele?",
+     "Pescoço",
+     "Pés",
+     "Mão"
+    ],
+    "fr": [
+     "En retrouvant Jacob à Goshèn, Joseph se jeta sur quelle partie de son corps ?",
+     "Cou",
+     "Pieds",
+     "Main"
+    ],
+    "de": [
+     "Um welchen Körperteil Jakobs fiel Josef weinend, als er ihn in Goschen traf?",
+     "Hals",
+     "Füße",
+     "Hand"
+    ],
+    "it": [
+     "Incontrando Giacobbe a Gosen, Giuseppe gli si gettò su quale parte del corpo?",
+     "Collo",
+     "Piedi",
+     "Mano"
+    ],
+    "pl": [
+     "Na jaką część ciała Józef rzucił się, spotykając Jakuba w Goszen?",
+     "Szyja",
+     "Stopy",
+     "Ręka"
+    ],
+    "ru": [
+     "Встретив Иакова в Гесеме, Иосиф бросился ему на какую часть тела?",
+     "Шея",
+     "Ноги",
+     "Рука"
+    ],
+    "tr": [
+     "Goşen'de Yakup'u görünce Yusuf onun hangi uzvuna sarılıp ağladı?",
+     "Boyun",
+     "Ayaklar",
+     "El"
+    ],
+    "ja": [
+     "ゴシェンでヤコブに会ったヨセフは、体のどこに抱きついて泣きましたか？",
+     "首",
+     "足",
+     "手"
+    ],
+    "ko": [
+     "고센에서 야곱을 만난 요셉은 그의 몸 어디를 껴안고 울었습니까?",
+     "목",
+     "발",
+     "손"
+    ],
+    "ar": [
+     "عند لقاء يعقوب في جاسان، على أي جزء من جسده ألقى يوسف نفسه وبكى؟",
+     "عنق",
+     "قدمان",
+     "يد"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-034-66",
+   "book": "genesis",
+   "chapter": 47,
+   "difficulty": "easy",
+   "ref": "Genesis 47:7",
+   "text": {
+    "en": [
+     "Who received Jacob's blessing when Joseph brought him to court?",
+     "Pharaoh",
+     "Potiphar",
+     "Esau"
+    ],
+    "es": [
+     "¿Quién recibió la bendición de Jacob cuando José lo llevó a la corte?",
+     "Faraón",
+     "Putifar",
+     "Esaú"
+    ],
+    "pt": [
+     "Quem recebeu a bênção de Jacó quando José o levou à corte?",
+     "Faraó",
+     "Potifar",
+     "Esaú"
+    ],
+    "fr": [
+     "Qui reçut la bénédiction de Jacob quand Joseph l'amena à la cour ?",
+     "Pharaon",
+     "Putiphar",
+     "Ésaü"
+    ],
+    "de": [
+     "Wer empfing Jakobs Segen, als Josef ihn an den Hof brachte?",
+     "Pharao",
+     "Potifar",
+     "Esau"
+    ],
+    "it": [
+     "Chi ricevette la benedizione di Giacobbe quando Giuseppe lo portò a corte?",
+     "Faraone",
+     "Potifar",
+     "Esaù"
+    ],
+    "pl": [
+     "Kto otrzymał błogosławieństwo Jakuba, gdy Józef przyprowadził go na dwór?",
+     "Faraon",
+     "Putyfar",
+     "Ezaw"
+    ],
+    "ru": [
+     "Кто получил благословение Иакова, когда Иосиф привёл его ко двору?",
+     "Фараон",
+     "Потифар",
+     "Исав"
+    ],
+    "tr": [
+     "Yusuf onu saraya getirince Yakup'un duasını kim aldı?",
+     "Firavun",
+     "Potifar",
+     "Esav"
+    ],
+    "ja": [
+     "ヨセフが宮廷に連れて来たとき、ヤコブの祝福を受けたのは誰？",
+     "ファラオ",
+     "ポティファル",
+     "エサウ"
+    ],
+    "ko": [
+     "요셉이 야곱을 궁정으로 데려갔을 때 야곱의 축복을 받은 사람은 누구입니까?",
+     "파라오",
+     "보디발",
+     "에사오"
+    ],
+    "ar": [
+     "من نال بركة يعقوب عندما أحضره يوسف إلى البلاط؟",
+     "فرعون",
+     "فوطيفار",
+     "عيسو"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-034-67",
+   "book": "genesis",
+   "chapter": 47,
+   "difficulty": "medium",
+   "ref": "Genesis 47:9",
+   "text": {
+    "en": [
+     "How old did Jacob say he was before Pharaoh?",
+     "130",
+     "147",
+     "120"
+    ],
+    "es": [
+     "¿Qué edad dijo tener Jacob ante el faraón?",
+     "130",
+     "147",
+     "120"
+    ],
+    "pt": [
+     "Que idade Jacó disse ter diante do faraó?",
+     "130",
+     "147",
+     "120"
+    ],
+    "fr": [
+     "Quel âge Jacob dit-il avoir devant Pharaon ?",
+     "130",
+     "147",
+     "120"
+    ],
+    "de": [
+     "Wie alt sagte Jakob vor Pharao zu sein?",
+     "130",
+     "147",
+     "120"
+    ],
+    "it": [
+     "Quanti anni disse di avere Giacobbe davanti al faraone?",
+     "130",
+     "147",
+     "120"
+    ],
+    "pl": [
+     "Ile lat, według własnych słów, miał Jakub przed faraonem?",
+     "130",
+     "147",
+     "120"
+    ],
+    "ru": [
+     "Сколько лет, по его словам, было Иакову перед фараоном?",
+     "130",
+     "147",
+     "120"
+    ],
+    "tr": [
+     "Yakup firavunun önünde kaç yaşında olduğunu söyledi?",
+     "130",
+     "147",
+     "120"
+    ],
+    "ja": [
+     "ヤコブはファラオの前で、自分は何歳だと言いましたか？",
+     "130",
+     "147",
+     "120"
+    ],
+    "ko": [
+     "야곱은 파라오 앞에서 자기가 몇 살이라고 말했습니까?",
+     "130",
+     "147",
+     "120"
+    ],
+    "ar": [
+     "كم قال يعقوب إن عمره أمام فرعون؟",
+     "130",
+     "147",
+     "120"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-034-68",
+   "book": "genesis",
+   "chapter": 47,
+   "difficulty": "hard",
+   "ref": "Genesis 47:16-17",
+   "text": {
+    "en": [
+     "After their money ran out, what did Egyptians trade for grain?",
+     "Livestock",
+     "Gold",
+     "Weapons"
+    ],
+    "es": [
+     "Agotado su dinero, ¿qué dieron los egipcios a cambio de trigo?",
+     "Ganado",
+     "Oro",
+     "Armas"
+    ],
+    "pt": [
+     "Acabado o dinheiro, o que os egípcios trocaram por trigo?",
+     "Gado",
+     "Ouro",
+     "Armas"
+    ],
+    "fr": [
+     "Leur argent épuisé, que donnèrent les Égyptiens contre du blé ?",
+     "Bétail",
+     "Or",
+     "Armes"
+    ],
+    "de": [
+     "Als das Geld aus war, was tauschten die Ägypter gegen Getreide?",
+     "Vieh",
+     "Gold",
+     "Waffen"
+    ],
+    "it": [
+     "Finito il denaro, che cosa diedero gli Egiziani in cambio di grano?",
+     "Bestiame",
+     "Oro",
+     "Armi"
+    ],
+    "pl": [
+     "Gdy skończyły się pieniądze, co Egipcjanie dali za zboże?",
+     "Bydło",
+     "Złoto",
+     "Broń"
+    ],
+    "ru": [
+     "Когда кончились деньги, что египтяне отдали за хлеб?",
+     "Скот",
+     "Золото",
+     "Оружие"
+    ],
+    "tr": [
+     "Parası bitince Mısırlılar tahıl karşılığında ne verdi?",
+     "Hayvanlar",
+     "Altın",
+     "Silahlar"
+    ],
+    "ja": [
+     "銀が尽きたとき、エジプト人は穀物の代わりに何を渡しましたか？",
+     "家畜",
+     "金",
+     "武器"
+    ],
+    "ko": [
+     "돈이 떨어지자 이집트인들은 곡식 대신 무엇을 주었습니까?",
+     "가축",
+     "금",
+     "무기"
+    ],
+    "ar": [
+     "عندما نفد المال، ماذا قدم المصريون مقابل القمح؟",
+     "مواشي",
+     "ذهب",
+     "أسلحة"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-034-69",
+   "book": "genesis",
+   "chapter": 47,
+   "difficulty": "expert",
+   "ref": "Genesis 47:22",
+   "text": {
+    "en": [
+     "Which group kept its land, unbought by Joseph for Pharaoh?",
+     "Priests",
+     "Shepherds",
+     "Soldiers"
+    ],
+    "es": [
+     "¿Qué grupo conservó sus tierras sin que José las comprara para el faraón?",
+     "Sacerdotes",
+     "Pastores",
+     "Soldados"
+    ],
+    "pt": [
+     "Que grupo manteve suas terras sem que José as comprasse para o faraó?",
+     "Sacerdotes",
+     "Pastores",
+     "Soldados"
+    ],
+    "fr": [
+     "Quel groupe garda ses terres, que Joseph n'acheta pas pour Pharaon ?",
+     "Prêtres",
+     "Bergers",
+     "Soldats"
+    ],
+    "de": [
+     "Welche Gruppe behielt ihr Land, das Josef nicht für Pharao kaufte?",
+     "Priester",
+     "Hirten",
+     "Soldaten"
+    ],
+    "it": [
+     "Quale gruppo conservò le terre che Giuseppe non comprò per il faraone?",
+     "Sacerdoti",
+     "Pastori",
+     "Soldati"
+    ],
+    "pl": [
+     "Która grupa zachowała ziemię, której Józef nie kupił dla faraona?",
+     "Kapłani",
+     "Pasterze",
+     "Żołnierze"
+    ],
+    "ru": [
+     "Какая группа сохранила землю, которую Иосиф не купил для фараона?",
+     "Жрецы",
+     "Пастухи",
+     "Воины"
+    ],
+    "tr": [
+     "Hangi grup, Yusuf'un firavun için satın almadığı topraklarını korudu?",
+     "Rahipler",
+     "Çobanlar",
+     "Askerler"
+    ],
+    "ja": [
+     "ヨセフがファラオのために買わなかった土地を保った集団は？",
+     "祭司",
+     "羊飼い",
+     "兵士"
+    ],
+    "ko": [
+     "요셉이 파라오를 위해 사지 않은 땅을 지킨 집단은 누구입니까?",
+     "사제",
+     "목자",
+     "군인"
+    ],
+    "ar": [
+     "أي فئة احتفظت بأرضها ولم يشترها يوسف لفرعون؟",
+     "كهنة",
+     "رعاة",
+     "جنود"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-034-70",
+   "book": "genesis",
+   "chapter": 47,
+   "difficulty": "impossible",
+   "ref": "Genesis 47:28",
+   "text": {
+    "en": [
+     "How many years did Jacob live in Egypt?",
+     "17",
+     "7",
+     "40"
+    ],
+    "es": [
+     "¿Cuántos años vivió Jacob en Egipto?",
+     "17",
+     "7",
+     "40"
+    ],
+    "pt": [
+     "Quantos anos Jacó viveu no Egito?",
+     "17",
+     "7",
+     "40"
+    ],
+    "fr": [
+     "Combien d'années Jacob vécut-il en Égypte ?",
+     "17",
+     "7",
+     "40"
+    ],
+    "de": [
+     "Wie viele Jahre lebte Jakob in Ägypten?",
+     "17",
+     "7",
+     "40"
+    ],
+    "it": [
+     "Quanti anni visse Giacobbe in Egitto?",
+     "17",
+     "7",
+     "40"
+    ],
+    "pl": [
+     "Ile lat żył Jakub w Egipcie?",
+     "17",
+     "7",
+     "40"
+    ],
+    "ru": [
+     "Сколько лет прожил Иаков в Египте?",
+     "17",
+     "7",
+     "40"
+    ],
+    "tr": [
+     "Yakup Mısır'da kaç yıl yaşadı?",
+     "17",
+     "7",
+     "40"
+    ],
+    "ja": [
+     "ヤコブはエジプトで何年生きましたか？",
+     "17",
+     "7",
+     "40"
+    ],
+    "ko": [
+     "야곱은 이집트에서 몇 해를 살았습니까?",
+     "17",
+     "7",
+     "40"
+    ],
+    "ar": [
+     "كم سنة عاش يعقوب في مصر؟",
+     "17",
+     "7",
+     "40"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-034-71",
+   "book": "genesis",
+   "chapter": 48,
+   "difficulty": "easy",
+   "ref": "Genesis 48:5",
+   "text": {
+    "en": [
+     "Whose two sons, Ephraim and Manasseh, did Jacob adopt?",
+     "Joseph",
+     "Reuben",
+     "Judah"
+    ],
+    "es": [
+     "¿De quién eran Efraín y Manasés, los dos hijos que Jacob adoptó?",
+     "José",
+     "Rubén",
+     "Judá"
+    ],
+    "pt": [
+     "De quem eram Efraim e Manassés, os dois filhos que Jacó adotou?",
+     "José",
+     "Rúben",
+     "Judá"
+    ],
+    "fr": [
+     "De qui Éphraïm et Manassé, adoptés par Jacob, étaient-ils les fils ?",
+     "Joseph",
+     "Ruben",
+     "Juda"
+    ],
+    "de": [
+     "Wessen Söhne waren Efraim und Manasse, die Jakob annahm?",
+     "Josef",
+     "Ruben",
+     "Juda"
+    ],
+    "it": [
+     "Di chi erano figli Efraim e Manasse, adottati da Giacobbe?",
+     "Giuseppe",
+     "Ruben",
+     "Giuda"
+    ],
+    "pl": [
+     "Czyimi synami byli Efraim i Manasses, adoptowani przez Jakuba?",
+     "Józef",
+     "Ruben",
+     "Juda"
+    ],
+    "ru": [
+     "Чьими сыновьями были Ефрем и Манассия, усыновлённые Иаковом?",
+     "Иосиф",
+     "Рувим",
+     "Иуда"
+    ],
+    "tr": [
+     "Yakup'un evlat edindiği Efrayim ile Manaşşe kimin oğullarıydı?",
+     "Yusuf",
+     "Ruben",
+     "Yahuda"
+    ],
+    "ja": [
+     "ヤコブが養子にしたエフライムとマナセは、誰の息子でしたか？",
+     "ヨセフ",
+     "ルベン",
+     "ユダ"
+    ],
+    "ko": [
+     "야곱이 양자로 삼은 에프라임과 므나쎄는 누구의 아들입니까?",
+     "요셉",
+     "르우벤",
+     "유다"
+    ],
+    "ar": [
+     "ابنا من كانا أفرايم ومنسى اللذين تبناهما يعقوب؟",
+     "يوسف",
+     "رأوبين",
+     "يهوذا"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-034-72",
+   "book": "genesis",
+   "chapter": 48,
+   "difficulty": "medium",
+   "ref": "Genesis 48:14",
+   "text": {
+    "en": [
+     "On which younger grandson's head did Jacob lay his right hand?",
+     "Ephraim",
+     "Manasseh",
+     "Gad"
+    ],
+    "es": [
+     "¿Sobre la cabeza de qué nieto menor puso Jacob su mano derecha?",
+     "Efraín",
+     "Manasés",
+     "Gad"
+    ],
+    "pt": [
+     "Sobre a cabeça de qual neto mais novo Jacó pôs a mão direita?",
+     "Efraim",
+     "Manassés",
+     "Gad"
+    ],
+    "fr": [
+     "Sur la tête de quel petit-fils cadet Jacob posa-t-il sa main droite ?",
+     "Éphraïm",
+     "Manassé",
+     "Gad"
+    ],
+    "de": [
+     "Auf den Kopf welches jüngeren Enkels legte Jakob seine rechte Hand?",
+     "Efraim",
+     "Manasse",
+     "Gad"
+    ],
+    "it": [
+     "Sul capo di quale nipote minore Giacobbe pose la mano destra?",
+     "Efraim",
+     "Manasse",
+     "Gad"
+    ],
+    "pl": [
+     "Na głowę którego młodszego wnuka Jakub położył prawą rękę?",
+     "Efraim",
+     "Manasses",
+     "Gad"
+    ],
+    "ru": [
+     "На голову какого младшего внука Иаков возложил правую руку?",
+     "Ефрем",
+     "Манассия",
+     "Гад"
+    ],
+    "tr": [
+     "Yakup sağ elini hangi küçük torununun başına koydu?",
+     "Efrayim",
+     "Manaşşe",
+     "Gad"
+    ],
+    "ja": [
+     "ヤコブは弟の孫のうち、誰の頭に右手を置きましたか？",
+     "エフライム",
+     "マナセ",
+     "ガド"
+    ],
+    "ko": [
+     "야곱은 어느 어린 손자의 머리 위에 오른손을 얹었습니까?",
+     "에프라임",
+     "므나쎄",
+     "갓"
+    ],
+    "ar": [
+     "على رأس أي حفيد أصغر وضع يعقوب يمينه؟",
+     "أفرايم",
+     "منسى",
+     "جاد"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-034-73",
+   "book": "genesis",
+   "chapter": 48,
+   "difficulty": "hard",
+   "ref": "Genesis 48:7",
+   "text": {
+    "en": [
+     "Jacob recalled that Rachel died on the road near which place?",
+     "Ephrath",
+     "Hebron",
+     "Shechem"
+    ],
+    "es": [
+     "¿Cerca de qué lugar murió Raquel en el camino, según recordó Jacob?",
+     "Efrata",
+     "Hebrón",
+     "Siquén"
+    ],
+    "pt": [
+     "Perto de que lugar Raquel morreu no caminho, segundo a lembrança de Jacó?",
+     "Éfrata",
+     "Hebrom",
+     "Siquém"
+    ],
+    "fr": [
+     "Près de quel lieu Rachel mourut-elle en chemin, selon le souvenir de Jacob ?",
+     "Éphrata",
+     "Hébron",
+     "Sichem"
+    ],
+    "de": [
+     "In der Nähe welchen Ortes starb Rahel unterwegs, wie Jakob erinnerte?",
+     "Efrata",
+     "Hebron",
+     "Sichem"
+    ],
+    "it": [
+     "Presso quale luogo morì Rachele lungo il cammino, ricordò Giacobbe?",
+     "Efrata",
+     "Ebron",
+     "Sichem"
+    ],
+    "pl": [
+     "Koło jakiego miejsca zmarła w drodze Rachela, jak wspomniał Jakub?",
+     "Efrata",
+     "Hebron",
+     "Sychem"
+    ],
+    "ru": [
+     "Близ какого места умерла в пути Рахиль, как вспомнил Иаков?",
+     "Ефрафа",
+     "Хеврон",
+     "Сихем"
+    ],
+    "tr": [
+     "Yakup'a göre Rahel yolda hangi yerin yakınında öldü?",
+     "Efrata",
+     "Hebron",
+     "Şekem"
+    ],
+    "ja": [
+     "ヤコブの回想では、ラケルは途中のどの場所の近くで死にましたか？",
+     "エフラタ",
+     "ヘブロン",
+     "シケム"
+    ],
+    "ko": [
+     "야곱의 회상에 따르면 라헬은 길에서 어느 곳 근처에서 죽었습니까?",
+     "에프라타",
+     "헤브론",
+     "스켐"
+    ],
+    "ar": [
+     "بحسب ذكرى يعقوب، قرب أي مكان ماتت راحيل في الطريق؟",
+     "أفراتة",
+     "حبرون",
+     "شكيم"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-034-74",
+   "book": "genesis",
+   "chapter": 48,
+   "difficulty": "expert",
+   "ref": "Genesis 48:22",
+   "text": {
+    "en": [
+     "Besides his sword, which weapon did Jacob say won land from the Amorites?",
+     "Bow",
+     "Spear",
+     "Shield"
+    ],
+    "es": [
+     "Además de su espada, ¿qué arma dijo Jacob que ganó tierra a los amorreos?",
+     "Arco",
+     "Lanza",
+     "Escudo"
+    ],
+    "pt": [
+     "Além da espada, que arma Jacó disse ter ganhado terra dos amorreus?",
+     "Arco",
+     "Lança",
+     "Escudo"
+    ],
+    "fr": [
+     "Outre son épée, quelle arme, dit Jacob, lui gagna une terre sur les Amorites ?",
+     "Arc",
+     "Lance",
+     "Bouclier"
+    ],
+    "de": [
+     "Welche Waffe nannte Jakob neben dem Schwert für das den Amoritern abgenommene Land?",
+     "Bogen",
+     "Speer",
+     "Schild"
+    ],
+    "it": [
+     "Oltre alla spada, quale arma Giacobbe disse di aver usato contro gli Amorrei?",
+     "Arco",
+     "Lancia",
+     "Scudo"
+    ],
+    "pl": [
+     "Jaką broń, obok miecza, Jakub wymienił, zdobywając ziemię od Amorytów?",
+     "Łuk",
+     "Włócznia",
+     "Tarcza"
+    ],
+    "ru": [
+     "Какое оружие, кроме меча, Иаков назвал, завоевав землю у аморреев?",
+     "Лук",
+     "Копьё",
+     "Щит"
+    ],
+    "tr": [
+     "Yakup, kılıcının yanında Amorluların toprağını hangi silahla aldığını söyledi?",
+     "Yay",
+     "Mızrak",
+     "Kalkan"
+    ],
+    "ja": [
+     "ヤコブは剣のほかに、どの武器でアモリ人から土地を得たと言いましたか？",
+     "弓",
+     "槍",
+     "盾"
+    ],
+    "ko": [
+     "야곱은 칼 외에 어떤 무기로 아모리족에게서 땅을 얻었다고 말했습니까?",
+     "활",
+     "창",
+     "방패"
+    ],
+    "ar": [
+     "غير سيفه، أي سلاح ذكر يعقوب أنه نال به أرضا من الأموريين؟",
+     "قوس",
+     "رمح",
+     "ترس"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-034-75",
+   "book": "genesis",
+   "chapter": 48,
+   "difficulty": "impossible",
+   "ref": "Genesis 48:12",
+   "text": {
+    "en": [
+     "From between which part of Jacob's body did Joseph take his sons?",
+     "Knees",
+     "Arms",
+     "Feet"
+    ],
+    "es": [
+     "¿De entre qué partes del cuerpo de Jacob retiró José a sus hijos?",
+     "Rodillas",
+     "Brazos",
+     "Pies"
+    ],
+    "pt": [
+     "De entre que partes do corpo de Jacó José retirou seus filhos?",
+     "Joelhos",
+     "Braços",
+     "Pés"
+    ],
+    "fr": [
+     "D'entre quelles parties du corps de Jacob Joseph retira-t-il ses fils ?",
+     "Genoux",
+     "Bras",
+     "Pieds"
+    ],
+    "de": [
+     "Zwischen welchen Körperteilen Jakobs nahm Josef seine Söhne hervor?",
+     "Knie",
+     "Arme",
+     "Füße"
+    ],
+    "it": [
+     "Da fra quali parti del corpo di Giacobbe Giuseppe tolse i suoi figli?",
+     "Ginocchia",
+     "Braccia",
+     "Piedi"
+    ],
+    "pl": [
+     "Spomiędzy jakich części ciała Jakuba Józef zabrał swoich synów?",
+     "Kolana",
+     "Ramiona",
+     "Stopy"
+    ],
+    "ru": [
+     "Между какими частями тела Иакова Иосиф взял своих сыновей?",
+     "Колени",
+     "Руки",
+     "Ноги"
+    ],
+    "tr": [
+     "Yusuf oğullarını Yakup'un vücudunun hangi kısımlarının arasından aldı?",
+     "Dizler",
+     "Kollar",
+     "Ayaklar"
+    ],
+    "ja": [
+     "ヨセフは息子たちを、ヤコブの体のどの部分の間から出しましたか？",
+     "膝",
+     "腕",
+     "足"
+    ],
+    "ko": [
+     "요셉은 아들들을 야곱의 몸 어느 부분 사이에서 데려갔습니까?",
+     "무릎",
+     "팔",
+     "발"
+    ],
+    "ar": [
+     "من بين أي جزأين من جسد يعقوب أخذ يوسف ابنيه؟",
+     "ركبتان",
+     "ذراعان",
+     "قدمان"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-034-76",
+   "book": "genesis",
+   "chapter": 49,
+   "difficulty": "easy",
+   "ref": "Genesis 49:9",
+   "text": {
+    "en": [
+     "Jacob compared which son to a lion's cub?",
+     "Judah",
+     "Gad",
+     "Reuben"
+    ],
+    "es": [
+     "¿A qué hijo comparó Jacob con un cachorro de león?",
+     "Judá",
+     "Gad",
+     "Rubén"
+    ],
+    "pt": [
+     "A que filho Jacó comparou a um filhote de leão?",
+     "Judá",
+     "Gad",
+     "Rúben"
+    ],
+    "fr": [
+     "Quel fils Jacob compara-t-il à un lionceau ?",
+     "Juda",
+     "Gad",
+     "Ruben"
+    ],
+    "de": [
+     "Welchen Sohn verglich Jakob mit einem Löwenjungen?",
+     "Juda",
+     "Gad",
+     "Ruben"
+    ],
+    "it": [
+     "Quale figlio Giacobbe paragonò a un leoncello?",
+     "Giuda",
+     "Gad",
+     "Ruben"
+    ],
+    "pl": [
+     "Którego syna Jakub porównał do lwiątka?",
+     "Juda",
+     "Gad",
+     "Ruben"
+    ],
+    "ru": [
+     "Какого сына Иаков сравнил с молодым львом?",
+     "Иуда",
+     "Гад",
+     "Рувим"
+    ],
+    "tr": [
+     "Yakup hangi oğlunu bir aslan yavrusuna benzetti?",
+     "Yahuda",
+     "Gad",
+     "Ruben"
+    ],
+    "ja": [
+     "ヤコブはどの息子を若獅子にたとえましたか？",
+     "ユダ",
+     "ガド",
+     "ルベン"
+    ],
+    "ko": [
+     "야곱은 어느 아들을 새끼 사자에 비유했습니까?",
+     "유다",
+     "갓",
+     "르우벤"
+    ],
+    "ar": [
+     "أي ابن شبهه يعقوب بشبل أسد؟",
+     "يهوذا",
+     "جاد",
+     "رأوبين"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-034-77",
+   "book": "genesis",
+   "chapter": 49,
+   "difficulty": "medium",
+   "ref": "Genesis 49:27",
+   "text": {
+    "en": [
+     "Jacob compared Benjamin to which ravenous animal?",
+     "Wolf",
+     "Bear",
+     "Leopard"
+    ],
+    "es": [
+     "¿Con qué animal voraz comparó Jacob a Benjamín?",
+     "Lobo",
+     "Oso",
+     "Leopardo"
+    ],
+    "pt": [
+     "Com que animal voraz Jacó comparou Benjamim?",
+     "Lobo",
+     "Urso",
+     "Leopardo"
+    ],
+    "fr": [
+     "À quel animal vorace Jacob compara-t-il Benjamin ?",
+     "Loup",
+     "Ours",
+     "Léopard"
+    ],
+    "de": [
+     "Mit welchem gierigen Tier verglich Jakob Benjamin?",
+     "Wolf",
+     "Bär",
+     "Leopard"
+    ],
+    "it": [
+     "A quale animale vorace Giacobbe paragonò Beniamino?",
+     "Lupo",
+     "Orso",
+     "Leopardo"
+    ],
+    "pl": [
+     "Z jakim drapieżnym zwierzęciem Jakub porównał Beniamina?",
+     "Wilk",
+     "Niedźwiedź",
+     "Lampart"
+    ],
+    "ru": [
+     "С каким хищным зверем Иаков сравнил Вениамина?",
+     "Волк",
+     "Медведь",
+     "Леопард"
+    ],
+    "tr": [
+     "Yakup, Binyamin'i hangi yırtıcı hayvana benzetti?",
+     "Kurt",
+     "Ayı",
+     "Leopar"
+    ],
+    "ja": [
+     "ヤコブはベニヤミンをどんな貪欲な獣にたとえましたか？",
+     "狼",
+     "熊",
+     "ヒョウ"
+    ],
+    "ko": [
+     "야곱은 벤야민을 어떤 탐욕스러운 짐승에 비유했습니까?",
+     "늑대",
+     "곰",
+     "표범"
+    ],
+    "ar": [
+     "بأي حيوان مفترس شبه يعقوب بنيامين؟",
+     "ذئب",
+     "دب",
+     "فهد"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-034-78",
+   "book": "genesis",
+   "chapter": 49,
+   "difficulty": "hard",
+   "ref": "Genesis 49:17",
+   "text": {
+    "en": [
+     "Which son did Jacob call a serpent by the road?",
+     "Dan",
+     "Gad",
+     "Asher"
+    ],
+    "es": [
+     "¿A qué hijo llamó Jacob serpiente junto al camino?",
+     "Dan",
+     "Gad",
+     "Aser"
+    ],
+    "pt": [
+     "A que filho Jacó chamou serpente à beira do caminho?",
+     "Dã",
+     "Gad",
+     "Aser"
+    ],
+    "fr": [
+     "Quel fils Jacob appela-t-il serpent sur le chemin ?",
+     "Dan",
+     "Gad",
+     "Aser"
+    ],
+    "de": [
+     "Welchen Sohn nannte Jakob eine Schlange am Weg?",
+     "Dan",
+     "Gad",
+     "Ascher"
+    ],
+    "it": [
+     "Quale figlio Giacobbe chiamò serpente sulla strada?",
+     "Dan",
+     "Gad",
+     "Aser"
+    ],
+    "pl": [
+     "Którego syna Jakub nazwał wężem przy drodze?",
+     "Dan",
+     "Gad",
+     "Aszer"
+    ],
+    "ru": [
+     "Какого сына Иаков назвал змеёй на дороге?",
+     "Дан",
+     "Гад",
+     "Асир"
+    ],
+    "tr": [
+     "Yakup hangi oğluna yol kenarındaki yılan dedi?",
+     "Dan",
+     "Gad",
+     "Aşer"
+    ],
+    "ja": [
+     "ヤコブは、どの息子を道端の蛇と呼びましたか？",
+     "ダン",
+     "ガド",
+     "アシェル"
+    ],
+    "ko": [
+     "야곱은 어느 아들을 길가의 뱀이라 불렀습니까?",
+     "단",
+     "갓",
+     "아세르"
+    ],
+    "ar": [
+     "أي ابن سماه يعقوب حية على الطريق؟",
+     "دان",
+     "جاد",
+     "أشير"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-034-79",
+   "book": "genesis",
+   "chapter": 49,
+   "difficulty": "expert",
+   "ref": "Genesis 49:13",
+   "text": {
+    "en": [
+     "Which son would dwell by the seashore as a harbor for ships?",
+     "Zebulun",
+     "Issachar",
+     "Asher"
+    ],
+    "es": [
+     "¿Qué hijo habitaría junto a la costa como puerto de naves?",
+     "Zabulón",
+     "Isacar",
+     "Aser"
+    ],
+    "pt": [
+     "Que filho habitaria à beira-mar como porto de navios?",
+     "Zabulon",
+     "Issacar",
+     "Aser"
+    ],
+    "fr": [
+     "Quel fils habiterait au bord de la mer, port pour les navires ?",
+     "Zabulon",
+     "Issacar",
+     "Aser"
+    ],
+    "de": [
+     "Welcher Sohn sollte am Meeresstrand wohnen, als Hafen für Schiffe?",
+     "Sebulon",
+     "Issachar",
+     "Ascher"
+    ],
+    "it": [
+     "Quale figlio avrebbe abitato sulla riva del mare, porto di navi?",
+     "Zàbulon",
+     "Issacar",
+     "Aser"
+    ],
+    "pl": [
+     "Który syn miał mieszkać nad morzem jako port dla okrętów?",
+     "Zabulon",
+     "Issachar",
+     "Aszer"
+    ],
+    "ru": [
+     "Какой сын будет жить при берегу моря, у пристани кораблей?",
+     "Завулон",
+     "Иссахар",
+     "Асир"
+    ],
+    "tr": [
+     "Hangi oğul deniz kıyısında, gemilere liman olarak yaşayacaktı?",
+     "Zevulun",
+     "İssakar",
+     "Aşer"
+    ],
+    "ja": [
+     "どの息子が海辺に住み、船の港となると言われましたか？",
+     "ゼブルン",
+     "イサカル",
+     "アシェル"
+    ],
+    "ko": [
+     "어느 아들이 해변에 살며 배들의 항구가 된다고 했습니까?",
+     "즈불룬",
+     "이사카르",
+     "아세르"
+    ],
+    "ar": [
+     "أي ابن سيسكن عند شاطئ البحر ميناء للسفن؟",
+     "زبولون",
+     "يساكر",
+     "أشير"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-034-80",
+   "book": "genesis",
+   "chapter": 49,
+   "difficulty": "impossible",
+   "ref": "Genesis 49:14",
+   "text": {
+    "en": [
+     "Jacob compared Issachar to which animal crouching between sheepfolds?",
+     "Donkey",
+     "Camel",
+     "Ox"
+    ],
+    "es": [
+     "¿Con qué animal comparó Jacob a Isacar, echado entre los apriscos?",
+     "Asno",
+     "Camello",
+     "Buey"
+    ],
+    "pt": [
+     "Com que animal Jacó comparou Issacar, deitado entre os currais?",
+     "Asno",
+     "Camelo",
+     "Boi"
+    ],
+    "fr": [
+     "À quel animal Jacob compara-t-il Issacar, couché entre les enclos ?",
+     "Âne",
+     "Chameau",
+     "Bœuf"
+    ],
+    "de": [
+     "Mit welchem Tier verglich Jakob Issachar, das zwischen den Hürden lagert?",
+     "Esel",
+     "Kamel",
+     "Ochse"
+    ],
+    "it": [
+     "A quale animale Giacobbe paragonò Issacar, accovacciato tra gli ovili?",
+     "Asino",
+     "Cammello",
+     "Bue"
+    ],
+    "pl": [
+     "Z jakim zwierzęciem Jakub porównał Issachara, leżącego między owczarniami?",
+     "Osioł",
+     "Wielbłąd",
+     "Wół"
+    ],
+    "ru": [
+     "С каким животным Иаков сравнил Иссахара, лежащего между оградами?",
+     "Осёл",
+     "Верблюд",
+     "Вол"
+    ],
+    "tr": [
+     "Yakup, İssakar'ı ağıllar arasında yatan hangi hayvana benzetti?",
+     "Eşek",
+     "Deve",
+     "Öküz"
+    ],
+    "ja": [
+     "ヤコブは、羊の囲いの間に伏すイサカルをどの動物にたとえましたか？",
+     "ロバ",
+     "ラクダ",
+     "牛"
+    ],
+    "ko": [
+     "야곱은 양 우리 사이에 엎드린 이사카르를 어떤 동물에 비유했습니까?",
+     "나귀",
+     "낙타",
+     "소"
+    ],
+    "ar": [
+     "بأي حيوان شبه يعقوب يساكر الرابض بين الحظائر؟",
+     "حمار",
+     "جمل",
+     "ثور"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-034-81",
+   "book": "genesis",
+   "chapter": 50,
+   "difficulty": "easy",
+   "ref": "Genesis 50:13",
+   "text": {
+    "en": [
+     "To which land did Jacob's sons carry his body for burial?",
+     "Canaan",
+     "Egypt",
+     "Moab"
+    ],
+    "es": [
+     "¿A qué tierra llevaron los hijos de Jacob su cuerpo para sepultarlo?",
+     "Canaán",
+     "Egipto",
+     "Moab"
+    ],
+    "pt": [
+     "A que terra os filhos de Jacó levaram seu corpo para sepultá-lo?",
+     "Canaã",
+     "Egito",
+     "Moab"
+    ],
+    "fr": [
+     "Dans quelle terre les fils de Jacob emportèrent-ils son corps pour l'ensevelir ?",
+     "Canaan",
+     "Égypte",
+     "Moab"
+    ],
+    "de": [
+     "In welches Land brachten Jakobs Söhne seinen Leichnam zur Bestattung?",
+     "Kanaan",
+     "Ägypten",
+     "Moab"
+    ],
+    "it": [
+     "In quale terra i figli di Giacobbe portarono il suo corpo per la sepoltura?",
+     "Canaan",
+     "Egitto",
+     "Moab"
+    ],
+    "pl": [
+     "Do jakiej ziemi synowie Jakuba zanieśli jego ciało na pogrzeb?",
+     "Kanaan",
+     "Egipt",
+     "Moab"
+    ],
+    "ru": [
+     "В какую землю сыновья Иакова отнесли его тело для погребения?",
+     "Ханаан",
+     "Египет",
+     "Моав"
+    ],
+    "tr": [
+     "Yakup'un oğulları cenazesini gömmek için hangi diyara götürdü?",
+     "Kenan",
+     "Mısır",
+     "Moab"
+    ],
+    "ja": [
+     "ヤコブの息子たちは、遺体を葬るためどの地へ運びましたか？",
+     "カナン",
+     "エジプト",
+     "モアブ"
+    ],
+    "ko": [
+     "야곱의 아들들은 그의 시신을 묻으려고 어느 땅으로 옮겼습니까?",
+     "가나안",
+     "이집트",
+     "모압"
+    ],
+    "ar": [
+     "إلى أي أرض حمل أبناء يعقوب جثمانه للدفن؟",
+     "كنعان",
+     "مصر",
+     "موآب"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-034-82",
+   "book": "genesis",
+   "chapter": 50,
+   "difficulty": "medium",
+   "ref": "Genesis 50:26",
+   "text": {
+    "en": [
+     "How old was Joseph when he died in Egypt?",
+     "110",
+     "120",
+     "100"
+    ],
+    "es": [
+     "¿Qué edad tenía José cuando murió en Egipto?",
+     "110",
+     "120",
+     "100"
+    ],
+    "pt": [
+     "Que idade José tinha quando morreu no Egito?",
+     "110",
+     "120",
+     "100"
+    ],
+    "fr": [
+     "Quel âge Joseph avait-il à sa mort en Égypte ?",
+     "110",
+     "120",
+     "100"
+    ],
+    "de": [
+     "Wie alt war Josef, als er in Ägypten starb?",
+     "110",
+     "120",
+     "100"
+    ],
+    "it": [
+     "Quanti anni aveva Giuseppe quando morì in Egitto?",
+     "110",
+     "120",
+     "100"
+    ],
+    "pl": [
+     "Ile lat miał Józef, gdy umarł w Egipcie?",
+     "110",
+     "120",
+     "100"
+    ],
+    "ru": [
+     "Сколько лет было Иосифу, когда он умер в Египте?",
+     "110",
+     "120",
+     "100"
+    ],
+    "tr": [
+     "Yusuf Mısır'da öldüğünde kaç yaşındaydı?",
+     "110",
+     "120",
+     "100"
+    ],
+    "ja": [
+     "ヨセフはエジプトで死んだとき、何歳でしたか？",
+     "110",
+     "120",
+     "100"
+    ],
+    "ko": [
+     "요셉은 이집트에서 죽을 때 몇 살이었습니까?",
+     "110",
+     "120",
+     "100"
+    ],
+    "ar": [
+     "كم كان عمر يوسف عندما مات في مصر؟",
+     "110",
+     "120",
+     "100"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-034-83",
+   "book": "genesis",
+   "chapter": 50,
+   "difficulty": "hard",
+   "ref": "Genesis 50:3",
+   "text": {
+    "en": [
+     "For how many days did the Egyptians mourn Jacob?",
+     "70",
+     "40",
+     "30"
+    ],
+    "es": [
+     "¿Durante cuántos días lloraron los egipcios a Jacob?",
+     "70",
+     "40",
+     "30"
+    ],
+    "pt": [
+     "Durante quantos dias os egípcios choraram Jacó?",
+     "70",
+     "40",
+     "30"
+    ],
+    "fr": [
+     "Pendant combien de jours les Égyptiens pleurèrent-ils Jacob ?",
+     "70",
+     "40",
+     "30"
+    ],
+    "de": [
+     "Wie viele Tage beweinten die Ägypter Jakob?",
+     "70",
+     "40",
+     "30"
+    ],
+    "it": [
+     "Per quanti giorni gli Egiziani piansero Giacobbe?",
+     "70",
+     "40",
+     "30"
+    ],
+    "pl": [
+     "Przez ile dni Egipcjanie opłakiwali Jakuba?",
+     "70",
+     "40",
+     "30"
+    ],
+    "ru": [
+     "Сколько дней египтяне оплакивали Иакова?",
+     "70",
+     "40",
+     "30"
+    ],
+    "tr": [
+     "Mısırlılar Yakup'a kaç gün yas tuttu?",
+     "70",
+     "40",
+     "30"
+    ],
+    "ja": [
+     "エジプト人はヤコブを何日間悼みましたか？",
+     "70",
+     "40",
+     "30"
+    ],
+    "ko": [
+     "이집트인들은 야곱을 며칠 동안 애도했습니까?",
+     "70",
+     "40",
+     "30"
+    ],
+    "ar": [
+     "كم يوما بكى المصريون يعقوب؟",
+     "70",
+     "40",
+     "30"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-034-84",
+   "book": "genesis",
+   "chapter": 50,
+   "difficulty": "expert",
+   "ref": "Genesis 50:25",
+   "text": {
+    "en": [
+     "What did Joseph make Israel's sons promise to carry from Egypt?",
+     "Bones",
+     "Gold",
+     "Livestock"
+    ],
+    "es": [
+     "¿Qué hizo jurar José a los hijos de Israel que llevarían de Egipto?",
+     "Huesos",
+     "Oro",
+     "Ganado"
+    ],
+    "pt": [
+     "O que José fez os filhos de Israel jurarem levar do Egito?",
+     "Ossos",
+     "Ouro",
+     "Gado"
+    ],
+    "fr": [
+     "Qu'est-ce que Joseph fit jurer aux fils d'Israël d'emporter d'Égypte ?",
+     "Ossements",
+     "Or",
+     "Bétail"
+    ],
+    "de": [
+     "Was ließ Josef die Söhne Israels schwören, aus Ägypten mitzunehmen?",
+     "Gebeine",
+     "Gold",
+     "Vieh"
+    ],
+    "it": [
+     "Che cosa Giuseppe fece giurare ai figli d'Israele di portare via dall'Egitto?",
+     "Ossa",
+     "Oro",
+     "Bestiame"
+    ],
+    "pl": [
+     "Co Józef kazał synom Izraela przysiąc wynieść z Egiptu?",
+     "Kości",
+     "Złoto",
+     "Bydło"
+    ],
+    "ru": [
+     "Что Иосиф заклял сынов Израилевых вынести из Египта?",
+     "Кости",
+     "Золото",
+     "Скот"
+    ],
+    "tr": [
+     "Yusuf İsrail oğullarına Mısır'dan neyi taşıyacaklarına yemin ettirdi?",
+     "Kemikler",
+     "Altın",
+     "Hayvanlar"
+    ],
+    "ja": [
+     "ヨセフはイスラエルの子らに、エジプトから何を携えて行くよう誓わせましたか？",
+     "骨",
+     "金",
+     "家畜"
+    ],
+    "ko": [
+     "요셉은 이스라엘의 자손들에게 이집트에서 무엇을 가져가라고 맹세시켰습니까?",
+     "뼈",
+     "금",
+     "가축"
+    ],
+    "ar": [
+     "ماذا أحلف يوسف بني إسرائيل أن يحملوه من مصر؟",
+     "عظام",
+     "ذهب",
+     "مواشي"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-034-85",
+   "book": "genesis",
+   "chapter": 50,
+   "difficulty": "impossible",
+   "ref": "Genesis 50:23",
+   "text": {
+    "en": [
+     "Which son of Manasseh had children born on Joseph's knees?",
+     "Machir",
+     "Hamor",
+     "Eliphaz"
+    ],
+    "es": [
+     "¿Qué hijo de Manasés tuvo hijos nacidos sobre las rodillas de José?",
+     "Maquir",
+     "Jamor",
+     "Elifaz"
+    ],
+    "pt": [
+     "Que filho de Manassés teve filhos nascidos sobre os joelhos de José?",
+     "Maquir",
+     "Hemor",
+     "Elifaz"
+    ],
+    "fr": [
+     "Quel fils de Manassé eut des enfants nés sur les genoux de Joseph ?",
+     "Makir",
+     "Hamor",
+     "Élifaz"
+    ],
+    "de": [
+     "Welcher Sohn Manasses hatte Kinder, die auf Josefs Knien geboren wurden?",
+     "Machir",
+     "Hamor",
+     "Elifas"
+    ],
+    "it": [
+     "Quale figlio di Manasse ebbe figli nati sulle ginocchia di Giuseppe?",
+     "Machir",
+     "Camor",
+     "Elifaz"
+    ],
+    "pl": [
+     "Który syn Manassesa miał dzieci urodzone na kolanach Józefa?",
+     "Makir",
+     "Chamor",
+     "Elifaz"
+    ],
+    "ru": [
+     "Который из сыновей Манассии имел детей, родившихся на коленях Иосифа?",
+     "Махир",
+     "Еммор",
+     "Елифаз"
+    ],
+    "tr": [
+     "Manaşşe'nin hangi oğlunun çocukları Yusuf'un dizlerinde doğdu?",
+     "Makir",
+     "Hamor",
+     "Elifaz"
+    ],
+    "ja": [
+     "マナセの息子のうち、その子らがヨセフの膝に生まれたのは誰？",
+     "マキル",
+     "ハモル",
+     "エリファズ"
+    ],
+    "ko": [
+     "므나쎄의 아들 가운데 그 자녀가 요셉의 무릎에서 태어난 이는 누구입니까?",
+     "마키르",
+     "하몰",
+     "엘리파즈"
+    ],
+    "ar": [
+     "أي ابن لمنسى وُلد أولاده على ركبتي يوسف؟",
+     "ماكير",
+     "حمور",
+     "أليفاز"
+    ]
+   }
+  }
+ ]
+}

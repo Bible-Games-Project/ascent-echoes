@@ -1,0 +1,1001 @@
+[
+{
+"id": "ch-genesis-001",
+"book": "genesis",
+"bookName": "Genesis",
+"from": 1,
+"to": 16,
+"count": 80,
+"file": ".qwork/out/ch-genesis-001.json"
+},
+{
+"id": "ch-genesis-017",
+"book": "genesis",
+"bookName": "Genesis",
+"from": 17,
+"to": 33,
+"count": 85,
+"file": ".qwork/out/ch-genesis-017.json"
+},
+{
+"id": "ch-genesis-034",
+"book": "genesis",
+"bookName": "Genesis",
+"from": 34,
+"to": 50,
+"count": 85,
+"file": ".qwork/out/ch-genesis-034.json"
+},
+{
+"id": "ch-exodus-001",
+"book": "exodus",
+"bookName": "Exodus",
+"from": 1,
+"to": 20,
+"count": 100,
+"file": ".qwork/out/ch-exodus-001.json"
+},
+{
+"id": "ch-exodus-021",
+"book": "exodus",
+"bookName": "Exodus",
+"from": 21,
+"to": 40,
+"count": 100,
+"file": ".qwork/out/ch-exodus-021.json"
+},
+{
+"id": "ch-leviticus-001",
+"book": "leviticus",
+"bookName": "Leviticus",
+"from": 1,
+"to": 13,
+"count": 65,
+"file": ".qwork/out/ch-leviticus-001.json"
+},
+{
+"id": "ch-leviticus-014",
+"book": "leviticus",
+"bookName": "Leviticus",
+"from": 14,
+"to": 27,
+"count": 70,
+"file": ".qwork/out/ch-leviticus-014.json"
+},
+{
+"id": "ch-numbers-001",
+"book": "numbers",
+"bookName": "Numbers",
+"from": 1,
+"to": 18,
+"count": 90,
+"file": ".qwork/out/ch-numbers-001.json"
+},
+{
+"id": "ch-numbers-019",
+"book": "numbers",
+"bookName": "Numbers",
+"from": 19,
+"to": 36,
+"count": 90,
+"file": ".qwork/out/ch-numbers-019.json"
+},
+{
+"id": "ch-deuteronomy-001",
+"book": "deuteronomy",
+"bookName": "Deuteronomy",
+"from": 1,
+"to": 17,
+"count": 85,
+"file": ".qwork/out/ch-deuteronomy-001.json"
+},
+{
+"id": "ch-deuteronomy-018",
+"book": "deuteronomy",
+"bookName": "Deuteronomy",
+"from": 18,
+"to": 34,
+"count": 85,
+"file": ".qwork/out/ch-deuteronomy-018.json"
+},
+{
+"id": "ch-joshua-001",
+"book": "joshua",
+"bookName": "Joshua",
+"from": 1,
+"to": 12,
+"count": 60,
+"file": ".qwork/out/ch-joshua-001.json"
+},
+{
+"id": "ch-joshua-013",
+"book": "joshua",
+"bookName": "Joshua",
+"from": 13,
+"to": 24,
+"count": 60,
+"file": ".qwork/out/ch-joshua-013.json"
+},
+{
+"id": "ch-judges-001",
+"book": "judges",
+"bookName": "Judges",
+"from": 1,
+"to": 10,
+"count": 50,
+"file": ".qwork/out/ch-judges-001.json"
+},
+{
+"id": "ch-judges-011",
+"book": "judges",
+"bookName": "Judges",
+"from": 11,
+"to": 21,
+"count": 55,
+"file": ".qwork/out/ch-judges-011.json"
+},
+{
+"id": "ch-ruth-001",
+"book": "ruth",
+"bookName": "Ruth",
+"from": 1,
+"to": 4,
+"count": 20,
+"file": ".qwork/out/ch-ruth-001.json"
+},
+{
+"id": "ch-1-samuel-001",
+"book": "1-samuel",
+"bookName": "1 Samuel",
+"from": 1,
+"to": 15,
+"count": 75,
+"file": ".qwork/out/ch-1-samuel-001.json"
+},
+{
+"id": "ch-1-samuel-016",
+"book": "1-samuel",
+"bookName": "1 Samuel",
+"from": 16,
+"to": 31,
+"count": 80,
+"file": ".qwork/out/ch-1-samuel-016.json"
+},
+{
+"id": "ch-2-samuel-001",
+"book": "2-samuel",
+"bookName": "2 Samuel",
+"from": 1,
+"to": 12,
+"count": 60,
+"file": ".qwork/out/ch-2-samuel-001.json"
+},
+{
+"id": "ch-2-samuel-013",
+"book": "2-samuel",
+"bookName": "2 Samuel",
+"from": 13,
+"to": 24,
+"count": 60,
+"file": ".qwork/out/ch-2-samuel-013.json"
+},
+{
+"id": "ch-1-kings-001",
+"book": "1-kings",
+"bookName": "1 Kings",
+"from": 1,
+"to": 11,
+"count": 55,
+"file": ".qwork/out/ch-1-kings-001.json"
+},
+{
+"id": "ch-1-kings-012",
+"book": "1-kings",
+"bookName": "1 Kings",
+"from": 12,
+"to": 22,
+"count": 55,
+"file": ".qwork/out/ch-1-kings-012.json"
+},
+{
+"id": "ch-2-kings-001",
+"book": "2-kings",
+"bookName": "2 Kings",
+"from": 1,
+"to": 12,
+"count": 60,
+"file": ".qwork/out/ch-2-kings-001.json"
+},
+{
+"id": "ch-2-kings-013",
+"book": "2-kings",
+"bookName": "2 Kings",
+"from": 13,
+"to": 25,
+"count": 65,
+"file": ".qwork/out/ch-2-kings-013.json"
+},
+{
+"id": "ch-1-chronicles-001",
+"book": "1-chronicles",
+"bookName": "1 Chronicles",
+"from": 1,
+"to": 14,
+"count": 70,
+"file": ".qwork/out/ch-1-chronicles-001.json"
+},
+{
+"id": "ch-1-chronicles-015",
+"book": "1-chronicles",
+"bookName": "1 Chronicles",
+"from": 15,
+"to": 29,
+"count": 75,
+"file": ".qwork/out/ch-1-chronicles-015.json"
+},
+{
+"id": "ch-2-chronicles-001",
+"book": "2-chronicles",
+"bookName": "2 Chronicles",
+"from": 1,
+"to": 18,
+"count": 90,
+"file": ".qwork/out/ch-2-chronicles-001.json"
+},
+{
+"id": "ch-2-chronicles-019",
+"book": "2-chronicles",
+"bookName": "2 Chronicles",
+"from": 19,
+"to": 36,
+"count": 90,
+"file": ".qwork/out/ch-2-chronicles-019.json"
+},
+{
+"id": "ch-ezra-001",
+"book": "ezra",
+"bookName": "Ezra",
+"from": 1,
+"to": 10,
+"count": 50,
+"file": ".qwork/out/ch-ezra-001.json"
+},
+{
+"id": "ch-nehemiah-001",
+"book": "nehemiah",
+"bookName": "Nehemiah",
+"from": 1,
+"to": 13,
+"count": 65,
+"file": ".qwork/out/ch-nehemiah-001.json"
+},
+{
+"id": "ch-tobit-001",
+"book": "tobit",
+"bookName": "Tobit",
+"from": 1,
+"to": 14,
+"count": 70,
+"file": ".qwork/out/ch-tobit-001.json"
+},
+{
+"id": "ch-judith-001",
+"book": "judith",
+"bookName": "Judith",
+"from": 1,
+"to": 16,
+"count": 80,
+"file": ".qwork/out/ch-judith-001.json"
+},
+{
+"id": "ch-esther-001",
+"book": "esther",
+"bookName": "Esther",
+"from": 1,
+"to": 10,
+"count": 50,
+"file": ".qwork/out/ch-esther-001.json"
+},
+{
+"id": "ch-1-maccabees-001",
+"book": "1-maccabees",
+"bookName": "1 Maccabees",
+"from": 1,
+"to": 16,
+"count": 80,
+"file": ".qwork/out/ch-1-maccabees-001.json"
+},
+{
+"id": "ch-2-maccabees-001",
+"book": "2-maccabees",
+"bookName": "2 Maccabees",
+"from": 1,
+"to": 15,
+"count": 75,
+"file": ".qwork/out/ch-2-maccabees-001.json"
+},
+{
+"id": "ch-job-001",
+"book": "job",
+"bookName": "Job",
+"from": 1,
+"to": 14,
+"count": 70,
+"file": ".qwork/out/ch-job-001.json"
+},
+{
+"id": "ch-job-015",
+"book": "job",
+"bookName": "Job",
+"from": 15,
+"to": 28,
+"count": 70,
+"file": ".qwork/out/ch-job-015.json"
+},
+{
+"id": "ch-job-029",
+"book": "job",
+"bookName": "Job",
+"from": 29,
+"to": 42,
+"count": 70,
+"file": ".qwork/out/ch-job-029.json"
+},
+{
+"id": "ch-psalms-001",
+"book": "psalms",
+"bookName": "Psalms",
+"from": 1,
+"to": 18,
+"count": 90,
+"file": ".qwork/out/ch-psalms-001.json"
+},
+{
+"id": "ch-psalms-019",
+"book": "psalms",
+"bookName": "Psalms",
+"from": 19,
+"to": 37,
+"count": 95,
+"file": ".qwork/out/ch-psalms-019.json"
+},
+{
+"id": "ch-psalms-038",
+"book": "psalms",
+"bookName": "Psalms",
+"from": 38,
+"to": 56,
+"count": 95,
+"file": ".qwork/out/ch-psalms-038.json"
+},
+{
+"id": "ch-psalms-057",
+"book": "psalms",
+"bookName": "Psalms",
+"from": 57,
+"to": 75,
+"count": 95,
+"file": ".qwork/out/ch-psalms-057.json"
+},
+{
+"id": "ch-psalms-076",
+"book": "psalms",
+"bookName": "Psalms",
+"from": 76,
+"to": 93,
+"count": 90,
+"file": ".qwork/out/ch-psalms-076.json"
+},
+{
+"id": "ch-psalms-094",
+"book": "psalms",
+"bookName": "Psalms",
+"from": 94,
+"to": 112,
+"count": 95,
+"file": ".qwork/out/ch-psalms-094.json"
+},
+{
+"id": "ch-psalms-113",
+"book": "psalms",
+"bookName": "Psalms",
+"from": 113,
+"to": 131,
+"count": 95,
+"file": ".qwork/out/ch-psalms-113.json"
+},
+{
+"id": "ch-psalms-132",
+"book": "psalms",
+"bookName": "Psalms",
+"from": 132,
+"to": 150,
+"count": 95,
+"file": ".qwork/out/ch-psalms-132.json"
+},
+{
+"id": "ch-proverbs-001",
+"book": "proverbs",
+"bookName": "Proverbs",
+"from": 1,
+"to": 15,
+"count": 75,
+"file": ".qwork/out/ch-proverbs-001.json"
+},
+{
+"id": "ch-proverbs-016",
+"book": "proverbs",
+"bookName": "Proverbs",
+"from": 16,
+"to": 31,
+"count": 80,
+"file": ".qwork/out/ch-proverbs-016.json"
+},
+{
+"id": "ch-ecclesiastes-001",
+"book": "ecclesiastes",
+"bookName": "Ecclesiastes",
+"from": 1,
+"to": 12,
+"count": 60,
+"file": ".qwork/out/ch-ecclesiastes-001.json"
+},
+{
+"id": "ch-song-of-songs-001",
+"book": "song-of-songs",
+"bookName": "Song of Songs",
+"from": 1,
+"to": 8,
+"count": 40,
+"file": ".qwork/out/ch-song-of-songs-001.json"
+},
+{
+"id": "ch-wisdom-001",
+"book": "wisdom",
+"bookName": "Wisdom",
+"from": 1,
+"to": 19,
+"count": 95,
+"file": ".qwork/out/ch-wisdom-001.json"
+},
+{
+"id": "ch-sirach-001",
+"book": "sirach",
+"bookName": "Sirach",
+"from": 1,
+"to": 17,
+"count": 85,
+"file": ".qwork/out/ch-sirach-001.json"
+},
+{
+"id": "ch-sirach-018",
+"book": "sirach",
+"bookName": "Sirach",
+"from": 18,
+"to": 34,
+"count": 85,
+"file": ".qwork/out/ch-sirach-018.json"
+},
+{
+"id": "ch-sirach-035",
+"book": "sirach",
+"bookName": "Sirach",
+"from": 35,
+"to": 51,
+"count": 85,
+"file": ".qwork/out/ch-sirach-035.json"
+},
+{
+"id": "ch-isaiah-001",
+"book": "isaiah",
+"bookName": "Isaiah",
+"from": 1,
+"to": 16,
+"count": 80,
+"file": ".qwork/out/ch-isaiah-001.json"
+},
+{
+"id": "ch-isaiah-017",
+"book": "isaiah",
+"bookName": "Isaiah",
+"from": 17,
+"to": 33,
+"count": 85,
+"file": ".qwork/out/ch-isaiah-017.json"
+},
+{
+"id": "ch-isaiah-034",
+"book": "isaiah",
+"bookName": "Isaiah",
+"from": 34,
+"to": 49,
+"count": 80,
+"file": ".qwork/out/ch-isaiah-034.json"
+},
+{
+"id": "ch-isaiah-050",
+"book": "isaiah",
+"bookName": "Isaiah",
+"from": 50,
+"to": 66,
+"count": 85,
+"file": ".qwork/out/ch-isaiah-050.json"
+},
+{
+"id": "ch-jeremiah-001",
+"book": "jeremiah",
+"bookName": "Jeremiah",
+"from": 1,
+"to": 17,
+"count": 85,
+"file": ".qwork/out/ch-jeremiah-001.json"
+},
+{
+"id": "ch-jeremiah-018",
+"book": "jeremiah",
+"bookName": "Jeremiah",
+"from": 18,
+"to": 34,
+"count": 85,
+"file": ".qwork/out/ch-jeremiah-018.json"
+},
+{
+"id": "ch-jeremiah-035",
+"book": "jeremiah",
+"bookName": "Jeremiah",
+"from": 35,
+"to": 52,
+"count": 90,
+"file": ".qwork/out/ch-jeremiah-035.json"
+},
+{
+"id": "ch-lamentations-001",
+"book": "lamentations",
+"bookName": "Lamentations",
+"from": 1,
+"to": 5,
+"count": 25,
+"file": ".qwork/out/ch-lamentations-001.json"
+},
+{
+"id": "ch-baruch-001",
+"book": "baruch",
+"bookName": "Baruch",
+"from": 1,
+"to": 6,
+"count": 30,
+"file": ".qwork/out/ch-baruch-001.json"
+},
+{
+"id": "ch-ezekiel-001",
+"book": "ezekiel",
+"bookName": "Ezekiel",
+"from": 1,
+"to": 16,
+"count": 80,
+"file": ".qwork/out/ch-ezekiel-001.json"
+},
+{
+"id": "ch-ezekiel-017",
+"book": "ezekiel",
+"bookName": "Ezekiel",
+"from": 17,
+"to": 32,
+"count": 80,
+"file": ".qwork/out/ch-ezekiel-017.json"
+},
+{
+"id": "ch-ezekiel-033",
+"book": "ezekiel",
+"bookName": "Ezekiel",
+"from": 33,
+"to": 48,
+"count": 80,
+"file": ".qwork/out/ch-ezekiel-033.json"
+},
+{
+"id": "ch-daniel-001",
+"book": "daniel",
+"bookName": "Daniel",
+"from": 1,
+"to": 14,
+"count": 70,
+"file": ".qwork/out/ch-daniel-001.json"
+},
+{
+"id": "ch-hosea-001",
+"book": "hosea",
+"bookName": "Hosea",
+"from": 1,
+"to": 14,
+"count": 70,
+"file": ".qwork/out/ch-hosea-001.json"
+},
+{
+"id": "ch-joel-001",
+"book": "joel",
+"bookName": "Joel",
+"from": 1,
+"to": 4,
+"count": 20,
+"file": ".qwork/out/ch-joel-001.json"
+},
+{
+"id": "ch-amos-001",
+"book": "amos",
+"bookName": "Amos",
+"from": 1,
+"to": 9,
+"count": 45,
+"file": ".qwork/out/ch-amos-001.json"
+},
+{
+"id": "ch-obadiah-001",
+"book": "obadiah",
+"bookName": "Obadiah",
+"from": 1,
+"to": 1,
+"count": 5,
+"file": ".qwork/out/ch-obadiah-001.json"
+},
+{
+"id": "ch-jonah-001",
+"book": "jonah",
+"bookName": "Jonah",
+"from": 1,
+"to": 4,
+"count": 20,
+"file": ".qwork/out/ch-jonah-001.json"
+},
+{
+"id": "ch-micah-001",
+"book": "micah",
+"bookName": "Micah",
+"from": 1,
+"to": 7,
+"count": 35,
+"file": ".qwork/out/ch-micah-001.json"
+},
+{
+"id": "ch-nahum-001",
+"book": "nahum",
+"bookName": "Nahum",
+"from": 1,
+"to": 3,
+"count": 15,
+"file": ".qwork/out/ch-nahum-001.json"
+},
+{
+"id": "ch-habakkuk-001",
+"book": "habakkuk",
+"bookName": "Habakkuk",
+"from": 1,
+"to": 3,
+"count": 15,
+"file": ".qwork/out/ch-habakkuk-001.json"
+},
+{
+"id": "ch-zephaniah-001",
+"book": "zephaniah",
+"bookName": "Zephaniah",
+"from": 1,
+"to": 3,
+"count": 15,
+"file": ".qwork/out/ch-zephaniah-001.json"
+},
+{
+"id": "ch-haggai-001",
+"book": "haggai",
+"bookName": "Haggai",
+"from": 1,
+"to": 2,
+"count": 10,
+"file": ".qwork/out/ch-haggai-001.json"
+},
+{
+"id": "ch-zechariah-001",
+"book": "zechariah",
+"bookName": "Zechariah",
+"from": 1,
+"to": 14,
+"count": 70,
+"file": ".qwork/out/ch-zechariah-001.json"
+},
+{
+"id": "ch-malachi-001",
+"book": "malachi",
+"bookName": "Malachi",
+"from": 1,
+"to": 3,
+"count": 15,
+"file": ".qwork/out/ch-malachi-001.json"
+},
+{
+"id": "ch-matthew-001",
+"book": "matthew",
+"bookName": "Matthew",
+"from": 1,
+"to": 14,
+"count": 70,
+"file": ".qwork/out/ch-matthew-001.json"
+},
+{
+"id": "ch-matthew-015",
+"book": "matthew",
+"bookName": "Matthew",
+"from": 15,
+"to": 28,
+"count": 70,
+"file": ".qwork/out/ch-matthew-015.json"
+},
+{
+"id": "ch-mark-001",
+"book": "mark",
+"bookName": "Mark",
+"from": 1,
+"to": 16,
+"count": 80,
+"file": ".qwork/out/ch-mark-001.json"
+},
+{
+"id": "ch-luke-001",
+"book": "luke",
+"bookName": "Luke",
+"from": 1,
+"to": 12,
+"count": 60,
+"file": ".qwork/out/ch-luke-001.json"
+},
+{
+"id": "ch-luke-013",
+"book": "luke",
+"bookName": "Luke",
+"from": 13,
+"to": 24,
+"count": 60,
+"file": ".qwork/out/ch-luke-013.json"
+},
+{
+"id": "ch-john-001",
+"book": "john",
+"bookName": "John",
+"from": 1,
+"to": 10,
+"count": 50,
+"file": ".qwork/out/ch-john-001.json"
+},
+{
+"id": "ch-john-011",
+"book": "john",
+"bookName": "John",
+"from": 11,
+"to": 21,
+"count": 55,
+"file": ".qwork/out/ch-john-011.json"
+},
+{
+"id": "ch-acts-001",
+"book": "acts",
+"bookName": "Acts",
+"from": 1,
+"to": 14,
+"count": 70,
+"file": ".qwork/out/ch-acts-001.json"
+},
+{
+"id": "ch-acts-015",
+"book": "acts",
+"bookName": "Acts",
+"from": 15,
+"to": 28,
+"count": 70,
+"file": ".qwork/out/ch-acts-015.json"
+},
+{
+"id": "ch-romans-001",
+"book": "romans",
+"bookName": "Romans",
+"from": 1,
+"to": 16,
+"count": 80,
+"file": ".qwork/out/ch-romans-001.json"
+},
+{
+"id": "ch-1-corinthians-001",
+"book": "1-corinthians",
+"bookName": "1 Corinthians",
+"from": 1,
+"to": 16,
+"count": 80,
+"file": ".qwork/out/ch-1-corinthians-001.json"
+},
+{
+"id": "ch-2-corinthians-001",
+"book": "2-corinthians",
+"bookName": "2 Corinthians",
+"from": 1,
+"to": 13,
+"count": 65,
+"file": ".qwork/out/ch-2-corinthians-001.json"
+},
+{
+"id": "ch-galatians-001",
+"book": "galatians",
+"bookName": "Galatians",
+"from": 1,
+"to": 6,
+"count": 30,
+"file": ".qwork/out/ch-galatians-001.json"
+},
+{
+"id": "ch-ephesians-001",
+"book": "ephesians",
+"bookName": "Ephesians",
+"from": 1,
+"to": 6,
+"count": 30,
+"file": ".qwork/out/ch-ephesians-001.json"
+},
+{
+"id": "ch-philippians-001",
+"book": "philippians",
+"bookName": "Philippians",
+"from": 1,
+"to": 4,
+"count": 20,
+"file": ".qwork/out/ch-philippians-001.json"
+},
+{
+"id": "ch-colossians-001",
+"book": "colossians",
+"bookName": "Colossians",
+"from": 1,
+"to": 4,
+"count": 20,
+"file": ".qwork/out/ch-colossians-001.json"
+},
+{
+"id": "ch-1-thessalonians-001",
+"book": "1-thessalonians",
+"bookName": "1 Thessalonians",
+"from": 1,
+"to": 5,
+"count": 25,
+"file": ".qwork/out/ch-1-thessalonians-001.json"
+},
+{
+"id": "ch-2-thessalonians-001",
+"book": "2-thessalonians",
+"bookName": "2 Thessalonians",
+"from": 1,
+"to": 3,
+"count": 15,
+"file": ".qwork/out/ch-2-thessalonians-001.json"
+},
+{
+"id": "ch-1-timothy-001",
+"book": "1-timothy",
+"bookName": "1 Timothy",
+"from": 1,
+"to": 6,
+"count": 30,
+"file": ".qwork/out/ch-1-timothy-001.json"
+},
+{
+"id": "ch-2-timothy-001",
+"book": "2-timothy",
+"bookName": "2 Timothy",
+"from": 1,
+"to": 4,
+"count": 20,
+"file": ".qwork/out/ch-2-timothy-001.json"
+},
+{
+"id": "ch-titus-001",
+"book": "titus",
+"bookName": "Titus",
+"from": 1,
+"to": 3,
+"count": 15,
+"file": ".qwork/out/ch-titus-001.json"
+},
+{
+"id": "ch-philemon-001",
+"book": "philemon",
+"bookName": "Philemon",
+"from": 1,
+"to": 1,
+"count": 5,
+"file": ".qwork/out/ch-philemon-001.json"
+},
+{
+"id": "ch-hebrews-001",
+"book": "hebrews",
+"bookName": "Hebrews",
+"from": 1,
+"to": 13,
+"count": 65,
+"file": ".qwork/out/ch-hebrews-001.json"
+},
+{
+"id": "ch-james-001",
+"book": "james",
+"bookName": "James",
+"from": 1,
+"to": 5,
+"count": 25,
+"file": ".qwork/out/ch-james-001.json"
+},
+{
+"id": "ch-1-peter-001",
+"book": "1-peter",
+"bookName": "1 Peter",
+"from": 1,
+"to": 5,
+"count": 25,
+"file": ".qwork/out/ch-1-peter-001.json"
+},
+{
+"id": "ch-2-peter-001",
+"book": "2-peter",
+"bookName": "2 Peter",
+"from": 1,
+"to": 3,
+"count": 15,
+"file": ".qwork/out/ch-2-peter-001.json"
+},
+{
+"id": "ch-1-john-001",
+"book": "1-john",
+"bookName": "1 John",
+"from": 1,
+"to": 5,
+"count": 25,
+"file": ".qwork/out/ch-1-john-001.json"
+},
+{
+"id": "ch-2-john-001",
+"book": "2-john",
+"bookName": "2 John",
+"from": 1,
+"to": 1,
+"count": 5,
+"file": ".qwork/out/ch-2-john-001.json"
+},
+{
+"id": "ch-3-john-001",
+"book": "3-john",
+"bookName": "3 John",
+"from": 1,
+"to": 1,
+"count": 5,
+"file": ".qwork/out/ch-3-john-001.json"
+},
+{
+"id": "ch-jude-001",
+"book": "jude",
+"bookName": "Jude",
+"from": 1,
+"to": 1,
+"count": 5,
+"file": ".qwork/out/ch-jude-001.json"
+},
+{
+"id": "ch-revelation-001",
+"book": "revelation",
+"bookName": "Revelation",
+"from": 1,
+"to": 11,
+"count": 55,
+"file": ".qwork/out/ch-revelation-001.json"
+},
+{
+"id": "ch-revelation-012",
+"book": "revelation",
+"bookName": "Revelation",
+"from": 12,
+"to": 22,
+"count": 55,
+"file": ".qwork/out/ch-revelation-012.json"
+}
+]

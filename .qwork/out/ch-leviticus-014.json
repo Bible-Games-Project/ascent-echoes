@@ -1,0 +1,5674 @@
+{
+ "questions": [
+  {
+   "id": "ch-leviticus-014-01",
+   "book": "leviticus",
+   "chapter": 14,
+   "difficulty": "easy",
+   "ref": "Leviticus 14:2-3",
+   "text": {
+    "en": [
+     "Who examines a healed leper outside the camp in Leviticus 14?",
+     "Priest",
+     "Prophet",
+     "Elder"
+    ],
+    "es": [
+     "¿Quién examina al leproso curado fuera del campamento en Levítico 14?",
+     "Sacerdote",
+     "Profeta",
+     "Anciano"
+    ],
+    "pt": [
+     "Quem examina o leproso curado fora do acampamento em Levítico 14?",
+     "Sacerdote",
+     "Profeta",
+     "Ancião"
+    ],
+    "fr": [
+     "Qui examine le lépreux guéri hors du camp, en Lévitique 14 ?",
+     "Prêtre",
+     "Prophète",
+     "Ancien"
+    ],
+    "de": [
+     "Wer untersucht in Levitikus 14 den geheilten Aussätzigen außerhalb des Lagers?",
+     "Priester",
+     "Prophet",
+     "Ältester"
+    ],
+    "it": [
+     "Chi esamina il lebbroso guarito fuori dell'accampamento in Levitico 14?",
+     "Sacerdote",
+     "Profeta",
+     "Anziano"
+    ],
+    "pl": [
+     "Kto bada uzdrowionego trędowatego poza obozem w Księdze Kapłańskiej 14?",
+     "Kapłan",
+     "Prorok",
+     "Starszy"
+    ],
+    "ru": [
+     "Кто осматривает исцелённого прокажённого вне стана в Левите 14?",
+     "Священник",
+     "Пророк",
+     "Старейшина"
+    ],
+    "tr": [
+     "Levililer 14'te ordugâhın dışında iyileşmiş cüzamlıyı kim muayene eder?",
+     "Kâhin",
+     "Peygamber",
+     "Yaşlı"
+    ],
+    "ja": [
+     "レビ記14章で、宿営の外で治った重い皮膚病の人を調べるのは誰か？",
+     "祭司",
+     "預言者",
+     "長老"
+    ],
+    "ko": [
+     "레위기 14장에서 진영 밖에서 나은 나병 환자를 살피는 사람은 누구인가?",
+     "사제",
+     "예언자",
+     "원로"
+    ],
+    "ar": [
+     "من يفحص الأبرص المشفي خارج المحلة في اللاويين 14؟",
+     "كاهن",
+     "نبي",
+     "شيخ"
+    ]
+   }
+  },
+  {
+   "id": "ch-leviticus-014-02",
+   "book": "leviticus",
+   "chapter": 14,
+   "difficulty": "medium",
+   "ref": "Leviticus 14:8",
+   "text": {
+    "en": [
+     "How many days does a cleansed leper stay outside his tent?",
+     "7",
+     "3",
+     "10"
+    ],
+    "es": [
+     "¿Cuántos días se queda fuera de su tienda el leproso purificado?",
+     "7",
+     "3",
+     "10"
+    ],
+    "pt": [
+     "Quantos dias o leproso purificado fica fora da sua tenda?",
+     "7",
+     "3",
+     "10"
+    ],
+    "fr": [
+     "Combien de jours le lépreux purifié reste-t-il hors de sa tente ?",
+     "7",
+     "3",
+     "10"
+    ],
+    "de": [
+     "Wie viele Tage bleibt der gereinigte Aussätzige außerhalb seines Zeltes?",
+     "7",
+     "3",
+     "10"
+    ],
+    "it": [
+     "Quanti giorni il lebbroso purificato resta fuori dalla sua tenda?",
+     "7",
+     "3",
+     "10"
+    ],
+    "pl": [
+     "Ile dni oczyszczony trędowaty pozostaje poza swoim namiotem?",
+     "7",
+     "3",
+     "10"
+    ],
+    "ru": [
+     "Сколько дней очистившийся прокажённый остаётся вне своего шатра?",
+     "7",
+     "3",
+     "10"
+    ],
+    "tr": [
+     "Arınan cüzamlı kaç gün çadırının dışında kalır?",
+     "7",
+     "3",
+     "10"
+    ],
+    "ja": [
+     "清められた重い皮膚病の人は何日間、天幕の外にとどまるか？",
+     "7",
+     "3",
+     "10"
+    ],
+    "ko": [
+     "깨끗해진 나병 환자는 며칠 동안 천막 밖에 머무는가?",
+     "7",
+     "3",
+     "10"
+    ],
+    "ar": [
+     "كم يومًا يبقى الأبرص الطاهر خارج خيمته؟",
+     "7",
+     "3",
+     "10"
+    ]
+   }
+  },
+  {
+   "id": "ch-leviticus-014-03",
+   "book": "leviticus",
+   "chapter": 14,
+   "difficulty": "hard",
+   "ref": "Leviticus 14:4-6",
+   "text": {
+    "en": [
+     "Which plant, with cedar and scarlet yarn, cleanses a leper?",
+     "Hyssop",
+     "Palm",
+     "Aloe"
+    ],
+    "es": [
+     "¿Qué planta, con cedro y lana escarlata, purifica al leproso?",
+     "Hisopo",
+     "Palmera",
+     "Áloe"
+    ],
+    "pt": [
+     "Qual planta, com cedro e fio escarlate, purifica o leproso?",
+     "Hissopo",
+     "Palmeira",
+     "Aloés"
+    ],
+    "fr": [
+     "Quelle plante, avec le cèdre et l'écarlate, purifie le lépreux ?",
+     "Hysope",
+     "Palmier",
+     "Aloès"
+    ],
+    "de": [
+     "Welche Pflanze reinigt mit Zeder und Karmesinfaden den Aussätzigen?",
+     "Ysop",
+     "Palme",
+     "Aloe"
+    ],
+    "it": [
+     "Quale pianta, con il cedro e la porpora scarlatta, purifica il lebbroso?",
+     "Issopo",
+     "Palma",
+     "Aloe"
+    ],
+    "pl": [
+     "Jaka roślina z cedrem i szkarłatną nicią oczyszcza trędowatego?",
+     "Hizop",
+     "Palma",
+     "Aloes"
+    ],
+    "ru": [
+     "Какое растение вместе с кедром и червлёной нитью очищает прокажённого?",
+     "Иссоп",
+     "Пальма",
+     "Алоэ"
+    ],
+    "tr": [
+     "Hangi bitki sedir ve kırmızı iple cüzamlıyı arındırır?",
+     "Mercanköşk",
+     "Palmiye",
+     "Sarısabır"
+    ],
+    "ja": [
+     "杉と緋色の糸とともに、重い皮膚病を清めるのに使う植物は？",
+     "ヒソプ",
+     "ナツメヤシ",
+     "アロエ"
+    ],
+    "ko": [
+     "향백나무와 주홍 실과 함께 나병을 정결하게 하는 식물은?",
+     "우슬초",
+     "종려나무",
+     "알로에"
+    ],
+    "ar": [
+     "أي نبتة مع الأرز والقرمز تطهّر الأبرص؟",
+     "زوفا",
+     "نخلة",
+     "صبر"
+    ]
+   }
+  },
+  {
+   "id": "ch-leviticus-014-04",
+   "book": "leviticus",
+   "chapter": 14,
+   "difficulty": "expert",
+   "ref": "Leviticus 14:34",
+   "text": {
+    "en": [
+     "In which land does God put mildew on houses, Leviticus 14:34?",
+     "Canaan",
+     "Egypt",
+     "Moab"
+    ],
+    "es": [
+     "¿En qué tierra envía Dios el moho a las casas (Levítico 14)?",
+     "Canaán",
+     "Egipto",
+     "Moab"
+    ],
+    "pt": [
+     "Em que terra Deus envia mofo às casas, em Levítico 14?",
+     "Canaã",
+     "Egito",
+     "Moab"
+    ],
+    "fr": [
+     "Dans quel pays Dieu envoie-t-il la moisissure aux maisons (Lévitique 14) ?",
+     "Canaan",
+     "Égypte",
+     "Moab"
+    ],
+    "de": [
+     "In welchem Land schickt Gott Schimmel in die Häuser (Levitikus 14)?",
+     "Kanaan",
+     "Ägypten",
+     "Moab"
+    ],
+    "it": [
+     "In quale terra Dio manda la muffa nelle case (Levitico 14)?",
+     "Canaan",
+     "Egitto",
+     "Moab"
+    ],
+    "pl": [
+     "W jakim kraju Bóg zsyła pleśń na domy (Księga Kapłańska 14)?",
+     "Kanaan",
+     "Egipt",
+     "Moab"
+    ],
+    "ru": [
+     "В какой земле Бог посылает плесень на дома (Левит 14)?",
+     "Ханаан",
+     "Египет",
+     "Моав"
+    ],
+    "tr": [
+     "Tanrı hangi ülkede evlere küf gönderir (Levililer 14)?",
+     "Kenan",
+     "Mısır",
+     "Moav"
+    ],
+    "ja": [
+     "神はどの地で家にカビを生じさせるか（レビ記14章）？",
+     "カナン",
+     "エジプト",
+     "モアブ"
+    ],
+    "ko": [
+     "하느님은 어느 땅에서 집에 곰팡이를 생기게 하시는가(레위기 14장)?",
+     "가나안",
+     "이집트",
+     "모압"
+    ],
+    "ar": [
+     "في أي أرض يرسل الله العفن إلى البيوت (اللاويين 14)؟",
+     "كنعان",
+     "مصر",
+     "موآب"
+    ]
+   }
+  },
+  {
+   "id": "ch-leviticus-014-05",
+   "book": "leviticus",
+   "chapter": 14,
+   "difficulty": "impossible",
+   "ref": "Leviticus 14:10",
+   "text": {
+    "en": [
+     "How many tenths of an ephah of flour does a wealthy cleansed leper offer?",
+     "3",
+     "2",
+     "6"
+    ],
+    "es": [
+     "¿Cuántas décimas de efá de harina ofrece un leproso purificado rico?",
+     "3",
+     "2",
+     "6"
+    ],
+    "pt": [
+     "Quantos décimos de efa de farinha oferece um leproso purificado rico?",
+     "3",
+     "2",
+     "6"
+    ],
+    "fr": [
+     "Combien de dixièmes d'épha de farine un lépreux purifié riche offre-t-il ?",
+     "3",
+     "2",
+     "6"
+    ],
+    "de": [
+     "Wie viele Zehntel Efa Mehl opfert ein reicher gereinigter Aussätziger?",
+     "3",
+     "2",
+     "6"
+    ],
+    "it": [
+     "Quanti decimi di efa di farina offre un lebbroso purificato ricco?",
+     "3",
+     "2",
+     "6"
+    ],
+    "pl": [
+     "Ile dziesiątych części efy mąki ofiaruje bogaty oczyszczony trędowaty?",
+     "3",
+     "2",
+     "6"
+    ],
+    "ru": [
+     "Сколько десятых долей ефы муки приносит богатый очистившийся прокажённый?",
+     "3",
+     "2",
+     "6"
+    ],
+    "tr": [
+     "Zengin, arınmış bir cüzamlı kaç onda bir efa un sunar?",
+     "3",
+     "2",
+     "6"
+    ],
+    "ja": [
+     "裕福な清められた重い皮膚病の人は、小麦粉をエファの十分の幾つ献げるか？",
+     "3",
+     "2",
+     "6"
+    ],
+    "ko": [
+     "정결해진 부유한 나병 환자는 밀가루를 에파의 십분의 몇 바치는가?",
+     "3",
+     "2",
+     "6"
+    ],
+    "ar": [
+     "كم من عُشر الإيفة من الدقيق يقدّم الأبرص الطاهر الغني؟",
+     "3",
+     "2",
+     "6"
+    ]
+   }
+  },
+  {
+   "id": "ch-leviticus-014-06",
+   "book": "leviticus",
+   "chapter": 15,
+   "difficulty": "easy",
+   "ref": "Leviticus 15:5",
+   "text": {
+    "en": [
+     "After touching a discharging man's bed, in what must one bathe?",
+     "Water",
+     "Oil",
+     "Wine"
+    ],
+    "es": [
+     "¿En qué debe bañarse quien toca la cama de un hombre con flujo?",
+     "Agua",
+     "Aceite",
+     "Vino"
+    ],
+    "pt": [
+     "Em que deve banhar-se quem toca a cama de um homem com fluxo?",
+     "Água",
+     "Óleo",
+     "Vinho"
+    ],
+    "fr": [
+     "Dans quoi doit se baigner celui qui touche le lit d'un homme atteint d'écoulement ?",
+     "Eau",
+     "Huile",
+     "Vin"
+    ],
+    "de": [
+     "Worin muss sich baden, wer das Bett eines Mannes mit Ausfluss berührt?",
+     "Wasser",
+     "Öl",
+     "Wein"
+    ],
+    "it": [
+     "In che cosa deve bagnarsi chi tocca il letto di un uomo affetto da flusso?",
+     "Acqua",
+     "Olio",
+     "Vino"
+    ],
+    "pl": [
+     "W czym musi się obmyć ten, kto dotknie łoża mężczyzny z wyciekiem?",
+     "Woda",
+     "Oliwa",
+     "Wino"
+    ],
+    "ru": [
+     "В чём должен омыться тот, кто прикоснулся к постели больного истечением?",
+     "Вода",
+     "Масло",
+     "Вино"
+    ],
+    "tr": [
+     "Akıntılı bir adamın yatağına dokunan kişi neyle yıkanmalıdır?",
+     "Su",
+     "Yağ",
+     "Şarap"
+    ],
+    "ja": [
+     "流出のある男の寝床に触れた人は、何で身を洗うか？",
+     "水",
+     "油",
+     "ぶどう酒"
+    ],
+    "ko": [
+     "유출이 있는 남자의 침상에 닿은 사람은 무엇으로 몸을 씻어야 하는가?",
+     "물",
+     "기름",
+     "포도주"
+    ],
+    "ar": [
+     "بماذا يستحم من يلمس فراش صاحب السيلان؟",
+     "ماء",
+     "زيت",
+     "خمر"
+    ]
+   }
+  },
+  {
+   "id": "ch-leviticus-014-07",
+   "book": "leviticus",
+   "chapter": 15,
+   "difficulty": "medium",
+   "ref": "Leviticus 15:19",
+   "text": {
+    "en": [
+     "How many days is a woman unclean during her monthly period?",
+     "7",
+     "3",
+     "14"
+    ],
+    "es": [
+     "¿Cuántos días es impura la mujer durante su período mensual?",
+     "7",
+     "3",
+     "14"
+    ],
+    "pt": [
+     "Quantos dias a mulher fica impura durante o seu período menstrual?",
+     "7",
+     "3",
+     "14"
+    ],
+    "fr": [
+     "Combien de jours la femme est-elle impure pendant ses règles ?",
+     "7",
+     "3",
+     "14"
+    ],
+    "de": [
+     "Wie viele Tage ist eine Frau während ihrer Monatsblutung unrein?",
+     "7",
+     "3",
+     "14"
+    ],
+    "it": [
+     "Quanti giorni la donna è impura durante le mestruazioni?",
+     "7",
+     "3",
+     "14"
+    ],
+    "pl": [
+     "Przez ile dni kobieta jest nieczysta podczas miesięcznego krwawienia?",
+     "7",
+     "3",
+     "14"
+    ],
+    "ru": [
+     "Сколько дней женщина нечиста во время месячных?",
+     "7",
+     "3",
+     "14"
+    ],
+    "tr": [
+     "Kadın aybaşı süresince kaç gün kirli sayılır?",
+     "7",
+     "3",
+     "14"
+    ],
+    "ja": [
+     "月のものの間、女性は何日間汚れているとされるか？",
+     "7",
+     "3",
+     "14"
+    ],
+    "ko": [
+     "여자는 월경 기간에 며칠 동안 부정한가?",
+     "7",
+     "3",
+     "14"
+    ],
+    "ar": [
+     "كم يومًا تكون المرأة نجسة أثناء دورتها الشهرية؟",
+     "7",
+     "3",
+     "14"
+    ]
+   }
+  },
+  {
+   "id": "ch-leviticus-014-08",
+   "book": "leviticus",
+   "chapter": 15,
+   "difficulty": "hard",
+   "ref": "Leviticus 15:14",
+   "text": {
+    "en": [
+     "On the eighth day, a man cured of discharge offers pigeons or which bird?",
+     "Turtledove",
+     "Raven",
+     "Eagle"
+    ],
+    "es": [
+     "¿Qué otra ave, en lugar de pichones, ofrece el octavo día un hombre curado de flujo?",
+     "Tórtola",
+     "Cuervo",
+     "Águila"
+    ],
+    "pt": [
+     "Que outra ave, em vez de pombinhos, oferece no oitavo dia o homem curado de fluxo?",
+     "Rola",
+     "Corvo",
+     "Águia"
+    ],
+    "fr": [
+     "Au huitième jour, l'homme guéri d'un écoulement offre des pigeonneaux ou quel autre oiseau ?",
+     "Tourterelle",
+     "Corbeau",
+     "Aigle"
+    ],
+    "de": [
+     "Welcher Vogel wird am achten Tag von einem vom Ausfluss Geheilten statt junger Tauben geopfert?",
+     "Turteltaube",
+     "Rabe",
+     "Adler"
+    ],
+    "it": [
+     "L'ottavo giorno un uomo guarito da un flusso offre giovani colombi o quale altro uccello?",
+     "Tortora",
+     "Corvo",
+     "Aquila"
+    ],
+    "pl": [
+     "Jaki ptak, zamiast młodych gołębi, jest ofiarą mężczyzny uzdrowionego z wycieku ósmego dnia?",
+     "Synogarlica",
+     "Kruk",
+     "Orzeł"
+    ],
+    "ru": [
+     "Какая птица приносится на восьмой день исцелившимся от истечения вместо голубиных птенцов?",
+     "Горлица",
+     "Ворон",
+     "Орёл"
+    ],
+    "tr": [
+     "Akıntıdan iyileşen adam sekizinci gün güvercin yavrusu yerine hangi kuşu sunar?",
+     "Kumru",
+     "Karga",
+     "Kartal"
+    ],
+    "ja": [
+     "流出が治った男は八日目に、家鳩の雛、またはどの鳥を献げるか？",
+     "山鳩",
+     "カラス",
+     "鷲"
+    ],
+    "ko": [
+     "유출이 나은 남자는 여드레째 날 어린 집비둘기나 어떤 새를 바치는가?",
+     "산비둘기",
+     "까마귀",
+     "독수리"
+    ],
+    "ar": [
+     "أي طائر يقدّمه في اليوم الثامن من شُفي من السيلان، بدل فراخ الحمام؟",
+     "يمامة",
+     "غراب",
+     "نسر"
+    ]
+   }
+  },
+  {
+   "id": "ch-leviticus-014-09",
+   "book": "leviticus",
+   "chapter": 15,
+   "difficulty": "expert",
+   "ref": "Leviticus 15:12",
+   "text": {
+    "en": [
+     "What must be done to a clay vessel touched by a discharging man?",
+     "Break",
+     "Wash",
+     "Burn"
+    ],
+    "es": [
+     "¿Qué debe hacerse con una vasija de barro tocada por el hombre con flujo?",
+     "Romper",
+     "Lavar",
+     "Quemar"
+    ],
+    "pt": [
+     "O que se deve fazer com um vaso de barro tocado pelo homem com fluxo?",
+     "Quebrar",
+     "Lavar",
+     "Queimar"
+    ],
+    "fr": [
+     "Que faut-il faire d'un vase d'argile touché par l'homme atteint d'écoulement ?",
+     "Briser",
+     "Laver",
+     "Brûler"
+    ],
+    "de": [
+     "Was muss man mit einem Tongefäß tun, das der Ausfluss-Kranke berührt hat?",
+     "Zerbrechen",
+     "Waschen",
+     "Verbrennen"
+    ],
+    "it": [
+     "Che cosa si deve fare a un vaso di terracotta toccato dall'uomo con flusso?",
+     "Spezzare",
+     "Lavare",
+     "Bruciare"
+    ],
+    "pl": [
+     "Co trzeba zrobić z glinianym naczyniem dotkniętym przez mężczyznę z wyciekiem?",
+     "Stłuc",
+     "Umyć",
+     "Spalić"
+    ],
+    "ru": [
+     "Что нужно сделать с глиняным сосудом, которого коснулся больной истечением?",
+     "Разбить",
+     "Вымыть",
+     "Сжечь"
+    ],
+    "tr": [
+     "Akıntılı adamın dokunduğu çanak çömlekle ne yapılmalıdır?",
+     "Kırmak",
+     "Yıkamak",
+     "Yakmak"
+    ],
+    "ja": [
+     "流出のある男が触れた土の器は、どうしなければならないか？",
+     "割る",
+     "洗う",
+     "焼く"
+    ],
+    "ko": [
+     "유출이 있는 남자가 만진 질그릇은 어떻게 해야 하는가?",
+     "깨뜨리다",
+     "씻다",
+     "태우다"
+    ],
+    "ar": [
+     "ماذا يجب أن يُفعل بإناء الفخار الذي لمسه صاحب السيلان؟",
+     "كسر",
+     "غسل",
+     "حرق"
+    ]
+   }
+  },
+  {
+   "id": "ch-leviticus-014-10",
+   "book": "leviticus",
+   "chapter": 15,
+   "difficulty": "impossible",
+   "ref": "Leviticus 15:31",
+   "text": {
+    "en": [
+     "Leviticus 15 warns uncleanness could defile which dwelling of God among Israel?",
+     "Tabernacle",
+     "Synagogue",
+     "Citadel"
+    ],
+    "es": [
+     "¿Qué morada de Dios en medio de Israel advierte Levítico 15 que la impureza podía contaminar?",
+     "Tabernáculo",
+     "Sinagoga",
+     "Ciudadela"
+    ],
+    "pt": [
+     "Que morada de Deus no meio de Israel, segundo Levítico 15, a impureza podia contaminar?",
+     "Tabernáculo",
+     "Sinagoga",
+     "Cidadela"
+    ],
+    "fr": [
+     "Quelle demeure de Dieu au milieu d'Israël l'impureté pouvait-elle souiller (Lévitique 15) ?",
+     "Tabernacle",
+     "Synagogue",
+     "Citadelle"
+    ],
+    "de": [
+     "Welches Heiligtum Gottes inmitten Israels konnte die Unreinheit nach Levitikus 15 verunreinigen?",
+     "Wohnstätte",
+     "Synagoge",
+     "Zitadelle"
+    ],
+    "it": [
+     "Quale dimora di Dio in mezzo a Israele poteva essere contaminata dall'impurità, secondo Levitico 15?",
+     "Tabernacolo",
+     "Sinagoga",
+     "Cittadella"
+    ],
+    "pl": [
+     "Która siedziba Boga pośród Izraela mogła zostać skalana nieczystością według Księgi Kapłańskiej 15?",
+     "Przybytek",
+     "Synagoga",
+     "Cytadela"
+    ],
+    "ru": [
+     "Какое жилище Бога среди Израиля могла осквернить нечистота по Левиту 15?",
+     "Скиния",
+     "Синагога",
+     "Цитадель"
+    ],
+    "tr": [
+     "Levililer 15'e göre murdarlık, İsrail'in ortasındaki Tanrı'nın hangi evini kirletebilirdi?",
+     "Konut",
+     "Havra",
+     "Kale"
+    ],
+    "ja": [
+     "レビ記15章によれば、汚れは、イスラエルの中にある神のどの住まいを汚しえたか？",
+     "幕屋",
+     "会堂",
+     "城塞"
+    ],
+    "ko": [
+     "레위기 15장에 따르면 부정은 이스라엘 가운데 있는 하느님의 어느 거처를 더럽힐 수 있었는가?",
+     "성막",
+     "회당",
+     "성채"
+    ],
+    "ar": [
+     "بحسب اللاويين 15، أي مقر لله وسط إسرائيل كان يمكن للنجاسة أن تنجّسه؟",
+     "مسكن",
+     "كنيس",
+     "قلعة"
+    ]
+   }
+  },
+  {
+   "id": "ch-leviticus-014-11",
+   "book": "leviticus",
+   "chapter": 16,
+   "difficulty": "easy",
+   "ref": "Leviticus 16:21-22",
+   "text": {
+    "en": [
+     "Which animal carries Israel's sins into the wilderness on the Day of Atonement?",
+     "Goat",
+     "Lamb",
+     "Bull"
+    ],
+    "es": [
+     "¿Qué animal lleva los pecados de Israel al desierto el Día de la Expiación?",
+     "Cabra",
+     "Cordero",
+     "Toro"
+    ],
+    "pt": [
+     "Que animal leva os pecados de Israel ao deserto no Dia da Expiação?",
+     "Bode",
+     "Cordeiro",
+     "Touro"
+    ],
+    "fr": [
+     "Quel animal emporte les péchés d'Israël au désert le jour de l'Expiation ?",
+     "Bouc",
+     "Agneau",
+     "Taureau"
+    ],
+    "de": [
+     "Welches Tier trägt am Versöhnungstag Israels Sünden in die Wüste?",
+     "Bock",
+     "Lamm",
+     "Stier"
+    ],
+    "it": [
+     "Quale animale porta i peccati d'Israele nel deserto nel giorno dell'Espiazione?",
+     "Capro",
+     "Agnello",
+     "Toro"
+    ],
+    "pl": [
+     "Które zwierzę zanosi grzechy Izraela na pustynię w Dzień Przebłagania?",
+     "Kozioł",
+     "Baranek",
+     "Byk"
+    ],
+    "ru": [
+     "Какое животное уносит грехи Израиля в пустыню в День очищения?",
+     "Козёл",
+     "Ягнёнок",
+     "Телец"
+    ],
+    "tr": [
+     "Hangi hayvan Kefaret Günü İsrail'in günahlarını çöle taşır?",
+     "Teke",
+     "Kuzu",
+     "Boğa"
+    ],
+    "ja": [
+     "贖罪日に、イスラエルの罪を荒れ野へ運ぶ動物は？",
+     "雄山羊",
+     "小羊",
+     "雄牛"
+    ],
+    "ko": [
+     "속죄일에 이스라엘의 죄를 광야로 가져가는 동물은?",
+     "염소",
+     "어린양",
+     "황소"
+    ],
+    "ar": [
+     "أي حيوان يحمل خطايا إسرائيل إلى البرية في يوم الكفارة؟",
+     "تيس",
+     "حمل",
+     "ثور"
+    ]
+   }
+  },
+  {
+   "id": "ch-leviticus-014-12",
+   "book": "leviticus",
+   "chapter": 16,
+   "difficulty": "medium",
+   "ref": "Leviticus 16:5",
+   "text": {
+    "en": [
+     "On the Day of Atonement, how many goats does Aaron take for sin offering?",
+     "2",
+     "1",
+     "3"
+    ],
+    "es": [
+     "¿Cuántos machos cabríos toma Aarón el Día de la Expiación para la ofrenda por el pecado?",
+     "2",
+     "1",
+     "3"
+    ],
+    "pt": [
+     "Quantos bodes Arão toma no Dia da Expiação para a oferta pelo pecado?",
+     "2",
+     "1",
+     "3"
+    ],
+    "fr": [
+     "Combien de boucs Aaron prend-il au jour de l'Expiation pour le sacrifice pour le péché ?",
+     "2",
+     "1",
+     "3"
+    ],
+    "de": [
+     "Wie viele Ziegenböcke nimmt Aaron am Versöhnungstag als Sündopfer?",
+     "2",
+     "1",
+     "3"
+    ],
+    "it": [
+     "Quanti capri prende Aronne nel giorno dell'Espiazione per il sacrificio per il peccato?",
+     "2",
+     "1",
+     "3"
+    ],
+    "pl": [
+     "Ilu kozłów bierze Aaron w Dzień Przebłagania na ofiarę za grzech?",
+     "2",
+     "1",
+     "3"
+    ],
+    "ru": [
+     "Сколько козлов берёт Аарон в День очищения для жертвы за грех?",
+     "2",
+     "1",
+     "3"
+    ],
+    "tr": [
+     "Harun, Kefaret Günü günah sunusu için kaç teke alır?",
+     "2",
+     "1",
+     "3"
+    ],
+    "ja": [
+     "贖罪日に、アロンは贖罪の献げ物のために雄山羊を何匹取るか？",
+     "2",
+     "1",
+     "3"
+    ],
+    "ko": [
+     "속죄일에 아론은 속죄 제물로 염소를 몇 마리 받는가?",
+     "2",
+     "1",
+     "3"
+    ],
+    "ar": [
+     "في يوم الكفارة، كم تيسًا يأخذ هارون لذبيحة الخطيئة؟",
+     "2",
+     "1",
+     "3"
+    ]
+   }
+  },
+  {
+   "id": "ch-leviticus-014-13",
+   "book": "leviticus",
+   "chapter": 16,
+   "difficulty": "hard",
+   "ref": "Leviticus 16:29",
+   "text": {
+    "en": [
+     "On which day of the seventh month is the Day of Atonement?",
+     "10",
+     "15",
+     "1"
+    ],
+    "es": [
+     "¿Qué día del séptimo mes es el Día de la Expiación?",
+     "10",
+     "15",
+     "1"
+    ],
+    "pt": [
+     "Em que dia do sétimo mês cai o Dia da Expiação?",
+     "10",
+     "15",
+     "1"
+    ],
+    "fr": [
+     "Quel jour du septième mois tombe le jour de l'Expiation ?",
+     "10",
+     "15",
+     "1"
+    ],
+    "de": [
+     "An welchem Tag des siebten Monats ist der Versöhnungstag?",
+     "10",
+     "15",
+     "1"
+    ],
+    "it": [
+     "In quale giorno del settimo mese cade il giorno dell'Espiazione?",
+     "10",
+     "15",
+     "1"
+    ],
+    "pl": [
+     "Którego dnia siódmego miesiąca przypada Dzień Przebłagania?",
+     "10",
+     "15",
+     "1"
+    ],
+    "ru": [
+     "В какой день седьмого месяца бывает День очищения?",
+     "10",
+     "15",
+     "1"
+    ],
+    "tr": [
+     "Kefaret Günü yedinci ayın kaçıncı günüdür?",
+     "10",
+     "15",
+     "1"
+    ],
+    "ja": [
+     "贖罪日は第七の月の何日か？",
+     "10",
+     "15",
+     "1"
+    ],
+    "ko": [
+     "속죄일은 일곱째 달 며칠인가?",
+     "10",
+     "15",
+     "1"
+    ],
+    "ar": [
+     "في أي يوم من الشهر السابع يقع يوم الكفارة؟",
+     "10",
+     "15",
+     "1"
+    ]
+   }
+  },
+  {
+   "id": "ch-leviticus-014-14",
+   "book": "leviticus",
+   "chapter": 16,
+   "difficulty": "expert",
+   "ref": "Leviticus 16:4",
+   "text": {
+    "en": [
+     "What fabric are Aaron's holy garments on the Day of Atonement?",
+     "Linen",
+     "Wool",
+     "Leather"
+    ],
+    "es": [
+     "¿De qué tela son las vestiduras sagradas de Aarón el Día de la Expiación?",
+     "Lino",
+     "Lana",
+     "Cuero"
+    ],
+    "pt": [
+     "De que tecido são as vestes sagradas de Arão no Dia da Expiação?",
+     "Linho",
+     "Lã",
+     "Couro"
+    ],
+    "fr": [
+     "De quelle étoffe sont les vêtements sacrés d'Aaron le jour de l'Expiation ?",
+     "Lin",
+     "Laine",
+     "Cuir"
+    ],
+    "de": [
+     "Aus welchem Stoff sind Aarons heilige Gewänder am Versöhnungstag?",
+     "Leinen",
+     "Wolle",
+     "Leder"
+    ],
+    "it": [
+     "Di quale tessuto sono le vesti sacre di Aronne nel giorno dell'Espiazione?",
+     "Lino",
+     "Lana",
+     "Cuoio"
+    ],
+    "pl": [
+     "Z jakiej tkaniny są święte szaty Aarona w Dzień Przebłagania?",
+     "Len",
+     "Wełna",
+     "Skóra"
+    ],
+    "ru": [
+     "Из какой ткани священные одежды Аарона в День очищения?",
+     "Лён",
+     "Шерсть",
+     "Кожа"
+    ],
+    "tr": [
+     "Harun'un Kefaret Günü kutsal giysileri hangi kumaştandır?",
+     "Keten",
+     "Yün",
+     "Deri"
+    ],
+    "ja": [
+     "贖罪日のアロンの聖なる衣は、何でできているか？",
+     "亜麻布",
+     "羊毛",
+     "革"
+    ],
+    "ko": [
+     "속죄일에 아론의 거룩한 옷은 무슨 천으로 만드는가?",
+     "아마포",
+     "양모",
+     "가죽"
+    ],
+    "ar": [
+     "من أي قماش ثياب هارون المقدسة في يوم الكفارة؟",
+     "كتان",
+     "صوف",
+     "جلد"
+    ]
+   }
+  },
+  {
+   "id": "ch-leviticus-014-15",
+   "book": "leviticus",
+   "chapter": 16,
+   "difficulty": "impossible",
+   "ref": "Leviticus 16:14",
+   "text": {
+    "en": [
+     "On Atonement Day, how many times does Aaron sprinkle blood before the mercy seat?",
+     "7",
+     "3",
+     "12"
+    ],
+    "es": [
+     "¿Cuántas veces rocía Aarón sangre delante del propiciatorio el Día de la Expiación?",
+     "7",
+     "3",
+     "12"
+    ],
+    "pt": [
+     "Quantas vezes Arão asperge sangue diante do propiciatório no Dia da Expiação?",
+     "7",
+     "3",
+     "12"
+    ],
+    "fr": [
+     "Combien de fois Aaron fait-il l'aspersion du sang devant le propitiatoire au jour de l'Expiation ?",
+     "7",
+     "3",
+     "12"
+    ],
+    "de": [
+     "Wie oft sprengt Aaron am Versöhnungstag Blut vor den Sühnedeckel?",
+     "7",
+     "3",
+     "12"
+    ],
+    "it": [
+     "Quante volte Aronne asperge il sangue davanti al propiziatorio nel giorno dell'Espiazione?",
+     "7",
+     "3",
+     "12"
+    ],
+    "pl": [
+     "Ile razy Aaron kropi krwią przed przebłagalnią w Dzień Przebłagania?",
+     "7",
+     "3",
+     "12"
+    ],
+    "ru": [
+     "Сколько раз Аарон кропит кровью перед крышкой в День очищения?",
+     "7",
+     "3",
+     "12"
+    ],
+    "tr": [
+     "Harun, Kefaret Günü'nde Kefaret Kapağı'nın önüne kaç kez kan serper?",
+     "7",
+     "3",
+     "12"
+    ],
+    "ja": [
+     "贖罪日に、アロンは贖いの座の前に何回血を振りかけるか？",
+     "7",
+     "3",
+     "12"
+    ],
+    "ko": [
+     "속죄일에 아론은 속죄판 앞에 피를 몇 번 뿌리는가?",
+     "7",
+     "3",
+     "12"
+    ],
+    "ar": [
+     "في يوم الكفارة، كم مرة يرشّ هارون الدم أمام الغطاء؟",
+     "7",
+     "3",
+     "12"
+    ]
+   }
+  },
+  {
+   "id": "ch-leviticus-014-16",
+   "book": "leviticus",
+   "chapter": 17,
+   "difficulty": "easy",
+   "ref": "Leviticus 17:14",
+   "text": {
+    "en": [
+     "What must Israelites never eat, because the flesh's life is in it?",
+     "Blood",
+     "Honey",
+     "Olives"
+    ],
+    "es": [
+     "¿Qué no deben comer nunca los israelitas, porque en ello está la vida de la carne?",
+     "Sangre",
+     "Miel",
+     "Aceitunas"
+    ],
+    "pt": [
+     "O que os israelitas nunca devem comer, porque nele está a vida da carne?",
+     "Sangue",
+     "Mel",
+     "Azeitonas"
+    ],
+    "fr": [
+     "Que les Israélites ne doivent-ils jamais manger, car en cela est la vie de la chair ?",
+     "Sang",
+     "Miel",
+     "Olives"
+    ],
+    "de": [
+     "Was dürfen die Israeliten nie essen, weil darin das Leben des Fleisches ist?",
+     "Blut",
+     "Honig",
+     "Oliven"
+    ],
+    "it": [
+     "Che cosa gli Israeliti non devono mai mangiare, perché in esso è la vita della carne?",
+     "Sangue",
+     "Miele",
+     "Olive"
+    ],
+    "pl": [
+     "Czego Izraelici nigdy nie mogą jeść, bo w tym jest życie ciała?",
+     "Krew",
+     "Miód",
+     "Oliwki"
+    ],
+    "ru": [
+     "Что израильтянам нельзя есть, потому что в этом жизнь плоти?",
+     "Кровь",
+     "Мёд",
+     "Маслины"
+    ],
+    "tr": [
+     "İsrailliler, etin canı içinde olduğu için neyi asla yememelidir?",
+     "Kan",
+     "Bal",
+     "Zeytin"
+    ],
+    "ja": [
+     "肉の命がその中にあるので、イスラエル人が決して食べてはならないものは？",
+     "血",
+     "蜂蜜",
+     "オリーブ"
+    ],
+    "ko": [
+     "고기의 생명이 그 안에 있어 이스라엘인이 결코 먹어서는 안 되는 것은?",
+     "피",
+     "꿀",
+     "올리브"
+    ],
+    "ar": [
+     "ماذا يُمنع على بني إسرائيل أكله لأن فيه حياة الجسد؟",
+     "دم",
+     "عسل",
+     "زيتون"
+    ]
+   }
+  },
+  {
+   "id": "ch-leviticus-014-17",
+   "book": "leviticus",
+   "chapter": 17,
+   "difficulty": "medium",
+   "ref": "Leviticus 17:3",
+   "text": {
+    "en": [
+     "Which animal, besides lamb and goat, must be slaughtered at the Tent entrance?",
+     "Ox",
+     "Donkey",
+     "Camel"
+    ],
+    "es": [
+     "¿Qué animal, además del cordero y la cabra, debe sacrificarse a la entrada de la Tienda?",
+     "Buey",
+     "Burro",
+     "Camello"
+    ],
+    "pt": [
+     "Que animal, além do cordeiro e do bode, deve ser abatido à entrada da Tenda?",
+     "Boi",
+     "Jumento",
+     "Camelo"
+    ],
+    "fr": [
+     "Quel animal, avec l'agneau et la chèvre, doit être immolé à l'entrée de la Tente ?",
+     "Bœuf",
+     "Âne",
+     "Chameau"
+    ],
+    "de": [
+     "Welches Tier muss außer Lamm und Ziege am Eingang des Offenbarungszeltes geschlachtet werden?",
+     "Rind",
+     "Esel",
+     "Kamel"
+    ],
+    "it": [
+     "Quale animale, oltre ad agnello e capra, va immolato all'ingresso della Tenda?",
+     "Bue",
+     "Asino",
+     "Cammello"
+    ],
+    "pl": [
+     "Które zwierzę, obok baranka i kozła, trzeba zabić u wejścia do Namiotu?",
+     "Wół",
+     "Osioł",
+     "Wielbłąd"
+    ],
+    "ru": [
+     "Какое животное, кроме агнца и козла, надо заколоть у входа в скинию?",
+     "Вол",
+     "Осёл",
+     "Верблюд"
+    ],
+    "tr": [
+     "Kuzu ve keçiden başka hangi hayvan Çadır'ın girişinde kesilmelidir?",
+     "Öküz",
+     "Eşek",
+     "Deve"
+    ],
+    "ja": [
+     "小羊と山羊のほか、臨在の幕屋の入り口で屠るべき動物は？",
+     "牛",
+     "ろば",
+     "らくだ"
+    ],
+    "ko": [
+     "어린양과 염소 외에, 만남의 천막 어귀에서 잡아야 하는 동물은?",
+     "소",
+     "나귀",
+     "낙타"
+    ],
+    "ar": [
+     "أي حيوان، غير الحمل والتيس، يجب ذبحه عند مدخل الخيمة؟",
+     "ثور",
+     "حمار",
+     "جمل"
+    ]
+   }
+  },
+  {
+   "id": "ch-leviticus-014-18",
+   "book": "leviticus",
+   "chapter": 17,
+   "difficulty": "hard",
+   "ref": "Leviticus 17:13",
+   "text": {
+    "en": [
+     "In Leviticus 17, with what must a hunter cover a slain animal's blood?",
+     "Earth",
+     "Ashes",
+     "Leaves"
+    ],
+    "es": [
+     "¿Con qué debe cubrir un cazador la sangre del animal que ha matado (Levítico 17)?",
+     "Tierra",
+     "Cenizas",
+     "Hojas"
+    ],
+    "pt": [
+     "Com o que um caçador deve cobrir o sangue do animal que matou (Levítico 17)?",
+     "Terra",
+     "Cinzas",
+     "Folhas"
+    ],
+    "fr": [
+     "De quoi un chasseur doit-il couvrir le sang de l'animal qu'il a tué (Lévitique 17) ?",
+     "Terre",
+     "Cendres",
+     "Feuilles"
+    ],
+    "de": [
+     "Womit muss ein Jäger das Blut des erlegten Tieres bedecken (Levitikus 17)?",
+     "Erde",
+     "Asche",
+     "Blätter"
+    ],
+    "it": [
+     "Con che cosa deve coprire un cacciatore il sangue dell'animale ucciso (Levitico 17)?",
+     "Terra",
+     "Cenere",
+     "Foglie"
+    ],
+    "pl": [
+     "Czym myśliwy ma przykryć krew zabitego zwierzęcia (Księga Kapłańska 17)?",
+     "Ziemią",
+     "Popiołem",
+     "Liśćmi"
+    ],
+    "ru": [
+     "Чем охотник должен покрыть кровь убитого животного (Левит 17)?",
+     "Землёй",
+     "Пеплом",
+     "Листьями"
+    ],
+    "tr": [
+     "Avcı, öldürdüğü hayvanın kanını Levililer 17'ye göre neyle örtmelidir?",
+     "Toprak",
+     "Kül",
+     "Yapraklar"
+    ],
+    "ja": [
+     "レビ記17章で、猟をした人は殺した動物の血を何で覆うべきか？",
+     "土",
+     "灰",
+     "葉"
+    ],
+    "ko": [
+     "레위기 17장에서 사냥꾼은 잡은 짐승의 피를 무엇으로 덮어야 하는가?",
+     "흙",
+     "재",
+     "나뭇잎"
+    ],
+    "ar": [
+     "بماذا يجب أن يغطي الصائد دم الحيوان الذي قتله (اللاويين 17)؟",
+     "تراب",
+     "رماد",
+     "أوراق"
+    ]
+   }
+  },
+  {
+   "id": "ch-leviticus-014-19",
+   "book": "leviticus",
+   "chapter": 17,
+   "difficulty": "expert",
+   "ref": "Leviticus 17:15",
+   "text": {
+    "en": [
+     "A person eating a torn animal is unclean until what time?",
+     "Evening",
+     "Morning",
+     "Dawn"
+    ],
+    "es": [
+     "¿Hasta qué momento es impuro quien come un animal despedazado?",
+     "Tarde",
+     "Mañana",
+     "Amanecer"
+    ],
+    "pt": [
+     "Até que momento fica impuro quem come um animal dilacerado?",
+     "Tarde",
+     "Manhã",
+     "Madrugada"
+    ],
+    "fr": [
+     "Jusqu'à quel moment est impur celui qui mange une bête déchirée ?",
+     "Soir",
+     "Matin",
+     "Aube"
+    ],
+    "de": [
+     "Bis wann ist unrein, wer ein gerissenes Tier gegessen hat?",
+     "Abend",
+     "Morgen",
+     "Morgengrauen"
+    ],
+    "it": [
+     "Fino a quando è impuro chi mangia un animale sbranato?",
+     "Sera",
+     "Mattino",
+     "Alba"
+    ],
+    "pl": [
+     "Do kiedy jest nieczysty ten, kto zjadł rozszarpane zwierzę?",
+     "Wieczór",
+     "Poranek",
+     "Świt"
+    ],
+    "ru": [
+     "До какого времени нечист тот, кто ел растерзанное животное?",
+     "Вечер",
+     "Утро",
+     "Рассвет"
+    ],
+    "tr": [
+     "Parçalanmış hayvan yiyen kişi hangi zamana kadar kirlidir?",
+     "Akşam",
+     "Sabah",
+     "Şafak"
+    ],
+    "ja": [
+     "野獣に裂かれた動物を食べた人は、いつまで汚れているか？",
+     "夕方",
+     "朝",
+     "夜明け"
+    ],
+    "ko": [
+     "맹수에게 찢긴 짐승을 먹은 사람은 언제까지 부정한가?",
+     "저녁",
+     "아침",
+     "새벽"
+    ],
+    "ar": [
+     "إلى أي وقت يبقى نجسًا من أكل حيوانًا ممزقًا؟",
+     "مساء",
+     "صباح",
+     "فجر"
+    ]
+   }
+  },
+  {
+   "id": "ch-leviticus-014-20",
+   "book": "leviticus",
+   "chapter": 17,
+   "difficulty": "impossible",
+   "ref": "Leviticus 17:6",
+   "text": {
+    "en": [
+     "Which part of the slaughtered animal does the priest burn on the altar?",
+     "Fat",
+     "Hooves",
+     "Horns"
+    ],
+    "es": [
+     "¿Qué parte del animal sacrificado quema el sacerdote en el altar?",
+     "Grasa",
+     "Pezuñas",
+     "Cuernos"
+    ],
+    "pt": [
+     "Que parte do animal abatido o sacerdote queima no altar?",
+     "Gordura",
+     "Cascos",
+     "Chifres"
+    ],
+    "fr": [
+     "Quelle partie de l'animal immolé le prêtre brûle-t-il sur l'autel ?",
+     "Graisse",
+     "Sabots",
+     "Cornes"
+    ],
+    "de": [
+     "Welchen Teil des geschlachteten Tieres verbrennt der Priester auf dem Altar?",
+     "Fett",
+     "Hufe",
+     "Hörner"
+    ],
+    "it": [
+     "Quale parte dell'animale immolato il sacerdote brucia sull'altare?",
+     "Grasso",
+     "Zoccoli",
+     "Corna"
+    ],
+    "pl": [
+     "Którą część zabitego zwierzęcia kapłan spala na ołtarzu?",
+     "Tłuszcz",
+     "Kopyta",
+     "Rogi"
+    ],
+    "ru": [
+     "Какую часть закланного животного священник сжигает на жертвеннике?",
+     "Тук",
+     "Копыта",
+     "Рога"
+    ],
+    "tr": [
+     "Kâhin kesilen hayvanın hangi kısmını sunakta yakar?",
+     "Yağ",
+     "Toynak",
+     "Boynuz"
+    ],
+    "ja": [
+     "祭司は、屠った動物のどの部分を祭壇で焼くか？",
+     "脂肪",
+     "ひづめ",
+     "角"
+    ],
+    "ko": [
+     "사제는 잡은 짐승의 어느 부분을 제단에서 태우는가?",
+     "굳기름",
+     "발굽",
+     "뿔"
+    ],
+    "ar": [
+     "أي جزء من الحيوان المذبوح يحرقه الكاهن على المذبح؟",
+     "شحم",
+     "حوافر",
+     "قرون"
+    ]
+   }
+  },
+  {
+   "id": "ch-leviticus-014-21",
+   "book": "leviticus",
+   "chapter": 18,
+   "difficulty": "easy",
+   "ref": "Leviticus 18:21",
+   "text": {
+    "en": [
+     "To which god must Israelites never give their children, Leviticus 18?",
+     "Molech",
+     "Baal",
+     "Dagon"
+    ],
+    "es": [
+     "¿A qué dios no deben entregar los israelitas a sus hijos, Levítico 18?",
+     "Moloc",
+     "Baal",
+     "Dagón"
+    ],
+    "pt": [
+     "A que deus os israelitas nunca devem entregar seus filhos, Levítico 18?",
+     "Moloc",
+     "Baal",
+     "Dagon"
+    ],
+    "fr": [
+     "À quel dieu les Israélites ne doivent-ils jamais livrer leurs enfants (Lévitique 18) ?",
+     "Moloc",
+     "Baal",
+     "Dagon"
+    ],
+    "de": [
+     "Welchem Gott dürfen Israeliten nie ihre Kinder geben (Levitikus 18)?",
+     "Moloch",
+     "Baal",
+     "Dagon"
+    ],
+    "it": [
+     "A quale dio gli Israeliti non devono mai dare i figli (Levitico 18)?",
+     "Moloc",
+     "Baal",
+     "Dagon"
+    ],
+    "pl": [
+     "Któremu bogu Izraelici nie mogą nigdy oddawać dzieci (Księga Kapłańska 18)?",
+     "Moloch",
+     "Baal",
+     "Dagon"
+    ],
+    "ru": [
+     "Какому богу израильтяне не должны отдавать детей (Левит 18)?",
+     "Молох",
+     "Ваал",
+     "Дагон"
+    ],
+    "tr": [
+     "İsrailliler Levililer 18'de çocuklarını hangi ilaha asla vermemelidir?",
+     "Molek",
+     "Baal",
+     "Dagon"
+    ],
+    "ja": [
+     "イスラエル人が決して子を与えてはならない神は誰か（レビ記18章）？",
+     "モレク",
+     "バアル",
+     "ダゴン"
+    ],
+    "ko": [
+     "이스라엘인이 결코 자녀를 바쳐서는 안 되는 신은 누구인가(레위기 18장)?",
+     "몰록",
+     "바알",
+     "다곤"
+    ],
+    "ar": [
+     "لأي إله لا يجوز أن يقدّم بنو إسرائيل أولادهم (اللاويين 18)؟",
+     "مولك",
+     "بعل",
+     "داجون"
+    ]
+   }
+  },
+  {
+   "id": "ch-leviticus-014-22",
+   "book": "leviticus",
+   "chapter": 18,
+   "difficulty": "medium",
+   "ref": "Leviticus 18:3",
+   "text": {
+    "en": [
+     "From which land had Israel come, whose customs they must not imitate?",
+     "Egypt",
+     "Babylon",
+     "Assyria"
+    ],
+    "es": [
+     "¿De qué tierra venía Israel, cuyas costumbres no debía imitar?",
+     "Egipto",
+     "Babilonia",
+     "Asiria"
+    ],
+    "pt": [
+     "De que terra vinha Israel, cujos costumes não devia imitar?",
+     "Egito",
+     "Babilônia",
+     "Assíria"
+    ],
+    "fr": [
+     "De quel pays Israël venait-il, dont il ne devait pas imiter les coutumes ?",
+     "Égypte",
+     "Babylone",
+     "Assyrie"
+    ],
+    "de": [
+     "Aus welchem Land kam Israel, dessen Bräuche es nicht nachahmen sollte?",
+     "Ägypten",
+     "Babylon",
+     "Assyrien"
+    ],
+    "it": [
+     "Da quale terra veniva Israele, di cui non doveva imitare i costumi?",
+     "Egitto",
+     "Babilonia",
+     "Assiria"
+    ],
+    "pl": [
+     "Z jakiej ziemi przybył Izrael, której zwyczajów nie wolno naśladować?",
+     "Egipt",
+     "Babilon",
+     "Asyria"
+    ],
+    "ru": [
+     "Из какой земли пришёл Израиль, чьим обычаям нельзя подражать?",
+     "Египет",
+     "Вавилон",
+     "Ассирия"
+    ],
+    "tr": [
+     "İsrail'in çıktığı, âdetlerinin taklit edilmemesi gereken ülke hangisidir?",
+     "Mısır",
+     "Babil",
+     "Asur"
+    ],
+    "ja": [
+     "イスラエルが出てきた、その風習をまねてはならない地はどこか？",
+     "エジプト",
+     "バビロン",
+     "アッシリア"
+    ],
+    "ko": [
+     "이스라엘이 나온 곳으로, 그 풍습을 따라서는 안 되는 땅은?",
+     "이집트",
+     "바빌론",
+     "아시리아"
+    ],
+    "ar": [
+     "من أي أرض خرج إسرائيل، وممنوع أن يقلّد عاداتها؟",
+     "مصر",
+     "بابل",
+     "أشور"
+    ]
+   }
+  },
+  {
+   "id": "ch-leviticus-014-23",
+   "book": "leviticus",
+   "chapter": 18,
+   "difficulty": "hard",
+   "ref": "Leviticus 18:5",
+   "text": {
+    "en": [
+     "What does a man gain by keeping God's statutes, Leviticus 18:5?",
+     "Life",
+     "Wealth",
+     "Victory"
+    ],
+    "es": [
+     "¿Qué gana quien cumple los estatutos de Dios, Levítico 18,5?",
+     "Vida",
+     "Riqueza",
+     "Victoria"
+    ],
+    "pt": [
+     "O que ganha quem cumpre os estatutos de Deus, Levítico 18,5?",
+     "Vida",
+     "Riqueza",
+     "Vitória"
+    ],
+    "fr": [
+     "Que gagne celui qui observe les lois de Dieu (Lévitique 18,5) ?",
+     "Vie",
+     "Richesse",
+     "Victoire"
+    ],
+    "de": [
+     "Was gewinnt, wer Gottes Satzungen befolgt (Levitikus 18,5)?",
+     "Leben",
+     "Reichtum",
+     "Sieg"
+    ],
+    "it": [
+     "Che cosa guadagna chi osserva le leggi di Dio (Levitico 18,5)?",
+     "Vita",
+     "Ricchezza",
+     "Vittoria"
+    ],
+    "pl": [
+     "Co zyskuje ten, kto zachowuje ustawy Boga (Księga Kapłańska 18,5)?",
+     "Życie",
+     "Bogactwo",
+     "Zwycięstwo"
+    ],
+    "ru": [
+     "Что получает тот, кто соблюдает уставы Бога (Левит 18:5)?",
+     "Жизнь",
+     "Богатство",
+     "Победа"
+    ],
+    "tr": [
+     "Tanrı'nın kurallarını yerine getiren ne kazanır (Levililer 18:5)?",
+     "Hayat",
+     "Servet",
+     "Zafer"
+    ],
+    "ja": [
+     "神の掟を守る人は何を得るか（レビ記18章5節）？",
+     "命",
+     "富",
+     "勝利"
+    ],
+    "ko": [
+     "하느님의 규정을 지키는 사람은 무엇을 얻는가(레위기 18장 5절)?",
+     "생명",
+     "재산",
+     "승리"
+    ],
+    "ar": [
+     "ماذا يكسب من يحفظ فرائض الله (اللاويين 18: 5)؟",
+     "حياة",
+     "ثروة",
+     "نصر"
+    ]
+   }
+  },
+  {
+   "id": "ch-leviticus-014-24",
+   "book": "leviticus",
+   "chapter": 18,
+   "difficulty": "expert",
+   "ref": "Leviticus 18:25",
+   "text": {
+    "en": [
+     "In Leviticus 18, what does the defiled land do to its inhabitants?",
+     "Vomits",
+     "Swallows",
+     "Buries"
+    ],
+    "es": [
+     "¿Qué hace con sus habitantes la tierra contaminada (Levítico 18)?",
+     "Vomita",
+     "Traga",
+     "Entierra"
+    ],
+    "pt": [
+     "O que a terra contaminada faz com os seus habitantes (Levítico 18)?",
+     "Vomita",
+     "Engole",
+     "Enterra"
+    ],
+    "fr": [
+     "Que fait la terre souillée de ses habitants (Lévitique 18) ?",
+     "Vomit",
+     "Engloutit",
+     "Enterre"
+    ],
+    "de": [
+     "Was tut das verunreinigte Land mit seinen Bewohnern (Levitikus 18)?",
+     "Speit",
+     "Verschlingt",
+     "Begräbt"
+    ],
+    "it": [
+     "Che cosa fa la terra contaminata ai suoi abitanti (Levitico 18)?",
+     "Vomita",
+     "Inghiotte",
+     "Seppellisce"
+    ],
+    "pl": [
+     "Co robi skalana ziemia ze swoimi mieszkańcami (Księga Kapłańska 18)?",
+     "Wypluwa",
+     "Połyka",
+     "Grzebie"
+    ],
+    "ru": [
+     "Что делает осквернённая земля со своими жителями (Левит 18)?",
+     "Извергает",
+     "Поглощает",
+     "Хоронит"
+    ],
+    "tr": [
+     "Kirlenmiş ülke, sakinlerini Levililer 18'e göre ne yapar?",
+     "Kusar",
+     "Yutar",
+     "Gömer"
+    ],
+    "ja": [
+     "レビ記18章で、汚れた地はそこに住む者をどうするか？",
+     "吐き出す",
+     "飲み込む",
+     "葬る"
+    ],
+    "ko": [
+     "레위기 18장에서 더럽혀진 땅은 거주민들을 어떻게 하는가?",
+     "토한다",
+     "삼킨다",
+     "묻는다"
+    ],
+    "ar": [
+     "ماذا تفعل الأرض النجسة بسكانها (اللاويين 18)؟",
+     "تقيء",
+     "تبتلع",
+     "تدفن"
+    ]
+   }
+  },
+  {
+   "id": "ch-leviticus-014-25",
+   "book": "leviticus",
+   "chapter": 18,
+   "difficulty": "impossible",
+   "ref": "Leviticus 18:21",
+   "text": {
+    "en": [
+     "Child sacrifice profanes which holy thing of God, Leviticus 18:21?",
+     "Name",
+     "Altar",
+     "Mountain"
+    ],
+    "es": [
+     "¿Qué cosa santa de Dios profana el sacrificio de niños, Levítico 18,21?",
+     "Nombre",
+     "Altar",
+     "Monte"
+    ],
+    "pt": [
+     "Que coisa santa de Deus o sacrifício de crianças profana, Levítico 18,21?",
+     "Nome",
+     "Altar",
+     "Monte"
+    ],
+    "fr": [
+     "Quelle chose sainte de Dieu le sacrifice d'enfants profane-t-il (Lévitique 18,21) ?",
+     "Nom",
+     "Autel",
+     "Mont"
+    ],
+    "de": [
+     "Was Heiliges Gottes entweiht das Kinderopfer (Levitikus 18,21)?",
+     "Name",
+     "Altar",
+     "Berg"
+    ],
+    "it": [
+     "Quale cosa santa di Dio profana il sacrificio dei figli (Levitico 18,21)?",
+     "Nome",
+     "Altare",
+     "Monte"
+    ],
+    "pl": [
+     "Co świętego Bożego bezcześci ofiara z dzieci (Księga Kapłańska 18,21)?",
+     "Imię",
+     "Ołtarz",
+     "Góra"
+    ],
+    "ru": [
+     "Что святое Божие оскверняет жертвоприношение детей (Левит 18:21)?",
+     "Имя",
+     "Жертвенник",
+     "Гора"
+    ],
+    "tr": [
+     "Çocuk kurbanı Tanrı'nın hangi kutsal şeyini kirletir (Levililer 18:21)?",
+     "Ad",
+     "Sunak",
+     "Dağ"
+    ],
+    "ja": [
+     "子どもを犠牲にすることで汚される神の聖なるものは何か（レビ記18章21節）？",
+     "名",
+     "祭壇",
+     "山"
+    ],
+    "ko": [
+     "자녀를 제물로 바치면 하느님의 무엇이 더럽혀지는가(레위기 18장 21절)?",
+     "이름",
+     "제단",
+     "산"
+    ],
+    "ar": [
+     "أي شيء مقدس لله يدنّسه تقديم الأطفال ذبيحة (اللاويين 18: 21)؟",
+     "اسم",
+     "مذبح",
+     "جبل"
+    ]
+   }
+  },
+  {
+   "id": "ch-leviticus-014-26",
+   "book": "leviticus",
+   "chapter": 19,
+   "difficulty": "easy",
+   "ref": "Leviticus 19:18",
+   "text": {
+    "en": [
+     "Whom must Israelites love as themselves, Leviticus 19:18?",
+     "Neighbor",
+     "Enemy",
+     "King"
+    ],
+    "es": [
+     "¿A quién deben amar los israelitas como a sí mismos, Levítico 19,18?",
+     "Prójimo",
+     "Enemigo",
+     "Rey"
+    ],
+    "pt": [
+     "Quem os israelitas devem amar como a si mesmos, Levítico 19,18?",
+     "Próximo",
+     "Inimigo",
+     "Rei"
+    ],
+    "fr": [
+     "Qui les Israélites doivent-ils aimer comme eux-mêmes (Lévitique 19,18) ?",
+     "Prochain",
+     "Ennemi",
+     "Roi"
+    ],
+    "de": [
+     "Wen sollen die Israeliten lieben wie sich selbst (Levitikus 19,18)?",
+     "Nächsten",
+     "Feind",
+     "König"
+    ],
+    "it": [
+     "Chi devono amare gli Israeliti come se stessi (Levitico 19,18)?",
+     "Prossimo",
+     "Nemico",
+     "Re"
+    ],
+    "pl": [
+     "Kogo Izraelici mają kochać jak siebie samych (Księga Kapłańska 19,18)?",
+     "Bliźniego",
+     "Wroga",
+     "Króla"
+    ],
+    "ru": [
+     "Кого израильтяне должны любить как самих себя (Левит 19:18)?",
+     "Ближнего",
+     "Врага",
+     "Царя"
+    ],
+    "tr": [
+     "İsrailliler Levililer 19:18'e göre kimi kendileri gibi sevmelidir?",
+     "Komşu",
+     "Düşman",
+     "Kral"
+    ],
+    "ja": [
+     "イスラエル人は誰を自分のように愛すべきか（レビ記19章18節）？",
+     "隣人",
+     "敵",
+     "王"
+    ],
+    "ko": [
+     "이스라엘인은 누구를 자기 자신처럼 사랑해야 하는가(레위기 19장 18절)?",
+     "이웃",
+     "원수",
+     "임금"
+    ],
+    "ar": [
+     "من يجب على بني إسرائيل أن يحبوه كأنفسهم (اللاويين 19: 18)؟",
+     "قريب",
+     "عدو",
+     "ملك"
+    ]
+   }
+  },
+  {
+   "id": "ch-leviticus-014-27",
+   "book": "leviticus",
+   "chapter": 19,
+   "difficulty": "medium",
+   "ref": "Leviticus 19:23",
+   "text": {
+    "en": [
+     "For how many years is a newly planted tree's fruit forbidden?",
+     "3",
+     "5",
+     "7"
+    ],
+    "es": [
+     "¿Durante cuántos años está prohibido el fruto de un árbol recién plantado?",
+     "3",
+     "5",
+     "7"
+    ],
+    "pt": [
+     "Por quantos anos é proibido o fruto de uma árvore recém-plantada?",
+     "3",
+     "5",
+     "7"
+    ],
+    "fr": [
+     "Pendant combien d'années le fruit d'un arbre nouvellement planté est-il interdit ?",
+     "3",
+     "5",
+     "7"
+    ],
+    "de": [
+     "Wie viele Jahre ist die Frucht eines neu gepflanzten Baumes verboten?",
+     "3",
+     "5",
+     "7"
+    ],
+    "it": [
+     "Per quanti anni è proibito il frutto di un albero appena piantato?",
+     "3",
+     "5",
+     "7"
+    ],
+    "pl": [
+     "Przez ile lat owoc świeżo posadzonego drzewa jest zakazany?",
+     "3",
+     "5",
+     "7"
+    ],
+    "ru": [
+     "Сколько лет запрещены плоды только что посаженного дерева?",
+     "3",
+     "5",
+     "7"
+    ],
+    "tr": [
+     "Yeni dikilen bir ağacın meyvesi kaç yıl yasaktır?",
+     "3",
+     "5",
+     "7"
+    ],
+    "ja": [
+     "新しく植えた木の実は、何年間食べてはならないか？",
+     "3",
+     "5",
+     "7"
+    ],
+    "ko": [
+     "새로 심은 나무의 열매는 몇 해 동안 먹으면 안 되는가?",
+     "3",
+     "5",
+     "7"
+    ],
+    "ar": [
+     "كم سنة يُمنع أكل ثمر شجرة جديدة الغرس؟",
+     "3",
+     "5",
+     "7"
+    ]
+   }
+  },
+  {
+   "id": "ch-leviticus-014-28",
+   "book": "leviticus",
+   "chapter": 19,
+   "difficulty": "hard",
+   "ref": "Leviticus 19:14",
+   "text": {
+    "en": [
+     "In Leviticus 19, before whom must no one put a stumbling block?",
+     "Blind",
+     "Lame",
+     "Widow"
+    ],
+    "es": [
+     "¿Ante quién nadie debe poner tropiezo en Levítico 19?",
+     "Ciego",
+     "Cojo",
+     "Viuda"
+    ],
+    "pt": [
+     "Diante de quem ninguém deve pôr tropeço em Levítico 19?",
+     "Cego",
+     "Coxo",
+     "Viúva"
+    ],
+    "fr": [
+     "Devant qui ne doit-on placer aucun obstacle en Lévitique 19 ?",
+     "Aveugle",
+     "Boiteux",
+     "Veuve"
+    ],
+    "de": [
+     "Wem darf man in Levitikus 19 kein Hindernis in den Weg legen?",
+     "Blinden",
+     "Lahmen",
+     "Witwen"
+    ],
+    "it": [
+     "Davanti a chi non si deve porre inciampo in Levitico 19?",
+     "Cieco",
+     "Zoppo",
+     "Vedova"
+    ],
+    "pl": [
+     "Przed kim nie wolno kłaść przeszkody według Księgi Kapłańskiej 19?",
+     "Niewidomy",
+     "Kulawy",
+     "Wdowa"
+    ],
+    "ru": [
+     "Перед кем нельзя класть препятствие по Левиту 19?",
+     "Слепой",
+     "Хромой",
+     "Вдова"
+    ],
+    "tr": [
+     "Levililer 19'a göre kimin önüne engel konulmamalıdır?",
+     "Kör",
+     "Topal",
+     "Dul"
+    ],
+    "ja": [
+     "レビ記19章で、誰の前につまずきとなるものを置いてはならないか？",
+     "盲人",
+     "跛者",
+     "やもめ"
+    ],
+    "ko": [
+     "레위기 19장에서 누구 앞에 걸림돌을 놓아서는 안 되는가?",
+     "장님",
+     "절름발이",
+     "과부"
+    ],
+    "ar": [
+     "أمام من لا يجوز وضع معثرة في اللاويين 19؟",
+     "أعمى",
+     "أعرج",
+     "أرملة"
+    ]
+   }
+  },
+  {
+   "id": "ch-leviticus-014-29",
+   "book": "leviticus",
+   "chapter": 19,
+   "difficulty": "expert",
+   "ref": "Leviticus 19:27",
+   "text": {
+    "en": [
+     "In Leviticus 19, what on a man's face must not have its edges marred?",
+     "Beard",
+     "Eyebrows",
+     "Eyelashes"
+    ],
+    "es": [
+     "¿Qué parte del rostro del hombre no debe estropearse por los bordes, según Levítico 19?",
+     "Barba",
+     "Cejas",
+     "Pestañas"
+    ],
+    "pt": [
+     "Que parte do rosto do homem não deve ter as pontas estragadas, segundo Levítico 19?",
+     "Barba",
+     "Sobrancelhas",
+     "Cílios"
+    ],
+    "fr": [
+     "Quelle partie du visage de l'homme ne doit pas avoir ses bords abîmés, selon Lévitique 19 ?",
+     "Barbe",
+     "Sourcils",
+     "Cils"
+    ],
+    "de": [
+     "Was im Gesicht eines Mannes darf man nach Levitikus 19 an den Rändern nicht beschädigen?",
+     "Bart",
+     "Augenbrauen",
+     "Wimpern"
+    ],
+    "it": [
+     "Che cosa, sul volto di un uomo, non si deve rovinare ai margini (Levitico 19)?",
+     "Barba",
+     "Sopracciglia",
+     "Ciglia"
+    ],
+    "pl": [
+     "Czego na twarzy mężczyzny nie wolno uszkadzać przy brzegach (Księga Kapłańska 19)?",
+     "Brody",
+     "Brwi",
+     "Rzęs"
+    ],
+    "ru": [
+     "Что на лице мужчины нельзя портить по краям (Левит 19)?",
+     "Борода",
+     "Брови",
+     "Ресницы"
+    ],
+    "tr": [
+     "Levililer 19'a göre erkeğin yüzünde neyin kenarları bozulmamalıdır?",
+     "Sakal",
+     "Kaşlar",
+     "Kirpikler"
+    ],
+    "ja": [
+     "レビ記19章で、男の顔のどの部分の端を損なってはならないか？",
+     "ひげ",
+     "眉毛",
+     "まつ毛"
+    ],
+    "ko": [
+     "레위기 19장에서 남자 얼굴의 무엇의 가장자리를 손상해서는 안 되는가?",
+     "수염",
+     "눈썹",
+     "속눈썹"
+    ],
+    "ar": [
+     "في اللاويين 19، ما الذي في وجه الرجل لا يجوز إفساد أطرافه؟",
+     "لحية",
+     "حواجب",
+     "رموش"
+    ]
+   }
+  },
+  {
+   "id": "ch-leviticus-014-30",
+   "book": "leviticus",
+   "chapter": 19,
+   "difficulty": "impossible",
+   "ref": "Leviticus 19:21",
+   "text": {
+    "en": [
+     "Which animal is the guilt offering for lying with a betrothed slave woman?",
+     "Ram",
+     "Dove",
+     "Goat"
+    ],
+    "es": [
+     "¿Qué animal es la ofrenda por la culpa de quien se acuesta con una esclava desposada?",
+     "Carnero",
+     "Paloma",
+     "Cabra"
+    ],
+    "pt": [
+     "Que animal é a oferta pela culpa de quem se deita com uma escrava prometida?",
+     "Carneiro",
+     "Pomba",
+     "Cabra"
+    ],
+    "fr": [
+     "Quel animal est le sacrifice de réparation de l'homme qui couche avec une esclave fiancée ?",
+     "Bélier",
+     "Colombe",
+     "Chèvre"
+    ],
+    "de": [
+     "Welches Tier ist das Schuldopfer für den Mann, der bei einer verlobten Sklavin liegt?",
+     "Widder",
+     "Taube",
+     "Ziege"
+    ],
+    "it": [
+     "Quale animale è il sacrificio di riparazione per chi giace con una schiava fidanzata?",
+     "Ariete",
+     "Colomba",
+     "Capra"
+    ],
+    "pl": [
+     "Które zwierzę jest ofiarą zadośćuczynną za obcowanie z zaręczoną niewolnicą?",
+     "Baran",
+     "Gołąb",
+     "Koza"
+    ],
+    "ru": [
+     "Какое животное приносится в жертву повинности за сожительство с обручённой рабыней?",
+     "Овен",
+     "Голубь",
+     "Коза"
+    ],
+    "tr": [
+     "Nişanlı bir cariyeyle yatan kişinin suç sunusu hangi hayvandır?",
+     "Koç",
+     "Güvercin",
+     "Keçi"
+    ],
+    "ja": [
+     "婚約した女奴隷と寝た者の賠償の献げ物となる動物は？",
+     "雄羊",
+     "鳩",
+     "山羊"
+    ],
+    "ko": [
+     "약혼한 여종과 동침한 사람의 속건 제물이 되는 동물은?",
+     "숫양",
+     "비둘기",
+     "염소"
+    ],
+    "ar": [
+     "أي حيوان هو ذبيحة الإثم عمّن يضاجع جارية مخطوبة؟",
+     "كبش",
+     "حمامة",
+     "عنزة"
+    ]
+   }
+  },
+  {
+   "id": "ch-leviticus-014-31",
+   "book": "leviticus",
+   "chapter": 20,
+   "difficulty": "easy",
+   "ref": "Leviticus 20:24",
+   "text": {
+    "en": [
+     "Besides milk, what flows in the land God promises, Leviticus 20:24?",
+     "Honey",
+     "Wine",
+     "Oil"
+    ],
+    "es": [
+     "¿Además de leche, qué mana en la tierra prometida por Dios (Levítico 20,24)?",
+     "Miel",
+     "Vino",
+     "Aceite"
+    ],
+    "pt": [
+     "Além de leite, o que corre na terra prometida por Deus (Levítico 20,24)?",
+     "Mel",
+     "Vinho",
+     "Azeite"
+    ],
+    "fr": [
+     "Outre le lait, qu'est-ce qui coule dans la terre promise par Dieu (Lévitique 20,24) ?",
+     "Miel",
+     "Vin",
+     "Huile"
+    ],
+    "de": [
+     "Was fließt außer Milch im von Gott versprochenen Land (Levitikus 20,24)?",
+     "Honig",
+     "Wein",
+     "Öl"
+    ],
+    "it": [
+     "Oltre al latte, che cosa scorre nella terra promessa da Dio (Levitico 20,24)?",
+     "Miele",
+     "Vino",
+     "Olio"
+    ],
+    "pl": [
+     "Oprócz mleka, co płynie w ziemi obiecanej przez Boga (Księga Kapłańska 20,24)?",
+     "Miód",
+     "Wino",
+     "Oliwa"
+    ],
+    "ru": [
+     "Что течёт в земле, обещанной Богом, кроме молока (Левит 20:24)?",
+     "Мёд",
+     "Вино",
+     "Масло"
+    ],
+    "tr": [
+     "Süte ek olarak, Tanrı'nın vaat ettiği ülkede ne akar (Levililer 20:24)?",
+     "Bal",
+     "Şarap",
+     "Yağ"
+    ],
+    "ja": [
+     "乳のほか、神が約束した地に流れているものは何か（レビ記20章24節）？",
+     "蜜",
+     "ぶどう酒",
+     "油"
+    ],
+    "ko": [
+     "젖 외에, 하느님이 약속하신 땅에 흐르는 것은 무엇인가(레위기 20장 24절)?",
+     "꿀",
+     "포도주",
+     "기름"
+    ],
+    "ar": [
+     "غير اللبن، ماذا يفيض في الأرض التي وعد بها الله (اللاويين 20: 24)؟",
+     "عسل",
+     "خمر",
+     "زيت"
+    ]
+   }
+  },
+  {
+   "id": "ch-leviticus-014-32",
+   "book": "leviticus",
+   "chapter": 20,
+   "difficulty": "medium",
+   "ref": "Leviticus 20:9",
+   "text": {
+    "en": [
+     "What penalty did Leviticus 20:9 set for cursing one's father or mother?",
+     "Death",
+     "Exile",
+     "Slavery"
+    ],
+    "es": [
+     "¿Qué pena fijaba Levítico 20,9 para quien maldecía a su padre o a su madre?",
+     "Muerte",
+     "Destierro",
+     "Esclavitud"
+    ],
+    "pt": [
+     "Que pena Levítico 20,9 fixava para quem amaldiçoava o pai ou a mãe?",
+     "Morte",
+     "Exílio",
+     "Escravidão"
+    ],
+    "fr": [
+     "Quelle peine Lévitique 20,9 prévoit-il pour qui maudit son père ou sa mère ?",
+     "Mort",
+     "Exil",
+     "Esclavage"
+    ],
+    "de": [
+     "Welche Strafe sah Levitikus 20,9 für das Verfluchen von Vater oder Mutter vor?",
+     "Tod",
+     "Verbannung",
+     "Sklaverei"
+    ],
+    "it": [
+     "Quale pena stabiliva Levitico 20,9 per chi malediceva il padre o la madre?",
+     "Morte",
+     "Esilio",
+     "Schiavitù"
+    ],
+    "pl": [
+     "Jaką karę przewidywała Księga Kapłańska 20,9 za przeklinanie ojca lub matki?",
+     "Śmierć",
+     "Wygnanie",
+     "Niewola"
+    ],
+    "ru": [
+     "Какое наказание назначал Левит 20:9 за проклятие отца или матери?",
+     "Смерть",
+     "Изгнание",
+     "Рабство"
+    ],
+    "tr": [
+     "Levililer 20:9, baba ya da anneyi lanetleyene hangi cezayı verir?",
+     "Ölüm",
+     "Sürgün",
+     "Kölelik"
+    ],
+    "ja": [
+     "レビ記20章9節は、父母を呪う者にどんな罰を定めたか？",
+     "死",
+     "追放",
+     "奴隷"
+    ],
+    "ko": [
+     "레위기 20장 9절은 부모를 저주하는 자에게 어떤 벌을 정했는가?",
+     "죽음",
+     "추방",
+     "노예살이"
+    ],
+    "ar": [
+     "ما العقوبة التي حددها اللاويين 20: 9 لمن يشتم أباه أو أمه؟",
+     "موت",
+     "نفي",
+     "عبودية"
+    ]
+   }
+  },
+  {
+   "id": "ch-leviticus-014-33",
+   "book": "leviticus",
+   "chapter": 20,
+   "difficulty": "hard",
+   "ref": "Leviticus 20:2",
+   "text": {
+    "en": [
+     "With what must Israelites kill one who gives children to Molech?",
+     "Stones",
+     "Swords",
+     "Arrows"
+    ],
+    "es": [
+     "¿Con qué deben matar los israelitas a quien entregue hijos a Moloc?",
+     "Piedras",
+     "Espadas",
+     "Flechas"
+    ],
+    "pt": [
+     "Com que os israelitas devem matar quem entrega filhos a Moloc?",
+     "Pedras",
+     "Espadas",
+     "Flechas"
+    ],
+    "fr": [
+     "Avec quoi les Israélites doivent-ils tuer celui qui livre ses enfants à Moloc ?",
+     "Pierres",
+     "Épées",
+     "Flèches"
+    ],
+    "de": [
+     "Womit sollen die Israeliten den töten, der Kinder dem Moloch gibt?",
+     "Steine",
+     "Schwerter",
+     "Pfeile"
+    ],
+    "it": [
+     "Con che cosa gli Israeliti devono uccidere chi dà figli a Moloc?",
+     "Pietre",
+     "Spade",
+     "Frecce"
+    ],
+    "pl": [
+     "Czym Izraelici mają zabić tego, kto oddaje dzieci Molochowi?",
+     "Kamieniami",
+     "Mieczami",
+     "Strzałami"
+    ],
+    "ru": [
+     "Что должны использовать израильтяне, чтобы убить того, кто отдаёт детей Молоху?",
+     "Камни",
+     "Мечи",
+     "Стрелы"
+    ],
+    "tr": [
+     "İsrailliler çocuğunu Molek'e vereni neyle öldürmelidir?",
+     "Taşlar",
+     "Kılıçlar",
+     "Oklar"
+    ],
+    "ja": [
+     "モレクに子を与える者を、イスラエル人は何で殺すべきか？",
+     "石",
+     "剣",
+     "矢"
+    ],
+    "ko": [
+     "몰록에게 자녀를 바치는 자를 이스라엘인은 무엇으로 죽여야 하는가?",
+     "돌",
+     "칼",
+     "화살"
+    ],
+    "ar": [
+     "بماذا يقتل بنو إسرائيل من يقدّم أولاده لمولك؟",
+     "حجارة",
+     "سيوف",
+     "سهام"
+    ]
+   }
+  },
+  {
+   "id": "ch-leviticus-014-34",
+   "book": "leviticus",
+   "chapter": 20,
+   "difficulty": "expert",
+   "ref": "Leviticus 20:25",
+   "text": {
+    "en": [
+     "Besides beasts, what must Israel distinguish as clean or unclean, Leviticus 20:25?",
+     "Birds",
+     "Trees",
+     "Rivers"
+    ],
+    "es": [
+     "¿Qué debe distinguir Israel como puro o impuro, además de las bestias (Levítico 20,25)?",
+     "Aves",
+     "Árboles",
+     "Ríos"
+    ],
+    "pt": [
+     "O que Israel deve distinguir como puro ou impuro, além dos animais (Levítico 20,25)?",
+     "Aves",
+     "Árvores",
+     "Rios"
+    ],
+    "fr": [
+     "Que doit distinguer Israël comme pur ou impur, outre les bêtes (Lévitique 20,25) ?",
+     "Oiseaux",
+     "Arbres",
+     "Fleuves"
+    ],
+    "de": [
+     "Was muss Israel außer den Tieren als rein oder unrein unterscheiden (Levitikus 20,25)?",
+     "Vögel",
+     "Bäume",
+     "Flüsse"
+    ],
+    "it": [
+     "Che cosa Israele deve distinguere come puro o impuro, oltre alle bestie (Levitico 20,25)?",
+     "Uccelli",
+     "Alberi",
+     "Fiumi"
+    ],
+    "pl": [
+     "Co Izrael ma odróżniać jako czyste i nieczyste, oprócz zwierząt (Księga Kapłańska 20,25)?",
+     "Ptaki",
+     "Drzewa",
+     "Rzeki"
+    ],
+    "ru": [
+     "Что Израиль должен различать как чистое и нечистое, кроме скота (Левит 20:25)?",
+     "Птицы",
+     "Деревья",
+     "Реки"
+    ],
+    "tr": [
+     "İsrail, hayvanların dışında neyi temiz ya da kirli diye ayırmalıdır (Levililer 20:25)?",
+     "Kuşlar",
+     "Ağaçlar",
+     "Nehirler"
+    ],
+    "ja": [
+     "動物のほか、イスラエルが清いか汚れているかを区別すべきものは何か（レビ記20章25節）？",
+     "鳥",
+     "木",
+     "川"
+    ],
+    "ko": [
+     "짐승 외에 이스라엘이 정결함과 부정함을 구별해야 하는 것은 무엇인가(레위기 20장 25절)?",
+     "새",
+     "나무",
+     "강"
+    ],
+    "ar": [
+     "غير البهائم، ما الذي يجب أن يميّزه إسرائيل طاهرًا أو نجسًا (اللاويين 20: 25)؟",
+     "طيور",
+     "أشجار",
+     "أنهار"
+    ]
+   }
+  },
+  {
+   "id": "ch-leviticus-014-35",
+   "book": "leviticus",
+   "chapter": 20,
+   "difficulty": "impossible",
+   "ref": "Leviticus 20:14",
+   "text": {
+    "en": [
+     "Leviticus 20: by what is a man marrying a woman and her mother executed?",
+     "Fire",
+     "Flood",
+     "Sword"
+    ],
+    "es": [
+     "¿Con qué es ejecutado, según Levítico 20, el hombre que se casa con una mujer y con su madre?",
+     "Fuego",
+     "Diluvio",
+     "Espada"
+    ],
+    "pt": [
+     "Com que é executado, segundo Levítico 20, o homem que se casa com uma mulher e com a mãe dela?",
+     "Fogo",
+     "Dilúvio",
+     "Espada"
+    ],
+    "fr": [
+     "Par quoi est exécuté, selon Lévitique 20, l'homme qui épouse une femme et sa mère ?",
+     "Feu",
+     "Déluge",
+     "Épée"
+    ],
+    "de": [
+     "Wodurch wird laut Levitikus 20 ein Mann hingerichtet, der eine Frau und ihre Mutter heiratet?",
+     "Feuer",
+     "Flut",
+     "Schwert"
+    ],
+    "it": [
+     "Con che cosa viene giustiziato, secondo Levitico 20, l'uomo che sposa una donna e sua madre?",
+     "Fuoco",
+     "Diluvio",
+     "Spada"
+    ],
+    "pl": [
+     "Czym według Księgi Kapłańskiej 20 karze się śmiercią mężczyznę, który poślubia kobietę i jej matkę?",
+     "Ogniem",
+     "Potopem",
+     "Mieczem"
+    ],
+    "ru": [
+     "Чем по Левиту 20 казнят мужчину, который берёт в жёны женщину и её мать?",
+     "Огнём",
+     "Потопом",
+     "Мечом"
+    ],
+    "tr": [
+     "Levililer 20'ye göre bir kadınla annesiyle evlenen adam neyle idam edilir?",
+     "Ateş",
+     "Tufan",
+     "Kılıç"
+    ],
+    "ja": [
+     "レビ記20章で、女とその母をともに妻にする男は、何によって処刑されるか？",
+     "火",
+     "洪水",
+     "剣"
+    ],
+    "ko": [
+     "레위기 20장에서 여자와 그 어머니를 함께 아내로 맞는 남자는 무엇으로 처형되는가?",
+     "불",
+     "홍수",
+     "칼"
+    ],
+    "ar": [
+     "في اللاويين 20، بماذا يُعدَم رجل يتزوج امرأة وأمها معًا؟",
+     "نار",
+     "طوفان",
+     "سيف"
+    ]
+   }
+  },
+  {
+   "id": "ch-leviticus-014-36",
+   "book": "leviticus",
+   "chapter": 21,
+   "difficulty": "easy",
+   "ref": "Leviticus 21:10",
+   "text": {
+    "en": [
+     "With what is the high priest anointed on his head, Leviticus 21:10?",
+     "Oil",
+     "Water",
+     "Wine"
+    ],
+    "es": [
+     "¿Con qué se unge la cabeza del sumo sacerdote, Levítico 21,10?",
+     "Aceite",
+     "Agua",
+     "Vino"
+    ],
+    "pt": [
+     "Com que se unge a cabeça do sumo sacerdote, Levítico 21,10?",
+     "Óleo",
+     "Água",
+     "Vinho"
+    ],
+    "fr": [
+     "De quoi la tête du grand prêtre est-elle ointe (Lévitique 21,10) ?",
+     "Huile",
+     "Eau",
+     "Vin"
+    ],
+    "de": [
+     "Womit wird der Hohepriester am Kopf gesalbt (Levitikus 21,10)?",
+     "Öl",
+     "Wasser",
+     "Wein"
+    ],
+    "it": [
+     "Con che cosa viene unto il capo del sommo sacerdote (Levitico 21,10)?",
+     "Olio",
+     "Acqua",
+     "Vino"
+    ],
+    "pl": [
+     "Czym namaszcza się głowę najwyższego kapłana (Księga Kapłańska 21,10)?",
+     "Oliwą",
+     "Wodą",
+     "Winem"
+    ],
+    "ru": [
+     "Чем помазывают голову первосвященника (Левит 21:10)?",
+     "Маслом",
+     "Водой",
+     "Вином"
+    ],
+    "tr": [
+     "Başkâhinin başı neyle meshedilir (Levililer 21:10)?",
+     "Yağ",
+     "Su",
+     "Şarap"
+    ],
+    "ja": [
+     "大祭司の頭は何で油を注がれるか（レビ記21章10節）？",
+     "油",
+     "水",
+     "ぶどう酒"
+    ],
+    "ko": [
+     "대사제의 머리에는 무엇을 부어 축성하는가(레위기 21장 10절)?",
+     "기름",
+     "물",
+     "포도주"
+    ],
+    "ar": [
+     "بماذا يُمسح رأس رئيس الكهنة (اللاويين 21: 10)؟",
+     "زيت",
+     "ماء",
+     "خمر"
+    ]
+   }
+  },
+  {
+   "id": "ch-leviticus-014-37",
+   "book": "leviticus",
+   "chapter": 21,
+   "difficulty": "medium",
+   "ref": "Leviticus 21:13",
+   "text": {
+    "en": [
+     "The high priest may marry only what kind of woman, Leviticus 21:13?",
+     "Virgin",
+     "Widow",
+     "Foreigner"
+    ],
+    "es": [
+     "¿Con qué clase de mujer solo puede casarse el sumo sacerdote (Levítico 21,13)?",
+     "Virgen",
+     "Viuda",
+     "Extranjera"
+    ],
+    "pt": [
+     "Com que tipo de mulher só pode casar o sumo sacerdote (Levítico 21,13)?",
+     "Virgem",
+     "Viúva",
+     "Estrangeira"
+    ],
+    "fr": [
+     "Avec quelle sorte de femme seul le grand prêtre peut-il se marier (Lévitique 21,13) ?",
+     "Vierge",
+     "Veuve",
+     "Étrangère"
+    ],
+    "de": [
+     "Welche Art Frau darf der Hohepriester allein heiraten (Levitikus 21,13)?",
+     "Jungfrau",
+     "Witwe",
+     "Ausländerin"
+    ],
+    "it": [
+     "Con quale tipo di donna può sposarsi solo il sommo sacerdote (Levitico 21,13)?",
+     "Vergine",
+     "Vedova",
+     "Straniera"
+    ],
+    "pl": [
+     "Jaką kobietę wolno poślubić tylko najwyższemu kapłanowi (Księga Kapłańska 21,13)?",
+     "Dziewicę",
+     "Wdowę",
+     "Cudzoziemkę"
+    ],
+    "ru": [
+     "Какую женщину может взять в жёны только первосвященник (Левит 21:13)?",
+     "Девицу",
+     "Вдову",
+     "Чужеземку"
+    ],
+    "tr": [
+     "Başkâhin yalnızca nasıl bir kadınla evlenebilir (Levililer 21:13)?",
+     "Bakire",
+     "Dul",
+     "Yabancı"
+    ],
+    "ja": [
+     "大祭司は、どのような女性とだけ結婚できるか（レビ記21章13節）？",
+     "処女",
+     "やもめ",
+     "外国人"
+    ],
+    "ko": [
+     "대사제는 어떤 여자하고만 혼인할 수 있는가(레위기 21장 13절)?",
+     "처녀",
+     "과부",
+     "외국인"
+    ],
+    "ar": [
+     "من أي نوع من النساء يتزوج رئيس الكهنة فقط (اللاويين 21: 13)؟",
+     "عذراء",
+     "أرملة",
+     "أجنبية"
+    ]
+   }
+  },
+  {
+   "id": "ch-leviticus-014-38",
+   "book": "leviticus",
+   "chapter": 21,
+   "difficulty": "hard",
+   "ref": "Leviticus 21:5",
+   "text": {
+    "en": [
+     "Which body part must priests not shave bald, Leviticus 21:5?",
+     "Head",
+     "Chest",
+     "Arms"
+    ],
+    "es": [
+     "¿Qué parte del cuerpo no deben rapar los sacerdotes (Levítico 21,5)?",
+     "Cabeza",
+     "Pecho",
+     "Brazos"
+    ],
+    "pt": [
+     "Que parte do corpo os sacerdotes não devem raspar (Levítico 21,5)?",
+     "Cabeça",
+     "Peito",
+     "Braços"
+    ],
+    "fr": [
+     "Quelle partie du corps les prêtres ne doivent-ils pas raser (Lévitique 21,5) ?",
+     "Tête",
+     "Poitrine",
+     "Bras"
+    ],
+    "de": [
+     "Welchen Körperteil dürfen Priester nicht kahl scheren (Levitikus 21,5)?",
+     "Kopf",
+     "Brust",
+     "Arme"
+    ],
+    "it": [
+     "Quale parte del corpo i sacerdoti non devono radere (Levitico 21,5)?",
+     "Testa",
+     "Petto",
+     "Braccia"
+    ],
+    "pl": [
+     "Jaką część ciała kapłani nie mogą golić do łysa (Księga Kapłańska 21,5)?",
+     "Głowę",
+     "Pierś",
+     "Ramiona"
+    ],
+    "ru": [
+     "Какую часть тела священникам нельзя брить наголо (Левит 21:5)?",
+     "Голову",
+     "Грудь",
+     "Руки"
+    ],
+    "tr": [
+     "Kâhinler vücudunun hangi kısmını kazıtmamalıdır (Levililer 21:5)?",
+     "Baş",
+     "Göğüs",
+     "Kol"
+    ],
+    "ja": [
+     "祭司が剃ってはならない体の部分はどこか（レビ記21章5節）？",
+     "頭",
+     "胸",
+     "腕"
+    ],
+    "ko": [
+     "사제가 밀어서는 안 되는 몸의 부분은 어디인가(레위기 21장 5절)?",
+     "머리",
+     "가슴",
+     "팔"
+    ],
+    "ar": [
+     "أي جزء من الجسد لا يجوز للكهنة حلقه (اللاويين 21: 5)؟",
+     "رأس",
+     "صدر",
+     "ذراع"
+    ]
+   }
+  },
+  {
+   "id": "ch-leviticus-014-39",
+   "book": "leviticus",
+   "chapter": 21,
+   "difficulty": "expert",
+   "ref": "Leviticus 21:6",
+   "text": {
+    "en": [
+     "Which food of their God do priests offer, so must stay holy?",
+     "Bread",
+     "Fish",
+     "Fruit"
+    ],
+    "es": [
+     "¿Qué alimento de su Dios ofrecen los sacerdotes y por eso deben ser santos?",
+     "Pan",
+     "Pescado",
+     "Fruta"
+    ],
+    "pt": [
+     "Que alimento do seu Deus os sacerdotes oferecem e por isso devem ser santos?",
+     "Pão",
+     "Peixe",
+     "Fruta"
+    ],
+    "fr": [
+     "Quel aliment de leur Dieu les prêtres offrent-ils, ce qui exige leur sainteté ?",
+     "Pain",
+     "Poisson",
+     "Fruit"
+    ],
+    "de": [
+     "Welche Speise ihres Gottes opfern die Priester, weshalb sie heilig sein müssen?",
+     "Brot",
+     "Fisch",
+     "Obst"
+    ],
+    "it": [
+     "Quale cibo del loro Dio offrono i sacerdoti, per cui devono essere santi?",
+     "Pane",
+     "Pesce",
+     "Frutta"
+    ],
+    "pl": [
+     "Jaki pokarm swego Boga składają kapłani, dlatego muszą być święci?",
+     "Chleb",
+     "Ryba",
+     "Owoc"
+    ],
+    "ru": [
+     "Какую пищу своего Бога приносят священники, потому и должны быть святы?",
+     "Хлеб",
+     "Рыба",
+     "Плод"
+    ],
+    "tr": [
+     "Kâhinler Tanrılarının hangi yiyeceğini sunar, bu yüzden kutsal olmalıdır?",
+     "Ekmek",
+     "Balık",
+     "Meyve"
+    ],
+    "ja": [
+     "祭司は、神の何の食物を献げるので、聖でなければならないか？",
+     "パン",
+     "魚",
+     "果物"
+    ],
+    "ko": [
+     "사제들은 하느님의 어떤 음식을 바치기에 거룩해야 하는가?",
+     "빵",
+     "물고기",
+     "과일"
+    ],
+    "ar": [
+     "أي طعام لإلههم يقدّمه الكهنة، ولذلك يجب أن يكونوا مقدّسين؟",
+     "خبز",
+     "سمك",
+     "فاكهة"
+    ]
+   }
+  },
+  {
+   "id": "ch-leviticus-014-40",
+   "book": "leviticus",
+   "chapter": 21,
+   "difficulty": "impossible",
+   "ref": "Leviticus 21:3",
+   "text": {
+    "en": [
+     "In Leviticus 21, for which unmarried relative's death may a priest become unclean?",
+     "Sister",
+     "Aunt",
+     "Cousin"
+    ],
+    "es": [
+     "¿Por la muerte de qué pariente soltera puede un sacerdote hacerse impuro (Levítico 21)?",
+     "Hermana",
+     "Tía",
+     "Prima"
+    ],
+    "pt": [
+     "Pela morte de qual parente solteira o sacerdote pode tornar-se impuro (Levítico 21)?",
+     "Irmã",
+     "Tia",
+     "Prima"
+    ],
+    "fr": [
+     "Pour la mort de quelle parente non mariée un prêtre peut-il se rendre impur (Lévitique 21) ?",
+     "Sœur",
+     "Tante",
+     "Cousine"
+    ],
+    "de": [
+     "Wegen des Todes welcher unverheirateten Verwandten darf sich ein Priester verunreinigen (Levitikus 21)?",
+     "Schwester",
+     "Tante",
+     "Cousine"
+    ],
+    "it": [
+     "Per la morte di quale parente nubile un sacerdote può rendersi impuro (Levitico 21)?",
+     "Sorella",
+     "Zia",
+     "Cugina"
+    ],
+    "pl": [
+     "Po śmierci jakiej niezamężnej krewnej kapłan może się zanieczyścić (Księga Kapłańska 21)?",
+     "Siostry",
+     "Ciotki",
+     "Kuzynki"
+    ],
+    "ru": [
+     "После смерти какой незамужней родственницы священник может оскверниться (Левит 21)?",
+     "Сестры",
+     "Тёти",
+     "Кузины"
+    ],
+    "tr": [
+     "Bir kâhin, evlenmemiş hangi kız akrabasının ölümüyle kirlenebilir (Levililer 21)?",
+     "Kardeş",
+     "Hala",
+     "Kuzen"
+    ],
+    "ja": [
+     "レビ記21章で、祭司が死によって汚れてもよい未婚の親族は誰か？",
+     "姉妹",
+     "叔母",
+     "いとこ"
+    ],
+    "ko": [
+     "레위기 21장에서 사제는 미혼인 어느 친족의 죽음 때문에 부정해질 수 있는가?",
+     "누이",
+     "고모",
+     "사촌"
+    ],
+    "ar": [
+     "لموت أي قريبة غير متزوجة يجوز للكاهن أن يتنجس (اللاويين 21)؟",
+     "أخت",
+     "عمة",
+     "خالة"
+    ]
+   }
+  },
+  {
+   "id": "ch-leviticus-014-41",
+   "book": "leviticus",
+   "chapter": 22,
+   "difficulty": "easy",
+   "ref": "Leviticus 22:20",
+   "text": {
+    "en": [
+     "What must a sacrificial animal not have, Leviticus 22:20?",
+     "Blemish",
+     "Horns",
+     "Wool"
+    ],
+    "es": [
+     "¿Qué no debe tener un animal para el sacrificio, Levítico 22,20?",
+     "Defecto",
+     "Cuernos",
+     "Lana"
+    ],
+    "pt": [
+     "O que um animal de sacrifício não deve ter, Levítico 22,20?",
+     "Defeito",
+     "Chifres",
+     "Lã"
+    ],
+    "fr": [
+     "Que ne doit pas avoir un animal du sacrifice (Lévitique 22,20) ?",
+     "Défaut",
+     "Cornes",
+     "Laine"
+    ],
+    "de": [
+     "Was darf ein Opfertier nicht haben (Levitikus 22,20)?",
+     "Makel",
+     "Hörner",
+     "Wolle"
+    ],
+    "it": [
+     "Che cosa non deve avere un animale per il sacrificio (Levitico 22,20)?",
+     "Difetto",
+     "Corna",
+     "Lana"
+    ],
+    "pl": [
+     "Czego nie może mieć zwierzę ofiarne (Księga Kapłańska 22,20)?",
+     "Skazy",
+     "Rogów",
+     "Wełny"
+    ],
+    "ru": [
+     "Чего не должно быть у жертвенного животного (Левит 22:20)?",
+     "Порока",
+     "Рогов",
+     "Шерсти"
+    ],
+    "tr": [
+     "Kurbanlık hayvanda ne bulunmamalıdır (Levililer 22:20)?",
+     "Kusur",
+     "Boynuz",
+     "Yün"
+    ],
+    "ja": [
+     "いけにえの動物にあってはならないものは何か（レビ記22章20節）？",
+     "傷",
+     "角",
+     "羊毛"
+    ],
+    "ko": [
+     "제물로 바칠 짐승에게 없어야 하는 것은 무엇인가(레위기 22장 20절)?",
+     "흠",
+     "뿔",
+     "양털"
+    ],
+    "ar": [
+     "ما الذي لا يجوز أن يكون في حيوان الذبيحة (اللاويين 22: 20)؟",
+     "عيب",
+     "قرون",
+     "صوف"
+    ]
+   }
+  },
+  {
+   "id": "ch-leviticus-014-42",
+   "book": "leviticus",
+   "chapter": 22,
+   "difficulty": "medium",
+   "ref": "Leviticus 22:28",
+   "text": {
+    "en": [
+     "Besides ewes, which animal may not be killed with its young on one day?",
+     "Cow",
+     "Donkey",
+     "Camel"
+    ],
+    "es": [
+     "¿Qué animal, además de la oveja, no se puede matar con su cría el mismo día?",
+     "Vaca",
+     "Burra",
+     "Camella"
+    ],
+    "pt": [
+     "Que animal, além da ovelha, não se pode abater com a cria no mesmo dia?",
+     "Vaca",
+     "Jumenta",
+     "Camela"
+    ],
+    "fr": [
+     "Quel animal, outre la brebis, ne peut être tué avec son petit le même jour ?",
+     "Vache",
+     "Ânesse",
+     "Chamelle"
+    ],
+    "de": [
+     "Welches Tier darf außer dem Schaf nicht am selben Tag mit seinem Jungen getötet werden?",
+     "Kuh",
+     "Eselin",
+     "Kamelstute"
+    ],
+    "it": [
+     "Quale animale, oltre alla pecora, non si può uccidere col suo piccolo lo stesso giorno?",
+     "Mucca",
+     "Asina",
+     "Cammella"
+    ],
+    "pl": [
+     "Które zwierzę, oprócz owcy, nie może być zabite z młodym tego samego dnia?",
+     "Krowa",
+     "Oślica",
+     "Wielbłądzica"
+    ],
+    "ru": [
+     "Какое животное, кроме овцы, нельзя заколоть вместе с детёнышем в один день?",
+     "Корова",
+     "Ослица",
+     "Верблюдица"
+    ],
+    "tr": [
+     "Koyun dışında hangi hayvan, yavrusuyla aynı gün kesilmemelidir?",
+     "İnek",
+     "Eşek",
+     "Deve"
+    ],
+    "ja": [
+     "羊のほか、子と同じ日に屠ってはならない動物は何か？",
+     "牛",
+     "ろば",
+     "らくだ"
+    ],
+    "ko": [
+     "양 외에, 새끼와 같은 날 잡아서는 안 되는 짐승은 무엇인가?",
+     "소",
+     "나귀",
+     "낙타"
+    ],
+    "ar": [
+     "أي حيوان، غير النعجة، لا يُذبح مع ولده في يوم واحد؟",
+     "بقرة",
+     "أتان",
+     "ناقة"
+    ]
+   }
+  },
+  {
+   "id": "ch-leviticus-014-43",
+   "book": "leviticus",
+   "chapter": 22,
+   "difficulty": "hard",
+   "ref": "Leviticus 22:11",
+   "text": {
+    "en": [
+     "Who, bought with a priest's money, may eat holy food?",
+     "Slave",
+     "Guest",
+     "Foreigner"
+    ],
+    "es": [
+     "¿Quién, comprado con dinero del sacerdote, puede comer alimento sagrado?",
+     "Esclavo",
+     "Huésped",
+     "Extranjero"
+    ],
+    "pt": [
+     "Quem, comprado com o dinheiro do sacerdote, pode comer alimento santo?",
+     "Escravo",
+     "Hóspede",
+     "Estrangeiro"
+    ],
+    "fr": [
+     "Qui, acheté avec l'argent du prêtre, peut manger la nourriture sainte ?",
+     "Esclave",
+     "Hôte",
+     "Étranger"
+    ],
+    "de": [
+     "Wer darf, vom Priester mit Geld gekauft, die heilige Speise essen?",
+     "Sklave",
+     "Gast",
+     "Fremder"
+    ],
+    "it": [
+     "Chi, comprato col denaro del sacerdote, può mangiare il cibo santo?",
+     "Schiavo",
+     "Ospite",
+     "Straniero"
+    ],
+    "pl": [
+     "Kto, kupiony za pieniądze kapłana, może jeść świętą żywność?",
+     "Niewolnik",
+     "Gość",
+     "Cudzoziemiec"
+    ],
+    "ru": [
+     "Кто, купленный на деньги священника, может есть святую пищу?",
+     "Раб",
+     "Гость",
+     "Чужеземец"
+    ],
+    "tr": [
+     "Kâhinin parasıyla satın alınan kim kutsal yiyeceği yiyebilir?",
+     "Köle",
+     "Misafir",
+     "Yabancı"
+    ],
+    "ja": [
+     "祭司が金で買った者のうち、聖なる食物を食べてよいのは誰か？",
+     "奴隷",
+     "客",
+     "外国人"
+    ],
+    "ko": [
+     "사제가 돈으로 산 사람 중 거룩한 음식을 먹을 수 있는 이는?",
+     "노예",
+     "손님",
+     "외국인"
+    ],
+    "ar": [
+     "من الذي اشتراه الكاهن بماله ويجوز له أكل الطعام المقدس؟",
+     "عبد",
+     "ضيف",
+     "غريب"
+    ]
+   }
+  },
+  {
+   "id": "ch-leviticus-014-44",
+   "book": "leviticus",
+   "chapter": 22,
+   "difficulty": "expert",
+   "ref": "Leviticus 22:13",
+   "text": {
+    "en": [
+     "What must a priest's widowed daughter lack to eat her father's food again?",
+     "Children",
+     "Land",
+     "Gold"
+    ],
+    "es": [
+     "¿De qué debe carecer la hija viuda de un sacerdote para volver a comer el alimento de su padre?",
+     "Hijos",
+     "Tierras",
+     "Oro"
+    ],
+    "pt": [
+     "Do que a filha viúva de um sacerdote deve carecer para voltar a comer o alimento do pai?",
+     "Filhos",
+     "Terras",
+     "Ouro"
+    ],
+    "fr": [
+     "De quoi la fille veuve d'un prêtre doit-elle être privée pour manger de nouveau la nourriture de son père ?",
+     "Enfants",
+     "Terres",
+     "Or"
+    ],
+    "de": [
+     "Was darf die verwitwete Priestertochter nicht haben, um wieder vom Essen ihres Vaters zu essen?",
+     "Kinder",
+     "Land",
+     "Gold"
+    ],
+    "it": [
+     "Che cosa deve mancare alla figlia vedova di un sacerdote per mangiare di nuovo il cibo del padre?",
+     "Figli",
+     "Terre",
+     "Oro"
+    ],
+    "pl": [
+     "Czego nie może mieć owdowiała córka kapłana, by znów jeść pokarm ojca?",
+     "Dzieci",
+     "Ziemi",
+     "Złota"
+    ],
+    "ru": [
+     "Чего не должно быть у овдовевшей дочери священника, чтобы снова есть пищу отца?",
+     "Детей",
+     "Земли",
+     "Золота"
+    ],
+    "tr": [
+     "Kâhinin dul kızının babasının yiyeceğini yeniden yemesi için neyi olmamalıdır?",
+     "Çocuk",
+     "Toprak",
+     "Altın"
+    ],
+    "ja": [
+     "祭司のやもめとなった娘が父の食物を再び食べるために、持っていてはならないものは？",
+     "子",
+     "土地",
+     "金"
+    ],
+    "ko": [
+     "사제의 과부가 된 딸이 아버지의 음식을 다시 먹으려면 없어야 하는 것은?",
+     "자식",
+     "땅",
+     "금"
+    ],
+    "ar": [
+     "ما الذي يجب ألا يكون لدى ابنة الكاهن الأرملة لتأكل ثانية من طعام أبيها؟",
+     "أولاد",
+     "أرض",
+     "ذهب"
+    ]
+   }
+  },
+  {
+   "id": "ch-leviticus-014-45",
+   "book": "leviticus",
+   "chapter": 22,
+   "difficulty": "impossible",
+   "ref": "Leviticus 22:27",
+   "text": {
+    "en": [
+     "How many days must a newborn animal stay with its mother before sacrifice?",
+     "7",
+     "3",
+     "10"
+    ],
+    "es": [
+     "¿Cuántos días debe quedarse un animal recién nacido con su madre antes de ser sacrificado?",
+     "7",
+     "3",
+     "10"
+    ],
+    "pt": [
+     "Quantos dias um animal recém-nascido deve ficar com a mãe antes do sacrifício?",
+     "7",
+     "3",
+     "10"
+    ],
+    "fr": [
+     "Combien de jours un animal nouveau-né doit-il rester avec sa mère avant le sacrifice ?",
+     "7",
+     "3",
+     "10"
+    ],
+    "de": [
+     "Wie viele Tage muss ein neugeborenes Tier vor dem Opfer bei seiner Mutter bleiben?",
+     "7",
+     "3",
+     "10"
+    ],
+    "it": [
+     "Quanti giorni deve restare un animale appena nato con la madre prima del sacrificio?",
+     "7",
+     "3",
+     "10"
+    ],
+    "pl": [
+     "Przez ile dni nowo narodzone zwierzę ma zostać z matką przed ofiarą?",
+     "7",
+     "3",
+     "10"
+    ],
+    "ru": [
+     "Сколько дней новорождённое животное должно быть при матери до жертвы?",
+     "7",
+     "3",
+     "10"
+    ],
+    "tr": [
+     "Yeni doğan bir hayvan kurbandan önce kaç gün annesiyle kalmalıdır?",
+     "7",
+     "3",
+     "10"
+    ],
+    "ja": [
+     "生まれたばかりの動物は、献げる前に何日間母親のもとにいるべきか？",
+     "7",
+     "3",
+     "10"
+    ],
+    "ko": [
+     "갓 태어난 짐승은 제물이 되기 전 며칠 동안 어미와 있어야 하는가?",
+     "7",
+     "3",
+     "10"
+    ],
+    "ar": [
+     "كم يومًا يجب أن يبقى الحيوان حديث الولادة مع أمه قبل أن يُقدَّم ذبيحة؟",
+     "7",
+     "3",
+     "10"
+    ]
+   }
+  },
+  {
+   "id": "ch-leviticus-014-46",
+   "book": "leviticus",
+   "chapter": 23,
+   "difficulty": "easy",
+   "ref": "Leviticus 23:42",
+   "text": {
+    "en": [
+     "In what must Israelites live seven days during the autumn feast?",
+     "Booths",
+     "Caves",
+     "Palaces"
+    ],
+    "es": [
+     "¿En qué deben habitar siete días los israelitas durante la fiesta de otoño?",
+     "Cabañas",
+     "Cuevas",
+     "Palacios"
+    ],
+    "pt": [
+     "Em que os israelitas devem morar sete dias durante a festa do outono?",
+     "Cabanas",
+     "Cavernas",
+     "Palácios"
+    ],
+    "fr": [
+     "Dans quoi les Israélites doivent-ils habiter sept jours pendant la fête d'automne ?",
+     "Huttes",
+     "Grottes",
+     "Palais"
+    ],
+    "de": [
+     "Worin müssen die Israeliten beim Herbstfest sieben Tage wohnen?",
+     "Laubhütten",
+     "Höhlen",
+     "Paläste"
+    ],
+    "it": [
+     "In che cosa devono abitare sette giorni gli Israeliti durante la festa d'autunno?",
+     "Capanne",
+     "Grotte",
+     "Palazzi"
+    ],
+    "pl": [
+     "W czym mają mieszkać siedem dni Izraelici podczas jesiennego święta?",
+     "Szałasy",
+     "Jaskinie",
+     "Pałace"
+    ],
+    "ru": [
+     "В чём израильтяне должны жить семь дней во время осеннего праздника?",
+     "Шалаши",
+     "Пещеры",
+     "Дворцы"
+    ],
+    "tr": [
+     "İsrailliler sonbahar bayramında yedi gün neyin içinde oturmalıdır?",
+     "Çardaklar",
+     "Mağaralar",
+     "Saraylar"
+    ],
+    "ja": [
+     "秋の祭りの間、イスラエル人は七日間何の中に住むべきか？",
+     "仮庵",
+     "洞穴",
+     "宮殿"
+    ],
+    "ko": [
+     "가을 축제 동안 이스라엘인은 이레 동안 무엇에서 살아야 하는가?",
+     "초막",
+     "동굴",
+     "궁전"
+    ],
+    "ar": [
+     "في ماذا يسكن بنو إسرائيل سبعة أيام خلال عيد الخريف؟",
+     "مظال",
+     "كهوف",
+     "قصور"
+    ]
+   }
+  },
+  {
+   "id": "ch-leviticus-014-47",
+   "book": "leviticus",
+   "chapter": 23,
+   "difficulty": "medium",
+   "ref": "Leviticus 23:5",
+   "text": {
+    "en": [
+     "On which day of the first month is the Passover, Leviticus 23:5?",
+     "14",
+     "10",
+     "21"
+    ],
+    "es": [
+     "¿En qué día del primer mes es la Pascua, Levítico 23,5?",
+     "14",
+     "10",
+     "21"
+    ],
+    "pt": [
+     "Em que dia do primeiro mês é a Páscoa, Levítico 23,5?",
+     "14",
+     "10",
+     "21"
+    ],
+    "fr": [
+     "Quel jour du premier mois tombe la Pâque (Lévitique 23,5) ?",
+     "14",
+     "10",
+     "21"
+    ],
+    "de": [
+     "An welchem Tag des ersten Monats ist das Pessach (Levitikus 23,5)?",
+     "14",
+     "10",
+     "21"
+    ],
+    "it": [
+     "In quale giorno del primo mese cade la Pasqua (Levitico 23,5)?",
+     "14",
+     "10",
+     "21"
+    ],
+    "pl": [
+     "Którego dnia pierwszego miesiąca przypada Pascha (Księga Kapłańska 23,5)?",
+     "14",
+     "10",
+     "21"
+    ],
+    "ru": [
+     "В какой день первого месяца бывает Пасха (Левит 23:5)?",
+     "14",
+     "10",
+     "21"
+    ],
+    "tr": [
+     "Fısıh Bayramı birinci ayın kaçıncı günüdür (Levililer 23:5)?",
+     "14",
+     "10",
+     "21"
+    ],
+    "ja": [
+     "過越祭は第一の月の何日か（レビ記23章5節）？",
+     "14",
+     "10",
+     "21"
+    ],
+    "ko": [
+     "파스카는 첫째 달 며칠인가(레위기 23장 5절)?",
+     "14",
+     "10",
+     "21"
+    ],
+    "ar": [
+     "في أي يوم من الشهر الأول يقع الفصح (اللاويين 23: 5)؟",
+     "14",
+     "10",
+     "21"
+    ]
+   }
+  },
+  {
+   "id": "ch-leviticus-014-48",
+   "book": "leviticus",
+   "chapter": 23,
+   "difficulty": "hard",
+   "ref": "Leviticus 23:16",
+   "text": {
+    "en": [
+     "How many days are counted from the wave sheaf to the new grain offering?",
+     "50",
+     "40",
+     "70"
+    ],
+    "es": [
+     "¿Cuántos días se cuentan desde la gavilla mecida hasta la nueva ofrenda de cereal?",
+     "50",
+     "40",
+     "70"
+    ],
+    "pt": [
+     "Quantos dias se contam desde o feixe oferecido até a nova oferta de cereais?",
+     "50",
+     "40",
+     "70"
+    ],
+    "fr": [
+     "Combien de jours compte-t-on de la gerbe agitée jusqu'à la nouvelle offrande de grain ?",
+     "50",
+     "40",
+     "70"
+    ],
+    "de": [
+     "Wie viele Tage zählt man von der Garbe bis zum neuen Speiseopfer?",
+     "50",
+     "40",
+     "70"
+    ],
+    "it": [
+     "Quanti giorni si contano dal covone offerto fino alla nuova oblazione di grano?",
+     "50",
+     "40",
+     "70"
+    ],
+    "pl": [
+     "Ile dni liczy się od zniesionego snopa do nowej ofiary z ziarna?",
+     "50",
+     "40",
+     "70"
+    ],
+    "ru": [
+     "Сколько дней считают от снопа возношения до новой хлебной жертвы?",
+     "50",
+     "40",
+     "70"
+    ],
+    "tr": [
+     "Sallanan demetten yeni tahıl sunusuna kadar kaç gün sayılır?",
+     "50",
+     "40",
+     "70"
+    ],
+    "ja": [
+     "初穂の束から新しい穀物の献げ物まで、何日数えるか？",
+     "50",
+     "40",
+     "70"
+    ],
+    "ko": [
+     "흔들어 바친 곡식 단에서 새 곡식제물까지 며칠을 세는가?",
+     "50",
+     "40",
+     "70"
+    ],
+    "ar": [
+     "كم يومًا يُحسب من حزمة التقدمة إلى تقدمة الحبوب الجديدة؟",
+     "50",
+     "40",
+     "70"
+    ]
+   }
+  },
+  {
+   "id": "ch-leviticus-014-49",
+   "book": "leviticus",
+   "chapter": 23,
+   "difficulty": "expert",
+   "ref": "Leviticus 23:40",
+   "text": {
+    "en": [
+     "Which brook-side tree's branches are taken for the autumn feast?",
+     "Willows",
+     "Cedars",
+     "Oaks"
+    ],
+    "es": [
+     "¿De qué árboles de torrente se toman ramas para la fiesta de otoño (Levítico 23,40)?",
+     "Sauces",
+     "Cedros",
+     "Robles"
+    ],
+    "pt": [
+     "De que árvores de ribeiro se tomam ramos para a festa do outono (Levítico 23,40)?",
+     "Salgueiros",
+     "Cedros",
+     "Carvalhos"
+    ],
+    "fr": [
+     "De quels arbres de torrent prend-on les branches pour la fête d'automne (Lévitique 23,40) ?",
+     "Saules",
+     "Cèdres",
+     "Chênes"
+    ],
+    "de": [
+     "Zweige welcher Bäume vom Bachufer nimmt man für das Herbstfest (Levitikus 23,40)?",
+     "Weiden",
+     "Zedern",
+     "Eichen"
+    ],
+    "it": [
+     "Di quali alberi del torrente si prendono i rami per la festa d'autunno (Levitico 23,40)?",
+     "Salici",
+     "Cedri",
+     "Querce"
+    ],
+    "pl": [
+     "Z jakich drzew rosnących nad potokiem bierze się gałęzie na jesienne święto (Księga Kapłańska 23,40)?",
+     "Wierzby",
+     "Cedry",
+     "Dęby"
+    ],
+    "ru": [
+     "Ветви каких деревьев у потока берут на осенний праздник (Левит 23:40)?",
+     "Ивы",
+     "Кедры",
+     "Дубы"
+    ],
+    "tr": [
+     "Sonbahar bayramı için dere kıyısı hangi ağacın dalları alınır?",
+     "Söğüt",
+     "Sedir",
+     "Meşe"
+    ],
+    "ja": [
+     "秋の祭りのために、川辺のどの木の枝を取るか？",
+     "柳",
+     "杉",
+     "樫"
+    ],
+    "ko": [
+     "가을 축제를 위해 시냇가의 어떤 나무 가지를 꺾는가?",
+     "버드나무",
+     "향백나무",
+     "참나무"
+    ],
+    "ar": [
+     "أي أغصان شجر الوادي تؤخذ لعيد الخريف؟",
+     "صفصاف",
+     "أرز",
+     "بلوط"
+    ]
+   }
+  },
+  {
+   "id": "ch-leviticus-014-50",
+   "book": "leviticus",
+   "chapter": 23,
+   "difficulty": "impossible",
+   "ref": "Leviticus 23:18",
+   "text": {
+    "en": [
+     "How many lambs accompany the two loaves at Pentecost, Leviticus 23:18?",
+     "7",
+     "3",
+     "12"
+    ],
+    "es": [
+     "¿Cuántos corderos acompañan a los dos panes en Pentecostés, Levítico 23,18?",
+     "7",
+     "3",
+     "12"
+    ],
+    "pt": [
+     "Quantos cordeiros acompanham os dois pães no Pentecostes, Levítico 23,18?",
+     "7",
+     "3",
+     "12"
+    ],
+    "fr": [
+     "Combien d'agneaux accompagnent les deux pains à la Pentecôte (Lévitique 23,18) ?",
+     "7",
+     "3",
+     "12"
+    ],
+    "de": [
+     "Wie viele Lämmer begleiten zu Pfingsten die zwei Brote (Levitikus 23,18)?",
+     "7",
+     "3",
+     "12"
+    ],
+    "it": [
+     "Quanti agnelli accompagnano i due pani a Pentecoste (Levitico 23,18)?",
+     "7",
+     "3",
+     "12"
+    ],
+    "pl": [
+     "Ile baranków towarzyszy dwóm chlebom na Pięćdziesiątnicę (Księga Kapłańska 23,18)?",
+     "7",
+     "3",
+     "12"
+    ],
+    "ru": [
+     "Сколько агнцев сопровождает два хлеба в Пятидесятницу (Левит 23:18)?",
+     "7",
+     "3",
+     "12"
+    ],
+    "tr": [
+     "Pentikost'ta iki ekmeğe kaç kuzu eşlik eder (Levililer 23:18)?",
+     "7",
+     "3",
+     "12"
+    ],
+    "ja": [
+     "五旬祭で二つのパンに添えるのは小羊何匹か（レビ記23章18節）？",
+     "7",
+     "3",
+     "12"
+    ],
+    "ko": [
+     "오순절에 빵 두 개와 함께 바치는 어린양은 몇 마리인가(레위기 23장 18절)?",
+     "7",
+     "3",
+     "12"
+    ],
+    "ar": [
+     "كم حملًا يرافق الرغيفين في عيد العنصرة (اللاويين 23: 18)؟",
+     "7",
+     "3",
+     "12"
+    ]
+   }
+  },
+  {
+   "id": "ch-leviticus-014-51",
+   "book": "leviticus",
+   "chapter": 24,
+   "difficulty": "easy",
+   "ref": "Leviticus 24:5",
+   "text": {
+    "en": [
+     "How many loaves of showbread lie on the table, Leviticus 24:5?",
+     "12",
+     "7",
+     "10"
+    ],
+    "es": [
+     "¿Cuántos panes de la presencia hay sobre la mesa, Levítico 24,5?",
+     "12",
+     "7",
+     "10"
+    ],
+    "pt": [
+     "Quantos pães da proposição há sobre a mesa, Levítico 24,5?",
+     "12",
+     "7",
+     "10"
+    ],
+    "fr": [
+     "Combien de pains de proposition y a-t-il sur la table (Lévitique 24,5) ?",
+     "12",
+     "7",
+     "10"
+    ],
+    "de": [
+     "Wie viele Schaubrote liegen auf dem Tisch (Levitikus 24,5)?",
+     "12",
+     "7",
+     "10"
+    ],
+    "it": [
+     "Quanti pani dell'offerta ci sono sulla tavola (Levitico 24,5)?",
+     "12",
+     "7",
+     "10"
+    ],
+    "pl": [
+     "Ile chlebów pokładnych leży na stole (Księga Kapłańska 24,5)?",
+     "12",
+     "7",
+     "10"
+    ],
+    "ru": [
+     "Сколько хлебов предложения лежит на столе (Левит 24:5)?",
+     "12",
+     "7",
+     "10"
+    ],
+    "tr": [
+     "Masanın üzerinde kaç adak ekmeği vardır (Levililer 24:5)?",
+     "12",
+     "7",
+     "10"
+    ],
+    "ja": [
+     "机の上には供えのパンが何個置かれているか（レビ記24章5節）？",
+     "12",
+     "7",
+     "10"
+    ],
+    "ko": [
+     "상 위에는 차려 놓은 빵이 몇 개 놓이는가(레위기 24장 5절)?",
+     "12",
+     "7",
+     "10"
+    ],
+    "ar": [
+     "كم رغيفًا من خبز التقدمة على المائدة (اللاويين 24: 5)؟",
+     "12",
+     "7",
+     "10"
+    ]
+   }
+  },
+  {
+   "id": "ch-leviticus-014-52",
+   "book": "leviticus",
+   "chapter": 24,
+   "difficulty": "medium",
+   "ref": "Leviticus 24:2",
+   "text": {
+    "en": [
+     "From which fruit is the lamp oil pressed, Leviticus 24:2?",
+     "Olives",
+     "Grapes",
+     "Figs"
+    ],
+    "es": [
+     "¿De qué fruto se extrae el aceite de la lámpara, Levítico 24,2?",
+     "Aceitunas",
+     "Uvas",
+     "Higos"
+    ],
+    "pt": [
+     "De que fruto se extrai o azeite da lâmpada, Levítico 24,2?",
+     "Azeitonas",
+     "Uvas",
+     "Figos"
+    ],
+    "fr": [
+     "De quel fruit extrait-on l'huile du chandelier (Lévitique 24,2) ?",
+     "Olives",
+     "Raisins",
+     "Figues"
+    ],
+    "de": [
+     "Aus welcher Frucht wird das Lampenöl gepresst (Levitikus 24,2)?",
+     "Oliven",
+     "Trauben",
+     "Feigen"
+    ],
+    "it": [
+     "Da quale frutto si spreme l'olio della lampada (Levitico 24,2)?",
+     "Olive",
+     "Uva",
+     "Fichi"
+    ],
+    "pl": [
+     "Z którego owocu wytłacza się oliwę do lampy (Księga Kapłańska 24,2)?",
+     "Oliwki",
+     "Winogrona",
+     "Figi"
+    ],
+    "ru": [
+     "Из какого плода выжимают масло для светильника (Левит 24:2)?",
+     "Маслины",
+     "Виноград",
+     "Смоквы"
+    ],
+    "tr": [
+     "Kandil yağı hangi meyveden sıkılır (Levililer 24:2)?",
+     "Zeytin",
+     "Üzüm",
+     "İncir"
+    ],
+    "ja": [
+     "ともしびの油は、どの実から搾るか（レビ記24章2節）？",
+     "オリーブ",
+     "ぶどう",
+     "いちじく"
+    ],
+    "ko": [
+     "등불용 기름은 어떤 열매에서 짜내는가(레위기 24장 2절)?",
+     "올리브",
+     "포도",
+     "무화과"
+    ],
+    "ar": [
+     "من أي ثمرة يُعصر زيت المصباح (اللاويين 24: 2)؟",
+     "زيتون",
+     "عنب",
+     "تين"
+    ]
+   }
+  },
+  {
+   "id": "ch-leviticus-014-53",
+   "book": "leviticus",
+   "chapter": 24,
+   "difficulty": "hard",
+   "ref": "Leviticus 24:7",
+   "text": {
+    "en": [
+     "Which pure spice is placed with each row of showbread?",
+     "Frankincense",
+     "Myrrh",
+     "Cinnamon"
+    ],
+    "es": [
+     "¿Qué especia pura se pone con cada hilera de panes de la presencia?",
+     "Incienso",
+     "Mirra",
+     "Canela"
+    ],
+    "pt": [
+     "Que especiaria pura se põe com cada fileira dos pães da proposição?",
+     "Incenso",
+     "Mirra",
+     "Canela"
+    ],
+    "fr": [
+     "Quel aromate pur place-t-on sur chaque rangée de pains de proposition ?",
+     "Encens",
+     "Myrrhe",
+     "Cannelle"
+    ],
+    "de": [
+     "Welches reine Gewürz legt man zu jeder Reihe Schaubrote?",
+     "Weihrauch",
+     "Myrrhe",
+     "Zimt"
+    ],
+    "it": [
+     "Quale aroma puro si pone su ogni fila dei pani dell'offerta?",
+     "Incenso",
+     "Mirra",
+     "Cannella"
+    ],
+    "pl": [
+     "Jakie czyste wonności kładzie się przy każdym rzędzie chlebów pokładnych?",
+     "Kadzidło",
+     "Mirra",
+     "Cynamon"
+    ],
+    "ru": [
+     "Какое чистое благовоние кладут на каждый ряд хлебов предложения?",
+     "Ладан",
+     "Смирна",
+     "Корица"
+    ],
+    "tr": [
+     "Adak ekmeklerinin her sırasının yanına hangi saf baharat konur?",
+     "Günnük",
+     "Mür",
+     "Tarçın"
+    ],
+    "ja": [
+     "供えのパンの各列に添える純粋な香料は何か？",
+     "乳香",
+     "没薬",
+     "シナモン"
+    ],
+    "ko": [
+     "차려 놓은 빵 각 줄에 놓는 순수한 향료는 무엇인가?",
+     "유향",
+     "몰약",
+     "계피"
+    ],
+    "ar": [
+     "أي عطر نقي يوضع على كل صف من خبز التقدمة؟",
+     "لبان",
+     "مر",
+     "قرفة"
+    ]
+   }
+  },
+  {
+   "id": "ch-leviticus-014-54",
+   "book": "leviticus",
+   "chapter": 24,
+   "difficulty": "expert",
+   "ref": "Leviticus 24:8",
+   "text": {
+    "en": [
+     "On which day is fresh showbread set out, Leviticus 24:8?",
+     "Sabbath",
+     "Sunday",
+     "Wednesday"
+    ],
+    "es": [
+     "¿En qué día se pone el pan de la presencia nuevo, Levítico 24,8?",
+     "Sábado",
+     "Domingo",
+     "Miércoles"
+    ],
+    "pt": [
+     "Em que dia se põe o pão da proposição novo, Levítico 24,8?",
+     "Sábado",
+     "Domingo",
+     "Quarta"
+    ],
+    "fr": [
+     "En quel jour dépose-t-on le pain de proposition frais (Lévitique 24,8) ?",
+     "Sabbat",
+     "Dimanche",
+     "Mercredi"
+    ],
+    "de": [
+     "An welchem Tag legt man frische Schaubrote auf (Levitikus 24,8)?",
+     "Sabbat",
+     "Sonntag",
+     "Mittwoch"
+    ],
+    "it": [
+     "In quale giorno si dispongono pani freschi dell'offerta (Levitico 24,8)?",
+     "Sabato",
+     "Domenica",
+     "Mercoledì"
+    ],
+    "pl": [
+     "W który dzień układa się świeże chleby pokładne (Księga Kapłańska 24,8)?",
+     "Szabat",
+     "Niedzielę",
+     "Środę"
+    ],
+    "ru": [
+     "В какой день выкладывают свежие хлебы предложения (Левит 24:8)?",
+     "Субботу",
+     "Воскресенье",
+     "Среду"
+    ],
+    "tr": [
+     "Taze adak ekmekleri hangi gün konur (Levililer 24:8)?",
+     "Şabat",
+     "Pazar",
+     "Çarşamba"
+    ],
+    "ja": [
+     "新しい供えのパンは何曜日に置かれるか（レビ記24章8節）？",
+     "安息日",
+     "日曜日",
+     "水曜日"
+    ],
+    "ko": [
+     "새 빵은 무슨 요일에 차려 놓는가(레위기 24장 8절)?",
+     "안식일",
+     "일요일",
+     "수요일"
+    ],
+    "ar": [
+     "في أي يوم يُوضع خبز التقدمة الجديد (اللاويين 24: 8)؟",
+     "سبت",
+     "أحد",
+     "أربعاء"
+    ]
+   }
+  },
+  {
+   "id": "ch-leviticus-014-55",
+   "book": "leviticus",
+   "chapter": 24,
+   "difficulty": "impossible",
+   "ref": "Leviticus 24:11",
+   "text": {
+    "en": [
+     "What was the name of the blasphemer's mother, Leviticus 24:11?",
+     "Shelomith",
+     "Miriam",
+     "Dinah"
+    ],
+    "es": [
+     "¿Cómo se llamaba la madre del blasfemo, Levítico 24,11?",
+     "Selomit",
+     "Miriam",
+     "Dina"
+    ],
+    "pt": [
+     "Como se chamava a mãe do blasfemo, Levítico 24,11?",
+     "Salomit",
+     "Miriã",
+     "Dina"
+    ],
+    "fr": [
+     "Comment s'appelait la mère du blasphémateur (Lévitique 24,11) ?",
+     "Shelomit",
+     "Myriam",
+     "Dina"
+    ],
+    "de": [
+     "Wie hieß die Mutter des Gotteslästerers (Levitikus 24,11)?",
+     "Schelomit",
+     "Mirjam",
+     "Dina"
+    ],
+    "it": [
+     "Come si chiamava la madre del bestemmiatore (Levitico 24,11)?",
+     "Selomit",
+     "Miriam",
+     "Dina"
+    ],
+    "pl": [
+     "Jak miała na imię matka bluźniercy (Księga Kapłańska 24,11)?",
+     "Szelomit",
+     "Miriam",
+     "Dina"
+    ],
+    "ru": [
+     "Как звали мать богохульника (Левит 24:11)?",
+     "Саломиф",
+     "Мариам",
+     "Дина"
+    ],
+    "tr": [
+     "Küfreden adamın annesinin adı neydi (Levililer 24:11)?",
+     "Şelomit",
+     "Miryam",
+     "Dina"
+    ],
+    "ja": [
+     "神をののしった者の母の名は何か（レビ記24章11節）？",
+     "シェロミト",
+     "ミリアム",
+     "ディナ"
+    ],
+    "ko": [
+     "하느님을 모독한 자의 어머니 이름은 무엇인가(레위기 24장 11절)?",
+     "슬로밋",
+     "미리암",
+     "디나"
+    ],
+    "ar": [
+     "ما اسم أم المجدّف (اللاويين 24: 11)؟",
+     "شلوميث",
+     "مريم",
+     "دينة"
+    ]
+   }
+  },
+  {
+   "id": "ch-leviticus-014-56",
+   "book": "leviticus",
+   "chapter": 25,
+   "difficulty": "easy",
+   "ref": "Leviticus 25:4",
+   "text": {
+    "en": [
+     "In which year of each cycle must the land rest, Leviticus 25:4?",
+     "7",
+     "3",
+     "5"
+    ],
+    "es": [
+     "¿En qué año de cada ciclo debe descansar la tierra, Levítico 25,4?",
+     "7",
+     "3",
+     "5"
+    ],
+    "pt": [
+     "Em que ano de cada ciclo a terra deve descansar, Levítico 25,4?",
+     "7",
+     "3",
+     "5"
+    ],
+    "fr": [
+     "Quelle année de chaque cycle la terre doit-elle se reposer (Lévitique 25,4) ?",
+     "7",
+     "3",
+     "5"
+    ],
+    "de": [
+     "In welchem Jahr jedes Zyklus muss das Land ruhen (Levitikus 25,4)?",
+     "7",
+     "3",
+     "5"
+    ],
+    "it": [
+     "In quale anno di ogni ciclo la terra deve riposare (Levitico 25,4)?",
+     "7",
+     "3",
+     "5"
+    ],
+    "pl": [
+     "W którym roku każdego cyklu ziemia ma odpoczywać (Księga Kapłańska 25,4)?",
+     "7",
+     "3",
+     "5"
+    ],
+    "ru": [
+     "В какой год каждого цикла земля должна отдыхать (Левит 25:4)?",
+     "7",
+     "3",
+     "5"
+    ],
+    "tr": [
+     "Her devrenin hangi yılında toprak dinlenmelidir (Levililer 25:4)?",
+     "7",
+     "3",
+     "5"
+    ],
+    "ja": [
+     "各周期の何年目に、土地は休まなければならないか（レビ記25章4節）？",
+     "7",
+     "3",
+     "5"
+    ],
+    "ko": [
+     "각 주기의 몇째 해에 땅은 쉬어야 하는가(레위기 25장 4절)?",
+     "7",
+     "3",
+     "5"
+    ],
+    "ar": [
+     "في أي سنة من كل دورة يجب أن ترتاح الأرض (اللاويين 25: 4)؟",
+     "7",
+     "3",
+     "5"
+    ]
+   }
+  },
+  {
+   "id": "ch-leviticus-014-57",
+   "book": "leviticus",
+   "chapter": 25,
+   "difficulty": "medium",
+   "ref": "Leviticus 25:10",
+   "text": {
+    "en": [
+     "Which year is proclaimed the Jubilee, Leviticus 25:10?",
+     "50",
+     "40",
+     "70"
+    ],
+    "es": [
+     "¿Qué año se proclama como Jubileo, Levítico 25,10?",
+     "50",
+     "40",
+     "70"
+    ],
+    "pt": [
+     "Que ano é proclamado como Jubileu, Levítico 25,10?",
+     "50",
+     "40",
+     "70"
+    ],
+    "fr": [
+     "Quelle année est proclamée Jubilé (Lévitique 25,10) ?",
+     "50",
+     "40",
+     "70"
+    ],
+    "de": [
+     "Welches Jahr wird als Jubeljahr ausgerufen (Levitikus 25,10)?",
+     "50",
+     "40",
+     "70"
+    ],
+    "it": [
+     "Quale anno viene proclamato come Giubileo (Levitico 25,10)?",
+     "50",
+     "40",
+     "70"
+    ],
+    "pl": [
+     "Który rok ogłasza się rokiem jubileuszowym (Księga Kapłańska 25,10)?",
+     "50",
+     "40",
+     "70"
+    ],
+    "ru": [
+     "Какой год провозглашается юбилейным (Левит 25:10)?",
+     "50",
+     "40",
+     "70"
+    ],
+    "tr": [
+     "Hangi yıl Yubile yılı olarak ilan edilir (Levililer 25:10)?",
+     "50",
+     "40",
+     "70"
+    ],
+    "ja": [
+     "何年目がヨベルの年として宣言されるか（レビ記25章10節）？",
+     "50",
+     "40",
+     "70"
+    ],
+    "ko": [
+     "몇째 해가 희년으로 선포되는가(레위기 25장 10절)?",
+     "50",
+     "40",
+     "70"
+    ],
+    "ar": [
+     "أي سنة تُعلَن سنة اليوبيل (اللاويين 25: 10)؟",
+     "50",
+     "40",
+     "70"
+    ]
+   }
+  },
+  {
+   "id": "ch-leviticus-014-58",
+   "book": "leviticus",
+   "chapter": 25,
+   "difficulty": "hard",
+   "ref": "Leviticus 25:9",
+   "text": {
+    "en": [
+     "What instrument announces the Jubilee on the Day of Atonement?",
+     "Trumpet",
+     "Drum",
+     "Harp"
+    ],
+    "es": [
+     "¿Qué instrumento anuncia el Jubileo el Día de la Expiación?",
+     "Trompeta",
+     "Tambor",
+     "Arpa"
+    ],
+    "pt": [
+     "Que instrumento anuncia o Jubileu no Dia da Expiação?",
+     "Trombeta",
+     "Tambor",
+     "Harpa"
+    ],
+    "fr": [
+     "Quel instrument annonce le Jubilé le jour de l'Expiation ?",
+     "Trompette",
+     "Tambour",
+     "Harpe"
+    ],
+    "de": [
+     "Welches Instrument kündigt am Versöhnungstag das Jubeljahr an?",
+     "Posaune",
+     "Trommel",
+     "Harfe"
+    ],
+    "it": [
+     "Quale strumento annuncia il Giubileo nel giorno dell'Espiazione?",
+     "Tromba",
+     "Tamburo",
+     "Arpa"
+    ],
+    "pl": [
+     "Jaki instrument zapowiada jubileusz w Dzień Przebłagania?",
+     "Trąba",
+     "Bęben",
+     "Harfa"
+    ],
+    "ru": [
+     "Какой инструмент возвещает юбилей в День очищения?",
+     "Труба",
+     "Барабан",
+     "Арфа"
+    ],
+    "tr": [
+     "Hangi çalgı Kefaret Günü'nde Yubile'yi duyurur?",
+     "Boru",
+     "Davul",
+     "Arp"
+    ],
+    "ja": [
+     "贖罪日にヨベルの年を告げる楽器は何か？",
+     "角笛",
+     "太鼓",
+     "竪琴"
+    ],
+    "ko": [
+     "속죄일에 희년을 알리는 악기는 무엇인가?",
+     "나팔",
+     "북",
+     "수금"
+    ],
+    "ar": [
+     "أي آلة تعلن اليوبيل في يوم الكفارة؟",
+     "بوق",
+     "طبل",
+     "قيثارة"
+    ]
+   }
+  },
+  {
+   "id": "ch-leviticus-014-59",
+   "book": "leviticus",
+   "chapter": 25,
+   "difficulty": "expert",
+   "ref": "Leviticus 25:25",
+   "text": {
+    "en": [
+     "Who may redeem land that a poor Israelite sold, Leviticus 25:25?",
+     "Kinsman",
+     "Prophet",
+     "Judge"
+    ],
+    "es": [
+     "¿Quién puede rescatar la tierra vendida por un israelita pobre, Levítico 25,25?",
+     "Pariente",
+     "Profeta",
+     "Juez"
+    ],
+    "pt": [
+     "Quem pode resgatar a terra vendida por um israelita pobre, Levítico 25,25?",
+     "Parente",
+     "Profeta",
+     "Juiz"
+    ],
+    "fr": [
+     "Qui peut racheter la terre vendue par un Israélite pauvre (Lévitique 25,25) ?",
+     "Parent",
+     "Prophète",
+     "Juge"
+    ],
+    "de": [
+     "Wer darf das von einem armen Israeliten verkaufte Land auslösen (Levitikus 25,25)?",
+     "Verwandter",
+     "Prophet",
+     "Richter"
+    ],
+    "it": [
+     "Chi può riscattare la terra venduta da un Israelita povero (Levitico 25,25)?",
+     "Parente",
+     "Profeta",
+     "Giudice"
+    ],
+    "pl": [
+     "Kto może wykupić ziemię sprzedaną przez ubogiego Izraelitę (Księga Kapłańska 25,25)?",
+     "Krewny",
+     "Prorok",
+     "Sędzia"
+    ],
+    "ru": [
+     "Кто может выкупить землю, проданную бедным израильтянином (Левит 25:25)?",
+     "Родственник",
+     "Пророк",
+     "Судья"
+    ],
+    "tr": [
+     "Yoksul bir İsrailli'nin sattığı toprağı kim geri satın alabilir (Levililer 25:25)?",
+     "Akraba",
+     "Peygamber",
+     "Yargıç"
+    ],
+    "ja": [
+     "貧しいイスラエル人が売った土地を買い戻せるのは誰か（レビ記25章25節）？",
+     "親族",
+     "預言者",
+     "裁き人"
+    ],
+    "ko": [
+     "가난한 이스라엘인이 판 땅을 되찾을 수 있는 사람은(레위기 25장 25절)?",
+     "친척",
+     "예언자",
+     "판관"
+    ],
+    "ar": [
+     "من يستطيع أن يفتدي أرضًا باعها إسرائيلي فقير (اللاويين 25: 25)؟",
+     "قريب",
+     "نبي",
+     "قاض"
+    ]
+   }
+  },
+  {
+   "id": "ch-leviticus-014-60",
+   "book": "leviticus",
+   "chapter": 25,
+   "difficulty": "impossible",
+   "ref": "Leviticus 25:21",
+   "text": {
+    "en": [
+     "In which year does God's blessing give a three-year harvest, Leviticus 25:21?",
+     "6",
+     "7",
+     "9"
+    ],
+    "es": [
+     "¿En qué año la bendición de Dios da una cosecha para tres años, Levítico 25,21?",
+     "6",
+     "7",
+     "9"
+    ],
+    "pt": [
+     "Em que ano a bênção de Deus dá uma colheita para três anos, Levítico 25,21?",
+     "6",
+     "7",
+     "9"
+    ],
+    "fr": [
+     "En quelle année la bénédiction de Dieu donne-t-elle une récolte pour trois ans (Lévitique 25,21) ?",
+     "6",
+     "7",
+     "9"
+    ],
+    "de": [
+     "In welchem Jahr gibt Gottes Segen eine Ernte für drei Jahre (Levitikus 25,21)?",
+     "6",
+     "7",
+     "9"
+    ],
+    "it": [
+     "In quale anno la benedizione di Dio dà un raccolto per tre anni (Levitico 25,21)?",
+     "6",
+     "7",
+     "9"
+    ],
+    "pl": [
+     "W którym roku błogosławieństwo Boga daje plon na trzy lata (Księga Kapłańska 25,21)?",
+     "6",
+     "7",
+     "9"
+    ],
+    "ru": [
+     "В какой год благословение Божие даёт урожай на три года (Левит 25:21)?",
+     "6",
+     "7",
+     "9"
+    ],
+    "tr": [
+     "Tanrı'nın bereketi hangi yıl üç yıllık hasat verir (Levililer 25:21)?",
+     "6",
+     "7",
+     "9"
+    ],
+    "ja": [
+     "神の祝福が三年分の収穫を与えるのは何年目か（レビ記25章21節）？",
+     "6",
+     "7",
+     "9"
+    ],
+    "ko": [
+     "하느님의 축복이 삼 년 치 수확을 주는 해는 몇째 해인가(레위기 25장 21절)?",
+     "6",
+     "7",
+     "9"
+    ],
+    "ar": [
+     "في أي سنة تعطي بركة الله محصول ثلاث سنوات (اللاويين 25: 21)؟",
+     "6",
+     "7",
+     "9"
+    ]
+   }
+  },
+  {
+   "id": "ch-leviticus-014-61",
+   "book": "leviticus",
+   "chapter": 26,
+   "difficulty": "easy",
+   "ref": "Leviticus 26:4",
+   "text": {
+    "en": [
+     "What does God send in due season if Israel obeys, Leviticus 26:4?",
+     "Rain",
+     "Snow",
+     "Locusts"
+    ],
+    "es": [
+     "¿Qué envía Dios a su tiempo si Israel obedece, Levítico 26,4?",
+     "Lluvia",
+     "Nieve",
+     "Langostas"
+    ],
+    "pt": [
+     "O que Deus envia a seu tempo se Israel obedecer, Levítico 26,4?",
+     "Chuva",
+     "Neve",
+     "Gafanhotos"
+    ],
+    "fr": [
+     "Qu'envoie Dieu en son temps si Israël obéit (Lévitique 26,4) ?",
+     "Pluie",
+     "Neige",
+     "Sauterelles"
+    ],
+    "de": [
+     "Was schickt Gott zur rechten Zeit, wenn Israel gehorcht (Levitikus 26,4)?",
+     "Regen",
+     "Schnee",
+     "Heuschrecken"
+    ],
+    "it": [
+     "Che cosa manda Dio a suo tempo se Israele obbedisce (Levitico 26,4)?",
+     "Pioggia",
+     "Neve",
+     "Locuste"
+    ],
+    "pl": [
+     "Co Bóg zsyła w swoim czasie, jeśli Izrael jest posłuszny (Księga Kapłańska 26,4)?",
+     "Deszcz",
+     "Śnieg",
+     "Szarańczę"
+    ],
+    "ru": [
+     "Что Бог посылает в своё время, если Израиль послушен (Левит 26:4)?",
+     "Дождь",
+     "Снег",
+     "Саранчу"
+    ],
+    "tr": [
+     "İsrail itaat ederse Tanrı vaktinde ne gönderir (Levililer 26:4)?",
+     "Yağmur",
+     "Kar",
+     "Çekirge"
+    ],
+    "ja": [
+     "イスラエルが従うなら、神は時に応じて何を送るか（レビ記26章4節）？",
+     "雨",
+     "雪",
+     "いなご"
+    ],
+    "ko": [
+     "이스라엘이 순종하면 하느님은 제때에 무엇을 보내시는가(레위기 26장 4절)?",
+     "비",
+     "눈",
+     "메뚜기"
+    ],
+    "ar": [
+     "ماذا يرسل الله في أوانه إذا أطاع إسرائيل (اللاويين 26: 4)؟",
+     "مطر",
+     "ثلج",
+     "جراد"
+    ]
+   }
+  },
+  {
+   "id": "ch-leviticus-014-62",
+   "book": "leviticus",
+   "chapter": 26,
+   "difficulty": "medium",
+   "ref": "Leviticus 26:8",
+   "text": {
+    "en": [
+     "If Israel obeys, five Israelites chase how many enemies, Leviticus 26:8?",
+     "100",
+     "50",
+     "1000"
+    ],
+    "es": [
+     "¿Cuántos enemigos persiguen cinco israelitas si Israel obedece (Levítico 26,8)?",
+     "100",
+     "50",
+     "1000"
+    ],
+    "pt": [
+     "Quantos inimigos cinco israelitas perseguem se Israel obedecer (Levítico 26,8)?",
+     "100",
+     "50",
+     "1000"
+    ],
+    "fr": [
+     "Combien d'ennemis cinq Israélites poursuivent-ils si Israël obéit (Lévitique 26,8) ?",
+     "100",
+     "50",
+     "1000"
+    ],
+    "de": [
+     "Wie viele Feinde jagen fünf Israeliten, wenn Israel gehorcht (Levitikus 26,8)?",
+     "100",
+     "50",
+     "1000"
+    ],
+    "it": [
+     "Quanti nemici inseguono cinque Israeliti se Israele obbedisce (Levitico 26,8)?",
+     "100",
+     "50",
+     "1000"
+    ],
+    "pl": [
+     "Ilu wrogów ściga pięciu Izraelitów, jeśli Izrael jest posłuszny (Księga Kapłańska 26,8)?",
+     "100",
+     "50",
+     "1000"
+    ],
+    "ru": [
+     "Скольких врагов гонят пять израильтян, если Израиль послушен (Левит 26:8)?",
+     "100",
+     "50",
+     "1000"
+    ],
+    "tr": [
+     "İsrail itaat ederse beş İsrailli kaç düşmanı kovalar (Levililer 26:8)?",
+     "100",
+     "50",
+     "1000"
+    ],
+    "ja": [
+     "イスラエルが従うなら、五人は何人の敵を追うか（レビ記26章8節）？",
+     "100",
+     "50",
+     "1000"
+    ],
+    "ko": [
+     "이스라엘이 순종하면 다섯 사람은 적 몇 명을 쫓는가(레위기 26장 8절)?",
+     "100",
+     "50",
+     "1000"
+    ],
+    "ar": [
+     "إن أطاع إسرائيل، فكم عدوًا يطارد خمسة (اللاويين 26: 8)؟",
+     "100",
+     "50",
+     "1000"
+    ]
+   }
+  },
+  {
+   "id": "ch-leviticus-014-63",
+   "book": "leviticus",
+   "chapter": 26,
+   "difficulty": "hard",
+   "ref": "Leviticus 26:19",
+   "text": {
+    "en": [
+     "As punishment, God makes the sky like which metal, Leviticus 26:19?",
+     "Iron",
+     "Gold",
+     "Silver"
+    ],
+    "es": [
+     "¿Como castigo, de qué metal hace Dios el cielo (Levítico 26,19)?",
+     "Hierro",
+     "Oro",
+     "Plata"
+    ],
+    "pt": [
+     "Como castigo, de que metal Deus faz o céu (Levítico 26,19)?",
+     "Ferro",
+     "Ouro",
+     "Prata"
+    ],
+    "fr": [
+     "En châtiment, de quel métal Dieu rend-il le ciel (Lévitique 26,19) ?",
+     "Fer",
+     "Or",
+     "Argent"
+    ],
+    "de": [
+     "Welchem Metall macht Gott zur Strafe den Himmel gleich (Levitikus 26,19)?",
+     "Eisen",
+     "Gold",
+     "Silber"
+    ],
+    "it": [
+     "Come castigo, a quale metallo Dio rende simile il cielo (Levitico 26,19)?",
+     "Ferro",
+     "Oro",
+     "Argento"
+    ],
+    "pl": [
+     "Któremu metalowi Bóg w karze upodabnia niebo (Księga Kapłańska 26,19)?",
+     "Żelazu",
+     "Złotu",
+     "Srebru"
+    ],
+    "ru": [
+     "Какому металлу Бог в наказание уподобляет небо (Левит 26:19)?",
+     "Железу",
+     "Золоту",
+     "Серебру"
+    ],
+    "tr": [
+     "Tanrı ceza olarak göğü hangi madene benzetir (Levililer 26:19)?",
+     "Demir",
+     "Altın",
+     "Gümüş"
+    ],
+    "ja": [
+     "罰として、神は天を何の金属のようにするか（レビ記26章19節）？",
+     "鉄",
+     "金",
+     "銀"
+    ],
+    "ko": [
+     "벌로 하느님은 하늘을 어떤 금속처럼 만드시는가(레위기 26장 19절)?",
+     "쇠",
+     "금",
+     "은"
+    ],
+    "ar": [
+     "كعقاب، بأي معدن يجعل الله السماء (اللاويين 26: 19)؟",
+     "حديد",
+     "ذهب",
+     "فضة"
+    ]
+   }
+  },
+  {
+   "id": "ch-leviticus-014-64",
+   "book": "leviticus",
+   "chapter": 26,
+   "difficulty": "expert",
+   "ref": "Leviticus 26:26",
+   "text": {
+    "en": [
+     "In God's famine punishment, how many women bake bread in one oven?",
+     "10",
+     "3",
+     "5"
+    ],
+    "es": [
+     "¿Cuántas mujeres cuecen pan en un solo horno en el castigo de hambre de Dios?",
+     "10",
+     "3",
+     "5"
+    ],
+    "pt": [
+     "Quantas mulheres assam pão num só forno no castigo de fome de Deus?",
+     "10",
+     "3",
+     "5"
+    ],
+    "fr": [
+     "Dans le châtiment de famine de Dieu, combien de femmes cuisent leur pain dans un seul four ?",
+     "10",
+     "3",
+     "5"
+    ],
+    "de": [
+     "Wie viele Frauen backen in Gottes Hungerstrafe ihr Brot in einem einzigen Ofen?",
+     "10",
+     "3",
+     "5"
+    ],
+    "it": [
+     "Nel castigo della fame voluto da Dio, quante donne cuociono il pane in un solo forno?",
+     "10",
+     "3",
+     "5"
+    ],
+    "pl": [
+     "Ile kobiet piecze chleb w jednym piecu w karze głodu zesłanej przez Boga?",
+     "10",
+     "3",
+     "5"
+    ],
+    "ru": [
+     "Сколько женщин пекут хлеб в одной печи в наказание голодом от Бога?",
+     "10",
+     "3",
+     "5"
+    ],
+    "tr": [
+     "Tanrı'nın kıtlık cezasında kaç kadın tek bir fırında ekmek pişirir?",
+     "10",
+     "3",
+     "5"
+    ],
+    "ja": [
+     "神が下す飢饉の罰では、何人の女が一つのかまどでパンを焼くか？",
+     "10",
+     "3",
+     "5"
+    ],
+    "ko": [
+     "하느님이 내리는 기근의 벌에서 몇 명의 여자가 한 화덕에서 빵을 굽는가?",
+     "10",
+     "3",
+     "5"
+    ],
+    "ar": [
+     "في عقاب الجوع من الله، كم امرأة تخبز الخبز في تنور واحد؟",
+     "10",
+     "3",
+     "5"
+    ]
+   }
+  },
+  {
+   "id": "ch-leviticus-014-65",
+   "book": "leviticus",
+   "chapter": 26,
+   "difficulty": "impossible",
+   "ref": "Leviticus 26:36",
+   "text": {
+    "en": [
+     "Survivors flee at the rustle of what, Leviticus 26:36?",
+     "Leaf",
+     "Bird",
+     "Wolf"
+    ],
+    "es": [
+     "¿Los supervivientes huyen ante el ruido de qué, Levítico 26,36?",
+     "Hoja",
+     "Pájaro",
+     "Lobo"
+    ],
+    "pt": [
+     "Os sobreviventes fogem ao ruído de quê, Levítico 26,36?",
+     "Folha",
+     "Pássaro",
+     "Lobo"
+    ],
+    "fr": [
+     "Les survivants fuient au bruit de quoi (Lévitique 26,36) ?",
+     "Feuille",
+     "Oiseau",
+     "Loup"
+    ],
+    "de": [
+     "Beim Rascheln wovon fliehen die Überlebenden (Levitikus 26,36)?",
+     "Blatt",
+     "Vogel",
+     "Wolf"
+    ],
+    "it": [
+     "Al fruscio di che cosa fuggono i superstiti (Levitico 26,36)?",
+     "Foglia",
+     "Uccello",
+     "Lupo"
+    ],
+    "pl": [
+     "Przed szelestem czego uciekają ocaleni (Księga Kapłańska 26,36)?",
+     "Liścia",
+     "Ptaka",
+     "Wilka"
+    ],
+    "ru": [
+     "От шороха чего бегут уцелевшие (Левит 26:36)?",
+     "Листа",
+     "Птицы",
+     "Волка"
+    ],
+    "tr": [
+     "Hayatta kalanlar neyin hışırtısından kaçar (Levililer 26:36)?",
+     "Yaprak",
+     "Kuş",
+     "Kurt"
+    ],
+    "ja": [
+     "生き残った者は何の音を聞いて逃げるか（レビ記26章36節）？",
+     "葉",
+     "鳥",
+     "狼"
+    ],
+    "ko": [
+     "살아남은 자들은 무엇의 소리에 도망치는가(레위기 26장 36절)?",
+     "잎",
+     "새",
+     "늑대"
+    ],
+    "ar": [
+     "من حفيف ماذا يهرب الناجون (اللاويين 26: 36)؟",
+     "ورقة",
+     "طائر",
+     "ذئب"
+    ]
+   }
+  },
+  {
+   "id": "ch-leviticus-014-66",
+   "book": "leviticus",
+   "chapter": 27,
+   "difficulty": "easy",
+   "ref": "Leviticus 27:30",
+   "text": {
+    "en": [
+     "What is a tenth of the land's produce, holy to the Lord, called?",
+     "Tithe",
+     "Tribute",
+     "Ransom"
+    ],
+    "es": [
+     "¿Cómo se llama la décima parte de los productos de la tierra, santa para el Señor?",
+     "Diezmo",
+     "Tributo",
+     "Rescate"
+    ],
+    "pt": [
+     "Como se chama a décima parte dos produtos da terra, santa para o Senhor?",
+     "Dízimo",
+     "Tributo",
+     "Resgate"
+    ],
+    "fr": [
+     "Comment appelle-t-on le dixième des produits de la terre, saint pour le Seigneur ?",
+     "Dîme",
+     "Tribut",
+     "Rançon"
+    ],
+    "de": [
+     "Wie heißt der zehnte Teil der Früchte des Landes, heilig für den Herrn?",
+     "Zehnt",
+     "Tribut",
+     "Lösegeld"
+    ],
+    "it": [
+     "Come si chiama il decimo dei prodotti della terra, santo per il Signore?",
+     "Decima",
+     "Tributo",
+     "Riscatto"
+    ],
+    "pl": [
+     "Jak nazywa się dziesiąta część plonów ziemi, święta dla Pana?",
+     "Dziesięcina",
+     "Danina",
+     "Okup"
+    ],
+    "ru": [
+     "Как называется десятая часть плодов земли, святая для Господа?",
+     "Десятина",
+     "Дань",
+     "Выкуп"
+    ],
+    "tr": [
+     "Topraktan elde edilenin Rab için kutsal onda birine ne denir?",
+     "Ondalık",
+     "Haraç",
+     "Fidye"
+    ],
+    "ja": [
+     "地の産物のうち、主に属する聖なる部分を何と呼ぶか？",
+     "十分の一",
+     "貢ぎ物",
+     "身代金"
+    ],
+    "ko": [
+     "땅의 소출의 십분의 일로 주님께 거룩한 것을 무엇이라 하는가?",
+     "십일조",
+     "조공",
+     "속전"
+    ],
+    "ar": [
+     "ماذا يُسمّى عُشر محاصيل الأرض المقدّس للرب؟",
+     "عشور",
+     "جزية",
+     "فدية"
+    ]
+   }
+  },
+  {
+   "id": "ch-leviticus-014-67",
+   "book": "leviticus",
+   "chapter": 27,
+   "difficulty": "medium",
+   "ref": "Leviticus 27:3",
+   "text": {
+    "en": [
+     "In Leviticus 27 vows, how many shekels is a man aged 20-60 worth?",
+     "50",
+     "30",
+     "10"
+    ],
+    "es": [
+     "¿En cuántos siclos se valora a un hombre de 20 a 60 años en los votos de Levítico 27?",
+     "50",
+     "30",
+     "10"
+    ],
+    "pt": [
+     "Em quantos siclos se avalia um homem de 20 a 60 anos nos votos de Levítico 27?",
+     "50",
+     "30",
+     "10"
+    ],
+    "fr": [
+     "En combien de sicles évalue-t-on un homme de 20 à 60 ans dans les vœux du Lévitique 27 ?",
+     "50",
+     "30",
+     "10"
+    ],
+    "de": [
+     "Mit wie vielen Schekel wird ein Mann von 20 bis 60 Jahren bei den Gelübden in Levitikus 27 geschätzt?",
+     "50",
+     "30",
+     "10"
+    ],
+    "it": [
+     "A quanti sicli è stimato un uomo da 20 a 60 anni nei voti di Levitico 27?",
+     "50",
+     "30",
+     "10"
+    ],
+    "pl": [
+     "Na ile syklów wycenia się mężczyznę w wieku 20-60 lat w ślubach z Księgi Kapłańskiej 27?",
+     "50",
+     "30",
+     "10"
+    ],
+    "ru": [
+     "Во сколько сиклей оценивается мужчина от 20 до 60 лет в обетах из Левита 27?",
+     "50",
+     "30",
+     "10"
+    ],
+    "tr": [
+     "Levililer 27'deki adaklarda 20 ile 60 yaş arası bir erkek kaç şekel değerindedir?",
+     "50",
+     "30",
+     "10"
+    ],
+    "ja": [
+     "レビ記27章の誓願では、20歳から60歳の男性の評価額は何シェケルか？",
+     "50",
+     "30",
+     "10"
+    ],
+    "ko": [
+     "레위기 27장의 서원에서 20세에서 60세 남자의 평가액은 몇 세켈인가?",
+     "50",
+     "30",
+     "10"
+    ],
+    "ar": [
+     "في نذور اللاويين 27، بكم شاقلًا يُقدَّر رجل بين 20 و60 سنة؟",
+     "50",
+     "30",
+     "10"
+    ]
+   }
+  },
+  {
+   "id": "ch-leviticus-014-68",
+   "book": "leviticus",
+   "chapter": 27,
+   "difficulty": "hard",
+   "ref": "Leviticus 27:32",
+   "text": {
+    "en": [
+     "From every ten animals passing under the rod, how many are the Lord's?",
+     "1",
+     "2",
+     "5"
+    ],
+    "es": [
+     "¿De cada diez animales que pasan bajo la vara, cuántos son del Señor?",
+     "1",
+     "2",
+     "5"
+    ],
+    "pt": [
+     "De cada dez animais que passam sob a vara, quantos são do Senhor?",
+     "1",
+     "2",
+     "5"
+    ],
+    "fr": [
+     "Sur dix animaux passant sous la verge, combien sont au Seigneur ?",
+     "1",
+     "2",
+     "5"
+    ],
+    "de": [
+     "Von je zehn Tieren unter dem Hirtenstab, wie viele gehören dem Herrn?",
+     "1",
+     "2",
+     "5"
+    ],
+    "it": [
+     "Su ogni dieci animali che passano sotto il bastone, quanti sono del Signore?",
+     "1",
+     "2",
+     "5"
+    ],
+    "pl": [
+     "Ile z każdych dziesięciu zwierząt pod laską należy do Pana?",
+     "1",
+     "2",
+     "5"
+    ],
+    "ru": [
+     "Сколько из каждых десяти животных под жезлом принадлежит Господу?",
+     "1",
+     "2",
+     "5"
+    ],
+    "tr": [
+     "Asanın altından geçen her on hayvandan kaçı Rab'bindir?",
+     "1",
+     "2",
+     "5"
+    ],
+    "ja": [
+     "杖の下を通る十頭ごとに、何頭が主のものとなるか？",
+     "1",
+     "2",
+     "5"
+    ],
+    "ko": [
+     "지팡이 밑을 지나는 짐승 열 마리마다 몇 마리가 주님의 것인가?",
+     "1",
+     "2",
+     "5"
+    ],
+    "ar": [
+     "من كل عشرة حيوانات تمرّ تحت العصا، كم منها للرب؟",
+     "1",
+     "2",
+     "5"
+    ]
+   }
+  },
+  {
+   "id": "ch-leviticus-014-69",
+   "book": "leviticus",
+   "chapter": 27,
+   "difficulty": "expert",
+   "ref": "Leviticus 27:25",
+   "text": {
+    "en": [
+     "How many gerahs equal one shekel of the sanctuary?",
+     "20",
+     "10",
+     "12"
+    ],
+    "es": [
+     "¿Cuántos guerás equivalen a un siclo del santuario?",
+     "20",
+     "10",
+     "12"
+    ],
+    "pt": [
+     "Quantos geras equivalem a um siclo do santuário?",
+     "20",
+     "10",
+     "12"
+    ],
+    "fr": [
+     "Combien de guéras valent un sicle du sanctuaire ?",
+     "20",
+     "10",
+     "12"
+    ],
+    "de": [
+     "Wie viele Gera entsprechen einem Schekel des Heiligtums?",
+     "20",
+     "10",
+     "12"
+    ],
+    "it": [
+     "Quanti ghera valgono un siclo del santuario?",
+     "20",
+     "10",
+     "12"
+    ],
+    "pl": [
+     "Ile gerów równa się jednemu syklowi świątynnemu?",
+     "20",
+     "10",
+     "12"
+    ],
+    "ru": [
+     "Сколько гер составляет один сикль святилища?",
+     "20",
+     "10",
+     "12"
+    ],
+    "tr": [
+     "Kutsal yerin bir şekeli kaç gera eder?",
+     "20",
+     "10",
+     "12"
+    ],
+    "ja": [
+     "聖所の一シェケルは何ゲラに当たるか？",
+     "20",
+     "10",
+     "12"
+    ],
+    "ko": [
+     "성소의 1세켈은 몇 게라에 해당하는가?",
+     "20",
+     "10",
+     "12"
+    ],
+    "ar": [
+     "كم جيرة تساوي شاقل القدس؟",
+     "20",
+     "10",
+     "12"
+    ]
+   }
+  },
+  {
+   "id": "ch-leviticus-014-70",
+   "book": "leviticus",
+   "chapter": 27,
+   "difficulty": "impossible",
+   "ref": "Leviticus 27:5",
+   "text": {
+    "en": [
+     "In Leviticus 27 vows, how many shekels is a girl aged 5-20 worth?",
+     "10",
+     "20",
+     "3"
+    ],
+    "es": [
+     "¿En cuántos siclos se valora a una muchacha de 5 a 20 años en los votos de Levítico 27?",
+     "10",
+     "20",
+     "3"
+    ],
+    "pt": [
+     "Em quantos siclos se avalia uma moça de 5 a 20 anos nos votos de Levítico 27?",
+     "10",
+     "20",
+     "3"
+    ],
+    "fr": [
+     "En combien de sicles évalue-t-on une fille de 5 à 20 ans dans les vœux du Lévitique 27 ?",
+     "10",
+     "20",
+     "3"
+    ],
+    "de": [
+     "Mit wie vielen Schekel wird ein Mädchen von 5 bis 20 Jahren bei den Gelübden in Levitikus 27 geschätzt?",
+     "10",
+     "20",
+     "3"
+    ],
+    "it": [
+     "A quanti sicli è stimata una ragazza da 5 a 20 anni nei voti di Levitico 27?",
+     "10",
+     "20",
+     "3"
+    ],
+    "pl": [
+     "Na ile syklów wycenia się dziewczynę w wieku 5-20 lat w ślubach z Księgi Kapłańskiej 27?",
+     "10",
+     "20",
+     "3"
+    ],
+    "ru": [
+     "Во сколько сиклей оценивается девушка от 5 до 20 лет в обетах из Левита 27?",
+     "10",
+     "20",
+     "3"
+    ],
+    "tr": [
+     "Levililer 27'deki adaklarda 5 ile 20 yaş arası bir kız kaç şekel değerindedir?",
+     "10",
+     "20",
+     "3"
+    ],
+    "ja": [
+     "レビ記27章の誓願では、5歳から20歳の女子の評価額は何シェケルか？",
+     "10",
+     "20",
+     "3"
+    ],
+    "ko": [
+     "레위기 27장의 서원에서 5세에서 20세 여자의 평가액은 몇 세켈인가?",
+     "10",
+     "20",
+     "3"
+    ],
+    "ar": [
+     "في نذور اللاويين 27، بكم شاقلًا تُقدَّر فتاة بين 5 و20 سنة؟",
+     "10",
+     "20",
+     "3"
+    ]
+   }
+  }
+ ]
+}

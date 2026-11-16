@@ -1,0 +1,6889 @@
+{
+ "questions": [
+  {
+   "id": "ch-genesis-017-01",
+   "book": "genesis",
+   "chapter": 17,
+   "difficulty": "easy",
+   "ref": "Genesis 17:10-11",
+   "text": {
+    "en": [
+     "What bodily sign of the covenant did God command for Abraham's males?",
+     "Circumcision",
+     "Baptism",
+     "Fasting"
+    ],
+    "es": [
+     "¿Qué señal corporal de la alianza mandó Dios a los varones de Abraham?",
+     "Circuncisión",
+     "Bautismo",
+     "Ayuno"
+    ],
+    "pt": [
+     "Que sinal no corpo da aliança Deus ordenou aos homens de Abraão?",
+     "Circuncisão",
+     "Batismo",
+     "Jejum"
+    ],
+    "fr": [
+     "Quel signe de l'alliance Dieu prescrivit-il dans le corps des hommes d'Abraham ?",
+     "Circoncision",
+     "Baptême",
+     "Jeûne"
+    ],
+    "de": [
+     "Welches Zeichen des Bundes am Körper verlangte Gott von Abrahams Männern?",
+     "Beschneidung",
+     "Taufe",
+     "Fasten"
+    ],
+    "it": [
+     "Quale segno nel corpo dell'alleanza Dio chiese ai maschi di Abramo?",
+     "Circoncisione",
+     "Battesimo",
+     "Digiuno"
+    ],
+    "pl": [
+     "Jakiego znaku przymierza na ciele Bóg zażądał od mężczyzn Abrahama?",
+     "Obrzezanie",
+     "Chrzest",
+     "Post"
+    ],
+    "ru": [
+     "Какой знак завета на теле повелел Бог мужчинам Авраама?",
+     "Обрезание",
+     "Крещение",
+     "Пост"
+    ],
+    "tr": [
+     "Tanrı, İbrahim'in erkeklerine antlaşmanın hangi bedensel işaretini buyurdu?",
+     "Sünnet",
+     "Vaftiz",
+     "Oruç"
+    ],
+    "ja": [
+     "神はアブラハムの男子に、契約のしるしとして体に何を命じましたか？",
+     "割礼",
+     "洗礼",
+     "断食"
+    ],
+    "ko": [
+     "하느님은 아브라함의 남자들에게 계약의 표징으로 몸에 무엇을 명하셨습니까?",
+     "할례",
+     "세례",
+     "단식"
+    ],
+    "ar": [
+     "ما العلامة الجسدية للعهد التي أمر الله بها ذكور إبراهيم؟",
+     "الختان",
+     "المعمودية",
+     "الصوم"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-017-02",
+   "book": "genesis",
+   "chapter": 17,
+   "difficulty": "medium",
+   "ref": "Genesis 17:5",
+   "text": {
+    "en": [
+     "What new name did God give Abram in the covenant?",
+     "Abraham",
+     "Israel",
+     "Isaac"
+    ],
+    "es": [
+     "¿Qué nuevo nombre dio Dios a Abrán en la alianza?",
+     "Abraham",
+     "Israel",
+     "Isaac"
+    ],
+    "pt": [
+     "Que novo nome Deus deu a Abrão na aliança?",
+     "Abraão",
+     "Israel",
+     "Isaque"
+    ],
+    "fr": [
+     "Quel nouveau nom Dieu donna-t-il à Abram dans l'alliance ?",
+     "Abraham",
+     "Israël",
+     "Isaac"
+    ],
+    "de": [
+     "Welchen neuen Namen gab Gott Abram beim Bund?",
+     "Abraham",
+     "Israel",
+     "Isaak"
+    ],
+    "it": [
+     "Quale nuovo nome diede Dio ad Abram nell'alleanza?",
+     "Abramo",
+     "Israele",
+     "Isacco"
+    ],
+    "pl": [
+     "Jakie nowe imię nadał Bóg Abramowi w przymierzu?",
+     "Abraham",
+     "Izrael",
+     "Izaak"
+    ],
+    "ru": [
+     "Какое новое имя дал Бог Авраму в завете?",
+     "Авраам",
+     "Израиль",
+     "Исаак"
+    ],
+    "tr": [
+     "Tanrı antlaşmada Avram'a hangi yeni adı verdi?",
+     "İbrahim",
+     "İsrail",
+     "İshak"
+    ],
+    "ja": [
+     "神は契約のとき、アブラムにどんな新しい名を与えましたか？",
+     "アブラハム",
+     "イスラエル",
+     "イサク"
+    ],
+    "ko": [
+     "하느님은 계약을 맺으면서 아브람에게 어떤 새 이름을 주셨습니까?",
+     "아브라함",
+     "이스라엘",
+     "이사악"
+    ],
+    "ar": [
+     "ما الاسم الجديد الذي أعطاه الله لأبرام في العهد؟",
+     "إبراهيم",
+     "إسرائيل",
+     "إسحاق"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-017-03",
+   "book": "genesis",
+   "chapter": 17,
+   "difficulty": "hard",
+   "ref": "Genesis 17:1",
+   "text": {
+    "en": [
+     "How old was Abram when God made the covenant of circumcision?",
+     "99",
+     "75",
+     "100"
+    ],
+    "es": [
+     "¿Cuántos años tenía Abrán cuando Dios hizo la alianza de la circuncisión?",
+     "99",
+     "75",
+     "100"
+    ],
+    "pt": [
+     "Quantos anos tinha Abrão quando Deus fez a aliança da circuncisão?",
+     "99",
+     "75",
+     "100"
+    ],
+    "fr": [
+     "Quel âge avait Abram quand Dieu conclut l'alliance de la circoncision ?",
+     "99",
+     "75",
+     "100"
+    ],
+    "de": [
+     "Wie alt war Abram, als Gott den Bund der Beschneidung schloss?",
+     "99",
+     "75",
+     "100"
+    ],
+    "it": [
+     "Quanti anni aveva Abram quando Dio stabilì l'alleanza della circoncisione?",
+     "99",
+     "75",
+     "100"
+    ],
+    "pl": [
+     "Ile lat miał Abram, gdy Bóg zawarł przymierze obrzezania?",
+     "99",
+     "75",
+     "100"
+    ],
+    "ru": [
+     "Сколько лет было Авраму, когда Бог заключил завет обрезания?",
+     "99",
+     "75",
+     "100"
+    ],
+    "tr": [
+     "Tanrı sünnet antlaşmasını yaptığında Avram kaç yaşındaydı?",
+     "99",
+     "75",
+     "100"
+    ],
+    "ja": [
+     "神が割礼の契約を結んだとき、アブラムは何歳でしたか？",
+     "99",
+     "75",
+     "100"
+    ],
+    "ko": [
+     "하느님이 할례의 계약을 맺으셨을 때 아브람은 몇 살이었습니까?",
+     "99",
+     "75",
+     "100"
+    ],
+    "ar": [
+     "كم كان عمر أبرام عندما أبرم الله عهد الختان؟",
+     "99",
+     "75",
+     "100"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-017-04",
+   "book": "genesis",
+   "chapter": 17,
+   "difficulty": "expert",
+   "ref": "Genesis 17:25",
+   "text": {
+    "en": [
+     "How old was Abraham's son Ishmael when he was circumcised?",
+     "13",
+     "10",
+     "20"
+    ],
+    "es": [
+     "¿Cuántos años tenía Ismael, hijo de Abraham, cuando fue circuncidado?",
+     "13",
+     "10",
+     "20"
+    ],
+    "pt": [
+     "Quantos anos tinha Ismael, filho de Abraão, quando foi circuncidado?",
+     "13",
+     "10",
+     "20"
+    ],
+    "fr": [
+     "Quel âge avait Ismaël, fils d'Abraham, quand il fut circoncis ?",
+     "13",
+     "10",
+     "20"
+    ],
+    "de": [
+     "Wie alt war Abrahams Sohn Ismael, als er beschnitten wurde?",
+     "13",
+     "10",
+     "20"
+    ],
+    "it": [
+     "Quanti anni aveva Ismaele, figlio di Abramo, quando fu circonciso?",
+     "13",
+     "10",
+     "20"
+    ],
+    "pl": [
+     "Ile lat miał Izmael, syn Abrahama, gdy go obrzezano?",
+     "13",
+     "10",
+     "20"
+    ],
+    "ru": [
+     "Сколько лет было Измаилу, сыну Авраама, когда его обрезали?",
+     "13",
+     "10",
+     "20"
+    ],
+    "tr": [
+     "İbrahim'in oğlu İsmail sünnet edildiğinde kaç yaşındaydı?",
+     "13",
+     "10",
+     "20"
+    ],
+    "ja": [
+     "アブラハムの子イシュマエルは、割礼を受けたとき何歳でしたか？",
+     "13",
+     "10",
+     "20"
+    ],
+    "ko": [
+     "아브라함의 아들 이스마엘은 할례를 받을 때 몇 살이었습니까?",
+     "13",
+     "10",
+     "20"
+    ],
+    "ar": [
+     "كم كان عمر إسماعيل، ابن إبراهيم، عندما ختن؟",
+     "13",
+     "10",
+     "20"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-017-05",
+   "book": "genesis",
+   "chapter": 17,
+   "difficulty": "impossible",
+   "ref": "Genesis 17:20",
+   "text": {
+    "en": [
+     "God promised that Ishmael would father how many princes?",
+     "12",
+     "7",
+     "3"
+    ],
+    "es": [
+     "¿A cuántos príncipes prometió Dios que engendraría Ismael?",
+     "12",
+     "7",
+     "3"
+    ],
+    "pt": [
+     "Quantos príncipes Deus prometeu que Ismael geraria?",
+     "12",
+     "7",
+     "3"
+    ],
+    "fr": [
+     "Combien de princes Dieu promit-il qu'Ismaël engendrerait ?",
+     "12",
+     "7",
+     "3"
+    ],
+    "de": [
+     "Wie viele Fürsten sollte Ismael nach Gottes Verheißung zeugen?",
+     "12",
+     "7",
+     "3"
+    ],
+    "it": [
+     "Quanti principi Dio promise che Ismaele avrebbe generato?",
+     "12",
+     "7",
+     "3"
+    ],
+    "pl": [
+     "Ilu książąt obiecał Bóg, że spłodzi Izmael?",
+     "12",
+     "7",
+     "3"
+    ],
+    "ru": [
+     "Скольких князей, по обещанию Бога, родит Измаил?",
+     "12",
+     "7",
+     "3"
+    ],
+    "tr": [
+     "Tanrı, İsmail'in kaç önder doğuracağını vaat etti?",
+     "12",
+     "7",
+     "3"
+    ],
+    "ja": [
+     "神はイシュマエルが何人の首長をもうけると約束しましたか？",
+     "12",
+     "7",
+     "3"
+    ],
+    "ko": [
+     "하느님은 이스마엘이 몇 명의 제후를 낳을 것이라고 약속하셨습니까?",
+     "12",
+     "7",
+     "3"
+    ],
+    "ar": [
+     "كم رئيسًا وعد الله أن يلد إسماعيل؟",
+     "12",
+     "7",
+     "3"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-017-06",
+   "book": "genesis",
+   "chapter": 18,
+   "difficulty": "easy",
+   "ref": "Genesis 18:12",
+   "text": {
+    "en": [
+     "At Mamre, who laughed to herself on hearing she would bear a son?",
+     "Sarah",
+     "Hagar",
+     "Rebekah"
+    ],
+    "es": [
+     "¿Quién se rio para sí en Mambré al oír que daría a luz un hijo?",
+     "Sara",
+     "Agar",
+     "Rebeca"
+    ],
+    "pt": [
+     "Em Mambré, quem riu consigo mesma ao ouvir que daria à luz um filho?",
+     "Sara",
+     "Agar",
+     "Rebeca"
+    ],
+    "fr": [
+     "À Mambré, qui rit en elle-même en apprenant qu'elle enfanterait un fils ?",
+     "Sara",
+     "Agar",
+     "Rébecca"
+    ],
+    "de": [
+     "Wer lachte bei Mamre heimlich, als ihr ein Sohn verheißen wurde?",
+     "Sara",
+     "Hagar",
+     "Rebekka"
+    ],
+    "it": [
+     "A Mamre, chi rise dentro di sé sentendo che avrebbe partorito un figlio?",
+     "Sara",
+     "Agar",
+     "Rebecca"
+    ],
+    "pl": [
+     "Kto w Mamre roześmiał się w duchu na wieść, że urodzi syna?",
+     "Sara",
+     "Hagar",
+     "Rebeka"
+    ],
+    "ru": [
+     "Кто засмеялся про себя у Мамре, услышав, что родит сына?",
+     "Сарра",
+     "Агарь",
+     "Ревекка"
+    ],
+    "tr": [
+     "Mamre'de oğul doğuracağını duyunca içinden kim güldü?",
+     "Sara",
+     "Hacer",
+     "Rebeka"
+    ],
+    "ja": [
+     "マムレで、男の子を産むと聞いて心の中で笑ったのは誰ですか？",
+     "サラ",
+     "ハガル",
+     "リベカ"
+    ],
+    "ko": [
+     "마므레에서 아들을 낳게 되리라는 말을 듣고 속으로 웃은 사람은 누구입니까?",
+     "사라",
+     "하가르",
+     "리브가"
+    ],
+    "ar": [
+     "من ضحكت في سرها عند ممرا عندما سمعت أنها ستلد ابنًا؟",
+     "سارة",
+     "هاجر",
+     "رفقة"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-017-07",
+   "book": "genesis",
+   "chapter": 18,
+   "difficulty": "medium",
+   "ref": "Genesis 18:23",
+   "text": {
+    "en": [
+     "Abraham pleaded with the Lord not to destroy which city?",
+     "Sodom",
+     "Jericho",
+     "Nineveh"
+    ],
+    "es": [
+     "¿Por qué ciudad suplicó Abraham al Señor que no la destruyera?",
+     "Sodoma",
+     "Jericó",
+     "Nínive"
+    ],
+    "pt": [
+     "Por qual cidade Abraão intercedeu para que o Senhor não a destruísse?",
+     "Sodoma",
+     "Jericó",
+     "Nínive"
+    ],
+    "fr": [
+     "Pour quelle ville Abraham intercéda-t-il afin que le Seigneur ne la détruise pas ?",
+     "Sodome",
+     "Jéricho",
+     "Ninive"
+    ],
+    "de": [
+     "Für welche Stadt bat Abraham den Herrn, sie nicht zu vernichten?",
+     "Sodom",
+     "Jericho",
+     "Ninive"
+    ],
+    "it": [
+     "Per quale città Abramo supplicò il Signore di non distruggerla?",
+     "Sodoma",
+     "Gerico",
+     "Ninive"
+    ],
+    "pl": [
+     "Za którym miastem wstawiał się Abraham, by Pan go nie zniszczył?",
+     "Sodoma",
+     "Jerycho",
+     "Niniwa"
+    ],
+    "ru": [
+     "За какой город Авраам просил Господа, чтобы он не погубил его?",
+     "Содом",
+     "Иерихон",
+     "Ниневия"
+    ],
+    "tr": [
+     "İbrahim, RAB'bin hangi kenti yok etmemesi için yalvardı?",
+     "Sodom",
+     "Eriha",
+     "Ninova"
+    ],
+    "ja": [
+     "アブラハムは主がどの町を滅ぼさないようにと願いましたか？",
+     "ソドム",
+     "エリコ",
+     "ニネベ"
+    ],
+    "ko": [
+     "아브라함은 주님께서 어느 도성을 멸하지 마시도록 간청했습니까?",
+     "소돔",
+     "예리코",
+     "니네베"
+    ],
+    "ar": [
+     "من أجل أي مدينة تشفع إبراهيم لدى الرب ألا يهلكها؟",
+     "سدوم",
+     "أريحا",
+     "نينوى"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-017-08",
+   "book": "genesis",
+   "chapter": 18,
+   "difficulty": "expert",
+   "ref": "Genesis 18:7",
+   "text": {
+    "en": [
+     "At Mamre, what tender animal did Abraham have prepared for his visitors?",
+     "Calf",
+     "Lamb",
+     "Goat"
+    ],
+    "es": [
+     "¿Qué tierno animal hizo Abraham preparar para sus visitantes en Mambré?",
+     "Becerro",
+     "Cordero",
+     "Cabra"
+    ],
+    "pt": [
+     "Que animal tenro Abraão mandou preparar para seus visitantes em Mambré?",
+     "Bezerro",
+     "Cordeiro",
+     "Cabra"
+    ],
+    "fr": [
+     "Quel tendre animal Abraham fit-il préparer à Mambré pour ses visiteurs ?",
+     "Veau",
+     "Agneau",
+     "Chèvre"
+    ],
+    "de": [
+     "Welches zarte Tier ließ Abraham in Mamre für seine Besucher zubereiten?",
+     "Kalb",
+     "Lamm",
+     "Ziege"
+    ],
+    "it": [
+     "Quale tenero animale Abramo fece preparare a Mamre per i suoi visitatori?",
+     "Vitello",
+     "Agnello",
+     "Capra"
+    ],
+    "pl": [
+     "Jakie zwierzę o delikatnym mięsie kazał Abraham przygotować w Mamre dla gości?",
+     "Cielę",
+     "Baranek",
+     "Koza"
+    ],
+    "ru": [
+     "Какое животное с нежным мясом велел приготовить Авраам для гостей у Мамре?",
+     "Телёнок",
+     "Ягнёнок",
+     "Коза"
+    ],
+    "tr": [
+     "İbrahim Mamre'de konukları için hangi körpe hayvanı hazırlattı?",
+     "Buzağı",
+     "Kuzu",
+     "Keçi"
+    ],
+    "ja": [
+     "マムレで、アブラハムは客のために、どんな柔らかい動物を用意させましたか？",
+     "子牛",
+     "子羊",
+     "ヤギ"
+    ],
+    "ko": [
+     "아브라함은 마므레에서 손님들을 위해 어떤 연한 짐승을 준비하게 했습니까?",
+     "송아지",
+     "어린양",
+     "염소"
+    ],
+    "ar": [
+     "أي حيوان طري أمر إبراهيم بإعداده لضيوفه عند ممرا؟",
+     "عجل",
+     "حمل",
+     "ماعز"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-017-09",
+   "book": "genesis",
+   "chapter": 18,
+   "difficulty": "hard",
+   "ref": "Genesis 18:32",
+   "text": {
+    "en": [
+     "Pleading for Sodom, what lowest number of righteous did Abraham name?",
+     "10",
+     "5",
+     "100"
+    ],
+    "es": [
+     "¿Cuál fue el menor número de justos que Abraham nombró al interceder por Sodoma?",
+     "10",
+     "5",
+     "100"
+    ],
+    "pt": [
+     "Qual foi o menor número de justos que Abraão mencionou ao interceder por Sodoma?",
+     "10",
+     "5",
+     "100"
+    ],
+    "fr": [
+     "En intercédant pour Sodome, quel fut le plus petit nombre de justes qu'Abraham cita ?",
+     "10",
+     "5",
+     "100"
+    ],
+    "de": [
+     "Was war die kleinste Zahl von Gerechten, die Abraham bei seiner Fürbitte für Sodom nannte?",
+     "10",
+     "5",
+     "100"
+    ],
+    "it": [
+     "Intercedendo per Sodoma, qual è il numero minimo di giusti che Abramo citò?",
+     "10",
+     "5",
+     "100"
+    ],
+    "pl": [
+     "Jaką najmniejszą liczbę sprawiedliwych wymienił Abraham, wstawiając się za Sodomą?",
+     "10",
+     "5",
+     "100"
+    ],
+    "ru": [
+     "Какое наименьшее число праведников назвал Авраам, заступаясь за Содом?",
+     "10",
+     "5",
+     "100"
+    ],
+    "tr": [
+     "İbrahim Sodom için yalvarırken en düşük kaç doğru kişi saydı?",
+     "10",
+     "5",
+     "100"
+    ],
+    "ja": [
+     "ソドムのためにとりなしたとき、アブラハムが挙げた正しい人の最小の数はいくつでしたか？",
+     "10",
+     "5",
+     "100"
+    ],
+    "ko": [
+     "소돔을 위해 간청하면서 아브라함이 든 의인의 가장 적은 수는 얼마였습니까?",
+     "10",
+     "5",
+     "100"
+    ],
+    "ar": [
+     "عند شفاعته من أجل سدوم، ما أقل عدد من الأبرار ذكره إبراهيم؟",
+     "10",
+     "5",
+     "100"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-017-10",
+   "book": "genesis",
+   "chapter": 18,
+   "difficulty": "impossible",
+   "ref": "Genesis 18:6",
+   "text": {
+    "en": [
+     "How many measures of fine flour did Abraham tell Sarah to knead?",
+     "3",
+     "7",
+     "12"
+    ],
+    "es": [
+     "¿Cuántas medidas de flor de harina mandó Abraham amasar a Sara?",
+     "3",
+     "7",
+     "12"
+    ],
+    "pt": [
+     "Quantas medidas de flor de farinha Abraão mandou Sara amassar?",
+     "3",
+     "7",
+     "12"
+    ],
+    "fr": [
+     "Combien de mesures de fleur de farine Abraham dit-il à Sara de pétrir ?",
+     "3",
+     "7",
+     "12"
+    ],
+    "de": [
+     "Wie viele Maß Feinmehl sollte Sara nach Abrahams Wunsch kneten?",
+     "3",
+     "7",
+     "12"
+    ],
+    "it": [
+     "Quante misure di fior di farina Abramo disse a Sara di impastare?",
+     "3",
+     "7",
+     "12"
+    ],
+    "pl": [
+     "Ile miar najczystszej mąki kazał Abraham zagnieść Sarze?",
+     "3",
+     "7",
+     "12"
+    ],
+    "ru": [
+     "Сколько мер лучшей муки велел Авраам замесить Сарре?",
+     "3",
+     "7",
+     "12"
+    ],
+    "tr": [
+     "İbrahim, Sara'dan kaç ölçek ince un yoğurmasını istedi?",
+     "3",
+     "7",
+     "12"
+    ],
+    "ja": [
+     "アブラハムはサラに、上等の小麦粉を何セアこねるよう言いましたか？",
+     "3",
+     "7",
+     "12"
+    ],
+    "ko": [
+     "아브라함은 사라에게 고운 밀가루를 몇 스아 반죽하라고 했습니까?",
+     "3",
+     "7",
+     "12"
+    ],
+    "ar": [
+     "كم كيلًا من الدقيق الفاخر طلب إبراهيم من سارة أن تعجنه؟",
+     "3",
+     "7",
+     "12"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-017-11",
+   "book": "genesis",
+   "chapter": 19,
+   "difficulty": "easy",
+   "ref": "Genesis 19:26",
+   "text": {
+    "en": [
+     "Looking back, Lot's wife became a pillar of what?",
+     "Salt",
+     "Stone",
+     "Sand"
+    ],
+    "es": [
+     "¿En una columna de qué se convirtió la mujer de Lot al mirar atrás?",
+     "Sal",
+     "Piedra",
+     "Arena"
+    ],
+    "pt": [
+     "Ao olhar para trás, a mulher de Ló virou uma estátua de quê?",
+     "Sal",
+     "Pedra",
+     "Areia"
+    ],
+    "fr": [
+     "En se retournant, la femme de Lot devint une statue de quoi ?",
+     "Sel",
+     "Pierre",
+     "Sable"
+    ],
+    "de": [
+     "Aus welchem Stoff wurde Lots Frau zur Säule, als sie zurückblickte?",
+     "Salz",
+     "Stein",
+     "Sand"
+    ],
+    "it": [
+     "Voltandosi indietro, la moglie di Lot divenne una statua di che cosa?",
+     "Sale",
+     "Pietra",
+     "Sabbia"
+    ],
+    "pl": [
+     "Jaki minerał tworzył słup, w który zamieniła się żona Lota?",
+     "Sól",
+     "Kamień",
+     "Piasek"
+    ],
+    "ru": [
+     "Какое вещество составило столп, в который обратилась жена Лота?",
+     "Соль",
+     "Камень",
+     "Песок"
+    ],
+    "tr": [
+     "Lut'un karısı dönüp bakınca hangi maddeden bir sütuna dönüştü?",
+     "Tuz",
+     "Taş",
+     "Kum"
+    ],
+    "ja": [
+     "ロトの妻は振り返って、何の柱になりましたか？",
+     "塩",
+     "石",
+     "砂"
+    ],
+    "ko": [
+     "롯의 아내는 뒤를 돌아보다가 무엇으로 된 기둥이 되었습니까?",
+     "소금",
+     "돌",
+     "모래"
+    ],
+    "ar": [
+     "التفتت امرأة لوط إلى الوراء فصارت عمودًا من أي مادة؟",
+     "ملح",
+     "حجر",
+     "رمل"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-017-12",
+   "book": "genesis",
+   "chapter": 19,
+   "difficulty": "medium",
+   "ref": "Genesis 19:1",
+   "text": {
+    "en": [
+     "How many angels came to Sodom in the evening to rescue Lot?",
+     "2",
+     "3",
+     "4"
+    ],
+    "es": [
+     "¿Cuántos ángeles llegaron a Sodoma al atardecer para salvar a Lot?",
+     "2",
+     "3",
+     "4"
+    ],
+    "pt": [
+     "Quantos anjos chegaram a Sodoma ao entardecer para salvar Ló?",
+     "2",
+     "3",
+     "4"
+    ],
+    "fr": [
+     "Combien d'anges arrivèrent à Sodome le soir pour sauver Lot ?",
+     "2",
+     "3",
+     "4"
+    ],
+    "de": [
+     "Wie viele Engel kamen am Abend nach Sodom, um Lot zu retten?",
+     "2",
+     "3",
+     "4"
+    ],
+    "it": [
+     "Quanti angeli giunsero a Sodoma di sera per salvare Lot?",
+     "2",
+     "3",
+     "4"
+    ],
+    "pl": [
+     "Ilu aniołów przybyło wieczorem do Sodomy, by ocalić Lota?",
+     "2",
+     "3",
+     "4"
+    ],
+    "ru": [
+     "Сколько ангелов пришли вечером в Содом, чтобы спасти Лота?",
+     "2",
+     "3",
+     "4"
+    ],
+    "tr": [
+     "Lut'u kurtarmak için akşam Sodom'a kaç melek geldi?",
+     "2",
+     "3",
+     "4"
+    ],
+    "ja": [
+     "ロトを救うため、夕方ソドムに来た天使は何人でしたか？",
+     "2",
+     "3",
+     "4"
+    ],
+    "ko": [
+     "롯을 구하려고 저녁에 소돔에 온 천사는 몇 명이었습니까?",
+     "2",
+     "3",
+     "4"
+    ],
+    "ar": [
+     "كم ملاكًا جاءوا إلى سدوم في المساء لإنقاذ لوط؟",
+     "2",
+     "3",
+     "4"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-017-13",
+   "book": "genesis",
+   "chapter": 19,
+   "difficulty": "hard",
+   "ref": "Genesis 19:24",
+   "text": {
+    "en": [
+     "Besides fire, what did the Lord rain down on Sodom?",
+     "Sulfur",
+     "Hail",
+     "Blood"
+    ],
+    "es": [
+     "Además de fuego, ¿qué hizo llover el Señor sobre Sodoma?",
+     "Azufre",
+     "Granizo",
+     "Sangre"
+    ],
+    "pt": [
+     "Além de fogo, o que o Senhor fez chover sobre Sodoma?",
+     "Enxofre",
+     "Granizo",
+     "Sangue"
+    ],
+    "fr": [
+     "Outre le feu, que fit pleuvoir le Seigneur sur Sodome ?",
+     "Soufre",
+     "Grêle",
+     "Sang"
+    ],
+    "de": [
+     "Was ließ der Herr außer Feuer auf Sodom regnen?",
+     "Schwefel",
+     "Hagel",
+     "Blut"
+    ],
+    "it": [
+     "Oltre al fuoco, che cosa fece piovere il Signore su Sodoma?",
+     "Zolfo",
+     "Grandine",
+     "Sangue"
+    ],
+    "pl": [
+     "Co oprócz ognia spuścił Pan deszczem na Sodomę?",
+     "Siarka",
+     "Grad",
+     "Krew"
+    ],
+    "ru": [
+     "Что, кроме огня, пролил Господь дождём на Содом?",
+     "Сера",
+     "Град",
+     "Кровь"
+    ],
+    "tr": [
+     "RAB, Sodom'a ateşle birlikte başka ne yağdırdı?",
+     "Kükürt",
+     "Dolu",
+     "Kan"
+    ],
+    "ja": [
+     "主はソドムに、火のほかに何を降らせましたか？",
+     "硫黄",
+     "雹",
+     "血"
+    ],
+    "ko": [
+     "주님은 소돔에 불 말고 무엇을 퍼부으셨습니까?",
+     "유황",
+     "우박",
+     "피"
+    ],
+    "ar": [
+     "ماذا أمطر الرب على سدوم إلى جانب النار؟",
+     "كبريت",
+     "برد",
+     "دم"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-017-14",
+   "book": "genesis",
+   "chapter": 19,
+   "difficulty": "expert",
+   "ref": "Genesis 19:22-23",
+   "text": {
+    "en": [
+     "To which small town did Lot flee from Sodom?",
+     "Zoar",
+     "Hebron",
+     "Jericho"
+    ],
+    "es": [
+     "¿A qué pequeña ciudad huyó Lot desde Sodoma?",
+     "Soar",
+     "Hebrón",
+     "Jericó"
+    ],
+    "pt": [
+     "Para que pequena cidade fugiu Ló de Sodoma?",
+     "Segor",
+     "Hebron",
+     "Jericó"
+    ],
+    "fr": [
+     "Vers quelle petite ville Lot s'enfuit-il depuis Sodome ?",
+     "Coar",
+     "Hébron",
+     "Jéricho"
+    ],
+    "de": [
+     "In welche kleine Stadt floh Lot aus Sodom?",
+     "Zoar",
+     "Hebron",
+     "Jericho"
+    ],
+    "it": [
+     "In quale piccola città fuggì Lot da Sodoma?",
+     "Soar",
+     "Ebron",
+     "Gerico"
+    ],
+    "pl": [
+     "Do jakiego małego miasta uciekł Lot z Sodomy?",
+     "Soar",
+     "Hebron",
+     "Jerycho"
+    ],
+    "ru": [
+     "В какой небольшой город бежал Лот из Содома?",
+     "Сигор",
+     "Хеврон",
+     "Иерихон"
+    ],
+    "tr": [
+     "Lut Sodom'dan hangi küçük kente kaçtı?",
+     "Soar",
+     "Hebron",
+     "Eriha"
+    ],
+    "ja": [
+     "ロトはソドムからどの小さな町へ逃げましたか？",
+     "ツォアル",
+     "ヘブロン",
+     "エリコ"
+    ],
+    "ko": [
+     "롯은 소돔에서 어느 작은 성읍으로 피신했습니까?",
+     "소아르",
+     "헤브론",
+     "예리코"
+    ],
+    "ar": [
+     "إلى أي بلدة صغيرة هرب لوط من سدوم؟",
+     "صوغر",
+     "حبرون",
+     "أريحا"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-017-15",
+   "book": "genesis",
+   "chapter": 19,
+   "difficulty": "impossible",
+   "ref": "Genesis 19:37",
+   "text": {
+    "en": [
+     "Which name did Lot's elder daughter give her son?",
+     "Moab",
+     "Edom",
+     "Midian"
+    ],
+    "es": [
+     "¿Qué nombre puso a su hijo la hija mayor de Lot?",
+     "Moab",
+     "Edom",
+     "Madián"
+    ],
+    "pt": [
+     "Que nome deu a seu filho a filha mais velha de Ló?",
+     "Moab",
+     "Edom",
+     "Madiã"
+    ],
+    "fr": [
+     "Quel nom l'aînée des filles de Lot donna-t-elle à son fils ?",
+     "Moab",
+     "Édom",
+     "Madian"
+    ],
+    "de": [
+     "Welchen Namen gab Lots ältere Tochter ihrem Sohn?",
+     "Moab",
+     "Edom",
+     "Midian"
+    ],
+    "it": [
+     "Quale nome diede a suo figlio la figlia maggiore di Lot?",
+     "Moab",
+     "Edom",
+     "Madian"
+    ],
+    "pl": [
+     "Jakie imię nadała synowi starsza córka Lota?",
+     "Moab",
+     "Edom",
+     "Madian"
+    ],
+    "ru": [
+     "Какое имя дала сыну старшая дочь Лота?",
+     "Моав",
+     "Едом",
+     "Мадиам"
+    ],
+    "tr": [
+     "Lut'un büyük kızı oğluna hangi adı verdi?",
+     "Moav",
+     "Edom",
+     "Midyan"
+    ],
+    "ja": [
+     "ロトの姉娘は、息子にどんな名前をつけましたか？",
+     "モアブ",
+     "エドム",
+     "ミディアン"
+    ],
+    "ko": [
+     "롯의 맏딸은 아들에게 어떤 이름을 지어 주었습니까?",
+     "모압",
+     "에돔",
+     "미디안"
+    ],
+    "ar": [
+     "ما الاسم الذي أطلقته ابنة لوط الكبرى على ابنها؟",
+     "موآب",
+     "أدوم",
+     "مديان"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-017-16",
+   "book": "genesis",
+   "chapter": 20,
+   "difficulty": "easy",
+   "ref": "Genesis 20:2",
+   "text": {
+    "en": [
+     "Which king of Gerar took Sarah, Abraham's wife?",
+     "Abimelech",
+     "Pharaoh",
+     "Nimrod"
+    ],
+    "es": [
+     "¿Qué rey de Guerar tomó a Sara, la mujer de Abraham?",
+     "Abimelec",
+     "Faraón",
+     "Nemrod"
+    ],
+    "pt": [
+     "Que rei de Gerara tomou Sara, a mulher de Abraão?",
+     "Abimelec",
+     "Faraó",
+     "Ninrode"
+    ],
+    "fr": [
+     "Quel roi de Guerar prit Sara, la femme d'Abraham ?",
+     "Abimélek",
+     "Pharaon",
+     "Nemrod"
+    ],
+    "de": [
+     "Welcher König von Gerar nahm Sara, Abrahams Frau, zu sich?",
+     "Abimelech",
+     "Pharao",
+     "Nimrod"
+    ],
+    "it": [
+     "Quale re di Gerar prese Sara, moglie di Abramo?",
+     "Abimelech",
+     "Faraone",
+     "Nimrod"
+    ],
+    "pl": [
+     "Który król Gerary wziął Sarę, żonę Abrahama?",
+     "Abimelech",
+     "Faraon",
+     "Nimrod"
+    ],
+    "ru": [
+     "Какой царь Герара взял Сарру, жену Авраама?",
+     "Авимелех",
+     "Фараон",
+     "Нимрод"
+    ],
+    "tr": [
+     "Hangi Gerar kralı, İbrahim'in karısı Sara'yı aldı?",
+     "Avimelek",
+     "Firavun",
+     "Nemrut"
+    ],
+    "ja": [
+     "ゲラルのどの王が、アブラハムの妻サラを召し入れましたか？",
+     "アビメレク",
+     "ファラオ",
+     "ニムロド"
+    ],
+    "ko": [
+     "그라르의 어느 임금이 아브라함의 아내 사라를 데려갔습니까?",
+     "아비멜렉",
+     "파라오",
+     "니므롯"
+    ],
+    "ar": [
+     "أي ملك جرار أخذ سارة، امرأة إبراهيم؟",
+     "أبيمالك",
+     "فرعون",
+     "نمرود"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-017-17",
+   "book": "genesis",
+   "chapter": 20,
+   "difficulty": "medium",
+   "ref": "Genesis 20:2",
+   "text": {
+    "en": [
+     "Which family relationship did Abraham claim with Sarah in Gerar?",
+     "Sister",
+     "Mother",
+     "Daughter"
+    ],
+    "es": [
+     "¿Qué parentesco dijo Abraham que tenía con Sara en Guerar?",
+     "Hermana",
+     "Madre",
+     "Hija"
+    ],
+    "pt": [
+     "Que parentesco Abraão disse ter com Sara em Gerara?",
+     "Irmã",
+     "Mãe",
+     "Filha"
+    ],
+    "fr": [
+     "Quel lien de parenté Abraham déclara-t-il avoir avec Sara à Guerar ?",
+     "Sœur",
+     "Mère",
+     "Fille"
+    ],
+    "de": [
+     "Welche Verwandtschaft mit Sara behauptete Abraham in Gerar?",
+     "Schwester",
+     "Mutter",
+     "Tochter"
+    ],
+    "it": [
+     "Quale parentela con Sara dichiarò Abramo di avere a Gerar?",
+     "Sorella",
+     "Madre",
+     "Figlia"
+    ],
+    "pl": [
+     "Jakie pokrewieństwo z Sarą podał Abraham w Gerarze?",
+     "Siostra",
+     "Matka",
+     "Córka"
+    ],
+    "ru": [
+     "Какое родство с Саррой назвал Авраам в Гераре?",
+     "Сестра",
+     "Мать",
+     "Дочь"
+    ],
+    "tr": [
+     "İbrahim, Gerar'da Sara ile aralarında hangi akrabalığı olduğunu söyledi?",
+     "Kızkardeş",
+     "Anne",
+     "Kız"
+    ],
+    "ja": [
+     "アブラハムはゲラルで、サラとの間柄を何だと言いましたか？",
+     "妹",
+     "母",
+     "娘"
+    ],
+    "ko": [
+     "아브라함은 그라르에서 사라와 어떤 관계라고 말했습니까?",
+     "누이",
+     "어머니",
+     "딸"
+    ],
+    "ar": [
+     "ما صلة القرابة التي ادعاها إبراهيم مع سارة في جرار؟",
+     "أخت",
+     "أم",
+     "ابنة"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-017-18",
+   "book": "genesis",
+   "chapter": 20,
+   "difficulty": "hard",
+   "ref": "Genesis 20:3",
+   "text": {
+    "en": [
+     "How did God warn the king of Gerar not to touch Sarah?",
+     "Dream",
+     "Angel",
+     "Letter"
+    ],
+    "es": [
+     "¿Por qué medio advirtió Dios al rey de Guerar que no tocara a Sara?",
+     "Sueño",
+     "Ángel",
+     "Carta"
+    ],
+    "pt": [
+     "Por que meio Deus avisou o rei de Gerara para não tocar em Sara?",
+     "Sonho",
+     "Anjo",
+     "Carta"
+    ],
+    "fr": [
+     "Par quel moyen Dieu avertit-il le roi de Guerar de ne pas toucher Sara ?",
+     "Rêve",
+     "Ange",
+     "Lettre"
+    ],
+    "de": [
+     "Auf welchem Weg warnte Gott den König von Gerar, Sara nicht anzurühren?",
+     "Traum",
+     "Engel",
+     "Brief"
+    ],
+    "it": [
+     "In che modo Dio avvertì il re di Gerar di non toccare Sara?",
+     "Sogno",
+     "Angelo",
+     "Lettera"
+    ],
+    "pl": [
+     "W jaki sposób Bóg ostrzegł króla Gerary, by nie dotykał Sary?",
+     "Sen",
+     "Anioł",
+     "List"
+    ],
+    "ru": [
+     "Каким образом Бог предостерёг царя Герара не касаться Сарры?",
+     "Сон",
+     "Ангел",
+     "Письмо"
+    ],
+    "tr": [
+     "Tanrı, Gerar kralını Sara'ya dokunmaması için hangi yolla uyardı?",
+     "Rüya",
+     "Melek",
+     "Mektup"
+    ],
+    "ja": [
+     "神はゲラルの王に、どのような方法でサラに触れないよう警告しましたか？",
+     "夢",
+     "天使",
+     "手紙"
+    ],
+    "ko": [
+     "하느님은 그라르 임금에게 어떤 방법으로 사라를 건드리지 말라고 경고하셨습니까?",
+     "꿈",
+     "천사",
+     "편지"
+    ],
+    "ar": [
+     "بأي وسيلة حذر الله ملك جرار من لمس سارة؟",
+     "حلم",
+     "ملاك",
+     "رسالة"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-017-19",
+   "book": "genesis",
+   "chapter": 20,
+   "difficulty": "expert",
+   "ref": "Genesis 20:16",
+   "text": {
+    "en": [
+     "How many pieces of silver did the king of Gerar give Abraham?",
+     "1000",
+     "300",
+     "30"
+    ],
+    "es": [
+     "¿Cuántas monedas de plata dio el rey de Guerar a Abraham?",
+     "1000",
+     "300",
+     "30"
+    ],
+    "pt": [
+     "Quantas moedas de prata o rei de Gerara deu a Abraão?",
+     "1000",
+     "300",
+     "30"
+    ],
+    "fr": [
+     "Combien de pièces d'argent le roi de Guerar donna-t-il à Abraham ?",
+     "1000",
+     "300",
+     "30"
+    ],
+    "de": [
+     "Wie viele Silberstücke gab der König von Gerar Abraham?",
+     "1000",
+     "300",
+     "30"
+    ],
+    "it": [
+     "Quanti pezzi d'argento diede a Abramo il re di Gerar?",
+     "1000",
+     "300",
+     "30"
+    ],
+    "pl": [
+     "Ile srebrników dał Abrahamowi król Gerary?",
+     "1000",
+     "300",
+     "30"
+    ],
+    "ru": [
+     "Сколько сребреников дал Аврааму царь Герара?",
+     "1000",
+     "300",
+     "30"
+    ],
+    "tr": [
+     "Gerar Kralı İbrahim'e kaç gümüş verdi?",
+     "1000",
+     "300",
+     "30"
+    ],
+    "ja": [
+     "ゲラルの王はアブラハムに銀何枚を与えましたか？",
+     "1000",
+     "300",
+     "30"
+    ],
+    "ko": [
+     "그라르 임금은 아브라함에게 은 몇 닢을 주었습니까?",
+     "1000",
+     "300",
+     "30"
+    ],
+    "ar": [
+     "كم قطعة فضة أعطى ملك جرار لإبراهيم؟",
+     "1000",
+     "300",
+     "30"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-017-20",
+   "book": "genesis",
+   "chapter": 20,
+   "difficulty": "impossible",
+   "ref": "Genesis 20:1",
+   "text": {
+    "en": [
+     "Abraham settled between Kadesh and which place before staying in Gerar?",
+     "Shur",
+     "Sinai",
+     "Hebron"
+    ],
+    "es": [
+     "¿Entre Cades y qué lugar se estableció Abraham antes de residir en Guerar?",
+     "Sur",
+     "Sinaí",
+     "Hebrón"
+    ],
+    "pt": [
+     "Entre Cades e que lugar Abraão se estabeleceu antes de morar em Gerara?",
+     "Sur",
+     "Sinai",
+     "Hebron"
+    ],
+    "fr": [
+     "Entre Cadès et quel lieu Abraham s'établit-il avant de séjourner à Guerar ?",
+     "Shour",
+     "Sinaï",
+     "Hébron"
+    ],
+    "de": [
+     "Zwischen Kadesch und welchem Ort ließ sich Abraham nieder, bevor er in Gerar blieb?",
+     "Schur",
+     "Sinai",
+     "Hebron"
+    ],
+    "it": [
+     "Tra Kades e quale luogo si stabilì Abramo prima di soggiornare a Gerar?",
+     "Sur",
+     "Sinai",
+     "Ebron"
+    ],
+    "pl": [
+     "Między Kadesz a jakim miejscem osiedlił się Abraham, zanim zamieszkał w Gerarze?",
+     "Szur",
+     "Synaj",
+     "Hebron"
+    ],
+    "ru": [
+     "Между Кадесом и каким местом поселился Авраам, прежде чем жить в Гераре?",
+     "Сур",
+     "Синай",
+     "Хеврон"
+    ],
+    "tr": [
+     "İbrahim Gerar'da kalmadan önce Kadeş ile hangi yer arasına yerleşti?",
+     "Şur",
+     "Sina",
+     "Hebron"
+    ],
+    "ja": [
+     "アブラハムはゲラルに滞在する前、カデシュとどの場所の間に住みましたか？",
+     "シュル",
+     "シナイ",
+     "ヘブロン"
+    ],
+    "ko": [
+     "아브라함은 그라르에 머물기 전에 카데스와 어느 곳 사이에 자리를 잡았습니까?",
+     "수르",
+     "시나이",
+     "헤브론"
+    ],
+    "ar": [
+     "بين قادش وأي مكان أقام إبراهيم قبل أن يتغرب في جرار؟",
+     "شور",
+     "سيناء",
+     "حبرون"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-017-21",
+   "book": "genesis",
+   "chapter": 21,
+   "difficulty": "easy",
+   "ref": "Genesis 21:3",
+   "text": {
+    "en": [
+     "What name did Abraham give to the son Sarah bore him?",
+     "Isaac",
+     "Ishmael",
+     "Jacob"
+    ],
+    "es": [
+     "¿Qué nombre puso Abraham al hijo que Sara le dio?",
+     "Isaac",
+     "Ismael",
+     "Jacob"
+    ],
+    "pt": [
+     "Que nome Abraão deu ao filho que Sara lhe deu?",
+     "Isaque",
+     "Ismael",
+     "Jacó"
+    ],
+    "fr": [
+     "Quel nom Abraham donna-t-il au fils que Sara lui enfanta ?",
+     "Isaac",
+     "Ismaël",
+     "Jacob"
+    ],
+    "de": [
+     "Welchen Namen gab Abraham dem Sohn, den Sara ihm gebar?",
+     "Isaak",
+     "Ismael",
+     "Jakob"
+    ],
+    "it": [
+     "Quale nome diede Abramo al figlio che Sara gli partorì?",
+     "Isacco",
+     "Ismaele",
+     "Giacobbe"
+    ],
+    "pl": [
+     "Jakie imię nadał Abraham synowi, którego urodziła mu Sara?",
+     "Izaak",
+     "Izmael",
+     "Jakub"
+    ],
+    "ru": [
+     "Какое имя дал Авраам сыну, которого родила ему Сарра?",
+     "Исаак",
+     "Измаил",
+     "Иаков"
+    ],
+    "tr": [
+     "İbrahim, Sara'nın doğurduğu oğluna hangi adı verdi?",
+     "İshak",
+     "İsmail",
+     "Yakup"
+    ],
+    "ja": [
+     "アブラハムは、サラが産んだ子にどんな名をつけましたか？",
+     "イサク",
+     "イシュマエル",
+     "ヤコブ"
+    ],
+    "ko": [
+     "아브라함은 사라가 낳은 아들에게 어떤 이름을 지어 주었습니까?",
+     "이사악",
+     "이스마엘",
+     "야곱"
+    ],
+    "ar": [
+     "ما الاسم الذي أطلقه إبراهيم على الابن الذي ولدته له سارة؟",
+     "إسحاق",
+     "إسماعيل",
+     "يعقوب"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-017-22",
+   "book": "genesis",
+   "chapter": 21,
+   "difficulty": "medium",
+   "ref": "Genesis 21:9-10",
+   "text": {
+    "en": [
+     "Which Egyptian slave woman did Sarah have Abraham send away?",
+     "Hagar",
+     "Keturah",
+     "Milcah"
+    ],
+    "es": [
+     "¿A qué esclava egipcia hizo Sara que Abraham echara?",
+     "Agar",
+     "Quetura",
+     "Milká"
+    ],
+    "pt": [
+     "Que escrava egípcia Sara mandou Abraão expulsar?",
+     "Agar",
+     "Quetura",
+     "Milca"
+    ],
+    "fr": [
+     "Quelle esclave égyptienne Sara fit-elle chasser par Abraham ?",
+     "Agar",
+     "Qetura",
+     "Milca"
+    ],
+    "de": [
+     "Welche ägyptische Magd ließ Sara von Abraham fortschicken?",
+     "Hagar",
+     "Ketura",
+     "Milka"
+    ],
+    "it": [
+     "Quale schiava egiziana Sara fece cacciare da Abramo?",
+     "Agar",
+     "Chetura",
+     "Milca"
+    ],
+    "pl": [
+     "Którą egipską niewolnicę kazała Sara wypędzić Abrahamowi?",
+     "Hagar",
+     "Ketura",
+     "Milka"
+    ],
+    "ru": [
+     "Какую рабыню-египтянку Сарра велела Аврааму прогнать?",
+     "Агарь",
+     "Хеттура",
+     "Милка"
+    ],
+    "tr": [
+     "Sara, İbrahim'e hangi Mısırlı cariyeyi kovdurdu?",
+     "Hacer",
+     "Ketura",
+     "Milka"
+    ],
+    "ja": [
+     "サラはアブラハムに、どのエジプト人の女奴隷を追い出させましたか？",
+     "ハガル",
+     "ケトラ",
+     "ミルカ"
+    ],
+    "ko": [
+     "사라는 아브라함에게 어느 이집트인 여종을 내쫓게 했습니까?",
+     "하가르",
+     "크투라",
+     "밀카"
+    ],
+    "ar": [
+     "أي جارية مصرية جعلت سارة إبراهيم يطردها؟",
+     "هاجر",
+     "قطورة",
+     "ملكة"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-017-23",
+   "book": "genesis",
+   "chapter": 21,
+   "difficulty": "hard",
+   "ref": "Genesis 21:5",
+   "text": {
+    "en": [
+     "How old was Abraham when Sarah bore him a son?",
+     "100",
+     "75",
+     "90"
+    ],
+    "es": [
+     "¿Cuántos años tenía Abraham cuando Sara le dio un hijo?",
+     "100",
+     "75",
+     "90"
+    ],
+    "pt": [
+     "Quantos anos tinha Abraão quando Sara lhe deu um filho?",
+     "100",
+     "75",
+     "90"
+    ],
+    "fr": [
+     "Quel âge avait Abraham quand Sara lui donna un fils ?",
+     "100",
+     "75",
+     "90"
+    ],
+    "de": [
+     "Wie alt war Abraham, als Sara ihm einen Sohn gebar?",
+     "100",
+     "75",
+     "90"
+    ],
+    "it": [
+     "Quanti anni aveva Abramo quando Sara gli partorì un figlio?",
+     "100",
+     "75",
+     "90"
+    ],
+    "pl": [
+     "Ile lat miał Abraham, gdy Sara urodziła mu syna?",
+     "100",
+     "75",
+     "90"
+    ],
+    "ru": [
+     "Сколько лет было Аврааму, когда Сарра родила ему сына?",
+     "100",
+     "75",
+     "90"
+    ],
+    "tr": [
+     "Sara ona oğul doğurduğunda İbrahim kaç yaşındaydı?",
+     "100",
+     "75",
+     "90"
+    ],
+    "ja": [
+     "サラが男の子を産んだとき、アブラハムは何歳でしたか？",
+     "100",
+     "75",
+     "90"
+    ],
+    "ko": [
+     "사라가 아들을 낳았을 때 아브라함은 몇 살이었습니까?",
+     "100",
+     "75",
+     "90"
+    ],
+    "ar": [
+     "كم كان عمر إبراهيم عندما ولدت له سارة ابنًا؟",
+     "100",
+     "75",
+     "90"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-017-24",
+   "book": "genesis",
+   "chapter": 21,
+   "difficulty": "expert",
+   "ref": "Genesis 21:20",
+   "text": {
+    "en": [
+     "What was Ishmael's occupation after growing up in the wilderness?",
+     "Archer",
+     "Shepherd",
+     "Farmer"
+    ],
+    "es": [
+     "¿Cuál fue la ocupación de Ismael tras crecer en el desierto?",
+     "Arquero",
+     "Pastor",
+     "Agricultor"
+    ],
+    "pt": [
+     "Qual foi a ocupação de Ismael depois de crescer no deserto?",
+     "Arqueiro",
+     "Pastor",
+     "Agricultor"
+    ],
+    "fr": [
+     "Quelle fut l'occupation d'Ismaël après avoir grandi dans le désert ?",
+     "Archer",
+     "Berger",
+     "Agriculteur"
+    ],
+    "de": [
+     "Welchen Beruf übte Ismael aus, nachdem er in der Wüste aufgewachsen war?",
+     "Bogenschütze",
+     "Hirte",
+     "Bauer"
+    ],
+    "it": [
+     "Quale fu l'occupazione di Ismaele dopo essere cresciuto nel deserto?",
+     "Arciere",
+     "Pastore",
+     "Contadino"
+    ],
+    "pl": [
+     "Jakie zajęcie miał Izmael, gdy dorósł na pustyni?",
+     "Łucznik",
+     "Pasterz",
+     "Rolnik"
+    ],
+    "ru": [
+     "Каково было занятие Измаила, выросшего в пустыне?",
+     "Стрелок",
+     "Пастух",
+     "Земледелец"
+    ],
+    "tr": [
+     "Çölde büyüyen İsmail'in mesleği neydi?",
+     "Okçu",
+     "Çoban",
+     "Çiftçi"
+    ],
+    "ja": [
+     "荒れ野で育ったイシュマエルの職業は何でしたか？",
+     "射手",
+     "羊飼い",
+     "農夫"
+    ],
+    "ko": [
+     "광야에서 자란 이스마엘의 직업은 무엇이었습니까?",
+     "궁수",
+     "목자",
+     "농부"
+    ],
+    "ar": [
+     "ما كانت مهنة إسماعيل بعد أن نشأ في البرية؟",
+     "رامي",
+     "راعي",
+     "فلاح"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-017-25",
+   "book": "genesis",
+   "chapter": 21,
+   "difficulty": "impossible",
+   "ref": "Genesis 21:22",
+   "text": {
+    "en": [
+     "Who commanded Abimelech's army when he made a pact with Abraham?",
+     "Phicol",
+     "Ephron",
+     "Hamor"
+    ],
+    "es": [
+     "¿Quién mandaba el ejército de Abimelec cuando pactó con Abraham?",
+     "Picol",
+     "Efrón",
+     "Jamor"
+    ],
+    "pt": [
+     "Quem comandava o exército de Abimelec quando fez pacto com Abraão?",
+     "Ficol",
+     "Efron",
+     "Hemor"
+    ],
+    "fr": [
+     "Qui commandait l'armée d'Abimélek quand il conclut un pacte avec Abraham ?",
+     "Pikol",
+     "Éphron",
+     "Hamor"
+    ],
+    "de": [
+     "Wer war Befehlshaber von Abimelechs Heer, als er mit Abraham einen Bund schloss?",
+     "Pichol",
+     "Efron",
+     "Hamor"
+    ],
+    "it": [
+     "Chi comandava l'esercito di Abimelech quando fece alleanza con Abramo?",
+     "Picol",
+     "Efron",
+     "Camor"
+    ],
+    "pl": [
+     "Kto dowodził wojskiem Abimeleka, gdy zawarł on przymierze z Abrahamem?",
+     "Pikol",
+     "Efron",
+     "Chamor"
+    ],
+    "ru": [
+     "Кто был военачальником Авимелеха, когда тот заключил союз с Авраамом?",
+     "Фихол",
+     "Ефрон",
+     "Еммор"
+    ],
+    "tr": [
+     "Avimelek İbrahim'le antlaşma yaptığında ordusunun komutanı kimdi?",
+     "Pikol",
+     "Efron",
+     "Hamor"
+    ],
+    "ja": [
+     "アビメレクがアブラハムと契約を結んだとき、その軍の長は誰でしたか？",
+     "ピコル",
+     "エフロン",
+     "ハモル"
+    ],
+    "ko": [
+     "아비멜렉이 아브라함과 계약을 맺을 때 그의 군사령관은 누구였습니까?",
+     "피콜",
+     "에프론",
+     "하모르"
+    ],
+    "ar": [
+     "من كان قائد جيش أبيمالك عندما عقد عهدًا مع إبراهيم؟",
+     "فيكول",
+     "عفرون",
+     "حمور"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-017-26",
+   "book": "genesis",
+   "chapter": 22,
+   "difficulty": "easy",
+   "ref": "Genesis 22:2",
+   "text": {
+    "en": [
+     "Which son of Abraham was to be offered as a burnt offering?",
+     "Isaac",
+     "Ishmael",
+     "Esau"
+    ],
+    "es": [
+     "¿Qué hijo de Abraham debía ser ofrecido en holocausto?",
+     "Isaac",
+     "Ismael",
+     "Esaú"
+    ],
+    "pt": [
+     "Qual filho de Abraão devia ser oferecido em holocausto?",
+     "Isaque",
+     "Ismael",
+     "Esaú"
+    ],
+    "fr": [
+     "Quel fils d'Abraham devait être offert en holocauste ?",
+     "Isaac",
+     "Ismaël",
+     "Ésaü"
+    ],
+    "de": [
+     "Welcher Sohn Abrahams sollte als Brandopfer dargebracht werden?",
+     "Isaak",
+     "Ismael",
+     "Esau"
+    ],
+    "it": [
+     "Quale figlio di Abramo doveva essere offerto in olocausto?",
+     "Isacco",
+     "Ismaele",
+     "Esaù"
+    ],
+    "pl": [
+     "Który syn Abrahama miał zostać złożony w ofierze całopalnej?",
+     "Izaak",
+     "Izmael",
+     "Ezaw"
+    ],
+    "ru": [
+     "Какой сын Авраама должен был стать всесожжением?",
+     "Исаак",
+     "Измаил",
+     "Исав"
+    ],
+    "tr": [
+     "İbrahim'in hangi oğlu yakmalık sunu olarak sunulacaktı?",
+     "İshak",
+     "İsmail",
+     "Esav"
+    ],
+    "ja": [
+     "アブラハムのどの息子が、焼き尽くす献げ物としてささげられることになりましたか？",
+     "イサク",
+     "イシュマエル",
+     "エサウ"
+    ],
+    "ko": [
+     "아브라함의 어느 아들이 번제물로 바쳐지게 되었습니까?",
+     "이사악",
+     "이스마엘",
+     "에사오"
+    ],
+    "ar": [
+     "أي ابن لإبراهيم كان سيُقدَّم محرقة؟",
+     "إسحاق",
+     "إسماعيل",
+     "عيسو"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-017-27",
+   "book": "genesis",
+   "chapter": 22,
+   "difficulty": "medium",
+   "ref": "Genesis 22:13",
+   "text": {
+    "en": [
+     "Which animal was sacrificed instead of Abraham's son?",
+     "Ram",
+     "Goat",
+     "Dove"
+    ],
+    "es": [
+     "¿Qué animal fue sacrificado en lugar del hijo de Abraham?",
+     "Carnero",
+     "Cabra",
+     "Paloma"
+    ],
+    "pt": [
+     "Que animal foi sacrificado no lugar do filho de Abraão?",
+     "Carneiro",
+     "Cabra",
+     "Pomba"
+    ],
+    "fr": [
+     "Quel animal fut sacrifié à la place du fils d'Abraham ?",
+     "Bélier",
+     "Chèvre",
+     "Colombe"
+    ],
+    "de": [
+     "Welches Tier wurde anstelle von Abrahams Sohn geopfert?",
+     "Widder",
+     "Ziege",
+     "Taube"
+    ],
+    "it": [
+     "Quale animale fu sacrificato al posto del figlio di Abramo?",
+     "Montone",
+     "Capra",
+     "Colomba"
+    ],
+    "pl": [
+     "Które zwierzę zostało złożone w ofierze zamiast syna Abrahama?",
+     "Baran",
+     "Koza",
+     "Gołąb"
+    ],
+    "ru": [
+     "Какое животное стало жертвой вместо сына Авраама?",
+     "Баран",
+     "Коза",
+     "Голубь"
+    ],
+    "tr": [
+     "İbrahim'in oğlunun yerine hangi hayvan kurban edildi?",
+     "Koç",
+     "Keçi",
+     "Güvercin"
+    ],
+    "ja": [
+     "アブラハムの息子の代わりに、どの動物がささげられましたか？",
+     "雄羊",
+     "ヤギ",
+     "鳩"
+    ],
+    "ko": [
+     "아브라함의 아들 대신 어떤 짐승이 제물로 바쳐졌습니까?",
+     "숫양",
+     "염소",
+     "비둘기"
+    ],
+    "ar": [
+     "أي حيوان قُدّم ذبيحة بدل ابن إبراهيم؟",
+     "كبش",
+     "ماعز",
+     "حمامة"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-017-28",
+   "book": "genesis",
+   "chapter": 22,
+   "difficulty": "hard",
+   "ref": "Genesis 22:2",
+   "text": {
+    "en": [
+     "To which land did God send Abraham to offer his son?",
+     "Moriah",
+     "Sinai",
+     "Horeb"
+    ],
+    "es": [
+     "¿A qué tierra envió Dios a Abraham para ofrecer a su hijo?",
+     "Moria",
+     "Sinaí",
+     "Horeb"
+    ],
+    "pt": [
+     "A que terra Deus enviou Abraão para oferecer seu filho?",
+     "Moriá",
+     "Sinai",
+     "Horeb"
+    ],
+    "fr": [
+     "Dans quel pays Dieu envoya-t-il Abraham pour offrir son fils ?",
+     "Moriah",
+     "Sinaï",
+     "Horeb"
+    ],
+    "de": [
+     "In welches Land schickte Gott Abraham, um seinen Sohn zu opfern?",
+     "Morija",
+     "Sinai",
+     "Horeb"
+    ],
+    "it": [
+     "In quale terra Dio mandò Abramo per offrire suo figlio?",
+     "Moria",
+     "Sinai",
+     "Oreb"
+    ],
+    "pl": [
+     "Do jakiej krainy Bóg posłał Abrahama, by złożył syna w ofierze?",
+     "Moria",
+     "Synaj",
+     "Horeb"
+    ],
+    "ru": [
+     "В какую землю Бог послал Авраама, чтобы принести сына в жертву?",
+     "Мориа",
+     "Синай",
+     "Хорив"
+    ],
+    "tr": [
+     "Tanrı İbrahim'i oğlunu sunmak için hangi diyara gönderdi?",
+     "Moriya",
+     "Sina",
+     "Horev"
+    ],
+    "ja": [
+     "神は息子をささげさせるため、アブラハムをどの地に行かせましたか？",
+     "モリヤ",
+     "シナイ",
+     "ホレブ"
+    ],
+    "ko": [
+     "하느님은 아들을 바치게 하려고 아브라함을 어느 땅으로 보내셨습니까?",
+     "모리야",
+     "시나이",
+     "호렙"
+    ],
+    "ar": [
+     "إلى أي أرض أرسل الله إبراهيم ليقدّم ابنه؟",
+     "موريا",
+     "سيناء",
+     "حوريب"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-017-29",
+   "book": "genesis",
+   "chapter": 22,
+   "difficulty": "expert",
+   "ref": "Genesis 22:3",
+   "text": {
+    "en": [
+     "How many young men went with Abraham to sacrifice Isaac?",
+     "2",
+     "4",
+     "10"
+    ],
+    "es": [
+     "¿Cuántos jóvenes llevó Abraham consigo para sacrificar a Isaac?",
+     "2",
+     "4",
+     "10"
+    ],
+    "pt": [
+     "Quantos jovens foram com Abraão para sacrificar Isaac?",
+     "2",
+     "4",
+     "10"
+    ],
+    "fr": [
+     "Combien de jeunes gens partirent avec Abraham pour sacrifier Isaac ?",
+     "2",
+     "4",
+     "10"
+    ],
+    "de": [
+     "Wie viele junge Männer gingen mit Abraham, um Isaak zu opfern?",
+     "2",
+     "4",
+     "10"
+    ],
+    "it": [
+     "Quanti giovani andarono con Abramo per sacrificare Isacco?",
+     "2",
+     "4",
+     "10"
+    ],
+    "pl": [
+     "Ilu młodych mężczyzn poszło z Abrahamem, by złożyć w ofierze Izaaka?",
+     "2",
+     "4",
+     "10"
+    ],
+    "ru": [
+     "Сколько юношей пошло с Авраамом для жертвоприношения Исаака?",
+     "2",
+     "4",
+     "10"
+    ],
+    "tr": [
+     "İbrahim, İshak'ı kurban etmeye giderken yanına kaç genç adam aldı?",
+     "2",
+     "4",
+     "10"
+    ],
+    "ja": [
+     "イサクをいけにえとしてささげに行くアブラハムには、何人の若者が同行しましたか？",
+     "2",
+     "4",
+     "10"
+    ],
+    "ko": [
+     "이사악을 제물로 바치러 가는 아브라함과 함께 간 젊은이는 몇 명이었습니까?",
+     "2",
+     "4",
+     "10"
+    ],
+    "ar": [
+     "كم غلامًا ذهب مع إبراهيم ليقدّم إسحاق ذبيحة؟",
+     "2",
+     "4",
+     "10"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-017-30",
+   "book": "genesis",
+   "chapter": 22,
+   "difficulty": "impossible",
+   "ref": "Genesis 22:22-23",
+   "text": {
+    "en": [
+     "Which son of Nahor and Milcah became Rebekah's father?",
+     "Bethuel",
+     "Uz",
+     "Kemuel"
+    ],
+    "es": [
+     "¿Qué hijo de Najor y Milká fue el padre de Rebeca?",
+     "Betuel",
+     "Us",
+     "Quemuel"
+    ],
+    "pt": [
+     "Que filho de Naor e Milca foi pai de Rebeca?",
+     "Batuel",
+     "Hus",
+     "Camuel"
+    ],
+    "fr": [
+     "Quel fils de Nachor et de Milca fut le père de Rébecca ?",
+     "Bathuel",
+     "Outs",
+     "Qemouël"
+    ],
+    "de": [
+     "Welcher Sohn Nahors und Milkas wurde Rebekkas Vater?",
+     "Betuël",
+     "Uz",
+     "Kemuël"
+    ],
+    "it": [
+     "Quale figlio di Nacor e Milca fu padre di Rebecca?",
+     "Betuele",
+     "Us",
+     "Chemuèl"
+    ],
+    "pl": [
+     "Który syn Nachora i Milki został ojcem Rebeki?",
+     "Batuel",
+     "Us",
+     "Kemuel"
+    ],
+    "ru": [
+     "Какой сын Нахора и Милки стал отцом Ревекки?",
+     "Вафуил",
+     "Уц",
+     "Кемуил"
+    ],
+    "tr": [
+     "Nahor ile Milka'nın hangi oğlu Rebeka'nın babası oldu?",
+     "Betuel",
+     "Uz",
+     "Kemuel"
+    ],
+    "ja": [
+     "ナホルとミルカの子のうち、誰がリベカの父となりましたか？",
+     "ベトエル",
+     "ウツ",
+     "ケムエル"
+    ],
+    "ko": [
+     "나호르와 밀카의 아들 가운데 누가 리브가의 아버지가 되었습니까?",
+     "브투엘",
+     "우츠",
+     "크무엘"
+    ],
+    "ar": [
+     "أي ابن لناحور وملكة كان أبا رفقة؟",
+     "بتوئيل",
+     "عوص",
+     "قموئيل"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-017-31",
+   "book": "genesis",
+   "chapter": 23,
+   "difficulty": "easy",
+   "ref": "Genesis 23:2",
+   "text": {
+    "en": [
+     "Which woman died, leading Abraham to seek a burial place?",
+     "Sarah",
+     "Rebekah",
+     "Rachel"
+    ],
+    "es": [
+     "¿Qué mujer murió, haciendo que Abraham buscara un lugar de sepultura?",
+     "Sara",
+     "Rebeca",
+     "Raquel"
+    ],
+    "pt": [
+     "Qual mulher morreu, levando Abraão a buscar um lugar de sepultura?",
+     "Sara",
+     "Rebeca",
+     "Raquel"
+    ],
+    "fr": [
+     "Quelle femme mourut, poussant Abraham à chercher un tombeau ?",
+     "Sara",
+     "Rébecca",
+     "Rachel"
+    ],
+    "de": [
+     "Welche Frau starb, sodass Abraham eine Grabstätte suchte?",
+     "Sara",
+     "Rebekka",
+     "Rahel"
+    ],
+    "it": [
+     "Quale donna morì, spingendo Abramo a cercare una sepoltura?",
+     "Sara",
+     "Rebecca",
+     "Rachele"
+    ],
+    "pl": [
+     "Która kobieta zmarła, skłaniając Abrahama do szukania miejsca na grób?",
+     "Sara",
+     "Rebeka",
+     "Rachela"
+    ],
+    "ru": [
+     "Какая женщина умерла, побудив Авраама искать место для погребения?",
+     "Сарра",
+     "Ревекка",
+     "Рахиль"
+    ],
+    "tr": [
+     "Hangi kadın öldü ve İbrahim'i bir mezar yeri aramaya yöneltti?",
+     "Sara",
+     "Rebeka",
+     "Rahel"
+    ],
+    "ja": [
+     "亡くなったため、アブラハムが墓地を探すことになった女性は誰ですか？",
+     "サラ",
+     "リベカ",
+     "ラケル"
+    ],
+    "ko": [
+     "어느 여인이 죽어서 아브라함이 묏자리를 찾게 되었습니까?",
+     "사라",
+     "리브가",
+     "라헬"
+    ],
+    "ar": [
+     "أي امرأة ماتت فبحث إبراهيم عن مكان للدفن؟",
+     "سارة",
+     "رفقة",
+     "راحيل"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-017-32",
+   "book": "genesis",
+   "chapter": 23,
+   "difficulty": "medium",
+   "ref": "Genesis 23:2",
+   "text": {
+    "en": [
+     "In which city, also called Kiriath-arba, did Abraham mourn his wife?",
+     "Hebron",
+     "Shechem",
+     "Jericho"
+    ],
+    "es": [
+     "¿En qué ciudad, llamada también Quiriat Arbá, lloró Abraham a su mujer?",
+     "Hebrón",
+     "Siquén",
+     "Jericó"
+    ],
+    "pt": [
+     "Em que cidade, também chamada Cariat-Arbe, Abraão chorou sua mulher?",
+     "Hebron",
+     "Siquém",
+     "Jericó"
+    ],
+    "fr": [
+     "Dans quelle ville, appelée aussi Qiriath-Arba, Abraham pleura-t-il sa femme ?",
+     "Hébron",
+     "Sichem",
+     "Jéricho"
+    ],
+    "de": [
+     "In welcher Stadt, auch Kirjat-Arba genannt, beweinte Abraham seine Frau?",
+     "Hebron",
+     "Sichem",
+     "Jericho"
+    ],
+    "it": [
+     "In quale città, detta anche Kiriat-Arba, Abramo pianse sua moglie?",
+     "Ebron",
+     "Sichem",
+     "Gerico"
+    ],
+    "pl": [
+     "W którym mieście, zwanym też Kiriat-Arba, Abraham opłakiwał żonę?",
+     "Hebron",
+     "Sychem",
+     "Jerycho"
+    ],
+    "ru": [
+     "В каком городе, называемом также Кириаф-Арбы, оплакивал Авраам жену?",
+     "Хеврон",
+     "Сихем",
+     "Иерихон"
+    ],
+    "tr": [
+     "İbrahim, Kiryat-Arba da denen hangi kentte karısı için yas tuttu?",
+     "Hebron",
+     "Şekem",
+     "Eriha"
+    ],
+    "ja": [
+     "キルヤト・アルバとも呼ばれるどの町で、アブラハムは妻を悼みましたか？",
+     "ヘブロン",
+     "シケム",
+     "エリコ"
+    ],
+    "ko": [
+     "키르얏 아르바라고도 불리는 어느 도성에서 아브라함은 아내를 위해 애곡했습니까?",
+     "헤브론",
+     "스켐",
+     "예리코"
+    ],
+    "ar": [
+     "في أي مدينة تدعى أيضًا قرية أربع ناح إبراهيم على امرأته؟",
+     "حبرون",
+     "شكيم",
+     "أريحا"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-017-33",
+   "book": "genesis",
+   "chapter": 23,
+   "difficulty": "hard",
+   "ref": "Genesis 23:8-9",
+   "text": {
+    "en": [
+     "Which Hittite owned the field and cave Abraham bought?",
+     "Ephron",
+     "Abimelech",
+     "Hamor"
+    ],
+    "es": [
+     "¿Qué hitita era dueño del campo y la cueva que compró Abraham?",
+     "Efrón",
+     "Abimelec",
+     "Jamor"
+    ],
+    "pt": [
+     "Que heteu era dono do campo e da gruta que Abraão comprou?",
+     "Efron",
+     "Abimelec",
+     "Hemor"
+    ],
+    "fr": [
+     "Quel Hittite possédait le champ et la grotte qu'Abraham acheta ?",
+     "Éphron",
+     "Abimélek",
+     "Hamor"
+    ],
+    "de": [
+     "Welcher Hetiter besaß das Feld und die Höhle, die Abraham kaufte?",
+     "Efron",
+     "Abimelech",
+     "Hamor"
+    ],
+    "it": [
+     "Quale ittita possedeva il campo e la caverna che Abramo comprò?",
+     "Efron",
+     "Abimelech",
+     "Camor"
+    ],
+    "pl": [
+     "Który Hetyta był właścicielem pola i jaskini, które kupił Abraham?",
+     "Efron",
+     "Abimelech",
+     "Chamor"
+    ],
+    "ru": [
+     "Какой хеттеянин владел полем и пещерой, которые купил Авраам?",
+     "Ефрон",
+     "Авимелех",
+     "Еммор"
+    ],
+    "tr": [
+     "İbrahim'in satın aldığı tarlanın ve mağaranın sahibi hangi Hititliydi?",
+     "Efron",
+     "Avimelek",
+     "Hamor"
+    ],
+    "ja": [
+     "アブラハムが買った畑と洞穴の持ち主だったヘト人は誰ですか？",
+     "エフロン",
+     "アビメレク",
+     "ハモル"
+    ],
+    "ko": [
+     "아브라함이 산 밭과 동굴의 임자였던 히타이트 사람은 누구입니까?",
+     "에프론",
+     "아비멜렉",
+     "하모르"
+    ],
+    "ar": [
+     "من كان الحثّي صاحب الحقل والمغارة اللذين اشتراهما إبراهيم؟",
+     "عفرون",
+     "أبيمالك",
+     "حمور"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-017-34",
+   "book": "genesis",
+   "chapter": 23,
+   "difficulty": "expert",
+   "ref": "Genesis 23:15-16",
+   "text": {
+    "en": [
+     "How many shekels of silver did Abraham pay for the field?",
+     "400",
+     "200",
+     "600"
+    ],
+    "es": [
+     "¿Cuántos siclos de plata pagó Abraham por el campo?",
+     "400",
+     "200",
+     "600"
+    ],
+    "pt": [
+     "Quantos siclos de prata Abraão pagou pelo campo?",
+     "400",
+     "200",
+     "600"
+    ],
+    "fr": [
+     "Combien de sicles d'argent Abraham paya-t-il pour le champ ?",
+     "400",
+     "200",
+     "600"
+    ],
+    "de": [
+     "Wie viele Silberschekel zahlte Abraham für das Feld?",
+     "400",
+     "200",
+     "600"
+    ],
+    "it": [
+     "Quanti sicli d'argento pagò Abramo per il campo?",
+     "400",
+     "200",
+     "600"
+    ],
+    "pl": [
+     "Ile syklów srebra zapłacił Abraham za pole?",
+     "400",
+     "200",
+     "600"
+    ],
+    "ru": [
+     "Сколько сиклей серебра заплатил Авраам за поле?",
+     "400",
+     "200",
+     "600"
+    ],
+    "tr": [
+     "İbrahim tarla için kaç şekel gümüş ödedi?",
+     "400",
+     "200",
+     "600"
+    ],
+    "ja": [
+     "アブラハムは畑の代金として銀何シェケルを支払いましたか？",
+     "400",
+     "200",
+     "600"
+    ],
+    "ko": [
+     "아브라함은 밭값으로 은 몇 세켈을 치렀습니까?",
+     "400",
+     "200",
+     "600"
+    ],
+    "ar": [
+     "كم شاقلًا من الفضة دفع إبراهيم ثمنًا للحقل؟",
+     "400",
+     "200",
+     "600"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-017-35",
+   "book": "genesis",
+   "chapter": 23,
+   "difficulty": "impossible",
+   "ref": "Genesis 23:19",
+   "text": {
+    "en": [
+     "In the cave of which field facing Mamre did Abraham bury Sarah?",
+     "Machpelah",
+     "Gilead",
+     "Dothan"
+    ],
+    "es": [
+     "¿En la cueva de qué campo, frente a Mambré, sepultó Abraham a Sara?",
+     "Macpela",
+     "Galaad",
+     "Dotán"
+    ],
+    "pt": [
+     "Na gruta de que campo, diante de Mambré, Abraão sepultou Sara?",
+     "Macpela",
+     "Galaad",
+     "Dotã"
+    ],
+    "fr": [
+     "Dans la grotte de quel champ, en face de Mambré, Abraham enterra-t-il Sara ?",
+     "Makpéla",
+     "Galaad",
+     "Dothan"
+    ],
+    "de": [
+     "In der Höhle welchen Feldes gegenüber von Mamre begrub Abraham Sara?",
+     "Machpela",
+     "Gilead",
+     "Dotan"
+    ],
+    "it": [
+     "Nella caverna di quale campo, di fronte a Mamre, Abramo seppellì Sara?",
+     "Macpela",
+     "Gàlaad",
+     "Dotan"
+    ],
+    "pl": [
+     "W jaskini którego pola, naprzeciw Mamre, Abraham pochował Sarę?",
+     "Makpela",
+     "Gilead",
+     "Dotan"
+    ],
+    "ru": [
+     "В пещере какого поля, что против Мамре, Авраам похоронил Сарру?",
+     "Махпела",
+     "Галаад",
+     "Дофаин"
+    ],
+    "tr": [
+     "İbrahim Sara'yı Mamre'nin karşısındaki hangi tarlanın mağarasına gömdü?",
+     "Makpela",
+     "Gilat",
+     "Dotan"
+    ],
+    "ja": [
+     "アブラハムはサラを、マムレの向かいにあるどの畑の洞穴に葬りましたか？",
+     "マクペラ",
+     "ギレアド",
+     "ドタン"
+    ],
+    "ko": [
+     "아브라함은 사라를 마므레 맞은쪽 어느 밭의 동굴에 묻었습니까?",
+     "마크펠라",
+     "길앗",
+     "도탄"
+    ],
+    "ar": [
+     "في مغارة أي حقل مقابل ممرا دفن إبراهيم سارة؟",
+     "المكفيلة",
+     "جلعاد",
+     "دوثان"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-017-36",
+   "book": "genesis",
+   "chapter": 24,
+   "difficulty": "easy",
+   "ref": "Genesis 24:19",
+   "text": {
+    "en": [
+     "Which animals did Rebekah offer to water for Abraham's servant?",
+     "Camels",
+     "Donkeys",
+     "Sheep"
+    ],
+    "es": [
+     "¿A qué animales se ofreció Rebeca a dar de beber para el siervo de Abraham?",
+     "Camellos",
+     "Asnos",
+     "Ovejas"
+    ],
+    "pt": [
+     "A que animais Rebeca se ofereceu para dar de beber, para o servo de Abraão?",
+     "Camelos",
+     "Jumentos",
+     "Ovelhas"
+    ],
+    "fr": [
+     "Quels animaux Rébecca proposa-t-elle d'abreuver pour le serviteur d'Abraham ?",
+     "Chameaux",
+     "Ânes",
+     "Moutons"
+    ],
+    "de": [
+     "Welche Tiere wollte Rebekka für Abrahams Knecht tränken?",
+     "Kamele",
+     "Esel",
+     "Schafe"
+    ],
+    "it": [
+     "Quali animali Rebecca si offrì di abbeverare per il servo di Abramo?",
+     "Cammelli",
+     "Asini",
+     "Pecore"
+    ],
+    "pl": [
+     "Które zwierzęta zaofiarowała się napoić Rebeka dla sługi Abrahama?",
+     "Wielbłądy",
+     "Osły",
+     "Owce"
+    ],
+    "ru": [
+     "Каких животных предложила напоить Ревекка слуге Авраама?",
+     "Верблюды",
+     "Ослы",
+     "Овцы"
+    ],
+    "tr": [
+     "Rebeka, İbrahim'in kulu için hangi hayvanları sulamayı önerdi?",
+     "Develer",
+     "Eşekler",
+     "Koyunlar"
+    ],
+    "ja": [
+     "リベカはアブラハムのしもべのために、どの動物に水を飲ませると申し出ましたか？",
+     "ラクダ",
+     "ロバ",
+     "羊"
+    ],
+    "ko": [
+     "리브가는 아브라함의 종을 위해 어떤 짐승들에게 물을 먹이겠다고 했습니까?",
+     "낙타",
+     "나귀",
+     "양"
+    ],
+    "ar": [
+     "أي حيوانات عرضت رفقة أن تسقيها لعبد إبراهيم؟",
+     "جمال",
+     "حمير",
+     "أغنام"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-017-37",
+   "book": "genesis",
+   "chapter": 24,
+   "difficulty": "medium",
+   "ref": "Genesis 24:29",
+   "text": {
+    "en": [
+     "Which brother of Rebekah ran out to greet Abraham's servant?",
+     "Laban",
+     "Esau",
+     "Ishmael"
+    ],
+    "es": [
+     "¿Qué hermano de Rebeca salió corriendo a recibir al siervo de Abraham?",
+     "Labán",
+     "Esaú",
+     "Ismael"
+    ],
+    "pt": [
+     "Que irmão de Rebeca correu para receber o servo de Abraão?",
+     "Labão",
+     "Esaú",
+     "Ismael"
+    ],
+    "fr": [
+     "Quel frère de Rébecca courut accueillir le serviteur d'Abraham ?",
+     "Laban",
+     "Ésaü",
+     "Ismaël"
+    ],
+    "de": [
+     "Welcher Bruder Rebekkas lief hinaus, um Abrahams Knecht zu begrüßen?",
+     "Laban",
+     "Esau",
+     "Ismael"
+    ],
+    "it": [
+     "Quale fratello di Rebecca corse incontro al servo di Abramo?",
+     "Làbano",
+     "Esaù",
+     "Ismaele"
+    ],
+    "pl": [
+     "Który brat Rebeki wybiegł na spotkanie sługi Abrahama?",
+     "Laban",
+     "Ezaw",
+     "Izmael"
+    ],
+    "ru": [
+     "Какой брат Ревекки выбежал навстречу слуге Авраама?",
+     "Лаван",
+     "Исав",
+     "Измаил"
+    ],
+    "tr": [
+     "Rebeka'nın hangi kardeşi İbrahim'in kulunu karşılamaya koştu?",
+     "Laban",
+     "Esav",
+     "İsmail"
+    ],
+    "ja": [
+     "リベカのどの兄が、アブラハムのしもべを迎えに走り出ましたか？",
+     "ラバン",
+     "エサウ",
+     "イシュマエル"
+    ],
+    "ko": [
+     "리브가의 어느 오빠가 아브라함의 종을 맞이하러 달려 나갔습니까?",
+     "라반",
+     "에사오",
+     "이스마엘"
+    ],
+    "ar": [
+     "أي أخ لرفقة ركض ليستقبل عبد إبراهيم؟",
+     "لابان",
+     "عيسو",
+     "إسماعيل"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-017-38",
+   "book": "genesis",
+   "chapter": 24,
+   "difficulty": "hard",
+   "ref": "Genesis 24:55",
+   "text": {
+    "en": [
+     "How many days did Rebekah's family ask her to stay before leaving?",
+     "10",
+     "3",
+     "7"
+    ],
+    "es": [
+     "¿Cuántos días pidió la familia de Rebeca que ella se quedara antes de partir?",
+     "10",
+     "3",
+     "7"
+    ],
+    "pt": [
+     "Quantos dias a família de Rebeca pediu que ela ficasse antes de partir?",
+     "10",
+     "3",
+     "7"
+    ],
+    "fr": [
+     "Combien de jours la famille de Rébecca demanda-t-elle qu'elle reste avant de partir ?",
+     "10",
+     "3",
+     "7"
+    ],
+    "de": [
+     "Wie viele Tage sollte Rebekka nach dem Wunsch ihrer Familie noch bleiben?",
+     "10",
+     "3",
+     "7"
+    ],
+    "it": [
+     "Quanti giorni la famiglia di Rebecca chiese che restasse prima di partire?",
+     "10",
+     "3",
+     "7"
+    ],
+    "pl": [
+     "Ile dni rodzina Rebeki prosiła, by jeszcze została?",
+     "10",
+     "3",
+     "7"
+    ],
+    "ru": [
+     "На сколько дней семья Ревекки просила её остаться?",
+     "10",
+     "3",
+     "7"
+    ],
+    "tr": [
+     "Rebeka'nın ailesi onun gitmeden önce kaç gün kalmasını istedi?",
+     "10",
+     "3",
+     "7"
+    ],
+    "ja": [
+     "リベカの家族は、旅立つ前に何日間とどまるよう頼みましたか？",
+     "10",
+     "3",
+     "7"
+    ],
+    "ko": [
+     "리브가의 가족은 떠나기 전에 며칠 더 머물라고 청했습니까?",
+     "10",
+     "3",
+     "7"
+    ],
+    "ar": [
+     "كم يومًا طلبت عائلة رفقة أن تبقى قبل رحيلها؟",
+     "10",
+     "3",
+     "7"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-017-39",
+   "book": "genesis",
+   "chapter": 24,
+   "difficulty": "expert",
+   "ref": "Genesis 24:22",
+   "text": {
+    "en": [
+     "How many gold bracelets did Abraham's servant give Rebekah at the well?",
+     "2",
+     "4",
+     "12"
+    ],
+    "es": [
+     "¿Cuántas pulseras de oro dio el siervo de Abraham a Rebeca junto al pozo?",
+     "2",
+     "4",
+     "12"
+    ],
+    "pt": [
+     "Quantas pulseiras de ouro o servo de Abraão deu a Rebeca junto ao poço?",
+     "2",
+     "4",
+     "12"
+    ],
+    "fr": [
+     "Combien de bracelets d'or le serviteur d'Abraham donna-t-il à Rébecca au puits ?",
+     "2",
+     "4",
+     "12"
+    ],
+    "de": [
+     "Wie viele goldene Armreifen gab Abrahams Knecht Rebekka am Brunnen?",
+     "2",
+     "4",
+     "12"
+    ],
+    "it": [
+     "Quanti braccialetti d'oro diede il servo di Abramo a Rebecca al pozzo?",
+     "2",
+     "4",
+     "12"
+    ],
+    "pl": [
+     "Ile złotych bransolet dał Rebece sługa Abrahama przy studni?",
+     "2",
+     "4",
+     "12"
+    ],
+    "ru": [
+     "Сколько золотых запястий дал Ревекке слуга Авраама у колодца?",
+     "2",
+     "4",
+     "12"
+    ],
+    "tr": [
+     "İbrahim'in kulu kuyu başında Rebeka'ya kaç altın bilezik verdi?",
+     "2",
+     "4",
+     "12"
+    ],
+    "ja": [
+     "アブラハムのしもべは井戸のそばで、リベカに金の腕輪をいくつ与えましたか？",
+     "2",
+     "4",
+     "12"
+    ],
+    "ko": [
+     "아브라함의 종은 우물가에서 리브가에게 금팔찌를 몇 개 주었습니까?",
+     "2",
+     "4",
+     "12"
+    ],
+    "ar": [
+     "كم سوارًا من الذهب أعطى عبد إبراهيم لرفقة عند البئر؟",
+     "2",
+     "4",
+     "12"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-017-40",
+   "book": "genesis",
+   "chapter": 24,
+   "difficulty": "impossible",
+   "ref": "Genesis 24:15",
+   "text": {
+    "en": [
+     "Which brother of Abraham was Rebekah's grandfather?",
+     "Nahor",
+     "Terah",
+     "Lot"
+    ],
+    "es": [
+     "¿Qué hermano de Abraham fue el abuelo de Rebeca?",
+     "Najor",
+     "Téraj",
+     "Lot"
+    ],
+    "pt": [
+     "Que irmão de Abraão foi avô de Rebeca?",
+     "Naor",
+     "Terá",
+     "Ló"
+    ],
+    "fr": [
+     "Quel frère d'Abraham fut le grand-père de Rébecca ?",
+     "Nachor",
+     "Térah",
+     "Loth"
+    ],
+    "de": [
+     "Welcher Bruder Abrahams war Rebekkas Großvater?",
+     "Nahor",
+     "Terach",
+     "Lot"
+    ],
+    "it": [
+     "Quale fratello di Abramo fu il nonno di Rebecca?",
+     "Nacor",
+     "Terach",
+     "Lot"
+    ],
+    "pl": [
+     "Który brat Abrahama był dziadkiem Rebeki?",
+     "Nachor",
+     "Terach",
+     "Lot"
+    ],
+    "ru": [
+     "Какой брат Авраама был дедом Ревекки?",
+     "Нахор",
+     "Фарра",
+     "Лот"
+    ],
+    "tr": [
+     "İbrahim'in hangi kardeşi Rebeka'nın büyükbabasıydı?",
+     "Nahor",
+     "Terah",
+     "Lut"
+    ],
+    "ja": [
+     "アブラハムのどの兄弟が、リベカの祖父でしたか？",
+     "ナホル",
+     "テラ",
+     "ロト"
+    ],
+    "ko": [
+     "아브라함의 어느 형제가 리브가의 할아버지였습니까?",
+     "나호르",
+     "테라",
+     "롯"
+    ],
+    "ar": [
+     "أي أخ لإبراهيم كان جد رفقة؟",
+     "ناحور",
+     "تارح",
+     "لوط"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-017-41",
+   "book": "genesis",
+   "chapter": 25,
+   "difficulty": "easy",
+   "ref": "Genesis 25:34",
+   "text": {
+    "en": [
+     "Esau traded his birthright for a stew made of what?",
+     "Lentils",
+     "Barley",
+     "Wheat"
+    ],
+    "es": [
+     "¿De qué estaba hecho el guiso por el que Esaú vendió su primogenitura?",
+     "Lentejas",
+     "Cebada",
+     "Trigo"
+    ],
+    "pt": [
+     "De que era feito o guisado pelo qual Esaú vendeu a primogenitura?",
+     "Lentilhas",
+     "Cevada",
+     "Trigo"
+    ],
+    "fr": [
+     "De quoi était fait le plat pour lequel Ésaü vendit son droit d'aînesse ?",
+     "Lentilles",
+     "Orge",
+     "Blé"
+    ],
+    "de": [
+     "Woraus bestand das Gericht, für das Esau sein Erstgeburtsrecht verkaufte?",
+     "Linsen",
+     "Gerste",
+     "Weizen"
+    ],
+    "it": [
+     "Di che cosa era fatta la minestra per cui Esaù vendette la primogenitura?",
+     "Lenticchie",
+     "Orzo",
+     "Grano"
+    ],
+    "pl": [
+     "Jaki składnik był podstawą dania, za które Ezaw sprzedał pierworództwo?",
+     "Soczewica",
+     "Jęczmień",
+     "Pszenica"
+    ],
+    "ru": [
+     "Какой продукт был основой варева, за которое Исав продал первородство?",
+     "Чечевица",
+     "Ячмень",
+     "Пшеница"
+    ],
+    "tr": [
+     "Esav ilk oğulluk hakkını hangi besinden yapılmış yemeğe sattı?",
+     "Mercimek",
+     "Arpa",
+     "Buğday"
+    ],
+    "ja": [
+     "エサウは、何でできた煮物と引き換えに長子の権利を売りましたか？",
+     "レンズ豆",
+     "大麦",
+     "小麦"
+    ],
+    "ko": [
+     "에사오는 무엇으로 만든 죽을 받고 맏아들 권리를 팔았습니까?",
+     "렌즈콩",
+     "보리",
+     "밀"
+    ],
+    "ar": [
+     "مما كان الطبيخ الذي باع عيسو بكوريته مقابله؟",
+     "عدس",
+     "شعير",
+     "قمح"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-017-42",
+   "book": "genesis",
+   "chapter": 25,
+   "difficulty": "medium",
+   "ref": "Genesis 25:30",
+   "text": {
+    "en": [
+     "What name, meaning red, did Esau get after the stew?",
+     "Edom",
+     "Moab",
+     "Midian"
+    ],
+    "es": [
+     "¿Qué nombre, que significa rojo, recibió Esaú tras el guiso?",
+     "Edom",
+     "Moab",
+     "Madián"
+    ],
+    "pt": [
+     "Que nome, que significa vermelho, Esaú recebeu depois do guisado?",
+     "Edom",
+     "Moab",
+     "Madiã"
+    ],
+    "fr": [
+     "Quel nom, signifiant roux, Ésaü reçut-il après le plat ?",
+     "Édom",
+     "Moab",
+     "Madian"
+    ],
+    "de": [
+     "Welchen Namen, der rot bedeutet, erhielt Esau nach dem Gericht?",
+     "Edom",
+     "Moab",
+     "Midian"
+    ],
+    "it": [
+     "Quale nome, che significa rosso, ebbe Esaù dopo la minestra?",
+     "Edom",
+     "Moab",
+     "Madian"
+    ],
+    "pl": [
+     "Jakie imię, oznaczające czerwony, otrzymał Ezaw po daniu?",
+     "Edom",
+     "Moab",
+     "Madian"
+    ],
+    "ru": [
+     "Какое имя, означающее красный, получил Исав после варева?",
+     "Едом",
+     "Моав",
+     "Мадиам"
+    ],
+    "tr": [
+     "Esav yemekten sonra kırmızı anlamına gelen hangi adı aldı?",
+     "Edom",
+     "Moav",
+     "Midyan"
+    ],
+    "ja": [
+     "エサウは、赤を意味するどんな名前で呼ばれるようになりましたか？",
+     "エドム",
+     "モアブ",
+     "ミディアン"
+    ],
+    "ko": [
+     "에사오는 붉다는 뜻의 어떤 이름으로 불리게 되었습니까?",
+     "에돔",
+     "모압",
+     "미디안"
+    ],
+    "ar": [
+     "ما الاسم الذي يعني الأحمر ودُعي به عيسو؟",
+     "أدوم",
+     "موآب",
+     "مديان"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-017-43",
+   "book": "genesis",
+   "chapter": 25,
+   "difficulty": "hard",
+   "ref": "Genesis 25:27",
+   "text": {
+    "en": [
+     "What did Esau become, a skilful man of the open country?",
+     "Hunter",
+     "Shepherd",
+     "Farmer"
+    ],
+    "es": [
+     "¿Qué llegó a ser Esaú, hábil hombre del campo abierto?",
+     "Cazador",
+     "Pastor",
+     "Agricultor"
+    ],
+    "pt": [
+     "Que ocupação teve Esaú, hábil homem do campo aberto?",
+     "Caçador",
+     "Pastor",
+     "Agricultor"
+    ],
+    "fr": [
+     "Quelle fut l'occupation d'Ésaü, habile homme des champs ?",
+     "Chasseur",
+     "Berger",
+     "Agriculteur"
+    ],
+    "de": [
+     "Was wurde Esau, ein geschickter Mann des freien Feldes?",
+     "Jäger",
+     "Hirte",
+     "Bauer"
+    ],
+    "it": [
+     "Qual era l'occupazione di Esaù, abile uomo della campagna?",
+     "Cacciatore",
+     "Pastore",
+     "Contadino"
+    ],
+    "pl": [
+     "Jakie zajęcie miał Ezaw, biegły człowiek pola?",
+     "Myśliwy",
+     "Pasterz",
+     "Rolnik"
+    ],
+    "ru": [
+     "Каково было занятие Исава, искусного человека полей?",
+     "Охотник",
+     "Пастух",
+     "Земледелец"
+    ],
+    "tr": [
+     "Kırların usta adamı Esav'ın mesleği neydi?",
+     "Avcı",
+     "Çoban",
+     "Çiftçi"
+    ],
+    "ja": [
+     "腕の立つ野の人エサウの職業は何でしたか？",
+     "狩人",
+     "羊飼い",
+     "農夫"
+    ],
+    "ko": [
+     "솜씨 좋은 들판의 사람 에사오의 직업은 무엇이었습니까?",
+     "사냥꾼",
+     "목자",
+     "농부"
+    ],
+    "ar": [
+     "ما مهنة عيسو، الرجل الماهر في البرية؟",
+     "صياد",
+     "راعي",
+     "فلاح"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-017-44",
+   "book": "genesis",
+   "chapter": 25,
+   "difficulty": "expert",
+   "ref": "Genesis 25:20",
+   "text": {
+    "en": [
+     "How old was Isaac when he married Rebekah?",
+     "40",
+     "20",
+     "30"
+    ],
+    "es": [
+     "¿Cuántos años tenía Isaac cuando se casó con Rebeca?",
+     "40",
+     "20",
+     "30"
+    ],
+    "pt": [
+     "Quantos anos tinha Isaac quando se casou com Rebeca?",
+     "40",
+     "20",
+     "30"
+    ],
+    "fr": [
+     "Quel âge avait Isaac quand il épousa Rébecca ?",
+     "40",
+     "20",
+     "30"
+    ],
+    "de": [
+     "Wie alt war Isaak, als er Rebekka heiratete?",
+     "40",
+     "20",
+     "30"
+    ],
+    "it": [
+     "Quanti anni aveva Isacco quando sposò Rebecca?",
+     "40",
+     "20",
+     "30"
+    ],
+    "pl": [
+     "Ile lat miał Izaak, gdy poślubił Rebekę?",
+     "40",
+     "20",
+     "30"
+    ],
+    "ru": [
+     "Сколько лет было Исааку, когда он женился на Ревекке?",
+     "40",
+     "20",
+     "30"
+    ],
+    "tr": [
+     "İshak, Rebeka ile evlendiğinde kaç yaşındaydı?",
+     "40",
+     "20",
+     "30"
+    ],
+    "ja": [
+     "イサクはリベカと結婚したとき何歳でしたか？",
+     "40",
+     "20",
+     "30"
+    ],
+    "ko": [
+     "이사악은 리브가와 결혼할 때 몇 살이었습니까?",
+     "40",
+     "20",
+     "30"
+    ],
+    "ar": [
+     "كم كان عمر إسحاق عندما تزوج رفقة؟",
+     "40",
+     "20",
+     "30"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-017-45",
+   "book": "genesis",
+   "chapter": 25,
+   "difficulty": "impossible",
+   "ref": "Genesis 25:1",
+   "text": {
+    "en": [
+     "Whom did Abraham marry after Sarah's death?",
+     "Keturah",
+     "Milcah",
+     "Zilpah"
+    ],
+    "es": [
+     "¿Con quién se casó Abraham después de la muerte de Sara?",
+     "Quetura",
+     "Milká",
+     "Zilpá"
+    ],
+    "pt": [
+     "Com quem Abraão se casou depois da morte de Sara?",
+     "Quetura",
+     "Milca",
+     "Zilpa"
+    ],
+    "fr": [
+     "Qui Abraham épousa-t-il après la mort de Sara ?",
+     "Qetura",
+     "Milca",
+     "Zilpa"
+    ],
+    "de": [
+     "Wen heiratete Abraham nach Saras Tod?",
+     "Ketura",
+     "Milka",
+     "Silpa"
+    ],
+    "it": [
+     "Chi sposò Abramo dopo la morte di Sara?",
+     "Chetura",
+     "Milca",
+     "Zilpa"
+    ],
+    "pl": [
+     "Która kobieta została żoną Abrahama po śmierci Sary?",
+     "Ketura",
+     "Milka",
+     "Zilpa"
+    ],
+    "ru": [
+     "Какая женщина стала женой Авраама после смерти Сарры?",
+     "Хеттура",
+     "Милка",
+     "Зелфа"
+    ],
+    "tr": [
+     "İbrahim, Sara'nın ölümünden sonra kiminle evlendi?",
+     "Ketura",
+     "Milka",
+     "Zilpa"
+    ],
+    "ja": [
+     "アブラハムはサラの死後、誰と結婚しましたか？",
+     "ケトラ",
+     "ミルカ",
+     "ジルパ"
+    ],
+    "ko": [
+     "아브라함은 사라가 죽은 뒤 누구와 혼인했습니까?",
+     "크투라",
+     "밀카",
+     "즐파"
+    ],
+    "ar": [
+     "من تزوج إبراهيم بعد موت سارة؟",
+     "قطورة",
+     "ملكة",
+     "زلفة"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-017-46",
+   "book": "genesis",
+   "chapter": 26,
+   "difficulty": "easy",
+   "ref": "Genesis 26:18",
+   "text": {
+    "en": [
+     "What did Isaac dig again that the Philistines had stopped up?",
+     "Wells",
+     "Tombs",
+     "Walls"
+    ],
+    "es": [
+     "¿Qué volvió a cavar Isaac que los filisteos habían tapado?",
+     "Pozos",
+     "Tumbas",
+     "Muros"
+    ],
+    "pt": [
+     "O que Isaac cavou de novo e os filisteus tinham entulhado?",
+     "Poços",
+     "Túmulos",
+     "Muros"
+    ],
+    "fr": [
+     "Qu'Isaac rouvrit-il, après que les Philistins les eurent bouchés ?",
+     "Puits",
+     "Tombeaux",
+     "Murs"
+    ],
+    "de": [
+     "Was grub Isaak erneut, nachdem die Philister es zugeschüttet hatten?",
+     "Brunnen",
+     "Gräber",
+     "Mauern"
+    ],
+    "it": [
+     "Dopo l'ostruzione dei Filistei, che cosa riscavò Isacco?",
+     "Pozzi",
+     "Tombe",
+     "Mura"
+    ],
+    "pl": [
+     "Co Izaak odkopał na nowo, gdy Filistyni to zasypali?",
+     "Studnie",
+     "Groby",
+     "Mury"
+    ],
+    "ru": [
+     "Что заново раскопал Исаак после того, как филистимляне это засыпали?",
+     "Колодцы",
+     "Гробницы",
+     "Стены"
+    ],
+    "tr": [
+     "İshak, Filistlilerin tıkadığı neyi yeniden kazdı?",
+     "Kuyular",
+     "Mezarlar",
+     "Duvarlar"
+    ],
+    "ja": [
+     "イサクは、ペリシテ人がふさいだ何を掘り直しましたか？",
+     "井戸",
+     "墓",
+     "城壁"
+    ],
+    "ko": [
+     "이사악은 필리스티아인들이 막아 버린 무엇을 다시 팠습니까?",
+     "우물",
+     "무덤",
+     "성벽"
+    ],
+    "ar": [
+     "ماذا حفر إسحاق من جديد بعدما سدّها الفلسطينيون؟",
+     "آبار",
+     "قبور",
+     "أسوار"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-017-47",
+   "book": "genesis",
+   "chapter": 26,
+   "difficulty": "medium",
+   "ref": "Genesis 26:12",
+   "text": {
+    "en": [
+     "Isaac sowed in Gerar and reaped how many times as much?",
+     "100",
+     "10",
+     "30"
+    ],
+    "es": [
+     "¿Cuántas veces más cosechó Isaac de lo que sembró en Guerar?",
+     "100",
+     "10",
+     "30"
+    ],
+    "pt": [
+     "Quantas vezes mais Isaac colheu do que semeou em Gerara?",
+     "100",
+     "10",
+     "30"
+    ],
+    "fr": [
+     "Combien de fois plus Isaac récolta-t-il qu'il n'avait semé à Guerar ?",
+     "100",
+     "10",
+     "30"
+    ],
+    "de": [
+     "Wievielfach erntete Isaak, was er in Gerar gesät hatte?",
+     "100",
+     "10",
+     "30"
+    ],
+    "it": [
+     "Quante volte tanto Isacco raccolse di quanto aveva seminato a Gerar?",
+     "100",
+     "10",
+     "30"
+    ],
+    "pl": [
+     "Ile razy więcej zebrał Izaak, niż zasiał w Gerarze?",
+     "100",
+     "10",
+     "30"
+    ],
+    "ru": [
+     "Во сколько раз больше собрал Исаак, чем посеял, в Гераре?",
+     "100",
+     "10",
+     "30"
+    ],
+    "tr": [
+     "İshak Gerar'da ektiğinin kaç katını biçti?",
+     "100",
+     "10",
+     "30"
+    ],
+    "ja": [
+     "イサクはゲラルで、蒔いた種の何倍の収穫を得ましたか？",
+     "100",
+     "10",
+     "30"
+    ],
+    "ko": [
+     "이사악은 그라르에서 뿌린 것의 몇 배를 거두었습니까?",
+     "100",
+     "10",
+     "30"
+    ],
+    "ar": [
+     "كم ضعفًا حصد إسحاق مما زرع في جرار؟",
+     "100",
+     "10",
+     "30"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-017-48",
+   "book": "genesis",
+   "chapter": 26,
+   "difficulty": "hard",
+   "ref": "Genesis 26:34-35",
+   "text": {
+    "en": [
+     "To which people did Esau's wives, who grieved Isaac and Rebekah, belong?",
+     "Hittites",
+     "Egyptians",
+     "Philistines"
+    ],
+    "es": [
+     "¿A qué pueblo pertenecían las mujeres de Esaú, que afligieron a Isaac y a Rebeca?",
+     "Hititas",
+     "Egipcios",
+     "Filisteos"
+    ],
+    "pt": [
+     "A que povo pertenciam as mulheres de Esaú, que afligiram Isaac e Rebeca?",
+     "Hititas",
+     "Egípcios",
+     "Filisteus"
+    ],
+    "fr": [
+     "À quel peuple appartenaient les femmes d'Ésaü, qui causèrent du chagrin à Isaac et à Rébecca ?",
+     "Hittites",
+     "Égyptiens",
+     "Philistins"
+    ],
+    "de": [
+     "Zu welchem Volk gehörten die Frauen Esaus, die Isaak und Rebekka Kummer bereiteten?",
+     "Hetiter",
+     "Ägypter",
+     "Philister"
+    ],
+    "it": [
+     "A quale popolo appartenevano le mogli di Esaù, che amareggiarono Isacco e Rebecca?",
+     "Ittiti",
+     "Egiziani",
+     "Filistei"
+    ],
+    "pl": [
+     "Do jakiego ludu należały żony Ezawa, które zasmuciły Izaaka i Rebekę?",
+     "Hetyci",
+     "Egipcjanie",
+     "Filistyni"
+    ],
+    "ru": [
+     "К какому народу принадлежали жёны Исава, огорчившие Исаака и Ревекку?",
+     "Хеттеяне",
+     "Египтяне",
+     "Филистимляне"
+    ],
+    "tr": [
+     "Esav'ın, İshak ile Rebeka'yı üzen eşleri hangi halka mensuptu?",
+     "Hititler",
+     "Mısırlılar",
+     "Filistliler"
+    ],
+    "ja": [
+     "イサクとリベカを悩ませたエサウの妻たちは、どの民族の女性でしたか？",
+     "ヘト人",
+     "エジプト人",
+     "ペリシテ人"
+    ],
+    "ko": [
+     "이사악과 리브가를 괴롭힌 에사오의 아내들은 어느 민족 여인들이었습니까?",
+     "히타이트인",
+     "이집트인",
+     "필리스티아인"
+    ],
+    "ar": [
+     "إلى أي شعب انتمت زوجتا عيسو اللتان آلمتا إسحاق ورفقة؟",
+     "الحثيون",
+     "المصريون",
+     "الفلسطينيون"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-017-49",
+   "book": "genesis",
+   "chapter": 26,
+   "difficulty": "expert",
+   "ref": "Genesis 26:22",
+   "text": {
+    "en": [
+     "What name, meaning room, did Isaac give the third well?",
+     "Rehoboth",
+     "Marah",
+     "Elim"
+    ],
+    "es": [
+     "¿Qué nombre dio Isaac al tercer pozo, que significa espacio?",
+     "Rehobot",
+     "Mara",
+     "Elim"
+    ],
+    "pt": [
+     "Que nome Isaac deu ao terceiro poço, que significa espaço?",
+     "Reobot",
+     "Mara",
+     "Elim"
+    ],
+    "fr": [
+     "Quel nom Isaac donna-t-il au troisième puits, qui signifie espace ?",
+     "Rehoboth",
+     "Mara",
+     "Élim"
+    ],
+    "de": [
+     "Welchen Namen gab Isaak dem dritten Brunnen, der Raum bedeutet?",
+     "Rehobot",
+     "Mara",
+     "Elim"
+    ],
+    "it": [
+     "Quale nome diede Isacco al terzo pozzo, che significa spazio?",
+     "Recobot",
+     "Mara",
+     "Elim"
+    ],
+    "pl": [
+     "Jaką nazwę nadał Izaak trzeciej studni, co znaczy przestronność?",
+     "Rechobot",
+     "Mara",
+     "Elim"
+    ],
+    "ru": [
+     "Какое имя дал Исаак третьему колодцу, означающее простор?",
+     "Реховоф",
+     "Мерра",
+     "Елим"
+    ],
+    "tr": [
+     "İshak üçüncü kuyuya genişlik anlamına gelen hangi adı verdi?",
+     "Rehovot",
+     "Mara",
+     "Elim"
+    ],
+    "ja": [
+     "イサクは三つ目の井戸に、広い場所を意味するどんな名をつけましたか？",
+     "レホボト",
+     "マラ",
+     "エリム"
+    ],
+    "ko": [
+     "이사악은 세 번째 우물에 넓은 곳이라는 뜻의 어떤 이름을 붙였습니까?",
+     "르호봇",
+     "마라",
+     "엘림"
+    ],
+    "ar": [
+     "ما الاسم الذي أطلقه إسحاق على البئر الثالثة، ومعناه سعة؟",
+     "رحوبوت",
+     "مارة",
+     "إيليم"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-017-50",
+   "book": "genesis",
+   "chapter": 26,
+   "difficulty": "impossible",
+   "ref": "Genesis 26:26",
+   "text": {
+    "en": [
+     "Which adviser came with Abimelech and Phicol to meet Isaac?",
+     "Ahuzzath",
+     "Ephron",
+     "Hamor"
+    ],
+    "es": [
+     "¿Qué consejero fue con Abimelec y Picol a ver a Isaac?",
+     "Ocozat",
+     "Efrón",
+     "Jamor"
+    ],
+    "pt": [
+     "Que conselheiro foi com Abimelec e Ficol ao encontro de Isaac?",
+     "Ocozat",
+     "Efron",
+     "Hemor"
+    ],
+    "fr": [
+     "Quel conseiller vint avec Abimélek et Pikol rencontrer Isaac ?",
+     "Ahuzzath",
+     "Éphron",
+     "Hamor"
+    ],
+    "de": [
+     "Welcher Berater kam mit Abimelech und Pichol zu Isaak?",
+     "Ahusat",
+     "Efron",
+     "Hamor"
+    ],
+    "it": [
+     "Quale consigliere venne con Abimelech e Picol da Isacco?",
+     "Acuzzat",
+     "Efron",
+     "Camor"
+    ],
+    "pl": [
+     "Który doradca przybył z Abimelekiem i Pikolem do Izaaka?",
+     "Achuzat",
+     "Efron",
+     "Chamor"
+    ],
+    "ru": [
+     "Какой советник пришёл с Авимелехом и Фихолом к Исааку?",
+     "Охозаф",
+     "Ефрон",
+     "Еммор"
+    ],
+    "tr": [
+     "Avimelek ve Pikol ile birlikte İshak'a hangi danışman geldi?",
+     "Ahuzzat",
+     "Efron",
+     "Hamor"
+    ],
+    "ja": [
+     "アビメレクとピコルとともにイサクのもとへ来た側近は誰ですか？",
+     "アフザト",
+     "エフロン",
+     "ハモル"
+    ],
+    "ko": [
+     "아비멜렉과 피콜과 함께 이사악을 찾아온 참모는 누구입니까?",
+     "아후잣",
+     "에프론",
+     "하모르"
+    ],
+    "ar": [
+     "أي مستشار جاء مع أبيمالك وفيكول إلى إسحاق؟",
+     "أخوزة",
+     "عفرون",
+     "حمور"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-017-51",
+   "book": "genesis",
+   "chapter": 27,
+   "difficulty": "easy",
+   "ref": "Genesis 27:19",
+   "text": {
+    "en": [
+     "Which father did Jacob deceive to take Esau's blessing?",
+     "Isaac",
+     "Laban",
+     "Abraham"
+    ],
+    "es": [
+     "¿A qué padre engañó Jacob para quitar la bendición de Esaú?",
+     "Isaac",
+     "Labán",
+     "Abraham"
+    ],
+    "pt": [
+     "Que pai Jacó enganou para tomar a bênção de Esaú?",
+     "Isaque",
+     "Labão",
+     "Abraão"
+    ],
+    "fr": [
+     "Quel père Jacob trompa-t-il pour prendre la bénédiction d'Ésaü ?",
+     "Isaac",
+     "Laban",
+     "Abraham"
+    ],
+    "de": [
+     "Welchen Vater täuschte Jakob, um Esaus Segen zu erlangen?",
+     "Isaak",
+     "Laban",
+     "Abraham"
+    ],
+    "it": [
+     "Quale padre ingannò Giacobbe per prendere la benedizione di Esaù?",
+     "Isacco",
+     "Làbano",
+     "Abramo"
+    ],
+    "pl": [
+     "Którego ojca oszukał Jakub, by zabrać błogosławieństwo Ezawa?",
+     "Izaak",
+     "Laban",
+     "Abraham"
+    ],
+    "ru": [
+     "Какого отца обманул Иаков, чтобы получить благословение Исава?",
+     "Исаак",
+     "Лаван",
+     "Авраам"
+    ],
+    "tr": [
+     "Yakup, Esav'ın bereketini almak için hangi babayı aldattı?",
+     "İshak",
+     "Laban",
+     "İbrahim"
+    ],
+    "ja": [
+     "ヤコブはエサウの祝福を受けるため、どの父をだましましたか？",
+     "イサク",
+     "ラバン",
+     "アブラハム"
+    ],
+    "ko": [
+     "야곱은 에사오의 축복을 받으려고 어느 아버지를 속였습니까?",
+     "이사악",
+     "라반",
+     "아브라함"
+    ],
+    "ar": [
+     "أي أب خدع يعقوب ليأخذ بركة عيسو؟",
+     "إسحاق",
+     "لابان",
+     "إبراهيم"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-017-52",
+   "book": "genesis",
+   "chapter": 27,
+   "difficulty": "medium",
+   "ref": "Genesis 27:16",
+   "text": {
+    "en": [
+     "Which animal's skins did Rebekah put on Jacob's hands to deceive Isaac?",
+     "Goat",
+     "Sheep",
+     "Calf"
+    ],
+    "es": [
+     "¿Con las pieles de qué animal cubrió Rebeca las manos de Jacob para engañar a Isaac?",
+     "Cabra",
+     "Oveja",
+     "Becerro"
+    ],
+    "pt": [
+     "Com as peles de que animal Rebeca cobriu as mãos de Jacó para enganar Isaac?",
+     "Cabra",
+     "Ovelha",
+     "Bezerro"
+    ],
+    "fr": [
+     "Avec les peaux de quel animal Rébecca couvrit-elle les mains de Jacob pour tromper Isaac ?",
+     "Chèvre",
+     "Brebis",
+     "Veau"
+    ],
+    "de": [
+     "Mit den Fellen welchen Tieres bedeckte Rebekka Jakobs Hände, um Isaak zu täuschen?",
+     "Ziege",
+     "Schaf",
+     "Kalb"
+    ],
+    "it": [
+     "Con le pelli di quale animale Rebecca coprì le mani di Giacobbe per ingannare Isacco?",
+     "Capra",
+     "Pecora",
+     "Vitello"
+    ],
+    "pl": [
+     "Skórami którego zwierzęcia Rebeka okryła ręce Jakuba, by oszukać Izaaka?",
+     "Koza",
+     "Owca",
+     "Cielę"
+    ],
+    "ru": [
+     "Шкурами какого животного Ревекка покрыла руки Иакова, чтобы обмануть Исаака?",
+     "Коза",
+     "Овца",
+     "Телёнок"
+    ],
+    "tr": [
+     "Rebeka, İshak'ı aldatmak için Yakup'un ellerini hangi hayvanın derisiyle kapladı?",
+     "Keçi",
+     "Koyun",
+     "Buzağı"
+    ],
+    "ja": [
+     "リベカはイサクをだますため、ヤコブの手をどの動物の毛皮で覆いましたか？",
+     "ヤギ",
+     "羊",
+     "子牛"
+    ],
+    "ko": [
+     "리브가는 이사악을 속이려고 야곱의 손을 어떤 짐승의 가죽으로 덮었습니까?",
+     "염소",
+     "양",
+     "송아지"
+    ],
+    "ar": [
+     "بجلد أي حيوان غطت رفقة يدي يعقوب لتخدع إسحاق؟",
+     "ماعز",
+     "خروف",
+     "عجل"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-017-53",
+   "book": "genesis",
+   "chapter": 27,
+   "difficulty": "hard",
+   "ref": "Genesis 27:27",
+   "text": {
+    "en": [
+     "Smelling Jacob's garments, Isaac compared their smell to what blessed place?",
+     "Field",
+     "Garden",
+     "Forest"
+    ],
+    "es": [
+     "¿A qué lugar bendecido comparó Isaac el olor de la ropa de Jacob al olerla?",
+     "Campo",
+     "Jardín",
+     "Bosque"
+    ],
+    "pt": [
+     "A que lugar abençoado Isaac comparou o cheiro das roupas de Jacó ao cheirá-las?",
+     "Campo",
+     "Jardim",
+     "Floresta"
+    ],
+    "fr": [
+     "En sentant les vêtements de Jacob, Isaac compara leur odeur à celle de quel lieu béni ?",
+     "Champ",
+     "Jardin",
+     "Forêt"
+    ],
+    "de": [
+     "Mit welchem gesegneten Ort verglich Isaak den Geruch von Jakobs Kleidern, als er sie roch?",
+     "Feld",
+     "Garten",
+     "Wald"
+    ],
+    "it": [
+     "Annusando i vestiti di Giacobbe, a quale luogo benedetto Isacco paragonò il loro odore?",
+     "Campo",
+     "Giardino",
+     "Foresta"
+    ],
+    "pl": [
+     "Do jakiego błogosławionego miejsca Izaak przyrównał woń szat Jakuba?",
+     "Pole",
+     "Ogród",
+     "Las"
+    ],
+    "ru": [
+     "С каким благословенным местом сравнил Исаак запах одежд Иакова?",
+     "Поле",
+     "Сад",
+     "Лес"
+    ],
+    "tr": [
+     "İshak, Yakup'un giysilerini koklayınca kokularını hangi kutsanmış yere benzetti?",
+     "Tarla",
+     "Bahçe",
+     "Orman"
+    ],
+    "ja": [
+     "イサクはヤコブの衣の香りをかいで、それをどの祝福された場所の香りにたとえましたか？",
+     "野",
+     "庭",
+     "森"
+    ],
+    "ko": [
+     "이사악은 야곱의 옷 냄새를 맡고 그 냄새를 복받은 어느 곳에 비유했습니까?",
+     "들",
+     "정원",
+     "숲"
+    ],
+    "ar": [
+     "عندما شمّ إسحاق ثياب يعقوب، بأي مكان مبارك شبّه رائحتها؟",
+     "حقل",
+     "حديقة",
+     "غابة"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-017-54",
+   "book": "genesis",
+   "chapter": 27,
+   "difficulty": "expert",
+   "ref": "Genesis 27:36",
+   "text": {
+    "en": [
+     "After losing his blessing, Esau said Jacob had cheated him how many times?",
+     "2",
+     "3",
+     "7"
+    ],
+    "es": [
+     "¿Cuántas veces dijo Esaú que Jacob lo había engañado, tras perder su bendición?",
+     "2",
+     "3",
+     "7"
+    ],
+    "pt": [
+     "Depois de perder a bênção, quantas vezes Esaú disse que Jacó o havia enganado?",
+     "2",
+     "3",
+     "7"
+    ],
+    "fr": [
+     "Après avoir perdu sa bénédiction, combien de fois Ésaü dit-il que Jacob l'avait trompé ?",
+     "2",
+     "3",
+     "7"
+    ],
+    "de": [
+     "Wie oft, sagte Esau nach dem Verlust seines Segens, hatte Jakob ihn betrogen?",
+     "2",
+     "3",
+     "7"
+    ],
+    "it": [
+     "Dopo aver perso la benedizione, quante volte Esaù disse che Giacobbe lo aveva ingannato?",
+     "2",
+     "3",
+     "7"
+    ],
+    "pl": [
+     "Ile razy, jak powiedział Ezaw po utracie błogosławieństwa, Jakub go oszukał?",
+     "2",
+     "3",
+     "7"
+    ],
+    "ru": [
+     "Сколько раз, по словам Исава после потери благословения, Иаков обманул его?",
+     "2",
+     "3",
+     "7"
+    ],
+    "tr": [
+     "Esav, bereketini kaybettikten sonra Yakup'un kendisini kaç kez aldattığını söyledi?",
+     "2",
+     "3",
+     "7"
+    ],
+    "ja": [
+     "祝福を失ったあと、エサウはヤコブが自分を何度だましたと言いましたか？",
+     "2",
+     "3",
+     "7"
+    ],
+    "ko": [
+     "축복을 잃은 뒤 에사오는 야곱이 자기를 몇 번 속였다고 말했습니까?",
+     "2",
+     "3",
+     "7"
+    ],
+    "ar": [
+     "بعد أن فقد عيسو بركته، كم مرة قال إن يعقوب خدعه؟",
+     "2",
+     "3",
+     "7"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-017-55",
+   "book": "genesis",
+   "chapter": 27,
+   "difficulty": "impossible",
+   "ref": "Genesis 27:40",
+   "text": {
+    "en": [
+     "By what would Esau live, according to Isaac's blessing?",
+     "Sword",
+     "Plow",
+     "Net"
+    ],
+    "es": [
+     "¿De qué viviría Esaú, según la bendición de Isaac?",
+     "Espada",
+     "Arado",
+     "Red"
+    ],
+    "pt": [
+     "De que viveria Esaú, segundo a bênção de Isaac?",
+     "Espada",
+     "Arado",
+     "Rede"
+    ],
+    "fr": [
+     "De quoi Ésaü vivrait-il, selon la bénédiction d'Isaac ?",
+     "Épée",
+     "Charrue",
+     "Filet"
+    ],
+    "de": [
+     "Wovon sollte Esau nach Isaaks Segen leben?",
+     "Schwert",
+     "Pflug",
+     "Netz"
+    ],
+    "it": [
+     "Di che cosa avrebbe vissuto Esaù, secondo la benedizione di Isacco?",
+     "Spada",
+     "Aratro",
+     "Rete"
+    ],
+    "pl": [
+     "Co miało utrzymywać Ezawa, według błogosławieństwa Izaaka?",
+     "Miecz",
+     "Pług",
+     "Sieć"
+    ],
+    "ru": [
+     "Что должно было стать источником жизни Исава по благословению Исаака?",
+     "Меч",
+     "Плуг",
+     "Сеть"
+    ],
+    "tr": [
+     "İshak'ın bereketine göre Esav neyle yaşayacaktı?",
+     "Kılıç",
+     "Saban",
+     "Ağ"
+    ],
+    "ja": [
+     "イサクの祝福によれば、エサウは何によって生きることになりましたか？",
+     "剣",
+     "鋤",
+     "網"
+    ],
+    "ko": [
+     "이사악의 축복에 따르면 에사오는 무엇에 의지해 살게 되었습니까?",
+     "칼",
+     "쟁기",
+     "그물"
+    ],
+    "ar": [
+     "بحسب بركة إسحاق، بماذا سيعيش عيسو؟",
+     "سيف",
+     "محراث",
+     "شبكة"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-017-56",
+   "book": "genesis",
+   "chapter": 28,
+   "difficulty": "easy",
+   "ref": "Genesis 28:12",
+   "text": {
+    "en": [
+     "What reached from earth to heaven in Jacob's dream?",
+     "Ladder",
+     "Tower",
+     "Bridge"
+    ],
+    "es": [
+     "¿Qué llegaba de la tierra al cielo en el sueño de Jacob?",
+     "Escalera",
+     "Torre",
+     "Puente"
+    ],
+    "pt": [
+     "O que ia da terra ao céu no sonho de Jacó?",
+     "Escada",
+     "Torre",
+     "Ponte"
+    ],
+    "fr": [
+     "Qu'est-ce qui allait de la terre au ciel dans le rêve de Jacob ?",
+     "Échelle",
+     "Tour",
+     "Pont"
+    ],
+    "de": [
+     "Was reichte im Traum Jakobs von der Erde bis zum Himmel?",
+     "Leiter",
+     "Turm",
+     "Brücke"
+    ],
+    "it": [
+     "Che cosa andava dalla terra al cielo nel sogno di Giacobbe?",
+     "Scala",
+     "Torre",
+     "Ponte"
+    ],
+    "pl": [
+     "Co sięgało od ziemi do nieba w śnie Jakuba?",
+     "Drabina",
+     "Wieża",
+     "Most"
+    ],
+    "ru": [
+     "Что достигало от земли до неба во сне Иакова?",
+     "Лестница",
+     "Башня",
+     "Мост"
+    ],
+    "tr": [
+     "Yakup'un rüyasında yerden göğe ne uzanıyordu?",
+     "Merdiven",
+     "Kule",
+     "Köprü"
+    ],
+    "ja": [
+     "ヤコブの夢の中で、地から天に届いていたものは何ですか？",
+     "はしご",
+     "塔",
+     "橋"
+    ],
+    "ko": [
+     "야곱의 꿈에서 땅에서 하늘까지 닿아 있던 것은 무엇입니까?",
+     "층계",
+     "탑",
+     "다리"
+    ],
+    "ar": [
+     "ما الذي امتد من الأرض إلى السماء في حلم يعقوب؟",
+     "سلم",
+     "برج",
+     "جسر"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-017-57",
+   "book": "genesis",
+   "chapter": 28,
+   "difficulty": "medium",
+   "ref": "Genesis 28:11",
+   "text": {
+    "en": [
+     "On his way to Haran, what did Jacob use as a pillow?",
+     "Stone",
+     "Wool",
+     "Saddle"
+    ],
+    "es": [
+     "De camino a Jarán, ¿qué usó Jacob como almohada?",
+     "Piedra",
+     "Lana",
+     "Silla"
+    ],
+    "pt": [
+     "A caminho de Harã, o que Jacó usou como travesseiro?",
+     "Pedra",
+     "Lã",
+     "Sela"
+    ],
+    "fr": [
+     "En route vers Harrân, qu'utilisa Jacob comme oreiller ?",
+     "Pierre",
+     "Laine",
+     "Selle"
+    ],
+    "de": [
+     "Was benutzte Jakob auf dem Weg nach Haran als Kopfkissen?",
+     "Stein",
+     "Wolle",
+     "Sattel"
+    ],
+    "it": [
+     "Che cosa usò Giacobbe come cuscino mentre andava a Carran?",
+     "Pietra",
+     "Lana",
+     "Sella"
+    ],
+    "pl": [
+     "Co posłużyło Jakubowi za wezgłowie w drodze do Charanu?",
+     "Kamień",
+     "Wełna",
+     "Siodło"
+    ],
+    "ru": [
+     "Что служило Иакову изголовьем на пути в Харран?",
+     "Камень",
+     "Шерсть",
+     "Седло"
+    ],
+    "tr": [
+     "Yakup Harran'a giderken yastık olarak neyi kullandı?",
+     "Taş",
+     "Yün",
+     "Eyer"
+    ],
+    "ja": [
+     "ハランへ向かう途中、ヤコブは何を枕にしましたか？",
+     "石",
+     "羊毛",
+     "鞍"
+    ],
+    "ko": [
+     "하란으로 가는 길에 야곱은 무엇을 베개로 삼았습니까?",
+     "돌",
+     "양털",
+     "안장"
+    ],
+    "ar": [
+     "في طريقه إلى حاران، ماذا اتخذ يعقوب وسادة؟",
+     "حجر",
+     "صوف",
+     "سرج"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-017-58",
+   "book": "genesis",
+   "chapter": 28,
+   "difficulty": "hard",
+   "ref": "Genesis 28:19",
+   "text": {
+    "en": [
+     "What was Bethel called before Jacob renamed it?",
+     "Luz",
+     "Gilgal",
+     "Shiloh"
+    ],
+    "es": [
+     "¿Cómo se llamaba Betel antes de que Jacob le diera ese nombre?",
+     "Luz",
+     "Guilgal",
+     "Silo"
+    ],
+    "pt": [
+     "Como se chamava Betel antes de Jacó lhe dar esse nome?",
+     "Luz",
+     "Guilgal",
+     "Siló"
+    ],
+    "fr": [
+     "Comment s'appelait Béthel avant que Jacob lui donne ce nom ?",
+     "Luz",
+     "Guilgal",
+     "Silo"
+    ],
+    "de": [
+     "Wie hieß Bet-El, bevor Jakob ihm diesen Namen gab?",
+     "Lus",
+     "Gilgal",
+     "Schilo"
+    ],
+    "it": [
+     "Come si chiamava Betel prima che Giacobbe la rinominasse?",
+     "Luz",
+     "Gàlgala",
+     "Silo"
+    ],
+    "pl": [
+     "Jak nazywało się Betel, zanim Jakub nadał mu tę nazwę?",
+     "Luz",
+     "Gilgal",
+     "Szilo"
+    ],
+    "ru": [
+     "Как назывался Вефиль, прежде чем Иаков дал ему это имя?",
+     "Луз",
+     "Галгал",
+     "Силом"
+    ],
+    "tr": [
+     "Beytel, Yakup ona bu adı vermeden önce ne diye anılırdı?",
+     "Luz",
+     "Gilgal",
+     "Silo"
+    ],
+    "ja": [
+     "ベテルは、ヤコブがその名をつける前、何と呼ばれていましたか？",
+     "ルズ",
+     "ギルガル",
+     "シロ"
+    ],
+    "ko": [
+     "벳엘은 야곱이 그 이름을 붙이기 전에 무엇이라 불렸습니까?",
+     "루즈",
+     "길갈",
+     "실로"
+    ],
+    "ar": [
+     "ماذا كان اسم بيت إيل قبل أن يسميها يعقوب بهذا الاسم؟",
+     "لوز",
+     "الجلجال",
+     "شيلوه"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-017-59",
+   "book": "genesis",
+   "chapter": 28,
+   "difficulty": "expert",
+   "ref": "Genesis 28:9",
+   "text": {
+    "en": [
+     "Who was the father of Mahalath, Esau's new wife?",
+     "Ishmael",
+     "Laban",
+     "Lot"
+    ],
+    "es": [
+     "¿Quién era el padre de Majalat, la nueva esposa de Esaú?",
+     "Ismael",
+     "Labán",
+     "Lot"
+    ],
+    "pt": [
+     "Quem era o pai de Maalat, a nova esposa de Esaú?",
+     "Ismael",
+     "Labão",
+     "Ló"
+    ],
+    "fr": [
+     "Qui était le père de Mahalath, la nouvelle épouse d'Ésaü ?",
+     "Ismaël",
+     "Laban",
+     "Loth"
+    ],
+    "de": [
+     "Wer war der Vater von Mahalat, Esaus neuer Frau?",
+     "Ismael",
+     "Laban",
+     "Lot"
+    ],
+    "it": [
+     "Chi era il padre di Macalat, nuova moglie di Esaù?",
+     "Ismaele",
+     "Làbano",
+     "Lot"
+    ],
+    "pl": [
+     "Kto był ojcem Machalat, nowej żony Ezawa?",
+     "Izmael",
+     "Laban",
+     "Lot"
+    ],
+    "ru": [
+     "Кто был отцом Махалафы, новой жены Исава?",
+     "Измаил",
+     "Лаван",
+     "Лот"
+    ],
+    "tr": [
+     "Esav'ın yeni eşi Mahalat'ın babası kimdi?",
+     "İsmail",
+     "Laban",
+     "Lut"
+    ],
+    "ja": [
+     "エサウの新しい妻マハラトの父は誰ですか？",
+     "イシュマエル",
+     "ラバン",
+     "ロト"
+    ],
+    "ko": [
+     "에사오의 새 아내 마할랏의 아버지는 누구였습니까?",
+     "이스마엘",
+     "라반",
+     "롯"
+    ],
+    "ar": [
+     "من كان أبا محلة، زوجة عيسو الجديدة؟",
+     "إسماعيل",
+     "لابان",
+     "لوط"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-017-60",
+   "book": "genesis",
+   "chapter": 28,
+   "difficulty": "impossible",
+   "ref": "Genesis 28:20",
+   "text": {
+    "en": [
+     "In his vow at Bethel, Jacob asked for bread and what to wear?",
+     "Clothing",
+     "Gold",
+     "Silver"
+    ],
+    "es": [
+     "En su voto en Betel, ¿qué pidió Jacob, además de pan, para vestirse?",
+     "Ropa",
+     "Oro",
+     "Plata"
+    ],
+    "pt": [
+     "No voto em Betel, além de pão, o que Jacó pediu a Deus para vestir?",
+     "Roupa",
+     "Ouro",
+     "Prata"
+    ],
+    "fr": [
+     "Dans son vœu à Béthel, outre du pain, que Jacob demanda-t-il à Dieu pour se vêtir ?",
+     "Vêtements",
+     "Or",
+     "Argent"
+    ],
+    "de": [
+     "Um Brot und was zum Anziehen bat Jakob Gott in seinem Gelübde in Bet-El?",
+     "Kleidung",
+     "Gold",
+     "Silber"
+    ],
+    "it": [
+     "Nel voto a Betel, oltre al pane, che cosa chiese Giacobbe a Dio da indossare?",
+     "Vestiti",
+     "Oro",
+     "Argento"
+    ],
+    "pl": [
+     "W ślubie złożonym w Betel Jakub prosił Boga o chleb i o co do ubrania?",
+     "Odzież",
+     "Złoto",
+     "Srebro"
+    ],
+    "ru": [
+     "В обете в Вефиле Иаков просил Бога о хлебе и о чём, чтобы одеться?",
+     "Одежда",
+     "Золото",
+     "Серебро"
+    ],
+    "tr": [
+     "Yakup Beytel'deki adağında Tanrı'dan ekmeğin yanında giymek için ne istedi?",
+     "Giysi",
+     "Altın",
+     "Gümüş"
+    ],
+    "ja": [
+     "ベテルでの誓いで、ヤコブは神に、パンと身にまとう何を求めましたか？",
+     "衣服",
+     "金",
+     "銀"
+    ],
+    "ko": [
+     "벳엘에서 서원할 때 야곱은 하느님께 빵과 입을 무엇을 청했습니까?",
+     "옷",
+     "금",
+     "은"
+    ],
+    "ar": [
+     "في نذره في بيت إيل، طلب يعقوب من الله خبزًا وماذا ليلبس؟",
+     "ثياب",
+     "ذهب",
+     "فضة"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-017-61",
+   "book": "genesis",
+   "chapter": 29,
+   "difficulty": "easy",
+   "ref": "Genesis 29:18",
+   "text": {
+    "en": [
+     "Which woman did Jacob love so much that he served seven years for her?",
+     "Rachel",
+     "Rebekah",
+     "Dinah"
+    ],
+    "es": [
+     "¿Qué mujer amó tanto Jacob que sirvió siete años por ella?",
+     "Raquel",
+     "Rebeca",
+     "Dina"
+    ],
+    "pt": [
+     "Que mulher Jacó amou tanto que serviu sete anos por ela?",
+     "Raquel",
+     "Rebeca",
+     "Diná"
+    ],
+    "fr": [
+     "Quelle femme Jacob aima-t-il au point de servir sept ans pour elle ?",
+     "Rachel",
+     "Rébecca",
+     "Dina"
+    ],
+    "de": [
+     "Welche Frau liebte Jakob so sehr, dass er sieben Jahre für sie diente?",
+     "Rahel",
+     "Rebekka",
+     "Dina"
+    ],
+    "it": [
+     "Quale donna amò tanto Giacobbe da servire sette anni per lei?",
+     "Rachele",
+     "Rebecca",
+     "Dina"
+    ],
+    "pl": [
+     "Która kobieta była tak ukochana przez Jakuba, że służył za nią siedem lat?",
+     "Rachela",
+     "Rebeka",
+     "Dina"
+    ],
+    "ru": [
+     "Какая женщина была так любима Иаковом, что он служил за неё семь лет?",
+     "Рахиль",
+     "Ревекка",
+     "Дина"
+    ],
+    "tr": [
+     "Yakup hangi kadını o kadar sevdi ki onun için yedi yıl hizmet etti?",
+     "Rahel",
+     "Rebeka",
+     "Dina"
+    ],
+    "ja": [
+     "ヤコブが七年間仕えるほど愛した女性は誰ですか？",
+     "ラケル",
+     "リベカ",
+     "ディナ"
+    ],
+    "ko": [
+     "야곱이 칠 년 동안 일할 만큼 사랑한 여인은 누구입니까?",
+     "라헬",
+     "리브가",
+     "디나"
+    ],
+    "ar": [
+     "أي امرأة أحبها يعقوب حتى خدم سبع سنين من أجلها؟",
+     "راحيل",
+     "رفقة",
+     "دينة"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-017-62",
+   "book": "genesis",
+   "chapter": 29,
+   "difficulty": "medium",
+   "ref": "Genesis 29:23-25",
+   "text": {
+    "en": [
+     "Laban tricked Jacob by giving him which daughter first?",
+     "Leah",
+     "Rachel",
+     "Dinah"
+    ],
+    "es": [
+     "¿A qué hija dio Labán primero a Jacob, engañándolo?",
+     "Lía",
+     "Raquel",
+     "Dina"
+    ],
+    "pt": [
+     "A que filha Labão deu primeiro a Jacó, enganando-o?",
+     "Lia",
+     "Raquel",
+     "Diná"
+    ],
+    "fr": [
+     "Quelle fille Laban donna-t-il d'abord à Jacob, en le trompant ?",
+     "Léa",
+     "Rachel",
+     "Dina"
+    ],
+    "de": [
+     "Welche Tochter gab Laban Jakob zuerst und täuschte ihn damit?",
+     "Lea",
+     "Rahel",
+     "Dina"
+    ],
+    "it": [
+     "Quale figlia diede Làbano per prima a Giacobbe, ingannandolo?",
+     "Lia",
+     "Rachele",
+     "Dina"
+    ],
+    "pl": [
+     "Którą córkę Laban podstępnie oddał Jakubowi jako pierwszą?",
+     "Lea",
+     "Rachela",
+     "Dina"
+    ],
+    "ru": [
+     "Какая дочь Лавана была первой обманом отдана Иакову?",
+     "Лия",
+     "Рахиль",
+     "Дина"
+    ],
+    "tr": [
+     "Laban, Yakup'u aldatarak ona önce hangi kızını verdi?",
+     "Lea",
+     "Rahel",
+     "Dina"
+    ],
+    "ja": [
+     "ラバンはヤコブをだまして、まずどの娘を与えましたか？",
+     "レア",
+     "ラケル",
+     "ディナ"
+    ],
+    "ko": [
+     "라반은 야곱을 속이고 먼저 어느 딸을 주었습니까?",
+     "레아",
+     "라헬",
+     "디나"
+    ],
+    "ar": [
+     "أي بنت أعطاها لابان ليعقوب أولًا خديعةً؟",
+     "ليئة",
+     "راحيل",
+     "دينة"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-017-63",
+   "book": "genesis",
+   "chapter": 29,
+   "difficulty": "hard",
+   "ref": "Genesis 29:9",
+   "text": {
+    "en": [
+     "Which animals did Rachel tend when Jacob met her at the well?",
+     "Sheep",
+     "Goats",
+     "Cattle"
+    ],
+    "es": [
+     "¿Qué animales cuidaba Raquel cuando Jacob la conoció junto al pozo?",
+     "Ovejas",
+     "Cabras",
+     "Ganado"
+    ],
+    "pt": [
+     "Que animais Raquel pastoreava quando Jacó a conheceu junto ao poço?",
+     "Ovelhas",
+     "Cabras",
+     "Gado"
+    ],
+    "fr": [
+     "Quels animaux Rachel gardait-elle quand Jacob la rencontra au puits ?",
+     "Brebis",
+     "Chèvres",
+     "Bovins"
+    ],
+    "de": [
+     "Welche Tiere hütete Rahel, als Jakob sie am Brunnen traf?",
+     "Schafe",
+     "Ziegen",
+     "Rinder"
+    ],
+    "it": [
+     "Quali animali pascolava Rachele quando Giacobbe la incontrò al pozzo?",
+     "Pecore",
+     "Capre",
+     "Bovini"
+    ],
+    "pl": [
+     "Które zwierzęta pasła Rachela, gdy Jakub spotkał ją przy studni?",
+     "Owce",
+     "Kozy",
+     "Bydło"
+    ],
+    "ru": [
+     "Какие животные были в стаде Рахили, когда Иаков встретил её у колодца?",
+     "Овцы",
+     "Козы",
+     "Скот"
+    ],
+    "tr": [
+     "Yakup Rahel'le kuyu başında karşılaştığında Rahel hangi hayvanları güdüyordu?",
+     "Koyunlar",
+     "Keçiler",
+     "Sığırlar"
+    ],
+    "ja": [
+     "ヤコブが井戸でラケルに出会ったとき、ラケルはどの動物を飼っていましたか？",
+     "羊",
+     "ヤギ",
+     "牛"
+    ],
+    "ko": [
+     "야곱이 우물가에서 라헬을 만났을 때 라헬은 어떤 짐승들을 치고 있었습니까?",
+     "양",
+     "염소",
+     "소"
+    ],
+    "ar": [
+     "أي حيوانات كانت راحيل ترعاها عندما التقاها يعقوب عند البئر؟",
+     "أغنام",
+     "ماعز",
+     "بقر"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-017-64",
+   "book": "genesis",
+   "chapter": 29,
+   "difficulty": "expert",
+   "ref": "Genesis 29:35",
+   "text": {
+    "en": [
+     "Which son was named when Leah said she would praise the Lord?",
+     "Judah",
+     "Levi",
+     "Simeon"
+    ],
+    "es": [
+     "¿Qué hijo recibió nombre cuando Lía dijo que alabaría al Señor?",
+     "Judá",
+     "Leví",
+     "Simeón"
+    ],
+    "pt": [
+     "Que filho recebeu nome quando Lia disse que louvaria o Senhor?",
+     "Judá",
+     "Levi",
+     "Simeão"
+    ],
+    "fr": [
+     "Quel fils reçut son nom quand Léa dit qu'elle louerait le Seigneur ?",
+     "Juda",
+     "Lévi",
+     "Siméon"
+    ],
+    "de": [
+     "Welcher Sohn wurde benannt, als Lea sagte, sie wolle den Herrn preisen?",
+     "Juda",
+     "Levi",
+     "Simeon"
+    ],
+    "it": [
+     "Quale figlio fu chiamato così quando Lia disse che avrebbe lodato il Signore?",
+     "Giuda",
+     "Levi",
+     "Simeone"
+    ],
+    "pl": [
+     "Który syn otrzymał imię, gdy Lea powiedziała, że będzie chwalić Pana?",
+     "Juda",
+     "Lewi",
+     "Symeon"
+    ],
+    "ru": [
+     "Какой сын получил имя, когда Лия сказала, что будет славить Господа?",
+     "Иуда",
+     "Левий",
+     "Симеон"
+    ],
+    "tr": [
+     "Lea RAB'bi öveceğini söylediğinde hangi oğluna ad konuldu?",
+     "Yahuda",
+     "Levi",
+     "Şimon"
+    ],
+    "ja": [
+     "レアが主をほめたたえると言ったとき、名づけられた息子は誰ですか？",
+     "ユダ",
+     "レビ",
+     "シメオン"
+    ],
+    "ko": [
+     "레아가 주님을 찬양하겠다고 말할 때 이름을 얻은 아들은 누구입니까?",
+     "유다",
+     "레위",
+     "시메온"
+    ],
+    "ar": [
+     "أي ابن سُمي حين قالت ليئة إنها ستحمد الرب؟",
+     "يهوذا",
+     "لاوي",
+     "شمعون"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-017-65",
+   "book": "genesis",
+   "chapter": 29,
+   "difficulty": "impossible",
+   "ref": "Genesis 29:24",
+   "text": {
+    "en": [
+     "Which maid did Laban give his daughter Leah as a wedding gift?",
+     "Zilpah",
+     "Bilhah",
+     "Keturah"
+    ],
+    "es": [
+     "¿Qué criada dio Labán a su hija Lía como regalo de boda?",
+     "Zilpá",
+     "Bilhá",
+     "Quetura"
+    ],
+    "pt": [
+     "Que serva Labão deu à sua filha Lia como presente de casamento?",
+     "Zilpa",
+     "Bala",
+     "Quetura"
+    ],
+    "fr": [
+     "Quelle servante Laban donna-t-il à sa fille Léa comme cadeau de noces ?",
+     "Zilpa",
+     "Bala",
+     "Qetura"
+    ],
+    "de": [
+     "Welche Magd gab Laban seiner Tochter Lea als Hochzeitsgeschenk?",
+     "Silpa",
+     "Bilha",
+     "Ketura"
+    ],
+    "it": [
+     "Quale serva diede Làbano a sua figlia Lia come dono di nozze?",
+     "Zilpa",
+     "Bila",
+     "Chetura"
+    ],
+    "pl": [
+     "Którą służącą dał Laban swojej córce Lei jako dar ślubny?",
+     "Zilpa",
+     "Bilha",
+     "Ketura"
+    ],
+    "ru": [
+     "Какая служанка была отдана Лаваном дочери Лии в приданое?",
+     "Зелфа",
+     "Валла",
+     "Хеттура"
+    ],
+    "tr": [
+     "Laban kızı Lea'ya düğün armağanı olarak hangi cariyeyi verdi?",
+     "Zilpa",
+     "Bilha",
+     "Ketura"
+    ],
+    "ja": [
+     "ラバンは娘レアに、結婚の贈り物としてどの女奴隷を与えましたか？",
+     "ジルパ",
+     "ビルハ",
+     "ケトラ"
+    ],
+    "ko": [
+     "라반은 딸 레아에게 혼인 선물로 어느 여종을 주었습니까?",
+     "즐파",
+     "빌하",
+     "크투라"
+    ],
+    "ar": [
+     "أي جارية أعطاها لابان لابنته ليئة هدية زواج؟",
+     "زلفة",
+     "بلهة",
+     "قطورة"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-017-66",
+   "book": "genesis",
+   "chapter": 30,
+   "difficulty": "easy",
+   "ref": "Genesis 30:22-24",
+   "text": {
+    "en": [
+     "What was the name of Rachel's first son, born after long barrenness?",
+     "Joseph",
+     "Reuben",
+     "Simeon"
+    ],
+    "es": [
+     "¿Cómo se llamó el hijo que Raquel dio a luz tras años de esterilidad?",
+     "José",
+     "Rubén",
+     "Simeón"
+    ],
+    "pt": [
+     "Como se chamou o filho que Raquel deu à luz após anos de esterilidade?",
+     "José",
+     "Rúben",
+     "Simeão"
+    ],
+    "fr": [
+     "Comment s'appela le fils que Rachel enfanta après des années de stérilité ?",
+     "Joseph",
+     "Ruben",
+     "Siméon"
+    ],
+    "de": [
+     "Wie hieß der Sohn, den Rahel nach Jahren der Unfruchtbarkeit gebar?",
+     "Josef",
+     "Ruben",
+     "Simeon"
+    ],
+    "it": [
+     "Come si chiamò il figlio che Rachele partorì dopo anni di sterilità?",
+     "Giuseppe",
+     "Ruben",
+     "Simeone"
+    ],
+    "pl": [
+     "Jak miał na imię syn, którego Rachela urodziła po latach niepłodności?",
+     "Józef",
+     "Ruben",
+     "Symeon"
+    ],
+    "ru": [
+     "Как звали сына, которого Рахиль родила после лет бесплодия?",
+     "Иосиф",
+     "Рувим",
+     "Симеон"
+    ],
+    "tr": [
+     "Rahel'in yıllarca süren kısırlıktan sonra doğurduğu oğlunun adı neydi?",
+     "Yusuf",
+     "Ruben",
+     "Şimon"
+    ],
+    "ja": [
+     "ラケルが長い不妊の後に産んだ息子の名は何ですか？",
+     "ヨセフ",
+     "ルベン",
+     "シメオン"
+    ],
+    "ko": [
+     "라헬이 오랜 불임 끝에 낳은 아들의 이름은 무엇입니까?",
+     "요셉",
+     "르우벤",
+     "시메온"
+    ],
+    "ar": [
+     "ما اسم الابن الذي ولدته راحيل بعد سنوات من العقم؟",
+     "يوسف",
+     "رأوبين",
+     "شمعون"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-017-67",
+   "book": "genesis",
+   "chapter": 30,
+   "difficulty": "medium",
+   "ref": "Genesis 30:37-38",
+   "text": {
+    "en": [
+     "To breed Laban's flocks, Jacob peeled what and set them in the troughs?",
+     "Branches",
+     "Stones",
+     "Reeds"
+    ],
+    "es": [
+     "¿Qué peló Jacob y puso en los abrevaderos para la cría de los rebaños de Labán?",
+     "Ramas",
+     "Piedras",
+     "Cañas"
+    ],
+    "pt": [
+     "O que Jacó descascou e pôs nos bebedouros para a criação dos rebanhos de Labão?",
+     "Ramos",
+     "Pedras",
+     "Juncos"
+    ],
+    "fr": [
+     "Que Jacob pela-t-il et plaça-t-il dans les abreuvoirs pour la reproduction des troupeaux de Laban ?",
+     "Branches",
+     "Pierres",
+     "Roseaux"
+    ],
+    "de": [
+     "Was schälte Jakob und legte es in die Tränkrinnen, um Labans Herden zu vermehren?",
+     "Zweige",
+     "Steine",
+     "Schilf"
+    ],
+    "it": [
+     "Che cosa scortecciò Giacobbe e mise negli abbeveratoi per la riproduzione delle greggi di Làbano?",
+     "Rami",
+     "Pietre",
+     "Canne"
+    ],
+    "pl": [
+     "Co obłupał Jakub i położył w poidłach, by rozmnożyć trzody Labana?",
+     "Gałęzie",
+     "Kamienie",
+     "Trzciny"
+    ],
+    "ru": [
+     "Что ободрал Иаков и положил в поилки, чтобы размножить стада Лавана?",
+     "Ветви",
+     "Камни",
+     "Тростник"
+    ],
+    "tr": [
+     "Yakup, Laban'ın sürülerini üretmek için neyi soyup suluklara koydu?",
+     "Dallar",
+     "Taşlar",
+     "Kamışlar"
+    ],
+    "ja": [
+     "ラバンの群れを増やすため、ヤコブは何の皮をむいて水ために置きましたか？",
+     "枝",
+     "石",
+     "葦"
+    ],
+    "ko": [
+     "라반의 가축 떼를 번식시키려고 야곱은 무엇의 껍질을 벗겨 물구유에 두었습니까?",
+     "가지",
+     "돌",
+     "갈대"
+    ],
+    "ar": [
+     "لتكثير قطعان لابان، ماذا قشّر يعقوب ووضعه في المساقي؟",
+     "أغصان",
+     "حجارة",
+     "قصب"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-017-68",
+   "book": "genesis",
+   "chapter": 30,
+   "difficulty": "hard",
+   "ref": "Genesis 30:14",
+   "text": {
+    "en": [
+     "Which plants did Reuben find in the field for his mother Leah?",
+     "Mandrakes",
+     "Grapes",
+     "Figs"
+    ],
+    "es": [
+     "¿Qué plantas encontró Rubén en el campo para su madre Lía?",
+     "Mandrágoras",
+     "Uvas",
+     "Higos"
+    ],
+    "pt": [
+     "Que plantas Rúben encontrou no campo para sua mãe Lia?",
+     "Mandrágoras",
+     "Uvas",
+     "Figos"
+    ],
+    "fr": [
+     "Quelles plantes Ruben trouva-t-il aux champs pour sa mère Léa ?",
+     "Mandragores",
+     "Raisins",
+     "Figues"
+    ],
+    "de": [
+     "Welche Pflanzen fand Ruben auf dem Feld für seine Mutter Lea?",
+     "Alraunen",
+     "Trauben",
+     "Feigen"
+    ],
+    "it": [
+     "Quali piante trovò Ruben nei campi per sua madre Lia?",
+     "Mandragore",
+     "Uve",
+     "Fichi"
+    ],
+    "pl": [
+     "Jakie rośliny znalazł Ruben na polu dla swojej matki Lei?",
+     "Mandragory",
+     "Winogrona",
+     "Figi"
+    ],
+    "ru": [
+     "Какие растения нашёл Рувим в поле для своей матери Лии?",
+     "Мандрагоры",
+     "Виноград",
+     "Смоквы"
+    ],
+    "tr": [
+     "Ruben tarlada annesi Lea için hangi bitkileri buldu?",
+     "Adamotları",
+     "Üzümler",
+     "İncirler"
+    ],
+    "ja": [
+     "ルベンは野で、母レアのためにどの植物を見つけましたか？",
+     "マンドラゴラ",
+     "ブドウ",
+     "イチジク"
+    ],
+    "ko": [
+     "르우벤은 들에서 어머니 레아를 위해 어떤 식물을 찾았습니까?",
+     "합환채",
+     "포도",
+     "무화과"
+    ],
+    "ar": [
+     "أي نباتات وجدها رأوبين في الحقل لأمه ليئة؟",
+     "لفاح",
+     "عنب",
+     "تين"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-017-69",
+   "book": "genesis",
+   "chapter": 30,
+   "difficulty": "expert",
+   "ref": "Genesis 30:21",
+   "text": {
+    "en": [
+     "What name did Leah give her daughter?",
+     "Dinah",
+     "Tamar",
+     "Rebekah"
+    ],
+    "es": [
+     "¿Qué nombre puso Lía a su hija?",
+     "Dina",
+     "Tamar",
+     "Rebeca"
+    ],
+    "pt": [
+     "Que nome Lia deu à sua filha?",
+     "Diná",
+     "Tamar",
+     "Rebeca"
+    ],
+    "fr": [
+     "Quel nom Léa donna-t-elle à sa fille ?",
+     "Dina",
+     "Tamar",
+     "Rébecca"
+    ],
+    "de": [
+     "Welchen Namen gab Lea ihrer Tochter?",
+     "Dina",
+     "Tamar",
+     "Rebekka"
+    ],
+    "it": [
+     "Quale nome diede Lia a sua figlia?",
+     "Dina",
+     "Tamar",
+     "Rebecca"
+    ],
+    "pl": [
+     "Jakie imię nadała Lea swojej córce?",
+     "Dina",
+     "Tamar",
+     "Rebeka"
+    ],
+    "ru": [
+     "Какое имя дала Лия своей дочери?",
+     "Дина",
+     "Фамарь",
+     "Ревекка"
+    ],
+    "tr": [
+     "Lea kızına hangi adı verdi?",
+     "Dina",
+     "Tamar",
+     "Rebeka"
+    ],
+    "ja": [
+     "レアは娘にどんな名前をつけましたか？",
+     "ディナ",
+     "タマル",
+     "リベカ"
+    ],
+    "ko": [
+     "레아는 딸에게 어떤 이름을 지어 주었습니까?",
+     "디나",
+     "타마르",
+     "리브가"
+    ],
+    "ar": [
+     "ما الاسم الذي أطلقته ليئة على ابنتها؟",
+     "دينة",
+     "ثامار",
+     "رفقة"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-017-70",
+   "book": "genesis",
+   "chapter": 30,
+   "difficulty": "impossible",
+   "ref": "Genesis 30:36",
+   "text": {
+    "en": [
+     "To separate the flocks, Laban set how many days' journey from Jacob?",
+     "3",
+     "7",
+     "10"
+    ],
+    "es": [
+     "¿Cuántos días de camino puso Labán entre él y Jacob para separar los rebaños?",
+     "3",
+     "7",
+     "10"
+    ],
+    "pt": [
+     "Quantos dias de caminho Labão pôs entre si e Jacó para separar os rebanhos?",
+     "3",
+     "7",
+     "10"
+    ],
+    "fr": [
+     "Combien de jours de marche Laban mit-il entre lui et Jacob pour séparer les troupeaux ?",
+     "3",
+     "7",
+     "10"
+    ],
+    "de": [
+     "Wie viele Tagesreisen legte Laban zwischen sich und Jakob, um die Herden zu trennen?",
+     "3",
+     "7",
+     "10"
+    ],
+    "it": [
+     "Quanti giorni di cammino pose Làbano tra sé e Giacobbe per separare le greggi?",
+     "3",
+     "7",
+     "10"
+    ],
+    "pl": [
+     "Ile dni drogi wyznaczył Laban między sobą a Jakubem, by rozdzielić trzody?",
+     "3",
+     "7",
+     "10"
+    ],
+    "ru": [
+     "Сколько дней пути Лаван поставил между собой и Иаковом, чтобы разделить стада?",
+     "3",
+     "7",
+     "10"
+    ],
+    "tr": [
+     "Laban, sürüleri ayırmak için kendisi ile Yakup arasına kaç günlük yol koydu?",
+     "3",
+     "7",
+     "10"
+    ],
+    "ja": [
+     "群れを分けるため、ラバンは自分とヤコブとの間に何日の道のりを置きましたか？",
+     "3",
+     "7",
+     "10"
+    ],
+    "ko": [
+     "가축 떼를 가르려고 라반은 자기와 야곱 사이에 며칠 길의 거리를 두었습니까?",
+     "3",
+     "7",
+     "10"
+    ],
+    "ar": [
+     "لفصل القطعان، كم يوم سفر وضع لابان بينه وبين يعقوب؟",
+     "3",
+     "7",
+     "10"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-017-71",
+   "book": "genesis",
+   "chapter": 31,
+   "difficulty": "easy",
+   "ref": "Genesis 31:19",
+   "text": {
+    "en": [
+     "What did Rachel steal from her father Laban's house?",
+     "Idols",
+     "Jewels",
+     "Camels"
+    ],
+    "es": [
+     "¿Qué robó Raquel de la casa de su padre Labán?",
+     "Ídolos",
+     "Joyas",
+     "Camellos"
+    ],
+    "pt": [
+     "O que Raquel roubou da casa de seu pai Labão?",
+     "Ídolos",
+     "Joias",
+     "Camelos"
+    ],
+    "fr": [
+     "Que Rachel déroba-t-elle dans la maison de son père Laban ?",
+     "Idoles",
+     "Bijoux",
+     "Chameaux"
+    ],
+    "de": [
+     "Was stahl Rahel aus dem Haus ihres Vaters Laban?",
+     "Götterbilder",
+     "Schmuck",
+     "Kamele"
+    ],
+    "it": [
+     "Che cosa rubò Rachele dalla casa di suo padre Làbano?",
+     "Idoli",
+     "Gioielli",
+     "Cammelli"
+    ],
+    "pl": [
+     "Co Rachela ukradła z domu ojca Labana?",
+     "Bożki",
+     "Klejnoty",
+     "Wielbłądy"
+    ],
+    "ru": [
+     "Что Рахиль украла из дома отца своего Лавана?",
+     "Терафимы",
+     "Драгоценности",
+     "Верблюды"
+    ],
+    "tr": [
+     "Rahel babası Laban'ın evinden ne çaldı?",
+     "Putlar",
+     "Mücevherler",
+     "Develer"
+    ],
+    "ja": [
+     "ラケルは父ラバンの家から何を盗みましたか？",
+     "テラフィム",
+     "宝石",
+     "ラクダ"
+    ],
+    "ko": [
+     "라헬은 아버지 라반의 집에서 무엇을 훔쳤습니까?",
+     "수호신상",
+     "보석",
+     "낙타"
+    ],
+    "ar": [
+     "ماذا سرقت راحيل من بيت أبيها لابان؟",
+     "أصنام",
+     "جواهر",
+     "جمال"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-017-72",
+   "book": "genesis",
+   "chapter": 31,
+   "difficulty": "medium",
+   "ref": "Genesis 31:24,29",
+   "text": {
+    "en": [
+     "In a dream, whom did God warn Laban not to harm?",
+     "Jacob",
+     "Esau",
+     "Isaac"
+    ],
+    "es": [
+     "¿A quién advirtió Dios en sueños a Labán que no hiciera daño?",
+     "Jacob",
+     "Esaú",
+     "Isaac"
+    ],
+    "pt": [
+     "A quem Deus, em sonho, advertiu Labão que não fizesse mal?",
+     "Jacó",
+     "Esaú",
+     "Isaque"
+    ],
+    "fr": [
+     "À qui Dieu, en songe, interdit-il à Laban de faire du mal ?",
+     "Jacob",
+     "Ésaü",
+     "Isaac"
+    ],
+    "de": [
+     "Wem sollte Laban nach Gottes Warnung im Traum nichts antun?",
+     "Jakob",
+     "Esau",
+     "Isaak"
+    ],
+    "it": [
+     "A chi Dio, in sogno, vietò a Làbano di fare del male?",
+     "Giacobbe",
+     "Esaù",
+     "Isacco"
+    ],
+    "pl": [
+     "Komu Bóg we śnie zabronił Labanowi szkodzić?",
+     "Jakub",
+     "Ezaw",
+     "Izaak"
+    ],
+    "ru": [
+     "Кому Бог во сне велел Лавану не причинять зла?",
+     "Иаков",
+     "Исав",
+     "Исаак"
+    ],
+    "tr": [
+     "Tanrı rüyada Laban'a kime zarar vermemesini söyledi?",
+     "Yakup",
+     "Esav",
+     "İshak"
+    ],
+    "ja": [
+     "神は夢でラバンに、誰に害を加えてはならないと告げましたか？",
+     "ヤコブ",
+     "エサウ",
+     "イサク"
+    ],
+    "ko": [
+     "하느님은 꿈에서 라반에게 누구를 해치지 말라고 하셨습니까?",
+     "야곱",
+     "에사오",
+     "이사악"
+    ],
+    "ar": [
+     "من نهى الله لابان في حلم عن إيذائه؟",
+     "يعقوب",
+     "عيسو",
+     "إسحاق"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-017-73",
+   "book": "genesis",
+   "chapter": 31,
+   "difficulty": "hard",
+   "ref": "Genesis 31:41",
+   "text": {
+    "en": [
+     "Jacob said he had served Laban's household how many years?",
+     "20",
+     "12",
+     "30"
+    ],
+    "es": [
+     "¿Cuántos años dijo Jacob que había servido a la casa de Labán?",
+     "20",
+     "12",
+     "30"
+    ],
+    "pt": [
+     "Quantos anos Jacó disse que serviu na casa de Labão?",
+     "20",
+     "12",
+     "30"
+    ],
+    "fr": [
+     "Combien d'années Jacob dit-il avoir servi dans la maison de Laban ?",
+     "20",
+     "12",
+     "30"
+    ],
+    "de": [
+     "Wie viele Jahre, sagte Jakob, hatte er in Labans Haus gedient?",
+     "20",
+     "12",
+     "30"
+    ],
+    "it": [
+     "Quanti anni Giacobbe disse di aver servito nella casa di Làbano?",
+     "20",
+     "12",
+     "30"
+    ],
+    "pl": [
+     "Ile lat, według Jakuba, służył on w domu Labana?",
+     "20",
+     "12",
+     "30"
+    ],
+    "ru": [
+     "Сколько лет, по словам Иакова, он служил в доме Лавана?",
+     "20",
+     "12",
+     "30"
+    ],
+    "tr": [
+     "Yakup, Laban'ın evinde kaç yıl hizmet ettiğini söyledi?",
+     "20",
+     "12",
+     "30"
+    ],
+    "ja": [
+     "ヤコブは、ラバンの家で何年間仕えたと言いましたか？",
+     "20",
+     "12",
+     "30"
+    ],
+    "ko": [
+     "야곱은 라반의 집에서 몇 해 동안 일했다고 말했습니까?",
+     "20",
+     "12",
+     "30"
+    ],
+    "ar": [
+     "كم سنة قال يعقوب إنه خدم في بيت لابان؟",
+     "20",
+     "12",
+     "30"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-017-74",
+   "book": "genesis",
+   "chapter": 31,
+   "difficulty": "expert",
+   "ref": "Genesis 31:7",
+   "text": {
+    "en": [
+     "How many times did Laban change Jacob's wages, Jacob said?",
+     "10",
+     "3",
+     "7"
+    ],
+    "es": [
+     "¿Cuántas veces cambió Labán el salario de Jacob, según este?",
+     "10",
+     "3",
+     "7"
+    ],
+    "pt": [
+     "Quantas vezes Labão mudou o salário de Jacó, segundo ele?",
+     "10",
+     "3",
+     "7"
+    ],
+    "fr": [
+     "Combien de fois Laban changea-t-il le salaire de Jacob, selon lui ?",
+     "10",
+     "3",
+     "7"
+    ],
+    "de": [
+     "Wie oft änderte Laban laut Jakob dessen Lohn?",
+     "10",
+     "3",
+     "7"
+    ],
+    "it": [
+     "Quante volte Làbano cambiò il salario di Giacobbe, secondo lui?",
+     "10",
+     "3",
+     "7"
+    ],
+    "pl": [
+     "Ile razy według Jakuba Laban zmieniał jego zapłatę?",
+     "10",
+     "3",
+     "7"
+    ],
+    "ru": [
+     "Сколько раз, по словам Иакова, Лаван менял его плату?",
+     "10",
+     "3",
+     "7"
+    ],
+    "tr": [
+     "Yakup'a göre Laban, ücretini kaç kez değiştirdi?",
+     "10",
+     "3",
+     "7"
+    ],
+    "ja": [
+     "ヤコブによれば、ラバンは彼の報酬を何度変えましたか？",
+     "10",
+     "3",
+     "7"
+    ],
+    "ko": [
+     "야곱의 말에 따르면 라반은 그의 품삯을 몇 번이나 바꾸었습니까?",
+     "10",
+     "3",
+     "7"
+    ],
+    "ar": [
+     "كم مرة غيّر لابان أجرة يعقوب، بحسب يعقوب؟",
+     "10",
+     "3",
+     "7"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-017-75",
+   "book": "genesis",
+   "chapter": 31,
+   "difficulty": "impossible",
+   "ref": "Genesis 31:48-49",
+   "text": {
+    "en": [
+     "What name, meaning watchpost, was given to Jacob and Laban's heap of stones?",
+     "Mizpah",
+     "Gilgal",
+     "Shiloh"
+    ],
+    "es": [
+     "¿Qué nombre, que significa atalaya, recibió el montón de piedras de Jacob y Labán?",
+     "Mispá",
+     "Guilgal",
+     "Silo"
+    ],
+    "pt": [
+     "Que nome, que significa posto de vigia, recebeu o monte de pedras de Jacó e Labão?",
+     "Mispá",
+     "Guilgal",
+     "Siló"
+    ],
+    "fr": [
+     "Quel nom, signifiant poste de guet, reçut le tas de pierres de Jacob et de Laban ?",
+     "Mizpa",
+     "Guilgal",
+     "Silo"
+    ],
+    "de": [
+     "Welchen Namen, der Wachtposten bedeutet, erhielt der Steinhaufen von Jakob und Laban?",
+     "Mizpa",
+     "Gilgal",
+     "Schilo"
+    ],
+    "it": [
+     "Quale nome, che significa posto di vedetta, ebbe il mucchio di pietre di Giacobbe e Làbano?",
+     "Mizpa",
+     "Gàlgala",
+     "Silo"
+    ],
+    "pl": [
+     "Jakie imię, oznaczające punkt obserwacyjny, nosił kopiec kamieni Jakuba i Labana?",
+     "Mispa",
+     "Gilgal",
+     "Szilo"
+    ],
+    "ru": [
+     "Какое имя, означающее сторожевой пост, получила груда камней Иакова и Лавана?",
+     "Мицпа",
+     "Галгал",
+     "Силом"
+    ],
+    "tr": [
+     "Yakup ile Laban'ın taş yığını gözetleme yeri anlamına gelen hangi adı aldı?",
+     "Mispa",
+     "Gilgal",
+     "Silo"
+    ],
+    "ja": [
+     "ヤコブとラバンの石塚は、見張り所を意味するどんな名で呼ばれましたか？",
+     "ミツパ",
+     "ギルガル",
+     "シロ"
+    ],
+    "ko": [
+     "야곱과 라반의 돌무더기는 망대라는 뜻의 어떤 이름으로 불렸습니까?",
+     "미츠파",
+     "길갈",
+     "실로"
+    ],
+    "ar": [
+     "ما الاسم الذي أُعطي لكومة الحجارة التي أقامها يعقوب ولابان، ومعناه مرقب؟",
+     "المصفاة",
+     "الجلجال",
+     "شيلوه"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-017-76",
+   "book": "genesis",
+   "chapter": 32,
+   "difficulty": "easy",
+   "ref": "Genesis 32:28",
+   "text": {
+    "en": [
+     "After wrestling through the night, what new name did Jacob receive?",
+     "Israel",
+     "Edom",
+     "Ephraim"
+    ],
+    "es": [
+     "Tras luchar toda la noche, ¿qué nuevo nombre recibió Jacob?",
+     "Israel",
+     "Edom",
+     "Efraín"
+    ],
+    "pt": [
+     "Depois de lutar a noite toda, que novo nome Jacó recebeu?",
+     "Israel",
+     "Edom",
+     "Efraim"
+    ],
+    "fr": [
+     "Après avoir lutté toute la nuit, quel nouveau nom Jacob reçut-il ?",
+     "Israël",
+     "Édom",
+     "Éphraïm"
+    ],
+    "de": [
+     "Welchen neuen Namen erhielt Jakob, nachdem er die ganze Nacht gerungen hatte?",
+     "Israel",
+     "Edom",
+     "Efraim"
+    ],
+    "it": [
+     "Dopo aver lottato tutta la notte, quale nuovo nome ricevette Giacobbe?",
+     "Israele",
+     "Edom",
+     "Efraim"
+    ],
+    "pl": [
+     "Jakie nowe imię otrzymał Jakub po całonocnej walce?",
+     "Izrael",
+     "Edom",
+     "Efraim"
+    ],
+    "ru": [
+     "Какое новое имя получил Иаков после борьбы в течение ночи?",
+     "Израиль",
+     "Едом",
+     "Ефрем"
+    ],
+    "tr": [
+     "Yakup bütün gece güreştikten sonra hangi yeni adı aldı?",
+     "İsrail",
+     "Edom",
+     "Efrayim"
+    ],
+    "ja": [
+     "一晩中格闘したあと、ヤコブはどんな新しい名を受けましたか？",
+     "イスラエル",
+     "エドム",
+     "エフライム"
+    ],
+    "ko": [
+     "밤새 씨름한 뒤 야곱은 어떤 새 이름을 받았습니까?",
+     "이스라엘",
+     "에돔",
+     "에프라임"
+    ],
+    "ar": [
+     "ما الاسم الجديد الذي نالَه يعقوب بعد أن صارع طوال الليل؟",
+     "إسرائيل",
+     "أدوم",
+     "أفرايم"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-017-77",
+   "book": "genesis",
+   "chapter": 32,
+   "difficulty": "medium",
+   "ref": "Genesis 32:10",
+   "text": {
+    "en": [
+     "With only a staff, which river did Jacob say he crossed?",
+     "Jordan",
+     "Nile",
+     "Euphrates"
+    ],
+    "es": [
+     "Con solo un bastón, ¿qué río dijo Jacob que había cruzado?",
+     "Jordán",
+     "Nilo",
+     "Éufrates"
+    ],
+    "pt": [
+     "Só com um cajado, que rio Jacó disse ter atravessado?",
+     "Jordão",
+     "Nilo",
+     "Eufrates"
+    ],
+    "fr": [
+     "Avec un simple bâton, quel fleuve Jacob dit-il avoir traversé ?",
+     "Jourdain",
+     "Nil",
+     "Euphrate"
+    ],
+    "de": [
+     "Mit nur einem Stab, welchen Fluss hatte Jakob nach eigener Aussage überquert?",
+     "Jordan",
+     "Nil",
+     "Euphrat"
+    ],
+    "it": [
+     "Con il solo bastone, quale fiume disse Giacobbe di aver attraversato?",
+     "Giordano",
+     "Nilo",
+     "Eufrate"
+    ],
+    "pl": [
+     "Którą rzekę przekroczył Jakub, jak mówił, mając tylko laskę?",
+     "Jordan",
+     "Nil",
+     "Eufrat"
+    ],
+    "ru": [
+     "Какую реку, по его словам, перешёл Иаков с одним посохом?",
+     "Иордан",
+     "Нил",
+     "Евфрат"
+    ],
+    "tr": [
+     "Yakup yalnızca asasıyla hangi ırmağı geçtiğini söyledi?",
+     "Şeria",
+     "Nil",
+     "Fırat"
+    ],
+    "ja": [
+     "ヤコブは杖一本でどの川を渡ったと言いましたか？",
+     "ヨルダン",
+     "ナイル",
+     "ユーフラテス"
+    ],
+    "ko": [
+     "야곱은 지팡이 하나만 들고 어느 강을 건넜다고 말했습니까?",
+     "요르단",
+     "나일",
+     "유프라테스"
+    ],
+    "ar": [
+     "أي نهر قال يعقوب إنه عبره بعصاه فقط؟",
+     "الأردن",
+     "النيل",
+     "الفرات"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-017-78",
+   "book": "genesis",
+   "chapter": 32,
+   "difficulty": "expert",
+   "ref": "Genesis 32:30",
+   "text": {
+    "en": [
+     "What name, meaning face of God, did Jacob give the place he wrestled?",
+     "Peniel",
+     "Hebron",
+     "Gilgal"
+    ],
+    "es": [
+     "¿Qué nombre dio Jacob al lugar donde luchó, que significa rostro de Dios?",
+     "Penuel",
+     "Hebrón",
+     "Guilgal"
+    ],
+    "pt": [
+     "Que nome Jacó deu ao lugar onde lutou, que significa rosto de Deus?",
+     "Peniel",
+     "Hebron",
+     "Guilgal"
+    ],
+    "fr": [
+     "Quel nom Jacob donna-t-il au lieu où il lutta, signifiant face de Dieu ?",
+     "Penouel",
+     "Hébron",
+     "Guilgal"
+    ],
+    "de": [
+     "Welchen Namen gab Jakob dem Ort, an dem er gerungen hatte, der Angesicht Gottes bedeutet?",
+     "Penuël",
+     "Hebron",
+     "Gilgal"
+    ],
+    "it": [
+     "Quale nome diede Giacobbe al luogo dove lottò, che significa volto di Dio?",
+     "Penuel",
+     "Ebron",
+     "Gàlgala"
+    ],
+    "pl": [
+     "Jaką nazwę, oznaczającą oblicze Boga, nadał Jakub miejscu swojej walki?",
+     "Penuel",
+     "Hebron",
+     "Gilgal"
+    ],
+    "ru": [
+     "Какое имя, означающее лицо Божие, дал Иаков месту, где боролся?",
+     "Пенуэл",
+     "Хеврон",
+     "Галгал"
+    ],
+    "tr": [
+     "Yakup'un güreştiği yere verdiği, Tanrı'nın yüzü anlamına gelen ad neydi?",
+     "Peniel",
+     "Hebron",
+     "Gilgal"
+    ],
+    "ja": [
+     "ヤコブは格闘した場所に、神の顔を意味するどんな名をつけましたか？",
+     "ペヌエル",
+     "ヘブロン",
+     "ギルガル"
+    ],
+    "ko": [
+     "야곱은 씨름한 곳에 하느님의 얼굴이라는 뜻의 어떤 이름을 붙였습니까?",
+     "프누엘",
+     "헤브론",
+     "길갈"
+    ],
+    "ar": [
+     "ما الاسم الذي أطلقه يعقوب على المكان الذي صارع فيه، ومعناه وجه الله؟",
+     "فنوئيل",
+     "حبرون",
+     "الجلجال"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-017-79",
+   "book": "genesis",
+   "chapter": 32,
+   "difficulty": "hard",
+   "ref": "Genesis 32:6",
+   "text": {
+    "en": [
+     "Returning from Laban, Jacob heard Esau was coming with how many men?",
+     "400",
+     "200",
+     "600"
+    ],
+    "es": [
+     "Al volver de casa de Labán, ¿con cuántos hombres supo Jacob que venía Esaú?",
+     "400",
+     "200",
+     "600"
+    ],
+    "pt": [
+     "Ao voltar da casa de Labão, com quantos homens Jacó soube que Esaú vinha?",
+     "400",
+     "200",
+     "600"
+    ],
+    "fr": [
+     "Au retour de chez Laban, Jacob apprit qu'Ésaü venait avec combien d'hommes ?",
+     "400",
+     "200",
+     "600"
+    ],
+    "de": [
+     "Mit wie vielen Männern kam Esau Jakob entgegen, wie dieser auf dem Rückweg von Laban hörte?",
+     "400",
+     "200",
+     "600"
+    ],
+    "it": [
+     "Tornando da Làbano, Giacobbe seppe che Esaù veniva con quanti uomini?",
+     "400",
+     "200",
+     "600"
+    ],
+    "pl": [
+     "Wracając od Labana, Jakub usłyszał, że Ezaw nadciąga z iloma mężczyznami?",
+     "400",
+     "200",
+     "600"
+    ],
+    "ru": [
+     "Со сколькими людьми шёл Исав, как услышал Иаков, возвращаясь от Лавана?",
+     "400",
+     "200",
+     "600"
+    ],
+    "tr": [
+     "Yakup, Laban'dan dönerken Esav'ın kaç adamla geldiğini duydu?",
+     "400",
+     "200",
+     "600"
+    ],
+    "ja": [
+     "ラバンのもとから帰る途中、ヤコブはエサウが何人を連れて来ると聞きましたか？",
+     "400",
+     "200",
+     "600"
+    ],
+    "ko": [
+     "라반에게서 돌아오던 야곱은 에사오가 몇 명을 데리고 오고 있다는 말을 들었습니까?",
+     "400",
+     "200",
+     "600"
+    ],
+    "ar": [
+     "عند عودة يعقوب من عند لابان، سمع أن عيسو آتٍ ومعه كم رجلًا؟",
+     "400",
+     "200",
+     "600"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-017-80",
+   "book": "genesis",
+   "chapter": 32,
+   "difficulty": "impossible",
+   "ref": "Genesis 32:22",
+   "text": {
+    "en": [
+     "At which ford did Jacob send his family across before wrestling?",
+     "Jabbok",
+     "Arnon",
+     "Kishon"
+    ],
+    "es": [
+     "¿En qué vado hizo cruzar Jacob a su familia antes de luchar?",
+     "Yaboc",
+     "Arnón",
+     "Quisón"
+    ],
+    "pt": [
+     "Em que vau Jacó fez sua família atravessar antes da luta?",
+     "Jaboc",
+     "Arnon",
+     "Quison"
+    ],
+    "fr": [
+     "À quel gué Jacob fit-il passer sa famille avant le combat ?",
+     "Yabboq",
+     "Arnon",
+     "Cison"
+    ],
+    "de": [
+     "An welcher Furt ließ Jakob seine Familie vor dem Kampf hinüberziehen?",
+     "Jabbok",
+     "Arnon",
+     "Kischon"
+    ],
+    "it": [
+     "A quale guado Giacobbe fece passare la famiglia prima della lotta?",
+     "Iabbok",
+     "Arnon",
+     "Kison"
+    ],
+    "pl": [
+     "Który bród przekroczyła rodzina Jakuba przed jego walką?",
+     "Jabbok",
+     "Arnon",
+     "Kiszon"
+    ],
+    "ru": [
+     "Какой брод перешла семья Иакова перед его борьбой?",
+     "Иавок",
+     "Арнон",
+     "Киссон"
+    ],
+    "tr": [
+     "Yakup ailesini savaşmadan önce hangi geçitten geçirdi?",
+     "Yabbok",
+     "Arnon",
+     "Kison"
+    ],
+    "ja": [
+     "ヤコブは格闘の前に、家族をどの渡し場から渡らせましたか？",
+     "ヤボク",
+     "アルノン",
+     "キション"
+    ],
+    "ko": [
+     "야곱은 씨름하기 전에 가족을 어느 나루로 건너게 했습니까?",
+     "얍복",
+     "아르논",
+     "키손"
+    ],
+    "ar": [
+     "عند أي مخاضة أعبر يعقوب أسرته قبل الصراع؟",
+     "يبوق",
+     "أرنون",
+     "قيشون"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-017-81",
+   "book": "genesis",
+   "chapter": 33,
+   "difficulty": "easy",
+   "ref": "Genesis 33:4",
+   "text": {
+    "en": [
+     "Who ran to meet Jacob, embraced him and kissed him?",
+     "Esau",
+     "Laban",
+     "Isaac"
+    ],
+    "es": [
+     "¿Quién corrió al encuentro de Jacob, lo abrazó y lo besó?",
+     "Esaú",
+     "Labán",
+     "Isaac"
+    ],
+    "pt": [
+     "Quem correu ao encontro de Jacó, o abraçou e o beijou?",
+     "Esaú",
+     "Labão",
+     "Isaque"
+    ],
+    "fr": [
+     "Qui courut à la rencontre de Jacob, l'étreignit et l'embrassa ?",
+     "Ésaü",
+     "Laban",
+     "Isaac"
+    ],
+    "de": [
+     "Wer lief Jakob entgegen, umarmte und küsste ihn?",
+     "Esau",
+     "Laban",
+     "Isaak"
+    ],
+    "it": [
+     "Chi corse incontro a Giacobbe, lo abbracciò e lo baciò?",
+     "Esaù",
+     "Làbano",
+     "Isacco"
+    ],
+    "pl": [
+     "Kto pobiegł na spotkanie Jakuba, objął go i ucałował?",
+     "Ezaw",
+     "Laban",
+     "Izaak"
+    ],
+    "ru": [
+     "Кто побежал навстречу Иакову, обнял и поцеловал его?",
+     "Исав",
+     "Лаван",
+     "Исаак"
+    ],
+    "tr": [
+     "Yakup'u karşılamaya koşup ona sarılan ve onu öpen kimdi?",
+     "Esav",
+     "Laban",
+     "İshak"
+    ],
+    "ja": [
+     "ヤコブを迎えに走り、抱きしめて口づけしたのは誰ですか？",
+     "エサウ",
+     "ラバン",
+     "イサク"
+    ],
+    "ko": [
+     "야곱을 맞으러 달려와 껴안고 입 맞춘 사람은 누구입니까?",
+     "에사오",
+     "라반",
+     "이사악"
+    ],
+    "ar": [
+     "من ركض للقاء يعقوب وعانقه وقبّله؟",
+     "عيسو",
+     "لابان",
+     "إسحاق"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-017-82",
+   "book": "genesis",
+   "chapter": 33,
+   "difficulty": "medium",
+   "ref": "Genesis 33:20",
+   "text": {
+    "en": [
+     "After buying land, what did Jacob erect and call El-Elohe-Israel?",
+     "Altar",
+     "Tower",
+     "Temple"
+    ],
+    "es": [
+     "Tras comprar un terreno, ¿qué erigió Jacob y llamó El-Elohé-Israel?",
+     "Altar",
+     "Torre",
+     "Templo"
+    ],
+    "pt": [
+     "Depois de comprar terra, o que Jacó ergueu e chamou El-Elohe-Israel?",
+     "Altar",
+     "Torre",
+     "Templo"
+    ],
+    "fr": [
+     "Après avoir acheté un terrain, que Jacob érigea-t-il en l'appelant El-Élohé-Israël ?",
+     "Autel",
+     "Tour",
+     "Temple"
+    ],
+    "de": [
+     "Was errichtete Jakob nach dem Landkauf und nannte es El-Elohe-Israel?",
+     "Altar",
+     "Turm",
+     "Tempel"
+    ],
+    "it": [
+     "Dopo aver comprato terreno, che cosa eresse Giacobbe chiamandolo El-Elohe-Israele?",
+     "Altare",
+     "Torre",
+     "Tempio"
+    ],
+    "pl": [
+     "Co wzniósł Jakub po zakupie ziemi i nazwał El-Elohe-Israel?",
+     "Ołtarz",
+     "Wieża",
+     "Świątynia"
+    ],
+    "ru": [
+     "Что воздвиг Иаков после покупки земли и назвал Эл-Елохе-Израиль?",
+     "Жертвенник",
+     "Башня",
+     "Храм"
+    ],
+    "tr": [
+     "Yakup toprağı satın aldıktan sonra neyi kurup adını El-Elohe-İsrail koydu?",
+     "Sunak",
+     "Kule",
+     "Tapınak"
+    ],
+    "ja": [
+     "土地を買ったあと、ヤコブが築いて「エル・エロヘ・イスラエル」と呼んだものは何ですか？",
+     "祭壇",
+     "塔",
+     "神殿"
+    ],
+    "ko": [
+     "땅을 산 뒤 야곱이 세우고 '엘 엘로헤 이스라엘'이라고 부른 것은 무엇입니까?",
+     "제단",
+     "탑",
+     "성전"
+    ],
+    "ar": [
+     "بعد شراء الأرض، ماذا أقام يعقوب ودعاه إيل إلوهي إسرائيل؟",
+     "مذبح",
+     "برج",
+     "هيكل"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-017-83",
+   "book": "genesis",
+   "chapter": 33,
+   "difficulty": "hard",
+   "ref": "Genesis 33:18",
+   "text": {
+    "en": [
+     "Returning from Paddan-aram, at which city did Jacob camp safely?",
+     "Shechem",
+     "Hebron",
+     "Gerar"
+    ],
+    "es": [
+     "Al volver de Padán Aram, ¿en qué ciudad acampó Jacob sano y salvo?",
+     "Siquén",
+     "Hebrón",
+     "Guerar"
+    ],
+    "pt": [
+     "Ao voltar de Padã-Arã, em que cidade Jacó acampou em segurança?",
+     "Siquém",
+     "Hebron",
+     "Gerara"
+    ],
+    "fr": [
+     "À son retour de Paddân-Aram, dans quelle ville Jacob campa-t-il en sécurité ?",
+     "Sichem",
+     "Hébron",
+     "Guerar"
+    ],
+    "de": [
+     "Bei der Rückkehr aus Paddan-Aram: In welcher Stadt lagerte Jakob wohlbehalten?",
+     "Sichem",
+     "Hebron",
+     "Gerar"
+    ],
+    "it": [
+     "Tornando da Paddan-Aram, presso quale città si accampò Giacobbe sano e salvo?",
+     "Sichem",
+     "Ebron",
+     "Gerar"
+    ],
+    "pl": [
+     "Wracając z Paddan-Aram, w którym mieście Jakub bezpiecznie rozbił obóz?",
+     "Sychem",
+     "Hebron",
+     "Gerar"
+    ],
+    "ru": [
+     "Возвращаясь из Месопотамии, в каком городе Иаков благополучно расположился станом?",
+     "Сихем",
+     "Хеврон",
+     "Герар"
+    ],
+    "tr": [
+     "Yakup, Padan-Aram'dan dönerken hangi kentte sağ salim kamp kurdu?",
+     "Şekem",
+     "Hebron",
+     "Gerar"
+    ],
+    "ja": [
+     "パダン・アラムから戻るとき、ヤコブが無事に宿営した町はどこですか？",
+     "シケム",
+     "ヘブロン",
+     "ゲラル"
+    ],
+    "ko": [
+     "파딴 아람에서 돌아오던 야곱이 무사히 천막을 친 도성은 어디입니까?",
+     "스켐",
+     "헤브론",
+     "그라르"
+    ],
+    "ar": [
+     "عند عودته من فدان أرام، في أي مدينة نصب يعقوب خيمته سالمًا؟",
+     "شكيم",
+     "حبرون",
+     "جرار"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-017-84",
+   "book": "genesis",
+   "chapter": 33,
+   "difficulty": "expert",
+   "ref": "Genesis 33:19",
+   "text": {
+    "en": [
+     "Whose sons sold Jacob the land where he camped near Shechem?",
+     "Hamor",
+     "Ephron",
+     "Laban"
+    ],
+    "es": [
+     "¿Los hijos de quién vendieron a Jacob el terreno donde acampó cerca de Siquén?",
+     "Jamor",
+     "Efrón",
+     "Labán"
+    ],
+    "pt": [
+     "Os filhos de quem venderam a Jacó o terreno onde acampou perto de Siquém?",
+     "Hemor",
+     "Efron",
+     "Labão"
+    ],
+    "fr": [
+     "Les fils de qui vendirent à Jacob le terrain où il campa près de Sichem ?",
+     "Hamor",
+     "Éphron",
+     "Laban"
+    ],
+    "de": [
+     "Wessen Söhne verkauften Jakob das Land, auf dem er bei Sichem lagerte?",
+     "Hamor",
+     "Efron",
+     "Laban"
+    ],
+    "it": [
+     "I figli di chi vendettero a Giacobbe il terreno dove si accampò presso Sichem?",
+     "Camor",
+     "Efron",
+     "Làbano"
+    ],
+    "pl": [
+     "Czyi synowie sprzedali Jakubowi ziemię, na której rozbił obóz koło Sychem?",
+     "Chamor",
+     "Efron",
+     "Laban"
+    ],
+    "ru": [
+     "Чьи сыновья продали Иакову землю, на которой он разбил стан близ Сихема?",
+     "Еммор",
+     "Ефрон",
+     "Лаван"
+    ],
+    "tr": [
+     "Yakup'a Şekem yakınında konakladığı toprağı kimin oğulları sattı?",
+     "Hamor",
+     "Efron",
+     "Laban"
+    ],
+    "ja": [
+     "ヤコブがシケムの近くで宿営した土地を売ったのは、誰の息子たちですか？",
+     "ハモル",
+     "エフロン",
+     "ラバン"
+    ],
+    "ko": [
+     "야곱이 스켐 근처에 천막을 친 땅을 판 것은 누구의 아들들입니까?",
+     "하모르",
+     "에프론",
+     "라반"
+    ],
+    "ar": [
+     "أبناء مَن باعوا يعقوب الأرض التي نصب خيمته فيها قرب شكيم؟",
+     "حمور",
+     "عفرون",
+     "لابان"
+    ]
+   }
+  },
+  {
+   "id": "ch-genesis-017-85",
+   "book": "genesis",
+   "chapter": 33,
+   "difficulty": "impossible",
+   "ref": "Genesis 33:16",
+   "text": {
+    "en": [
+     "After meeting Jacob, Esau returned to which land?",
+     "Seir",
+     "Moab",
+     "Egypt"
+    ],
+    "es": [
+     "Tras encontrarse con Jacob, ¿a qué tierra volvió Esaú?",
+     "Seír",
+     "Moab",
+     "Egipto"
+    ],
+    "pt": [
+     "Depois de encontrar Jacó, para que terra Esaú voltou?",
+     "Seir",
+     "Moab",
+     "Egito"
+    ],
+    "fr": [
+     "Après avoir rencontré Jacob, vers quel pays Ésaü retourna-t-il ?",
+     "Séir",
+     "Moab",
+     "Égypte"
+    ],
+    "de": [
+     "In welches Land kehrte Esau nach der Begegnung mit Jakob zurück?",
+     "Seïr",
+     "Moab",
+     "Ägypten"
+    ],
+    "it": [
+     "Dopo aver incontrato Giacobbe, in quale terra tornò Esaù?",
+     "Seir",
+     "Moab",
+     "Egitto"
+    ],
+    "pl": [
+     "Do jakiej krainy wrócił Ezaw po spotkaniu z Jakubem?",
+     "Seir",
+     "Moab",
+     "Egipt"
+    ],
+    "ru": [
+     "В какую землю вернулся Исав после встречи с Иаковом?",
+     "Сеир",
+     "Моав",
+     "Египет"
+    ],
+    "tr": [
+     "Esav, Yakup'la karşılaştıktan sonra hangi diyara döndü?",
+     "Seir",
+     "Moav",
+     "Mısır"
+    ],
+    "ja": [
+     "ヤコブと会ったあと、エサウはどの地に帰りましたか？",
+     "セイル",
+     "モアブ",
+     "エジプト"
+    ],
+    "ko": [
+     "에사오는 야곱을 만난 뒤 어느 땅으로 돌아갔습니까?",
+     "세이르",
+     "모압",
+     "이집트"
+    ],
+    "ar": [
+     "إلى أي أرض عاد عيسو بعد لقائه يعقوب؟",
+     "سعير",
+     "موآب",
+     "مصر"
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,2000 @@
+[
+{
+"unit": "ch-genesis-001",
+"step": "write",
+"model": "sonnet",
+"status": "done"
+},
+{
+"unit": "ch-genesis-001",
+"step": "en",
+"model": "opus",
+"status": "done"
+},
+{
+"unit": "ch-genesis-001",
+"step": "tr",
+"model": "sonnet",
+"status": "done"
+},
+{
+"unit": "ch-genesis-017",
+"step": "write",
+"model": "sonnet",
+"status": "done"
+},
+{
+"unit": "ch-genesis-017",
+"step": "en",
+"model": "opus",
+"status": "done"
+},
+{
+"unit": "ch-genesis-017",
+"step": "tr",
+"model": "sonnet",
+"status": "done"
+},
+{
+"unit": "ch-genesis-034",
+"step": "write",
+"model": "sonnet",
+"status": "done"
+},
+{
+"unit": "ch-genesis-034",
+"step": "en",
+"model": "opus",
+"status": "done"
+},
+{
+"unit": "ch-genesis-034",
+"step": "tr",
+"model": "sonnet",
+"status": "done"
+},
+{
+"unit": "ch-exodus-001",
+"step": "write",
+"model": "sonnet",
+"status": "done"
+},
+{
+"unit": "ch-exodus-001",
+"step": "en",
+"model": "opus",
+"status": "done"
+},
+{
+"unit": "ch-exodus-001",
+"step": "tr",
+"model": "sonnet",
+"status": "done"
+},
+{
+"unit": "ch-exodus-021",
+"step": "write",
+"model": "sonnet",
+"status": "done"
+},
+{
+"unit": "ch-exodus-021",
+"step": "en",
+"model": "opus",
+"status": "done"
+},
+{
+"unit": "ch-exodus-021",
+"step": "tr",
+"model": "sonnet",
+"status": "done"
+},
+{
+"unit": "ch-leviticus-001",
+"step": "write",
+"model": "sonnet",
+"status": "done"
+},
+{
+"unit": "ch-leviticus-001",
+"step": "en",
+"model": "opus",
+"status": "done"
+},
+{
+"unit": "ch-leviticus-001",
+"step": "tr",
+"model": "sonnet",
+"status": "done"
+},
+{
+"unit": "ch-leviticus-014",
+"step": "write",
+"model": "sonnet",
+"status": "done"
+},
+{
+"unit": "ch-leviticus-014",
+"step": "en",
+"model": "opus",
+"status": "done"
+},
+{
+"unit": "ch-leviticus-014",
+"step": "tr",
+"model": "sonnet",
+"status": "done"
+},
+{
+"unit": "ch-numbers-001",
+"step": "write",
+"model": "sonnet",
+"status": "done"
+},
+{
+"unit": "ch-numbers-001",
+"step": "en",
+"model": "opus",
+"status": "done"
+},
+{
+"unit": "ch-numbers-001",
+"step": "tr",
+"model": "sonnet",
+"status": "done"
+},
+{
+"unit": "ch-numbers-019",
+"step": "write",
+"model": "sonnet",
+"status": "done"
+},
+{
+"unit": "ch-numbers-019",
+"step": "en",
+"model": "opus",
+"status": "done"
+},
+{
+"unit": "ch-numbers-019",
+"step": "tr",
+"model": "sonnet",
+"status": "done"
+},
+{
+"unit": "ch-deuteronomy-001",
+"step": "write",
+"model": "sonnet",
+"status": "done"
+},
+{
+"unit": "ch-deuteronomy-001",
+"step": "en",
+"model": "opus",
+"status": "done"
+},
+{
+"unit": "ch-deuteronomy-001",
+"step": "tr",
+"model": "sonnet",
+"status": "done"
+},
+{
+"unit": "ch-deuteronomy-018",
+"step": "write",
+"model": "sonnet",
+"status": "done"
+},
+{
+"unit": "ch-deuteronomy-018",
+"step": "en",
+"model": "opus",
+"status": "done"
+},
+{
+"unit": "ch-deuteronomy-018",
+"step": "tr",
+"model": "sonnet",
+"status": "done"
+},
+{
+"unit": "ch-joshua-001",
+"step": "write",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-joshua-001",
+"step": "en",
+"model": "opus",
+"status": "todo"
+},
+{
+"unit": "ch-joshua-001",
+"step": "tr",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-joshua-013",
+"step": "write",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-joshua-013",
+"step": "en",
+"model": "opus",
+"status": "todo"
+},
+{
+"unit": "ch-joshua-013",
+"step": "tr",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-judges-001",
+"step": "write",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-judges-001",
+"step": "en",
+"model": "opus",
+"status": "todo"
+},
+{
+"unit": "ch-judges-001",
+"step": "tr",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-judges-011",
+"step": "write",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-judges-011",
+"step": "en",
+"model": "opus",
+"status": "todo"
+},
+{
+"unit": "ch-judges-011",
+"step": "tr",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-ruth-001",
+"step": "write",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-ruth-001",
+"step": "en",
+"model": "opus",
+"status": "todo"
+},
+{
+"unit": "ch-ruth-001",
+"step": "tr",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-1-samuel-001",
+"step": "write",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-1-samuel-001",
+"step": "en",
+"model": "opus",
+"status": "todo"
+},
+{
+"unit": "ch-1-samuel-001",
+"step": "tr",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-1-samuel-016",
+"step": "write",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-1-samuel-016",
+"step": "en",
+"model": "opus",
+"status": "todo"
+},
+{
+"unit": "ch-1-samuel-016",
+"step": "tr",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-2-samuel-001",
+"step": "write",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-2-samuel-001",
+"step": "en",
+"model": "opus",
+"status": "todo"
+},
+{
+"unit": "ch-2-samuel-001",
+"step": "tr",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-2-samuel-013",
+"step": "write",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-2-samuel-013",
+"step": "en",
+"model": "opus",
+"status": "todo"
+},
+{
+"unit": "ch-2-samuel-013",
+"step": "tr",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-1-kings-001",
+"step": "write",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-1-kings-001",
+"step": "en",
+"model": "opus",
+"status": "todo"
+},
+{
+"unit": "ch-1-kings-001",
+"step": "tr",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-1-kings-012",
+"step": "write",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-1-kings-012",
+"step": "en",
+"model": "opus",
+"status": "todo"
+},
+{
+"unit": "ch-1-kings-012",
+"step": "tr",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-2-kings-001",
+"step": "write",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-2-kings-001",
+"step": "en",
+"model": "opus",
+"status": "todo"
+},
+{
+"unit": "ch-2-kings-001",
+"step": "tr",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-2-kings-013",
+"step": "write",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-2-kings-013",
+"step": "en",
+"model": "opus",
+"status": "todo"
+},
+{
+"unit": "ch-2-kings-013",
+"step": "tr",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-1-chronicles-001",
+"step": "write",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-1-chronicles-001",
+"step": "en",
+"model": "opus",
+"status": "todo"
+},
+{
+"unit": "ch-1-chronicles-001",
+"step": "tr",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-1-chronicles-015",
+"step": "write",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-1-chronicles-015",
+"step": "en",
+"model": "opus",
+"status": "todo"
+},
+{
+"unit": "ch-1-chronicles-015",
+"step": "tr",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-2-chronicles-001",
+"step": "write",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-2-chronicles-001",
+"step": "en",
+"model": "opus",
+"status": "todo"
+},
+{
+"unit": "ch-2-chronicles-001",
+"step": "tr",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-2-chronicles-019",
+"step": "write",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-2-chronicles-019",
+"step": "en",
+"model": "opus",
+"status": "todo"
+},
+{
+"unit": "ch-2-chronicles-019",
+"step": "tr",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-ezra-001",
+"step": "write",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-ezra-001",
+"step": "en",
+"model": "opus",
+"status": "todo"
+},
+{
+"unit": "ch-ezra-001",
+"step": "tr",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-nehemiah-001",
+"step": "write",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-nehemiah-001",
+"step": "en",
+"model": "opus",
+"status": "todo"
+},
+{
+"unit": "ch-nehemiah-001",
+"step": "tr",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-tobit-001",
+"step": "write",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-tobit-001",
+"step": "en",
+"model": "opus",
+"status": "todo"
+},
+{
+"unit": "ch-tobit-001",
+"step": "tr",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-judith-001",
+"step": "write",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-judith-001",
+"step": "en",
+"model": "opus",
+"status": "todo"
+},
+{
+"unit": "ch-judith-001",
+"step": "tr",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-esther-001",
+"step": "write",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-esther-001",
+"step": "en",
+"model": "opus",
+"status": "todo"
+},
+{
+"unit": "ch-esther-001",
+"step": "tr",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-1-maccabees-001",
+"step": "write",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-1-maccabees-001",
+"step": "en",
+"model": "opus",
+"status": "todo"
+},
+{
+"unit": "ch-1-maccabees-001",
+"step": "tr",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-2-maccabees-001",
+"step": "write",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-2-maccabees-001",
+"step": "en",
+"model": "opus",
+"status": "todo"
+},
+{
+"unit": "ch-2-maccabees-001",
+"step": "tr",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-job-001",
+"step": "write",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-job-001",
+"step": "en",
+"model": "opus",
+"status": "todo"
+},
+{
+"unit": "ch-job-001",
+"step": "tr",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-job-015",
+"step": "write",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-job-015",
+"step": "en",
+"model": "opus",
+"status": "todo"
+},
+{
+"unit": "ch-job-015",
+"step": "tr",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-job-029",
+"step": "write",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-job-029",
+"step": "en",
+"model": "opus",
+"status": "todo"
+},
+{
+"unit": "ch-job-029",
+"step": "tr",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-psalms-001",
+"step": "write",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-psalms-001",
+"step": "en",
+"model": "opus",
+"status": "todo"
+},
+{
+"unit": "ch-psalms-001",
+"step": "tr",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-psalms-019",
+"step": "write",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-psalms-019",
+"step": "en",
+"model": "opus",
+"status": "todo"
+},
+{
+"unit": "ch-psalms-019",
+"step": "tr",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-psalms-038",
+"step": "write",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-psalms-038",
+"step": "en",
+"model": "opus",
+"status": "todo"
+},
+{
+"unit": "ch-psalms-038",
+"step": "tr",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-psalms-057",
+"step": "write",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-psalms-057",
+"step": "en",
+"model": "opus",
+"status": "todo"
+},
+{
+"unit": "ch-psalms-057",
+"step": "tr",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-psalms-076",
+"step": "write",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-psalms-076",
+"step": "en",
+"model": "opus",
+"status": "todo"
+},
+{
+"unit": "ch-psalms-076",
+"step": "tr",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-psalms-094",
+"step": "write",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-psalms-094",
+"step": "en",
+"model": "opus",
+"status": "todo"
+},
+{
+"unit": "ch-psalms-094",
+"step": "tr",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-psalms-113",
+"step": "write",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-psalms-113",
+"step": "en",
+"model": "opus",
+"status": "todo"
+},
+{
+"unit": "ch-psalms-113",
+"step": "tr",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-psalms-132",
+"step": "write",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-psalms-132",
+"step": "en",
+"model": "opus",
+"status": "todo"
+},
+{
+"unit": "ch-psalms-132",
+"step": "tr",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-proverbs-001",
+"step": "write",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-proverbs-001",
+"step": "en",
+"model": "opus",
+"status": "todo"
+},
+{
+"unit": "ch-proverbs-001",
+"step": "tr",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-proverbs-016",
+"step": "write",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-proverbs-016",
+"step": "en",
+"model": "opus",
+"status": "todo"
+},
+{
+"unit": "ch-proverbs-016",
+"step": "tr",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-ecclesiastes-001",
+"step": "write",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-ecclesiastes-001",
+"step": "en",
+"model": "opus",
+"status": "todo"
+},
+{
+"unit": "ch-ecclesiastes-001",
+"step": "tr",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-song-of-songs-001",
+"step": "write",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-song-of-songs-001",
+"step": "en",
+"model": "opus",
+"status": "todo"
+},
+{
+"unit": "ch-song-of-songs-001",
+"step": "tr",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-wisdom-001",
+"step": "write",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-wisdom-001",
+"step": "en",
+"model": "opus",
+"status": "todo"
+},
+{
+"unit": "ch-wisdom-001",
+"step": "tr",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-sirach-001",
+"step": "write",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-sirach-001",
+"step": "en",
+"model": "opus",
+"status": "todo"
+},
+{
+"unit": "ch-sirach-001",
+"step": "tr",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-sirach-018",
+"step": "write",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-sirach-018",
+"step": "en",
+"model": "opus",
+"status": "todo"
+},
+{
+"unit": "ch-sirach-018",
+"step": "tr",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-sirach-035",
+"step": "write",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-sirach-035",
+"step": "en",
+"model": "opus",
+"status": "todo"
+},
+{
+"unit": "ch-sirach-035",
+"step": "tr",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-isaiah-001",
+"step": "write",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-isaiah-001",
+"step": "en",
+"model": "opus",
+"status": "todo"
+},
+{
+"unit": "ch-isaiah-001",
+"step": "tr",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-isaiah-017",
+"step": "write",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-isaiah-017",
+"step": "en",
+"model": "opus",
+"status": "todo"
+},
+{
+"unit": "ch-isaiah-017",
+"step": "tr",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-isaiah-034",
+"step": "write",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-isaiah-034",
+"step": "en",
+"model": "opus",
+"status": "todo"
+},
+{
+"unit": "ch-isaiah-034",
+"step": "tr",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-isaiah-050",
+"step": "write",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-isaiah-050",
+"step": "en",
+"model": "opus",
+"status": "todo"
+},
+{
+"unit": "ch-isaiah-050",
+"step": "tr",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-jeremiah-001",
+"step": "write",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-jeremiah-001",
+"step": "en",
+"model": "opus",
+"status": "todo"
+},
+{
+"unit": "ch-jeremiah-001",
+"step": "tr",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-jeremiah-018",
+"step": "write",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-jeremiah-018",
+"step": "en",
+"model": "opus",
+"status": "todo"
+},
+{
+"unit": "ch-jeremiah-018",
+"step": "tr",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-jeremiah-035",
+"step": "write",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-jeremiah-035",
+"step": "en",
+"model": "opus",
+"status": "todo"
+},
+{
+"unit": "ch-jeremiah-035",
+"step": "tr",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-lamentations-001",
+"step": "write",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-lamentations-001",
+"step": "en",
+"model": "opus",
+"status": "todo"
+},
+{
+"unit": "ch-lamentations-001",
+"step": "tr",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-baruch-001",
+"step": "write",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-baruch-001",
+"step": "en",
+"model": "opus",
+"status": "todo"
+},
+{
+"unit": "ch-baruch-001",
+"step": "tr",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-ezekiel-001",
+"step": "write",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-ezekiel-001",
+"step": "en",
+"model": "opus",
+"status": "todo"
+},
+{
+"unit": "ch-ezekiel-001",
+"step": "tr",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-ezekiel-017",
+"step": "write",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-ezekiel-017",
+"step": "en",
+"model": "opus",
+"status": "todo"
+},
+{
+"unit": "ch-ezekiel-017",
+"step": "tr",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-ezekiel-033",
+"step": "write",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-ezekiel-033",
+"step": "en",
+"model": "opus",
+"status": "todo"
+},
+{
+"unit": "ch-ezekiel-033",
+"step": "tr",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-daniel-001",
+"step": "write",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-daniel-001",
+"step": "en",
+"model": "opus",
+"status": "todo"
+},
+{
+"unit": "ch-daniel-001",
+"step": "tr",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-hosea-001",
+"step": "write",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-hosea-001",
+"step": "en",
+"model": "opus",
+"status": "todo"
+},
+{
+"unit": "ch-hosea-001",
+"step": "tr",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-joel-001",
+"step": "write",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-joel-001",
+"step": "en",
+"model": "opus",
+"status": "todo"
+},
+{
+"unit": "ch-joel-001",
+"step": "tr",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-amos-001",
+"step": "write",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-amos-001",
+"step": "en",
+"model": "opus",
+"status": "todo"
+},
+{
+"unit": "ch-amos-001",
+"step": "tr",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-obadiah-001",
+"step": "write",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-obadiah-001",
+"step": "en",
+"model": "opus",
+"status": "todo"
+},
+{
+"unit": "ch-obadiah-001",
+"step": "tr",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-jonah-001",
+"step": "write",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-jonah-001",
+"step": "en",
+"model": "opus",
+"status": "todo"
+},
+{
+"unit": "ch-jonah-001",
+"step": "tr",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-micah-001",
+"step": "write",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-micah-001",
+"step": "en",
+"model": "opus",
+"status": "todo"
+},
+{
+"unit": "ch-micah-001",
+"step": "tr",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-nahum-001",
+"step": "write",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-nahum-001",
+"step": "en",
+"model": "opus",
+"status": "todo"
+},
+{
+"unit": "ch-nahum-001",
+"step": "tr",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-habakkuk-001",
+"step": "write",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-habakkuk-001",
+"step": "en",
+"model": "opus",
+"status": "todo"
+},
+{
+"unit": "ch-habakkuk-001",
+"step": "tr",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-zephaniah-001",
+"step": "write",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-zephaniah-001",
+"step": "en",
+"model": "opus",
+"status": "todo"
+},
+{
+"unit": "ch-zephaniah-001",
+"step": "tr",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-haggai-001",
+"step": "write",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-haggai-001",
+"step": "en",
+"model": "opus",
+"status": "todo"
+},
+{
+"unit": "ch-haggai-001",
+"step": "tr",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-zechariah-001",
+"step": "write",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-zechariah-001",
+"step": "en",
+"model": "opus",
+"status": "todo"
+},
+{
+"unit": "ch-zechariah-001",
+"step": "tr",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-malachi-001",
+"step": "write",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-malachi-001",
+"step": "en",
+"model": "opus",
+"status": "todo"
+},
+{
+"unit": "ch-malachi-001",
+"step": "tr",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-matthew-001",
+"step": "write",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-matthew-001",
+"step": "en",
+"model": "opus",
+"status": "todo"
+},
+{
+"unit": "ch-matthew-001",
+"step": "tr",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-matthew-015",
+"step": "write",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-matthew-015",
+"step": "en",
+"model": "opus",
+"status": "todo"
+},
+{
+"unit": "ch-matthew-015",
+"step": "tr",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-mark-001",
+"step": "write",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-mark-001",
+"step": "en",
+"model": "opus",
+"status": "todo"
+},
+{
+"unit": "ch-mark-001",
+"step": "tr",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-luke-001",
+"step": "write",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-luke-001",
+"step": "en",
+"model": "opus",
+"status": "todo"
+},
+{
+"unit": "ch-luke-001",
+"step": "tr",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-luke-013",
+"step": "write",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-luke-013",
+"step": "en",
+"model": "opus",
+"status": "todo"
+},
+{
+"unit": "ch-luke-013",
+"step": "tr",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-john-001",
+"step": "write",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-john-001",
+"step": "en",
+"model": "opus",
+"status": "todo"
+},
+{
+"unit": "ch-john-001",
+"step": "tr",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-john-011",
+"step": "write",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-john-011",
+"step": "en",
+"model": "opus",
+"status": "todo"
+},
+{
+"unit": "ch-john-011",
+"step": "tr",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-acts-001",
+"step": "write",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-acts-001",
+"step": "en",
+"model": "opus",
+"status": "todo"
+},
+{
+"unit": "ch-acts-001",
+"step": "tr",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-acts-015",
+"step": "write",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-acts-015",
+"step": "en",
+"model": "opus",
+"status": "todo"
+},
+{
+"unit": "ch-acts-015",
+"step": "tr",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-romans-001",
+"step": "write",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-romans-001",
+"step": "en",
+"model": "opus",
+"status": "todo"
+},
+{
+"unit": "ch-romans-001",
+"step": "tr",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-1-corinthians-001",
+"step": "write",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-1-corinthians-001",
+"step": "en",
+"model": "opus",
+"status": "todo"
+},
+{
+"unit": "ch-1-corinthians-001",
+"step": "tr",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-2-corinthians-001",
+"step": "write",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-2-corinthians-001",
+"step": "en",
+"model": "opus",
+"status": "todo"
+},
+{
+"unit": "ch-2-corinthians-001",
+"step": "tr",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-galatians-001",
+"step": "write",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-galatians-001",
+"step": "en",
+"model": "opus",
+"status": "todo"
+},
+{
+"unit": "ch-galatians-001",
+"step": "tr",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-ephesians-001",
+"step": "write",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-ephesians-001",
+"step": "en",
+"model": "opus",
+"status": "todo"
+},
+{
+"unit": "ch-ephesians-001",
+"step": "tr",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-philippians-001",
+"step": "write",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-philippians-001",
+"step": "en",
+"model": "opus",
+"status": "todo"
+},
+{
+"unit": "ch-philippians-001",
+"step": "tr",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-colossians-001",
+"step": "write",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-colossians-001",
+"step": "en",
+"model": "opus",
+"status": "todo"
+},
+{
+"unit": "ch-colossians-001",
+"step": "tr",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-1-thessalonians-001",
+"step": "write",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-1-thessalonians-001",
+"step": "en",
+"model": "opus",
+"status": "todo"
+},
+{
+"unit": "ch-1-thessalonians-001",
+"step": "tr",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-2-thessalonians-001",
+"step": "write",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-2-thessalonians-001",
+"step": "en",
+"model": "opus",
+"status": "todo"
+},
+{
+"unit": "ch-2-thessalonians-001",
+"step": "tr",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-1-timothy-001",
+"step": "write",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-1-timothy-001",
+"step": "en",
+"model": "opus",
+"status": "todo"
+},
+{
+"unit": "ch-1-timothy-001",
+"step": "tr",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-2-timothy-001",
+"step": "write",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-2-timothy-001",
+"step": "en",
+"model": "opus",
+"status": "todo"
+},
+{
+"unit": "ch-2-timothy-001",
+"step": "tr",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-titus-001",
+"step": "write",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-titus-001",
+"step": "en",
+"model": "opus",
+"status": "todo"
+},
+{
+"unit": "ch-titus-001",
+"step": "tr",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-philemon-001",
+"step": "write",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-philemon-001",
+"step": "en",
+"model": "opus",
+"status": "todo"
+},
+{
+"unit": "ch-philemon-001",
+"step": "tr",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-hebrews-001",
+"step": "write",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-hebrews-001",
+"step": "en",
+"model": "opus",
+"status": "todo"
+},
+{
+"unit": "ch-hebrews-001",
+"step": "tr",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-james-001",
+"step": "write",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-james-001",
+"step": "en",
+"model": "opus",
+"status": "todo"
+},
+{
+"unit": "ch-james-001",
+"step": "tr",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-1-peter-001",
+"step": "write",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-1-peter-001",
+"step": "en",
+"model": "opus",
+"status": "todo"
+},
+{
+"unit": "ch-1-peter-001",
+"step": "tr",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-2-peter-001",
+"step": "write",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-2-peter-001",
+"step": "en",
+"model": "opus",
+"status": "todo"
+},
+{
+"unit": "ch-2-peter-001",
+"step": "tr",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-1-john-001",
+"step": "write",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-1-john-001",
+"step": "en",
+"model": "opus",
+"status": "todo"
+},
+{
+"unit": "ch-1-john-001",
+"step": "tr",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-2-john-001",
+"step": "write",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-2-john-001",
+"step": "en",
+"model": "opus",
+"status": "todo"
+},
+{
+"unit": "ch-2-john-001",
+"step": "tr",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-3-john-001",
+"step": "write",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-3-john-001",
+"step": "en",
+"model": "opus",
+"status": "todo"
+},
+{
+"unit": "ch-3-john-001",
+"step": "tr",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-jude-001",
+"step": "write",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-jude-001",
+"step": "en",
+"model": "opus",
+"status": "todo"
+},
+{
+"unit": "ch-jude-001",
+"step": "tr",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-revelation-001",
+"step": "write",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-revelation-001",
+"step": "en",
+"model": "opus",
+"status": "todo"
+},
+{
+"unit": "ch-revelation-001",
+"step": "tr",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-revelation-012",
+"step": "write",
+"model": "sonnet",
+"status": "todo"
+},
+{
+"unit": "ch-revelation-012",
+"step": "en",
+"model": "opus",
+"status": "todo"
+},
+{
+"unit": "ch-revelation-012",
+"step": "tr",
+"model": "sonnet",
+"status": "todo"
+}
+]

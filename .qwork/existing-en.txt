@@ -1,0 +1,1327 @@
+easy_001 | Who received the Holy Spirit at Pentecost? | Disciples
+easy_002 | What appeared at Pentecost? | Tongues
+easy_003 | Who preached the first sermon? | Peter
+easy_004 | What happened to Jesus’ followers? | Spread
+easy_005 | Who was healed at the temple gate? | Lame
+easy_006 | Where did believers first gather? | Jerusalem
+easy_007 | Who approved Stephen’s death? | Saul
+easy_008 | What was the early message? | Jesus
+easy_009 | Who baptized the Ethiopian eunuch? | Philip
+easy_010 | Where was Jesus buried? | Joseph
+easy_011 | On what day did Jesus rise? | Third
+easy_012 | Who found the empty tomb? | Women
+easy_013 | What was found in the tomb? | Nothing
+easy_014 | Who appeared to the disciples? | Jesus
+easy_015 | Where did Jesus appear on the road? | Emmaus
+easy_016 | Who doubted Jesus' resurrection? | Thomas
+easy_017 | What did Jesus do after rising? | Ate
+easy_018 | What did Jesus give his followers? | Mission
+easy_019 | Where did Jesus go at the end? | Heaven
+easy_020 | Who judged Jesus first? | Caiaphas
+easy_021 | Who was Roman governor? | Pilate
+easy_022 | What punishment did Jesus receive? | Whipping
+easy_023 | What did Jesus carry? | Cross
+easy_024 | Where was Jesus crucified? | Golgotha
+easy_025 | What was placed on Jesus’ head? | Crown
+easy_026 | What happened at crucifixion? | Died
+easy_027 | What tore at Jesus’ death? | Temple
+easy_028 | Who mocked Jesus? | Soldiers
+easy_029 | What was Jesus nailed to? | Cross
+easy_030 | What meal was prepared before Jesus' death? | Passover
+easy_031 | Who ate the Last Supper with Jesus? | Disciples
+easy_032 | What did Jesus wash? | Feet
+easy_033 | Who betrayed Jesus? | Judas
+easy_034 | Where did Jesus pray? | Gethsemane
+easy_035 | What happened to Jesus? | Arrested
+easy_036 | What cup did Jesus share? | Wine
+easy_037 | What bread did Jesus break? | Unleavened
+easy_038 | Who left to betray Jesus? | Judas
+easy_039 | What garden did Jesus pray in? | Gethsemane
+easy_040 | Who often argued with Jesus? | Pharisees
+easy_041 | On what day did Jesus heal people in conflict stories? | Sabbath
+easy_042 | Who was raised from the dead? | Lazarus
+easy_043 | Who planned to arrest Jesus? | Religious
+easy_044 | Where did Jesus enter triumphantly? | Jerusalem
+easy_045 | What did people wave on Palm Sunday? | Palm
+easy_046 | What did Jesus clean? | Temple
+easy_047 | Where did Jesus teach final lessons? | Temple
+easy_048 | What city is warned in prophecy? | Jerusalem
+easy_049 | Who was angry with Jesus’ actions? | Religious
+easy_050 | Who helped the injured man in the parable? | Good
+easy_051 | Who was justified in prayer? | Tax
+easy_052 | What did the builder construct? | Tower
+easy_053 | What did the king prepare for? | War
+easy_054 | How many sons are in the parable? | Two
+easy_055 | What did the master give? | Talents
+easy_056 | Who waited for the master? | Faithful
+easy_057 | Who asked for bread at night? | Friend
+easy_058 | What tree did not bear fruit? | Fig
+easy_059 | Who was persistent in prayer? | Widow
+easy_060 | What did the father forgive in the prodigal son? | Son
+easy_061 | What was lost in the lost sheep? | One
+easy_062 | What was lost in the lost coin? | Coin
+easy_063 | Who showed mercy in the parable? | Father
+easy_064 | What grows with wheat? | Weeds
+easy_065 | What did workers receive in the vineyard? | Wages
+easy_066 | What did ten virgins wait for? | Bridegroom
+easy_067 | What was the rich fool focused on? | Wealth
+easy_068 | Who was at the rich man's gate? | Lazarus
+easy_069 | What did the shepherd do for one lost sheep? | Searched
+easy_070 | What did the farmer sow in the parable? | Seed
+easy_071 | What grows from a mustard seed? | Large
+easy_072 | What did Jesus compare the Kingdom to? | Seed
+easy_073 | What does yeast do in dough? | Rise
+easy_074 | Where was the treasure found? | Field
+easy_075 | What was found of great value? | Pearl
+easy_076 | What gathers fish in the parable? | Net
+easy_077 | Who told the parables? | Jesus
+easy_078 | What did the seed fall on? | Different
+easy_079 | What does the Kingdom grow like? | Seed
+easy_080 | Where did Jesus give the Sermon on the Mount? | Mountain
+easy_081 | Who taught the Beatitudes? | Jesus
+easy_082 | Blessed are the poor in spirit, for theirs is the… | Kingdom
+easy_083 | Blessed are those who mourn, they will be… | Comforted
+easy_084 | Blessed are the meek, they will inherit the… | Earth
+easy_085 | What is the Sermon about? | Kingdom
+easy_086 | Who are blessed according to Jesus? | Humble
+easy_087 | What did Jesus teach on the mountain? | Blessings
+easy_088 | Blessed are the pure in heart, they will… | See
+easy_089 | Where did Jesus enter triumphantly? | Jerusalem
+easy_090 | What did people wave on Palm Sunday? | Palm
+easy_091 | What did Jesus clean? | Temple
+easy_092 | Where did Jesus teach final lessons? | Temple
+easy_093 | What city is warned in prophecy? | Jerusalem
+easy_094 | Who was angry with Jesus’ actions? | Religious
+easy_095 | Who helped the injured man in the parable? | Good
+easy_096 | Which collector was justified in prayer? | Tax
+easy_097 | What did the builder construct? | Tower
+easy_098 | What did the king prepare for? | War
+easy_099 | How many sons are in the parable? | Two
+easy_100 | What did the master give? | Talents
+easy_101 | Who waited for the master? | Faithful
+easy_102 | Who asked for bread at night? | Friend
+easy_103 | What tree did not bear fruit? | Fig
+easy_104 | Who was persistent in prayer? | Widow
+easy_105 | What did the father forgive in the prodigal son? | Son
+easy_106 | What was lost in the lost sheep? | One
+easy_107 | What was lost in the lost coin? | Coin
+easy_108 | Who showed mercy in the parable? | Father
+easy_109 | What grows with wheat? | Weeds
+easy_110 | What did workers receive in the vineyard? | Wages
+easy_111 | What did ten virgins wait for? | Bridegroom
+easy_112 | What was the rich fool focused on? | Wealth
+easy_113 | What did the father forgive in the prodigal son? | Son
+easy_114 | What was lost in the lost sheep? | One
+easy_115 | What was lost in the lost coin? | Coin
+easy_116 | Who showed mercy in the parable? | Father
+easy_117 | What grows with wheat? | Weeds
+easy_118 | What did workers receive in the vineyard? | Wages
+easy_119 | What did ten virgins wait for? | Bridegroom
+easy_120 | What was the rich fool focused on? | Wealth
+easy_121 | Where was the treasure found? | Field
+easy_122 | What was found of great value? | Pearl
+easy_123 | What gathers fish in the parable? | Net
+easy_124 | Who told the parables? | Jesus
+easy_125 | The seed in the parable fell on what kind of ground? | Various
+easy_126 | What does the Kingdom grow like? | Seed
+easy_127 | Where did Jesus give the Sermon on the Mount? | Mountain
+easy_128 | Who taught the Beatitudes? | Jesus
+easy_129 | Blessed are the poor in spirit, for theirs is the… | Kingdom
+easy_130 | Blessed are those who mourn, they will be… | Comforted
+easy_131 | Blessed are the meek, they will inherit the… | Earth
+easy_132 | What is the Sermon about? | Kingdom
+easy_133 | Who are blessed according to Jesus? | Humble
+easy_134 | What did Jesus teach on the mountain? | Blessings
+easy_135 | Blessed are the pure in heart, for they shall see...? | God
+easy_136 | What did Jesus announce in Beatitudes? | Happiness
+easy_137 | What did Jesus turn water into at Cana? | Wine
+easy_138 | Where did the wedding take place? | Cana
+easy_139 | What did Jesus teach to pray? | Lord
+easy_140 | What did Jesus do in the temple? | Cleansed
+easy_141 | Who became a disciple from tax collecting? | Matthew
+easy_142 | What did Jesus heal? | Sick
+easy_143 | What did Jesus cast out? | Demons
+easy_144 | What did Jesus use at Cana? | Water
+easy_145 | Who invited Jesus to the wedding? | Mary
+easy_146 | What did Matthew collect? | Taxes
+easy_147 | Where did Jesus grow up? | Nazareth
+easy_148 | At what age did Jesus go to the temple? | 12
+easy_149 | Who baptized Jesus? | John
+easy_150 | In which river was Jesus baptized? | Jordan
+easy_151 | Who prepared the way for Jesus? | John
+easy_152 | Where did Jesus live in his youth? | Nazareth
+easy_153 | Who called Jesus' first disciples? | Jesus
+easy_154 | How many days was Jesus in the desert? | 40
+easy_155 | Who tempted Jesus? | Devil
+easy_156 | What did John preach? | Repentance
+easy_157 | Who was Jesus' mother? | Mary
+easy_158 | Who announced Jesus' birth to Mary? | Angel
+easy_159 | Where was Jesus born? | Bethlehem
+easy_160 | Who visited Mary? | Elizabeth
+easy_161 | Who was born before Jesus to prepare the way? | John
+easy_162 | Who was Jesus' earthly father? | Joseph
+easy_163 | What did the shepherds see? | Angels
+easy_164 | Who followed a star? | Wise
+easy_165 | What city did Mary travel to for census? | Bethlehem
+easy_166 | Who ruled when Jesus was born? | Herod
+easy_167 | Who is known for great patience in suffering? | Job
+easy_168 | Who wrote many Psalms? | David
+easy_169 | Who wrote most Proverbs? | Solomon
+easy_170 | What book is full of songs and prayers? | Psalms
+easy_171 | What book is about wisdom sayings? | Proverbs
+easy_172 | Who questioned the meaning of life? | Solomon
+easy_173 | What book is about love poetry? | Song
+easy_174 | What did Job lose first in his trials? | Livestock
+easy_175 | What is Psalms mainly used for? | Worship
+easy_176 | What does Proverbs teach? | Wisdom
+easy_178 | Who led the first return to rebuild the Temple? | Zerubbabel
+easy_179 | What city was rebuilt? | Jerusalem
+easy_180 | Who rebuilt the walls of Jerusalem? | Nehemiah
+easy_181 | Who was queen in Persia? | Esther
+easy_182 | What did Ezra restore to the people? | Law
+easy_183 | What was rebuilt in Jerusalem? | Temple
+easy_184 | Where did Nehemiah work before returning? | Persia
+easy_185 | Who saved the Jewish people in Persia? | Esther
+easy_186 | What did Ezra teach? | Law
+easy_187 | What was Nehemiah’s main mission? | Rebuild
+easy_188 | Who conquered the northern kingdom of Israel? | Assyria
+easy_189 | What happened to Israel (north)? | Exile
+easy_190 | Who destroyed Jerusalem? | Babylon
+easy_191 | What city was destroyed in Judah? | Jerusalem
+easy_192 | Where were the Jews taken? | Babylon
+easy_193 | Who was Daniel? | Prophet
+easy_194 | Who were Daniel's friends? | Shadrach
+easy_195 | What empire took Judah captive? | Babylon
+easy_196 | What food did Daniel refuse to eat? | Meat
+easy_197 | Who called fire from heaven? | Elijah
+easy_198 | Who succeeded Elijah? | Elisha
+easy_199 | Who was a prophet in a whirlwind departure story? | Elijah
+easy_200 | Who healed Naaman? | Elisha
+easy_201 | Who was a shepherd prophet from Tekoa? | Amos
+easy_202 | Who spoke about God's love for Israel despite sin? | Hosea
+easy_203 | Who prophesied about the coming Messiah? | Isaiah
+easy_204 | Who warned about justice rolling like a river? | Amos
+easy_205 | Who walked with kings as a major prophet in Judah? | Isaiah
+easy_206 | Who rebuked Israel for injustice and corruption? | Micah
+easy_207 | Who was David's son who became king? | Solomon
+easy_208 | What was Solomon famous for? | Wisdom
+easy_209 | What did Solomon build? | Temple
+easy_210 | Who asked God for wisdom? | Solomon
+easy_211 | Where was the Temple built? | Jerusalem
+easy_212 | Who was Solomon's father? | David
+easy_213 | What did God give Solomon besides wisdom? | Riches
+easy_214 | Who was the first king of Israel? | Saul
+easy_215 | Who defeated Goliath? | David
+easy_216 | What did David use against Goliath? | Sling
+easy_217 | Who was Saul jealous of? | David
+easy_218 | What was David's job as a boy? | Shepherd
+easy_219 | Who anointed David king? | Samuel
+easy_220 | What giant did David fight? | Goliath
+easy_221 | Who was Saul's son and David's friend? | Jonathan
+easy_222 | What instrument did David play? | Harp
+easy_223 | What did Saul try to throw at David? | Spear
+easy_224 | Who was a prophetess and judge in Israel? | Deborah
+easy_225 | Who defeated Midian with 300 men? | Gideon
+easy_226 | Who had super strength? | Samson
+easy_227 | Who was Ruth loyal to? | Naomi
+easy_228 | Who was the last judge and prophet? | Samuel
+easy_229 | Who fought with a tent peg? | Jael
+easy_230 | What weapon did Gideon use at first? | Trumpets
+easy_231 | Who was Samson's enemy people? | Philistines
+easy_232 | Where did Ruth go with Naomi? | Bethlehem
+easy_233 | Who heard God as a child? | Samuel
+easy_234 | Who was Moses' mother? | Jochebed
+easy_235 | Who raised Moses in Egypt? | Princess
+easy_236 | Where was Moses found as a baby? | Nile
+easy_237 | Who spoke to Moses from the burning bush? | God
+easy_238 | What sign did God show Moses? | Fire
+easy_239 | Where did Moses grow up? | Egypt
+easy_240 | Who was Moses' brother? | Aaron
+easy_241 | What people did Moses lead? | Israelites
+easy_242 | What was Moses' mission? | Free
+easy_243 | Who ruled Egypt? | Pharaoh
+easy_244 | Who was Joseph's father? | Jacob
+easy_245 | Who was Joseph's father also called? | Israel
+easy_246 | How many brothers did Joseph have? | Eleven
+easy_247 | What did Joseph receive from his father? | Special
+easy_248 | Who was jealous of Joseph? | Brothers
+easy_249 | Where was Joseph sold? | Egypt
+easy_250 | Who bought Joseph? | Merchants
+easy_251 | What gift did Joseph have? | Dream
+easy_252 | Where did Joseph live in Egypt? | House
+easy_253 | What did Joseph become in Egypt? | Servant
+easy_254 | Who was Jacob's father? | Isaac
+easy_255 | Who was Jacob's grandfather? | Abraham
+easy_256 | How many sons did Jacob have? | Twelve
+easy_257 | What was Jacob also called? | Israel
+easy_258 | Who was Jacob's father-in-law? | Laban
+easy_259 | Who was Jacob's favorite son? | Joseph
+easy_260 | What did Jacob dream about? | Stairway
+easy_261 | Who was Jacob's brother? | Esau
+easy_262 | Where did Jacob wrestle with God? | River
+easy_263 | What was Jacob's wife Rachel's relation? | Wife
+easy_264 | Who was chosen by God to leave his land? | Abraham
+easy_265 | What was Abraham's wife's name? | Sarah
+easy_266 | Who was Lot related to? | Abraham
+easy_267 | What did God promise Abraham? | Great
+easy_268 | Where did Abraham travel to? | Canaan
+easy_269 | Who left Sodom before destruction? | Lot
+easy_270 | Who laughed at God's promise of a child? | Sarah
+easy_271 | What did Abraham become? | Father
+easy_272 | What did God ask Abraham to leave? | Land
+easy_273 | Who lived in the plains of Jordan? | Lot
+easy_274 | Who created everything? | God
+easy_275 | Who was the first man? | Adam
+easy_276 | Who was the first woman? | Eve
+easy_277 | Who was Adam's wife? | Eve
+easy_278 | Where did Adam live? | Eden
+easy_279 | Who had two sons named Cain and Abel? | Adam
+easy_280 | Who killed Abel? | Cain
+easy_281 | Who was Abel's brother? | Cain
+easy_282 | Who was born after Abel died? | Set
+easy_283 | What did God create first? | Light
+easy_284 | Who built the ark? | Noah
+easy_285 | What did God send to the Earth? | Flood
+easy_286 | Who survived the flood? | Noah
+easy_287 | What did Noah build? | Ark
+easy_288 | What covered the Earth? | Water
+easy_289 | What did people try to build in Babel? | Tower
+easy_290 | Why did God confuse languages? | Pride
+easy_291 | What was the sign of God's promise? | Rainbow
+easy_292 | Where did the ark land? | Mountains
+easy_293 | What did people speak before Babel? | One
+medium_001 | What does Hebrews emphasize? | Ultimate
+medium_002 | What does James focus on? | Faith
+medium_003 | What do Peter’s letters address? | Suffering
+medium_004 | What is 1 John theme? | Love
+medium_005 | What is Jude warning against? | False
+medium_006 | What are Revelation seals? | Stages
+medium_007 | What are trumpets in Revelation? | Warnings
+medium_008 | What is Babylon symbol of? | Evil
+medium_009 | What does New Jerusalem represent? | Restored
+medium_010 | What is final victory? | Christ
+medium_011 | What is Romans central message? | Justification
+medium_012 | What problem existed in Corinth? | Division
+medium_013 | What does Galatians reject? | Legalism
+medium_014 | What is Ephesians main idea? | Unity
+medium_015 | What is Philippians written in? | Prison
+medium_016 | What does Colossians declare? | Christ
+medium_017 | What do Thessalonians explain? | Return
+medium_018 | What is 1 Timothy about? | Church
+medium_019 | What is Titus responsible for? | Church
+medium_020 | What is Philemon about? | Forgiveness
+medium_021 | What happened at Pentecost? | Holy
+medium_022 | What did Peter heal? | Lame
+medium_023 | What was Stephen known for? | First
+medium_024 | Who approved Stephen’s death? | Saul
+medium_025 | What happened to Saul on the road? | Encounter
+medium_026 | What did Saul become? | Paul
+medium_027 | Where did the gospel first spread widely? | Antioch
+medium_028 | What did apostles face? | Persecution
+medium_029 | What guided early church? | Holy
+medium_030 | What did believers do daily? | Preach
+medium_031 | Who buried Jesus? | Joseph
+medium_032 | What was rolled away from the tomb? | Stone
+medium_033 | What did angels announce? | Risen
+medium_034 | What did women do at tomb? | Went
+medium_035 | What did disciples on Emmaus experience? | Recognized
+medium_036 | What did Thomas need? | Proof
+medium_037 | What changed after resurrection? | Fear
+medium_038 | What did Jesus show disciples? | Wounds
+medium_039 | What is Great Commission? | Go
+medium_040 | What marks ascension? | Ascension
+medium_041 | What was Caiaphas’ role? | High
+medium_042 | Why was Jesus brought to Pilate? | Roman
+medium_043 | What does flogging represent? | Severe
+medium_044 | What is Via Dolorosa? | Way
+medium_045 | What does Golgotha mean? | Place
+medium_046 | What does crucifixion symbolize? | Shame
+medium_047 | What did Jesus say on the cross? | Forgiveness
+medium_048 | What happened when Jesus died? | Veil
+medium_049 | What was Pilate’s verdict? | Allowed
+medium_050 | What marks this phase? | Fulfillment
+medium_051 | What does Passover represent? | Deliverance
+medium_052 | What did Jesus do at the table? | Instituted
+medium_053 | What does foot washing symbolize? | Humility
+medium_054 | What did Jesus announce? | Betrayal
+medium_055 | What did Judas receive? | Silver
+medium_056 | What is Gethsemane scene about? | Agony
+medium_057 | What did disciples do in Gethsemane? | Fell
+medium_058 | What did Jesus accept? | God
+medium_059 | Who arrived to arrest Jesus? | Soldiers
+medium_060 | What marks this phase? | Imminent
+medium_061 | Why did Pharisees oppose Jesus? | Challenged
+medium_062 | What did Jesus do on Sabbath? | Healed
+medium_063 | What did Lazarus resurrection show? | Power
+medium_064 | What triggered conspiracy? | Growing
+medium_065 | What is last journey about? | Fulfillment
+medium_066 | What does Palm Sunday represent? | Messianic
+medium_067 | Why did Jesus cleanse the temple? | Corrupt
+medium_068 | What did Jesus teach in the temple? | Final
+medium_069 | What prophecy was given? | Destruction
+medium_070 | What increased during this phase? | Opposition
+medium_071 | What does the Good Samaritan represent? | Love
+medium_072 | Who was humble before God? | Tax
+medium_073 | What does the tower represent? | Counting
+medium_074 | What does the king represent? | Judgment
+medium_075 | What do the two sons show? | Obedience
+medium_076 | What do talents represent? | Responsibility
+medium_077 | What does the faithful servant do? | Watches
+medium_078 | What does the midnight friend show? | Persistent
+medium_079 | What does fig tree represent? | Spiritual
+medium_080 | What does judge and widow show? | Persistence
+medium_081 | What does the prodigal son represent? | Repentance
+medium_082 | What does the lost sheep show? | God
+medium_083 | What does the lost coin show? | Value
+medium_084 | What does unforgiving servant teach? | Forgive
+medium_085 | What happens to weeds and wheat? | Separated
+medium_086 | What do vineyard workers represent? | God
+medium_087 | What is oil in virgins’ lamps? | Preparedness
+medium_088 | What was rich fool’s mistake? | Ignoring
+medium_089 | What was Lazarus condition? | Poor
+medium_090 | What is common theme? | Response
+medium_091 | What does the seed represent? | God
+medium_092 | What happens to mustard seed? | Grows
+medium_093 | What does yeast symbolize? | Hidden
+medium_094 | What does treasure represent? | Kingdom
+medium_095 | What does pearl represent? | Greatest
+medium_096 | What does net represent? | Final
+medium_097 | What do different soils represent? | Human
+medium_098 | What happens to seed on good soil? | Grows
+medium_099 | What do parables reveal? | Kingdom
+medium_100 | What is common in parables? | Hidden
+medium_101 | What does 'poor in spirit' mean? | Humility
+medium_102 | What does mourning lead to? | Comfort
+medium_103 | What does meekness mean? | Gentle
+medium_104 | What do Beatitudes describe? | Kingdom
+medium_105 | What does hunger for righteousness mean? | Desire
+medium_106 | What is mercy rewarded with? | Mercy
+medium_107 | What do pure in heart see? | God
+medium_108 | Who are peacemakers? | Children
+medium_109 | What is promised to persecuted? | Kingdom
+medium_110 | What is central theme? | Reversed
+medium_111 | What did Jesus say about enemies? | Love
+medium_112 | What did Jesus say about prayer? | Secret
+medium_113 | What happened at Cana? | Water
+medium_114 | Why did Jesus cleanse the temple? | Corruption
+medium_115 | What did merchants do in the temple? | Sell
+medium_116 | What authority did Jesus show? | Sickness
+medium_117 | Who followed Jesus after calling? | Matthew
+medium_118 | What did Jesus teach about forgiveness? | Forgive
+medium_119 | What did Jesus often do before miracles? | Pray
+medium_120 | What did demons recognize? | Jesus
+medium_121 | What happened in the temple at age 12? | Amazed
+medium_122 | What was John’s message? | Repent
+medium_123 | What sign happened at Jesus’ baptism? | Heaven
+medium_124 | What descended on Jesus? | Holy
+medium_125 | What voice was heard at baptism? | God
+medium_126 | Why did Jesus go to the desert? | Tested
+medium_127 | What did Jesus resist in the desert? | Temptation
+medium_128 | Who were first disciples? | Fishermen
+medium_129 | What did Jesus say to disciples? | Follow
+medium_130 | Where did John baptize people? | Jordan
+medium_131 | What did the angel tell Mary? | Son
+medium_132 | Who did Mary visit while pregnant? | Elizabeth
+medium_133 | What happened when Mary greeted Elizabeth? | Baby
+medium_134 | Why did Joseph go to Bethlehem? | Census
+medium_135 | Where was Jesus placed after birth? | Manger
+medium_136 | What guided the wise men? | Star
+medium_137 | What gift did the wise men NOT bring? | Food
+medium_138 | Who tried to kill baby Jesus? | Herod
+medium_139 | Where did Joseph take Mary to escape? | Egypt
+medium_140 | What did angels announce to shepherds? | Good
+medium_141 | What tested Job? | Suffering
+medium_142 | What did Job keep during suffering? | Faith
+medium_143 | What is the main theme of Ecclesiastes? | Meaning
+medium_144 | What did Solomon ask for in Proverbs? | Wisdom
+medium_145 | What do Psalms express? | Emotions
+medium_146 | What is Song of Songs about? | Love
+medium_147 | What did Job’s friends do? | Misunderstood
+medium_148 | What does Proverbs warn against? | Foolishness
+medium_149 | What does Ecclesiastes say about riches? | Temporary
+medium_150 | What do Psalms often include? | Praise
+medium_151 | What did Cyrus allow the Jews to do? | Return
+medium_152 | What was Ezra’s role? | Priest
+medium_153 | What problem did Nehemiah face? | Broken
+medium_154 | Who opposed rebuilding Jerusalem? | Enemies
+medium_155 | What did Esther risk? | Life
+medium_156 | Who wanted to destroy the Jews in Persia? | Haman
+medium_157 | What did Nehemiah rebuild first? | Walls
+medium_158 | What did Ezra read publicly? | Law
+medium_159 | Where was Esther queen? | Persia
+medium_160 | What did the people renew? | Covenant
+medium_161 | What caused Israel's exile? | Idolatry
+medium_162 | Who was the king of Babylon? | Nebuchadnezzar
+medium_163 | What was thrown into fire? | Three
+medium_164 | What protected Daniel's friends? | God
+medium_165 | What did Daniel interpret? | Dreams
+medium_166 | What happened to Jerusalem temple? | Destroyed
+medium_167 | What did the lion's den represent? | Faith
+medium_168 | What did Shadrach, Meshach, Abednego refuse? | Idol
+medium_169 | Where was Judah exiled? | Babylon
+medium_170 | What did Daniel become in Babylon? | Advisor
+medium_171 | Who challenged the prophets of Baal? | Elijah
+medium_172 | What miracle did Elisha perform? | Multiplying
+medium_173 | What did Elijah stop for 3 years? | Rain
+medium_174 | What did Elisha receive from Elijah? | Double
+medium_175 | What did Amos warn against? | Injustice
+medium_176 | What symbol did Hosea use for Israel? | Unfaithful
+medium_177 | What did Isaiah see in his vision? | God
+medium_178 | What city did Micah focus on? | Samaria
+medium_179 | Who was taken to heaven in a whirlwind? | Elijah
+medium_180 | What did Elisha purify? | Water
+medium_181 | What decision showed Solomon's wisdom? | Baby
+medium_182 | What split Israel after Solomon? | Rebellion
+medium_183 | Who became king of the north first? | Jeroboam
+medium_184 | Who ruled the south after division? | Rehoboam
+medium_185 | What caused the kingdom to split? | Heavy
+medium_186 | Where was the capital of Israel (north)? | Samaria
+medium_187 | Where was Judah's capital? | Jerusalem
+medium_188 | What did Solomon build for God? | Temple
+medium_189 | What did Solomon collect? | Wisdom
+medium_190 | What happened after Solomon died? | Division
+medium_191 | Why was Saul rejected as king? | Disobedience
+medium_192 | What spirit troubled Saul? | Evil
+medium_193 | Who became king after Saul? | David
+medium_194 | Where did David hide from Saul? | Caves
+medium_195 | Who spared Saul's life twice? | David
+medium_196 | What did Saul try to kill David with? | Spear
+medium_197 | What did David become in Israel? | King
+medium_198 | What city did David make his capital? | Jerusalem
+medium_199 | What did David bring to Jerusalem? | Ark
+medium_200 | Who helped David defeat enemies? | God
+medium_201 | Who led Israel in battle with Barak? | Deborah
+medium_202 | What did Gideon ask God for? | Sign
+medium_203 | What did Jephthah sacrifice? | Daughter
+medium_204 | Who was strong but lost his strength after a haircut? | Samson
+medium_205 | What weapon did David use against Goliath? | Sling
+medium_206 | What did Goliath represent? | Opposition
+medium_207 | What city fell after the walls were marched around? | Jericho
+medium_208 | What did Rahab do to help the spies? | Hid
+medium_209 | What miracle happened when Jordan River stopped? | Parted
+medium_210 | What did Joshua do at Jericho? | Marched
+medium_211 | What did manna represent? | God
+medium_212 | What did the bronze serpent represent? | Healing
+medium_213 | What did the Ten Commandments represent? | God
+medium_214 | What did the Ark of the Covenant contain? | Tablets
+medium_215 | What did the Sabbath represent? | Rest
+medium_216 | What did the manna cease when Israel entered the land? | Entering
+medium_217 | What did Joshua say before crossing Jordan? | Prepare
+medium_218 | What did God promise Joshua? | Be
+medium_219 | What did Joshua renew with Israel? | Covenant
+medium_220 | What did Samuel pour on Saul to anoint him? | Oil
+medium_221 | What did Saul do after becoming king? | Disobeyed
+medium_222 | What did David refuse to do to Saul? | Harm
+medium_223 | What did Jonathan and David have? | Friendship
+medium_224 | What did God give David to defeat Goliath? | Courage
+medium_225 | What did David and Goliath story show? | Faith
+medium_226 | What did Saul fear about David? | Become
+medium_227 | What did Samuel represent in Israel? | Prophet
+medium_228 | What did God call Samuel as a child? | By
+medium_229 | What did David say about God before fighting Goliath? | God
+medium_230 | What did Hannah pray for? | Son
+medium_231 | What did Samuel anoint David with? | Oil
+medium_232 | What did David become after Saul? | King
+medium_233 | What did God call David? | God
+medium_234 | What did God promise David? | Eternal
+medium_235 | What did Solomon ask God for? | Wisdom
+medium_236 | What did Solomon build? | Temple
+medium_237 | What happened after Solomon’s death? | Kingdom
+medium_238 | What does Proverbs mainly teach? | Wisdom
+medium_239 | What does Ecclesiastes say life is like? | Vanity
+medium_240 | What does Job say about suffering? | Tests
+medium_241 | What does Psalms mainly express? | Prayer
+medium_242 | What is Song of Songs about? | Love
+medium_243 | What did Job’s friends think caused his suffering? | Sin
+medium_244 | What did Ecclesiastes conclude about fearing God? | Whole
+medium_245 | What does Job ultimately say about God? | Just
+medium_246 | What does Psalms say about God’s protection? | Refuge
+medium_247 | What does Song of Songs describe God’s love as? | Deep
+medium_248 | What does Nehemiah show about leadership? | Vision
+medium_249 | What did Ezra focus on restoring? | God
+medium_250 | What did Esther show about courage? | Standing
+medium_251 | What did Daniel show in Babylon? | Faithfulness
+medium_252 | What did Daniel refuse to do? | Worship
+medium_253 | What protected Daniel in the lion’s den? | God
+medium_254 | What did the three men in fire show? | Faith
+medium_255 | What did Jonah learn in the fish? | Obedience
+medium_256 | What did Nineveh do after Jonah preached? | Repented
+medium_257 | What message did Jonah give? | Repentance
+medium_258 | What did God show Jonah about mercy? | God
+medium_259 | What did the flood in Noah’s time show? | Judgment
+medium_260 | What did Noah build? | Ark
+medium_261 | What covenant did God make with Noah? | More
+medium_262 | What did the rainbow symbolize? | God
+medium_263 | What did Abraham show by leaving his country? | Faith
+medium_264 | What promise did God give Abraham? | Great
+medium_265 | What did Abraham trust God for? | Future
+medium_266 | What did Abraham sacrifice willingness show? | Deep
+medium_267 | What did Isaac represent in Abraham’s story? | Promise
+medium_268 | What did God provide instead of Isaac? | Ram
+medium_269 | What did Abraham name the place? | Lord
+medium_270 | What did Jacob’s dream of a ladder show? | Connection
+medium_271 | What promise did God renew to Jacob? | Land
+medium_272 | What did Joseph’s coat represent? | Favor
+medium_273 | What did Joseph learn through suffering? | God
+medium_274 | What did Joseph’s brothers do to him? | Sold
+medium_275 | What position did Joseph later hold in Egypt? | Second
+hard_001 | What does Hebrews teach about Jesus? | Perfect
+hard_002 | What does James challenge? | Dead
+hard_003 | What is Peter’s key message? | Hope
+hard_004 | What is John’s theological focus? | Truth
+hard_005 | What is Revelation’s structure? | Symbolic
+hard_074 | What does raising Lazarus signify? | Authority
+hard_075 | What is core lesson of Good Samaritan? | Love
+hard_076 | What does Pharisee prayer reveal? | Pride
+hard_077 | What does tower parable teach? | Cost
+hard_078 | What does king preparing war show? | Need
+hard_079 | What do two sons contrast? | Words
+hard_080 | What do talents emphasize? | Accountability
+hard_081 | What does vigilant servant represent? | Spiritual
+hard_082 | What does midnight friend teach? | Bold
+hard_083 | What does fig tree warning mean? | Judgment
+hard_084 | What does unjust judge show? | Persistence
+hard_085 | What does prodigal son reveal? | God
+hard_086 | What does lost sheep emphasize? | Individual
+hard_087 | What does lost coin emphasize? | Value
+hard_088 | What does unforgiving servant warn? | Judgment
+hard_089 | What does wheat and weeds show? | Final
+hard_090 | What do vineyard workers show? | God
+hard_091 | What do ten virgins show? | Need
+hard_092 | What does rich fool represent? | Foolish
+hard_093 | What does rich man and Lazarus show? | Justice
+hard_094 | What is central theme? | Mercy
+hard_095 | What does sowing represent? | Spreading
+hard_096 | What does mustard seed teach? | Small
+hard_097 | What does yeast illustrate spiritually? | Invisible
+hard_098 | What is treasure field message? | Worth
+hard_099 | What does pearl parable demand? | Total
+hard_100 | What does net gathering show? | Final
+hard_101 | What do soils represent deeply? | Response
+hard_102 | What is central theme of parables? | Kingdom
+hard_103 | What does growth symbolize? | Spiritual
+hard_104 | What do parables conceal and reveal? | Kingdom
+hard_105 | What do Beatitudes invert? | Worldly
+hard_106 | What does Sermon define? | Kingdom
+hard_107 | What does 'blessed' mean here? | Deep
+hard_108 | Who are central in Beatitudes? | Humble
+hard_109 | What does Jesus redefine? | True
+hard_110 | What is promise to meek? | Inheritance
+hard_111 | What does persecution reveal? | Belonging
+hard_112 | What is Beatitudes structure? | Spiritual
+hard_113 | What does mercy connect to? | Divine
+hard_114 | What is hidden logic? | Kingdom
+hard_115 | What does Cana miracle symbolize? | Transformation
+hard_116 | What does temple cleansing show? | God
+hard_117 | What is Lord’s Prayer centered on? | God
+hard_118 | What did Jesus confront in temple? | Religious
+hard_119 | What defines Matthew’s calling? | Radical
+hard_120 | What do miracles confirm? | Kingdom
+hard_121 | What did Jesus teach about love? | Enemies
+hard_122 | What does healing represent? | Restoration
+hard_123 | What does demon casting show? | Spiritual
+hard_124 | What begins with Matthew? | New
+hard_125 | What did Jesus show in the temple at 12? | Wisdom
+hard_126 | What marked the start of Jesus’ ministry? | Baptism
+hard_127 | What sign confirmed Elizabeth's pregnancy? | Angel
+hard_128 | By what title did Herod feel threatened regarding Jesus? | King
+hard_129 | What kind of guidance did Joseph receive in a dream? | Divine
+hard_130 | What kind of sign did the star represent? | Divine
+hard_131 | Which social class did the shepherds represent at the nativity? | Lowly
+hard_132 | Herod ordered the slaughter of whom following Jesus' birth? | Innocents
+hard_133 | Why Egypt was important? | Refuge
+hard_134 | What did Mary ponder in her heart? | Words
+hard_135 | What lesson does Job teach? | Faith
+hard_136 | How much of Job's loss did God eventually restore? | Double
+hard_137 | What kind of advice is the book of Proverbs centered on? | Practical
+hard_138 | What is the final command of Ecclesiastes regarding God? | Fear
+hard_139 | What is Song of Songs symbolically about? | Love
+hard_140 | What did David express in Psalms? | Heart
+hard_141 | What challenged Job’s understanding? | Suffering
+hard_142 | Whom does Proverbs contrast with the fool? | Wise
+hard_143 | What does Ecclesiastes emphasize? | Vanity
+hard_144 | What is Psalms used for historically? | Temple
+hard_145 | What triggered the rebuilding of Jerusalem? | Decree
+hard_146 | What did Ezra restore spiritually? | Worship
+hard_147 | What was Nehemiah's leadership style? | Prayer
+hard_148 | What did Esther’s story show? | Providence
+hard_149 | What did Haman plan? | Genocide
+hard_150 | What did Nehemiah overcome? | Opposition
+hard_151 | What did Ezra emphasize after exile? | Obedience
+hard_152 | What saved Jerusalem from destruction again? | Unity
+hard_153 | What did Esther fast for? | People
+hard_154 | What did rebuilding represent? | Restoration
+hard_155 | What empire destroyed Israel (north)? | Assyria
+hard_156 | What empire destroyed Judah? | Babylon
+hard_157 | What was Daniel’s test in Babylon? | Faith
+hard_158 | What did the golden statue represent? | Idolatry
+hard_159 | What saved the three men in fire? | God
+hard_160 | What did Daniel's visions reveal? | Future
+hard_161 | What happened to Israel after Assyria? | Scattered
+hard_162 | What happened to Judah after Babylon? | Exile
+hard_163 | What did Daniel refuse in prayer? | Stop
+hard_164 | What did God shut in the lions’ den? | Lion
+hard_165 | What did Elijah confront on Mount Carmel? | False
+hard_166 | What did Elisha multiply? | Food
+hard_167 | What did Amos declare about worship? | God
+hard_168 | What did Hosea's life represent? | Love
+hard_169 | What prophecy is Isaiah known for? | Messiah
+hard_170 | What did Micah predict about Bethlehem? | Birth
+hard_171 | What miracle did Elijah perform for a widow? | Endless
+hard_172 | What did Elisha do with Naaman? | Healed
+hard_173 | What was Israel accused of by Amos? | Oppressing
+hard_174 | What did Isaiah call God? | Holy
+hard_175 | What was Solomon's downfall? | Idolatry
+hard_176 | Who influenced Solomon's turning away from God? | Foreign
+hard_177 | What divided the kingdom politically? | Rehoboam
+hard_178 | What did Jeroboam establish in the north? | Golden
+hard_179 | What remained loyal to David's line? | Judah
+hard_180 | What was Solomon's greatest building project? | Temple
+hard_181 | What did Solomon ask for originally? | Wisdom
+hard_182 | What weakened the united kingdom? | Sin
+hard_183 | What did the north kingdom reject? | Davidic
+hard_184 | What did prophets warn about? | Idolatry
+hard_185 | What sin caused Saul’s downfall? | Disobedience
+hard_186 | Who killed Goliath? | David
+hard_187 | What reward did David receive? | Becoming
+hard_188 | What did Saul fear most? | David
+hard_189 | What did David refuse to do to Saul? | Kill
+hard_190 | What did Saul consult illegally? | Witch
+hard_191 | Where did Saul die? | Battlefield
+hard_192 | What tribe was David from? | Judah
+hard_193 | What did David write? | Psalms
+hard_194 | What was David's biggest victory? | Goliath
+hard_195 | What did Deborah do under the palm tree? | Judged
+hard_196 | What did Gideon destroy first? | Idol
+hard_197 | What did Samson kill with bare hands? | Lion
+hard_198 | Who betrayed Samson? | Delilah
+hard_199 | What did Samuel hear at night? | God
+hard_200 | What did Gideon’s army use at night? | Lights
+hard_201 | What did Samson destroy at the end? | Philistine
+hard_202 | What did Ruth do for Naomi? | Cared
+hard_203 | Who was Israel's spiritual leader before kings? | Samuel
+hard_204 | What did Israel ask Samuel for? | King
+hard_205 | What miracle stopped Pharaoh's army? | Red
+hard_206 | What did Moses stretch over the sea? | Staff
+hard_207 | What followed Israel in the desert? | Cloud
+hard_208 | What fell from heaven? | Manna
+hard_209 | What mountain did Moses climb? | Sinai
+hard_210 | What did Moses receive on Sinai? | Ten
+hard_211 | Who built a golden calf? | Israelites
+hard_212 | What did Moses break? | Tablets
+hard_213 | What guided Israel at night? | Fire
+hard_214 | What guided Israel by day? | Cloud
+hard_215 | Why was Joseph sold? | Jealousy
+hard_216 | What did Joseph resist in Egypt? | Temptation
+hard_217 | Who falsely accused Joseph? | Potiphar
+hard_218 | What did Joseph interpret for Pharaoh? | Dreams
+hard_219 | What did Joseph predict? | years
+hard_220 | What position did Joseph receive? | Second
+hard_221 | What saved Egypt? | Joseph
+hard_222 | What did Joseph's brothers do when they saw him? | Bow
+hard_223 | What did Joseph test in his brothers? | Hearts
+hard_224 | What did Joseph store for famine years? | Grain
+hard_225 | What was Jacob's new name? | Israel
+hard_226 | Who betrayed Joseph? | Brothers
+hard_227 | What did Joseph interpret? | Dreams
+hard_228 | What did God ask Abraham to sacrifice? | Isaac
+hard_229 | What destroyed Sodom and Gomorrah? | Fire
+hard_230 | Who interceded for Lot? | Abraham
+hard_231 | What was Abraham tested with? | Faith
+hard_232 | What did angels tell Lot to do? | Escape
+hard_233 | What did Sarah struggle with? | Faith
+hard_234 | What city was Lot rescued from? | Sodom
+hard_235 | What covenant did God make? | Everlasting
+hard_236 | What did Abraham leave behind? | Homeland
+hard_237 | What did God provide instead of Isaac? | Ram
+hard_238 | What tree was forbidden? | Tree
+hard_239 | What did Adam and Eve lose? | Eden
+hard_240 | What mark did Cain receive? | Protection
+hard_241 | What was Cain's punishment? | Wandering
+hard_242 | What did Abel represent? | Righteousness
+hard_243 | Who continued Adam's lineage? | Seth
+hard_244 | What was the consequence of sin? | Death
+hard_245 | What guarded Eden? | Cherubim
+hard_246 | What did Eve become called? | Mother
+hard_247 | What did God do after sin? | Expelled
+hard_248 | What covenant did God make with Noah? | Rainbow
+hard_249 | What was Noah's mission? | Ark
+hard_250 | What did Noah show by building the ark? | Faith
+hard_251 | What did Babel represent? | Human
+hard_252 | What did God prevent at Babel? | Unity
+hard_253 | What animal returned to Noah first? | Dove
+hard_254 | What was used instead of stone in Babel? | Bricks
+hard_255 | What did the ark save? | Life
+hard_256 | What did God scatter at Babel? | People
+hard_257 | What remained after the flood? | Covenant
+hard_258 | What did God ask Abraham to sacrifice? | Isaac
+hard_259 | What destroyed Sodom and Gomorrah? | Fire
+hard_260 | Who interceded for Lot? | Abraham
+hard_261 | What was Abraham tested with? | Faith
+hard_262 | What did angels tell Lot to do? | Escape
+hard_263 | What did Sarah struggle with? | Faith
+hard_264 | What city was Lot rescued from? | Sodom
+expert_001 | What does Hebrews reveal about Christ? | Fulfillment
+expert_002 | What does James redefine? | Faith
+expert_003 | What is Peter’s theological theme? | Suffering
+expert_004 | What does John emphasize? | Communion
+expert_005 | What is Revelation’s main vision? | Cosmic
+expert_006 | What are seals, trumpets, bowls? | Progressive
+expert_007 | What is Babylon spiritually? | System
+expert_008 | What is New Jerusalem? | Restored
+expert_009 | What is final victory? | Christ
+expert_010 | What is central theology here? | God
+expert_011 | What does Romans theological core? | Righteousness
+expert_012 | What does Corinthians reveal about church? | Broken
+expert_013 | What is Galatians central conflict? | Grace
+expert_014 | What does Ephesians teach about identity? | United
+expert_015 | What does Philippians show spiritually? | Joy
+expert_016 | What does Colossians affirm? | Christ
+expert_017 | What do Thessalonians reveal? | Hope
+expert_018 | What is pastoral epistles purpose? | Church
+expert_019 | What is Philemon example of? | Reconciliation
+expert_020 | What defines Paul’s theology? | Transforming
+expert_021 | What does Pentecost mean theologically? | New
+expert_022 | What does Holy Spirit represent in Acts? | God
+expert_023 | What does Stephen’s martyrdom trigger? | Church
+expert_024 | What does Saul’s conversion signify? | Enemy
+expert_025 | What does missionary expansion show? | Global
+expert_026 | What does persecution produce? | Growth
+expert_027 | What defines Acts structure? | Spirit
+expert_028 | What does healing represent? | Kingdom
+expert_029 | What is central theme? | Jesus
+expert_030 | What completes Acts vision? | Global
+expert_031 | What does resurrection represent theologically? | Vindication
+expert_032 | What does empty tomb signify spiritually? | Death
+expert_033 | What do women symbolize in resurrection story? | Restored
+expert_034 | What does Emmaus reveal? | Christ
+expert_035 | What does Thomas encounter represent? | Doubt
+expert_036 | What does ascension confirm? | Exalted
+expert_037 | What does Great Commission establish? | Universal
+expert_038 | What is resurrection core meaning? | New
+expert_039 | What does final appearance mean? | Continuity
+expert_040 | What completes redemptive arc? | Life
+expert_041 | What does Caiaphas trial reveal spiritually? | Rejection
+expert_042 | What does Pilate symbolize theologically? | Compromise
+expert_043 | What does crucifixion represent in theology? | Substitutionary
+expert_044 | What does crown of thorns signify? | True
+expert_045 | What does Jesus’ silence show? | Voluntary
+expert_046 | What does veil tearing mean spiritually? | Access
+expert_047 | What does darkness represent? | Moment
+expert_048 | What does cross symbolize? | Justice
+expert_049 | What is central meaning? | Love
+expert_050 | What completes narrative arc? | Redemption
+expert_051 | What does Last Supper represent theologically? | Covenant
+expert_052 | What does foot washing symbolize spiritually? | Authority
+expert_053 | What does Judas’ act represent? | Mission
+expert_054 | What is Gethsemane essence? | Struggle
+expert_055 | What does Jesus’ prayer reveal? | Obedience
+expert_056 | What does arrest initiate? | Redemptive
+expert_057 | What does Passover connection mean? | Ultimate
+expert_058 | What does communion foreshadow? | Participation
+expert_059 | What is central meaning? | Love
+expert_060 | What shifts here? | Teaching
+expert_061 | What does Pharisee conflict represent spiritually? | Kingdom
+expert_062 | What does Sabbath healing symbolize? | Mercy
+expert_063 | What is Lazarus miracle in theology? | Resurrection
+expert_064 | What triggers final conspiracy? | Revelation
+expert_065 | What is Palm Sunday meaning? | Different
+expert_066 | What does temple cleansing represent? | True
+expert_067 | What do final teachings focus on? | Eschatological
+expert_068 | What does Jerusalem prophecy mean? | Consequences
+expert_069 | What defines this stage? | Escalating
+expert_070 | What is central narrative shift? | Teaching
+expert_071 | What is theological core of Good Samaritan? | Love
+expert_072 | What does tax collector prayer show? | Justification
+expert_073 | What does tower represent spiritually? | Discipleship
+expert_074 | What does king and war symbolize? | Spiritual
+expert_075 | What do talents reveal about God? | Trust
+expert_076 | What does faithful servant teach? | Constant
+expert_077 | What does widow and judge teach? | Perseverance
+expert_078 | What does fig tree symbolize? | Urgency
+expert_079 | What is common theme? | Responsibility
+expert_080 | What do parables demand? | Active
+expert_081 | What is theological core of prodigal son? | Grace
+expert_082 | What does lost sheep reveal about God? | Active
+expert_083 | What does lost coin symbolize? | Value
+expert_084 | What does unforgiving servant expose? | Receiving
+expert_085 | What does wheat and weeds teach? | Coexistence
+expert_086 | What do vineyard workers reveal? | Divine
+expert_087 | What do ten virgins represent? | Spiritual
+expert_088 | What does rich fool expose? | Futility
+expert_089 | What does Lazarus contrast show? | Reversal
+expert_090 | What is unified message? | Mercy
+expert_091 | What is deep meaning of parables? | Kingdom
+expert_092 | What does seed represent ultimately? | Life
+expert_093 | What does mustard seed paradox show? | Greatness
+expert_094 | What does yeast illustrate in Kingdom logic? | Unstoppable
+expert_095 | What is treasure ultimate meaning? | Worth
+expert_096 | What is pearl ultimate meaning? | Supreme
+expert_097 | What does net judgment represent? | Separating
+expert_098 | What do soils represent at deep level? | Spiritual
+expert_099 | What is Kingdom nature in parables? | God
+expert_100 | What is ultimate teaching? | Kingdom
+expert_101 | What is theological purpose of parables? | Reveal
+expert_102 | What does mustard seed show about Kingdom? | Small
+expert_103 | What does yeast represent spiritually? | Transformative
+expert_104 | What does treasure field teach? | Surpasses
+expert_105 | What does pearl emphasize? | Total
+expert_106 | What does net ending represent? | Final
+expert_107 | What is seed parable core idea? | Reception
+expert_108 | What do parables demand? | Spiritual
+expert_109 | What is Kingdom like in parables? | Hidden
+expert_110 | What is central message? | Kingdom
+expert_111 | What do Beatitudes reveal about God’s kingdom? | Humble
+expert_112 | What is Sermon on the Mount? | Kingdom
+expert_113 | What does Jesus redefine? | Blessed
+expert_114 | What is core paradox of Beatitudes? | Weak
+expert_115 | What does hunger for righteousness represent? | Spiritual
+expert_116 | What does peacemaking reflect? | God
+expert_117 | What is reward of purity? | Seeing
+expert_118 | What does persecution confirm? | Kingdom
+expert_119 | What does Beatitudes structure show? | Spiritual
+expert_120 | What is central message? | Kingdom
+expert_121 | What does Cana reveal about Jesus’ mission? | Transformation
+expert_122 | What does temple cleansing represent spiritually? | Restoring
+expert_123 | What is Lord’s Prayer theological focus? | God
+expert_124 | What do miracles validate? | Messianic
+expert_125 | What does Matthew represent? | Grace
+expert_126 | What do healings reveal? | Kingdom
+expert_127 | What does demon expulsion show? | Authority
+expert_128 | What does loving enemies break? | Cycle
+expert_129 | What does Jesus’ authority challenge? | Religious
+expert_130 | What is central message of this phase? | Kingdom
+expert_131 | What does Jesus in the temple reveal? | Divine
+expert_132 | What does baptism signify theologically? | Identification
+expert_133 | What does Spirit descending represent? | Divine
+expert_134 | What does desert temptation reveal? | True
+expert_135 | What does John represent? | Covenant
+expert_136 | What is meaning of 40 days? | Preparation
+expert_137 | What do first disciples represent? | Kingdom
+expert_138 | What does Nazareth represent? | Hidden
+expert_139 | What does baptism voice confirm? | Sonship
+expert_140 | What is central theme? | Identity
+expert_141 | What does the Annunciation represent? | God
+expert_142 | What does the virgin birth signify? | Divine
+expert_143 | What role does John the Baptist play? | Covenant
+expert_144 | What does Bethlehem symbolize? | Humility
+expert_145 | What do the Magi represent? | Gentiles
+expert_146 | What does Herod represent? | Fear
+expert_147 | What does Egypt represent in story? | Protection
+expert_148 | What do shepherds symbolize? | Truth
+expert_149 | What unites nativity events? | Divine
+expert_150 | What is central theme? | God
+expert_151 | What is Job’s central theological question? | Righteous
+expert_152 | What does Psalms represent spiritually? | Human
+expert_153 | What does Proverbs form? | Wisdom
+expert_154 | What does Ecclesiastes expose? | Emptiness
+expert_155 | What does Song of Songs symbolize? | Love
+expert_156 | What did Job discover at the end? | God
+expert_157 | What is Psalms' spiritual role? | Worship
+expert_158 | What is Proverbs' spiritual goal? | Living
+expert_159 | What is Ecclesiastes warning? | Meaningless
+expert_160 | What unites these books? | Human
+expert_161 | What did Ezra symbolize? | Spiritual
+expert_162 | What did Nehemiah symbolize? | Restoration
+expert_163 | What did Esther symbolize? | Hidden
+expert_164 | What unified returning exiles? | Covenant
+expert_165 | What did rebuilding the wall represent? | Identity
+expert_166 | What did opposition reveal? | Spiritual
+expert_167 | What was Ezra’s focus? | Word
+expert_168 | What was Nehemiah’s focus? | Action
+expert_169 | What was Esther’s key moment? | Courage
+expert_170 | What marked this era? | Restoration
+expert_171 | What did Assyria represent spiritually? | Judgment
+expert_172 | What did Babylon represent? | Judgment
+expert_173 | What did Daniel represent in exile? | Faithfulness
+expert_174 | What did Shadrach, Meshach, Abednego represent? | Unshakable
+expert_175 | What did the exile show? | Consequence
+expert_176 | What did Daniel’s survival show? | God
+expert_177 | What was Jerusalem’s destruction? | End
+expert_178 | What did prophets warn about exile? | Covenant
+expert_179 | What did exile preserve spiritually? | Faith
+expert_180 | What connects Daniel and prophets? | Faith
+expert_181 | What did Elijah represent? | Confrontation
+expert_182 | What did Elisha represent? | Continuation
+expert_183 | What did Amos emphasize? | Justice
+expert_184 | What did Hosea reveal about God? | Faithful
+expert_185 | What did Isaiah prophesy about suffering servant? | Messiah
+expert_186 | What did Micah emphasize? | Justice
+expert_187 | What did Elijah’s story end with? | Taken
+expert_188 | What did Elisha inherit? | Prophetic
+expert_189 | What did prophets mainly confront? | Idolatry
+expert_190 | What united all prophets? | Calling
+expert_191 | What defined Solomon's reign early on? | Wisdom
+expert_192 | What structure represented God's presence? | Temple
+expert_193 | What did the kingdom split represent spiritually? | Division
+expert_194 | What did Israel's division lead to? | Weakness
+expert_195 | What did Solomon's wisdom symbolize? | Divine
+expert_196 | What did Jeroboam introduce? | Alternative
+expert_197 | What did Rehoboam’s failure cause? | Rebellion
+expert_198 | What marked this era? | Empire
+expert_199 | What defined Solomon’s reign spiritually? | Wisdom
+expert_200 | What does Jeroboam’s system ultimately show? | Human
+expert_201 | What was the northern kingdom’s fate? | Exile
+expert_202 | What was Judah’s spiritual role? | Preserving
+expert_203 | What marked Solomon's legacy? | Wisdom
+expert_204 | What did Saul represent spiritually? | Kingship
+expert_205 | What did David represent? | Heart
+expert_206 | What marked Saul’s end? | Separation
+expert_207 | What established David’s kingdom? | God
+expert_208 | What did David spare? | Saul
+expert_209 | What was Goliath’s defeat based on? | Faith
+expert_210 | What city became David’s capital? | Jerusalem
+expert_211 | What did Saul lose first? | God
+expert_212 | What united Israel under David? | Leadership
+expert_213 | What did David desire most? | God
+expert_214 | What did Deborah symbolize? | Leadership
+expert_215 | What did Gideon overcome? | Fear
+expert_216 | What was Samson's calling? | Deliver
+expert_217 | What did Ruth represent? | Loyalty
+expert_218 | What did Samuel establish? | Prophetic
+expert_219 | What was Gideon's victory based on? | God
+expert_220 | What was Samson's downfall? | Pride
+expert_221 | What did Samuel anoint? | Kings
+expert_222 | What did Ruth's story lead to? | David
+expert_223 | What did judges represent? | Sin
+expert_224 | What did Moses represent? | Deliverer
+expert_225 | What hardened Pharaoh's heart? | Pride
+expert_226 | What did Passover symbolize? | Deliverance
+expert_227 | What protected Israel from final plague? | Blood
+expert_228 | What was Egypt forced to release? | Israel
+expert_229 | What was the purpose of plagues? | Show
+expert_230 | What followed Israel in wilderness? | Divine
+expert_231 | What did Moses intercede for? | Israel
+expert_232 | What covenant was given at Sinai? | Law
+expert_233 | What did Moses lead? | Exodus
+expert_234 | What did Joseph’s dreams represent? | Future
+expert_235 | What did Joseph endure? | Betrayal
+expert_236 | What did God use Joseph for? | Saving
+expert_237 | What did Joseph’s story show? | Divine
+expert_238 | What did Joseph forgive? | Brothers
+expert_239 | What did Joseph become spiritually? | Family
+expert_240 | What crisis shaped Joseph’s rise? | Famine
+expert_241 | What did Joseph store for survival? | Grain
+expert_242 | What did Joseph reveal about God? | Providence
+expert_243 | What united Joseph and his family again? | Forgiveness
+expert_244 | What did Jacob’s dream show? | Heaven
+expert_245 | What did Joseph represent in Egypt? | Providence
+expert_246 | What did Jacob become? | Father
+expert_247 | What did Joseph forgive? | Brothers
+expert_248 | What did God use Joseph for? | Saving
+expert_249 | What did Jacob bless? | 12
+expert_250 | What did Joseph’s story show? | God
+expert_251 | What did Israel become? | Nation
+expert_252 | What did Joseph store for famine? | Grain
+expert_253 | What guided Jacob’s life? | God
+expert_254 | What did Abraham believe? | God
+expert_255 | What destroyed Sodom due to sin? | Fire
+expert_256 | What did Sarah represent? | Promise
+expert_257 | What did Lot's escape show? | Mercy
+expert_258 | What did Abraham build everywhere? | Altars
+expert_259 | What did God require from Abraham? | Faith
+expert_260 | What did angels represent in Sodom? | Judgment
+expert_261 | What did Abraham become known for? | Faith
+expert_262 | What replaced Isaac as sacrifice? | Ram
+expert_263 | What did God promise through Abraham? | Blessing
+expert_264 | What judged the world in Noah's time? | Flood
+expert_265 | What was Noah's mission? | Obey
+expert_266 | What preserved creation? | Ark
+expert_267 | What broke unity at Babel? | Language
+expert_268 | What was humanity trying to do at Babel? | Reach
+expert_269 | What did God stop at Babel? | Human
+expert_270 | What preserved humanity? | Ark
+expert_271 | What did Noah build over years? | Ark
+expert_272 | What was Babel’s goal? | Reach
+expert_273 | What was God’s response to Babel? | People
+impossible_001 | What is deepest meaning of Hebrews? | Christ
+impossible_002 | What does James represent ultimately? | Faith
+impossible_003 | What do Peter’s letters reveal? | Hope
+impossible_004 | What does John’s message unify? | Truth
+impossible_005 | What is Revelation ultimately? | Christ
+impossible_006 | What do seals/trumpets/bowls show? | God
+impossible_007 | What does Babylon represent deeply? | Human
+impossible_008 | What does New Jerusalem mean? | God
+impossible_009 | What is final outcome? | Redemption
+impossible_010 | What is ultimate message of Bible? | God
+impossible_011 | What is Romans deepest meaning? | Grace
+impossible_012 | What does Corinthians reveal spiritually? | Church
+impossible_013 | What is Galatians ultimate message? | Freedom
+impossible_014 | What does Ephesians describe ultimately? | Christ
+impossible_015 | What does Philippians teach deeply? | Joy
+impossible_016 | What does Colossians declare ultimately? | Christ
+impossible_017 | What do Thessalonians reveal ultimately? | Hope
+impossible_018 | What do pastoral letters ensure? | Faith
+impossible_019 | What is Philemon deepest meaning? | Equality
+impossible_020 | What defines Paul’s message? | Grace
+impossible_021 | What is deepest meaning of Pentecost? | God
+impossible_022 | What does tongues of fire mean ultimately? | Spirit
+impossible_023 | What does Stephen’s death represent? | Truth
+impossible_024 | What does Saul’s conversion reveal? | Grace
+impossible_025 | What does Acts expansion mean? | Kingdom
+impossible_026 | What does Peter’s confession reveal? | Messiah
+impossible_027 | What does Transfiguration reveal deeply? | Divine
+impossible_028 | What does Last Supper symbolize ultimately? | New
+impossible_029 | What does crucifixion reveal most deeply? | Love
+impossible_030 | What does resurrection confirm? | Victory
+impossible_031 | What does Great Commission reveal? | Global
+impossible_032 | What is deepest meaning of discipleship? | Become
+impossible_033 | What does kingdom of God represent? | God
+impossible_034 | What do miracles reveal ultimately? | God
+impossible_035 | What does prayer reveal deeply? | Relationship
+impossible_036 | What does persecution reveal spiritually? | Truth
+impossible_037 | What does healing signify? | Creation
+impossible_038 | What is central theology of Acts? | Christ
+impossible_039 | What defines mission? | Kingdom
+impossible_040 | What is ultimate message? | Christ
+impossible_041 | What is Hebrews deepest message? | Christ
+impossible_042 | What does Melchizedek represent? | Eternal
+impossible_043 | What does faith chapter teach? | Trust
+impossible_044 | What does new covenant mean? | Internal
+impossible_045 | What is Hebrews ultimate call? | Persevere
+impossible_046 | What is James deepest concern? | Living
+impossible_047 | What does faith without works mean? | Faith
+impossible_048 | What does the tongue symbolize? | Heart
+impossible_049 | What does wisdom from above produce? | Peace
+impossible_050 | What is James ultimate message? | Faith
+impossible_051 | What do Peter’s letters reveal? | Hope
+impossible_052 | What does John’s message unify? | Truth
+impossible_053 | What is Revelation ultimately? | Christ
+impossible_054 | What do seals, trumpets and bowls show? | Divine
+impossible_055 | What does Babylon represent deeply? | Human
+impossible_056 | What is New Jerusalem ultimately? | God
+impossible_057 | What does Revelation end with? | Christ
+impossible_058 | What is the Bible ultimately about? | God
+impossible_059 | What unifies all Scripture? | Christ
+impossible_060 | What is the Bible’s final invitation? | Come
+impossible_061 | What does creation reveal ultimately? | God
+impossible_062 | What does humanity’s fall reveal? | Need
+impossible_063 | What do God’s covenants demonstrate? | Faithfulness
+impossible_064 | What do the prophets consistently point toward? | Coming
+impossible_065 | What does Jesus ultimately reveal? | God
+impossible_066 | What does the cross demonstrate most clearly? | God
+impossible_067 | What does the resurrection guarantee? | New
+impossible_068 | What is the church meant to embody? | Christ
+impossible_069 | What does the Holy Spirit accomplish? | Transformation
+impossible_070 | What is the final hope of believers? | Eternal
+impossible_071 | What does conspiracy represent spiritually? | Truth
+impossible_072 | What does triumphal entry mean? | Humility
+impossible_073 | What does temple cleansing signify? | Purified
+impossible_074 | What do final teachings prepare for? | Final
+impossible_075 | What does Jerusalem prophecy reveal? | Rejected
+impossible_076 | What is theological climax of this phase? | Power
+impossible_077 | What is ultimate meaning? | Light
+impossible_078 | What is deep meaning of Good Samaritan? | Radical
+impossible_079 | What does Pharisee vs tax collector reveal? | Humility
+impossible_080 | What does tower parable ultimately warn? | Cost
+impossible_081 | What does king and war represent? | Count
+impossible_082 | What do two sons reveal spiritually? | Action
+impossible_083 | What does talents parable judge? | Faithful
+impossible_084 | What does vigilant servant represent ultimately? | Readiness
+impossible_085 | What does midnight friend reveal? | Bold
+impossible_086 | What does fig tree mean spiritually? | Limited
+impossible_087 | What is ultimate message? | Kingdom
+impossible_088 | What is deep meaning of prodigal son? | Grace
+impossible_089 | What does lost sheep ultimately show? | God
+impossible_090 | What does lost coin represent spiritually? | Hidden
+impossible_091 | What does unforgiving servant warn? | Mercy
+impossible_092 | What does wheat and weeds imply? | Delayed
+impossible_093 | What do vineyard workers reveal about God? | Grace
+impossible_094 | What do ten virgins teach ultimately? | Readiness
+impossible_095 | What does rich fool symbolize? | Wealth
+impossible_096 | What does rich man and Lazarus teach? | Justice
+impossible_097 | What is ultimate message? | Mercy
+impossible_098 | What is deep meaning of parables? | Hidden
+impossible_099 | What does seed represent ultimately? | Transforming
+impossible_100 | What does mustard seed paradox show? | Small
+impossible_101 | What does yeast illustrate in Kingdom logic? | Hidden
+impossible_102 | What is treasure ultimate meaning? | Total
+impossible_103 | What is pearl ultimate meaning? | Highest
+impossible_104 | What does net judgment represent? | Final
+impossible_105 | What do soils represent at deep level? | Spiritual
+impossible_106 | What is Kingdom nature in parables? | Invisible
+impossible_107 | What is ultimate teaching? | Absolute
+impossible_108 | What is theological essence of Beatitudes? | World
+impossible_109 | What does 'poor in spirit' ultimately mean? | Dependence
+impossible_110 | What does Sermon establish? | Kingdom
+impossible_111 | What is Beatitudes’ radical claim? | Weakness
+impossible_112 | What does meekness imply spiritually? | Controlled
+impossible_113 | What does Jesus redefine fully? | True
+impossible_114 | What is true reward in Beatitudes? | Heaven
+impossible_115 | What do Beatitudes form? | Kingdom
+impossible_116 | What is hidden structure? | Spiritual
+impossible_117 | What is ultimate meaning? | Humility
+impossible_118 | What does Cana miracle theologically represent? | New
+impossible_119 | What does temple cleansing signify in John? | True
+impossible_120 | What is Lord’s Prayer core structure? | Kingdom
+impossible_121 | What does Matthew’s calling illustrate? | Grace
+impossible_122 | What do miracles reveal about Jesus? | Divine
+impossible_123 | What does healing ministry point to? | Creation
+impossible_124 | What does demon authority confirm? | Evil
+impossible_125 | What does love for enemies establish? | Kingdom
+impossible_126 | What does cleansing temple foreshadow? | Judgment
+impossible_127 | What is unified message here? | Kingdom
+impossible_128 | What is theological meaning of Jesus’ baptism? | Sinner
+impossible_129 | What does desert temptation mirror? | Israel
+impossible_130 | What does John the Baptist complete? | Prophetic
+impossible_131 | What does Jesus’ temple visit show? | Divine
+impossible_132 | What does baptism mark in narrative? | Ministry
+impossible_133 | What does Spirit descending confirm? | Messiah
+impossible_134 | What is ultimate significance of Jesus’ early years? | Preparation
+impossible_135 | What is unified message of this section? | Messiah
+impossible_136 | What is theological climax of this phase? | Power
+impossible_137 | What is ultimate meaning? | Light
+impossible_138 | What does temptation reveal about Messiah? | Sinless
+impossible_139 | What is significance of Nazareth? | Unexpected
+impossible_140 | What do first disciples initiate? | New
+impossible_141 | What is core message of this phase? | Son
+impossible_142 | What is theological meaning of Incarnation? | God
+impossible_143 | What does Mary’s acceptance represent? | Divine
+impossible_144 | What does Joseph’s obedience show? | Faith
+impossible_145 | What does Bethlehem fulfill? | Messianic
+impossible_146 | What does star of Bethlehem imply? | Cosmic
+impossible_147 | What does Herod’s massacre show? | Resistance
+impossible_148 | What does flight to Egypt echo? | Israel
+impossible_149 | What does John represent prophetically? | Transition
+impossible_150 | What is hidden message of nativity? | God
+impossible_151 | What is ultimate meaning? | Salvation
+impossible_152 | What does Job ultimately reveal? | God
+impossible_153 | What do Psalms primarily express? | Relationship
+impossible_154 | What is Proverbs fundamentally? | Life
+impossible_155 | What is Ecclesiastes’ core message? | God
+impossible_156 | What does Song of Songs ultimately reflect? | Pure
+impossible_157 | What tested Job’s identity? | Loss
+impossible_158 | What do Psalms show about David? | Trust
+impossible_159 | What do Proverbs teach about life? | Choices
+impossible_160 | What is Ecclesiastes critique? | Human
+impossible_161 | What do wisdom books together show? | God
+impossible_162 | What defined Ezra’s mission? | Law
+impossible_163 | What defined Nehemiah’s mission? | Wall
+impossible_164 | What defined Esther’s role? | Deliverance
+impossible_165 | What was rebuilt first in Jerusalem? | Spiritual
+impossible_166 | What marked post-exile identity? | Renewed
+impossible_167 | What was the central theme? | Restoration
+impossible_168 | What connects Ezra, Nehemiah and Esther? | God
+impossible_169 | What caused the fall of Israel and Judah? | Covenant
+impossible_170 | What defined Assyria’s role? | Judgment
+impossible_171 | What defined Babylon’s role? | Judgment
+impossible_172 | What did Daniel prove? | Faith
+impossible_173 | What did fire test reveal? | God
+impossible_174 | What did lions’ den show? | God
+impossible_175 | What did exile accomplish spiritually? | Faith
+impossible_176 | What remained after exile started? | Remnant
+impossible_177 | What did Nebuchadnezzar learn? | God
+impossible_178 | What is central message of exile? | God
+impossible_179 | What defined Elijah’s ministry? | Fire
+impossible_180 | What defined Elisha’s ministry? | Miracles
+impossible_181 | What was Amos’s central message? | Justice
+impossible_182 | What was Hosea’s prophetic symbol? | Unfaithful
+impossible_183 | What was Isaiah’s greatest vision? | God
+impossible_184 | What did Micah foresee? | Messiah
+impossible_185 | What did Elijah prove on Carmel? | Yahweh
+impossible_186 | What did Elisha show through miracles? | God
+impossible_187 | What is prophetic core message? | Return
+impossible_188 | What connects all prophets? | Covenant
+impossible_189 | What defined Solomon’s early reign? | God
+impossible_190 | What was built as God's dwelling? | Temple
+impossible_191 | What caused Israel’s division ultimately? | Disobedience
+impossible_192 | What represented northern rebellion? | Golden
+impossible_193 | What remained faithful to David? | Judah
+impossible_194 | What did Solomon fail in later life? | Faithfulness
+impossible_195 | What did prophets confront? | Idolatry
+impossible_197 | What did God preserve in Judah? | Messianic
+impossible_198 | What is Solomon remembered for? | Wisdom
+impossible_199 | What defined Nehemiah’s mission? | Wall
+impossible_200 | What defined Esther’s role? | Deliverance
+impossible_201 | What was rebuilt first in Jerusalem? | Spiritual
+impossible_202 | What drove Nehemiah? | Prayer
+impossible_203 | What did Esther reveal about God? | Hidden
+impossible_204 | What is deepest meaning of Hebrews? | Christ
+impossible_205 | What does James represent ultimately? | Faith
+impossible_206 | What do Peter’s letters reveal? | Hope
+impossible_207 | What does John’s message unify? | Truth
+impossible_208 | What is Revelation ultimately? | Christ
+impossible_209 | What do seals, trumpets, and bowls show in Revelation? | Divine
+impossible_210 | What does Babylon represent deeply? | Human
+impossible_211 | What does New Jerusalem mean? | Restored
+impossible_212 | What is final outcome? | Redemption
+impossible_213 | What is ultimate message of Bible? | God
+impossible_214 | What is Romans deepest meaning? | Grace
+impossible_215 | What does Corinthians reveal spiritually? | Church
+impossible_216 | What is Galatians ultimate message? | Freedom
+impossible_217 | What does Ephesians describe ultimately? | Cosmic
+impossible_218 | What does Philippians teach deeply? | Joy
+impossible_219 | What does Colossians declare ultimately? | Christ
+impossible_220 | What do Thessalonians reveal ultimately? | Future
+impossible_222 | What is Philemon deepest meaning? | Human
+impossible_223 | What defines Paul’s message? | Grace
+impossible_224 | What is deepest meaning of Pentecost? | God
+impossible_225 | What does tongues of fire mean ultimately? | Divine
+impossible_226 | What does Stephen’s death represent? | Witness
+impossible_227 | What does Saul’s conversion reveal? | Grace
+impossible_228 | What does Acts expansion mean? | Kingdom
+impossible_229 | What does persecution reveal spiritually? | Truth
+impossible_230 | What does healing signify? | Creation
+impossible_231 | What is central theology of Acts? | Christ
+impossible_232 | What defines mission? | Kingdom
+impossible_233 | What is ultimate message? | Christ
+impossible_234 | What is Romans deepest meaning? | Grace
+impossible_235 | What does Corinthians reveal spiritually? | Church
+impossible_236 | What is Galatians ultimate message? | Freedom
+impossible_237 | What does Ephesians describe ultimately? | Cosmic
+impossible_238 | What does Philippians teach deeply? | Joy
+impossible_239 | What does Colossians declare ultimately? | Christ
+impossible_240 | What do Thessalonians reveal ultimately? | Future
+impossible_241 | What do pastoral letters ensure? | Apostolic
+impossible_242 | What is Philemon deepest meaning? | Human
+impossible_243 | What defines Paul’s message? | Grace
+impossible_244 | What is deepest meaning of Pentecost? | God
+impossible_245 | What does tongues of fire mean ultimately? | Divine
+impossible_246 | What does Stephen’s death represent? | Witness
+impossible_247 | What does Saul’s conversion reveal? | Grace
+impossible_248 | What does Acts expansion mean? | Kingdom
+impossible_249 | What does persecution reveal spiritually? | Truth
+impossible_250 | What does healing signify? | Creation
+impossible_251 | What is central theology of Acts? | Christ
+impossible_252 | What defines mission? | Kingdom
+impossible_253 | What is ultimate message? | Christ
+impossible_254 | What defines Saul’s reign? | Disobedience
+impossible_255 | What defines David’s strength? | Faith
+impossible_256 | What was Goliath defeated by? | Faith
+impossible_257 | What did God choose in David? | Heart
+impossible_258 | What did Saul lose completely? | Kingdom
+impossible_259 | What protected David during exile? | God
+impossible_260 | What unified Israel under David? | Covenant
+impossible_261 | What did David establish spiritually? | Worship
+impossible_262 | What was Saul’s final tragedy? | Death
+impossible_263 | What defined this era overall? | Kingship
+impossible_264 | What defined the time of the Judges? | Sin
+impossible_265 | What did Gideon prove? | God
+impossible_266 | What did Samson’s life show? | Strength
+impossible_267 | What did Ruth’s story show? | Redemption
+impossible_268 | What did Samuel bridge? | Judges
+impossible_269 | What defeated Midian? | God
+impossible_270 | What ended Samson's mission? | Death
+impossible_271 | What did God use Ruth for? | Messianic
+impossible_272 | What did Samuel warn Israel about? | Kingship
+impossible_273 | What defined Israel at this time? | Need
+impossible_274 | What defined Moses' mission? | Israel
+impossible_275 | What defeated Pharaoh? | God
+impossible_276 | What opened the Red Sea? | God
+impossible_277 | What sustained Israel in desert? | Manna
+impossible_278 | What defined Sinai moment? | Divine
+impossible_279 | What broke Egypt's power? | Plagues
+impossible_280 | What guided Israel's journey? | God
+impossible_281 | What law was given? | Ten
+impossible_282 | What marked Israel's identity? | Covenant
+impossible_283 | What completed the Exodus? | Freedom
+impossible_284 | What defined Joseph’s life? | Prison
+impossible_285 | What did Joseph overcome? | Betrayal
+impossible_286 | What guided Joseph? | God
+impossible_287 | What did Joseph represent in Egypt? | Provision
+impossible_288 | What did Joseph interpret? | Dreams
+impossible_289 | What did Joseph’s leadership prevent? | Starvation
+impossible_290 | What did Joseph store? | Food
+impossible_291 | What did Joseph’s brothers learn? | Forgiveness
+impossible_292 | What did Joseph’s story reveal? | God
+impossible_293 | What did Joseph become in salvation history? | Israel

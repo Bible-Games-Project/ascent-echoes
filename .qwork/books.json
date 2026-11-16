@@ -1,0 +1,513 @@
+[
+ {
+  "slug": "genesis",
+  "name": "Genesis",
+  "chapters": 50,
+  "verses": 1533,
+  "alloc": 424
+ },
+ {
+  "slug": "exodus",
+  "name": "Exodus",
+  "chapters": 40,
+  "verses": 1213,
+  "alloc": 353
+ },
+ {
+  "slug": "leviticus",
+  "name": "Leviticus",
+  "chapters": 27,
+  "verses": 859,
+  "alloc": 195
+ },
+ {
+  "slug": "numbers",
+  "name": "Numbers",
+  "chapters": 36,
+  "verses": 1288,
+  "alloc": 264
+ },
+ {
+  "slug": "deuteronomy",
+  "name": "Deuteronomy",
+  "chapters": 34,
+  "verses": 959,
+  "alloc": 245
+ },
+ {
+  "slug": "joshua",
+  "name": "Joshua",
+  "chapters": 24,
+  "verses": 658,
+  "alloc": 215
+ },
+ {
+  "slug": "judges",
+  "name": "Judges",
+  "chapters": 21,
+  "verses": 618,
+  "alloc": 217
+ },
+ {
+  "slug": "ruth",
+  "name": "Ruth",
+  "chapters": 4,
+  "verses": 85,
+  "alloc": 69
+ },
+ {
+  "slug": "1-samuel",
+  "name": "1 Samuel",
+  "chapters": 31,
+  "verses": 810,
+  "alloc": 266
+ },
+ {
+  "slug": "2-samuel",
+  "name": "2 Samuel",
+  "chapters": 24,
+  "verses": 695,
+  "alloc": 233
+ },
+ {
+  "slug": "1-kings",
+  "name": "1 Kings",
+  "chapters": 22,
+  "verses": 816,
+  "alloc": 267
+ },
+ {
+  "slug": "2-kings",
+  "name": "2 Kings",
+  "chapters": 25,
+  "verses": 719,
+  "alloc": 237
+ },
+ {
+  "slug": "1-chronicles",
+  "name": "1 Chronicles",
+  "chapters": 29,
+  "verses": 942,
+  "alloc": 206
+ },
+ {
+  "slug": "2-chronicles",
+  "name": "2 Chronicles",
+  "chapters": 36,
+  "verses": 822,
+  "alloc": 224
+ },
+ {
+  "slug": "ezra",
+  "name": "Ezra",
+  "chapters": 10,
+  "verses": 280,
+  "alloc": 117
+ },
+ {
+  "slug": "nehemiah",
+  "name": "Nehemiah",
+  "chapters": 13,
+  "verses": 406,
+  "alloc": 147
+ },
+ {
+  "slug": "tobit",
+  "name": "Tobit",
+  "chapters": 14,
+  "verses": 244,
+  "alloc": 130
+ },
+ {
+  "slug": "judith",
+  "name": "Judith",
+  "chapters": 16,
+  "verses": 340,
+  "alloc": 151
+ },
+ {
+  "slug": "esther",
+  "name": "Esther",
+  "chapters": 10,
+  "verses": 270,
+  "alloc": 132
+ },
+ {
+  "slug": "1-maccabees",
+  "name": "1 Maccabees",
+  "chapters": 16,
+  "verses": 924,
+  "alloc": 240
+ },
+ {
+  "slug": "2-maccabees",
+  "name": "2 Maccabees",
+  "chapters": 15,
+  "verses": 555,
+  "alloc": 177
+ },
+ {
+  "slug": "job",
+  "name": "Job",
+  "chapters": 42,
+  "verses": 1070,
+  "alloc": 262
+ },
+ {
+  "slug": "psalms",
+  "name": "Psalms",
+  "chapters": 150,
+  "verses": 2461,
+  "alloc": 346
+ },
+ {
+  "slug": "proverbs",
+  "name": "Proverbs",
+  "chapters": 31,
+  "verses": 915,
+  "alloc": 191
+ },
+ {
+  "slug": "ecclesiastes",
+  "name": "Ecclesiastes",
+  "chapters": 12,
+  "verses": 222,
+  "alloc": 102
+ },
+ {
+  "slug": "song-of-songs",
+  "name": "Song of Songs",
+  "chapters": 8,
+  "verses": 117,
+  "alloc": 69
+ },
+ {
+  "slug": "wisdom",
+  "name": "Wisdom",
+  "chapters": 19,
+  "verses": 435,
+  "alloc": 153
+ },
+ {
+  "slug": "sirach",
+  "name": "Sirach",
+  "chapters": 51,
+  "verses": 1390,
+  "alloc": 245
+ },
+ {
+  "slug": "isaiah",
+  "name": "Isaiah",
+  "chapters": 66,
+  "verses": 1292,
+  "alloc": 293
+ },
+ {
+  "slug": "jeremiah",
+  "name": "Jeremiah",
+  "chapters": 52,
+  "verses": 1364,
+  "alloc": 303
+ },
+ {
+  "slug": "lamentations",
+  "name": "Lamentations",
+  "chapters": 5,
+  "verses": 154,
+  "alloc": 82
+ },
+ {
+  "slug": "baruch",
+  "name": "Baruch",
+  "chapters": 6,
+  "verses": 213,
+  "alloc": 99
+ },
+ {
+  "slug": "ezekiel",
+  "name": "Ezekiel",
+  "chapters": 48,
+  "verses": 1273,
+  "alloc": 291
+ },
+ {
+  "slug": "daniel",
+  "name": "Daniel",
+  "chapters": 14,
+  "verses": 424,
+  "alloc": 180
+ },
+ {
+  "slug": "hosea",
+  "name": "Hosea",
+  "chapters": 14,
+  "verses": 197,
+  "alloc": 95
+ },
+ {
+  "slug": "joel",
+  "name": "Joel",
+  "chapters": 4,
+  "verses": 73,
+  "alloc": 52
+ },
+ {
+  "slug": "amos",
+  "name": "Amos",
+  "chapters": 9,
+  "verses": 146,
+  "alloc": 79
+ },
+ {
+  "slug": "obadiah",
+  "name": "Obadiah",
+  "chapters": 1,
+  "verses": 21,
+  "alloc": 25
+ },
+ {
+  "slug": "jonah",
+  "name": "Jonah",
+  "chapters": 4,
+  "verses": 48,
+  "alloc": 53
+ },
+ {
+  "slug": "micah",
+  "name": "Micah",
+  "chapters": 7,
+  "verses": 105,
+  "alloc": 65
+ },
+ {
+  "slug": "nahum",
+  "name": "Nahum",
+  "chapters": 3,
+  "verses": 47,
+  "alloc": 40
+ },
+ {
+  "slug": "habakkuk",
+  "name": "Habakkuk",
+  "chapters": 3,
+  "verses": 56,
+  "alloc": 45
+ },
+ {
+  "slug": "zephaniah",
+  "name": "Zephaniah",
+  "chapters": 3,
+  "verses": 53,
+  "alloc": 43
+ },
+ {
+  "slug": "haggai",
+  "name": "Haggai",
+  "chapters": 2,
+  "verses": 38,
+  "alloc": 35
+ },
+ {
+  "slug": "zechariah",
+  "name": "Zechariah",
+  "chapters": 14,
+  "verses": 211,
+  "alloc": 99
+ },
+ {
+  "slug": "malachi",
+  "name": "Malachi",
+  "chapters": 3,
+  "verses": 55,
+  "alloc": 44
+ },
+ {
+  "slug": "matthew",
+  "name": "Matthew",
+  "chapters": 28,
+  "verses": 1071,
+  "alloc": 341
+ },
+ {
+  "slug": "mark",
+  "name": "Mark",
+  "chapters": 16,
+  "verses": 678,
+  "alloc": 259
+ },
+ {
+  "slug": "luke",
+  "name": "Luke",
+  "chapters": 24,
+  "verses": 1151,
+  "alloc": 356
+ },
+ {
+  "slug": "john",
+  "name": "John",
+  "chapters": 21,
+  "verses": 879,
+  "alloc": 303
+ },
+ {
+  "slug": "acts",
+  "name": "Acts",
+  "chapters": 28,
+  "verses": 1007,
+  "alloc": 316
+ },
+ {
+  "slug": "romans",
+  "name": "Romans",
+  "chapters": 16,
+  "verses": 433,
+  "alloc": 152
+ },
+ {
+  "slug": "1-corinthians",
+  "name": "1 Corinthians",
+  "chapters": 16,
+  "verses": 437,
+  "alloc": 153
+ },
+ {
+  "slug": "2-corinthians",
+  "name": "2 Corinthians",
+  "chapters": 13,
+  "verses": 257,
+  "alloc": 111
+ },
+ {
+  "slug": "galatians",
+  "name": "Galatians",
+  "chapters": 6,
+  "verses": 149,
+  "alloc": 80
+ },
+ {
+  "slug": "ephesians",
+  "name": "Ephesians",
+  "chapters": 6,
+  "verses": 155,
+  "alloc": 82
+ },
+ {
+  "slug": "philippians",
+  "name": "Philippians",
+  "chapters": 4,
+  "verses": 104,
+  "alloc": 65
+ },
+ {
+  "slug": "colossians",
+  "name": "Colossians",
+  "chapters": 4,
+  "verses": 95,
+  "alloc": 61
+ },
+ {
+  "slug": "1-thessalonians",
+  "name": "1 Thessalonians",
+  "chapters": 5,
+  "verses": 89,
+  "alloc": 59
+ },
+ {
+  "slug": "2-thessalonians",
+  "name": "2 Thessalonians",
+  "chapters": 3,
+  "verses": 47,
+  "alloc": 40
+ },
+ {
+  "slug": "1-timothy",
+  "name": "1 Timothy",
+  "chapters": 6,
+  "verses": 113,
+  "alloc": 68
+ },
+ {
+  "slug": "2-timothy",
+  "name": "2 Timothy",
+  "chapters": 4,
+  "verses": 83,
+  "alloc": 57
+ },
+ {
+  "slug": "titus",
+  "name": "Titus",
+  "chapters": 3,
+  "verses": 46,
+  "alloc": 40
+ },
+ {
+  "slug": "philemon",
+  "name": "Philemon",
+  "chapters": 1,
+  "verses": 25,
+  "alloc": 28
+ },
+ {
+  "slug": "hebrews",
+  "name": "Hebrews",
+  "chapters": 13,
+  "verses": 303,
+  "alloc": 123
+ },
+ {
+  "slug": "james",
+  "name": "James",
+  "chapters": 5,
+  "verses": 108,
+  "alloc": 66
+ },
+ {
+  "slug": "1-peter",
+  "name": "1 Peter",
+  "chapters": 5,
+  "verses": 105,
+  "alloc": 65
+ },
+ {
+  "slug": "2-peter",
+  "name": "2 Peter",
+  "chapters": 3,
+  "verses": 61,
+  "alloc": 47
+ },
+ {
+  "slug": "1-john",
+  "name": "1 John",
+  "chapters": 5,
+  "verses": 105,
+  "alloc": 65
+ },
+ {
+  "slug": "2-john",
+  "name": "2 John",
+  "chapters": 1,
+  "verses": 13,
+  "alloc": 19
+ },
+ {
+  "slug": "3-john",
+  "name": "3 John",
+  "chapters": 1,
+  "verses": 15,
+  "alloc": 20
+ },
+ {
+  "slug": "jude",
+  "name": "Jude",
+  "chapters": 1,
+  "verses": 25,
+  "alloc": 28
+ },
+ {
+  "slug": "revelation",
+  "name": "Revelation",
+  "chapters": 22,
+  "verses": 404,
+  "alloc": 146
+ }
+]

@@ -1,0 +1,25 @@
+[
+ {
+  "kind": "review",
+  "id": "review-01",
+  "src": ".qwork/existing/batch-01.json",
+  "count": 70,
+  "file": ".qwork/out/review-01.json"
+ },
+ {
+  "kind": "gen",
+  "id": "gen-genesis-1",
+  "book": "genesis",
+  "bookName": "Genesis",
+  "range": "chapters 1-7",
+  "count": 61,
+  "split": {
+   "easy": 16,
+   "medium": 15,
+   "hard": 12,
+   "expert": 9,
+   "impossible": 9
+  },
+  "file": ".qwork/out/gen-genesis-1.json"
+ }
+]

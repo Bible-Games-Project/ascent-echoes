@@ -1,0 +1,4884 @@
+{
+ "questions": [
+  {
+   "id": "gen-genesis-1-01",
+   "book": "genesis",
+   "difficulty": "easy",
+   "ref": "Genesis 1:1",
+   "text": {
+    "en": [
+     "In Genesis 1:1, God created the heavens and what else?",
+     "Earth",
+     "Sea",
+     "Light"
+    ],
+    "es": [
+     "¿Según Génesis 1,1, Dios creó los cielos y qué más?",
+     "Tierra",
+     "Mar",
+     "Luz"
+    ],
+    "pt": [
+     "Segundo Gênesis 1,1, Deus criou o céu e o que mais?",
+     "Terra",
+     "Mar",
+     "Luz"
+    ],
+    "fr": [
+     "Selon Genèse 1,1, Dieu créa le ciel et quoi d'autre ?",
+     "Terre",
+     "Mer",
+     "Lumière"
+    ],
+    "de": [
+     "Was erschuf Gott laut Genesis 1,1 außer dem Himmel?",
+     "Erde",
+     "Meer",
+     "Licht"
+    ],
+    "it": [
+     "Secondo Genesi 1,1, Dio creò il cielo e che cos'altro?",
+     "Terra",
+     "Mare",
+     "Luce"
+    ],
+    "pl": [
+     "Według Księgi Rodzaju 1,1 Bóg stworzył niebo i co jeszcze?",
+     "Ziemię",
+     "Morze",
+     "Światło"
+    ],
+    "ru": [
+     "Согласно Бытию 1:1, Бог сотворил небо и что ещё?",
+     "Землю",
+     "Море",
+     "Свет"
+    ],
+    "tr": [
+     "Yaratılış 1:1'e göre Tanrı göğü ve başka neyi yarattı?",
+     "Yeri",
+     "Denizi",
+     "Işığı"
+    ],
+    "ja": [
+     "創世記1章1節で、神は天と何を創造しましたか？",
+     "地",
+     "海",
+     "光"
+    ],
+    "ko": [
+     "창세기 1장 1절에서 하느님께서 하늘과 함께 창조하신 것은?",
+     "땅",
+     "바다",
+     "빛"
+    ],
+    "ar": [
+     "بحسب سفر التكوين 1: 1، خلق الله السماوات وماذا أيضًا؟",
+     "الأرض",
+     "البحر",
+     "النور"
+    ]
+   }
+  },
+  {
+   "id": "gen-genesis-1-02",
+   "book": "genesis",
+   "difficulty": "easy",
+   "ref": "Genesis 1:26-31",
+   "text": {
+    "en": [
+     "On which day of creation did God make man?",
+     "6",
+     "3",
+     "7"
+    ],
+    "es": [
+     "¿En qué día de la creación hizo Dios al hombre?",
+     "6",
+     "3",
+     "7"
+    ],
+    "pt": [
+     "Em que dia da criação Deus fez o homem?",
+     "6",
+     "3",
+     "7"
+    ],
+    "fr": [
+     "Quel jour de la création Dieu fit-il l'homme ?",
+     "6",
+     "3",
+     "7"
+    ],
+    "de": [
+     "An welchem Schöpfungstag erschuf Gott den Menschen?",
+     "6",
+     "3",
+     "7"
+    ],
+    "it": [
+     "In quale giorno della creazione Dio fece l'uomo?",
+     "6",
+     "3",
+     "7"
+    ],
+    "pl": [
+     "Którego dnia stworzenia Bóg uczynił człowieka?",
+     "6",
+     "3",
+     "7"
+    ],
+    "ru": [
+     "В какой день творения Бог создал человека?",
+     "6",
+     "3",
+     "7"
+    ],
+    "tr": [
+     "Tanrı insanı yaratılışın kaçıncı gününde yarattı?",
+     "6",
+     "3",
+     "7"
+    ],
+    "ja": [
+     "神が人を造ったのは天地創造の何日目ですか？",
+     "6",
+     "3",
+     "7"
+    ],
+    "ko": [
+     "하느님께서는 몇째 날에 사람을 창조하셨습니까?",
+     "6",
+     "3",
+     "7"
+    ],
+    "ar": [
+     "في أي يوم من أيام الخلق خلق الله الإنسان؟",
+     "6",
+     "3",
+     "7"
+    ]
+   }
+  },
+  {
+   "id": "gen-genesis-1-03",
+   "book": "genesis",
+   "difficulty": "easy",
+   "ref": "Genesis 2:2",
+   "text": {
+    "en": [
+     "On which day did God rest from all his work?",
+     "7",
+     "1",
+     "10"
+    ],
+    "es": [
+     "¿En qué día descansó Dios de toda su obra?",
+     "7",
+     "1",
+     "10"
+    ],
+    "pt": [
+     "Em que dia Deus descansou de toda a sua obra?",
+     "7",
+     "1",
+     "10"
+    ],
+    "fr": [
+     "Quel jour Dieu se reposa-t-il de toute son œuvre ?",
+     "7",
+     "1",
+     "10"
+    ],
+    "de": [
+     "An welchem Tag ruhte Gott von seinem ganzen Werk?",
+     "7",
+     "1",
+     "10"
+    ],
+    "it": [
+     "In quale giorno Dio si riposò da tutto il suo lavoro?",
+     "7",
+     "1",
+     "10"
+    ],
+    "pl": [
+     "Którego dnia Bóg odpoczął po całej swej pracy?",
+     "7",
+     "1",
+     "10"
+    ],
+    "ru": [
+     "В какой день Бог почил от всех дел Своих?",
+     "7",
+     "1",
+     "10"
+    ],
+    "tr": [
+     "Tanrı kaçıncı gün bütün işinden dinlendi?",
+     "7",
+     "1",
+     "10"
+    ],
+    "ja": [
+     "神がすべての業を終えて休んだのは何日目ですか？",
+     "7",
+     "1",
+     "10"
+    ],
+    "ko": [
+     "하느님께서는 몇째 날에 모든 일을 마치고 쉬셨습니까?",
+     "7",
+     "1",
+     "10"
+    ],
+    "ar": [
+     "في أي يوم استراح الله من جميع عمله؟",
+     "7",
+     "1",
+     "10"
+    ]
+   }
+  },
+  {
+   "id": "gen-genesis-1-04",
+   "book": "genesis",
+   "difficulty": "medium",
+   "ref": "Genesis 1:14-19",
+   "text": {
+    "en": [
+     "On which day did God make the sun and moon?",
+     "4",
+     "1",
+     "2"
+    ],
+    "es": [
+     "¿En qué día hizo Dios el sol y la luna?",
+     "4",
+     "1",
+     "2"
+    ],
+    "pt": [
+     "Em que dia Deus fez o sol e a lua?",
+     "4",
+     "1",
+     "2"
+    ],
+    "fr": [
+     "Quel jour Dieu fit-il le soleil et la lune ?",
+     "4",
+     "1",
+     "2"
+    ],
+    "de": [
+     "An welchem Tag machte Gott Sonne und Mond?",
+     "4",
+     "1",
+     "2"
+    ],
+    "it": [
+     "In quale giorno Dio fece il sole e la luna?",
+     "4",
+     "1",
+     "2"
+    ],
+    "pl": [
+     "Którego dnia Bóg uczynił słońce i księżyc?",
+     "4",
+     "1",
+     "2"
+    ],
+    "ru": [
+     "В какой день Бог создал солнце и луну?",
+     "4",
+     "1",
+     "2"
+    ],
+    "tr": [
+     "Tanrı güneşi ve ayı kaçıncı gün yarattı?",
+     "4",
+     "1",
+     "2"
+    ],
+    "ja": [
+     "神が太陽と月を造ったのは何日目ですか？",
+     "4",
+     "1",
+     "2"
+    ],
+    "ko": [
+     "하느님께서는 몇째 날에 해와 달을 만드셨습니까?",
+     "4",
+     "1",
+     "2"
+    ],
+    "ar": [
+     "في أي يوم صنع الله الشمس والقمر؟",
+     "4",
+     "1",
+     "2"
+    ]
+   }
+  },
+  {
+   "id": "gen-genesis-1-05",
+   "book": "genesis",
+   "difficulty": "medium",
+   "ref": "Genesis 1:5",
+   "text": {
+    "en": [
+     "What name did God give to the darkness?",
+     "Night",
+     "Shadow",
+     "Abyss"
+    ],
+    "es": [
+     "¿Qué nombre dio Dios a las tinieblas?",
+     "Noche",
+     "Sombra",
+     "Abismo"
+    ],
+    "pt": [
+     "Que nome Deus deu às trevas?",
+     "Noite",
+     "Sombra",
+     "Abismo"
+    ],
+    "fr": [
+     "Quel nom Dieu donna-t-il aux ténèbres ?",
+     "Nuit",
+     "Ombre",
+     "Abîme"
+    ],
+    "de": [
+     "Welchen Namen gab Gott der Finsternis?",
+     "Nacht",
+     "Schatten",
+     "Abgrund"
+    ],
+    "it": [
+     "Che nome diede Dio alle tenebre?",
+     "Notte",
+     "Ombra",
+     "Abisso"
+    ],
+    "pl": [
+     "Jak Bóg nazwał ciemność?",
+     "Nocą",
+     "Cieniem",
+     "Otchłanią"
+    ],
+    "ru": [
+     "Как Бог назвал тьму?",
+     "Ночью",
+     "Тенью",
+     "Бездной"
+    ],
+    "tr": [
+     "Tanrı karanlığa ne ad verdi?",
+     "Gece",
+     "Gölge",
+     "Uçurum"
+    ],
+    "ja": [
+     "神は闇を何と呼びましたか？",
+     "夜",
+     "影",
+     "淵"
+    ],
+    "ko": [
+     "하느님께서는 어둠을 무엇이라 부르셨습니까?",
+     "밤",
+     "그림자",
+     "심연"
+    ],
+    "ar": [
+     "بماذا سمّى الله الظلام؟",
+     "ليلا",
+     "ظلا",
+     "غمرا"
+    ]
+   }
+  },
+  {
+   "id": "gen-genesis-1-06",
+   "book": "genesis",
+   "difficulty": "medium",
+   "ref": "Genesis 1:16",
+   "text": {
+    "en": [
+     "Besides the two great lights, what else did God make that day?",
+     "Stars",
+     "Angels",
+     "Clouds"
+    ],
+    "es": [
+     "¿Qué más hizo Dios aquel día, además de los dos grandes luceros?",
+     "Estrellas",
+     "Ángeles",
+     "Nubes"
+    ],
+    "pt": [
+     "Além dos dois grandes luzeiros, o que mais Deus fez naquele dia?",
+     "Estrelas",
+     "Anjos",
+     "Nuvens"
+    ],
+    "fr": [
+     "Outre les deux grands luminaires, que fit encore Dieu ce jour-là ?",
+     "Étoiles",
+     "Anges",
+     "Nuages"
+    ],
+    "de": [
+     "Was machte Gott an jenem Tag außer den zwei großen Lichtern noch?",
+     "Sterne",
+     "Engel",
+     "Wolken"
+    ],
+    "it": [
+     "Oltre alle due grandi fonti di luce, che cos'altro fece Dio quel giorno?",
+     "Stelle",
+     "Angeli",
+     "Nuvole"
+    ],
+    "pl": [
+     "Co jeszcze uczynił Bóg tego dnia oprócz dwóch dużych ciał jaśniejących?",
+     "Gwiazdy",
+     "Aniołów",
+     "Chmury"
+    ],
+    "ru": [
+     "Что ещё создал Бог в тот день, кроме двух великих светил?",
+     "Звезды",
+     "Ангелов",
+     "Облака"
+    ],
+    "tr": [
+     "Tanrı o gün iki büyük ışıktan başka neyi yarattı?",
+     "Yıldızları",
+     "Melekleri",
+     "Bulutları"
+    ],
+    "ja": [
+     "その日、神は二つの大きな光る物のほかに何を造りましたか？",
+     "星",
+     "天使",
+     "雲"
+    ],
+    "ko": [
+     "그날 하느님께서 큰 빛물체 두 개 말고 또 만드신 것은?",
+     "별",
+     "천사",
+     "구름"
+    ],
+    "ar": [
+     "ماذا صنع الله أيضًا في ذلك اليوم مع النيّرين العظيمين؟",
+     "النجوم",
+     "الملائكة",
+     "الغيوم"
+    ]
+   }
+  },
+  {
+   "id": "gen-genesis-1-07",
+   "book": "genesis",
+   "difficulty": "easy",
+   "ref": "Genesis 2:7",
+   "text": {
+    "en": [
+     "From what did God form the first man?",
+     "Dust",
+     "Stone",
+     "Water"
+    ],
+    "es": [
+     "¿De qué formó Dios al primer hombre?",
+     "Polvo",
+     "Piedra",
+     "Agua"
+    ],
+    "pt": [
+     "De que Deus formou o primeiro homem?",
+     "Pó",
+     "Pedra",
+     "Água"
+    ],
+    "fr": [
+     "À partir de quoi Dieu modela-t-il le premier homme ?",
+     "Poussière",
+     "Pierre",
+     "Eau"
+    ],
+    "de": [
+     "Woraus formte Gott den ersten Menschen?",
+     "Staub",
+     "Stein",
+     "Wasser"
+    ],
+    "it": [
+     "Con che cosa Dio plasmò il primo uomo?",
+     "Polvere",
+     "Pietra",
+     "Acqua"
+    ],
+    "pl": [
+     "Z czego Bóg ulepił pierwszego człowieka?",
+     "Prochu",
+     "Kamienia",
+     "Wody"
+    ],
+    "ru": [
+     "Из чего Бог создал первого человека?",
+     "Праха",
+     "Камня",
+     "Воды"
+    ],
+    "tr": [
+     "Tanrı ilk insanı hangi maddeden biçimlendirdi?",
+     "Toprak",
+     "Taş",
+     "Su"
+    ],
+    "ja": [
+     "神は最初の人を何から形づくりましたか？",
+     "塵",
+     "石",
+     "水"
+    ],
+    "ko": [
+     "하느님께서는 첫 사람을 무엇으로 빚으셨습니까?",
+     "먼지",
+     "돌",
+     "물"
+    ],
+    "ar": [
+     "من أي شيء جبل الله الإنسان الأول؟",
+     "تراب",
+     "حجر",
+     "ماء"
+    ]
+   }
+  },
+  {
+   "id": "gen-genesis-1-08",
+   "book": "genesis",
+   "difficulty": "hard",
+   "ref": "Genesis 2:8",
+   "text": {
+    "en": [
+     "In which direction did God plant the garden in Eden?",
+     "East",
+     "West",
+     "North"
+    ],
+    "es": [
+     "¿Hacia dónde plantó Dios el jardín en Edén?",
+     "Oriente",
+     "Occidente",
+     "Norte"
+    ],
+    "pt": [
+     "Em que direção Deus plantou o jardim no Éden?",
+     "Oriente",
+     "Ocidente",
+     "Norte"
+    ],
+    "fr": [
+     "De quel côté Dieu planta-t-il le jardin en Éden ?",
+     "Orient",
+     "Occident",
+     "Nord"
+    ],
+    "de": [
+     "In welcher Himmelsrichtung legte Gott den Garten in Eden an?",
+     "Osten",
+     "Westen",
+     "Norden"
+    ],
+    "it": [
+     "In quale direzione Dio piantò il giardino in Eden?",
+     "Oriente",
+     "Occidente",
+     "Nord"
+    ],
+    "pl": [
+     "W jakiej stronie świata Bóg zasadził ogród w Edenie?",
+     "Wschód",
+     "Zachód",
+     "Północ"
+    ],
+    "ru": [
+     "В какой стороне Бог насадил рай в Едеме?",
+     "Восток",
+     "Запад",
+     "Север"
+    ],
+    "tr": [
+     "Tanrı Aden'deki bahçeyi hangi yönde dikti?",
+     "Doğu",
+     "Batı",
+     "Kuzey"
+    ],
+    "ja": [
+     "神が園を設けたエデンはどの方角にありましたか？",
+     "東",
+     "西",
+     "北"
+    ],
+    "ko": [
+     "하느님께서 동산을 일구신 에덴은 어느 쪽에 있었습니까?",
+     "동쪽",
+     "서쪽",
+     "북쪽"
+    ],
+    "ar": [
+     "في أي جهة غرس الله الجنة في عدن؟",
+     "الشرق",
+     "الغرب",
+     "الشمال"
+    ]
+   }
+  },
+  {
+   "id": "gen-genesis-1-09",
+   "book": "genesis",
+   "difficulty": "medium",
+   "ref": "Genesis 2:10",
+   "text": {
+    "en": [
+     "Into how many rivers did the river of Eden divide?",
+     "4",
+     "3",
+     "7"
+    ],
+    "es": [
+     "¿En cuántos brazos se dividía el río del Edén?",
+     "4",
+     "3",
+     "7"
+    ],
+    "pt": [
+     "Em quantos braços se dividia o rio do Éden?",
+     "4",
+     "3",
+     "7"
+    ],
+    "fr": [
+     "En combien de bras se divisait le fleuve de l'Éden ?",
+     "4",
+     "3",
+     "7"
+    ],
+    "de": [
+     "In wie viele Arme teilte sich der Strom von Eden?",
+     "4",
+     "3",
+     "7"
+    ],
+    "it": [
+     "In quanti corsi si divideva il fiume dell'Eden?",
+     "4",
+     "3",
+     "7"
+    ],
+    "pl": [
+     "Na ile ramion dzieliła się rzeka z Edenu?",
+     "4",
+     "3",
+     "7"
+    ],
+    "ru": [
+     "На сколько рек разделялась река из Едема?",
+     "4",
+     "3",
+     "7"
+    ],
+    "tr": [
+     "Aden'den çıkan ırmak kaç kola ayrılıyordu?",
+     "4",
+     "3",
+     "7"
+    ],
+    "ja": [
+     "エデンから流れ出た川はいくつに分かれましたか？",
+     "4",
+     "3",
+     "7"
+    ],
+    "ko": [
+     "에덴에서 흘러나온 강은 몇 줄기로 갈라졌습니까?",
+     "4",
+     "3",
+     "7"
+    ],
+    "ar": [
+     "إلى كم فرعًا انقسم نهر عدن؟",
+     "4",
+     "3",
+     "7"
+    ]
+   }
+  },
+  {
+   "id": "gen-genesis-1-10",
+   "book": "genesis",
+   "difficulty": "hard",
+   "ref": "Genesis 2:14",
+   "text": {
+    "en": [
+     "Which of these rivers is named as a river of Eden?",
+     "Euphrates",
+     "Jordan",
+     "Nile"
+    ],
+    "es": [
+     "¿Cuál de estos ríos se nombra entre los ríos del Edén?",
+     "Éufrates",
+     "Jordán",
+     "Nilo"
+    ],
+    "pt": [
+     "Qual destes rios é citado entre os rios do Éden?",
+     "Eufrates",
+     "Jordão",
+     "Nilo"
+    ],
+    "fr": [
+     "Lequel de ces fleuves est nommé parmi les fleuves de l'Éden ?",
+     "Euphrate",
+     "Jourdain",
+     "Nil"
+    ],
+    "de": [
+     "Welcher dieser Flüsse wird unter den Strömen von Eden genannt?",
+     "Eufrat",
+     "Jordan",
+     "Nil"
+    ],
+    "it": [
+     "Quale di questi fiumi è nominato tra i fiumi dell'Eden?",
+     "Eufrate",
+     "Giordano",
+     "Nilo"
+    ],
+    "pl": [
+     "Która z tych rzek jest wymieniona wśród rzek Edenu?",
+     "Eufrat",
+     "Jordan",
+     "Nil"
+    ],
+    "ru": [
+     "Какая из этих рек названа среди рек Едема?",
+     "Евфрат",
+     "Иордан",
+     "Нил"
+    ],
+    "tr": [
+     "Bu ırmaklardan hangisi Aden'in ırmakları arasında anılır?",
+     "Fırat",
+     "Şeria",
+     "Nil"
+    ],
+    "ja": [
+     "エデンの川として名が挙げられているのはどれですか？",
+     "ユーフラテス",
+     "ヨルダン",
+     "ナイル"
+    ],
+    "ko": [
+     "에덴의 강으로 이름이 나오는 것은 어느 강입니까?",
+     "유프라테스",
+     "요르단",
+     "나일"
+    ],
+    "ar": [
+     "أي هذه الأنهار مذكور بين أنهار عدن؟",
+     "الفرات",
+     "الأردن",
+     "النيل"
+    ]
+   }
+  },
+  {
+   "id": "gen-genesis-1-11",
+   "book": "genesis",
+   "difficulty": "impossible",
+   "ref": "Genesis 2:11",
+   "text": {
+    "en": [
+     "Which river of Eden flowed around the land of Havilah?",
+     "Pishon",
+     "Gihon",
+     "Jordan"
+    ],
+    "es": [
+     "¿Qué río del Edén rodeaba la tierra de Javilá?",
+     "Pisón",
+     "Guijón",
+     "Jordán"
+    ],
+    "pt": [
+     "Que rio do Éden contornava a terra de Hévila?",
+     "Fison",
+     "Geon",
+     "Jordão"
+    ],
+    "fr": [
+     "Quel fleuve de l'Éden entourait le pays de Havila ?",
+     "Pishôn",
+     "Gihôn",
+     "Jourdain"
+    ],
+    "de": [
+     "Welcher Strom von Eden umfloss das Land Hawila?",
+     "Pischon",
+     "Gihon",
+     "Jordan"
+    ],
+    "it": [
+     "Quale fiume dell'Eden scorreva intorno alla terra di Avìla?",
+     "Pison",
+     "Ghicon",
+     "Giordano"
+    ],
+    "pl": [
+     "Która rzeka Edenu okrążała krainę Chawila?",
+     "Piszon",
+     "Gichon",
+     "Jordan"
+    ],
+    "ru": [
+     "Какая река Едема обтекала землю Хавила?",
+     "Фисон",
+     "Гихон",
+     "Иордан"
+    ],
+    "tr": [
+     "Aden'in hangi ırmağı Havila topraklarını dolaşıyordu?",
+     "Pişon",
+     "Gihon",
+     "Şeria"
+    ],
+    "ja": [
+     "ハビラ全土を巡っていたエデンの川はどれですか？",
+     "ピション",
+     "ギホン",
+     "ヨルダン"
+    ],
+    "ko": [
+     "하윌라 온 땅을 돌아 흐르던 에덴의 강은 무엇입니까?",
+     "피손",
+     "기혼",
+     "요르단"
+    ],
+    "ar": [
+     "أي نهر من أنهار عدن كان يحيط بأرض الحويلة؟",
+     "فيشون",
+     "جيحون",
+     "الأردن"
+    ]
+   }
+  },
+  {
+   "id": "gen-genesis-1-12",
+   "book": "genesis",
+   "difficulty": "medium",
+   "ref": "Genesis 2:19-20",
+   "text": {
+    "en": [
+     "What did Adam give to every living creature?",
+     "Names",
+     "Food",
+     "Water"
+    ],
+    "es": [
+     "¿Qué dio Adán a cada ser viviente?",
+     "Nombre",
+     "Comida",
+     "Agua"
+    ],
+    "pt": [
+     "O que Adão deu a cada ser vivo?",
+     "Nome",
+     "Comida",
+     "Água"
+    ],
+    "fr": [
+     "Que donna Adam à chaque être vivant ?",
+     "Nom",
+     "Nourriture",
+     "Eau"
+    ],
+    "de": [
+     "Was gab Adam jedem Lebewesen?",
+     "Namen",
+     "Nahrung",
+     "Wasser"
+    ],
+    "it": [
+     "Che cosa diede Adamo a ogni essere vivente?",
+     "Nome",
+     "Cibo",
+     "Acqua"
+    ],
+    "pl": [
+     "Co Adam dał każdemu żywemu stworzeniu?",
+     "Nazwę",
+     "Pokarm",
+     "Wodę"
+    ],
+    "ru": [
+     "Что Адам дал каждому живому существу?",
+     "Имя",
+     "Пищу",
+     "Воду"
+    ],
+    "tr": [
+     "Âdem her canlıya ne verdi?",
+     "Ad",
+     "Yiyecek",
+     "Su"
+    ],
+    "ja": [
+     "アダムはすべての生き物に何を与えましたか？",
+     "名",
+     "食べ物",
+     "水"
+    ],
+    "ko": [
+     "아담은 모든 생물에게 무엇을 주었습니까?",
+     "이름",
+     "먹이",
+     "물"
+    ],
+    "ar": [
+     "ماذا أعطى آدم لكل كائن حي؟",
+     "أسماء",
+     "طعاما",
+     "ماء"
+    ]
+   }
+  },
+  {
+   "id": "gen-genesis-1-13",
+   "book": "genesis",
+   "difficulty": "medium",
+   "ref": "Genesis 2:18",
+   "text": {
+    "en": [
+     "God said it is not good for man to be...?",
+     "Alone",
+     "Idle",
+     "Silent"
+    ],
+    "es": [
+     "¿Qué palabra falta en «No es bueno que el hombre esté …»?",
+     "Solo",
+     "Ocioso",
+     "Callado"
+    ],
+    "pt": [
+     "Que palavra falta em «Não é bom que o homem esteja …»?",
+     "Só",
+     "Ocioso",
+     "Calado"
+    ],
+    "fr": [
+     "Quel mot manque : « Il n'est pas bon que l'homme soit … » ?",
+     "Seul",
+     "Oisif",
+     "Muet"
+    ],
+    "de": [
+     "Welches Wort fehlt: „Es ist nicht gut, dass der Mensch … bleibt“?",
+     "Allein",
+     "Müßig",
+     "Stumm"
+    ],
+    "it": [
+     "Quale parola manca: «Non è bene che l'uomo sia …»?",
+     "Solo",
+     "Ozioso",
+     "Muto"
+    ],
+    "pl": [
+     "Jakiego słowa brakuje: „Nie jest dobrze, żeby mężczyzna był …”?",
+     "Sam",
+     "Bezczynny",
+     "Milczący"
+    ],
+    "ru": [
+     "Какое слово пропущено: «Не хорошо быть человеку …»?",
+     "Одному",
+     "Праздному",
+     "Безмолвному"
+    ],
+    "tr": [
+     "Eksik kelime hangisi: “Adamın … kalması iyi değil”?",
+     "Yalnız",
+     "Aylak",
+     "Sessiz"
+    ],
+    "ja": [
+     "「人が…でいるのは良くない」の空欄に入る語は？",
+     "独り",
+     "怠惰",
+     "無言"
+    ],
+    "ko": [
+     "'사람이 … 있는 것이 좋지 않다'의 빈칸에 들어갈 말은?",
+     "혼자",
+     "게으르게",
+     "잠잠히"
+    ],
+    "ar": [
+     "ما الكلمة الناقصة: «ليس حسنًا أن يكون الإنسان …»؟",
+     "وحده",
+     "كسولا",
+     "صامتا"
+    ]
+   }
+  },
+  {
+   "id": "gen-genesis-1-14",
+   "book": "genesis",
+   "difficulty": "medium",
+   "ref": "Genesis 2:21",
+   "text": {
+    "en": [
+     "What did God cast upon Adam before making the woman?",
+     "Sleep",
+     "Fever",
+     "Fear"
+    ],
+    "es": [
+     "¿Qué hizo caer Dios sobre Adán antes de formar a la mujer?",
+     "Sueño",
+     "Fiebre",
+     "Miedo"
+    ],
+    "pt": [
+     "O que Deus fez cair sobre Adão antes de formar a mulher?",
+     "Sono",
+     "Febre",
+     "Medo"
+    ],
+    "fr": [
+     "Que fit tomber Dieu sur Adam avant de façonner la femme ?",
+     "Sommeil",
+     "Fièvre",
+     "Peur"
+    ],
+    "de": [
+     "Was ließ Gott auf Adam fallen, bevor er die Frau baute?",
+     "Schlaf",
+     "Fieber",
+     "Furcht"
+    ],
+    "it": [
+     "Che cosa fece scendere Dio su Adamo prima di formare la donna?",
+     "Torpore",
+     "Febbre",
+     "Paura"
+    ],
+    "pl": [
+     "Co Bóg zesłał na Adama, zanim stworzył kobietę?",
+     "Sen",
+     "Gorączkę",
+     "Strach"
+    ],
+    "ru": [
+     "Что навёл Бог на Адама, прежде чем создать жену?",
+     "Сон",
+     "Жар",
+     "Страх"
+    ],
+    "tr": [
+     "Tanrı kadını yaratmadan önce Âdem'e ne verdi?",
+     "Uyku",
+     "Humma",
+     "Korku"
+    ],
+    "ja": [
+     "神は女を造る前に、アダムを何に落としましたか？",
+     "眠り",
+     "熱病",
+     "恐怖"
+    ],
+    "ko": [
+     "하느님께서는 여자를 만드시기 전에 아담에게 무엇이 쏟아지게 하셨습니까?",
+     "잠",
+     "열병",
+     "두려움"
+    ],
+    "ar": [
+     "ماذا أوقع الله على آدم قبل أن يصنع المرأة؟",
+     "سباتا",
+     "حمى",
+     "خوفا"
+    ]
+   }
+  },
+  {
+   "id": "gen-genesis-1-15",
+   "book": "genesis",
+   "difficulty": "easy",
+   "ref": "Genesis 2:21-22",
+   "text": {
+    "en": [
+     "What did God take from Adam to make the woman?",
+     "Rib",
+     "Tooth",
+     "Hair"
+    ],
+    "es": [
+     "¿Qué tomó Dios de Adán para formar a la mujer?",
+     "Costilla",
+     "Diente",
+     "Cabello"
+    ],
+    "pt": [
+     "O que Deus tirou de Adão para formar a mulher?",
+     "Costela",
+     "Dente",
+     "Cabelo"
+    ],
+    "fr": [
+     "Que prit Dieu à Adam pour façonner la femme ?",
+     "Côte",
+     "Dent",
+     "Cheveu"
+    ],
+    "de": [
+     "Was nahm Gott von Adam, um daraus die Frau zu bauen?",
+     "Rippe",
+     "Zahn",
+     "Haar"
+    ],
+    "it": [
+     "Che cosa tolse Dio ad Adamo per formare la donna?",
+     "Costola",
+     "Dente",
+     "Capello"
+    ],
+    "pl": [
+     "Co Bóg wyjął Adamowi, by zbudować kobietę?",
+     "Żebro",
+     "Ząb",
+     "Włos"
+    ],
+    "ru": [
+     "Что взял Бог у Адама, чтобы создать жену?",
+     "Ребро",
+     "Зуб",
+     "Волос"
+    ],
+    "tr": [
+     "Tanrı kadını yaratmak için Âdem'den ne aldı?",
+     "Kaburga",
+     "Diş",
+     "Saç"
+    ],
+    "ja": [
+     "神は女を造るためにアダムから何を取りましたか？",
+     "あばら骨",
+     "歯",
+     "髪"
+    ],
+    "ko": [
+     "하느님께서 여자를 만드시려고 아담에게서 빼내신 것은?",
+     "갈빗대",
+     "치아",
+     "머리카락"
+    ],
+    "ar": [
+     "ماذا أخذ الله من آدم ليصنع المرأة؟",
+     "ضلعا",
+     "سنا",
+     "شعرة"
+    ]
+   }
+  },
+  {
+   "id": "gen-genesis-1-16",
+   "book": "genesis",
+   "difficulty": "easy",
+   "ref": "Genesis 2:17",
+   "text": {
+    "en": [
+     "The forbidden tree gave knowledge of good and what?",
+     "Evil",
+     "Life",
+     "Truth"
+    ],
+    "es": [
+     "¿El árbol prohibido era el de la ciencia del bien y de qué?",
+     "Mal",
+     "Vida",
+     "Verdad"
+    ],
+    "pt": [
+     "A árvore proibida era a do conhecimento do bem e do quê?",
+     "Mal",
+     "Vida",
+     "Verdade"
+    ],
+    "fr": [
+     "L'arbre défendu était celui de la connaissance du bien et de quoi ?",
+     "Mal",
+     "Vie",
+     "Vérité"
+    ],
+    "de": [
+     "Der verbotene Baum war der Baum der Erkenntnis von Gut und was?",
+     "Böse",
+     "Leben",
+     "Wahrheit"
+    ],
+    "it": [
+     "L'albero proibito era quello della conoscenza del bene e di cosa?",
+     "Male",
+     "Vita",
+     "Verità"
+    ],
+    "pl": [
+     "Zakazane drzewo to drzewo poznania dobra i czego?",
+     "Zła",
+     "Życia",
+     "Prawdy"
+    ],
+    "ru": [
+     "Запретное дерево — дерево познания добра и чего?",
+     "Зла",
+     "Жизни",
+     "Истины"
+    ],
+    "tr": [
+     "Yasak ağaç, iyiyle neyi bilme ağacıydı?",
+     "Kötüyü",
+     "Yaşamı",
+     "Gerçeği"
+    ],
+    "ja": [
+     "禁じられた木は、善と何を知る木でしたか？",
+     "悪",
+     "命",
+     "真理"
+    ],
+    "ko": [
+     "금지된 나무는 선과 무엇을 알게 하는 나무였습니까?",
+     "악",
+     "생명",
+     "진리"
+    ],
+    "ar": [
+     "الشجرة المحرّمة هي شجرة معرفة الخير وماذا؟",
+     "الشر",
+     "الحياة",
+     "الحق"
+    ]
+   }
+  },
+  {
+   "id": "gen-genesis-1-17",
+   "book": "genesis",
+   "difficulty": "easy",
+   "ref": "Genesis 3:1-5",
+   "text": {
+    "en": [
+     "Which creature tempted Eve in the garden?",
+     "Serpent",
+     "Lion",
+     "Wolf"
+    ],
+    "es": [
+     "¿Qué animal tentó a Eva en el jardín?",
+     "Serpiente",
+     "León",
+     "Lobo"
+    ],
+    "pt": [
+     "Que animal tentou Eva no jardim?",
+     "Serpente",
+     "Leão",
+     "Lobo"
+    ],
+    "fr": [
+     "Quel animal tenta Ève dans le jardin ?",
+     "Serpent",
+     "Lion",
+     "Loup"
+    ],
+    "de": [
+     "Welches Tier verführte Eva im Garten?",
+     "Schlange",
+     "Löwe",
+     "Wolf"
+    ],
+    "it": [
+     "Quale animale tentò Eva nel giardino?",
+     "Serpente",
+     "Leone",
+     "Lupo"
+    ],
+    "pl": [
+     "Jakie zwierzę skusiło Ewę w ogrodzie?",
+     "Wąż",
+     "Lew",
+     "Wilk"
+    ],
+    "ru": [
+     "Какое животное искусило Еву в саду?",
+     "Змей",
+     "Лев",
+     "Волк"
+    ],
+    "tr": [
+     "Bahçede Havva'yı hangi hayvan ayarttı?",
+     "Yılan",
+     "Aslan",
+     "Kurt"
+    ],
+    "ja": [
+     "園でエバを誘惑した生き物は何ですか？",
+     "蛇",
+     "獅子",
+     "狼"
+    ],
+    "ko": [
+     "동산에서 하와를 유혹한 동물은 무엇입니까?",
+     "뱀",
+     "사자",
+     "늑대"
+    ],
+    "ar": [
+     "أي حيوان أغوى حواء في الجنة؟",
+     "الحية",
+     "الأسد",
+     "الذئب"
+    ]
+   }
+  },
+  {
+   "id": "gen-genesis-1-18",
+   "book": "genesis",
+   "difficulty": "medium",
+   "ref": "Genesis 3:5",
+   "text": {
+    "en": [
+     "The serpent said eating the fruit would open their what?",
+     "Eyes",
+     "Ears",
+     "Hearts"
+    ],
+    "es": [
+     "¿Qué dijo la serpiente que se les abriría al comer el fruto?",
+     "Ojos",
+     "Oídos",
+     "Corazones"
+    ],
+    "pt": [
+     "O que a serpente disse que se abriria ao comerem o fruto?",
+     "Olhos",
+     "Ouvidos",
+     "Corações"
+    ],
+    "fr": [
+     "Selon le serpent, qu'est-ce qui s'ouvrirait en mangeant le fruit ?",
+     "Yeux",
+     "Oreilles",
+     "Cœurs"
+    ],
+    "de": [
+     "Was würde sich laut der Schlange beim Essen der Frucht öffnen?",
+     "Augen",
+     "Ohren",
+     "Herzen"
+    ],
+    "it": [
+     "Secondo il serpente, che cosa si sarebbe aperto mangiando il frutto?",
+     "Occhi",
+     "Orecchie",
+     "Cuori"
+    ],
+    "pl": [
+     "Co według węża miało się otworzyć po zjedzeniu owocu?",
+     "Oczy",
+     "Uszy",
+     "Serca"
+    ],
+    "ru": [
+     "Что, по словам змея, откроется, если съесть плод?",
+     "Глаза",
+     "Уши",
+     "Сердца"
+    ],
+    "tr": [
+     "Yılana göre meyveyi yiyince onların neleri açılacaktı?",
+     "Gözleri",
+     "Kulakları",
+     "Yürekleri"
+    ],
+    "ja": [
+     "蛇によれば、実を食べると何が開けるのですか？",
+     "目",
+     "耳",
+     "心"
+    ],
+    "ko": [
+     "뱀은 열매를 먹으면 무엇이 열린다고 했습니까?",
+     "눈",
+     "귀",
+     "마음"
+    ],
+    "ar": [
+     "ماذا قالت الحية إنه سينفتح إذا أكلا من الثمرة؟",
+     "الأعين",
+     "الآذان",
+     "القلوب"
+    ]
+   }
+  },
+  {
+   "id": "gen-genesis-1-19",
+   "book": "genesis",
+   "difficulty": "easy",
+   "ref": "Genesis 3:6",
+   "text": {
+    "en": [
+     "Who ate the forbidden fruit first?",
+     "Eve",
+     "Adam",
+     "Cain"
+    ],
+    "es": [
+     "¿Quién comió primero del fruto prohibido?",
+     "Eva",
+     "Adán",
+     "Caín"
+    ],
+    "pt": [
+     "Quem comeu primeiro do fruto proibido?",
+     "Eva",
+     "Adão",
+     "Caim"
+    ],
+    "fr": [
+     "Qui mangea en premier du fruit défendu ?",
+     "Ève",
+     "Adam",
+     "Caïn"
+    ],
+    "de": [
+     "Wer aß zuerst von der verbotenen Frucht?",
+     "Eva",
+     "Adam",
+     "Kain"
+    ],
+    "it": [
+     "Chi mangiò per primo del frutto proibito?",
+     "Eva",
+     "Adamo",
+     "Caino"
+    ],
+    "pl": [
+     "Kto pierwszy zjadł zakazany owoc?",
+     "Ewa",
+     "Adam",
+     "Kain"
+    ],
+    "ru": [
+     "Кто первым съел запретный плод?",
+     "Ева",
+     "Адам",
+     "Каин"
+    ],
+    "tr": [
+     "Yasak meyveden ilk kim yedi?",
+     "Havva",
+     "Âdem",
+     "Kayin"
+    ],
+    "ja": [
+     "禁じられた木の実を最初に食べたのは誰ですか？",
+     "エバ",
+     "アダム",
+     "カイン"
+    ],
+    "ko": [
+     "금지된 열매를 처음 먹은 사람은 누구입니까?",
+     "하와",
+     "아담",
+     "카인"
+    ],
+    "ar": [
+     "من أكل أولًا من الثمرة المحرّمة؟",
+     "حواء",
+     "آدم",
+     "قايين"
+    ]
+   }
+  },
+  {
+   "id": "gen-genesis-1-20",
+   "book": "genesis",
+   "difficulty": "easy",
+   "ref": "Genesis 3:7",
+   "text": {
+    "en": [
+     "Which tree's leaves did Adam and Eve sew together?",
+     "Fig",
+     "Olive",
+     "Palm"
+    ],
+    "es": [
+     "¿De qué árbol eran las hojas que cosieron Adán y Eva?",
+     "Higuera",
+     "Olivo",
+     "Palmera"
+    ],
+    "pt": [
+     "De que árvore eram as folhas que Adão e Eva costuraram?",
+     "Figueira",
+     "Oliveira",
+     "Palmeira"
+    ],
+    "fr": [
+     "De quel arbre Adam et Ève cousirent-ils les feuilles ?",
+     "Figuier",
+     "Olivier",
+     "Palmier"
+    ],
+    "de": [
+     "Von welchem Baum hefteten Adam und Eva Blätter zusammen?",
+     "Feigenbaum",
+     "Ölbaum",
+     "Palme"
+    ],
+    "it": [
+     "Di quale albero Adamo ed Eva intrecciarono le foglie?",
+     "Fico",
+     "Ulivo",
+     "Palma"
+    ],
+    "pl": [
+     "Z liści jakiego drzewa Adam i Ewa zrobili sobie przepaski?",
+     "Figowca",
+     "Oliwki",
+     "Palmy"
+    ],
+    "ru": [
+     "Листья какого дерева сшили Адам и Ева?",
+     "Смоковницы",
+     "Маслины",
+     "Пальмы"
+    ],
+    "tr": [
+     "Âdem ile Havva hangi ağacın yapraklarını diktiler?",
+     "İncir",
+     "Zeytin",
+     "Hurma"
+    ],
+    "ja": [
+     "アダムとエバが綴り合わせたのは何の木の葉ですか？",
+     "いちじく",
+     "オリーブ",
+     "なつめやし"
+    ],
+    "ko": [
+     "아담과 하와가 엮어 두른 것은 어떤 나무의 잎입니까?",
+     "무화과나무",
+     "올리브나무",
+     "종려나무"
+    ],
+    "ar": [
+     "أوراق أي شجرة خاطها آدم وحواء؟",
+     "التين",
+     "الزيتون",
+     "النخيل"
+    ]
+   }
+  },
+  {
+   "id": "gen-genesis-1-21",
+   "book": "genesis",
+   "difficulty": "hard",
+   "ref": "Genesis 3:15",
+   "text": {
+    "en": [
+     "What did God put between the serpent and the woman?",
+     "Enmity",
+     "Peace",
+     "Covenant"
+    ],
+    "es": [
+     "¿Qué puso Dios entre la serpiente y la mujer?",
+     "Enemistad",
+     "Paz",
+     "Alianza"
+    ],
+    "pt": [
+     "O que Deus pôs entre a serpente e a mulher?",
+     "Inimizade",
+     "Paz",
+     "Aliança"
+    ],
+    "fr": [
+     "Que mit Dieu entre le serpent et la femme ?",
+     "Hostilité",
+     "Paix",
+     "Alliance"
+    ],
+    "de": [
+     "Was setzte Gott zwischen die Schlange und die Frau?",
+     "Feindschaft",
+     "Frieden",
+     "Bund"
+    ],
+    "it": [
+     "Che cosa pose Dio tra il serpente e la donna?",
+     "Inimicizia",
+     "Pace",
+     "Alleanza"
+    ],
+    "pl": [
+     "Co Bóg wprowadził między węża a niewiastę?",
+     "Nieprzyjaźń",
+     "Pokój",
+     "Przymierze"
+    ],
+    "ru": [
+     "Что Бог положил между змеем и женой?",
+     "Вражду",
+     "Мир",
+     "Завет"
+    ],
+    "tr": [
+     "Tanrı yılanla kadın arasına ne koydu?",
+     "Düşmanlık",
+     "Barış",
+     "Antlaşma"
+    ],
+    "ja": [
+     "神は蛇と女の間に何を置きましたか？",
+     "敵意",
+     "平和",
+     "契約"
+    ],
+    "ko": [
+     "하느님께서는 뱀과 여자 사이에 무엇을 일으키셨습니까?",
+     "적개심",
+     "평화",
+     "계약"
+    ],
+    "ar": [
+     "ماذا جعل الله بين الحية والمرأة؟",
+     "عداوة",
+     "سلاما",
+     "عهدا"
+    ]
+   }
+  },
+  {
+   "id": "gen-genesis-1-22",
+   "book": "genesis",
+   "difficulty": "medium",
+   "ref": "Genesis 1:2",
+   "text": {
+    "en": [
+     "At creation, over what was the spirit of God moving?",
+     "Waters",
+     "Mountains",
+     "Deserts"
+    ],
+    "es": [
+     "¿Sobre qué se cernía el espíritu de Dios al principio?",
+     "Aguas",
+     "Montes",
+     "Desiertos"
+    ],
+    "pt": [
+     "Sobre o que pairava o espírito de Deus no princípio?",
+     "Águas",
+     "Montes",
+     "Desertos"
+    ],
+    "fr": [
+     "Au commencement, au-dessus de quoi planait le souffle de Dieu ?",
+     "Eaux",
+     "Montagnes",
+     "Déserts"
+    ],
+    "de": [
+     "Worüber schwebte am Anfang der Geist Gottes?",
+     "Wasser",
+     "Berge",
+     "Wüsten"
+    ],
+    "it": [
+     "In principio, su che cosa aleggiava lo spirito di Dio?",
+     "Acque",
+     "Monti",
+     "Deserti"
+    ],
+    "pl": [
+     "Nad czym na początku unosił się Duch Boży?",
+     "Wodami",
+     "Górami",
+     "Pustyniami"
+    ],
+    "ru": [
+     "Над чем носился Дух Божий в начале?",
+     "Водою",
+     "Горами",
+     "Пустынями"
+    ],
+    "tr": [
+     "Başlangıçta Tanrı'nın Ruhu neyin üzerinde dolaşıyordu?",
+     "Sular",
+     "Dağlar",
+     "Çöller"
+    ],
+    "ja": [
+     "初めに、神の霊は何の面を動いていましたか？",
+     "水",
+     "山",
+     "砂漠"
+    ],
+    "ko": [
+     "한처음에 하느님의 영은 무엇 위를 감돌고 있었습니까?",
+     "물",
+     "산",
+     "사막"
+    ],
+    "ar": [
+     "في البدء، على أي شيء كان روح الله يرفّ؟",
+     "المياه",
+     "الجبال",
+     "الصحارى"
+    ]
+   }
+  },
+  {
+   "id": "gen-genesis-1-23",
+   "book": "genesis",
+   "difficulty": "hard",
+   "ref": "Genesis 3:18",
+   "text": {
+    "en": [
+     "Besides thorns, what would the cursed ground bring forth?",
+     "Thistles",
+     "Wheat",
+     "Lilies"
+    ],
+    "es": [
+     "¿Qué daría el suelo maldito, además de espinas?",
+     "Abrojos",
+     "Trigo",
+     "Lirios"
+    ],
+    "pt": [
+     "Além de espinhos, o que produziria o solo amaldiçoado?",
+     "Cardos",
+     "Trigo",
+     "Lírios"
+    ],
+    "fr": [
+     "Outre les épines, que produirait le sol maudit ?",
+     "Chardons",
+     "Blé",
+     "Lis"
+    ],
+    "de": [
+     "Was sollte der verfluchte Ackerboden außer Dornen hervorbringen?",
+     "Disteln",
+     "Weizen",
+     "Lilien"
+    ],
+    "it": [
+     "Oltre alle spine, che cosa avrebbe prodotto il suolo maledetto?",
+     "Cardi",
+     "Grano",
+     "Gigli"
+    ],
+    "pl": [
+     "Co oprócz cierni miała rodzić przeklęta ziemia?",
+     "Oset",
+     "Pszenicę",
+     "Lilie"
+    ],
+    "ru": [
+     "Что, кроме терний, произрастит проклятая земля?",
+     "Волчцы",
+     "Пшеницу",
+     "Лилии"
+    ],
+    "tr": [
+     "Lanetlenen toprak dikenden başka ne verecekti?",
+     "Devedikeni",
+     "Buğday",
+     "Zambak"
+    ],
+    "ja": [
+     "呪われた土は茨のほかに何を生えさせますか？",
+     "あざみ",
+     "麦",
+     "百合"
+    ],
+    "ko": [
+     "저주받은 땅은 가시덤불 말고 무엇을 돋게 합니까?",
+     "엉겅퀴",
+     "밀",
+     "백합"
+    ],
+    "ar": [
+     "ماذا تنبت الأرض الملعونة غير الشوك؟",
+     "حسكا",
+     "قمحا",
+     "سوسنا"
+    ]
+   }
+  },
+  {
+   "id": "gen-genesis-1-24",
+   "book": "genesis",
+   "difficulty": "hard",
+   "ref": "Genesis 3:21",
+   "text": {
+    "en": [
+     "From what did God make garments for Adam and Eve?",
+     "Skins",
+     "Wool",
+     "Linen"
+    ],
+    "es": [
+     "¿De qué hizo Dios túnicas para Adán y Eva?",
+     "Piel",
+     "Lana",
+     "Lino"
+    ],
+    "pt": [
+     "De que Deus fez túnicas para Adão e Eva?",
+     "Pele",
+     "Lã",
+     "Linho"
+    ],
+    "fr": [
+     "En quoi Dieu fit-il des tuniques pour Adam et Ève ?",
+     "Peau",
+     "Laine",
+     "Lin"
+    ],
+    "de": [
+     "Woraus machte Gott Röcke für Adam und Eva?",
+     "Fell",
+     "Wolle",
+     "Leinen"
+    ],
+    "it": [
+     "Di che cosa Dio fece tuniche per Adamo ed Eva?",
+     "Pelli",
+     "Lana",
+     "Lino"
+    ],
+    "pl": [
+     "Z czego Bóg sporządził odzienie dla Adama i Ewy?",
+     "Skór",
+     "Wełny",
+     "Lnu"
+    ],
+    "ru": [
+     "Из чего Бог сделал одежды Адаму и Еве?",
+     "Кожи",
+     "Шерсти",
+     "Льна"
+    ],
+    "tr": [
+     "Tanrı Âdem ile Havva'ya hangi maddeden giysiler yaptı?",
+     "Deri",
+     "Yün",
+     "Keten"
+    ],
+    "ja": [
+     "神はアダムとエバに何で衣を作りましたか？",
+     "皮",
+     "羊毛",
+     "亜麻"
+    ],
+    "ko": [
+     "하느님께서는 무엇으로 아담과 하와의 옷을 지으셨습니까?",
+     "가죽",
+     "양털",
+     "아마"
+    ],
+    "ar": [
+     "من أي شيء صنع الله أقمصة لآدم وحواء؟",
+     "جلد",
+     "صوف",
+     "كتان"
+    ]
+   }
+  },
+  {
+   "id": "gen-genesis-1-25",
+   "book": "genesis",
+   "difficulty": "hard",
+   "ref": "Genesis 3:24",
+   "text": {
+    "en": [
+     "Besides the cherubim, what guarded the way to the tree of life?",
+     "Sword",
+     "Spear",
+     "Shield"
+    ],
+    "es": [
+     "¿Qué guardaba, junto con los querubines, el camino del árbol de la vida?",
+     "Espada",
+     "Lanza",
+     "Escudo"
+    ],
+    "pt": [
+     "Além dos querubins, o que guardava o caminho da árvore da vida?",
+     "Espada",
+     "Lança",
+     "Escudo"
+    ],
+    "fr": [
+     "Avec les chérubins, qu'est-ce qui gardait le chemin de l'arbre de vie ?",
+     "Glaive",
+     "Lance",
+     "Bouclier"
+    ],
+    "de": [
+     "Was bewachte neben den Kerubim den Weg zum Baum des Lebens?",
+     "Schwert",
+     "Speer",
+     "Schild"
+    ],
+    "it": [
+     "Oltre ai cherubini, che cosa custodiva la via all'albero della vita?",
+     "Spada",
+     "Lancia",
+     "Scudo"
+    ],
+    "pl": [
+     "Co oprócz cherubów strzegło drogi do drzewa życia?",
+     "Miecz",
+     "Włócznia",
+     "Tarcza"
+    ],
+    "ru": [
+     "Что, кроме херувимов, охраняло путь к дереву жизни?",
+     "Меч",
+     "Копьё",
+     "Щит"
+    ],
+    "tr": [
+     "Keruvlarla birlikte yaşam ağacının yolunu ne koruyordu?",
+     "Kılıç",
+     "Mızrak",
+     "Kalkan"
+    ],
+    "ja": [
+     "ケルビムと共に命の木への道を守っていたのは何ですか？",
+     "剣",
+     "槍",
+     "盾"
+    ],
+    "ko": [
+     "커룹들과 함께 생명나무로 가는 길을 지킨 것은 무엇입니까?",
+     "칼",
+     "창",
+     "방패"
+    ],
+    "ar": [
+     "ماذا حرس مع الكروبين طريق شجرة الحياة؟",
+     "سيف",
+     "رمح",
+     "ترس"
+    ]
+   }
+  },
+  {
+   "id": "gen-genesis-1-26",
+   "book": "genesis",
+   "difficulty": "easy",
+   "ref": "Genesis 4:1-2",
+   "text": {
+    "en": [
+     "Who was the firstborn son of Adam and Eve?",
+     "Cain",
+     "Abel",
+     "Seth"
+    ],
+    "es": [
+     "¿Quién fue el primogénito de Adán y Eva?",
+     "Caín",
+     "Abel",
+     "Set"
+    ],
+    "pt": [
+     "Quem foi o primogênito de Adão e Eva?",
+     "Caim",
+     "Abel",
+     "Set"
+    ],
+    "fr": [
+     "Qui fut le premier-né d'Adam et Ève ?",
+     "Caïn",
+     "Abel",
+     "Seth"
+    ],
+    "de": [
+     "Wer war der erstgeborene Sohn von Adam und Eva?",
+     "Kain",
+     "Abel",
+     "Set"
+    ],
+    "it": [
+     "Chi fu il primogenito di Adamo ed Eva?",
+     "Caino",
+     "Abele",
+     "Set"
+    ],
+    "pl": [
+     "Kto był pierworodnym synem Adama i Ewy?",
+     "Kain",
+     "Abel",
+     "Set"
+    ],
+    "ru": [
+     "Кто был первенцем Адама и Евы?",
+     "Каин",
+     "Авель",
+     "Сиф"
+    ],
+    "tr": [
+     "Âdem ile Havva'nın ilk oğlu kimdi?",
+     "Kayin",
+     "Habil",
+     "Şit"
+    ],
+    "ja": [
+     "アダムとエバの長男は誰ですか？",
+     "カイン",
+     "アベル",
+     "セト"
+    ],
+    "ko": [
+     "아담과 하와의 맏아들은 누구입니까?",
+     "카인",
+     "아벨",
+     "셋"
+    ],
+    "ar": [
+     "من كان بكر آدم وحواء؟",
+     "قايين",
+     "هابيل",
+     "شيث"
+    ]
+   }
+  },
+  {
+   "id": "gen-genesis-1-27",
+   "book": "genesis",
+   "difficulty": "medium",
+   "ref": "Genesis 4:2",
+   "text": {
+    "en": [
+     "What was Abel's occupation?",
+     "Shepherd",
+     "Farmer",
+     "Hunter"
+    ],
+    "es": [
+     "¿A qué se dedicaba Abel?",
+     "Pastor",
+     "Labrador",
+     "Cazador"
+    ],
+    "pt": [
+     "Qual era a ocupação de Abel?",
+     "Pastor",
+     "Agricultor",
+     "Caçador"
+    ],
+    "fr": [
+     "Quel était le métier d'Abel ?",
+     "Berger",
+     "Laboureur",
+     "Chasseur"
+    ],
+    "de": [
+     "Welchen Beruf hatte Abel?",
+     "Schafhirt",
+     "Ackerbauer",
+     "Jäger"
+    ],
+    "it": [
+     "Che mestiere faceva Abele?",
+     "Pastore",
+     "Contadino",
+     "Cacciatore"
+    ],
+    "pl": [
+     "Kim z zawodu był Abel?",
+     "Pasterzem",
+     "Rolnikiem",
+     "Myśliwym"
+    ],
+    "ru": [
+     "Кем был Авель?",
+     "Пастырем",
+     "Земледельцем",
+     "Охотником"
+    ],
+    "tr": [
+     "Habil'in mesleği neydi?",
+     "Çobanlık",
+     "Çiftçilik",
+     "Avcılık"
+    ],
+    "ja": [
+     "アベルの仕事は何でしたか？",
+     "羊飼い",
+     "農夫",
+     "狩人"
+    ],
+    "ko": [
+     "아벨의 직업은 무엇이었습니까?",
+     "양치기",
+     "농부",
+     "사냥꾼"
+    ],
+    "ar": [
+     "ما كانت مهنة هابيل؟",
+     "الرعي",
+     "الفلاحة",
+     "الصيد"
+    ]
+   }
+  },
+  {
+   "id": "gen-genesis-1-28",
+   "book": "genesis",
+   "difficulty": "easy",
+   "ref": "Genesis 4:4-5",
+   "text": {
+    "en": [
+     "Whose offering did God look upon with favor?",
+     "Abel",
+     "Cain",
+     "Lamech"
+    ],
+    "es": [
+     "¿Quién presentó la ofrenda que Dios miró con agrado?",
+     "Abel",
+     "Caín",
+     "Lamec"
+    ],
+    "pt": [
+     "De quem foi a oferta que Deus olhou com agrado?",
+     "Abel",
+     "Caim",
+     "Lamec"
+    ],
+    "fr": [
+     "De qui Dieu agréa-t-il l'offrande ?",
+     "Abel",
+     "Caïn",
+     "Lamek"
+    ],
+    "de": [
+     "Auf wessen Opfer schaute Gott mit Wohlgefallen?",
+     "Abel",
+     "Kain",
+     "Lamech"
+    ],
+    "it": [
+     "Di chi Dio gradì l'offerta?",
+     "Abele",
+     "Caino",
+     "Lamec"
+    ],
+    "pl": [
+     "Kto złożył ofiarę, na którą Bóg wejrzał łaskawie?",
+     "Abel",
+     "Kain",
+     "Lamek"
+    ],
+    "ru": [
+     "Кто принёс дар, на который призрел Бог?",
+     "Авель",
+     "Каин",
+     "Ламех"
+    ],
+    "tr": [
+     "Sunusu RAB tarafından kabul edilen kimdi?",
+     "Habil",
+     "Kayin",
+     "Lamek"
+    ],
+    "ja": [
+     "神が目を留められたのは誰の献げ物ですか？",
+     "アベル",
+     "カイン",
+     "レメク"
+    ],
+    "ko": [
+     "하느님께서 누구의 제물을 기꺼이 굽어보셨습니까?",
+     "아벨",
+     "카인",
+     "라멕"
+    ],
+    "ar": [
+     "من الذي نظر الله إلى تقدمته برضى؟",
+     "هابيل",
+     "قايين",
+     "لامك"
+    ]
+   }
+  },
+  {
+   "id": "gen-genesis-1-29",
+   "book": "genesis",
+   "difficulty": "hard",
+   "ref": "Genesis 4:7",
+   "text": {
+    "en": [
+     "God warned Cain that sin was crouching at the...?",
+     "Door",
+     "Window",
+     "Well"
+    ],
+    "es": [
+     "¿Dónde dijo Dios a Caín que acechaba el pecado?",
+     "Puerta",
+     "Ventana",
+     "Pozo"
+    ],
+    "pt": [
+     "Onde Deus disse a Caim que o pecado estava à espreita?",
+     "Porta",
+     "Janela",
+     "Poço"
+    ],
+    "fr": [
+     "Où Dieu dit-il à Caïn que le péché était tapi ?",
+     "Porte",
+     "Fenêtre",
+     "Puits"
+    ],
+    "de": [
+     "Wo lauerte die Sünde, wie Gott zu Kain sagte?",
+     "Tür",
+     "Fenster",
+     "Brunnen"
+    ],
+    "it": [
+     "Dove disse Dio a Caino che era accovacciato il peccato?",
+     "Porta",
+     "Finestra",
+     "Pozzo"
+    ],
+    "pl": [
+     "Gdzie według Boga grzech czyhał na Kaina?",
+     "Wrota",
+     "Okno",
+     "Studnia"
+    ],
+    "ru": [
+     "Где, по словам Бога, лежал грех, подстерегая Каина?",
+     "Дверь",
+     "Окно",
+     "Колодец"
+    ],
+    "tr": [
+     "Tanrı'ya göre günah Kayin'i nerede pusuya yatmış bekliyordu?",
+     "Kapı",
+     "Pencere",
+     "Kuyu"
+    ],
+    "ja": [
+     "神はカインに、罪がどこで待ち伏せていると言いましたか？",
+     "戸口",
+     "窓",
+     "井戸"
+    ],
+    "ko": [
+     "하느님께서는 죄악이 어디에 도사리고 있다고 카인에게 말씀하셨습니까?",
+     "문",
+     "창문",
+     "우물"
+    ],
+    "ar": [
+     "أين قال الله لقايين إن الخطيئة رابضة؟",
+     "الباب",
+     "النافذة",
+     "البئر"
+    ]
+   }
+  },
+  {
+   "id": "gen-genesis-1-30",
+   "book": "genesis",
+   "difficulty": "medium",
+   "ref": "Genesis 4:10",
+   "text": {
+    "en": [
+     "What cried out to God from the ground after Abel's death?",
+     "Blood",
+     "Stones",
+     "Bones"
+    ],
+    "es": [
+     "¿Qué clamaba a Dios desde el suelo tras la muerte de Abel?",
+     "Sangre",
+     "Piedras",
+     "Huesos"
+    ],
+    "pt": [
+     "O que clamava a Deus desde o solo após a morte de Abel?",
+     "Sangue",
+     "Pedras",
+     "Ossos"
+    ],
+    "fr": [
+     "Qu'est-ce qui criait vers Dieu depuis le sol après la mort d'Abel ?",
+     "Sang",
+     "Pierres",
+     "Os"
+    ],
+    "de": [
+     "Was schrie nach Abels Tod vom Erdboden zu Gott?",
+     "Blut",
+     "Steine",
+     "Knochen"
+    ],
+    "it": [
+     "Che cosa gridava a Dio dal suolo dopo la morte di Abele?",
+     "Sangue",
+     "Pietre",
+     "Ossa"
+    ],
+    "pl": [
+     "Co wołało do Boga z ziemi po śmierci Abla?",
+     "Krew",
+     "Kamienie",
+     "Kości"
+    ],
+    "ru": [
+     "Что вопияло к Богу от земли после смерти Авеля?",
+     "Кровь",
+     "Камни",
+     "Кости"
+    ],
+    "tr": [
+     "Habil'in ölümünden sonra topraktan Tanrı'ya ne feryat etti?",
+     "Kan",
+     "Taşlar",
+     "Kemikler"
+    ],
+    "ja": [
+     "アベルの死後、土の中から神に叫んでいたのは何ですか？",
+     "血",
+     "石",
+     "骨"
+    ],
+    "ko": [
+     "아벨이 죽은 뒤 땅에서 하느님께 울부짖은 것은 무엇입니까?",
+     "피",
+     "돌",
+     "뼈"
+    ],
+    "ar": [
+     "ماذا كان يصرخ إلى الله من الأرض بعد موت هابيل؟",
+     "الدم",
+     "الحجارة",
+     "العظام"
+    ]
+   }
+  },
+  {
+   "id": "gen-genesis-1-31",
+   "book": "genesis",
+   "difficulty": "easy",
+   "ref": "Genesis 4:9",
+   "text": {
+    "en": [
+     "Cain asked God: Am I my brother's...?",
+     "Keeper",
+     "Servant",
+     "Master"
+    ],
+    "es": [
+     "¿Qué palabra falta en la pregunta de Caín: «Soy yo el … de mi hermano»?",
+     "Guardián",
+     "Siervo",
+     "Amo"
+    ],
+    "pt": [
+     "Que palavra falta em «Acaso sou eu o … do meu irmão»?",
+     "Guarda",
+     "Servo",
+     "Senhor"
+    ],
+    "fr": [
+     "Quel mot manque : « Suis-je le … de mon frère » ?",
+     "Gardien",
+     "Serviteur",
+     "Maître"
+    ],
+    "de": [
+     "Welches Wort fehlt: „Bin ich der … meines Bruders“?",
+     "Hüter",
+     "Diener",
+     "Herr"
+    ],
+    "it": [
+     "Quale parola manca: «Sono forse io il … di mio fratello»?",
+     "Custode",
+     "Servo",
+     "Padrone"
+    ],
+    "pl": [
+     "Jakiego słowa brakuje: „Czyż jestem … brata mego”?",
+     "Stróżem",
+     "Sługą",
+     "Panem"
+    ],
+    "ru": [
+     "Какое слово пропущено: «Разве я … брату моему»?",
+     "Сторож",
+     "Слуга",
+     "Господин"
+    ],
+    "tr": [
+     "Eksik kelime hangisi: “Kardeşimin … miyim ben”?",
+     "Bekçisi",
+     "Hizmetkârı",
+     "Efendisi"
+    ],
+    "ja": [
+     "「わたしは弟の…でしょうか」の空欄に入る語は？",
+     "番人",
+     "召し使い",
+     "主人"
+    ],
+    "ko": [
+     "'제가 제 아우를 … 사람입니까?'의 빈칸에 들어갈 말은?",
+     "지키는",
+     "섬기는",
+     "다스리는"
+    ],
+    "ar": [
+     "ما الكلمة الناقصة في سؤال قايين: «أ... أنا لأخي»؟",
+     "حارس",
+     "خادم",
+     "سيد"
+    ]
+   }
+  },
+  {
+   "id": "gen-genesis-1-32",
+   "book": "genesis",
+   "difficulty": "expert",
+   "ref": "Genesis 4:16",
+   "text": {
+    "en": [
+     "To which land did Cain go after leaving God's presence?",
+     "Nod",
+     "Havilah",
+     "Shinar"
+    ],
+    "es": [
+     "¿A qué tierra fue Caín al alejarse de la presencia de Dios?",
+     "Nod",
+     "Javilá",
+     "Senaar"
+    ],
+    "pt": [
+     "Para que terra foi Caim ao se retirar da presença de Deus?",
+     "Nod",
+     "Hévila",
+     "Senaar"
+    ],
+    "fr": [
+     "Dans quel pays alla Caïn en quittant la présence de Dieu ?",
+     "Nod",
+     "Havila",
+     "Shinéar"
+    ],
+    "de": [
+     "In welches Land ging Kain, als er von Gottes Angesicht wegging?",
+     "Nod",
+     "Hawila",
+     "Schinar"
+    ],
+    "it": [
+     "In quale terra andò Caino, allontanatosi dalla presenza di Dio?",
+     "Nod",
+     "Avìla",
+     "Sinar"
+    ],
+    "pl": [
+     "Do jakiej krainy udał się Kain, odszedłszy sprzed oblicza Boga?",
+     "Nod",
+     "Chawila",
+     "Szinear"
+    ],
+    "ru": [
+     "В какую землю пошёл Каин, отойдя от лица Божия?",
+     "Нод",
+     "Хавила",
+     "Сеннаар"
+    ],
+    "tr": [
+     "Kayin, Tanrı'nın huzurundan ayrılınca hangi diyara gitti?",
+     "Nod",
+     "Havila",
+     "Şinar"
+    ],
+    "ja": [
+     "カインが神の前を去って住んだ地はどこですか？",
+     "ノド",
+     "ハビラ",
+     "シンアル"
+    ],
+    "ko": [
+     "카인이 하느님 앞에서 물러나 살게 된 땅은 어디입니까?",
+     "놋",
+     "하윌라",
+     "신아르"
+    ],
+    "ar": [
+     "إلى أي أرض ذهب قايين بعد خروجه من أمام الله؟",
+     "نود",
+     "الحويلة",
+     "شنعار"
+    ]
+   }
+  },
+  {
+   "id": "gen-genesis-1-33",
+   "book": "genesis",
+   "difficulty": "hard",
+   "ref": "Genesis 4:17",
+   "text": {
+    "en": [
+     "What did Cain build and name after his son?",
+     "City",
+     "Altar",
+     "Tower"
+    ],
+    "es": [
+     "¿Qué construyó Caín y llamó con el nombre de su hijo?",
+     "Ciudad",
+     "Altar",
+     "Torre"
+    ],
+    "pt": [
+     "O que Caim construiu e chamou com o nome do filho?",
+     "Cidade",
+     "Altar",
+     "Torre"
+    ],
+    "fr": [
+     "Que bâtit Caïn en lui donnant le nom de son fils ?",
+     "Ville",
+     "Autel",
+     "Tour"
+    ],
+    "de": [
+     "Was baute Kain und benannte es nach seinem Sohn?",
+     "Stadt",
+     "Altar",
+     "Turm"
+    ],
+    "it": [
+     "Che cosa costruì Caino e chiamò come suo figlio?",
+     "Città",
+     "Altare",
+     "Torre"
+    ],
+    "pl": [
+     "Co zbudował Kain i nazwał imieniem swego syna?",
+     "Miasto",
+     "Ołtarz",
+     "Wieżę"
+    ],
+    "ru": [
+     "Что построил Каин и назвал по имени сына?",
+     "Город",
+     "Жертвенник",
+     "Башню"
+    ],
+    "tr": [
+     "Kayin ne kurup ona oğlunun adını verdi?",
+     "Kent",
+     "Sunak",
+     "Kule"
+    ],
+    "ja": [
+     "カインが建てて息子の名を付けたものは何ですか？",
+     "町",
+     "祭壇",
+     "塔"
+    ],
+    "ko": [
+     "카인이 세우고 아들의 이름을 붙인 것은 무엇입니까?",
+     "성읍",
+     "제단",
+     "탑"
+    ],
+    "ar": [
+     "ماذا بنى قايين وسماه باسم ابنه؟",
+     "مدينة",
+     "مذبحا",
+     "برجا"
+    ]
+   }
+  },
+  {
+   "id": "gen-genesis-1-34",
+   "book": "genesis",
+   "difficulty": "expert",
+   "ref": "Genesis 4:19",
+   "text": {
+    "en": [
+     "How many wives did Lamech, Cain's descendant, take?",
+     "2",
+     "3",
+     "7"
+    ],
+    "es": [
+     "¿Cuántas mujeres tomó Lamec, descendiente de Caín?",
+     "2",
+     "3",
+     "7"
+    ],
+    "pt": [
+     "Quantas mulheres tomou Lamec, descendente de Caim?",
+     "2",
+     "3",
+     "7"
+    ],
+    "fr": [
+     "Combien de femmes prit Lamek, descendant de Caïn ?",
+     "2",
+     "3",
+     "7"
+    ],
+    "de": [
+     "Wie viele Frauen nahm sich Lamech, der Nachkomme Kains?",
+     "2",
+     "3",
+     "7"
+    ],
+    "it": [
+     "Quante mogli prese Lamec, discendente di Caino?",
+     "2",
+     "3",
+     "7"
+    ],
+    "pl": [
+     "Ile żon pojął Lamek, potomek Kaina?",
+     "2",
+     "3",
+     "7"
+    ],
+    "ru": [
+     "Сколько жён взял себе Ламех, потомок Каина?",
+     "2",
+     "3",
+     "7"
+    ],
+    "tr": [
+     "Kayin'in soyundan Lamek kaç kadınla evlendi?",
+     "2",
+     "3",
+     "7"
+    ],
+    "ja": [
+     "カインの子孫レメクは何人の妻をめとりましたか？",
+     "2",
+     "3",
+     "7"
+    ],
+    "ko": [
+     "카인의 후손 라멕은 아내를 몇 명 맞아들였습니까?",
+     "2",
+     "3",
+     "7"
+    ],
+    "ar": [
+     "كم امرأة اتخذ لامك من نسل قايين؟",
+     "2",
+     "3",
+     "7"
+    ]
+   }
+  },
+  {
+   "id": "gen-genesis-1-35",
+   "book": "genesis",
+   "difficulty": "impossible",
+   "ref": "Genesis 4:20-21",
+   "text": {
+    "en": [
+     "Which wife of Lamech bore Jabal and Jubal?",
+     "Adah",
+     "Zillah",
+     "Naamah"
+    ],
+    "es": [
+     "¿Qué mujer de Lamec dio a luz a Yabal y Yubal?",
+     "Ada",
+     "Sila",
+     "Naamá"
+    ],
+    "pt": [
+     "Qual mulher de Lamec deu à luz Jabal e Jubal?",
+     "Ada",
+     "Sela",
+     "Naama"
+    ],
+    "fr": [
+     "Quelle femme de Lamek enfanta Yabal et Yubal ?",
+     "Ada",
+     "Cilla",
+     "Naama"
+    ],
+    "de": [
+     "Welche Frau Lamechs gebar Jabal und Jubal?",
+     "Ada",
+     "Zilla",
+     "Naama"
+    ],
+    "it": [
+     "Quale moglie di Lamec partorì Iabal e Iubal?",
+     "Ada",
+     "Silla",
+     "Naamà"
+    ],
+    "pl": [
+     "Która żona Lameka urodziła Jabala i Jubala?",
+     "Ada",
+     "Silla",
+     "Naama"
+    ],
+    "ru": [
+     "Какая жена Ламеха родила Иавала и Иувала?",
+     "Ада",
+     "Цилла",
+     "Ноема"
+    ],
+    "tr": [
+     "Lamek'in hangi karısı Yaval ile Yuval'ı doğurdu?",
+     "Ada",
+     "Silla",
+     "Naama"
+    ],
+    "ja": [
+     "ヤバルとユバルを産んだレメクの妻は誰ですか？",
+     "アダ",
+     "ツィラ",
+     "ナアマ"
+    ],
+    "ko": [
+     "야발과 유발을 낳은 라멕의 아내는 누구입니까?",
+     "아다",
+     "칠라",
+     "나아마"
+    ],
+    "ar": [
+     "أي امرأة للامك ولدت يابال ويوبال؟",
+     "عادة",
+     "صلة",
+     "نعمة"
+    ]
+   }
+  },
+  {
+   "id": "gen-genesis-1-36",
+   "book": "genesis",
+   "difficulty": "impossible",
+   "ref": "Genesis 4:21",
+   "text": {
+    "en": [
+     "Who was the father of all who play the lyre and pipe?",
+     "Jubal",
+     "Jabal",
+     "Irad"
+    ],
+    "es": [
+     "¿Quién fue el padre de los que tocan la cítara y la flauta?",
+     "Yubal",
+     "Yabal",
+     "Irad"
+    ],
+    "pt": [
+     "Quem foi o pai dos que tocam cítara e flauta?",
+     "Jubal",
+     "Jabal",
+     "Irad"
+    ],
+    "fr": [
+     "Qui fut le père de tous ceux qui jouent de la lyre et du chalumeau ?",
+     "Yubal",
+     "Yabal",
+     "Irad"
+    ],
+    "de": [
+     "Wer wurde der Vater aller Zither- und Flötenspieler?",
+     "Jubal",
+     "Jabal",
+     "Irad"
+    ],
+    "it": [
+     "Chi fu il padre di quanti suonano la cetra e il flauto?",
+     "Iubal",
+     "Iabal",
+     "Irad"
+    ],
+    "pl": [
+     "Kto był ojcem wszystkich grających na cytrze i flecie?",
+     "Jubal",
+     "Jabal",
+     "Irad"
+    ],
+    "ru": [
+     "Кто был отцом всех играющих на гуслях и свирели?",
+     "Иувал",
+     "Иавал",
+     "Ирад"
+    ],
+    "tr": [
+     "Lir ve ney çalanların hepsinin atası kimdi?",
+     "Yuval",
+     "Yaval",
+     "İrat"
+    ],
+    "ja": [
+     "竪琴や笛を奏でる者すべての先祖は誰ですか？",
+     "ユバル",
+     "ヤバル",
+     "イラド"
+    ],
+    "ko": [
+     "비파와 피리를 다루는 모든 이의 조상은 누구입니까?",
+     "유발",
+     "야발",
+     "이랏"
+    ],
+    "ar": [
+     "من كان أبا كل من يعزف على الكنارة والمزمار؟",
+     "يوبال",
+     "يابال",
+     "عيراد"
+    ]
+   }
+  },
+  {
+   "id": "gen-genesis-1-37",
+   "book": "genesis",
+   "difficulty": "expert",
+   "ref": "Genesis 4:22",
+   "text": {
+    "en": [
+     "Tubal-cain forged tools of bronze and of what?",
+     "Iron",
+     "Gold",
+     "Silver"
+    ],
+    "es": [
+     "¿Tubalcaín forjaba herramientas de bronce y de qué más?",
+     "Hierro",
+     "Oro",
+     "Plata"
+    ],
+    "pt": [
+     "Tubalcaim forjava instrumentos de bronze e de quê?",
+     "Ferro",
+     "Ouro",
+     "Prata"
+    ],
+    "fr": [
+     "Tubal-Caïn forgeait des outils de bronze et de quoi ?",
+     "Fer",
+     "Or",
+     "Argent"
+    ],
+    "de": [
+     "Tubal-Kajin schmiedete Geräte aus Kupfer und woraus noch?",
+     "Eisen",
+     "Gold",
+     "Silber"
+    ],
+    "it": [
+     "Tubal-Kain forgiava strumenti di bronzo e di che cosa?",
+     "Ferro",
+     "Oro",
+     "Argento"
+    ],
+    "pl": [
+     "Tubalkain wykuwał narzędzia z miedzi i z czego jeszcze?",
+     "Żelaza",
+     "Złota",
+     "Srebra"
+    ],
+    "ru": [
+     "Тувалкаин ковал орудия из меди и из чего ещё?",
+     "Железа",
+     "Золота",
+     "Серебра"
+    ],
+    "tr": [
+     "Tuval-Kayin tunçtan ve hangi madenden aletler yapardı?",
+     "Demir",
+     "Altın",
+     "Gümüş"
+    ],
+    "ja": [
+     "トバル・カインは青銅と何で道具を作りましたか？",
+     "鉄",
+     "金",
+     "銀"
+    ],
+    "ko": [
+     "투발 카인은 구리와 무엇으로 연장을 만들었습니까?",
+     "쇠",
+     "금",
+     "은"
+    ],
+    "ar": [
+     "صنع توبال قايين آلات من النحاس ومن ماذا أيضًا؟",
+     "الحديد",
+     "الذهب",
+     "الفضة"
+    ]
+   }
+  },
+  {
+   "id": "gen-genesis-1-38",
+   "book": "genesis",
+   "difficulty": "expert",
+   "ref": "Genesis 4:26",
+   "text": {
+    "en": [
+     "What was the name of Seth's son?",
+     "Enosh",
+     "Enoch",
+     "Irad"
+    ],
+    "es": [
+     "¿Cómo se llamaba el hijo de Set?",
+     "Enós",
+     "Henoc",
+     "Irad"
+    ],
+    "pt": [
+     "Como se chamava o filho de Set?",
+     "Enós",
+     "Henoc",
+     "Irad"
+    ],
+    "fr": [
+     "Comment s'appelait le fils de Seth ?",
+     "Enosh",
+     "Hénok",
+     "Irad"
+    ],
+    "de": [
+     "Wie hieß der Sohn Sets?",
+     "Enosch",
+     "Henoch",
+     "Irad"
+    ],
+    "it": [
+     "Come si chiamava il figlio di Set?",
+     "Enos",
+     "Enoc",
+     "Irad"
+    ],
+    "pl": [
+     "Jak miał na imię syn Seta?",
+     "Enosz",
+     "Henoch",
+     "Irad"
+    ],
+    "ru": [
+     "Как звали сына Сифа?",
+     "Енос",
+     "Енох",
+     "Ирад"
+    ],
+    "tr": [
+     "Şit'in oğlunun adı neydi?",
+     "Enoş",
+     "Hanok",
+     "İrat"
+    ],
+    "ja": [
+     "セトの息子の名は何ですか？",
+     "エノシュ",
+     "エノク",
+     "イラド"
+    ],
+    "ko": [
+     "셋의 아들 이름은 무엇입니까?",
+     "에노스",
+     "에녹",
+     "이랏"
+    ],
+    "ar": [
+     "ما اسم ابن شيث؟",
+     "أنوش",
+     "أخنوخ",
+     "عيراد"
+    ]
+   }
+  },
+  {
+   "id": "gen-genesis-1-39",
+   "book": "genesis",
+   "difficulty": "expert",
+   "ref": "Genesis 5:5",
+   "text": {
+    "en": [
+     "How many years did Adam live in all?",
+     "930",
+     "969",
+     "990"
+    ],
+    "es": [
+     "¿Cuántos años vivió Adán en total?",
+     "930",
+     "969",
+     "990"
+    ],
+    "pt": [
+     "Quantos anos Adão viveu ao todo?",
+     "930",
+     "969",
+     "990"
+    ],
+    "fr": [
+     "Combien d'années vécut Adam en tout ?",
+     "930",
+     "969",
+     "990"
+    ],
+    "de": [
+     "Wie viele Jahre lebte Adam insgesamt?",
+     "930",
+     "969",
+     "990"
+    ],
+    "it": [
+     "Quanti anni visse Adamo in tutto?",
+     "930",
+     "969",
+     "990"
+    ],
+    "pl": [
+     "Ile lat w sumie przeżył Adam?",
+     "930",
+     "969",
+     "990"
+    ],
+    "ru": [
+     "Сколько всего лет прожил Адам?",
+     "930",
+     "969",
+     "990"
+    ],
+    "tr": [
+     "Âdem toplam kaç yıl yaşadı?",
+     "930",
+     "969",
+     "990"
+    ],
+    "ja": [
+     "アダムは全部で何年生きましたか？",
+     "930",
+     "969",
+     "990"
+    ],
+    "ko": [
+     "아담은 모두 몇 년을 살았습니까?",
+     "930",
+     "969",
+     "990"
+    ],
+    "ar": [
+     "كم سنة عاش آدم في المجموع؟",
+     "930",
+     "969",
+     "990"
+    ]
+   }
+  },
+  {
+   "id": "gen-genesis-1-40",
+   "book": "genesis",
+   "difficulty": "expert",
+   "ref": "Genesis 5:23",
+   "text": {
+    "en": [
+     "How many years did Enoch live on earth?",
+     "365",
+     "350",
+     "400"
+    ],
+    "es": [
+     "¿Cuántos años vivió Henoc sobre la tierra?",
+     "365",
+     "350",
+     "400"
+    ],
+    "pt": [
+     "Quantos anos Henoc viveu sobre a terra?",
+     "365",
+     "350",
+     "400"
+    ],
+    "fr": [
+     "Combien d'années Hénok vécut-il sur la terre ?",
+     "365",
+     "350",
+     "400"
+    ],
+    "de": [
+     "Wie viele Jahre lebte Henoch auf der Erde?",
+     "365",
+     "350",
+     "400"
+    ],
+    "it": [
+     "Quanti anni visse Enoc sulla terra?",
+     "365",
+     "350",
+     "400"
+    ],
+    "pl": [
+     "Ile lat żył Henoch na ziemi?",
+     "365",
+     "350",
+     "400"
+    ],
+    "ru": [
+     "Сколько лет прожил Енох на земле?",
+     "365",
+     "350",
+     "400"
+    ],
+    "tr": [
+     "Hanok yeryüzünde kaç yıl yaşadı?",
+     "365",
+     "350",
+     "400"
+    ],
+    "ja": [
+     "エノクは地上で何年生きましたか？",
+     "365",
+     "350",
+     "400"
+    ],
+    "ko": [
+     "에녹은 땅 위에서 몇 년을 살았습니까?",
+     "365",
+     "350",
+     "400"
+    ],
+    "ar": [
+     "كم سنة عاش أخنوخ على الأرض؟",
+     "365",
+     "350",
+     "400"
+    ]
+   }
+  },
+  {
+   "id": "gen-genesis-1-41",
+   "book": "genesis",
+   "difficulty": "medium",
+   "ref": "Genesis 5:24",
+   "text": {
+    "en": [
+     "Who walked with God and was taken by God?",
+     "Enoch",
+     "Lamech",
+     "Jared"
+    ],
+    "es": [
+     "¿Quién anduvo con Dios y desapareció porque Dios se lo llevó?",
+     "Henoc",
+     "Lamec",
+     "Yared"
+    ],
+    "pt": [
+     "Quem andou com Deus e desapareceu, pois Deus o levou?",
+     "Henoc",
+     "Lamec",
+     "Jared"
+    ],
+    "fr": [
+     "Qui marcha avec Dieu, puis disparut car Dieu l'enleva ?",
+     "Hénok",
+     "Lamek",
+     "Yéred"
+    ],
+    "de": [
+     "Wer ging seinen Weg mit Gott und wurde von Gott aufgenommen?",
+     "Henoch",
+     "Lamech",
+     "Jered"
+    ],
+    "it": [
+     "Chi camminò con Dio e non fu più, perché Dio l'aveva preso?",
+     "Enoc",
+     "Lamec",
+     "Iered"
+    ],
+    "pl": [
+     "Kto chodził z Bogiem, a potem zniknął, bo Bóg go zabrał?",
+     "Henoch",
+     "Lamek",
+     "Jared"
+    ],
+    "ru": [
+     "Кто ходил пред Богом, и не стало его, ибо Бог взял его?",
+     "Енох",
+     "Ламех",
+     "Иаред"
+    ],
+    "tr": [
+     "Kim Tanrı'yla yürüdü ve Tanrı onu yanına aldı?",
+     "Hanok",
+     "Lamek",
+     "Yeret"
+    ],
+    "ja": [
+     "神と共に歩み、神に取られていなくなったのは誰ですか？",
+     "エノク",
+     "レメク",
+     "イエレド"
+    ],
+    "ko": [
+     "하느님과 함께 살다가 하느님께서 데려가시어 사라진 사람은?",
+     "에녹",
+     "라멕",
+     "예렛"
+    ],
+    "ar": [
+     "من سار مع الله ثم لم يوجد لأن الله أخذه؟",
+     "أخنوخ",
+     "لامك",
+     "يارد"
+    ]
+   }
+  },
+  {
+   "id": "gen-genesis-1-42",
+   "book": "genesis",
+   "difficulty": "medium",
+   "ref": "Genesis 5:27",
+   "text": {
+    "en": [
+     "Which man lived 969 years?",
+     "Methuselah",
+     "Noah",
+     "Adam"
+    ],
+    "es": [
+     "¿Quién vivió 969 años?",
+     "Matusalén",
+     "Noé",
+     "Adán"
+    ],
+    "pt": [
+     "Quem viveu 969 anos?",
+     "Matusalém",
+     "Noé",
+     "Adão"
+    ],
+    "fr": [
+     "Qui vécut 969 ans ?",
+     "Mathusalem",
+     "Noé",
+     "Adam"
+    ],
+    "de": [
+     "Wer lebte 969 Jahre?",
+     "Metuschelach",
+     "Noach",
+     "Adam"
+    ],
+    "it": [
+     "Chi visse 969 anni?",
+     "Matusalemme",
+     "Noè",
+     "Adamo"
+    ],
+    "pl": [
+     "Kto żył 969 lat?",
+     "Matuzalem",
+     "Noe",
+     "Adam"
+    ],
+    "ru": [
+     "Кто прожил 969 лет?",
+     "Мафусал",
+     "Ной",
+     "Адам"
+    ],
+    "tr": [
+     "Kim 969 yıl yaşadı?",
+     "Metuşelah",
+     "Nuh",
+     "Âdem"
+    ],
+    "ja": [
+     "969年生きたのは誰ですか？",
+     "メトシェラ",
+     "ノア",
+     "アダム"
+    ],
+    "ko": [
+     "969년을 산 사람은 누구입니까?",
+     "므투셀라",
+     "노아",
+     "아담"
+    ],
+    "ar": [
+     "من عاش 969 سنة؟",
+     "متوشالح",
+     "نوح",
+     "آدم"
+    ]
+   }
+  },
+  {
+   "id": "gen-genesis-1-43",
+   "book": "genesis",
+   "difficulty": "hard",
+   "ref": "Genesis 5:28-29",
+   "text": {
+    "en": [
+     "Who was the father of Noah?",
+     "Lamech",
+     "Enoch",
+     "Methuselah"
+    ],
+    "es": [
+     "¿Quién fue el padre de Noé?",
+     "Lamec",
+     "Henoc",
+     "Matusalén"
+    ],
+    "pt": [
+     "Quem foi o pai de Noé?",
+     "Lamec",
+     "Henoc",
+     "Matusalém"
+    ],
+    "fr": [
+     "Qui fut le père de Noé ?",
+     "Lamek",
+     "Hénok",
+     "Mathusalem"
+    ],
+    "de": [
+     "Wer war der Vater Noachs?",
+     "Lamech",
+     "Henoch",
+     "Metuschelach"
+    ],
+    "it": [
+     "Chi fu il padre di Noè?",
+     "Lamec",
+     "Enoc",
+     "Matusalemme"
+    ],
+    "pl": [
+     "Kto był ojcem Noego?",
+     "Lamek",
+     "Henoch",
+     "Matuzalem"
+    ],
+    "ru": [
+     "Кто был отцом Ноя?",
+     "Ламех",
+     "Енох",
+     "Мафусал"
+    ],
+    "tr": [
+     "Nuh'un babası kimdi?",
+     "Lamek",
+     "Hanok",
+     "Metuşelah"
+    ],
+    "ja": [
+     "ノアの父は誰ですか？",
+     "レメク",
+     "エノク",
+     "メトシェラ"
+    ],
+    "ko": [
+     "노아의 아버지는 누구입니까?",
+     "라멕",
+     "에녹",
+     "므투셀라"
+    ],
+    "ar": [
+     "من كان أبا نوح؟",
+     "لامك",
+     "أخنوخ",
+     "متوشالح"
+    ]
+   }
+  },
+  {
+   "id": "gen-genesis-1-44",
+   "book": "genesis",
+   "difficulty": "impossible",
+   "ref": "Genesis 5:31",
+   "text": {
+    "en": [
+     "How many years did Lamech, of Seth's line, live?",
+     "777",
+     "750",
+     "700"
+    ],
+    "es": [
+     "¿Cuántos años vivió Lamec, del linaje de Set?",
+     "777",
+     "750",
+     "700"
+    ],
+    "pt": [
+     "Quantos anos viveu Lamec, da linhagem de Set?",
+     "777",
+     "750",
+     "700"
+    ],
+    "fr": [
+     "Combien d'années vécut Lamek, de la lignée de Seth ?",
+     "777",
+     "750",
+     "700"
+    ],
+    "de": [
+     "Wie viele Jahre lebte Lamech aus der Linie Sets?",
+     "777",
+     "750",
+     "700"
+    ],
+    "it": [
+     "Quanti anni visse Lamec, della discendenza di Set?",
+     "777",
+     "750",
+     "700"
+    ],
+    "pl": [
+     "Ile lat żył Lamek z rodu Seta?",
+     "777",
+     "750",
+     "700"
+    ],
+    "ru": [
+     "Сколько лет прожил Ламех из рода Сифа?",
+     "777",
+     "750",
+     "700"
+    ],
+    "tr": [
+     "Şit soyundan Lamek kaç yıl yaşadı?",
+     "777",
+     "750",
+     "700"
+    ],
+    "ja": [
+     "セトの系譜のレメクは何年生きましたか？",
+     "777",
+     "750",
+     "700"
+    ],
+    "ko": [
+     "셋의 계보에 속한 라멕은 몇 년을 살았습니까?",
+     "777",
+     "750",
+     "700"
+    ],
+    "ar": [
+     "كم سنة عاش لامك من نسل شيث؟",
+     "777",
+     "750",
+     "700"
+    ]
+   }
+  },
+  {
+   "id": "gen-genesis-1-45",
+   "book": "genesis",
+   "difficulty": "impossible",
+   "ref": "Genesis 5:29",
+   "text": {
+    "en": [
+     "What did Noah's father say Noah would bring amid toil?",
+     "Comfort",
+     "Wealth",
+     "Victory"
+    ],
+    "es": [
+     "¿Qué traería Noé en medio de la fatiga, según su padre?",
+     "Consuelo",
+     "Riqueza",
+     "Victoria"
+    ],
+    "pt": [
+     "O que o pai de Noé disse que ele lhes traria em sua fadiga?",
+     "Consolo",
+     "Riqueza",
+     "Vitória"
+    ],
+    "fr": [
+     "Selon son père, qu'est-ce que Noé apporterait dans leur labeur ?",
+     "Consolation",
+     "Richesse",
+     "Victoire"
+    ],
+    "de": [
+     "Was sollte Noach laut seinem Vater den Menschen in ihrer Mühsal bringen?",
+     "Trost",
+     "Reichtum",
+     "Sieg"
+    ],
+    "it": [
+     "Secondo suo padre, che cosa avrebbe portato Noè nella fatica?",
+     "Consolazione",
+     "Ricchezza",
+     "Vittoria"
+    ],
+    "pl": [
+     "Co według swego ojca Noe miał przynieść ludziom w trudzie?",
+     "Pociechę",
+     "Bogactwo",
+     "Zwycięstwo"
+    ],
+    "ru": [
+     "Что, по словам отца Ноя, Ной принесёт им в трудах?",
+     "Утешение",
+     "Богатство",
+     "Победу"
+    ],
+    "tr": [
+     "Nuh'un babasına göre Nuh, zahmetlerinde onlara ne getirecekti?",
+     "Rahatlık",
+     "Zenginlik",
+     "Zafer"
+    ],
+    "ja": [
+     "ノアの父は、ノアが労苦の中で何をもたらすと言いましたか？",
+     "慰め",
+     "富",
+     "勝利"
+    ],
+    "ko": [
+     "노아의 아버지는 노아가 수고 속에서 무엇을 가져다주리라고 했습니까?",
+     "위로",
+     "재물",
+     "승리"
+    ],
+    "ar": [
+     "ماذا قال أبو نوح إن نوحًا سيجلب لهم في تعبهم؟",
+     "عزاء",
+     "ثروة",
+     "نصرا"
+    ]
+   }
+  },
+  {
+   "id": "gen-genesis-1-46",
+   "book": "genesis",
+   "difficulty": "medium",
+   "ref": "Genesis 5:32",
+   "text": {
+    "en": [
+     "Which of these was a son of Noah?",
+     "Japheth",
+     "Jabal",
+     "Irad"
+    ],
+    "es": [
+     "¿Cuál de estos fue hijo de Noé?",
+     "Jafet",
+     "Yabal",
+     "Irad"
+    ],
+    "pt": [
+     "Qual destes foi filho de Noé?",
+     "Jafé",
+     "Jabal",
+     "Irad"
+    ],
+    "fr": [
+     "Lequel de ceux-ci était un fils de Noé ?",
+     "Japhet",
+     "Yabal",
+     "Irad"
+    ],
+    "de": [
+     "Wer von diesen war ein Sohn Noachs?",
+     "Jafet",
+     "Jabal",
+     "Irad"
+    ],
+    "it": [
+     "Quale di questi era figlio di Noè?",
+     "Iafet",
+     "Iabal",
+     "Irad"
+    ],
+    "pl": [
+     "Który z nich był synem Noego?",
+     "Jafet",
+     "Jabal",
+     "Irad"
+    ],
+    "ru": [
+     "Кто из них был сыном Ноя?",
+     "Иафет",
+     "Иавал",
+     "Ирад"
+    ],
+    "tr": [
+     "Bunlardan hangisi Nuh'un oğluydu?",
+     "Yafet",
+     "Yaval",
+     "İrat"
+    ],
+    "ja": [
+     "次のうちノアの息子は誰ですか？",
+     "ヤフェト",
+     "ヤバル",
+     "イラド"
+    ],
+    "ko": [
+     "다음 중 노아의 아들은 누구입니까?",
+     "야펫",
+     "야발",
+     "이랏"
+    ],
+    "ar": [
+     "أي هؤلاء كان ابنًا لنوح؟",
+     "يافث",
+     "يابال",
+     "عيراد"
+    ]
+   }
+  },
+  {
+   "id": "gen-genesis-1-47",
+   "book": "genesis",
+   "difficulty": "easy",
+   "ref": "Genesis 6:10",
+   "text": {
+    "en": [
+     "How many sons did Noah have?",
+     "3",
+     "2",
+     "4"
+    ],
+    "es": [
+     "¿Cuántos hijos varones tuvo Noé?",
+     "3",
+     "2",
+     "4"
+    ],
+    "pt": [
+     "Quantos filhos homens Noé teve?",
+     "3",
+     "2",
+     "4"
+    ],
+    "fr": [
+     "Combien de fils Noé eut-il ?",
+     "3",
+     "2",
+     "4"
+    ],
+    "de": [
+     "Wie viele Söhne hatte Noach?",
+     "3",
+     "2",
+     "4"
+    ],
+    "it": [
+     "Quanti figli maschi ebbe Noè?",
+     "3",
+     "2",
+     "4"
+    ],
+    "pl": [
+     "Ilu synów miał Noe?",
+     "3",
+     "2",
+     "4"
+    ],
+    "ru": [
+     "Сколько сыновей было у Ноя?",
+     "3",
+     "2",
+     "4"
+    ],
+    "tr": [
+     "Nuh'un kaç oğlu vardı?",
+     "3",
+     "2",
+     "4"
+    ],
+    "ja": [
+     "ノアには息子が何人いましたか？",
+     "3",
+     "2",
+     "4"
+    ],
+    "ko": [
+     "노아에게는 아들이 몇 명 있었습니까?",
+     "3",
+     "2",
+     "4"
+    ],
+    "ar": [
+     "كم ابنًا كان لنوح؟",
+     "3",
+     "2",
+     "4"
+    ]
+   }
+  },
+  {
+   "id": "gen-genesis-1-48",
+   "book": "genesis",
+   "difficulty": "expert",
+   "ref": "Genesis 6:3",
+   "text": {
+    "en": [
+     "God said man's days would be how many years?",
+     "120",
+     "70",
+     "100"
+    ],
+    "es": [
+     "¿Cuántos años dijo Dios que serían los días del hombre?",
+     "120",
+     "70",
+     "100"
+    ],
+    "pt": [
+     "Quantos anos Deus disse que seriam os dias do homem?",
+     "120",
+     "70",
+     "100"
+    ],
+    "fr": [
+     "Selon Dieu, combien d'années compteraient les jours de l'homme ?",
+     "120",
+     "70",
+     "100"
+    ],
+    "de": [
+     "Wie viele Jahre sollte die Lebenszeit des Menschen laut Gott betragen?",
+     "120",
+     "70",
+     "100"
+    ],
+    "it": [
+     "Quanti anni, disse Dio, sarebbero stati i giorni dell'uomo?",
+     "120",
+     "70",
+     "100"
+    ],
+    "pl": [
+     "Ile lat według Boga miały liczyć dni człowieka?",
+     "120",
+     "70",
+     "100"
+    ],
+    "ru": [
+     "Сколько лет, по слову Бога, будут дни человека?",
+     "120",
+     "70",
+     "100"
+    ],
+    "tr": [
+     "Tanrı'ya göre insanın ömrü kaç yıl olacaktı?",
+     "120",
+     "70",
+     "100"
+    ],
+    "ja": [
+     "神は人の一生を何年とされましたか？",
+     "120",
+     "70",
+     "100"
+    ],
+    "ko": [
+     "하느님께서는 사람의 수명을 몇 년으로 정하셨습니까?",
+     "120",
+     "70",
+     "100"
+    ],
+    "ar": [
+     "كم سنة قال الله إن أيام الإنسان ستكون؟",
+     "120",
+     "70",
+     "100"
+    ]
+   }
+  },
+  {
+   "id": "gen-genesis-1-49",
+   "book": "genesis",
+   "difficulty": "hard",
+   "ref": "Genesis 6:14",
+   "text": {
+    "en": [
+     "What was Noah told to coat the ark with?",
+     "Pitch",
+     "Gold",
+     "Wax"
+    ],
+    "es": [
+     "¿Con qué debía Noé recubrir el arca por dentro y por fuera?",
+     "Betún",
+     "Oro",
+     "Cera"
+    ],
+    "pt": [
+     "Com que Noé devia revestir a arca por dentro e por fora?",
+     "Betume",
+     "Ouro",
+     "Cera"
+    ],
+    "fr": [
+     "De quoi Noé devait-il enduire l'arche dedans et dehors ?",
+     "Bitume",
+     "Or",
+     "Cire"
+    ],
+    "de": [
+     "Womit sollte Noach die Arche innen und außen bestreichen?",
+     "Pech",
+     "Gold",
+     "Wachs"
+    ],
+    "it": [
+     "Di che cosa Noè doveva spalmare l'arca dentro e fuori?",
+     "Bitume",
+     "Oro",
+     "Cera"
+    ],
+    "pl": [
+     "Czym Noe miał powlec arkę wewnątrz i zewnątrz?",
+     "Smołą",
+     "Złotem",
+     "Woskiem"
+    ],
+    "ru": [
+     "Чем Ной должен был покрыть ковчег внутри и снаружи?",
+     "Смолой",
+     "Золотом",
+     "Воском"
+    ],
+    "tr": [
+     "Nuh gemiyi içten ve dıştan neyle kaplayacaktı?",
+     "Zift",
+     "Altın",
+     "Balmumu"
+    ],
+    "ja": [
+     "ノアは箱舟の内側と外側に何を塗るよう命じられましたか？",
+     "タール",
+     "金",
+     "蝋"
+    ],
+    "ko": [
+     "노아는 방주 안팎에 무엇을 칠해야 했습니까?",
+     "역청",
+     "금",
+     "밀랍"
+    ],
+    "ar": [
+     "بماذا كان على نوح أن يطلي الفلك من داخل ومن خارج؟",
+     "القار",
+     "الذهب",
+     "الشمع"
+    ]
+   }
+  },
+  {
+   "id": "gen-genesis-1-50",
+   "book": "genesis",
+   "difficulty": "expert",
+   "ref": "Genesis 6:15",
+   "text": {
+    "en": [
+     "How many cubits long was Noah's ark?",
+     "300",
+     "100",
+     "500"
+    ],
+    "es": [
+     "¿Cuántos codos de largo tenía el arca de Noé?",
+     "300",
+     "100",
+     "500"
+    ],
+    "pt": [
+     "Quantos côvados de comprimento tinha a arca de Noé?",
+     "300",
+     "100",
+     "500"
+    ],
+    "fr": [
+     "Combien de coudées de long mesurait l'arche de Noé ?",
+     "300",
+     "100",
+     "500"
+    ],
+    "de": [
+     "Wie viele Ellen lang war die Arche Noachs?",
+     "300",
+     "100",
+     "500"
+    ],
+    "it": [
+     "Quanti cubiti era lunga l'arca di Noè?",
+     "300",
+     "100",
+     "500"
+    ],
+    "pl": [
+     "Ile łokci długości miała arka Noego?",
+     "300",
+     "100",
+     "500"
+    ],
+    "ru": [
+     "Сколько локтей в длину был ковчег Ноя?",
+     "300",
+     "100",
+     "500"
+    ],
+    "tr": [
+     "Nuh'un gemisi kaç arşın uzunluğundaydı?",
+     "300",
+     "100",
+     "500"
+    ],
+    "ja": [
+     "ノアの箱舟の長さは何アンマでしたか？",
+     "300",
+     "100",
+     "500"
+    ],
+    "ko": [
+     "노아의 방주는 길이가 몇 암마였습니까?",
+     "300",
+     "100",
+     "500"
+    ],
+    "ar": [
+     "كم ذراعًا كان طول فلك نوح؟",
+     "300",
+     "100",
+     "500"
+    ]
+   }
+  },
+  {
+   "id": "gen-genesis-1-51",
+   "book": "genesis",
+   "difficulty": "expert",
+   "ref": "Genesis 6:16",
+   "text": {
+    "en": [
+     "How many decks was Noah's ark to have?",
+     "3",
+     "2",
+     "5"
+    ],
+    "es": [
+     "¿Cuántos pisos debía tener el arca de Noé?",
+     "3",
+     "2",
+     "5"
+    ],
+    "pt": [
+     "Quantos andares devia ter a arca de Noé?",
+     "3",
+     "2",
+     "5"
+    ],
+    "fr": [
+     "Combien d'étages devait avoir l'arche de Noé ?",
+     "3",
+     "2",
+     "5"
+    ],
+    "de": [
+     "Wie viele Stockwerke sollte die Arche Noachs haben?",
+     "3",
+     "2",
+     "5"
+    ],
+    "it": [
+     "Quanti piani doveva avere l'arca di Noè?",
+     "3",
+     "2",
+     "5"
+    ],
+    "pl": [
+     "Ile pięter miała mieć arka Noego?",
+     "3",
+     "2",
+     "5"
+    ],
+    "ru": [
+     "Сколько ярусов должно было быть в ковчеге Ноя?",
+     "3",
+     "2",
+     "5"
+    ],
+    "tr": [
+     "Nuh'un gemisi kaç katlı olacaktı?",
+     "3",
+     "2",
+     "5"
+    ],
+    "ja": [
+     "ノアの箱舟は何階建てにするよう命じられましたか？",
+     "3",
+     "2",
+     "5"
+    ],
+    "ko": [
+     "노아의 방주는 몇 층으로 만들어야 했습니까?",
+     "3",
+     "2",
+     "5"
+    ],
+    "ar": [
+     "كم طبقة كان يجب أن تكون في فلك نوح؟",
+     "3",
+     "2",
+     "5"
+    ]
+   }
+  },
+  {
+   "id": "gen-genesis-1-52",
+   "book": "genesis",
+   "difficulty": "impossible",
+   "ref": "Genesis 6:16",
+   "text": {
+    "en": [
+     "Where was the door of the ark to be placed?",
+     "Side",
+     "Roof",
+     "Bottom"
+    ],
+    "es": [
+     "¿Dónde debía ponerse la puerta del arca?",
+     "Costado",
+     "Techo",
+     "Fondo"
+    ],
+    "pt": [
+     "Onde devia ser colocada a porta da arca?",
+     "Lado",
+     "Teto",
+     "Fundo"
+    ],
+    "fr": [
+     "Où devait-on placer la porte de l'arche ?",
+     "Côté",
+     "Toit",
+     "Fond"
+    ],
+    "de": [
+     "Wo sollte die Tür der Arche angebracht werden?",
+     "Seite",
+     "Dach",
+     "Boden"
+    ],
+    "it": [
+     "Dove doveva essere collocata la porta dell'arca?",
+     "Lato",
+     "Tetto",
+     "Fondo"
+    ],
+    "pl": [
+     "Gdzie miały być umieszczone drzwi arki?",
+     "Bok",
+     "Dach",
+     "Dno"
+    ],
+    "ru": [
+     "Где должна была быть дверь ковчега?",
+     "Бок",
+     "Крыша",
+     "Дно"
+    ],
+    "tr": [
+     "Geminin kapısı nereye yapılacaktı?",
+     "Yan",
+     "Çatı",
+     "Taban"
+    ],
+    "ja": [
+     "箱舟の戸口はどこに付けるよう命じられましたか？",
+     "側面",
+     "屋根",
+     "底"
+    ],
+    "ko": [
+     "방주의 문은 어디에 내라고 하셨습니까?",
+     "옆",
+     "지붕",
+     "바닥"
+    ],
+    "ar": [
+     "أين كان يجب أن يُجعل باب الفلك؟",
+     "الجانب",
+     "السقف",
+     "القاع"
+    ]
+   }
+  },
+  {
+   "id": "gen-genesis-1-53",
+   "book": "genesis",
+   "difficulty": "hard",
+   "ref": "Genesis 7:2",
+   "text": {
+    "en": [
+     "How many pairs of each clean animal did Noah take?",
+     "7",
+     "2",
+     "12"
+    ],
+    "es": [
+     "¿Cuántas parejas de cada animal puro llevó Noé?",
+     "7",
+     "2",
+     "12"
+    ],
+    "pt": [
+     "Quantos pares de cada animal puro Noé levou?",
+     "7",
+     "2",
+     "12"
+    ],
+    "fr": [
+     "Combien de couples de chaque animal pur Noé prit-il ?",
+     "7",
+     "2",
+     "12"
+    ],
+    "de": [
+     "Wie viele Paare von jedem reinen Tier nahm Noach mit?",
+     "7",
+     "2",
+     "12"
+    ],
+    "it": [
+     "Quante paia di ogni animale puro prese Noè?",
+     "7",
+     "2",
+     "12"
+    ],
+    "pl": [
+     "Ile par każdego czystego zwierzęcia zabrał Noe?",
+     "7",
+     "2",
+     "12"
+    ],
+    "ru": [
+     "Сколько пар каждого чистого животного взял Ной?",
+     "7",
+     "2",
+     "12"
+    ],
+    "tr": [
+     "Nuh temiz hayvanların her türünden kaç çift aldı?",
+     "7",
+     "2",
+     "12"
+    ],
+    "ja": [
+     "ノアは清い動物をそれぞれ何つがい連れて行きましたか？",
+     "7",
+     "2",
+     "12"
+    ],
+    "ko": [
+     "노아는 정결한 짐승을 종류마다 몇 쌍씩 데려갔습니까?",
+     "7",
+     "2",
+     "12"
+    ],
+    "ar": [
+     "كم زوجًا من كل حيوان طاهر أخذ نوح؟",
+     "7",
+     "2",
+     "12"
+    ]
+   }
+  },
+  {
+   "id": "gen-genesis-1-54",
+   "book": "genesis",
+   "difficulty": "easy",
+   "ref": "Genesis 7:9",
+   "text": {
+    "en": [
+     "The animals went into the ark in groups of how many?",
+     "2",
+     "3",
+     "10"
+    ],
+    "es": [
+     "¿De cuántos en cuántos entraron los animales en el arca?",
+     "2",
+     "3",
+     "10"
+    ],
+    "pt": [
+     "De quantos em quantos os animais entraram na arca?",
+     "2",
+     "3",
+     "10"
+    ],
+    "fr": [
+     "Les animaux entrèrent dans l'arche par groupes de combien ?",
+     "2",
+     "3",
+     "10"
+    ],
+    "de": [
+     "Zu wie vielen gingen die Tiere jeweils in die Arche?",
+     "2",
+     "3",
+     "10"
+    ],
+    "it": [
+     "A quanti a quanti entrarono gli animali nell'arca?",
+     "2",
+     "3",
+     "10"
+    ],
+    "pl": [
+     "Po ile zwierzęta wchodziły do arki?",
+     "2",
+     "3",
+     "10"
+    ],
+    "ru": [
+     "По сколько животные входили в ковчег?",
+     "2",
+     "3",
+     "10"
+    ],
+    "tr": [
+     "Hayvanlar gemiye kaçar kaçar girdi?",
+     "2",
+     "3",
+     "10"
+    ],
+    "ja": [
+     "動物たちは何匹ずつ箱舟に入りましたか？",
+     "2",
+     "3",
+     "10"
+    ],
+    "ko": [
+     "짐승들은 몇 마리씩 방주에 들어갔습니까?",
+     "2",
+     "3",
+     "10"
+    ],
+    "ar": [
+     "كم كان عدد الحيوانات في كل مجموعة دخلت الفلك؟",
+     "2",
+     "3",
+     "10"
+    ]
+   }
+  },
+  {
+   "id": "gen-genesis-1-55",
+   "book": "genesis",
+   "difficulty": "medium",
+   "ref": "Genesis 7:13",
+   "text": {
+    "en": [
+     "How many people entered the ark?",
+     "8",
+     "4",
+     "12"
+    ],
+    "es": [
+     "¿Cuántas personas entraron en el arca?",
+     "8",
+     "4",
+     "12"
+    ],
+    "pt": [
+     "Quantas pessoas entraram na arca?",
+     "8",
+     "4",
+     "12"
+    ],
+    "fr": [
+     "Combien de personnes entrèrent dans l'arche ?",
+     "8",
+     "4",
+     "12"
+    ],
+    "de": [
+     "Wie viele Menschen gingen in die Arche?",
+     "8",
+     "4",
+     "12"
+    ],
+    "it": [
+     "Quante persone entrarono nell'arca?",
+     "8",
+     "4",
+     "12"
+    ],
+    "pl": [
+     "Ile osób weszło do arki?",
+     "8",
+     "4",
+     "12"
+    ],
+    "ru": [
+     "Сколько людей вошло в ковчег?",
+     "8",
+     "4",
+     "12"
+    ],
+    "tr": [
+     "Gemiye kaç kişi girdi?",
+     "8",
+     "4",
+     "12"
+    ],
+    "ja": [
+     "箱舟に入った人は何人ですか？",
+     "8",
+     "4",
+     "12"
+    ],
+    "ko": [
+     "방주에 들어간 사람은 몇 명입니까?",
+     "8",
+     "4",
+     "12"
+    ],
+    "ar": [
+     "كم شخصًا دخل الفلك؟",
+     "8",
+     "4",
+     "12"
+    ]
+   }
+  },
+  {
+   "id": "gen-genesis-1-56",
+   "book": "genesis",
+   "difficulty": "hard",
+   "ref": "Genesis 7:6",
+   "text": {
+    "en": [
+     "How old was Noah when the flood came?",
+     "600",
+     "120",
+     "900"
+    ],
+    "es": [
+     "¿Qué edad tenía Noé cuando llegó el diluvio?",
+     "600",
+     "120",
+     "900"
+    ],
+    "pt": [
+     "Que idade tinha Noé quando veio o dilúvio?",
+     "600",
+     "120",
+     "900"
+    ],
+    "fr": [
+     "Quel âge avait Noé quand vint le déluge ?",
+     "600",
+     "120",
+     "900"
+    ],
+    "de": [
+     "Wie alt war Noach, als die Flut kam?",
+     "600",
+     "120",
+     "900"
+    ],
+    "it": [
+     "Quanti anni aveva Noè quando venne il diluvio?",
+     "600",
+     "120",
+     "900"
+    ],
+    "pl": [
+     "Ile lat miał Noe, gdy nastał potop?",
+     "600",
+     "120",
+     "900"
+    ],
+    "ru": [
+     "Сколько лет было Ною, когда начался потоп?",
+     "600",
+     "120",
+     "900"
+    ],
+    "tr": [
+     "Tufan başladığında Nuh kaç yaşındaydı?",
+     "600",
+     "120",
+     "900"
+    ],
+    "ja": [
+     "洪水が起こったとき、ノアは何歳でしたか？",
+     "600",
+     "120",
+     "900"
+    ],
+    "ko": [
+     "홍수가 났을 때 노아는 몇 살이었습니까?",
+     "600",
+     "120",
+     "900"
+    ],
+    "ar": [
+     "كم كان عمر نوح حين جاء الطوفان؟",
+     "600",
+     "120",
+     "900"
+    ]
+   }
+  },
+  {
+   "id": "gen-genesis-1-57",
+   "book": "genesis",
+   "difficulty": "impossible",
+   "ref": "Genesis 7:11",
+   "text": {
+    "en": [
+     "On which day of the month did the flood begin?",
+     "17",
+     "10",
+     "27"
+    ],
+    "es": [
+     "¿En qué día del mes comenzó el diluvio?",
+     "17",
+     "10",
+     "27"
+    ],
+    "pt": [
+     "Em que dia do mês começou o dilúvio?",
+     "17",
+     "10",
+     "27"
+    ],
+    "fr": [
+     "Quel jour du mois commença le déluge ?",
+     "17",
+     "10",
+     "27"
+    ],
+    "de": [
+     "An welchem Tag des Monats begann die Flut?",
+     "17",
+     "10",
+     "27"
+    ],
+    "it": [
+     "In quale giorno del mese iniziò il diluvio?",
+     "17",
+     "10",
+     "27"
+    ],
+    "pl": [
+     "Którego dnia miesiąca zaczął się potop?",
+     "17",
+     "10",
+     "27"
+    ],
+    "ru": [
+     "В какой день месяца начался потоп?",
+     "17",
+     "10",
+     "27"
+    ],
+    "tr": [
+     "Tufan ayın kaçıncı günü başladı?",
+     "17",
+     "10",
+     "27"
+    ],
+    "ja": [
+     "洪水は月の何日に始まりましたか？",
+     "17",
+     "10",
+     "27"
+    ],
+    "ko": [
+     "홍수는 그달 며칠에 시작되었습니까?",
+     "17",
+     "10",
+     "27"
+    ],
+    "ar": [
+     "في أي يوم من الشهر بدأ الطوفان؟",
+     "17",
+     "10",
+     "27"
+    ]
+   }
+  },
+  {
+   "id": "gen-genesis-1-58",
+   "book": "genesis",
+   "difficulty": "easy",
+   "ref": "Genesis 7:12",
+   "text": {
+    "en": [
+     "How many days and nights did it rain in the flood?",
+     "40",
+     "7",
+     "100"
+    ],
+    "es": [
+     "¿Cuántos días y noches llovió en el diluvio?",
+     "40",
+     "7",
+     "100"
+    ],
+    "pt": [
+     "Quantos dias e noites choveu no dilúvio?",
+     "40",
+     "7",
+     "100"
+    ],
+    "fr": [
+     "Combien de jours et de nuits la pluie tomba-t-elle lors du déluge ?",
+     "40",
+     "7",
+     "100"
+    ],
+    "de": [
+     "Wie viele Tage und Nächte regnete es bei der Flut?",
+     "40",
+     "7",
+     "100"
+    ],
+    "it": [
+     "Per quanti giorni e notti piovve durante il diluvio?",
+     "40",
+     "7",
+     "100"
+    ],
+    "pl": [
+     "Ile dni i nocy padał deszcz podczas potopu?",
+     "40",
+     "7",
+     "100"
+    ],
+    "ru": [
+     "Сколько дней и ночей шёл дождь во время потопа?",
+     "40",
+     "7",
+     "100"
+    ],
+    "tr": [
+     "Tufanda kaç gün kaç gece yağmur yağdı?",
+     "40",
+     "7",
+     "100"
+    ],
+    "ja": [
+     "洪水のとき、雨は何日何夜降り続きましたか？",
+     "40",
+     "7",
+     "100"
+    ],
+    "ko": [
+     "홍수 때 비는 며칠 밤낮 동안 내렸습니까?",
+     "40",
+     "7",
+     "100"
+    ],
+    "ar": [
+     "كم يومًا وليلة هطل المطر في الطوفان؟",
+     "40",
+     "7",
+     "100"
+    ]
+   }
+  },
+  {
+   "id": "gen-genesis-1-59",
+   "book": "genesis",
+   "difficulty": "hard",
+   "ref": "Genesis 7:16",
+   "text": {
+    "en": [
+     "Who shut the door of the ark?",
+     "God",
+     "Noah",
+     "Shem"
+    ],
+    "es": [
+     "¿Quién cerró la puerta del arca?",
+     "Dios",
+     "Noé",
+     "Sem"
+    ],
+    "pt": [
+     "Quem fechou a porta da arca?",
+     "Deus",
+     "Noé",
+     "Sem"
+    ],
+    "fr": [
+     "Qui ferma la porte de l'arche ?",
+     "Dieu",
+     "Noé",
+     "Sem"
+    ],
+    "de": [
+     "Wer schloss die Tür der Arche?",
+     "Gott",
+     "Noach",
+     "Sem"
+    ],
+    "it": [
+     "Chi chiuse la porta dell'arca?",
+     "Dio",
+     "Noè",
+     "Sem"
+    ],
+    "pl": [
+     "Kto zamknął drzwi arki?",
+     "Bóg",
+     "Noe",
+     "Sem"
+    ],
+    "ru": [
+     "Кто затворил дверь ковчега?",
+     "Бог",
+     "Ной",
+     "Сим"
+    ],
+    "tr": [
+     "Geminin kapısını kim kapattı?",
+     "Tanrı",
+     "Nuh",
+     "Sam"
+    ],
+    "ja": [
+     "箱舟の戸を閉ざしたのは誰ですか？",
+     "神",
+     "ノア",
+     "セム"
+    ],
+    "ko": [
+     "방주의 문을 닫은 이는 누구입니까?",
+     "하느님",
+     "노아",
+     "셈"
+    ],
+    "ar": [
+     "من أغلق باب الفلك؟",
+     "الله",
+     "نوح",
+     "سام"
+    ]
+   }
+  },
+  {
+   "id": "gen-genesis-1-60",
+   "book": "genesis",
+   "difficulty": "impossible",
+   "ref": "Genesis 7:20",
+   "text": {
+    "en": [
+     "How many cubits did the waters rise above the mountains?",
+     "15",
+     "10",
+     "50"
+    ],
+    "es": [
+     "¿Cuántos codos subieron las aguas por encima de los montes?",
+     "15",
+     "10",
+     "50"
+    ],
+    "pt": [
+     "Quantos côvados as águas subiram acima dos montes?",
+     "15",
+     "10",
+     "50"
+    ],
+    "fr": [
+     "De combien de coudées les eaux s'élevèrent-elles au-dessus des montagnes ?",
+     "15",
+     "10",
+     "50"
+    ],
+    "de": [
+     "Wie viele Ellen stieg das Wasser über die Berge?",
+     "15",
+     "10",
+     "50"
+    ],
+    "it": [
+     "Di quanti cubiti le acque superarono i monti?",
+     "15",
+     "10",
+     "50"
+    ],
+    "pl": [
+     "O ile łokci wody wzniosły się ponad góry?",
+     "15",
+     "10",
+     "50"
+    ],
+    "ru": [
+     "На сколько локтей вода поднялась над горами?",
+     "15",
+     "10",
+     "50"
+    ],
+    "tr": [
+     "Sular dağların kaç arşın üstüne çıktı?",
+     "15",
+     "10",
+     "50"
+    ],
+    "ja": [
+     "水は山々の上、何アンマにまで達しましたか？",
+     "15",
+     "10",
+     "50"
+    ],
+    "ko": [
+     "물은 산들 위로 몇 암마나 불어났습니까?",
+     "15",
+     "10",
+     "50"
+    ],
+    "ar": [
+     "كم ذراعًا ارتفعت المياه فوق الجبال؟",
+     "15",
+     "10",
+     "50"
+    ]
+   }
+  },
+  {
+   "id": "gen-genesis-1-61",
+   "book": "genesis",
+   "difficulty": "expert",
+   "ref": "Genesis 7:24",
+   "text": {
+    "en": [
+     "For how many days did the waters prevail on the earth?",
+     "150",
+     "90",
+     "200"
+    ],
+    "es": [
+     "¿Durante cuántos días cubrieron las aguas la tierra?",
+     "150",
+     "90",
+     "200"
+    ],
+    "pt": [
+     "Por quantos dias as águas cobriram a terra?",
+     "150",
+     "90",
+     "200"
+    ],
+    "fr": [
+     "Pendant combien de jours les eaux enflèrent-elles sur la terre ?",
+     "150",
+     "90",
+     "200"
+    ],
+    "de": [
+     "Wie viele Tage lang schwoll das Wasser auf der Erde an?",
+     "150",
+     "90",
+     "200"
+    ],
+    "it": [
+     "Per quanti giorni le acque furono travolgenti sopra la terra?",
+     "150",
+     "90",
+     "200"
+    ],
+    "pl": [
+     "Przez ile dni wody podnosiły się nad ziemią?",
+     "150",
+     "90",
+     "200"
+    ],
+    "ru": [
+     "Сколько дней усиливалась вода на земле?",
+     "150",
+     "90",
+     "200"
+    ],
+    "tr": [
+     "Sular yeryüzünü kaç gün kapladı?",
+     "150",
+     "90",
+     "200"
+    ],
+    "ja": [
+     "水は何日の間、地上で勢いを失わなかったのですか？",
+     "150",
+     "90",
+     "200"
+    ],
+    "ko": [
+     "물은 며칠 동안 땅 위에서 불어나 있었습니까?",
+     "150",
+     "90",
+     "200"
+    ],
+    "ar": [
+     "كم يومًا تعاظمت المياه على الأرض؟",
+     "150",
+     "90",
+     "200"
+    ]
+   }
+  }
+ ]
+}

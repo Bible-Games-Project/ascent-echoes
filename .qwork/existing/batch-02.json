@@ -1,0 +1,5464 @@
+{
+ "questions": [
+  {
+   "orig": "easy_002",
+   "difficulty": "easy",
+   "text": {
+    "en": [
+     "What appeared at Pentecost?",
+     "Tongues",
+     "Storm",
+     "Earthquake"
+    ],
+    "es": [
+     "¿Qué apareció en Pentecostés?",
+     "Lenguas",
+     "Tormenta",
+     "Terremoto"
+    ],
+    "pt": [
+     "O que apareceu no Pentecostes?",
+     "Línguas",
+     "Tempestade",
+     "Terremoto"
+    ],
+    "fr": [
+     "Qu'est-ce qui est apparu à la Pentecôte ?",
+     "Langues",
+     "Tempête",
+     "Tremblement"
+    ],
+    "de": [
+     "Was erschien zu Pfingsten?",
+     "Feuerzungen",
+     "Sturm",
+     "Erdbeben"
+    ],
+    "it": [
+     "Cosa apparve a Pentecoste?",
+     "Lingue",
+     "Tempesta",
+     "Terremoto"
+    ],
+    "pl": [
+     "Co pojawiło się w Pięćdziesiątnicy?",
+     "Ognia",
+     "Burza",
+     "Trzęsienie"
+    ],
+    "ru": [
+     "Что появилось в Пятидесятницу?",
+     "языки",
+     "Буря",
+     "Землетрясение"
+    ],
+    "tr": [
+     "Pentekost'ta ne göründü?",
+     "Diller",
+     "Fırtına",
+     "Deprem"
+    ],
+    "ja": [
+     "ペンテコステで何が現れましたか？",
+     "炎の舌",
+     "嵐",
+     "地震"
+    ],
+    "ko": [
+     "오순절에 무엇이 나타났습니까？",
+     "혀",
+     "폭풍",
+     "지진"
+    ],
+    "ar": [
+     "ماذا ظهر في يوم الخمسين؟",
+     "ألسنة",
+     "عاصفة",
+     "زلزال"
+    ]
+   }
+  },
+  {
+   "orig": "easy_021",
+   "difficulty": "easy",
+   "text": {
+    "en": [
+     "Who was Roman governor?",
+     "Pilate",
+     "Caiphas",
+     "Peter"
+    ],
+    "es": [
+     "¿Quién era el gobernador romano?",
+     "Pilato",
+     "Caifás",
+     "Pedro"
+    ],
+    "pt": [
+     "Quem era o governador romano?",
+     "Pilatos",
+     "Caifás",
+     "Pedro"
+    ],
+    "fr": [
+     "Qui était le gouverneur romain ?",
+     "Pilate",
+     "Caïphe",
+     "Pierre"
+    ],
+    "de": [
+     "Wer war der römische Statthalter?",
+     "Pilatus",
+     "Kajaphas",
+     "Petrus"
+    ],
+    "it": [
+     "Chi era il governatore romano?",
+     "Pilato",
+     "Caifa",
+     "Pietro"
+    ],
+    "pl": [
+     "Kto był rzymskim namiestnikiem?",
+     "Piłat",
+     "Kajfasz",
+     "Piotr"
+    ],
+    "ru": [
+     "Кто был римским правителем?",
+     "Пилат",
+     "Каиафа",
+     "Пётр"
+    ],
+    "tr": [
+     "Roma valisi kimdi?",
+     "Pilatus",
+     "Kayafa",
+     "Petrus"
+    ],
+    "ja": [
+     "ローマの総督は誰でしたか？",
+     "ピラト",
+     "カイアファ",
+     "ペテロ"
+    ],
+    "ko": [
+     "로마 총독은 누구였습니까?",
+     "빌라도",
+     "가야바",
+     "베드로"
+    ],
+    "ar": [
+     "من كان الحاكم الروماني؟",
+     "بيلاطس",
+     "قيافا",
+     "بطرس"
+    ]
+   }
+  },
+  {
+   "orig": "easy_040",
+   "difficulty": "easy",
+   "text": {
+    "en": [
+     "Who often argued with Jesus?",
+     "Pharisees",
+     "Shepherds",
+     "Fishermen"
+    ],
+    "es": [
+     "¿Quién discutía a menudo con Jesús?",
+     "Fariseos",
+     "Pastores",
+     "Pescadores"
+    ],
+    "pt": [
+     "Quem frequentemente discutia com Jesus?",
+     "Fariseus",
+     "Pastores",
+     "Pescadores"
+    ],
+    "fr": [
+     "Qui discutait souvent avec Jésus ?",
+     "Pharisiens",
+     "Berger",
+     "Pêcheurs"
+    ],
+    "de": [
+     "Wer stritt oft mit Jesus?",
+     "Pharisäer",
+     "Hirten",
+     "Fischer"
+    ],
+    "it": [
+     "Chi discuteva spesso con Gesù?",
+     "Farisei",
+     "Pastori",
+     "Pescatori"
+    ],
+    "pl": [
+     "Kto często spierał się z Jezusem?",
+     "Faryzeusze",
+     "Pasterze",
+     "Rybacy"
+    ],
+    "ru": [
+     "Кто часто спорил с Иисusом?",
+     "Фарисеи",
+     "Пастухи",
+     "Рыбаки"
+    ],
+    "tr": [
+     "İsa ile kim sık sık tartıştı?",
+     "Ferisiler",
+     "Çobanlar",
+     "Balıkçılar"
+    ],
+    "ja": [
+     "イエスとよく議論したのは誰ですか？",
+     "パリサイ人",
+     "羊飼い",
+     "漁師"
+    ],
+    "ko": [
+     "예수님과 자주 논쟁한 사람은 누구입니까?",
+     "바리새인",
+     "목자들",
+     "어부들"
+    ],
+    "ar": [
+     "من كان يجادل يسوع كثيرًا؟",
+     "الفريسيون",
+     "رعاة",
+     "صيادون"
+    ]
+   }
+  },
+  {
+   "orig": "easy_059",
+   "difficulty": "easy",
+   "text": {
+    "en": [
+     "Who was persistent in prayer?",
+     "Widow",
+     "Queen",
+     "Merchant"
+    ],
+    "es": [
+     "¿Quién fue persistente en la oración?",
+     "Viuda",
+     "Reina",
+     "Comerciante"
+    ],
+    "pt": [
+     "Quem foi persistente na oração?",
+     "Viúva",
+     "Rainha",
+     "Mercador"
+    ],
+    "fr": [
+     "Qui a persévéré dans la prière ?",
+     "Veuve",
+     "Reine",
+     "Marchand"
+    ],
+    "de": [
+     "Wer war beharrlich im Gebet?",
+     "Witwe",
+     "Königin",
+     "Händler"
+    ],
+    "it": [
+     "Chi fu perseverante nella preghiera?",
+     "Vedova",
+     "Regina",
+     "Mercante"
+    ],
+    "pl": [
+     "Kto był wytrwały w modlitwie?",
+     "Wdowa",
+     "Królowa",
+     "Kupiec"
+    ],
+    "ru": [
+     "Кто был настойчив в молитве?",
+     "Вдова",
+     "Королева",
+     "Купец"
+    ],
+    "tr": [
+     "Kim dua konusunda ısrarcıydı?",
+     "Kadın",
+     "Kraliçe",
+     "Tüccar"
+    ],
+    "ja": [
+     "誰が祈りにおいて粘り強かったですか？",
+     "やもめ",
+     "女王",
+     "商人"
+    ],
+    "ko": [
+     "누가 기도에 끈질겼습니까?",
+     "과부",
+     "여왕",
+     "상인"
+    ],
+    "ar": [
+     "من كان مثابرًا في الصلاة؟",
+     "أرملة",
+     "ملكة",
+     "تاجر"
+    ]
+   }
+  },
+  {
+   "orig": "easy_078",
+   "difficulty": "easy",
+   "text": {
+    "en": [
+     "What did the seed fall on?",
+     "Different",
+     "Water",
+     "Fire"
+    ],
+    "es": [
+     "¿Sobre qué cayó la semilla?",
+     "Diferentes",
+     "Agua",
+     "Fuego"
+    ],
+    "pt": [
+     "Em que a semente caiu?",
+     "Diferentes",
+     "Água",
+     "Fogo"
+    ],
+    "fr": [
+     "Sur quoi la graine est-elle tombée ?",
+     "Différents",
+     "Eau",
+     "Feu"
+    ],
+    "de": [
+     "Auf was fiel der Samen?",
+     "Böden",
+     "Wasser",
+     "Feuer"
+    ],
+    "it": [
+     "Su cosa è caduto il seme?",
+     "Diversi",
+     "Acqua",
+     "Fuoco"
+    ],
+    "pl": [
+     "Na co padło ziarno?",
+     "Gleby",
+     "Woda",
+     "Ogień"
+    ],
+    "ru": [
+     "На что упало семя?",
+     "почвы",
+     "Вода",
+     "Огонь"
+    ],
+    "tr": [
+     "Tohum neyin üzerine düştü?",
+     "Topraklar",
+     "Su",
+     "Ateş"
+    ],
+    "ja": [
+     "種は何の上に落ちましたか？",
+     "さまざまな土壌",
+     "水",
+     "火"
+    ],
+    "ko": [
+     "씨앗은 무엇 위에 떨어졌습니까?",
+     "토양",
+     "물",
+     "불"
+    ],
+    "ar": [
+     "على ماذا سقطت البذرة؟",
+     "ترب",
+     "ماء",
+     "نار"
+    ]
+   }
+  },
+  {
+   "orig": "easy_097",
+   "difficulty": "easy",
+   "text": {
+    "en": [
+     "What did the builder construct?",
+     "Tower",
+     "House",
+     "Boat"
+    ],
+    "es": [
+     "¿Qué construyó el constructor?",
+     "Torre",
+     "Casa",
+     "Barco"
+    ],
+    "pt": [
+     "O que o construtor construiu?",
+     "Torre",
+     "Casa",
+     "Barco"
+    ],
+    "fr": [
+     "Qu’a construit le bâtisseur ?",
+     "Tour",
+     "Maison",
+     "Bateau"
+    ],
+    "de": [
+     "Was baute der Bauherr?",
+     "Turm",
+     "Haus",
+     "Boot"
+    ],
+    "it": [
+     "Cosa costruì il costruttore?",
+     "Torre",
+     "Casa",
+     "Barca"
+    ],
+    "pl": [
+     "Co zbudował budowniczy?",
+     "Wieża",
+     "Dom",
+     "Łódź"
+    ],
+    "ru": [
+     "Что построил строитель?",
+     "Башня",
+     "Дом",
+     "Лодка"
+    ],
+    "tr": [
+     "İnşaatçı ne yaptı?",
+     "Kule",
+     "Ev",
+     "Tekne"
+    ],
+    "ja": [
+     "建築家は何を建てましたか？",
+     "塔",
+     "家",
+     "ボート"
+    ],
+    "ko": [
+     "건축가는 무엇을 지었습니까?",
+     "탑",
+     "집",
+     "배"
+    ],
+    "ar": [
+     "ماذا بنى الباني؟",
+     "برج",
+     "بيت",
+     "قارب"
+    ]
+   }
+  },
+  {
+   "orig": "easy_116",
+   "difficulty": "easy",
+   "text": {
+    "en": [
+     "Who showed mercy in the parable?",
+     "Father",
+     "Judge",
+     "Servant"
+    ],
+    "es": [
+     "¿Quién mostró misericordia en la parábola?",
+     "Padre",
+     "Juez",
+     "Siervo"
+    ],
+    "pt": [
+     "Quem mostrou misericórdia na parábola?",
+     "Pai",
+     "Juiz",
+     "Servo"
+    ],
+    "fr": [
+     "Qui a montré de la miséricorde dans la parabole ?",
+     "Père",
+     "Juge",
+     "Serviteur"
+    ],
+    "de": [
+     "Wer zeigte Barmherzigkeit im Gleichnis?",
+     "Vater",
+     "Richter",
+     "Diener"
+    ],
+    "it": [
+     "Chi ha mostrato misericordia nella parabola?",
+     "Padre",
+     "Giudice",
+     "Servo"
+    ],
+    "pl": [
+     "Kto okazał miłosierdzie w przypowieści?",
+     "Ojciec",
+     "Sędzia",
+     "Sługa"
+    ],
+    "ru": [
+     "Кто проявил милосердие в притче?",
+     "Отец",
+     "Судья",
+     "Слуга"
+    ],
+    "tr": [
+     "Meselde kim merhamet gösterdi?",
+     "Baba",
+     "Hakim",
+     "Hizmetçi"
+    ],
+    "ja": [
+     "たとえ話で誰が憐れみを示しましたか？",
+     "父",
+     "裁判官",
+     "しもべ"
+    ],
+    "ko": [
+     "비유에서 누가 자비를 보였습니까?",
+     "아버지",
+     "판사",
+     "종"
+    ],
+    "ar": [
+     "من أظهر الرحمة في المثل؟",
+     "الأب",
+     "القاضي",
+     "الخادم"
+    ]
+   }
+  },
+  {
+   "orig": "easy_135",
+   "difficulty": "easy",
+   "text": {
+    "en": [
+     "Blessed are the pure in heart, for they shall see...?",
+     "God",
+     "Kings",
+     "Rich"
+    ],
+    "es": [
+     "Bienaventurados los limpios de corazón, porque ellos verán a...",
+     "Dios",
+     "Reyes",
+     "Ricos"
+    ],
+    "pt": [
+     "Bem-aventurados os limpos de coração, porque eles verão a...",
+     "Deus",
+     "Reis",
+     "Ricos"
+    ],
+    "fr": [
+     "Heureux ceux qui ont le cœur pur, car ils verront...",
+     "Dieu",
+     "Rois",
+     "Riches"
+    ],
+    "de": [
+     "Selig sind, die reinen Herzens sind; denn sie werden ... sehen.",
+     "Gott",
+     "Könige",
+     "Reiche"
+    ],
+    "it": [
+     "Beati i puri di cuore, perché vedranno...",
+     "Dio",
+     "Re",
+     "Ricchi"
+    ],
+    "pl": [
+     "Błogosławieni czystego serca, albowiem oni ... ujrzą.",
+     "Boga",
+     "Królów",
+     "Bogaczy"
+    ],
+    "ru": [
+     "Блаженны чистые сердцем, ибо они увидят...",
+     "Бога",
+     "Царей",
+     "Богатых"
+    ],
+    "tr": [
+     "Ne mutlu yüreği temiz olanlara! Çünkü onlar ...'yı görecekler.",
+     "Tanrı",
+     "Kralları",
+     "Zenginleri"
+    ],
+    "ja": [
+     "心の清い者は幸いです、その人たちは……を見るからです。",
+     "神",
+     "王たち",
+     "富者"
+    ],
+    "ko": [
+     "마음이 청결한 자는 복이 있나니 그들이 ...을 볼 것임이요.",
+     "하나님",
+     "왕들",
+     "부자들"
+    ],
+    "ar": [
+     "طوبى لأنقياء القلب، لأنهم يعاينون...",
+     "الله",
+     "ملوكا",
+     "أغنياء"
+    ]
+   }
+  },
+  {
+   "orig": "easy_154",
+   "difficulty": "easy",
+   "text": {
+    "en": [
+     "How many days was Jesus in the desert?",
+     "40",
+     "3",
+     "7"
+    ],
+    "es": [
+     "¿Cuántos días estuvo Jesús en el desierto?",
+     "40",
+     "3",
+     "7"
+    ],
+    "pt": [
+     "Quantos dias Jesus esteve no deserto?",
+     "40",
+     "3",
+     "7"
+    ],
+    "fr": [
+     "Combien de jours Jésus est-il resté dans le désert ?",
+     "40",
+     "3",
+     "7"
+    ],
+    "de": [
+     "Wie viele Tage war Jesus in der Wüste?",
+     "40",
+     "3",
+     "7"
+    ],
+    "it": [
+     "Quanti giorni Gesù rimase nel deserto?",
+     "40",
+     "3",
+     "7"
+    ],
+    "pl": [
+     "Ile dni Jezus przebywał na pustyni?",
+     "40",
+     "3",
+     "7"
+    ],
+    "ru": [
+     "Сколько дней Иисус был в пустыне?",
+     "40",
+     "3",
+     "7"
+    ],
+    "tr": [
+     "İsa çölde kaç gün kaldı?",
+     "40",
+     "3",
+     "7"
+    ],
+    "ja": [
+     "イエスは荒野に何日いましたか？",
+     "40",
+     "3",
+     "7"
+    ],
+    "ko": [
+     "예수님은 광야에 며칠 동안 계셨습니까?",
+     "40",
+     "3",
+     "7"
+    ],
+    "ar": [
+     "كم يوماً مكث يسوع في البرية؟",
+     "40",
+     "3",
+     "7"
+    ]
+   }
+  },
+  {
+   "orig": "easy_173",
+   "difficulty": "easy",
+   "text": {
+    "en": [
+     "What book is about love poetry?",
+     "Song",
+     "Job",
+     "Isaiah"
+    ],
+    "es": [
+     "¿Qué libro es poesía de amor?",
+     "Cantar",
+     "Job",
+     "Isaías"
+    ],
+    "pt": [
+     "Que livro é poesia de amor?",
+     "Cântico",
+     "Jó",
+     "Isaías"
+    ],
+    "fr": [
+     "Quel livre est un poème d’amour ?",
+     "Cantique",
+     "Job",
+     "Ésaïe"
+    ],
+    "de": [
+     "Welches Buch ist Liebeslyrik?",
+     "Hoheslied",
+     "Hiob",
+     "Jesaja"
+    ],
+    "it": [
+     "Quale libro è poesia d’amore?",
+     "Cantico",
+     "Giobbe",
+     "Isaia"
+    ],
+    "pl": [
+     "Która księga to poezja miłosna?",
+     "Pieśń",
+     "Hiob",
+     "Izajasz"
+    ],
+    "ru": [
+     "Какая книга — поэзия любви?",
+     "Песнь",
+     "Иов",
+     "Исаия"
+    ],
+    "tr": [
+     "Aşk şiirleri hangi kitaptır?",
+     "Neşidesi",
+     "Eyüp",
+     "Yeşaya"
+    ],
+    "ja": [
+     "愛の詩の本はどれですか？",
+     "雅歌",
+     "ヨブ記",
+     "イザヤ書"
+    ],
+    "ko": [
+     "사랑의 시가 있는 책은 무엇입니까?",
+     "아가",
+     "욥기",
+     "이사야"
+    ],
+    "ar": [
+     "أي كتاب هو شعر حب؟",
+     "نشيد",
+     "أيوب",
+     "إشعياء"
+    ]
+   }
+  },
+  {
+   "orig": "easy_193",
+   "difficulty": "easy",
+   "text": {
+    "en": [
+     "Who was Daniel?",
+     "Prophet",
+     "King",
+     "Soldier"
+    ],
+    "es": [
+     "¿Quién fue Daniel?",
+     "Profeta",
+     "Rey",
+     "Soldado"
+    ],
+    "pt": [
+     "Quem foi Daniel?",
+     "Profeta",
+     "Rei",
+     "Soldado"
+    ],
+    "fr": [
+     "Qui était Daniel ?",
+     "Prophète",
+     "Roi",
+     "Soldat"
+    ],
+    "de": [
+     "Wer war Daniel?",
+     "Exil",
+     "König",
+     "Soldat"
+    ],
+    "it": [
+     "Chi era Daniele?",
+     "Profeta",
+     "Re",
+     "Soldato"
+    ],
+    "pl": [
+     "Kim był Daniel?",
+     "Prorok",
+     "Król",
+     "Żołnierz"
+    ],
+    "ru": [
+     "Кем был Даниил?",
+     "Пророк",
+     "Царь",
+     "Солдат"
+    ],
+    "tr": [
+     "Daniel kimdi?",
+     "Peygamber",
+     "Kral",
+     "Asker"
+    ],
+    "ja": [
+     "ダニエルは誰でしたか？",
+     "捕囚の預言者",
+     "王",
+     "兵士"
+    ],
+    "ko": [
+     "다니엘은 누구였습니까?",
+     "예언자",
+     "왕",
+     "군인"
+    ],
+    "ar": [
+     "من هو دانيال؟",
+     "نبي",
+     "ملك",
+     "جندي"
+    ]
+   }
+  },
+  {
+   "orig": "easy_212",
+   "difficulty": "easy",
+   "text": {
+    "en": [
+     "Who was Solomon's father?",
+     "David",
+     "Saul",
+     "Jacob"
+    ],
+    "es": [
+     "¿Quién fue el padre de Salomón?",
+     "David",
+     "Saúl",
+     "Jacob"
+    ],
+    "pt": [
+     "Quem foi o pai de Salomão?",
+     "Davi",
+     "Saul",
+     "Jacó"
+    ],
+    "fr": [
+     "Qui était le père de Salomon ?",
+     "David",
+     "Saül",
+     "Jacob"
+    ],
+    "de": [
+     "Wer war Salomos Vater?",
+     "David",
+     "Saul",
+     "Jakob"
+    ],
+    "it": [
+     "Chi era il padre di Salomone?",
+     "Davide",
+     "Saul",
+     "Giacobbe"
+    ],
+    "pl": [
+     "Kto był ojcem Salomona?",
+     "Dawid",
+     "Saul",
+     "Jakub"
+    ],
+    "ru": [
+     "Кто был отцом Соломона?",
+     "Давид",
+     "Саул",
+     "Иаков"
+    ],
+    "tr": [
+     "Süleyman'ın babası kimdi?",
+     "Davut",
+     "Saul",
+     "Yakup"
+    ],
+    "ja": [
+     "ソロモンの父は誰でしたか？",
+     "ダビデ",
+     "サウル",
+     "ヤコブ"
+    ],
+    "ko": [
+     "솔로몬의 아버지는 누구였습니까?",
+     "다윗",
+     "사울",
+     "야곱"
+    ],
+    "ar": [
+     "من كان والد سليمان؟",
+     "داود",
+     "شاول",
+     "يعقوب"
+    ]
+   }
+  },
+  {
+   "orig": "easy_231",
+   "difficulty": "easy",
+   "text": {
+    "en": [
+     "Who was Samson's enemy people?",
+     "Philistines",
+     "Egyptians",
+     "Romans"
+    ],
+    "es": [
+     "¿Cuál era el pueblo enemigo de Sansón?",
+     "Filisteos",
+     "Egipcios",
+     "Romanos"
+    ],
+    "pt": [
+     "Qual era o povo inimigo de Sansão?",
+     "Filisteus",
+     "Egípcios",
+     "Romanos"
+    ],
+    "fr": [
+     "Quel était le peuple ennemi de Samson ?",
+     "Philistins",
+     "Égyptiens",
+     "Romains"
+    ],
+    "de": [
+     "Welches Volk war Simsons Feind?",
+     "Philister",
+     "Ägypter",
+     "Römer"
+    ],
+    "it": [
+     "Qual era il popolo nemico di Sansone?",
+     "Filistei",
+     "Egiziani",
+     "Romani"
+    ],
+    "pl": [
+     "Jaki naród był wrogiem Samsona?",
+     "Filistyni",
+     "Egipcjanie",
+     "Rzymianie"
+    ],
+    "ru": [
+     "Какой народ был врагом Самсона?",
+     "Филистимляне",
+     "Египтяне",
+     "Римляне"
+    ],
+    "tr": [
+     "Şimşon'un düşman halkı kimdi?",
+     "Filistliler",
+     "Mısırlılar",
+     "Romalılar"
+    ],
+    "ja": [
+     "サムソンの敵だった民族は誰でしたか？",
+     "ペリシテ人",
+     "エジプト人",
+     "ローマ人"
+    ],
+    "ko": [
+     "삼손의 적대 민족은 누구였습니까?",
+     "사람들",
+     "이집트인",
+     "로마인"
+    ],
+    "ar": [
+     "من كان شعب أعداء شمشون؟",
+     "الفلسطينيون",
+     "المصريون",
+     "الرومان"
+    ]
+   }
+  },
+  {
+   "orig": "easy_250",
+   "difficulty": "easy",
+   "text": {
+    "en": [
+     "Who bought Joseph?",
+     "Merchants",
+     "Kings",
+     "Soldiers"
+    ],
+    "es": [
+     "¿Quién compró a José?",
+     "Mercaderes",
+     "Reyes",
+     "Soldados"
+    ],
+    "pt": [
+     "Quem comprou José?",
+     "Mercadores",
+     "Reis",
+     "Soldados"
+    ],
+    "fr": [
+     "Qui a acheté Joseph ?",
+     "Marchands",
+     "Rois",
+     "Soldats"
+    ],
+    "de": [
+     "Wer kaufte Josef?",
+     "Händler",
+     "Könige",
+     "Soldaten"
+    ],
+    "it": [
+     "Chi comprò Giuseppe?",
+     "Mercanti",
+     "Re",
+     "Soldati"
+    ],
+    "pl": [
+     "Kto kupił Józefa?",
+     "Kupcy",
+     "Królowie",
+     "Żołnierze"
+    ],
+    "ru": [
+     "Кто купил Иосифа?",
+     "Торговцы",
+     "Цари",
+     "Солдаты"
+    ],
+    "tr": [
+     "Yusuf'u kim satın aldı?",
+     "Tüccarlar",
+     "Krallar",
+     "Askerler"
+    ],
+    "ja": [
+     "ヨセフを買ったのは誰ですか？",
+     "商人たち",
+     "王たち",
+     "兵士"
+    ],
+    "ko": [
+     "요셉을 산 사람은 누구였습니까?",
+     "상인들",
+     "왕들",
+     "군인들"
+    ],
+    "ar": [
+     "من اشترى يوسف؟",
+     "التجار",
+     "الملوك",
+     "الجنود"
+    ]
+   }
+  },
+  {
+   "orig": "easy_269",
+   "difficulty": "easy",
+   "text": {
+    "en": [
+     "Who left Sodom before destruction?",
+     "Lot",
+     "Isaac",
+     "Jacob"
+    ],
+    "es": [
+     "¿Quién salió de Sodoma antes de su destrucción?",
+     "Lot",
+     "Isaac",
+     "Jacob"
+    ],
+    "pt": [
+     "Quem saiu de Sodoma antes da destruição?",
+     "Ló",
+     "Isaque",
+     "Jacó"
+    ],
+    "fr": [
+     "Qui a quitté Sodome avant sa destruction ?",
+     "Lot",
+     "Isaac",
+     "Jacob"
+    ],
+    "de": [
+     "Wer verließ Sodom vor der Zerstörung?",
+     "Lot",
+     "Isaak",
+     "Jakob"
+    ],
+    "it": [
+     "Chi lasciò Sodoma prima della distruzione?",
+     "Lot",
+     "Isacco",
+     "Giacobbe"
+    ],
+    "pl": [
+     "Kto opuścił Sodomę przed zniszczeniem?",
+     "Lot",
+     "Izaak",
+     "Jakub"
+    ],
+    "ru": [
+     "Кто покинул Содом перед разрушением?",
+     "Лот",
+     "Исаак",
+     "Иаков"
+    ],
+    "tr": [
+     "Sodom yıkılmadan önce kim ayrıldı?",
+     "Lut",
+     "İshak",
+     "Yakup"
+    ],
+    "ja": [
+     "滅ぼされる前にソドムを去ったのは誰ですか？",
+     "ロト",
+     "イサク",
+     "ヤコブ"
+    ],
+    "ko": [
+     "멸망 전에 소돔을 떠난 사람은 누구였습니까?",
+     "롯",
+     "이삭",
+     "야곱"
+    ],
+    "ar": [
+     "من غادر سدوم قبل هلاكها؟",
+     "لوط",
+     "إسحاق",
+     "يعقوب"
+    ]
+   }
+  },
+  {
+   "orig": "easy_288",
+   "difficulty": "easy",
+   "text": {
+    "en": [
+     "What covered the Earth?",
+     "Water",
+     "Sand",
+     "Fire"
+    ],
+    "es": [
+     "¿Qué cubrió la Tierra?",
+     "Agua",
+     "Arena",
+     "Fuego"
+    ],
+    "pt": [
+     "O que cobriu a Terra?",
+     "Água",
+     "Areia",
+     "Fogo"
+    ],
+    "fr": [
+     "Qu'est-ce qui a couvert la Terre ?",
+     "Eau",
+     "Sable",
+     "Feu"
+    ],
+    "de": [
+     "Was bedeckte die Erde?",
+     "Wasser",
+     "Sand",
+     "Feuer"
+    ],
+    "it": [
+     "Che cosa coprì la Terra?",
+     "Acqua",
+     "Sabbia",
+     "Fuoco"
+    ],
+    "pl": [
+     "Co pokryło ziemię?",
+     "Woda",
+     "Piasek",
+     "Ogień"
+    ],
+    "ru": [
+     "Что покрыло землю?",
+     "Вода",
+     "Песок",
+     "Огонь"
+    ],
+    "tr": [
+     "Dünyayı ne kapladı?",
+     "Su",
+     "Kum",
+     "Ateş"
+    ],
+    "ja": [
+     "地を覆ったものは何ですか？",
+     "水",
+     "砂",
+     "火"
+    ],
+    "ko": [
+     "땅을 덮은 것은 무엇이었습니까?",
+     "물",
+     "모래",
+     "불"
+    ],
+    "ar": [
+     "ماذا غطى الأرض؟",
+     "الماء",
+     "الرمل",
+     "النار"
+    ]
+   }
+  },
+  {
+   "orig": "medium_014",
+   "difficulty": "medium",
+   "text": {
+    "en": [
+     "What is Ephesians main idea?",
+     "Unity",
+     "Political",
+     "Trade"
+    ],
+    "es": [
+     "¿Cuál es la idea principal de Efesios?",
+     "Cristo",
+     "Política",
+     "Comercial"
+    ],
+    "pt": [
+     "Qual é a ideia principal de Efésios?",
+     "Cristo",
+     "Política",
+     "Comercial"
+    ],
+    "fr": [
+     "Quelle est l’idée principale d’Éphésiens ?",
+     "Christ",
+     "Politique",
+     "Commerciale"
+    ],
+    "de": [
+     "Was ist die Hauptidee von Epheser?",
+     "Christus",
+     "Einheit",
+     "Handelseinheit"
+    ],
+    "it": [
+     "Qual è l’idea principale di Efesini?",
+     "Cristo",
+     "Politica",
+     "Commerciale"
+    ],
+    "pl": [
+     "Jaki jest główny temat Listu do Efezjan?",
+     "Chrystusie",
+     "Polityczna",
+     "Handlowa"
+    ],
+    "ru": [
+     "Какова главная идея Послания к Ефесянам?",
+     "Христе",
+     "Политическое",
+     "Торговое"
+    ],
+    "tr": [
+     "Efesliler’in ana fikri nedir?",
+     "Te",
+     "Siyasi",
+     "Ticari"
+    ],
+    "ja": [
+     "エフェソの信徒への手紙の主な考えは何ですか？",
+     "キリストにおける一致",
+     "政治的統一",
+     "商業的統一"
+    ],
+    "ko": [
+     "에베소서의 핵심 사상은 무엇입니까?",
+     "안의",
+     "정치적",
+     "무역"
+    ],
+    "ar": [
+     "ما هي الفكرة الرئيسية لرسالة أفسس؟",
+     "المسيح",
+     "سياسية",
+     "تجارية"
+    ]
+   }
+  },
+  {
+   "orig": "medium_033",
+   "difficulty": "medium",
+   "text": {
+    "en": [
+     "What did angels announce?",
+     "Risen",
+     "Dead",
+     "Gone"
+    ],
+    "es": [
+     "¿Qué anunciaron los ángeles?",
+     "Resucitado",
+     "Muerto",
+     "Ido"
+    ],
+    "pt": [
+     "O que os anjos anunciaram?",
+     "Ressuscitou",
+     "Está",
+     "Foi"
+    ],
+    "fr": [
+     "Qu’ont annoncé les anges ?",
+     "Ressuscité",
+     "Mort",
+     "Parti"
+    ],
+    "de": [
+     "Was verkündeten die Engel?",
+     "Auferstanden",
+     "Tot",
+     "Weg"
+    ],
+    "it": [
+     "Cosa annunciarono gli angeli?",
+     "Risorto",
+     "Morto",
+     "Andato"
+    ],
+    "pl": [
+     "Co ogłosili aniołowie?",
+     "Zmartwychwstał",
+     "Martwy",
+     "Odszedł"
+    ],
+    "ru": [
+     "Что объявили ангелы?",
+     "воскрес",
+     "мёртв",
+     "ушёл"
+    ],
+    "tr": [
+     "Melekler ne duyurdu?",
+     "Dirildi",
+     "Ölü",
+     "Gitti"
+    ],
+    "ja": [
+     "天使は何を告げましたか？",
+     "よみがえられた",
+     "彼は死んだ",
+     "彼は去った"
+    ],
+    "ko": [
+     "천사들은 무엇을 선포했습니까?",
+     "부활하셨다",
+     "죽었다",
+     "떠났다"
+    ],
+    "ar": [
+     "ماذا أعلن الملائكة؟",
+     "قام",
+     "ميت",
+     "لقد"
+    ]
+   }
+  },
+  {
+   "orig": "medium_052",
+   "difficulty": "medium",
+   "text": {
+    "en": [
+     "What did Jesus do at the table?",
+     "Instituted",
+     "Fought",
+     "Preached"
+    ],
+    "es": [
+     "¿Qué hizo Jesús en la mesa?",
+     "Instituyó",
+     "Luchó",
+     "Predicó"
+    ],
+    "pt": [
+     "O que Jesus fez à mesa?",
+     "Instituiu",
+     "Lutou",
+     "Pregou"
+    ],
+    "fr": [
+     "Que fit Jésus à la table ?",
+     "Institua",
+     "Combattu",
+     "Prêcha"
+    ],
+    "de": [
+     "Was tat Jesus am Tisch?",
+     "Abendmahl",
+     "Kämpfte",
+     "Gesetz"
+    ],
+    "it": [
+     "Cosa fece Gesù a tavola?",
+     "Istituì",
+     "Combatté",
+     "Predicò"
+    ],
+    "pl": [
+     "Co Jezus zrobił przy stole?",
+     "Ustanowił",
+     "Walczył",
+     "Głosił"
+    ],
+    "ru": [
+     "Что Иисус сделал за столом?",
+     "Учредил",
+     "Сражался",
+     "Проповедовал"
+    ],
+    "tr": [
+     "İsa masada ne yaptı?",
+     "Kurdu",
+     "Savaştı",
+     "Etti"
+    ],
+    "ja": [
+     "イエスは食卓で何をしましたか？",
+     "聖餐を制定した",
+     "戦った",
+     "律法を説いた"
+    ],
+    "ko": [
+     "예수님은 식탁에서 무엇을 하셨습니까?",
+     "제정했다",
+     "싸웠다",
+     "전했다"
+    ],
+    "ar": [
+     "ماذا فعل يسوع على المائدة؟",
+     "أسس",
+     "قاتل",
+     "وعظ"
+    ]
+   }
+  },
+  {
+   "orig": "medium_071",
+   "difficulty": "medium",
+   "text": {
+    "en": [
+     "What does the Good Samaritan represent?",
+     "Love",
+     "Law",
+     "Power"
+    ],
+    "es": [
+     "¿Qué representa el buen samaritano?",
+     "Amor",
+     "Cumplimiento",
+     "Poder"
+    ],
+    "pt": [
+     "O que o Bom Samaritano representa?",
+     "Amor",
+     "Cumprimento",
+     "Poder"
+    ],
+    "fr": [
+     "Que représente le bon Samaritain ?",
+     "Amour",
+     "Respect",
+     "Pouvoir"
+    ],
+    "de": [
+     "Was bedeutet der barmherzige Samariter?",
+     "Aktion",
+     "Gesetzesgehorsam",
+     "Macht"
+    ],
+    "it": [
+     "Cosa rappresenta il buon Samaritano?",
+     "Amore",
+     "Osservanza",
+     "Potere"
+    ],
+    "pl": [
+     "Co przedstawia dobry Samarytanin?",
+     "Miłość",
+     "Przestrzeganie",
+     "Władza"
+    ],
+    "ru": [
+     "Что представляет добрый самарянин?",
+     "Любовь",
+     "закона",
+     "Власть"
+    ],
+    "tr": [
+     "İyi Samiriyeli neyi temsil eder?",
+     "Sevgi",
+     "Uygulama",
+     "Güç"
+    ],
+    "ja": [
+     "善きサマリア人は何を表していますか？",
+     "行動する愛",
+     "律法の遵守",
+     "力"
+    ],
+    "ko": [
+     "선한 사마리아인은 무엇을 상징하나요？",
+     "사랑",
+     "준수",
+     "권력"
+    ],
+    "ar": [
+     "ماذا يمثل السامري الصالح؟",
+     "المحبة",
+     "حفظ",
+     "قوة"
+    ]
+   }
+  },
+  {
+   "orig": "medium_090",
+   "difficulty": "medium",
+   "text": {
+    "en": [
+     "What is common theme?",
+     "Response",
+     "Wealth",
+     "Power"
+    ],
+    "es": [
+     "¿Cuál es el tema común?",
+     "Respuesta",
+     "Riqueza",
+     "Poder"
+    ],
+    "pt": [
+     "Qual é o tema comum?",
+     "Resposta",
+     "Riqueza",
+     "Poder"
+    ],
+    "fr": [
+     "Quel est le thème commun ?",
+     "Réponse",
+     "Richesse",
+     "Pouvoir"
+    ],
+    "de": [
+     "Was ist das gemeinsame Thema?",
+     "Gott",
+     "Reichtum",
+     "Macht"
+    ],
+    "it": [
+     "Qual è il tema comune?",
+     "Risposta",
+     "Ricchezza",
+     "Potere"
+    ],
+    "pl": [
+     "Jaki jest wspólny temat?",
+     "Odpowiedź",
+     "Bogactwo",
+     "Władza"
+    ],
+    "ru": [
+     "Какая общая тема?",
+     "Ответ",
+     "Богатство",
+     "Власть"
+    ],
+    "tr": [
+     "Ortak tema nedir?",
+     "Karşılık",
+     "Kazanır",
+     "Hükmeder"
+    ],
+    "ja": [
+     "共通するテーマは何ですか？",
+     "神への応答",
+     "富が勝つ",
+     "力が支配する"
+    ],
+    "ko": [
+     "공통된 주제는 무엇인가요?",
+     "반응",
+     "이긴다",
+     "지배한다"
+    ],
+    "ar": [
+     "ما هو الموضوع المشترك؟",
+     "الاستجابة",
+     "الثروة",
+     "القوة"
+    ]
+   }
+  },
+  {
+   "orig": "medium_109",
+   "difficulty": "medium",
+   "text": {
+    "en": [
+     "What is promised to persecuted?",
+     "Kingdom",
+     "Earthly",
+     "Gold"
+    ],
+    "es": [
+     "¿Qué se promete a los perseguidos?",
+     "Reino",
+     "Poder",
+     "Oro"
+    ],
+    "pt": [
+     "O que é prometido aos perseguidos?",
+     "Reino",
+     "Poder",
+     "Ouro"
+    ],
+    "fr": [
+     "Qu'est-il promis aux persécutés ?",
+     "Royaume",
+     "Pouvoir",
+     "Or"
+    ],
+    "de": [
+     "Was wird den Verfolgten versprochen?",
+     "Himmelreich",
+     "Macht",
+     "Gold"
+    ],
+    "it": [
+     "Cosa è promesso ai perseguitati?",
+     "Regno",
+     "Potere",
+     "Oro"
+    ],
+    "pl": [
+     "Co obiecano prześladowanym?",
+     "Królestwo",
+     "Władza",
+     "Złoto"
+    ],
+    "ru": [
+     "Что обещано гонимым?",
+     "Царство",
+     "власть",
+     "Золото"
+    ],
+    "tr": [
+     "Zulüm görenlere ne vaat edilir?",
+     "Egemenliği",
+     "Güç",
+     "Altın"
+    ],
+    "ja": [
+     "迫害される人々に何が約束されていますか？",
+     "天の御国",
+     "地上の権力",
+     "金"
+    ],
+    "ko": [
+     "박해받는 자들에게 무엇이 약속되나요?",
+     "천국",
+     "권력",
+     "금"
+    ],
+    "ar": [
+     "ما الذي وُعد به المضطهدون؟",
+     "ملكوت",
+     "القوة",
+     "الذهب"
+    ]
+   }
+  },
+  {
+   "orig": "medium_128",
+   "difficulty": "medium",
+   "text": {
+    "en": [
+     "Who were first disciples?",
+     "Fishermen",
+     "Kings",
+     "Soldiers"
+    ],
+    "es": [
+     "¿Quiénes fueron los primeros discípulos?",
+     "Pescadores",
+     "Reyes",
+     "Soldados"
+    ],
+    "pt": [
+     "Quem foram os primeiros discípulos?",
+     "Pescadores",
+     "Reis",
+     "Soldados"
+    ],
+    "fr": [
+     "Qui furent les premiers disciples ?",
+     "Pêcheurs",
+     "Rois",
+     "Soldats"
+    ],
+    "de": [
+     "Wer waren die ersten Jünger?",
+     "Fischer",
+     "Könige",
+     "Soldaten"
+    ],
+    "it": [
+     "Chi furono i primi discepoli?",
+     "Pescatori",
+     "Re",
+     "Soldati"
+    ],
+    "pl": [
+     "Kim byli pierwsi uczniowie?",
+     "Rybacy",
+     "Królowie",
+     "Żołnierze"
+    ],
+    "ru": [
+     "Кто были первыми учениками?",
+     "Рыбаки",
+     "Цари",
+     "Солдаты"
+    ],
+    "tr": [
+     "İlk öğrenciler kimlerdi?",
+     "Balıkçılar",
+     "Krallar",
+     "Askerler"
+    ],
+    "ja": [
+     "最初の弟子たちは誰でしたか？",
+     "漁師たち",
+     "王たち",
+     "兵士たち"
+    ],
+    "ko": [
+     "첫 제자들은 누구였나요?",
+     "어부들",
+     "왕들",
+     "군인들"
+    ],
+    "ar": [
+     "من كانوا أول التلاميذ؟",
+     "الصيادون",
+     "الملوك",
+     "الجنود"
+    ]
+   }
+  },
+  {
+   "orig": "medium_147",
+   "difficulty": "medium",
+   "text": {
+    "en": [
+     "What did Job’s friends do?",
+     "Misunderstood",
+     "Helped",
+     "Ignored"
+    ],
+    "es": [
+     "¿Qué hicieron los amigos de Job?",
+     "Malinterpretaron",
+     "Ayudaron",
+     "Ignoraron"
+    ],
+    "pt": [
+     "O que os amigos de Jó fizeram?",
+     "Interpretaram",
+     "Ajudaram",
+     "Ignoraram"
+    ],
+    "fr": [
+     "Qu'ont fait les amis de Job ?",
+     "Mal",
+     "Aidé",
+     "Ignoré"
+    ],
+    "de": [
+     "Was taten die Freunde Hiobs?",
+     "Missverstanden",
+     "Completo",
+     "Ignorierten"
+    ],
+    "it": [
+     "Cosa fecero gli amici di Giobbe?",
+     "Fraintesero",
+     "Aiutarono",
+     "Ignorarono"
+    ],
+    "pl": [
+     "Co zrobili przyjaciele Hioba?",
+     "Źle",
+     "Mu",
+     "Zignorowali"
+    ],
+    "ru": [
+     "Что сделали друзья Иова?",
+     "Неправильно",
+     "Полностью",
+     "Игнорировали"
+    ],
+    "tr": [
+     "Eyüp'ün arkadaşları ne yaptı?",
+     "Anladılar",
+     "Ettiler",
+     "Geldiler"
+    ],
+    "ja": [
+     "ヨブの友人たちは何をしましたか？",
+     "彼を誤解した",
+     "完全に助けた",
+     "彼を無視した"
+    ],
+    "ko": [
+     "욥의 친구들은 무엇을 했나요?",
+     "오해했다",
+     "도와주었다",
+     "무시했다"
+    ],
+    "ar": [
+     "ماذا فعل أصدقاء أيوب؟",
+     "أساءوا",
+     "ساعدوه",
+     "تجاهلوه"
+    ]
+   }
+  },
+  {
+   "orig": "medium_166",
+   "difficulty": "medium",
+   "text": {
+    "en": [
+     "What happened to Jerusalem temple?",
+     "Destroyed",
+     "Expanded",
+     "Rebuilt"
+    ],
+    "es": [
+     "¿Qué pasó con el templo de Jerusalén?",
+     "Destruido",
+     "Ampliado",
+     "Reconstruido"
+    ],
+    "pt": [
+     "O que aconteceu com o templo de Jerusalém?",
+     "Destruído",
+     "Ampliado",
+     "Reconstruído"
+    ],
+    "fr": [
+     "Qu'est-il arrivé au temple de Jérusalem ?",
+     "Détruit",
+     "Agrandé",
+     "Reconstruit"
+    ],
+    "de": [
+     "Was geschah mit dem Tempel in Jerusalem?",
+     "Zerstört",
+     "Erweitert",
+     "Sofort"
+    ],
+    "it": [
+     "Cosa accadde al tempio di Gerusalemme?",
+     "Distrutto",
+     "Espanso",
+     "Ricostruito"
+    ],
+    "pl": [
+     "Co stało się ze świątynią w Jerozolimie?",
+     "Zniszczona",
+     "Rozbudowana",
+     "Natychmiast"
+    ],
+    "ru": [
+     "Что случилось с Иерусалимским храмом?",
+     "Разрушен",
+     "Расширен",
+     "Немедленно"
+    ],
+    "tr": [
+     "Kudüs Tapınağına ne oldu?",
+     "Yıkıldı",
+     "Genişletildi",
+     "Edildi"
+    ],
+    "ja": [
+     "エルサレムの神殿はどうなりましたか？",
+     "破壊された",
+     "拡張された",
+     "すぐに再建された"
+    ],
+    "ko": [
+     "예루살렘 성전은 어떻게 되었나요?",
+     "파괴되었다",
+     "확장되었다",
+     "재건되었다"
+    ],
+    "ar": [
+     "ماذا حدث لهيكل أورشليم؟",
+     "دُمّر",
+     "تم",
+     "أُعيد"
+    ]
+   }
+  },
+  {
+   "orig": "medium_185",
+   "difficulty": "medium",
+   "text": {
+    "en": [
+     "What caused the kingdom to split?",
+     "Heavy",
+     "War",
+     "Flood"
+    ],
+    "es": [
+     "¿Qué causó la división del reino?",
+     "Impuestos",
+     "Guerra",
+     "Inundación"
+    ],
+    "pt": [
+     "O que causou a divisão do reino?",
+     "Altos",
+     "Guerra",
+     "Inundação"
+    ],
+    "fr": [
+     "Qu'est-ce qui a causé la division du royaume ?",
+     "Impôts",
+     "Guerre",
+     "Inondation"
+    ],
+    "de": [
+     "Was verursachte die Teilung des Königreichs?",
+     "Steuern",
+     "Krieg",
+     "Flut"
+    ],
+    "it": [
+     "Cosa causò la divisione del regno?",
+     "Tasse",
+     "Guerra",
+     "Alluvione"
+    ],
+    "pl": [
+     "Co spowodowało podział królestwa?",
+     "Podatki",
+     "Wojna",
+     "Powódź"
+    ],
+    "ru": [
+     "Что вызвало разделение царства?",
+     "налоги",
+     "Война",
+     "Наводнение"
+    ],
+    "tr": [
+     "Krallığın bölünmesine ne sebep oldu?",
+     "Vergiler",
+     "Savaş",
+     "Sel"
+    ],
+    "ja": [
+     "王国の分裂の原因は何でしたか？",
+     "重い税",
+     "戦争",
+     "洪水"
+    ],
+    "ko": [
+     "왕국이 나뉘게 된 원인은 무엇인가요?",
+     "세금",
+     "전쟁",
+     "홍수"
+    ],
+    "ar": [
+     "ما سبب انقسام المملكة؟",
+     "ضرائب",
+     "حرب",
+     "فيضان"
+    ]
+   }
+  },
+  {
+   "orig": "medium_204",
+   "difficulty": "medium",
+   "text": {
+    "en": [
+     "Who was strong but lost his strength after a haircut?",
+     "Samson",
+     "David",
+     "Saul"
+    ],
+    "es": [
+     "¿Quién era fuerte pero perdió su fuerza después de cortarse el cabello?",
+     "Sansón",
+     "David",
+     "Saúl"
+    ],
+    "pt": [
+     "Quem era forte mas perdeu a força após cortar o cabelo?",
+     "Sansão",
+     "Davi",
+     "Saul"
+    ],
+    "fr": [
+     "Qui était fort mais a perdu sa force après une coupe de cheveux ?",
+     "Samson",
+     "David",
+     "Saül"
+    ],
+    "de": [
+     "Wer war stark, verlor aber nach einem Haarschnitt seine Kraft?",
+     "Simson",
+     "David",
+     "Saul"
+    ],
+    "it": [
+     "Chi era forte ma perse la forza dopo un taglio di capelli?",
+     "Sansone",
+     "Davide",
+     "Saul"
+    ],
+    "pl": [
+     "Kto był silny, ale stracił siłę po obcięciu włosów?",
+     "Samson",
+     "Dawid",
+     "Saul"
+    ],
+    "ru": [
+     "Кто был силён, но потерял силу после стрижки?",
+     "Самсон",
+     "Давид",
+     "Саул"
+    ],
+    "tr": [
+     "Kim güçlüydü ama saçını kestikten sonra gücünü kaybetti?",
+     "Şimşon",
+     "Davut",
+     "Saul"
+    ],
+    "ja": [
+     "髪を切られて力を失ったのは誰ですか？",
+     "サムソン",
+     "ダビデ",
+     "サウル"
+    ],
+    "ko": [
+     "머리를 자른 후 힘을 잃은 사람은 누구였나요?",
+     "삼손",
+     "다윗",
+     "사울"
+    ],
+    "ar": [
+     "من كان قويًا لكنه فقد قوته بعد قص شعره؟",
+     "شمشون",
+     "داود",
+     "شاول"
+    ]
+   }
+  },
+  {
+   "orig": "medium_223",
+   "difficulty": "medium",
+   "text": {
+    "en": [
+     "What did Jonathan and David have?",
+     "Friendship",
+     "Rivalry",
+     "War"
+    ],
+    "es": [
+     "¿Qué tenían Jonatán y David?",
+     "Amistad",
+     "Rivalidad",
+     "Guerra"
+    ],
+    "pt": [
+     "O que Jônatas e Davi tinham?",
+     "Amizade",
+     "Rivalidade",
+     "Guerra"
+    ],
+    "fr": [
+     "Qu'avaient Jonathan et David ?",
+     "Amitié",
+     "Rivalité",
+     "Guerre"
+    ],
+    "de": [
+     "Was hatten Jonathan und David?",
+     "Freundschaft",
+     "Rivalität",
+     "Krieg"
+    ],
+    "it": [
+     "Cosa avevano Gionata e Davide?",
+     "Amicizia",
+     "Rivalità",
+     "Guerra"
+    ],
+    "pl": [
+     "Co mieli Jonatan i Dawid?",
+     "Przyjaźń",
+     "Rywalizacja",
+     "Wojna"
+    ],
+    "ru": [
+     "Что было у Ионафана и Давида?",
+     "Дружба",
+     "Соперничество",
+     "Война"
+    ],
+    "tr": [
+     "Yonatan ve Davut neye sahipti?",
+     "Dostluk",
+     "Rekabet",
+     "Savaş"
+    ],
+    "ja": [
+     "ヨナタンとダビデは何を持っていましたか？",
+     "友情",
+     "競争",
+     "戦争"
+    ],
+    "ko": [
+     "요나단과 다윗은 무엇을 가지고 있었나요?",
+     "우정",
+     "경쟁",
+     "전쟁"
+    ],
+    "ar": [
+     "ماذا كان لدى يوناثان وداود؟",
+     "صداقة",
+     "تنافس",
+     "حرب"
+    ]
+   }
+  },
+  {
+   "orig": "medium_242",
+   "difficulty": "medium",
+   "text": {
+    "en": [
+     "What is Song of Songs about?",
+     "Love",
+     "War",
+     "Law"
+    ],
+    "es": [
+     "¿De qué trata el Cantar de los Cantares?",
+     "Amor",
+     "Guerra",
+     "Ley"
+    ],
+    "pt": [
+     "Do que fala o Cântico dos Cânticos?",
+     "Amor",
+     "Guerra",
+     "Lei"
+    ],
+    "fr": [
+     "De quoi parle le Cantique des Cantiques ?",
+     "Amour",
+     "Guerre",
+     "Loi"
+    ],
+    "de": [
+     "Worum geht es im Hohelied?",
+     "Liebe",
+     "Krieg",
+     "Gesetz"
+    ],
+    "it": [
+     "Di cosa parla il Cantico dei Cantici?",
+     "Amore",
+     "Guerra",
+     "Legge"
+    ],
+    "pl": [
+     "O czym jest Pieśń nad Pieśniami?",
+     "Miłość",
+     "Wojna",
+     "Prawo"
+    ],
+    "ru": [
+     "О чём Песнь Песней?",
+     "Любовь",
+     "Война",
+     "Закон"
+    ],
+    "tr": [
+     "Neşideler Neşidesi neyi anlatır?",
+     "Aşk",
+     "Savaş",
+     "Yasa"
+    ],
+    "ja": [
+     "雅歌は何についてですか？",
+     "愛",
+     "戦争",
+     "律法"
+    ],
+    "ko": [
+     "아가서는 무엇에 관한 책인가요?",
+     "사랑",
+     "전쟁",
+     "율법"
+    ],
+    "ar": [
+     "بماذا يتحدث سفر نشيد الأنشاد؟",
+     "حب",
+     "حرب",
+     "شريعة"
+    ]
+   }
+  },
+  {
+   "orig": "medium_261",
+   "difficulty": "medium",
+   "text": {
+    "en": [
+     "What covenant did God make with Noah?",
+     "More",
+     "Give",
+     "Make"
+    ],
+    "es": [
+     "¿Qué pacto hizo Dios con Noé?",
+     "Diluvios",
+     "Dar",
+     "Hacer"
+    ],
+    "pt": [
+     "Que aliança Deus fez com Noé?",
+     "Nunca",
+     "Dar",
+     "Tornar"
+    ],
+    "fr": [
+     "Quelle alliance Dieu a-t-il faite avec Noé ?",
+     "Jamais",
+     "Donner",
+     "Rendre"
+    ],
+    "de": [
+     "Welchen Bund schloss Gott mit Noah?",
+     "Flut",
+     "Königreich",
+     "Noah"
+    ],
+    "it": [
+     "Quale alleanza fece Dio con Noè?",
+     "Mai",
+     "Dare",
+     "Rendere"
+    ],
+    "pl": [
+     "Jakie przymierze Bóg zawarł z Noem?",
+     "Nigdy",
+     "Dać",
+     "Uczynić"
+    ],
+    "ru": [
+     "Какой завет Бог заключил с Ноем?",
+     "Больше",
+     "Дать",
+     "Сделать"
+    ],
+    "tr": [
+     "Tanrı Nuh ile hangi antlaşmayı yaptı?",
+     "Olmayacak",
+     "Vermek",
+     "Yapmak"
+    ],
+    "ja": [
+     "神はノアとどのような契約を結びましたか？",
+     "再び洪水はない",
+     "ノアに王国を与える",
+     "ノアを不死にする"
+    ],
+    "ko": [
+     "하나님은 노아와 어떤 언약을 맺으셨나요?",
+     "없다",
+     "준다",
+     "만든다"
+    ],
+    "ar": [
+     "ما العهد الذي قطعه الله مع نوح؟",
+     "طوفان",
+     "منح",
+     "جعل"
+    ]
+   }
+  },
+  {
+   "orig": "hard_005",
+   "difficulty": "hard",
+   "text": {
+    "en": [
+     "What is Revelation’s structure?",
+     "Symbolic",
+     "History",
+     "Letters"
+    ],
+    "es": [
+     "¿Cuál es la estructura de Apocalipsis?",
+     "Visiones",
+     "Historia",
+     "Cartas"
+    ],
+    "pt": [
+     "Qual é a estrutura do Apocalipse?",
+     "Visões",
+     "História",
+     "Cartas"
+    ],
+    "fr": [
+     "Quelle est la structure de l’Apocalypse ?",
+     "Visions",
+     "Histoire",
+     "Lettres"
+    ],
+    "de": [
+     "Wie ist die Struktur der Offenbarung?",
+     "Visionen",
+     "Geschichte",
+     "Briefe"
+    ],
+    "it": [
+     "Qual è la struttura dell’Apocalisse?",
+     "Visioni",
+     "Storia",
+     "Lettere"
+    ],
+    "pl": [
+     "Jaka jest struktura Apokalipsy?",
+     "Wizje",
+     "Historia",
+     "Listy"
+    ],
+    "ru": [
+     "Какова структура Откровения?",
+     "видения",
+     "История",
+     "Письма"
+    ],
+    "tr": [
+     "Vahiy kitabının yapısı nedir?",
+     "Görünümler",
+     "Tarih",
+     "Mektuplar"
+    ],
+    "ja": [
+     "黙示録の構造は何ですか？",
+     "象徴的ビジョン",
+     "歴史",
+     "手紙"
+    ],
+    "ko": [
+     "요한계시록의 구조는 무엇인가요?",
+     "환상",
+     "역사",
+     "서신"
+    ],
+    "ar": [
+     "ما هي بنية سفر الرؤيا؟",
+     "رؤى",
+     "تاريخ",
+     "رسائل"
+    ]
+   }
+  },
+  {
+   "orig": "hard_092",
+   "difficulty": "hard",
+   "text": {
+    "en": [
+     "What does rich fool represent?",
+     "Foolish",
+     "Wisdom",
+     "Blessing"
+    ],
+    "es": [
+     "¿Qué representa el rico insensato?",
+     "Seguridad",
+     "Sabiduría",
+     "Bendición"
+    ],
+    "pt": [
+     "O que representa o rico insensato?",
+     "Segurança",
+     "Sabedoria",
+     "Bênção"
+    ],
+    "fr": [
+     "Que représente l’homme riche insensé ?",
+     "Sécurité",
+     "Sagesse",
+     "Bénédiction"
+    ],
+    "de": [
+     "Was stellt der reiche Narr dar?",
+     "Sicherheit",
+     "Weisheit",
+     "Segen"
+    ],
+    "it": [
+     "Cosa rappresenta il ricco stolto?",
+     "Sicurezza",
+     "Saggezza",
+     "Benedizione"
+    ],
+    "pl": [
+     "Co oznacza bogaty głupiec?",
+     "Głupie",
+     "Mądrość",
+     "Błogosławieństwo"
+    ],
+    "ru": [
+     "Что символизирует богатый глупец?",
+     "уверенность",
+     "Мудрость",
+     "Благословение"
+    ],
+    "tr": [
+     "Zengin aptal neyi temsil eder?",
+     "Güvenlik",
+     "Bilgelik",
+     "Kutsama"
+    ],
+    "ja": [
+     "愚かな金持ちは何を表しますか？",
+     "愚かな安心",
+     "知恵",
+     "祝福"
+    ],
+    "ko": [
+     "어리석은 부자는 무엇을 나타냅니까?",
+     "안전",
+     "지혜",
+     "축복"
+    ],
+    "ar": [
+     "ماذا يمثل الغني الجاهل؟",
+     "أمان",
+     "حكمة",
+     "بركة"
+    ]
+   }
+  },
+  {
+   "orig": "hard_111",
+   "difficulty": "hard",
+   "text": {
+    "en": [
+     "What does persecution reveal?",
+     "Belonging",
+     "Failure",
+     "Weakness"
+    ],
+    "es": [
+     "¿Qué revela la persecución?",
+     "Pertenencia",
+     "Fracaso",
+     "Debilidad"
+    ],
+    "pt": [
+     "O que a perseguição revela?",
+     "Pertencimento",
+     "Fracasso",
+     "Fraqueza"
+    ],
+    "fr": [
+     "Que révèle la persécution ?",
+     "Appartenance",
+     "Échec",
+     "Faiblesse"
+    ],
+    "de": [
+     "Was offenbart Verfolgung?",
+     "Reich",
+     "Scheitern",
+     "Schwäche"
+    ],
+    "it": [
+     "Cosa rivela la persecuzione?",
+     "Appartenenza",
+     "Fallimento",
+     "Debolezza"
+    ],
+    "pl": [
+     "Co ujawnia prześladowanie?",
+     "Przynależność",
+     "Porażka",
+     "Słabość"
+    ],
+    "ru": [
+     "Что показывает преследование?",
+     "Принадлежность",
+     "Провал",
+     "Слабость"
+    ],
+    "tr": [
+     "Zulüm neyi ortaya çıkarır?",
+     "Olmak",
+     "Başarısızlık",
+     "Zayıflık"
+    ],
+    "ja": [
+     "迫害は何を明らかにしますか？",
+     "王国への所属",
+     "失敗",
+     "弱さ"
+    ],
+    "ko": [
+     "박해는 무엇을 드러냅니까?",
+     "속함",
+     "실패",
+     "약함"
+    ],
+    "ar": [
+     "ماذا تكشف الاضطهاد؟",
+     "الانتماء",
+     "فشل",
+     "ضعف"
+    ]
+   }
+  },
+  {
+   "orig": "hard_130",
+   "difficulty": "hard",
+   "text": {
+    "en": [
+     "What kind of sign did the star represent?",
+     "Divine",
+     "Astronomy",
+     "Random"
+    ],
+    "es": [
+     "¿Qué tipo de señal representaba la estrella?",
+     "Divina",
+     "Astronomía",
+     "Azar"
+    ],
+    "pt": [
+     "Que tipo de sinal a estrela representava?",
+     "Divina",
+     "Astronomia",
+     "Acaso"
+    ],
+    "fr": [
+     "Quel genre de signe l'étoile représentait-elle ?",
+     "Divine",
+     "Astronomie",
+     "Aléatoire"
+    ],
+    "de": [
+     "Was für ein Zeichen stellte der Stern dar?",
+     "Göttliches",
+     "Astronomie",
+     "Zufall"
+    ],
+    "it": [
+     "Che tipo di segno rappresentava la stella?",
+     "Divino",
+     "Astronomia",
+     "Casuale"
+    ],
+    "pl": [
+     "Jaki rodzaj znaku reprezentowała gwiazda?",
+     "Boski",
+     "Astronomia",
+     "Przypadek"
+    ],
+    "ru": [
+     "Каким знаком была звезда?",
+     "Божественный",
+     "Астрономия",
+     "Случайность"
+    ],
+    "tr": [
+     "Yıldız ne tür bir alamet temsil ediyordu?",
+     "İlahi",
+     "Astronomi",
+     "Rastgele"
+    ],
+    "ja": [
+     "星はどのような兆候を表していましたか？",
+     "神聖",
+     "天文",
+     "偶然"
+    ],
+    "ko": [
+     "별은 어떤 표적을 나타냈습니까?",
+     "신성",
+     "천문",
+     "우연"
+    ],
+    "ar": [
+     "ما نوع الآية التي مثلتها النجمة؟",
+     "إلهية",
+     "فلك",
+     "عشوائي"
+    ]
+   }
+  },
+  {
+   "orig": "hard_149",
+   "difficulty": "hard",
+   "text": {
+    "en": [
+     "What did Haman plan?",
+     "Genocide",
+     "War",
+     "Temple"
+    ],
+    "es": [
+     "¿Qué planeó Amán?",
+     "Genocidio",
+     "Guerra",
+     "Construcción"
+    ],
+    "pt": [
+     "O que Hamã planejou?",
+     "Genocídio",
+     "Guerra",
+     "Construção"
+    ],
+    "fr": [
+     "Qu’a planifié Haman ?",
+     "Génocide",
+     "Guerre",
+     "Construction"
+    ],
+    "de": [
+     "Was plante Haman?",
+     "Juden",
+     "Ägypten",
+     "Tempelbau"
+    ],
+    "it": [
+     "Cosa pianificò Haman?",
+     "Genocidio",
+     "Guerra",
+     "Costruzione"
+    ],
+    "pl": [
+     "Co zaplanował Haman?",
+     "Ludobójstwo",
+     "Egiptem",
+     "Świątyni"
+    ],
+    "ru": [
+     "Что задумал Аман?",
+     "Геноцид",
+     "Война",
+     "Строительство"
+    ],
+    "tr": [
+     "Haman ne planladı?",
+     "Soykırımı",
+     "Savaş",
+     "Inşası"
+    ],
+    "ja": [
+     "ハマンは何を計画しましたか？",
+     "ユダヤ人の虐殺",
+     "エジプトとの戦争",
+     "神殿建設"
+    ],
+    "ko": [
+     "하만은 무엇을 계획했습니까?",
+     "학살",
+     "전쟁",
+     "건축"
+    ],
+    "ar": [
+     "ماذا خطط هامان؟",
+     "إبادة",
+     "حرب",
+     "بناء"
+    ]
+   }
+  },
+  {
+   "orig": "hard_168",
+   "difficulty": "hard",
+   "text": {
+    "en": [
+     "What did Hosea's life represent?",
+     "Love",
+     "War",
+     "Law"
+    ],
+    "es": [
+     "¿Qué representó la vida de Oseas?",
+     "Amor",
+     "Victoria",
+     "Sistema"
+    ],
+    "pt": [
+     "O que a vida de Oseias representou?",
+     "Amor",
+     "Vitória",
+     "Sistema"
+    ],
+    "fr": [
+     "Que représente la vie d’Osée ?",
+     "Amour",
+     "Victoire",
+     "Système"
+    ],
+    "de": [
+     "Was stellte das Leben Hoseas dar?",
+     "Verrat",
+     "Kriegssieg",
+     "Gesetzessystem"
+    ],
+    "it": [
+     "Cosa rappresentava la vita di Osea?",
+     "Amore",
+     "Vittoria",
+     "Sistema"
+    ],
+    "pl": [
+     "Co przedstawiało życie Ozeasza?",
+     "Miłość",
+     "Zwycięstwo",
+     "System"
+    ],
+    "ru": [
+     "Что символизировала жизнь Осии?",
+     "Любовь",
+     "победа",
+     "Система"
+    ],
+    "tr": [
+     "Hoşea’nın hayatı neyi temsil ediyordu?",
+     "Sevgi",
+     "Zaferi",
+     "Sistemi"
+    ],
+    "ja": [
+     "ホセアの人生は何を象徴していましたか？",
+     "裏切りにも変わらぬ愛",
+     "戦争の勝利",
+     "律法体系"
+    ],
+    "ko": [
+     "호세아의 삶은 무엇을 나타냈습니까?",
+     "사랑",
+     "승리",
+     "체계"
+    ],
+    "ar": [
+     "ماذا مثّلت حياة هوشع؟",
+     "محبة",
+     "انتصار",
+     "نظام"
+    ]
+   }
+  },
+  {
+   "orig": "hard_187",
+   "difficulty": "hard",
+   "text": {
+    "en": [
+     "What reward did David receive?",
+     "Becoming",
+     "Gold",
+     "Land"
+    ],
+    "es": [
+     "¿Qué recompensa recibió David?",
+     "Convertirse",
+     "Oro",
+     "Tierra"
+    ],
+    "pt": [
+     "Que recompensa Davi recebeu?",
+     "Tornar",
+     "Ouro",
+     "Terra"
+    ],
+    "fr": [
+     "Quelle récompense David a-t-il reçue ?",
+     "Devenir",
+     "Or",
+     "Terre"
+    ],
+    "de": [
+     "Welche Belohnung erhielt David?",
+     "König",
+     "Gold",
+     "Land"
+    ],
+    "it": [
+     "Che ricompensa ricevette Davide?",
+     "Diventare",
+     "Oro",
+     "Terra"
+    ],
+    "pl": [
+     "Jaką nagrodę otrzymał Dawid?",
+     "Zostanie",
+     "Złoto",
+     "Ziemia"
+    ],
+    "ru": [
+     "Какую награду получил Давид?",
+     "Стать",
+     "Золото",
+     "Земля"
+    ],
+    "tr": [
+     "Davut hangi ödülü aldı?",
+     "Olmak",
+     "Altın",
+     "Toprak"
+    ],
+    "ja": [
+     "ダビデはどんな報酬を受けましたか？",
+     "王になること",
+     "金",
+     "土地"
+    ],
+    "ko": [
+     "다윗은 어떤 보상을 받았습니까?",
+     "것",
+     "금",
+     "땅"
+    ],
+    "ar": [
+     "ما المكافأة التي حصل عليها داوود؟",
+     "يصبح",
+     "ذهب",
+     "أرض"
+    ]
+   }
+  },
+  {
+   "orig": "hard_206",
+   "difficulty": "hard",
+   "text": {
+    "en": [
+     "What did Moses stretch over the sea?",
+     "Staff",
+     "Hands",
+     "Sword"
+    ],
+    "es": [
+     "¿Qué extendió Moisés sobre el mar?",
+     "Bastón",
+     "Manos",
+     "Espada"
+    ],
+    "pt": [
+     "O que Moisés estendeu sobre o mar?",
+     "Bastão",
+     "Mãos",
+     "Espada"
+    ],
+    "fr": [
+     "Qu’est-ce que Moïse a étendu sur la mer ?",
+     "Bâton",
+     "Mains",
+     "Épée"
+    ],
+    "de": [
+     "Was streckte Mose über das Meer?",
+     "Stab",
+     "Hände",
+     "Schwert"
+    ],
+    "it": [
+     "Cosa stese Mosè sul mare?",
+     "Bastone",
+     "Mani",
+     "Spada"
+    ],
+    "pl": [
+     "Co Mojżesz wyciągnął nad morzem?",
+     "Swój",
+     "Ręce",
+     "Miecz"
+    ],
+    "ru": [
+     "Что Моисей простёр над морем?",
+     "жезл",
+     "Руки",
+     "Меч"
+    ],
+    "tr": [
+     "Musa denizin üzerine ne uzattı?",
+     "Asası",
+     "Ellerini",
+     "Kılıç"
+    ],
+    "ja": [
+     "モーセは海の上に何を伸ばしましたか？",
+     "杖",
+     "手",
+     "剣"
+    ],
+    "ko": [
+     "모세는 바다 위에 무엇을 들었습니까?",
+     "지팡이",
+     "손",
+     "칼"
+    ],
+    "ar": [
+     "ماذا مدّ موسى فوق البحر؟",
+     "عصاه",
+     "يديه",
+     "سيف"
+    ]
+   }
+  },
+  {
+   "orig": "hard_225",
+   "difficulty": "hard",
+   "text": {
+    "en": [
+     "What was Jacob's new name?",
+     "Israel",
+     "Abraham",
+     "Joseph"
+    ],
+    "es": [
+     "¿Cuál fue el nuevo nombre de Jacob?",
+     "Israel",
+     "Abraham",
+     "José"
+    ],
+    "pt": [
+     "Qual foi o novo nome de Jacó?",
+     "Israel",
+     "Abraão",
+     "José"
+    ],
+    "fr": [
+     "Quel était le nouveau nom de Jacob ?",
+     "Israël",
+     "Abraham",
+     "Joseph"
+    ],
+    "de": [
+     "Wie lautete Jakobs neuer Name?",
+     "Israel",
+     "Abraham",
+     "Josef"
+    ],
+    "it": [
+     "Qual era il nuovo nome di Giacobbe?",
+     "Israele",
+     "Abramo",
+     "Giuseppe"
+    ],
+    "pl": [
+     "Jakie było nowe imię Jakuba?",
+     "Izrael",
+     "Abraham",
+     "Józef"
+    ],
+    "ru": [
+     "Какое новое имя получил Иаков?",
+     "Израиль",
+     "Авраам",
+     "Иосиф"
+    ],
+    "tr": [
+     "Yakup’un yeni adı neydi?",
+     "İsrail",
+     "İbrahim",
+     "Yusuf"
+    ],
+    "ja": [
+     "ヤコブの新しい名前は何でしたか？",
+     "イスラエル",
+     "アブラハム",
+     "ヨセフ"
+    ],
+    "ko": [
+     "야곱의 새 이름은 무엇이었습니까?",
+     "이스라엘",
+     "아브라함",
+     "요셉"
+    ],
+    "ar": [
+     "ما هو الاسم الجديد ليعقوب؟",
+     "إسرائيل",
+     "إبراهيم",
+     "يوسف"
+    ]
+   }
+  },
+  {
+   "orig": "hard_244",
+   "difficulty": "hard",
+   "text": {
+    "en": [
+     "What was the consequence of sin?",
+     "Death",
+     "Life",
+     "Peace"
+    ],
+    "es": [
+     "¿Cuál fue la consecuencia del pecado?",
+     "Muerte",
+     "Vida",
+     "Paz"
+    ],
+    "pt": [
+     "Qual foi a consequência do pecado?",
+     "Morte",
+     "Vida",
+     "Paz"
+    ],
+    "fr": [
+     "Quelle était la conséquence du péché ?",
+     "Mort",
+     "Vie",
+     "Paix"
+    ],
+    "de": [
+     "Was war die Folge der Sünde?",
+     "Tod",
+     "Leben",
+     "Frieden"
+    ],
+    "it": [
+     "Qual era la conseguenza del peccato?",
+     "Morte",
+     "Vita",
+     "Pace"
+    ],
+    "pl": [
+     "Jaka była konsekwencja grzechu?",
+     "Śmierć",
+     "Życie",
+     "Pokój"
+    ],
+    "ru": [
+     "Какое было последствие греха?",
+     "Смерть",
+     "Жизнь",
+     "Мир"
+    ],
+    "tr": [
+     "Günahın sonucu neydi?",
+     "Ölüm",
+     "Hayat",
+     "Barış"
+    ],
+    "ja": [
+     "罪の結果は何でしたか？",
+     "死",
+     "命",
+     "平和"
+    ],
+    "ko": [
+     "죄의 결과는 무엇이었습니까?",
+     "죽음",
+     "생명",
+     "평화"
+    ],
+    "ar": [
+     "ما نتيجة الخطيئة؟",
+     "الموت",
+     "حياة",
+     "سلام"
+    ]
+   }
+  },
+  {
+   "orig": "hard_263",
+   "difficulty": "hard",
+   "text": {
+    "en": [
+     "What did Sarah struggle with?",
+     "Faith",
+     "War",
+     "Power"
+    ],
+    "es": [
+     "¿Con qué luchó Sara?",
+     "Fe",
+     "Guerra",
+     "Poder"
+    ],
+    "pt": [
+     "Com o que Sara lutou?",
+     "Fé",
+     "Guerra",
+     "Poder"
+    ],
+    "fr": [
+     "Avec quoi Sarah a-t-elle lutté ?",
+     "Foi",
+     "Guerre",
+     "Pouvoir"
+    ],
+    "de": [
+     "Womit hatte Sarah zu kämpfen?",
+     "Verheißung",
+     "Krieg",
+     "Macht"
+    ],
+    "it": [
+     "Con cosa lottava Sara?",
+     "Fede",
+     "Guerra",
+     "Potere"
+    ],
+    "pl": [
+     "Z czym zmagała się Sara?",
+     "Wiara",
+     "Wojna",
+     "Władza"
+    ],
+    "ru": [
+     "С чем боролась Сарра?",
+     "Вера",
+     "Война",
+     "Власть"
+    ],
+    "tr": [
+     "Sara neyle mücadele etti?",
+     "Iman",
+     "Savaş",
+     "Güç"
+    ],
+    "ja": [
+     "サラは何に苦しみましたか？",
+     "約束への信仰",
+     "戦争",
+     "力"
+    ],
+    "ko": [
+     "사라는 무엇과 씨름했습니까?",
+     "믿음",
+     "전쟁",
+     "권력"
+    ],
+    "ar": [
+     "بماذا عانت سارة؟",
+     "الإيمان",
+     "حرب",
+     "قوة"
+    ]
+   }
+  },
+  {
+   "orig": "expert_018",
+   "difficulty": "expert",
+   "text": {
+    "en": [
+     "What is pastoral epistles purpose?",
+     "Church",
+     "Politics",
+     "War"
+    ],
+    "es": [
+     "¿Cuál es el propósito de las epístolas pastorales?",
+     "Sostenibilidad",
+     "Política",
+     "Guerra"
+    ],
+    "pt": [
+     "Qual é o propósito das epístolas pastorais?",
+     "Sustentabilidade",
+     "Política",
+     "Guerra"
+    ],
+    "fr": [
+     "Quel est le but des épîtres pastorales ?",
+     "Durabilité",
+     "Politique",
+     "Guerre"
+    ],
+    "de": [
+     "Was ist der Zweck der Pastoralbriefe?",
+     "Kirche",
+     "Politik",
+     "Krieg"
+    ],
+    "it": [
+     "Qual è lo scopo delle epistole pastorali?",
+     "Sostenibilità",
+     "Politica",
+     "Guerra"
+    ],
+    "pl": [
+     "Jaki jest cel listów pasterskich?",
+     "Trwałość",
+     "Polityka",
+     "Wojna"
+    ],
+    "ru": [
+     "Какова цель пастырских посланий?",
+     "Устойчивость",
+     "Политика",
+     "Война"
+    ],
+    "tr": [
+     "Pastoral mektupların amacı nedir?",
+     "Sürdürülebilirliği",
+     "Siyaset",
+     "Savaş"
+    ],
+    "ja": [
+     "牧会書簡の目的は何ですか？",
+     "教会の持続性",
+     "政治",
+     "戦争"
+    ],
+    "ko": [
+     "목회서신의 목적은 무엇입니까?",
+     "지속성",
+     "정치",
+     "전쟁"
+    ],
+    "ar": [
+     "ما هو هدف الرسائل الرعوية؟",
+     "استدامة",
+     "سياسة",
+     "حرب"
+    ]
+   }
+  },
+  {
+   "orig": "expert_037",
+   "difficulty": "expert",
+   "text": {
+    "en": [
+     "What does Great Commission establish?",
+     "Universal",
+     "Local",
+     "Command"
+    ],
+    "es": [
+     "¿Qué establece la Gran Comisión?",
+     "Expansión",
+     "Misión",
+     "Mandato"
+    ],
+    "pt": [
+     "O que a Grande Comissão estabelece?",
+     "Expansão",
+     "Missão",
+     "Mandato"
+    ],
+    "fr": [
+     "Que établit la Grande Commission ?",
+     "Expansion",
+     "Mission",
+     "Commandement"
+    ],
+    "de": [
+     "Was begründet der Missionsbefehl?",
+     "Ausbreitung",
+     "Mission",
+     "Befehl"
+    ],
+    "it": [
+     "Cosa stabilisce il Grande Mandato?",
+     "Espansione",
+     "Missione",
+     "Comando"
+    ],
+    "pl": [
+     "Co ustanawia Wielkie Posłanie?",
+     "Ekspansja",
+     "Misja",
+     "Nakaz"
+    ],
+    "ru": [
+     "Что устанавливает Великое поручение?",
+     "распространение",
+     "миссия",
+     "Заповедь"
+    ],
+    "tr": [
+     "Büyük Görev neyi kurar?",
+     "Yayılma",
+     "Görev",
+     "Emir"
+    ],
+    "ja": [
+     "大宣教命令は何を確立しますか？",
+     "普遍的拡大",
+     "地域宣教",
+     "命令"
+    ],
+    "ko": [
+     "대사명은 무엇을 세웁니까?",
+     "확장",
+     "선교",
+     "명령"
+    ],
+    "ar": [
+     "ماذا تؤسس المأمورية العظمى؟",
+     "الانتشار",
+     "مهمة",
+     "أمر"
+    ]
+   }
+  },
+  {
+   "orig": "expert_056",
+   "difficulty": "expert",
+   "text": {
+    "en": [
+     "What does arrest initiate?",
+     "Redemptive",
+     "Defeat",
+     "End"
+    ],
+    "es": [
+     "¿Qué inicia el arresto?",
+     "Camino",
+     "Derrota",
+     "Fin"
+    ],
+    "pt": [
+     "O que o arresto inicia?",
+     "Caminho",
+     "Derrota",
+     "Fim"
+    ],
+    "fr": [
+     "Que déclenche l’arrestation ?",
+     "Chemin",
+     "Défaite",
+     "Fin"
+    ],
+    "de": [
+     "Was leitet die Verhaftung ein?",
+     "Leidens",
+     "Niederlage",
+     "Ende"
+    ],
+    "it": [
+     "Cosa avvia l’arresto?",
+     "Percorso",
+     "Sconfitta",
+     "Fine"
+    ],
+    "pl": [
+     "Co inicjuje aresztowanie?",
+     "Droga",
+     "Porażka",
+     "Koniec"
+    ],
+    "ru": [
+     "Что запускает арест?",
+     "Путь",
+     "Поражение",
+     "Конец"
+    ],
+    "tr": [
+     "Tutuklama neyi başlatır?",
+     "Yolu",
+     "Yenilgi",
+     "Son"
+    ],
+    "ja": [
+     "逮捕は何を開始しますか？",
+     "贖いの苦しみの道",
+     "敗北",
+     "終わり"
+    ],
+    "ko": [
+     "체포는 무엇을 시작합니까?",
+     "길",
+     "패배",
+     "끝"
+    ],
+    "ar": [
+     "ماذا يبدأ الاعتقال؟",
+     "طريق",
+     "هزيمة",
+     "نهاية"
+    ]
+   }
+  },
+  {
+   "orig": "expert_075",
+   "difficulty": "expert",
+   "text": {
+    "en": [
+     "What do talents reveal about God?",
+     "Trust",
+     "Economy",
+     "Luck"
+    ],
+    "es": [
+     "¿Qué revelan los talentos sobre Dios?",
+     "Confianza",
+     "Economía",
+     "Suerte"
+    ],
+    "pt": [
+     "O que os talentos revelam sobre Deus?",
+     "Confiança",
+     "Economia",
+     "Sorte"
+    ],
+    "fr": [
+     "Que révèlent les talents sur Dieu ?",
+     "Confiance",
+     "Économie",
+     "Chance"
+    ],
+    "de": [
+     "Was offenbaren die Talente über Gott?",
+     "Verwaltung",
+     "Wirtschaft",
+     "Glück"
+    ],
+    "it": [
+     "Cosa rivelano i talenti su Dio?",
+     "Fiducia",
+     "Economia",
+     "Fortuna"
+    ],
+    "pl": [
+     "Co talenty ujawniają o Bogu?",
+     "Zaufanie",
+     "Ekonomia",
+     "Szczęście"
+    ],
+    "ru": [
+     "Что таланты открывают о Боге?",
+     "управлении",
+     "Экономика",
+     "Удача"
+    ],
+    "tr": [
+     "Yetenekler Tanrı hakkında neyi ortaya koyar?",
+     "Güven",
+     "Ekonomi",
+     "Şans"
+    ],
+    "ja": [
+     "タラントは神について何を明らかにしますか？",
+     "管理への信頼",
+     "経済",
+     "運"
+    ],
+    "ko": [
+     "달란트는 하나님에 대해 무엇을 드러냅니까?",
+     "신뢰",
+     "경제",
+     "운"
+    ],
+    "ar": [
+     "ماذا تكشف الوزنات عن الله؟",
+     "الثقة",
+     "الاقتصاد",
+     "الحظ"
+    ]
+   }
+  },
+  {
+   "orig": "expert_094",
+   "difficulty": "expert",
+   "text": {
+    "en": [
+     "What does yeast illustrate in Kingdom logic?",
+     "Unstoppable",
+     "Decay",
+     "Control"
+    ],
+    "es": [
+     "¿Qué ilustra la levadura en la lógica del Reino?",
+     "Crecimiento",
+     "Decadencia",
+     "Control"
+    ],
+    "pt": [
+     "O que o fermento ilustra na lógica do Reino?",
+     "Crescimento",
+     "Decadência",
+     "Controle"
+    ],
+    "fr": [
+     "Que représente le levain dans la logique du Royaume ?",
+     "Croissance",
+     "Déclin",
+     "Contrôle"
+    ],
+    "de": [
+     "Was veranschaulicht der Sauerteig in der Logik des Reiches?",
+     "Wachstum",
+     "Verfall",
+     "Kontrolle"
+    ],
+    "it": [
+     "Cosa illustra il lievito nella logica del Regno?",
+     "Crescita",
+     "Decadenza",
+     "Controllo"
+    ],
+    "pl": [
+     "Co ilustruje zaczyn w logice Królestwa?",
+     "Wzrost",
+     "Rozkład",
+     "Kontrola"
+    ],
+    "ru": [
+     "Что иллюстрирует закваска в логике Царства?",
+     "рост",
+     "Упадок",
+     "Контроль"
+    ],
+    "tr": [
+     "Maya Krallık mantığında neyi gösterir?",
+     "Büyüme",
+     "Çürüme",
+     "Kontrol"
+    ],
+    "ja": [
+     "パン種は御国の論理で何を示していますか？",
+     "止められない成長",
+     "腐敗",
+     "支配"
+    ],
+    "ko": [
+     "누룩은 하나님 나라의 논리에서 무엇을 보여 줍니까?",
+     "성장",
+     "쇠퇴",
+     "통제"
+    ],
+    "ar": [
+     "ماذا توضح الخميرة في منطق الملكوت؟",
+     "نمو",
+     "الانحلال",
+     "التحكم"
+    ]
+   }
+  },
+  {
+   "orig": "expert_113",
+   "difficulty": "expert",
+   "text": {
+    "en": [
+     "What does Jesus redefine?",
+     "Blessed",
+     "Political",
+     "Economic"
+    ],
+    "es": [
+     "¿Qué redefine Jesús?",
+     "Vida",
+     "Poder",
+     "Éxito"
+    ],
+    "pt": [
+     "O que Jesus redefine?",
+     "Vida",
+     "Poder",
+     "Sucesso"
+    ],
+    "fr": [
+     "Que redéfinit Jésus ?",
+     "Vie",
+     "Pouvoir",
+     "Succès"
+    ],
+    "de": [
+     "Was definiert Jesus neu?",
+     "Leben",
+     "Macht",
+     "Erfolg"
+    ],
+    "it": [
+     "Cosa ridefinisce Gesù?",
+     "Vita",
+     "Potere",
+     "Successo"
+    ],
+    "pl": [
+     "Co redefiniuje Jezus?",
+     "Życie",
+     "Władza",
+     "Sukces"
+    ],
+    "ru": [
+     "Что переопределяет Иисус?",
+     "жизнь",
+     "власть",
+     "успех"
+    ],
+    "tr": [
+     "İsa neyi yeniden tanımlar?",
+     "Yaşam",
+     "Güç",
+     "Başarı"
+    ],
+    "ja": [
+     "イエスは何を再定義しますか？",
+     "祝福された人生",
+     "政治権力",
+     "経済的成功"
+    ],
+    "ko": [
+     "예수님은 무엇을 재정의하십니까?",
+     "삶",
+     "권력",
+     "성공"
+    ],
+    "ar": [
+     "ماذا يعيد يسوع تعريفه؟",
+     "الحياة",
+     "السلطة",
+     "النجاح"
+    ]
+   }
+  },
+  {
+   "orig": "expert_132",
+   "difficulty": "expert",
+   "text": {
+    "en": [
+     "What does baptism signify theologically?",
+     "Identification",
+     "Cleansing",
+     "Law"
+    ],
+    "es": [
+     "¿Qué significa teológicamente el bautismo?",
+     "Humanidad",
+     "Ritual",
+     "Cumplimiento"
+    ],
+    "pt": [
+     "O que o batismo significa teologicamente?",
+     "Humanidade",
+     "Ritual",
+     "Cumprimento"
+    ],
+    "fr": [
+     "Que signifie théologiquement le baptême ?",
+     "Humanité",
+     "Rituel",
+     "Accomplissement"
+    ],
+    "de": [
+     "Was bedeutet die Taufe theologisch?",
+     "Menschheit",
+     "Reinigungsritual",
+     "Gesetzeserfüllung"
+    ],
+    "it": [
+     "Cosa significa teologicamente il battesimo?",
+     "Umanità",
+     "Rito",
+     "Adempimento"
+    ],
+    "pl": [
+     "Co oznacza teologicznie chrzest?",
+     "Ludzkością",
+     "Rytuał",
+     "Wypełnienie"
+    ],
+    "ru": [
+     "Что означает крещение с богословской точки зрения?",
+     "Отождествление",
+     "очищающий",
+     "исполнение"
+    ],
+    "tr": [
+     "Vaftiz teolojik olarak neyi ifade eder?",
+     "Özdeşleşme",
+     "Ritüeli",
+     "Getirilmesi"
+    ],
+    "ja": [
+     "洗礼は神学的に何を意味しますか？",
+     "人類との同一化",
+     "単なる清めの儀式",
+     "単なる律法の成就"
+    ],
+    "ko": [
+     "세례는 신학적으로 무엇을 의미합니까?",
+     "동일시",
+     "의식",
+     "성취"
+    ],
+    "ar": [
+     "ماذا يعني المعمودية لاهوتياً؟",
+     "البشرية",
+     "طقس",
+     "إتمام"
+    ]
+   }
+  },
+  {
+   "orig": "expert_151",
+   "difficulty": "expert",
+   "text": {
+    "en": [
+     "What is Job’s central theological question?",
+     "Righteous",
+     "Win",
+     "Become"
+    ],
+    "es": [
+     "¿Cuál es la pregunta teológica central de Job?",
+     "sufren",
+     "ganar",
+     "hacerse"
+    ],
+    "pt": [
+     "Qual é a questão teológica central de Jó?",
+     "Justos",
+     "Vencer",
+     "Ficar"
+    ],
+    "fr": [
+     "Quelle est la question théologique centrale de Job ?",
+     "Justes",
+     "Gagner",
+     "Devenir"
+    ],
+    "de": [
+     "Was ist die zentrale theologische Frage in Hiob?",
+     "Gerechten",
+     "Kriege",
+     "Reich"
+    ],
+    "it": [
+     "Qual è la domanda teologica centrale di Giobbe?",
+     "Perché",
+     "Vincere",
+     "Diventare"
+    ],
+    "pl": [
+     "Jakie jest centralne pytanie teologiczne Hioba?",
+     "Sprawiedliwi",
+     "Wygrywać",
+     "Stać"
+    ],
+    "ru": [
+     "Каков центральный богословский вопрос Иова?",
+     "страдают",
+     "выигрывать",
+     "разбогатеть"
+    ],
+    "tr": [
+     "Eyüp’ün merkezi teolojik sorusu nedir?",
+     "Çeker",
+     "Kazanılır",
+     "Olunur"
+    ],
+    "ja": [
+     "ヨブの中心的神学的問いは何ですか？",
+     "なぜ正しい人が苦しむのか",
+     "戦争に勝つ方法",
+     "どうやって金持ちになるか"
+    ],
+    "ko": [
+     "욥기의 중심 신학적 질문은 무엇입니까?",
+     "고통받는",
+     "방법",
+     "되는"
+    ],
+    "ar": [
+     "ما السؤال اللاهوتي المركزي في سفر أيوب؟",
+     "يتألم",
+     "نربح",
+     "نصبح"
+    ]
+   }
+  },
+  {
+   "orig": "expert_170",
+   "difficulty": "expert",
+   "text": {
+    "en": [
+     "What marked this era?",
+     "Restoration",
+     "Empire",
+     "Judgment"
+    ],
+    "es": [
+     "¿Qué marcó esta era?",
+     "Restauración",
+     "Expansión",
+     "Juicio"
+    ],
+    "pt": [
+     "O que marcou esta era?",
+     "Restauração",
+     "Expansão",
+     "Juízo"
+    ],
+    "fr": [
+     "Qu’est-ce qui a marqué cette époque ?",
+     "Restauration",
+     "Expansion",
+     "Jugement"
+    ],
+    "de": [
+     "Was prägte diese Epoche?",
+     "Exil",
+     "Reichsausdehnung",
+     "Gericht"
+    ],
+    "it": [
+     "Cosa ha segnato quest’epoca?",
+     "Restauro",
+     "Espansione",
+     "Giudizio"
+    ],
+    "pl": [
+     "Co charakteryzowało tę epokę?",
+     "Wygnaniu",
+     "Ekspansja",
+     "Sąd"
+    ],
+    "ru": [
+     "Что характеризовало эту эпоху?",
+     "изгнания",
+     "империи",
+     "Суд"
+    ],
+    "tr": [
+     "Bu dönemi ne belirledi?",
+     "Restorasyon",
+     "Genişlemesi",
+     "Yargı"
+    ],
+    "ja": [
+     "この時代を特徴づけたものは何ですか？",
+     "捕囚後の回復",
+     "帝国拡大",
+     "裁き"
+    ],
+    "ko": [
+     "이 시대를 특징짓는 것은 무엇입니까?",
+     "회복",
+     "확장",
+     "심판"
+    ],
+    "ar": [
+     "ما الذي ميز هذه الحقبة؟",
+     "الاستعادة",
+     "توسع",
+     "الدينونة"
+    ]
+   }
+  },
+  {
+   "orig": "expert_189",
+   "difficulty": "expert",
+   "text": {
+    "en": [
+     "What did prophets mainly confront?",
+     "Idolatry",
+     "Foreign",
+     "Trade"
+    ],
+    "es": [
+     "¿Qué confrontaban principalmente los profetas?",
+     "Idolatría",
+     "Guerras",
+     "Sistemas"
+    ],
+    "pt": [
+     "O que os profetas confrontavam principalmente?",
+     "Idolatria",
+     "Guerras",
+     "Sistemas"
+    ],
+    "fr": [
+     "Que confrontaient principalement les prophètes ?",
+     "Idolâtrie",
+     "Guerres",
+     "Systèmes"
+    ],
+    "de": [
+     "Wogegen kämpften die Propheten hauptsächlich?",
+     "Ungerechtigkeit",
+     "Kriege",
+     "Handelssysteme"
+    ],
+    "it": [
+     "Cosa affrontavano principalmente i profeti?",
+     "Idolatria",
+     "Guerre",
+     "Sistemi"
+    ],
+    "pl": [
+     "Z czym głównie mierzyli się prorocy?",
+     "Bałwochwalstwo",
+     "Zagraniczne",
+     "Systemy"
+    ],
+    "ru": [
+     "С чем главным образом сталкивались пророки?",
+     "Идолопоклонство",
+     "войны",
+     "системы"
+    ],
+    "tr": [
+     "Peygamberler en çok neyle yüzleşti?",
+     "Adaletsizlik",
+     "Savaşlar",
+     "Sistemleri"
+    ],
+    "ja": [
+     "預言者は主に何と対峙しましたか？",
+     "偶像崇拝と不正",
+     "外国戦争",
+     "貿易制度"
+    ],
+    "ko": [
+     "선지자들은 주로 무엇과 맞섰습니까?",
+     "불의",
+     "전쟁",
+     "시스템"
+    ],
+    "ar": [
+     "بماذا واجه الأنبياء بشكل رئيسي؟",
+     "عبادة",
+     "حروب",
+     "أنظمة"
+    ]
+   }
+  },
+  {
+   "orig": "expert_208",
+   "difficulty": "expert",
+   "text": {
+    "en": [
+     "What did David spare?",
+     "Saul",
+     "Throne",
+     "Army"
+    ],
+    "es": [
+     "¿Qué perdonó David?",
+     "Vida",
+     "Trono",
+     "Ejército"
+    ],
+    "pt": [
+     "O que Davi poupou?",
+     "Vida",
+     "Trono",
+     "Exército"
+    ],
+    "fr": [
+     "Qu’est-ce que David a épargné ?",
+     "Vie",
+     "Trône",
+     "Armée"
+    ],
+    "de": [
+     "Was verschonte David?",
+     "Leben",
+     "Thron",
+     "Armee"
+    ],
+    "it": [
+     "Che cosa ha risparmiato Davide?",
+     "Vita",
+     "Trono",
+     "Esercito"
+    ],
+    "pl": [
+     "Co Dawid oszczędził?",
+     "Życie",
+     "Tron",
+     "Armia"
+    ],
+    "ru": [
+     "Что Давид пощадил?",
+     "Жизнь",
+     "трон",
+     "армия"
+    ],
+    "tr": [
+     "Davud neyi bağışladı?",
+     "Hayatı",
+     "Tahtı",
+     "Ordusu"
+    ],
+    "ja": [
+     "ダビデは何を免れましたか？",
+     "サウルの命",
+     "王座",
+     "軍隊"
+    ],
+    "ko": [
+     "다윗은 무엇을 살려주었습니까?",
+     "생명",
+     "왕좌",
+     "군대"
+    ],
+    "ar": [
+     "ماذا أبقى داود؟",
+     "حياة",
+     "عرشه",
+     "جيشه"
+    ]
+   }
+  },
+  {
+   "orig": "expert_227",
+   "difficulty": "expert",
+   "text": {
+    "en": [
+     "What protected Israel from final plague?",
+     "Blood",
+     "Walls",
+     "Fire"
+    ],
+    "es": [
+     "¿Qué protegió a Israel de la última plaga?",
+     "Sangre",
+     "Muros",
+     "Fuego"
+    ],
+    "pt": [
+     "O que protegeu Israel da última praga?",
+     "Sangue",
+     "Muros",
+     "Fogo"
+    ],
+    "fr": [
+     "Qu’est-ce qui a protégé Israël de la dernière plaie ?",
+     "Sang",
+     "Murs",
+     "Feu"
+    ],
+    "de": [
+     "Was schützte Israel vor der letzten Plage?",
+     "Türpfosten",
+     "Mauern",
+     "Feuer"
+    ],
+    "it": [
+     "Cosa ha protetto Israele dall’ultima piaga?",
+     "Sangue",
+     "Mura",
+     "Fuoco"
+    ],
+    "pl": [
+     "Co ochroniło Izrael przed ostatnią plagą?",
+     "Krew",
+     "Mury",
+     "Ogień"
+    ],
+    "ru": [
+     "Что защитило Израиль от последней казни?",
+     "Кровь",
+     "Стены",
+     "Огонь"
+    ],
+    "tr": [
+     "Son beladan İsrail’i ne korudu?",
+     "Kan",
+     "Duvarlar",
+     "Ateş"
+    ],
+    "ja": [
+     "最後の災いからイスラエルを守ったものは何ですか？",
+     "戸口の血",
+     "壁",
+     "火"
+    ],
+    "ko": [
+     "마지막 재앙에서 이스라엘을 보호한 것은 무엇입니까?",
+     "피",
+     "벽",
+     "불"
+    ],
+    "ar": [
+     "ما الذي حمى إسرائيل من الضربة الأخيرة؟",
+     "دم",
+     "جدران",
+     "نار"
+    ]
+   }
+  },
+  {
+   "orig": "expert_246",
+   "difficulty": "expert",
+   "text": {
+    "en": [
+     "What did Jacob become?",
+     "Father",
+     "King",
+     "Prophet"
+    ],
+    "es": [
+     "¿En qué se convirtió Jacob?",
+     "Padre",
+     "Rey",
+     "Profeta"
+    ],
+    "pt": [
+     "O que Jacó se tornou?",
+     "Pai",
+     "Rei",
+     "Profeta"
+    ],
+    "fr": [
+     "Que devient Jacob ?",
+     "Père",
+     "Roi",
+     "Prophète"
+    ],
+    "de": [
+     "Was wurde Jakob?",
+     "Israels",
+     "König",
+     "Prophet"
+    ],
+    "it": [
+     "Cosa divenne Giacobbe?",
+     "Padre",
+     "Re",
+     "Profeta"
+    ],
+    "pl": [
+     "Czym stał się Jakub?",
+     "Ojciec",
+     "Król",
+     "Prorok"
+    ],
+    "ru": [
+     "Кем стал Иаков?",
+     "Отец",
+     "Царь",
+     "Пророк"
+    ],
+    "tr": [
+     "Yakup ne oldu?",
+     "Babası",
+     "Kral",
+     "Peygamber"
+    ],
+    "ja": [
+     "ヤコブは何になりましたか？",
+     "イスラエルの父",
+     "王",
+     "預言者"
+    ],
+    "ko": [
+     "야곱은 무엇이 되었습니까?",
+     "조상",
+     "왕",
+     "선지자"
+    ],
+    "ar": [
+     "ماذا أصبح يعقوب؟",
+     "أب",
+     "ملك",
+     "نبي"
+    ]
+   }
+  },
+  {
+   "orig": "expert_265",
+   "difficulty": "expert",
+   "text": {
+    "en": [
+     "What was Noah's mission?",
+     "Obey",
+     "Rule",
+     "Build"
+    ],
+    "es": [
+     "¿Cuál fue la misión de Noé?",
+     "Obedecer",
+     "Gobernar",
+     "Construir"
+    ],
+    "pt": [
+     "Qual foi a missão de Noé?",
+     "Obedecer",
+     "Governar",
+     "Construir"
+    ],
+    "fr": [
+     "Quelle était la mission de Noé ?",
+     "Obéir",
+     "Diriger",
+     "Construire"
+    ],
+    "de": [
+     "Was war die Mission von Noah?",
+     "Gott",
+     "Nationen",
+     "Imperium"
+    ],
+    "it": [
+     "Qual era la missione di Noè?",
+     "Obbedire",
+     "Governare",
+     "Costruire"
+    ],
+    "pl": [
+     "Jaka była misja Noego?",
+     "Słuchać",
+     "Rządzić",
+     "Budować"
+    ],
+    "ru": [
+     "Какова была миссия Ноя?",
+     "Повиноваться",
+     "Править",
+     "Строить"
+    ],
+    "tr": [
+     "Nuh’un görevi neydi?",
+     "Etmek",
+     "Yönetmek",
+     "Kurmak"
+    ],
+    "ja": [
+     "ノアの使命は何でしたか？",
+     "神に従う",
+     "国々を治める",
+     "帝国を築く"
+    ],
+    "ko": [
+     "노아의 사명은 무엇이었습니까?",
+     "순종",
+     "다스리다",
+     "건설"
+    ],
+    "ar": [
+     "ما كانت مهمة نوح؟",
+     "طاعة",
+     "حكم",
+     "بناء"
+    ]
+   }
+  },
+  {
+   "orig": "impossible_011",
+   "difficulty": "impossible",
+   "text": {
+    "en": [
+     "What is Romans deepest meaning?",
+     "Grace",
+     "Law",
+     "Ethics"
+    ],
+    "es": [
+     "¿Cuál es el significado más profundo de Romanos?",
+     "Justificación",
+     "Sistema",
+     "Ética"
+    ],
+    "pt": [
+     "Qual é o significado mais profundo de Romanos?",
+     "Justificação",
+     "Sistema",
+     "Ética"
+    ],
+    "fr": [
+     "Quelle est la signification la plus profonde de Romains ?",
+     "Justification",
+     "Système",
+     "Éthique"
+    ],
+    "de": [
+     "Was ist die tiefste Bedeutung des Römerbriefs?",
+     "Gnade",
+     "Gesetzessystem",
+     "Ethik"
+    ],
+    "it": [
+     "Qual è il significato più profondo di Romani?",
+     "Giustificazione",
+     "Sistema",
+     "Etica"
+    ],
+    "pl": [
+     "Jakie jest najgłębsze znaczenie Listu do Rzymian?",
+     "Usprawiedliwienie",
+     "System",
+     "Etyka"
+    ],
+    "ru": [
+     "Каков самый глубокий смысл Послания к Римлянам?",
+     "благодати",
+     "Система",
+     "Этика"
+    ],
+    "tr": [
+     "Romalılar’ın en derin anlamı nedir?",
+     "Aklanma",
+     "Sistemi",
+     "Etik"
+    ],
+    "ja": [
+     "ローマ人への手紙の最も深い意味は何ですか？",
+     "恵みによる義認",
+     "律法体系",
+     "倫理"
+    ],
+    "ko": [
+     "로마서의 가장 깊은 의미는 무엇입니까?",
+     "칭의",
+     "체계",
+     "윤리"
+    ],
+    "ar": [
+     "ما هو أعمق معنى لرسالة رومية؟",
+     "التبرير",
+     "نظام",
+     "الأخلاق"
+    ]
+   }
+  },
+  {
+   "orig": "impossible_030",
+   "difficulty": "impossible",
+   "text": {
+    "en": [
+     "What does resurrection confirm?",
+     "Victory",
+     "Miracle",
+     "Story"
+    ],
+    "es": [
+     "¿Qué confirma la resurrección?",
+     "Victoria",
+     "Milagro",
+     "Final"
+    ],
+    "pt": [
+     "O que a ressurreição confirma?",
+     "Vitória",
+     "Milagre",
+     "Fim"
+    ],
+    "fr": [
+     "Que confirme la résurrection ?",
+     "Victoire",
+     "Miracle",
+     "Fin"
+    ],
+    "de": [
+     "Was bestätigt die Auferstehung?",
+     "Tod",
+     "Wunder",
+     "Geschichte"
+    ],
+    "it": [
+     "Cosa conferma la risurrezione?",
+     "Vittoria",
+     "Miracolo",
+     "Fine"
+    ],
+    "pl": [
+     "Co potwierdza zmartwychwstanie?",
+     "Zwycięstwo",
+     "Cud",
+     "Koniec"
+    ],
+    "ru": [
+     "Что подтверждает воскресение?",
+     "Победа",
+     "Чудо",
+     "Конец"
+    ],
+    "tr": [
+     "Diriliş neyi doğrular?",
+     "Zafer",
+     "Mucize",
+     "Sonu"
+    ],
+    "ja": [
+     "復活は何を確認していますか？",
+     "死に対する勝利",
+     "奇跡",
+     "物語の終わり"
+    ],
+    "ko": [
+     "부활은 무엇을 확증합니까?",
+     "승리",
+     "기적",
+     "끝"
+    ],
+    "ar": [
+     "ماذا يؤكد القيامة؟",
+     "الانتصار",
+     "معجزة",
+     "نهاية"
+    ]
+   }
+  },
+  {
+   "orig": "impossible_049",
+   "difficulty": "impossible",
+   "text": {
+    "en": [
+     "What does wisdom from above produce?",
+     "Peace",
+     "Knowledge",
+     "Success"
+    ],
+    "es": [
+     "¿Qué produce la sabiduría de lo alto?",
+     "Paz",
+     "Conocimiento",
+     "Éxito"
+    ],
+    "pt": [
+     "O que a sabedoria do alto produz?",
+     "Paz",
+     "Conhecimento",
+     "Sucesso"
+    ],
+    "fr": [
+     "Que produit la sagesse d’en haut ?",
+     "Paix",
+     "Connaissance",
+     "Succès"
+    ],
+    "de": [
+     "Was bewirkt die Weisheit von oben?",
+     "Gerechtigkeit",
+     "Wissen",
+     "Erfolg"
+    ],
+    "it": [
+     "Cosa produce la sapienza dall’alto?",
+     "Pace",
+     "Conoscenza",
+     "Successo"
+    ],
+    "pl": [
+     "Co przynosi mądrość z góry?",
+     "Pokój",
+     "Wiedza",
+     "Sukces"
+    ],
+    "ru": [
+     "Что производит мудрость свыше?",
+     "Мир",
+     "Знание",
+     "Успех"
+    ],
+    "tr": [
+     "Yukarıdan gelen bilgelik ne üretir?",
+     "Doğruluk",
+     "Bilgi",
+     "Başarı"
+    ],
+    "ja": [
+     "上からの知恵は何を生み出しますか？",
+     "平和と義",
+     "知識",
+     "成功"
+    ],
+    "ko": [
+     "위로부터 오는 지혜는 무엇을 만들어 냅니까?",
+     "의",
+     "지식",
+     "성공"
+    ],
+    "ar": [
+     "ماذا تنتج الحكمة النازلة من فوق؟",
+     "السلام",
+     "معرفة",
+     "نجاح"
+    ]
+   }
+  },
+  {
+   "orig": "impossible_068",
+   "difficulty": "impossible",
+   "text": {
+    "en": [
+     "What is the church meant to embody?",
+     "Christ",
+     "Community",
+     "Religion"
+    ],
+    "es": [
+     "¿Qué está llamada a encarnar la iglesia?",
+     "Presencia",
+     "Comunidad",
+     "Religión"
+    ],
+    "pt": [
+     "O que a igreja deve incorporar?",
+     "Presença",
+     "Comunidade",
+     "Religião"
+    ],
+    "fr": [
+     "Que l’Église est-elle appelée à incarner ?",
+     "Présence",
+     "Communauté",
+     "Religion"
+    ],
+    "de": [
+     "Was soll die Kirche verkörpern?",
+     "Christi",
+     "Gemeinschaft",
+     "Religion"
+    ],
+    "it": [
+     "Cosa è chiamata a incarnare la chiesa?",
+     "Presenza",
+     "Comunità",
+     "Religione"
+    ],
+    "pl": [
+     "Co ma ucieleśniać Kościół?",
+     "Obecność",
+     "Wspólnota",
+     "Religia"
+    ],
+    "ru": [
+     "Что должна воплощать церковь?",
+     "Христа",
+     "Сообщество",
+     "Религия"
+    ],
+    "tr": [
+     "Kilise neyi temsil etmelidir?",
+     "Varlığı",
+     "Topluluk",
+     "Din"
+    ],
+    "ja": [
+     "教会は何を体現するよう召されていますか？",
+     "キリストの臨在",
+     "共同体",
+     "宗教"
+    ],
+    "ko": [
+     "교회는 무엇을 구현해야 합니까?",
+     "임재",
+     "공동체",
+     "종교"
+    ],
+    "ar": [
+     "ماذا يُفترض بالكنيسة أن تجسد؟",
+     "حضور",
+     "مجتمع",
+     "دين"
+    ]
+   }
+  },
+  {
+   "orig": "impossible_087",
+   "difficulty": "impossible",
+   "text": {
+    "en": [
+     "What is ultimate message?",
+     "Kingdom",
+     "Belief",
+     "Knowledge"
+    ],
+    "es": [
+     "¿Cuál es el mensaje final?",
+     "Reino",
+     "Creer",
+     "Conocimiento"
+    ],
+    "pt": [
+     "Qual é a mensagem final?",
+     "Reino",
+     "Crer",
+     "Conhecimento"
+    ],
+    "fr": [
+     "Quel est le message ultime ?",
+     "Responsabilité",
+     "Croire",
+     "Connaissance"
+    ],
+    "de": [
+     "Was ist die letztendliche Botschaft?",
+     "Gottes",
+     "Nur",
+     "Wissen"
+    ],
+    "it": [
+     "Qual è il messaggio finale?",
+     "Regno",
+     "Credere",
+     "Conoscenza"
+    ],
+    "pl": [
+     "Jakie jest ostateczne przesłanie?",
+     "Królestwa",
+     "Wiara",
+     "Wiedza"
+    ],
+    "ru": [
+     "Каково окончательное послание?",
+     "Царства",
+     "вера",
+     "знание"
+    ],
+    "tr": [
+     "Nihai mesaj nedir?",
+     "Sorumluluğu",
+     "Inanmak",
+     "Bilgi"
+    ],
+    "ja": [
+     "究極のメッセージは何ですか？",
+     "御国の責任",
+     "信じるだけ",
+     "知識だけ"
+    ],
+    "ko": [
+     "궁극적인 메시지는 무엇입니까?",
+     "책임",
+     "하기",
+     "지식만"
+    ],
+    "ar": [
+     "ما هي الرسالة النهائية؟",
+     "مسؤولية",
+     "الإيمان",
+     "المعرفة"
+    ]
+   }
+  },
+  {
+   "orig": "impossible_106",
+   "difficulty": "impossible",
+   "text": {
+    "en": [
+     "What is Kingdom nature in parables?",
+     "Invisible",
+     "Political",
+     "Human"
+    ],
+    "es": [
+     "¿Cuál es la naturaleza del Reino en las parábolas?",
+     "Gobierno",
+     "Sistema",
+     "Idea"
+    ],
+    "pt": [
+     "Qual é a natureza do Reino nas parábolas?",
+     "Governo",
+     "Sistema",
+     "Ideia"
+    ],
+    "fr": [
+     "Quelle est la nature du Royaume dans les paraboles ?",
+     "Règne",
+     "Système",
+     "Idée"
+    ],
+    "de": [
+     "Was ist die Natur des Reiches in den Gleichnissen?",
+     "Herrschaft",
+     "System",
+     "Idee"
+    ],
+    "it": [
+     "Qual è la natura del Regno nelle parabole?",
+     "Regno",
+     "Sistema",
+     "Idea"
+    ],
+    "pl": [
+     "Jaka jest natura Królestwa w przypowieściach?",
+     "Panowanie",
+     "System",
+     "Pomysł"
+    ],
+    "ru": [
+     "Какова природа Царства в притчах?",
+     "владычество",
+     "система",
+     "идея"
+    ],
+    "tr": [
+     "Mesellerde Krallığın doğası nedir?",
+     "Egemenlik",
+     "Sistem",
+     "Fikri"
+    ],
+    "ja": [
+     "たとえ話における御国の性質は何ですか？",
+     "見えない支配",
+     "政治制度",
+     "人間の考え"
+    ],
+    "ko": [
+     "비유 속 하나님 나라의 본질은 무엇입니까?",
+     "통치",
+     "체계",
+     "생각"
+    ],
+    "ar": [
+     "ما هي طبيعة الملكوت في الأمثال؟",
+     "حكم",
+     "نظام",
+     "فكرة"
+    ]
+   }
+  },
+  {
+   "orig": "impossible_125",
+   "difficulty": "impossible",
+   "text": {
+    "en": [
+     "What does love for enemies establish?",
+     "Kingdom",
+     "Weakness",
+     "Strategy"
+    ],
+    "es": [
+     "¿Qué establece el amor a los enemigos?",
+     "Ética",
+     "Debilidad",
+     "Estrategia"
+    ],
+    "pt": [
+     "O que o amor aos inimigos estabelece?",
+     "Ética",
+     "Fraqueza",
+     "Estratégia"
+    ],
+    "fr": [
+     "Que fonde l’amour des ennemis ?",
+     "Éthique",
+     "Faiblesse",
+     "Stratégie"
+    ],
+    "de": [
+     "Was begründet die Liebe zu Feinden?",
+     "Reiches",
+     "Schwäche",
+     "Strategie"
+    ],
+    "it": [
+     "Che cosa stabilisce l’amore per i nemici?",
+     "Etica",
+     "Debolezza",
+     "Strategia"
+    ],
+    "pl": [
+     "Co ustanawia miłość do nieprzyjaciół?",
+     "Królestwa",
+     "Słabość",
+     "Strategia"
+    ],
+    "ru": [
+     "Что утверждает любовь к врагам?",
+     "Этика",
+     "Слабость",
+     "Стратегия"
+    ],
+    "tr": [
+     "Düşman sevgisi neyi kurar?",
+     "Etiği",
+     "Zayıflık",
+     "Strateji"
+    ],
+    "ja": [
+     "敵を愛することは何を確立しますか？",
+     "御国の倫理",
+     "弱さ",
+     "戦略"
+    ],
+    "ko": [
+     "원수를 사랑하는 것은 무엇을 세웁니까?",
+     "윤리",
+     "연약함",
+     "전략"
+    ],
+    "ar": [
+     "ماذا يؤسس حب الأعداء؟",
+     "أخلاقيات",
+     "ضعف",
+     "استراتيجية"
+    ]
+   }
+  },
+  {
+   "orig": "impossible_144",
+   "difficulty": "impossible",
+   "text": {
+    "en": [
+     "What does Joseph’s obedience show?",
+     "Faith",
+     "Strength",
+     "Wealth"
+    ],
+    "es": [
+     "¿Qué muestra la obediencia de José?",
+     "Obediencia",
+     "Fuerza",
+     "Riqueza"
+    ],
+    "pt": [
+     "O que a obediência de José mostra?",
+     "Obediência",
+     "Força",
+     "Riqueza"
+    ],
+    "fr": [
+     "Que montre l’obéissance de Joseph ?",
+     "Obéissance",
+     "Force",
+     "Richesse"
+    ],
+    "de": [
+     "Was zeigt Josephs Gehorsam?",
+     "Glaubensgehorsam",
+     "Stärke",
+     "Reichtum"
+    ],
+    "it": [
+     "Che cosa mostra l’obbedienza di Giuseppe?",
+     "Obbedienza",
+     "Forza",
+     "Ricchezza"
+    ],
+    "pl": [
+     "Co pokazuje posłuszeństwo Józefa?",
+     "Posłuszeństwo",
+     "Siła",
+     "Bogactwo"
+    ],
+    "ru": [
+     "Что показывает послушание Иосифа?",
+     "веры",
+     "Сила",
+     "Богатство"
+    ],
+    "tr": [
+     "Yusuf'un itaati neyi gösterir?",
+     "Itaati",
+     "Güç",
+     "Zenginlik"
+    ],
+    "ja": [
+     "ヨセフの従順は何を示していますか？",
+     "信仰の従順",
+     "強さ",
+     "富"
+    ],
+    "ko": [
+     "요셉의 순종은 무엇을 보여 줍니까?",
+     "순종",
+     "힘",
+     "부"
+    ],
+    "ar": [
+     "ماذا تُظهر طاعة يوسف؟",
+     "طاعة",
+     "قوة",
+     "ثروة"
+    ]
+   }
+  },
+  {
+   "orig": "impossible_163",
+   "difficulty": "impossible",
+   "text": {
+    "en": [
+     "What defined Nehemiah’s mission?",
+     "Wall",
+     "War",
+     "Trade"
+    ],
+    "es": [
+     "¿Qué definió la misión de Nehemías?",
+     "Reconstrucción",
+     "Liderazgo",
+     "Expansión"
+    ],
+    "pt": [
+     "O que definiu a missão de Neemias?",
+     "Reconstrução",
+     "Liderança",
+     "Expansão"
+    ],
+    "fr": [
+     "Qu’est-ce qui a défini la mission de Néhémie ?",
+     "Reconstruction",
+     "Leadership",
+     "Expansion"
+    ],
+    "de": [
+     "Was bestimmte die Mission Nehemias?",
+     "Mauer",
+     "Führung",
+     "Handelsausweitung"
+    ],
+    "it": [
+     "Che cosa definì la missione di Neemia?",
+     "Ricostruzione",
+     "Guida",
+     "Espansione"
+    ],
+    "pl": [
+     "Co definiło misję Nehemiasza?",
+     "Murów",
+     "Przywództwo",
+     "Rozwój"
+    ],
+    "ru": [
+     "Что определяло миссию Неемии?",
+     "стены",
+     "руководство",
+     "торговли"
+    ],
+    "tr": [
+     "Nehemya'nın misyonunu ne belirledi?",
+     "Inşası",
+     "Liderlik",
+     "Genişlemesi"
+    ],
+    "ja": [
+     "ネヘミヤの使命を定義したものは何ですか？",
+     "城壁再建",
+     "軍事指導",
+     "貿易拡大"
+    ],
+    "ko": [
+     "느헤미야의 사명을 정의한 것은 무엇입니까?",
+     "재건",
+     "지도",
+     "확장"
+    ],
+    "ar": [
+     "ما الذي حدد مهمة نحميا؟",
+     "إعادة",
+     "قيادة",
+     "توسيع"
+    ]
+   }
+  },
+  {
+   "orig": "impossible_182",
+   "difficulty": "impossible",
+   "text": {
+    "en": [
+     "What was Hosea’s prophetic symbol?",
+     "Unfaithful",
+     "Temple",
+     "Sword"
+    ],
+    "es": [
+     "¿Cuál fue el símbolo profético de Oseas?",
+     "Matrimonio",
+     "Templo",
+     "Espada"
+    ],
+    "pt": [
+     "Qual foi o símbolo profético de Oseias?",
+     "Casamento",
+     "Templo",
+     "Espada"
+    ],
+    "fr": [
+     "Quel était le symbole prophétique d’Osée ?",
+     "Mariage",
+     "Temple",
+     "Épée"
+    ],
+    "de": [
+     "Was war das prophetische Symbol Hoseas?",
+     "Ehe",
+     "Tempel",
+     "Schwert"
+    ],
+    "it": [
+     "Qual era il simbolo profetico di Osea?",
+     "Matrimonio",
+     "Tempio",
+     "Spada"
+    ],
+    "pl": [
+     "Jaki był symbol proroczy Ozeasza?",
+     "Małżeństwo",
+     "Świątynia",
+     "Miecz"
+    ],
+    "ru": [
+     "Каков был пророческий символ Осии?",
+     "брак",
+     "Храм",
+     "Меч"
+    ],
+    "tr": [
+     "Hoşea'nın peygamberlik sembolü neydi?",
+     "Evlilik",
+     "Tapınak",
+     "Kılıç"
+    ],
+    "ja": [
+     "ホセアの預言的象徴は何でしたか？",
+     "不誠実な結婚",
+     "神殿",
+     "剣"
+    ],
+    "ko": [
+     "호세아의 예언적 상징은 무엇이었습니까?",
+     "결혼",
+     "성전",
+     "칼"
+    ],
+    "ar": [
+     "ما هو الرمز النبوي لهوشع؟",
+     "زواج",
+     "هيكل",
+     "سيف"
+    ]
+   }
+  },
+  {
+   "orig": "impossible_202",
+   "difficulty": "impossible",
+   "text": {
+    "en": [
+     "What drove Nehemiah?",
+     "Prayer",
+     "Wealth",
+     "Fear"
+    ],
+    "es": [
+     "¿Qué motivó a Nehemías?",
+     "Oración",
+     "Riqueza",
+     "Miedo"
+    ],
+    "pt": [
+     "O que motivou Neemias?",
+     "Oração",
+     "Riqueza",
+     "Medo"
+    ],
+    "fr": [
+     "Qu’est-ce qui a motivé Néhémie ?",
+     "Prière",
+     "Richesse",
+     "Peur"
+    ],
+    "de": [
+     "Was trieb Nehemia an?",
+     "Vision",
+     "Reichtum",
+     "Angst"
+    ],
+    "it": [
+     "Cosa ha motivato Neemia?",
+     "Preghiera",
+     "Ricchezza",
+     "Paura"
+    ],
+    "pl": [
+     "Co motywowało Nehemiasza?",
+     "Modlitwa",
+     "Bogactwo",
+     "Strach"
+    ],
+    "ru": [
+     "Что двигало Неемией?",
+     "Молитва",
+     "Богатство",
+     "Страх"
+    ],
+    "tr": [
+     "Nehemya’yı ne yönlendirdi?",
+     "Vizyon",
+     "Zenginlik",
+     "Korku"
+    ],
+    "ja": [
+     "ネヘミヤを動かしたものは何ですか？",
+     "祈りとビジョン",
+     "富",
+     "恐れ"
+    ],
+    "ko": [
+     "느헤미야를 움직인 것은 무엇입니까?",
+     "비전",
+     "부",
+     "두려움"
+    ],
+    "ar": [
+     "ما الذي دفع نحميا؟",
+     "صلاة",
+     "ثروة",
+     "خوف"
+    ]
+   }
+  },
+  {
+   "orig": "impossible_222",
+   "difficulty": "impossible",
+   "text": {
+    "en": [
+     "What is Philemon deepest meaning?",
+     "Human",
+     "Legal",
+     "Story"
+    ],
+    "es": [
+     "¿Cuál es el significado más profundo de Filemón?",
+     "Igualdad",
+     "Perdón",
+     "Historia"
+    ],
+    "pt": [
+     "Qual é o significado mais profundo de Filemom?",
+     "Igualdade",
+     "Perdão",
+     "História"
+    ],
+    "fr": [
+     "Quelle est la signification la plus profonde de Philémon ?",
+     "Égalité",
+     "Pardon",
+     "Histoire"
+    ],
+    "de": [
+     "Was ist die tiefste Bedeutung des Philemonbriefs?",
+     "Gleichheit",
+     "Begnadigung",
+     "Geschichte"
+    ],
+    "it": [
+     "Qual è il significato più profondo di Filemone?",
+     "Uguaglianza",
+     "Perdono",
+     "Storia"
+    ],
+    "pl": [
+     "Jakie jest najgłębsze znaczenie Listu do Filemona?",
+     "Równość",
+     "Przebaczenie",
+     "Historia"
+    ],
+    "ru": [
+     "Каково самое глубокое значение Послания к Филимону?",
+     "равенство",
+     "прощение",
+     "История"
+    ],
+    "tr": [
+     "Filimon’un en derin anlamı nedir?",
+     "Eşitliği",
+     "Af",
+     "Hikaye"
+    ],
+    "ja": [
+     "ピレモンへの手紙の最も深い意味は何ですか？",
+     "人間の平等",
+     "法的赦免",
+     "物語"
+    ],
+    "ko": [
+     "빌레몬서의 가장 깊은 의미는 무엇입니까?",
+     "평등",
+     "사면",
+     "이야기"
+    ],
+    "ar": [
+     "ما هو المعنى الأعمق لرسالة فليمون؟",
+     "المساواة",
+     "عفو",
+     "قصة"
+    ]
+   }
+  },
+  {
+   "orig": "impossible_241",
+   "difficulty": "impossible",
+   "text": {
+    "en": [
+     "What do pastoral letters ensure?",
+     "Apostolic",
+     "Structure",
+     "Rules"
+    ],
+    "es": [
+     "¿Qué aseguran las cartas pastorales?",
+     "Fe",
+     "Estructura",
+     "Reglas"
+    ],
+    "pt": [
+     "O que as cartas pastorais garantem?",
+     "Fé",
+     "Estrutura",
+     "Regras"
+    ],
+    "fr": [
+     "Que garantissent les lettres pastorales ?",
+     "Foi",
+     "Structure",
+     "Règles"
+    ],
+    "de": [
+     "Was sichern die Pastoralbriefe?",
+     "Glaube",
+     "Struktur",
+     "Regeln"
+    ],
+    "it": [
+     "Cosa garantiscono le lettere pastorali?",
+     "Fede",
+     "Struttura",
+     "Regole"
+    ],
+    "pl": [
+     "Co zapewniają listy pasterskie?",
+     "Wiara",
+     "Struktura",
+     "Zasady"
+    ],
+    "ru": [
+     "Что обеспечивают пастырские послания?",
+     "вера",
+     "Структура",
+     "Правила"
+    ],
+    "tr": [
+     "Pastoral mektuplar neyi garanti eder?",
+     "Inancı",
+     "Yapı",
+     "Kurallar"
+    ],
+    "ja": [
+     "牧会書簡は何を保証しますか？",
+     "使徒的信仰",
+     "構造",
+     "規則"
+    ],
+    "ko": [
+     "목회서신은 무엇을 보장합니까?",
+     "신앙",
+     "구조",
+     "규칙"
+    ],
+    "ar": [
+     "ماذا تضمن الرسائل الرعوية؟",
+     "الإيمان",
+     "هيكل",
+     "قواعد"
+    ]
+   }
+  },
+  {
+   "orig": "impossible_260",
+   "difficulty": "impossible",
+   "text": {
+    "en": [
+     "What unified Israel under David?",
+     "Covenant",
+     "Force",
+     "Gold"
+    ],
+    "es": [
+     "¿Qué unificó a Israel bajo David?",
+     "Liderazgo",
+     "Fuerza",
+     "Oro"
+    ],
+    "pt": [
+     "O que unificou Israel sob David?",
+     "Liderança",
+     "Força",
+     "Ouro"
+    ],
+    "fr": [
+     "Qu’est-ce qui a uni Israël sous David ?",
+     "Leadership",
+     "Force",
+     "Or"
+    ],
+    "de": [
+     "Was vereinte Israel unter David?",
+     "Bundesführung",
+     "Kraft",
+     "Gold"
+    ],
+    "it": [
+     "Cosa ha unito Israele sotto Davide?",
+     "Leadership",
+     "Forza",
+     "Oro"
+    ],
+    "pl": [
+     "Co zjednoczyło Izrael pod Dawidem?",
+     "Przywództwo",
+     "Siła",
+     "Złoto"
+    ],
+    "ru": [
+     "Что объединило Израиль под Давидом?",
+     "руководство",
+     "Сила",
+     "Золото"
+    ],
+    "tr": [
+     "İsrail’i Davut altında ne birleştirdi?",
+     "Liderliği",
+     "Güç",
+     "Altın"
+    ],
+    "ja": [
+     "ダビデの下でイスラエルを統一したものは何ですか？",
+     "契約の指導",
+     "力",
+     "金"
+    ],
+    "ko": [
+     "다윗 아래 이스라엘을 통합한 것은 무엇입니까?",
+     "리더십",
+     "힘",
+     "금"
+    ],
+    "ar": [
+     "ما الذي وحّد إسرائيل تحت حكم داود؟",
+     "قيادة",
+     "قوة",
+     "ذهب"
+    ]
+   }
+  },
+  {
+   "orig": "impossible_279",
+   "difficulty": "impossible",
+   "text": {
+    "en": [
+     "What broke Egypt's power?",
+     "Plagues",
+     "War",
+     "Flood"
+    ],
+    "es": [
+     "¿Qué rompió el poder de Egipto?",
+     "Plagas",
+     "Guerra",
+     "Diluvio"
+    ],
+    "pt": [
+     "O que quebrou o poder do Egito?",
+     "Pragas",
+     "Guerra",
+     "Dilúvio"
+    ],
+    "fr": [
+     "Qu’est-ce qui a brisé la puissance de l’Égypte ?",
+     "Fléaux",
+     "Guerre",
+     "Déluge"
+    ],
+    "de": [
+     "Was brach die Macht Ägyptens?",
+     "Plagen",
+     "Krieg",
+     "Sintflut"
+    ],
+    "it": [
+     "Cosa ha spezzato il potere dell’Egitto?",
+     "Piaghe",
+     "Guerra",
+     "Diluvio"
+    ],
+    "pl": [
+     "Co złamało potęgę Egiptu?",
+     "Plagi",
+     "Wojna",
+     "Potop"
+    ],
+    "ru": [
+     "Что сломило власть Египта?",
+     "Казни",
+     "Война",
+     "Потоп"
+    ],
+    "tr": [
+     "Mısır’ın gücünü ne kırdı?",
+     "Belalar",
+     "Savaş",
+     "Tufan"
+    ],
+    "ja": [
+     "エジプトの力を打ち砕いたものは何ですか？",
+     "災い",
+     "戦争",
+     "洪水"
+    ],
+    "ko": [
+     "이집트의 힘을 무너뜨린 것은 무엇입니까?",
+     "재앙",
+     "전쟁",
+     "홍수"
+    ],
+    "ar": [
+     "ما الذي كسر قوة مصر؟",
+     "الضربات",
+     "حرب",
+     "طوفان"
+    ]
+   }
+  }
+ ]
+}

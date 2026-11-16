@@ -1,0 +1,7294 @@
+{
+ "questions": [
+  {
+   "id": "ch-numbers-019-01",
+   "book": "numbers",
+   "chapter": 19,
+   "difficulty": "easy",
+   "ref": "Numbers 19:2",
+   "text": {
+    "en": [
+     "What color was the heifer God commanded for the purification ashes?",
+     "Red",
+     "White",
+     "Black"
+    ],
+    "es": [
+     "¿De qué color debía ser la novilla ordenada por Dios para las cenizas de purificación?",
+     "Roja",
+     "Blanca",
+     "Negra"
+    ],
+    "pt": [
+     "De que cor devia ser a novilha ordenada por Deus para as cinzas da purificação?",
+     "Vermelha",
+     "Branca",
+     "Preta"
+    ],
+    "fr": [
+     "De quelle couleur devait être la génisse ordonnée par Dieu pour les cendres de purification ?",
+     "Rousse",
+     "Blanche",
+     "Noire"
+    ],
+    "de": [
+     "Welche Farbe sollte die Kuh haben, die Gott für die Reinigungsasche befahl?",
+     "Rot",
+     "Weiß",
+     "Schwarz"
+    ],
+    "it": [
+     "Di che colore doveva essere la giovenca che Dio ordinò per le ceneri di purificazione?",
+     "Rossa",
+     "Bianca",
+     "Nera"
+    ],
+    "pl": [
+     "Jakiego koloru miała być jałowica, której Bóg kazał użyć do popiołu oczyszczenia?",
+     "Czerwona",
+     "Biała",
+     "Czarna"
+    ],
+    "ru": [
+     "Какого цвета должна быть телица, повеленная Богом для пепла очищения?",
+     "Рыжая",
+     "Белая",
+     "Чёрная"
+    ],
+    "tr": [
+     "Tanrı arınma külü için ne renk bir düve getirilmesini buyurdu?",
+     "Kırmızı",
+     "Beyaz",
+     "Siyah"
+    ],
+    "ja": [
+     "神が清めの灰のために命じた雌牛は何色でしたか？",
+     "赤",
+     "白",
+     "黒"
+    ],
+    "ko": [
+     "하느님께서 정화의 재를 위해 명하신 암소는 무슨 색이었습니까?",
+     "붉은색",
+     "흰색",
+     "검은색"
+    ],
+    "ar": [
+     "ما لون البقرة التي أمر الله بها لرماد التطهير؟",
+     "حمراء",
+     "بيضاء",
+     "سوداء"
+    ]
+   }
+  },
+  {
+   "id": "ch-numbers-019-02",
+   "book": "numbers",
+   "chapter": 19,
+   "difficulty": "medium",
+   "ref": "Numbers 19:6",
+   "text": {
+    "en": [
+     "Which wood did the priest throw onto the burning heifer?",
+     "Cedar",
+     "Olive",
+     "Acacia"
+    ],
+    "es": [
+     "¿Qué madera echó el sacerdote sobre la novilla que ardía?",
+     "Cedro",
+     "Olivo",
+     "Acacia"
+    ],
+    "pt": [
+     "Que madeira o sacerdote lançou sobre a novilha que ardia?",
+     "Cedro",
+     "Oliveira",
+     "Acácia"
+    ],
+    "fr": [
+     "Quel bois le prêtre jeta-t-il sur la génisse en train de brûler ?",
+     "Cèdre",
+     "Olivier",
+     "Acacia"
+    ],
+    "de": [
+     "Welches Holz warf der Priester auf die brennende Kuh?",
+     "Zedernholz",
+     "Olivenholz",
+     "Akazienholz"
+    ],
+    "it": [
+     "Quale legno gettò il sacerdote sulla giovenca che bruciava?",
+     "Cedro",
+     "Ulivo",
+     "Acacia"
+    ],
+    "pl": [
+     "Jakie drewno kapłan wrzucił na płonącą jałowicę?",
+     "Cedrowe",
+     "Oliwkowe",
+     "Akacjowe"
+    ],
+    "ru": [
+     "Какое дерево священник бросил в огонь, где горела телица?",
+     "Кедр",
+     "Маслина",
+     "Акация"
+    ],
+    "tr": [
+     "Kâhin yanan düvenin üzerine hangi ağacı attı?",
+     "Sedir",
+     "Zeytin",
+     "Akasya"
+    ],
+    "ja": [
+     "祭司は燃える雌牛の上にどの木を投げ入れましたか？",
+     "レバノン杉",
+     "オリーブ",
+     "アカシア"
+    ],
+    "ko": [
+     "사제는 불타는 암소 위에 어떤 나무를 던졌습니까?",
+     "향백나무",
+     "올리브",
+     "아카시아"
+    ],
+    "ar": [
+     "أي خشب ألقاه الكاهن على البقرة المحترقة؟",
+     "أرز",
+     "زيتون",
+     "سنط"
+    ]
+   }
+  },
+  {
+   "id": "ch-numbers-019-03",
+   "book": "numbers",
+   "chapter": 19,
+   "difficulty": "hard",
+   "ref": "Numbers 19:3-4",
+   "text": {
+    "en": [
+     "Which priest, Aaron's son, sprinkled the heifer's blood toward the tent?",
+     "Eleazar",
+     "Ithamar",
+     "Phinehas"
+    ],
+    "es": [
+     "¿Qué sacerdote, hijo de Aarón, roció con la sangre de la novilla hacia la tienda?",
+     "Eleazar",
+     "Itamar",
+     "Finees"
+    ],
+    "pt": [
+     "Qual sacerdote, filho de Arão, aspergiu o sangue da novilha em direção à tenda?",
+     "Eleazar",
+     "Itamar",
+     "Finéias"
+    ],
+    "fr": [
+     "Quel prêtre, fils d'Aaron, fit l'aspersion du sang de la génisse vers la tente ?",
+     "Éléazar",
+     "Ithamar",
+     "Phinées"
+    ],
+    "de": [
+     "Welcher Priester, Aarons Sohn, sprengte das Blut der Kuh in Richtung des Zeltes?",
+     "Eleasar",
+     "Itamar",
+     "Pinhas"
+    ],
+    "it": [
+     "Quale sacerdote, figlio di Aronne, asperse il sangue della giovenca verso la tenda?",
+     "Eleazaro",
+     "Itamar",
+     "Finees"
+    ],
+    "pl": [
+     "Który kapłan, syn Aarona, pokropił krwią jałowicy w stronę namiotu?",
+     "Eleazar",
+     "Itamar",
+     "Pinchas"
+    ],
+    "ru": [
+     "Какой священник, сын Аарона, покропил кровью телицы в сторону скинии?",
+     "Елеазар",
+     "Ифамар",
+     "Финеес"
+    ],
+    "tr": [
+     "Harun'un oğlu hangi kâhin düvenin kanını çadıra doğru serpti?",
+     "Elazar",
+     "İtamar",
+     "Pinehas"
+    ],
+    "ja": [
+     "アロンの子であるどの祭司が雌牛の血を幕屋に向けて振りかけましたか？",
+     "エレアザル",
+     "イタマル",
+     "ピネハス"
+    ],
+    "ko": [
+     "아론의 아들 어느 사제가 암소의 피를 성막 쪽으로 뿌렸습니까?",
+     "엘아자르",
+     "이타마르",
+     "피느하스"
+    ],
+    "ar": [
+     "أي كاهن، ابن هارون، رش دم البقرة نحو الخيمة؟",
+     "ألعازار",
+     "إيثامار",
+     "فنحاس"
+    ]
+   }
+  },
+  {
+   "id": "ch-numbers-019-04",
+   "book": "numbers",
+   "chapter": 19,
+   "difficulty": "expert",
+   "ref": "Numbers 19:11",
+   "text": {
+    "en": [
+     "Under the red heifer law, how many days did touching a corpse defile?",
+     "7",
+     "3",
+     "40"
+    ],
+    "es": [
+     "¿Según la ley de la novilla roja, cuántos días contaminaba tocar un cadáver?",
+     "7",
+     "3",
+     "40"
+    ],
+    "pt": [
+     "Pela lei da novilha vermelha, quantos dias de impureza causava tocar num cadáver?",
+     "7",
+     "3",
+     "40"
+    ],
+    "fr": [
+     "Selon la loi de la génisse rousse, combien de jours le contact d'un cadavre rendait-il impur ?",
+     "7",
+     "3",
+     "40"
+    ],
+    "de": [
+     "Wie viele Tage machte nach dem Gesetz der roten Kuh die Berührung eines Toten unrein?",
+     "7",
+     "3",
+     "40"
+    ],
+    "it": [
+     "Secondo la legge della giovenca rossa, per quanti giorni toccare un cadavere rendeva impuri?",
+     "7",
+     "3",
+     "40"
+    ],
+    "pl": [
+     "Ile dni nieczystości powodowało, według prawa o czerwonej jałowicy, dotknięcie zwłok?",
+     "7",
+     "3",
+     "40"
+    ],
+    "ru": [
+     "Сколько дней, по закону о рыжей телице, длилась нечистота после прикосновения к мёртвому телу?",
+     "7",
+     "3",
+     "40"
+    ],
+    "tr": [
+     "Kırmızı düve yasasına göre cesede dokunan kişi kaç gün murdar sayılırdı?",
+     "7",
+     "3",
+     "40"
+    ],
+    "ja": [
+     "赤い雌牛の規定では、死体に触れると何日間汚れましたか？",
+     "7",
+     "3",
+     "40"
+    ],
+    "ko": [
+     "붉은 암소 규정에 따르면 시신을 만지면 며칠 동안 부정했습니까?",
+     "7",
+     "3",
+     "40"
+    ],
+    "ar": [
+     "بحسب شريعة البقرة الحمراء، كم يوماً كان لمس الجثة ينجّس؟",
+     "7",
+     "3",
+     "40"
+    ]
+   }
+  },
+  {
+   "id": "ch-numbers-019-05",
+   "book": "numbers",
+   "chapter": 19,
+   "difficulty": "impossible",
+   "ref": "Numbers 19:18",
+   "text": {
+    "en": [
+     "With which plant was the purification water sprinkled on the tent?",
+     "Hyssop",
+     "Reed",
+     "Myrtle"
+    ],
+    "es": [
+     "¿Con qué planta se roció el agua de purificación sobre la tienda?",
+     "Hisopo",
+     "Caña",
+     "Mirto"
+    ],
+    "pt": [
+     "Com que planta se aspergiu a água da purificação sobre a tenda?",
+     "Hissopo",
+     "Cana",
+     "Murta"
+    ],
+    "fr": [
+     "Avec quelle plante aspergeait-on la tente avec l'eau de purification ?",
+     "Hysope",
+     "Roseau",
+     "Myrte"
+    ],
+    "de": [
+     "Mit welcher Pflanze wurde das Reinigungswasser auf das Zelt gesprengt?",
+     "Ysop",
+     "Schilf",
+     "Myrte"
+    ],
+    "it": [
+     "Con quale pianta si aspergeva la tenda con l'acqua di purificazione?",
+     "Issopo",
+     "Canna",
+     "Mirto"
+    ],
+    "pl": [
+     "Jaką rośliną kropiono namiot wodą oczyszczenia?",
+     "Hizop",
+     "Trzcina",
+     "Mirt"
+    ],
+    "ru": [
+     "Каким растением кропили скинию водой очищения?",
+     "Иссоп",
+     "Тростник",
+     "Мирт"
+    ],
+    "tr": [
+     "Arınma suyu çadıra hangi bitkiyle serpilirdi?",
+     "Mercanköşk",
+     "Kamış",
+     "Mersin"
+    ],
+    "ja": [
+     "清めの水は何の草で天幕に振りかけられましたか？",
+     "ヒソプ",
+     "葦",
+     "ミルトス"
+    ],
+    "ko": [
+     "정화수는 어떤 식물로 천막에 뿌려졌습니까?",
+     "우슬초",
+     "갈대",
+     "도금양"
+    ],
+    "ar": [
+     "بأي نبات رُشّ ماء التطهير على الخيمة؟",
+     "زوفى",
+     "قصب",
+     "آس"
+    ]
+   }
+  },
+  {
+   "id": "ch-numbers-019-06",
+   "book": "numbers",
+   "chapter": 20,
+   "difficulty": "easy",
+   "ref": "Numbers 20:11",
+   "text": {
+    "en": [
+     "What did Moses strike twice to bring out water at Meribah?",
+     "Rock",
+     "Mountain",
+     "Tree"
+    ],
+    "es": [
+     "¿Qué golpeó Moisés dos veces para sacar agua en Meribá?",
+     "Roca",
+     "Montaña",
+     "Árbol"
+    ],
+    "pt": [
+     "O que Moisés feriu duas vezes para fazer sair água em Meriba?",
+     "Rocha",
+     "Montanha",
+     "Árvore"
+    ],
+    "fr": [
+     "Qu'est-ce que Moïse frappa deux fois pour faire jaillir l'eau à Mériba ?",
+     "Rocher",
+     "Montagne",
+     "Arbre"
+    ],
+    "de": [
+     "Was schlug Mose bei Meriba zweimal, damit Wasser herauskam?",
+     "Felsen",
+     "Berg",
+     "Baum"
+    ],
+    "it": [
+     "Che cosa colpì due volte Mosè per far uscire l'acqua a Merìba?",
+     "Roccia",
+     "Montagna",
+     "Albero"
+    ],
+    "pl": [
+     "Co Mojżesz uderzył dwa razy, aby w Meriba wypłynęła woda?",
+     "Skałę",
+     "Górę",
+     "Drzewo"
+    ],
+    "ru": [
+     "Что дважды ударил Моисей, чтобы пошла вода у Меривы?",
+     "Скалу",
+     "Гору",
+     "Дерево"
+    ],
+    "tr": [
+     "Musa Meriva'da su çıkarmak için neye iki kez vurdu?",
+     "Kayaya",
+     "Dağa",
+     "Ağaca"
+    ],
+    "ja": [
+     "メリバでモーセが水を出すために二度打ったものは何ですか？",
+     "岩",
+     "山",
+     "木"
+    ],
+    "ko": [
+     "모세가 므리바에서 물을 내려고 두 번 친 것은 무엇입니까?",
+     "바위",
+     "산",
+     "나무"
+    ],
+    "ar": [
+     "ماذا ضرب موسى مرتين ليخرج الماء في مريبة؟",
+     "صخرة",
+     "جبل",
+     "شجرة"
+    ]
+   }
+  },
+  {
+   "id": "ch-numbers-019-07",
+   "book": "numbers",
+   "chapter": 20,
+   "difficulty": "medium",
+   "ref": "Numbers 20:1",
+   "text": {
+    "en": [
+     "In which place did Miriam, Moses' sister, die and get buried?",
+     "Kadesh",
+     "Hebron",
+     "Jericho"
+    ],
+    "es": [
+     "¿En qué lugar murió y fue sepultada Miriam, la hermana de Moisés?",
+     "Cades",
+     "Hebrón",
+     "Jericó"
+    ],
+    "pt": [
+     "Em que lugar morreu e foi sepultada Míriam, irmã de Moisés?",
+     "Cades",
+     "Hebron",
+     "Jericó"
+    ],
+    "fr": [
+     "Dans quel lieu mourut et fut enterrée Miryam, la sœur de Moïse ?",
+     "Cadès",
+     "Hébron",
+     "Jéricho"
+    ],
+    "de": [
+     "An welchem Ort starb und wurde Mirjam, die Schwester des Mose, begraben?",
+     "Kadesch",
+     "Hebron",
+     "Jericho"
+    ],
+    "it": [
+     "In quale luogo morì e fu sepolta Maria, sorella di Mosè?",
+     "Kades",
+     "Ebron",
+     "Gerico"
+    ],
+    "pl": [
+     "W jakim miejscu zmarła i została pochowana Miriam, siostra Mojżesza?",
+     "Kadesz",
+     "Hebron",
+     "Jerycho"
+    ],
+    "ru": [
+     "В каком месте умерла и была погребена Мариам, сестра Моисея?",
+     "Кадес",
+     "Хеврон",
+     "Иерихон"
+    ],
+    "tr": [
+     "Musa'nın kız kardeşi Miryam nerede ölüp gömüldü?",
+     "Kadeş",
+     "Hebron",
+     "Eriha"
+    ],
+    "ja": [
+     "モーセの姉ミリアムが亡くなり葬られた場所はどこですか？",
+     "カデシュ",
+     "ヘブロン",
+     "エリコ"
+    ],
+    "ko": [
+     "모세의 누이 미리암이 죽어 묻힌 곳은 어디입니까?",
+     "카데스",
+     "헤브론",
+     "예리코"
+    ],
+    "ar": [
+     "أين ماتت مريم أخت موسى ودُفنت؟",
+     "قادش",
+     "حبرون",
+     "أريحا"
+    ]
+   }
+  },
+  {
+   "id": "ch-numbers-019-08",
+   "book": "numbers",
+   "chapter": 20,
+   "difficulty": "hard",
+   "ref": "Numbers 20:25-28",
+   "text": {
+    "en": [
+     "On which mountain did Aaron die after Moses stripped his priestly garments?",
+     "Hor",
+     "Sinai",
+     "Nebo"
+    ],
+    "es": [
+     "¿En qué monte murió Aarón después de que Moisés le quitara las vestiduras sacerdotales?",
+     "Hor",
+     "Sinaí",
+     "Nebo"
+    ],
+    "pt": [
+     "Em que monte morreu Arão depois que Moisés lhe tirou as vestes sacerdotais?",
+     "Hor",
+     "Sinai",
+     "Nebo"
+    ],
+    "fr": [
+     "Sur quelle montagne mourut Aaron après que Moïse lui eut ôté ses vêtements sacerdotaux ?",
+     "Hor",
+     "Sinaï",
+     "Nébo"
+    ],
+    "de": [
+     "Auf welchem Berg starb Aaron, nachdem Mose ihm die Priesterkleider ausgezogen hatte?",
+     "Hor",
+     "Sinai",
+     "Nebo"
+    ],
+    "it": [
+     "Su quale monte morì Aronne dopo che Mosè gli tolse le vesti sacerdotali?",
+     "Or",
+     "Sinai",
+     "Nebo"
+    ],
+    "pl": [
+     "Na której górze zmarł Aaron, gdy Mojżesz zdjął z niego szaty kapłańskie?",
+     "Hor",
+     "Synaj",
+     "Nebo"
+    ],
+    "ru": [
+     "На какой горе умер Аарон после того, как Моисей снял с него священные одежды?",
+     "Ор",
+     "Синай",
+     "Нево"
+    ],
+    "tr": [
+     "Musa, Harun'un kâhinlik giysilerini çıkardıktan sonra Harun hangi dağda öldü?",
+     "Hor",
+     "Sina",
+     "Nebo"
+    ],
+    "ja": [
+     "モーセが祭服を脱がせた後、アロンが死んだ山はどこですか？",
+     "ホル",
+     "シナイ",
+     "ネボ"
+    ],
+    "ko": [
+     "모세가 사제복을 벗긴 뒤 아론이 죽은 산은 어디입니까?",
+     "호르",
+     "시나이",
+     "느보"
+    ],
+    "ar": [
+     "على أي جبل مات هارون بعد أن نزع موسى عنه ثيابه الكهنوتية؟",
+     "هور",
+     "سيناء",
+     "نبو"
+    ]
+   }
+  },
+  {
+   "id": "ch-numbers-019-09",
+   "book": "numbers",
+   "chapter": 20,
+   "difficulty": "expert",
+   "ref": "Numbers 20:14-21",
+   "text": {
+    "en": [
+     "Which people's king refused to let Israel pass through his land?",
+     "Edom",
+     "Moab",
+     "Ammon"
+    ],
+    "es": [
+     "¿El rey de qué pueblo se negó a dejar pasar a Israel por su tierra?",
+     "Edom",
+     "Moab",
+     "Amón"
+    ],
+    "pt": [
+     "O rei de que povo se recusou a deixar Israel passar pela sua terra?",
+     "Edom",
+     "Moab",
+     "Amon"
+    ],
+    "fr": [
+     "Le roi de quel peuple refusa de laisser Israël traverser son territoire ?",
+     "Édom",
+     "Moab",
+     "Ammon"
+    ],
+    "de": [
+     "Der König welches Volkes verwehrte Israel den Durchzug durch sein Land?",
+     "Edom",
+     "Moab",
+     "Ammon"
+    ],
+    "it": [
+     "Il re di quale popolo rifiutò a Israele il passaggio nel suo territorio?",
+     "Edom",
+     "Moab",
+     "Ammon"
+    ],
+    "pl": [
+     "Król którego ludu nie pozwolił Izraelowi przejść przez swoją ziemię?",
+     "Edom",
+     "Moab",
+     "Ammon"
+    ],
+    "ru": [
+     "Царь какого народа не позволил Израилю пройти через свою землю?",
+     "Едом",
+     "Моав",
+     "Аммон"
+    ],
+    "tr": [
+     "Hangi halkın kralı İsrail'in kendi topraklarından geçmesine izin vermedi?",
+     "Edom",
+     "Moav",
+     "Ammon"
+    ],
+    "ja": [
+     "どの民の王が、イスラエルが自分の領土を通ることを拒みましたか？",
+     "エドム",
+     "モアブ",
+     "アンモン"
+    ],
+    "ko": [
+     "어느 민족의 임금이 이스라엘이 자기 땅을 지나가는 것을 거절했습니까?",
+     "에돔",
+     "모압",
+     "암몬"
+    ],
+    "ar": [
+     "ملك أي شعب رفض أن يسمح لإسرائيل بالعبور في أرضه؟",
+     "أدوم",
+     "موآب",
+     "عمون"
+    ]
+   }
+  },
+  {
+   "id": "ch-numbers-019-10",
+   "book": "numbers",
+   "chapter": 20,
+   "difficulty": "impossible",
+   "ref": "Numbers 20:29",
+   "text": {
+    "en": [
+     "For how many days did Israel mourn Aaron's death?",
+     "30",
+     "7",
+     "40"
+    ],
+    "es": [
+     "¿Durante cuántos días lloró Israel la muerte de Aarón?",
+     "30",
+     "7",
+     "40"
+    ],
+    "pt": [
+     "Por quantos dias Israel chorou a morte de Arão?",
+     "30",
+     "7",
+     "40"
+    ],
+    "fr": [
+     "Pendant combien de jours Israël pleura-t-il la mort d'Aaron ?",
+     "30",
+     "7",
+     "40"
+    ],
+    "de": [
+     "Wie viele Tage trauerte Israel um Aarons Tod?",
+     "30",
+     "7",
+     "40"
+    ],
+    "it": [
+     "Per quanti giorni Israele pianse la morte di Aronne?",
+     "30",
+     "7",
+     "40"
+    ],
+    "pl": [
+     "Przez ile dni Izrael opłakiwał śmierć Aarona?",
+     "30",
+     "7",
+     "40"
+    ],
+    "ru": [
+     "Сколько дней Израиль оплакивал смерть Аарона?",
+     "30",
+     "7",
+     "40"
+    ],
+    "tr": [
+     "İsrail Harun'un ölümü için kaç gün yas tuttu?",
+     "30",
+     "7",
+     "40"
+    ],
+    "ja": [
+     "イスラエルはアロンの死を何日間悼みましたか？",
+     "30",
+     "7",
+     "40"
+    ],
+    "ko": [
+     "이스라엘은 아론의 죽음을 며칠 동안 애도했습니까?",
+     "30",
+     "7",
+     "40"
+    ],
+    "ar": [
+     "كم يوماً ناح إسرائيل على موت هارون؟",
+     "30",
+     "7",
+     "40"
+    ]
+   }
+  },
+  {
+   "id": "ch-numbers-019-11",
+   "book": "numbers",
+   "chapter": 21,
+   "difficulty": "easy",
+   "ref": "Numbers 21:9",
+   "text": {
+    "en": [
+     "From which metal did Moses make the serpent on the pole?",
+     "Bronze",
+     "Gold",
+     "Silver"
+    ],
+    "es": [
+     "¿De qué metal hizo Moisés la serpiente colocada sobre el asta?",
+     "Bronce",
+     "Oro",
+     "Plata"
+    ],
+    "pt": [
+     "De que metal Moisés fez a serpente colocada sobre a haste?",
+     "Bronze",
+     "Ouro",
+     "Prata"
+    ],
+    "fr": [
+     "En quel métal Moïse fit-il le serpent placé sur la perche ?",
+     "Bronze",
+     "Or",
+     "Argent"
+    ],
+    "de": [
+     "Aus welchem Metall machte Mose die Schlange auf der Stange?",
+     "Kupfer",
+     "Gold",
+     "Silber"
+    ],
+    "it": [
+     "Di quale metallo Mosè fece il serpente posto sull'asta?",
+     "Rame",
+     "Oro",
+     "Argento"
+    ],
+    "pl": [
+     "Z jakiego metalu Mojżesz uczynił węża umieszczonego na wysokim palu?",
+     "Miedzi",
+     "Złota",
+     "Srebra"
+    ],
+    "ru": [
+     "Из какого металла Моисей сделал змея на древке?",
+     "Медь",
+     "Золото",
+     "Серебро"
+    ],
+    "tr": [
+     "Musa direğe konan yılanı hangi madenden yaptı?",
+     "Tunç",
+     "Altın",
+     "Gümüş"
+    ],
+    "ja": [
+     "モーセが旗竿の上に付けた蛇は何の金属でできていましたか？",
+     "青銅",
+     "金",
+     "銀"
+    ],
+    "ko": [
+     "모세가 장대 위에 단 뱀은 어떤 금속으로 만들었습니까?",
+     "구리",
+     "금",
+     "은"
+    ],
+    "ar": [
+     "من أي معدن صنع موسى الحية المنصوبة على السارية؟",
+     "نحاس",
+     "ذهب",
+     "فضة"
+    ]
+   }
+  },
+  {
+   "id": "ch-numbers-019-12",
+   "book": "numbers",
+   "chapter": 21,
+   "difficulty": "medium",
+   "ref": "Numbers 21:21-24",
+   "text": {
+    "en": [
+     "Which Amorite king refused Israel passage and was defeated?",
+     "Sihon",
+     "Balak",
+     "Eglon"
+    ],
+    "es": [
+     "¿Qué rey amorreo negó el paso a Israel y fue derrotado?",
+     "Sijón",
+     "Balac",
+     "Eglón"
+    ],
+    "pt": [
+     "Que rei amorreu negou passagem a Israel e foi derrotado?",
+     "Seon",
+     "Balac",
+     "Eglon"
+    ],
+    "fr": [
+     "Quel roi amorite refusa le passage à Israël et fut battu ?",
+     "Sihon",
+     "Balak",
+     "Églon"
+    ],
+    "de": [
+     "Welcher Amoriterkönig verweigerte Israel den Durchzug und wurde besiegt?",
+     "Sihon",
+     "Balak",
+     "Eglon"
+    ],
+    "it": [
+     "Quale re amorreo negò il passaggio a Israele e fu sconfitto?",
+     "Sicon",
+     "Balak",
+     "Eglon"
+    ],
+    "pl": [
+     "Który król Amorytów nie przepuścił Izraela i został pokonany?",
+     "Sychon",
+     "Balak",
+     "Eglon"
+    ],
+    "ru": [
+     "Какой аморрейский царь не пропустил Израиль и был разбит?",
+     "Сигон",
+     "Валак",
+     "Еглон"
+    ],
+    "tr": [
+     "Hangi Amorlu kral İsrail'e geçit vermedi ve yenildi?",
+     "Sihon",
+     "Balak",
+     "Eglon"
+    ],
+    "ja": [
+     "イスラエルに通行を拒み、敗れたアモリ人の王は誰ですか？",
+     "シホン",
+     "バラク",
+     "エグロン"
+    ],
+    "ko": [
+     "이스라엘에게 길을 막았다가 패한 아모리족 임금은 누구입니까?",
+     "시혼",
+     "발락",
+     "에글론"
+    ],
+    "ar": [
+     "من هو ملك الأموريين الذي منع إسرائيل من العبور وهُزم؟",
+     "سيحون",
+     "بالاق",
+     "عجلون"
+    ]
+   }
+  },
+  {
+   "id": "ch-numbers-019-13",
+   "book": "numbers",
+   "chapter": 21,
+   "difficulty": "hard",
+   "ref": "Numbers 21:26",
+   "text": {
+    "en": [
+     "Which city was the capital of Sihon, king of the Amorites?",
+     "Heshbon",
+     "Jericho",
+     "Hebron"
+    ],
+    "es": [
+     "¿Qué ciudad era la capital de Sijón, rey de los amorreos?",
+     "Jesbón",
+     "Jericó",
+     "Hebrón"
+    ],
+    "pt": [
+     "Qual cidade era a capital de Seon, rei dos amorreus?",
+     "Hesbon",
+     "Jericó",
+     "Hebron"
+    ],
+    "fr": [
+     "Quelle ville était la capitale de Sihon, roi des Amorites ?",
+     "Hesbôn",
+     "Jéricho",
+     "Hébron"
+    ],
+    "de": [
+     "Welche Stadt war die Hauptstadt Sihons, des Königs der Amoriter?",
+     "Heschbon",
+     "Jericho",
+     "Hebron"
+    ],
+    "it": [
+     "Quale città era la capitale di Sicon, re degli Amorrei?",
+     "Chesbon",
+     "Gerico",
+     "Ebron"
+    ],
+    "pl": [
+     "Które miasto było stolicą Sychona, króla Amorytów?",
+     "Cheszbon",
+     "Jerycho",
+     "Hebron"
+    ],
+    "ru": [
+     "Какой город был столицей Сигона, царя аморрейского?",
+     "Есевон",
+     "Иерихон",
+     "Хеврон"
+    ],
+    "tr": [
+     "Amorluların kralı Sihon'un başkenti hangi şehirdi?",
+     "Heşbon",
+     "Eriha",
+     "Hebron"
+    ],
+    "ja": [
+     "アモリ人の王シホンの都はどこでしたか？",
+     "ヘシュボン",
+     "エリコ",
+     "ヘブロン"
+    ],
+    "ko": [
+     "아모리족 임금 시혼의 수도는 어느 성읍이었습니까?",
+     "헤스본",
+     "예리코",
+     "헤브론"
+    ],
+    "ar": [
+     "ما هي المدينة التي كانت عاصمة سيحون ملك الأموريين؟",
+     "حشبون",
+     "أريحا",
+     "حبرون"
+    ]
+   }
+  },
+  {
+   "id": "ch-numbers-019-14",
+   "book": "numbers",
+   "chapter": 21,
+   "difficulty": "expert",
+   "ref": "Numbers 21:33-35",
+   "text": {
+    "en": [
+     "Which king of Bashan did Israel defeat at Edrei?",
+     "Og",
+     "Balak",
+     "Arad"
+    ],
+    "es": [
+     "¿A qué rey de Basán derrotó Israel en Edrei?",
+     "Og",
+     "Balac",
+     "Arad"
+    ],
+    "pt": [
+     "Que rei de Basã Israel derrotou em Edrei?",
+     "Og",
+     "Balac",
+     "Arade"
+    ],
+    "fr": [
+     "Quel roi de Bashân Israël battit-il à Édréi ?",
+     "Og",
+     "Balak",
+     "Arad"
+    ],
+    "de": [
+     "Welchen König von Baschan besiegte Israel bei Edrei?",
+     "Og",
+     "Balak",
+     "Arad"
+    ],
+    "it": [
+     "Quale re di Basan sconfisse Israele a Edrei?",
+     "Og",
+     "Balak",
+     "Arad"
+    ],
+    "pl": [
+     "Którego króla Baszanu pokonał Izrael pod Edrei?",
+     "Og",
+     "Balak",
+     "Arad"
+    ],
+    "ru": [
+     "Какого васанского царя победил Израиль при Едреи?",
+     "Ог",
+     "Валак",
+     "Арад"
+    ],
+    "tr": [
+     "İsrail Edrei'de Başan'ın hangi kralını yendi?",
+     "Og",
+     "Balak",
+     "Arad"
+    ],
+    "ja": [
+     "イスラエルがエドレイで打ち破ったバシャンの王は誰ですか？",
+     "オグ",
+     "バラク",
+     "アラド"
+    ],
+    "ko": [
+     "이스라엘이 에드레이에서 무찌른 바산 임금은 누구입니까?",
+     "옥",
+     "발락",
+     "아랏"
+    ],
+    "ar": [
+     "أي ملك لباشان هزمه إسرائيل في إدرعي؟",
+     "عوج",
+     "بالاق",
+     "عراد"
+    ]
+   }
+  },
+  {
+   "id": "ch-numbers-019-15",
+   "book": "numbers",
+   "chapter": 21,
+   "difficulty": "impossible",
+   "ref": "Numbers 21:3",
+   "text": {
+    "en": [
+     "What name did Israel give the place where they destroyed Arad's cities?",
+     "Hormah",
+     "Jazer",
+     "Dibon"
+    ],
+    "es": [
+     "¿Qué nombre dio Israel al lugar donde destruyó las ciudades de Arad?",
+     "Jormá",
+     "Yazer",
+     "Dibón"
+    ],
+    "pt": [
+     "Que nome Israel deu ao lugar onde destruiu as cidades de Arade?",
+     "Horma",
+     "Jazer",
+     "Dibon"
+    ],
+    "fr": [
+     "Quel nom Israël donna-t-il au lieu où il détruisit les villes d'Arad ?",
+     "Horma",
+     "Yazer",
+     "Dibôn"
+    ],
+    "de": [
+     "Welchen Namen gab Israel dem Ort, an dem es Arads Städte zerstörte?",
+     "Horma",
+     "Jaser",
+     "Dibon"
+    ],
+    "it": [
+     "Quale nome diede Israele al luogo dove distrusse le città di Arad?",
+     "Corma",
+     "Iazer",
+     "Dibon"
+    ],
+    "pl": [
+     "Jaką nazwę nadał Izrael miejscu, gdzie zniszczył miasta Aradu?",
+     "Chorma",
+     "Jazer",
+     "Dibon"
+    ],
+    "ru": [
+     "Какое имя дал Израиль месту, где разрушил города Арада?",
+     "Хорма",
+     "Иазер",
+     "Дивон"
+    ],
+    "tr": [
+     "İsrail, Arad'ın kentlerini yok ettiği yere hangi adı verdi?",
+     "Horma",
+     "Yazer",
+     "Divon"
+    ],
+    "ja": [
+     "イスラエルはアラドの町々を滅ぼした場所を何と名付けましたか？",
+     "ホルマ",
+     "ヤゼル",
+     "ディボン"
+    ],
+    "ko": [
+     "이스라엘은 아랏의 성읍들을 파괴한 곳을 무엇이라 불렀습니까?",
+     "호르마",
+     "야제르",
+     "디본"
+    ],
+    "ar": [
+     "ماذا سمّى إسرائيل المكان الذي دمّر فيه مدن عراد؟",
+     "حرمة",
+     "يعزير",
+     "ديبون"
+    ]
+   }
+  },
+  {
+   "id": "ch-numbers-019-16",
+   "book": "numbers",
+   "chapter": 22,
+   "difficulty": "easy",
+   "ref": "Numbers 22:28",
+   "text": {
+    "en": [
+     "Which animal spoke to Balaam when the Lord opened its mouth?",
+     "Donkey",
+     "Horse",
+     "Ox"
+    ],
+    "es": [
+     "¿Qué animal habló con Balaam cuando el Señor le abrió la boca?",
+     "Burra",
+     "Caballo",
+     "Buey"
+    ],
+    "pt": [
+     "Que animal falou com Balaão quando o Senhor lhe abriu a boca?",
+     "Jumenta",
+     "Cavalo",
+     "Boi"
+    ],
+    "fr": [
+     "Quel animal parla à Balaam quand le Seigneur lui ouvrit la bouche ?",
+     "Ânesse",
+     "Cheval",
+     "Bœuf"
+    ],
+    "de": [
+     "Welches Tier sprach zu Bileam, als der Herr ihm den Mund öffnete?",
+     "Eselin",
+     "Pferd",
+     "Ochse"
+    ],
+    "it": [
+     "Quale animale parlò a Balaam quando il Signore gli aprì la bocca?",
+     "Asina",
+     "Cavallo",
+     "Bue"
+    ],
+    "pl": [
+     "Które zwierzę przemówiło do Balaama, gdy Pan otworzył mu usta?",
+     "Oślica",
+     "Koń",
+     "Wół"
+    ],
+    "ru": [
+     "Какое животное заговорило с Валаамом, когда Господь отверз ему уста?",
+     "Ослица",
+     "Конь",
+     "Вол"
+    ],
+    "tr": [
+     "RAB ağzını açınca Balam'la hangi hayvan konuştu?",
+     "Eşek",
+     "At",
+     "Öküz"
+    ],
+    "ja": [
+     "主が口を開かれたとき、バラムに話しかけた動物は何ですか？",
+     "ろば",
+     "馬",
+     "牛"
+    ],
+    "ko": [
+     "주님께서 입을 열어 주시자 발라암에게 말한 동물은 무엇입니까?",
+     "나귀",
+     "말",
+     "소"
+    ],
+    "ar": [
+     "أي حيوان تكلم مع بلعام عندما فتح الرب فمه؟",
+     "أتان",
+     "حصان",
+     "ثور"
+    ]
+   }
+  },
+  {
+   "id": "ch-numbers-019-17",
+   "book": "numbers",
+   "chapter": 22,
+   "difficulty": "medium",
+   "ref": "Numbers 22:4-6",
+   "text": {
+    "en": [
+     "Which king of Moab hired Balaam to curse Israel?",
+     "Balak",
+     "Sihon",
+     "Og"
+    ],
+    "es": [
+     "¿Qué rey de Moab contrató a Balaam para maldecir a Israel?",
+     "Balac",
+     "Sijón",
+     "Og"
+    ],
+    "pt": [
+     "Que rei de Moab contratou Balaão para amaldiçoar Israel?",
+     "Balac",
+     "Seon",
+     "Og"
+    ],
+    "fr": [
+     "Quel roi de Moab engagea Balaam pour maudire Israël ?",
+     "Balak",
+     "Sihon",
+     "Og"
+    ],
+    "de": [
+     "Welcher König von Moab beauftragte Bileam, Israel zu verfluchen?",
+     "Balak",
+     "Sihon",
+     "Og"
+    ],
+    "it": [
+     "Quale re di Moab ingaggiò Balaam per maledire Israele?",
+     "Balak",
+     "Sicon",
+     "Og"
+    ],
+    "pl": [
+     "Który król Moabu wynajął Balaama, aby przeklął Izraela?",
+     "Balak",
+     "Sychon",
+     "Og"
+    ],
+    "ru": [
+     "Какой царь Моава нанял Валаама, чтобы проклясть Израиль?",
+     "Валак",
+     "Сигон",
+     "Ог"
+    ],
+    "tr": [
+     "Moav'ın hangi kralı Balam'ı İsrail'i lanetlemesi için tuttu?",
+     "Balak",
+     "Sihon",
+     "Og"
+    ],
+    "ja": [
+     "イスラエルを呪わせるためにバラムを雇ったモアブの王は誰ですか？",
+     "バラク",
+     "シホン",
+     "オグ"
+    ],
+    "ko": [
+     "이스라엘을 저주하도록 발라암을 부른 모압 임금은 누구입니까?",
+     "발락",
+     "시혼",
+     "옥"
+    ],
+    "ar": [
+     "أي ملك لموآب استأجر بلعام ليلعن إسرائيل؟",
+     "بالاق",
+     "سيحون",
+     "عوج"
+    ]
+   }
+  },
+  {
+   "id": "ch-numbers-019-18",
+   "book": "numbers",
+   "chapter": 22,
+   "difficulty": "hard",
+   "ref": "Numbers 22:23",
+   "text": {
+    "en": [
+     "Whom did Balaam's donkey see standing in the road with a drawn sword?",
+     "Angel",
+     "Soldier",
+     "King"
+    ],
+    "es": [
+     "¿A quién vio la burra de Balaam en el camino con la espada desenvainada?",
+     "Ángel",
+     "Soldado",
+     "Rey"
+    ],
+    "pt": [
+     "Quem a jumenta de Balaão viu no caminho com a espada desembainhada?",
+     "Anjo",
+     "Soldado",
+     "Rei"
+    ],
+    "fr": [
+     "Qui l'ânesse de Balaam vit-elle sur le chemin, l'épée nue à la main ?",
+     "Ange",
+     "Soldat",
+     "Roi"
+    ],
+    "de": [
+     "Wen sah Bileams Eselin mit gezücktem Schwert auf dem Weg stehen?",
+     "Engel",
+     "Soldat",
+     "König"
+    ],
+    "it": [
+     "Chi vide l'asina di Balaam sulla strada con la spada sguainata?",
+     "Angelo",
+     "Soldato",
+     "Re"
+    ],
+    "pl": [
+     "Kogo ujrzała oślica Balaama na drodze z dobytym mieczem?",
+     "Anioła",
+     "Żołnierza",
+     "Króla"
+    ],
+    "ru": [
+     "Кого увидела ослица Валаама на дороге с обнажённым мечом?",
+     "Ангела",
+     "Воина",
+     "Царя"
+    ],
+    "tr": [
+     "Balam'ın eşeği yolda çekilmiş kılıçla kimi gördü?",
+     "Melek",
+     "Asker",
+     "Kral"
+    ],
+    "ja": [
+     "バラムのろばは、抜き身の剣を持って道に立つ誰を見ましたか？",
+     "天使",
+     "兵士",
+     "王"
+    ],
+    "ko": [
+     "발라암의 나귀는 칼을 빼 들고 길에 서 있는 누구를 보았습니까?",
+     "천사",
+     "군사",
+     "임금"
+    ],
+    "ar": [
+     "من رأت أتان بلعام واقفاً في الطريق وسيفه مسلول؟",
+     "ملاكاً",
+     "جندياً",
+     "ملكاً"
+    ]
+   }
+  },
+  {
+   "id": "ch-numbers-019-19",
+   "book": "numbers",
+   "chapter": 22,
+   "difficulty": "expert",
+   "ref": "Numbers 22:5",
+   "text": {
+    "en": [
+     "Who was the father of Balaam, the seer Balak summoned?",
+     "Beor",
+     "Zippor",
+     "Reuel"
+    ],
+    "es": [
+     "¿Quién era el padre de Balaam, el adivino al que Balac mandó llamar?",
+     "Beor",
+     "Sipor",
+     "Reuel"
+    ],
+    "pt": [
+     "Quem era o pai de Balaão, o adivinho chamado por Balac?",
+     "Beor",
+     "Sefor",
+     "Reuel"
+    ],
+    "fr": [
+     "Qui était le père de Balaam, le devin appelé par Balak ?",
+     "Béor",
+     "Cippor",
+     "Reouël"
+    ],
+    "de": [
+     "Wer war der Vater Bileams, des von Balak gerufenen Sehers?",
+     "Beor",
+     "Zippor",
+     "Reguël"
+    ],
+    "it": [
+     "Chi era il padre di Balaam, l'indovino chiamato da Balak?",
+     "Beor",
+     "Zippor",
+     "Reuel"
+    ],
+    "pl": [
+     "Kto był ojcem Balaama, wróżbity wezwanego przez Balaka?",
+     "Beor",
+     "Sefor",
+     "Reuel"
+    ],
+    "ru": [
+     "Кто был отцом Валаама, прорицателя, которого позвал Валак?",
+     "Веор",
+     "Сепфор",
+     "Рагуил"
+    ],
+    "tr": [
+     "Balak'ın çağırdığı kâhin Balam'ın babası kimdi?",
+     "Beor",
+     "Sippor",
+     "Reuel"
+    ],
+    "ja": [
+     "バラクが呼んだ占い師バラムの父は誰ですか？",
+     "ベオル",
+     "ツィポル",
+     "レウエル"
+    ],
+    "ko": [
+     "발락이 부른 점쟁이 발라암의 아버지는 누구입니까?",
+     "브오르",
+     "치포르",
+     "르우엘"
+    ],
+    "ar": [
+     "من هو أبو بلعام العرّاف الذي استدعاه بالاق؟",
+     "بعور",
+     "صفور",
+     "رعوئيل"
+    ]
+   }
+  },
+  {
+   "id": "ch-numbers-019-20",
+   "book": "numbers",
+   "chapter": 22,
+   "difficulty": "impossible",
+   "ref": "Numbers 22:5",
+   "text": {
+    "en": [
+     "From which city by the Euphrates did Balak summon Balaam?",
+     "Pethor",
+     "Haran",
+     "Babylon"
+    ],
+    "es": [
+     "¿De qué ciudad junto al Éufrates mandó Balac llamar a Balaam?",
+     "Petor",
+     "Harán",
+     "Babilonia"
+    ],
+    "pt": [
+     "De que cidade junto ao Eufrates Balac mandou chamar Balaão?",
+     "Petor",
+     "Harã",
+     "Babilônia"
+    ],
+    "fr": [
+     "De quelle ville près de l'Euphrate Balak fit-il venir Balaam ?",
+     "Petor",
+     "Harrân",
+     "Babylone"
+    ],
+    "de": [
+     "Aus welcher Stadt am Euphrat ließ Balak Bileam rufen?",
+     "Petor",
+     "Haran",
+     "Babylon"
+    ],
+    "it": [
+     "Da quale città presso l'Eufrate Balak fece venire Balaam?",
+     "Petor",
+     "Carran",
+     "Babilonia"
+    ],
+    "pl": [
+     "Z jakiego miasta nad Eufratem sprowadził Balak Balaama?",
+     "Petor",
+     "Charan",
+     "Babilon"
+    ],
+    "ru": [
+     "Из какого города у Евфрата Валак призвал Валаама?",
+     "Пефор",
+     "Харран",
+     "Вавилон"
+    ],
+    "tr": [
+     "Balak, Balam'ı Fırat kıyısındaki hangi kentten çağırdı?",
+     "Petor",
+     "Harran",
+     "Babil"
+    ],
+    "ja": [
+     "バラクはユーフラテス川沿いのどの町からバラムを呼びましたか？",
+     "ペトル",
+     "ハラン",
+     "バビロン"
+    ],
+    "ko": [
+     "발락은 유프라테스 강가의 어느 성읍에서 발라암을 불렀습니까?",
+     "프토르",
+     "하란",
+     "바빌론"
+    ],
+    "ar": [
+     "من أي مدينة على الفرات استدعى بالاق بلعام؟",
+     "فتور",
+     "حاران",
+     "بابل"
+    ]
+   }
+  },
+  {
+   "id": "ch-numbers-019-21",
+   "book": "numbers",
+   "chapter": 23,
+   "difficulty": "easy",
+   "ref": "Numbers 23:19",
+   "text": {
+    "en": [
+     "According to Balaam's oracle, who never lies like a human being?",
+     "God",
+     "Balak",
+     "Moses"
+    ],
+    "es": [
+     "¿Quién, según el oráculo de Balaam, nunca miente como un ser humano?",
+     "Dios",
+     "Balac",
+     "Moisés"
+    ],
+    "pt": [
+     "Segundo o oráculo de Balaão, quem nunca mente como um ser humano?",
+     "Deus",
+     "Balac",
+     "Moisés"
+    ],
+    "fr": [
+     "Selon l'oracle de Balaam, qui ne ment jamais comme un être humain ?",
+     "Dieu",
+     "Balak",
+     "Moïse"
+    ],
+    "de": [
+     "Wer lügt nach Bileams Spruch niemals wie ein Mensch?",
+     "Gott",
+     "Balak",
+     "Mose"
+    ],
+    "it": [
+     "Secondo l'oracolo di Balaam, chi non mente mai come un essere umano?",
+     "Dio",
+     "Balak",
+     "Mosè"
+    ],
+    "pl": [
+     "Kto według przepowiedni Balaama nigdy nie kłamie jak człowiek?",
+     "Bóg",
+     "Balak",
+     "Mojżesz"
+    ],
+    "ru": [
+     "Кто, по пророчеству Валаама, никогда не лжёт, как человек?",
+     "Бог",
+     "Валак",
+     "Моисей"
+    ],
+    "tr": [
+     "Balam'ın sözüne göre insan gibi asla yalan söylemeyen kimdir?",
+     "Tanrı",
+     "Balak",
+     "Musa"
+    ],
+    "ja": [
+     "バラムの託宣によれば、人間のように決して偽らないのは誰ですか？",
+     "神",
+     "バラク",
+     "モーセ"
+    ],
+    "ko": [
+     "발라암의 신탁에 따르면 사람처럼 결코 거짓말하지 않는 분은 누구입니까?",
+     "하느님",
+     "발락",
+     "모세"
+    ],
+    "ar": [
+     "بحسب نبوءة بلعام، من لا يكذب أبداً مثل الإنسان؟",
+     "الله",
+     "بالاق",
+     "موسى"
+    ]
+   }
+  },
+  {
+   "id": "ch-numbers-019-22",
+   "book": "numbers",
+   "chapter": 23,
+   "difficulty": "medium",
+   "ref": "Numbers 23:1-2",
+   "text": {
+    "en": [
+     "At Balaam's request, how many altars did Balak build for the first oracle?",
+     "7",
+     "3",
+     "12"
+    ],
+    "es": [
+     "A petición de Balaam, ¿cuántos altares construyó Balac para el primer oráculo?",
+     "7",
+     "3",
+     "12"
+    ],
+    "pt": [
+     "A pedido de Balaão, quantos altares Balac construiu para o primeiro oráculo?",
+     "7",
+     "3",
+     "12"
+    ],
+    "fr": [
+     "À la demande de Balaam, combien d'autels Balak construisit-il pour le premier oracle ?",
+     "7",
+     "3",
+     "12"
+    ],
+    "de": [
+     "Wie viele Altäre baute Balak auf Bileams Bitte für das erste Orakel?",
+     "7",
+     "3",
+     "12"
+    ],
+    "it": [
+     "Su richiesta di Balaam, quanti altari costruì Balak per il primo oracolo?",
+     "7",
+     "3",
+     "12"
+    ],
+    "pl": [
+     "Ile ołtarzy zbudował Balak na prośbę Balaama przed pierwszą przepowiednią?",
+     "7",
+     "3",
+     "12"
+    ],
+    "ru": [
+     "Сколько жертвенников построил Валак по просьбе Валаама для первого пророчества?",
+     "7",
+     "3",
+     "12"
+    ],
+    "tr": [
+     "Balak, Balam'ın isteğiyle ilk kehanet için kaç sunak yaptı?",
+     "7",
+     "3",
+     "12"
+    ],
+    "ja": [
+     "バラムの求めで、バラクは最初の託宣のために祭壇をいくつ築きましたか？",
+     "7",
+     "3",
+     "12"
+    ],
+    "ko": [
+     "발라암의 요청으로 발락은 첫 번째 신탁을 위해 제단을 몇 개 쌓았습니까?",
+     "7",
+     "3",
+     "12"
+    ],
+    "ar": [
+     "بناءً على طلب بلعام، كم مذبحاً بنى بالاق للنبوءة الأولى؟",
+     "7",
+     "3",
+     "12"
+    ]
+   }
+  },
+  {
+   "id": "ch-numbers-019-23",
+   "book": "numbers",
+   "chapter": 23,
+   "difficulty": "hard",
+   "ref": "Numbers 23:1-2",
+   "text": {
+    "en": [
+     "Besides a ram, which animal was offered on each of Balaam's altars?",
+     "Bull",
+     "Goat",
+     "Dove"
+    ],
+    "es": [
+     "Además de un carnero, ¿qué animal se ofreció en cada altar de Balaam?",
+     "Toro",
+     "Cabra",
+     "Paloma"
+    ],
+    "pt": [
+     "Além de um carneiro, que animal foi oferecido em cada altar de Balaão?",
+     "Touro",
+     "Cabra",
+     "Pomba"
+    ],
+    "fr": [
+     "Outre un bélier, quel animal fut offert sur chaque autel de Balaam ?",
+     "Taureau",
+     "Chèvre",
+     "Colombe"
+    ],
+    "de": [
+     "Welches Tier wurde außer einem Widder auf jedem Altar Bileams geopfert?",
+     "Stier",
+     "Ziege",
+     "Taube"
+    ],
+    "it": [
+     "Oltre a un ariete, quale animale fu offerto su ogni altare di Balaam?",
+     "Giovenco",
+     "Capra",
+     "Colomba"
+    ],
+    "pl": [
+     "Jakie zwierzę, obok barana, złożono na każdym ołtarzu Balaama?",
+     "Cielec",
+     "Koza",
+     "Gołąb"
+    ],
+    "ru": [
+     "Какое животное, кроме овна, приносили на каждом жертвеннике Валаама?",
+     "Телец",
+     "Козёл",
+     "Голубь"
+    ],
+    "tr": [
+     "Balam'ın her sunağında koçla birlikte hangi hayvan sunuldu?",
+     "Boğa",
+     "Keçi",
+     "Güvercin"
+    ],
+    "ja": [
+     "雄羊のほかに、バラムの各祭壇で献げられた動物は何ですか？",
+     "雄牛",
+     "山羊",
+     "鳩"
+    ],
+    "ko": [
+     "숫양 외에 발라암의 각 제단에 바친 동물은 무엇입니까?",
+     "수소",
+     "염소",
+     "비둘기"
+    ],
+    "ar": [
+     "غير الكبش، أي حيوان قُدّم على كل مذبح من مذابح بلعام؟",
+     "ثور",
+     "ماعز",
+     "حمامة"
+    ]
+   }
+  },
+  {
+   "id": "ch-numbers-019-24",
+   "book": "numbers",
+   "chapter": 23,
+   "difficulty": "expert",
+   "ref": "Numbers 23:14",
+   "text": {
+    "en": [
+     "In Zophim's field, on which summit did Balak build altars again?",
+     "Pisgah",
+     "Sinai",
+     "Hor"
+    ],
+    "es": [
+     "En el campo de Sofim, ¿en qué cumbre construyó Balac altares otra vez?",
+     "Pisgá",
+     "Sinaí",
+     "Hor"
+    ],
+    "pt": [
+     "No campo de Sofim, em que cume Balac construiu altares de novo?",
+     "Pisga",
+     "Sinai",
+     "Hor"
+    ],
+    "fr": [
+     "Dans le champ des Sofim, sur quel sommet Balak bâtit-il de nouveau des autels ?",
+     "Pisga",
+     "Sinaï",
+     "Hor"
+    ],
+    "de": [
+     "Auf welchem Gipfel im Feld der Wächter baute Balak erneut Altäre?",
+     "Pisga",
+     "Sinai",
+     "Hor"
+    ],
+    "it": [
+     "Nel campo di Zofim, su quale vetta Balak costruì di nuovo altari?",
+     "Pisga",
+     "Sinai",
+     "Or"
+    ],
+    "pl": [
+     "Na którym szczycie w polu Sofim Balak ponownie zbudował ołtarze?",
+     "Pisga",
+     "Synaj",
+     "Hor"
+    ],
+    "ru": [
+     "На какой вершине в поле Цофим Валак снова построил жертвенники?",
+     "Фасга",
+     "Синай",
+     "Ор"
+    ],
+    "tr": [
+     "Balak, Sofim Tarlası'ndaki hangi doruğa yeniden sunaklar yaptı?",
+     "Pisga",
+     "Sina",
+     "Hor"
+    ],
+    "ja": [
+     "ツォフィムの野で、バラクが再び祭壇を築いた頂はどこですか？",
+     "ピスガ",
+     "シナイ",
+     "ホル"
+    ],
+    "ko": [
+     "소핌 들판에서 발락이 다시 제단을 쌓은 꼭대기는 어디입니까?",
+     "피스가",
+     "시나이",
+     "호르"
+    ],
+    "ar": [
+     "في حقل صوفيم، على أي قمة بنى بالاق مذابح مرة أخرى؟",
+     "فسجة",
+     "سيناء",
+     "هور"
+    ]
+   }
+  },
+  {
+   "id": "ch-numbers-019-25",
+   "book": "numbers",
+   "chapter": 23,
+   "difficulty": "impossible",
+   "ref": "Numbers 23:28",
+   "text": {
+    "en": [
+     "Which mountain overlooking the wasteland hosted Balaam's third set of altars?",
+     "Peor",
+     "Hermon",
+     "Carmel"
+    ],
+    "es": [
+     "¿Qué monte que mira al desierto acogió los terceros altares de Balaam?",
+     "Peor",
+     "Hermón",
+     "Carmelo"
+    ],
+    "pt": [
+     "Que monte voltado para o deserto recebeu os terceiros altares de Balaão?",
+     "Fegor",
+     "Hermon",
+     "Carmelo"
+    ],
+    "fr": [
+     "Quelle montagne dominant le désert accueillit les troisièmes autels de Balaam ?",
+     "Péor",
+     "Hermon",
+     "Carmel"
+    ],
+    "de": [
+     "Welcher Berg über der Wüste trug Bileams dritte Altäre?",
+     "Peor",
+     "Hermon",
+     "Karmel"
+    ],
+    "it": [
+     "Quale monte che domina il deserto ospitò i terzi altari di Balaam?",
+     "Peor",
+     "Ermon",
+     "Carmelo"
+    ],
+    "pl": [
+     "Która góra nad pustynią była miejscem trzecich ołtarzy Balaama?",
+     "Peor",
+     "Hermon",
+     "Karmel"
+    ],
+    "ru": [
+     "Какая гора над пустыней стала местом третьих жертвенников Валаама?",
+     "Фегор",
+     "Ермон",
+     "Кармил"
+    ],
+    "tr": [
+     "Çöle bakan hangi dağ Balam'ın üçüncü sunaklarına sahne oldu?",
+     "Peor",
+     "Hermon",
+     "Karmel"
+    ],
+    "ja": [
+     "荒れ野を見下ろす、バラムの三度目の祭壇の山はどこですか？",
+     "ペオル",
+     "ヘルモン",
+     "カルメル"
+    ],
+    "ko": [
+     "광야를 내려다보는, 발라암의 세 번째 제단이 있던 산은 어디입니까?",
+     "프오르",
+     "헤르몬",
+     "카르멜"
+    ],
+    "ar": [
+     "أي جبل يشرف على البرية احتضن مذابح بلعام الثالثة؟",
+     "فغور",
+     "حرمون",
+     "كرمل"
+    ]
+   }
+  },
+  {
+   "id": "ch-numbers-019-26",
+   "book": "numbers",
+   "chapter": 24,
+   "difficulty": "easy",
+   "ref": "Numbers 24:17",
+   "text": {
+    "en": [
+     "What heavenly body did Balaam say would come forth from Jacob?",
+     "Star",
+     "Sun",
+     "Moon"
+    ],
+    "es": [
+     "¿Qué astro dijo Balaam que saldría de Jacob?",
+     "Estrella",
+     "Sol",
+     "Luna"
+    ],
+    "pt": [
+     "Que astro Balaão disse que sairia de Jacó?",
+     "Estrela",
+     "Sol",
+     "Lua"
+    ],
+    "fr": [
+     "Quel astre Balaam annonça-t-il qui sortirait de Jacob ?",
+     "Étoile",
+     "Soleil",
+     "Lune"
+    ],
+    "de": [
+     "Welches Gestirn würde nach Bileam aus Jakob hervorgehen?",
+     "Stern",
+     "Sonne",
+     "Mond"
+    ],
+    "it": [
+     "Quale astro Balaam disse che sarebbe uscito da Giacobbe?",
+     "Stella",
+     "Sole",
+     "Luna"
+    ],
+    "pl": [
+     "Co zapowiedział Balaam, że wzejdzie z Jakuba?",
+     "Gwiazda",
+     "Słońce",
+     "Księżyc"
+    ],
+    "ru": [
+     "Какое светило, по словам Валаама, взойдёт от Иакова?",
+     "Звезда",
+     "Солнце",
+     "Луна"
+    ],
+    "tr": [
+     "Balam, Yakup'tan hangi gök cisminin çıkacağını söyledi?",
+     "Yıldız",
+     "Güneş",
+     "Ay"
+    ],
+    "ja": [
+     "バラムはヤコブから出ると預言した天体は何ですか？",
+     "星",
+     "太陽",
+     "月"
+    ],
+    "ko": [
+     "발라암이 야곱에게서 나온다고 예언한 천체는 무엇입니까?",
+     "별",
+     "해",
+     "달"
+    ],
+    "ar": [
+     "أي جرم سماوي تنبأ بلعام أنه يخرج من يعقوب؟",
+     "كوكب",
+     "شمس",
+     "قمر"
+    ]
+   }
+  },
+  {
+   "id": "ch-numbers-019-27",
+   "book": "numbers",
+   "chapter": 24,
+   "difficulty": "medium",
+   "ref": "Numbers 24:17",
+   "text": {
+    "en": [
+     "According to Balaam, which people's forehead would Israel's scepter crush?",
+     "Moab",
+     "Egypt",
+     "Ammon"
+    ],
+    "es": [
+     "¿La frente de qué pueblo aplastaría el cetro de Israel, según Balaam?",
+     "Moab",
+     "Egipto",
+     "Amón"
+    ],
+    "pt": [
+     "A fronte de que povo o cetro de Israel esmagaria, segundo Balaão?",
+     "Moab",
+     "Egito",
+     "Amon"
+    ],
+    "fr": [
+     "Selon Balaam, le sceptre d'Israël briserait les tempes de quel peuple ?",
+     "Moab",
+     "Égypte",
+     "Ammon"
+    ],
+    "de": [
+     "Wessen Schläfen würde nach Bileam das Zepter Israels zerschmettern?",
+     "Moab",
+     "Ägypten",
+     "Ammon"
+    ],
+    "it": [
+     "Secondo Balaam, lo scettro d'Israele spezzerebbe le tempie di quale popolo?",
+     "Moab",
+     "Egitto",
+     "Ammon"
+    ],
+    "pl": [
+     "Skronie którego ludu zmiażdży berło Izraela według Balaama?",
+     "Moabu",
+     "Egiptu",
+     "Ammonu"
+    ],
+    "ru": [
+     "Чьи виски, по словам Валаама, сокрушит жезл Израиля?",
+     "Моава",
+     "Египта",
+     "Аммона"
+    ],
+    "tr": [
+     "Balam'a göre İsrail'in asası hangi halkın şakaklarını ezecekti?",
+     "Moav",
+     "Mısır",
+     "Ammon"
+    ],
+    "ja": [
+     "バラムによれば、イスラエルの笏はどの民のこめかみを砕きますか？",
+     "モアブ",
+     "エジプト",
+     "アンモン"
+    ],
+    "ko": [
+     "발라암에 따르면 이스라엘의 홀은 어느 민족의 이마를 부수겠습니까?",
+     "모압",
+     "이집트",
+     "암몬"
+    ],
+    "ar": [
+     "بحسب بلعام، جبهة أي شعب سيحطّم صولجان إسرائيل؟",
+     "موآب",
+     "مصر",
+     "عمون"
+    ]
+   }
+  },
+  {
+   "id": "ch-numbers-019-28",
+   "book": "numbers",
+   "chapter": 24,
+   "difficulty": "hard",
+   "ref": "Numbers 24:20",
+   "text": {
+    "en": [
+     "Which people did Balaam call 'first of the nations'?",
+     "Amalek",
+     "Egypt",
+     "Ammon"
+    ],
+    "es": [
+     "¿A qué pueblo llamó Balaam «primicia de las naciones»?",
+     "Amalec",
+     "Egipto",
+     "Amón"
+    ],
+    "pt": [
+     "A que povo Balaão chamou «primeiro das nações»?",
+     "Amalec",
+     "Egito",
+     "Amon"
+    ],
+    "fr": [
+     "Quel peuple Balaam appela-t-il « premier des nations » ?",
+     "Amalec",
+     "Égypte",
+     "Ammon"
+    ],
+    "de": [
+     "Welches Volk nannte Bileam „den Ersten unter den Völkern“?",
+     "Amalek",
+     "Ägypten",
+     "Ammon"
+    ],
+    "it": [
+     "Quale popolo Balaam chiamò «primizia delle nazioni»?",
+     "Amalek",
+     "Egitto",
+     "Ammon"
+    ],
+    "pl": [
+     "Który lud Balaam nazwał «pierwszym wśród narodów»?",
+     "Amalek",
+     "Egipt",
+     "Ammon"
+    ],
+    "ru": [
+     "Какой народ Валаам назвал «начатком народов»?",
+     "Амалик",
+     "Египет",
+     "Аммон"
+    ],
+    "tr": [
+     "Balam hangi halka «ulusların ilki» dedi?",
+     "Amalek",
+     "Mısır",
+     "Ammon"
+    ],
+    "ja": [
+     "バラムが「諸国民の最初のもの」と呼んだ民は誰ですか？",
+     "アマレク",
+     "エジプト",
+     "アンモン"
+    ],
+    "ko": [
+     "발라암이 '민족들 가운데 첫째'라고 부른 민족은 누구입니까?",
+     "아말렉",
+     "이집트",
+     "암몬"
+    ],
+    "ar": [
+     "أي شعب سمّاه بلعام «أول الأمم»؟",
+     "عماليق",
+     "مصر",
+     "عمون"
+    ]
+   }
+  },
+  {
+   "id": "ch-numbers-019-29",
+   "book": "numbers",
+   "chapter": 24,
+   "difficulty": "expert",
+   "ref": "Numbers 24:7",
+   "text": {
+    "en": [
+     "Balaam said Israel's king would be higher than which king?",
+     "Agag",
+     "Og",
+     "Balak"
+    ],
+    "es": [
+     "¿Más alto que qué rey sería el rey de Israel, según Balaam?",
+     "Agag",
+     "Og",
+     "Balac"
+    ],
+    "pt": [
+     "Segundo Balaão, o rei de Israel seria mais elevado que qual rei?",
+     "Agag",
+     "Og",
+     "Balac"
+    ],
+    "fr": [
+     "Selon Balaam, le roi d'Israël serait plus grand que quel roi ?",
+     "Agag",
+     "Og",
+     "Balak"
+    ],
+    "de": [
+     "Über welchem König würde Israels König nach Bileam stehen?",
+     "Agag",
+     "Og",
+     "Balak"
+    ],
+    "it": [
+     "Secondo Balaam, il re d'Israele sarebbe più alto di quale re?",
+     "Agag",
+     "Og",
+     "Balak"
+    ],
+    "pl": [
+     "Od którego króla większy będzie król Izraela według Balaama?",
+     "Agaga",
+     "Oga",
+     "Balaka"
+    ],
+    "ru": [
+     "Выше какого царя, по словам Валаама, будет царь Израиля?",
+     "Агага",
+     "Ога",
+     "Валака"
+    ],
+    "tr": [
+     "Balam'a göre İsrail'in kralı hangi kraldan yüce olacaktı?",
+     "Agag",
+     "Og",
+     "Balak"
+    ],
+    "ja": [
+     "バラムによれば、イスラエルの王はどの王よりも高くなりますか？",
+     "アガグ",
+     "オグ",
+     "バラク"
+    ],
+    "ko": [
+     "발라암에 따르면 이스라엘의 임금은 어느 임금보다 높아지겠습니까?",
+     "아각",
+     "옥",
+     "발락"
+    ],
+    "ar": [
+     "بحسب بلعام، فوق أي ملك سيعلو ملك إسرائيل؟",
+     "أجاج",
+     "عوج",
+     "بالاق"
+    ]
+   }
+  },
+  {
+   "id": "ch-numbers-019-30",
+   "book": "numbers",
+   "chapter": 24,
+   "difficulty": "impossible",
+   "ref": "Numbers 24:21",
+   "text": {
+    "en": [
+     "In Balaam's oracle, which people had their nest set in rock?",
+     "Kenites",
+     "Hittites",
+     "Jebusites"
+    ],
+    "es": [
+     "¿Qué pueblo, según el oráculo de Balaam, tenía su nido puesto en la roca?",
+     "Quenitas",
+     "Hititas",
+     "Jebuseos"
+    ],
+    "pt": [
+     "Que povo, segundo o oráculo de Balaão, tinha o seu ninho posto na rocha?",
+     "Queneus",
+     "Heteus",
+     "Jebuseus"
+    ],
+    "fr": [
+     "Quel peuple, dans l'oracle de Balaam, avait son nid placé dans le roc ?",
+     "Qénites",
+     "Hittites",
+     "Jébusites"
+    ],
+    "de": [
+     "Welches Volk hatte nach Bileams Spruch sein Nest in den Felsen gesetzt?",
+     "Keniter",
+     "Hetiter",
+     "Jebusiter"
+    ],
+    "it": [
+     "Quale popolo, nell'oracolo di Balaam, aveva il nido posto sulla roccia?",
+     "Keniti",
+     "Ittiti",
+     "Gebusei"
+    ],
+    "pl": [
+     "Który lud, według przepowiedni Balaama, miał gniazdo osadzone w skale?",
+     "Kenici",
+     "Hetyci",
+     "Jebusyci"
+    ],
+    "ru": [
+     "Какой народ, по пророчеству Валаама, имел своё гнездо на скале?",
+     "Кенеи",
+     "Хеттеи",
+     "Иевусеи"
+    ],
+    "tr": [
+     "Balam'ın sözüne göre yuvası kayaya yerleştirilmiş halk hangisiydi?",
+     "Kenliler",
+     "Hititler",
+     "Yevuslular"
+    ],
+    "ja": [
+     "バラムの託宣で、巣を岩の上に置いていた民はどれですか？",
+     "ケニ人",
+     "ヘト人",
+     "エブス人"
+    ],
+    "ko": [
+     "발라암의 신탁에서 보금자리를 바위에 둔 민족은 어느 민족입니까?",
+     "카인족",
+     "히타이트족",
+     "여부스족"
+    ],
+    "ar": [
+     "أي شعب، بحسب نبوءة بلعام، كان عشّه موضوعاً في الصخرة؟",
+     "قينيون",
+     "حثيون",
+     "يبوسيون"
+    ]
+   }
+  },
+  {
+   "id": "ch-numbers-019-31",
+   "book": "numbers",
+   "chapter": 25,
+   "difficulty": "easy",
+   "ref": "Numbers 25:3",
+   "text": {
+    "en": [
+     "Which god did Israel worship at Peor?",
+     "Baal",
+     "Dagon",
+     "Molech"
+    ],
+    "es": [
+     "¿A qué dios adoró Israel en Peor?",
+     "Baal",
+     "Dagón",
+     "Moloc"
+    ],
+    "pt": [
+     "A que deus Israel adorou em Fegor?",
+     "Baal",
+     "Dagon",
+     "Moloc"
+    ],
+    "fr": [
+     "Quel dieu Israël adora-t-il à Péor ?",
+     "Baal",
+     "Dagon",
+     "Moloch"
+    ],
+    "de": [
+     "Welchen Gott verehrte Israel bei Peor?",
+     "Baal",
+     "Dagon",
+     "Moloch"
+    ],
+    "it": [
+     "Quale dio adorò Israele a Peor?",
+     "Baal",
+     "Dagon",
+     "Moloc"
+    ],
+    "pl": [
+     "Któremu bogu oddał cześć Izrael w Peor?",
+     "Baalowi",
+     "Dagonowi",
+     "Molochowi"
+    ],
+    "ru": [
+     "Какому богу поклонился Израиль в Фегоре?",
+     "Ваалу",
+     "Дагону",
+     "Молоху"
+    ],
+    "tr": [
+     "İsrail Peor'da hangi tanrıya tapındı?",
+     "Baal",
+     "Dagon",
+     "Molek"
+    ],
+    "ja": [
+     "イスラエルはペオルでどの神を拝みましたか？",
+     "バアル",
+     "ダゴン",
+     "モレク"
+    ],
+    "ko": [
+     "이스라엘은 프오르에서 어느 신을 섬겼습니까?",
+     "바알",
+     "다곤",
+     "몰록"
+    ],
+    "ar": [
+     "أي إله عبده إسرائيل في فغور؟",
+     "بعل",
+     "داجون",
+     "مولك"
+    ]
+   }
+  },
+  {
+   "id": "ch-numbers-019-32",
+   "book": "numbers",
+   "chapter": 25,
+   "difficulty": "medium",
+   "ref": "Numbers 25:7-8",
+   "text": {
+    "en": [
+     "Who killed Zimri and the Midianite woman with a spear?",
+     "Phinehas",
+     "Joshua",
+     "Caleb"
+    ],
+    "es": [
+     "¿Quién mató con una lanza a Zimrí y a la mujer madianita?",
+     "Finees",
+     "Josué",
+     "Caleb"
+    ],
+    "pt": [
+     "Quem matou com uma lança Zambri e a mulher madianita?",
+     "Finéias",
+     "Josué",
+     "Caleb"
+    ],
+    "fr": [
+     "Qui tua d'une lance Zimri et la femme madianite ?",
+     "Phinées",
+     "Josué",
+     "Caleb"
+    ],
+    "de": [
+     "Wer erstach Simri und die Midianiterin mit einem Speer?",
+     "Pinhas",
+     "Josua",
+     "Kaleb"
+    ],
+    "it": [
+     "Chi uccise con una lancia Zimri e la donna madianita?",
+     "Finees",
+     "Giosuè",
+     "Caleb"
+    ],
+    "pl": [
+     "Kto zabił włócznią Zimriego i Madianitkę?",
+     "Pinchas",
+     "Jozue",
+     "Kaleb"
+    ],
+    "ru": [
+     "Кто убил копьём Замврия и мадианитянку?",
+     "Финеес",
+     "Иисус",
+     "Халев"
+    ],
+    "tr": [
+     "Zimri'yi ve Midyanlı kadını kim mızrakla öldürdü?",
+     "Pinehas",
+     "Yeşu",
+     "Kalev"
+    ],
+    "ja": [
+     "ジムリとミディアン人の女を槍で殺したのは誰ですか？",
+     "ピネハス",
+     "ヨシュア",
+     "カレブ"
+    ],
+    "ko": [
+     "지므리와 미디안 여자를 창으로 죽인 사람은 누구입니까?",
+     "피느하스",
+     "여호수아",
+     "칼렙"
+    ],
+    "ar": [
+     "من قتل زمري والمرأة المديانية بالرمح؟",
+     "فنحاس",
+     "يشوع",
+     "كالب"
+    ]
+   }
+  },
+  {
+   "id": "ch-numbers-019-33",
+   "book": "numbers",
+   "chapter": 25,
+   "difficulty": "hard",
+   "ref": "Numbers 25:9",
+   "text": {
+    "en": [
+     "How many Israelites died in the plague at Peor?",
+     "24000",
+     "14700",
+     "3000"
+    ],
+    "es": [
+     "¿Cuántos israelitas murieron en la plaga de Peor?",
+     "24000",
+     "14700",
+     "3000"
+    ],
+    "pt": [
+     "Quantos israelitas morreram na praga de Fegor?",
+     "24000",
+     "14700",
+     "3000"
+    ],
+    "fr": [
+     "Combien d'Israélites moururent dans le fléau de Péor ?",
+     "24000",
+     "14700",
+     "3000"
+    ],
+    "de": [
+     "Wie viele Israeliten starben bei der Plage von Peor?",
+     "24000",
+     "14700",
+     "3000"
+    ],
+    "it": [
+     "Quanti israeliti morirono nella peste di Peor?",
+     "24000",
+     "14700",
+     "3000"
+    ],
+    "pl": [
+     "Ilu Izraelitów zmarło podczas plagi w Peor?",
+     "24000",
+     "14700",
+     "3000"
+    ],
+    "ru": [
+     "Сколько израильтян погибло от мора в Фегоре?",
+     "24000",
+     "14700",
+     "3000"
+    ],
+    "tr": [
+     "Peor'daki salgında kaç İsrailli öldü?",
+     "24000",
+     "14700",
+     "3000"
+    ],
+    "ja": [
+     "ペオルでの疫病で何人のイスラエル人が死にましたか？",
+     "24000",
+     "14700",
+     "3000"
+    ],
+    "ko": [
+     "프오르의 재앙으로 이스라엘 사람이 몇 명 죽었습니까?",
+     "24000",
+     "14700",
+     "3000"
+    ],
+    "ar": [
+     "كم إسرائيلياً مات في الوباء عند فغور؟",
+     "24000",
+     "14700",
+     "3000"
+    ]
+   }
+  },
+  {
+   "id": "ch-numbers-019-34",
+   "book": "numbers",
+   "chapter": 25,
+   "difficulty": "expert",
+   "ref": "Numbers 25:15",
+   "text": {
+    "en": [
+     "What was the name of the Midianite woman Phinehas killed?",
+     "Cozbi",
+     "Rahab",
+     "Delilah"
+    ],
+    "es": [
+     "¿Cómo se llamaba la mujer madianita a la que mató Finees?",
+     "Cozbí",
+     "Rahab",
+     "Dalila"
+    ],
+    "pt": [
+     "Como se chamava a mulher madianita que Finéias matou?",
+     "Cozbi",
+     "Raab",
+     "Dalila"
+    ],
+    "fr": [
+     "Comment s'appelait la femme madianite que Phinées tua ?",
+     "Cozbi",
+     "Rahab",
+     "Dalila"
+    ],
+    "de": [
+     "Wie hieß die Midianiterin, die Pinhas tötete?",
+     "Kosbi",
+     "Rahab",
+     "Delila"
+    ],
+    "it": [
+     "Come si chiamava la donna madianita uccisa da Finees?",
+     "Cozbi",
+     "Raab",
+     "Dalila"
+    ],
+    "pl": [
+     "Jak miała na imię Madianitka zabita przez Pinchasa?",
+     "Kozbi",
+     "Rachab",
+     "Dalila"
+    ],
+    "ru": [
+     "Как звали мадианитянку, которую убил Финеес?",
+     "Хазва",
+     "Раав",
+     "Далила"
+    ],
+    "tr": [
+     "Pinehas'ın öldürdüğü Midyanlı kadının adı neydi?",
+     "Kozbi",
+     "Rahav",
+     "Delila"
+    ],
+    "ja": [
+     "ピネハスが殺したミディアン人の女の名は何ですか？",
+     "コズビ",
+     "ラハブ",
+     "デリラ"
+    ],
+    "ko": [
+     "피느하스가 죽인 미디안 여자의 이름은 무엇입니까?",
+     "코즈비",
+     "라합",
+     "들릴라"
+    ],
+    "ar": [
+     "ما اسم المرأة المديانية التي قتلها فنحاس؟",
+     "كزبي",
+     "راحاب",
+     "دليلة"
+    ]
+   }
+  },
+  {
+   "id": "ch-numbers-019-35",
+   "book": "numbers",
+   "chapter": 25,
+   "difficulty": "impossible",
+   "ref": "Numbers 25:14",
+   "text": {
+    "en": [
+     "Zimri, killed by Phinehas, was the son of which man?",
+     "Salu",
+     "Zur",
+     "Hur"
+    ],
+    "es": [
+     "¿De qué hombre era hijo Zimrí, el que mató Finees?",
+     "Salú",
+     "Zur",
+     "Hur"
+    ],
+    "pt": [
+     "De que homem era filho Zambri, morto por Finéias?",
+     "Salu",
+     "Sur",
+     "Hur"
+    ],
+    "fr": [
+     "De quel homme Zimri, tué par Phinées, était-il le fils ?",
+     "Salou",
+     "Çur",
+     "Hour"
+    ],
+    "de": [
+     "Wessen Sohn war Simri, den Pinhas tötete?",
+     "Salu",
+     "Zur",
+     "Hur"
+    ],
+    "it": [
+     "Di quale uomo era figlio Zimri, ucciso da Finees?",
+     "Salu",
+     "Zur",
+     "Cur"
+    ],
+    "pl": [
+     "Kto był ojcem Zimriego, zabitego przez Pinchasa?",
+     "Salu",
+     "Sur",
+     "Chur"
+    ],
+    "ru": [
+     "Кто был отцом Замврия, убитого Финеесом?",
+     "Салу",
+     "Цур",
+     "Хур"
+    ],
+    "tr": [
+     "Pinehas'ın öldürdüğü Zimri kimin oğluydu?",
+     "Salu",
+     "Sur",
+     "Hur"
+    ],
+    "ja": [
+     "ピネハスに殺されたジムリは誰の子ですか？",
+     "サル",
+     "ツル",
+     "フル"
+    ],
+    "ko": [
+     "피느하스에게 죽은 지므리는 누구의 아들입니까?",
+     "살루",
+     "추르",
+     "후르"
+    ],
+    "ar": [
+     "ابن من كان زمري الذي قتله فنحاس؟",
+     "سالو",
+     "صور",
+     "حور"
+    ]
+   }
+  },
+  {
+   "id": "ch-numbers-019-36",
+   "book": "numbers",
+   "chapter": 26,
+   "difficulty": "easy",
+   "ref": "Numbers 26:3",
+   "text": {
+    "en": [
+     "In the plains of which land did Israel take its second census?",
+     "Moab",
+     "Canaan",
+     "Egypt"
+    ],
+    "es": [
+     "¿En las llanuras de qué tierra hizo Israel su segundo censo?",
+     "Moab",
+     "Canaán",
+     "Egipto"
+    ],
+    "pt": [
+     "Nas planícies de que terra Israel fez o seu segundo recenseamento?",
+     "Moab",
+     "Canaã",
+     "Egito"
+    ],
+    "fr": [
+     "Dans les plaines de quel pays Israël fit-il son second dénombrement ?",
+     "Moab",
+     "Canaan",
+     "Égypte"
+    ],
+    "de": [
+     "In den Steppen welchen Landes zählte Israel zum zweiten Mal?",
+     "Moab",
+     "Kanaan",
+     "Ägypten"
+    ],
+    "it": [
+     "Nelle steppe di quale terra Israele fece il secondo censimento?",
+     "Moab",
+     "Canaan",
+     "Egitto"
+    ],
+    "pl": [
+     "Na stepach którego kraju Izrael przeprowadził drugi spis?",
+     "Moabu",
+     "Kanaanu",
+     "Egiptu"
+    ],
+    "ru": [
+     "На равнинах какой земли Израиль провёл второе исчисление?",
+     "Моава",
+     "Ханаана",
+     "Египта"
+    ],
+    "tr": [
+     "İsrail ikinci sayımını hangi ülkenin düzlüklerinde yaptı?",
+     "Moav",
+     "Kenan",
+     "Mısır"
+    ],
+    "ja": [
+     "イスラエルはどの地の平野で二度目の人口調査を行いましたか？",
+     "モアブ",
+     "カナン",
+     "エジプト"
+    ],
+    "ko": [
+     "이스라엘은 어느 땅의 평야에서 두 번째 인구조사를 했습니까?",
+     "모압",
+     "가나안",
+     "이집트"
+    ],
+    "ar": [
+     "في سهول أي أرض أجرى إسرائيل إحصاءه الثاني؟",
+     "موآب",
+     "كنعان",
+     "مصر"
+    ]
+   }
+  },
+  {
+   "id": "ch-numbers-019-37",
+   "book": "numbers",
+   "chapter": 26,
+   "difficulty": "medium",
+   "ref": "Numbers 26:1-3",
+   "text": {
+    "en": [
+     "Which priest, with Moses, conducted the second census of Israel?",
+     "Eleazar",
+     "Aaron",
+     "Ithamar"
+    ],
+    "es": [
+     "¿Qué sacerdote, junto con Moisés, dirigió el segundo censo de Israel?",
+     "Eleazar",
+     "Aarón",
+     "Itamar"
+    ],
+    "pt": [
+     "Que sacerdote, com Moisés, conduziu o segundo recenseamento de Israel?",
+     "Eleazar",
+     "Arão",
+     "Itamar"
+    ],
+    "fr": [
+     "Quel prêtre, avec Moïse, dirigea le second dénombrement d'Israël ?",
+     "Éléazar",
+     "Aaron",
+     "Ithamar"
+    ],
+    "de": [
+     "Welcher Priester führte mit Mose die zweite Zählung Israels durch?",
+     "Eleasar",
+     "Aaron",
+     "Itamar"
+    ],
+    "it": [
+     "Quale sacerdote, con Mosè, guidò il secondo censimento d'Israele?",
+     "Eleazaro",
+     "Aronne",
+     "Itamar"
+    ],
+    "pl": [
+     "Który kapłan wraz z Mojżeszem przeprowadził drugi spis Izraela?",
+     "Eleazar",
+     "Aaron",
+     "Itamar"
+    ],
+    "ru": [
+     "Какой священник вместе с Моисеем провёл второе исчисление Израиля?",
+     "Елеазар",
+     "Аарон",
+     "Ифамар"
+    ],
+    "tr": [
+     "Hangi kâhin Musa'yla birlikte İsrail'in ikinci sayımını yaptı?",
+     "Elazar",
+     "Harun",
+     "İtamar"
+    ],
+    "ja": [
+     "モーセとともにイスラエルの二度目の人口調査を行った祭司は誰ですか？",
+     "エレアザル",
+     "アロン",
+     "イタマル"
+    ],
+    "ko": [
+     "모세와 함께 이스라엘의 두 번째 인구조사를 한 사제는 누구입니까?",
+     "엘아자르",
+     "아론",
+     "이타마르"
+    ],
+    "ar": [
+     "أي كاهن أجرى مع موسى إحصاء إسرائيل الثاني؟",
+     "ألعازار",
+     "هارون",
+     "إيثامار"
+    ]
+   }
+  },
+  {
+   "id": "ch-numbers-019-38",
+   "book": "numbers",
+   "chapter": 26,
+   "difficulty": "hard",
+   "ref": "Numbers 26:22",
+   "text": {
+    "en": [
+     "Which tribe had the most men in the second census?",
+     "Judah",
+     "Reuben",
+     "Ephraim"
+    ],
+    "es": [
+     "¿Qué tribu tuvo más hombres en el segundo censo?",
+     "Judá",
+     "Rubén",
+     "Efraín"
+    ],
+    "pt": [
+     "Que tribo teve mais homens no segundo recenseamento?",
+     "Judá",
+     "Rúben",
+     "Efraim"
+    ],
+    "fr": [
+     "Quelle tribu compta le plus d'hommes lors du second dénombrement ?",
+     "Juda",
+     "Ruben",
+     "Éphraïm"
+    ],
+    "de": [
+     "Welcher Stamm hatte bei der zweiten Zählung die meisten Männer?",
+     "Juda",
+     "Ruben",
+     "Efraim"
+    ],
+    "it": [
+     "Quale tribù ebbe più uomini nel secondo censimento?",
+     "Giuda",
+     "Ruben",
+     "Efraim"
+    ],
+    "pl": [
+     "Które plemię miało najwięcej mężczyzn w drugim spisie?",
+     "Juda",
+     "Ruben",
+     "Efraim"
+    ],
+    "ru": [
+     "Какое колено насчитывало больше всего мужчин при втором исчислении?",
+     "Иуда",
+     "Рувим",
+     "Ефрем"
+    ],
+    "tr": [
+     "İkinci sayımda hangi oymakta en çok erkek vardı?",
+     "Yahuda",
+     "Ruven",
+     "Efrayim"
+    ],
+    "ja": [
+     "二度目の人口調査で最も男子の多かった部族はどれですか？",
+     "ユダ",
+     "ルベン",
+     "エフライム"
+    ],
+    "ko": [
+     "두 번째 인구조사에서 남자가 가장 많았던 지파는 어느 지파였습니까?",
+     "유다",
+     "르우벤",
+     "에프라임"
+    ],
+    "ar": [
+     "أي سبط كان فيه أكثر الرجال في الإحصاء الثاني؟",
+     "يهوذا",
+     "رأوبين",
+     "أفرايم"
+    ]
+   }
+  },
+  {
+   "id": "ch-numbers-019-39",
+   "book": "numbers",
+   "chapter": 26,
+   "difficulty": "expert",
+   "ref": "Numbers 26:51",
+   "text": {
+    "en": [
+     "Excluding Levites, how many Israelite men were counted in the second census?",
+     "601730",
+     "603550",
+     "585000"
+    ],
+    "es": [
+     "Sin contar a los levitas, ¿cuántos israelitas varones se contaron en el segundo censo?",
+     "601730",
+     "603550",
+     "585000"
+    ],
+    "pt": [
+     "Sem contar os levitas, quantos israelitas homens foram contados no segundo recenseamento?",
+     "601730",
+     "603550",
+     "585000"
+    ],
+    "fr": [
+     "Sans compter les lévites, combien d'Israélites furent dénombrés lors du second recensement ?",
+     "601730",
+     "603550",
+     "585000"
+    ],
+    "de": [
+     "Wie viele Israeliten wurden bei der zweiten Zählung ohne die Leviten gezählt?",
+     "601730",
+     "603550",
+     "585000"
+    ],
+    "it": [
+     "Senza i leviti, quanti israeliti furono contati nel secondo censimento?",
+     "601730",
+     "603550",
+     "585000"
+    ],
+    "pl": [
+     "Ilu Izraelitów, bez Lewitów, policzono podczas drugiego spisu?",
+     "601730",
+     "603550",
+     "585000"
+    ],
+    "ru": [
+     "Сколько израильтян, не считая левитов, исчислили при втором исчислении?",
+     "601730",
+     "603550",
+     "585000"
+    ],
+    "tr": [
+     "Levililer hariç, ikinci sayımda kaç İsrailli sayıldı?",
+     "601730",
+     "603550",
+     "585000"
+    ],
+    "ja": [
+     "レビ人を除いて、二度目の調査で数えられたイスラエル人は何人でしたか？",
+     "601730",
+     "603550",
+     "585000"
+    ],
+    "ko": [
+     "레위인을 제외하고 두 번째 인구조사에서 이스라엘 사람은 몇 명이었습니까?",
+     "601730",
+     "603550",
+     "585000"
+    ],
+    "ar": [
+     "من دون اللاويين، كم إسرائيلياً أُحصي في الإحصاء الثاني؟",
+     "601730",
+     "603550",
+     "585000"
+    ]
+   }
+  },
+  {
+   "id": "ch-numbers-019-40",
+   "book": "numbers",
+   "chapter": 26,
+   "difficulty": "impossible",
+   "ref": "Numbers 26:46",
+   "text": {
+    "en": [
+     "What was the name of Asher's daughter in the census list?",
+     "Serah",
+     "Dinah",
+     "Tamar"
+    ],
+    "es": [
+     "¿Cómo se llamaba la hija de Aser en la lista del censo?",
+     "Sera",
+     "Dina",
+     "Tamar"
+    ],
+    "pt": [
+     "Como se chamava a filha de Aser na lista do recenseamento?",
+     "Sara",
+     "Dina",
+     "Tamar"
+    ],
+    "fr": [
+     "Comment s'appelait la fille d'Asher dans la liste du dénombrement ?",
+     "Sérah",
+     "Dina",
+     "Tamar"
+    ],
+    "de": [
+     "Wie hieß die Tochter Aschers in der Zählliste?",
+     "Serach",
+     "Dina",
+     "Tamar"
+    ],
+    "it": [
+     "Come si chiamava la figlia di Aser nell'elenco del censimento?",
+     "Serach",
+     "Dina",
+     "Tamar"
+    ],
+    "pl": [
+     "Jak miała na imię córka Asera na liście spisu?",
+     "Sara",
+     "Dina",
+     "Tamar"
+    ],
+    "ru": [
+     "Как звали дочь Асира в списке исчисления?",
+     "Сара",
+     "Дина",
+     "Фамарь"
+    ],
+    "tr": [
+     "Aşer'in kızının sayım listesindeki adı neydi?",
+     "Serah",
+     "Dina",
+     "Tamar"
+    ],
+    "ja": [
+     "人口調査の名簿にあるアシェルの娘の名は何ですか？",
+     "セラ",
+     "ディナ",
+     "タマル"
+    ],
+    "ko": [
+     "인구조사 명단에 나오는 아셀의 딸 이름은 무엇입니까?",
+     "세라",
+     "디나",
+     "타마르"
+    ],
+    "ar": [
+     "ما اسم ابنة أشير في قائمة الإحصاء؟",
+     "سارح",
+     "دينة",
+     "ثامار"
+    ]
+   }
+  },
+  {
+   "id": "ch-numbers-019-41",
+   "book": "numbers",
+   "chapter": 27,
+   "difficulty": "easy",
+   "ref": "Numbers 27:18-23",
+   "text": {
+    "en": [
+     "Whom did Moses commission, laying hands on him, to succeed him?",
+     "Joshua",
+     "Caleb",
+     "Eleazar"
+    ],
+    "es": [
+     "¿A quién impuso Moisés las manos para que fuera su sucesor?",
+     "Josué",
+     "Caleb",
+     "Eleazar"
+    ],
+    "pt": [
+     "A quem Moisés impôs as mãos para ser seu sucessor?",
+     "Josué",
+     "Caleb",
+     "Eleazar"
+    ],
+    "fr": [
+     "Sur qui Moïse imposa-t-il les mains pour qu'il lui succède ?",
+     "Josué",
+     "Caleb",
+     "Éléazar"
+    ],
+    "de": [
+     "Wem legte Mose die Hände auf, damit er sein Nachfolger wurde?",
+     "Josua",
+     "Kaleb",
+     "Eleasar"
+    ],
+    "it": [
+     "A chi Mosè impose le mani perché gli succedesse?",
+     "Giosuè",
+     "Caleb",
+     "Eleazaro"
+    ],
+    "pl": [
+     "Na kogo Mojżesz włożył ręce, by został jego następcą?",
+     "Jozuego",
+     "Kaleba",
+     "Eleazara"
+    ],
+    "ru": [
+     "На кого Моисей возложил руки, чтобы он стал его преемником?",
+     "Иисуса",
+     "Халева",
+     "Елеазара"
+    ],
+    "tr": [
+     "Musa, halefi olması için kimin üzerine ellerini koydu?",
+     "Yeşu",
+     "Kalev",
+     "Elazar"
+    ],
+    "ja": [
+     "モーセが後継者とするために按手した人物は誰ですか？",
+     "ヨシュア",
+     "カレブ",
+     "エレアザル"
+    ],
+    "ko": [
+     "모세가 후계자로 삼으려고 안수한 사람은 누구입니까?",
+     "여호수아",
+     "칼렙",
+     "엘아자르"
+    ],
+    "ar": [
+     "على من وضع موسى يديه ليخلفه؟",
+     "يشوع",
+     "كالب",
+     "ألعازار"
+    ]
+   }
+  },
+  {
+   "id": "ch-numbers-019-42",
+   "book": "numbers",
+   "chapter": 27,
+   "difficulty": "medium",
+   "ref": "Numbers 27:1",
+   "text": {
+    "en": [
+     "How many daughters of Zelophehad asked Moses for their father's inheritance?",
+     "5",
+     "3",
+     "7"
+    ],
+    "es": [
+     "¿Cuántas hijas de Selofhad pidieron a Moisés la herencia de su padre?",
+     "5",
+     "3",
+     "7"
+    ],
+    "pt": [
+     "Quantas filhas de Salfaad pediram a Moisés a herança do pai?",
+     "5",
+     "3",
+     "7"
+    ],
+    "fr": [
+     "Combien de filles de Çelofehad demandèrent à Moïse l'héritage de leur père ?",
+     "5",
+     "3",
+     "7"
+    ],
+    "de": [
+     "Wie viele Töchter Zelofhads baten Mose um das Erbe ihres Vaters?",
+     "5",
+     "3",
+     "7"
+    ],
+    "it": [
+     "Quante figlie di Zelofcad chiesero a Mosè l'eredità del padre?",
+     "5",
+     "3",
+     "7"
+    ],
+    "pl": [
+     "Ile córek Selofchada poprosiło Mojżesza o dziedzictwo ojca?",
+     "5",
+     "3",
+     "7"
+    ],
+    "ru": [
+     "Сколько дочерей Салпаада попросили у Моисея наследство отца?",
+     "5",
+     "3",
+     "7"
+    ],
+    "tr": [
+     "Selofhad'ın kaç kızı Musa'dan babalarının mirasını istedi?",
+     "5",
+     "3",
+     "7"
+    ],
+    "ja": [
+     "ツェロフハドの娘たちのうち何人がモーセに父の相続地を求めましたか？",
+     "5",
+     "3",
+     "7"
+    ],
+    "ko": [
+     "츨로프핫의 딸 몇 명이 모세에게 아버지의 상속 재산을 청했습니까?",
+     "5",
+     "3",
+     "7"
+    ],
+    "ar": [
+     "كم بنتاً لصلفحاد طلبن من موسى ميراث أبيهن؟",
+     "5",
+     "3",
+     "7"
+    ]
+   }
+  },
+  {
+   "id": "ch-numbers-019-43",
+   "book": "numbers",
+   "chapter": 27,
+   "difficulty": "hard",
+   "ref": "Numbers 27:12",
+   "text": {
+    "en": [
+     "On which mountain range did the Lord tell Moses to view the land?",
+     "Abarim",
+     "Sinai",
+     "Hor"
+    ],
+    "es": [
+     "¿En qué cordillera mandó el Señor a Moisés contemplar la tierra?",
+     "Abarim",
+     "Sinaí",
+     "Hor"
+    ],
+    "pt": [
+     "Em que cadeia de montes o Senhor mandou Moisés contemplar a terra?",
+     "Abarim",
+     "Sinai",
+     "Hor"
+    ],
+    "fr": [
+     "Sur quelle chaîne de montagnes le Seigneur dit-il à Moïse de contempler le pays ?",
+     "Abarim",
+     "Sinaï",
+     "Hor"
+    ],
+    "de": [
+     "Auf welches Gebirge schickte der Herr Mose, um das Land zu sehen?",
+     "Abarim",
+     "Sinai",
+     "Hor"
+    ],
+    "it": [
+     "Su quale catena di monti il Signore disse a Mosè di vedere la terra?",
+     "Abarim",
+     "Sinai",
+     "Or"
+    ],
+    "pl": [
+     "Na jakie pasmo gór polecił Pan Mojżeszowi wejść, by zobaczyć ziemię?",
+     "Abarim",
+     "Synaj",
+     "Hor"
+    ],
+    "ru": [
+     "На какие горы велел Господь взойти Моисею, чтобы увидеть землю?",
+     "Аварим",
+     "Синай",
+     "Ор"
+    ],
+    "tr": [
+     "RAB Musa'ya toprağı görmesi için hangi dağ silsilesine çıkmasını söyledi?",
+     "Avarim",
+     "Sina",
+     "Hor"
+    ],
+    "ja": [
+     "主はモーセに、どの山地に登って約束の地を見るよう命じましたか？",
+     "アバリム",
+     "シナイ",
+     "ホル"
+    ],
+    "ko": [
+     "주님은 모세에게 어느 산맥에 올라 그 땅을 보라고 하셨습니까?",
+     "아바림",
+     "시나이",
+     "호르"
+    ],
+    "ar": [
+     "على أي سلسلة جبال أمر الرب موسى أن يصعد ليرى الأرض؟",
+     "عباريم",
+     "سيناء",
+     "هور"
+    ]
+   }
+  },
+  {
+   "id": "ch-numbers-019-44",
+   "book": "numbers",
+   "chapter": 27,
+   "difficulty": "expert",
+   "ref": "Numbers 27:1",
+   "text": {
+    "en": [
+     "To which tribe did Zelophehad's daughters belong?",
+     "Manasseh",
+     "Ephraim",
+     "Judah"
+    ],
+    "es": [
+     "¿A qué tribu pertenecían las hijas de Selofhad?",
+     "Manasés",
+     "Efraín",
+     "Judá"
+    ],
+    "pt": [
+     "A que tribo pertenciam as filhas de Salfaad?",
+     "Manassés",
+     "Efraim",
+     "Judá"
+    ],
+    "fr": [
+     "À quelle tribu appartenaient les filles de Çelofehad ?",
+     "Manassé",
+     "Éphraïm",
+     "Juda"
+    ],
+    "de": [
+     "Zu welchem Stamm gehörten die Töchter Zelofhads?",
+     "Manasse",
+     "Efraim",
+     "Juda"
+    ],
+    "it": [
+     "A quale tribù appartenevano le figlie di Zelofcad?",
+     "Manasse",
+     "Efraim",
+     "Giuda"
+    ],
+    "pl": [
+     "Do którego plemienia należały córki Selofchada?",
+     "Manassesa",
+     "Efraima",
+     "Judy"
+    ],
+    "ru": [
+     "К какому колену принадлежали дочери Салпаада?",
+     "Манассия",
+     "Ефрем",
+     "Иуда"
+    ],
+    "tr": [
+     "Selofhad'ın kızları hangi oymağa aitti?",
+     "Manaşşe",
+     "Efrayim",
+     "Yahuda"
+    ],
+    "ja": [
+     "ツェロフハドの娘たちはどの部族に属していましたか？",
+     "マナセ",
+     "エフライム",
+     "ユダ"
+    ],
+    "ko": [
+     "츨로프핫의 딸들은 어느 지파에 속했습니까?",
+     "므나쎄",
+     "에프라임",
+     "유다"
+    ],
+    "ar": [
+     "إلى أي سبط انتمت بنات صلفحاد؟",
+     "منسى",
+     "أفرايم",
+     "يهوذا"
+    ]
+   }
+  },
+  {
+   "id": "ch-numbers-019-45",
+   "book": "numbers",
+   "chapter": 27,
+   "difficulty": "impossible",
+   "ref": "Numbers 27:21",
+   "text": {
+    "en": [
+     "Which object would Eleazar use to learn the Lord's decisions for Joshua?",
+     "Urim",
+     "Censer",
+     "Trumpet"
+    ],
+    "es": [
+     "¿Qué objeto usaría Eleazar para conocer las decisiones del Señor para Josué?",
+     "Urim",
+     "Incensario",
+     "Trompeta"
+    ],
+    "pt": [
+     "Que objeto Eleazar usaria para conhecer as decisões do Senhor para Josué?",
+     "Urim",
+     "Incensário",
+     "Trombeta"
+    ],
+    "fr": [
+     "Quel objet Éléazar utiliserait-il pour connaître les décisions du Seigneur pour Josué ?",
+     "Urim",
+     "Encensoir",
+     "Trompette"
+    ],
+    "de": [
+     "Mit welchem Gegenstand würde Eleasar für Josua Gottes Entscheid erfragen?",
+     "Urim",
+     "Räucherpfanne",
+     "Trompete"
+    ],
+    "it": [
+     "Quale oggetto userebbe Eleazaro per conoscere le decisioni del Signore per Giosuè?",
+     "Urim",
+     "Incensiere",
+     "Tromba"
+    ],
+    "pl": [
+     "Czego użyje Eleazar, by poznać decyzje Pana dla Jozuego?",
+     "Urim",
+     "Kadzielnicy",
+     "Trąbki"
+    ],
+    "ru": [
+     "Что использует Елеазар, чтобы узнать решение Господа для Иисуса?",
+     "Урим",
+     "Кадило",
+     "Трубу"
+    ],
+    "tr": [
+     "Elazar, Yeşu için RAB'bin kararını öğrenmek üzere neyi kullanacaktı?",
+     "Urim",
+     "Buhurdan",
+     "Boru"
+    ],
+    "ja": [
+     "エレアザルはヨシュアのために主の裁きを知るのに何を用いますか？",
+     "ウリム",
+     "香炉",
+     "ラッパ"
+    ],
+    "ko": [
+     "엘아자르는 여호수아를 위해 주님의 결정을 알려고 무엇을 사용합니까?",
+     "우림",
+     "향로",
+     "나팔"
+    ],
+    "ar": [
+     "ماذا يستخدم ألعازار ليعرف حكم الرب ليشوع؟",
+     "أوريم",
+     "مجمرة",
+     "بوق"
+    ]
+   }
+  },
+  {
+   "id": "ch-numbers-019-46",
+   "book": "numbers",
+   "chapter": 28,
+   "difficulty": "easy",
+   "ref": "Numbers 28:3-4",
+   "text": {
+    "en": [
+     "Which animal was the daily burnt offering, morning and evening?",
+     "Lamb",
+     "Bull",
+     "Dove"
+    ],
+    "es": [
+     "¿Qué animal se ofrecía como holocausto diario, por la mañana y por la tarde?",
+     "Cordero",
+     "Toro",
+     "Paloma"
+    ],
+    "pt": [
+     "Que animal era oferecido como holocausto diário, de manhã e à tarde?",
+     "Cordeiro",
+     "Touro",
+     "Pomba"
+    ],
+    "fr": [
+     "Quel animal était offert en holocauste quotidien, le matin et le soir ?",
+     "Agneau",
+     "Taureau",
+     "Colombe"
+    ],
+    "de": [
+     "Welches Tier wurde als tägliches Brandopfer am Morgen und am Abend dargebracht?",
+     "Lamm",
+     "Stier",
+     "Taube"
+    ],
+    "it": [
+     "Quale animale veniva offerto come olocausto quotidiano, al mattino e alla sera?",
+     "Agnello",
+     "Toro",
+     "Colomba"
+    ],
+    "pl": [
+     "Jakie zwierzę składano jako codzienne całopalenie, rano i wieczorem?",
+     "Baranek",
+     "Cielec",
+     "Gołąb"
+    ],
+    "ru": [
+     "Какое животное приносили как ежедневное всесожжение, утром и вечером?",
+     "Агнец",
+     "Телец",
+     "Голубь"
+    ],
+    "tr": [
+     "Her sabah ve akşam günlük yakmalık sunu olarak hangi hayvan sunulurdu?",
+     "Kuzu",
+     "Boğa",
+     "Güvercin"
+    ],
+    "ja": [
+     "毎朝夕、日ごとの焼き尽くす献げ物として献げられた動物は何ですか？",
+     "小羊",
+     "雄牛",
+     "鳩"
+    ],
+    "ko": [
+     "날마다 아침저녁으로 번제물로 바친 동물은 무엇입니까?",
+     "어린양",
+     "수소",
+     "비둘기"
+    ],
+    "ar": [
+     "أي حيوان كان يُقدَّم محرقة يومية في الصباح وفي المساء؟",
+     "حمل",
+     "ثور",
+     "حمامة"
+    ]
+   }
+  },
+  {
+   "id": "ch-numbers-019-47",
+   "book": "numbers",
+   "chapter": 28,
+   "difficulty": "medium",
+   "ref": "Numbers 28:16",
+   "text": {
+    "en": [
+     "On which day of the first month was the Passover celebrated?",
+     "14",
+     "10",
+     "30"
+    ],
+    "es": [
+     "¿En qué día del primer mes se celebraba la Pascua?",
+     "14",
+     "10",
+     "30"
+    ],
+    "pt": [
+     "Em que dia do primeiro mês se celebrava a Páscoa?",
+     "14",
+     "10",
+     "30"
+    ],
+    "fr": [
+     "Quel jour du premier mois célébrait-on la Pâque ?",
+     "14",
+     "10",
+     "30"
+    ],
+    "de": [
+     "An welchem Tag des ersten Monats wurde das Pascha gefeiert?",
+     "14",
+     "10",
+     "30"
+    ],
+    "it": [
+     "In quale giorno del primo mese si celebrava la Pasqua?",
+     "14",
+     "10",
+     "30"
+    ],
+    "pl": [
+     "Którego dnia pierwszego miesiąca obchodzono Paschę?",
+     "14",
+     "10",
+     "30"
+    ],
+    "ru": [
+     "В какой день первого месяца праздновали Пасху?",
+     "14",
+     "10",
+     "30"
+    ],
+    "tr": [
+     "Fısıh birinci ayın kaçıncı günü kutlanırdı?",
+     "14",
+     "10",
+     "30"
+    ],
+    "ja": [
+     "過越祭は第一の月の何日に祝われましたか？",
+     "14",
+     "10",
+     "30"
+    ],
+    "ko": [
+     "파스카 축제는 첫째 달 며칠에 지냈습니까?",
+     "14",
+     "10",
+     "30"
+    ],
+    "ar": [
+     "في أي يوم من الشهر الأول كان يُحتفل بالفصح؟",
+     "14",
+     "10",
+     "30"
+    ]
+   }
+  },
+  {
+   "id": "ch-numbers-019-48",
+   "book": "numbers",
+   "chapter": 28,
+   "difficulty": "hard",
+   "ref": "Numbers 28:5",
+   "text": {
+    "en": [
+     "With what was the fine flour mixed in the daily grain offering?",
+     "Oil",
+     "Water",
+     "Honey"
+    ],
+    "es": [
+     "¿Con qué se mezclaba la flor de harina en la ofrenda diaria?",
+     "Aceite",
+     "Agua",
+     "Miel"
+    ],
+    "pt": [
+     "Com que se misturava a flor de farinha na oferta diária?",
+     "Azeite",
+     "Água",
+     "Mel"
+    ],
+    "fr": [
+     "Avec quoi mélangeait-on la fleur de farine de l'offrande quotidienne ?",
+     "Huile",
+     "Eau",
+     "Miel"
+    ],
+    "de": [
+     "Womit wurde das Feinmehl beim täglichen Speiseopfer vermengt?",
+     "Öl",
+     "Wasser",
+     "Honig"
+    ],
+    "it": [
+     "Con che cosa era impastata la farina nell'offerta quotidiana?",
+     "Olio",
+     "Acqua",
+     "Miele"
+    ],
+    "pl": [
+     "Z czym mieszano mąkę w codziennej ofierze z pokarmów?",
+     "Oliwą",
+     "Wodą",
+     "Miodem"
+    ],
+    "ru": [
+     "С чем была смешана пшеничная мука в ежедневном хлебном приношении?",
+     "Маслом",
+     "Водой",
+     "Мёдом"
+    ],
+    "tr": [
+     "Günlük tahıl sunusundaki ince un neyle karıştırılırdı?",
+     "Zeytinyağı",
+     "Su",
+     "Bal"
+    ],
+    "ja": [
+     "毎日の穀物の献げ物で、上等の小麦粉は何と混ぜられましたか？",
+     "油",
+     "水",
+     "蜂蜜"
+    ],
+    "ko": [
+     "매일의 곡식 제물에서 고운 밀가루는 무엇과 섞었습니까?",
+     "기름",
+     "물",
+     "꿀"
+    ],
+    "ar": [
+     "بماذا كان يُخلط الدقيق في تقدمة الحبوب اليومية؟",
+     "زيت",
+     "ماء",
+     "عسل"
+    ]
+   }
+  },
+  {
+   "id": "ch-numbers-019-49",
+   "book": "numbers",
+   "chapter": 28,
+   "difficulty": "expert",
+   "ref": "Numbers 28:9",
+   "text": {
+    "en": [
+     "How many lambs were added to the daily offering on the Sabbath?",
+     "2",
+     "1",
+     "4"
+    ],
+    "es": [
+     "¿Cuántos corderos se añadían a la ofrenda diaria en sábado?",
+     "2",
+     "1",
+     "4"
+    ],
+    "pt": [
+     "Quantos cordeiros se acrescentavam à oferta diária no sábado?",
+     "2",
+     "1",
+     "4"
+    ],
+    "fr": [
+     "Combien d'agneaux ajoutait-on à l'offrande quotidienne le jour du sabbat ?",
+     "2",
+     "1",
+     "4"
+    ],
+    "de": [
+     "Wie viele Lämmer kamen am Sabbat zum täglichen Opfer hinzu?",
+     "2",
+     "1",
+     "4"
+    ],
+    "it": [
+     "Quanti agnelli si aggiungevano all'offerta quotidiana di sabato?",
+     "2",
+     "1",
+     "4"
+    ],
+    "pl": [
+     "Ile baranków dodawano do codziennej ofiary w szabat?",
+     "2",
+     "1",
+     "4"
+    ],
+    "ru": [
+     "Сколько агнцев добавляли к ежедневной жертве в субботу?",
+     "2",
+     "1",
+     "4"
+    ],
+    "tr": [
+     "Şabat günü günlük sunuya kaç kuzu eklenirdi?",
+     "2",
+     "1",
+     "4"
+    ],
+    "ja": [
+     "安息日には、毎日の献げ物に小羊が何匹加えられましたか？",
+     "2",
+     "1",
+     "4"
+    ],
+    "ko": [
+     "안식일에는 매일의 제물에 어린양을 몇 마리 더했습니까?",
+     "2",
+     "1",
+     "4"
+    ],
+    "ar": [
+     "كم حملاً كان يُضاف إلى التقدمة اليومية يوم السبت؟",
+     "2",
+     "1",
+     "4"
+    ]
+   }
+  },
+  {
+   "id": "ch-numbers-019-50",
+   "book": "numbers",
+   "chapter": 28,
+   "difficulty": "impossible",
+   "ref": "Numbers 28:11",
+   "text": {
+    "en": [
+     "At each New Moon, how many lambs accompanied the bulls and ram?",
+     "7",
+     "2",
+     "12"
+    ],
+    "es": [
+     "En cada luna nueva, ¿cuántos corderos acompañaban a los toros y al carnero?",
+     "7",
+     "2",
+     "12"
+    ],
+    "pt": [
+     "Em cada lua nova, quantos cordeiros acompanhavam os touros e o carneiro?",
+     "7",
+     "2",
+     "12"
+    ],
+    "fr": [
+     "À chaque nouvelle lune, combien d'agneaux accompagnaient les taureaux et le bélier ?",
+     "7",
+     "2",
+     "12"
+    ],
+    "de": [
+     "Wie viele Lämmer begleiteten bei jedem Neumond die Stiere und den Widder?",
+     "7",
+     "2",
+     "12"
+    ],
+    "it": [
+     "A ogni novilunio, quanti agnelli accompagnavano i giovenchi e l'ariete?",
+     "7",
+     "2",
+     "12"
+    ],
+    "pl": [
+     "Ile baranków towarzyszyło cielcom i baranowi przy każdym nowiu?",
+     "7",
+     "2",
+     "12"
+    ],
+    "ru": [
+     "Сколько агнцев сопровождали тельцов и овна при каждом новомесячии?",
+     "7",
+     "2",
+     "12"
+    ],
+    "tr": [
+     "Her yeni ayda boğalara ve koça kaç kuzu eşlik ederdi?",
+     "7",
+     "2",
+     "12"
+    ],
+    "ja": [
+     "新月祭ごとに、雄牛と雄羊に伴う小羊は何匹でしたか？",
+     "7",
+     "2",
+     "12"
+    ],
+    "ko": [
+     "매달 초하루에 수소와 숫양과 함께 바치는 어린양은 몇 마리였습니까?",
+     "7",
+     "2",
+     "12"
+    ],
+    "ar": [
+     "في كل رأس شهر، كم حملاً كان يرافق الثيران والكبش؟",
+     "7",
+     "2",
+     "12"
+    ]
+   }
+  },
+  {
+   "id": "ch-numbers-019-51",
+   "book": "numbers",
+   "chapter": 29,
+   "difficulty": "easy",
+   "ref": "Numbers 29:1",
+   "text": {
+    "en": [
+     "Which instrument sounded on the first day of the seventh month?",
+     "Trumpet",
+     "Harp",
+     "Flute"
+    ],
+    "es": [
+     "¿Qué instrumento sonaba el primer día del séptimo mes?",
+     "Trompeta",
+     "Arpa",
+     "Flauta"
+    ],
+    "pt": [
+     "Que instrumento soava no primeiro dia do sétimo mês?",
+     "Trombeta",
+     "Harpa",
+     "Flauta"
+    ],
+    "fr": [
+     "Quel instrument retentissait le premier jour du septième mois ?",
+     "Trompette",
+     "Harpe",
+     "Flûte"
+    ],
+    "de": [
+     "Welches Instrument erklang am ersten Tag des siebten Monats?",
+     "Horn",
+     "Harfe",
+     "Flöte"
+    ],
+    "it": [
+     "Quale strumento suonava il primo giorno del settimo mese?",
+     "Tromba",
+     "Arpa",
+     "Flauto"
+    ],
+    "pl": [
+     "Jaki instrument rozbrzmiewał pierwszego dnia siódmego miesiąca?",
+     "Trąba",
+     "Harfa",
+     "Flet"
+    ],
+    "ru": [
+     "Какой инструмент звучал в первый день седьмого месяца?",
+     "Труба",
+     "Арфа",
+     "Флейта"
+    ],
+    "tr": [
+     "Yedinci ayın ilk günü hangi çalgı çalınırdı?",
+     "Boru",
+     "Arp",
+     "Flüt"
+    ],
+    "ja": [
+     "第七の月の初日に鳴らされた楽器は何ですか？",
+     "角笛",
+     "竪琴",
+     "笛"
+    ],
+    "ko": [
+     "일곱째 달 초하루에 불던 악기는 무엇입니까?",
+     "나팔",
+     "수금",
+     "피리"
+    ],
+    "ar": [
+     "أي آلة كانت تُنفخ في اليوم الأول من الشهر السابع؟",
+     "بوق",
+     "قيثارة",
+     "ناي"
+    ]
+   }
+  },
+  {
+   "id": "ch-numbers-019-52",
+   "book": "numbers",
+   "chapter": 29,
+   "difficulty": "medium",
+   "ref": "Numbers 29:7",
+   "text": {
+    "en": [
+     "On which day of the seventh month was the Day of Atonement?",
+     "10",
+     "1",
+     "15"
+    ],
+    "es": [
+     "¿En qué día del séptimo mes se celebraba el Día de la Expiación?",
+     "10",
+     "1",
+     "15"
+    ],
+    "pt": [
+     "Em que dia do sétimo mês se celebrava o Dia da Expiação?",
+     "10",
+     "1",
+     "15"
+    ],
+    "fr": [
+     "Quel jour du septième mois tombait le jour des Expiations ?",
+     "10",
+     "1",
+     "15"
+    ],
+    "de": [
+     "An welchem Tag des siebten Monats war der Versöhnungstag?",
+     "10",
+     "1",
+     "15"
+    ],
+    "it": [
+     "In quale giorno del settimo mese cadeva il giorno dell'Espiazione?",
+     "10",
+     "1",
+     "15"
+    ],
+    "pl": [
+     "Którego dnia siódmego miesiąca przypadał Dzień Przebłagania?",
+     "10",
+     "1",
+     "15"
+    ],
+    "ru": [
+     "В какой день седьмого месяца был День очищения?",
+     "10",
+     "1",
+     "15"
+    ],
+    "tr": [
+     "Kefaret Günü yedinci ayın kaçıncı günüydü?",
+     "10",
+     "1",
+     "15"
+    ],
+    "ja": [
+     "贖罪の日は第七の月の何日でしたか？",
+     "10",
+     "1",
+     "15"
+    ],
+    "ko": [
+     "속죄의 날은 일곱째 달 며칠이었습니까?",
+     "10",
+     "1",
+     "15"
+    ],
+    "ar": [
+     "في أي يوم من الشهر السابع كان يوم الكفارة؟",
+     "10",
+     "1",
+     "15"
+    ]
+   }
+  },
+  {
+   "id": "ch-numbers-019-53",
+   "book": "numbers",
+   "chapter": 29,
+   "difficulty": "hard",
+   "ref": "Numbers 29:12",
+   "text": {
+    "en": [
+     "On which day of the seventh month did the Feast of Booths begin?",
+     "15",
+     "14",
+     "22"
+    ],
+    "es": [
+     "¿En qué día del séptimo mes comenzaba la fiesta de las Tiendas?",
+     "15",
+     "14",
+     "22"
+    ],
+    "pt": [
+     "Em que dia do sétimo mês começava a festa das Tendas?",
+     "15",
+     "14",
+     "22"
+    ],
+    "fr": [
+     "Quel jour du septième mois commençait la fête des Tentes ?",
+     "15",
+     "14",
+     "22"
+    ],
+    "de": [
+     "An welchem Tag des siebten Monats begann das Laubhüttenfest?",
+     "15",
+     "14",
+     "22"
+    ],
+    "it": [
+     "In quale giorno del settimo mese iniziava la festa delle Capanne?",
+     "15",
+     "14",
+     "22"
+    ],
+    "pl": [
+     "Którego dnia siódmego miesiąca zaczynało się święto Namiotów?",
+     "15",
+     "14",
+     "22"
+    ],
+    "ru": [
+     "В какой день седьмого месяца начинался праздник Кущей?",
+     "15",
+     "14",
+     "22"
+    ],
+    "tr": [
+     "Çardak Bayramı yedinci ayın kaçıncı günü başlardı?",
+     "15",
+     "14",
+     "22"
+    ],
+    "ja": [
+     "仮庵祭は第七の月の何日に始まりましたか？",
+     "15",
+     "14",
+     "22"
+    ],
+    "ko": [
+     "초막절은 일곱째 달 며칠에 시작되었습니까?",
+     "15",
+     "14",
+     "22"
+    ],
+    "ar": [
+     "في أي يوم من الشهر السابع كان يبدأ عيد المظال؟",
+     "15",
+     "14",
+     "22"
+    ]
+   }
+  },
+  {
+   "id": "ch-numbers-019-54",
+   "book": "numbers",
+   "chapter": 29,
+   "difficulty": "expert",
+   "ref": "Numbers 29:13",
+   "text": {
+    "en": [
+     "How many bulls were offered on the first day of the Feast of Booths?",
+     "13",
+     "7",
+     "12"
+    ],
+    "es": [
+     "¿Cuántos toros se ofrecían el primer día de la fiesta de las Tiendas?",
+     "13",
+     "7",
+     "12"
+    ],
+    "pt": [
+     "Quantos touros se ofereciam no primeiro dia da festa das Tendas?",
+     "13",
+     "7",
+     "12"
+    ],
+    "fr": [
+     "Combien de taureaux offrait-on le premier jour de la fête des Tentes ?",
+     "13",
+     "7",
+     "12"
+    ],
+    "de": [
+     "Wie viele Stiere wurden am ersten Tag des Laubhüttenfestes geopfert?",
+     "13",
+     "7",
+     "12"
+    ],
+    "it": [
+     "Quanti giovenchi si offrivano il primo giorno della festa delle Capanne?",
+     "13",
+     "7",
+     "12"
+    ],
+    "pl": [
+     "Ile cielców składano pierwszego dnia święta Namiotów?",
+     "13",
+     "7",
+     "12"
+    ],
+    "ru": [
+     "Сколько тельцов приносили в первый день праздника Кущей?",
+     "13",
+     "7",
+     "12"
+    ],
+    "tr": [
+     "Çardak Bayramı'nın ilk günü kaç boğa sunulurdu?",
+     "13",
+     "7",
+     "12"
+    ],
+    "ja": [
+     "仮庵祭の初日に雄牛は何頭献げられましたか？",
+     "13",
+     "7",
+     "12"
+    ],
+    "ko": [
+     "초막절 첫날에는 수소를 몇 마리 바쳤습니까?",
+     "13",
+     "7",
+     "12"
+    ],
+    "ar": [
+     "كم ثوراً كان يُقدَّم في اليوم الأول من عيد المظال؟",
+     "13",
+     "7",
+     "12"
+    ]
+   }
+  },
+  {
+   "id": "ch-numbers-019-55",
+   "book": "numbers",
+   "chapter": 29,
+   "difficulty": "impossible",
+   "ref": "Numbers 29:35-36",
+   "text": {
+    "en": [
+     "How many bulls were offered on the eighth day of the Booths festival?",
+     "1",
+     "7",
+     "13"
+    ],
+    "es": [
+     "¿Cuántos toros se ofrecían el octavo día de la fiesta de las Tiendas?",
+     "1",
+     "7",
+     "13"
+    ],
+    "pt": [
+     "Quantos touros se ofereciam no oitavo dia da festa das Tendas?",
+     "1",
+     "7",
+     "13"
+    ],
+    "fr": [
+     "Combien de taureaux offrait-on le huitième jour de la fête des Tentes ?",
+     "1",
+     "7",
+     "13"
+    ],
+    "de": [
+     "Wie viele Stiere wurden am achten Tag des Laubhüttenfestes geopfert?",
+     "1",
+     "7",
+     "13"
+    ],
+    "it": [
+     "Quanti giovenchi si offrivano l'ottavo giorno della festa delle Capanne?",
+     "1",
+     "7",
+     "13"
+    ],
+    "pl": [
+     "Ilu cielców składano ósmego dnia święta Namiotów?",
+     "1",
+     "7",
+     "13"
+    ],
+    "ru": [
+     "Сколько тельцов приносили в восьмой день праздника Кущей?",
+     "1",
+     "7",
+     "13"
+    ],
+    "tr": [
+     "Çardak Bayramı'nın sekizinci günü kaç boğa sunulurdu?",
+     "1",
+     "7",
+     "13"
+    ],
+    "ja": [
+     "仮庵祭の八日目に雄牛は何頭献げられましたか？",
+     "1",
+     "7",
+     "13"
+    ],
+    "ko": [
+     "초막절 여드레째 날에는 수소를 몇 마리 바쳤습니까?",
+     "1",
+     "7",
+     "13"
+    ],
+    "ar": [
+     "كم ثوراً كان يُقدَّم في اليوم الثامن من عيد المظال؟",
+     "1",
+     "7",
+     "13"
+    ]
+   }
+  },
+  {
+   "id": "ch-numbers-019-56",
+   "book": "numbers",
+   "chapter": 30,
+   "difficulty": "easy",
+   "ref": "Numbers 30:1 (Hebrew 30:2)",
+   "text": {
+    "en": [
+     "Who gave the tribal heads the Lord's commands about vows?",
+     "Moses",
+     "Aaron",
+     "Joshua"
+    ],
+    "es": [
+     "¿Quién dio a los jefes de las tribus las órdenes del Señor sobre los votos?",
+     "Moisés",
+     "Aarón",
+     "Josué"
+    ],
+    "pt": [
+     "Quem transmitiu aos chefes das tribos as ordens do Senhor sobre os votos?",
+     "Moisés",
+     "Arão",
+     "Josué"
+    ],
+    "fr": [
+     "Qui transmit aux chefs des tribus les ordres du Seigneur sur les vœux ?",
+     "Moïse",
+     "Aaron",
+     "Josué"
+    ],
+    "de": [
+     "Wer gab den Stammesoberhäuptern die Gebote des Herrn über Gelübde weiter?",
+     "Mose",
+     "Aaron",
+     "Josua"
+    ],
+    "it": [
+     "Chi comunicò ai capi delle tribù gli ordini del Signore sui voti?",
+     "Mosè",
+     "Aronne",
+     "Giosuè"
+    ],
+    "pl": [
+     "Kto przekazał naczelnikom plemion polecenia Pana o ślubach?",
+     "Mojżesz",
+     "Aaron",
+     "Jozue"
+    ],
+    "ru": [
+     "Кто передал главам колен повеления Господа об обетах?",
+     "Моисей",
+     "Аарон",
+     "Иисус"
+    ],
+    "tr": [
+     "RAB'bin adaklarla ilgili buyruklarını oymak başlarına kim bildirdi?",
+     "Musa",
+     "Harun",
+     "Yeşu"
+    ],
+    "ja": [
+     "誓願についての主の命令を部族の長たちに伝えたのは誰ですか？",
+     "モーセ",
+     "アロン",
+     "ヨシュア"
+    ],
+    "ko": [
+     "서원에 관한 주님의 명령을 지파 수장들에게 전한 사람은 누구입니까?",
+     "모세",
+     "아론",
+     "여호수아"
+    ],
+    "ar": [
+     "من نقل إلى رؤساء الأسباط أوامر الرب عن النذور؟",
+     "موسى",
+     "هارون",
+     "يشوع"
+    ]
+   }
+  },
+  {
+   "id": "ch-numbers-019-57",
+   "book": "numbers",
+   "chapter": 30,
+   "difficulty": "medium",
+   "ref": "Numbers 30:4-5 (Hebrew 30:5-6)",
+   "text": {
+    "en": [
+     "Whose vow could a father cancel on the day he heard of it?",
+     "Daughter",
+     "Son",
+     "Servant"
+    ],
+    "es": [
+     "¿El voto de quién podía anular un padre el mismo día que lo oía?",
+     "Hija",
+     "Hijo",
+     "Siervo"
+    ],
+    "pt": [
+     "O voto de quem um pai podia anular no dia em que o ouvia?",
+     "Filha",
+     "Filho",
+     "Servo"
+    ],
+    "fr": [
+     "Le vœu de qui un père pouvait-il annuler le jour où il l'apprenait ?",
+     "Fille",
+     "Fils",
+     "Serviteur"
+    ],
+    "de": [
+     "Wessen Gelübde konnte ein Vater an dem Tag aufheben, an dem er davon hörte?",
+     "Tochter",
+     "Sohn",
+     "Knecht"
+    ],
+    "it": [
+     "Il voto di chi poteva annullare un padre il giorno in cui lo veniva a sapere?",
+     "Figlia",
+     "Figlio",
+     "Servo"
+    ],
+    "pl": [
+     "Czyj ślub mógł ojciec unieważnić w dniu, gdy go usłyszał?",
+     "Córki",
+     "Syna",
+     "Sługi"
+    ],
+    "ru": [
+     "Чей обет мог отменить отец в день, когда услышал о нём?",
+     "Дочери",
+     "Сына",
+     "Слуги"
+    ],
+    "tr": [
+     "Baba, işittiği gün kimin adağını geçersiz kılabilirdi?",
+     "Kızının",
+     "Oğlunun",
+     "Hizmetkârın"
+    ],
+    "ja": [
+     "父は聞いた日に、誰の誓願を取り消すことができましたか？",
+     "娘",
+     "息子",
+     "僕"
+    ],
+    "ko": [
+     "아버지가 들은 날 무효로 할 수 있는 서원은 누구의 것입니까?",
+     "딸",
+     "아들",
+     "종"
+    ],
+    "ar": [
+     "نذر من يستطيع الأب إبطاله في اليوم الذي يسمع به؟",
+     "ابنة",
+     "ابن",
+     "عبد"
+    ]
+   }
+  },
+  {
+   "id": "ch-numbers-019-58",
+   "book": "numbers",
+   "chapter": 30,
+   "difficulty": "hard",
+   "ref": "Numbers 30:9 (Hebrew 30:10)",
+   "text": {
+    "en": [
+     "Which woman's vow always stood, since no husband could cancel it?",
+     "Widow",
+     "Daughter",
+     "Wife"
+    ],
+    "es": [
+     "¿El voto de qué mujer siempre quedaba firme porque ningún marido podía anularlo?",
+     "Viuda",
+     "Hija",
+     "Esposa"
+    ],
+    "pt": [
+     "O voto de que mulher sempre valia, porque nenhum marido podia anulá-lo?",
+     "Viúva",
+     "Filha",
+     "Esposa"
+    ],
+    "fr": [
+     "Le vœu de quelle femme tenait toujours, aucun mari ne pouvant l'annuler ?",
+     "Veuve",
+     "Fille",
+     "Épouse"
+    ],
+    "de": [
+     "Welcher Frau Gelübde galt stets, weil kein Ehemann es aufheben konnte?",
+     "Witwe",
+     "Tochter",
+     "Ehefrau"
+    ],
+    "it": [
+     "Il voto di quale donna restava sempre valido, perché nessun marito poteva annullarlo?",
+     "Vedova",
+     "Figlia",
+     "Moglie"
+    ],
+    "pl": [
+     "Czyj ślub zawsze obowiązywał, bo żaden mąż nie mógł go unieważnić?",
+     "Wdowy",
+     "Córki",
+     "Żony"
+    ],
+    "ru": [
+     "Чей обет всегда оставался в силе, так как муж не мог его отменить?",
+     "Вдовы",
+     "Дочери",
+     "Жены"
+    ],
+    "tr": [
+     "Hangi kadının adağı, hiçbir koca iptal edemediği için geçerli kalırdı?",
+     "Dul",
+     "Kız",
+     "Eş"
+    ],
+    "ja": [
+     "夫が取り消せないため常に有効だった誓願は、どの女性のものですか？",
+     "やもめ",
+     "娘",
+     "妻"
+    ],
+    "ko": [
+     "남편이 무효로 할 수 없어 늘 유효했던 서원은 어느 여자의 것입니까?",
+     "과부",
+     "딸",
+     "아내"
+    ],
+    "ar": [
+     "نذر أي امرأة يبقى دائماً ثابتاً لأن لا زوج يستطيع إبطاله؟",
+     "أرملة",
+     "ابنة",
+     "زوجة"
+    ]
+   }
+  },
+  {
+   "id": "ch-numbers-019-59",
+   "book": "numbers",
+   "chapter": 30,
+   "difficulty": "expert",
+   "ref": "Numbers 30:15 (Hebrew 30:16)",
+   "text": {
+    "en": [
+     "In the law of vows, who bore a wife's guilt for a belated annulment?",
+     "Husband",
+     "Father",
+     "Priest"
+    ],
+    "es": [
+     "¿Quién cargaba con la culpa de la esposa si se anulaba su voto demasiado tarde, según la ley de los votos?",
+     "Marido",
+     "Padre",
+     "Sacerdote"
+    ],
+    "pt": [
+     "Pela lei dos votos, quem carregava a culpa da esposa se a anulação do voto fosse tardia?",
+     "Marido",
+     "Pai",
+     "Sacerdote"
+    ],
+    "fr": [
+     "Selon la loi des vœux, qui portait la faute de l'épouse en cas d'annulation tardive ?",
+     "Mari",
+     "Père",
+     "Prêtre"
+    ],
+    "de": [
+     "Wer trug nach dem Gelübdegesetz die Schuld der Frau bei verspäteter Aufhebung?",
+     "Ehemann",
+     "Vater",
+     "Priester"
+    ],
+    "it": [
+     "Secondo la legge sui voti, chi portava la colpa della moglie in caso di annullamento tardivo?",
+     "Marito",
+     "Padre",
+     "Sacerdote"
+    ],
+    "pl": [
+     "Kto według prawa o ślubach ponosił winę żony przy spóźnionym unieważnieniu?",
+     "Mąż",
+     "Ojciec",
+     "Kapłan"
+    ],
+    "ru": [
+     "Кто по закону об обетах нёс вину жены при запоздалой отмене обета?",
+     "Муж",
+     "Отец",
+     "Священник"
+    ],
+    "tr": [
+     "Adak yasasına göre geç iptal durumunda kadının suçunu kim yüklenirdi?",
+     "Koca",
+     "Baba",
+     "Kâhin"
+    ],
+    "ja": [
+     "誓願の規定で、取り消しが遅れた場合に妻の罪を負うのは誰ですか？",
+     "夫",
+     "父",
+     "祭司"
+    ],
+    "ko": [
+     "서원 규정에 따르면 늦게 무효로 했을 때 아내의 죄를 지는 사람은 누구입니까?",
+     "남편",
+     "아버지",
+     "사제"
+    ],
+    "ar": [
+     "بحسب شريعة النذور، من كان يحمل ذنب الزوجة عند إبطال النذر متأخراً؟",
+     "زوج",
+     "أب",
+     "كاهن"
+    ]
+   }
+  },
+  {
+   "id": "ch-numbers-019-60",
+   "book": "numbers",
+   "chapter": 30,
+   "difficulty": "impossible",
+   "ref": "Numbers 30:13 (Hebrew 30:14)",
+   "text": {
+    "en": [
+     "Besides a vow, which solemn pledge could a husband also annul?",
+     "Oath",
+     "Gift",
+     "Tithe"
+    ],
+    "es": [
+     "Además de un voto, ¿qué promesa solemne podía anular también el marido?",
+     "Juramento",
+     "Regalo",
+     "Diezmo"
+    ],
+    "pt": [
+     "Além de um voto, que promessa solene o marido também podia anular?",
+     "Juramento",
+     "Presente",
+     "Dízimo"
+    ],
+    "fr": [
+     "Outre un vœu, quel engagement solennel le mari pouvait-il aussi annuler ?",
+     "Serment",
+     "Cadeau",
+     "Dîme"
+    ],
+    "de": [
+     "Welches feierliche Versprechen konnte der Mann außer einem Gelübde aufheben?",
+     "Eid",
+     "Geschenk",
+     "Zehnt"
+    ],
+    "it": [
+     "Oltre a un voto, quale impegno solenne poteva annullare anche il marito?",
+     "Giuramento",
+     "Dono",
+     "Decima"
+    ],
+    "pl": [
+     "Jakie uroczyste zobowiązanie, oprócz ślubu, mógł unieważnić mąż?",
+     "Przysięgę",
+     "Dar",
+     "Dziesięcinę"
+    ],
+    "ru": [
+     "Какое торжественное обязательство, кроме обета, мог отменить муж?",
+     "Клятву",
+     "Дар",
+     "Десятину"
+    ],
+    "tr": [
+     "Koca, adağın yanı sıra hangi ciddi taahhüdü de iptal edebilirdi?",
+     "Yemin",
+     "Hediye",
+     "Ondalık"
+    ],
+    "ja": [
+     "夫は誓願のほかに、どの厳粛な約束も取り消せましたか？",
+     "誓い",
+     "贈り物",
+     "十分の一"
+    ],
+    "ko": [
+     "남편은 서원 외에 어떤 엄숙한 약속도 무효로 할 수 있었습니까?",
+     "맹세",
+     "선물",
+     "십일조"
+    ],
+    "ar": [
+     "غير النذر، أي التزام رسمي يستطيع الزوج إبطاله أيضاً؟",
+     "قسم",
+     "هدية",
+     "عشر"
+    ]
+   }
+  },
+  {
+   "id": "ch-numbers-019-61",
+   "book": "numbers",
+   "chapter": 31,
+   "difficulty": "easy",
+   "ref": "Numbers 31:3",
+   "text": {
+    "en": [
+     "Against which people did Israel wage the Lord's vengeance war?",
+     "Midian",
+     "Moab",
+     "Edom"
+    ],
+    "es": [
+     "¿Contra qué pueblo libró Israel la guerra de venganza del Señor?",
+     "Madián",
+     "Moab",
+     "Edom"
+    ],
+    "pt": [
+     "Contra que povo Israel travou a guerra de vingança do Senhor?",
+     "Madiã",
+     "Moab",
+     "Edom"
+    ],
+    "fr": [
+     "Contre quel peuple Israël mena-t-il la guerre de vengeance du Seigneur ?",
+     "Madiân",
+     "Moab",
+     "Édom"
+    ],
+    "de": [
+     "Gegen welches Volk führte Israel den Rachekrieg des Herrn?",
+     "Midian",
+     "Moab",
+     "Edom"
+    ],
+    "it": [
+     "Contro quale popolo Israele condusse la guerra di vendetta del Signore?",
+     "Madian",
+     "Moab",
+     "Edom"
+    ],
+    "pl": [
+     "Przeciw komu Izrael prowadził wojnę zemsty Pana?",
+     "Madianitom",
+     "Moabitom",
+     "Edomitom"
+    ],
+    "ru": [
+     "Против какого народа Израиль вёл войну мщения Господня?",
+     "Мадиам",
+     "Моав",
+     "Едом"
+    ],
+    "tr": [
+     "İsrail, RAB'bin öç savaşını hangi halka karşı yürüttü?",
+     "Midyan",
+     "Moav",
+     "Edom"
+    ],
+    "ja": [
+     "イスラエルは主の報復の戦いを、どの民に対して行いましたか？",
+     "ミディアン",
+     "モアブ",
+     "エドム"
+    ],
+    "ko": [
+     "이스라엘은 주님의 복수 전쟁을 어느 민족에게 치렀습니까?",
+     "미디안",
+     "모압",
+     "에돔"
+    ],
+    "ar": [
+     "ضد أي شعب خاض إسرائيل حرب انتقام الرب؟",
+     "مديان",
+     "موآب",
+     "أدوم"
+    ]
+   }
+  },
+  {
+   "id": "ch-numbers-019-62",
+   "book": "numbers",
+   "chapter": 31,
+   "difficulty": "medium",
+   "ref": "Numbers 31:4",
+   "text": {
+    "en": [
+     "How many men from each tribe did Moses send against Midian?",
+     "1000",
+     "100",
+     "10000"
+    ],
+    "es": [
+     "¿Cuántos hombres de cada tribu envió Moisés contra Madián?",
+     "1000",
+     "100",
+     "10000"
+    ],
+    "pt": [
+     "Quantos homens de cada tribo Moisés enviou contra Madiã?",
+     "1000",
+     "100",
+     "10000"
+    ],
+    "fr": [
+     "Combien d'hommes de chaque tribu Moïse envoya-t-il contre Madiân ?",
+     "1000",
+     "100",
+     "10000"
+    ],
+    "de": [
+     "Wie viele Männer pro Stamm schickte Mose gegen Midian?",
+     "1000",
+     "100",
+     "10000"
+    ],
+    "it": [
+     "Quanti uomini per ogni tribù Mosè mandò contro Madian?",
+     "1000",
+     "100",
+     "10000"
+    ],
+    "pl": [
+     "Ilu ludzi z każdego plemienia posłał Mojżesz przeciw Madianitom?",
+     "1000",
+     "100",
+     "10000"
+    ],
+    "ru": [
+     "Сколько человек от каждого колена послал Моисей против Мадиама?",
+     "1000",
+     "100",
+     "10000"
+    ],
+    "tr": [
+     "Musa, Midyan'a karşı her oymaktan kaç kişi gönderdi?",
+     "1000",
+     "100",
+     "10000"
+    ],
+    "ja": [
+     "モーセは各部族から何人をミディアンに向けて送りましたか？",
+     "1000",
+     "100",
+     "10000"
+    ],
+    "ko": [
+     "모세는 미디안에 맞서 각 지파에서 몇 명을 보냈습니까?",
+     "1000",
+     "100",
+     "10000"
+    ],
+    "ar": [
+     "كم رجلاً من كل سبط أرسل موسى ضد مديان؟",
+     "1000",
+     "100",
+     "10000"
+    ]
+   }
+  },
+  {
+   "id": "ch-numbers-019-63",
+   "book": "numbers",
+   "chapter": 31,
+   "difficulty": "hard",
+   "ref": "Numbers 31:8",
+   "text": {
+    "en": [
+     "Which famous seer was killed by the sword in Israel's war on Midian?",
+     "Balaam",
+     "Balak",
+     "Zimri"
+    ],
+    "es": [
+     "¿Qué famoso adivino murió a espada en la guerra de Israel contra Madián?",
+     "Balaam",
+     "Balac",
+     "Zimrí"
+    ],
+    "pt": [
+     "Que famoso adivinho morreu à espada na guerra de Israel contra Madiã?",
+     "Balaão",
+     "Balac",
+     "Zambri"
+    ],
+    "fr": [
+     "Quel célèbre devin mourut par l'épée dans la guerre d'Israël contre Madiân ?",
+     "Balaam",
+     "Balak",
+     "Zimri"
+    ],
+    "de": [
+     "Welcher berühmte Seher starb im Krieg Israels gegen Midian durch das Schwert?",
+     "Bileam",
+     "Balak",
+     "Simri"
+    ],
+    "it": [
+     "Quale famoso indovino morì di spada nella guerra di Israele contro Madian?",
+     "Balaam",
+     "Balak",
+     "Zimri"
+    ],
+    "pl": [
+     "Który słynny wróżbita zginął od miecza w wojnie Izraela z Madianitami?",
+     "Balaam",
+     "Balak",
+     "Zimri"
+    ],
+    "ru": [
+     "Какой известный прорицатель погиб от меча в войне Израиля с Мадиамом?",
+     "Валаам",
+     "Валак",
+     "Замврий"
+    ],
+    "tr": [
+     "Hangi ünlü kâhin İsrail'in Midyan savaşında kılıçla öldürüldü?",
+     "Balam",
+     "Balak",
+     "Zimri"
+    ],
+    "ja": [
+     "イスラエルのミディアン戦で剣に倒れた有名な占い師は誰ですか？",
+     "バラム",
+     "バラク",
+     "ジムリ"
+    ],
+    "ko": [
+     "이스라엘의 미디안 전쟁에서 칼에 죽은 유명한 점쟁이는 누구입니까?",
+     "발라암",
+     "발락",
+     "지므리"
+    ],
+    "ar": [
+     "أي عرّاف مشهور قُتل بالسيف في حرب إسرائيل على مديان؟",
+     "بلعام",
+     "بالاق",
+     "زمري"
+    ]
+   }
+  },
+  {
+   "id": "ch-numbers-019-64",
+   "book": "numbers",
+   "chapter": 31,
+   "difficulty": "expert",
+   "ref": "Numbers 31:6",
+   "text": {
+    "en": [
+     "Which priest accompanied Israel's army to Midian carrying the trumpets?",
+     "Phinehas",
+     "Eleazar",
+     "Ithamar"
+    ],
+    "es": [
+     "¿Qué sacerdote acompañó al ejército de Israel contra Madián con las trompetas?",
+     "Finees",
+     "Eleazar",
+     "Itamar"
+    ],
+    "pt": [
+     "Que sacerdote acompanhou o exército de Israel contra Madiã com as trombetas?",
+     "Finéias",
+     "Eleazar",
+     "Itamar"
+    ],
+    "fr": [
+     "Quel prêtre accompagna l'armée d'Israël contre Madiân avec les trompettes ?",
+     "Phinées",
+     "Éléazar",
+     "Ithamar"
+    ],
+    "de": [
+     "Welcher Priester zog mit den Trompeten mit Israels Heer gegen Midian?",
+     "Pinhas",
+     "Eleasar",
+     "Itamar"
+    ],
+    "it": [
+     "Quale sacerdote accompagnò con le trombe l'esercito d'Israele contro Madian?",
+     "Finees",
+     "Eleazaro",
+     "Itamar"
+    ],
+    "pl": [
+     "Który kapłan z trąbami towarzyszył wojsku Izraela przeciw Madianitom?",
+     "Pinchas",
+     "Eleazar",
+     "Itamar"
+    ],
+    "ru": [
+     "Какой священник с трубами сопровождал войско Израиля против Мадиама?",
+     "Финеес",
+     "Елеазар",
+     "Ифамар"
+    ],
+    "tr": [
+     "Hangi kâhin borularla İsrail ordusuna Midyan'a karşı eşlik etti?",
+     "Pinehas",
+     "Elazar",
+     "İtamar"
+    ],
+    "ja": [
+     "ラッパを持ってミディアン遠征の軍に同行した祭司は誰ですか？",
+     "ピネハス",
+     "エレアザル",
+     "イタマル"
+    ],
+    "ko": [
+     "나팔을 들고 미디안 원정군과 동행한 사제는 누구입니까?",
+     "피느하스",
+     "엘아자르",
+     "이타마르"
+    ],
+    "ar": [
+     "أي كاهن رافق جيش إسرائيل إلى مديان حاملاً الأبواق؟",
+     "فنحاس",
+     "ألعازار",
+     "إيثامار"
+    ]
+   }
+  },
+  {
+   "id": "ch-numbers-019-65",
+   "book": "numbers",
+   "chapter": 31,
+   "difficulty": "impossible",
+   "ref": "Numbers 31:32",
+   "text": {
+    "en": [
+     "How many sheep did Israel capture as booty from Midian?",
+     "675000",
+     "72000",
+     "61000"
+    ],
+    "es": [
+     "¿Cuántas ovejas capturó Israel como botín de Madián?",
+     "675000",
+     "72000",
+     "61000"
+    ],
+    "pt": [
+     "Quantas ovelhas Israel capturou como despojo de Madiã?",
+     "675000",
+     "72000",
+     "61000"
+    ],
+    "fr": [
+     "Combien de brebis Israël prit-il comme butin sur Madiân ?",
+     "675000",
+     "72000",
+     "61000"
+    ],
+    "de": [
+     "Wie viele Schafe erbeutete Israel von Midian?",
+     "675000",
+     "72000",
+     "61000"
+    ],
+    "it": [
+     "Quante pecore prese Israele come bottino a Madian?",
+     "675000",
+     "72000",
+     "61000"
+    ],
+    "pl": [
+     "Ile owiec zdobył Izrael jako łup od Madianitów?",
+     "675000",
+     "72000",
+     "61000"
+    ],
+    "ru": [
+     "Сколько овец Израиль взял в добычу у Мадиама?",
+     "675000",
+     "72000",
+     "61000"
+    ],
+    "tr": [
+     "İsrail, Midyan'dan ganimet olarak kaç koyun aldı?",
+     "675000",
+     "72000",
+     "61000"
+    ],
+    "ja": [
+     "イスラエルはミディアンから戦利品として羊を何頭奪いましたか？",
+     "675000",
+     "72000",
+     "61000"
+    ],
+    "ko": [
+     "이스라엘은 미디안에게서 전리품으로 양을 몇 마리 빼앗았습니까?",
+     "675000",
+     "72000",
+     "61000"
+    ],
+    "ar": [
+     "كم رأساً من الغنم أخذ إسرائيل غنيمة من مديان؟",
+     "675000",
+     "72000",
+     "61000"
+    ]
+   }
+  },
+  {
+   "id": "ch-numbers-019-66",
+   "book": "numbers",
+   "chapter": 32,
+   "difficulty": "easy",
+   "ref": "Numbers 32:5",
+   "text": {
+    "en": [
+     "Reuben and Gad asked to settle east of which river?",
+     "Jordan",
+     "Nile",
+     "Euphrates"
+    ],
+    "es": [
+     "¿Al este de qué río pidieron establecerse Rubén y Gad?",
+     "Jordán",
+     "Nilo",
+     "Éufrates"
+    ],
+    "pt": [
+     "A leste de que rio Rúben e Gad pediram para se estabelecer?",
+     "Jordão",
+     "Nilo",
+     "Eufrates"
+    ],
+    "fr": [
+     "À l'est de quel fleuve Ruben et Gad demandèrent-ils à s'établir ?",
+     "Jourdain",
+     "Nil",
+     "Euphrate"
+    ],
+    "de": [
+     "Östlich welchen Flusses wollten sich Ruben und Gad niederlassen?",
+     "Jordan",
+     "Nil",
+     "Euphrat"
+    ],
+    "it": [
+     "A est di quale fiume Ruben e Gad chiesero di stabilirsi?",
+     "Giordano",
+     "Nilo",
+     "Eufrate"
+    ],
+    "pl": [
+     "Na wschód od jakiej rzeki chcieli się osiedlić Ruben i Gad?",
+     "Jordanu",
+     "Nilu",
+     "Eufratu"
+    ],
+    "ru": [
+     "К востоку от какой реки просили поселиться Рувим и Гад?",
+     "Иордана",
+     "Нила",
+     "Евфрата"
+    ],
+    "tr": [
+     "Ruven ile Gad hangi nehrin doğusuna yerleşmek istedi?",
+     "Ürdün",
+     "Nil",
+     "Fırat"
+    ],
+    "ja": [
+     "ルベンとガドは、どの川の東に定住することを望みましたか？",
+     "ヨルダン",
+     "ナイル",
+     "ユーフラテス"
+    ],
+    "ko": [
+     "르우벤과 갓은 어느 강의 동쪽에 정착하기를 원했습니까?",
+     "요르단",
+     "나일",
+     "유프라테스"
+    ],
+    "ar": [
+     "شرقي أي نهر طلب رأوبين وجاد الاستقرار؟",
+     "الأردن",
+     "النيل",
+     "الفرات"
+    ]
+   }
+  },
+  {
+   "id": "ch-numbers-019-67",
+   "book": "numbers",
+   "chapter": 32,
+   "difficulty": "medium",
+   "ref": "Numbers 32:1",
+   "text": {
+    "en": [
+     "What did Reuben and Gad have in abundance before requesting Gilead?",
+     "Livestock",
+     "Gold",
+     "Wheat"
+    ],
+    "es": [
+     "¿Qué poseían en abundancia Rubén y Gad antes de pedir Galaad?",
+     "Ganado",
+     "Oro",
+     "Trigo"
+    ],
+    "pt": [
+     "O que Rúben e Gad possuíam em abundância antes de pedir Galaad?",
+     "Gado",
+     "Ouro",
+     "Trigo"
+    ],
+    "fr": [
+     "Que possédaient en abondance Ruben et Gad avant de demander Galaad ?",
+     "Bétail",
+     "Or",
+     "Blé"
+    ],
+    "de": [
+     "Was besaßen Ruben und Gad im Überfluss, bevor sie Gilead erbaten?",
+     "Vieh",
+     "Gold",
+     "Weizen"
+    ],
+    "it": [
+     "Che cosa possedevano in abbondanza Ruben e Gad prima di chiedere Gàlaad?",
+     "Bestiame",
+     "Oro",
+     "Grano"
+    ],
+    "pl": [
+     "Czego mieli w obfitości Ruben i Gad, zanim poprosili o Gilead?",
+     "Bydła",
+     "Złota",
+     "Pszenicy"
+    ],
+    "ru": [
+     "Чего было в изобилии у Рувима и Гада, прежде чем они попросили Галаад?",
+     "Скота",
+     "Золота",
+     "Пшеницы"
+    ],
+    "tr": [
+     "Ruven ile Gad'ın Gilat'ı istemeden önce bol miktarda sahip olduğu şey neydi?",
+     "Sürü",
+     "Altın",
+     "Buğday"
+    ],
+    "ja": [
+     "ルベンとガドは、ギレアドを求める前に何を豊富に持っていましたか？",
+     "家畜",
+     "金",
+     "小麦"
+    ],
+    "ko": [
+     "르우벤과 갓은 길앗을 청하기 전에 무엇을 많이 가지고 있었습니까?",
+     "가축",
+     "금",
+     "밀"
+    ],
+    "ar": [
+     "ماذا امتلك رأوبين وجاد بكثرة قبل أن يطلبا جلعاد؟",
+     "ماشية",
+     "ذهب",
+     "قمح"
+    ]
+   }
+  },
+  {
+   "id": "ch-numbers-019-68",
+   "book": "numbers",
+   "chapter": 32,
+   "difficulty": "hard",
+   "ref": "Numbers 32:33",
+   "text": {
+    "en": [
+     "Which half-tribe also received land east of the Jordan?",
+     "Manasseh",
+     "Benjamin",
+     "Simeon"
+    ],
+    "es": [
+     "¿Qué media tribu recibió también tierra al este del Jordán?",
+     "Manasés",
+     "Benjamín",
+     "Simeón"
+    ],
+    "pt": [
+     "Que meia tribo recebeu também terra a leste do Jordão?",
+     "Manassés",
+     "Benjamim",
+     "Simeão"
+    ],
+    "fr": [
+     "Quelle demi-tribu reçut aussi une terre à l'est du Jourdain ?",
+     "Manassé",
+     "Benjamin",
+     "Siméon"
+    ],
+    "de": [
+     "Welcher Halbstamm erhielt ebenfalls Land östlich des Jordan?",
+     "Manasse",
+     "Benjamin",
+     "Simeon"
+    ],
+    "it": [
+     "Quale mezza tribù ricevette pure terra a est del Giordano?",
+     "Manasse",
+     "Beniamino",
+     "Simeone"
+    ],
+    "pl": [
+     "Które półplemię otrzymało także ziemię na wschód od Jordanu?",
+     "Manassesa",
+     "Beniamina",
+     "Symeona"
+    ],
+    "ru": [
+     "Какое полуколено тоже получило землю к востоку от Иордана?",
+     "Манассия",
+     "Вениамин",
+     "Симеон"
+    ],
+    "tr": [
+     "Hangi yarım oymak da Ürdün'ün doğusunda toprak aldı?",
+     "Manaşşe",
+     "Benyamin",
+     "Şimon"
+    ],
+    "ja": [
+     "ヨルダン川の東に土地を得たもう一つの半部族はどれですか？",
+     "マナセ",
+     "ベニヤミン",
+     "シメオン"
+    ],
+    "ko": [
+     "요르단 강 동쪽에 땅을 받은 또 하나의 반 지파는 어디입니까?",
+     "므나쎄",
+     "벤야민",
+     "시메온"
+    ],
+    "ar": [
+     "أي نصف سبط نال أيضاً أرضاً شرقي الأردن؟",
+     "منسى",
+     "بنيامين",
+     "شمعون"
+    ]
+   }
+  },
+  {
+   "id": "ch-numbers-019-69",
+   "book": "numbers",
+   "chapter": 32,
+   "difficulty": "expert",
+   "ref": "Numbers 32:42",
+   "text": {
+    "en": [
+     "East of the Jordan, who captured Kenath and named it after himself?",
+     "Nobah",
+     "Caleb",
+     "Gideon"
+    ],
+    "es": [
+     "¿Quién, al este del Jordán, conquistó Quenat y le puso su propio nombre?",
+     "Nóbaj",
+     "Caleb",
+     "Gedeón"
+    ],
+    "pt": [
+     "Quem, a leste do Jordão, conquistou Cenat e lhe deu o seu próprio nome?",
+     "Nobe",
+     "Caleb",
+     "Gedeão"
+    ],
+    "fr": [
+     "À l'est du Jourdain, qui prit Quenath et lui donna son propre nom ?",
+     "Nobah",
+     "Caleb",
+     "Gédéon"
+    ],
+    "de": [
+     "Wer eroberte östlich des Jordan Kenat und nannte es nach sich selbst?",
+     "Nobach",
+     "Kaleb",
+     "Gideon"
+    ],
+    "it": [
+     "A est del Giordano, chi conquistò Cenat e le diede il proprio nome?",
+     "Nobach",
+     "Caleb",
+     "Gedeone"
+    ],
+    "pl": [
+     "Kto na wschód od Jordanu zdobył Kenat i nazwał je własnym imieniem?",
+     "Nobach",
+     "Kaleb",
+     "Gedeon"
+    ],
+    "ru": [
+     "Кто к востоку от Иордана взял Кенаф и назвал его своим именем?",
+     "Новах",
+     "Халев",
+     "Гедеон"
+    ],
+    "tr": [
+     "Ürdün'ün doğusunda Kenat'ı ele geçirip kendi adını veren kimdi?",
+     "Nova",
+     "Kalev",
+     "Gideon"
+    ],
+    "ja": [
+     "ヨルダン川の東で、ケナトを占領して自分の名を付けたのは誰ですか？",
+     "ノバフ",
+     "カレブ",
+     "ギデオン"
+    ],
+    "ko": [
+     "요르단 강 동쪽에서 크나트를 점령하고 자기 이름을 붙인 사람은 누구입니까?",
+     "노바",
+     "칼렙",
+     "기드온"
+    ],
+    "ar": [
+     "شرقي الأردن، من استولى على قناث وسمّاها باسمه؟",
+     "نوبح",
+     "كالب",
+     "جدعون"
+    ]
+   }
+  },
+  {
+   "id": "ch-numbers-019-70",
+   "book": "numbers",
+   "chapter": 32,
+   "difficulty": "impossible",
+   "ref": "Numbers 32:34",
+   "text": {
+    "en": [
+     "East of the Jordan, which tribe rebuilt the city of Dibon?",
+     "Gad",
+     "Reuben",
+     "Asher"
+    ],
+    "es": [
+     "¿Qué tribu, al este del Jordán, reconstruyó la ciudad de Dibón?",
+     "Gad",
+     "Rubén",
+     "Aser"
+    ],
+    "pt": [
+     "Que tribo, a leste do Jordão, reconstruiu a cidade de Dibon?",
+     "Gad",
+     "Rúben",
+     "Aser"
+    ],
+    "fr": [
+     "Quelle tribu, à l'est du Jourdain, rebâtit la ville de Dibôn ?",
+     "Gad",
+     "Ruben",
+     "Asher"
+    ],
+    "de": [
+     "Welcher Stamm baute östlich des Jordan die Stadt Dibon wieder auf?",
+     "Gad",
+     "Ruben",
+     "Ascher"
+    ],
+    "it": [
+     "Quale tribù, a est del Giordano, ricostruì la città di Dibon?",
+     "Gad",
+     "Ruben",
+     "Aser"
+    ],
+    "pl": [
+     "Które plemię na wschód od Jordanu odbudowało miasto Dibon?",
+     "Gad",
+     "Ruben",
+     "Aser"
+    ],
+    "ru": [
+     "Какое колено к востоку от Иордана отстроило город Дивон?",
+     "Гад",
+     "Рувим",
+     "Асир"
+    ],
+    "tr": [
+     "Ürdün'ün doğusunda hangi oymak Divon kentini yeniden kurdu?",
+     "Gad",
+     "Ruven",
+     "Aşer"
+    ],
+    "ja": [
+     "ヨルダン川の東で、どの部族がディボンの町を再建しましたか？",
+     "ガド",
+     "ルベン",
+     "アシェル"
+    ],
+    "ko": [
+     "요르단 강 동쪽에서 어느 지파가 디본 성읍을 다시 세웠습니까?",
+     "갓",
+     "르우벤",
+     "아셀"
+    ],
+    "ar": [
+     "شرقي الأردن، أي سبط أعاد بناء مدينة ديبون؟",
+     "جاد",
+     "رأوبين",
+     "أشير"
+    ]
+   }
+  },
+  {
+   "id": "ch-numbers-019-71",
+   "book": "numbers",
+   "chapter": 33,
+   "difficulty": "easy",
+   "ref": "Numbers 33:3",
+   "text": {
+    "en": [
+     "From which city did Israel set out when leaving Egypt?",
+     "Rameses",
+     "Memphis",
+     "Thebes"
+    ],
+    "es": [
+     "¿De qué ciudad partió Israel al salir de Egipto?",
+     "Ramsés",
+     "Menfis",
+     "Tebas"
+    ],
+    "pt": [
+     "De que cidade Israel partiu ao sair do Egito?",
+     "Ramsés",
+     "Mênfis",
+     "Tebas"
+    ],
+    "fr": [
+     "De quelle ville Israël partit-il en quittant l'Égypte ?",
+     "Ramsès",
+     "Memphis",
+     "Thèbes"
+    ],
+    "de": [
+     "Von welcher Stadt brach Israel beim Auszug aus Ägypten auf?",
+     "Ramses",
+     "Memphis",
+     "Theben"
+    ],
+    "it": [
+     "Da quale città partì Israele uscendo dall'Egitto?",
+     "Ramses",
+     "Menfi",
+     "Tebe"
+    ],
+    "pl": [
+     "Z którego miasta wyruszył Izrael, opuszczając Egipt?",
+     "Ramses",
+     "Memfis",
+     "Teby"
+    ],
+    "ru": [
+     "Из какого города выступил Израиль, выйдя из Египта?",
+     "Раамсес",
+     "Мемфис",
+     "Фивы"
+    ],
+    "tr": [
+     "İsrail Mısır'dan çıkarken hangi kentten yola çıktı?",
+     "Ramses",
+     "Memfis",
+     "Teb"
+    ],
+    "ja": [
+     "イスラエルはエジプトを出る時、どの町から出発しましたか？",
+     "ラメセス",
+     "メンフィス",
+     "テーベ"
+    ],
+    "ko": [
+     "이스라엘은 이집트를 떠날 때 어느 성읍에서 출발했습니까?",
+     "라메세스",
+     "멤피스",
+     "테베"
+    ],
+    "ar": [
+     "من أي مدينة انطلق إسرائيل عند خروجه من مصر؟",
+     "رعمسيس",
+     "منف",
+     "طيبة"
+    ]
+   }
+  },
+  {
+   "id": "ch-numbers-019-72",
+   "book": "numbers",
+   "chapter": 33,
+   "difficulty": "medium",
+   "ref": "Numbers 33:3",
+   "text": {
+    "en": [
+     "On which day of the first month did Israel leave Egypt?",
+     "15",
+     "1",
+     "25"
+    ],
+    "es": [
+     "¿En qué día del primer mes salió Israel de Egipto?",
+     "15",
+     "1",
+     "25"
+    ],
+    "pt": [
+     "Em que dia do primeiro mês Israel saiu do Egito?",
+     "15",
+     "1",
+     "25"
+    ],
+    "fr": [
+     "Quel jour du premier mois Israël sortit-il d'Égypte ?",
+     "15",
+     "1",
+     "25"
+    ],
+    "de": [
+     "An welchem Tag des ersten Monats zog Israel aus Ägypten aus?",
+     "15",
+     "1",
+     "25"
+    ],
+    "it": [
+     "In quale giorno del primo mese Israele uscì dall'Egitto?",
+     "15",
+     "1",
+     "25"
+    ],
+    "pl": [
+     "Którego dnia pierwszego miesiąca Izrael wyszedł z Egiptu?",
+     "15",
+     "1",
+     "25"
+    ],
+    "ru": [
+     "В какой день первого месяца Израиль вышел из Египта?",
+     "15",
+     "1",
+     "25"
+    ],
+    "tr": [
+     "İsrail birinci ayın kaçıncı günü Mısır'dan çıktı?",
+     "15",
+     "1",
+     "25"
+    ],
+    "ja": [
+     "イスラエルは第一の月の何日にエジプトを出ましたか？",
+     "15",
+     "1",
+     "25"
+    ],
+    "ko": [
+     "이스라엘은 첫째 달 며칠에 이집트를 떠났습니까?",
+     "15",
+     "1",
+     "25"
+    ],
+    "ar": [
+     "في أي يوم من الشهر الأول خرج إسرائيل من مصر؟",
+     "15",
+     "1",
+     "25"
+    ]
+   }
+  },
+  {
+   "id": "ch-numbers-019-73",
+   "book": "numbers",
+   "chapter": 33,
+   "difficulty": "hard",
+   "ref": "Numbers 33:39",
+   "text": {
+    "en": [
+     "How old was Aaron when he died on Mount Hor?",
+     "123",
+     "120",
+     "127"
+    ],
+    "es": [
+     "¿Qué edad tenía Aarón cuando murió en el monte Hor?",
+     "123",
+     "120",
+     "127"
+    ],
+    "pt": [
+     "Que idade tinha Arão quando morreu no monte Hor?",
+     "123",
+     "120",
+     "127"
+    ],
+    "fr": [
+     "Quel âge avait Aaron quand il mourut sur le mont Hor ?",
+     "123",
+     "120",
+     "127"
+    ],
+    "de": [
+     "Wie alt war Aaron, als er auf dem Berg Hor starb?",
+     "123",
+     "120",
+     "127"
+    ],
+    "it": [
+     "Quanti anni aveva Aronne quando morì sul monte Or?",
+     "123",
+     "120",
+     "127"
+    ],
+    "pl": [
+     "Ile lat miał Aaron, gdy zmarł na górze Hor?",
+     "123",
+     "120",
+     "127"
+    ],
+    "ru": [
+     "Сколько лет было Аарону, когда он умер на горе Ор?",
+     "123",
+     "120",
+     "127"
+    ],
+    "tr": [
+     "Harun Hor Dağı'nda öldüğünde kaç yaşındaydı?",
+     "123",
+     "120",
+     "127"
+    ],
+    "ja": [
+     "アロンがホル山で死んだとき、何歳でしたか？",
+     "123",
+     "120",
+     "127"
+    ],
+    "ko": [
+     "아론이 호르 산에서 죽었을 때 몇 살이었습니까?",
+     "123",
+     "120",
+     "127"
+    ],
+    "ar": [
+     "كم كان عمر هارون عندما مات على جبل هور؟",
+     "123",
+     "120",
+     "127"
+    ]
+   }
+  },
+  {
+   "id": "ch-numbers-019-74",
+   "book": "numbers",
+   "chapter": 33,
+   "difficulty": "expert",
+   "ref": "Numbers 33:9",
+   "text": {
+    "en": [
+     "How many palm trees stood at the Elim camp?",
+     "70",
+     "12",
+     "40"
+    ],
+    "es": [
+     "¿Cuántas palmeras había en el campamento de Elim?",
+     "70",
+     "12",
+     "40"
+    ],
+    "pt": [
+     "Quantas palmeiras havia no acampamento de Elim?",
+     "70",
+     "12",
+     "40"
+    ],
+    "fr": [
+     "Combien de palmiers y avait-il au campement d'Élim ?",
+     "70",
+     "12",
+     "40"
+    ],
+    "de": [
+     "Wie viele Palmen standen beim Lagerplatz Elim?",
+     "70",
+     "12",
+     "40"
+    ],
+    "it": [
+     "Quante palme c'erano nell'accampamento di Elim?",
+     "70",
+     "12",
+     "40"
+    ],
+    "pl": [
+     "Ile palm rosło w obozowisku Elim?",
+     "70",
+     "12",
+     "40"
+    ],
+    "ru": [
+     "Сколько пальм было на стоянке в Елиме?",
+     "70",
+     "12",
+     "40"
+    ],
+    "tr": [
+     "Elim konağında kaç hurma ağacı vardı?",
+     "70",
+     "12",
+     "40"
+    ],
+    "ja": [
+     "エリムの宿営地には何本のナツメヤシがありましたか？",
+     "70",
+     "12",
+     "40"
+    ],
+    "ko": [
+     "엘림 진영에는 야자나무가 몇 그루 있었습니까?",
+     "70",
+     "12",
+     "40"
+    ],
+    "ar": [
+     "كم نخلة كانت في مخيم إيليم؟",
+     "70",
+     "12",
+     "40"
+    ]
+   }
+  },
+  {
+   "id": "ch-numbers-019-75",
+   "book": "numbers",
+   "chapter": 33,
+   "difficulty": "impossible",
+   "ref": "Numbers 33:8",
+   "text": {
+    "en": [
+     "Per the itinerary, which wilderness did Israel enter after crossing the sea?",
+     "Etham",
+     "Paran",
+     "Moab"
+    ],
+    "es": [
+     "Según el itinerario, ¿qué desierto cruzó Israel tras atravesar el mar?",
+     "Etam",
+     "Parán",
+     "Moab"
+    ],
+    "pt": [
+     "Segundo o itinerário, que deserto Israel atravessou depois do mar?",
+     "Etam",
+     "Farã",
+     "Moab"
+    ],
+    "fr": [
+     "Selon l'itinéraire, quel désert Israël traversa-t-il après la mer ?",
+     "Étham",
+     "Parân",
+     "Moab"
+    ],
+    "de": [
+     "Welche Wüste durchzog Israel laut Reiseliste nach der Durchquerung des Meeres?",
+     "Etam",
+     "Paran",
+     "Moab"
+    ],
+    "it": [
+     "Secondo l'itinerario, quale deserto attraversò Israele dopo il mare?",
+     "Etam",
+     "Paran",
+     "Moab"
+    ],
+    "pl": [
+     "Przez którą pustynię szedł Izrael po przejściu morza, według wykazu?",
+     "Etam",
+     "Paran",
+     "Moab"
+    ],
+    "ru": [
+     "Какую пустыню прошёл Израиль после моря, согласно перечню?",
+     "Ефам",
+     "Фаран",
+     "Моав"
+    ],
+    "tr": [
+     "Yolculuk listesine göre İsrail denizi geçtikten sonra hangi çöle girdi?",
+     "Etam",
+     "Paran",
+     "Moav"
+    ],
+    "ja": [
+     "行程表によれば、イスラエルは海を渡った後どの荒れ野に入りましたか？",
+     "エタム",
+     "パラン",
+     "モアブ"
+    ],
+    "ko": [
+     "여정 목록에 따르면 이스라엘은 바다를 건넌 뒤 어느 광야에 들어갔습니까?",
+     "에탐",
+     "파란",
+     "모압"
+    ],
+    "ar": [
+     "بحسب لائحة المراحل، أي برية دخل إسرائيل بعد عبور البحر؟",
+     "إيثام",
+     "فاران",
+     "موآب"
+    ]
+   }
+  },
+  {
+   "id": "ch-numbers-019-76",
+   "book": "numbers",
+   "chapter": 34,
+   "difficulty": "easy",
+   "ref": "Numbers 34:2",
+   "text": {
+    "en": [
+     "Which land's borders did the Lord define for Israel's inheritance?",
+     "Canaan",
+     "Egypt",
+     "Moab"
+    ],
+    "es": [
+     "¿Los límites de qué tierra fijó el Señor como herencia de Israel?",
+     "Canaán",
+     "Egipto",
+     "Moab"
+    ],
+    "pt": [
+     "Os limites de que terra o Senhor definiu como herança de Israel?",
+     "Canaã",
+     "Egito",
+     "Moab"
+    ],
+    "fr": [
+     "Les frontières de quel pays le Seigneur fixa-t-il comme héritage d'Israël ?",
+     "Canaan",
+     "Égypte",
+     "Moab"
+    ],
+    "de": [
+     "Die Grenzen welchen Landes bestimmte der Herr als Erbe Israels?",
+     "Kanaan",
+     "Ägypten",
+     "Moab"
+    ],
+    "it": [
+     "I confini di quale terra il Signore stabilì come eredità d'Israele?",
+     "Canaan",
+     "Egitto",
+     "Moab"
+    ],
+    "pl": [
+     "Granice jakiej ziemi Pan wyznaczył jako dziedzictwo Izraela?",
+     "Kanaan",
+     "Egipt",
+     "Moab"
+    ],
+    "ru": [
+     "Границы какой земли определил Господь как удел Израиля?",
+     "Ханаан",
+     "Египет",
+     "Моав"
+    ],
+    "tr": [
+     "RAB, İsrail'in mirası olarak hangi ülkenin sınırlarını belirledi?",
+     "Kenan",
+     "Mısır",
+     "Moav"
+    ],
+    "ja": [
+     "主はイスラエルの嗣業として、どの地の境界を定められましたか？",
+     "カナン",
+     "エジプト",
+     "モアブ"
+    ],
+    "ko": [
+     "주님은 이스라엘의 상속지로 어느 땅의 경계를 정하셨습니까?",
+     "가나안",
+     "이집트",
+     "모압"
+    ],
+    "ar": [
+     "حدود أي أرض حدّدها الرب ميراثاً لإسرائيل؟",
+     "كنعان",
+     "مصر",
+     "موآب"
+    ]
+   }
+  },
+  {
+   "id": "ch-numbers-019-77",
+   "book": "numbers",
+   "chapter": 34,
+   "difficulty": "medium",
+   "ref": "Numbers 34:17",
+   "text": {
+    "en": [
+     "Which priest, with Joshua, was to apportion the land among the tribes?",
+     "Eleazar",
+     "Aaron",
+     "Phinehas"
+    ],
+    "es": [
+     "¿Qué sacerdote, junto con Josué, debía repartir la tierra entre las tribus?",
+     "Eleazar",
+     "Aarón",
+     "Finees"
+    ],
+    "pt": [
+     "Que sacerdote, junto com Josué, devia repartir a terra entre as tribos?",
+     "Eleazar",
+     "Arão",
+     "Finéias"
+    ],
+    "fr": [
+     "Quel prêtre devait, avec Josué, partager le pays entre les tribus ?",
+     "Éléazar",
+     "Aaron",
+     "Phinées"
+    ],
+    "de": [
+     "Welcher Priester sollte mit Josua das Land unter den Stämmen verteilen?",
+     "Eleasar",
+     "Aaron",
+     "Pinhas"
+    ],
+    "it": [
+     "Quale sacerdote doveva, con Giosuè, spartire la terra fra le tribù?",
+     "Eleazaro",
+     "Aronne",
+     "Finees"
+    ],
+    "pl": [
+     "Który kapłan miał razem z Jozuem podzielić ziemię między plemiona?",
+     "Eleazar",
+     "Aaron",
+     "Pinchas"
+    ],
+    "ru": [
+     "Какой священник должен был вместе с Иисусом разделить землю между коленами?",
+     "Елеазар",
+     "Аарон",
+     "Финеес"
+    ],
+    "tr": [
+     "Hangi kâhin Yeşu'yla birlikte toprağı oymaklar arasında paylaştıracaktı?",
+     "Elazar",
+     "Harun",
+     "Pinehas"
+    ],
+    "ja": [
+     "ヨシュアとともに部族に土地を分配する祭司は誰ですか？",
+     "エレアザル",
+     "アロン",
+     "ピネハス"
+    ],
+    "ko": [
+     "여호수아와 함께 지파들에게 땅을 나누어 줄 사제는 누구입니까?",
+     "엘아자르",
+     "아론",
+     "피느하스"
+    ],
+    "ar": [
+     "أي كاهن كان سيقسم الأرض مع يشوع بين الأسباط؟",
+     "ألعازار",
+     "هارون",
+     "فنحاس"
+    ]
+   }
+  },
+  {
+   "id": "ch-numbers-019-78",
+   "book": "numbers",
+   "chapter": 34,
+   "difficulty": "hard",
+   "ref": "Numbers 34:19",
+   "text": {
+    "en": [
+     "Caleb, son of Jephunneh, was chief of which tribe?",
+     "Judah",
+     "Ephraim",
+     "Benjamin"
+    ],
+    "es": [
+     "¿De qué tribu era jefe Caleb, hijo de Jefuné?",
+     "Judá",
+     "Efraín",
+     "Benjamín"
+    ],
+    "pt": [
+     "De que tribo era chefe Caleb, filho de Jefoné?",
+     "Judá",
+     "Efraim",
+     "Benjamim"
+    ],
+    "fr": [
+     "De quelle tribu Caleb, fils de Yephounné, était-il le chef ?",
+     "Juda",
+     "Éphraïm",
+     "Benjamin"
+    ],
+    "de": [
+     "Von welchem Stamm war Kaleb, der Sohn Jefunnes, der Fürst?",
+     "Juda",
+     "Efraim",
+     "Benjamin"
+    ],
+    "it": [
+     "Di quale tribù era capo Caleb, figlio di Gefunne?",
+     "Giuda",
+     "Efraim",
+     "Beniamino"
+    ],
+    "pl": [
+     "Którego plemienia przywódcą był Kaleb, syn Jefunnego?",
+     "Judy",
+     "Efraima",
+     "Beniamina"
+    ],
+    "ru": [
+     "Начальником какого колена был Халев, сын Иефонниин?",
+     "Иуды",
+     "Ефрема",
+     "Вениамина"
+    ],
+    "tr": [
+     "Yefunne oğlu Kalev hangi oymağın önderiydi?",
+     "Yahuda",
+     "Efrayim",
+     "Benyamin"
+    ],
+    "ja": [
+     "エフンネの子カレブはどの部族の長でしたか？",
+     "ユダ",
+     "エフライム",
+     "ベニヤミン"
+    ],
+    "ko": [
+     "여푼네의 아들 칼렙은 어느 지파의 수장이었습니까?",
+     "유다",
+     "에프라임",
+     "벤야민"
+    ],
+    "ar": [
+     "رئيس أي سبط كان كالب بن يفنة؟",
+     "يهوذا",
+     "أفرايم",
+     "بنيامين"
+    ]
+   }
+  },
+  {
+   "id": "ch-numbers-019-79",
+   "book": "numbers",
+   "chapter": 34,
+   "difficulty": "expert",
+   "ref": "Numbers 34:3",
+   "text": {
+    "en": [
+     "Which wilderness lay along the southern border near Edom?",
+     "Zin",
+     "Shur",
+     "Sinai"
+    ],
+    "es": [
+     "¿Qué desierto se extendía por la frontera sur, junto a Edom?",
+     "Sin",
+     "Sur",
+     "Sinaí"
+    ],
+    "pt": [
+     "Que deserto se estendia pela fronteira sul, junto a Edom?",
+     "Sin",
+     "Sur",
+     "Sinai"
+    ],
+    "fr": [
+     "Quel désert longeait la frontière sud, près d'Édom ?",
+     "Çin",
+     "Shur",
+     "Sinaï"
+    ],
+    "de": [
+     "Welche Wüste lag an der Südgrenze nahe Edom?",
+     "Zin",
+     "Schur",
+     "Sinai"
+    ],
+    "it": [
+     "Quale deserto si trovava lungo il confine meridionale, presso Edom?",
+     "Sin",
+     "Sur",
+     "Sinai"
+    ],
+    "pl": [
+     "Jaka pustynia leżała na południowej granicy, blisko Edomu?",
+     "Sin",
+     "Szur",
+     "Synaj"
+    ],
+    "ru": [
+     "Какая пустыня лежала на южной границе, близ Едома?",
+     "Син",
+     "Сур",
+     "Синай"
+    ],
+    "tr": [
+     "Edom yakınındaki güney sınırında hangi çöl uzanıyordu?",
+     "Sin",
+     "Şur",
+     "Sina"
+    ],
+    "ja": [
+     "エドムに近い南の境界に沿っていた荒れ野はどれですか？",
+     "ツィン",
+     "シュル",
+     "シナイ"
+    ],
+    "ko": [
+     "에돔 근처 남쪽 경계를 따라 놓인 광야는 어디입니까?",
+     "친",
+     "수르",
+     "시나이"
+    ],
+    "ar": [
+     "أي برية امتدت على الحدود الجنوبية قرب أدوم؟",
+     "صين",
+     "شور",
+     "سيناء"
+    ]
+   }
+  },
+  {
+   "id": "ch-numbers-019-80",
+   "book": "numbers",
+   "chapter": 34,
+   "difficulty": "impossible",
+   "ref": "Numbers 34:28",
+   "text": {
+    "en": [
+     "Which tribe's chief was Pedahel, son of Ammihud?",
+     "Naphtali",
+     "Dan",
+     "Asher"
+    ],
+    "es": [
+     "¿De qué tribu era jefe Pedael, hijo de Amiud?",
+     "Neftalí",
+     "Dan",
+     "Aser"
+    ],
+    "pt": [
+     "De que tribo era chefe Fedael, filho de Amiud?",
+     "Neftali",
+     "Dã",
+     "Aser"
+    ],
+    "fr": [
+     "De quelle tribu Pedahel, fils d'Ammihoud, était-il le chef ?",
+     "Nephtali",
+     "Dan",
+     "Asher"
+    ],
+    "de": [
+     "Von welchem Stamm war Pedahel, der Sohn Ammihuds, der Fürst?",
+     "Naftali",
+     "Dan",
+     "Ascher"
+    ],
+    "it": [
+     "Di quale tribù era capo Pedaèl, figlio di Ammiùd?",
+     "Neftali",
+     "Dan",
+     "Aser"
+    ],
+    "pl": [
+     "Którego plemienia przywódcą był Pedael, syn Ammihuda?",
+     "Neftalego",
+     "Dana",
+     "Asera"
+    ],
+    "ru": [
+     "Начальником какого колена был Фадаил, сын Аммиуда?",
+     "Неффалима",
+     "Дана",
+     "Асира"
+    ],
+    "tr": [
+     "Ammihud oğlu Pedahel hangi oymağın önderiydi?",
+     "Naftali",
+     "Dan",
+     "Aşer"
+    ],
+    "ja": [
+     "アミフドの子ペダヘルはどの部族の長でしたか？",
+     "ナフタリ",
+     "ダン",
+     "アシェル"
+    ],
+    "ko": [
+     "암미훗의 아들 프다헬은 어느 지파의 수장이었습니까?",
+     "납탈리",
+     "단",
+     "아셀"
+    ],
+    "ar": [
+     "رئيس أي سبط كان فدهئيل بن عميهود؟",
+     "نفتالي",
+     "دان",
+     "أشير"
+    ]
+   }
+  },
+  {
+   "id": "ch-numbers-019-81",
+   "book": "numbers",
+   "chapter": 35,
+   "difficulty": "easy",
+   "ref": "Numbers 35:6",
+   "text": {
+    "en": [
+     "How many cities of refuge were to be set aside for manslayers?",
+     "6",
+     "3",
+     "12"
+    ],
+    "es": [
+     "¿Cuántas ciudades de refugio debían reservarse para los homicidas?",
+     "6",
+     "3",
+     "12"
+    ],
+    "pt": [
+     "Quantas cidades de refúgio deviam ser reservadas para os homicidas?",
+     "6",
+     "3",
+     "12"
+    ],
+    "fr": [
+     "Combien de villes de refuge devaient être réservées aux meurtriers involontaires ?",
+     "6",
+     "3",
+     "12"
+    ],
+    "de": [
+     "Wie viele Zufluchtsstädte sollten für Totschläger bestimmt werden?",
+     "6",
+     "3",
+     "12"
+    ],
+    "it": [
+     "Quante città di rifugio dovevano essere stabilite per gli omicidi?",
+     "6",
+     "3",
+     "12"
+    ],
+    "pl": [
+     "Ile miast ucieczki wyznaczono dla zabójców?",
+     "6",
+     "3",
+     "12"
+    ],
+    "ru": [
+     "Сколько городов убежища надлежало отделить для убийц?",
+     "6",
+     "3",
+     "12"
+    ],
+    "tr": [
+     "Katiller için kaç sığınak kenti ayrılacaktı?",
+     "6",
+     "3",
+     "12"
+    ],
+    "ja": [
+     "殺人者のために、逃れの町はいくつ定められましたか？",
+     "6",
+     "3",
+     "12"
+    ],
+    "ko": [
+     "살인자들을 위해 도피 성읍을 몇 개 지정해야 했습니까?",
+     "6",
+     "3",
+     "12"
+    ],
+    "ar": [
+     "كم مدينة ملجأ خُصّصت للقتلة؟",
+     "6",
+     "3",
+     "12"
+    ]
+   }
+  },
+  {
+   "id": "ch-numbers-019-82",
+   "book": "numbers",
+   "chapter": 35,
+   "difficulty": "medium",
+   "ref": "Numbers 35:7",
+   "text": {
+    "en": [
+     "In total, how many cities were given to the Levites?",
+     "48",
+     "12",
+     "40"
+    ],
+    "es": [
+     "En total, ¿cuántas ciudades se dieron a los levitas?",
+     "48",
+     "12",
+     "40"
+    ],
+    "pt": [
+     "No total, quantas cidades foram dadas aos levitas?",
+     "48",
+     "12",
+     "40"
+    ],
+    "fr": [
+     "Au total, combien de villes furent données aux lévites ?",
+     "48",
+     "12",
+     "40"
+    ],
+    "de": [
+     "Wie viele Städte wurden den Leviten insgesamt gegeben?",
+     "48",
+     "12",
+     "40"
+    ],
+    "it": [
+     "In totale, quante città furono date ai leviti?",
+     "48",
+     "12",
+     "40"
+    ],
+    "pl": [
+     "Ile miast w sumie oddano Lewitom?",
+     "48",
+     "12",
+     "40"
+    ],
+    "ru": [
+     "Сколько всего городов было отдано левитам?",
+     "48",
+     "12",
+     "40"
+    ],
+    "tr": [
+     "Levililere toplam kaç kent verildi?",
+     "48",
+     "12",
+     "40"
+    ],
+    "ja": [
+     "全部でいくつの町がレビ人に与えられましたか？",
+     "48",
+     "12",
+     "40"
+    ],
+    "ko": [
+     "레위인에게는 모두 몇 개의 성읍이 주어졌습니까?",
+     "48",
+     "12",
+     "40"
+    ],
+    "ar": [
+     "كم مدينة أُعطيت للاويين في المجموع؟",
+     "48",
+     "12",
+     "40"
+    ]
+   }
+  },
+  {
+   "id": "ch-numbers-019-83",
+   "book": "numbers",
+   "chapter": 35,
+   "difficulty": "hard",
+   "ref": "Numbers 35:25",
+   "text": {
+    "en": [
+     "Whose death freed the manslayer to leave his city of refuge?",
+     "Priest",
+     "King",
+     "Judge"
+    ],
+    "es": [
+     "¿La muerte de quién liberaba al homicida para salir de su ciudad de refugio?",
+     "Sacerdote",
+     "Rey",
+     "Juez"
+    ],
+    "pt": [
+     "A morte de quem libertava o homicida para sair da sua cidade de refúgio?",
+     "Sacerdote",
+     "Rei",
+     "Juiz"
+    ],
+    "fr": [
+     "La mort de qui libérait le meurtrier pour quitter sa ville de refuge ?",
+     "Prêtre",
+     "Roi",
+     "Juge"
+    ],
+    "de": [
+     "Wessen Tod befreite den Totschläger, seine Zufluchtsstadt zu verlassen?",
+     "Priesters",
+     "Königs",
+     "Richters"
+    ],
+    "it": [
+     "La morte di chi liberava l'omicida dalla sua città di rifugio?",
+     "Sacerdote",
+     "Re",
+     "Giudice"
+    ],
+    "pl": [
+     "Śmierć kogo uwalniała zabójcę z miasta ucieczki?",
+     "Kapłana",
+     "Króla",
+     "Sędziego"
+    ],
+    "ru": [
+     "Смерть кого освобождала убийцу из города убежища?",
+     "Священника",
+     "Царя",
+     "Судьи"
+    ],
+    "tr": [
+     "Kimin ölümü katilin sığınak kentinden çıkmasını sağlardı?",
+     "Kâhin",
+     "Kral",
+     "Yargıç"
+    ],
+    "ja": [
+     "誰の死によって殺人者は逃れの町を出られましたか？",
+     "祭司",
+     "王",
+     "裁判官"
+    ],
+    "ko": [
+     "누구의 죽음으로 살인자는 도피 성읍을 떠날 수 있었습니까?",
+     "사제",
+     "임금",
+     "재판관"
+    ],
+    "ar": [
+     "موت من كان يحرر القاتل من مدينة ملجئه؟",
+     "كاهن",
+     "ملك",
+     "قاضٍ"
+    ]
+   }
+  },
+  {
+   "id": "ch-numbers-019-84",
+   "book": "numbers",
+   "chapter": 35,
+   "difficulty": "expert",
+   "ref": "Numbers 35:14",
+   "text": {
+    "en": [
+     "How many cities of refuge lay east of the Jordan?",
+     "3",
+     "6",
+     "2"
+    ],
+    "es": [
+     "¿Cuántas ciudades de refugio había al este del Jordán?",
+     "3",
+     "6",
+     "2"
+    ],
+    "pt": [
+     "Quantas cidades de refúgio havia a leste do Jordão?",
+     "3",
+     "6",
+     "2"
+    ],
+    "fr": [
+     "Combien de villes de refuge y avait-il à l'est du Jourdain ?",
+     "3",
+     "6",
+     "2"
+    ],
+    "de": [
+     "Wie viele Zufluchtsstädte lagen östlich des Jordan?",
+     "3",
+     "6",
+     "2"
+    ],
+    "it": [
+     "Quante città di rifugio c'erano a est del Giordano?",
+     "3",
+     "6",
+     "2"
+    ],
+    "pl": [
+     "Ile miast ucieczki leżało na wschód od Jordanu?",
+     "3",
+     "6",
+     "2"
+    ],
+    "ru": [
+     "Сколько городов убежища было к востоку от Иордана?",
+     "3",
+     "6",
+     "2"
+    ],
+    "tr": [
+     "Ürdün'ün doğusunda kaç sığınak kenti vardı?",
+     "3",
+     "6",
+     "2"
+    ],
+    "ja": [
+     "ヨルダン川の東には、逃れの町がいくつありましたか？",
+     "3",
+     "6",
+     "2"
+    ],
+    "ko": [
+     "요르단 강 동쪽에는 도피 성읍이 몇 개 있었습니까?",
+     "3",
+     "6",
+     "2"
+    ],
+    "ar": [
+     "كم مدينة ملجأ كانت شرقي الأردن؟",
+     "3",
+     "6",
+     "2"
+    ]
+   }
+  },
+  {
+   "id": "ch-numbers-019-85",
+   "book": "numbers",
+   "chapter": 35,
+   "difficulty": "impossible",
+   "ref": "Numbers 35:16",
+   "text": {
+    "en": [
+     "Striking someone with an instrument of which metal made the killer a murderer?",
+     "Iron",
+     "Bronze",
+     "Silver"
+    ],
+    "es": [
+     "¿Golpear a alguien con un instrumento de qué metal hacía del autor un asesino?",
+     "Hierro",
+     "Bronce",
+     "Plata"
+    ],
+    "pt": [
+     "Ferir alguém com um instrumento de que metal tornava o autor assassino?",
+     "Ferro",
+     "Bronze",
+     "Prata"
+    ],
+    "fr": [
+     "Frapper quelqu'un avec un instrument de quel métal faisait de lui un meurtrier ?",
+     "Fer",
+     "Bronze",
+     "Argent"
+    ],
+    "de": [
+     "Das Schlagen mit einem Gegenstand aus welchem Metall machte zum Mörder?",
+     "Eisen",
+     "Bronze",
+     "Silber"
+    ],
+    "it": [
+     "Colpire qualcuno con uno strumento di quale metallo rendeva omicida?",
+     "Ferro",
+     "Bronzo",
+     "Argento"
+    ],
+    "pl": [
+     "Uderzenie narzędziem z jakiego metalu czyniło człowieka mordercą?",
+     "Żelaza",
+     "Brązu",
+     "Srebra"
+    ],
+    "ru": [
+     "Удар орудием из какого металла делал человека убийцей?",
+     "Железа",
+     "Бронзы",
+     "Серебра"
+    ],
+    "tr": [
+     "Hangi madenden bir aletle vurmak kişiyi katil yapardı?",
+     "Demir",
+     "Tunç",
+     "Gümüş"
+    ],
+    "ja": [
+     "どの金属の道具で人を打つと、殺人者とされましたか？",
+     "鉄",
+     "青銅",
+     "銀"
+    ],
+    "ko": [
+     "어떤 금속 도구로 사람을 치면 살인자가 되었습니까?",
+     "쇠",
+     "청동",
+     "은"
+    ],
+    "ar": [
+     "الضرب بأداة من أي معدن كان يجعل الضارب قاتلاً؟",
+     "حديد",
+     "نحاس",
+     "فضة"
+    ]
+   }
+  },
+  {
+   "id": "ch-numbers-019-86",
+   "book": "numbers",
+   "chapter": 36,
+   "difficulty": "easy",
+   "ref": "Numbers 36:2",
+   "text": {
+    "en": [
+     "Whose daughters had the Lord allowed to inherit their father's land?",
+     "Zelophehad",
+     "Machir",
+     "Hepher"
+    ],
+    "es": [
+     "¿A las hijas de quién permitió el Señor heredar la tierra de su padre?",
+     "Selofhad",
+     "Maquir",
+     "Efer"
+    ],
+    "pt": [
+     "As filhas de quem o Senhor permitiu herdar a terra do pai?",
+     "Salfaad",
+     "Maquir",
+     "Héfer"
+    ],
+    "fr": [
+     "Les filles de qui le Seigneur permit-il d'hériter la terre de leur père ?",
+     "Çelofehad",
+     "Makir",
+     "Hépher"
+    ],
+    "de": [
+     "Wessen Töchter durften nach dem Willen des Herrn das Land ihres Vaters erben?",
+     "Zelofhad",
+     "Machir",
+     "Hefer"
+    ],
+    "it": [
+     "Le figlie di chi il Signore permise di ereditare la terra del padre?",
+     "Zelofcad",
+     "Machir",
+     "Efer"
+    ],
+    "pl": [
+     "Córkom kogo Pan pozwolił odziedziczyć ziemię ojca?",
+     "Selofchada",
+     "Makira",
+     "Chefera"
+    ],
+    "ru": [
+     "Дочерям кого Господь позволил наследовать землю отца?",
+     "Салпаада",
+     "Махира",
+     "Хефера"
+    ],
+    "tr": [
+     "RAB kimin kızlarının babalarının topraklarını miras almasına izin verdi?",
+     "Selofhad",
+     "Makir",
+     "Hefer"
+    ],
+    "ja": [
+     "主はどの人の娘たちに父の土地の相続を許されましたか？",
+     "ツェロフハド",
+     "マキル",
+     "ヘフェル"
+    ],
+    "ko": [
+     "주님은 누구의 딸들에게 아버지의 땅을 상속하도록 허락하셨습니까?",
+     "츨로프핫",
+     "마키르",
+     "헤페르"
+    ],
+    "ar": [
+     "لبنات من سمح الرب بأن يرثن أرض أبيهن؟",
+     "صلفحاد",
+     "ماكير",
+     "حافر"
+    ]
+   }
+  },
+  {
+   "id": "ch-numbers-019-87",
+   "book": "numbers",
+   "chapter": 36,
+   "difficulty": "medium",
+   "ref": "Numbers 36:1",
+   "text": {
+    "en": [
+     "Whom did Gilead's clan heads approach about Zelophehad's daughters' inheritance?",
+     "Moses",
+     "Joshua",
+     "Aaron"
+    ],
+    "es": [
+     "¿A quién acudieron los jefes de Galaad por la herencia de las hijas de Selofhad?",
+     "Moisés",
+     "Josué",
+     "Aarón"
+    ],
+    "pt": [
+     "A quem os chefes de Galaad recorreram por causa da herança das filhas de Salfaad?",
+     "Moisés",
+     "Josué",
+     "Arão"
+    ],
+    "fr": [
+     "Vers qui les chefs de Galaad se tournèrent-ils au sujet de l'héritage des filles de Çelofehad ?",
+     "Moïse",
+     "Josué",
+     "Aaron"
+    ],
+    "de": [
+     "An wen wandten sich Gileads Sippenhäupter wegen des Erbes der Töchter Zelofhads?",
+     "Mose",
+     "Josua",
+     "Aaron"
+    ],
+    "it": [
+     "A chi si rivolsero i capi di Gàlaad per l'eredità delle figlie di Zelofcad?",
+     "Mosè",
+     "Giosuè",
+     "Aronne"
+    ],
+    "pl": [
+     "Do kogo zwrócili się naczelnicy Gileadu w sprawie dziedzictwa córek Selofchada?",
+     "Mojżesza",
+     "Jozuego",
+     "Aarona"
+    ],
+    "ru": [
+     "К кому обратились главы Галаада по поводу наследства дочерей Салпаада?",
+     "Моисею",
+     "Иисусу",
+     "Аарону"
+    ],
+    "tr": [
+     "Gilat'ın boy başları, Selofhad'ın kızlarının mirası konusunda kime başvurdu?",
+     "Musa'ya",
+     "Yeşu'ya",
+     "Harun'a"
+    ],
+    "ja": [
+     "ギレアドの氏族の長たちは、ツェロフハドの娘たちの相続について誰に訴えましたか？",
+     "モーセ",
+     "ヨシュア",
+     "アロン"
+    ],
+    "ko": [
+     "길앗의 가문 어른들은 츨로프핫 딸들의 상속에 대해 누구에게 나아갔습니까?",
+     "모세",
+     "여호수아",
+     "아론"
+    ],
+    "ar": [
+     "إلى من توجّه رؤساء جلعاد بشأن ميراث بنات صلفحاد؟",
+     "موسى",
+     "يشوع",
+     "هارون"
+    ]
+   }
+  },
+  {
+   "id": "ch-numbers-019-88",
+   "book": "numbers",
+   "chapter": 36,
+   "difficulty": "hard",
+   "ref": "Numbers 36:4",
+   "text": {
+    "en": [
+     "Which year did Gilead's leaders say would not restore the daughters' land?",
+     "Jubilee",
+     "Passover",
+     "Pentecost"
+    ],
+    "es": [
+     "¿Qué año dijeron los jefes de Galaad que no devolvería la tierra de las hijas?",
+     "Jubileo",
+     "Pascua",
+     "Pentecostés"
+    ],
+    "pt": [
+     "Que ano os chefes de Galaad disseram que não devolveria a terra das filhas?",
+     "Jubileu",
+     "Páscoa",
+     "Pentecostes"
+    ],
+    "fr": [
+     "Quelle année, selon les chefs de Galaad, ne rendrait pas la terre des filles ?",
+     "Jubilé",
+     "Pâque",
+     "Pentecôte"
+    ],
+    "de": [
+     "Welches Jahr würde nach den Anführern Gileads das Land der Töchter nicht zurückgeben?",
+     "Jubeljahr",
+     "Pascha",
+     "Pfingsten"
+    ],
+    "it": [
+     "Quale anno, dissero i capi di Gàlaad, non avrebbe restituito la terra delle figlie?",
+     "Giubileo",
+     "Pasqua",
+     "Pentecoste"
+    ],
+    "pl": [
+     "Który rok, jak mówili przywódcy Gileadu, nie zwróciłby ziemi córek?",
+     "Jubileusz",
+     "Pascha",
+     "Pięćdziesiątnica"
+    ],
+    "ru": [
+     "Какой год, по словам глав Галаада, не вернёт землю дочерей?",
+     "Юбилей",
+     "Пасха",
+     "Пятидесятница"
+    ],
+    "tr": [
+     "Gilat önderlerine göre hangi yıl kızların toprağını geri vermeyecekti?",
+     "Yubil",
+     "Fısıh",
+     "Pentikost"
+    ],
+    "ja": [
+     "ギレアドの指導者たちが、娘たちの土地を戻さないと言った年はどれですか？",
+     "ヨベル",
+     "過越",
+     "五旬祭"
+    ],
+    "ko": [
+     "길앗의 지도자들이 딸들의 땅을 되돌려 주지 않을 것이라고 말한 해는 무엇입니까?",
+     "희년",
+     "파스카",
+     "오순절"
+    ],
+    "ar": [
+     "أي سنة قال رؤساء جلعاد إنها لن تُعيد أرض البنات؟",
+     "يوبيل",
+     "فصح",
+     "عنصرة"
+    ]
+   }
+  },
+  {
+   "id": "ch-numbers-019-89",
+   "book": "numbers",
+   "chapter": 36,
+   "difficulty": "expert",
+   "ref": "Numbers 36:13",
+   "text": {
+    "en": [
+     "Numbers ends with Moses' laws given by the Jordan opposite which city?",
+     "Jericho",
+     "Ai",
+     "Hebron"
+    ],
+    "es": [
+     "¿Frente a qué ciudad, junto al Jordán, dio Moisés las leyes con que termina Números?",
+     "Jericó",
+     "Hai",
+     "Hebrón"
+    ],
+    "pt": [
+     "Defronte de que cidade, junto ao Jordão, Moisés deu as leis com que termina Números?",
+     "Jericó",
+     "Ai",
+     "Hebron"
+    ],
+    "fr": [
+     "En face de quelle ville, près du Jourdain, Moïse donna-t-il les lois qui terminent les Nombres ?",
+     "Jéricho",
+     "Aï",
+     "Hébron"
+    ],
+    "de": [
+     "Gegenüber welcher Stadt am Jordan gab Mose die Gesetze, mit denen das Buch Numeri endet?",
+     "Jericho",
+     "Ai",
+     "Hebron"
+    ],
+    "it": [
+     "Di fronte a quale città, presso il Giordano, Mosè diede le leggi con cui terminano i Numeri?",
+     "Gerico",
+     "Ai",
+     "Ebron"
+    ],
+    "pl": [
+     "Naprzeciw jakiego miasta nad Jordanem Mojżesz dał prawa, którymi kończy się Księga Liczb?",
+     "Jerycho",
+     "Aj",
+     "Hebron"
+    ],
+    "ru": [
+     "Против какого города у Иордана Моисей дал законы, которыми заканчивается книга Числа?",
+     "Иерихон",
+     "Гай",
+     "Хеврон"
+    ],
+    "tr": [
+     "Sayılar Kitabı'nı bitiren yasaları Musa, Ürdün kıyısında hangi kentin karşısında verdi?",
+     "Eriha",
+     "Ay",
+     "Hebron"
+    ],
+    "ja": [
+     "民数記を締めくくる律法を、モーセはヨルダン川のほとり、どの町の向かいで与えましたか？",
+     "エリコ",
+     "アイ",
+     "ヘブロン"
+    ],
+    "ko": [
+     "민수기를 마무리하는 법규를 모세는 요르단 강가에서 어느 성읍 맞은편에서 내렸습니까?",
+     "예리코",
+     "아이",
+     "헤브론"
+    ],
+    "ar": [
+     "قبالة أي مدينة عند الأردن أعطى موسى الشرائع التي ينتهي بها سفر العدد؟",
+     "أريحا",
+     "عاي",
+     "حبرون"
+    ]
+   }
+  },
+  {
+   "id": "ch-numbers-019-90",
+   "book": "numbers",
+   "chapter": 36,
+   "difficulty": "impossible",
+   "ref": "Numbers 36:11",
+   "text": {
+    "en": [
+     "Besides Mahlah, Tirzah, Milcah and Noah, which daughter did Zelophehad have?",
+     "Hoglah",
+     "Rachel",
+     "Hannah"
+    ],
+    "es": [
+     "Además de Majlá, Tirsá, Milká y Noá, ¿qué otra hija tuvo Selofhad?",
+     "Joglá",
+     "Raquel",
+     "Ana"
+    ],
+    "pt": [
+     "Além de Maalá, Tersa, Melca e Noa, que outra filha teve Salfaad?",
+     "Hegla",
+     "Raquel",
+     "Ana"
+    ],
+    "fr": [
+     "Outre Mahla, Tirça, Milka et Noa, quelle autre fille avait Çelofehad ?",
+     "Hogla",
+     "Rachel",
+     "Anne"
+    ],
+    "de": [
+     "Welche Tochter hatte Zelofhad außer Machla, Tirza, Milka und Noa?",
+     "Hogla",
+     "Rahel",
+     "Hanna"
+    ],
+    "it": [
+     "Oltre a Macla, Tirza, Milca e Noa, quale altra figlia ebbe Zelofcad?",
+     "Cogla",
+     "Rachele",
+     "Anna"
+    ],
+    "pl": [
+     "Jaką córkę miał Selofchad oprócz Machli, Tirsy, Milki i Noi?",
+     "Chogla",
+     "Rachela",
+     "Anna"
+    ],
+    "ru": [
+     "Какая дочь была у Салпаада, кроме Махлы, Фирцы, Милки и Ноа?",
+     "Хогла",
+     "Рахиль",
+     "Анна"
+    ],
+    "tr": [
+     "Selofhad'ın Mahla, Tirsa, Milka ve Noa dışında hangi kızı vardı?",
+     "Hogla",
+     "Rahel",
+     "Hanna"
+    ],
+    "ja": [
+     "マフラ、ティルツァ、ミルカ、ノアのほかに、ツェロフハドの娘は誰ですか？",
+     "ホグラ",
+     "ラケル",
+     "ハンナ"
+    ],
+    "ko": [
+     "마흘라, 티르차, 밀카, 노아 외에 츨로프핫의 딸은 누구입니까?",
+     "호글라",
+     "라헬",
+     "한나"
+    ],
+    "ar": [
+     "غير محلة وترصة وملكة ونوعة، ما اسم ابنة صلفحاد الأخرى؟",
+     "حجلة",
+     "راحيل",
+     "حنة"
+    ]
+   }
+  }
+ ]
+}
