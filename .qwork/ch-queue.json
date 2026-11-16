@@ -219,19 +219,19 @@
 "unit": "ch-joshua-013",
 "step": "write",
 "model": "sonnet",
-"status": "todo"
+"status": "done"
 },
 {
 "unit": "ch-joshua-013",
 "step": "en",
 "model": "opus",
-"status": "todo"
+"status": "done"
 },
 {
 "unit": "ch-joshua-013",
 "step": "tr",
 "model": "sonnet",
-"status": "todo"
+"status": "done"
 },
 {
 "unit": "ch-judges-001",

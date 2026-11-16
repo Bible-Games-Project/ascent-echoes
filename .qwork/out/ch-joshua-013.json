@@ -1,0 +1,4864 @@
+{
+ "questions": [
+  {
+   "id": "ch-joshua-013-01",
+   "book": "joshua",
+   "chapter": 13,
+   "difficulty": "easy",
+   "ref": "Joshua 13:14",
+   "text": {
+    "en": [
+     "Which Israelite tribe received no land inheritance in Canaan?",
+     "Levi",
+     "Judah",
+     "Dan"
+    ],
+    "es": [
+     "¿Qué tribu de Israel no recibió herencia de tierra en Canaán?",
+     "Leví",
+     "Judá",
+     "Dan"
+    ],
+    "pt": [
+     "Qual tribo de Israel não recebeu herança de terra em Canaã?",
+     "Levi",
+     "Judá",
+     "Dã"
+    ],
+    "fr": [
+     "Quelle tribu d'Israël ne reçut aucun héritage de terre en Canaan ?",
+     "Lévi",
+     "Juda",
+     "Dan"
+    ],
+    "de": [
+     "Welcher Stamm Israels erhielt in Kanaan kein Erbland?",
+     "Levi",
+     "Juda",
+     "Dan"
+    ],
+    "it": [
+     "Quale tribù d'Israele non ricevette alcuna eredità di terra in Canaan?",
+     "Levi",
+     "Giuda",
+     "Dan"
+    ],
+    "pl": [
+     "Które pokolenie Izraela nie otrzymało dziedzictwa ziemi w Kanaanie?",
+     "Lewi",
+     "Juda",
+     "Dan"
+    ],
+    "ru": [
+     "Какое колено Израиля не получило земельного удела в Ханаане?",
+     "Левий",
+     "Иуда",
+     "Дан"
+    ],
+    "tr": [
+     "İsrail'in hangi oymağı Kenan'da toprak mirası almadı?",
+     "Levi",
+     "Yahuda",
+     "Dan"
+    ],
+    "ja": [
+     "カナンで土地を相続しなかったイスラエルの部族はどれ？",
+     "レビ",
+     "ユダ",
+     "ダン"
+    ],
+    "ko": [
+     "가나안에서 땅을 상속받지 못한 이스라엘 지파는?",
+     "레위",
+     "유다",
+     "단"
+    ],
+    "ar": [
+     "أي سبط من إسرائيل لم ينل ميراثًا من الأرض في كنعان؟",
+     "لاوي",
+     "يهوذا",
+     "دان"
+    ]
+   }
+  },
+  {
+   "id": "ch-joshua-013-02",
+   "book": "joshua",
+   "chapter": 13,
+   "difficulty": "medium",
+   "ref": "Joshua 13:12",
+   "text": {
+    "en": [
+     "Which king of Bashan, last of the Rephaim, did Moses defeat?",
+     "Og",
+     "Sihon",
+     "Balak"
+    ],
+    "es": [
+     "¿Qué rey de Basán, último de los refaítas, derrotó Moisés?",
+     "Og",
+     "Sijón",
+     "Balac"
+    ],
+    "pt": [
+     "Que rei de Basã, último dos refaítas, Moisés derrotou?",
+     "Og",
+     "Seon",
+     "Balac"
+    ],
+    "fr": [
+     "Quel roi de Bashân, dernier des Rephaïm, Moïse vainquit-il ?",
+     "Og",
+     "Sihon",
+     "Balaq"
+    ],
+    "de": [
+     "Welchen König von Baschan, den Letzten der Refaïter, besiegte Mose?",
+     "Og",
+     "Sihon",
+     "Balak"
+    ],
+    "it": [
+     "Quale re di Basan, ultimo dei Refaim, sconfisse Mosè?",
+     "Og",
+     "Sicon",
+     "Balak"
+    ],
+    "pl": [
+     "Którego króla Baszanu, ostatniego z Refaitów, pokonał Mojżesz?",
+     "Og",
+     "Sychon",
+     "Balak"
+    ],
+    "ru": [
+     "Какого царя Васана, последнего из рефаимов, победил Моисей?",
+     "Ог",
+     "Сигон",
+     "Валак"
+    ],
+    "tr": [
+     "Musa Başan'ın Refalılardan kalan hangi kralını yendi?",
+     "Og",
+     "Sihon",
+     "Balak"
+    ],
+    "ja": [
+     "モーセが打ち破った、レファイムの生き残りのバシャンの王は誰？",
+     "オグ",
+     "シホン",
+     "バラク"
+    ],
+    "ko": [
+     "모세가 물리친, 르파인의 마지막 남은 자였던 바산 임금은?",
+     "옥",
+     "시혼",
+     "발락"
+    ],
+    "ar": [
+     "من هو ملك باشان، آخر الرفائيين، الذي هزمه موسى؟",
+     "عوج",
+     "سيحون",
+     "بالاق"
+    ]
+   }
+  },
+  {
+   "id": "ch-joshua-013-03",
+   "book": "joshua",
+   "chapter": 13,
+   "difficulty": "hard",
+   "ref": "Joshua 13:29-31",
+   "text": {
+    "en": [
+     "Which half-tribe settled east of the Jordan alongside Reuben and Gad?",
+     "Manasseh",
+     "Ephraim",
+     "Benjamin"
+    ],
+    "es": [
+     "¿Qué media tribu se asentó al este del Jordán junto a Rubén y Gad?",
+     "Manasés",
+     "Efraín",
+     "Benjamín"
+    ],
+    "pt": [
+     "Que meia tribo se estabeleceu a leste do Jordão junto com Rúben e Gad?",
+     "Manassés",
+     "Efraim",
+     "Benjamim"
+    ],
+    "fr": [
+     "Quelle demi-tribu s'installa à l'est du Jourdain avec Ruben et Gad ?",
+     "Manassé",
+     "Éphraïm",
+     "Benjamin"
+    ],
+    "de": [
+     "Welcher Halbstamm siedelte östlich des Jordan neben Ruben und Gad?",
+     "Manasse",
+     "Efraim",
+     "Benjamin"
+    ],
+    "it": [
+     "Quale mezza tribù si stabilì a est del Giordano insieme a Ruben e Gad?",
+     "Manasse",
+     "Efraim",
+     "Beniamino"
+    ],
+    "pl": [
+     "Które półpokolenie osiedliło się na wschód od Jordanu obok Rubena i Gada?",
+     "Manasses",
+     "Efraim",
+     "Beniamin"
+    ],
+    "ru": [
+     "Какое половинное колено поселилось к востоку от Иордана вместе с Рувимом и Гадом?",
+     "Манассия",
+     "Ефрем",
+     "Вениамин"
+    ],
+    "tr": [
+     "Hangi yarım oymak, Ruben ve Gad'la birlikte Şeria'nın doğusuna yerleşti?",
+     "Manasse",
+     "Efrayim",
+     "Benyamin"
+    ],
+    "ja": [
+     "ルベン、ガドと並んでヨルダン川の東に定住した半部族はどれ？",
+     "マナセ",
+     "エフライム",
+     "ベニヤミン"
+    ],
+    "ko": [
+     "르우벤, 갓과 함께 요르단 강 동쪽에 정착한 반 지파는?",
+     "므나쎄",
+     "에프라임",
+     "벤야민"
+    ],
+    "ar": [
+     "أي نصف سبط استقر شرق الأردن مع رأوبين وجاد؟",
+     "منسى",
+     "أفرايم",
+     "بنيامين"
+    ]
+   }
+  },
+  {
+   "id": "ch-joshua-013-04",
+   "book": "joshua",
+   "chapter": 13,
+   "difficulty": "expert",
+   "ref": "Joshua 13:22",
+   "text": {
+    "en": [
+     "Which diviner, son of Beor, did Israel kill with the sword?",
+     "Balaam",
+     "Balak",
+     "Jethro"
+    ],
+    "es": [
+     "¿A qué adivino, hijo de Beor, mataron los israelitas a espada?",
+     "Balaán",
+     "Balac",
+     "Jetró"
+    ],
+    "pt": [
+     "Que adivinho, filho de Beor, os israelitas mataram à espada?",
+     "Balaão",
+     "Balac",
+     "Jetro"
+    ],
+    "fr": [
+     "Quel devin, fils de Béor, les Israélites tuèrent-ils par l'épée ?",
+     "Balaam",
+     "Balaq",
+     "Jéthro"
+    ],
+    "de": [
+     "Welchen Wahrsager, Sohn Beors, töteten die Israeliten mit dem Schwert?",
+     "Bileam",
+     "Balak",
+     "Jitro"
+    ],
+    "it": [
+     "Quale indovino, figlio di Beor, uccisero con la spada gli Israeliti?",
+     "Balaam",
+     "Balak",
+     "Ietro"
+    ],
+    "pl": [
+     "Którego wróżbitę, syna Beora, zabili Izraelici mieczem?",
+     "Balaam",
+     "Balak",
+     "Jetro"
+    ],
+    "ru": [
+     "Какого прорицателя, сына Веора, убили мечом сыны Израилевы?",
+     "Валаам",
+     "Валак",
+     "Иофор"
+    ],
+    "tr": [
+     "İsrailliler Beor oğlu hangi falcıyı kılıçla öldürdü?",
+     "Balam",
+     "Balak",
+     "Yitro"
+    ],
+    "ja": [
+     "イスラエルが剣で殺した、ベオルの子の占い師は誰？",
+     "バラム",
+     "バラク",
+     "エトロ"
+    ],
+    "ko": [
+     "이스라엘 자손이 칼로 죽인, 브올의 아들 점쟁이는?",
+     "발라암",
+     "발락",
+     "이트로"
+    ],
+    "ar": [
+     "أي عرّاف، ابن بعور، قتله بنو إسرائيل بالسيف؟",
+     "بلعام",
+     "بالاق",
+     "يثرون"
+    ]
+   }
+  },
+  {
+   "id": "ch-joshua-013-05",
+   "book": "joshua",
+   "chapter": 13,
+   "difficulty": "impossible",
+   "ref": "Joshua 13:3",
+   "text": {
+    "en": [
+     "How many lords ruled the Philistines in the land Joshua had not conquered?",
+     "5",
+     "3",
+     "7"
+    ],
+    "es": [
+     "¿Cuántos señores gobernaban a los filisteos en la tierra que Josué no había conquistado?",
+     "5",
+     "3",
+     "7"
+    ],
+    "pt": [
+     "Quantos senhores governavam os filisteus na terra que Josué não conquistara?",
+     "5",
+     "3",
+     "7"
+    ],
+    "fr": [
+     "Combien de princes dirigeaient les Philistins dans le pays que Josué n'avait pas conquis ?",
+     "5",
+     "3",
+     "7"
+    ],
+    "de": [
+     "Wie viele Fürsten herrschten über die Philister im Land, das Josua nicht erobert hatte?",
+     "5",
+     "3",
+     "7"
+    ],
+    "it": [
+     "Quanti principi governavano i Filistei nella terra che Giosuè non aveva conquistato?",
+     "5",
+     "3",
+     "7"
+    ],
+    "pl": [
+     "Ilu władców rządziło Filistynami w ziemi, której Jozue nie podbił?",
+     "5",
+     "3",
+     "7"
+    ],
+    "ru": [
+     "Сколько владетелей правили филистимлянами в земле, не покорённой Иисусом Навином?",
+     "5",
+     "3",
+     "7"
+    ],
+    "tr": [
+     "Yeşu'nun fethetmediği topraklarda Filistliler'i kaç önder yönetiyordu?",
+     "5",
+     "3",
+     "7"
+    ],
+    "ja": [
+     "ヨシュアが占領していない土地で、ペリシテ人を治めていた領主は何人？",
+     "5",
+     "3",
+     "7"
+    ],
+    "ko": [
+     "여호수아가 정복하지 못한 땅에서 필리스티아인을 다스린 영주는 몇 명?",
+     "5",
+     "3",
+     "7"
+    ],
+    "ar": [
+     "كم حاكمًا حكم الفلسطينيين في الأرض التي لم يفتحها يشوع؟",
+     "5",
+     "3",
+     "7"
+    ]
+   }
+  },
+  {
+   "id": "ch-joshua-013-06",
+   "book": "joshua",
+   "chapter": 14,
+   "difficulty": "easy",
+   "ref": "Joshua 14:6-12",
+   "text": {
+    "en": [
+     "Which man asked Joshua for the hill country of Hebron?",
+     "Caleb",
+     "Eleazar",
+     "Phinehas"
+    ],
+    "es": [
+     "¿Qué hombre pidió a Josué la región montañosa de Hebrón?",
+     "Caleb",
+     "Eleazar",
+     "Pinjás"
+    ],
+    "pt": [
+     "Que homem pediu a Josué a região montanhosa de Hebron?",
+     "Caleb",
+     "Eleazar",
+     "Finéias"
+    ],
+    "fr": [
+     "Quel homme demanda à Josué la montagne d'Hébron ?",
+     "Caleb",
+     "Éléazar",
+     "Pinhas"
+    ],
+    "de": [
+     "Welcher Mann bat Josua um das Bergland von Hebron?",
+     "Kaleb",
+     "Eleasar",
+     "Pinhas"
+    ],
+    "it": [
+     "Quale uomo chiese a Giosuè la zona montuosa di Ebron?",
+     "Caleb",
+     "Eleazaro",
+     "Pincas"
+    ],
+    "pl": [
+     "Który mąż prosił Jozuego o górzystą krainę Hebronu?",
+     "Kaleb",
+     "Eleazar",
+     "Pinchas"
+    ],
+    "ru": [
+     "Какой муж попросил у Иисуса Навина гору Хеврон?",
+     "Халев",
+     "Елеазар",
+     "Финеес"
+    ],
+    "tr": [
+     "Hangi adam Yeşu'dan Hevron dağlık bölgesini istedi?",
+     "Kalev",
+     "Elazar",
+     "Pinehas"
+    ],
+    "ja": [
+     "ヘブロンの山地をヨシュアに願い出た人は誰？",
+     "カレブ",
+     "エルアザル",
+     "ピネハス"
+    ],
+    "ko": [
+     "여호수아에게 헤브론 산악 지방을 청한 사람은?",
+     "칼렙",
+     "엘아자르",
+     "피느하스"
+    ],
+    "ar": [
+     "من الرجل الذي طلب من يشوع جبل حبرون؟",
+     "كالب",
+     "ألعازار",
+     "فينحاس"
+    ]
+   }
+  },
+  {
+   "id": "ch-joshua-013-07",
+   "book": "joshua",
+   "chapter": 14,
+   "difficulty": "medium",
+   "ref": "Joshua 14:10",
+   "text": {
+    "en": [
+     "How old was Caleb when he claimed Hebron from Joshua?",
+     "85",
+     "40",
+     "120"
+    ],
+    "es": [
+     "¿Qué edad tenía Caleb cuando reclamó Hebrón a Josué?",
+     "85",
+     "40",
+     "120"
+    ],
+    "pt": [
+     "Que idade tinha Caleb quando reivindicou Hebron a Josué?",
+     "85",
+     "40",
+     "120"
+    ],
+    "fr": [
+     "Quel âge avait Caleb quand il réclama Hébron à Josué ?",
+     "85",
+     "40",
+     "120"
+    ],
+    "de": [
+     "Wie alt war Kaleb, als er Hebron von Josua forderte?",
+     "85",
+     "40",
+     "120"
+    ],
+    "it": [
+     "Quanti anni aveva Caleb quando chiese Ebron a Giosuè?",
+     "85",
+     "40",
+     "120"
+    ],
+    "pl": [
+     "Ile lat miał Kaleb, gdy upomniał się u Jozuego o Hebron?",
+     "85",
+     "40",
+     "120"
+    ],
+    "ru": [
+     "Сколько лет было Халеву, когда он потребовал у Иисуса Навина Хеврон?",
+     "85",
+     "40",
+     "120"
+    ],
+    "tr": [
+     "Kalev Hevron'u Yeşu'dan istediğinde kaç yaşındaydı?",
+     "85",
+     "40",
+     "120"
+    ],
+    "ja": [
+     "カレブがヘブロンを求めたとき、何歳だった？",
+     "85",
+     "40",
+     "120"
+    ],
+    "ko": [
+     "칼렙이 헤브론을 청했을 때 몇 살이었나?",
+     "85",
+     "40",
+     "120"
+    ],
+    "ar": [
+     "كم كان عمر كالب حين طلب حبرون من يشوع؟",
+     "85",
+     "40",
+     "120"
+    ]
+   }
+  },
+  {
+   "id": "ch-joshua-013-08",
+   "book": "joshua",
+   "chapter": 14,
+   "difficulty": "hard",
+   "ref": "Joshua 14:9",
+   "text": {
+    "en": [
+     "Who swore to give Caleb the land where his feet had walked?",
+     "Moses",
+     "Aaron",
+     "Abraham"
+    ],
+    "es": [
+     "¿Quién juró dar a Caleb la tierra que sus pies habían pisado?",
+     "Moisés",
+     "Aarón",
+     "Abrahán"
+    ],
+    "pt": [
+     "Quem jurou dar a Caleb a terra que seus pés haviam pisado?",
+     "Moisés",
+     "Aarão",
+     "Abraão"
+    ],
+    "fr": [
+     "Qui jura de donner à Caleb le pays que son pied avait foulé ?",
+     "Moïse",
+     "Aaron",
+     "Abraham"
+    ],
+    "de": [
+     "Wer schwor, Kaleb das Land zu geben, das sein Fuß betreten hatte?",
+     "Mose",
+     "Aaron",
+     "Abraham"
+    ],
+    "it": [
+     "Chi giurò di dare a Caleb la terra che il suo piede aveva calcato?",
+     "Mosè",
+     "Aronne",
+     "Abramo"
+    ],
+    "pl": [
+     "Kto przysiągł dać Kalebowi ziemię, po której stąpała jego stopa?",
+     "Mojżesz",
+     "Aaron",
+     "Abraham"
+    ],
+    "ru": [
+     "Кто поклялся отдать Халеву землю, по которой ступала его нога?",
+     "Моисей",
+     "Аарон",
+     "Авраам"
+    ],
+    "tr": [
+     "Kalev'e ayağının bastığı toprakları vermeye kim ant içti?",
+     "Musa",
+     "Harun",
+     "İbrahim"
+    ],
+    "ja": [
+     "カレブの足が踏んだ地を彼に与えると誓ったのは誰？",
+     "モーセ",
+     "アロン",
+     "アブラハム"
+    ],
+    "ko": [
+     "칼렙의 발이 밟은 땅을 그에게 주겠다고 맹세한 사람은?",
+     "모세",
+     "아론",
+     "아브라함"
+    ],
+    "ar": [
+     "من أقسم أن يعطي كالب الأرض التي وطئتها قدماه؟",
+     "موسى",
+     "هارون",
+     "إبراهيم"
+    ]
+   }
+  },
+  {
+   "id": "ch-joshua-013-09",
+   "book": "joshua",
+   "chapter": 14,
+   "difficulty": "expert",
+   "ref": "Joshua 14:6",
+   "text": {
+    "en": [
+     "Which Kenizzite was Caleb's father?",
+     "Jephunneh",
+     "Jesse",
+     "Jethro"
+    ],
+    "es": [
+     "¿Quién era el padre de Caleb, el quenizita?",
+     "Jefoné",
+     "Jesé",
+     "Jetró"
+    ],
+    "pt": [
+     "Quem era o pai de Caleb, o cenezeu?",
+     "Jefoné",
+     "Jessé",
+     "Jetro"
+    ],
+    "fr": [
+     "Quel homme était le père de Caleb le Qenizzite ?",
+     "Yephunné",
+     "Jessé",
+     "Jéthro"
+    ],
+    "de": [
+     "Wer war der Vater Kalebs, des Kenisiters?",
+     "Jefunne",
+     "Isai",
+     "Jitro"
+    ],
+    "it": [
+     "Chi era il padre di Caleb il Kenizzita?",
+     "Ieffunne",
+     "Iesse",
+     "Ietro"
+    ],
+    "pl": [
+     "Kto był ojcem Kaleba Kenizzyty?",
+     "Jefunne",
+     "Jesse",
+     "Jetro"
+    ],
+    "ru": [
+     "Кто был отцом Халева Кенезеянина?",
+     "Иефонния",
+     "Иессей",
+     "Иофор"
+    ],
+    "tr": [
+     "Kenizli Kalev'in babası kimdi?",
+     "Yefunne",
+     "Yişay",
+     "Yitro"
+    ],
+    "ja": [
+     "ケナズ人カレブの父は誰？",
+     "エフンネ",
+     "エッサイ",
+     "エトロ"
+    ],
+    "ko": [
+     "크나즈 사람 칼렙의 아버지는?",
+     "여푼네",
+     "이사이",
+     "이트로"
+    ],
+    "ar": [
+     "من هو أبو كالب القنزي؟",
+     "يفنة",
+     "يسى",
+     "يثرون"
+    ]
+   }
+  },
+  {
+   "id": "ch-joshua-013-10",
+   "book": "joshua",
+   "chapter": 14,
+   "difficulty": "impossible",
+   "ref": "Joshua 14:15",
+   "text": {
+    "en": [
+     "Hebron once bore the name of which greatest man among the Anakim?",
+     "Arba",
+     "Sihon",
+     "Balak"
+    ],
+    "es": [
+     "¿Qué hombre, el más grande entre los anaquitas, dio su antiguo nombre a Hebrón?",
+     "Arba",
+     "Sijón",
+     "Balac"
+    ],
+    "pt": [
+     "Que homem, o maior entre os anaquins, deu seu antigo nome a Hebron?",
+     "Arbá",
+     "Seon",
+     "Balac"
+    ],
+    "fr": [
+     "Quel homme, le plus grand des Anaqim, donna son ancien nom à Hébron ?",
+     "Arba",
+     "Sihon",
+     "Balaq"
+    ],
+    "de": [
+     "Welcher Mann, der größte unter den Anakitern, gab Hebron seinen alten Namen?",
+     "Arba",
+     "Sihon",
+     "Balak"
+    ],
+    "it": [
+     "Quale uomo, il più grande tra gli Anakiti, diede a Ebron il suo antico nome?",
+     "Arba",
+     "Sicon",
+     "Balak"
+    ],
+    "pl": [
+     "Który największy mąż wśród Anakitów dał Hebronowi dawną nazwę?",
+     "Arba",
+     "Sychon",
+     "Balak"
+    ],
+    "ru": [
+     "Какой величайший муж среди енакимов дал Хеврону прежнее имя?",
+     "Арба",
+     "Сигон",
+     "Валак"
+    ],
+    "tr": [
+     "Hevron'a eski adını Anaklılar'ın en büyük adamı hangisi verdi?",
+     "Arba",
+     "Sihon",
+     "Balak"
+    ],
+    "ja": [
+     "ヘブロンに昔の名を与えた、アナク人の中で最も偉大な人は誰？",
+     "アルバ",
+     "シホン",
+     "バラク"
+    ],
+    "ko": [
+     "헤브론의 옛 이름이 된, 아낙 사람들 가운데 가장 큰 사람은?",
+     "아르바",
+     "시혼",
+     "발락"
+    ],
+    "ar": [
+     "أي أعظم رجل بين العناقيين سُمّيت حبرون باسمه قديمًا؟",
+     "أربع",
+     "سيحون",
+     "بالاق"
+    ]
+   }
+  },
+  {
+   "id": "ch-joshua-013-11",
+   "book": "joshua",
+   "chapter": 15,
+   "difficulty": "easy",
+   "ref": "Joshua 15:63",
+   "text": {
+    "en": [
+     "In which city did Jebusites continue to live alongside Judah's people?",
+     "Jerusalem",
+     "Jericho",
+     "Gaza"
+    ],
+    "es": [
+     "¿En qué ciudad siguieron viviendo los jebuseos junto a los hijos de Judá?",
+     "Jerusalén",
+     "Jericó",
+     "Gaza"
+    ],
+    "pt": [
+     "Em que cidade os jebuseus continuaram vivendo com os filhos de Judá?",
+     "Jerusalém",
+     "Jericó",
+     "Gaza"
+    ],
+    "fr": [
+     "Dans quelle ville les Jébusites continuèrent-ils d'habiter avec les fils de Juda ?",
+     "Jérusalem",
+     "Jéricho",
+     "Gaza"
+    ],
+    "de": [
+     "In welcher Stadt wohnten die Jebusiter weiter bei den Judäern?",
+     "Jerusalem",
+     "Jericho",
+     "Gaza"
+    ],
+    "it": [
+     "In quale città i Gebusei continuarono ad abitare con i figli di Giuda?",
+     "Gerusalemme",
+     "Gerico",
+     "Gaza"
+    ],
+    "pl": [
+     "W jakim mieście Jebusyci nadal mieszkali obok synów Judy?",
+     "Jerozolima",
+     "Jerycho",
+     "Gaza"
+    ],
+    "ru": [
+     "В каком городе иевусеи продолжали жить с сынами Иуды?",
+     "Иерусалим",
+     "Иерихон",
+     "Газа"
+    ],
+    "tr": [
+     "Yevuslular hangi kentte Yahuda oğullarıyla birlikte yaşamayı sürdürdü?",
+     "Yeruşalim",
+     "Eriha",
+     "Gazze"
+    ],
+    "ja": [
+     "エブス人がユダの子らと共に住み続けた町はどこ？",
+     "エルサレム",
+     "エリコ",
+     "ガザ"
+    ],
+    "ko": [
+     "여부스 사람들이 유다 자손과 함께 계속 산 도시는?",
+     "예루살렘",
+     "예리코",
+     "가자"
+    ],
+    "ar": [
+     "في أي مدينة ظل اليبوسيون يسكنون مع بني يهوذا؟",
+     "أورشليم",
+     "أريحا",
+     "غزة"
+    ]
+   }
+  },
+  {
+   "id": "ch-joshua-013-12",
+   "book": "joshua",
+   "chapter": 15,
+   "difficulty": "medium",
+   "ref": "Joshua 15:16-17",
+   "text": {
+    "en": [
+     "Who captured Debir and won Caleb's daughter Achsah as his wife?",
+     "Othniel",
+     "Eleazar",
+     "Phinehas"
+    ],
+    "es": [
+     "¿Quién conquistó Debir y ganó como esposa a Acsá, hija de Caleb?",
+     "Otniel",
+     "Eleazar",
+     "Pinjás"
+    ],
+    "pt": [
+     "Quem conquistou Debir e ganhou Acsa, filha de Caleb, por esposa?",
+     "Otoniel",
+     "Eleazar",
+     "Finéias"
+    ],
+    "fr": [
+     "Qui prit Debir et obtint pour épouse Aksa, fille de Caleb ?",
+     "Otniel",
+     "Éléazar",
+     "Pinhas"
+    ],
+    "de": [
+     "Wer eroberte Debir und gewann Achsa, Kalebs Tochter, zur Frau?",
+     "Otniël",
+     "Eleasar",
+     "Pinhas"
+    ],
+    "it": [
+     "Chi conquistò Debir e ottenne in moglie Acsa, figlia di Caleb?",
+     "Otniel",
+     "Eleazaro",
+     "Pincas"
+    ],
+    "pl": [
+     "Kto zdobył Debir i zyskał za żonę Aksę, córkę Kaleba?",
+     "Otniel",
+     "Eleazar",
+     "Pinchas"
+    ],
+    "ru": [
+     "Кто взял Давир и получил в жёны Аксу, дочь Халева?",
+     "Гофониил",
+     "Елеазар",
+     "Финеес"
+    ],
+    "tr": [
+     "Debir'i kim aldı ve Kalev'in kızı Aksa'yı eş olarak kazandı?",
+     "Otniel",
+     "Elazar",
+     "Pinehas"
+    ],
+    "ja": [
+     "デビルを攻め取り、カレブの娘アクサを妻にしたのは誰？",
+     "オトニエル",
+     "エルアザル",
+     "ピネハス"
+    ],
+    "ko": [
+     "드비르를 점령하고 칼렙의 딸 악사를 아내로 얻은 사람은?",
+     "오트니엘",
+     "엘아자르",
+     "피느하스"
+    ],
+    "ar": [
+     "من الذي استولى على دبير ونال عكسة بنت كالب زوجة؟",
+     "عثنئيل",
+     "ألعازار",
+     "فينحاس"
+    ]
+   }
+  },
+  {
+   "id": "ch-joshua-013-13",
+   "book": "joshua",
+   "chapter": 15,
+   "difficulty": "hard",
+   "ref": "Joshua 15:18-19",
+   "text": {
+    "en": [
+     "Besides Negeb land, what did Achsah ask her father Caleb for?",
+     "Water",
+     "Silver",
+     "Cattle"
+    ],
+    "es": [
+     "Además de tierra en el Négueb, ¿qué pidió Acsá a su padre Caleb?",
+     "Agua",
+     "Plata",
+     "Ganado"
+    ],
+    "pt": [
+     "Além da terra no Négueb, o que Acsa pediu a seu pai Caleb?",
+     "Água",
+     "Prata",
+     "Gado"
+    ],
+    "fr": [
+     "Outre la terre du Négeb, que demanda Aksa à son père Caleb ?",
+     "Eau",
+     "Argent",
+     "Bétail"
+    ],
+    "de": [
+     "Was erbat Achsa von ihrem Vater Kaleb außer dem Land im Negeb?",
+     "Wasser",
+     "Silber",
+     "Vieh"
+    ],
+    "it": [
+     "Oltre alla terra nel Negheb, che cosa chiese Acsa a suo padre Caleb?",
+     "Acqua",
+     "Argento",
+     "Bestiame"
+    ],
+    "pl": [
+     "Czego prosiła Aksa swego ojca Kaleba oprócz ziemi na Negebie?",
+     "Woda",
+     "Srebro",
+     "Bydło"
+    ],
+    "ru": [
+     "О чём Акса просила отца Халева, кроме земли в Негеве?",
+     "Вода",
+     "Серебро",
+     "Скот"
+    ],
+    "tr": [
+     "Aksa, Negev'deki toprağın yanında babası Kalev'den ne istedi?",
+     "Su",
+     "Gümüş",
+     "Sığır"
+    ],
+    "ja": [
+     "アクサは父カレブにネゲブの地のほかに何を願った？",
+     "水",
+     "銀",
+     "家畜"
+    ],
+    "ko": [
+     "악사는 네게브 땅 말고 아버지 칼렙에게 무엇을 청했나?",
+     "물",
+     "은",
+     "가축"
+    ],
+    "ar": [
+     "ماذا طلبت عكسة من أبيها كالب غير أرض النقب؟",
+     "ماء",
+     "فضة",
+     "ماشية"
+    ]
+   }
+  },
+  {
+   "id": "ch-joshua-013-14",
+   "book": "joshua",
+   "chapter": 15,
+   "difficulty": "expert",
+   "ref": "Joshua 15:14",
+   "text": {
+    "en": [
+     "How many sons of Anak did Caleb drive out of Hebron?",
+     "3",
+     "2",
+     "7"
+    ],
+    "es": [
+     "¿Cuántos hijos de Anac expulsó Caleb de Hebrón?",
+     "3",
+     "2",
+     "7"
+    ],
+    "pt": [
+     "Quantos filhos de Anac Caleb expulsou de Hebron?",
+     "3",
+     "2",
+     "7"
+    ],
+    "fr": [
+     "Combien de fils d'Anaq Caleb chassa-t-il d'Hébron ?",
+     "3",
+     "2",
+     "7"
+    ],
+    "de": [
+     "Wie viele Söhne Anaks vertrieb Kaleb aus Hebron?",
+     "3",
+     "2",
+     "7"
+    ],
+    "it": [
+     "Quanti figli di Anak scacciò Caleb da Ebron?",
+     "3",
+     "2",
+     "7"
+    ],
+    "pl": [
+     "Ilu synów Anaka wypędził Kaleb z Hebronu?",
+     "3",
+     "2",
+     "7"
+    ],
+    "ru": [
+     "Скольких сынов Енака изгнал Халев из Хеврона?",
+     "3",
+     "2",
+     "7"
+    ],
+    "tr": [
+     "Kalev, Hevron'dan Anak'ın kaç oğlunu kovdu?",
+     "3",
+     "2",
+     "7"
+    ],
+    "ja": [
+     "カレブがヘブロンから追い払ったアナクの子は何人？",
+     "3",
+     "2",
+     "7"
+    ],
+    "ko": [
+     "칼렙이 헤브론에서 쫓아낸 아낙의 아들은 몇 명?",
+     "3",
+     "2",
+     "7"
+    ],
+    "ar": [
+     "كم من بني عناق طرد كالب من حبرون؟",
+     "3",
+     "2",
+     "7"
+    ]
+   }
+  },
+  {
+   "id": "ch-joshua-013-15",
+   "book": "joshua",
+   "chapter": 15,
+   "difficulty": "impossible",
+   "ref": "Joshua 15:8",
+   "text": {
+    "en": [
+     "Which valley south of Jerusalem formed part of Judah's border?",
+     "Hinnom",
+     "Kidron",
+     "Jezreel"
+    ],
+    "es": [
+     "¿Qué valle al sur de Jerusalén formaba parte de la frontera de Judá?",
+     "Hinnom",
+     "Cedrón",
+     "Yizreel"
+    ],
+    "pt": [
+     "Que vale ao sul de Jerusalém fazia parte da fronteira de Judá?",
+     "Hinom",
+     "Cedron",
+     "Jezrael"
+    ],
+    "fr": [
+     "Quelle vallée au sud de Jérusalem faisait partie de la frontière de Juda ?",
+     "Hinnom",
+     "Cédron",
+     "Yizréel"
+    ],
+    "de": [
+     "Welches Tal südlich von Jerusalem bildete einen Teil von Judas Grenze?",
+     "Hinnom",
+     "Kidron",
+     "Jesreel"
+    ],
+    "it": [
+     "Quale valle a sud di Gerusalemme faceva parte del confine di Giuda?",
+     "Innom",
+     "Cedron",
+     "Izreel"
+    ],
+    "pl": [
+     "Która dolina na południe od Jerozolimy była częścią granicy Judy?",
+     "Hinnom",
+     "Cedron",
+     "Jizreel"
+    ],
+    "ru": [
+     "Какая долина к югу от Иерусалима входила в границу Иудина колена?",
+     "Енном",
+     "Кедрон",
+     "Изреель"
+    ],
+    "tr": [
+     "Yeruşalim'in güneyindeki hangi vadi Yahuda sınırının bir parçasıydı?",
+     "Hinnom",
+     "Kidron",
+     "Yizreel"
+    ],
+    "ja": [
+     "エルサレムの南にあり、ユダの境界の一部となった谷は？",
+     "ヒンノム",
+     "キドロン",
+     "イズレエル"
+    ],
+    "ko": [
+     "예루살렘 남쪽에서 유다 경계의 일부를 이룬 골짜기는?",
+     "힌놈",
+     "키드론",
+     "이즈르엘"
+    ],
+    "ar": [
+     "أي وادٍ جنوب أورشليم كان جزءًا من حدود يهوذا؟",
+     "هنوم",
+     "قدرون",
+     "يزرعيل"
+    ]
+   }
+  },
+  {
+   "id": "ch-joshua-013-16",
+   "book": "joshua",
+   "chapter": 16,
+   "difficulty": "easy",
+   "ref": "Joshua 16:5",
+   "text": {
+    "en": [
+     "Besides Manasseh, which tribe descended from Joseph received land by lot?",
+     "Ephraim",
+     "Naphtali",
+     "Gad"
+    ],
+    "es": [
+     "¿Qué otra tribu descendiente de José, además de Manasés, recibió tierra por sorteo?",
+     "Efraín",
+     "Neftalí",
+     "Gad"
+    ],
+    "pt": [
+     "Além de Manassés, que tribo descendente de José recebeu terra por sorteio?",
+     "Efraim",
+     "Neftali",
+     "Gad"
+    ],
+    "fr": [
+     "Outre Manassé, quelle tribu issue de Joseph reçut une terre par tirage au sort ?",
+     "Éphraïm",
+     "Nephtali",
+     "Gad"
+    ],
+    "de": [
+     "Welcher von Josef abstammende Stamm erhielt außer Manasse sein Land durch das Los?",
+     "Efraim",
+     "Naftali",
+     "Gad"
+    ],
+    "it": [
+     "Oltre a Manasse, quale tribù discendente da Giuseppe ricevette la terra per sorteggio?",
+     "Efraim",
+     "Neftali",
+     "Gad"
+    ],
+    "pl": [
+     "Które pokolenie pochodzące od Józefa, oprócz Manassesa, otrzymało ziemię w drodze losowania?",
+     "Efraim",
+     "Neftali",
+     "Gad"
+    ],
+    "ru": [
+     "Какое колено, происходящее от Иосифа, кроме Манассии, получило землю по жребию?",
+     "Ефрем",
+     "Неффалим",
+     "Гад"
+    ],
+    "tr": [
+     "Manasse dışında, Yusuf'un soyundan gelen hangi oymak toprağını kurayla aldı?",
+     "Efrayim",
+     "Naftali",
+     "Gad"
+    ],
+    "ja": [
+     "マナセのほかに、ヨセフの子孫で、くじによって土地を受けた部族はどれ？",
+     "エフライム",
+     "ナフタリ",
+     "ガド"
+    ],
+    "ko": [
+     "므나쎄 외에 요셉의 후손으로서 제비뽑기로 땅을 받은 지파는?",
+     "에프라임",
+     "납탈리",
+     "갓"
+    ],
+    "ar": [
+     "أي سبط من نسل يوسف، غير منسى، نال أرضًا بالقرعة؟",
+     "أفرايم",
+     "نفتالي",
+     "جاد"
+    ]
+   }
+  },
+  {
+   "id": "ch-joshua-013-17",
+   "book": "joshua",
+   "chapter": 16,
+   "difficulty": "medium",
+   "ref": "Joshua 16:1",
+   "text": {
+    "en": [
+     "Joseph's descendants' territory began at which river near Jericho?",
+     "Jordan",
+     "Nile",
+     "Arnon"
+    ],
+    "es": [
+     "¿En qué río junto a Jericó comenzaba el territorio de los descendientes de José?",
+     "Jordán",
+     "Nilo",
+     "Arnón"
+    ],
+    "pt": [
+     "Em que rio, perto de Jericó, começava o território dos descendentes de José?",
+     "Jordão",
+     "Nilo",
+     "Arnon"
+    ],
+    "fr": [
+     "À quel fleuve, près de Jéricho, commençait le territoire des fils de Joseph ?",
+     "Jourdain",
+     "Nil",
+     "Arnon"
+    ],
+    "de": [
+     "An welchem Fluss bei Jericho begann das Gebiet der Nachkommen Josefs?",
+     "Jordan",
+     "Nil",
+     "Arnon"
+    ],
+    "it": [
+     "A quale fiume presso Gerico iniziava il territorio dei discendenti di Giuseppe?",
+     "Giordano",
+     "Nilo",
+     "Arnon"
+    ],
+    "pl": [
+     "Przy której rzece koło Jerycha zaczynał się obszar potomków Józefa?",
+     "Jordan",
+     "Nil",
+     "Arnon"
+    ],
+    "ru": [
+     "У какой реки близ Иерихона начинался удел потомков Иосифа?",
+     "Иордан",
+     "Нил",
+     "Арнон"
+    ],
+    "tr": [
+     "Yusuf soyunun toprağı Eriha yakınında hangi nehirden başlıyordu?",
+     "Şeria",
+     "Nil",
+     "Arnon"
+    ],
+    "ja": [
+     "ヨセフの子孫の領土は、エリコ近くのどの川から始まった？",
+     "ヨルダン",
+     "ナイル",
+     "アルノン"
+    ],
+    "ko": [
+     "요셉 후손의 땅은 예리코 근처 어느 강에서 시작되었나?",
+     "요르단",
+     "나일",
+     "아르논"
+    ],
+    "ar": [
+     "من أي نهر قرب أريحا بدأ نصيب أبناء يوسف؟",
+     "الأردن",
+     "النيل",
+     "أرنون"
+    ]
+   }
+  },
+  {
+   "id": "ch-joshua-013-18",
+   "book": "joshua",
+   "chapter": 16,
+   "difficulty": "hard",
+   "ref": "Joshua 16:10",
+   "text": {
+    "en": [
+     "Which city's Canaanites did Ephraim fail to drive out?",
+     "Gezer",
+     "Hebron",
+     "Jericho"
+    ],
+    "es": [
+     "¿De qué ciudad no lograron expulsar los efraimitas a los cananeos?",
+     "Guézer",
+     "Hebrón",
+     "Jericó"
+    ],
+    "pt": [
+     "De que cidade os efraimitas não expulsaram os cananeus?",
+     "Gezer",
+     "Hebron",
+     "Jericó"
+    ],
+    "fr": [
+     "De quelle ville les Éphraïmites ne chassèrent-ils pas les Cananéens ?",
+     "Guézer",
+     "Hébron",
+     "Jéricho"
+    ],
+    "de": [
+     "Aus welcher Stadt vertrieben die Efraimiter die Kanaaniter nicht?",
+     "Geser",
+     "Hebron",
+     "Jericho"
+    ],
+    "it": [
+     "Da quale città gli Efraimiti non scacciarono i Cananei?",
+     "Ghezer",
+     "Ebron",
+     "Gerico"
+    ],
+    "pl": [
+     "Z którego miasta Efraimici nie wypędzili Kananejczyków?",
+     "Gezer",
+     "Hebron",
+     "Jerycho"
+    ],
+    "ru": [
+     "Из какого города ефремляне не изгнали хананеев?",
+     "Газер",
+     "Хеврон",
+     "Иерихон"
+    ],
+    "tr": [
+     "Efrayimliler Kenanlılar'ı hangi kentten kovamadı?",
+     "Gezer",
+     "Hevron",
+     "Eriha"
+    ],
+    "ja": [
+     "エフライムの子らがカナン人を追い出せなかった町は？",
+     "ゲゼル",
+     "ヘブロン",
+     "エリコ"
+    ],
+    "ko": [
+     "에프라임 자손이 가나안 사람들을 쫓아내지 못한 도시는?",
+     "게제르",
+     "헤브론",
+     "예리코"
+    ],
+    "ar": [
+     "من أي مدينة لم يطرد الأفرايميون الكنعانيين؟",
+     "جازر",
+     "حبرون",
+     "أريحا"
+    ]
+   }
+  },
+  {
+   "id": "ch-joshua-013-19",
+   "book": "joshua",
+   "chapter": 16,
+   "difficulty": "expert",
+   "ref": "Joshua 16:8",
+   "text": {
+    "en": [
+     "Which brook did Ephraim's border follow from Tappuah to the sea?",
+     "Kanah",
+     "Kishon",
+     "Kidron"
+    ],
+    "es": [
+     "¿Qué torrente seguía la frontera de Efraín desde Tapúa hasta el mar?",
+     "Caná",
+     "Quisón",
+     "Cedrón"
+    ],
+    "pt": [
+     "Que ribeiro a fronteira de Efraim seguia desde Tapua até o mar?",
+     "Caná",
+     "Quison",
+     "Cedron"
+    ],
+    "fr": [
+     "Quel torrent la frontière d'Éphraïm suivait-elle de Tappouah à la mer ?",
+     "Qana",
+     "Qishôn",
+     "Cédron"
+    ],
+    "de": [
+     "Welchem Bach folgte Efraims Grenze von Tappuach bis zum Meer?",
+     "Kana",
+     "Kischon",
+     "Kidron"
+    ],
+    "it": [
+     "Quale torrente seguiva il confine di Efraim da Tappuach al mare?",
+     "Kana",
+     "Kison",
+     "Cedron"
+    ],
+    "pl": [
+     "Jaką rzeką biegła granica Efraima od Tappuach do morza?",
+     "Kana",
+     "Kiszon",
+     "Cedron"
+    ],
+    "ru": [
+     "Какой поток шёл по границе Ефрема от Таппуаха до моря?",
+     "Кана",
+     "Киссон",
+     "Кедрон"
+    ],
+    "tr": [
+     "Efrayim sınırı Tappuah'tan denize kadar hangi dereyi izledi?",
+     "Kana",
+     "Kişon",
+     "Kidron"
+    ],
+    "ja": [
+     "エフライムの境界はタプアからどの小川に沿って海に至った？",
+     "カナ",
+     "キション",
+     "キドロン"
+    ],
+    "ko": [
+     "에프라임의 경계는 타푸아에서 바다까지 어느 시내를 따랐나?",
+     "카나",
+     "키손",
+     "키드론"
+    ],
+    "ar": [
+     "أي وادٍ تبع حدّ أفرايم من تفوح إلى البحر؟",
+     "قانة",
+     "قيشون",
+     "قدرون"
+    ]
+   }
+  },
+  {
+   "id": "ch-joshua-013-20",
+   "book": "joshua",
+   "chapter": 16,
+   "difficulty": "impossible",
+   "ref": "Joshua 16:2",
+   "text": {
+    "en": [
+     "Joseph's tribal border ran from Bethel to which town on the way to Ataroth?",
+     "Luz",
+     "Ai",
+     "Shiloh"
+    ],
+    "es": [
+     "¿A qué población, camino de Atarot, llegaba desde Betel la frontera de las tribus de José?",
+     "Luz",
+     "Hai",
+     "Siló"
+    ],
+    "pt": [
+     "Até que cidade, a caminho de Atarot, ia a partir de Betel a fronteira da tribo de José?",
+     "Luz",
+     "Ai",
+     "Silo"
+    ],
+    "fr": [
+     "À quelle ville, sur la route d'Atarot, allait depuis Béthel la frontière des fils de Joseph ?",
+     "Luz",
+     "Aï",
+     "Silo"
+    ],
+    "de": [
+     "Zu welcher Stadt lief Josefs Stammesgrenze von Bet-El aus auf dem Weg nach Atarot?",
+     "Lus",
+     "Ai",
+     "Schilo"
+    ],
+    "it": [
+     "A quale città, sulla via di Atarot, andava da Betel il confine della tribù di Giuseppe?",
+     "Luz",
+     "Ai",
+     "Silo"
+    ],
+    "pl": [
+     "Do jakiego miasta biegła od Betel granica pokoleń Józefa w stronę Atarot?",
+     "Luz",
+     "Aj",
+     "Szilo"
+    ],
+    "ru": [
+     "Через какой город шла граница потомков Иосифа от Вефиля к Атарофу?",
+     "Луз",
+     "Гай",
+     "Силом"
+    ],
+    "tr": [
+     "Yusuf oymağının sınırı Beytel'den Atarot yolu üzerinde hangi kente uzanıyordu?",
+     "Luz",
+     "Ay",
+     "Şilo"
+    ],
+    "ja": [
+     "ヨセフの部族の境界は、ベテルからアタロトへ向かう途中のどの町に達した？",
+     "ルズ",
+     "アイ",
+     "シロ"
+    ],
+    "ko": [
+     "요셉 지파의 경계는 베텔에서 아타롯으로 가는 길에 어느 도시에 이르렀나?",
+     "루즈",
+     "아이",
+     "실로"
+    ],
+    "ar": [
+     "إلى أي بلدة، في الطريق إلى عطاروت، امتد حدّ سبط يوسف من بيت إيل؟",
+     "لوز",
+     "عاي",
+     "شيلوه"
+    ]
+   }
+  },
+  {
+   "id": "ch-joshua-013-21",
+   "book": "joshua",
+   "chapter": 17,
+   "difficulty": "easy",
+   "ref": "Joshua 17:3-4",
+   "text": {
+    "en": [
+     "How many daughters of Zelophehad were given an inheritance in Manasseh?",
+     "5",
+     "3",
+     "10"
+    ],
+    "es": [
+     "¿Cuántas hijas de Selofhad recibieron herencia en Manasés?",
+     "5",
+     "3",
+     "10"
+    ],
+    "pt": [
+     "Quantas filhas de Salfaad receberam herança em Manassés?",
+     "5",
+     "3",
+     "10"
+    ],
+    "fr": [
+     "Combien de filles de Celophehad reçurent un héritage en Manassé ?",
+     "5",
+     "3",
+     "10"
+    ],
+    "de": [
+     "Wie viele Töchter Zelofhads erhielten ein Erbteil in Manasse?",
+     "5",
+     "3",
+     "10"
+    ],
+    "it": [
+     "Quante figlie di Zelofcad ricevettero un'eredità in Manasse?",
+     "5",
+     "3",
+     "10"
+    ],
+    "pl": [
+     "Ile córek Selofchada otrzymało dziedzictwo w Manassesie?",
+     "5",
+     "3",
+     "10"
+    ],
+    "ru": [
+     "Сколько дочерей Салпаада получили удел в колене Манассиином?",
+     "5",
+     "3",
+     "10"
+    ],
+    "tr": [
+     "Selofehat'ın kaç kızı Manasse oymağında miras aldı?",
+     "5",
+     "3",
+     "10"
+    ],
+    "ja": [
+     "ツェロフハドの娘のうち、マナセ部族で相続地を受けたのは何人？",
+     "5",
+     "3",
+     "10"
+    ],
+    "ko": [
+     "츨로프핫의 딸 중 므나쎄 지파에서 상속지를 받은 이는 몇 명?",
+     "5",
+     "3",
+     "10"
+    ],
+    "ar": [
+     "كم بنتًا لصلفحاد نلن ميراثًا في منسى؟",
+     "5",
+     "3",
+     "10"
+    ]
+   }
+  },
+  {
+   "id": "ch-joshua-013-22",
+   "book": "joshua",
+   "chapter": 17,
+   "difficulty": "medium",
+   "ref": "Joshua 17:16",
+   "text": {
+    "en": [
+     "Which iron war equipment did the Canaanites of the valley have?",
+     "Chariots",
+     "Catapults",
+     "Shields"
+    ],
+    "es": [
+     "¿Qué equipo de guerra de hierro tenían los cananeos del valle?",
+     "Carros",
+     "Catapultas",
+     "Escudos"
+    ],
+    "pt": [
+     "Que equipamento de guerra de ferro tinham os cananeus do vale?",
+     "Carros",
+     "Catapultas",
+     "Escudos"
+    ],
+    "fr": [
+     "Quel équipement de guerre en fer possédaient les Cananéens de la vallée ?",
+     "Chars",
+     "Catapultes",
+     "Boucliers"
+    ],
+    "de": [
+     "Welche eisernen Kriegsgeräte besaßen die Kanaaniter im Tal?",
+     "Streitwagen",
+     "Katapulte",
+     "Schilde"
+    ],
+    "it": [
+     "Quale equipaggiamento di guerra in ferro avevano i Cananei della valle?",
+     "Carri",
+     "Catapulte",
+     "Scudi"
+    ],
+    "pl": [
+     "Jaki żelazny sprzęt wojenny mieli Kananejczycy z doliny?",
+     "Rydwany",
+     "Katapulty",
+     "Tarcze"
+    ],
+    "ru": [
+     "Какое железное боевое снаряжение было у хананеев в долине?",
+     "Колесницы",
+     "Катапульты",
+     "Щиты"
+    ],
+    "tr": [
+     "Vadideki Kenanlılar'ın hangi demir savaş donanımı vardı?",
+     "Arabalar",
+     "Mancınıklar",
+     "Kalkanlar"
+    ],
+    "ja": [
+     "谷に住むカナン人は、鉄のどんな戦の装備を持っていた？",
+     "戦車",
+     "投石機",
+     "盾"
+    ],
+    "ko": [
+     "골짜기의 가나안 사람들은 쇠로 된 어떤 전쟁 장비를 가졌나?",
+     "병거",
+     "투석기",
+     "방패"
+    ],
+    "ar": [
+     "أي عتاد حربي من حديد كان لدى الكنعانيين في الوادي؟",
+     "مركبات",
+     "مجانيق",
+     "دروع"
+    ]
+   }
+  },
+  {
+   "id": "ch-joshua-013-23",
+   "book": "joshua",
+   "chapter": 17,
+   "difficulty": "hard",
+   "ref": "Joshua 17:1",
+   "text": {
+    "en": [
+     "Which firstborn son of Manasseh received Gilead and Bashan?",
+     "Machir",
+     "Ephraim",
+     "Reuben"
+    ],
+    "es": [
+     "¿Qué primogénito de Manasés recibió Galaad y Basán?",
+     "Maquir",
+     "Efraín",
+     "Rubén"
+    ],
+    "pt": [
+     "Que primogênito de Manassés recebeu Galaad e Basã?",
+     "Maquir",
+     "Efraim",
+     "Rúben"
+    ],
+    "fr": [
+     "Quel fils aîné de Manassé reçut Galaad et Bashân ?",
+     "Makir",
+     "Éphraïm",
+     "Ruben"
+    ],
+    "de": [
+     "Welcher Erstgeborene Manasses erhielt Gilead und Baschan?",
+     "Machir",
+     "Efraim",
+     "Ruben"
+    ],
+    "it": [
+     "Quale primogenito di Manasse ricevette Gàlaad e Basan?",
+     "Machir",
+     "Efraim",
+     "Ruben"
+    ],
+    "pl": [
+     "Który pierworodny syn Manassesa otrzymał Gilead i Baszan?",
+     "Makir",
+     "Efraim",
+     "Ruben"
+    ],
+    "ru": [
+     "Какой первенец Манассии получил Галаад и Васан?",
+     "Махир",
+     "Ефрем",
+     "Рувим"
+    ],
+    "tr": [
+     "Manasse'nin hangi ilk oğlu Gilead ve Başan'ı aldı?",
+     "Makir",
+     "Efrayim",
+     "Ruben"
+    ],
+    "ja": [
+     "ギレアドとバシャンを受けたマナセの長子は誰？",
+     "マキル",
+     "エフライム",
+     "ルベン"
+    ],
+    "ko": [
+     "길앗과 바산을 받은 므나쎄의 맏아들은?",
+     "마키르",
+     "에프라임",
+     "르우벤"
+    ],
+    "ar": [
+     "أي ابن بكر لمنسى نال جلعاد وباشان؟",
+     "ماكير",
+     "أفرايم",
+     "رأوبين"
+    ]
+   }
+  },
+  {
+   "id": "ch-joshua-013-24",
+   "book": "joshua",
+   "chapter": 17,
+   "difficulty": "expert",
+   "ref": "Joshua 17:15",
+   "text": {
+    "en": [
+     "What did Joshua tell Joseph's descendants to clear for more land?",
+     "Forest",
+     "Swamp",
+     "Orchard"
+    ],
+    "es": [
+     "¿Qué les dijo Josué a los descendientes de José que talaran para ganar más tierra?",
+     "Bosque",
+     "Pantano",
+     "Huerto"
+    ],
+    "pt": [
+     "O que Josué mandou os descendentes de José desbravarem para ganhar mais terra?",
+     "Floresta",
+     "Pântano",
+     "Pomar"
+    ],
+    "fr": [
+     "Que Josué dit-il aux descendants de Joseph de défricher pour gagner du terrain ?",
+     "Forêt",
+     "Marais",
+     "Verger"
+    ],
+    "de": [
+     "Was sollten Josefs Nachkommen nach Josuas Worten roden, um mehr Land zu gewinnen?",
+     "Wald",
+     "Sumpf",
+     "Obstgarten"
+    ],
+    "it": [
+     "Che cosa Giosuè disse ai discendenti di Giuseppe di ripulire per guadagnare terra?",
+     "Foresta",
+     "Palude",
+     "Frutteto"
+    ],
+    "pl": [
+     "Co Jozue kazał potomkom Józefa wykarczować, by zyskać więcej ziemi?",
+     "Las",
+     "Bagno",
+     "Sad"
+    ],
+    "ru": [
+     "Что Иисус Навин велел потомкам Иосифа расчистить, чтобы получить больше земли?",
+     "Лес",
+     "Болото",
+     "Сад"
+    ],
+    "tr": [
+     "Yeşu, Yusuf soyuna daha çok toprak için neyi temizlemelerini söyledi?",
+     "Orman",
+     "Bataklık",
+     "Bahçe"
+    ],
+    "ja": [
+     "ヨシュアはヨセフの子孫に、土地を広げるために何を切り開けと言った？",
+     "森",
+     "沼地",
+     "果樹園"
+    ],
+    "ko": [
+     "여호수아는 요셉 후손에게 땅을 넓히려면 무엇을 개간하라고 했나?",
+     "숲",
+     "늪",
+     "과수원"
+    ],
+    "ar": [
+     "ماذا قال يشوع لنسل يوسف أن يقطعوه ليكسبوا أرضًا أكثر؟",
+     "غابة",
+     "مستنقع",
+     "بستان"
+    ]
+   }
+  },
+  {
+   "id": "ch-joshua-013-25",
+   "book": "joshua",
+   "chapter": 17,
+   "difficulty": "impossible",
+   "ref": "Joshua 17:11",
+   "text": {
+    "en": [
+     "Which city inside Issachar's territory did Manasseh also own?",
+     "Megiddo",
+     "Jericho",
+     "Gaza"
+    ],
+    "es": [
+     "¿Qué ciudad dentro del territorio de Isacar poseía también Manasés?",
+     "Meguiddó",
+     "Jericó",
+     "Gaza"
+    ],
+    "pt": [
+     "Que cidade dentro do território de Issacar Manassés também possuía?",
+     "Megido",
+     "Jericó",
+     "Gaza"
+    ],
+    "fr": [
+     "Quelle ville, dans le territoire d'Issacar, Manassé possédait-il aussi ?",
+     "Meguiddo",
+     "Jéricho",
+     "Gaza"
+    ],
+    "de": [
+     "Welche Stadt im Gebiet Issachars besaß Manasse ebenfalls?",
+     "Megiddo",
+     "Jericho",
+     "Gaza"
+    ],
+    "it": [
+     "Quale città nel territorio di Issacar possedeva anche Manasse?",
+     "Meghiddo",
+     "Gerico",
+     "Gaza"
+    ],
+    "pl": [
+     "Które miasto w obrębie Issachara posiadał też Manasses?",
+     "Megiddo",
+     "Jerycho",
+     "Gaza"
+    ],
+    "ru": [
+     "Какой город в уделе Иссахара принадлежал также Манассии?",
+     "Мегиддо",
+     "Иерихон",
+     "Газа"
+    ],
+    "tr": [
+     "Manasse, İssakar topraklarındaki hangi kente de sahipti?",
+     "Megiddo",
+     "Eriha",
+     "Gazze"
+    ],
+    "ja": [
+     "イサカルの領内でマナセが所有した町はどれ？",
+     "メギド",
+     "エリコ",
+     "ガザ"
+    ],
+    "ko": [
+     "이사카르 영토 안에서 므나쎄가 차지한 도시는?",
+     "므깃도",
+     "예리코",
+     "가자"
+    ],
+    "ar": [
+     "أي مدينة داخل أرض يساكر امتلكها منسى أيضًا؟",
+     "مجدو",
+     "أريحا",
+     "غزة"
+    ]
+   }
+  },
+  {
+   "id": "ch-joshua-013-26",
+   "book": "joshua",
+   "chapter": 18,
+   "difficulty": "easy",
+   "ref": "Joshua 18:1",
+   "text": {
+    "en": [
+     "Where did Israel set up the tent of meeting after conquering the land?",
+     "Shiloh",
+     "Hebron",
+     "Jericho"
+    ],
+    "es": [
+     "¿Dónde levantó Israel la tienda del encuentro tras conquistar la tierra?",
+     "Siló",
+     "Hebrón",
+     "Jericó"
+    ],
+    "pt": [
+     "Onde Israel armou a tenda do encontro depois de conquistar a terra?",
+     "Silo",
+     "Hebron",
+     "Jericó"
+    ],
+    "fr": [
+     "Où Israël dressa-t-il la tente de la rencontre après la conquête du pays ?",
+     "Silo",
+     "Hébron",
+     "Jéricho"
+    ],
+    "de": [
+     "Wo errichtete Israel nach der Eroberung des Landes das Offenbarungszelt?",
+     "Schilo",
+     "Hebron",
+     "Jericho"
+    ],
+    "it": [
+     "Dove Israele pose la tenda del convegno dopo aver conquistato il paese?",
+     "Silo",
+     "Ebron",
+     "Gerico"
+    ],
+    "pl": [
+     "Gdzie Izrael rozbił namiot spotkania po podboju kraju?",
+     "Szilo",
+     "Hebron",
+     "Jerycho"
+    ],
+    "ru": [
+     "Где Израиль поставил скинию собрания после завоевания земли?",
+     "Силом",
+     "Хеврон",
+     "Иерихон"
+    ],
+    "tr": [
+     "İsrail ülkeyi fethettikten sonra buluşma çadırını nerede kurdu?",
+     "Şilo",
+     "Hevron",
+     "Eriha"
+    ],
+    "ja": [
+     "イスラエルは土地を征服した後、臨在の幕屋をどこに立てた？",
+     "シロ",
+     "ヘブロン",
+     "エリコ"
+    ],
+    "ko": [
+     "이스라엘은 땅을 정복한 뒤 만남의 천막을 어디에 세웠나?",
+     "실로",
+     "헤브론",
+     "예리코"
+    ],
+    "ar": [
+     "أين نصب بنو إسرائيل خيمة الاجتماع بعد فتح الأرض؟",
+     "شيلوه",
+     "حبرون",
+     "أريحا"
+    ]
+   }
+  },
+  {
+   "id": "ch-joshua-013-27",
+   "book": "joshua",
+   "chapter": 18,
+   "difficulty": "medium",
+   "ref": "Joshua 18:2",
+   "text": {
+    "en": [
+     "How many Israelite tribes had not yet received their inheritance at Shiloh?",
+     "7",
+     "12",
+     "3"
+    ],
+    "es": [
+     "¿Cuántas tribus de Israel aún no habían recibido su herencia en Siló?",
+     "7",
+     "12",
+     "3"
+    ],
+    "pt": [
+     "Quantas tribos de Israel ainda não tinham recebido sua herança em Silo?",
+     "7",
+     "12",
+     "3"
+    ],
+    "fr": [
+     "Combien de tribus d'Israël n'avaient pas encore reçu leur héritage à Silo ?",
+     "7",
+     "12",
+     "3"
+    ],
+    "de": [
+     "Wie viele Stämme Israels hatten in Schilo noch kein Erbteil erhalten?",
+     "7",
+     "12",
+     "3"
+    ],
+    "it": [
+     "Quante tribù d'Israele non avevano ancora ricevuto la loro eredità a Silo?",
+     "7",
+     "12",
+     "3"
+    ],
+    "pl": [
+     "Ile pokoleń Izraela nie otrzymało jeszcze dziedzictwa w Szilo?",
+     "7",
+     "12",
+     "3"
+    ],
+    "ru": [
+     "Сколько колен Израиля ещё не получили удела в Силоме?",
+     "7",
+     "12",
+     "3"
+    ],
+    "tr": [
+     "İsrail'in kaç oymağı Şilo'da henüz mirasını almamıştı?",
+     "7",
+     "12",
+     "3"
+    ],
+    "ja": [
+     "シロの時点で、まだ相続地を受けていないイスラエルの部族は幾つ？",
+     "7",
+     "12",
+     "3"
+    ],
+    "ko": [
+     "실로에서 아직 상속지를 받지 못한 이스라엘 지파는 몇 개?",
+     "7",
+     "12",
+     "3"
+    ],
+    "ar": [
+     "كم سبطًا من إسرائيل لم ينل ميراثه بعد في شيلوه؟",
+     "7",
+     "12",
+     "3"
+    ]
+   }
+  },
+  {
+   "id": "ch-joshua-013-28",
+   "book": "joshua",
+   "chapter": 18,
+   "difficulty": "hard",
+   "ref": "Joshua 18:11",
+   "text": {
+    "en": [
+     "Which tribe received land between the descendants of Judah and Joseph?",
+     "Benjamin",
+     "Zebulun",
+     "Asher"
+    ],
+    "es": [
+     "¿Qué tribu recibió tierra entre los descendientes de Judá y de José?",
+     "Benjamín",
+     "Zabulón",
+     "Aser"
+    ],
+    "pt": [
+     "Que tribo recebeu terra entre os descendentes de Judá e de José?",
+     "Benjamim",
+     "Zabulon",
+     "Aser"
+    ],
+    "fr": [
+     "Quelle tribu reçut un territoire entre les fils de Juda et ceux de Joseph ?",
+     "Benjamin",
+     "Zabulon",
+     "Aser"
+    ],
+    "de": [
+     "Welcher Stamm erhielt Land zwischen den Nachkommen Judas und Josefs?",
+     "Benjamin",
+     "Sebulon",
+     "Ascher"
+    ],
+    "it": [
+     "Quale tribù ricevette terra tra i discendenti di Giuda e di Giuseppe?",
+     "Beniamino",
+     "Zabulon",
+     "Aser"
+    ],
+    "pl": [
+     "Które pokolenie otrzymało ziemię między potomkami Judy i Józefa?",
+     "Beniamin",
+     "Zabulon",
+     "Aszer"
+    ],
+    "ru": [
+     "Какое колено получило удел между сынами Иуды и сынами Иосифа?",
+     "Вениамин",
+     "Завулон",
+     "Асир"
+    ],
+    "tr": [
+     "Hangi oymak Yahuda ile Yusuf soyunun arasında toprak aldı?",
+     "Benyamin",
+     "Zevulun",
+     "Aşer"
+    ],
+    "ja": [
+     "ユダの子孫とヨセフの子孫の間に領地を得た部族は？",
+     "ベニヤミン",
+     "ゼブルン",
+     "アシェル"
+    ],
+    "ko": [
+     "유다 자손과 요셉 자손 사이에 땅을 받은 지파는?",
+     "벤야민",
+     "즈불룬",
+     "아세르"
+    ],
+    "ar": [
+     "أي سبط نال أرضًا بين نسل يهوذا ونسل يوسف؟",
+     "بنيامين",
+     "زبولون",
+     "أشير"
+    ]
+   }
+  },
+  {
+   "id": "ch-joshua-013-29",
+   "book": "joshua",
+   "chapter": 18,
+   "difficulty": "expert",
+   "ref": "Joshua 18:4",
+   "text": {
+    "en": [
+     "How many men from each tribe did Joshua appoint to survey the land?",
+     "3",
+     "5",
+     "12"
+    ],
+    "es": [
+     "¿Cuántos hombres de cada tribu designó Josué para recorrer la tierra?",
+     "3",
+     "5",
+     "12"
+    ],
+    "pt": [
+     "Quantos homens de cada tribo Josué designou para percorrer a terra?",
+     "3",
+     "5",
+     "12"
+    ],
+    "fr": [
+     "Combien d'hommes par tribu Josué désigna-t-il pour parcourir le pays ?",
+     "3",
+     "5",
+     "12"
+    ],
+    "de": [
+     "Wie viele Männer je Stamm bestimmte Josua zur Erkundung des Landes?",
+     "3",
+     "5",
+     "12"
+    ],
+    "it": [
+     "Quanti uomini per tribù Giosuè designò per percorrere il paese?",
+     "3",
+     "5",
+     "12"
+    ],
+    "pl": [
+     "Ilu mężów z każdego pokolenia wyznaczył Jozue do obejścia kraju?",
+     "3",
+     "5",
+     "12"
+    ],
+    "ru": [
+     "Скольких мужей от каждого колена назначил Иисус Навин для обхода земли?",
+     "3",
+     "5",
+     "12"
+    ],
+    "tr": [
+     "Yeşu, ülkeyi dolaşmak için her oymaktan kaç adam seçti?",
+     "3",
+     "5",
+     "12"
+    ],
+    "ja": [
+     "ヨシュアは土地を調べるため、各部族から何人を選んだ？",
+     "3",
+     "5",
+     "12"
+    ],
+    "ko": [
+     "여호수아는 땅을 조사하려고 지파마다 몇 명을 뽑았나?",
+     "3",
+     "5",
+     "12"
+    ],
+    "ar": [
+     "كم رجلًا من كل سبط اختار يشوع لمسح الأرض؟",
+     "3",
+     "5",
+     "12"
+    ]
+   }
+  },
+  {
+   "id": "ch-joshua-013-30",
+   "book": "joshua",
+   "chapter": 18,
+   "difficulty": "impossible",
+   "ref": "Joshua 18:17",
+   "text": {
+    "en": [
+     "Whose son was Bohan, whose stone marked Benjamin's border?",
+     "Reuben",
+     "Simeon",
+     "Levi"
+    ],
+    "es": [
+     "¿De quién era hijo Bohán, cuya piedra marcaba la frontera de Benjamín?",
+     "Rubén",
+     "Simeón",
+     "Leví"
+    ],
+    "pt": [
+     "De quem era filho Boã, cuja pedra marcava a fronteira de Benjamim?",
+     "Rúben",
+     "Simeão",
+     "Levi"
+    ],
+    "fr": [
+     "Bohân, dont la pierre marquait la frontière de Benjamin, était fils de qui ?",
+     "Ruben",
+     "Siméon",
+     "Lévi"
+    ],
+    "de": [
+     "Wessen Sohn war Bohan, dessen Stein Benjamins Grenze markierte?",
+     "Ruben",
+     "Simeon",
+     "Levi"
+    ],
+    "it": [
+     "Di chi era figlio Boan, la cui pietra segnava il confine di Beniamino?",
+     "Ruben",
+     "Simeone",
+     "Levi"
+    ],
+    "pl": [
+     "Czyim synem był Bohan, którego kamień wyznaczał granicę Beniamina?",
+     "Ruben",
+     "Symeon",
+     "Lewi"
+    ],
+    "ru": [
+     "Чьим сыном был Воган, чей камень отмечал границу Вениамина?",
+     "Рувим",
+     "Симеон",
+     "Левий"
+    ],
+    "tr": [
+     "Benyamin sınırını belirleyen taşın sahibi Bohan kimin oğluydu?",
+     "Ruben",
+     "Şimon",
+     "Levi"
+    ],
+    "ja": [
+     "ベニヤミンの境を示す石の名となったボハンは、誰の子？",
+     "ルベン",
+     "シメオン",
+     "レビ"
+    ],
+    "ko": [
+     "벤야민 경계를 표시한 돌의 이름이 된 보한은 누구의 아들이었나?",
+     "르우벤",
+     "시메온",
+     "레위"
+    ],
+    "ar": [
+     "ابن من كان بوهان الذي حدّ حجره تخم بنيامين؟",
+     "رأوبين",
+     "شمعون",
+     "لاوي"
+    ]
+   }
+  },
+  {
+   "id": "ch-joshua-013-31",
+   "book": "joshua",
+   "chapter": 19,
+   "difficulty": "easy",
+   "ref": "Joshua 19:1,9",
+   "text": {
+    "en": [
+     "Inside whose tribal territory did Simeon receive its inheritance?",
+     "Judah",
+     "Gad",
+     "Zebulun"
+    ],
+    "es": [
+     "¿Dentro del territorio de qué tribu recibió Simeón su herencia?",
+     "Judá",
+     "Gad",
+     "Zabulón"
+    ],
+    "pt": [
+     "Dentro do território de que tribo Simeão recebeu sua herança?",
+     "Judá",
+     "Gad",
+     "Zabulon"
+    ],
+    "fr": [
+     "À l'intérieur du territoire de quelle tribu Siméon reçut-il son héritage ?",
+     "Juda",
+     "Gad",
+     "Zabulon"
+    ],
+    "de": [
+     "Im Gebiet welches Stammes erhielt Simeon sein Erbteil?",
+     "Juda",
+     "Gad",
+     "Sebulon"
+    ],
+    "it": [
+     "All'interno del territorio di quale tribù ebbe la sua eredità Simeone?",
+     "Giuda",
+     "Gad",
+     "Zabulon"
+    ],
+    "pl": [
+     "Na terenie którego pokolenia Symeon otrzymał dziedzictwo?",
+     "Juda",
+     "Gad",
+     "Zabulon"
+    ],
+    "ru": [
+     "В уделе какого колена получил своё наследие Симеон?",
+     "Иуда",
+     "Гад",
+     "Завулон"
+    ],
+    "tr": [
+     "Şimon oymağı mirasını hangi oymağın topraklarında aldı?",
+     "Yahuda",
+     "Gad",
+     "Zevulun"
+    ],
+    "ja": [
+     "シメオンは、どの部族の領地の内に相続地を受けた？",
+     "ユダ",
+     "ガド",
+     "ゼブルン"
+    ],
+    "ko": [
+     "시메온은 어느 지파의 영토 안에서 상속지를 받았나?",
+     "유다",
+     "갓",
+     "즈불룬"
+    ],
+    "ar": [
+     "داخل أرض أي سبط نال شمعون ميراثه؟",
+     "يهوذا",
+     "جاد",
+     "زبولون"
+    ]
+   }
+  },
+  {
+   "id": "ch-joshua-013-32",
+   "book": "joshua",
+   "chapter": 19,
+   "difficulty": "medium",
+   "ref": "Joshua 19:47",
+   "text": {
+    "en": [
+     "Which tribe captured Leshem and renamed it after their forefather?",
+     "Dan",
+     "Asher",
+     "Naphtali"
+    ],
+    "es": [
+     "¿Qué tribu conquistó Léshem y la rebautizó con el nombre de su antepasado?",
+     "Dan",
+     "Aser",
+     "Neftalí"
+    ],
+    "pt": [
+     "Que tribo conquistou Lesém e a renomeou com o nome de seu antepassado?",
+     "Dã",
+     "Aser",
+     "Neftali"
+    ],
+    "fr": [
+     "Quelle tribu prit Léshem et la rebaptisa du nom de son ancêtre ?",
+     "Dan",
+     "Aser",
+     "Nephtali"
+    ],
+    "de": [
+     "Welcher Stamm eroberte Leschem und nannte es nach seinem Stammvater?",
+     "Dan",
+     "Ascher",
+     "Naftali"
+    ],
+    "it": [
+     "Quale tribù conquistò Lesem e la ribattezzò col nome del suo antenato?",
+     "Dan",
+     "Aser",
+     "Neftali"
+    ],
+    "pl": [
+     "Które pokolenie zdobyło Leszem i nazwało je imieniem swego praojca?",
+     "Dan",
+     "Aszer",
+     "Neftali"
+    ],
+    "ru": [
+     "Какое колено взяло Лешем и назвало его именем своего праотца?",
+     "Дан",
+     "Асир",
+     "Неффалим"
+    ],
+    "tr": [
+     "Hangi oymak Leşem'i ele geçirip atalarının adını verdi?",
+     "Dan",
+     "Aşer",
+     "Naftali"
+    ],
+    "ja": [
+     "レシェムを攻め取り、先祖の名で呼んだ部族は？",
+     "ダン",
+     "アシェル",
+     "ナフタリ"
+    ],
+    "ko": [
+     "르셈을 점령하고 조상의 이름으로 부른 지파는?",
+     "단",
+     "아세르",
+     "납탈리"
+    ],
+    "ar": [
+     "أي سبط استولى على لشم وسمّاها باسم جدّه؟",
+     "دان",
+     "أشير",
+     "نفتالي"
+    ]
+   }
+  },
+  {
+   "id": "ch-joshua-013-33",
+   "book": "joshua",
+   "chapter": 19,
+   "difficulty": "hard",
+   "ref": "Joshua 19:26",
+   "text": {
+    "en": [
+     "Which mountain, later Elijah's contest site, touched Asher's border?",
+     "Carmel",
+     "Sinai",
+     "Nebo"
+    ],
+    "es": [
+     "¿Qué monte, escenario del desafío de Elías a Baal, tocaba la frontera de Aser?",
+     "Carmelo",
+     "Sinaí",
+     "Nebo"
+    ],
+    "pt": [
+     "Que monte, onde Elias desafiou Baal, tocava a fronteira de Aser?",
+     "Carmelo",
+     "Sinai",
+     "Nebo"
+    ],
+    "fr": [
+     "Quel mont, où Élie défia Baal, touchait la frontière d'Aser ?",
+     "Carmel",
+     "Sinaï",
+     "Nébo"
+    ],
+    "de": [
+     "Welcher Berg, später Schauplatz von Elijas Wettstreit mit Baal, berührte Aschers Grenze?",
+     "Karmel",
+     "Sinai",
+     "Nebo"
+    ],
+    "it": [
+     "Quale monte, dove Elia sfidò Baal, toccava il confine di Aser?",
+     "Carmelo",
+     "Sinai",
+     "Nebo"
+    ],
+    "pl": [
+     "Która góra, gdzie Eliasz wyzwał Baala, dotykała granicy Aszera?",
+     "Karmel",
+     "Synaj",
+     "Nebo"
+    ],
+    "ru": [
+     "Какая гора, где Илия состязался с пророками Ваала, касалась границы Асира?",
+     "Кармил",
+     "Синай",
+     "Нево"
+    ],
+    "tr": [
+     "İlyas'ın Baal peygamberleriyle yarıştığı hangi dağ Aşer sınırına değiyordu?",
+     "Karmel",
+     "Sina",
+     "Nebo"
+    ],
+    "ja": [
+     "後にエリヤがバアルと対決した、アシェルの境に接する山は？",
+     "カルメル",
+     "シナイ",
+     "ネボ"
+    ],
+    "ko": [
+     "훗날 엘리야가 바알과 겨룬, 아세르 경계에 닿은 산은?",
+     "카르멜",
+     "시나이",
+     "느보"
+    ],
+    "ar": [
+     "أي جبل، حيث تحدّى إيليا البعل، لمس حدّ أشير؟",
+     "الكرمل",
+     "سيناء",
+     "نبو"
+    ]
+   }
+  },
+  {
+   "id": "ch-joshua-013-34",
+   "book": "joshua",
+   "chapter": 19,
+   "difficulty": "expert",
+   "ref": "Joshua 19:29",
+   "text": {
+    "en": [
+     "Which fortified Phoenician port city lay on Asher's border?",
+     "Tyre",
+     "Gaza",
+     "Ashdod"
+    ],
+    "es": [
+     "¿Qué ciudad portuaria fortificada de Fenicia estaba en la frontera de Aser?",
+     "Tiro",
+     "Gaza",
+     "Asdod"
+    ],
+    "pt": [
+     "Que cidade portuária fortificada da Fenícia ficava na fronteira de Aser?",
+     "Tiro",
+     "Gaza",
+     "Asdode"
+    ],
+    "fr": [
+     "Quelle ville portuaire fortifiée de Phénicie se trouvait à la frontière d'Aser ?",
+     "Tyr",
+     "Gaza",
+     "Ashdod"
+    ],
+    "de": [
+     "Welche befestigte Hafenstadt Phöniziens lag an Aschers Grenze?",
+     "Tyrus",
+     "Gaza",
+     "Aschdod"
+    ],
+    "it": [
+     "Quale città portuale fortificata della Fenicia era sul confine di Aser?",
+     "Tiro",
+     "Gaza",
+     "Asdod"
+    ],
+    "pl": [
+     "Które warowne portowe miasto Fenicji leżało na granicy Aszera?",
+     "Tyr",
+     "Gaza",
+     "Aszdod"
+    ],
+    "ru": [
+     "Какой укреплённый портовый город Финикии лежал на границе Асира?",
+     "Тир",
+     "Газа",
+     "Азот"
+    ],
+    "tr": [
+     "Fenike'nin hangi surlu liman kenti Aşer sınırındaydı?",
+     "Sur",
+     "Gazze",
+     "Aşdod"
+    ],
+    "ja": [
+     "アシェルの境にあった、フェニキアの城壁に囲まれた港町は？",
+     "ティルス",
+     "ガザ",
+     "アシュドド"
+    ],
+    "ko": [
+     "아세르 경계에 있던 페니키아의 요새화된 항구 도시는?",
+     "티로",
+     "가자",
+     "아스돗"
+    ],
+    "ar": [
+     "أي مدينة ميناء محصّنة في فينيقية كانت على حدّ أشير؟",
+     "صور",
+     "غزة",
+     "أشدود"
+    ]
+   }
+  },
+  {
+   "id": "ch-joshua-013-35",
+   "book": "joshua",
+   "chapter": 19,
+   "difficulty": "impossible",
+   "ref": "Joshua 19:15",
+   "text": {
+    "en": [
+     "Which northern tribe's lot included a town named Bethlehem?",
+     "Zebulun",
+     "Asher",
+     "Issachar"
+    ],
+    "es": [
+     "¿En la herencia de qué tribu del norte había un pueblo llamado Belén?",
+     "Zabulón",
+     "Aser",
+     "Isacar"
+    ],
+    "pt": [
+     "Na herança de que tribo do norte havia uma cidade chamada Belém?",
+     "Zabulon",
+     "Aser",
+     "Issacar"
+    ],
+    "fr": [
+     "Dans l'héritage de quelle tribu du nord se trouvait une ville nommée Bethléem ?",
+     "Zabulon",
+     "Aser",
+     "Issacar"
+    ],
+    "de": [
+     "Im Erbteil welches nördlichen Stammes lag eine Stadt namens Betlehem?",
+     "Sebulon",
+     "Ascher",
+     "Issachar"
+    ],
+    "it": [
+     "Nell'eredità di quale tribù del nord c'era una città chiamata Betlemme?",
+     "Zabulon",
+     "Aser",
+     "Issacar"
+    ],
+    "pl": [
+     "W dziedzictwie którego północnego pokolenia leżało miasto Betlejem?",
+     "Zabulon",
+     "Aszer",
+     "Issachar"
+    ],
+    "ru": [
+     "В уделе какого северного колена был город Вифлеем?",
+     "Завулон",
+     "Асир",
+     "Иссахар"
+    ],
+    "tr": [
+     "Kuzeydeki hangi oymağın mirasında Beytlehem adlı bir kent vardı?",
+     "Zevulun",
+     "Aşer",
+     "İssakar"
+    ],
+    "ja": [
+     "北部のどの部族の相続地にベツレヘムという町があった？",
+     "ゼブルン",
+     "アシェル",
+     "イサカル"
+    ],
+    "ko": [
+     "북쪽의 어느 지파의 상속지에 베틀레헴이라는 마을이 있었나?",
+     "즈불룬",
+     "아세르",
+     "이사카르"
+    ],
+    "ar": [
+     "في ميراث أي سبط شمالي كانت بلدة اسمها بيت لحم؟",
+     "زبولون",
+     "أشير",
+     "يساكر"
+    ]
+   }
+  },
+  {
+   "id": "ch-joshua-013-36",
+   "book": "joshua",
+   "chapter": 20,
+   "difficulty": "easy",
+   "ref": "Joshua 20:7-8",
+   "text": {
+    "en": [
+     "How many cities of refuge did Israel set apart for accidental killers?",
+     "6",
+     "3",
+     "12"
+    ],
+    "es": [
+     "¿Cuántas ciudades de refugio apartó Israel para los homicidas involuntarios?",
+     "6",
+     "3",
+     "12"
+    ],
+    "pt": [
+     "Quantas cidades de refúgio Israel separou para os homicidas involuntários?",
+     "6",
+     "3",
+     "12"
+    ],
+    "fr": [
+     "Combien de villes de refuge Israël mit-il à part pour les meurtriers involontaires ?",
+     "6",
+     "3",
+     "12"
+    ],
+    "de": [
+     "Wie viele Zufluchtsstädte sonderte Israel für unabsichtliche Totschläger aus?",
+     "6",
+     "3",
+     "12"
+    ],
+    "it": [
+     "Quante città di rifugio Israele riservò agli omicidi involontari?",
+     "6",
+     "3",
+     "12"
+    ],
+    "pl": [
+     "Ile miast ucieczki wydzielił Izrael dla nieumyślnych zabójców?",
+     "6",
+     "3",
+     "12"
+    ],
+    "ru": [
+     "Сколько городов убежища выделил Израиль для невольных убийц?",
+     "6",
+     "3",
+     "12"
+    ],
+    "tr": [
+     "İsrail kazara adam öldürenler için kaç sığınak kenti ayırdı?",
+     "6",
+     "3",
+     "12"
+    ],
+    "ja": [
+     "イスラエルは過失で人を殺した者のために逃れの町を幾つ定めた？",
+     "6",
+     "3",
+     "12"
+    ],
+    "ko": [
+     "이스라엘은 실수로 사람을 죽인 이를 위해 도피성을 몇 개 정했나?",
+     "6",
+     "3",
+     "12"
+    ],
+    "ar": [
+     "كم مدينة ملجأ خصصها بنو إسرائيل لمن قتل سهوًا؟",
+     "6",
+     "3",
+     "12"
+    ]
+   }
+  },
+  {
+   "id": "ch-joshua-013-37",
+   "book": "joshua",
+   "chapter": 20,
+   "difficulty": "medium",
+   "ref": "Joshua 20:7",
+   "text": {
+    "en": [
+     "Which refuge city in Ephraim's hills was Abram's first stop in Canaan?",
+     "Shechem",
+     "Jericho",
+     "Gaza"
+    ],
+    "es": [
+     "¿Qué ciudad de refugio de la montaña de Efraín fue la primera parada de Abrán en Canaán?",
+     "Siquén",
+     "Jericó",
+     "Gaza"
+    ],
+    "pt": [
+     "Que cidade de refúgio nos montes de Efraim foi a primeira parada de Abrão em Canaã?",
+     "Siquém",
+     "Jericó",
+     "Gaza"
+    ],
+    "fr": [
+     "Quelle ville de refuge de la montagne d'Éphraïm fut la première étape d'Abram en Canaan ?",
+     "Sichem",
+     "Jéricho",
+     "Gaza"
+    ],
+    "de": [
+     "Welche Zufluchtsstadt im Bergland Efraim war Abrams erste Station in Kanaan?",
+     "Sichem",
+     "Jericho",
+     "Gaza"
+    ],
+    "it": [
+     "Quale città di rifugio sui monti di Efraim fu la prima tappa di Abram in Canaan?",
+     "Sichem",
+     "Gerico",
+     "Gaza"
+    ],
+    "pl": [
+     "Które miasto ucieczki w górach Efraima było pierwszym przystankiem Abrama w Kanaanie?",
+     "Sychem",
+     "Jerycho",
+     "Gaza"
+    ],
+    "ru": [
+     "Какой город убежища в горах Ефрема был первой остановкой Аврама в Ханаане?",
+     "Сихем",
+     "Иерихон",
+     "Газа"
+    ],
+    "tr": [
+     "Efrayim dağlarındaki hangi sığınak kenti Avram'ın Kenan'daki ilk durağıydı?",
+     "Şekem",
+     "Eriha",
+     "Gazze"
+    ],
+    "ja": [
+     "エフライムの山地にある逃れの町で、アブラムがカナンで最初に立ち寄った所は？",
+     "シケム",
+     "エリコ",
+     "ガザ"
+    ],
+    "ko": [
+     "에프라임 산악 지방의 도피성 중 아브람이 가나안에서 처음 머문 곳은?",
+     "스켐",
+     "예리코",
+     "가자"
+    ],
+    "ar": [
+     "أي مدينة ملجأ في جبل أفرايم كانت أول محطة لأبرام في كنعان؟",
+     "شكيم",
+     "أريحا",
+     "غزة"
+    ]
+   }
+  },
+  {
+   "id": "ch-joshua-013-38",
+   "book": "joshua",
+   "chapter": 20,
+   "difficulty": "hard",
+   "ref": "Joshua 20:4",
+   "text": {
+    "en": [
+     "Where did a killer stand to plead his case before the city's elders?",
+     "Gate",
+     "Well",
+     "Altar"
+    ],
+    "es": [
+     "¿Dónde se detenía el homicida para exponer su caso ante los ancianos de la ciudad?",
+     "Puerta",
+     "Pozo",
+     "Altar"
+    ],
+    "pt": [
+     "Onde o homicida parava para expor seu caso diante dos anciãos da cidade?",
+     "Porta",
+     "Poço",
+     "Altar"
+    ],
+    "fr": [
+     "Où le meurtrier se tenait-il pour exposer sa cause aux anciens de la ville ?",
+     "Porte",
+     "Puits",
+     "Autel"
+    ],
+    "de": [
+     "Wo trat der Totschläger auf, um den Ältesten der Stadt seinen Fall darzulegen?",
+     "Tor",
+     "Brunnen",
+     "Altar"
+    ],
+    "it": [
+     "Dove si fermava l'omicida per esporre il suo caso agli anziani della città?",
+     "Porta",
+     "Pozzo",
+     "Altare"
+    ],
+    "pl": [
+     "Gdzie stawał zabójca, by przedstawić sprawę starszym miasta?",
+     "Brama",
+     "Studnia",
+     "Ołtarz"
+    ],
+    "ru": [
+     "Где останавливался убийца, чтобы изложить дело старейшинам города?",
+     "Ворота",
+     "Колодец",
+     "Жертвенник"
+    ],
+    "tr": [
+     "Katil davasını kent ihtiyarlarına anlatmak için nerede dururdu?",
+     "Kapı",
+     "Kuyu",
+     "Sunak"
+    ],
+    "ja": [
+     "殺人者は町の長老たちに事情を述べるため、どこに立った？",
+     "門",
+     "井戸",
+     "祭壇"
+    ],
+    "ko": [
+     "살인자는 성읍 원로들에게 사정을 말하려고 어디에 섰나?",
+     "성문",
+     "우물",
+     "제단"
+    ],
+    "ar": [
+     "أين كان القاتل يقف ليعرض قضيته على شيوخ المدينة؟",
+     "باب",
+     "بئر",
+     "مذبح"
+    ]
+   }
+  },
+  {
+   "id": "ch-joshua-013-39",
+   "book": "joshua",
+   "chapter": 20,
+   "difficulty": "expert",
+   "ref": "Joshua 20:8",
+   "text": {
+    "en": [
+     "Which tribe's territory held the refuge city of Bezer?",
+     "Reuben",
+     "Simeon",
+     "Dan"
+    ],
+    "es": [
+     "¿En el territorio de qué tribu estaba la ciudad de refugio de Béser?",
+     "Rubén",
+     "Simeón",
+     "Dan"
+    ],
+    "pt": [
+     "No território de que tribo ficava a cidade de refúgio de Bosor?",
+     "Rúben",
+     "Simeão",
+     "Dã"
+    ],
+    "fr": [
+     "Dans le territoire de quelle tribu se trouvait la ville de refuge de Bétser ?",
+     "Ruben",
+     "Siméon",
+     "Dan"
+    ],
+    "de": [
+     "Im Gebiet welches Stammes lag die Zufluchtsstadt Bezer?",
+     "Ruben",
+     "Simeon",
+     "Dan"
+    ],
+    "it": [
+     "Nel territorio di quale tribù si trovava la città di rifugio di Beser?",
+     "Ruben",
+     "Simeone",
+     "Dan"
+    ],
+    "pl": [
+     "W obrębie którego pokolenia leżało miasto ucieczki Beser?",
+     "Ruben",
+     "Symeon",
+     "Dan"
+    ],
+    "ru": [
+     "В уделе какого колена находился город убежища Бецер?",
+     "Рувим",
+     "Симеон",
+     "Дан"
+    ],
+    "tr": [
+     "Beser sığınak kenti hangi oymağın topraklarındaydı?",
+     "Ruben",
+     "Şimon",
+     "Dan"
+    ],
+    "ja": [
+     "逃れの町ベツェルは、どの部族の領地にあった？",
+     "ルベン",
+     "シメオン",
+     "ダン"
+    ],
+    "ko": [
+     "도피성 베체르는 어느 지파의 영토에 있었나?",
+     "르우벤",
+     "시메온",
+     "단"
+    ],
+    "ar": [
+     "في أرض أي سبط كانت مدينة الملجأ باصر؟",
+     "رأوبين",
+     "شمعون",
+     "دان"
+    ]
+   }
+  },
+  {
+   "id": "ch-joshua-013-40",
+   "book": "joshua",
+   "chapter": 20,
+   "difficulty": "impossible",
+   "ref": "Joshua 20:8",
+   "text": {
+    "en": [
+     "Which refuge city in Bashan did Manasseh's tribe provide?",
+     "Golan",
+     "Kedesh",
+     "Jericho"
+    ],
+    "es": [
+     "¿Qué ciudad de refugio en Basán proporcionó la tribu de Manasés?",
+     "Golán",
+     "Cades",
+     "Jericó"
+    ],
+    "pt": [
+     "Que cidade de refúgio em Basã a tribo de Manassés forneceu?",
+     "Golã",
+     "Quedes",
+     "Jericó"
+    ],
+    "fr": [
+     "Quelle ville de refuge en Bashân fut donnée par la tribu de Manassé ?",
+     "Golan",
+     "Qédesh",
+     "Jéricho"
+    ],
+    "de": [
+     "Welche Zufluchtsstadt in Baschan stellte der Stamm Manasse?",
+     "Golan",
+     "Kedesch",
+     "Jericho"
+    ],
+    "it": [
+     "Quale città di rifugio in Basan fu data dalla tribù di Manasse?",
+     "Golan",
+     "Kedes",
+     "Gerico"
+    ],
+    "pl": [
+     "Które miasto ucieczki w Baszanie dało pokolenie Manassesa?",
+     "Golan",
+     "Kedesz",
+     "Jerycho"
+    ],
+    "ru": [
+     "Какой город убежища в Васане был дан от колена Манассиина?",
+     "Голан",
+     "Кедес",
+     "Иерихон"
+    ],
+    "tr": [
+     "Manasse oymağı Başan'da hangi sığınak kentini verdi?",
+     "Golan",
+     "Kedeş",
+     "Eriha"
+    ],
+    "ja": [
+     "マナセ部族がバシャンで与えた逃れの町は？",
+     "ゴラン",
+     "ケデシュ",
+     "エリコ"
+    ],
+    "ko": [
+     "므나쎄 지파가 바산에서 내준 도피성은?",
+     "골란",
+     "케데스",
+     "예리코"
+    ],
+    "ar": [
+     "أي مدينة ملجأ في باشان قدّمها سبط منسى؟",
+     "جولان",
+     "قادش",
+     "أريحا"
+    ]
+   }
+  },
+  {
+   "id": "ch-joshua-013-41",
+   "book": "joshua",
+   "chapter": 21,
+   "difficulty": "easy",
+   "ref": "Joshua 21:41",
+   "text": {
+    "en": [
+     "How many cities in total did Israel give to the Levites?",
+     "48",
+     "12",
+     "40"
+    ],
+    "es": [
+     "¿Cuántas ciudades en total dio Israel a los levitas?",
+     "48",
+     "12",
+     "40"
+    ],
+    "pt": [
+     "Quantas cidades no total Israel deu aos levitas?",
+     "48",
+     "12",
+     "40"
+    ],
+    "fr": [
+     "Combien de villes au total Israël donna-t-il aux lévites ?",
+     "48",
+     "12",
+     "40"
+    ],
+    "de": [
+     "Wie viele Städte gab Israel den Leviten insgesamt?",
+     "48",
+     "12",
+     "40"
+    ],
+    "it": [
+     "Quante città in tutto diede Israele ai leviti?",
+     "48",
+     "12",
+     "40"
+    ],
+    "pl": [
+     "Ile miast w sumie Izrael oddał lewitom?",
+     "48",
+     "12",
+     "40"
+    ],
+    "ru": [
+     "Сколько всего городов Израиль дал левитам?",
+     "48",
+     "12",
+     "40"
+    ],
+    "tr": [
+     "İsrail Levililer'e toplam kaç kent verdi?",
+     "48",
+     "12",
+     "40"
+    ],
+    "ja": [
+     "イスラエルはレビ人に全部で幾つの町を与えた？",
+     "48",
+     "12",
+     "40"
+    ],
+    "ko": [
+     "이스라엘은 레위인에게 모두 몇 개의 성읍을 주었나?",
+     "48",
+     "12",
+     "40"
+    ],
+    "ar": [
+     "كم مدينة في المجموع أعطى بنو إسرائيل للاويين؟",
+     "48",
+     "12",
+     "40"
+    ]
+   }
+  },
+  {
+   "id": "ch-joshua-013-42",
+   "book": "joshua",
+   "chapter": 21,
+   "difficulty": "medium",
+   "ref": "Joshua 21:1-2",
+   "text": {
+    "en": [
+     "Which priest and Joshua received the Levites' request for cities?",
+     "Eleazar",
+     "Eli",
+     "Zadok"
+    ],
+    "es": [
+     "¿Qué sacerdote, junto con Josué, recibió la petición de ciudades de los levitas?",
+     "Eleazar",
+     "Elí",
+     "Sadoc"
+    ],
+    "pt": [
+     "Que sacerdote, com Josué, recebeu o pedido de cidades dos levitas?",
+     "Eleazar",
+     "Eli",
+     "Sadoc"
+    ],
+    "fr": [
+     "Quel prêtre, avec Josué, reçut la demande de villes des lévites ?",
+     "Éléazar",
+     "Éli",
+     "Sadoq"
+    ],
+    "de": [
+     "Welcher Priester empfing mit Josua die Bitte der Leviten um Städte?",
+     "Eleasar",
+     "Eli",
+     "Zadok"
+    ],
+    "it": [
+     "Quale sacerdote, con Giosuè, ricevette la richiesta di città dei leviti?",
+     "Eleazaro",
+     "Eli",
+     "Sadoc"
+    ],
+    "pl": [
+     "Który kapłan wraz z Jozuem przyjął prośbę lewitów o miasta?",
+     "Eleazar",
+     "Heli",
+     "Sadok"
+    ],
+    "ru": [
+     "Какой священник вместе с Иисусом Навином принял просьбу левитов о городах?",
+     "Елеазар",
+     "Илий",
+     "Садок"
+    ],
+    "tr": [
+     "Levililer kent istemek için Yeşu'ya ve hangi kâhine başvurdu?",
+     "Elazar",
+     "Eli",
+     "Sadok"
+    ],
+    "ja": [
+     "ヨシュアと共にレビ人の町の願いを受けた祭司は誰？",
+     "エルアザル",
+     "エリ",
+     "ツァドク"
+    ],
+    "ko": [
+     "여호수아와 함께 레위인들의 성읍 요청을 받은 사제는?",
+     "엘아자르",
+     "엘리",
+     "차독"
+    ],
+    "ar": [
+     "أي كاهن، مع يشوع، تلقى طلب اللاويين للمدن؟",
+     "ألعازار",
+     "عالي",
+     "صادوق"
+    ]
+   }
+  },
+  {
+   "id": "ch-joshua-013-43",
+   "book": "joshua",
+   "chapter": 21,
+   "difficulty": "hard",
+   "ref": "Joshua 21:4",
+   "text": {
+    "en": [
+     "Descendants of which son of Levi received the first lot of Levite cities?",
+     "Kohath",
+     "Gershon",
+     "Merari"
+    ],
+    "es": [
+     "¿Los descendientes de qué hijo de Leví recibieron la primera suerte en el reparto de las ciudades levíticas?",
+     "Quehat",
+     "Guersón",
+     "Merarí"
+    ],
+    "pt": [
+     "Os descendentes de que filho de Levi receberam o primeiro sorteio das cidades levíticas?",
+     "Caat",
+     "Gérson",
+     "Merari"
+    ],
+    "fr": [
+     "Les descendants de quel fils de Lévi reçurent-ils le premier lot des villes lévitiques ?",
+     "Qehath",
+     "Guerchôn",
+     "Merari"
+    ],
+    "de": [
+     "Die Nachkommen welches Sohnes Levis erhielten das erste Los bei den Levitenstädten?",
+     "Kehat",
+     "Gerschon",
+     "Merari"
+    ],
+    "it": [
+     "I discendenti di quale figlio di Levi ricevettero la prima sorte delle città levitiche?",
+     "Keat",
+     "Gherson",
+     "Merari"
+    ],
+    "pl": [
+     "Potomkowie którego syna Lewiego otrzymali pierwszy los w podziale miast lewickich?",
+     "Kehat",
+     "Gerszon",
+     "Merari"
+    ],
+    "ru": [
+     "Потомки какого сына Левия получили первый жребий левитских городов?",
+     "Каафа",
+     "Гирсон",
+     "Мерарий"
+    ],
+    "tr": [
+     "Levi'nin hangi oğlunun torunları Levili kentlerinin ilk kurasını aldı?",
+     "Kehat",
+     "Gerşon",
+     "Merari"
+    ],
+    "ja": [
+     "レビのどの子の子孫が、レビ人の町の最初のくじを受けた？",
+     "ケハト",
+     "ゲルション",
+     "メラリ"
+    ],
+    "ko": [
+     "레위의 어느 아들의 후손이 레위인 성읍의 첫 제비를 뽑았나?",
+     "크핫",
+     "게르손",
+     "므라리"
+    ],
+    "ar": [
+     "نسل أي ابن للاوي نال القرعة الأولى لمدن اللاويين؟",
+     "قهات",
+     "جرشون",
+     "مراري"
+    ]
+   }
+  },
+  {
+   "id": "ch-joshua-013-44",
+   "book": "joshua",
+   "chapter": 21,
+   "difficulty": "expert",
+   "ref": "Joshua 21:4",
+   "text": {
+    "en": [
+     "How many cities did Aaron's priestly descendants receive?",
+     "13",
+     "10",
+     "12"
+    ],
+    "es": [
+     "¿Cuántas ciudades recibieron los descendientes sacerdotales de Aarón?",
+     "13",
+     "10",
+     "12"
+    ],
+    "pt": [
+     "Quantas cidades receberam os descendentes sacerdotais de Aarão?",
+     "13",
+     "10",
+     "12"
+    ],
+    "fr": [
+     "Combien de villes reçurent les descendants sacerdotaux d'Aaron ?",
+     "13",
+     "10",
+     "12"
+    ],
+    "de": [
+     "Wie viele Städte erhielten die priesterlichen Nachkommen Aarons?",
+     "13",
+     "10",
+     "12"
+    ],
+    "it": [
+     "Quante città ricevettero i discendenti sacerdotali di Aronne?",
+     "13",
+     "10",
+     "12"
+    ],
+    "pl": [
+     "Ile miast otrzymali kapłańscy potomkowie Aarona?",
+     "13",
+     "10",
+     "12"
+    ],
+    "ru": [
+     "Сколько городов получили священники, потомки Аарона?",
+     "13",
+     "10",
+     "12"
+    ],
+    "tr": [
+     "Harun'un kâhin soyu kaç kent aldı?",
+     "13",
+     "10",
+     "12"
+    ],
+    "ja": [
+     "アロンの子孫である祭司たちが受けた町は幾つ？",
+     "13",
+     "10",
+     "12"
+    ],
+    "ko": [
+     "아론의 사제 후손들이 받은 성읍은 몇 개?",
+     "13",
+     "10",
+     "12"
+    ],
+    "ar": [
+     "كم مدينة نال أبناء هارون الكهنة؟",
+     "13",
+     "10",
+     "12"
+    ]
+   }
+  },
+  {
+   "id": "ch-joshua-013-45",
+   "book": "joshua",
+   "chapter": 21,
+   "difficulty": "impossible",
+   "ref": "Joshua 21:12",
+   "text": {
+    "en": [
+     "Who kept the fields and villages around Hebron when priests received it?",
+     "Caleb",
+     "Othniel",
+     "Eleazar"
+    ],
+    "es": [
+     "¿Quién conservó los campos y aldeas de Hebrón cuando la recibieron los sacerdotes?",
+     "Caleb",
+     "Otniel",
+     "Eleazar"
+    ],
+    "pt": [
+     "Quem manteve os campos e aldeias de Hebron quando os sacerdotes a receberam?",
+     "Caleb",
+     "Otoniel",
+     "Eleazar"
+    ],
+    "fr": [
+     "Qui garda les champs et les villages d'Hébron quand les prêtres la reçurent ?",
+     "Caleb",
+     "Otniel",
+     "Éléazar"
+    ],
+    "de": [
+     "Wer behielt die Felder und Dörfer Hebrons, als die Priester die Stadt erhielten?",
+     "Kaleb",
+     "Otniël",
+     "Eleasar"
+    ],
+    "it": [
+     "Chi tenne i campi e i villaggi di Ebron quando i sacerdoti la ricevettero?",
+     "Caleb",
+     "Otniel",
+     "Eleazaro"
+    ],
+    "pl": [
+     "Kto zachował pola i wsie Hebronu, gdy kapłani otrzymali miasto?",
+     "Kaleb",
+     "Otniel",
+     "Eleazar"
+    ],
+    "ru": [
+     "Кто сохранил поля и селения Хеврона, когда город получили священники?",
+     "Халев",
+     "Гофониил",
+     "Елеазар"
+    ],
+    "tr": [
+     "Kâhinler Hevron'u alınca, kentin tarlalarını ve köylerini kim elinde tuttu?",
+     "Kalev",
+     "Otniel",
+     "Elazar"
+    ],
+    "ja": [
+     "祭司がヘブロンを受けたとき、その畑と村々を保ったのは誰？",
+     "カレブ",
+     "オトニエル",
+     "エルアザル"
+    ],
+    "ko": [
+     "사제들이 헤브론을 받을 때 그 밭과 마을을 간직한 사람은?",
+     "칼렙",
+     "오트니엘",
+     "엘아자르"
+    ],
+    "ar": [
+     "من احتفظ بحقول حبرون وقراها حين تسلّمها الكهنة؟",
+     "كالب",
+     "عثنئيل",
+     "ألعازار"
+    ]
+   }
+  },
+  {
+   "id": "ch-joshua-013-46",
+   "book": "joshua",
+   "chapter": 22,
+   "difficulty": "easy",
+   "ref": "Joshua 22:10",
+   "text": {
+    "en": [
+     "What large structure did Reuben and Gad build beside the Jordan?",
+     "Altar",
+     "Tower",
+     "Wall"
+    ],
+    "es": [
+     "¿Qué gran construcción levantaron Rubén y Gad junto al Jordán?",
+     "Altar",
+     "Torre",
+     "Muro"
+    ],
+    "pt": [
+     "Que grande construção Rúben e Gad ergueram junto ao Jordão?",
+     "Altar",
+     "Torre",
+     "Muro"
+    ],
+    "fr": [
+     "Quelle grande construction Ruben et Gad élevèrent-ils près du Jourdain ?",
+     "Autel",
+     "Tour",
+     "Mur"
+    ],
+    "de": [
+     "Welches große Bauwerk errichteten Ruben und Gad am Jordan?",
+     "Altar",
+     "Turm",
+     "Mauer"
+    ],
+    "it": [
+     "Quale grande costruzione innalzarono Ruben e Gad presso il Giordano?",
+     "Altare",
+     "Torre",
+     "Muro"
+    ],
+    "pl": [
+     "Jaką wielką budowlę wznieśli Ruben i Gad nad Jordanem?",
+     "Ołtarz",
+     "Wieża",
+     "Mur"
+    ],
+    "ru": [
+     "Какое большое сооружение построили Рувим и Гад у Иордана?",
+     "Жертвенник",
+     "Башня",
+     "Стена"
+    ],
+    "tr": [
+     "Ruben ile Gad, Şeria kıyısında hangi büyük yapıyı inşa etti?",
+     "Sunak",
+     "Kule",
+     "Duvar"
+    ],
+    "ja": [
+     "ルベンとガドがヨルダン川のほとりに築いた大きな建造物は？",
+     "祭壇",
+     "塔",
+     "壁"
+    ],
+    "ko": [
+     "르우벤과 갓은 요르단 강가에 어떤 큰 건축물을 세웠나?",
+     "제단",
+     "탑",
+     "벽"
+    ],
+    "ar": [
+     "أي بناء كبير أقامه رأوبين وجاد عند الأردن؟",
+     "مذبح",
+     "برج",
+     "سور"
+    ]
+   }
+  },
+  {
+   "id": "ch-joshua-013-47",
+   "book": "joshua",
+   "chapter": 22,
+   "difficulty": "medium",
+   "ref": "Joshua 22:13",
+   "text": {
+    "en": [
+     "Which priest, Eleazar's son, led the delegation to Reuben and Gad?",
+     "Phinehas",
+     "Eli",
+     "Zadok"
+    ],
+    "es": [
+     "¿Qué sacerdote, hijo de Eleazar, encabezó la delegación ante Rubén y Gad?",
+     "Pinjás",
+     "Elí",
+     "Sadoc"
+    ],
+    "pt": [
+     "Que sacerdote, filho de Eleazar, chefiou a delegação a Rúben e Gad?",
+     "Finéias",
+     "Eli",
+     "Sadoc"
+    ],
+    "fr": [
+     "Quel prêtre, fils d'Éléazar, conduisit la délégation auprès de Ruben et Gad ?",
+     "Pinhas",
+     "Éli",
+     "Sadoq"
+    ],
+    "de": [
+     "Welcher Priester, Sohn Eleasars, führte die Abordnung zu Ruben und Gad an?",
+     "Pinhas",
+     "Eli",
+     "Zadok"
+    ],
+    "it": [
+     "Quale sacerdote, figlio di Eleazaro, guidò la delegazione presso Ruben e Gad?",
+     "Pincas",
+     "Eli",
+     "Sadoc"
+    ],
+    "pl": [
+     "Który kapłan, syn Eleazara, stanął na czele poselstwa do Rubena i Gada?",
+     "Pinchas",
+     "Heli",
+     "Sadok"
+    ],
+    "ru": [
+     "Какой священник, сын Елеазара, возглавил посольство к рувимитам и гадитам?",
+     "Финеес",
+     "Илий",
+     "Садок"
+    ],
+    "tr": [
+     "Elazar'ın oğlu hangi kâhin, Ruben ve Gad'a giden heyete öncülük etti?",
+     "Pinehas",
+     "Eli",
+     "Sadok"
+    ],
+    "ja": [
+     "ルベンとガドへの使節団を率いた、エルアザルの子の祭司は誰？",
+     "ピネハス",
+     "エリ",
+     "ツァドク"
+    ],
+    "ko": [
+     "르우벤과 갓에게 간 사절단을 이끈 엘아자르의 아들 사제는?",
+     "피느하스",
+     "엘리",
+     "차독"
+    ],
+    "ar": [
+     "أي كاهن، ابن ألعازار، قاد الوفد إلى رأوبين وجاد؟",
+     "فينحاس",
+     "عالي",
+     "صادوق"
+    ]
+   }
+  },
+  {
+   "id": "ch-joshua-013-48",
+   "book": "joshua",
+   "chapter": 22,
+   "difficulty": "hard",
+   "ref": "Joshua 22:20",
+   "text": {
+    "en": [
+     "Whose sin at Jericho did Phinehas recall to the eastern tribes?",
+     "Achan",
+     "Korah",
+     "Balaam"
+    ],
+    "es": [
+     "¿El pecado de qué hombre en Jericó recordó Pinjás a las tribus orientales?",
+     "Acán",
+     "Coré",
+     "Balaán"
+    ],
+    "pt": [
+     "O pecado de que homem em Jericó Finéias lembrou às tribos orientais?",
+     "Acã",
+     "Coré",
+     "Balaão"
+    ],
+    "fr": [
+     "Le péché de quel homme à Jéricho Pinhas rappela-t-il aux tribus orientales ?",
+     "Akân",
+     "Coré",
+     "Balaam"
+    ],
+    "de": [
+     "An die Sünde welches Mannes in Jericho erinnerte Pinhas die Oststämme?",
+     "Achan",
+     "Korach",
+     "Bileam"
+    ],
+    "it": [
+     "Il peccato di quale uomo a Gerico ricordò Pincas alle tribù orientali?",
+     "Acan",
+     "Core",
+     "Balaam"
+    ],
+    "pl": [
+     "O grzechu którego męża w Jerychu przypomniał Pinchas wschodnim pokoleniom?",
+     "Achan",
+     "Korach",
+     "Balaam"
+    ],
+    "ru": [
+     "О грехе какого мужа в Иерихоне напомнил Финеес восточным коленам?",
+     "Ахан",
+     "Корей",
+     "Валаам"
+    ],
+    "tr": [
+     "Pinehas doğudaki oymaklara Eriha'da hangi adamın günahını hatırlattı?",
+     "Akan",
+     "Korah",
+     "Balam"
+    ],
+    "ja": [
+     "ピネハスは東の部族に、エリコでの誰の罪を思い起こさせた？",
+     "アカン",
+     "コラ",
+     "バラム"
+    ],
+    "ko": [
+     "피느하스는 동쪽 지파들에게 예리코에서 누구의 죄를 상기시켰나?",
+     "아칸",
+     "코라",
+     "발라암"
+    ],
+    "ar": [
+     "خطيئة أي رجل في أريحا ذكّر بها فينحاس الأسباط الشرقية؟",
+     "عخان",
+     "قورح",
+     "بلعام"
+    ]
+   }
+  },
+  {
+   "id": "ch-joshua-013-49",
+   "book": "joshua",
+   "chapter": 22,
+   "difficulty": "expert",
+   "ref": "Joshua 22:14",
+   "text": {
+    "en": [
+     "How many tribal chiefs accompanied Phinehas to the eastern tribes?",
+     "10",
+     "12",
+     "7"
+    ],
+    "es": [
+     "¿Cuántos jefes tribales acompañaron a Pinjás ante las tribus orientales?",
+     "10",
+     "12",
+     "7"
+    ],
+    "pt": [
+     "Quantos chefes de tribo acompanharam Finéias às tribos orientais?",
+     "10",
+     "12",
+     "7"
+    ],
+    "fr": [
+     "Combien de chefs de tribu accompagnèrent Pinhas auprès des tribus orientales ?",
+     "10",
+     "12",
+     "7"
+    ],
+    "de": [
+     "Wie viele Stammesfürsten begleiteten Pinhas zu den Oststämmen?",
+     "10",
+     "12",
+     "7"
+    ],
+    "it": [
+     "Quanti capi tribù accompagnarono Pincas presso le tribù orientali?",
+     "10",
+     "12",
+     "7"
+    ],
+    "pl": [
+     "Ilu przywódców pokoleń towarzyszyło Pinchasowi do wschodnich pokoleń?",
+     "10",
+     "12",
+     "7"
+    ],
+    "ru": [
+     "Сколько князей колен сопровождали Финееса к восточным коленам?",
+     "10",
+     "12",
+     "7"
+    ],
+    "tr": [
+     "Pinehas'a doğudaki oymaklara kaç oymak önderi eşlik etti?",
+     "10",
+     "12",
+     "7"
+    ],
+    "ja": [
+     "ピネハスに同行して東の部族のもとへ行った部族長は何人？",
+     "10",
+     "12",
+     "7"
+    ],
+    "ko": [
+     "피느하스와 함께 동쪽 지파에게 간 지파 대표는 몇 명?",
+     "10",
+     "12",
+     "7"
+    ],
+    "ar": [
+     "كم رئيس سبط رافق فينحاس إلى الأسباط الشرقية؟",
+     "10",
+     "12",
+     "7"
+    ]
+   }
+  },
+  {
+   "id": "ch-joshua-013-50",
+   "book": "joshua",
+   "chapter": 22,
+   "difficulty": "impossible",
+   "ref": "Joshua 22:34",
+   "text": {
+    "en": [
+     "What name did Reuben and Gad give the altar they built?",
+     "Witness",
+     "Peace",
+     "Victory"
+    ],
+    "es": [
+     "¿Qué nombre dieron Rubén y Gad al altar que levantaron?",
+     "Testigo",
+     "Paz",
+     "Victoria"
+    ],
+    "pt": [
+     "Que nome Rúben e Gad deram ao altar que construíram?",
+     "Testemunho",
+     "Paz",
+     "Vitória"
+    ],
+    "fr": [
+     "Quel nom Ruben et Gad donnèrent-ils à l'autel qu'ils avaient bâti ?",
+     "Témoin",
+     "Paix",
+     "Victoire"
+    ],
+    "de": [
+     "Welchen Namen gaben Ruben und Gad dem Altar, den sie gebaut hatten?",
+     "Zeuge",
+     "Frieden",
+     "Sieg"
+    ],
+    "it": [
+     "Quale nome diedero Ruben e Gad all'altare che avevano costruito?",
+     "Testimone",
+     "Pace",
+     "Vittoria"
+    ],
+    "pl": [
+     "Jakie imię nadali Ruben i Gad ołtarzowi, który zbudowali?",
+     "Świadek",
+     "Pokój",
+     "Zwycięstwo"
+    ],
+    "ru": [
+     "Какое имя дали Рувим и Гад построенному ими жертвеннику?",
+     "Свидетель",
+     "Мир",
+     "Победа"
+    ],
+    "tr": [
+     "Ruben ile Gad yaptıkları sunağa hangi adı verdi?",
+     "Tanık",
+     "Barış",
+     "Zafer"
+    ],
+    "ja": [
+     "ルベンとガドは築いた祭壇に何という名をつけた？",
+     "証し",
+     "平和",
+     "勝利"
+    ],
+    "ko": [
+     "르우벤과 갓은 자신들이 세운 제단에 무슨 이름을 붙였나?",
+     "증거",
+     "평화",
+     "승리"
+    ],
+    "ar": [
+     "أي اسم أطلق رأوبين وجاد على المذبح الذي بنياه؟",
+     "شاهد",
+     "سلام",
+     "نصر"
+    ]
+   }
+  },
+  {
+   "id": "ch-joshua-013-51",
+   "book": "joshua",
+   "chapter": 23,
+   "difficulty": "easy",
+   "ref": "Joshua 23:10",
+   "text": {
+    "en": [
+     "According to Joshua's farewell, how many enemies did one Israelite chase away?",
+     "1000",
+     "100",
+     "10000"
+    ],
+    "es": [
+     "¿A cuántos enemigos hacía huir un israelita, según la despedida de Josué?",
+     "1000",
+     "100",
+     "10000"
+    ],
+    "pt": [
+     "Quantos inimigos um israelita fazia fugir, segundo a despedida de Josué?",
+     "1000",
+     "100",
+     "10000"
+    ],
+    "fr": [
+     "Selon les adieux de Josué, combien d'ennemis un seul Israélite mettait-il en fuite ?",
+     "1000",
+     "100",
+     "10000"
+    ],
+    "de": [
+     "Wie viele Feinde jagte laut Josuas Abschiedsrede ein einziger Israelit in die Flucht?",
+     "1000",
+     "100",
+     "10000"
+    ],
+    "it": [
+     "Secondo l'addio di Giosuè, quanti nemici metteva in fuga un solo Israelita?",
+     "1000",
+     "100",
+     "10000"
+    ],
+    "pl": [
+     "Ilu wrogów obraca w ucieczkę jeden Izraelita, według pożegnania Jozuego?",
+     "1000",
+     "100",
+     "10000"
+    ],
+    "ru": [
+     "Скольких врагов, по прощальным словам Иисуса Навина, обращал в бегство один израильтянин?",
+     "1000",
+     "100",
+     "10000"
+    ],
+    "tr": [
+     "Yeşu'nun veda konuşmasına göre bir İsrailli kaç düşmanı kovalardı?",
+     "1000",
+     "100",
+     "10000"
+    ],
+    "ja": [
+     "ヨシュアの別れの言葉では、イスラエル人一人は何人の敵を追い払う？",
+     "1000",
+     "100",
+     "10000"
+    ],
+    "ko": [
+     "여호수아의 고별 연설에 따르면 이스라엘 사람 한 명은 적 몇 명을 쫓았나?",
+     "1000",
+     "100",
+     "10000"
+    ],
+    "ar": [
+     "بحسب وداع يشوع، كم عدوًّا يطرد الإسرائيلي الواحد؟",
+     "1000",
+     "100",
+     "10000"
+    ]
+   }
+  },
+  {
+   "id": "ch-joshua-013-52",
+   "book": "joshua",
+   "chapter": 23,
+   "difficulty": "medium",
+   "ref": "Joshua 23:6",
+   "text": {
+    "en": [
+     "Whose Book of the Law did Joshua command Israel to keep?",
+     "Moses",
+     "Aaron",
+     "Abraham"
+    ],
+    "es": [
+     "¿De quién era el libro de la Ley que Josué mandó cumplir a Israel?",
+     "Moisés",
+     "Aarón",
+     "Abrahán"
+    ],
+    "pt": [
+     "De quem era o livro da Lei que Josué mandou Israel cumprir?",
+     "Moisés",
+     "Aarão",
+     "Abraão"
+    ],
+    "fr": [
+     "De qui était le livre de la Loi que Josué ordonna à Israël d'observer ?",
+     "Moïse",
+     "Aaron",
+     "Abraham"
+    ],
+    "de": [
+     "Wessen Gesetzbuch sollte Israel nach Josuas Befehl vollständig befolgen?",
+     "Mose",
+     "Aaron",
+     "Abraham"
+    ],
+    "it": [
+     "Di chi era il libro della Legge che Giosuè ordinò a Israele di osservare?",
+     "Mosè",
+     "Aronne",
+     "Abramo"
+    ],
+    "pl": [
+     "Czyją księgę Prawa Jozue nakazał Izraelowi wypełniać?",
+     "Mojżesz",
+     "Aaron",
+     "Abraham"
+    ],
+    "ru": [
+     "Чью книгу закона Иисус Навин велел Израилю исполнять?",
+     "Моисей",
+     "Аарон",
+     "Авраам"
+    ],
+    "tr": [
+     "Yeşu, İsrail'e kimin Yasa kitabına uymasını emretti?",
+     "Musa",
+     "Harun",
+     "İbrahim"
+    ],
+    "ja": [
+     "ヨシュアがイスラエルに守るよう命じた律法の書は、誰のもの？",
+     "モーセ",
+     "アロン",
+     "アブラハム"
+    ],
+    "ko": [
+     "여호수아가 이스라엘에게 지키라고 명한 율법서는 누구의 것인가?",
+     "모세",
+     "아론",
+     "아브라함"
+    ],
+    "ar": [
+     "كتاب شريعة من أمر يشوع إسرائيل بحفظه؟",
+     "موسى",
+     "هارون",
+     "إبراهيم"
+    ]
+   }
+  },
+  {
+   "id": "ch-joshua-013-53",
+   "book": "joshua",
+   "chapter": 23,
+   "difficulty": "hard",
+   "ref": "Joshua 23:7",
+   "text": {
+    "en": [
+     "Joshua forbade Israel to swear by the names of which beings?",
+     "Gods",
+     "Angels",
+     "Demons"
+    ],
+    "es": [
+     "¿Por el nombre de qué seres prohibió Josué a Israel jurar?",
+     "Dioses",
+     "Ángeles",
+     "Demonios"
+    ],
+    "pt": [
+     "Pelo nome de que seres Josué proibiu Israel de jurar?",
+     "Deuses",
+     "Anjos",
+     "Demônios"
+    ],
+    "fr": [
+     "Par le nom de quels êtres Josué interdit-il à Israël de jurer ?",
+     "Dieux",
+     "Anges",
+     "Démons"
+    ],
+    "de": [
+     "Bei den Namen welcher Wesen verbot Josua Israel zu schwören?",
+     "Götter",
+     "Engel",
+     "Dämonen"
+    ],
+    "it": [
+     "Per il nome di quali esseri Giosuè proibì a Israele di giurare?",
+     "Dèi",
+     "Angeli",
+     "Demoni"
+    ],
+    "pl": [
+     "Na imię jakich istot Jozue zabronił Izraelowi przysięgać?",
+     "Bogowie",
+     "Aniołowie",
+     "Demony"
+    ],
+    "ru": [
+     "Именем каких существ Иисус Навин запретил Израилю клясться?",
+     "Боги",
+     "Ангелы",
+     "Демоны"
+    ],
+    "tr": [
+     "Yeşu İsrail'e hangi varlıkların adıyla ant içmeyi yasakladı?",
+     "Tanrılar",
+     "Melekler",
+     "Cinler"
+    ],
+    "ja": [
+     "ヨシュアがイスラエルに、その名によって誓うことを禁じた存在は？",
+     "神々",
+     "天使",
+     "悪霊"
+    ],
+    "ko": [
+     "여호수아가 이스라엘에게 그 이름으로 맹세하지 말라고 금한 존재는?",
+     "신들",
+     "천사",
+     "악마"
+    ],
+    "ar": [
+     "بأسماء أي كائنات حظر يشوع على إسرائيل أن يحلفوا؟",
+     "آلهة",
+     "ملائكة",
+     "شياطين"
+    ]
+   }
+  },
+  {
+   "id": "ch-joshua-013-54",
+   "book": "joshua",
+   "chapter": 23,
+   "difficulty": "expert",
+   "ref": "Joshua 23:13",
+   "text": {
+    "en": [
+     "What would the remaining nations become on Israel's sides, Joshua warned?",
+     "Scourge",
+     "Swords",
+     "Chains"
+    ],
+    "es": [
+     "¿Qué serían las naciones restantes en los costados de Israel, advirtió Josué?",
+     "Azote",
+     "Espadas",
+     "Cadenas"
+    ],
+    "pt": [
+     "O que as nações restantes seriam nos flancos de Israel, advertiu Josué?",
+     "Açoite",
+     "Espadas",
+     "Correntes"
+    ],
+    "fr": [
+     "Que seraient les nations restantes sur les flancs d'Israël, avertit Josué ?",
+     "Fouet",
+     "Épées",
+     "Chaînes"
+    ],
+    "de": [
+     "Was würden die übrigen Völker an Israels Seiten sein, warnte Josua?",
+     "Geißel",
+     "Schwerter",
+     "Ketten"
+    ],
+    "it": [
+     "Che cosa sarebbero diventate le nazioni rimaste ai fianchi d'Israele, avvertì Giosuè?",
+     "Flagello",
+     "Spade",
+     "Catene"
+    ],
+    "pl": [
+     "Czym staną się pozostałe narody po bokach Izraela, ostrzegł Jozue?",
+     "Bicz",
+     "Miecze",
+     "Łańcuchy"
+    ],
+    "ru": [
+     "Чем станут оставшиеся народы по бокам Израиля, предупредил Иисус Навин?",
+     "Бич",
+     "Мечи",
+     "Цепи"
+    ],
+    "tr": [
+     "Yeşu uyardı: Kalan uluslar İsrail'in yanlarında ne olacaktı?",
+     "Kamçı",
+     "Kılıçlar",
+     "Zincirler"
+    ],
+    "ja": [
+     "ヨシュアが警告した、残る諸国民はイスラエルの脇腹にとって何となる？",
+     "鞭",
+     "剣",
+     "鎖"
+    ],
+    "ko": [
+     "여호수아가 경고하기를, 남은 민족들은 이스라엘의 옆구리에 무엇이 되겠는가?",
+     "채찍",
+     "칼",
+     "사슬"
+    ],
+    "ar": [
+     "ماذا ستكون الأمم الباقية على جنبي إسرائيل، حذّر يشوع؟",
+     "سوط",
+     "سيوف",
+     "سلاسل"
+    ]
+   }
+  },
+  {
+   "id": "ch-joshua-013-55",
+   "book": "joshua",
+   "chapter": 23,
+   "difficulty": "impossible",
+   "ref": "Joshua 23:13",
+   "text": {
+    "en": [
+     "Which body part would the remaining nations prick like thorns, Joshua warned?",
+     "Eyes",
+     "Feet",
+     "Hands"
+    ],
+    "es": [
+     "¿En qué parte del cuerpo clavarían espinas las naciones restantes, según Josué?",
+     "Ojos",
+     "Pies",
+     "Manos"
+    ],
+    "pt": [
+     "Que parte do corpo seria ferida por espinhos das nações restantes, segundo Josué?",
+     "Olhos",
+     "Pés",
+     "Mãos"
+    ],
+    "fr": [
+     "Quelle partie du corps les nations restantes piqueraient-elles comme des épines, selon Josué ?",
+     "Yeux",
+     "Pieds",
+     "Mains"
+    ],
+    "de": [
+     "Welches Körperteil würden die übrigen Völker laut Josua wie Dornen stechen?",
+     "Augen",
+     "Füße",
+     "Hände"
+    ],
+    "it": [
+     "Quale parte del corpo avrebbero punto come spine le nazioni rimaste, avvertì Giosuè?",
+     "Occhi",
+     "Piedi",
+     "Mani"
+    ],
+    "pl": [
+     "Którą część ciała kłułyby jak ciernie pozostałe narody, ostrzegł Jozue?",
+     "Oczy",
+     "Stopy",
+     "Ręce"
+    ],
+    "ru": [
+     "Какую часть тела, предупредил Иисус Навин, будут колоть как тернии оставшиеся народы?",
+     "Глаза",
+     "Ноги",
+     "Руки"
+    ],
+    "tr": [
+     "Kalan uluslar diken gibi hangi vücut bölümüne batacaktı, diye uyardı Yeşu?",
+     "Gözler",
+     "Ayaklar",
+     "Eller"
+    ],
+    "ja": [
+     "残る諸国民が茨のように刺すと、ヨシュアが警告した体の部分は？",
+     "目",
+     "足",
+     "手"
+    ],
+    "ko": [
+     "여호수아는 남은 민족들이 가시처럼 어느 신체 부위를 찌를 것이라 경고했나?",
+     "눈",
+     "발",
+     "손"
+    ],
+    "ar": [
+     "أي جزء من الجسد قال يشوع إن الأمم الباقية ستشوكه كالأشواك؟",
+     "عيون",
+     "أقدام",
+     "أيدي"
+    ]
+   }
+  },
+  {
+   "id": "ch-joshua-013-56",
+   "book": "joshua",
+   "chapter": 24,
+   "difficulty": "easy",
+   "ref": "Joshua 24:15",
+   "text": {
+    "en": [
+     "Whom did Joshua declare that he and his household would serve?",
+     "Lord",
+     "Baal",
+     "Dagon"
+    ],
+    "es": [
+     "¿A quién declaró Josué que servirían él y su casa?",
+     "Señor",
+     "Baal",
+     "Dagón"
+    ],
+    "pt": [
+     "A quem Josué declarou que ele e sua casa serviriam?",
+     "Senhor",
+     "Baal",
+     "Dagon"
+    ],
+    "fr": [
+     "Qui Josué déclara-t-il que lui et sa maison serviraient ?",
+     "Seigneur",
+     "Baal",
+     "Dagon"
+    ],
+    "de": [
+     "Wem würden Josua und sein Haus nach seiner Erklärung dienen?",
+     "Herr",
+     "Baal",
+     "Dagon"
+    ],
+    "it": [
+     "Chi dichiarò Giosuè che lui e la sua casa avrebbero servito?",
+     "Signore",
+     "Baal",
+     "Dagon"
+    ],
+    "pl": [
+     "Komu, według słów Jozuego, on i jego dom mieli służyć?",
+     "Pan",
+     "Baal",
+     "Dagon"
+    ],
+    "ru": [
+     "Кому, по заявлению Иисуса Навина, будут служить он и дом его?",
+     "Господь",
+     "Ваал",
+     "Дагон"
+    ],
+    "tr": [
+     "Yeşu, kendisi ve ev halkının kime kulluk edeceğini söyledi?",
+     "Rab",
+     "Baal",
+     "Dagon"
+    ],
+    "ja": [
+     "ヨシュアは、自分と家族は誰に仕えると宣言した？",
+     "主",
+     "バアル",
+     "ダゴン"
+    ],
+    "ko": [
+     "여호수아는 자신과 집안이 누구를 섬기겠다고 선언했나?",
+     "주님",
+     "바알",
+     "다곤"
+    ],
+    "ar": [
+     "لمن أعلن يشوع أنه وبيته سيخدمونه؟",
+     "الرب",
+     "بعل",
+     "داجون"
+    ]
+   }
+  },
+  {
+   "id": "ch-joshua-013-57",
+   "book": "joshua",
+   "chapter": 24,
+   "difficulty": "medium",
+   "ref": "Joshua 24:29",
+   "text": {
+    "en": [
+     "How old was Joshua son of Nun when he died?",
+     "110",
+     "120",
+     "100"
+    ],
+    "es": [
+     "¿Qué edad tenía Josué, hijo de Nun, cuando murió?",
+     "110",
+     "120",
+     "100"
+    ],
+    "pt": [
+     "Que idade tinha Josué, filho de Num, quando morreu?",
+     "110",
+     "120",
+     "100"
+    ],
+    "fr": [
+     "Quel âge avait Josué, fils de Nûn, à sa mort ?",
+     "110",
+     "120",
+     "100"
+    ],
+    "de": [
+     "Wie alt war Josua, Sohn Nuns, als er starb?",
+     "110",
+     "120",
+     "100"
+    ],
+    "it": [
+     "Quanti anni aveva Giosuè, figlio di Nun, quando morì?",
+     "110",
+     "120",
+     "100"
+    ],
+    "pl": [
+     "Ile lat miał Jozue, syn Nuna, gdy umarł?",
+     "110",
+     "120",
+     "100"
+    ],
+    "ru": [
+     "Сколько лет было Иисусу, сыну Навину, когда он умер?",
+     "110",
+     "120",
+     "100"
+    ],
+    "tr": [
+     "Nun oğlu Yeşu öldüğünde kaç yaşındaydı?",
+     "110",
+     "120",
+     "100"
+    ],
+    "ja": [
+     "ヌンの子ヨシュアは何歳で死んだ？",
+     "110",
+     "120",
+     "100"
+    ],
+    "ko": [
+     "눈의 아들 여호수아는 몇 살에 죽었나?",
+     "110",
+     "120",
+     "100"
+    ],
+    "ar": [
+     "كم كان عمر يشوع بن نون عندما مات؟",
+     "110",
+     "120",
+     "100"
+    ]
+   }
+  },
+  {
+   "id": "ch-joshua-013-58",
+   "book": "joshua",
+   "chapter": 24,
+   "difficulty": "hard",
+   "ref": "Joshua 24:32",
+   "text": {
+    "en": [
+     "Whose bones, brought from Egypt, did Israel bury at Shechem?",
+     "Joseph",
+     "Moses",
+     "Aaron"
+    ],
+    "es": [
+     "¿Los huesos de quién, traídos de Egipto, sepultó Israel en Siquén?",
+     "José",
+     "Moisés",
+     "Aarón"
+    ],
+    "pt": [
+     "Os ossos de quem, trazidos do Egito, Israel sepultou em Siquém?",
+     "José",
+     "Moisés",
+     "Aarão"
+    ],
+    "fr": [
+     "Les ossements de qui, rapportés d'Égypte, Israël ensevelit-il à Sichem ?",
+     "Joseph",
+     "Moïse",
+     "Aaron"
+    ],
+    "de": [
+     "Wessen aus Ägypten mitgebrachte Gebeine begrub Israel in Sichem?",
+     "Josef",
+     "Mose",
+     "Aaron"
+    ],
+    "it": [
+     "Le ossa di chi, portate dall'Egitto, furono sepolte a Sichem?",
+     "Giuseppe",
+     "Mosè",
+     "Aronne"
+    ],
+    "pl": [
+     "Czyje kości, przyniesione z Egiptu, pochowano w Sychem?",
+     "Józef",
+     "Mojżesz",
+     "Aaron"
+    ],
+    "ru": [
+     "Чьи кости, принесённые из Египта, сыны Израилевы погребли в Сихеме?",
+     "Иосиф",
+     "Моисей",
+     "Аарон"
+    ],
+    "tr": [
+     "İsrailliler Mısır'dan getirdikleri hangi kişinin kemiklerini Şekem'e gömdü?",
+     "Yusuf",
+     "Musa",
+     "Harun"
+    ],
+    "ja": [
+     "エジプトから運ばれ、シケムに葬られた骨は誰のもの？",
+     "ヨセフ",
+     "モーセ",
+     "アロン"
+    ],
+    "ko": [
+     "이집트에서 가져와 스켐에 묻은 뼈는 누구의 것인가?",
+     "요셉",
+     "모세",
+     "아론"
+    ],
+    "ar": [
+     "عظام من، التي جُلبت من مصر، دفنها بنو إسرائيل في شكيم؟",
+     "يوسف",
+     "موسى",
+     "هارون"
+    ]
+   }
+  },
+  {
+   "id": "ch-joshua-013-59",
+   "book": "joshua",
+   "chapter": 24,
+   "difficulty": "expert",
+   "ref": "Joshua 24:2",
+   "text": {
+    "en": [
+     "Besides Abraham, which son of Terah did Joshua mention in his speech?",
+     "Nahor",
+     "Lot",
+     "Isaac"
+    ],
+    "es": [
+     "¿Qué otro hijo de Téraj, además de Abrahán, mencionó Josué en su discurso?",
+     "Najor",
+     "Lot",
+     "Isaac"
+    ],
+    "pt": [
+     "Que outro filho de Taré, além de Abraão, Josué mencionou em seu discurso?",
+     "Nacor",
+     "Ló",
+     "Isaac"
+    ],
+    "fr": [
+     "Quel autre fils de Térah, outre Abraham, Josué mentionna-t-il dans son discours ?",
+     "Nahor",
+     "Loth",
+     "Isaac"
+    ],
+    "de": [
+     "Welchen weiteren Sohn Terachs außer Abraham nannte Josua in seiner Rede?",
+     "Nahor",
+     "Lot",
+     "Isaak"
+    ],
+    "it": [
+     "Quale altro figlio di Terach, oltre ad Abramo, citò Giosuè nel suo discorso?",
+     "Nacor",
+     "Lot",
+     "Isacco"
+    ],
+    "pl": [
+     "Którego innego syna Teracha, oprócz Abrahama, wymienił Jozue w swojej mowie?",
+     "Nachor",
+     "Lot",
+     "Izaak"
+    ],
+    "ru": [
+     "Какого ещё сына Фарры, кроме Авраама, упомянул Иисус Навин в своей речи?",
+     "Нахор",
+     "Лот",
+     "Исаак"
+    ],
+    "tr": [
+     "Yeşu, konuşmasında İbrahim dışında Terah'ın hangi oğlundan söz etti?",
+     "Nahor",
+     "Lut",
+     "İshak"
+    ],
+    "ja": [
+     "ヨシュアは演説で、アブラハムのほかにテラのどの子を挙げた？",
+     "ナホル",
+     "ロト",
+     "イサク"
+    ],
+    "ko": [
+     "여호수아는 연설에서 아브라함 외에 데라의 어느 아들을 언급했나?",
+     "나호르",
+     "롯",
+     "이사악"
+    ],
+    "ar": [
+     "أي ابن آخر لتارح، غير إبراهيم، ذكره يشوع في خطابه؟",
+     "ناحور",
+     "لوط",
+     "إسحاق"
+    ]
+   }
+  },
+  {
+   "id": "ch-joshua-013-60",
+   "book": "joshua",
+   "chapter": 24,
+   "difficulty": "impossible",
+   "ref": "Joshua 24:32",
+   "text": {
+    "en": [
+     "How many pieces of money did Jacob pay for his field at Shechem?",
+     "100",
+     "50",
+     "10"
+    ],
+    "es": [
+     "¿Cuántas monedas pagó Jacob por su campo en Siquén?",
+     "100",
+     "50",
+     "10"
+    ],
+    "pt": [
+     "Quantas moedas Jacó pagou por seu campo em Siquém?",
+     "100",
+     "50",
+     "10"
+    ],
+    "fr": [
+     "Combien de pièces d'argent Jacob paya-t-il pour son champ de Sichem ?",
+     "100",
+     "50",
+     "10"
+    ],
+    "de": [
+     "Wie viele Geldstücke zahlte Jakob für sein Grundstück bei Sichem?",
+     "100",
+     "50",
+     "10"
+    ],
+    "it": [
+     "Quante monete pagò Giacobbe per il suo campo a Sichem?",
+     "100",
+     "50",
+     "10"
+    ],
+    "pl": [
+     "Ile sztuk pieniędzy zapłacił Jakub za swoje pole w Sychem?",
+     "100",
+     "50",
+     "10"
+    ],
+    "ru": [
+     "Сколько монет заплатил Иаков за своё поле в Сихеме?",
+     "100",
+     "50",
+     "10"
+    ],
+    "tr": [
+     "Yakup Şekem'deki tarlası için kaç gümüş para ödedi?",
+     "100",
+     "50",
+     "10"
+    ],
+    "ja": [
+     "ヤコブはシケムの畑を何枚の銀貨で買った？",
+     "100",
+     "50",
+     "10"
+    ],
+    "ko": [
+     "야곱은 스켐의 밭을 사려고 몇 개의 은화를 냈나?",
+     "100",
+     "50",
+     "10"
+    ],
+    "ar": [
+     "كم قطعة من المال دفع يعقوب ثمن حقله في شكيم؟",
+     "100",
+     "50",
+     "10"
+    ]
+   }
+  }
+ ]
+}
