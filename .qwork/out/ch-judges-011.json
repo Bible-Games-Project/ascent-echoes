@@ -1,0 +1,4459 @@
+{
+ "questions": [
+  {
+   "id": "ch-judges-011-01",
+   "book": "judges",
+   "chapter": 11,
+   "difficulty": "easy",
+   "ref": "Judges 11:34",
+   "text": {
+    "en": [
+     "Who first came out to meet Jephthah after his victory over Ammon?",
+     "Daughter",
+     "Wife",
+     "Mother"
+    ],
+    "es": [
+     "¿Quién salió primero al encuentro de Jefté tras su victoria sobre Amón?",
+     "Hija",
+     "Esposa",
+     "Madre"
+    ],
+    "pt": [
+     "Quem saiu primeiro ao encontro de Jefté depois da sua vitória sobre Amon?",
+     "Filha",
+     "Esposa",
+     "Mãe"
+    ],
+    "fr": [
+     "Qui sortit le premier à la rencontre de Jephté après sa victoire sur Ammon ?",
+     "Fille",
+     "Épouse",
+     "Mère"
+    ],
+    "de": [
+     "Wer kam Jiftach nach seinem Sieg über Ammon als Erste entgegen?",
+     "Tochter",
+     "Frau",
+     "Mutter"
+    ],
+    "it": [
+     "Chi uscì per prima incontro a Iefte dopo la sua vittoria su Ammon?",
+     "Figlia",
+     "Moglie",
+     "Madre"
+    ],
+    "pl": [
+     "Kto pierwszy wyszedł na spotkanie Jeftego po jego zwycięstwie nad Ammonem?",
+     "Córka",
+     "Żona",
+     "Matka"
+    ],
+    "ru": [
+     "Кто первым вышел навстречу Иеффаю после его победы над Аммоном?",
+     "Дочь",
+     "Жена",
+     "Мать"
+    ],
+    "tr": [
+     "Yeftah'ın Ammon üzerindeki zaferinden sonra onu karşılamaya ilk kim çıktı?",
+     "Kız",
+     "Eş",
+     "Anne"
+    ],
+    "ja": [
+     "エフタがアンモンに勝った後、最初に迎えに出て来たのは誰？",
+     "娘",
+     "妻",
+     "母"
+    ],
+    "ko": [
+     "입다가 암몬을 이긴 뒤 가장 먼저 그를 맞으러 나온 사람은 누구입니까?",
+     "딸",
+     "아내",
+     "어머니"
+    ],
+    "ar": [
+     "من خرج أولاً لملاقاة يفتاح بعد انتصاره على عمون؟",
+     "ابنة",
+     "زوجة",
+     "أم"
+    ]
+   }
+  },
+  {
+   "id": "ch-judges-011-02",
+   "book": "judges",
+   "chapter": 11,
+   "difficulty": "medium",
+   "ref": "Judges 11:3",
+   "text": {
+    "en": [
+     "To which land did Jephthah flee from his half-brothers?",
+     "Tob",
+     "Moab",
+     "Edom"
+    ],
+    "es": [
+     "¿A qué tierra huyó Jefté de sus hermanastros?",
+     "Tob",
+     "Moab",
+     "Edom"
+    ],
+    "pt": [
+     "Para que terra fugiu Jefté dos seus meios-irmãos?",
+     "Tob",
+     "Moabe",
+     "Edom"
+    ],
+    "fr": [
+     "Dans quel pays Jephté s'enfuit-il loin de ses demi-frères ?",
+     "Tob",
+     "Moab",
+     "Édom"
+    ],
+    "de": [
+     "In welches Land floh Jiftach vor seinen Halbbrüdern?",
+     "Tob",
+     "Moab",
+     "Edom"
+    ],
+    "it": [
+     "In quale terra fuggì Iefte dai suoi fratellastri?",
+     "Tob",
+     "Moab",
+     "Edom"
+    ],
+    "pl": [
+     "Do jakiej ziemi uciekł Jefte przed swoimi przyrodnimi braćmi?",
+     "Tob",
+     "Moab",
+     "Edom"
+    ],
+    "ru": [
+     "В какую землю бежал Иеффай от своих братьев?",
+     "Тов",
+     "Моав",
+     "Едом"
+    ],
+    "tr": [
+     "Yeftah üvey kardeşlerinden kaçıp hangi diyara gitti?",
+     "Tob",
+     "Moab",
+     "Edom"
+    ],
+    "ja": [
+     "エフタは異母兄弟から逃れて、どの地へ行きましたか？",
+     "トブ",
+     "モアブ",
+     "エドム"
+    ],
+    "ko": [
+     "입다는 이복형제들을 피해 어느 땅으로 달아났습니까?",
+     "토브",
+     "모압",
+     "에돔"
+    ],
+    "ar": [
+     "إلى أي أرض هرب يفتاح من إخوته غير الأشقاء؟",
+     "طوب",
+     "موآب",
+     "أدوم"
+    ]
+   }
+  },
+  {
+   "id": "ch-judges-011-03",
+   "book": "judges",
+   "chapter": 11,
+   "difficulty": "hard",
+   "ref": "Judges 11:24",
+   "text": {
+    "en": [
+     "Which god did Jephthah say gave Ammon's king his land?",
+     "Chemosh",
+     "Baal",
+     "Dagon"
+    ],
+    "es": [
+     "¿Qué dios, según Jefté, había dado sus tierras al rey de Amón?",
+     "Quemós",
+     "Baal",
+     "Dagón"
+    ],
+    "pt": [
+     "Que deus, segundo Jefté, tinha dado as suas terras ao rei de Amon?",
+     "Camos",
+     "Baal",
+     "Dagon"
+    ],
+    "fr": [
+     "Quel dieu, selon Jephté, avait donné ses terres au roi d'Ammon ?",
+     "Kemosh",
+     "Baal",
+     "Dagon"
+    ],
+    "de": [
+     "Welcher Gott hatte nach Jiftach dem König von Ammon sein Land gegeben?",
+     "Kemosch",
+     "Baal",
+     "Dagon"
+    ],
+    "it": [
+     "Quale dio, secondo Iefte, aveva dato la sua terra al re di Ammon?",
+     "Camos",
+     "Baal",
+     "Dagon"
+    ],
+    "pl": [
+     "Który bóg, według Jeftego, dał ziemię królowi Ammonu?",
+     "Kemosz",
+     "Baal",
+     "Dagon"
+    ],
+    "ru": [
+     "Какой бог, по словам Иеффая, дал землю царю Аммона?",
+     "Хамос",
+     "Ваал",
+     "Дагон"
+    ],
+    "tr": [
+     "Yeftah'a göre hangi tanrı Ammon kralına toprağını vermişti?",
+     "Kemoş",
+     "Baal",
+     "Dagon"
+    ],
+    "ja": [
+     "エフタによれば、どの神がアンモンの王に土地を与えましたか？",
+     "ケモシュ",
+     "バアル",
+     "ダゴン"
+    ],
+    "ko": [
+     "입다에 따르면 어느 신이 암몬 왕에게 땅을 주었습니까?",
+     "크모스",
+     "바알",
+     "다곤"
+    ],
+    "ar": [
+     "أي إله، بحسب يفتاح، أعطى ملك عمون أرضه؟",
+     "كموش",
+     "بعل",
+     "داجون"
+    ]
+   }
+  },
+  {
+   "id": "ch-judges-011-04",
+   "book": "judges",
+   "chapter": 11,
+   "difficulty": "expert",
+   "ref": "Judges 11:37",
+   "text": {
+    "en": [
+     "For how many months did Jephthah's daughter roam the mountains with her companions?",
+     "2",
+     "4",
+     "12"
+    ],
+    "es": [
+     "¿Durante cuántos meses vagó por los montes la hija de Jefté con sus compañeras?",
+     "2",
+     "4",
+     "12"
+    ],
+    "pt": [
+     "Durante quantos meses a filha de Jefté andou pelos montes com as suas companheiras?",
+     "2",
+     "4",
+     "12"
+    ],
+    "fr": [
+     "Pendant combien de mois la fille de Jephté erra-t-elle dans les montagnes avec ses compagnes ?",
+     "2",
+     "4",
+     "12"
+    ],
+    "de": [
+     "Wie viele Monate zog Jiftachs Tochter mit ihren Freundinnen durch die Berge?",
+     "2",
+     "4",
+     "12"
+    ],
+    "it": [
+     "Per quanti mesi la figlia di Iefte vagò sui monti con le sue compagne?",
+     "2",
+     "4",
+     "12"
+    ],
+    "pl": [
+     "Przez ile miesięcy córka Jeftego wędrowała po górach ze swoimi towarzyszkami?",
+     "2",
+     "4",
+     "12"
+    ],
+    "ru": [
+     "Сколько месяцев дочь Иеффая бродила по горам со своими подругами?",
+     "2",
+     "4",
+     "12"
+    ],
+    "tr": [
+     "Yeftah'ın kızı arkadaşlarıyla kaç ay dağlarda dolaştı?",
+     "2",
+     "4",
+     "12"
+    ],
+    "ja": [
+     "エフタの娘は友人たちと何か月間、山をさまよいましたか？",
+     "2",
+     "4",
+     "12"
+    ],
+    "ko": [
+     "입다의 딸은 동무들과 함께 몇 달 동안 산을 돌아다녔습니까?",
+     "2",
+     "4",
+     "12"
+    ],
+    "ar": [
+     "كم شهراً تجولت ابنة يفتاح في الجبال مع صاحباتها؟",
+     "2",
+     "4",
+     "12"
+    ]
+   }
+  },
+  {
+   "id": "ch-judges-011-05",
+   "book": "judges",
+   "chapter": 11,
+   "difficulty": "impossible",
+   "ref": "Judges 11:26",
+   "text": {
+    "en": [
+     "How many years had Israel lived in Heshbon, according to Jephthah's message?",
+     "300",
+     "40",
+     "100"
+    ],
+    "es": [
+     "¿Cuántos años llevaba Israel en Hesbón, según el mensaje de Jefté?",
+     "300",
+     "40",
+     "100"
+    ],
+    "pt": [
+     "Quantos anos Israel habitava em Hesbon, segundo a mensagem de Jefté?",
+     "300",
+     "40",
+     "100"
+    ],
+    "fr": [
+     "Depuis combien d'années Israël habitait-il Hesbon, selon le message de Jephté ?",
+     "300",
+     "40",
+     "100"
+    ],
+    "de": [
+     "Seit wie vielen Jahren wohnte Israel in Heschbon, laut Jiftachs Botschaft?",
+     "300",
+     "40",
+     "100"
+    ],
+    "it": [
+     "Da quanti anni Israele abitava a Chesbon, secondo il messaggio di Iefte?",
+     "300",
+     "40",
+     "100"
+    ],
+    "pl": [
+     "Od ilu lat Izrael mieszkał w Cheszbonie, według posłania Jeftego?",
+     "300",
+     "40",
+     "100"
+    ],
+    "ru": [
+     "Сколько лет Израиль жил в Есевоне, по словам послания Иеффая?",
+     "300",
+     "40",
+     "100"
+    ],
+    "tr": [
+     "Yeftah'ın mesajına göre İsrail kaç yıldır Heşbon'da yaşıyordu?",
+     "300",
+     "40",
+     "100"
+    ],
+    "ja": [
+     "エフタの伝言によれば、イスラエルは何年間ヘシュボンに住んでいましたか？",
+     "300",
+     "40",
+     "100"
+    ],
+    "ko": [
+     "입다의 전갈에 따르면 이스라엘은 몇 해 동안 헤스본에 살았습니까?",
+     "300",
+     "40",
+     "100"
+    ],
+    "ar": [
+     "بحسب رسالة يفتاح، كم سنة سكن إسرائيل في حشبون؟",
+     "300",
+     "40",
+     "100"
+    ]
+   }
+  },
+  {
+   "id": "ch-judges-011-06",
+   "book": "judges",
+   "chapter": 12,
+   "difficulty": "easy",
+   "ref": "Judges 12:6",
+   "text": {
+    "en": [
+     "What password did Gileadites make Ephraimites say at the Jordan fords?",
+     "Shibboleth",
+     "Shalom",
+     "Amen"
+    ],
+    "es": [
+     "¿Qué contraseña hicieron decir los galaaditas a los efraimitas en los vados del Jordán?",
+     "Chibolet",
+     "Shalom",
+     "Amén"
+    ],
+    "pt": [
+     "Que senha os galaaditas fizeram os efraimitas dizerem nos vaus do Jordão?",
+     "Chibolete",
+     "Shalom",
+     "Amém"
+    ],
+    "fr": [
+     "Quel mot de passe les Galaadites faisaient-ils prononcer aux Éphraïmites aux gués du Jourdain ?",
+     "Shibboleth",
+     "Shalom",
+     "Amen"
+    ],
+    "de": [
+     "Welches Kennwort ließen die Gileaditer die Efraimiter an den Jordanfurten sprechen?",
+     "Schibbolet",
+     "Schalom",
+     "Amen"
+    ],
+    "it": [
+     "Quale parola d'ordine facevano pronunciare i Galaaditi agli Efraimiti ai guadi del Giordano?",
+     "Scibbolet",
+     "Shalom",
+     "Amen"
+    ],
+    "pl": [
+     "Jakie hasło kazali wymawiać Gileadczycy Efraimitom nad brodami Jordanu?",
+     "Szibbolet",
+     "Szalom",
+     "Amen"
+    ],
+    "ru": [
+     "Какой пароль заставляли произносить жители Галаада ефремлян у переправ Иордана?",
+     "Шибболеф",
+     "Шалом",
+     "Аминь"
+    ],
+    "tr": [
+     "Gileatlılar, Şeria'nın geçitlerinde Efrayimlilere hangi parolayı söyletti?",
+     "Şibbolet",
+     "Şalom",
+     "Amin"
+    ],
+    "ja": [
+     "ギレアド人は、ヨルダンの渡し場でエフライム人に、どんな合言葉を言わせましたか？",
+     "シボレト",
+     "シャローム",
+     "アーメン"
+    ],
+    "ko": [
+     "길앗 사람들은 요르단 나루터에서 에프라임 사람들에게 어떤 암호를 말하게 했습니까?",
+     "시볼렛",
+     "샬롬",
+     "아멘"
+    ],
+    "ar": [
+     "أي كلمة سر جعل الجلعاديون الأفرائيميين ينطقونها عند مخاضات الأردن؟",
+     "شبولث",
+     "شالوم",
+     "آمين"
+    ]
+   }
+  },
+  {
+   "id": "ch-judges-011-07",
+   "book": "judges",
+   "chapter": 12,
+   "difficulty": "medium",
+   "ref": "Judges 12:6",
+   "text": {
+    "en": [
+     "How many Ephraimites did Jephthah's men kill at the Jordan fords?",
+     "42000",
+     "24000",
+     "12000"
+    ],
+    "es": [
+     "¿Cuántos efraimitas mataron los hombres de Jefté en los vados del Jordán?",
+     "42000",
+     "24000",
+     "12000"
+    ],
+    "pt": [
+     "Quantos efraimitas os homens de Jefté mataram nos vaus do Jordão?",
+     "42000",
+     "24000",
+     "12000"
+    ],
+    "fr": [
+     "Combien d'Éphraïmites les hommes de Jephté tuèrent-ils aux gués du Jourdain ?",
+     "42000",
+     "24000",
+     "12000"
+    ],
+    "de": [
+     "Wie viele Efraimiter erschlugen Jiftachs Männer an den Jordanfurten?",
+     "42000",
+     "24000",
+     "12000"
+    ],
+    "it": [
+     "Quanti Efraimiti uccisero gli uomini di Iefte ai guadi del Giordano?",
+     "42000",
+     "24000",
+     "12000"
+    ],
+    "pl": [
+     "Ilu Efraimitów zabili ludzie Jeftego na brodach Jordanu?",
+     "42000",
+     "24000",
+     "12000"
+    ],
+    "ru": [
+     "Сколько ефремлян убили люди Иеффая у переправ Иордана?",
+     "42000",
+     "24000",
+     "12000"
+    ],
+    "tr": [
+     "Yeftah'ın adamları Şeria'nın geçitlerinde kaç Efrayimliyi öldürdü?",
+     "42000",
+     "24000",
+     "12000"
+    ],
+    "ja": [
+     "エフタの兵はヨルダンの渡し場で何人のエフライム人を殺しましたか？",
+     "42000",
+     "24000",
+     "12000"
+    ],
+    "ko": [
+     "입다의 군사들은 요르단 나루터에서 에프라임 사람을 몇 명 죽였습니까?",
+     "42000",
+     "24000",
+     "12000"
+    ],
+    "ar": [
+     "كم أفرائيمياً قتل رجال يفتاح عند مخاضات الأردن؟",
+     "42000",
+     "24000",
+     "12000"
+    ]
+   }
+  },
+  {
+   "id": "ch-judges-011-08",
+   "book": "judges",
+   "chapter": 12,
+   "difficulty": "hard",
+   "ref": "Judges 12:9",
+   "text": {
+    "en": [
+     "How many sons did the judge Ibzan of Bethlehem have?",
+     "30",
+     "12",
+     "70"
+    ],
+    "es": [
+     "¿Cuántos hijos tuvo el juez Ibsán de Belén?",
+     "30",
+     "12",
+     "70"
+    ],
+    "pt": [
+     "Quantos filhos teve o juiz Ibsã de Belém?",
+     "30",
+     "12",
+     "70"
+    ],
+    "fr": [
+     "Combien de fils le juge Ibçân de Bethléem eut-il ?",
+     "30",
+     "12",
+     "70"
+    ],
+    "de": [
+     "Wie viele Söhne hatte der Richter Ibzan aus Betlehem?",
+     "30",
+     "12",
+     "70"
+    ],
+    "it": [
+     "Quanti figli ebbe il giudice Ibsan di Betlemme?",
+     "30",
+     "12",
+     "70"
+    ],
+    "pl": [
+     "Ilu synów miał sędzia Ibsan z Betlejem?",
+     "30",
+     "12",
+     "70"
+    ],
+    "ru": [
+     "Сколько сыновей было у судьи Есевона из Вифлеема?",
+     "30",
+     "12",
+     "70"
+    ],
+    "tr": [
+     "Beytlehemli Hakim İvsan'ın kaç oğlu vardı?",
+     "30",
+     "12",
+     "70"
+    ],
+    "ja": [
+     "ベツレヘムの士師イブツァンには何人の息子がいましたか？",
+     "30",
+     "12",
+     "70"
+    ],
+    "ko": [
+     "베들레헴의 판관 이브찬에게는 아들이 몇 명 있었습니까?",
+     "30",
+     "12",
+     "70"
+    ],
+    "ar": [
+     "كم ابناً كان للقاضي إبصان من بيت لحم؟",
+     "30",
+     "12",
+     "70"
+    ]
+   }
+  },
+  {
+   "id": "ch-judges-011-09",
+   "book": "judges",
+   "chapter": 12,
+   "difficulty": "expert",
+   "ref": "Judges 12:14",
+   "text": {
+    "en": [
+     "How many donkeys carried the sons and grandsons of the judge Abdon?",
+     "70",
+     "12",
+     "100"
+    ],
+    "es": [
+     "¿Cuántos asnos montaban los hijos y nietos del juez Abdón?",
+     "70",
+     "12",
+     "100"
+    ],
+    "pt": [
+     "Quantos jumentos montavam os filhos e netos do juiz Abdon?",
+     "70",
+     "12",
+     "100"
+    ],
+    "fr": [
+     "Combien d'ânes montaient les fils et petits-fils du juge Abdôn ?",
+     "70",
+     "12",
+     "100"
+    ],
+    "de": [
+     "Wie viele Esel ritten die Söhne und Enkel des Richters Abdon?",
+     "70",
+     "12",
+     "100"
+    ],
+    "it": [
+     "Quanti asini cavalcavano i figli e i nipoti del giudice Abdon?",
+     "70",
+     "12",
+     "100"
+    ],
+    "pl": [
+     "Ile osłów dosiadali synowie i wnukowie sędziego Abdona?",
+     "70",
+     "12",
+     "100"
+    ],
+    "ru": [
+     "На скольких ослах ездили сыновья и внуки судьи Авдона?",
+     "70",
+     "12",
+     "100"
+    ],
+    "tr": [
+     "Hakim Avdon'un oğulları ve torunları kaç eşeğe biniyordu?",
+     "70",
+     "12",
+     "100"
+    ],
+    "ja": [
+     "士師アブドンの息子と孫たちは何頭のろばに乗っていましたか？",
+     "70",
+     "12",
+     "100"
+    ],
+    "ko": [
+     "판관 압돈의 아들들과 손자들은 나귀를 몇 마리 타고 다녔습니까?",
+     "70",
+     "12",
+     "100"
+    ],
+    "ar": [
+     "كم حماراً كان يركب أبناء القاضي عبدون وأحفاده؟",
+     "70",
+     "12",
+     "100"
+    ]
+   }
+  },
+  {
+   "id": "ch-judges-011-10",
+   "book": "judges",
+   "chapter": 12,
+   "difficulty": "impossible",
+   "ref": "Judges 12:11",
+   "text": {
+    "en": [
+     "How many years did Elon of Zebulun judge Israel?",
+     "10",
+     "20",
+     "40"
+    ],
+    "es": [
+     "¿Cuántos años juzgó a Israel Elón, de Zabulón?",
+     "10",
+     "20",
+     "40"
+    ],
+    "pt": [
+     "Quantos anos Elon, de Zabulon, julgou Israel?",
+     "10",
+     "20",
+     "40"
+    ],
+    "fr": [
+     "Pendant combien d'années Élôn de Zabulon jugea-t-il Israël ?",
+     "10",
+     "20",
+     "40"
+    ],
+    "de": [
+     "Wie viele Jahre war Elon aus Sebulon Richter in Israel?",
+     "10",
+     "20",
+     "40"
+    ],
+    "it": [
+     "Per quanti anni Elon di Zabulon giudicò Israele?",
+     "10",
+     "20",
+     "40"
+    ],
+    "pl": [
+     "Przez ile lat Elon z Zabulona sądził Izraela?",
+     "10",
+     "20",
+     "40"
+    ],
+    "ru": [
+     "Сколько лет судил Израиля Елон из Завулона?",
+     "10",
+     "20",
+     "40"
+    ],
+    "tr": [
+     "Zevulunlu Elon İsrail'e kaç yıl hakimlik etti?",
+     "10",
+     "20",
+     "40"
+    ],
+    "ja": [
+     "ゼブルン人エロンは何年間イスラエルの士師でしたか？",
+     "10",
+     "20",
+     "40"
+    ],
+    "ko": [
+     "즈불룬 사람 엘론은 몇 해 동안 이스라엘의 판관이었습니까?",
+     "10",
+     "20",
+     "40"
+    ],
+    "ar": [
+     "كم سنة قضى إيلون الزبولوني لإسرائيل؟",
+     "10",
+     "20",
+     "40"
+    ]
+   }
+  },
+  {
+   "id": "ch-judges-011-11",
+   "book": "judges",
+   "chapter": 13,
+   "difficulty": "easy",
+   "ref": "Judges 13:5",
+   "text": {
+    "en": [
+     "As a Nazirite from birth, what must never touch Samson's head?",
+     "Razor",
+     "Oil",
+     "Crown"
+    ],
+    "es": [
+     "Por ser nazireo desde el vientre materno, ¿qué no debía tocar jamás la cabeza de Sansón?",
+     "Navaja",
+     "Aceite",
+     "Corona"
+    ],
+    "pt": [
+     "Sendo nazireu desde o ventre materno, o que nunca devia tocar a cabeça de Sansão?",
+     "Navalha",
+     "Óleo",
+     "Coroa"
+    ],
+    "fr": [
+     "Nazir dès le sein maternel, qu'est-ce qui ne devait jamais toucher la tête de Samson ?",
+     "Rasoir",
+     "Huile",
+     "Couronne"
+    ],
+    "de": [
+     "Was durfte nie den Kopf Simsons berühren, der von Geburt an Nasiräer war?",
+     "Rasiermesser",
+     "Öl",
+     "Krone"
+    ],
+    "it": [
+     "Essendo nazireo fin dal grembo materno, che cosa non doveva mai toccare il capo di Sansone?",
+     "Rasoio",
+     "Olio",
+     "Corona"
+    ],
+    "pl": [
+     "Co nigdy nie mogło dotknąć głowy Samsona, nazirejczyka od urodzenia?",
+     "Brzytwa",
+     "Olej",
+     "Korona"
+    ],
+    "ru": [
+     "Что никогда не должно было касаться головы Самсона, назорея от рождения?",
+     "Бритва",
+     "Масло",
+     "Корона"
+    ],
+    "tr": [
+     "Doğuştan Nazir olan Şimşon'un başına ne asla değmemeliydi?",
+     "Ustura",
+     "Yağ",
+     "Taç"
+    ],
+    "ja": [
+     "生まれたときからナジル人であるサムソンの頭に、決して当ててはならないものは何ですか？",
+     "かみそり",
+     "油",
+     "冠"
+    ],
+    "ko": [
+     "태어날 때부터 나지르인인 삼손의 머리에 결코 대어서는 안 되는 것은 무엇입니까?",
+     "면도칼",
+     "기름",
+     "왕관"
+    ],
+    "ar": [
+     "بصفته نذيراً منذ ولادته، ما الذي لا يجوز أن يمس رأس شمشون أبداً؟",
+     "شفرة",
+     "زيت",
+     "تاج"
+    ]
+   }
+  },
+  {
+   "id": "ch-judges-011-12",
+   "book": "judges",
+   "chapter": 13,
+   "difficulty": "medium",
+   "ref": "Judges 13:2",
+   "text": {
+    "en": [
+     "What was the name of Samson's father?",
+     "Manoah",
+     "Elkanah",
+     "Eli"
+    ],
+    "es": [
+     "¿Cómo se llamaba el padre de Sansón?",
+     "Manoaj",
+     "Elcaná",
+     "Elí"
+    ],
+    "pt": [
+     "Como se chamava o pai de Sansão?",
+     "Manoá",
+     "Elcana",
+     "Eli"
+    ],
+    "fr": [
+     "Comment s'appelait le père de Samson ?",
+     "Manoah",
+     "Elqana",
+     "Éli"
+    ],
+    "de": [
+     "Wie hieß der Vater Simsons?",
+     "Manoach",
+     "Elkana",
+     "Eli"
+    ],
+    "it": [
+     "Come si chiamava il padre di Sansone?",
+     "Manoach",
+     "Elkana",
+     "Eli"
+    ],
+    "pl": [
+     "Jak miał na imię ojciec Samsona?",
+     "Manoach",
+     "Elkana",
+     "Heli"
+    ],
+    "ru": [
+     "Как звали отца Самсона?",
+     "Маной",
+     "Елкана",
+     "Илий"
+    ],
+    "tr": [
+     "Şimşon'un babasının adı neydi?",
+     "Manoah",
+     "Elkana",
+     "Eli"
+    ],
+    "ja": [
+     "サムソンの父の名は何でしたか？",
+     "マノア",
+     "エルカナ",
+     "エリ"
+    ],
+    "ko": [
+     "삼손의 아버지의 이름은 무엇이었습니까?",
+     "마노아",
+     "엘카나",
+     "엘리"
+    ],
+    "ar": [
+     "ما اسم والد شمشون؟",
+     "منوح",
+     "ألقانة",
+     "عالي"
+    ]
+   }
+  },
+  {
+   "id": "ch-judges-011-13",
+   "book": "judges",
+   "chapter": 13,
+   "difficulty": "hard",
+   "ref": "Judges 13:2",
+   "text": {
+    "en": [
+     "Samson's father belonged to which tribe?",
+     "Dan",
+     "Reuben",
+     "Ephraim"
+    ],
+    "es": [
+     "¿A qué tribu pertenecía el padre de Sansón?",
+     "Dan",
+     "Rubén",
+     "Efraín"
+    ],
+    "pt": [
+     "A que tribo pertencia o pai de Sansão?",
+     "Dã",
+     "Rúben",
+     "Efraim"
+    ],
+    "fr": [
+     "À quelle tribu appartenait le père de Samson ?",
+     "Dan",
+     "Ruben",
+     "Éphraïm"
+    ],
+    "de": [
+     "Zu welchem Stamm gehörte Simsons Vater?",
+     "Dan",
+     "Ruben",
+     "Efraim"
+    ],
+    "it": [
+     "A quale tribù apparteneva il padre di Sansone?",
+     "Dan",
+     "Ruben",
+     "Efraim"
+    ],
+    "pl": [
+     "Do jakiego pokolenia należał ojciec Samsona?",
+     "Dan",
+     "Ruben",
+     "Efraim"
+    ],
+    "ru": [
+     "К какому колену принадлежал отец Самсона?",
+     "Дан",
+     "Рувим",
+     "Ефрем"
+    ],
+    "tr": [
+     "Şimşon'un babası hangi oymaktandı?",
+     "Dan",
+     "Ruben",
+     "Efrayim"
+    ],
+    "ja": [
+     "サムソンの父はどの部族に属していましたか？",
+     "ダン",
+     "ルベン",
+     "エフライム"
+    ],
+    "ko": [
+     "삼손의 아버지는 어느 지파에 속했습니까?",
+     "단",
+     "르우벤",
+     "에프라임"
+    ],
+    "ar": [
+     "إلى أي سبط ينتمي والد شمشون؟",
+     "دان",
+     "رأوبين",
+     "أفرايم"
+    ]
+   }
+  },
+  {
+   "id": "ch-judges-011-14",
+   "book": "judges",
+   "chapter": 13,
+   "difficulty": "expert",
+   "ref": "Judges 13:2",
+   "text": {
+    "en": [
+     "Which town was home to Samson's parents?",
+     "Zorah",
+     "Gaza",
+     "Hebron"
+    ],
+    "es": [
+     "¿De qué ciudad eran los padres de Sansón?",
+     "Sorá",
+     "Gaza",
+     "Hebrón"
+    ],
+    "pt": [
+     "De que cidade eram os pais de Sansão?",
+     "Sorá",
+     "Gaza",
+     "Hebron"
+    ],
+    "fr": [
+     "De quelle ville étaient originaires les parents de Samson ?",
+     "Soréa",
+     "Gaza",
+     "Hébron"
+    ],
+    "de": [
+     "Aus welcher Stadt stammten Simsons Eltern?",
+     "Zora",
+     "Gaza",
+     "Hebron"
+    ],
+    "it": [
+     "Di quale città erano i genitori di Sansone?",
+     "Sorea",
+     "Gaza",
+     "Ebron"
+    ],
+    "pl": [
+     "Z jakiego miasta pochodzili rodzice Samsona?",
+     "Sorea",
+     "Gaza",
+     "Hebron"
+    ],
+    "ru": [
+     "Из какого города были родители Самсона?",
+     "Цорея",
+     "Газа",
+     "Хеврон"
+    ],
+    "tr": [
+     "Şimşon'un anne babası hangi kentliydi?",
+     "Sora",
+     "Gazze",
+     "Hebron"
+    ],
+    "ja": [
+     "サムソンの両親はどの町の出身でしたか？",
+     "ツォルア",
+     "ガザ",
+     "ヘブロン"
+    ],
+    "ko": [
+     "삼손의 부모는 어느 마을 출신이었습니까?",
+     "초르아",
+     "가자",
+     "헤브론"
+    ],
+    "ar": [
+     "من أي بلدة كان والدا شمشون؟",
+     "صرعة",
+     "غزة",
+     "حبرون"
+    ]
+   }
+  },
+  {
+   "id": "ch-judges-011-15",
+   "book": "judges",
+   "chapter": 13,
+   "difficulty": "impossible",
+   "ref": "Judges 13:20",
+   "text": {
+    "en": [
+     "In what did the angel ascend as Manoah's offering burned on the altar?",
+     "Flame",
+     "Cloud",
+     "Whirlwind"
+    ],
+    "es": [
+     "¿En qué ascendió el ángel mientras ardía la ofrenda de Manoaj sobre el altar?",
+     "Llama",
+     "Nube",
+     "Torbellino"
+    ],
+    "pt": [
+     "Em que subiu o anjo enquanto a oferta de Manoá ardia sobre o altar?",
+     "Chama",
+     "Nuvem",
+     "Redemoinho"
+    ],
+    "fr": [
+     "Dans quoi l'ange monta-t-il pendant que l'offrande de Manoah brûlait sur l'autel ?",
+     "Flamme",
+     "Nuage",
+     "Tourbillon"
+    ],
+    "de": [
+     "Worin stieg der Engel auf, als Manoachs Opfer auf dem Altar brannte?",
+     "Flamme",
+     "Wolke",
+     "Wirbelwind"
+    ],
+    "it": [
+     "In che cosa salì l'angelo mentre l'offerta di Manoach ardeva sull'altare?",
+     "Fiamma",
+     "Nube",
+     "Turbine"
+    ],
+    "pl": [
+     "W czym wzniósł się anioł, gdy ofiara Manoacha płonęła na ołtarzu?",
+     "Płomień",
+     "Chmura",
+     "Wicher"
+    ],
+    "ru": [
+     "В чём взошёл Ангел, когда жертва Маноя горела на жертвеннике?",
+     "Пламя",
+     "Облако",
+     "Вихрь"
+    ],
+    "tr": [
+     "Manoah'ın sunusu sunakta yanarken melek neyin içinde yükseldi?",
+     "Alev",
+     "Bulut",
+     "Kasırga"
+    ],
+    "ja": [
+     "マノアの供え物が祭壇で燃えたとき、御使いは何の中を昇りましたか？",
+     "炎",
+     "雲",
+     "旋風"
+    ],
+    "ko": [
+     "마노아의 제물이 제단에서 타오를 때 천사는 무엇 속에서 올라갔습니까?",
+     "불꽃",
+     "구름",
+     "회오리바람"
+    ],
+    "ar": [
+     "في أي شيء صعد الملاك بينما كانت تقدمة منوح تحترق على المذبح؟",
+     "لهيب",
+     "سحابة",
+     "إعصار"
+    ]
+   }
+  },
+  {
+   "id": "ch-judges-011-16",
+   "book": "judges",
+   "chapter": 14,
+   "difficulty": "easy",
+   "ref": "Judges 14:5-6",
+   "text": {
+    "en": [
+     "Which wild animal did Samson tear apart with his bare hands near Timnah?",
+     "Lion",
+     "Bear",
+     "Wolf"
+    ],
+    "es": [
+     "¿Qué animal salvaje despedazó Sansón con sus manos cerca de Timná?",
+     "León",
+     "Oso",
+     "Lobo"
+    ],
+    "pt": [
+     "Que animal selvagem Sansão despedaçou com as mãos perto de Timna?",
+     "Leão",
+     "Urso",
+     "Lobo"
+    ],
+    "fr": [
+     "Quel animal sauvage Samson déchira-t-il à mains nues près de Timna ?",
+     "Lion",
+     "Ours",
+     "Loup"
+    ],
+    "de": [
+     "Welches wilde Tier zerriss Simson bei Timna mit bloßen Händen?",
+     "Löwe",
+     "Bär",
+     "Wolf"
+    ],
+    "it": [
+     "Quale animale selvatico Sansone sbranò a mani nude presso Timna?",
+     "Leone",
+     "Orso",
+     "Lupo"
+    ],
+    "pl": [
+     "Które dzikie zwierzę Samson rozdarł gołymi rękami koło Timny?",
+     "Lew",
+     "Niedźwiedź",
+     "Wilk"
+    ],
+    "ru": [
+     "Какого дикого зверя Самсон растерзал голыми руками близ Фамнафы?",
+     "Лев",
+     "Медведь",
+     "Волк"
+    ],
+    "tr": [
+     "Şimşon Timna yakınında hangi yabani hayvanı çıplak elleriyle parçaladı?",
+     "Aslan",
+     "Ayı",
+     "Kurt"
+    ],
+    "ja": [
+     "サムソンはティムナの近くで、どの野獣を素手で引き裂きましたか？",
+     "ライオン",
+     "熊",
+     "狼"
+    ],
+    "ko": [
+     "삼손은 팀나 근처에서 어떤 맹수를 맨손으로 찢어 죽였습니까?",
+     "사자",
+     "곰",
+     "늑대"
+    ],
+    "ar": [
+     "أي حيوان بري مزّقه شمشون بيديه العاريتين قرب تمنة؟",
+     "أسد",
+     "دب",
+     "ذئب"
+    ]
+   }
+  },
+  {
+   "id": "ch-judges-011-17",
+   "book": "judges",
+   "chapter": 14,
+   "difficulty": "medium",
+   "ref": "Judges 14:8-9",
+   "text": {
+    "en": [
+     "What sweet food did Samson find inside the dead lion's carcass?",
+     "Honey",
+     "Figs",
+     "Grapes"
+    ],
+    "es": [
+     "¿Qué alimento dulce halló Sansón dentro del cadáver del león muerto?",
+     "Miel",
+     "Higos",
+     "Uvas"
+    ],
+    "pt": [
+     "Que alimento doce Sansão encontrou dentro da carcaça do leão morto?",
+     "Mel",
+     "Figos",
+     "Uvas"
+    ],
+    "fr": [
+     "Quel aliment sucré Samson trouva-t-il dans la carcasse du lion mort ?",
+     "Miel",
+     "Figues",
+     "Raisins"
+    ],
+    "de": [
+     "Welche süße Speise fand Simson im Kadaver des toten Löwen?",
+     "Honig",
+     "Feigen",
+     "Trauben"
+    ],
+    "it": [
+     "Quale cibo dolce trovò Sansone nella carcassa del leone morto?",
+     "Miele",
+     "Fichi",
+     "Uva"
+    ],
+    "pl": [
+     "Jaki słodki pokarm znalazł Samson w padlinie zabitego lwa?",
+     "Miód",
+     "Figi",
+     "Winogrona"
+    ],
+    "ru": [
+     "Какую сладкую пищу нашёл Самсон в трупе убитого льва?",
+     "Мёд",
+     "Инжир",
+     "Виноград"
+    ],
+    "tr": [
+     "Şimşon ölü aslanın leşinde hangi tatlı yiyeceği buldu?",
+     "Bal",
+     "İncir",
+     "Üzüm"
+    ],
+    "ja": [
+     "サムソンは死んだライオンの死骸の中に、どんな甘い食べ物を見つけましたか？",
+     "蜂蜜",
+     "いちじく",
+     "ぶどう"
+    ],
+    "ko": [
+     "삼손은 죽은 사자의 시체 안에서 어떤 단 음식을 발견했습니까?",
+     "꿀",
+     "무화과",
+     "포도"
+    ],
+    "ar": [
+     "أي طعام حلو وجده شمشون داخل جثة الأسد الميت؟",
+     "عسل",
+     "تين",
+     "عنب"
+    ]
+   }
+  },
+  {
+   "id": "ch-judges-011-18",
+   "book": "judges",
+   "chapter": 14,
+   "difficulty": "hard",
+   "ref": "Judges 14:19",
+   "text": {
+    "en": [
+     "In which Philistine city did Samson kill thirty men to pay his wager?",
+     "Ashkelon",
+     "Ekron",
+     "Ashdod"
+    ],
+    "es": [
+     "¿En qué ciudad filistea mató Sansón a treinta hombres para pagar su apuesta?",
+     "Ascalón",
+     "Ecrón",
+     "Asdod"
+    ],
+    "pt": [
+     "Em que cidade filisteia Sansão matou trinta homens para pagar a aposta?",
+     "Ascalon",
+     "Acaron",
+     "Asdod"
+    ],
+    "fr": [
+     "Dans quelle ville philistine Samson tua-t-il trente hommes pour payer son pari ?",
+     "Ashkelon",
+     "Ékron",
+     "Ashdod"
+    ],
+    "de": [
+     "In welcher Philisterstadt erschlug Simson dreißig Männer, um seine Wette zu bezahlen?",
+     "Aschkelon",
+     "Ekron",
+     "Aschdod"
+    ],
+    "it": [
+     "In quale città filistea Sansone uccise trenta uomini per pagare la scommessa?",
+     "Ascalon",
+     "Ekron",
+     "Asdod"
+    ],
+    "pl": [
+     "W którym filistyńskim mieście Samson zabił trzydziestu ludzi, by spłacić zakład?",
+     "Aszkelon",
+     "Ekron",
+     "Aszdod"
+    ],
+    "ru": [
+     "В каком филистимском городе Самсон убил тридцать человек, чтобы расплатиться за заклад?",
+     "Аскалон",
+     "Аккарон",
+     "Азот"
+    ],
+    "tr": [
+     "Şimşon bahsini ödemek için hangi Filist kentinde otuz adam öldürdü?",
+     "Aşkelon",
+     "Ekron",
+     "Aşdod"
+    ],
+    "ja": [
+     "サムソンは賭けを支払うため、どのペリシテの町で三十人を殺しましたか？",
+     "アシュケロン",
+     "エクロン",
+     "アシュドド"
+    ],
+    "ko": [
+     "삼손은 내기를 갚으려고 필리스티아의 어느 도성에서 서른 명을 죽였습니까?",
+     "아스클론",
+     "에크론",
+     "아스돗"
+    ],
+    "ar": [
+     "في أي مدينة فلسطينية قتل شمشون ثلاثين رجلاً ليوفي رهانه؟",
+     "أشقلون",
+     "عقرون",
+     "أشدود"
+    ]
+   }
+  },
+  {
+   "id": "ch-judges-011-19",
+   "book": "judges",
+   "chapter": 14,
+   "difficulty": "expert",
+   "ref": "Judges 14:17",
+   "text": {
+    "en": [
+     "How many days did Samson's wedding feast last?",
+     "7",
+     "3",
+     "10"
+    ],
+    "es": [
+     "¿Cuántos días duró el banquete de bodas de Sansón?",
+     "7",
+     "3",
+     "10"
+    ],
+    "pt": [
+     "Quantos dias durou o banquete de casamento de Sansão?",
+     "7",
+     "3",
+     "10"
+    ],
+    "fr": [
+     "Combien de jours dura le festin de noces de Samson ?",
+     "7",
+     "3",
+     "10"
+    ],
+    "de": [
+     "Wie viele Tage dauerte Simsons Hochzeitsfest?",
+     "7",
+     "3",
+     "10"
+    ],
+    "it": [
+     "Quanti giorni durò il banchetto di nozze di Sansone?",
+     "7",
+     "3",
+     "10"
+    ],
+    "pl": [
+     "Ile dni trwała uczta weselna Samsona?",
+     "7",
+     "3",
+     "10"
+    ],
+    "ru": [
+     "Сколько дней длился свадебный пир Самсона?",
+     "7",
+     "3",
+     "10"
+    ],
+    "tr": [
+     "Şimşon'un düğün ziyafeti kaç gün sürdü?",
+     "7",
+     "3",
+     "10"
+    ],
+    "ja": [
+     "サムソンの婚宴は何日間続きましたか？",
+     "7",
+     "3",
+     "10"
+    ],
+    "ko": [
+     "삼손의 혼인 잔치는 며칠 동안 계속되었습니까?",
+     "7",
+     "3",
+     "10"
+    ],
+    "ar": [
+     "كم يوماً استمرت وليمة عرس شمشون؟",
+     "7",
+     "3",
+     "10"
+    ]
+   }
+  },
+  {
+   "id": "ch-judges-011-20",
+   "book": "judges",
+   "chapter": 14,
+   "difficulty": "impossible",
+   "ref": "Judges 14:12-13",
+   "text": {
+    "en": [
+     "What did Samson promise the thirty Philistine companions if they solved his riddle?",
+     "Garments",
+     "Sheep",
+     "Gold"
+    ],
+    "es": [
+     "¿Qué prometió Sansón a los treinta compañeros filisteos si resolvían su enigma?",
+     "Vestidos",
+     "Ovejas",
+     "Oro"
+    ],
+    "pt": [
+     "O que Sansão prometeu aos trinta companheiros filisteus se resolvessem o seu enigma?",
+     "Vestes",
+     "Ovelhas",
+     "Ouro"
+    ],
+    "fr": [
+     "Que promit Samson aux trente compagnons philistins s'ils résolvaient son énigme ?",
+     "Vêtements",
+     "Brebis",
+     "Or"
+    ],
+    "de": [
+     "Was versprach Simson den dreißig Gefährten, wenn sie sein Rätsel lösten?",
+     "Kleider",
+     "Schafe",
+     "Gold"
+    ],
+    "it": [
+     "Che cosa promise Sansone ai trenta compagni filistei se avessero risolto l'enigma?",
+     "Vesti",
+     "Pecore",
+     "Oro"
+    ],
+    "pl": [
+     "Co obiecał Samson trzydziestu towarzyszom Filistynom, jeśli rozwiążą jego zagadkę?",
+     "Szaty",
+     "Owce",
+     "Złoto"
+    ],
+    "ru": [
+     "Что обещал Самсон тридцати филистимским товарищам, если они разгадают его загадку?",
+     "Одежды",
+     "Овцы",
+     "Золото"
+    ],
+    "tr": [
+     "Şimşon, bilmecesini çözerlerse otuz Filistli arkadaşa ne vaat etti?",
+     "Giysi",
+     "Koyun",
+     "Altın"
+    ],
+    "ja": [
+     "サムソンは、謎を解いたらペリシテ人の三十人の友に何を与えると約束しましたか？",
+     "衣服",
+     "羊",
+     "金"
+    ],
+    "ko": [
+     "삼손은 수수께끼를 풀면 필리스티아인 동무 서른 명에게 무엇을 주겠다고 했습니까?",
+     "옷",
+     "양",
+     "금"
+    ],
+    "ar": [
+     "ماذا وعد شمشون الرفاق الفلسطينيين الثلاثين إن حلّوا لغزه؟",
+     "ثياب",
+     "خراف",
+     "ذهب"
+    ]
+   }
+  },
+  {
+   "id": "ch-judges-011-21",
+   "book": "judges",
+   "chapter": 15,
+   "difficulty": "easy",
+   "ref": "Judges 15:15",
+   "text": {
+    "en": [
+     "With what did Samson kill a thousand Philistines at Lehi?",
+     "Jawbone",
+     "Sword",
+     "Spear"
+    ],
+    "es": [
+     "¿Con qué mató Sansón a mil filisteos en Lehí?",
+     "Quijada",
+     "Espada",
+     "Lanza"
+    ],
+    "pt": [
+     "Com que Sansão matou mil filisteus em Lehi?",
+     "Queixada",
+     "Espada",
+     "Lança"
+    ],
+    "fr": [
+     "Avec quoi Samson tua-t-il mille Philistins à Léhi ?",
+     "Mâchoire",
+     "Épée",
+     "Lance"
+    ],
+    "de": [
+     "Womit erschlug Simson tausend Philister bei Lehi?",
+     "Kinnbacken",
+     "Schwert",
+     "Speer"
+    ],
+    "it": [
+     "Con che cosa Sansone uccise mille Filistei a Lechi?",
+     "Mascella",
+     "Spada",
+     "Lancia"
+    ],
+    "pl": [
+     "Czym Samson zabił tysiąc Filistynów w Lechi?",
+     "Szczęka",
+     "Miecz",
+     "Włócznia"
+    ],
+    "ru": [
+     "Чем Самсон убил тысячу филистимлян в Лехи?",
+     "Челюсть",
+     "Меч",
+     "Копьё"
+    ],
+    "tr": [
+     "Şimşon, Lehi'de bin Filistliyi neyle öldürdü?",
+     "Çene",
+     "Kılıç",
+     "Mızrak"
+    ],
+    "ja": [
+     "サムソンはレヒで、何を使って千人のペリシテ人を打ち殺しましたか？",
+     "あご骨",
+     "剣",
+     "槍"
+    ],
+    "ko": [
+     "삼손은 레히에서 무엇으로 필리스티아인 천 명을 쳐 죽였습니까?",
+     "턱뼈",
+     "칼",
+     "창"
+    ],
+    "ar": [
+     "بماذا قتل شمشون ألف فلسطيني في لحي؟",
+     "فك",
+     "سيف",
+     "رمح"
+    ]
+   }
+  },
+  {
+   "id": "ch-judges-011-22",
+   "book": "judges",
+   "chapter": 15,
+   "difficulty": "medium",
+   "ref": "Judges 15:4-5",
+   "text": {
+    "en": [
+     "How many foxes did Samson catch to set the Philistine grain on fire?",
+     "300",
+     "30",
+     "1000"
+    ],
+    "es": [
+     "¿Cuántas zorras capturó Sansón para incendiar el grano de los filisteos?",
+     "300",
+     "30",
+     "1000"
+    ],
+    "pt": [
+     "Quantas raposas Sansão apanhou para incendiar o trigo dos filisteus?",
+     "300",
+     "30",
+     "1000"
+    ],
+    "fr": [
+     "Combien de renards Samson attrapa-t-il pour incendier le blé des Philistins ?",
+     "300",
+     "30",
+     "1000"
+    ],
+    "de": [
+     "Wie viele Füchse fing Simson, um das Getreide der Philister anzuzünden?",
+     "300",
+     "30",
+     "1000"
+    ],
+    "it": [
+     "Quante volpi catturò Sansone per incendiare il grano dei Filistei?",
+     "300",
+     "30",
+     "1000"
+    ],
+    "pl": [
+     "Ile lisów schwytał Samson, by podpalić zboże Filistynów?",
+     "300",
+     "30",
+     "1000"
+    ],
+    "ru": [
+     "Сколько лисиц поймал Самсон, чтобы поджечь хлеб филистимлян?",
+     "300",
+     "30",
+     "1000"
+    ],
+    "tr": [
+     "Şimşon Filistlilerin ekinini yakmak için kaç tilki yakaladı?",
+     "300",
+     "30",
+     "1000"
+    ],
+    "ja": [
+     "サムソンはペリシテ人の穀物に火をつけるため、何匹のきつねを捕らえましたか？",
+     "300",
+     "30",
+     "1000"
+    ],
+    "ko": [
+     "삼손은 필리스티아인의 곡식에 불을 지르려고 여우를 몇 마리 잡았습니까?",
+     "300",
+     "30",
+     "1000"
+    ],
+    "ar": [
+     "كم ثعلباً أمسك شمشون ليحرق حبوب الفلسطينيين؟",
+     "300",
+     "30",
+     "1000"
+    ]
+   }
+  },
+  {
+   "id": "ch-judges-011-23",
+   "book": "judges",
+   "chapter": 15,
+   "difficulty": "hard",
+   "ref": "Judges 15:11",
+   "text": {
+    "en": [
+     "How many men of Judah went to hand Samson over to the Philistines?",
+     "3000",
+     "300",
+     "5000"
+    ],
+    "es": [
+     "¿Cuántos hombres de Judá fueron a entregar a Sansón a los filisteos?",
+     "3000",
+     "300",
+     "5000"
+    ],
+    "pt": [
+     "Quantos homens de Judá foram entregar Sansão aos filisteus?",
+     "3000",
+     "300",
+     "5000"
+    ],
+    "fr": [
+     "Combien d'hommes de Juda allèrent livrer Samson aux Philistins ?",
+     "3000",
+     "300",
+     "5000"
+    ],
+    "de": [
+     "Wie viele Männer aus Juda zogen aus, um Simson an die Philister auszuliefern?",
+     "3000",
+     "300",
+     "5000"
+    ],
+    "it": [
+     "Quanti uomini di Giuda andarono a consegnare Sansone ai Filistei?",
+     "3000",
+     "300",
+     "5000"
+    ],
+    "pl": [
+     "Ilu mężczyzn z Judy poszło wydać Samsona Filistynom?",
+     "3000",
+     "300",
+     "5000"
+    ],
+    "ru": [
+     "Сколько человек из Иуды пошли выдать Самсона филистимлянам?",
+     "3000",
+     "300",
+     "5000"
+    ],
+    "tr": [
+     "Yahudalı kaç adam Şimşon'u Filistlilere teslim etmeye gitti?",
+     "3000",
+     "300",
+     "5000"
+    ],
+    "ja": [
+     "ユダの人々は何人でサムソンをペリシテ人に引き渡しに行きましたか？",
+     "3000",
+     "300",
+     "5000"
+    ],
+    "ko": [
+     "유다 사람 몇 명이 삼손을 필리스티아인에게 넘기러 갔습니까?",
+     "3000",
+     "300",
+     "5000"
+    ],
+    "ar": [
+     "كم رجلاً من يهوذا ذهبوا ليسلموا شمشون إلى الفلسطينيين؟",
+     "3000",
+     "300",
+     "5000"
+    ]
+   }
+  },
+  {
+   "id": "ch-judges-011-24",
+   "book": "judges",
+   "chapter": 15,
+   "difficulty": "expert",
+   "ref": "Judges 15:8",
+   "text": {
+    "en": [
+     "After slaughtering the Philistines, Samson stayed in the cleft of which rock?",
+     "Etam",
+     "Tabor",
+     "Carmel"
+    ],
+    "es": [
+     "¿En la hendidura de qué peña se quedó Sansón tras matar a los filisteos?",
+     "Etam",
+     "Tabor",
+     "Carmelo"
+    ],
+    "pt": [
+     "Depois de massacrar os filisteus, na fenda de que rochedo Sansão ficou?",
+     "Etã",
+     "Tabor",
+     "Carmelo"
+    ],
+    "fr": [
+     "Après avoir massacré les Philistins, dans la fente de quel rocher Samson demeura-t-il ?",
+     "Étam",
+     "Thabor",
+     "Carmel"
+    ],
+    "de": [
+     "In der Kluft welches Felsens blieb Simson, nachdem er die Philister erschlagen hatte?",
+     "Etam",
+     "Tabor",
+     "Karmel"
+    ],
+    "it": [
+     "Dopo aver sterminato i Filistei, nella fenditura di quale roccia rimase Sansone?",
+     "Etam",
+     "Tabor",
+     "Carmelo"
+    ],
+    "pl": [
+     "W rozpadlinie której skały został Samson po rzezi Filistynów?",
+     "Etam",
+     "Tabor",
+     "Karmel"
+    ],
+    "ru": [
+     "После избиения филистимлян в расселине какой скалы остановился Самсон?",
+     "Етам",
+     "Фавор",
+     "Кармил"
+    ],
+    "tr": [
+     "Şimşon Filistlileri kırıp geçirdikten sonra hangi kayanın yarığında kaldı?",
+     "Etam",
+     "Tabor",
+     "Karmel"
+    ],
+    "ja": [
+     "ペリシテ人を打ち殺した後、サムソンはどの岩の裂け目にとどまりましたか？",
+     "エタム",
+     "タボル",
+     "カルメル"
+    ],
+    "ko": [
+     "삼손은 필리스티아인들을 학살한 뒤 어느 바위의 갈라진 틈에 머물렀습니까?",
+     "에탐",
+     "타볼",
+     "카르멜"
+    ],
+    "ar": [
+     "بعد أن ضرب الفلسطينيين، في شق أي صخرة أقام شمشون؟",
+     "عيطم",
+     "تابور",
+     "الكرمل"
+    ]
+   }
+  },
+  {
+   "id": "ch-judges-011-25",
+   "book": "judges",
+   "chapter": 15,
+   "difficulty": "impossible",
+   "ref": "Judges 15:20",
+   "text": {
+    "en": [
+     "For how many years did Samson judge Israel under Philistine rule?",
+     "20",
+     "40",
+     "7"
+    ],
+    "es": [
+     "¿Durante cuántos años juzgó Sansón a Israel bajo el dominio filisteo?",
+     "20",
+     "40",
+     "7"
+    ],
+    "pt": [
+     "Durante quantos anos Sansão julgou Israel sob o domínio filisteu?",
+     "20",
+     "40",
+     "7"
+    ],
+    "fr": [
+     "Pendant combien d'années Samson jugea-t-il Israël sous la domination philistine ?",
+     "20",
+     "40",
+     "7"
+    ],
+    "de": [
+     "Wie viele Jahre war Simson Richter in Israel unter der Philisterherrschaft?",
+     "20",
+     "40",
+     "7"
+    ],
+    "it": [
+     "Per quanti anni Sansone giudicò Israele sotto il dominio filisteo?",
+     "20",
+     "40",
+     "7"
+    ],
+    "pl": [
+     "Przez ile lat Samson sądził Izraela za panowania Filistynów?",
+     "20",
+     "40",
+     "7"
+    ],
+    "ru": [
+     "Сколько лет Самсон судил Израиля во времена владычества филистимлян?",
+     "20",
+     "40",
+     "7"
+    ],
+    "tr": [
+     "Şimşon, Filist egemenliği döneminde İsrail'e kaç yıl hakimlik etti?",
+     "20",
+     "40",
+     "7"
+    ],
+    "ja": [
+     "サムソンはペリシテ人の支配下で何年間イスラエルの士師でしたか？",
+     "20",
+     "40",
+     "7"
+    ],
+    "ko": [
+     "삼손은 필리스티아인의 지배 아래 몇 해 동안 이스라엘의 판관이었습니까?",
+     "20",
+     "40",
+     "7"
+    ],
+    "ar": [
+     "كم سنة قضى شمشون لإسرائيل في أيام الفلسطينيين؟",
+     "20",
+     "40",
+     "7"
+    ]
+   }
+  },
+  {
+   "id": "ch-judges-011-26",
+   "book": "judges",
+   "chapter": 16,
+   "difficulty": "easy",
+   "ref": "Judges 16:5",
+   "text": {
+    "en": [
+     "Which woman betrayed Samson to the Philistines for silver?",
+     "Delilah",
+     "Jezebel",
+     "Esther"
+    ],
+    "es": [
+     "¿Qué mujer traicionó a Sansón ante los filisteos por plata?",
+     "Dalila",
+     "Jezabel",
+     "Ester"
+    ],
+    "pt": [
+     "Que mulher traiu Sansão aos filisteus por prata?",
+     "Dalila",
+     "Jezabel",
+     "Ester"
+    ],
+    "fr": [
+     "Quelle femme trahit Samson auprès des Philistins pour de l'argent ?",
+     "Dalila",
+     "Jézabel",
+     "Esther"
+    ],
+    "de": [
+     "Welche Frau verriet Simson für Silber an die Philister?",
+     "Delila",
+     "Isebel",
+     "Ester"
+    ],
+    "it": [
+     "Quale donna tradì Sansone presso i Filistei per denaro?",
+     "Dalila",
+     "Gezabele",
+     "Ester"
+    ],
+    "pl": [
+     "Która kobieta zdradziła Samsona Filistynom za srebro?",
+     "Dalila",
+     "Izebel",
+     "Estera"
+    ],
+    "ru": [
+     "Какая женщина предала Самсона филистимлянам за серебро?",
+     "Далида",
+     "Иезавель",
+     "Есфирь"
+    ],
+    "tr": [
+     "Hangi kadın, gümüş karşılığında Şimşon'u Filistlilere ele verdi?",
+     "Delila",
+     "İzebel",
+     "Ester"
+    ],
+    "ja": [
+     "どの女性が銀貨のためにサムソンをペリシテ人に売りましたか？",
+     "デリラ",
+     "イゼベル",
+     "エステル"
+    ],
+    "ko": [
+     "어느 여인이 은을 받고 삼손을 필리스티아인에게 배신했습니까?",
+     "들릴라",
+     "이제벨",
+     "에스테르"
+    ],
+    "ar": [
+     "أي امرأة خانت شمشون لأجل الفضة وسلمته للفلسطينيين؟",
+     "دليلة",
+     "إيزابل",
+     "أستير"
+    ]
+   }
+  },
+  {
+   "id": "ch-judges-011-27",
+   "book": "judges",
+   "chapter": 16,
+   "difficulty": "medium",
+   "ref": "Judges 16:23-30",
+   "text": {
+    "en": [
+     "Which god's temple did Samson pull down on the Philistines?",
+     "Dagon",
+     "Baal",
+     "Molech"
+    ],
+    "es": [
+     "¿El templo de qué dios derribó Sansón sobre los filisteos?",
+     "Dagón",
+     "Baal",
+     "Moloc"
+    ],
+    "pt": [
+     "O templo de que deus Sansão derrubou sobre os filisteus?",
+     "Dagon",
+     "Baal",
+     "Moloque"
+    ],
+    "fr": [
+     "Le temple de quel dieu Samson fit-il s'écrouler sur les Philistins ?",
+     "Dagon",
+     "Baal",
+     "Moloch"
+    ],
+    "de": [
+     "Den Tempel welches Gottes riss Simson auf die Philister nieder?",
+     "Dagon",
+     "Baal",
+     "Moloch"
+    ],
+    "it": [
+     "Il tempio di quale dio Sansone fece crollare sui Filistei?",
+     "Dagon",
+     "Baal",
+     "Moloc"
+    ],
+    "pl": [
+     "Świątynię którego boga Samson zawalił na Filistynów?",
+     "Dagon",
+     "Baal",
+     "Molok"
+    ],
+    "ru": [
+     "Храм какого бога обрушил Самсон на филистимлян?",
+     "Дагон",
+     "Ваал",
+     "Молох"
+    ],
+    "tr": [
+     "Şimşon hangi tanrının tapınağını Filistlilerin üzerine yıktı?",
+     "Dagon",
+     "Baal",
+     "Molek"
+    ],
+    "ja": [
+     "サムソンはどの神の神殿をペリシテ人の上に倒しましたか？",
+     "ダゴン",
+     "バアル",
+     "モレク"
+    ],
+    "ko": [
+     "삼손은 어느 신의 신전을 필리스티아인들 위에 무너뜨렸습니까?",
+     "다곤",
+     "바알",
+     "몰렉"
+    ],
+    "ar": [
+     "هيكل أي إله هدمه شمشون على الفلسطينيين؟",
+     "داجون",
+     "بعل",
+     "مولك"
+    ]
+   }
+  },
+  {
+   "id": "ch-judges-011-28",
+   "book": "judges",
+   "chapter": 16,
+   "difficulty": "hard",
+   "ref": "Judges 16:3",
+   "text": {
+    "en": [
+     "Which city's gates did Samson carry off on his shoulders?",
+     "Gaza",
+     "Jericho",
+     "Shiloh"
+    ],
+    "es": [
+     "¿Las puertas de qué ciudad se llevó Sansón sobre sus hombros?",
+     "Gaza",
+     "Jericó",
+     "Silo"
+    ],
+    "pt": [
+     "As portas de que cidade Sansão levou sobre os ombros?",
+     "Gaza",
+     "Jericó",
+     "Silo"
+    ],
+    "fr": [
+     "Les portes de quelle ville Samson emporta-t-il sur ses épaules ?",
+     "Gaza",
+     "Jéricho",
+     "Silo"
+    ],
+    "de": [
+     "Die Tore welcher Stadt trug Simson auf seinen Schultern davon?",
+     "Gaza",
+     "Jericho",
+     "Schilo"
+    ],
+    "it": [
+     "Le porte di quale città Sansone portò via sulle spalle?",
+     "Gaza",
+     "Gerico",
+     "Silo"
+    ],
+    "pl": [
+     "Bramy którego miasta Samson zaniósł na swoich barkach?",
+     "Gaza",
+     "Jerycho",
+     "Szilo"
+    ],
+    "ru": [
+     "Ворота какого города Самсон унёс на своих плечах?",
+     "Газа",
+     "Иерихон",
+     "Силом"
+    ],
+    "tr": [
+     "Şimşon hangi kentin kapılarını omuzlarında taşıdı?",
+     "Gazze",
+     "Eriha",
+     "Silo"
+    ],
+    "ja": [
+     "サムソンはどの町の門を肩に担いで運び去りましたか？",
+     "ガザ",
+     "エリコ",
+     "シロ"
+    ],
+    "ko": [
+     "삼손은 어느 도성의 성문을 어깨에 메고 갔습니까?",
+     "가자",
+     "예리코",
+     "실로"
+    ],
+    "ar": [
+     "أبواب أي مدينة حملها شمشون على كتفيه؟",
+     "غزة",
+     "أريحا",
+     "شيلو"
+    ]
+   }
+  },
+  {
+   "id": "ch-judges-011-29",
+   "book": "judges",
+   "chapter": 16,
+   "difficulty": "expert",
+   "ref": "Judges 16:7",
+   "text": {
+    "en": [
+     "Samson first told Delilah to bind him with how many fresh bowstrings?",
+     "7",
+     "3",
+     "10"
+    ],
+    "es": [
+     "¿Con cuántas cuerdas de arco nuevas dijo Sansón a Dalila que lo atara?",
+     "7",
+     "3",
+     "10"
+    ],
+    "pt": [
+     "Com quantas cordas de arco novas Sansão disse a Dalila que o atasse?",
+     "7",
+     "3",
+     "10"
+    ],
+    "fr": [
+     "Avec combien de cordes d'arc fraîches Samson dit-il à Dalila de le lier ?",
+     "7",
+     "3",
+     "10"
+    ],
+    "de": [
+     "Mit wie vielen frischen Bogensehnen sollte Delila Simson zuerst fesseln?",
+     "7",
+     "3",
+     "10"
+    ],
+    "it": [
+     "Con quante corde d'arco fresche Sansone disse a Dalila di legarlo?",
+     "7",
+     "3",
+     "10"
+    ],
+    "pl": [
+     "Ilu świeżymi cięciwami Samson kazał Dalili się związać?",
+     "7",
+     "3",
+     "10"
+    ],
+    "ru": [
+     "Сколькими свежими тетивами Самсон велел Далиде связать себя?",
+     "7",
+     "3",
+     "10"
+    ],
+    "tr": [
+     "Şimşon, Delila'ya kendisini kaç taze yay kirişiyle bağlamasını söyledi?",
+     "7",
+     "3",
+     "10"
+    ],
+    "ja": [
+     "サムソンはデリラに、何本の新しい弓の弦で縛るよう言いましたか？",
+     "7",
+     "3",
+     "10"
+    ],
+    "ko": [
+     "삼손은 들릴라에게 마르지 않은 활시위 몇 개로 자신을 묶으라고 했습니까?",
+     "7",
+     "3",
+     "10"
+    ],
+    "ar": [
+     "بكم وتراً طرياً من أوتار القوس قال شمشون لدليلة أن تربطه؟",
+     "7",
+     "3",
+     "10"
+    ]
+   }
+  },
+  {
+   "id": "ch-judges-011-30",
+   "book": "judges",
+   "chapter": 16,
+   "difficulty": "impossible",
+   "ref": "Judges 16:31",
+   "text": {
+    "en": [
+     "Samson was buried between Zorah and which town?",
+     "Eshtaol",
+     "Timnah",
+     "Lehi"
+    ],
+    "es": [
+     "¿Entre Sorá y qué ciudad fue sepultado Sansón?",
+     "Estaol",
+     "Timná",
+     "Lehí"
+    ],
+    "pt": [
+     "Entre Sorá e que cidade Sansão foi sepultado?",
+     "Estaol",
+     "Timna",
+     "Lehi"
+    ],
+    "fr": [
+     "Entre Soréa et quelle ville Samson fut-il enseveli ?",
+     "Eshtaol",
+     "Timna",
+     "Léhi"
+    ],
+    "de": [
+     "Zwischen Zora und welcher Stadt wurde Simson begraben?",
+     "Eschtaol",
+     "Timna",
+     "Lehi"
+    ],
+    "it": [
+     "Tra Sorea e quale città fu sepolto Sansone?",
+     "Estaol",
+     "Timna",
+     "Lechi"
+    ],
+    "pl": [
+     "Między Sorea a którym miastem pochowano Samsona?",
+     "Esztaol",
+     "Timna",
+     "Lechi"
+    ],
+    "ru": [
+     "Между Цореей и каким городом был похоронен Самсон?",
+     "Естаол",
+     "Фимнафа",
+     "Лехи"
+    ],
+    "tr": [
+     "Şimşon, Sora ile hangi kent arasında gömüldü?",
+     "Eştaol",
+     "Timna",
+     "Lehi"
+    ],
+    "ja": [
+     "サムソンはツォルアとどの町の間に葬られましたか？",
+     "エシュタオル",
+     "ティムナ",
+     "レヒ"
+    ],
+    "ko": [
+     "삼손은 초르아와 어느 마을 사이에 묻혔습니까?",
+     "에스타올",
+     "팀나",
+     "레히"
+    ],
+    "ar": [
+     "بين صرعة وأي بلدة دُفن شمشون؟",
+     "أشتأول",
+     "تمنة",
+     "لحي"
+    ]
+   }
+  },
+  {
+   "id": "ch-judges-011-31",
+   "book": "judges",
+   "chapter": 17,
+   "difficulty": "easy",
+   "ref": "Judges 17:2",
+   "text": {
+    "en": [
+     "What metal did Micah of Ephraim steal from his own mother?",
+     "Silver",
+     "Gold",
+     "Bronze"
+    ],
+    "es": [
+     "¿Qué metal robó Miqueas, de Efraín, a su propia madre?",
+     "Plata",
+     "Oro",
+     "Bronce"
+    ],
+    "pt": [
+     "Que metal Mica, de Efraim, roubou da própria mãe?",
+     "Prata",
+     "Ouro",
+     "Bronze"
+    ],
+    "fr": [
+     "Quel métal Mika, d'Éphraïm, déroba-t-il à sa propre mère ?",
+     "Argent",
+     "Or",
+     "Bronze"
+    ],
+    "de": [
+     "Welches Metall stahl Micha aus Efraim seiner eigenen Mutter?",
+     "Silber",
+     "Gold",
+     "Bronze"
+    ],
+    "it": [
+     "Quale metallo rubò a sua madre Mica, di Efraim?",
+     "Argento",
+     "Oro",
+     "Bronzo"
+    ],
+    "pl": [
+     "Jaki kruszec ukradł własnej matce Mika z Efraima?",
+     "Srebro",
+     "Złoto",
+     "Brąz"
+    ],
+    "ru": [
+     "Какой металл украл у своей матери Михей из Ефрема?",
+     "Серебро",
+     "Золото",
+     "Бронза"
+    ],
+    "tr": [
+     "Efrayimli Mika, kendi annesinden hangi madeni çaldı?",
+     "Gümüş",
+     "Altın",
+     "Bronz"
+    ],
+    "ja": [
+     "エフライムのミカは、自分の母から何の金属を盗みましたか？",
+     "銀",
+     "金",
+     "青銅"
+    ],
+    "ko": [
+     "에프라임 사람 미카는 자기 어머니에게서 어떤 금속을 훔쳤습니까?",
+     "은",
+     "금",
+     "청동"
+    ],
+    "ar": [
+     "أي معدن سرقه ميخا الأفرائيمي من أمه؟",
+     "فضة",
+     "ذهب",
+     "نحاس"
+    ]
+   }
+  },
+  {
+   "id": "ch-judges-011-32",
+   "book": "judges",
+   "chapter": 17,
+   "difficulty": "medium",
+   "ref": "Judges 17:4",
+   "text": {
+    "en": [
+     "What did Micah's mother have a silversmith make from the returned silver?",
+     "Idol",
+     "Crown",
+     "Throne"
+    ],
+    "es": [
+     "¿Qué mandó hacer la madre de Miqueas a un platero con la plata devuelta?",
+     "Ídolo",
+     "Corona",
+     "Trono"
+    ],
+    "pt": [
+     "O que a mãe de Mica mandou um ourives fazer com a prata devolvida?",
+     "Ídolo",
+     "Coroa",
+     "Trono"
+    ],
+    "fr": [
+     "Que la mère de Mika fit-elle faire par un orfèvre avec l'argent rendu ?",
+     "Idole",
+     "Couronne",
+     "Trône"
+    ],
+    "de": [
+     "Was ließ Michas Mutter von einem Silberschmied aus dem zurückgegebenen Silber machen?",
+     "Götzenbild",
+     "Krone",
+     "Thron"
+    ],
+    "it": [
+     "Che cosa fece fare la madre di Mica a un orafo con l'argento restituito?",
+     "Idolo",
+     "Corona",
+     "Trono"
+    ],
+    "pl": [
+     "Co matka Miki kazała odlać złotnikowi ze zwróconego srebra?",
+     "Bożek",
+     "Korona",
+     "Tron"
+    ],
+    "ru": [
+     "Что мать Михея велела сделать серебрянику из возвращённого серебра?",
+     "Идол",
+     "Корона",
+     "Трон"
+    ],
+    "tr": [
+     "Mika'nın annesi, geri verilen gümüşten kuyumcuya ne yaptırdı?",
+     "Put",
+     "Taç",
+     "Taht"
+    ],
+    "ja": [
+     "ミカの母は、戻された銀で銀細工人に何を造らせましたか？",
+     "偶像",
+     "冠",
+     "玉座"
+    ],
+    "ko": [
+     "미카의 어머니는 되돌려 받은 은으로 은세공인에게 무엇을 만들게 했습니까?",
+     "우상",
+     "왕관",
+     "왕좌"
+    ],
+    "ar": [
+     "ماذا جعلت أم ميخا صائغاً يصنع من الفضة المردودة؟",
+     "صنم",
+     "تاج",
+     "عرش"
+    ]
+   }
+  },
+  {
+   "id": "ch-judges-011-33",
+   "book": "judges",
+   "chapter": 17,
+   "difficulty": "hard",
+   "ref": "Judges 17:10",
+   "text": {
+    "en": [
+     "How many shekels of silver yearly did Micah pay his hired priest?",
+     "10",
+     "100",
+     "20"
+    ],
+    "es": [
+     "¿Cuántos siclos de plata al año pagaba Miqueas a su sacerdote contratado?",
+     "10",
+     "100",
+     "20"
+    ],
+    "pt": [
+     "Quantos siclos de prata por ano Mica pagava ao seu sacerdote contratado?",
+     "10",
+     "100",
+     "20"
+    ],
+    "fr": [
+     "Combien de sicles d'argent par an Mika payait-il à son prêtre engagé ?",
+     "10",
+     "100",
+     "20"
+    ],
+    "de": [
+     "Wie viele Schekel Silber im Jahr zahlte Micha seinem angeworbenen Priester?",
+     "10",
+     "100",
+     "20"
+    ],
+    "it": [
+     "Quanti sicli d'argento all'anno pagava Mica al suo sacerdote assunto?",
+     "10",
+     "100",
+     "20"
+    ],
+    "pl": [
+     "Ile syklów srebra rocznie płacił Mika swemu najętemu kapłanowi?",
+     "10",
+     "100",
+     "20"
+    ],
+    "ru": [
+     "Сколько сиклей серебра в год платил Михей своему нанятому священнику?",
+     "10",
+     "100",
+     "20"
+    ],
+    "tr": [
+     "Mika, tuttuğu kâhine yılda kaç şekel gümüş ödüyordu?",
+     "10",
+     "100",
+     "20"
+    ],
+    "ja": [
+     "ミカは雇った祭司に年に銀何シェケルを払いましたか？",
+     "10",
+     "100",
+     "20"
+    ],
+    "ko": [
+     "미카는 고용한 사제에게 해마다 은 몇 세켈을 주었습니까?",
+     "10",
+     "100",
+     "20"
+    ],
+    "ar": [
+     "كم شاقلاً من الفضة كان ميخا يدفع في السنة لكاهنه المستأجر؟",
+     "10",
+     "100",
+     "20"
+    ]
+   }
+  },
+  {
+   "id": "ch-judges-011-34",
+   "book": "judges",
+   "chapter": 17,
+   "difficulty": "expert",
+   "ref": "Judges 17:4",
+   "text": {
+    "en": [
+     "How many shekels of silver did Micah's mother give the silversmith?",
+     "200",
+     "20",
+     "50"
+    ],
+    "es": [
+     "¿Cuántos siclos de plata dio la madre de Miqueas al platero?",
+     "200",
+     "20",
+     "50"
+    ],
+    "pt": [
+     "Quantos siclos de prata a mãe de Mica deu ao ourives?",
+     "200",
+     "20",
+     "50"
+    ],
+    "fr": [
+     "Combien de sicles d'argent la mère de Mika donna-t-elle à l'orfèvre ?",
+     "200",
+     "20",
+     "50"
+    ],
+    "de": [
+     "Wie viele Schekel Silber gab Michas Mutter dem Silberschmied?",
+     "200",
+     "20",
+     "50"
+    ],
+    "it": [
+     "Quanti sicli d'argento diede la madre di Mica all'orafo?",
+     "200",
+     "20",
+     "50"
+    ],
+    "pl": [
+     "Ile syklów srebra dała matka Miki złotnikowi?",
+     "200",
+     "20",
+     "50"
+    ],
+    "ru": [
+     "Сколько сиклей серебра мать Михея отдала серебрянику?",
+     "200",
+     "20",
+     "50"
+    ],
+    "tr": [
+     "Mika'nın annesi kuyumcuya kaç şekel gümüş verdi?",
+     "200",
+     "20",
+     "50"
+    ],
+    "ja": [
+     "ミカの母は銀細工人に銀何シェケルを渡しましたか？",
+     "200",
+     "20",
+     "50"
+    ],
+    "ko": [
+     "미카의 어머니는 은세공인에게 은 몇 세켈을 주었습니까?",
+     "200",
+     "20",
+     "50"
+    ],
+    "ar": [
+     "كم شاقلاً من الفضة أعطت أم ميخا للصائغ؟",
+     "200",
+     "20",
+     "50"
+    ]
+   }
+  },
+  {
+   "id": "ch-judges-011-35",
+   "book": "judges",
+   "chapter": 17,
+   "difficulty": "impossible",
+   "ref": "Judges 17:5",
+   "text": {
+    "en": [
+     "What priestly garment did Micah make for his household shrine?",
+     "Ephod",
+     "Turban",
+     "Veil"
+    ],
+    "es": [
+     "¿Qué vestidura sacerdotal hizo Miqueas para su santuario doméstico?",
+     "Efod",
+     "Turbante",
+     "Velo"
+    ],
+    "pt": [
+     "Que veste sacerdotal Mica fez para o seu santuário doméstico?",
+     "Efod",
+     "Turbante",
+     "Véu"
+    ],
+    "fr": [
+     "Quel vêtement sacerdotal Mika fit-il pour son sanctuaire domestique ?",
+     "Éphod",
+     "Turban",
+     "Voile"
+    ],
+    "de": [
+     "Welches Priestergewand fertigte Micha für sein Hausheiligtum an?",
+     "Efod",
+     "Turban",
+     "Schleier"
+    ],
+    "it": [
+     "Quale veste sacerdotale fece Mica per il suo santuario domestico?",
+     "Efod",
+     "Turbante",
+     "Velo"
+    ],
+    "pl": [
+     "Jaką szatę kapłańską sporządził Mika do swego domowego sanktuarium?",
+     "Efod",
+     "Turban",
+     "Welon"
+    ],
+    "ru": [
+     "Какое священническое одеяние сделал Михей для своего домашнего святилища?",
+     "Ефод",
+     "Тюрбан",
+     "Покрывало"
+    ],
+    "tr": [
+     "Mika evindeki mabet için hangi kâhin giysisini yaptı?",
+     "Efod",
+     "Sarık",
+     "Peçe"
+    ],
+    "ja": [
+     "ミカは自分の家の聖所のために、どの祭司の衣を作りましたか？",
+     "エフォド",
+     "ターバン",
+     "ベール"
+    ],
+    "ko": [
+     "미카는 자기 집 성소를 위해 어떤 사제 의복을 만들었습니까?",
+     "에포드",
+     "터번",
+     "베일"
+    ],
+    "ar": [
+     "أي ثوب كهنوتي صنعه ميخا لهيكله المنزلي؟",
+     "أفود",
+     "عمامة",
+     "حجاب"
+    ]
+   }
+  },
+  {
+   "id": "ch-judges-011-36",
+   "book": "judges",
+   "chapter": 18,
+   "difficulty": "easy",
+   "ref": "Judges 18:29",
+   "text": {
+    "en": [
+     "Which city did the Danites capture and rename Dan?",
+     "Laish",
+     "Gibeah",
+     "Shiloh"
+    ],
+    "es": [
+     "¿Qué ciudad conquistaron los danitas y llamaron Dan?",
+     "Lais",
+     "Guibeá",
+     "Silo"
+    ],
+    "pt": [
+     "Que cidade os danitas conquistaram e chamaram Dã?",
+     "Laís",
+     "Gabaá",
+     "Silo"
+    ],
+    "fr": [
+     "Quelle ville les Danites conquirent-ils et nommèrent-ils Dan ?",
+     "Laïch",
+     "Gibéa",
+     "Silo"
+    ],
+    "de": [
+     "Welche Stadt eroberten die Daniter und nannten sie Dan?",
+     "Lajisch",
+     "Gibea",
+     "Schilo"
+    ],
+    "it": [
+     "Quale città conquistarono i Daniti e chiamarono Dan?",
+     "Lais",
+     "Gabaa",
+     "Silo"
+    ],
+    "pl": [
+     "Które miasto zdobyli Danici i nazwali Dan?",
+     "Lajisz",
+     "Gibea",
+     "Szilo"
+    ],
+    "ru": [
+     "Какой город взяли сыны Дановы и назвали Даном?",
+     "Лаис",
+     "Гива",
+     "Силом"
+    ],
+    "tr": [
+     "Danlılar hangi kenti ele geçirip Dan adını verdi?",
+     "Layiş",
+     "Giva",
+     "Silo"
+    ],
+    "ja": [
+     "ダン族はどの町を攻め取り、ダンと名付けましたか？",
+     "ライシュ",
+     "ギブア",
+     "シロ"
+    ],
+    "ko": [
+     "단 지파는 어느 도성을 점령하고 단이라고 이름 지었습니까?",
+     "라이스",
+     "기브아",
+     "실로"
+    ],
+    "ar": [
+     "أي مدينة استولى عليها الدانيون وسموها دان؟",
+     "لايش",
+     "جبعة",
+     "شيلو"
+    ]
+   }
+  },
+  {
+   "id": "ch-judges-011-37",
+   "book": "judges",
+   "chapter": 18,
+   "difficulty": "medium",
+   "ref": "Judges 18:2-3",
+   "text": {
+    "en": [
+     "Whose house did the Danite spies visit in Ephraim's hill country?",
+     "Micah",
+     "Gideon",
+     "Eli"
+    ],
+    "es": [
+     "¿En casa de quién se hospedaron los espías danitas en la montaña de Efraín?",
+     "Miqueas",
+     "Gedeón",
+     "Elí"
+    ],
+    "pt": [
+     "Na casa de quem se hospedaram os espiões danitas na montanha de Efraim?",
+     "Mica",
+     "Gedeão",
+     "Eli"
+    ],
+    "fr": [
+     "Chez qui les espions danites logèrent-ils dans la montagne d'Éphraïm ?",
+     "Mika",
+     "Gédéon",
+     "Éli"
+    ],
+    "de": [
+     "In wessen Haus kehrten die danitischen Kundschafter im Gebirge Efraim ein?",
+     "Micha",
+     "Gideon",
+     "Eli"
+    ],
+    "it": [
+     "In casa di chi alloggiarono gli esploratori daniti sulle montagne di Efraim?",
+     "Mica",
+     "Gedeone",
+     "Eli"
+    ],
+    "pl": [
+     "W czyim domu zatrzymali się danitscy zwiadowcy w górach Efraima?",
+     "Mika",
+     "Gedeon",
+     "Heli"
+    ],
+    "ru": [
+     "В чьём доме остановились разведчики-данитяне на горе Ефремовой?",
+     "Михей",
+     "Гедеон",
+     "Илий"
+    ],
+    "tr": [
+     "Danlı casuslar Efrayim dağlık bölgesinde kimin evinde kaldı?",
+     "Mika",
+     "Gidyon",
+     "Eli"
+    ],
+    "ja": [
+     "ダン族の斥候たちは、エフライムの山地で誰の家に泊まりましたか？",
+     "ミカ",
+     "ギデオン",
+     "エリ"
+    ],
+    "ko": [
+     "단 지파의 정탐꾼들은 에프라임 산악 지방에서 누구의 집에 묵었습니까?",
+     "미카",
+     "기드온",
+     "엘리"
+    ],
+    "ar": [
+     "في بيت من نزل الجواسيس الدانيون في جبل أفرايم؟",
+     "ميخا",
+     "جدعون",
+     "عالي"
+    ]
+   }
+  },
+  {
+   "id": "ch-judges-011-38",
+   "book": "judges",
+   "chapter": 18,
+   "difficulty": "hard",
+   "ref": "Judges 18:11",
+   "text": {
+    "en": [
+     "How many armed Danite men set out from Zorah and Eshtaol?",
+     "600",
+     "60",
+     "6000"
+    ],
+    "es": [
+     "¿Cuántos danitas armados salieron de Sorá y Estaol?",
+     "600",
+     "60",
+     "6000"
+    ],
+    "pt": [
+     "Quantos danitas armados partiram de Sorá e Estaol?",
+     "600",
+     "60",
+     "6000"
+    ],
+    "fr": [
+     "Combien de Danites armés partirent de Soréa et d'Eshtaol ?",
+     "600",
+     "60",
+     "6000"
+    ],
+    "de": [
+     "Wie viele bewaffnete Daniter zogen von Zora und Eschtaol aus?",
+     "600",
+     "60",
+     "6000"
+    ],
+    "it": [
+     "Quanti Daniti armati partirono da Sorea ed Estaol?",
+     "600",
+     "60",
+     "6000"
+    ],
+    "pl": [
+     "Ilu uzbrojonych Danitów wyruszyło z Sorea i Esztaol?",
+     "600",
+     "60",
+     "6000"
+    ],
+    "ru": [
+     "Сколько вооружённых данитян вышло из Цореи и Естаола?",
+     "600",
+     "60",
+     "6000"
+    ],
+    "tr": [
+     "Danlılardan kaç silahlı adam Sora ile Eştaol'dan yola çıktı?",
+     "600",
+     "60",
+     "6000"
+    ],
+    "ja": [
+     "ツォルアとエシュタオルから出発した武装したダン族の男は何人でしたか？",
+     "600",
+     "60",
+     "6000"
+    ],
+    "ko": [
+     "초르아와 에스타올에서 떠난 무장한 단 지파 사람은 몇 명이었습니까?",
+     "600",
+     "60",
+     "6000"
+    ],
+    "ar": [
+     "كم رجلاً دانياً مسلحاً خرجوا من صرعة وأشتأول؟",
+     "600",
+     "60",
+     "6000"
+    ]
+   }
+  },
+  {
+   "id": "ch-judges-011-39",
+   "book": "judges",
+   "chapter": 18,
+   "difficulty": "expert",
+   "ref": "Judges 18:2",
+   "text": {
+    "en": [
+     "How many scouts did the Danites send to explore the land?",
+     "5",
+     "12",
+     "7"
+    ],
+    "es": [
+     "¿Cuántos exploradores enviaron los danitas para reconocer la tierra?",
+     "5",
+     "12",
+     "7"
+    ],
+    "pt": [
+     "Quantos exploradores os danitas enviaram para reconhecer a terra?",
+     "5",
+     "12",
+     "7"
+    ],
+    "fr": [
+     "Combien d'éclaireurs les Danites envoyèrent-ils reconnaître le pays ?",
+     "5",
+     "12",
+     "7"
+    ],
+    "de": [
+     "Wie viele Kundschafter schickten die Daniter aus, um das Land zu erkunden?",
+     "5",
+     "12",
+     "7"
+    ],
+    "it": [
+     "Quanti esploratori mandarono i Daniti per esplorare il paese?",
+     "5",
+     "12",
+     "7"
+    ],
+    "pl": [
+     "Ilu zwiadowców wysłali Danici, by zbadali kraj?",
+     "5",
+     "12",
+     "7"
+    ],
+    "ru": [
+     "Сколько разведчиков послали сыны Дановы осмотреть землю?",
+     "5",
+     "12",
+     "7"
+    ],
+    "tr": [
+     "Danlılar araziyi keşfetmek için kaç casus gönderdi?",
+     "5",
+     "12",
+     "7"
+    ],
+    "ja": [
+     "ダン族は土地を探らせるために何人の斥候を送りましたか？",
+     "5",
+     "12",
+     "7"
+    ],
+    "ko": [
+     "단 지파는 땅을 정탐하려고 정탐꾼을 몇 명 보냈습니까?",
+     "5",
+     "12",
+     "7"
+    ],
+    "ar": [
+     "كم جاسوساً أرسل الدانيون ليستطلعوا الأرض؟",
+     "5",
+     "12",
+     "7"
+    ]
+   }
+  },
+  {
+   "id": "ch-judges-011-40",
+   "book": "judges",
+   "chapter": 18,
+   "difficulty": "impossible",
+   "ref": "Judges 18:30",
+   "text": {
+    "en": [
+     "The Levite Jonathan, priest to the Danites, was whose son?",
+     "Gershom",
+     "Eleazar",
+     "Merari"
+    ],
+    "es": [
+     "¿De quién era hijo el levita Jonatán, sacerdote de los danitas?",
+     "Gersón",
+     "Eleazar",
+     "Merarí"
+    ],
+    "pt": [
+     "De quem era filho o levita Jônatas, sacerdote dos danitas?",
+     "Gérson",
+     "Eleazar",
+     "Merari"
+    ],
+    "fr": [
+     "De qui le lévite Jonathan, prêtre des Danites, était-il le fils ?",
+     "Gershom",
+     "Éléazar",
+     "Mérari"
+    ],
+    "de": [
+     "Wessen Sohn war der Levit Jonatan, der Priester der Daniter?",
+     "Gerschom",
+     "Eleasar",
+     "Merari"
+    ],
+    "it": [
+     "Di chi era figlio il levita Giònata, sacerdote dei Daniti?",
+     "Ghersom",
+     "Eleazaro",
+     "Merari"
+    ],
+    "pl": [
+     "Czyim synem był lewita Jonatan, kapłan Danitów?",
+     "Gerszom",
+     "Eleazar",
+     "Merari"
+    ],
+    "ru": [
+     "Чьим сыном был левит Ионафан, священник данитян?",
+     "Гирсам",
+     "Елеазар",
+     "Мерари"
+    ],
+    "tr": [
+     "Danlıların kâhini Levili Yonatan kimin oğluydu?",
+     "Gerşom",
+     "Elazar",
+     "Merari"
+    ],
+    "ja": [
+     "ダン族の祭司となったレビ人ヨナタンは誰の子でしたか？",
+     "ゲルショム",
+     "エルアザル",
+     "メラリ"
+    ],
+    "ko": [
+     "단 지파의 사제가 된 레위인 요나탄은 누구의 아들이었습니까?",
+     "게르솜",
+     "엘아자르",
+     "므라리"
+    ],
+    "ar": [
+     "ابن من كان اللاوي يوناثان، كاهن الدانيين؟",
+     "جرشوم",
+     "ألعازار",
+     "مراري"
+    ]
+   }
+  },
+  {
+   "id": "ch-judges-011-41",
+   "book": "judges",
+   "chapter": 19,
+   "difficulty": "easy",
+   "ref": "Judges 19:12-25",
+   "text": {
+    "en": [
+     "In which Benjamite town was the Levite's concubine abused?",
+     "Gibeah",
+     "Hebron",
+     "Jericho"
+    ],
+    "es": [
+     "¿En qué ciudad benjaminita fue ultrajada la concubina del levita?",
+     "Guibeá",
+     "Hebrón",
+     "Jericó"
+    ],
+    "pt": [
+     "Em que cidade benjaminita a concubina do levita foi violentada?",
+     "Gabaá",
+     "Hebron",
+     "Jericó"
+    ],
+    "fr": [
+     "Dans quelle ville benjaminite la concubine du lévite fut-elle outragée ?",
+     "Gibéa",
+     "Hébron",
+     "Jéricho"
+    ],
+    "de": [
+     "In welcher benjaminitischen Stadt wurde die Nebenfrau des Leviten misshandelt?",
+     "Gibea",
+     "Hebron",
+     "Jericho"
+    ],
+    "it": [
+     "In quale città beniaminita fu violata la concubina del levita?",
+     "Gabaa",
+     "Ebron",
+     "Gerico"
+    ],
+    "pl": [
+     "W którym beniaminickim mieście zhańbiono nałożnicę lewity?",
+     "Gibea",
+     "Hebron",
+     "Jerycho"
+    ],
+    "ru": [
+     "В каком вениаминовом городе поругали наложницу левита?",
+     "Гива",
+     "Хеврон",
+     "Иерихон"
+    ],
+    "tr": [
+     "Levili'nin cariyesine Benyamin oymağının hangi kentinde kötü davranıldı?",
+     "Giva",
+     "Hebron",
+     "Eriha"
+    ],
+    "ja": [
+     "レビ人の側女は、ベニヤミンのどの町で辱められましたか？",
+     "ギブア",
+     "ヘブロン",
+     "エリコ"
+    ],
+    "ko": [
+     "레위인의 첩은 벤야민 지파의 어느 도성에서 능욕을 당했습니까?",
+     "기브아",
+     "헤브론",
+     "예리코"
+    ],
+    "ar": [
+     "في أي مدينة بنيامينية اعتُدي على سُرّية اللاوي؟",
+     "جبعة",
+     "حبرون",
+     "أريحا"
+    ]
+   }
+  },
+  {
+   "id": "ch-judges-011-42",
+   "book": "judges",
+   "chapter": 19,
+   "difficulty": "medium",
+   "ref": "Judges 19:29",
+   "text": {
+    "en": [
+     "Into how many pieces did the Levite cut his concubine's body?",
+     "12",
+     "7",
+     "10"
+    ],
+    "es": [
+     "¿En cuántos trozos cortó el levita el cuerpo de su concubina?",
+     "12",
+     "7",
+     "10"
+    ],
+    "pt": [
+     "Em quantos pedaços o levita cortou o corpo da sua concubina?",
+     "12",
+     "7",
+     "10"
+    ],
+    "fr": [
+     "En combien de morceaux le lévite découpa-t-il le corps de sa concubine ?",
+     "12",
+     "7",
+     "10"
+    ],
+    "de": [
+     "In wie viele Stücke zerteilte der Levit den Leichnam seiner Nebenfrau?",
+     "12",
+     "7",
+     "10"
+    ],
+    "it": [
+     "In quanti pezzi il levita tagliò il corpo della sua concubina?",
+     "12",
+     "7",
+     "10"
+    ],
+    "pl": [
+     "Na ile kawałków lewita rozciął ciało swojej nałożnicy?",
+     "12",
+     "7",
+     "10"
+    ],
+    "ru": [
+     "На сколько частей левит рассёк тело своей наложницы?",
+     "12",
+     "7",
+     "10"
+    ],
+    "tr": [
+     "Levili, cariyesinin cesedini kaç parçaya böldü?",
+     "12",
+     "7",
+     "10"
+    ],
+    "ja": [
+     "レビ人は側女の遺体を何片に切り分けましたか？",
+     "12",
+     "7",
+     "10"
+    ],
+    "ko": [
+     "레위인은 자기 첩의 시체를 몇 토막으로 잘랐습니까?",
+     "12",
+     "7",
+     "10"
+    ],
+    "ar": [
+     "إلى كم قطعة قطّع اللاوي جسد سُرّيته؟",
+     "12",
+     "7",
+     "10"
+    ]
+   }
+  },
+  {
+   "id": "ch-judges-011-43",
+   "book": "judges",
+   "chapter": 19,
+   "difficulty": "hard",
+   "ref": "Judges 19:10-12",
+   "text": {
+    "en": [
+     "Which city, later Jerusalem, did the Levite refuse to stay in?",
+     "Jebus",
+     "Shechem",
+     "Hebron"
+    ],
+    "es": [
+     "¿En qué ciudad, la futura Jerusalén, se negó a pasar la noche el levita?",
+     "Jebús",
+     "Siquem",
+     "Hebrón"
+    ],
+    "pt": [
+     "Em que cidade, a futura Jerusalém, o levita recusou pernoitar?",
+     "Jebus",
+     "Siquém",
+     "Hebron"
+    ],
+    "fr": [
+     "Dans quelle ville, la future Jérusalem, le lévite refusa-t-il de passer la nuit ?",
+     "Jébus",
+     "Sichem",
+     "Hébron"
+    ],
+    "de": [
+     "In welcher Stadt, dem späteren Jerusalem, wollte der Levit nicht übernachten?",
+     "Jebus",
+     "Sichem",
+     "Hebron"
+    ],
+    "it": [
+     "In quale città, la futura Gerusalemme, il levita rifiutò di pernottare?",
+     "Gebus",
+     "Sichem",
+     "Ebron"
+    ],
+    "pl": [
+     "W którym mieście, późniejszej Jerozolimie, lewita nie chciał nocować?",
+     "Jebus",
+     "Sychem",
+     "Hebron"
+    ],
+    "ru": [
+     "В каком городе, будущем Иерусалиме, левит отказался ночевать?",
+     "Иевус",
+     "Сихем",
+     "Хеврон"
+    ],
+    "tr": [
+     "Levili, sonradan Kudüs olacak hangi kentte konaklamayı reddetti?",
+     "Yebus",
+     "Şekem",
+     "Hebron"
+    ],
+    "ja": [
+     "レビ人は、後のエルサレムであるどの町での宿泊を拒みましたか？",
+     "エブス",
+     "シケム",
+     "ヘブロン"
+    ],
+    "ko": [
+     "레위인은 훗날 예루살렘이 된 어느 도성에서 묵기를 거절했습니까?",
+     "여부스",
+     "스켐",
+     "헤브론"
+    ],
+    "ar": [
+     "في أي مدينة، أورشليم لاحقاً، رفض اللاوي المبيت؟",
+     "يبوس",
+     "شكيم",
+     "حبرون"
+    ]
+   }
+  },
+  {
+   "id": "ch-judges-011-44",
+   "book": "judges",
+   "chapter": 19,
+   "difficulty": "expert",
+   "ref": "Judges 19:16",
+   "text": {
+    "en": [
+     "The old man hosting the Levite in Gibeah came from which tribe?",
+     "Ephraim",
+     "Reuben",
+     "Asher"
+    ],
+    "es": [
+     "¿De qué tribu era el anciano que hospedó al levita en Guibeá?",
+     "Efraín",
+     "Rubén",
+     "Aser"
+    ],
+    "pt": [
+     "De que tribo era o ancião que hospedou o levita em Gabaá?",
+     "Efraim",
+     "Rúben",
+     "Aser"
+    ],
+    "fr": [
+     "De quelle tribu était le vieillard qui hébergea le lévite à Gibéa ?",
+     "Éphraïm",
+     "Ruben",
+     "Aser"
+    ],
+    "de": [
+     "Aus welchem Stamm kam der alte Mann, der den Leviten in Gibea aufnahm?",
+     "Efraim",
+     "Ruben",
+     "Ascher"
+    ],
+    "it": [
+     "Di quale tribù era il vecchio che ospitò il levita a Gabaa?",
+     "Efraim",
+     "Ruben",
+     "Aser"
+    ],
+    "pl": [
+     "Z jakiego pokolenia pochodził starzec, który przyjął lewitę w Gibea?",
+     "Efraim",
+     "Ruben",
+     "Aser"
+    ],
+    "ru": [
+     "Из какого колена был старик, приютивший левита в Гиве?",
+     "Ефрем",
+     "Рувим",
+     "Асир"
+    ],
+    "tr": [
+     "Levili'yi Giva'da konuk eden yaşlı adam hangi oymaktandı?",
+     "Efrayim",
+     "Ruben",
+     "Aşer"
+    ],
+    "ja": [
+     "ギブアでレビ人を泊めた老人は、どの部族の出身でしたか？",
+     "エフライム",
+     "ルベン",
+     "アシェル"
+    ],
+    "ko": [
+     "기브아에서 레위인을 맞아들인 노인은 어느 지파 사람이었습니까?",
+     "에프라임",
+     "르우벤",
+     "아세르"
+    ],
+    "ar": [
+     "من أي سبط كان الشيخ الذي استضاف اللاوي في جبعة؟",
+     "أفرايم",
+     "رأوبين",
+     "أشير"
+    ]
+   }
+  },
+  {
+   "id": "ch-judges-011-45",
+   "book": "judges",
+   "chapter": 19,
+   "difficulty": "impossible",
+   "ref": "Judges 19:10",
+   "text": {
+    "en": [
+     "How many saddled donkeys did the Levite take with him on his journey?",
+     "2",
+     "5",
+     "10"
+    ],
+    "es": [
+     "¿Cuántos asnos aparejados llevaba consigo el levita en su viaje?",
+     "2",
+     "5",
+     "10"
+    ],
+    "pt": [
+     "Quantos jumentos albardados o levita levava consigo na viagem?",
+     "2",
+     "5",
+     "10"
+    ],
+    "fr": [
+     "Combien d'ânes bâtés le lévite emmenait-il avec lui en voyage ?",
+     "2",
+     "5",
+     "10"
+    ],
+    "de": [
+     "Wie viele gesattelte Esel führte der Levit auf seiner Reise mit?",
+     "2",
+     "5",
+     "10"
+    ],
+    "it": [
+     "Quanti asini sellati il levita portava con sé nel viaggio?",
+     "2",
+     "5",
+     "10"
+    ],
+    "pl": [
+     "Ile osiodłanych osłów zabrał ze sobą lewita w podróż?",
+     "2",
+     "5",
+     "10"
+    ],
+    "ru": [
+     "Сколько навьюченных ослов вёл с собой левит в пути?",
+     "2",
+     "5",
+     "10"
+    ],
+    "tr": [
+     "Levili yolculukta yanında kaç semerli eşek götürdü?",
+     "2",
+     "5",
+     "10"
+    ],
+    "ja": [
+     "レビ人は旅にくらを置いたろばを何頭連れていましたか？",
+     "2",
+     "5",
+     "10"
+    ],
+    "ko": [
+     "레위인은 여행길에 안장을 얹은 나귀를 몇 마리 데리고 갔습니까?",
+     "2",
+     "5",
+     "10"
+    ],
+    "ar": [
+     "كم حماراً مسرجاً أخذ اللاوي معه في رحلته؟",
+     "2",
+     "5",
+     "10"
+    ]
+   }
+  },
+  {
+   "id": "ch-judges-011-46",
+   "book": "judges",
+   "chapter": 20,
+   "difficulty": "easy",
+   "ref": "Judges 20:12-14",
+   "text": {
+    "en": [
+     "Which tribe did all Israel fight after the outrage at Gibeah?",
+     "Benjamin",
+     "Simeon",
+     "Asher"
+    ],
+    "es": [
+     "¿Contra qué tribu luchó todo Israel tras el ultraje de Guibeá?",
+     "Benjamín",
+     "Simeón",
+     "Aser"
+    ],
+    "pt": [
+     "Contra que tribo lutou todo Israel depois do crime de Gabaá?",
+     "Benjamim",
+     "Simeão",
+     "Aser"
+    ],
+    "fr": [
+     "Contre quelle tribu tout Israël combattit-il après l'outrage de Gibéa ?",
+     "Benjamin",
+     "Siméon",
+     "Aser"
+    ],
+    "de": [
+     "Gegen welchen Stamm kämpfte ganz Israel nach der Untat von Gibea?",
+     "Benjamin",
+     "Simeon",
+     "Ascher"
+    ],
+    "it": [
+     "Contro quale tribù combatté tutto Israele dopo l'oltraggio di Gabaa?",
+     "Beniamino",
+     "Simeone",
+     "Aser"
+    ],
+    "pl": [
+     "Z którym pokoleniem walczył cały Izrael po zbrodni w Gibea?",
+     "Beniamin",
+     "Symeon",
+     "Aser"
+    ],
+    "ru": [
+     "С каким коленом воевал весь Израиль после злодеяния в Гиве?",
+     "Вениамин",
+     "Симеон",
+     "Асир"
+    ],
+    "tr": [
+     "Giva'daki rezaletten sonra bütün İsrail hangi oymakla savaştı?",
+     "Benyamin",
+     "Şimon",
+     "Aşer"
+    ],
+    "ja": [
+     "ギブアでの悪事の後、全イスラエルはどの部族と戦いましたか？",
+     "ベニヤミン",
+     "シメオン",
+     "アシェル"
+    ],
+    "ko": [
+     "기브아에서 일어난 악행 뒤에 온 이스라엘은 어느 지파와 싸웠습니까?",
+     "벤야민",
+     "시메온",
+     "아세르"
+    ],
+    "ar": [
+     "مع أي سبط حارب كل إسرائيل بعد جريمة جبعة؟",
+     "بنيامين",
+     "شمعون",
+     "أشير"
+    ]
+   }
+  },
+  {
+   "id": "ch-judges-011-47",
+   "book": "judges",
+   "chapter": 20,
+   "difficulty": "medium",
+   "ref": "Judges 20:18",
+   "text": {
+    "en": [
+     "Which tribe did the Lord say should go up first against Benjamin?",
+     "Judah",
+     "Reuben",
+     "Levi"
+    ],
+    "es": [
+     "¿Qué tribu dijo el Señor que subiera primero contra Benjamín?",
+     "Judá",
+     "Rubén",
+     "Leví"
+    ],
+    "pt": [
+     "Que tribo o Senhor disse que subisse primeiro contra Benjamim?",
+     "Judá",
+     "Rúben",
+     "Levi"
+    ],
+    "fr": [
+     "Quelle tribu le Seigneur dit-il de monter la première contre Benjamin ?",
+     "Juda",
+     "Ruben",
+     "Lévi"
+    ],
+    "de": [
+     "Welcher Stamm sollte nach dem Wort des Herrn als Erster gegen Benjamin hinaufziehen?",
+     "Juda",
+     "Ruben",
+     "Levi"
+    ],
+    "it": [
+     "Quale tribù il Signore disse di salire per prima contro Beniamino?",
+     "Giuda",
+     "Ruben",
+     "Levi"
+    ],
+    "pl": [
+     "Które pokolenie Pan wskazał, by wyruszyło pierwsze przeciw Beniaminowi?",
+     "Juda",
+     "Ruben",
+     "Lewi"
+    ],
+    "ru": [
+     "Какое колено, по слову Господа, должно было идти первым против Вениамина?",
+     "Иуда",
+     "Рувим",
+     "Левий"
+    ],
+    "tr": [
+     "RAB, Benyamin'e karşı ilk hangi oymağın çıkmasını söyledi?",
+     "Yahuda",
+     "Ruben",
+     "Levi"
+    ],
+    "ja": [
+     "主は、ベニヤミンに対してまずどの部族が上るよう言われましたか？",
+     "ユダ",
+     "ルベン",
+     "レビ"
+    ],
+    "ko": [
+     "주님께서는 벤야민에게 맞서 먼저 어느 지파가 올라가라고 하셨습니까?",
+     "유다",
+     "르우벤",
+     "레위"
+    ],
+    "ar": [
+     "أي سبط قال الرب إنه يصعد أولاً لمحاربة بنيامين؟",
+     "يهوذا",
+     "رأوبين",
+     "لاوي"
+    ]
+   }
+  },
+  {
+   "id": "ch-judges-011-48",
+   "book": "judges",
+   "chapter": 20,
+   "difficulty": "hard",
+   "ref": "Judges 20:27-28",
+   "text": {
+    "en": [
+     "Which grandson of Aaron served before the ark at Bethel?",
+     "Phinehas",
+     "Eli",
+     "Samuel"
+    ],
+    "es": [
+     "¿Qué nieto de Aarón servía ante el arca en Betel?",
+     "Finees",
+     "Elí",
+     "Samuel"
+    ],
+    "pt": [
+     "Que neto de Aarão servia diante da arca em Betel?",
+     "Fineias",
+     "Eli",
+     "Samuel"
+    ],
+    "fr": [
+     "Quel petit-fils d'Aaron servait devant l'arche à Béthel ?",
+     "Pinhas",
+     "Éli",
+     "Samuel"
+    ],
+    "de": [
+     "Welcher Enkel Aarons diente vor der Lade in Bet-El?",
+     "Pinhas",
+     "Eli",
+     "Samuel"
+    ],
+    "it": [
+     "Quale nipote di Aronne serviva davanti all'arca a Betel?",
+     "Pincas",
+     "Eli",
+     "Samuele"
+    ],
+    "pl": [
+     "Który wnuk Aarona służył przed arką w Betel?",
+     "Pinchas",
+     "Heli",
+     "Samuel"
+    ],
+    "ru": [
+     "Какой внук Аарона служил пред ковчегом в Вефиле?",
+     "Финеес",
+     "Илий",
+     "Самуил"
+    ],
+    "tr": [
+     "Beytel'de sandığın önünde hizmet eden Harun'un torunu kimdi?",
+     "Pinehas",
+     "Eli",
+     "Samuel"
+    ],
+    "ja": [
+     "ベテルで神の箱の前に仕えたアロンの孫は誰ですか？",
+     "ピネハス",
+     "エリ",
+     "サムエル"
+    ],
+    "ko": [
+     "벧엘에서 궤 앞에서 섬긴 아론의 손자는 누구입니까?",
+     "비느하스",
+     "엘리",
+     "사무엘"
+    ],
+    "ar": [
+     "أي حفيد لهارون كان يخدم أمام التابوت في بيت إيل؟",
+     "فينحاس",
+     "عالي",
+     "صموئيل"
+    ]
+   }
+  },
+  {
+   "id": "ch-judges-011-49",
+   "book": "judges",
+   "chapter": 20,
+   "difficulty": "expert",
+   "ref": "Judges 20:21",
+   "text": {
+    "en": [
+     "How many Israelites fell on the first day of battle against Benjamin?",
+     "22000",
+     "2200",
+     "12000"
+    ],
+    "es": [
+     "¿Cuántos israelitas cayeron el primer día de batalla contra Benjamín?",
+     "22000",
+     "2200",
+     "12000"
+    ],
+    "pt": [
+     "Quantos israelitas caíram no primeiro dia de batalha contra Benjamim?",
+     "22000",
+     "2200",
+     "12000"
+    ],
+    "fr": [
+     "Combien d'Israélites tombèrent le premier jour de la bataille contre Benjamin ?",
+     "22000",
+     "2200",
+     "12000"
+    ],
+    "de": [
+     "Wie viele Israeliten fielen am ersten Schlachttag gegen Benjamin?",
+     "22000",
+     "2200",
+     "12000"
+    ],
+    "it": [
+     "Quanti Israeliti caddero il primo giorno di battaglia contro Beniamino?",
+     "22000",
+     "2200",
+     "12000"
+    ],
+    "pl": [
+     "Ilu Izraelitów poległo pierwszego dnia bitwy z Beniaminem?",
+     "22000",
+     "2200",
+     "12000"
+    ],
+    "ru": [
+     "Сколько израильтян пало в первый день битвы с Вениамином?",
+     "22000",
+     "2200",
+     "12000"
+    ],
+    "tr": [
+     "Benyamin'e karşı savaşın ilk gününde kaç İsrailli düştü?",
+     "22000",
+     "2200",
+     "12000"
+    ],
+    "ja": [
+     "ベニヤミンとの戦いの初日に、何人のイスラエル人が倒れましたか？",
+     "22000",
+     "2200",
+     "12000"
+    ],
+    "ko": [
+     "벤야민과의 전투 첫날에 이스라엘 사람은 몇 명 쓰러졌습니까?",
+     "22000",
+     "2200",
+     "12000"
+    ],
+    "ar": [
+     "كم إسرائيلياً سقطوا في اليوم الأول من المعركة ضد بنيامين؟",
+     "22000",
+     "2200",
+     "12000"
+    ]
+   }
+  },
+  {
+   "id": "ch-judges-011-50",
+   "book": "judges",
+   "chapter": 20,
+   "difficulty": "impossible",
+   "ref": "Judges 20:16",
+   "text": {
+    "en": [
+     "How many left-handed Benjamite slingers could hit a hair without missing?",
+     "700",
+     "70",
+     "7000"
+    ],
+    "es": [
+     "¿Cuántos honderos zurdos de Benjamín acertaban a un cabello sin fallar?",
+     "700",
+     "70",
+     "7000"
+    ],
+    "pt": [
+     "Quantos fundibulários canhotos de Benjamim acertavam num cabelo sem errar?",
+     "700",
+     "70",
+     "7000"
+    ],
+    "fr": [
+     "Combien de frondeurs gauchers de Benjamin visaient un cheveu sans manquer ?",
+     "700",
+     "70",
+     "7000"
+    ],
+    "de": [
+     "Wie viele linkshändige Schleuderer Benjamins trafen ein Haar ohne Fehl?",
+     "700",
+     "70",
+     "7000"
+    ],
+    "it": [
+     "Quanti frombolieri mancini di Beniamino colpivano un capello senza sbagliare?",
+     "700",
+     "70",
+     "7000"
+    ],
+    "pl": [
+     "Ilu leworęcznych procarzy Beniamina trafiało we włos, nie chybiając?",
+     "700",
+     "70",
+     "7000"
+    ],
+    "ru": [
+     "Сколько левшей-пращников Вениамина попадали в волос, не промахиваясь?",
+     "700",
+     "70",
+     "7000"
+    ],
+    "tr": [
+     "Benyamin'in kaç solak sapancısı bir saça isabet ettirip şaşmazdı?",
+     "700",
+     "70",
+     "7000"
+    ],
+    "ja": [
+     "ベニヤミンの左ききの石投げ兵のうち、髪の毛一本も外さず当てられたのは何人でしたか？",
+     "700",
+     "70",
+     "7000"
+    ],
+    "ko": [
+     "벤야민의 왼손잡이 물매꾼 중 머리카락 한 올도 빗맞히지 않는 이는 몇 명이었습니까?",
+     "700",
+     "70",
+     "7000"
+    ],
+    "ar": [
+     "كم رامياً أعسر من بنيامين كان يصيب الشعرة دون أن يخطئ؟",
+     "700",
+     "70",
+     "7000"
+    ]
+   }
+  },
+  {
+   "id": "ch-judges-011-51",
+   "book": "judges",
+   "chapter": 21,
+   "difficulty": "easy",
+   "ref": "Judges 21:19-21",
+   "text": {
+    "en": [
+     "At which town's yearly festival did Benjamites seize their wives?",
+     "Shiloh",
+     "Hebron",
+     "Gilgal"
+    ],
+    "es": [
+     "¿En la fiesta anual de qué ciudad raptaron los benjaminitas a sus esposas?",
+     "Silo",
+     "Hebrón",
+     "Guilgal"
+    ],
+    "pt": [
+     "Na festa anual de que cidade os benjaminitas raptaram as suas esposas?",
+     "Silo",
+     "Hebron",
+     "Guilgal"
+    ],
+    "fr": [
+     "À la fête annuelle de quelle ville les Benjaminites enlevèrent-ils leurs épouses ?",
+     "Silo",
+     "Hébron",
+     "Guilgal"
+    ],
+    "de": [
+     "Beim jährlichen Fest welcher Stadt raubten die Benjaminiter ihre Frauen?",
+     "Schilo",
+     "Hebron",
+     "Gilgal"
+    ],
+    "it": [
+     "Alla festa annuale di quale città i Beniaminiti rapirono le loro mogli?",
+     "Silo",
+     "Ebron",
+     "Gàlgala"
+    ],
+    "pl": [
+     "Podczas corocznego święta w którym mieście Beniaminici porwali sobie żony?",
+     "Szilo",
+     "Hebron",
+     "Gilgal"
+    ],
+    "ru": [
+     "На ежегодном празднике какого города вениамитяне похитили себе жён?",
+     "Силом",
+     "Хеврон",
+     "Галгал"
+    ],
+    "tr": [
+     "Benyaminliler hangi kentin yıllık şenliğinde kendilerine eş kaçırdı?",
+     "Silo",
+     "Hebron",
+     "Gilgal"
+    ],
+    "ja": [
+     "ベニヤミン人は、どの町の毎年の祭りで妻をさらいましたか？",
+     "シロ",
+     "ヘブロン",
+     "ギルガル"
+    ],
+    "ko": [
+     "벤야민 사람들은 어느 마을의 해마다 열리는 축제에서 아내를 붙잡아 갔습니까?",
+     "실로",
+     "헤브론",
+     "길갈"
+    ],
+    "ar": [
+     "في عيد أي مدينة السنوي خطف البنيامينيون زوجاتهم؟",
+     "شيلو",
+     "حبرون",
+     "الجلجال"
+    ]
+   }
+  },
+  {
+   "id": "ch-judges-011-52",
+   "book": "judges",
+   "chapter": 21,
+   "difficulty": "medium",
+   "ref": "Judges 21:12",
+   "text": {
+    "en": [
+     "How many young virgins of Jabesh-gilead were given to the Benjamites?",
+     "400",
+     "200",
+     "600"
+    ],
+    "es": [
+     "¿Cuántas jóvenes vírgenes de Yabés de Galaad se dieron a los benjaminitas?",
+     "400",
+     "200",
+     "600"
+    ],
+    "pt": [
+     "Quantas jovens virgens de Jabes-Galaad foram dadas aos benjaminitas?",
+     "400",
+     "200",
+     "600"
+    ],
+    "fr": [
+     "Combien de jeunes vierges de Yabesh-de-Galaad furent données aux Benjaminites ?",
+     "400",
+     "200",
+     "600"
+    ],
+    "de": [
+     "Wie viele junge Jungfrauen aus Jabesch in Gilead erhielten die Benjaminiter?",
+     "400",
+     "200",
+     "600"
+    ],
+    "it": [
+     "Quante giovani vergini di Iabes di Galaad furono date ai Beniaminiti?",
+     "400",
+     "200",
+     "600"
+    ],
+    "pl": [
+     "Ile młodych dziewic z Jabesz w Gileadzie dano Beniaminitom?",
+     "400",
+     "200",
+     "600"
+    ],
+    "ru": [
+     "Сколько девиц из Иависа Галаадского отдали вениамитянам?",
+     "400",
+     "200",
+     "600"
+    ],
+    "tr": [
+     "Yaveş-Gilat'tan kaç genç bakire Benyaminlilere verildi?",
+     "400",
+     "200",
+     "600"
+    ],
+    "ja": [
+     "ヤベシュ・ギレアドの若い処女は何人ベニヤミン人に与えられましたか？",
+     "400",
+     "200",
+     "600"
+    ],
+    "ko": [
+     "야베스 길앗의 젊은 처녀 몇 명이 벤야민 사람들에게 주어졌습니까?",
+     "400",
+     "200",
+     "600"
+    ],
+    "ar": [
+     "كم عذراء شابة من يابيش جلعاد أُعطين للبنيامينيين؟",
+     "400",
+     "200",
+     "600"
+    ]
+   }
+  },
+  {
+   "id": "ch-judges-011-53",
+   "book": "judges",
+   "chapter": 21,
+   "difficulty": "hard",
+   "ref": "Judges 21:1",
+   "text": {
+    "en": [
+     "At which place did Israel swear not to give daughters to Benjamin?",
+     "Mizpah",
+     "Jericho",
+     "Hebron"
+    ],
+    "es": [
+     "¿En qué lugar juró Israel no dar sus hijas a Benjamín?",
+     "Mispá",
+     "Jericó",
+     "Hebrón"
+    ],
+    "pt": [
+     "Em que lugar Israel jurou não dar as suas filhas a Benjamim?",
+     "Masfa",
+     "Jericó",
+     "Hebron"
+    ],
+    "fr": [
+     "En quel lieu Israël jura-t-il de ne pas donner de filles à Benjamin ?",
+     "Mispa",
+     "Jéricho",
+     "Hébron"
+    ],
+    "de": [
+     "An welchem Ort schwor Israel, Benjamin keine Töchter zu geben?",
+     "Mizpa",
+     "Jericho",
+     "Hebron"
+    ],
+    "it": [
+     "In quale luogo Israele giurò di non dare figlie a Beniamino?",
+     "Mizpa",
+     "Gerico",
+     "Ebron"
+    ],
+    "pl": [
+     "W jakim miejscu Izrael przysiągł nie dawać córek Beniaminowi?",
+     "Mispa",
+     "Jerycho",
+     "Hebron"
+    ],
+    "ru": [
+     "В каком месте Израиль поклялся не отдавать дочерей Вениамину?",
+     "Массифа",
+     "Иерихон",
+     "Хеврон"
+    ],
+    "tr": [
+     "İsrail hangi yerde Benyamin'e kız vermeyeceğine ant içti?",
+     "Mispa",
+     "Eriha",
+     "Hebron"
+    ],
+    "ja": [
+     "イスラエルはどこで、ベニヤミンに娘を与えないと誓いましたか？",
+     "ミツパ",
+     "エリコ",
+     "ヘブロン"
+    ],
+    "ko": [
+     "이스라엘은 어느 곳에서 벤야민에게 딸을 주지 않겠다고 맹세했습니까?",
+     "미츠파",
+     "예리코",
+     "헤브론"
+    ],
+    "ar": [
+     "في أي مكان أقسم إسرائيل ألا يزوج بناته لبنيامين؟",
+     "المصفاة",
+     "أريحا",
+     "حبرون"
+    ]
+   }
+  },
+  {
+   "id": "ch-judges-011-54",
+   "book": "judges",
+   "chapter": 21,
+   "difficulty": "expert",
+   "ref": "Judges 21:13",
+   "text": {
+    "en": [
+     "To which rock had the surviving Benjamites fled?",
+     "Rimmon",
+     "Tabor",
+     "Gerizim"
+    ],
+    "es": [
+     "¿A qué peña habían huido los benjaminitas supervivientes?",
+     "Rimón",
+     "Tabor",
+     "Garizim"
+    ],
+    "pt": [
+     "Para que rochedo tinham fugido os benjaminitas sobreviventes?",
+     "Remon",
+     "Tabor",
+     "Garizim"
+    ],
+    "fr": [
+     "Vers quel rocher les Benjaminites survivants s'étaient-ils enfuis ?",
+     "Rimmon",
+     "Thabor",
+     "Garizim"
+    ],
+    "de": [
+     "Zu welchem Felsen waren die überlebenden Benjaminiter geflohen?",
+     "Rimmon",
+     "Tabor",
+     "Garizim"
+    ],
+    "it": [
+     "A quale roccia erano fuggiti i Beniaminiti superstiti?",
+     "Rimmon",
+     "Tabor",
+     "Garizim"
+    ],
+    "pl": [
+     "Do której skały uciekli ocaleli Beniaminici?",
+     "Rimmon",
+     "Tabor",
+     "Gerizim"
+    ],
+    "ru": [
+     "К какой скале бежали уцелевшие вениамитяне?",
+     "Реммон",
+     "Фавор",
+     "Гаризим"
+    ],
+    "tr": [
+     "Sağ kalan Benyaminliler hangi kayaya kaçmıştı?",
+     "Rimmon",
+     "Tabor",
+     "Gerizim"
+    ],
+    "ja": [
+     "生き残ったベニヤミン人は、どの岩に逃れていましたか？",
+     "リモン",
+     "タボル",
+     "ゲリジム"
+    ],
+    "ko": [
+     "살아남은 벤야민 사람들은 어느 바위로 달아나 있었습니까?",
+     "림몬",
+     "타볼",
+     "그리짐"
+    ],
+    "ar": [
+     "إلى أي صخرة هرب البنيامينيون الناجون؟",
+     "رمون",
+     "تابور",
+     "جرزيم"
+    ]
+   }
+  },
+  {
+   "id": "ch-judges-011-55",
+   "book": "judges",
+   "chapter": 21,
+   "difficulty": "impossible",
+   "ref": "Judges 21:19",
+   "text": {
+    "en": [
+     "According to Judges, Shiloh lies south of which town?",
+     "Lebonah",
+     "Hebron",
+     "Jerusalem"
+    ],
+    "es": [
+     "Según el libro de los Jueces, ¿al sur de qué población está Siló?",
+     "Lebona",
+     "Hebrón",
+     "Jerusalén"
+    ],
+    "pt": [
+     "Segundo o livro dos Juízes, ao sul de que povoação fica Silo?",
+     "Lebona",
+     "Hebron",
+     "Jerusalém"
+    ],
+    "fr": [
+     "Selon le livre des Juges, au sud de quelle localité se trouve Silo ?",
+     "Lebona",
+     "Hébron",
+     "Jérusalem"
+    ],
+    "de": [
+     "Südlich welcher Ortschaft liegt Schilo laut dem Richterbuch?",
+     "Lebona",
+     "Hebron",
+     "Jerusalem"
+    ],
+    "it": [
+     "Secondo il libro dei Giudici, a sud di quale località si trova Silo?",
+     "Lebona",
+     "Ebron",
+     "Gerusalemme"
+    ],
+    "pl": [
+     "Na południe od której miejscowości leży Szilo według Księgi Sędziów?",
+     "Lebona",
+     "Hebron",
+     "Jerozolima"
+    ],
+    "ru": [
+     "По книге Судей, к югу от какого места находится Силом?",
+     "Левона",
+     "Хеврон",
+     "Иерусалим"
+    ],
+    "tr": [
+     "Hakimler Kitabı'na göre Silo hangi yerin güneyindedir?",
+     "Lebona",
+     "Hebron",
+     "Kudüs"
+    ],
+    "ja": [
+     "士師記によれば、シロはどの町の南にありますか？",
+     "レボナ",
+     "ヘブロン",
+     "エルサレム"
+    ],
+    "ko": [
+     "판관기에 따르면 실로는 어느 마을의 남쪽에 있습니까?",
+     "르보나",
+     "헤브론",
+     "예루살렘"
+    ],
+    "ar": [
+     "بحسب سفر القضاة، جنوب أي بلدة تقع شيلو؟",
+     "لبونة",
+     "حبرون",
+     "أورشليم"
+    ]
+   }
+  }
+ ]
+}
