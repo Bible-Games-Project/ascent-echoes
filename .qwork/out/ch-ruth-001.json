@@ -1,0 +1,1624 @@
+{
+ "questions": [
+  {
+   "id": "ch-ruth-001-01",
+   "book": "ruth",
+   "chapter": 1,
+   "difficulty": "easy",
+   "ref": "Ruth 1:1",
+   "text": {
+    "en": [
+     "To which land did Naomi and her family flee from famine?",
+     "Moab",
+     "Egypt",
+     "Edom"
+    ],
+    "es": [
+     "¿A qué tierra huyeron Noemí y su familia a causa del hambre?",
+     "Moab",
+     "Egipto",
+     "Edom"
+    ],
+    "pt": [
+     "Para qual terra Noemi e sua família fugiram da fome?",
+     "Moab",
+     "Egito",
+     "Edom"
+    ],
+    "fr": [
+     "Dans quel pays Noémi et sa famille ont-ils fui la famine ?",
+     "Moab",
+     "Égypte",
+     "Édom"
+    ],
+    "de": [
+     "In welches Land flohen Noomi und ihre Familie vor dem Hunger?",
+     "Moab",
+     "Ägypten",
+     "Edom"
+    ],
+    "it": [
+     "In quale terra fuggirono Noemi e la sua famiglia a causa della carestia?",
+     "Moab",
+     "Egitto",
+     "Edom"
+    ],
+    "pl": [
+     "Do jakiej krainy uciekła przed głodem Noemi z rodziną?",
+     "Moab",
+     "Egipt",
+     "Edom"
+    ],
+    "ru": [
+     "В какую страну бежали от голода Ноеминь и её семья?",
+     "Моав",
+     "Египет",
+     "Едом"
+    ],
+    "tr": [
+     "Naomi ve ailesi kıtlıktan kaçarak hangi ülkeye gitti?",
+     "Moav",
+     "Mısır",
+     "Edom"
+    ],
+    "ja": [
+     "ナオミの一家は飢饉を逃れてどの地へ行きましたか？",
+     "モアブ",
+     "エジプト",
+     "エドム"
+    ],
+    "ko": [
+     "나오미의 가족은 기근을 피해 어느 땅으로 갔습니까?",
+     "모압",
+     "이집트",
+     "에돔"
+    ],
+    "ar": [
+     "إلى أي أرض هربت نعمي وعائلتها من المجاعة؟",
+     "موآب",
+     "مصر",
+     "أدوم"
+    ]
+   }
+  },
+  {
+   "id": "ch-ruth-001-02",
+   "book": "ruth",
+   "chapter": 1,
+   "difficulty": "medium",
+   "ref": "Ruth 1:14-15",
+   "text": {
+    "en": [
+     "Which of Naomi's two daughters-in-law went back to her own people?",
+     "Orpah",
+     "Ruth",
+     "Tamar"
+    ],
+    "es": [
+     "¿Cuál de las dos nueras de Noemí volvió con su propio pueblo?",
+     "Orfá",
+     "Rut",
+     "Tamar"
+    ],
+    "pt": [
+     "Qual das duas noras de Noemi voltou para o seu povo?",
+     "Orfa",
+     "Rute",
+     "Tamar"
+    ],
+    "fr": [
+     "Laquelle des deux belles-filles de Noémi est retournée chez son peuple ?",
+     "Orpa",
+     "Ruth",
+     "Tamar"
+    ],
+    "de": [
+     "Welche der beiden Schwiegertöchter Noomis kehrte zu ihrem Volk zurück?",
+     "Orpa",
+     "Rut",
+     "Tamar"
+    ],
+    "it": [
+     "Quale delle due nuore di Noemi tornò al suo popolo?",
+     "Orpa",
+     "Rut",
+     "Tamar"
+    ],
+    "pl": [
+     "Która z dwóch synowych Noemi wróciła do swojego narodu?",
+     "Orpa",
+     "Rut",
+     "Tamar"
+    ],
+    "ru": [
+     "Какая из двух невесток Ноемини вернулась к своему народу?",
+     "Орфа",
+     "Руфь",
+     "Фамарь"
+    ],
+    "tr": [
+     "Naomi'nin iki gelininden hangisi kendi halkına geri döndü?",
+     "Orpa",
+     "Rut",
+     "Tamar"
+    ],
+    "ja": [
+     "ナオミの二人の嫁のうち、自分の民のもとへ帰ったのはだれですか？",
+     "オルパ",
+     "ルツ",
+     "タマル"
+    ],
+    "ko": [
+     "나오미의 두 며느리 중 자기 백성에게 돌아간 사람은 누구입니까?",
+     "오르파",
+     "룻",
+     "타마르"
+    ],
+    "ar": [
+     "أي كنتي نعمي رجعت إلى شعبها؟",
+     "عرفة",
+     "راعوث",
+     "ثامار"
+    ]
+   }
+  },
+  {
+   "id": "ch-ruth-001-03",
+   "book": "ruth",
+   "chapter": 1,
+   "difficulty": "hard",
+   "ref": "Ruth 1:19-20",
+   "text": {
+    "en": [
+     "What name meaning 'bitter' did Naomi ask the women of Bethlehem to call her?",
+     "Mara",
+     "Sarah",
+     "Leah"
+    ],
+    "es": [
+     "¿Con qué nombre, que significa «amarga», pidió Noemí a las mujeres de Belén que la llamaran?",
+     "Mara",
+     "Sara",
+     "Lea"
+    ],
+    "pt": [
+     "Por que nome, que significa «amarga», Noemi pediu às mulheres de Belém que a chamassem?",
+     "Mara",
+     "Sara",
+     "Lia"
+    ],
+    "fr": [
+     "De quel nom signifiant « amère » Noémi a-t-elle demandé aux femmes de Bethléem de l'appeler ?",
+     "Mara",
+     "Sara",
+     "Léa"
+    ],
+    "de": [
+     "Welchen Namen mit der Bedeutung „bitter“ erbat sich Noomi von den Frauen Betlehems?",
+     "Mara",
+     "Sara",
+     "Lea"
+    ],
+    "it": [
+     "Con quale nome, che significa «amara», Noemi chiese alle donne di Betlemme di chiamarla?",
+     "Mara",
+     "Sara",
+     "Lia"
+    ],
+    "pl": [
+     "Jakim imieniem, oznaczającym „gorzką”, kazała się nazywać Noemi kobietom z Betlejem?",
+     "Mara",
+     "Sara",
+     "Lea"
+    ],
+    "ru": [
+     "Каким именем, означающим «горькая», Ноеминь просила женщин Вифлеема называть её?",
+     "Мара",
+     "Сара",
+     "Лия"
+    ],
+    "tr": [
+     "Naomi, Beytlehem kadınlarından kendisine «acı» anlamına gelen hangi adla seslenmelerini istedi?",
+     "Mara",
+     "Sara",
+     "Lea"
+    ],
+    "ja": [
+     "ナオミは「苦い」を意味するどんな名で呼ぶよう求めましたか？",
+     "マラ",
+     "サラ",
+     "レア"
+    ],
+    "ko": [
+     "나오미가 '쓰다'는 뜻으로 불러 달라고 한 이름은 무엇입니까?",
+     "마라",
+     "사라",
+     "레아"
+    ],
+    "ar": [
+     "ما الاسم الذي يعني «مرّة» وطلبت نعمي أن يدعوها به نساء بيت لحم؟",
+     "مارة",
+     "سارة",
+     "ليئة"
+    ]
+   }
+  },
+  {
+   "id": "ch-ruth-001-04",
+   "book": "ruth",
+   "chapter": 1,
+   "difficulty": "expert",
+   "ref": "Ruth 1:22",
+   "text": {
+    "en": [
+     "What crop's harvest was beginning when Naomi and Ruth arrived in Bethlehem?",
+     "Barley",
+     "Grapes",
+     "Olives"
+    ],
+    "es": [
+     "¿Qué cosecha comenzaba cuando Noemí y Rut llegaron a Belén?",
+     "Cebada",
+     "Uvas",
+     "Aceitunas"
+    ],
+    "pt": [
+     "Qual colheita estava começando quando Noemi e Rute chegaram a Belém?",
+     "Cevada",
+     "Uvas",
+     "Azeitonas"
+    ],
+    "fr": [
+     "Quelle récolte commençait quand Noémi et Ruth sont arrivées à Bethléem ?",
+     "Orge",
+     "Raisins",
+     "Olives"
+    ],
+    "de": [
+     "Welche Ernte begann, als Noomi und Rut in Betlehem ankamen?",
+     "Gerste",
+     "Trauben",
+     "Oliven"
+    ],
+    "it": [
+     "Quale raccolto stava iniziando quando Noemi e Rut arrivarono a Betlemme?",
+     "Orzo",
+     "Uva",
+     "Olive"
+    ],
+    "pl": [
+     "Jaki zbiór się zaczynał, gdy Noemi i Rut przybyły do Betlejem?",
+     "Jęczmień",
+     "Winogrona",
+     "Oliwki"
+    ],
+    "ru": [
+     "Сбор какого урожая начинался, когда Ноеминь и Руфь пришли в Вифлеем?",
+     "Ячмень",
+     "Виноград",
+     "Оливки"
+    ],
+    "tr": [
+     "Naomi ile Rut Beytlehem'e vardığında hangi ürünün hasadı başlıyordu?",
+     "Arpa",
+     "Üzüm",
+     "Zeytin"
+    ],
+    "ja": [
+     "ナオミとルツがベツレヘムに着いたとき、何の収穫が始まっていましたか？",
+     "大麦",
+     "ぶどう",
+     "オリーブ"
+    ],
+    "ko": [
+     "나오미와 룻이 베들레헴에 도착했을 때 무엇의 수확이 시작되고 있었습니까?",
+     "보리",
+     "포도",
+     "올리브"
+    ],
+    "ar": [
+     "أي محصول كان حصاده يبدأ عندما وصلت نعمي وراعوث إلى بيت لحم؟",
+     "شعير",
+     "عنب",
+     "زيتون"
+    ]
+   }
+  },
+  {
+   "id": "ch-ruth-001-05",
+   "book": "ruth",
+   "chapter": 1,
+   "difficulty": "impossible",
+   "ref": "Ruth 1:2-5",
+   "text": {
+    "en": [
+     "Besides Mahlon, what was the name of Naomi's other son who died in Moab?",
+     "Chilion",
+     "Elimelech",
+     "Boaz"
+    ],
+    "es": [
+     "¿Cómo se llamaba el otro hijo de Noemí, además de Majlón, que murió en Moab?",
+     "Quilión",
+     "Elimélec",
+     "Booz"
+    ],
+    "pt": [
+     "Além de Maalon, como se chamava o outro filho de Noemi que morreu em Moab?",
+     "Quelion",
+     "Elimelec",
+     "Booz"
+    ],
+    "fr": [
+     "Outre Mahlone, comment s'appelait l'autre fils de Noémi mort à Moab ?",
+     "Kilyone",
+     "Élimélek",
+     "Booz"
+    ],
+    "de": [
+     "Wie hieß Noomis anderer Sohn neben Machlon, der in Moab starb?",
+     "Kiljon",
+     "Elimelech",
+     "Boas"
+    ],
+    "it": [
+     "Oltre a Maclon, come si chiamava l'altro figlio di Noemi morto a Moab?",
+     "Chilion",
+     "Elimelech",
+     "Booz"
+    ],
+    "pl": [
+     "Jak miał na imię drugi syn Noemi, obok Machlona, który zmarł w Moabie?",
+     "Kilion",
+     "Elimelek",
+     "Booz"
+    ],
+    "ru": [
+     "Как звали другого сына Ноемини, кроме Махлона, умершего в Моаве?",
+     "Хилеон",
+     "Елимелех",
+     "Вооз"
+    ],
+    "tr": [
+     "Naomi'nin Mahlon'dan başka Moav'da ölen oğlunun adı neydi?",
+     "Kilyon",
+     "Elimelek",
+     "Boaz"
+    ],
+    "ja": [
+     "マフロンのほかに、モアブで死んだナオミのもう一人の息子の名は何ですか？",
+     "キルヨン",
+     "エリメレク",
+     "ボアズ"
+    ],
+    "ko": [
+     "마흘론 외에 모압에서 죽은 나오미의 다른 아들의 이름은 무엇입니까?",
+     "킬욘",
+     "엘리멜렉",
+     "보아즈"
+    ],
+    "ar": [
+     "ما اسم ابن نعمي الآخر، غير محلون، الذي مات في موآب؟",
+     "كليون",
+     "أليمالك",
+     "بوعز"
+    ]
+   }
+  },
+  {
+   "id": "ch-ruth-001-06",
+   "book": "ruth",
+   "chapter": 2,
+   "difficulty": "easy",
+   "ref": "Ruth 2:3",
+   "text": {
+    "en": [
+     "In whose field did Ruth go to glean grain?",
+     "Boaz",
+     "Obed",
+     "Saul"
+    ],
+    "es": [
+     "¿En el campo de quién fue Rut a espigar?",
+     "Booz",
+     "Obed",
+     "Saúl"
+    ],
+    "pt": [
+     "No campo de quem Rute foi respigar?",
+     "Booz",
+     "Obed",
+     "Saul"
+    ],
+    "fr": [
+     "Dans le champ de qui Ruth est-elle allée glaner ?",
+     "Booz",
+     "Obed",
+     "Saül"
+    ],
+    "de": [
+     "Auf wessen Feld ging Rut Ähren lesen?",
+     "Boas",
+     "Obed",
+     "Saul"
+    ],
+    "it": [
+     "Nel campo di chi andò Rut a spigolare?",
+     "Booz",
+     "Obed",
+     "Saul"
+    ],
+    "pl": [
+     "Na czyje pole poszła Rut zbierać kłosy?",
+     "Booz",
+     "Obed",
+     "Saul"
+    ],
+    "ru": [
+     "На чьём поле пошла Руфь подбирать колосья?",
+     "Вооз",
+     "Овид",
+     "Саул"
+    ],
+    "tr": [
+     "Rut başak toplamak için kimin tarlasına gitti?",
+     "Boaz",
+     "Ovet",
+     "Saul"
+    ],
+    "ja": [
+     "ルツはだれの畑に落ち穂を拾いに行きましたか？",
+     "ボアズ",
+     "オベド",
+     "サウル"
+    ],
+    "ko": [
+     "룻은 누구의 밭에 이삭을 주우러 갔습니까?",
+     "보아즈",
+     "오벳",
+     "사울"
+    ],
+    "ar": [
+     "في حقل من ذهبت راعوث لتلتقط السنابل؟",
+     "بوعز",
+     "عوبيد",
+     "شاول"
+    ]
+   }
+  },
+  {
+   "id": "ch-ruth-001-07",
+   "book": "ruth",
+   "chapter": 2,
+   "difficulty": "medium",
+   "ref": "Ruth 2:1",
+   "text": {
+    "en": [
+     "What was the name of Naomi's late husband, Boaz's kinsman?",
+     "Elimelech",
+     "Eli",
+     "Jesse"
+    ],
+    "es": [
+     "¿Cómo se llamaba el difunto marido de Noemí, pariente de Booz?",
+     "Elimélec",
+     "Elí",
+     "Jesé"
+    ],
+    "pt": [
+     "Como se chamava o falecido marido de Noemi, parente de Booz?",
+     "Elimelec",
+     "Eli",
+     "Jessé"
+    ],
+    "fr": [
+     "Comment s'appelait le défunt mari de Noémi, parent de Booz ?",
+     "Élimélek",
+     "Éli",
+     "Jessé"
+    ],
+    "de": [
+     "Wie hieß Noomis verstorbener Mann, ein Verwandter des Boas?",
+     "Elimelech",
+     "Eli",
+     "Isai"
+    ],
+    "it": [
+     "Come si chiamava il defunto marito di Noemi, parente di Booz?",
+     "Elimelech",
+     "Eli",
+     "Iesse"
+    ],
+    "pl": [
+     "Jak miał na imię zmarły mąż Noemi, krewny Booza?",
+     "Elimelek",
+     "Heli",
+     "Isaj"
+    ],
+    "ru": [
+     "Как звали умершего мужа Ноемини, родственника Вооза?",
+     "Елимелех",
+     "Илий",
+     "Иессей"
+    ],
+    "tr": [
+     "Boaz'ın akrabası olan, Naomi'nin ölen kocasının adı neydi?",
+     "Elimelek",
+     "Eli",
+     "Yişay"
+    ],
+    "ja": [
+     "ボアズの親類で、ナオミの亡き夫の名は何ですか？",
+     "エリメレク",
+     "エリ",
+     "エッサイ"
+    ],
+    "ko": [
+     "보아즈의 친척이자 나오미의 죽은 남편의 이름은 무엇입니까?",
+     "엘리멜렉",
+     "엘리",
+     "이사이"
+    ],
+    "ar": [
+     "ما اسم زوج نعمي الراحل، قريب بوعز؟",
+     "أليمالك",
+     "عالي",
+     "يسى"
+    ]
+   }
+  },
+  {
+   "id": "ch-ruth-001-08",
+   "book": "ruth",
+   "chapter": 2,
+   "difficulty": "hard",
+   "ref": "Ruth 2:23",
+   "text": {
+    "en": [
+     "Besides barley, which other grain did Ruth glean until its harvest ended?",
+     "Wheat",
+     "Rye",
+     "Oats"
+    ],
+    "es": [
+     "Además de la cebada, ¿qué otro cereal espigó Rut hasta el fin de su cosecha?",
+     "Trigo",
+     "Centeno",
+     "Avena"
+    ],
+    "pt": [
+     "Além da cevada, que outro cereal Rute respigou até o fim da colheita?",
+     "Trigo",
+     "Centeio",
+     "Aveia"
+    ],
+    "fr": [
+     "Outre l'orge, quelle autre céréale Ruth a-t-elle glanée jusqu'à la fin de la moisson ?",
+     "Blé",
+     "Seigle",
+     "Avoine"
+    ],
+    "de": [
+     "Neben der Gerste: Welches andere Getreide las Rut bis zum Ende der Ernte auf?",
+     "Weizen",
+     "Roggen",
+     "Hafer"
+    ],
+    "it": [
+     "Oltre all'orzo, quale altro cereale spigolò Rut fino alla fine del raccolto?",
+     "Grano",
+     "Segale",
+     "Avena"
+    ],
+    "pl": [
+     "Oprócz jęczmienia, jakie jeszcze zboże zbierała Rut aż do końca żniw?",
+     "Pszenica",
+     "Żyto",
+     "Owies"
+    ],
+    "ru": [
+     "Какое ещё зерно, кроме ячменя, собирала Руфь до конца жатвы?",
+     "Пшеница",
+     "Рожь",
+     "Овёс"
+    ],
+    "tr": [
+     "Rut, arpanın yanı sıra hangi tahılı hasadın sonuna kadar topladı?",
+     "Buğday",
+     "Çavdar",
+     "Yulaf"
+    ],
+    "ja": [
+     "ルツは大麦のほかに、どの穀物の刈り入れが終わるまで落ち穂を拾いましたか？",
+     "小麦",
+     "ライ麦",
+     "燕麦"
+    ],
+    "ko": [
+     "룻은 보리 외에 어떤 곡식의 추수가 끝날 때까지 이삭을 주웠습니까?",
+     "밀",
+     "호밀",
+     "귀리"
+    ],
+    "ar": [
+     "غير الشعير، أي حبّ التقطت راعوث سنابله حتى نهاية حصاده؟",
+     "قمح",
+     "جاودار",
+     "شوفان"
+    ]
+   }
+  },
+  {
+   "id": "ch-ruth-001-09",
+   "book": "ruth",
+   "chapter": 2,
+   "difficulty": "expert",
+   "ref": "Ruth 2:17",
+   "text": {
+    "en": [
+     "Which dry measure described the barley Ruth gleaned in one day?",
+     "Ephah",
+     "Bath",
+     "Hin"
+    ],
+    "es": [
+     "¿Con qué medida de áridos se describe la cebada que Rut recogió en un día?",
+     "Efá",
+     "Bato",
+     "Hin"
+    ],
+    "pt": [
+     "Com que medida para grãos se descreve a cevada que Rute respigou num dia?",
+     "Efá",
+     "Bato",
+     "Him"
+    ],
+    "fr": [
+     "Quelle mesure de capacité décrit l'orge que Ruth a glanée en un jour ?",
+     "Épha",
+     "Bath",
+     "Hin"
+    ],
+    "de": [
+     "Welches Trockenmaß beschrieb die Gerste, die Rut an einem Tag aufgelesen hatte?",
+     "Efa",
+     "Bat",
+     "Hin"
+    ],
+    "it": [
+     "Quale misura per aridi descriveva l'orzo che Rut spigolò in un giorno?",
+     "Efa",
+     "Bat",
+     "Hin"
+    ],
+    "pl": [
+     "Jaką miarą ciał sypkich opisano jęczmień, który Rut zebrała w ciągu jednego dnia?",
+     "Efa",
+     "Bat",
+     "Hin"
+    ],
+    "ru": [
+     "Какой мерой сыпучих тел описан ячмень, который Руфь собрала за один день?",
+     "Ефа",
+     "Бат",
+     "Гин"
+    ],
+    "tr": [
+     "Rut'un bir günde topladığı arpa hangi kuru ölçü birimiyle belirtilmişti?",
+     "Efa",
+     "Bat",
+     "Hin"
+    ],
+    "ja": [
+     "ルツが一日で拾った大麦は、穀物用のどの単位で表されましたか？",
+     "エファ",
+     "バト",
+     "ヒン"
+    ],
+    "ko": [
+     "룻이 하루 동안 주운 보리는 곡식을 재는 어떤 단위로 표현되었습니까?",
+     "에파",
+     "바트",
+     "힌"
+    ],
+    "ar": [
+     "أي وحدة لقياس الحبوب وُصف بها الشعير الذي التقطته راعوث في يوم واحد؟",
+     "إيفة",
+     "بث",
+     "هين"
+    ]
+   }
+  },
+  {
+   "id": "ch-ruth-001-10",
+   "book": "ruth",
+   "chapter": 2,
+   "difficulty": "impossible",
+   "ref": "Ruth 2:14",
+   "text": {
+    "en": [
+     "At mealtime in the field, what roasted food did Boaz hand Ruth?",
+     "Grain",
+     "Fish",
+     "Lamb"
+    ],
+    "es": [
+     "A la hora de comer en el campo, ¿qué alimento tostado le ofreció Booz a Rut?",
+     "Grano",
+     "Pescado",
+     "Cordero"
+    ],
+    "pt": [
+     "Na hora da refeição no campo, que alimento torrado Booz deu a Rute?",
+     "Grãos",
+     "Peixe",
+     "Cordeiro"
+    ],
+    "fr": [
+     "Au moment du repas dans les champs, quel aliment grillé Booz a-t-il tendu à Ruth ?",
+     "Grain",
+     "Poisson",
+     "Agneau"
+    ],
+    "de": [
+     "Welche geröstete Speise reichte Boas Rut zur Essenszeit auf dem Feld?",
+     "Körner",
+     "Fisch",
+     "Lamm"
+    ],
+    "it": [
+     "All'ora del pasto nel campo, quale cibo arrostito porse Booz a Rut?",
+     "Grano",
+     "Pesce",
+     "Agnello"
+    ],
+    "pl": [
+     "Jaką prażoną potrawę podał Booz Rut w polu podczas posiłku?",
+     "Ziarno",
+     "Ryba",
+     "Jagnięcina"
+    ],
+    "ru": [
+     "Какую жареную пищу подал Вооз Руфи в поле во время трапезы?",
+     "Зерно",
+     "Рыба",
+     "Ягнятина"
+    ],
+    "tr": [
+     "Boaz, tarlada yemek vaktinde Rut'a hangi kavrulmuş yiyeceği uzattı?",
+     "Tahıl",
+     "Balık",
+     "Kuzu"
+    ],
+    "ja": [
+     "ボアズは野での食事のとき、ルツに焼いたどんな食べ物を差し出しましたか？",
+     "穀物",
+     "魚",
+     "子羊"
+    ],
+    "ko": [
+     "보아즈는 들에서 식사할 때 룻에게 구운 어떤 음식을 건네주었습니까?",
+     "곡식",
+     "생선",
+     "양고기"
+    ],
+    "ar": [
+     "ما الطعام المشويّ الذي ناوله بوعز لراعوث وقت الطعام في الحقل؟",
+     "حبوب",
+     "سمك",
+     "خروف"
+    ]
+   }
+  },
+  {
+   "id": "ch-ruth-001-11",
+   "book": "ruth",
+   "chapter": 3,
+   "difficulty": "easy",
+   "ref": "Ruth 3:7-8",
+   "text": {
+    "en": [
+     "On the threshing floor, which part of Boaz's body did Ruth uncover?",
+     "Feet",
+     "Hands",
+     "Shoulders"
+    ],
+    "es": [
+     "En la era, ¿qué parte del cuerpo de Booz descubrió Rut?",
+     "Pies",
+     "Manos",
+     "Hombros"
+    ],
+    "pt": [
+     "Na eira, que parte do corpo de Booz Rute descobriu?",
+     "Pés",
+     "Mãos",
+     "Ombros"
+    ],
+    "fr": [
+     "Sur l'aire, quelle partie du corps de Booz Ruth a-t-elle découverte ?",
+     "Pieds",
+     "Mains",
+     "Épaules"
+    ],
+    "de": [
+     "Welchen Körperteil von Boas deckte Rut auf der Tenne auf?",
+     "Füße",
+     "Hände",
+     "Schultern"
+    ],
+    "it": [
+     "Sull'aia, quale parte del corpo di Booz scoprì Rut?",
+     "Piedi",
+     "Mani",
+     "Spalle"
+    ],
+    "pl": [
+     "Którą część ciała Booza odkryła Rut na klepisku?",
+     "Stopy",
+     "Ręce",
+     "Ramiona"
+    ],
+    "ru": [
+     "Какую часть тела Вооза открыла Руфь на гумне?",
+     "Ноги",
+     "Руки",
+     "Плечи"
+    ],
+    "tr": [
+     "Rut, harman yerinde Boaz'ın vücudunun hangi kısmını açtı?",
+     "Ayaklar",
+     "Eller",
+     "Omuzlar"
+    ],
+    "ja": [
+     "ルツは脱穀場でボアズの体のどの部分をあらわにしましたか？",
+     "足",
+     "手",
+     "肩"
+    ],
+    "ko": [
+     "룻은 타작마당에서 보아즈의 몸 어느 부분을 드러냈습니까?",
+     "발",
+     "손",
+     "어깨"
+    ],
+    "ar": [
+     "أي جزء من جسد بوعز كشفته راعوث في البيدر؟",
+     "أقدام",
+     "أيدي",
+     "أكتاف"
+    ]
+   }
+  },
+  {
+   "id": "ch-ruth-001-12",
+   "book": "ruth",
+   "chapter": 3,
+   "difficulty": "medium",
+   "ref": "Ruth 3:16-17",
+   "text": {
+    "en": [
+     "Returning from the threshing floor, whom did Ruth tell what Boaz did?",
+     "Naomi",
+     "Orpah",
+     "Hannah"
+    ],
+    "es": [
+     "Al volver de la era, ¿a quién contó Rut lo que había hecho Booz?",
+     "Noemí",
+     "Orfá",
+     "Ana"
+    ],
+    "pt": [
+     "Ao voltar da eira, a quem Rute contou o que Booz fez?",
+     "Noemi",
+     "Orfa",
+     "Ana"
+    ],
+    "fr": [
+     "De retour de l'aire, à qui Ruth a-t-elle raconté ce que Booz avait fait ?",
+     "Noémi",
+     "Orpa",
+     "Anne"
+    ],
+    "de": [
+     "Wem erzählte Rut bei ihrer Rückkehr von der Tenne, was Boas getan hatte?",
+     "Noomi",
+     "Orpa",
+     "Hanna"
+    ],
+    "it": [
+     "Tornando dall'aia, a chi Rut raccontò ciò che Booz aveva fatto?",
+     "Noemi",
+     "Orpa",
+     "Anna"
+    ],
+    "pl": [
+     "Komu Rut opowiedziała po powrocie z klepiska, co zrobił Booz?",
+     "Noemi",
+     "Orpa",
+     "Anna"
+    ],
+    "ru": [
+     "Кому Руфь по возвращении с гумна рассказала, что сделал Вооз?",
+     "Ноеминь",
+     "Орфа",
+     "Анна"
+    ],
+    "tr": [
+     "Rut, harman yerinden dönünce Boaz'ın yaptıklarını kime anlattı?",
+     "Naomi",
+     "Orpa",
+     "Hanna"
+    ],
+    "ja": [
+     "ルツは脱穀場から戻って、ボアズのしたことをだれに話しましたか？",
+     "ナオミ",
+     "オルパ",
+     "ハンナ"
+    ],
+    "ko": [
+     "룻은 타작마당에서 돌아와 보아즈가 한 일을 누구에게 말했습니까?",
+     "나오미",
+     "오르파",
+     "한나"
+    ],
+    "ar": [
+     "لمن روت راعوث، عند عودتها من البيدر، ما فعله بوعز؟",
+     "نعمي",
+     "عرفة",
+     "حنة"
+    ]
+   }
+  },
+  {
+   "id": "ch-ruth-001-13",
+   "book": "ruth",
+   "chapter": 3,
+   "difficulty": "hard",
+   "ref": "Ruth 3:10-11",
+   "text": {
+    "en": [
+     "What family term did Boaz use to address Ruth on the threshing floor?",
+     "Daughter",
+     "Sister",
+     "Mother"
+    ],
+    "es": [
+     "¿Qué término familiar usó Booz para dirigirse a Rut en la era?",
+     "Hija",
+     "Hermana",
+     "Madre"
+    ],
+    "pt": [
+     "Que termo de parentesco Booz usou para chamar Rute na eira?",
+     "Filha",
+     "Irmã",
+     "Mãe"
+    ],
+    "fr": [
+     "Quel terme de parenté Booz a-t-il employé pour appeler Ruth sur l'aire ?",
+     "Fille",
+     "Sœur",
+     "Mère"
+    ],
+    "de": [
+     "Mit welchem Verwandtschaftswort sprach Boas Rut auf der Tenne an?",
+     "Tochter",
+     "Schwester",
+     "Mutter"
+    ],
+    "it": [
+     "Quale termine di parentela usò Booz per rivolgersi a Rut sull'aia?",
+     "Figlia",
+     "Sorella",
+     "Madre"
+    ],
+    "pl": [
+     "Jakim określeniem pokrewieństwa Booz zwrócił się do Rut na klepisku?",
+     "Córka",
+     "Siostra",
+     "Matka"
+    ],
+    "ru": [
+     "Каким словом родства Вооз называл Руфь на гумне?",
+     "Дочь",
+     "Сестра",
+     "Мать"
+    ],
+    "tr": [
+     "Boaz, harman yerinde Rut'a hangi akrabalık adıyla seslendi?",
+     "Kızım",
+     "Kardeşim",
+     "Annem"
+    ],
+    "ja": [
+     "ボアズは脱穀場でルツをどんな家族の呼び名で呼びましたか？",
+     "娘",
+     "姉妹",
+     "母"
+    ],
+    "ko": [
+     "보아즈는 타작마당에서 룻을 어떤 가족 호칭으로 불렀습니까?",
+     "딸",
+     "누이",
+     "어머니"
+    ],
+    "ar": [
+     "بأي لقب قرابة نادى بوعز راعوث في البيدر؟",
+     "ابنتي",
+     "أختي",
+     "أمي"
+    ]
+   }
+  },
+  {
+   "id": "ch-ruth-001-14",
+   "book": "ruth",
+   "chapter": 3,
+   "difficulty": "expert",
+   "ref": "Ruth 3:15",
+   "text": {
+    "en": [
+     "How many measures of barley did Boaz give Ruth to carry home?",
+     "6",
+     "2",
+     "10"
+    ],
+    "es": [
+     "¿Cuántas medidas de cebada dio Booz a Rut para llevar a casa?",
+     "6",
+     "2",
+     "10"
+    ],
+    "pt": [
+     "Quantas medidas de cevada Booz deu a Rute para levar para casa?",
+     "6",
+     "2",
+     "10"
+    ],
+    "fr": [
+     "Combien de mesures d'orge Booz a-t-il données à Ruth à emporter ?",
+     "6",
+     "2",
+     "10"
+    ],
+    "de": [
+     "Wie viele Maß Gerste gab Boas Rut mit nach Hause?",
+     "6",
+     "2",
+     "10"
+    ],
+    "it": [
+     "Quante misure d'orzo diede Booz a Rut da portare a casa?",
+     "6",
+     "2",
+     "10"
+    ],
+    "pl": [
+     "Ile miar jęczmienia dał Booz Rut do zaniesienia do domu?",
+     "6",
+     "2",
+     "10"
+    ],
+    "ru": [
+     "Сколько мер ячменя дал Вооз Руфи, чтобы она отнесла домой?",
+     "6",
+     "2",
+     "10"
+    ],
+    "tr": [
+     "Boaz, Rut'a eve götürmesi için kaç ölçü arpa verdi?",
+     "6",
+     "2",
+     "10"
+    ],
+    "ja": [
+     "ボアズはルツに持ち帰らせるため、大麦を何杯与えましたか？",
+     "6",
+     "2",
+     "10"
+    ],
+    "ko": [
+     "보아즈는 룻에게 집으로 가져가라고 보리를 몇 되 주었습니까?",
+     "6",
+     "2",
+     "10"
+    ],
+    "ar": [
+     "كم كيلة شعير أعطى بوعز راعوث لتحملها إلى البيت؟",
+     "6",
+     "2",
+     "10"
+    ]
+   }
+  },
+  {
+   "id": "ch-ruth-001-15",
+   "book": "ruth",
+   "chapter": 3,
+   "difficulty": "impossible",
+   "ref": "Ruth 3:15",
+   "text": {
+    "en": [
+     "Which garment did Boaz tell Ruth to hold out for carrying barley?",
+     "Cloak",
+     "Belt",
+     "Turban"
+    ],
+    "es": [
+     "¿Qué prenda mandó Booz a Rut extender para llevar la cebada?",
+     "Manto",
+     "Cinturón",
+     "Turbante"
+    ],
+    "pt": [
+     "Que peça de roupa Booz mandou Rute estender para levar a cevada?",
+     "Manto",
+     "Cinto",
+     "Turbante"
+    ],
+    "fr": [
+     "Quel vêtement Booz a-t-il dit à Ruth de tendre pour porter l'orge ?",
+     "Manteau",
+     "Ceinture",
+     "Turban"
+    ],
+    "de": [
+     "Welches Kleidungsstück sollte Rut laut Boas zum Tragen der Gerste aufhalten?",
+     "Umhang",
+     "Gürtel",
+     "Turban"
+    ],
+    "it": [
+     "Quale indumento Booz disse a Rut di tendere per portare l'orzo?",
+     "Mantello",
+     "Cintura",
+     "Turbante"
+    ],
+    "pl": [
+     "Którą część ubioru kazał Booz Rut rozpostrzeć, by zanieść jęczmień?",
+     "Płaszcz",
+     "Pas",
+     "Turban"
+    ],
+    "ru": [
+     "Какую одежду Вооз велел Руфи подставить, чтобы нести ячмень?",
+     "Покрывало",
+     "Пояс",
+     "Тюрбан"
+    ],
+    "tr": [
+     "Boaz, Rut'a arpayı taşımak için hangi giysiyi açmasını söyledi?",
+     "Örtü",
+     "Kemer",
+     "Sarık"
+    ],
+    "ja": [
+     "ボアズはルツに、大麦を運ぶためにどの衣服を広げるよう言いましたか？",
+     "外套",
+     "帯",
+     "ターバン"
+    ],
+    "ko": [
+     "보아즈는 룻에게 보리를 담아 가도록 어떤 옷을 펴라고 했습니까?",
+     "겉옷",
+     "허리띠",
+     "터번"
+    ],
+    "ar": [
+     "أي ثوب أمر بوعز راعوث أن تبسطه لتحمل فيه الشعير؟",
+     "رداء",
+     "حزام",
+     "عمامة"
+    ]
+   }
+  },
+  {
+   "id": "ch-ruth-001-16",
+   "book": "ruth",
+   "chapter": 4,
+   "difficulty": "medium",
+   "ref": "Ruth 4:13-17",
+   "text": {
+    "en": [
+     "What was the name of the son Ruth bore to Boaz?",
+     "Obed",
+     "Jesse",
+     "Samuel"
+    ],
+    "es": [
+     "¿Cómo se llamaba el hijo que Rut dio a luz a Booz?",
+     "Obed",
+     "Jesé",
+     "Samuel"
+    ],
+    "pt": [
+     "Como se chamava o filho que Rute teve com Booz?",
+     "Obed",
+     "Jessé",
+     "Samuel"
+    ],
+    "fr": [
+     "Comment s'appelait le fils que Ruth a donné à Booz ?",
+     "Obed",
+     "Jessé",
+     "Samuel"
+    ],
+    "de": [
+     "Wie hieß der Sohn, den Rut dem Boas gebar?",
+     "Obed",
+     "Isai",
+     "Samuel"
+    ],
+    "it": [
+     "Come si chiamava il figlio che Rut partorì a Booz?",
+     "Obed",
+     "Iesse",
+     "Samuele"
+    ],
+    "pl": [
+     "Jak miał na imię syn, którego Rut urodziła Boozowi?",
+     "Obed",
+     "Isaj",
+     "Samuel"
+    ],
+    "ru": [
+     "Как звали сына, которого Руфь родила Воозу?",
+     "Овид",
+     "Иессей",
+     "Самуил"
+    ],
+    "tr": [
+     "Rut'un Boaz'dan doğurduğu oğlunun adı neydi?",
+     "Ovet",
+     "Yişay",
+     "Samuel"
+    ],
+    "ja": [
+     "ルツがボアズとの間に産んだ息子の名は何ですか？",
+     "オベド",
+     "エッサイ",
+     "サムエル"
+    ],
+    "ko": [
+     "룻이 보아즈에게 낳아 준 아들의 이름은 무엇입니까?",
+     "오벳",
+     "이사이",
+     "사무엘"
+    ],
+    "ar": [
+     "ما اسم الابن الذي ولدته راعوث لبوعز؟",
+     "عوبيد",
+     "يسى",
+     "صموئيل"
+    ]
+   }
+  },
+  {
+   "id": "ch-ruth-001-17",
+   "book": "ruth",
+   "chapter": 4,
+   "difficulty": "easy",
+   "ref": "Ruth 4:17,22",
+   "text": {
+    "en": [
+     "Which famous king of Israel was Ruth's great-grandson?",
+     "David",
+     "Saul",
+     "Jeroboam"
+    ],
+    "es": [
+     "¿Qué famoso rey de Israel fue bisnieto de Rut?",
+     "David",
+     "Saúl",
+     "Jeroboán"
+    ],
+    "pt": [
+     "Que famoso rei de Israel foi bisneto de Rute?",
+     "Davi",
+     "Saul",
+     "Jeroboão"
+    ],
+    "fr": [
+     "Quel célèbre roi d'Israël était l'arrière-petit-fils de Ruth ?",
+     "David",
+     "Saül",
+     "Jéroboam"
+    ],
+    "de": [
+     "Welcher berühmte König Israels war Ruts Urenkel?",
+     "David",
+     "Saul",
+     "Jerobeam"
+    ],
+    "it": [
+     "Quale famoso re d'Israele fu pronipote di Rut?",
+     "Davide",
+     "Saul",
+     "Geroboamo"
+    ],
+    "pl": [
+     "Który słynny król Izraela był prawnukiem Rut?",
+     "Dawid",
+     "Saul",
+     "Jeroboam"
+    ],
+    "ru": [
+     "Какой знаменитый царь Израиля был правнуком Руфи?",
+     "Давид",
+     "Саул",
+     "Иеровоам"
+    ],
+    "tr": [
+     "İsrail'in hangi ünlü kralı, Rut'un torununun oğluydu?",
+     "Davut",
+     "Saul",
+     "Yeroboam"
+    ],
+    "ja": [
+     "イスラエルの有名な王で、ルツのひ孫はだれですか？",
+     "ダビデ",
+     "サウル",
+     "ヤロブアム"
+    ],
+    "ko": [
+     "룻의 증손자인 이스라엘의 유명한 왕은 누구입니까?",
+     "다윗",
+     "사울",
+     "예로보암"
+    ],
+    "ar": [
+     "أي ملك مشهور لإسرائيل كان حفيد حفيد راعوث؟",
+     "داود",
+     "شاول",
+     "يربعام"
+    ]
+   }
+  },
+  {
+   "id": "ch-ruth-001-18",
+   "book": "ruth",
+   "chapter": 4,
+   "difficulty": "hard",
+   "ref": "Ruth 4:7-8",
+   "text": {
+    "en": [
+     "To confirm the transaction at the gate, what did the nearer kinsman remove?",
+     "Sandal",
+     "Ring",
+     "Cloak"
+    ],
+    "es": [
+     "Para confirmar el trato en la puerta, ¿qué se quitó el pariente más cercano?",
+     "Sandalia",
+     "Anillo",
+     "Manto"
+    ],
+    "pt": [
+     "Para confirmar o negócio na porta, o que tirou o parente mais próximo?",
+     "Sandália",
+     "Anel",
+     "Manto"
+    ],
+    "fr": [
+     "Pour confirmer l'accord à la porte, que le plus proche parent a-t-il ôté ?",
+     "Sandale",
+     "Anneau",
+     "Manteau"
+    ],
+    "de": [
+     "Was zog der nähere Verwandte aus, um den Handel am Tor zu bestätigen?",
+     "Schuh",
+     "Ring",
+     "Mantel"
+    ],
+    "it": [
+     "Per confermare l'accordo alla porta, che cosa si tolse il parente più stretto?",
+     "Sandalo",
+     "Anello",
+     "Mantello"
+    ],
+    "pl": [
+     "Co zdjął bliższy krewny, aby przypieczętować umowę w bramie?",
+     "Trzewik",
+     "Pierścień",
+     "Płaszcz"
+    ],
+    "ru": [
+     "Что снял ближайший родственник, чтобы подтвердить сделку у ворот?",
+     "Сапог",
+     "Кольцо",
+     "Плащ"
+    ],
+    "tr": [
+     "Yakın akraba, kapıda anlaşmayı onaylamak için neyi çıkardı?",
+     "Çarık",
+     "Yüzük",
+     "Pelerin"
+    ],
+    "ja": [
+     "近い親戚は、城門で取り決めを確かなものにするため何を脱ぎましたか？",
+     "履物",
+     "指輪",
+     "外套"
+    ],
+    "ko": [
+     "더 가까운 친척은 성문에서 거래를 확정하려고 무엇을 벗었습니까?",
+     "신발",
+     "반지",
+     "겉옷"
+    ],
+    "ar": [
+     "ماذا خلع القريب الأقرب ليثبت الصفقة عند الباب؟",
+     "نعل",
+     "خاتم",
+     "رداء"
+    ]
+   }
+  },
+  {
+   "id": "ch-ruth-001-19",
+   "book": "ruth",
+   "chapter": 4,
+   "difficulty": "expert",
+   "ref": "Ruth 4:2",
+   "text": {
+    "en": [
+     "How many elders did Boaz gather at the city gate as witnesses?",
+     "10",
+     "7",
+     "12"
+    ],
+    "es": [
+     "¿Cuántos ancianos reunió Booz en la puerta de la ciudad como testigos?",
+     "10",
+     "7",
+     "12"
+    ],
+    "pt": [
+     "Quantos anciãos Booz reuniu na porta da cidade como testemunhas?",
+     "10",
+     "7",
+     "12"
+    ],
+    "fr": [
+     "Combien d'anciens Booz a-t-il réunis à la porte de la ville comme témoins ?",
+     "10",
+     "7",
+     "12"
+    ],
+    "de": [
+     "Wie viele Älteste versammelte Boas als Zeugen am Stadttor?",
+     "10",
+     "7",
+     "12"
+    ],
+    "it": [
+     "Quanti anziani Booz radunò alla porta della città come testimoni?",
+     "10",
+     "7",
+     "12"
+    ],
+    "pl": [
+     "Ilu starszych zebrał Booz w bramie miasta jako świadków?",
+     "10",
+     "7",
+     "12"
+    ],
+    "ru": [
+     "Скольких старейшин собрал Вооз у городских ворот как свидетелей?",
+     "10",
+     "7",
+     "12"
+    ],
+    "tr": [
+     "Boaz, tanık olmaları için şehir kapısında kaç ihtiyar topladı?",
+     "10",
+     "7",
+     "12"
+    ],
+    "ja": [
+     "ボアズは証人として、町の門で長老を何人集めましたか？",
+     "10",
+     "7",
+     "12"
+    ],
+    "ko": [
+     "보아즈는 증인으로 성문에 원로를 몇 명 모았습니까?",
+     "10",
+     "7",
+     "12"
+    ],
+    "ar": [
+     "كم شيخًا جمع بوعز عند باب المدينة ليكونوا شهودًا؟",
+     "10",
+     "7",
+     "12"
+    ]
+   }
+  },
+  {
+   "id": "ch-ruth-001-20",
+   "book": "ruth",
+   "chapter": 4,
+   "difficulty": "impossible",
+   "ref": "Ruth 4:11-12",
+   "text": {
+    "en": [
+     "Which son of Tamar and Judah did the elders compare Boaz's house to?",
+     "Perez",
+     "Er",
+     "Onan"
+    ],
+    "es": [
+     "¿A qué hijo de Tamar y Judá compararon los ancianos la casa de Booz?",
+     "Fares",
+     "Er",
+     "Onán"
+    ],
+    "pt": [
+     "Com que filho de Tamar e Judá os anciãos compararam a casa de Booz?",
+     "Farés",
+     "Er",
+     "Onã"
+    ],
+    "fr": [
+     "À quel fils de Tamar et de Juda les anciens ont-ils comparé la maison de Booz ?",
+     "Pérès",
+     "Er",
+     "Onân"
+    ],
+    "de": [
+     "Mit welchem Sohn von Tamar und Juda verglichen die Ältesten das Haus des Boas?",
+     "Perez",
+     "Er",
+     "Onan"
+    ],
+    "it": [
+     "A quale figlio di Tamar e di Giuda gli anziani paragonarono la casa di Booz?",
+     "Peres",
+     "Er",
+     "Onan"
+    ],
+    "pl": [
+     "Z którym synem Tamar i Judy porównali starsi dom Booza?",
+     "Peres",
+     "Er",
+     "Onan"
+    ],
+    "ru": [
+     "С домом какого сына Фамари и Иуды старейшины сравнили дом Вооза?",
+     "Фарес",
+     "Ир",
+     "Онан"
+    ],
+    "tr": [
+     "İhtiyarlar, Boaz'ın evini Tamar ile Yahuda'nın hangi oğlunun evine benzetti?",
+     "Peres",
+     "Er",
+     "Onan"
+    ],
+    "ja": [
+     "長老たちはボアズの家を、タマルとユダの子のだれの家に例えましたか？",
+     "ペレツ",
+     "エル",
+     "オナン"
+    ],
+    "ko": [
+     "원로들은 보아즈의 집을 타마르와 유다의 어느 아들의 집에 비겼습니까?",
+     "페레츠",
+     "에르",
+     "오난"
+    ],
+    "ar": [
+     "بأي ابن لثامار ويهوذا شبّه الشيوخ بيت بوعز؟",
+     "فارص",
+     "عير",
+     "أونان"
+    ]
+   }
+  }
+ ]
+}
