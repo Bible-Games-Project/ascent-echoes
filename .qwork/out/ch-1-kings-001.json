@@ -1,0 +1,4459 @@
+{
+ "questions": [
+  {
+   "id": "ch-1-kings-001-01",
+   "book": "1-kings",
+   "chapter": 1,
+   "difficulty": "easy",
+   "ref": "1 Kings 1:39",
+   "text": {
+    "en": [
+     "Whom did the priest Zadok anoint as David's successor?",
+     "Solomon",
+     "Absalom",
+     "Rehoboam"
+    ],
+    "es": [
+     "¿A quién ungió el sacerdote Sadoc como sucesor de David?",
+     "Salomón",
+     "Absalón",
+     "Roboam"
+    ],
+    "pt": [
+     "Quem o sacerdote Sadoc ungiu como sucessor de Davi?",
+     "Salomão",
+     "Absalão",
+     "Roboão"
+    ],
+    "fr": [
+     "Qui le prêtre Sadoq a-t-il oint comme successeur de David ?",
+     "Salomon",
+     "Absalom",
+     "Roboam"
+    ],
+    "de": [
+     "Wen salbte der Priester Zadok zum Nachfolger Davids?",
+     "Salomo",
+     "Abschalom",
+     "Rehabeam"
+    ],
+    "it": [
+     "Chi unse il sacerdote Zadòk come successore di Davide?",
+     "Salomone",
+     "Assalonne",
+     "Roboamo"
+    ],
+    "pl": [
+     "Kogo kapłan Sadok namaścił na następcę Dawida?",
+     "Salomon",
+     "Absalom",
+     "Roboam"
+    ],
+    "ru": [
+     "Кого священник Садок помазал в преемники Давида?",
+     "Соломон",
+     "Авессалом",
+     "Ровоам"
+    ],
+    "tr": [
+     "Kâhin Sadok, Davut'un halefi olarak kimi meshetti?",
+     "Süleyman",
+     "Avşalom",
+     "Rehavam"
+    ],
+    "ja": [
+     "祭司ツァドクは、ダビデの後継者として誰に油を注ぎましたか？",
+     "ソロモン",
+     "アブサロム",
+     "レハブアム"
+    ],
+    "ko": [
+     "사제 차독은 다윗의 후계자로 누구에게 기름을 부었습니까?",
+     "솔로몬",
+     "압살롬",
+     "르하브암"
+    ],
+    "ar": [
+     "من مسح الكاهن صادوق خلفًا لداود؟",
+     "سليمان",
+     "أبشالوم",
+     "رحبعام"
+    ]
+   }
+  },
+  {
+   "id": "ch-1-kings-001-02",
+   "book": "1-kings",
+   "chapter": 1,
+   "difficulty": "medium",
+   "ref": "1 Kings 1:3-4",
+   "text": {
+    "en": [
+     "Which young Shunammite woman was brought to care for aged David?",
+     "Abishag",
+     "Abigail",
+     "Michal"
+    ],
+    "es": [
+     "¿Qué joven sunamita fue llevada para cuidar al anciano David?",
+     "Abisag",
+     "Abigaíl",
+     "Mical"
+    ],
+    "pt": [
+     "Qual jovem sunamita foi trazida para cuidar do idoso Davi?",
+     "Abisague",
+     "Abigail",
+     "Mical"
+    ],
+    "fr": [
+     "Quelle jeune Sunamite fut amenée pour soigner le vieux David ?",
+     "Abishag",
+     "Abigaïl",
+     "Mical"
+    ],
+    "de": [
+     "Welche junge Schunemiterin wurde gebracht, um den alten David zu pflegen?",
+     "Abischag",
+     "Abigajil",
+     "Michal"
+    ],
+    "it": [
+     "Quale giovane sunammita fu condotta per assistere il vecchio Davide?",
+     "Abisag",
+     "Abigail",
+     "Mical"
+    ],
+    "pl": [
+     "Którą młodą Szunemitkę sprowadzono, by opiekowała się starym Dawidem?",
+     "Abiszag",
+     "Abigail",
+     "Mikal"
+    ],
+    "ru": [
+     "Какую юную сунамитянку привели ухаживать за престарелым Давидом?",
+     "Ависага",
+     "Авигея",
+     "Мелхола"
+    ],
+    "tr": [
+     "Yaşlı Davut'a bakması için getirilen genç Şunemli kadın kimdi?",
+     "Avişag",
+     "Abigayil",
+     "Mikal"
+    ],
+    "ja": [
+     "年老いたダビデの世話をするために連れて来られた若いシュネム人の女性は誰ですか？",
+     "アビシャグ",
+     "アビガイル",
+     "ミカル"
+    ],
+    "ko": [
+     "늙은 다윗을 돌보도록 데려온 젊은 수넴 여자는 누구입니까?",
+     "아비삭",
+     "아비가일",
+     "미칼"
+    ],
+    "ar": [
+     "من هي الفتاة الشونمية التي أُحضرت لخدمة الملك داود الشيخ؟",
+     "أبيشج",
+     "أبيجايل",
+     "ميكال"
+    ]
+   }
+  },
+  {
+   "id": "ch-1-kings-001-03",
+   "book": "1-kings",
+   "chapter": 1,
+   "difficulty": "hard",
+   "ref": "1 Kings 1:5",
+   "text": {
+    "en": [
+     "Which son of David proclaimed himself king in David's old age?",
+     "Adonijah",
+     "Absalom",
+     "Amnon"
+    ],
+    "es": [
+     "¿Qué hijo de David se proclamó rey en la vejez de David?",
+     "Adonías",
+     "Absalón",
+     "Amnón"
+    ],
+    "pt": [
+     "Qual filho de Davi se proclamou rei na velhice de Davi?",
+     "Adonias",
+     "Absalão",
+     "Amnon"
+    ],
+    "fr": [
+     "Quel fils de David s'est proclamé roi dans la vieillesse de David ?",
+     "Adonias",
+     "Absalom",
+     "Amnon"
+    ],
+    "de": [
+     "Welcher Sohn Davids rief sich im Alter Davids selbst zum König aus?",
+     "Adonija",
+     "Abschalom",
+     "Amnon"
+    ],
+    "it": [
+     "Quale figlio di Davide si proclamò re nella vecchiaia di Davide?",
+     "Adonia",
+     "Assalonne",
+     "Amnon"
+    ],
+    "pl": [
+     "Który syn Dawida ogłosił się królem na starość Dawida?",
+     "Adoniasz",
+     "Absalom",
+     "Amnon"
+    ],
+    "ru": [
+     "Какой сын Давида провозгласил себя царём в старости Давида?",
+     "Адония",
+     "Авессалом",
+     "Амнон"
+    ],
+    "tr": [
+     "Davut yaşlandığında kendini kral ilan eden, Davut'un hangi oğludur?",
+     "Adonya",
+     "Avşalom",
+     "Amnon"
+    ],
+    "ja": [
+     "ダビデの晩年に自ら王と宣言したダビデの子は誰ですか？",
+     "アドニヤ",
+     "アブサロム",
+     "アムノン"
+    ],
+    "ko": [
+     "다윗이 늙었을 때 스스로 왕이라고 선언한 다윗의 아들은 누구입니까?",
+     "아도니야",
+     "압살롬",
+     "암논"
+    ],
+    "ar": [
+     "أي ابن لداود أعلن نفسه ملكًا في شيخوخة داود؟",
+     "أدونيا",
+     "أبشالوم",
+     "أمنون"
+    ]
+   }
+  },
+  {
+   "id": "ch-1-kings-001-04",
+   "book": "1-kings",
+   "chapter": 1,
+   "difficulty": "expert",
+   "ref": "1 Kings 1:7",
+   "text": {
+    "en": [
+     "Which army commander supported Adonijah's claim to the throne?",
+     "Joab",
+     "Abner",
+     "Benaiah"
+    ],
+    "es": [
+     "¿Qué jefe del ejército apoyó la pretensión de Adonías al trono?",
+     "Joab",
+     "Abner",
+     "Benaías"
+    ],
+    "pt": [
+     "Qual comandante do exército apoiou a pretensão de Adonias ao trono?",
+     "Joab",
+     "Abner",
+     "Banaías"
+    ],
+    "fr": [
+     "Quel chef de l'armée soutint la prétention d'Adonias au trône ?",
+     "Joab",
+     "Abner",
+     "Benayahou"
+    ],
+    "de": [
+     "Welcher Heerführer unterstützte Adonijas Anspruch auf den Thron?",
+     "Joab",
+     "Abner",
+     "Benaja"
+    ],
+    "it": [
+     "Quale capo dell'esercito appoggiò la pretesa di Adonia al trono?",
+     "Ioab",
+     "Abner",
+     "Benaia"
+    ],
+    "pl": [
+     "Który dowódca wojska poparł roszczenia Adoniasza do tronu?",
+     "Joab",
+     "Abner",
+     "Benajasz"
+    ],
+    "ru": [
+     "Какой военачальник поддержал притязания Адонии на престол?",
+     "Иоав",
+     "Авенир",
+     "Ванея"
+    ],
+    "tr": [
+     "Hangi ordu komutanı Adonya'nın tahta çıkma iddiasını destekledi?",
+     "Yoav",
+     "Avner",
+     "Benaya"
+    ],
+    "ja": [
+     "アドニヤの王位要求を支持した軍の司令官は誰ですか？",
+     "ヨアブ",
+     "アブネル",
+     "ベナヤ"
+    ],
+    "ko": [
+     "아도니야의 왕위 요구를 지지한 군대 지휘관은 누구입니까?",
+     "요압",
+     "아브네르",
+     "브나야"
+    ],
+    "ar": [
+     "أي قائد للجيش أيّد مطالبة أدونيا بالعرش؟",
+     "يوآب",
+     "أبنير",
+     "بنايا"
+    ]
+   }
+  },
+  {
+   "id": "ch-1-kings-001-05",
+   "book": "1-kings",
+   "chapter": 1,
+   "difficulty": "impossible",
+   "ref": "1 Kings 1:33,38",
+   "text": {
+    "en": [
+     "On which animal did Solomon ride to his anointing?",
+     "Mule",
+     "Horse",
+     "Camel"
+    ],
+    "es": [
+     "¿En qué animal montó Salomón para su unción?",
+     "Mula",
+     "Caballo",
+     "Camello"
+    ],
+    "pt": [
+     "Em que animal Salomão montou para a sua unção?",
+     "Mula",
+     "Cavalo",
+     "Camelo"
+    ],
+    "fr": [
+     "Sur quel animal Salomon monta-t-il pour son onction ?",
+     "Mulet",
+     "Cheval",
+     "Chameau"
+    ],
+    "de": [
+     "Auf welchem Tier ritt Salomo zu seiner Salbung?",
+     "Maultier",
+     "Pferd",
+     "Kamel"
+    ],
+    "it": [
+     "Su quale animale cavalcò Salomone per la sua unzione?",
+     "Mulo",
+     "Cavallo",
+     "Cammello"
+    ],
+    "pl": [
+     "Na jakim zwierzęciu Salomon jechał do swojego namaszczenia?",
+     "Muł",
+     "Koń",
+     "Wielbłąd"
+    ],
+    "ru": [
+     "На каком животном ехал Соломон на помазание?",
+     "Мул",
+     "Конь",
+     "Верблюд"
+    ],
+    "tr": [
+     "Süleyman meshedilmek için hangi hayvana bindi?",
+     "Katır",
+     "At",
+     "Deve"
+    ],
+    "ja": [
+     "ソロモンは即位の油注ぎのために、どの動物に乗りましたか？",
+     "ラバ",
+     "馬",
+     "ラクダ"
+    ],
+    "ko": [
+     "솔로몬은 기름부음을 받으러 어떤 동물을 타고 갔습니까?",
+     "노새",
+     "말",
+     "낙타"
+    ],
+    "ar": [
+     "على أي حيوان ركب سليمان ليُمسح ملكًا؟",
+     "بغلة",
+     "حصان",
+     "جمل"
+    ]
+   }
+  },
+  {
+   "id": "ch-1-kings-001-06",
+   "book": "1-kings",
+   "chapter": 2,
+   "difficulty": "easy",
+   "ref": "1 Kings 2:11",
+   "text": {
+    "en": [
+     "How many years did David reign over Israel?",
+     "40",
+     "20",
+     "60"
+    ],
+    "es": [
+     "¿Cuántos años reinó David sobre Israel?",
+     "40",
+     "20",
+     "60"
+    ],
+    "pt": [
+     "Quantos anos Davi reinou sobre Israel?",
+     "40",
+     "20",
+     "60"
+    ],
+    "fr": [
+     "Pendant combien d'années David régna-t-il sur Israël ?",
+     "40",
+     "20",
+     "60"
+    ],
+    "de": [
+     "Wie viele Jahre regierte David über Israel?",
+     "40",
+     "20",
+     "60"
+    ],
+    "it": [
+     "Per quanti anni Davide regnò su Israele?",
+     "40",
+     "20",
+     "60"
+    ],
+    "pl": [
+     "Ile lat Dawid panował nad Izraelem?",
+     "40",
+     "20",
+     "60"
+    ],
+    "ru": [
+     "Сколько лет Давид царствовал над Израилем?",
+     "40",
+     "20",
+     "60"
+    ],
+    "tr": [
+     "Davut İsrail'i kaç yıl yönetti?",
+     "40",
+     "20",
+     "60"
+    ],
+    "ja": [
+     "ダビデはイスラエルを何年間治めましたか？",
+     "40",
+     "20",
+     "60"
+    ],
+    "ko": [
+     "다윗은 이스라엘을 몇 년 동안 다스렸습니까?",
+     "40",
+     "20",
+     "60"
+    ],
+    "ar": [
+     "كم سنة ملك داود على إسرائيل؟",
+     "40",
+     "20",
+     "60"
+    ]
+   }
+  },
+  {
+   "id": "ch-1-kings-001-07",
+   "book": "1-kings",
+   "chapter": 2,
+   "difficulty": "medium",
+   "ref": "1 Kings 2:35",
+   "text": {
+    "en": [
+     "Whom did Solomon appoint army commander in place of Joab?",
+     "Benaiah",
+     "Abner",
+     "Amasa"
+    ],
+    "es": [
+     "¿A quién nombró Salomón jefe del ejército en lugar de Joab?",
+     "Benaías",
+     "Abner",
+     "Amasá"
+    ],
+    "pt": [
+     "A quem Salomão nomeou comandante do exército no lugar de Joab?",
+     "Banaías",
+     "Abner",
+     "Amasa"
+    ],
+    "fr": [
+     "Qui Salomon nomma-t-il chef de l'armée à la place de Joab ?",
+     "Benayahou",
+     "Abner",
+     "Amasa"
+    ],
+    "de": [
+     "Wen setzte Salomo anstelle Joabs als Heerführer ein?",
+     "Benaja",
+     "Abner",
+     "Amasa"
+    ],
+    "it": [
+     "Chi Salomone nominò capo dell'esercito al posto di Ioab?",
+     "Benaia",
+     "Abner",
+     "Amasa"
+    ],
+    "pl": [
+     "Kogo Salomon mianował dowódcą wojska zamiast Joaba?",
+     "Benajasz",
+     "Abner",
+     "Amasa"
+    ],
+    "ru": [
+     "Кого Соломон назначил военачальником вместо Иоава?",
+     "Ванея",
+     "Авенир",
+     "Амессай"
+    ],
+    "tr": [
+     "Süleyman, Yoav'ın yerine kimi ordu komutanı atadı?",
+     "Benaya",
+     "Avner",
+     "Amasa"
+    ],
+    "ja": [
+     "ソロモンはヨアブの代わりに誰を軍の司令官に任命しましたか？",
+     "ベナヤ",
+     "アブネル",
+     "アマサ"
+    ],
+    "ko": [
+     "솔로몬은 요압 대신 누구를 군대 지휘관으로 임명했습니까?",
+     "브나야",
+     "아브네르",
+     "아마사"
+    ],
+    "ar": [
+     "من عيّن سليمان قائدًا للجيش بدلًا من يوآب؟",
+     "بنايا",
+     "أبنير",
+     "عماسا"
+    ]
+   }
+  },
+  {
+   "id": "ch-1-kings-001-08",
+   "book": "1-kings",
+   "chapter": 2,
+   "difficulty": "hard",
+   "ref": "1 Kings 2:26-27",
+   "text": {
+    "en": [
+     "Which priest did Solomon banish to his fields at Anathoth?",
+     "Abiathar",
+     "Zadok",
+     "Ahimelech"
+    ],
+    "es": [
+     "¿A qué sacerdote desterró Salomón a sus tierras en Anatot?",
+     "Abiatar",
+     "Sadoc",
+     "Ajimélec"
+    ],
+    "pt": [
+     "Qual sacerdote Salomão baniu para as suas terras em Anatot?",
+     "Abiatar",
+     "Sadoc",
+     "Aimeleque"
+    ],
+    "fr": [
+     "Quel prêtre Salomon exila-t-il sur ses terres d'Anatoth ?",
+     "Abiathar",
+     "Sadoq",
+     "Ahimélek"
+    ],
+    "de": [
+     "Welchen Priester verbannte Salomo auf seine Felder in Anatot?",
+     "Abjatar",
+     "Zadok",
+     "Ahimelech"
+    ],
+    "it": [
+     "Quale sacerdote Salomone esiliò nei suoi campi di Anatòt?",
+     "Abiatar",
+     "Zadòk",
+     "Achimelech"
+    ],
+    "pl": [
+     "Którego kapłana Salomon zesłał na jego pola w Anatot?",
+     "Abiatar",
+     "Sadok",
+     "Achimelek"
+    ],
+    "ru": [
+     "Какого священника Соломон сослал в его поля в Анафоф?",
+     "Авиафар",
+     "Садок",
+     "Ахимелех"
+    ],
+    "tr": [
+     "Süleyman hangi kâhini Anatot'taki tarlalarına sürdü?",
+     "Ebyatar",
+     "Sadok",
+     "Ahimelek"
+    ],
+    "ja": [
+     "ソロモンがアナトトの畑に追放した祭司は誰ですか？",
+     "アビアタル",
+     "ツァドク",
+     "アヒメレク"
+    ],
+    "ko": [
+     "솔로몬이 아나톳의 밭으로 추방한 사제는 누구입니까?",
+     "아비아타르",
+     "차독",
+     "아히멜렉"
+    ],
+    "ar": [
+     "أي كاهن نفاه سليمان إلى حقوله في عناثوث؟",
+     "أبياثار",
+     "صادوق",
+     "أخيمالك"
+    ]
+   }
+  },
+  {
+   "id": "ch-1-kings-001-09",
+   "book": "1-kings",
+   "chapter": 2,
+   "difficulty": "expert",
+   "ref": "1 Kings 2:8-9,46",
+   "text": {
+    "en": [
+     "Which Benjaminite cursed David as he fled, and was later executed?",
+     "Shimei",
+     "Ziba",
+     "Abner"
+    ],
+    "es": [
+     "¿Qué benjaminita maldijo a David en su huida y fue ejecutado después?",
+     "Semeí",
+     "Sibá",
+     "Abner"
+    ],
+    "pt": [
+     "Qual benjaminita amaldiçoou Davi na sua fuga e foi depois executado?",
+     "Simei",
+     "Siba",
+     "Abner"
+    ],
+    "fr": [
+     "Quel Benjaminite maudit David pendant sa fuite et fut ensuite exécuté ?",
+     "Shiméï",
+     "Çiba",
+     "Abner"
+    ],
+    "de": [
+     "Welcher Benjaminiter verfluchte David auf der Flucht und wurde später hingerichtet?",
+     "Schimi",
+     "Ziba",
+     "Abner"
+    ],
+    "it": [
+     "Quale beniaminita maledisse Davide durante la fuga e fu poi giustiziato?",
+     "Simei",
+     "Zibà",
+     "Abner"
+    ],
+    "pl": [
+     "Który Beniaminita przeklinał Dawida w czasie ucieczki i został później stracony?",
+     "Szimei",
+     "Syba",
+     "Abner"
+    ],
+    "ru": [
+     "Какой вениамитянин проклинал Давида во время бегства и был потом казнён?",
+     "Семей",
+     "Сива",
+     "Авенир"
+    ],
+    "tr": [
+     "Davut kaçarken ona lanet eden ve sonra idam edilen Benyaminli kimdir?",
+     "Şimi",
+     "Ziva",
+     "Avner"
+    ],
+    "ja": [
+     "ダビデが逃げるときに呪い、後に処刑されたベニヤミン人は誰ですか？",
+     "シムイ",
+     "ツィバ",
+     "アブネル"
+    ],
+    "ko": [
+     "다윗이 피신할 때 저주했다가 나중에 처형된 벤야민 사람은 누구입니까?",
+     "시므이",
+     "치바",
+     "아브네르"
+    ],
+    "ar": [
+     "أي بنياميني لعن داود أثناء هروبه ثم أُعدم لاحقًا؟",
+     "شمعي",
+     "صيبا",
+     "أبنير"
+    ]
+   }
+  },
+  {
+   "id": "ch-1-kings-001-10",
+   "book": "1-kings",
+   "chapter": 2,
+   "difficulty": "impossible",
+   "ref": "1 Kings 2:7",
+   "text": {
+    "en": [
+     "David asked Solomon to show kindness to the sons of which Gileadite?",
+     "Barzillai",
+     "Machir",
+     "Nahash"
+    ],
+    "es": [
+     "¿Con los hijos de qué galaadita pidió David a Salomón que fuera bondadoso?",
+     "Barzilay",
+     "Maquir",
+     "Najás"
+    ],
+    "pt": [
+     "Com os filhos de qual galaadita Davi pediu a Salomão que fosse bondoso?",
+     "Barzilai",
+     "Maquir",
+     "Naás"
+    ],
+    "fr": [
+     "Envers les fils de quel Galaadite David demanda-t-il à Salomon d'être bon ?",
+     "Barzillaï",
+     "Makir",
+     "Nahash"
+    ],
+    "de": [
+     "Gegenüber den Söhnen welches Gileaditers sollte Salomo nach Davids Wunsch gütig sein?",
+     "Barsillai",
+     "Machir",
+     "Nahasch"
+    ],
+    "it": [
+     "Con i figli di quale galaadita Davide chiese a Salomone di essere buono?",
+     "Barzillai",
+     "Machir",
+     "Naas"
+    ],
+    "pl": [
+     "Wobec synów którego Gileadczyka Dawid kazał Salomonowi okazać życzliwość?",
+     "Barzillaj",
+     "Makir",
+     "Nachasz"
+    ],
+    "ru": [
+     "К сыновьям какого галаадитянина Давид велел Соломону проявить милость?",
+     "Верзеллий",
+     "Махир",
+     "Наас"
+    ],
+    "tr": [
+     "Davut, Süleyman'dan hangi Gilatlının oğullarına iyilik etmesini istedi?",
+     "Barzillay",
+     "Makir",
+     "Nahaş"
+    ],
+    "ja": [
+     "ダビデはソロモンに、どのギレアド人の子らに親切にするよう命じましたか？",
+     "バルジライ",
+     "マキル",
+     "ナハシュ"
+    ],
+    "ko": [
+     "다윗은 솔로몬에게 어느 길르앗 사람의 아들들에게 호의를 베풀라고 했습니까?",
+     "바르질래",
+     "마키르",
+     "나하스"
+    ],
+    "ar": [
+     "بنو أي جلعادي أوصى داود سليمان أن يحسن إليهم؟",
+     "برزلاي",
+     "ماكير",
+     "ناحاش"
+    ]
+   }
+  },
+  {
+   "id": "ch-1-kings-001-11",
+   "book": "1-kings",
+   "chapter": 3,
+   "difficulty": "easy",
+   "ref": "1 Kings 3:5-9",
+   "text": {
+    "en": [
+     "In a dream, what gift did Solomon ask God for?",
+     "Wisdom",
+     "Riches",
+     "Victory"
+    ],
+    "es": [
+     "¿Qué don pidió Salomón a Dios en un sueño?",
+     "Sabiduría",
+     "Riqueza",
+     "Victoria"
+    ],
+    "pt": [
+     "Que dom Salomão pediu a Deus em sonho?",
+     "Sabedoria",
+     "Riqueza",
+     "Vitória"
+    ],
+    "fr": [
+     "Quel don Salomon demanda-t-il à Dieu en songe ?",
+     "Sagesse",
+     "Richesse",
+     "Victoire"
+    ],
+    "de": [
+     "Um welche Gabe bat Salomo Gott im Traum?",
+     "Weisheit",
+     "Reichtum",
+     "Sieg"
+    ],
+    "it": [
+     "Quale dono chiese Salomone a Dio in sogno?",
+     "Sapienza",
+     "Ricchezza",
+     "Vittoria"
+    ],
+    "pl": [
+     "O jaki dar Salomon poprosił Boga we śnie?",
+     "Mądrość",
+     "Bogactwo",
+     "Zwycięstwo"
+    ],
+    "ru": [
+     "О каком даре Соломон просил Бога во сне?",
+     "Мудрость",
+     "Богатство",
+     "Победа"
+    ],
+    "tr": [
+     "Süleyman rüyasında Tanrı'dan hangi armağanı istedi?",
+     "Bilgelik",
+     "Zenginlik",
+     "Zafer"
+    ],
+    "ja": [
+     "ソロモンは夢の中で神にどんな賜物を願いましたか？",
+     "知恵",
+     "富",
+     "勝利"
+    ],
+    "ko": [
+     "솔로몬은 꿈에서 하느님께 어떤 선물을 청했습니까?",
+     "지혜",
+     "재물",
+     "승리"
+    ],
+    "ar": [
+     "أي عطية طلبها سليمان من الله في الحلم؟",
+     "حكمة",
+     "غنى",
+     "نصر"
+    ]
+   }
+  },
+  {
+   "id": "ch-1-kings-001-12",
+   "book": "1-kings",
+   "chapter": 3,
+   "difficulty": "medium",
+   "ref": "1 Kings 3:24",
+   "text": {
+    "en": [
+     "Which weapon did Solomon order brought to divide the living child?",
+     "Sword",
+     "Spear",
+     "Axe"
+    ],
+    "es": [
+     "¿Qué arma mandó traer Salomón para partir al niño vivo?",
+     "Espada",
+     "Lanza",
+     "Hacha"
+    ],
+    "pt": [
+     "Que arma Salomão mandou trazer para dividir a criança viva?",
+     "Espada",
+     "Lança",
+     "Machado"
+    ],
+    "fr": [
+     "Quelle arme Salomon fit-il apporter pour partager l'enfant vivant ?",
+     "Épée",
+     "Lance",
+     "Hache"
+    ],
+    "de": [
+     "Welche Waffe ließ Salomo bringen, um das lebende Kind zu teilen?",
+     "Schwert",
+     "Speer",
+     "Axt"
+    ],
+    "it": [
+     "Quale arma Salomone fece portare per dividere il bambino vivo?",
+     "Spada",
+     "Lancia",
+     "Ascia"
+    ],
+    "pl": [
+     "Jaką broń kazał przynieść Salomon, aby rozciąć żywe dziecko?",
+     "Miecz",
+     "Włócznia",
+     "Topór"
+    ],
+    "ru": [
+     "Какое оружие велел принести Соломон, чтобы рассечь живое дитя?",
+     "Меч",
+     "Копьё",
+     "Топор"
+    ],
+    "tr": [
+     "Süleyman yaşayan çocuğu bölmek için hangi silahı getirtti?",
+     "Kılıç",
+     "Mızrak",
+     "Balta"
+    ],
+    "ja": [
+     "ソロモンは生きている子を二つに分けるために、どの武器を持って来させましたか？",
+     "剣",
+     "槍",
+     "斧"
+    ],
+    "ko": [
+     "솔로몬은 살아 있는 아이를 둘로 나누기 위해 어떤 무기를 가져오게 했습니까?",
+     "칼",
+     "창",
+     "도끼"
+    ],
+    "ar": [
+     "ما السلاح الذي أمر سليمان بإحضاره ليشطر الولد الحي؟",
+     "سيف",
+     "رمح",
+     "فأس"
+    ]
+   }
+  },
+  {
+   "id": "ch-1-kings-001-13",
+   "book": "1-kings",
+   "chapter": 3,
+   "difficulty": "hard",
+   "ref": "1 Kings 3:1",
+   "text": {
+    "en": [
+     "Whose daughter did Solomon marry to seal an alliance?",
+     "Pharaoh",
+     "Hiram",
+     "Hadad"
+    ],
+    "es": [
+     "¿Con la hija de quién se casó Salomón para sellar una alianza?",
+     "Faraón",
+     "Hiram",
+     "Hadad"
+    ],
+    "pt": [
+     "Com a filha de quem Salomão se casou para selar uma aliança?",
+     "Faraó",
+     "Hiram",
+     "Hadad"
+    ],
+    "fr": [
+     "Avec la fille de qui Salomon se maria-t-il pour sceller une alliance ?",
+     "Pharaon",
+     "Hiram",
+     "Hadad"
+    ],
+    "de": [
+     "Wessen Tochter heiratete Salomo, um ein Bündnis zu besiegeln?",
+     "Pharao",
+     "Hiram",
+     "Hadad"
+    ],
+    "it": [
+     "Con la figlia di chi si sposò Salomone per suggellare un'alleanza?",
+     "Faraone",
+     "Chiram",
+     "Hadad"
+    ],
+    "pl": [
+     "Z córką kogo ożenił się Salomon, by przypieczętować przymierze?",
+     "Faraon",
+     "Hiram",
+     "Hadad"
+    ],
+    "ru": [
+     "На дочери кого женился Соломон, чтобы скрепить союз?",
+     "Фараон",
+     "Хирам",
+     "Адер"
+    ],
+    "tr": [
+     "Süleyman bir ittifak kurmak için kimin kızıyla evlendi?",
+     "Firavun",
+     "Hiram",
+     "Hadat"
+    ],
+    "ja": [
+     "ソロモンは同盟を結ぶために、誰の娘と結婚しましたか？",
+     "ファラオ",
+     "ヒラム",
+     "ハダド"
+    ],
+    "ko": [
+     "솔로몬은 동맹을 맺기 위해 누구의 딸과 혼인했습니까?",
+     "파라오",
+     "히람",
+     "하닷"
+    ],
+    "ar": [
+     "ابنة من تزوج سليمان لإبرام تحالف؟",
+     "فرعون",
+     "حيرام",
+     "هدد"
+    ]
+   }
+  },
+  {
+   "id": "ch-1-kings-001-14",
+   "book": "1-kings",
+   "chapter": 3,
+   "difficulty": "expert",
+   "ref": "1 Kings 3:4",
+   "text": {
+    "en": [
+     "At which high place did Solomon offer a thousand burnt offerings?",
+     "Gibeon",
+     "Hebron",
+     "Shiloh"
+    ],
+    "es": [
+     "¿En qué lugar alto ofreció Salomón mil holocaustos?",
+     "Gabaón",
+     "Hebrón",
+     "Silo"
+    ],
+    "pt": [
+     "Em que lugar alto Salomão ofereceu mil holocaustos?",
+     "Gabaon",
+     "Hebrom",
+     "Silo"
+    ],
+    "fr": [
+     "Sur quel haut lieu Salomon offrit-il mille holocaustes ?",
+     "Gabaon",
+     "Hébron",
+     "Silo"
+    ],
+    "de": [
+     "Auf welcher Kulthöhe brachte Salomo tausend Brandopfer dar?",
+     "Gibeon",
+     "Hebron",
+     "Schilo"
+    ],
+    "it": [
+     "In quale altura Salomone offrì mille olocausti?",
+     "Gabaon",
+     "Ebron",
+     "Silo"
+    ],
+    "pl": [
+     "Na której wyżynie Salomon złożył tysiąc całopaleń?",
+     "Gabaon",
+     "Hebron",
+     "Szilo"
+    ],
+    "ru": [
+     "На каком высоком месте Соломон принёс тысячу всесожжений?",
+     "Гаваон",
+     "Хеврон",
+     "Силом"
+    ],
+    "tr": [
+     "Süleyman hangi yüksek yerde bin yakmalık sunu sundu?",
+     "Givon",
+     "Hevron",
+     "Şilo"
+    ],
+    "ja": [
+     "ソロモンは、どの高台で千頭の焼き尽くす献げ物を献げましたか？",
+     "ギブオン",
+     "ヘブロン",
+     "シロ"
+    ],
+    "ko": [
+     "솔로몬은 어느 산당에서 번제물 천 개를 바쳤습니까?",
+     "기브온",
+     "헤브론",
+     "실로"
+    ],
+    "ar": [
+     "في أي مرتفع قدّم سليمان ألف محرقة؟",
+     "جبعون",
+     "حبرون",
+     "شيلو"
+    ]
+   }
+  },
+  {
+   "id": "ch-1-kings-001-15",
+   "book": "1-kings",
+   "chapter": 3,
+   "difficulty": "impossible",
+   "ref": "1 Kings 3:18",
+   "text": {
+    "en": [
+     "In Solomon's judgment, how many days later did the second woman give birth?",
+     "3",
+     "7",
+     "1"
+    ],
+    "es": [
+     "¿Cuántos días después dio a luz la segunda mujer, según el juicio de Salomón?",
+     "3",
+     "7",
+     "1"
+    ],
+    "pt": [
+     "No julgamento de Salomão, quantos dias depois a segunda mulher deu à luz?",
+     "3",
+     "7",
+     "1"
+    ],
+    "fr": [
+     "Dans le jugement de Salomon, combien de jours plus tard la seconde femme accoucha-t-elle ?",
+     "3",
+     "7",
+     "1"
+    ],
+    "de": [
+     "Wie viele Tage später gebar im Urteil Salomos die zweite Frau?",
+     "3",
+     "7",
+     "1"
+    ],
+    "it": [
+     "Nel giudizio di Salomone, quanti giorni dopo partorì la seconda donna?",
+     "3",
+     "7",
+     "1"
+    ],
+    "pl": [
+     "W sądzie Salomona, ile dni później urodziła druga kobieta?",
+     "3",
+     "7",
+     "1"
+    ],
+    "ru": [
+     "Через сколько дней, по рассказу в суде Соломона, родила вторая женщина?",
+     "3",
+     "7",
+     "1"
+    ],
+    "tr": [
+     "Süleyman'ın hükmünde ikinci kadın kaç gün sonra doğum yaptı?",
+     "3",
+     "7",
+     "1"
+    ],
+    "ja": [
+     "ソロモンの裁きで、二人目の女は何日後に子を産みましたか？",
+     "3",
+     "7",
+     "1"
+    ],
+    "ko": [
+     "솔로몬의 재판에서 두 번째 여인은 며칠 뒤에 아기를 낳았습니까?",
+     "3",
+     "7",
+     "1"
+    ],
+    "ar": [
+     "في قضاء سليمان، بعد كم يومًا ولدت المرأة الثانية؟",
+     "3",
+     "7",
+     "1"
+    ]
+   }
+  },
+  {
+   "id": "ch-1-kings-001-16",
+   "book": "1-kings",
+   "chapter": 4,
+   "difficulty": "easy",
+   "ref": "1 Kings 4:7",
+   "text": {
+    "en": [
+     "How many district governors did Solomon appoint over all Israel?",
+     "12",
+     "7",
+     "10"
+    ],
+    "es": [
+     "¿Cuántos gobernadores de distrito puso Salomón sobre todo Israel?",
+     "12",
+     "7",
+     "10"
+    ],
+    "pt": [
+     "Quantos governadores de distrito Salomão pôs sobre todo o Israel?",
+     "12",
+     "7",
+     "10"
+    ],
+    "fr": [
+     "Combien de gouverneurs de district Salomon établit-il sur tout Israël ?",
+     "12",
+     "7",
+     "10"
+    ],
+    "de": [
+     "Wie viele Distriktvorsteher setzte Salomo über ganz Israel ein?",
+     "12",
+     "7",
+     "10"
+    ],
+    "it": [
+     "Quanti governatori di distretto Salomone pose su tutto Israele?",
+     "12",
+     "7",
+     "10"
+    ],
+    "pl": [
+     "Ilu namiestników okręgów ustanowił Salomon nad całym Izraelem?",
+     "12",
+     "7",
+     "10"
+    ],
+    "ru": [
+     "Сколько областных управителей Соломон поставил над всем Израилем?",
+     "12",
+     "7",
+     "10"
+    ],
+    "tr": [
+     "Süleyman bütün İsrail üzerine kaç bölge valisi atadı?",
+     "12",
+     "7",
+     "10"
+    ],
+    "ja": [
+     "ソロモンは全イスラエルの上に何人の地方長官を立てましたか？",
+     "12",
+     "7",
+     "10"
+    ],
+    "ko": [
+     "솔로몬은 온 이스라엘 위에 몇 명의 지방 장관을 세웠습니까?",
+     "12",
+     "7",
+     "10"
+    ],
+    "ar": [
+     "كم محافظًا أقام سليمان على كل إسرائيل؟",
+     "12",
+     "7",
+     "10"
+    ]
+   }
+  },
+  {
+   "id": "ch-1-kings-001-17",
+   "book": "1-kings",
+   "chapter": 4,
+   "difficulty": "medium",
+   "ref": "1 Kings 4:3",
+   "text": {
+    "en": [
+     "Which son of Ahilud was Solomon's royal recorder?",
+     "Jehoshaphat",
+     "Jehu",
+     "Gad"
+    ],
+    "es": [
+     "¿Qué hijo de Ajilud fue el cronista real de Salomón?",
+     "Josafat",
+     "Jehú",
+     "Gad"
+    ],
+    "pt": [
+     "Qual filho de Aiilud foi o cronista real de Salomão?",
+     "Josafá",
+     "Jeú",
+     "Gad"
+    ],
+    "fr": [
+     "Quel fils d'Ahilud était l'archiviste du roi Salomon ?",
+     "Josaphat",
+     "Jéhu",
+     "Gad"
+    ],
+    "de": [
+     "Welcher Sohn Ahiluds war Salomos Staatsschreiber?",
+     "Joschafat",
+     "Jehu",
+     "Gad"
+    ],
+    "it": [
+     "Quale figlio di Achilud era l'archivista di Salomone?",
+     "Giosafat",
+     "Ieu",
+     "Gad"
+    ],
+    "pl": [
+     "Który syn Achiluda był kronikarzem Salomona?",
+     "Jozafat",
+     "Jehu",
+     "Gad"
+    ],
+    "ru": [
+     "Какой сын Ахилуда был у Соломона дееписателем?",
+     "Иосафат",
+     "Ииуй",
+     "Гад"
+    ],
+    "tr": [
+     "Ahilud'un hangi oğlu Süleyman'ın kayıt tutucusuydu?",
+     "Yehoşafat",
+     "Yehu",
+     "Gad"
+    ],
+    "ja": [
+     "アヒルドの子で、ソロモンの史官だったのは誰ですか？",
+     "ヨシャファト",
+     "イエフ",
+     "ガド"
+    ],
+    "ko": [
+     "아히룻의 아들 가운데 솔로몬의 사관이었던 사람은 누구입니까?",
+     "여호사팟",
+     "예후",
+     "갓"
+    ],
+    "ar": [
+     "أي ابن لأخيلود كان مؤرخ سليمان؟",
+     "يهوشافاط",
+     "ياهو",
+     "جاد"
+    ]
+   }
+  },
+  {
+   "id": "ch-1-kings-001-18",
+   "book": "1-kings",
+   "chapter": 4,
+   "difficulty": "hard",
+   "ref": "1 Kings 4:6",
+   "text": {
+    "en": [
+     "Who was in charge of Solomon's forced labor?",
+     "Adoniram",
+     "Joab",
+     "Benaiah"
+    ],
+    "es": [
+     "¿Quién estaba al frente de los trabajos forzados de Salomón?",
+     "Adoniram",
+     "Joab",
+     "Benaías"
+    ],
+    "pt": [
+     "Quem estava encarregado dos trabalhos forçados de Salomão?",
+     "Adoniram",
+     "Joab",
+     "Banaías"
+    ],
+    "fr": [
+     "Qui dirigeait les corvées de Salomon ?",
+     "Adoniram",
+     "Joab",
+     "Benayahou"
+    ],
+    "de": [
+     "Wer leitete Salomos Fronarbeit?",
+     "Adoniram",
+     "Joab",
+     "Benaja"
+    ],
+    "it": [
+     "Chi era responsabile dei lavori forzati di Salomone?",
+     "Adoniram",
+     "Ioab",
+     "Benaia"
+    ],
+    "pl": [
+     "Kto nadzorował przymusowe roboty Salomona?",
+     "Adoniram",
+     "Joab",
+     "Benajasz"
+    ],
+    "ru": [
+     "Кто управлял повинностями Соломона?",
+     "Адонирам",
+     "Иоав",
+     "Ванея"
+    ],
+    "tr": [
+     "Süleyman'ın angarya işlerinden kim sorumluydu?",
+     "Adoniram",
+     "Yoav",
+     "Benaya"
+    ],
+    "ja": [
+     "ソロモンの強制労働を監督していたのは誰ですか？",
+     "アドニラム",
+     "ヨアブ",
+     "ベナヤ"
+    ],
+    "ko": [
+     "솔로몬의 강제 노역을 책임진 사람은 누구입니까?",
+     "아도니람",
+     "요압",
+     "브나야"
+    ],
+    "ar": [
+     "من كان مسؤولًا عن السخرة في عهد سليمان؟",
+     "أدونيرام",
+     "يوآب",
+     "بنايا"
+    ]
+   }
+  },
+  {
+   "id": "ch-1-kings-001-19",
+   "book": "1-kings",
+   "chapter": 4,
+   "difficulty": "expert",
+   "ref": "1 Kings 4:7",
+   "text": {
+    "en": [
+     "How many months each year did each governor provide for Solomon's household?",
+     "1",
+     "3",
+     "6"
+    ],
+    "es": [
+     "¿Cuántos meses al año abastecía cada gobernador la casa de Salomón?",
+     "1",
+     "3",
+     "6"
+    ],
+    "pt": [
+     "Quantos meses por ano cada governador sustentava a casa de Salomão?",
+     "1",
+     "3",
+     "6"
+    ],
+    "fr": [
+     "Combien de mois par an chaque gouverneur pourvoyait-il à la maison de Salomon ?",
+     "1",
+     "3",
+     "6"
+    ],
+    "de": [
+     "Für wie viele Monate im Jahr versorgte jeder Vorsteher Salomos Haus?",
+     "1",
+     "3",
+     "6"
+    ],
+    "it": [
+     "Per quanti mesi all'anno ogni governatore provvedeva alla casa di Salomone?",
+     "1",
+     "3",
+     "6"
+    ],
+    "pl": [
+     "Przez ile miesięcy w roku każdy namiestnik zaopatrywał dwór Salomona?",
+     "1",
+     "3",
+     "6"
+    ],
+    "ru": [
+     "На сколько месяцев в году каждый управитель обеспечивал дом Соломона?",
+     "1",
+     "3",
+     "6"
+    ],
+    "tr": [
+     "Her vali yılda kaç ay Süleyman'ın hanesini besledi?",
+     "1",
+     "3",
+     "6"
+    ],
+    "ja": [
+     "各長官は一年のうち何か月、ソロモンの家を養いましたか？",
+     "1",
+     "3",
+     "6"
+    ],
+    "ko": [
+     "각 장관은 한 해에 몇 달 동안 솔로몬의 집안을 부양했습니까?",
+     "1",
+     "3",
+     "6"
+    ],
+    "ar": [
+     "كم شهرًا في السنة كان كل محافظ يعول بيت سليمان؟",
+     "1",
+     "3",
+     "6"
+    ]
+   }
+  },
+  {
+   "id": "ch-1-kings-001-20",
+   "book": "1-kings",
+   "chapter": 4,
+   "difficulty": "impossible",
+   "ref": "1 Kings 4:5",
+   "text": {
+    "en": [
+     "Azariah and Zabud, officials of Solomon, were sons of which man?",
+     "Nathan",
+     "Hushai",
+     "Iddo"
+    ],
+    "es": [
+     "¿De qué hombre eran hijos Azarías y Zabud, funcionarios de Salomón?",
+     "Natán",
+     "Jusay",
+     "Idó"
+    ],
+    "pt": [
+     "De que homem eram filhos Azarias e Zabud, oficiais de Salomão?",
+     "Natã",
+     "Husai",
+     "Ido"
+    ],
+    "fr": [
+     "De quel homme Azarias et Zabud, officiers de Salomon, étaient-ils les fils ?",
+     "Nathan",
+     "Houshaï",
+     "Iddo"
+    ],
+    "de": [
+     "Söhne welches Mannes waren Asarja und Sabud, Beamte Salomos?",
+     "Natan",
+     "Huschai",
+     "Iddo"
+    ],
+    "it": [
+     "Di quale uomo erano figli Azaria e Zabud, funzionari di Salomone?",
+     "Natan",
+     "Cusai",
+     "Iddo"
+    ],
+    "pl": [
+     "Synami którego męża byli Azariasz i Zabud, urzędnicy Salomona?",
+     "Natan",
+     "Chuszaj",
+     "Iddo"
+    ],
+    "ru": [
+     "Сыновьями какого человека были Азария и Завуд, сановники Соломона?",
+     "Нафан",
+     "Хусий",
+     "Иддо"
+    ],
+    "tr": [
+     "Süleyman'ın görevlileri Azarya ile Zabud hangi adamın oğullarıydı?",
+     "Natan",
+     "Huşay",
+     "İddo"
+    ],
+    "ja": [
+     "ソロモンの高官アザルヤとザブドは、誰の子でしたか？",
+     "ナタン",
+     "フシャイ",
+     "イド"
+    ],
+    "ko": [
+     "솔로몬의 신하 아자르야와 자붓은 누구의 아들이었습니까?",
+     "나탄",
+     "후사이",
+     "이도"
+    ],
+    "ar": [
+     "أزريا وزابود، من موظفي سليمان، ابنا أي رجل؟",
+     "ناثان",
+     "حوشاي",
+     "عدو"
+    ]
+   }
+  },
+  {
+   "id": "ch-1-kings-001-21",
+   "book": "1-kings",
+   "chapter": 5,
+   "difficulty": "easy",
+   "ref": "1 Kings 5:8-10 (5:22-24)",
+   "text": {
+    "en": [
+     "Which king of Tyre sent Solomon cedar and cypress timber?",
+     "Hiram",
+     "Hadad",
+     "Ahab"
+    ],
+    "es": [
+     "¿Qué rey de Tiro envió a Salomón madera de cedro y de ciprés?",
+     "Hiram",
+     "Hadad",
+     "Acab"
+    ],
+    "pt": [
+     "Que rei de Tiro enviou a Salomão madeira de cedro e de cipreste?",
+     "Hiram",
+     "Hadad",
+     "Acabe"
+    ],
+    "fr": [
+     "Quel roi de Tyr envoya à Salomon du bois de cèdre et de cyprès ?",
+     "Hiram",
+     "Hadad",
+     "Achab"
+    ],
+    "de": [
+     "Welcher König von Tyrus schickte Salomo Zedern- und Zypressenholz?",
+     "Hiram",
+     "Hadad",
+     "Ahab"
+    ],
+    "it": [
+     "Quale re di Tiro inviò a Salomone legname di cedro e di cipresso?",
+     "Chiram",
+     "Hadad",
+     "Acab"
+    ],
+    "pl": [
+     "Który król Tyru przysłał Salomonowi drewno cedrowe i cyprysowe?",
+     "Hiram",
+     "Hadad",
+     "Achab"
+    ],
+    "ru": [
+     "Какой царь Тира присылал Соломону кедровые и кипарисовые брёвна?",
+     "Хирам",
+     "Адер",
+     "Ахав"
+    ],
+    "tr": [
+     "Süleyman'a sedir ve servi kerestesi gönderen Sur kralı kimdi?",
+     "Hiram",
+     "Hadat",
+     "Ahav"
+    ],
+    "ja": [
+     "ソロモンに杉と糸杉の材木を送ったティルスの王は誰ですか？",
+     "ヒラム",
+     "ハダド",
+     "アハブ"
+    ],
+    "ko": [
+     "솔로몬에게 향백나무와 잣나무 목재를 보낸 티로 임금은 누구입니까?",
+     "히람",
+     "하닷",
+     "아합"
+    ],
+    "ar": [
+     "أي ملك لصور أرسل إلى سليمان خشب الأرز والسرو؟",
+     "حيرام",
+     "هدد",
+     "أخآب"
+    ]
+   }
+  },
+  {
+   "id": "ch-1-kings-001-22",
+   "book": "1-kings",
+   "chapter": 5,
+   "difficulty": "medium",
+   "ref": "1 Kings 5:6 (5:20)",
+   "text": {
+    "en": [
+     "From which land did Hiram's men cut cedars for Solomon?",
+     "Lebanon",
+     "Gilead",
+     "Moab"
+    ],
+    "es": [
+     "¿De qué tierra cortaron cedros los hombres de Hiram para Salomón?",
+     "Líbano",
+     "Galaad",
+     "Moab"
+    ],
+    "pt": [
+     "De que terra os homens de Hiram cortaram cedros para Salomão?",
+     "Líbano",
+     "Galaad",
+     "Moabe"
+    ],
+    "fr": [
+     "Dans quel pays les hommes de Hiram coupèrent-ils des cèdres pour Salomon ?",
+     "Liban",
+     "Galaad",
+     "Moab"
+    ],
+    "de": [
+     "In welchem Land fällten Hirams Leute Zedern für Salomo?",
+     "Libanon",
+     "Gilead",
+     "Moab"
+    ],
+    "it": [
+     "In quale paese gli uomini di Chiram tagliarono cedri per Salomone?",
+     "Libano",
+     "Galaad",
+     "Moab"
+    ],
+    "pl": [
+     "W jakiej krainie ludzie Hirama ścinali cedry dla Salomona?",
+     "Liban",
+     "Gilead",
+     "Moab"
+    ],
+    "ru": [
+     "В какой земле люди Хирама рубили кедры для Соломона?",
+     "Ливан",
+     "Галаад",
+     "Моав"
+    ],
+    "tr": [
+     "Hiram'ın adamları Süleyman için hangi diyarda sedir kesti?",
+     "Lübnan",
+     "Gilat",
+     "Moav"
+    ],
+    "ja": [
+     "ヒラムの家臣たちは、ソロモンのためにどの地で杉を切り出しましたか？",
+     "レバノン",
+     "ギレアド",
+     "モアブ"
+    ],
+    "ko": [
+     "히람의 신하들은 솔로몬을 위해 어느 땅에서 향백나무를 베었습니까?",
+     "레바논",
+     "길르앗",
+     "모압"
+    ],
+    "ar": [
+     "في أي أرض قطع رجال حيرام الأرز لسليمان؟",
+     "لبنان",
+     "جلعاد",
+     "موآب"
+    ]
+   }
+  },
+  {
+   "id": "ch-1-kings-001-23",
+   "book": "1-kings",
+   "chapter": 5,
+   "difficulty": "hard",
+   "ref": "1 Kings 5:13 (5:27)",
+   "text": {
+    "en": [
+     "How many men did Solomon levy as forced labor from Israel?",
+     "30000",
+     "12000",
+     "50000"
+    ],
+    "es": [
+     "¿Cuántos hombres reclutó Salomón de Israel para trabajos forzados?",
+     "30000",
+     "12000",
+     "50000"
+    ],
+    "pt": [
+     "Quantos homens Salomão recrutou de Israel para trabalhos forçados?",
+     "30000",
+     "12000",
+     "50000"
+    ],
+    "fr": [
+     "Combien d'hommes Salomon leva-t-il en Israël pour les corvées ?",
+     "30000",
+     "12000",
+     "50000"
+    ],
+    "de": [
+     "Wie viele Männer hob Salomo in Israel zur Fronarbeit aus?",
+     "30000",
+     "12000",
+     "50000"
+    ],
+    "it": [
+     "Quanti uomini Salomone reclutò in Israele per i lavori forzati?",
+     "30000",
+     "12000",
+     "50000"
+    ],
+    "pl": [
+     "Ilu ludzi Salomon powołał z Izraela do robót przymusowych?",
+     "30000",
+     "12000",
+     "50000"
+    ],
+    "ru": [
+     "Сколько человек Соломон набрал из Израиля на повинность?",
+     "30000",
+     "12000",
+     "50000"
+    ],
+    "tr": [
+     "Süleyman angarya için İsrail'den kaç kişi topladı?",
+     "30000",
+     "12000",
+     "50000"
+    ],
+    "ja": [
+     "ソロモンはイスラエルから強制労働のために何人を徴用しましたか？",
+     "30000",
+     "12000",
+     "50000"
+    ],
+    "ko": [
+     "솔로몬은 이스라엘에서 강제 노역을 위해 몇 명을 징발했습니까?",
+     "30000",
+     "12000",
+     "50000"
+    ],
+    "ar": [
+     "كم رجلًا جنّد سليمان من إسرائيل للسخرة؟",
+     "30000",
+     "12000",
+     "50000"
+    ]
+   }
+  },
+  {
+   "id": "ch-1-kings-001-24",
+   "book": "1-kings",
+   "chapter": 5,
+   "difficulty": "expert",
+   "ref": "1 Kings 4:25 (5:5)",
+   "text": {
+    "en": [
+     "Under Solomon, each Israelite lived safely under his vine and which tree?",
+     "Fig",
+     "Olive",
+     "Palm"
+    ],
+    "es": [
+     "¿Bajo su vid y bajo qué árbol vivía seguro cada israelita en tiempos de Salomón?",
+     "Higuera",
+     "Olivo",
+     "Palmera"
+    ],
+    "pt": [
+     "No tempo de Salomão, cada israelita vivia em segurança debaixo da sua videira e de que árvore?",
+     "Figueira",
+     "Oliveira",
+     "Palmeira"
+    ],
+    "fr": [
+     "Sous Salomon, chaque Israélite vivait en sécurité sous sa vigne et sous quel arbre ?",
+     "Figuier",
+     "Olivier",
+     "Palmier"
+    ],
+    "de": [
+     "Unter Salomo wohnte jeder Israelit sicher unter seinem Weinstock und unter welchem Baum?",
+     "Feigenbaum",
+     "Ölbaum",
+     "Palme"
+    ],
+    "it": [
+     "Ai tempi di Salomone, ogni israelita viveva al sicuro sotto la sua vite e sotto quale albero?",
+     "Fico",
+     "Ulivo",
+     "Palma"
+    ],
+    "pl": [
+     "Za Salomona każdy Izraelita mieszkał bezpiecznie pod swoją winoroślą i pod którym drzewem?",
+     "Figowiec",
+     "Oliwka",
+     "Palma"
+    ],
+    "ru": [
+     "При Соломоне каждый израильтянин жил безопасно под своей виноградной лозой и под каким деревом?",
+     "Смоковница",
+     "Маслина",
+     "Пальма"
+    ],
+    "tr": [
+     "Süleyman döneminde her İsrailli, asmasının ve hangi ağacının altında güvenle yaşıyordu?",
+     "İncir",
+     "Zeytin",
+     "Hurma"
+    ],
+    "ja": [
+     "ソロモンの時代、イスラエルの人々は皆、自分のぶどうの木と、どの木の下で安らかに暮らしましたか？",
+     "いちじく",
+     "オリーブ",
+     "なつめやし"
+    ],
+    "ko": [
+     "솔로몬 시대에 이스라엘 사람들은 저마다 자기 포도나무와 어떤 나무 아래에서 평화롭게 살았습니까?",
+     "무화과나무",
+     "올리브나무",
+     "종려나무"
+    ],
+    "ar": [
+     "في أيام سليمان، سكن كل إسرائيلي آمنًا تحت كرمته وتحت أي شجرة؟",
+     "تينة",
+     "زيتونة",
+     "نخلة"
+    ]
+   }
+  },
+  {
+   "id": "ch-1-kings-001-25",
+   "book": "1-kings",
+   "chapter": 5,
+   "difficulty": "impossible",
+   "ref": "1 Kings 5:11 (5:25)",
+   "text": {
+    "en": [
+     "How many measures of wheat did Solomon give Hiram yearly?",
+     "20000",
+     "10000",
+     "40000"
+    ],
+    "es": [
+     "¿Cuántas medidas de trigo daba Salomón cada año a Hiram?",
+     "20000",
+     "10000",
+     "40000"
+    ],
+    "pt": [
+     "Quantas medidas de trigo Salomão dava a Hiram cada ano?",
+     "20000",
+     "10000",
+     "40000"
+    ],
+    "fr": [
+     "Combien de mesures de blé Salomon donnait-il chaque année à Hiram ?",
+     "20000",
+     "10000",
+     "40000"
+    ],
+    "de": [
+     "Wie viele Maß Weizen gab Salomo Hiram jährlich?",
+     "20000",
+     "10000",
+     "40000"
+    ],
+    "it": [
+     "Quante misure di grano dava ogni anno Salomone a Chiram?",
+     "20000",
+     "10000",
+     "40000"
+    ],
+    "pl": [
+     "Ile miar pszenicy dawał Salomon Hiramowi rocznie?",
+     "20000",
+     "10000",
+     "40000"
+    ],
+    "ru": [
+     "Сколько мер пшеницы Соломон давал Хираму ежегодно?",
+     "20000",
+     "10000",
+     "40000"
+    ],
+    "tr": [
+     "Süleyman, Hiram'a her yıl kaç ölçek buğday verdi?",
+     "20000",
+     "10000",
+     "40000"
+    ],
+    "ja": [
+     "ソロモンはヒラムに毎年何コルの小麦を与えましたか？",
+     "20000",
+     "10000",
+     "40000"
+    ],
+    "ko": [
+     "솔로몬은 히람에게 해마다 밀을 몇 코르 주었습니까?",
+     "20000",
+     "10000",
+     "40000"
+    ],
+    "ar": [
+     "كم كرًّا من القمح كان سليمان يعطي حيرام كل سنة؟",
+     "20000",
+     "10000",
+     "40000"
+    ]
+   }
+  },
+  {
+   "id": "ch-1-kings-001-26",
+   "book": "1-kings",
+   "chapter": 6,
+   "difficulty": "easy",
+   "ref": "1 Kings 6:38",
+   "text": {
+    "en": [
+     "How many years did Solomon take to build the temple?",
+     "7",
+     "20",
+     "40"
+    ],
+    "es": [
+     "¿Cuántos años tardó Salomón en construir el templo?",
+     "7",
+     "20",
+     "40"
+    ],
+    "pt": [
+     "Quantos anos Salomão levou para construir o templo?",
+     "7",
+     "20",
+     "40"
+    ],
+    "fr": [
+     "Combien d'années Salomon mit-il à construire le temple ?",
+     "7",
+     "20",
+     "40"
+    ],
+    "de": [
+     "Wie viele Jahre baute Salomo am Tempel?",
+     "7",
+     "20",
+     "40"
+    ],
+    "it": [
+     "Quanti anni impiegò Salomone a costruire il tempio?",
+     "7",
+     "20",
+     "40"
+    ],
+    "pl": [
+     "Ile lat Salomon budował świątynię?",
+     "7",
+     "20",
+     "40"
+    ],
+    "ru": [
+     "Сколько лет Соломон строил храм?",
+     "7",
+     "20",
+     "40"
+    ],
+    "tr": [
+     "Süleyman tapınağı kaç yılda inşa etti?",
+     "7",
+     "20",
+     "40"
+    ],
+    "ja": [
+     "ソロモンは神殿を建てるのに何年かかりましたか？",
+     "7",
+     "20",
+     "40"
+    ],
+    "ko": [
+     "솔로몬은 성전을 짓는 데 몇 년이 걸렸습니까?",
+     "7",
+     "20",
+     "40"
+    ],
+    "ar": [
+     "كم سنة استغرق سليمان في بناء الهيكل؟",
+     "7",
+     "20",
+     "40"
+    ]
+   }
+  },
+  {
+   "id": "ch-1-kings-001-27",
+   "book": "1-kings",
+   "chapter": 6,
+   "difficulty": "medium",
+   "ref": "1 Kings 6:28",
+   "text": {
+    "en": [
+     "With which metal did Solomon overlay the two cherubim?",
+     "Gold",
+     "Silver",
+     "Bronze"
+    ],
+    "es": [
+     "¿Con qué metal recubrió Salomón los dos querubines?",
+     "Oro",
+     "Plata",
+     "Bronce"
+    ],
+    "pt": [
+     "Com que metal Salomão revestiu os dois querubins?",
+     "Ouro",
+     "Prata",
+     "Bronze"
+    ],
+    "fr": [
+     "De quel métal Salomon recouvrit-il les deux chérubins ?",
+     "Or",
+     "Argent",
+     "Bronze"
+    ],
+    "de": [
+     "Mit welchem Metall überzog Salomo die beiden Kerubim?",
+     "Gold",
+     "Silber",
+     "Bronze"
+    ],
+    "it": [
+     "Con quale metallo Salomone rivestì i due cherubini?",
+     "Oro",
+     "Argento",
+     "Bronzo"
+    ],
+    "pl": [
+     "Jakim metalem Salomon pokrył dwa cheruby?",
+     "Złoto",
+     "Srebro",
+     "Spiż"
+    ],
+    "ru": [
+     "Каким металлом Соломон покрыл двух херувимов?",
+     "Золото",
+     "Серебро",
+     "Медь"
+    ],
+    "tr": [
+     "Süleyman iki kerubu hangi madenle kapladı?",
+     "Altın",
+     "Gümüş",
+     "Tunç"
+    ],
+    "ja": [
+     "ソロモンは二つのケルビムをどの金属で覆いましたか？",
+     "金",
+     "銀",
+     "青銅"
+    ],
+    "ko": [
+     "솔로몬은 두 커룹을 어떤 금속으로 입혔습니까?",
+     "금",
+     "은",
+     "청동"
+    ],
+    "ar": [
+     "بأي معدن غشّى سليمان الكروبين؟",
+     "ذهب",
+     "فضة",
+     "نحاس"
+    ]
+   }
+  },
+  {
+   "id": "ch-1-kings-001-28",
+   "book": "1-kings",
+   "chapter": 6,
+   "difficulty": "hard",
+   "ref": "1 Kings 6:2",
+   "text": {
+    "en": [
+     "How many cubits long was the temple Solomon built for the Lord?",
+     "60",
+     "100",
+     "80"
+    ],
+    "es": [
+     "¿Cuántos codos de largo medía el templo que Salomón construyó para el Señor?",
+     "60",
+     "100",
+     "80"
+    ],
+    "pt": [
+     "Quantos côvados de comprimento tinha o templo que Salomão construiu para o Senhor?",
+     "60",
+     "100",
+     "80"
+    ],
+    "fr": [
+     "Combien de coudées de long mesurait le temple que Salomon bâtit pour le Seigneur ?",
+     "60",
+     "100",
+     "80"
+    ],
+    "de": [
+     "Wie viele Ellen lang war der Tempel, den Salomo für den Herrn baute?",
+     "60",
+     "100",
+     "80"
+    ],
+    "it": [
+     "Quanti cubiti era lungo il tempio che Salomone costruì per il Signore?",
+     "60",
+     "100",
+     "80"
+    ],
+    "pl": [
+     "Ile łokci długości miała świątynia zbudowana przez Salomona dla Pana?",
+     "60",
+     "100",
+     "80"
+    ],
+    "ru": [
+     "Сколько локтей в длину был храм, построенный Соломоном для Господа?",
+     "60",
+     "100",
+     "80"
+    ],
+    "tr": [
+     "Süleyman'ın RAB için yaptığı tapınak kaç arşın uzunluğundaydı?",
+     "60",
+     "100",
+     "80"
+    ],
+    "ja": [
+     "ソロモンが主のために建てた神殿の長さは何アンマでしたか？",
+     "60",
+     "100",
+     "80"
+    ],
+    "ko": [
+     "솔로몬이 주님을 위해 지은 성전의 길이는 몇 암마였습니까?",
+     "60",
+     "100",
+     "80"
+    ],
+    "ar": [
+     "كم ذراعًا كان طول الهيكل الذي بناه سليمان للرب؟",
+     "60",
+     "100",
+     "80"
+    ]
+   }
+  },
+  {
+   "id": "ch-1-kings-001-29",
+   "book": "1-kings",
+   "chapter": 6,
+   "difficulty": "expert",
+   "ref": "1 Kings 6:23",
+   "text": {
+    "en": [
+     "How many cubits tall was each cherub in the inner sanctuary?",
+     "10",
+     "3",
+     "15"
+    ],
+    "es": [
+     "¿Cuántos codos de alto medía cada querubín del santuario interior?",
+     "10",
+     "3",
+     "15"
+    ],
+    "pt": [
+     "Quantos côvados de altura media cada querubim do santuário interior?",
+     "10",
+     "3",
+     "15"
+    ],
+    "fr": [
+     "Combien de coudées de haut mesurait chaque chérubin du sanctuaire intérieur ?",
+     "10",
+     "3",
+     "15"
+    ],
+    "de": [
+     "Wie viele Ellen hoch war jeder Kerub im innersten Heiligtum?",
+     "10",
+     "3",
+     "15"
+    ],
+    "it": [
+     "Quanti cubiti era alto ogni cherubino del santuario interno?",
+     "10",
+     "3",
+     "15"
+    ],
+    "pl": [
+     "Ile łokci wysokości miał każdy cherub w najświętszym miejscu?",
+     "10",
+     "3",
+     "15"
+    ],
+    "ru": [
+     "Сколько локтей в высоту был каждый херувим во святилище?",
+     "10",
+     "3",
+     "15"
+    ],
+    "tr": [
+     "İç mabetteki her kerubun yüksekliği kaç arşındı?",
+     "10",
+     "3",
+     "15"
+    ],
+    "ja": [
+     "奥の聖所のケルビムは、それぞれ高さが何アンマでしたか？",
+     "10",
+     "3",
+     "15"
+    ],
+    "ko": [
+     "지성소의 각 커룹은 높이가 몇 암마였습니까?",
+     "10",
+     "3",
+     "15"
+    ],
+    "ar": [
+     "كم ذراعًا كان ارتفاع كل كروب في قدس الأقداس؟",
+     "10",
+     "3",
+     "15"
+    ]
+   }
+  },
+  {
+   "id": "ch-1-kings-001-30",
+   "book": "1-kings",
+   "chapter": 6,
+   "difficulty": "impossible",
+   "ref": "1 Kings 6:6",
+   "text": {
+    "en": [
+     "How many cubits wide was the lowest story of the temple's side chambers?",
+     "5",
+     "8",
+     "9"
+    ],
+    "es": [
+     "¿Cuántos codos de ancho tenía el piso inferior de las cámaras laterales del templo?",
+     "5",
+     "8",
+     "9"
+    ],
+    "pt": [
+     "Quantos côvados de largura tinha o andar inferior das câmaras laterais do templo?",
+     "5",
+     "8",
+     "9"
+    ],
+    "fr": [
+     "Combien de coudées de large mesurait l'étage inférieur des chambres latérales du temple ?",
+     "5",
+     "8",
+     "9"
+    ],
+    "de": [
+     "Wie viele Ellen breit war das unterste Stockwerk der Seitenkammern des Tempels?",
+     "5",
+     "8",
+     "9"
+    ],
+    "it": [
+     "Quanti cubiti era largo il piano inferiore delle stanze laterali del tempio?",
+     "5",
+     "8",
+     "9"
+    ],
+    "pl": [
+     "Ile łokci szerokości miało dolne piętro bocznych komór świątyni?",
+     "5",
+     "8",
+     "9"
+    ],
+    "ru": [
+     "Сколько локтей в ширину был нижний ярус пристроек храма?",
+     "5",
+     "8",
+     "9"
+    ],
+    "tr": [
+     "Tapınağın yan odalarının alt katı kaç arşın genişliğindeydi?",
+     "5",
+     "8",
+     "9"
+    ],
+    "ja": [
+     "神殿の脇間の最下階は、幅が何アンマでしたか？",
+     "5",
+     "8",
+     "9"
+    ],
+    "ko": [
+     "성전 곁방의 맨 아래층은 너비가 몇 암마였습니까?",
+     "5",
+     "8",
+     "9"
+    ],
+    "ar": [
+     "كم ذراعًا كان عرض الطابق الأسفل من الغرف الجانبية للهيكل؟",
+     "5",
+     "8",
+     "9"
+    ]
+   }
+  },
+  {
+   "id": "ch-1-kings-001-31",
+   "book": "1-kings",
+   "chapter": 7,
+   "difficulty": "easy",
+   "ref": "1 Kings 7:25",
+   "text": {
+    "en": [
+     "Solomon's huge bronze basin rested on how many bronze oxen?",
+     "12",
+     "10",
+     "4"
+    ],
+    "es": [
+     "¿Sobre cuántos bueyes de bronce descansaba la enorme pila de bronce de Salomón?",
+     "12",
+     "10",
+     "4"
+    ],
+    "pt": [
+     "Sobre quantos bois de bronze repousava o enorme tanque de bronze de Salomão?",
+     "12",
+     "10",
+     "4"
+    ],
+    "fr": [
+     "Sur combien de bœufs de bronze reposait l'immense bassin de bronze de Salomon ?",
+     "12",
+     "10",
+     "4"
+    ],
+    "de": [
+     "Auf wie vielen Rindern aus Bronze ruhte Salomos großes Becken aus Bronze?",
+     "12",
+     "10",
+     "4"
+    ],
+    "it": [
+     "Su quanti buoi di bronzo poggiava l'enorme bacino di bronzo di Salomone?",
+     "12",
+     "10",
+     "4"
+    ],
+    "pl": [
+     "Na ilu spiżowych wołach spoczywało wielkie spiżowe morze Salomona?",
+     "12",
+     "10",
+     "4"
+    ],
+    "ru": [
+     "На скольких медных волах стояло огромное медное море Соломона?",
+     "12",
+     "10",
+     "4"
+    ],
+    "tr": [
+     "Süleyman'ın dev tunç havuzu kaç tunç öküzün üzerinde duruyordu?",
+     "12",
+     "10",
+     "4"
+    ],
+    "ja": [
+     "ソロモンの大きな青銅の海は、何頭の青銅の牛の上に載っていましたか？",
+     "12",
+     "10",
+     "4"
+    ],
+    "ko": [
+     "솔로몬의 커다란 청동 대야는 청동 소 몇 마리 위에 놓여 있었습니까?",
+     "12",
+     "10",
+     "4"
+    ],
+    "ar": [
+     "على كم ثورًا من نحاس كان بحر سليمان النحاسي الكبير قائمًا؟",
+     "12",
+     "10",
+     "4"
+    ]
+   }
+  },
+  {
+   "id": "ch-1-kings-001-32",
+   "book": "1-kings",
+   "chapter": 7,
+   "difficulty": "medium",
+   "ref": "1 Kings 7:13-14",
+   "text": {
+    "en": [
+     "Which Tyrian craftsman, a widow's son, cast the temple's bronze work?",
+     "Hiram",
+     "Bezalel",
+     "Oholiab"
+    ],
+    "es": [
+     "¿Qué artesano de Tiro, hijo de una viuda, fundió los bronces del templo?",
+     "Hiram",
+     "Besalel",
+     "Oholiab"
+    ],
+    "pt": [
+     "Que artesão de Tiro, filho de uma viúva, fundiu os bronzes do templo?",
+     "Hiram",
+     "Beseleel",
+     "Ooliab"
+    ],
+    "fr": [
+     "Quel artisan de Tyr, fils d'une veuve, fondit les bronzes du temple ?",
+     "Hiram",
+     "Besaléel",
+     "Oholiab"
+    ],
+    "de": [
+     "Welcher Handwerker aus Tyrus, Sohn einer Witwe, goss die Bronzearbeiten des Tempels?",
+     "Hiram",
+     "Bezalel",
+     "Oholiab"
+    ],
+    "it": [
+     "Quale artigiano di Tiro, figlio di una vedova, fuse i bronzi del tempio?",
+     "Chiram",
+     "Bezaleel",
+     "Ooliab"
+    ],
+    "pl": [
+     "Który rzemieślnik z Tyru, syn wdowy, odlał spiżowe dzieła świątyni?",
+     "Hiram",
+     "Besalel",
+     "Oholiab"
+    ],
+    "ru": [
+     "Какой мастер из Тира, сын вдовы, отливал медные изделия для храма?",
+     "Хирам",
+     "Веселиил",
+     "Аголиав"
+    ],
+    "tr": [
+     "Tapınağın tunç işlerini döken, dul bir kadının oğlu Surlu usta kimdi?",
+     "Hiram",
+     "Besalel",
+     "Oholiav"
+    ],
+    "ja": [
+     "ティルス出身の寡婦の子で、神殿の青銅細工を鋳造した職人は誰ですか？",
+     "ヒラム",
+     "ベツァルエル",
+     "オホリアブ"
+    ],
+    "ko": [
+     "과부의 아들로서 성전의 청동 작품을 주조한 티로의 장인은 누구입니까?",
+     "히람",
+     "브찰엘",
+     "오홀리압"
+    ],
+    "ar": [
+     "من هو الصانع الصوري، ابن الأرملة، الذي صبّ أعمال النحاس للهيكل؟",
+     "حيرام",
+     "بصلئيل",
+     "أهوليآب"
+    ]
+   }
+  },
+  {
+   "id": "ch-1-kings-001-33",
+   "book": "1-kings",
+   "chapter": 7,
+   "difficulty": "hard",
+   "ref": "1 Kings 7:14",
+   "text": {
+    "en": [
+     "From which tribe did the Tyrian bronze craftsman's widowed mother come?",
+     "Naphtali",
+     "Judah",
+     "Reuben"
+    ],
+    "es": [
+     "¿De qué tribu procedía la madre viuda del artesano de bronce de Tiro?",
+     "Neftalí",
+     "Judá",
+     "Rubén"
+    ],
+    "pt": [
+     "De que tribo vinha a mãe viúva do artesão de bronze de Tiro?",
+     "Naftali",
+     "Judá",
+     "Rúben"
+    ],
+    "fr": [
+     "De quelle tribu venait la mère veuve de l'artisan du bronze de Tyr ?",
+     "Nephtali",
+     "Juda",
+     "Ruben"
+    ],
+    "de": [
+     "Aus welchem Stamm kam die verwitwete Mutter des Bronzehandwerkers aus Tyrus?",
+     "Naftali",
+     "Juda",
+     "Ruben"
+    ],
+    "it": [
+     "Da quale tribù veniva la madre vedova dell'artigiano del bronzo di Tiro?",
+     "Neftali",
+     "Giuda",
+     "Ruben"
+    ],
+    "pl": [
+     "Z którego plemienia pochodziła owdowiała matka tyryjskiego rzemieślnika od spiżu?",
+     "Neftali",
+     "Juda",
+     "Ruben"
+    ],
+    "ru": [
+     "Из какого колена была вдовая мать тирского мастера по меди?",
+     "Неффалим",
+     "Иуда",
+     "Рувим"
+    ],
+    "tr": [
+     "Surlu bronz ustasının dul annesi hangi oymaktandı?",
+     "Naftali",
+     "Yahuda",
+     "Ruben"
+    ],
+    "ja": [
+     "ティルスの青銅細工師の寡婦である母は、どの部族の出身でしたか？",
+     "ナフタリ",
+     "ユダ",
+     "ルベン"
+    ],
+    "ko": [
+     "티로 청동 장인의 과부 어머니는 어느 지파 출신이었습니까?",
+     "납탈리",
+     "유다",
+     "르우벤"
+    ],
+    "ar": [
+     "من أي سبط كانت أم الصانع الصوري للنحاس الأرملة؟",
+     "نفتالي",
+     "يهوذا",
+     "رأوبين"
+    ]
+   }
+  },
+  {
+   "id": "ch-1-kings-001-34",
+   "book": "1-kings",
+   "chapter": 7,
+   "difficulty": "expert",
+   "ref": "1 Kings 7:15",
+   "text": {
+    "en": [
+     "How many cubits high was each bronze pillar before the temple?",
+     "18",
+     "25",
+     "40"
+    ],
+    "es": [
+     "¿Cuántos codos de altura tenía cada columna de bronce ante el templo?",
+     "18",
+     "25",
+     "40"
+    ],
+    "pt": [
+     "Quantos côvados de altura tinha cada coluna de bronze diante do templo?",
+     "18",
+     "25",
+     "40"
+    ],
+    "fr": [
+     "Combien de coudées de haut mesurait chaque colonne de bronze devant le temple ?",
+     "18",
+     "25",
+     "40"
+    ],
+    "de": [
+     "Wie viele Ellen hoch war jede Bronzesäule vor dem Tempel?",
+     "18",
+     "25",
+     "40"
+    ],
+    "it": [
+     "Quanti cubiti era alta ogni colonna di bronzo davanti al tempio?",
+     "18",
+     "25",
+     "40"
+    ],
+    "pl": [
+     "Ile łokci wysokości miała każda spiżowa kolumna przed świątynią?",
+     "18",
+     "25",
+     "40"
+    ],
+    "ru": [
+     "Сколько локтей в высоту была каждая медная колонна перед храмом?",
+     "18",
+     "25",
+     "40"
+    ],
+    "tr": [
+     "Tapınağın önündeki her tunç sütun kaç arşın yüksekliğindeydi?",
+     "18",
+     "25",
+     "40"
+    ],
+    "ja": [
+     "神殿の前の青銅の柱は、それぞれ高さが何アンマでしたか？",
+     "18",
+     "25",
+     "40"
+    ],
+    "ko": [
+     "성전 앞의 청동 기둥은 각각 높이가 몇 암마였습니까?",
+     "18",
+     "25",
+     "40"
+    ],
+    "ar": [
+     "كم ذراعًا كان ارتفاع كل عمود نحاسي أمام الهيكل؟",
+     "18",
+     "25",
+     "40"
+    ]
+   }
+  },
+  {
+   "id": "ch-1-kings-001-35",
+   "book": "1-kings",
+   "chapter": 7,
+   "difficulty": "impossible",
+   "ref": "1 Kings 7:27,38",
+   "text": {
+    "en": [
+     "How many bronze basins on wheeled stands did Solomon's craftsman make?",
+     "10",
+     "20",
+     "7"
+    ],
+    "es": [
+     "¿Cuántas pilas de bronce sobre carretillas hizo el artesano de Salomón?",
+     "10",
+     "20",
+     "7"
+    ],
+    "pt": [
+     "Quantas bacias de bronze sobre carrinhos fez o artesão de Salomão?",
+     "10",
+     "20",
+     "7"
+    ],
+    "fr": [
+     "Combien de bassins de bronze sur chariots l'artisan de Salomon fabriqua-t-il ?",
+     "10",
+     "20",
+     "7"
+    ],
+    "de": [
+     "Wie viele Bronzebecken auf Rollgestellen fertigte Salomos Handwerker an?",
+     "10",
+     "20",
+     "7"
+    ],
+    "it": [
+     "Quanti bacili di bronzo su carrelli fece l'artigiano di Salomone?",
+     "10",
+     "20",
+     "7"
+    ],
+    "pl": [
+     "Ile spiżowych kadzi na wózkach wykonał rzemieślnik Salomona?",
+     "10",
+     "20",
+     "7"
+    ],
+    "ru": [
+     "Сколько медных умывальниц на подставках сделал мастер Соломона?",
+     "10",
+     "20",
+     "7"
+    ],
+    "tr": [
+     "Süleyman'ın ustası tekerlekli sehpalar üzerinde kaç tunç kazan yaptı?",
+     "10",
+     "20",
+     "7"
+    ],
+    "ja": [
+     "ソロモンの職人は、台車付きの青銅の洗盤を何個作りましたか？",
+     "10",
+     "20",
+     "7"
+    ],
+    "ko": [
+     "솔로몬의 장인은 바퀴 달린 받침 위의 청동 대야를 몇 개 만들었습니까?",
+     "10",
+     "20",
+     "7"
+    ],
+    "ar": [
+     "كم مرحضة نحاسية على قواعد ذات عجلات صنع صانع سليمان؟",
+     "10",
+     "20",
+     "7"
+    ]
+   }
+  },
+  {
+   "id": "ch-1-kings-001-36",
+   "book": "1-kings",
+   "chapter": 8,
+   "difficulty": "easy",
+   "ref": "1 Kings 8:10-11",
+   "text": {
+    "en": [
+     "What filled the Lord's house when the priests left the sanctuary?",
+     "Cloud",
+     "Fire",
+     "Wind"
+    ],
+    "es": [
+     "¿Qué llenó la casa del Señor cuando los sacerdotes salieron del santuario?",
+     "Nube",
+     "Fuego",
+     "Viento"
+    ],
+    "pt": [
+     "O que encheu a casa do Senhor quando os sacerdotes saíram do santuário?",
+     "Nuvem",
+     "Fogo",
+     "Vento"
+    ],
+    "fr": [
+     "Qu'est-ce qui remplit la maison du Seigneur quand les prêtres sortirent du sanctuaire ?",
+     "Nuée",
+     "Feu",
+     "Vent"
+    ],
+    "de": [
+     "Was erfüllte das Haus des Herrn, als die Priester das Heiligtum verließen?",
+     "Wolke",
+     "Feuer",
+     "Wind"
+    ],
+    "it": [
+     "Che cosa riempì la casa del Signore quando i sacerdoti uscirono dal santuario?",
+     "Nube",
+     "Fuoco",
+     "Vento"
+    ],
+    "pl": [
+     "Co napełniło dom Pana, gdy kapłani wyszli ze świątyni?",
+     "Obłok",
+     "Ogień",
+     "Wiatr"
+    ],
+    "ru": [
+     "Что наполнило дом Господень, когда священники вышли из святилища?",
+     "Облако",
+     "Огонь",
+     "Ветер"
+    ],
+    "tr": [
+     "Kâhinler kutsal yerden çıkınca RAB'bin evini ne doldurdu?",
+     "Bulut",
+     "Ateş",
+     "Rüzgâr"
+    ],
+    "ja": [
+     "祭司たちが聖所から出たとき、主の家を満たしたものは何ですか？",
+     "雲",
+     "火",
+     "風"
+    ],
+    "ko": [
+     "사제들이 성소에서 나왔을 때 주님의 집을 가득 채운 것은 무엇입니까?",
+     "구름",
+     "불",
+     "바람"
+    ],
+    "ar": [
+     "ما الذي ملأ بيت الرب عندما خرج الكهنة من القدس؟",
+     "سحابة",
+     "نار",
+     "ريح"
+    ]
+   }
+  },
+  {
+   "id": "ch-1-kings-001-37",
+   "book": "1-kings",
+   "chapter": 8,
+   "difficulty": "medium",
+   "ref": "1 Kings 8:9",
+   "text": {
+    "en": [
+     "What did Moses place inside the ark of the covenant at Horeb?",
+     "Tablets",
+     "Scrolls",
+     "Swords"
+    ],
+    "es": [
+     "¿Qué colocó Moisés dentro del arca de la alianza en el Horeb?",
+     "Tablas",
+     "Rollos",
+     "Espadas"
+    ],
+    "pt": [
+     "O que Moisés colocou dentro da arca da aliança em Horebe?",
+     "Tábuas",
+     "Rolos",
+     "Espadas"
+    ],
+    "fr": [
+     "Qu'est-ce que Moïse plaça dans l'arche de l'alliance à l'Horeb ?",
+     "Tables",
+     "Rouleaux",
+     "Épées"
+    ],
+    "de": [
+     "Was legte Mose am Horeb in die Bundeslade?",
+     "Tafeln",
+     "Schriftrollen",
+     "Schwerter"
+    ],
+    "it": [
+     "Che cosa pose Mosè nell'arca dell'alleanza all'Oreb?",
+     "Tavole",
+     "Rotoli",
+     "Spade"
+    ],
+    "pl": [
+     "Co umieścił Mojżesz w arce przymierza na Horebie?",
+     "Tablice",
+     "Zwoje",
+     "Miecze"
+    ],
+    "ru": [
+     "Что положил Моисей в ковчег завета на Хориве?",
+     "Скрижали",
+     "Свитки",
+     "Мечи"
+    ],
+    "tr": [
+     "Musa Horev'de ahit sandığının içine ne koydu?",
+     "Levhalar",
+     "Tomarlar",
+     "Kılıçlar"
+    ],
+    "ja": [
+     "モーセがホレブで契約の箱の中に納めたものは何ですか？",
+     "石板",
+     "巻物",
+     "剣"
+    ],
+    "ko": [
+     "모세는 호렙에서 계약 궤 안에 무엇을 넣었습니까?",
+     "돌판",
+     "두루마리",
+     "칼"
+    ],
+    "ar": [
+     "ماذا وضع موسى داخل تابوت العهد في حوريب؟",
+     "ألواح",
+     "لفائف",
+     "سيوف"
+    ]
+   }
+  },
+  {
+   "id": "ch-1-kings-001-38",
+   "book": "1-kings",
+   "chapter": 8,
+   "difficulty": "hard",
+   "ref": "1 Kings 8:1",
+   "text": {
+    "en": [
+     "From which city did Solomon bring up the ark into the new temple?",
+     "Zion",
+     "Shiloh",
+     "Bethel"
+    ],
+    "es": [
+     "¿De qué ciudad hizo subir Salomón el arca al nuevo templo?",
+     "Sión",
+     "Silo",
+     "Betel"
+    ],
+    "pt": [
+     "De que cidade Salomão fez subir a arca para o novo templo?",
+     "Sião",
+     "Silo",
+     "Betel"
+    ],
+    "fr": [
+     "De quelle ville Salomon fit-il monter l'arche vers le nouveau temple ?",
+     "Sion",
+     "Silo",
+     "Béthel"
+    ],
+    "de": [
+     "Aus welcher Stadt ließ Salomo die Lade in den neuen Tempel hinaufbringen?",
+     "Zion",
+     "Schilo",
+     "Bet-El"
+    ],
+    "it": [
+     "Da quale città Salomone fece salire l'arca nel nuovo tempio?",
+     "Sion",
+     "Silo",
+     "Betel"
+    ],
+    "pl": [
+     "Z jakiego miasta Salomon sprowadził arkę do nowej świątyni?",
+     "Syjon",
+     "Szilo",
+     "Betel"
+    ],
+    "ru": [
+     "Из какого города Соломон перенёс ковчег в новый храм?",
+     "Сион",
+     "Силом",
+     "Вефиль"
+    ],
+    "tr": [
+     "Süleyman ahit sandığını yeni tapınağa hangi şehirden getirdi?",
+     "Siyon",
+     "Şilo",
+     "Beytel"
+    ],
+    "ja": [
+     "ソロモンは契約の箱を、どの町から新しい神殿に運び上げましたか？",
+     "シオン",
+     "シロ",
+     "ベテル"
+    ],
+    "ko": [
+     "솔로몬은 계약 궤를 어느 성읍에서 새 성전으로 올려 왔습니까?",
+     "시온",
+     "실로",
+     "벳엘"
+    ],
+    "ar": [
+     "من أي مدينة أصعد سليمان التابوت إلى الهيكل الجديد؟",
+     "صهيون",
+     "شيلو",
+     "بيتيل"
+    ]
+   }
+  },
+  {
+   "id": "ch-1-kings-001-39",
+   "book": "1-kings",
+   "chapter": 8,
+   "difficulty": "expert",
+   "ref": "1 Kings 8:63",
+   "text": {
+    "en": [
+     "How many oxen did Solomon offer as peace offerings at the dedication?",
+     "22000",
+     "12000",
+     "2000"
+    ],
+    "es": [
+     "¿Cuántos bueyes ofreció Salomón como sacrificio de comunión en la dedicación?",
+     "22000",
+     "12000",
+     "2000"
+    ],
+    "pt": [
+     "Quantos bois Salomão ofereceu como sacrifício de comunhão na dedicação?",
+     "22000",
+     "12000",
+     "2000"
+    ],
+    "fr": [
+     "Combien de bœufs Salomon offrit-il en sacrifice de communion lors de la dédicace ?",
+     "22000",
+     "12000",
+     "2000"
+    ],
+    "de": [
+     "Wie viele Rinder opferte Salomo bei der Einweihung als Heilsopfer?",
+     "22000",
+     "12000",
+     "2000"
+    ],
+    "it": [
+     "Quanti buoi offrì Salomone come sacrificio di comunione alla dedicazione?",
+     "22000",
+     "12000",
+     "2000"
+    ],
+    "pl": [
+     "Ile wołów złożył Salomon w ofierze biesiadnej podczas poświęcenia?",
+     "22000",
+     "12000",
+     "2000"
+    ],
+    "ru": [
+     "Сколько волов принёс Соломон в мирную жертву при освящении?",
+     "22000",
+     "12000",
+     "2000"
+    ],
+    "tr": [
+     "Süleyman adanma töreninde esenlik sunusu olarak kaç öküz sundu?",
+     "22000",
+     "12000",
+     "2000"
+    ],
+    "ja": [
+     "ソロモンは奉献に際して、会食の献げ物として何頭の牛を献げましたか？",
+     "22000",
+     "12000",
+     "2000"
+    ],
+    "ko": [
+     "솔로몬은 봉헌 때 친교 제물로 소를 몇 마리 바쳤습니까?",
+     "22000",
+     "12000",
+     "2000"
+    ],
+    "ar": [
+     "كم ثورًا قدّم سليمان ذبيحة سلامة عند التدشين؟",
+     "22000",
+     "12000",
+     "2000"
+    ]
+   }
+  },
+  {
+   "id": "ch-1-kings-001-40",
+   "book": "1-kings",
+   "chapter": 8,
+   "difficulty": "impossible",
+   "ref": "1 Kings 8:37",
+   "text": {
+    "en": [
+     "Which flying insect does Solomon's prayer name beside famine, blight and mildew?",
+     "Locust",
+     "Wasp",
+     "Bee"
+    ],
+    "es": [
+     "¿Qué insecto volador nombra la oración de Salomón junto al hambre, el tizón y el añublo?",
+     "Langosta",
+     "Avispa",
+     "Abeja"
+    ],
+    "pt": [
+     "Que inseto voador a oração de Salomão menciona junto com a fome, a ferrugem e o mofo?",
+     "Gafanhoto",
+     "Vespa",
+     "Abelha"
+    ],
+    "fr": [
+     "Quel insecte volant la prière de Salomon nomme-t-elle avec la famine, la rouille et la nielle ?",
+     "Sauterelle",
+     "Guêpe",
+     "Abeille"
+    ],
+    "de": [
+     "Welches fliegende Insekt nennt Salomos Gebet neben Hunger, Getreidebrand und Rost?",
+     "Heuschrecke",
+     "Wespe",
+     "Biene"
+    ],
+    "it": [
+     "Quale insetto volante la preghiera di Salomone nomina con carestia, ruggine e carbonchio?",
+     "Locusta",
+     "Vespa",
+     "Ape"
+    ],
+    "pl": [
+     "Jaki latający owad wymienia modlitwa Salomona obok głodu, zarazy i rdzy?",
+     "Szarańcza",
+     "Osa",
+     "Pszczoła"
+    ],
+    "ru": [
+     "Какое летающее насекомое названо в молитве Соломона наряду с голодом, ржавчиной и мучнистой росой?",
+     "Саранча",
+     "Оса",
+     "Пчела"
+    ],
+    "tr": [
+     "Süleyman'ın duasında kıtlık, pas ve küfle birlikte hangi uçan böcek anılır?",
+     "Çekirge",
+     "Eşekarısı",
+     "Arı"
+    ],
+    "ja": [
+     "ソロモンの祈りで、飢饉・黒穂病・赤さび病と並んで挙げられる飛ぶ虫は何ですか？",
+     "イナゴ",
+     "スズメバチ",
+     "ミツバチ"
+    ],
+    "ko": [
+     "솔로몬의 기도에서 기근, 깜부기병, 녹병과 함께 언급되는 날아다니는 곤충은 무엇입니까?",
+     "메뚜기",
+     "말벌",
+     "벌"
+    ],
+    "ar": [
+     "أي حشرة طائرة تُذكر في صلاة سليمان مع المجاعة واللفحة والعفن؟",
+     "جراد",
+     "دبور",
+     "نحلة"
+    ]
+   }
+  },
+  {
+   "id": "ch-1-kings-001-41",
+   "book": "1-kings",
+   "chapter": 9,
+   "difficulty": "easy",
+   "ref": "1 Kings 9:26-28",
+   "text": {
+    "en": [
+     "To which land did Solomon's fleet sail to fetch gold?",
+     "Ophir",
+     "Assyria",
+     "Moab"
+    ],
+    "es": [
+     "¿A qué tierra navegó la flota de Salomón para traer oro?",
+     "Ofir",
+     "Asiria",
+     "Moab"
+    ],
+    "pt": [
+     "A que terra navegou a frota de Salomão para buscar ouro?",
+     "Ofir",
+     "Assíria",
+     "Moabe"
+    ],
+    "fr": [
+     "Vers quel pays la flotte de Salomon navigua-t-elle pour chercher de l'or ?",
+     "Ophir",
+     "Assyrie",
+     "Moab"
+    ],
+    "de": [
+     "In welches Land segelte Salomos Flotte, um Gold zu holen?",
+     "Ofir",
+     "Assyrien",
+     "Moab"
+    ],
+    "it": [
+     "In quale terra navigò la flotta di Salomone per prendere oro?",
+     "Ofir",
+     "Assiria",
+     "Moab"
+    ],
+    "pl": [
+     "Do jakiej krainy płynęła flota Salomona po złoto?",
+     "Ofir",
+     "Asyria",
+     "Moab"
+    ],
+    "ru": [
+     "В какую землю плавал флот Соломона за золотом?",
+     "Офир",
+     "Ассирия",
+     "Моав"
+    ],
+    "tr": [
+     "Süleyman'ın donanması altın getirmek için hangi diyara gitti?",
+     "Ofir",
+     "Asur",
+     "Moav"
+    ],
+    "ja": [
+     "ソロモンの船団は金を得るためにどの地へ航海しましたか？",
+     "オフィル",
+     "アッシリア",
+     "モアブ"
+    ],
+    "ko": [
+     "솔로몬의 선단은 금을 가져오려고 어느 땅으로 항해했습니까?",
+     "오필",
+     "아시리아",
+     "모압"
+    ],
+    "ar": [
+     "إلى أي أرض أبحر أسطول سليمان لجلب الذهب؟",
+     "أوفير",
+     "أشور",
+     "موآب"
+    ]
+   }
+  },
+  {
+   "id": "ch-1-kings-001-42",
+   "book": "1-kings",
+   "chapter": 9,
+   "difficulty": "medium",
+   "ref": "1 Kings 9:16",
+   "text": {
+    "en": [
+     "Which city did Pharaoh capture and give his daughter as a wedding gift?",
+     "Gezer",
+     "Hebron",
+     "Shechem"
+    ],
+    "es": [
+     "¿Qué ciudad conquistó el faraón y dio a su hija como regalo de bodas?",
+     "Guézer",
+     "Hebrón",
+     "Siquén"
+    ],
+    "pt": [
+     "Que cidade o faraó conquistou e deu à sua filha como presente de casamento?",
+     "Gazer",
+     "Hebrom",
+     "Siquém"
+    ],
+    "fr": [
+     "Quelle ville Pharaon prit-il et donna-t-il à sa fille en cadeau de noces ?",
+     "Guézer",
+     "Hébron",
+     "Sichem"
+    ],
+    "de": [
+     "Welche Stadt eroberte der Pharao und gab sie seiner Tochter als Hochzeitsgeschenk?",
+     "Geser",
+     "Hebron",
+     "Sichem"
+    ],
+    "it": [
+     "Quale città conquistò il faraone e diede a sua figlia come dono di nozze?",
+     "Ghezer",
+     "Ebron",
+     "Sichem"
+    ],
+    "pl": [
+     "Które miasto zdobył faraon i dał swojej córce jako dar weselny?",
+     "Gezer",
+     "Hebron",
+     "Sychem"
+    ],
+    "ru": [
+     "Какой город взял фараон и отдал дочери в приданое?",
+     "Газер",
+     "Хеврон",
+     "Сихем"
+    ],
+    "tr": [
+     "Firavun hangi şehri alıp kızına düğün hediyesi olarak verdi?",
+     "Gezer",
+     "Hevron",
+     "Şekem"
+    ],
+    "ja": [
+     "ファラオが攻め取り、娘への結婚の贈り物とした町はどこですか？",
+     "ゲゼル",
+     "ヘブロン",
+     "シケム"
+    ],
+    "ko": [
+     "파라오가 점령하여 딸에게 혼인 선물로 준 성읍은 어디입니까?",
+     "게제르",
+     "헤브론",
+     "스켐"
+    ],
+    "ar": [
+     "أي مدينة استولى عليها فرعون وأعطاها لابنته هدية زواج؟",
+     "جازر",
+     "حبرون",
+     "شكيم"
+    ]
+   }
+  },
+  {
+   "id": "ch-1-kings-001-43",
+   "book": "1-kings",
+   "chapter": 9,
+   "difficulty": "hard",
+   "ref": "1 Kings 9:11-13",
+   "text": {
+    "en": [
+     "What name did Hiram give the Galilean cities Solomon gave him?",
+     "Cabul",
+     "Joppa",
+     "Dor"
+    ],
+    "es": [
+     "¿Qué nombre dio Hiram a las ciudades galileas que Salomón le entregó?",
+     "Cabul",
+     "Jafa",
+     "Dor"
+    ],
+    "pt": [
+     "Que nome Hiram deu às cidades galileias que Salomão lhe entregou?",
+     "Cabul",
+     "Jope",
+     "Dor"
+    ],
+    "fr": [
+     "Quel nom Hiram donna-t-il aux villes galiléennes que Salomon lui avait données ?",
+     "Cabul",
+     "Jaffa",
+     "Dor"
+    ],
+    "de": [
+     "Welchen Namen gab Hiram den galiläischen Städten, die Salomo ihm gab?",
+     "Kabul",
+     "Jafo",
+     "Dor"
+    ],
+    "it": [
+     "Quale nome diede Chiram alle città galilee che Salomone gli aveva dato?",
+     "Cabul",
+     "Giaffa",
+     "Dor"
+    ],
+    "pl": [
+     "Jaką nazwę nadał Hiram miastom galilejskim, które dał mu Salomon?",
+     "Kabul",
+     "Joppa",
+     "Dor"
+    ],
+    "ru": [
+     "Какое имя дал Хирам городам в Галилее, которые дал ему Соломон?",
+     "Хавул",
+     "Иоппия",
+     "Дор"
+    ],
+    "tr": [
+     "Hiram, Süleyman'ın ona verdiği Celile şehirlerine hangi adı verdi?",
+     "Kabul",
+     "Yafa",
+     "Dor"
+    ],
+    "ja": [
+     "ヒラムは、ソロモンから与えられたガリラヤの町々に何という名をつけましたか？",
+     "カブル",
+     "ヤッファ",
+     "ドル"
+    ],
+    "ko": [
+     "히람은 솔로몬이 준 갈릴래아의 성읍들에 어떤 이름을 붙였습니까?",
+     "카불",
+     "야포",
+     "도르"
+    ],
+    "ar": [
+     "أي اسم أطلقه حيرام على مدن الجليل التي أعطاها إياه سليمان؟",
+     "كابول",
+     "يافا",
+     "دور"
+    ]
+   }
+  },
+  {
+   "id": "ch-1-kings-001-44",
+   "book": "1-kings",
+   "chapter": 9,
+   "difficulty": "expert",
+   "ref": "1 Kings 9:10",
+   "text": {
+    "en": [
+     "How many years did Solomon spend building the temple and his palace?",
+     "20",
+     "30",
+     "12"
+    ],
+    "es": [
+     "¿Cuántos años dedicó Salomón a construir el templo y su palacio?",
+     "20",
+     "30",
+     "12"
+    ],
+    "pt": [
+     "Quantos anos Salomão dedicou a construir o templo e o seu palácio?",
+     "20",
+     "30",
+     "12"
+    ],
+    "fr": [
+     "Combien d'années Salomon consacra-t-il à bâtir le temple et son palais ?",
+     "20",
+     "30",
+     "12"
+    ],
+    "de": [
+     "Wie viele Jahre baute Salomo am Tempel und an seinem Palast?",
+     "20",
+     "30",
+     "12"
+    ],
+    "it": [
+     "Quanti anni impiegò Salomone a costruire il tempio e il suo palazzo?",
+     "20",
+     "30",
+     "12"
+    ],
+    "pl": [
+     "Ile lat Salomon budował świątynię i swój pałac?",
+     "20",
+     "30",
+     "12"
+    ],
+    "ru": [
+     "Сколько лет Соломон строил храм и свой дворец?",
+     "20",
+     "30",
+     "12"
+    ],
+    "tr": [
+     "Süleyman tapınağı ve sarayını kaç yılda inşa etti?",
+     "20",
+     "30",
+     "12"
+    ],
+    "ja": [
+     "ソロモンは神殿と自分の宮殿を建てるのに何年を費やしましたか？",
+     "20",
+     "30",
+     "12"
+    ],
+    "ko": [
+     "솔로몬은 성전과 자기 궁전을 짓는 데 몇 년을 보냈습니까?",
+     "20",
+     "30",
+     "12"
+    ],
+    "ar": [
+     "كم سنة قضى سليمان في بناء الهيكل وقصره؟",
+     "20",
+     "30",
+     "12"
+    ]
+   }
+  },
+  {
+   "id": "ch-1-kings-001-45",
+   "book": "1-kings",
+   "chapter": 9,
+   "difficulty": "impossible",
+   "ref": "1 Kings 9:23",
+   "text": {
+    "en": [
+     "How many chief officers supervised Solomon's building work?",
+     "550",
+     "300",
+     "120"
+    ],
+    "es": [
+     "¿Cuántos jefes supervisaban las obras de Salomón?",
+     "550",
+     "300",
+     "120"
+    ],
+    "pt": [
+     "Quantos chefes supervisavam as obras de Salomão?",
+     "550",
+     "300",
+     "120"
+    ],
+    "fr": [
+     "Combien de chefs surveillaient les travaux de Salomon ?",
+     "550",
+     "300",
+     "120"
+    ],
+    "de": [
+     "Wie viele Aufseher leiteten Salomos Bauarbeiten?",
+     "550",
+     "300",
+     "120"
+    ],
+    "it": [
+     "Quanti capi sovrintendevano ai lavori di Salomone?",
+     "550",
+     "300",
+     "120"
+    ],
+    "pl": [
+     "Ilu zarządców nadzorowało budowy Salomona?",
+     "550",
+     "300",
+     "120"
+    ],
+    "ru": [
+     "Сколько начальников надзирало за работами Соломона?",
+     "550",
+     "300",
+     "120"
+    ],
+    "tr": [
+     "Süleyman'ın yapı işlerini kaç başkan denetledi?",
+     "550",
+     "300",
+     "120"
+    ],
+    "ja": [
+     "ソロモンの建築事業を監督した長は何人でしたか？",
+     "550",
+     "300",
+     "120"
+    ],
+    "ko": [
+     "솔로몬의 건축 공사를 감독한 책임자는 몇 명이었습니까?",
+     "550",
+     "300",
+     "120"
+    ],
+    "ar": [
+     "كم رئيسًا أشرفوا على أعمال البناء لسليمان؟",
+     "550",
+     "300",
+     "120"
+    ]
+   }
+  },
+  {
+   "id": "ch-1-kings-001-46",
+   "book": "1-kings",
+   "chapter": 10,
+   "difficulty": "easy",
+   "ref": "1 Kings 10:1",
+   "text": {
+    "en": [
+     "Which land's queen came to test Solomon with hard questions?",
+     "Sheba",
+     "Egypt",
+     "Tyre"
+    ],
+    "es": [
+     "¿La reina de qué tierra fue a probar a Salomón con preguntas difíciles?",
+     "Sabá",
+     "Egipto",
+     "Tiro"
+    ],
+    "pt": [
+     "A rainha de que terra veio testar Salomão com perguntas difíceis?",
+     "Sabá",
+     "Egito",
+     "Tiro"
+    ],
+    "fr": [
+     "La reine de quel pays vint éprouver Salomon par des questions difficiles ?",
+     "Saba",
+     "Égypte",
+     "Tyr"
+    ],
+    "de": [
+     "Die Königin welchen Landes kam, um Salomo mit schweren Fragen zu prüfen?",
+     "Saba",
+     "Ägypten",
+     "Tyrus"
+    ],
+    "it": [
+     "La regina di quale paese venne a mettere alla prova Salomone con enigmi?",
+     "Saba",
+     "Egitto",
+     "Tiro"
+    ],
+    "pl": [
+     "Królowa jakiej krainy przybyła wypróbować Salomona trudnymi pytaniami?",
+     "Saba",
+     "Egipt",
+     "Tyr"
+    ],
+    "ru": [
+     "Царица какой страны пришла испытать Соломона трудными вопросами?",
+     "Сава",
+     "Египет",
+     "Тир"
+    ],
+    "tr": [
+     "Hangi diyarın kraliçesi Süleyman'ı zor sorularla sınamaya geldi?",
+     "Şeba",
+     "Mısır",
+     "Sur"
+    ],
+    "ja": [
+     "どの地の女王が、難問でソロモンを試そうと訪れましたか？",
+     "シェバ",
+     "エジプト",
+     "ティルス"
+    ],
+    "ko": [
+     "어느 나라의 여왕이 어려운 질문으로 솔로몬을 시험하러 왔습니까?",
+     "스바",
+     "이집트",
+     "티로"
+    ],
+    "ar": [
+     "ملكة أي أرض جاءت لتمتحن سليمان بأسئلة صعبة؟",
+     "سبأ",
+     "مصر",
+     "صور"
+    ]
+   }
+  },
+  {
+   "id": "ch-1-kings-001-47",
+   "book": "1-kings",
+   "chapter": 10,
+   "difficulty": "medium",
+   "ref": "1 Kings 10:19-20",
+   "text": {
+    "en": [
+     "Which animals stood beside the armrests of Solomon's throne?",
+     "Lions",
+     "Oxen",
+     "Eagles"
+    ],
+    "es": [
+     "¿Qué animales estaban junto a los brazos del trono de Salomón?",
+     "Leones",
+     "Bueyes",
+     "Águilas"
+    ],
+    "pt": [
+     "Que animais ficavam junto aos braços do trono de Salomão?",
+     "Leões",
+     "Bois",
+     "Águias"
+    ],
+    "fr": [
+     "Quels animaux se tenaient près des accoudoirs du trône de Salomon ?",
+     "Lions",
+     "Bœufs",
+     "Aigles"
+    ],
+    "de": [
+     "Welche Tiere standen neben den Armlehnen von Salomos Thron?",
+     "Löwen",
+     "Rinder",
+     "Adler"
+    ],
+    "it": [
+     "Quali animali stavano accanto ai braccioli del trono di Salomone?",
+     "Leoni",
+     "Buoi",
+     "Aquile"
+    ],
+    "pl": [
+     "Jakie zwierzęta stały przy poręczach tronu Salomona?",
+     "Lwy",
+     "Woły",
+     "Orły"
+    ],
+    "ru": [
+     "Какие животные стояли у подлокотников престола Соломона?",
+     "Львы",
+     "Волы",
+     "Орлы"
+    ],
+    "tr": [
+     "Süleyman'ın tahtının kolluklarının yanında hangi hayvanlar duruyordu?",
+     "Aslanlar",
+     "Öküzler",
+     "Kartallar"
+    ],
+    "ja": [
+     "ソロモンの王座の肘掛けの傍らに立っていた動物は何ですか？",
+     "獅子",
+     "牛",
+     "鷲"
+    ],
+    "ko": [
+     "솔로몬의 왕좌 팔걸이 곁에 서 있던 동물은 무엇입니까?",
+     "사자",
+     "소",
+     "독수리"
+    ],
+    "ar": [
+     "أي حيوانات وقفت بجانب مسندي عرش سليمان؟",
+     "أسود",
+     "ثيران",
+     "نسور"
+    ]
+   }
+  },
+  {
+   "id": "ch-1-kings-001-48",
+   "book": "1-kings",
+   "chapter": 10,
+   "difficulty": "hard",
+   "ref": "1 Kings 10:19",
+   "text": {
+    "en": [
+     "How many steps led up to Solomon's great throne?",
+     "6",
+     "3",
+     "9"
+    ],
+    "es": [
+     "¿Cuántos escalones subían al gran trono de Salomón?",
+     "6",
+     "3",
+     "9"
+    ],
+    "pt": [
+     "Quantos degraus levavam ao grande trono de Salomão?",
+     "6",
+     "3",
+     "9"
+    ],
+    "fr": [
+     "Combien de marches menaient au grand trône de Salomon ?",
+     "6",
+     "3",
+     "9"
+    ],
+    "de": [
+     "Wie viele Stufen führten zu Salomos großem Thron?",
+     "6",
+     "3",
+     "9"
+    ],
+    "it": [
+     "Quanti gradini salivano al grande trono di Salomone?",
+     "6",
+     "3",
+     "9"
+    ],
+    "pl": [
+     "Ile stopni prowadziło do wielkiego tronu Salomona?",
+     "6",
+     "3",
+     "9"
+    ],
+    "ru": [
+     "Сколько ступеней вело к великому престолу Соломона?",
+     "6",
+     "3",
+     "9"
+    ],
+    "tr": [
+     "Süleyman'ın büyük tahtına kaç basamak çıkıyordu?",
+     "6",
+     "3",
+     "9"
+    ],
+    "ja": [
+     "ソロモンの大きな王座へは何段の階段がありましたか？",
+     "6",
+     "3",
+     "9"
+    ],
+    "ko": [
+     "솔로몬의 큰 왕좌에 이르는 계단은 몇 개였습니까?",
+     "6",
+     "3",
+     "9"
+    ],
+    "ar": [
+     "كم درجة كانت تؤدي إلى عرش سليمان العظيم؟",
+     "6",
+     "3",
+     "9"
+    ]
+   }
+  },
+  {
+   "id": "ch-1-kings-001-49",
+   "book": "1-kings",
+   "chapter": 10,
+   "difficulty": "expert",
+   "ref": "1 Kings 10:14",
+   "text": {
+    "en": [
+     "How many talents of gold came to Solomon in one year?",
+     "666",
+     "400",
+     "300"
+    ],
+    "es": [
+     "¿Cuántos talentos de oro llegaban a Salomón en un año?",
+     "666",
+     "400",
+     "300"
+    ],
+    "pt": [
+     "Quantos talentos de ouro chegavam a Salomão em um ano?",
+     "666",
+     "400",
+     "300"
+    ],
+    "fr": [
+     "Combien de talents d'or parvenaient à Salomon en une année ?",
+     "666",
+     "400",
+     "300"
+    ],
+    "de": [
+     "Wie viele Talente Gold kamen bei Salomo in einem Jahr ein?",
+     "666",
+     "400",
+     "300"
+    ],
+    "it": [
+     "Quanti talenti d'oro giungevano a Salomone in un anno?",
+     "666",
+     "400",
+     "300"
+    ],
+    "pl": [
+     "Ile talentów złota napływało do Salomona w ciągu roku?",
+     "666",
+     "400",
+     "300"
+    ],
+    "ru": [
+     "Сколько талантов золота приходило к Соломону за один год?",
+     "666",
+     "400",
+     "300"
+    ],
+    "tr": [
+     "Süleyman'a bir yılda kaç talant altın geliyordu?",
+     "666",
+     "400",
+     "300"
+    ],
+    "ja": [
+     "ソロモンのもとには一年間に何タラントの金が入りましたか？",
+     "666",
+     "400",
+     "300"
+    ],
+    "ko": [
+     "솔로몬에게는 한 해에 금이 몇 탈렌트 들어왔습니까?",
+     "666",
+     "400",
+     "300"
+    ],
+    "ar": [
+     "كم وزنة ذهب كانت تصل إلى سليمان في سنة واحدة؟",
+     "666",
+     "400",
+     "300"
+    ]
+   }
+  },
+  {
+   "id": "ch-1-kings-001-50",
+   "book": "1-kings",
+   "chapter": 10,
+   "difficulty": "impossible",
+   "ref": "1 Kings 10:16",
+   "text": {
+    "en": [
+     "How many shekels of gold went into each of Solomon's large shields?",
+     "600",
+     "300",
+     "900"
+    ],
+    "es": [
+     "¿Cuántos siclos de oro llevaba cada uno de los grandes escudos de Salomón?",
+     "600",
+     "300",
+     "900"
+    ],
+    "pt": [
+     "Quantos siclos de ouro levava cada um dos grandes escudos de Salomão?",
+     "600",
+     "300",
+     "900"
+    ],
+    "fr": [
+     "Combien de sicles d'or entraient dans chacun des grands boucliers de Salomon ?",
+     "600",
+     "300",
+     "900"
+    ],
+    "de": [
+     "Wie viele Schekel Gold wurden für jeden von Salomos großen Schilden verwendet?",
+     "600",
+     "300",
+     "900"
+    ],
+    "it": [
+     "Quanti sicli d'oro entravano in ciascuno dei grandi scudi di Salomone?",
+     "600",
+     "300",
+     "900"
+    ],
+    "pl": [
+     "Ile syklów złota poszło na każdą z wielkich tarcz Salomona?",
+     "600",
+     "300",
+     "900"
+    ],
+    "ru": [
+     "Сколько сиклей золота пошло на каждый из больших щитов Соломона?",
+     "600",
+     "300",
+     "900"
+    ],
+    "tr": [
+     "Süleyman'ın büyük kalkanlarının her birine kaç şekel altın harcandı?",
+     "600",
+     "300",
+     "900"
+    ],
+    "ja": [
+     "ソロモンの大盾一つにつき、何シェケルの金が使われましたか？",
+     "600",
+     "300",
+     "900"
+    ],
+    "ko": [
+     "솔로몬의 큰 방패 하나마다 금이 몇 세켈 들어갔습니까?",
+     "600",
+     "300",
+     "900"
+    ],
+    "ar": [
+     "كم شاقل ذهب دخل في كل واحد من تروس سليمان الكبيرة؟",
+     "600",
+     "300",
+     "900"
+    ]
+   }
+  },
+  {
+   "id": "ch-1-kings-001-51",
+   "book": "1-kings",
+   "chapter": 11,
+   "difficulty": "easy",
+   "ref": "1 Kings 11:3",
+   "text": {
+    "en": [
+     "How many wives of royal birth did Solomon have?",
+     "700",
+     "70",
+     "500"
+    ],
+    "es": [
+     "¿Cuántas esposas de sangre real tuvo Salomón?",
+     "700",
+     "70",
+     "500"
+    ],
+    "pt": [
+     "Quantas esposas de sangue real Salomão teve?",
+     "700",
+     "70",
+     "500"
+    ],
+    "fr": [
+     "Combien d'épouses de sang royal Salomon eut-il ?",
+     "700",
+     "70",
+     "500"
+    ],
+    "de": [
+     "Wie viele Frauen königlichen Geblüts hatte Salomo?",
+     "700",
+     "70",
+     "500"
+    ],
+    "it": [
+     "Quante mogli di sangue reale ebbe Salomone?",
+     "700",
+     "70",
+     "500"
+    ],
+    "pl": [
+     "Ile żon z rodów królewskich miał Salomon?",
+     "700",
+     "70",
+     "500"
+    ],
+    "ru": [
+     "Сколько жён из царских дочерей было у Соломона?",
+     "700",
+     "70",
+     "500"
+    ],
+    "tr": [
+     "Süleyman'ın kraliyet soyundan kaç karısı vardı?",
+     "700",
+     "70",
+     "500"
+    ],
+    "ja": [
+     "ソロモンには王女である妻が何人いましたか？",
+     "700",
+     "70",
+     "500"
+    ],
+    "ko": [
+     "솔로몬에게는 공주 출신의 아내가 몇 명 있었습니까?",
+     "700",
+     "70",
+     "500"
+    ],
+    "ar": [
+     "كم زوجة من أصل ملكي كانت لسليمان؟",
+     "700",
+     "70",
+     "500"
+    ]
+   }
+  },
+  {
+   "id": "ch-1-kings-001-52",
+   "book": "1-kings",
+   "chapter": 11,
+   "difficulty": "medium",
+   "ref": "1 Kings 11:29-31",
+   "text": {
+    "en": [
+     "Which prophet from Shiloh met Jeroboam and promised him ten tribes?",
+     "Ahijah",
+     "Elijah",
+     "Nathan"
+    ],
+    "es": [
+     "¿Qué profeta de Silo se encontró con Jeroboam y le prometió diez tribus?",
+     "Ajías",
+     "Elías",
+     "Natán"
+    ],
+    "pt": [
+     "Que profeta de Silo encontrou Jeroboão e lhe prometeu dez tribos?",
+     "Aías",
+     "Elias",
+     "Natã"
+    ],
+    "fr": [
+     "Quel prophète de Silo rencontra Jéroboam et lui promit dix tribus ?",
+     "Ahiyya",
+     "Élie",
+     "Nathan"
+    ],
+    "de": [
+     "Welcher Prophet aus Schilo traf Jerobeam und versprach ihm zehn Stämme?",
+     "Ahija",
+     "Elija",
+     "Natan"
+    ],
+    "it": [
+     "Quale profeta di Silo incontrò Geroboamo e gli promise dieci tribù?",
+     "Achia",
+     "Elia",
+     "Natan"
+    ],
+    "pl": [
+     "Który prorok z Szilo spotkał Jeroboama i obiecał mu dziesięć plemion?",
+     "Achiasz",
+     "Eliasz",
+     "Natan"
+    ],
+    "ru": [
+     "Какой пророк из Силома встретил Иеровоама и обещал ему десять колен?",
+     "Ахия",
+     "Илия",
+     "Нафан"
+    ],
+    "tr": [
+     "Şilo'lu hangi peygamber Yarovam'la karşılaşıp ona on oymak vaat etti?",
+     "Ahiya",
+     "İlyas",
+     "Natan"
+    ],
+    "ja": [
+     "シロの預言者で、ヤロブアムに会って十部族を約束したのは誰ですか？",
+     "アヒヤ",
+     "エリヤ",
+     "ナタン"
+    ],
+    "ko": [
+     "실로 출신의 어떤 예언자가 예로보암을 만나 열 지파를 약속했습니까?",
+     "아히야",
+     "엘리야",
+     "나탄"
+    ],
+    "ar": [
+     "أي نبي من شيلو التقى يربعام ووعده بعشرة أسباط؟",
+     "أخيا",
+     "إيليا",
+     "ناثان"
+    ]
+   }
+  },
+  {
+   "id": "ch-1-kings-001-53",
+   "book": "1-kings",
+   "chapter": 11,
+   "difficulty": "hard",
+   "ref": "1 Kings 11:30",
+   "text": {
+    "en": [
+     "Into how many pieces did the prophet tear his cloak before Jeroboam?",
+     "12",
+     "7",
+     "4"
+    ],
+    "es": [
+     "¿En cuántos pedazos rasgó el profeta su manto ante Jeroboam?",
+     "12",
+     "7",
+     "4"
+    ],
+    "pt": [
+     "Em quantos pedaços o profeta rasgou o seu manto diante de Jeroboão?",
+     "12",
+     "7",
+     "4"
+    ],
+    "fr": [
+     "En combien de morceaux le prophète déchira-t-il son manteau devant Jéroboam ?",
+     "12",
+     "7",
+     "4"
+    ],
+    "de": [
+     "In wie viele Stücke zerriss der Prophet vor Jerobeam seinen Mantel?",
+     "12",
+     "7",
+     "4"
+    ],
+    "it": [
+     "In quanti pezzi il profeta strappò il suo mantello davanti a Geroboamo?",
+     "12",
+     "7",
+     "4"
+    ],
+    "pl": [
+     "Na ile kawałków prorok rozdarł swój płaszcz przed Jeroboamem?",
+     "12",
+     "7",
+     "4"
+    ],
+    "ru": [
+     "На сколько кусков пророк разорвал свою одежду перед Иеровоамом?",
+     "12",
+     "7",
+     "4"
+    ],
+    "tr": [
+     "Peygamber Yarovam'ın önünde harmanisini kaç parçaya yırttı?",
+     "12",
+     "7",
+     "4"
+    ],
+    "ja": [
+     "預言者はヤロブアムの前で自分の外套を何枚に引き裂きましたか？",
+     "12",
+     "7",
+     "4"
+    ],
+    "ko": [
+     "예언자는 예로보암 앞에서 자기 겉옷을 몇 조각으로 찢었습니까?",
+     "12",
+     "7",
+     "4"
+    ],
+    "ar": [
+     "إلى كم قطعة مزّق النبي ردءه أمام يربعام؟",
+     "12",
+     "7",
+     "4"
+    ]
+   }
+  },
+  {
+   "id": "ch-1-kings-001-54",
+   "book": "1-kings",
+   "chapter": 11,
+   "difficulty": "expert",
+   "ref": "1 Kings 11:7",
+   "text": {
+    "en": [
+     "For which Moabite god did Solomon build a high place?",
+     "Chemosh",
+     "Baal",
+     "Dagon"
+    ],
+    "es": [
+     "¿Para qué dios moabita construyó Salomón un santuario en lo alto?",
+     "Quemós",
+     "Baal",
+     "Dagón"
+    ],
+    "pt": [
+     "Para que deus moabita Salomão construiu um lugar alto?",
+     "Camos",
+     "Baal",
+     "Dagon"
+    ],
+    "fr": [
+     "Pour quel dieu moabite Salomon bâtit-il un haut lieu ?",
+     "Kemosh",
+     "Baal",
+     "Dagon"
+    ],
+    "de": [
+     "Für welchen moabitischen Gott baute Salomo eine Kulthöhe?",
+     "Kemosch",
+     "Baal",
+     "Dagon"
+    ],
+    "it": [
+     "Per quale dio moabita Salomone costruì un'altura?",
+     "Camos",
+     "Baal",
+     "Dagon"
+    ],
+    "pl": [
+     "Dla jakiego moabickiego boga Salomon zbudował wyżynę?",
+     "Chemosz",
+     "Baal",
+     "Dagon"
+    ],
+    "ru": [
+     "Для какого моавитского бога Соломон построил высоту?",
+     "Хамос",
+     "Ваал",
+     "Дагон"
+    ],
+    "tr": [
+     "Süleyman hangi Moablı tanrı için bir yüksek yer yaptı?",
+     "Kemoş",
+     "Baal",
+     "Dagon"
+    ],
+    "ja": [
+     "ソロモンはモアブのどの神のために高台を築きましたか？",
+     "ケモシュ",
+     "バアル",
+     "ダゴン"
+    ],
+    "ko": [
+     "솔로몬은 모압의 어떤 신을 위해 산당을 지었습니까?",
+     "크모스",
+     "바알",
+     "다곤"
+    ],
+    "ar": [
+     "لأي إله موآبي بنى سليمان مرتفعة؟",
+     "كموش",
+     "بعل",
+     "داجون"
+    ]
+   }
+  },
+  {
+   "id": "ch-1-kings-001-55",
+   "book": "1-kings",
+   "chapter": 11,
+   "difficulty": "impossible",
+   "ref": "1 Kings 11:16",
+   "text": {
+    "en": [
+     "How many months did Joab stay in Edom killing every male?",
+     "6",
+     "3",
+     "12"
+    ],
+    "es": [
+     "¿Cuántos meses permaneció Joab en Edom matando a todos los varones?",
+     "6",
+     "3",
+     "12"
+    ],
+    "pt": [
+     "Quantos meses Joab permaneceu em Edom matando todos os homens?",
+     "6",
+     "3",
+     "12"
+    ],
+    "fr": [
+     "Combien de mois Joab resta-t-il en Édom à tuer tous les mâles ?",
+     "6",
+     "3",
+     "12"
+    ],
+    "de": [
+     "Wie viele Monate blieb Joab in Edom und tötete alle Männer?",
+     "6",
+     "3",
+     "12"
+    ],
+    "it": [
+     "Quanti mesi rimase Ioab in Edom a uccidere ogni maschio?",
+     "6",
+     "3",
+     "12"
+    ],
+    "pl": [
+     "Przez ile miesięcy Joab przebywał w Edomie, zabijając każdego mężczyznę?",
+     "6",
+     "3",
+     "12"
+    ],
+    "ru": [
+     "Сколько месяцев Иоав оставался в Идумее, убивая всех мужчин?",
+     "6",
+     "3",
+     "12"
+    ],
+    "tr": [
+     "Yoav Edom'da her erkeği öldürerek kaç ay kaldı?",
+     "6",
+     "3",
+     "12"
+    ],
+    "ja": [
+     "ヨアブはエドムに何か月とどまり、男子をすべて殺しましたか？",
+     "6",
+     "3",
+     "12"
+    ],
+    "ko": [
+     "요압은 에돔에서 몇 달 동안 머물며 남자를 모두 죽였습니까?",
+     "6",
+     "3",
+     "12"
+    ],
+    "ar": [
+     "كم شهرًا بقي يوآب في أدوم يقتل كل ذكر؟",
+     "6",
+     "3",
+     "12"
+    ]
+   }
+  }
+ ]
+}
