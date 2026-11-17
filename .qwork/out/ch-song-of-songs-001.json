@@ -1,0 +1,3244 @@
+{
+ "questions": [
+  {
+   "id": "ch-song-of-songs-001-01",
+   "book": "song-of-songs",
+   "chapter": 1,
+   "difficulty": "easy",
+   "ref": "Song of Songs 1:6",
+   "text": {
+    "en": [
+     "In Song of Songs 1, what has darkened the beloved's skin?",
+     "Sun",
+     "Moon",
+     "Wind"
+    ],
+    "es": [
+     "¿En el Cantar de los Cantares 1, qué ha oscurecido la piel de la amada?",
+     "Sol",
+     "Luna",
+     "Viento"
+    ],
+    "pt": [
+     "No Cântico dos Cânticos 1, o que escureceu a pele da amada?",
+     "Sol",
+     "Lua",
+     "Vento"
+    ],
+    "fr": [
+     "Dans le Cantique des Cantiques 1, qu'est-ce qui a noirci la peau de la bien-aimée ?",
+     "Soleil",
+     "Lune",
+     "Vent"
+    ],
+    "de": [
+     "Was hat im Hohelied 1 die Haut der Geliebten dunkel gemacht?",
+     "Sonne",
+     "Mond",
+     "Wind"
+    ],
+    "it": [
+     "Nel Cantico dei Cantici 1, che cosa ha scurito la pelle dell'amata?",
+     "Sole",
+     "Luna",
+     "Vento"
+    ],
+    "pl": [
+     "Co sprawiło, że skóra oblubienicy pociemniała, w Pieśni nad Pieśniami 1?",
+     "Słońce",
+     "Księżyc",
+     "Wiatr"
+    ],
+    "ru": [
+     "Что потемнило кожу возлюбленной в Песни песней 1?",
+     "Солнце",
+     "Луна",
+     "Ветер"
+    ],
+    "tr": [
+     "Ezgiler Ezgisi 1'de sevgilinin tenini ne karartmıştır?",
+     "Güneş",
+     "Ay",
+     "Rüzgâr"
+    ],
+    "ja": [
+     "雅歌1章で、恋人の肌を黒くしたものは何ですか？",
+     "太陽",
+     "月",
+     "風"
+    ],
+    "ko": [
+     "아가 1장에서 연인의 피부를 검게 만든 것은 무엇입니까?",
+     "해",
+     "달",
+     "바람"
+    ],
+    "ar": [
+     "في نشيد الأناشيد 1، ما الذي سوّد جلد الحبيبة؟",
+     "شمس",
+     "قمر",
+     "ريح"
+    ]
+   }
+  },
+  {
+   "id": "ch-song-of-songs-001-02",
+   "book": "song-of-songs",
+   "chapter": 1,
+   "difficulty": "medium",
+   "ref": "Song of Songs 1:9",
+   "text": {
+    "en": [
+     "Whose chariots are mentioned in the lover's praise in Song of Songs 1?",
+     "Pharaoh",
+     "Sisera",
+     "Nebuchadnezzar"
+    ],
+    "es": [
+     "¿De quién se mencionan los carros en el elogio del amado en el Cantar de los Cantares 1?",
+     "Faraón",
+     "Sísara",
+     "Nabucodonosor"
+    ],
+    "pt": [
+     "De quem são os carros mencionados no elogio do amado no Cântico dos Cânticos 1?",
+     "Faraó",
+     "Sísera",
+     "Nabucodonosor"
+    ],
+    "fr": [
+     "De qui les chars sont-ils mentionnés dans l'éloge de l'amant dans le Cantique des Cantiques 1 ?",
+     "Pharaon",
+     "Sisera",
+     "Nabuchodonosor"
+    ],
+    "de": [
+     "Wem gehören die Wagen, die im Hohelied 1 im Liebeslob erwähnt werden?",
+     "Pharao",
+     "Sisera",
+     "Nebukadnezzar"
+    ],
+    "it": [
+     "Di chi sono i carri citati nell'elogio dell'amato nel Cantico dei Cantici 1?",
+     "Faraone",
+     "Sisara",
+     "Nabucodonosor"
+    ],
+    "pl": [
+     "Czyje rydwany wspomniano w pochwale oblubieńca w Pieśni nad Pieśniami 1?",
+     "Faraona",
+     "Sisery",
+     "Nabuchodonozora"
+    ],
+    "ru": [
+     "Чьи колесницы упоминаются в похвале возлюбленного в Песни песней 1?",
+     "Фараона",
+     "Сисары",
+     "Навуходоносора"
+    ],
+    "tr": [
+     "Ezgiler Ezgisi 1'de sevgilinin övgüsünde kimin savaş arabaları anılır?",
+     "Firavun'un",
+     "Sisera'nın",
+     "Nebukadnetsar'ın"
+    ],
+    "ja": [
+     "雅歌1章の恋人の賛美で、誰の戦車が挙げられていますか？",
+     "ファラオ",
+     "シセラ",
+     "ネブカドネツァル"
+    ],
+    "ko": [
+     "아가 1장에서 연인의 찬미 가운데 누구의 병거가 언급됩니까?",
+     "파라오",
+     "시스라",
+     "네부카드네자르"
+    ],
+    "ar": [
+     "مركبات من تُذكَر في مديح الحبيب في نشيد الأناشيد 1؟",
+     "فرعون",
+     "سيسرا",
+     "نبوخذنصر"
+    ]
+   }
+  },
+  {
+   "id": "ch-song-of-songs-001-03",
+   "book": "song-of-songs",
+   "chapter": 1,
+   "difficulty": "hard",
+   "ref": "Song of Songs 1:6",
+   "text": {
+    "en": [
+     "In Song of Songs 1, what did the beloved's brothers make her guard?",
+     "Vineyards",
+     "Fields",
+     "Orchards"
+    ],
+    "es": [
+     "¿En el Cantar de los Cantares 1, qué le hicieron guardar a la amada sus hermanos?",
+     "Viñas",
+     "Campos",
+     "Huertos"
+    ],
+    "pt": [
+     "No Cântico dos Cânticos 1, o que os irmãos da amada a obrigaram a guardar?",
+     "Vinhas",
+     "Campos",
+     "Pomares"
+    ],
+    "fr": [
+     "Dans le Cantique des Cantiques 1, que les frères de la bien-aimée lui ont-ils fait garder ?",
+     "Vignes",
+     "Champs",
+     "Vergers"
+    ],
+    "de": [
+     "Was ließen die Brüder der Geliebten sie im Hohelied 1 bewachen?",
+     "Weinberge",
+     "Felder",
+     "Obstgärten"
+    ],
+    "it": [
+     "Nel Cantico dei Cantici 1, che cosa i fratelli dell'amata le fecero custodire?",
+     "Vigne",
+     "Campi",
+     "Frutteti"
+    ],
+    "pl": [
+     "Co kazali strzec oblubienicy jej bracia w Pieśni nad Pieśniami 1?",
+     "Winnice",
+     "Pola",
+     "Sady"
+    ],
+    "ru": [
+     "Что заставили стеречь возлюбленную её братья в Песни песней 1?",
+     "Виноградники",
+     "Поля",
+     "Сады"
+    ],
+    "tr": [
+     "Ezgiler Ezgisi 1'de sevgilinin kardeşleri onu neyi korumakla görevlendirdi?",
+     "Bağları",
+     "Tarlaları",
+     "Bahçeleri"
+    ],
+    "ja": [
+     "雅歌1章で、恋人の兄弟たちは彼女に何の番をさせましたか？",
+     "ぶどう畑",
+     "畑",
+     "果樹園"
+    ],
+    "ko": [
+     "아가 1장에서 연인의 형제들은 그녀에게 무엇을 지키게 했습니까?",
+     "포도밭",
+     "밭",
+     "과수원"
+    ],
+    "ar": [
+     "في نشيد الأناشيد 1، ماذا جعل إخوة الحبيبة إياها تحرس؟",
+     "كروم",
+     "حقول",
+     "بساتين"
+    ]
+   }
+  },
+  {
+   "id": "ch-song-of-songs-001-04",
+   "book": "song-of-songs",
+   "chapter": 1,
+   "difficulty": "expert",
+   "ref": "Song of Songs 1:17",
+   "text": {
+    "en": [
+     "In Song of Songs 1, which tree supplies the beams of the lovers' house?",
+     "Cedar",
+     "Oak",
+     "Olive"
+    ],
+    "es": [
+     "¿En el Cantar de los Cantares 1, qué árbol da las vigas de la casa de los amantes?",
+     "Cedro",
+     "Roble",
+     "Olivo"
+    ],
+    "pt": [
+     "No Cântico dos Cânticos 1, que árvore fornece as vigas da casa dos amantes?",
+     "Cedro",
+     "Carvalho",
+     "Oliveira"
+    ],
+    "fr": [
+     "Dans le Cantique des Cantiques 1, quel arbre fournit les poutres de la maison des amants ?",
+     "Cèdre",
+     "Chêne",
+     "Olivier"
+    ],
+    "de": [
+     "Welcher Baum liefert im Hohelied 1 die Balken des Hauses der Liebenden?",
+     "Zeder",
+     "Eiche",
+     "Olivenbaum"
+    ],
+    "it": [
+     "Nel Cantico dei Cantici 1, quale albero fornisce le travi della casa degli amanti?",
+     "Cedro",
+     "Quercia",
+     "Ulivo"
+    ],
+    "pl": [
+     "Które drzewo dostarcza belek domu kochanków w Pieśni nad Pieśniami 1?",
+     "Cedr",
+     "Dąb",
+     "Oliwka"
+    ],
+    "ru": [
+     "Какое дерево даёт балки дома влюблённых в Песни песней 1?",
+     "Кедр",
+     "Дуб",
+     "Маслина"
+    ],
+    "tr": [
+     "Ezgiler Ezgisi 1'de âşıkların evinin kirişlerini hangi ağaç sağlar?",
+     "Sedir",
+     "Meşe",
+     "Zeytin"
+    ],
+    "ja": [
+     "雅歌1章で、恋人たちの家の梁になる木は何ですか？",
+     "杉",
+     "樫",
+     "オリーブ"
+    ],
+    "ko": [
+     "아가 1장에서 연인들의 집 들보는 어떤 나무로 되어 있습니까?",
+     "향백나무",
+     "떡갈나무",
+     "올리브나무"
+    ],
+    "ar": [
+     "في نشيد الأناشيد 1، من أي شجرة عوارض بيت العاشقين؟",
+     "أرز",
+     "بلوط",
+     "زيتون"
+    ]
+   }
+  },
+  {
+   "id": "ch-song-of-songs-001-05",
+   "book": "song-of-songs",
+   "chapter": 1,
+   "difficulty": "impossible",
+   "ref": "Song of Songs 1:12",
+   "text": {
+    "en": [
+     "In Song of Songs 1, which perfume sent its fragrance to the reclining king?",
+     "Nard",
+     "Lavender",
+     "Jasmine"
+    ],
+    "es": [
+     "¿En el Cantar de los Cantares 1, qué perfume dio su aroma mientras el rey estaba recostado?",
+     "Nardo",
+     "Lavanda",
+     "Jazmín"
+    ],
+    "pt": [
+     "No Cântico dos Cânticos 1, que perfume espalhou seu aroma enquanto o rei estava reclinado?",
+     "Nardo",
+     "Lavanda",
+     "Jasmim"
+    ],
+    "fr": [
+     "Dans le Cantique des Cantiques 1, quel parfum a répandu son odeur pendant que le roi était couché ?",
+     "Nard",
+     "Lavande",
+     "Jasmin"
+    ],
+    "de": [
+     "Welches Parfüm verströmte im Hohelied 1 seinen Duft, als der König ruhte?",
+     "Narde",
+     "Lavendel",
+     "Jasmin"
+    ],
+    "it": [
+     "Nel Cantico dei Cantici 1, quale profumo diffuse il suo aroma mentre il re era sul suo divano?",
+     "Nardo",
+     "Lavanda",
+     "Gelsomino"
+    ],
+    "pl": [
+     "Które pachnidło rozsiało swą woń, gdy król spoczywał, w Pieśni nad Pieśniami 1?",
+     "Nard",
+     "Lawenda",
+     "Jaśmin"
+    ],
+    "ru": [
+     "Какое благовоние издавало запах, пока царь был за столом, в Песни песней 1?",
+     "Нард",
+     "Лаванда",
+     "Жасмин"
+    ],
+    "tr": [
+     "Ezgiler Ezgisi 1'de kral divanındayken hangi parfüm kokusunu yaydı?",
+     "Nard",
+     "Lavanta",
+     "Yasemin"
+    ],
+    "ja": [
+     "雅歌1章で、王が席にいる間に香りを放った香料は何ですか？",
+     "ナルド",
+     "ラベンダー",
+     "ジャスミン"
+    ],
+    "ko": [
+     "아가 1장에서 임금이 자리에 누워 있는 동안 향기를 낸 향료는 무엇입니까?",
+     "나르드",
+     "라벤더",
+     "재스민"
+    ],
+    "ar": [
+     "في نشيد الأناشيد 1، أي عطر فاح بينما كان الملك متكئاً؟",
+     "ناردين",
+     "خزامى",
+     "ياسمين"
+    ]
+   }
+  },
+  {
+   "id": "ch-song-of-songs-001-06",
+   "book": "song-of-songs",
+   "chapter": 2,
+   "difficulty": "easy",
+   "ref": "Song of Songs 2:3",
+   "text": {
+    "en": [
+     "In Song of Songs 2, which fruit tree is her lover compared to?",
+     "Apple",
+     "Pear",
+     "Plum"
+    ],
+    "es": [
+     "¿En el Cantar de los Cantares 2, con qué árbol frutal se compara a su amado?",
+     "Manzano",
+     "Peral",
+     "Ciruelo"
+    ],
+    "pt": [
+     "No Cântico dos Cânticos 2, com que árvore frutífera o amado é comparado?",
+     "Macieira",
+     "Pereira",
+     "Ameixeira"
+    ],
+    "fr": [
+     "Dans le Cantique des Cantiques 2, à quel arbre fruitier son bien-aimé est-il comparé ?",
+     "Pommier",
+     "Poirier",
+     "Prunier"
+    ],
+    "de": [
+     "Mit welchem Obstbaum wird ihr Geliebter im Hohelied 2 verglichen?",
+     "Apfelbaum",
+     "Birnbaum",
+     "Pflaumenbaum"
+    ],
+    "it": [
+     "Nel Cantico dei Cantici 2, a quale albero da frutto è paragonato il suo amato?",
+     "Melo",
+     "Pero",
+     "Susino"
+    ],
+    "pl": [
+     "Które drzewo owocowe przypomina jej ukochanego w Pieśni nad Pieśniami 2?",
+     "Jabłoń",
+     "Grusza",
+     "Śliwa"
+    ],
+    "ru": [
+     "Какое плодовое дерево напоминает возлюбленного в Песни песней 2?",
+     "Яблоня",
+     "Груша",
+     "Слива"
+    ],
+    "tr": [
+     "Ezgiler Ezgisi 2'de sevgilinin benzetildiği meyve ağacı hangisidir?",
+     "Elma",
+     "Armut",
+     "Erik"
+    ],
+    "ja": [
+     "雅歌2章で、恋人はどの果樹にたとえられていますか？",
+     "りんご",
+     "梨",
+     "すもも"
+    ],
+    "ko": [
+     "아가 2장에서 연인은 어떤 과일나무에 비유됩니까?",
+     "사과나무",
+     "배나무",
+     "자두나무"
+    ],
+    "ar": [
+     "في نشيد الأناشيد 2، بأي شجرة مثمرة يُشبَّه الحبيب؟",
+     "تفاح",
+     "كمثرى",
+     "برقوق"
+    ]
+   }
+  },
+  {
+   "id": "ch-song-of-songs-001-07",
+   "book": "song-of-songs",
+   "chapter": 2,
+   "difficulty": "medium",
+   "ref": "Song of Songs 2:15",
+   "text": {
+    "en": [
+     "In Song of Songs 2, which little animals spoil the vineyards?",
+     "Foxes",
+     "Wolves",
+     "Bears"
+    ],
+    "es": [
+     "¿En el Cantar de los Cantares 2, qué pequeños animales devastan las viñas?",
+     "Raposas",
+     "Lobos",
+     "Osos"
+    ],
+    "pt": [
+     "No Cântico dos Cânticos 2, que pequenos animais devastam as vinhas?",
+     "Raposas",
+     "Lobos",
+     "Ursos"
+    ],
+    "fr": [
+     "Dans le Cantique des Cantiques 2, quels petits animaux ravagent les vignes ?",
+     "Renards",
+     "Loups",
+     "Ours"
+    ],
+    "de": [
+     "Welche kleinen Tiere verwüsten im Hohelied 2 die Weinberge?",
+     "Füchse",
+     "Wölfe",
+     "Bären"
+    ],
+    "it": [
+     "Nel Cantico dei Cantici 2, quali piccoli animali devastano le vigne?",
+     "Volpi",
+     "Lupi",
+     "Orsi"
+    ],
+    "pl": [
+     "Jakie małe zwierzęta niszczą winnice w Pieśni nad Pieśniami 2?",
+     "Lisy",
+     "Wilki",
+     "Niedźwiedzie"
+    ],
+    "ru": [
+     "Какие маленькие звери портят виноградники в Песни песней 2?",
+     "Лисицы",
+     "Волки",
+     "Медведи"
+    ],
+    "tr": [
+     "Ezgiler Ezgisi 2'de bağları hangi küçük hayvanlar bozar?",
+     "Tilkiler",
+     "Kurtlar",
+     "Ayılar"
+    ],
+    "ja": [
+     "雅歌2章で、ぶどう畑を荒らす小さな動物は何ですか？",
+     "狐",
+     "狼",
+     "熊"
+    ],
+    "ko": [
+     "아가 2장에서 포도밭을 망치는 작은 짐승은 무엇입니까?",
+     "여우",
+     "늑대",
+     "곰"
+    ],
+    "ar": [
+     "في نشيد الأناشيد 2، أي حيوانات صغيرة تفسد الكروم؟",
+     "ثعالب",
+     "ذئاب",
+     "دببة"
+    ]
+   }
+  },
+  {
+   "id": "ch-song-of-songs-001-08",
+   "book": "song-of-songs",
+   "chapter": 2,
+   "difficulty": "hard",
+   "ref": "Song of Songs 2:7",
+   "text": {
+    "en": [
+     "In Song of Songs 2, the beloved addresses the daughters of which city?",
+     "Jerusalem",
+     "Jericho",
+     "Gaza"
+    ],
+    "es": [
+     "¿En el Cantar de los Cantares 2, a las hijas de qué ciudad se dirige la amada?",
+     "Jerusalén",
+     "Jericó",
+     "Gaza"
+    ],
+    "pt": [
+     "No Cântico dos Cânticos 2, às filhas de que cidade a amada se dirige?",
+     "Jerusalém",
+     "Jericó",
+     "Gaza"
+    ],
+    "fr": [
+     "Dans le Cantique des Cantiques 2, aux filles de quelle ville la bien-aimée s'adresse-t-elle ?",
+     "Jérusalem",
+     "Jéricho",
+     "Gaza"
+    ],
+    "de": [
+     "An die Töchter welcher Stadt richtet sich die Geliebte im Hohelied 2?",
+     "Jerusalem",
+     "Jericho",
+     "Gaza"
+    ],
+    "it": [
+     "Nel Cantico dei Cantici 2, alle figlie di quale città si rivolge l'amata?",
+     "Gerusalemme",
+     "Gerico",
+     "Gaza"
+    ],
+    "pl": [
+     "Do córek jakiego miasta zwraca się oblubienica w Pieśni nad Pieśniami 2?",
+     "Jerozolimy",
+     "Jerycha",
+     "Gazy"
+    ],
+    "ru": [
+     "К дочерям какого города обращается возлюбленная в Песни песней 2?",
+     "Иерусалима",
+     "Иерихона",
+     "Газы"
+    ],
+    "tr": [
+     "Ezgiler Ezgisi 2'de sevgili hangi şehrin kızlarına seslenir?",
+     "Yeruşalim'in",
+     "Eriha'nın",
+     "Gazze'nin"
+    ],
+    "ja": [
+     "雅歌2章で、恋人はどの町の娘たちに呼びかけていますか？",
+     "エルサレム",
+     "エリコ",
+     "ガザ"
+    ],
+    "ko": [
+     "아가 2장에서 연인은 어느 도성의 딸들에게 말합니까?",
+     "예루살렘",
+     "예리코",
+     "가자"
+    ],
+    "ar": [
+     "في نشيد الأناشيد 2، إلى بنات أي مدينة تتوجه الحبيبة؟",
+     "أورشليم",
+     "أريحا",
+     "غزة"
+    ]
+   }
+  },
+  {
+   "id": "ch-song-of-songs-001-09",
+   "book": "song-of-songs",
+   "chapter": 2,
+   "difficulty": "expert",
+   "ref": "Song of Songs 2:13",
+   "text": {
+    "en": [
+     "In Song of Songs 2, which tree puts forth its fruit in spring?",
+     "Fig",
+     "Olive",
+     "Cedar"
+    ],
+    "es": [
+     "¿En el Cantar de los Cantares 2, qué árbol echa sus frutos en primavera?",
+     "Higuera",
+     "Olivo",
+     "Cedro"
+    ],
+    "pt": [
+     "No Cântico dos Cânticos 2, que árvore dá os seus frutos na primavera?",
+     "Figueira",
+     "Oliveira",
+     "Cedro"
+    ],
+    "fr": [
+     "Dans le Cantique des Cantiques 2, quel arbre forme ses fruits au printemps ?",
+     "Figuier",
+     "Olivier",
+     "Cèdre"
+    ],
+    "de": [
+     "Welcher Baum setzt im Hohelied 2 im Frühling Früchte an?",
+     "Feigenbaum",
+     "Olivenbaum",
+     "Zeder"
+    ],
+    "it": [
+     "Nel Cantico dei Cantici 2, quale albero mette i suoi frutti in primavera?",
+     "Fico",
+     "Ulivo",
+     "Cedro"
+    ],
+    "pl": [
+     "Które drzewo wydaje owoce wiosną w Pieśni nad Pieśniami 2?",
+     "Figowiec",
+     "Oliwka",
+     "Cedr"
+    ],
+    "ru": [
+     "Какое дерево приносит плоды весной в Песни песней 2?",
+     "Смоковница",
+     "Маслина",
+     "Кедр"
+    ],
+    "tr": [
+     "Ezgiler Ezgisi 2'de ilkbaharda hangi ağaç meyvesini verir?",
+     "İncir",
+     "Zeytin",
+     "Sedir"
+    ],
+    "ja": [
+     "雅歌2章で、春に実を結ぶ木は何ですか？",
+     "いちじく",
+     "オリーブ",
+     "杉"
+    ],
+    "ko": [
+     "아가 2장에서 봄에 열매를 맺는 나무는 무엇입니까?",
+     "무화과나무",
+     "올리브나무",
+     "향백나무"
+    ],
+    "ar": [
+     "في نشيد الأناشيد 2، أي شجرة تُخرج ثمرها في الربيع؟",
+     "تينة",
+     "زيتونة",
+     "أرز"
+    ]
+   }
+  },
+  {
+   "id": "ch-song-of-songs-001-10",
+   "book": "song-of-songs",
+   "chapter": 2,
+   "difficulty": "impossible",
+   "ref": "Song of Songs 2:14",
+   "text": {
+    "en": [
+     "In Song of Songs 2, in the clefts of what does the dove hide?",
+     "Rock",
+     "Tree",
+     "Hill"
+    ],
+    "es": [
+     "¿En el Cantar de los Cantares 2, en las grietas de qué se esconde la paloma?",
+     "Roca",
+     "Árbol",
+     "Colina"
+    ],
+    "pt": [
+     "No Cântico dos Cânticos 2, nas fendas de que se esconde a pomba?",
+     "Rocha",
+     "Árvore",
+     "Colina"
+    ],
+    "fr": [
+     "Dans le Cantique des Cantiques 2, dans les fentes de quoi la colombe se cache-t-elle ?",
+     "Rocher",
+     "Arbre",
+     "Colline"
+    ],
+    "de": [
+     "Im Hohelied 2 versteckt sich die Taube in den Spalten von was?",
+     "Fels",
+     "Baum",
+     "Hügel"
+    ],
+    "it": [
+     "Nel Cantico dei Cantici 2, nelle fenditure di che cosa si nasconde la colomba?",
+     "Roccia",
+     "Albero",
+     "Colle"
+    ],
+    "pl": [
+     "W szczelinach czego kryje się gołębica w Pieśni nad Pieśniami 2?",
+     "Skały",
+     "Drzewa",
+     "Wzgórza"
+    ],
+    "ru": [
+     "В расселинах чего скрывается голубица в Песни песней 2?",
+     "Скалы",
+     "Дерева",
+     "Холма"
+    ],
+    "tr": [
+     "Ezgiler Ezgisi 2'de güvercin neyin yarıklarında saklanır?",
+     "Kayanın",
+     "Ağacın",
+     "Tepenin"
+    ],
+    "ja": [
+     "雅歌2章で、鳩は何の裂け目に隠れていますか？",
+     "岩",
+     "木",
+     "丘"
+    ],
+    "ko": [
+     "아가 2장에서 비둘기는 무엇의 갈라진 틈에 숨어 있습니까?",
+     "바위",
+     "나무",
+     "언덕"
+    ],
+    "ar": [
+     "في نشيد الأناشيد 2، في شقوق ماذا تختبئ الحمامة؟",
+     "صخرة",
+     "شجرة",
+     "تل"
+    ]
+   }
+  },
+  {
+   "id": "ch-song-of-songs-001-11",
+   "book": "song-of-songs",
+   "chapter": 3,
+   "difficulty": "easy",
+   "ref": "Song of Songs 3:11",
+   "text": {
+    "en": [
+     "In Song of Songs 3, who crowned King Solomon on his wedding day?",
+     "Mother",
+     "Father",
+     "Brother"
+    ],
+    "es": [
+     "¿En el Cantar de los Cantares 3, quién coronó al rey Salomón el día de su boda?",
+     "Madre",
+     "Padre",
+     "Hermano"
+    ],
+    "pt": [
+     "No Cântico dos Cânticos 3, quem coroou o rei Salomão no dia do seu casamento?",
+     "Mãe",
+     "Pai",
+     "Irmão"
+    ],
+    "fr": [
+     "Dans le Cantique des Cantiques 3, qui a couronné le roi Salomon le jour de ses noces ?",
+     "Mère",
+     "Père",
+     "Frère"
+    ],
+    "de": [
+     "Wer krönte im Hohelied 3 König Salomo am Tag seiner Hochzeit?",
+     "Mutter",
+     "Vater",
+     "Bruder"
+    ],
+    "it": [
+     "Nel Cantico dei Cantici 3, chi incoronò il re Salomone nel giorno delle nozze?",
+     "Madre",
+     "Padre",
+     "Fratello"
+    ],
+    "pl": [
+     "Kto koronował króla Salomona w dniu jego wesela w Pieśni nad Pieśniami 3?",
+     "Matka",
+     "Ojciec",
+     "Brat"
+    ],
+    "ru": [
+     "Кто венчал царя Соломона в день его бракосочетания в Песни песней 3?",
+     "Мать",
+     "Отец",
+     "Брат"
+    ],
+    "tr": [
+     "Ezgiler Ezgisi 3'te Kral Süleyman'ı düğün gününde kim taçlandırdı?",
+     "Anne",
+     "Baba",
+     "Kardeş"
+    ],
+    "ja": [
+     "雅歌3章で、ソロモン王の結婚の日に冠をかぶせたのは誰ですか？",
+     "母",
+     "父",
+     "兄弟"
+    ],
+    "ko": [
+     "아가 3장에서 솔로몬 임금의 혼인날에 관을 씌워 준 사람은 누구입니까?",
+     "어머니",
+     "아버지",
+     "형제"
+    ],
+    "ar": [
+     "في نشيد الأناشيد 3، من توّج الملك سليمان يوم عرسه؟",
+     "أم",
+     "أب",
+     "أخ"
+    ]
+   }
+  },
+  {
+   "id": "ch-song-of-songs-001-12",
+   "book": "song-of-songs",
+   "chapter": 3,
+   "difficulty": "medium",
+   "ref": "Song of Songs 3:9",
+   "text": {
+    "en": [
+     "In Song of Songs 3, from where did Solomon get wood for his carriage?",
+     "Lebanon",
+     "Egypt",
+     "Sinai"
+    ],
+    "es": [
+     "¿En el Cantar de los Cantares 3, de dónde obtuvo Salomón la madera de su litera?",
+     "Líbano",
+     "Egipto",
+     "Sinaí"
+    ],
+    "pt": [
+     "No Cântico dos Cânticos 3, de onde Salomão tirou a madeira da sua liteira?",
+     "Líbano",
+     "Egito",
+     "Sinai"
+    ],
+    "fr": [
+     "Dans le Cantique des Cantiques 3, d'où Salomon a-t-il tiré le bois de sa litière ?",
+     "Liban",
+     "Égypte",
+     "Sinaï"
+    ],
+    "de": [
+     "Woher stammte im Hohelied 3 das Holz für Salomos Sänfte?",
+     "Libanon",
+     "Ägypten",
+     "Sinai"
+    ],
+    "it": [
+     "Nel Cantico dei Cantici 3, da dove Salomone prese il legno della sua lettiga?",
+     "Libano",
+     "Egitto",
+     "Sinai"
+    ],
+    "pl": [
+     "Skąd Salomon wziął drewno na swą lektykę w Pieśni nad Pieśniami 3?",
+     "Liban",
+     "Egipt",
+     "Synaj"
+    ],
+    "ru": [
+     "Откуда Соломон взял дерево для своего ложа в Песни песней 3?",
+     "Ливан",
+     "Египет",
+     "Синай"
+    ],
+    "tr": [
+     "Ezgiler Ezgisi 3'te Süleyman tahtırevanının odununu nereden getirtti?",
+     "Lübnan'dan",
+     "Mısır'dan",
+     "Sina'dan"
+    ],
+    "ja": [
+     "雅歌3章で、ソロモンは輿の木材をどこから得ましたか？",
+     "レバノン",
+     "エジプト",
+     "シナイ"
+    ],
+    "ko": [
+     "아가 3장에서 솔로몬은 가마의 목재를 어디에서 구했습니까?",
+     "레바논",
+     "이집트",
+     "시나이"
+    ],
+    "ar": [
+     "في نشيد الأناشيد 3، من أين جلب سليمان خشب محفّته؟",
+     "لبنان",
+     "مصر",
+     "سيناء"
+    ]
+   }
+  },
+  {
+   "id": "ch-song-of-songs-001-13",
+   "book": "song-of-songs",
+   "chapter": 3,
+   "difficulty": "hard",
+   "ref": "Song of Songs 3:7",
+   "text": {
+    "en": [
+     "In Song of Songs 3, how many valiant men escort Solomon's carriage?",
+     "60",
+     "12",
+     "100"
+    ],
+    "es": [
+     "¿En el Cantar de los Cantares 3, cuántos valientes escoltan la litera de Salomón?",
+     "60",
+     "12",
+     "100"
+    ],
+    "pt": [
+     "No Cântico dos Cânticos 3, quantos valentes escoltam a liteira de Salomão?",
+     "60",
+     "12",
+     "100"
+    ],
+    "fr": [
+     "Dans le Cantique des Cantiques 3, combien de vaillants entourent la litière de Salomon ?",
+     "60",
+     "12",
+     "100"
+    ],
+    "de": [
+     "Wie viele Helden umgeben im Hohelied 3 die Sänfte Salomos?",
+     "60",
+     "12",
+     "100"
+    ],
+    "it": [
+     "Nel Cantico dei Cantici 3, quanti prodi circondano la lettiga di Salomone?",
+     "60",
+     "12",
+     "100"
+    ],
+    "pl": [
+     "Ilu mocarzy otacza lektykę Salomona w Pieśni nad Pieśniami 3?",
+     "60",
+     "12",
+     "100"
+    ],
+    "ru": [
+     "Сколько храбрецов окружает ложе Соломона в Песни песней 3?",
+     "60",
+     "12",
+     "100"
+    ],
+    "tr": [
+     "Ezgiler Ezgisi 3'te Süleyman'ın tahtırevanını kaç yiğit çevreler?",
+     "60",
+     "12",
+     "100"
+    ],
+    "ja": [
+     "雅歌3章で、ソロモンの輿を囲む勇士は何人ですか？",
+     "60",
+     "12",
+     "100"
+    ],
+    "ko": [
+     "아가 3장에서 솔로몬의 가마를 둘러싼 용사는 몇 명입니까?",
+     "60",
+     "12",
+     "100"
+    ],
+    "ar": [
+     "في نشيد الأناشيد 3، كم بطلاً يحيطون بمحفّة سليمان؟",
+     "60",
+     "12",
+     "100"
+    ]
+   }
+  },
+  {
+   "id": "ch-song-of-songs-001-14",
+   "book": "song-of-songs",
+   "chapter": 3,
+   "difficulty": "expert",
+   "ref": "Song of Songs 3:6",
+   "text": {
+    "en": [
+     "In Song of Songs 3, from where does someone come up like smoke?",
+     "Desert",
+     "Sea",
+     "River"
+    ],
+    "es": [
+     "¿En el Cantar de los Cantares 3, de dónde sube alguien como una columna de humo?",
+     "Desierto",
+     "Mar",
+     "Río"
+    ],
+    "pt": [
+     "No Cântico dos Cânticos 3, de onde sobe alguém como uma coluna de fumaça?",
+     "Deserto",
+     "Mar",
+     "Rio"
+    ],
+    "fr": [
+     "Dans le Cantique des Cantiques 3, d'où monte quelqu'un comme une colonne de fumée ?",
+     "Désert",
+     "Mer",
+     "Fleuve"
+    ],
+    "de": [
+     "Woher steigt im Hohelied 3 jemand wie eine Rauchsäule auf?",
+     "Wüste",
+     "Meer",
+     "Fluss"
+    ],
+    "it": [
+     "Nel Cantico dei Cantici 3, da dove sale qualcuno come una colonna di fumo?",
+     "Deserto",
+     "Mare",
+     "Fiume"
+    ],
+    "pl": [
+     "Skąd wstępuje ktoś jak słup dymu w Pieśni nad Pieśniami 3?",
+     "Pustynia",
+     "Morze",
+     "Rzeka"
+    ],
+    "ru": [
+     "Откуда поднимается кто-то подобно столпу дыма в Песни песней 3?",
+     "Пустыня",
+     "Море",
+     "Река"
+    ],
+    "tr": [
+     "Ezgiler Ezgisi 3'te biri duman sütunu gibi nereden yükselir?",
+     "Çölden",
+     "Denizden",
+     "Nehirden"
+    ],
+    "ja": [
+     "雅歌3章で、煙の柱のように上ってくるのはどこからですか？",
+     "荒れ野",
+     "海",
+     "川"
+    ],
+    "ko": [
+     "아가 3장에서 누군가 연기 기둥처럼 어디에서 올라옵니까?",
+     "광야",
+     "바다",
+     "강"
+    ],
+    "ar": [
+     "في نشيد الأناشيد 3، من أين يصعد أحدهم كعمود دخان؟",
+     "برية",
+     "بحر",
+     "نهر"
+    ]
+   }
+  },
+  {
+   "id": "ch-song-of-songs-001-15",
+   "book": "song-of-songs",
+   "chapter": 3,
+   "difficulty": "impossible",
+   "ref": "Song of Songs 3:10",
+   "text": {
+    "en": [
+     "In Song of Songs 3, of what metal are the carriage posts made?",
+     "Silver",
+     "Bronze",
+     "Iron"
+    ],
+    "es": [
+     "¿En el Cantar de los Cantares 3, de qué metal son los postes de la litera?",
+     "Plata",
+     "Bronce",
+     "Hierro"
+    ],
+    "pt": [
+     "No Cântico dos Cânticos 3, de que metal são os esteios da liteira?",
+     "Prata",
+     "Bronze",
+     "Ferro"
+    ],
+    "fr": [
+     "Dans le Cantique des Cantiques 3, en quel métal sont les colonnes de la litière ?",
+     "Argent",
+     "Bronze",
+     "Fer"
+    ],
+    "de": [
+     "Aus welchem Metall sind im Hohelied 3 die Pfosten der Sänfte?",
+     "Silber",
+     "Bronze",
+     "Eisen"
+    ],
+    "it": [
+     "Nel Cantico dei Cantici 3, di quale metallo sono le colonne della lettiga?",
+     "Argento",
+     "Bronzo",
+     "Ferro"
+    ],
+    "pl": [
+     "Jaki metal posłużył na słupy lektyki w Pieśni nad Pieśniami 3?",
+     "Srebro",
+     "Brąz",
+     "Żelazo"
+    ],
+    "ru": [
+     "Какой металл пошёл на столбы ложа в Песни песней 3?",
+     "Серебро",
+     "Бронза",
+     "Железо"
+    ],
+    "tr": [
+     "Ezgiler Ezgisi 3'te tahtırevanın direklerinde hangi maden kullanılmıştır?",
+     "Gümüş",
+     "Bronz",
+     "Demir"
+    ],
+    "ja": [
+     "雅歌3章で、輿の柱は何の金属でできていますか？",
+     "銀",
+     "青銅",
+     "鉄"
+    ],
+    "ko": [
+     "아가 3장에서 가마의 기둥은 어떤 금속으로 되어 있습니까?",
+     "은",
+     "청동",
+     "쇠"
+    ],
+    "ar": [
+     "في نشيد الأناشيد 3، من أي معدن أعمدة المحفّة؟",
+     "فضة",
+     "نحاس",
+     "حديد"
+    ]
+   }
+  },
+  {
+   "id": "ch-song-of-songs-001-16",
+   "book": "song-of-songs",
+   "chapter": 4,
+   "difficulty": "easy",
+   "ref": "Song of Songs 4:3",
+   "text": {
+    "en": [
+     "In Song of Songs 4, the beloved's cheeks resemble halves of which fruit?",
+     "Pomegranate",
+     "Fig",
+     "Grape"
+    ],
+    "es": [
+     "¿Con las mitades de qué fruta se comparan las mejillas de la amada en el Cantar de los Cantares 4?",
+     "Granada",
+     "Higo",
+     "Uva"
+    ],
+    "pt": [
+     "No Cântico dos Cânticos 4, com metades de que fruta se parecem as faces da amada?",
+     "Romã",
+     "Figo",
+     "Uva"
+    ],
+    "fr": [
+     "Dans le Cantique des Cantiques 4, les joues de la bien-aimée ressemblent à des moitiés de quel fruit ?",
+     "Grenade",
+     "Figue",
+     "Raisin"
+    ],
+    "de": [
+     "Welche halbierte Frucht gleicht im Hohelied 4 den Wangen der Geliebten?",
+     "Granatapfel",
+     "Feige",
+     "Weintraube"
+    ],
+    "it": [
+     "Nel Cantico dei Cantici 4, a metà di quale frutto somigliano le guance dell'amata?",
+     "Melagrana",
+     "Fico",
+     "Uva"
+    ],
+    "pl": [
+     "Jaki owoc, przekrojony na pół, przypomina policzki oblubienicy w Pieśni nad Pieśniami 4?",
+     "Granat",
+     "Figa",
+     "Winogrono"
+    ],
+    "ru": [
+     "Какой плод, разрезанный пополам, напоминает щёки возлюбленной в Песни песней 4?",
+     "Гранат",
+     "Инжир",
+     "Виноград"
+    ],
+    "tr": [
+     "Ezgiler Ezgisi 4'te sevgilinin yanakları hangi meyvenin yarısına benzer?",
+     "Nar",
+     "İncir",
+     "Üzüm"
+    ],
+    "ja": [
+     "雅歌4章で、恋人の頬は何の実の半分のようですか？",
+     "ざくろ",
+     "いちじく",
+     "ぶどう"
+    ],
+    "ko": [
+     "아가 4장에서 연인의 뺨은 어떤 열매의 반쪽 같습니까?",
+     "석류",
+     "무화과",
+     "포도"
+    ],
+    "ar": [
+     "في نشيد الأناشيد 4، خدّ الحبيبة يشبه نصف أي ثمرة؟",
+     "رمان",
+     "تين",
+     "عنب"
+    ]
+   }
+  },
+  {
+   "id": "ch-song-of-songs-001-17",
+   "book": "song-of-songs",
+   "chapter": 4,
+   "difficulty": "medium",
+   "ref": "Song of Songs 4:1",
+   "text": {
+    "en": [
+     "In Song of Songs 4, the beloved's hair is like goats on which mountain?",
+     "Gilead",
+     "Sinai",
+     "Tabor"
+    ],
+    "es": [
+     "¿En el Cantar de los Cantares 4, de qué monte bajan las cabras a las que se parece el cabello de la amada?",
+     "Galaad",
+     "Sinaí",
+     "Tabor"
+    ],
+    "pt": [
+     "No Cântico dos Cânticos 4, de que monte descem as cabras a que se compara o cabelo da amada?",
+     "Galaad",
+     "Sinai",
+     "Tabor"
+    ],
+    "fr": [
+     "Dans le Cantique des Cantiques 4, les cheveux de la bien-aimée sont comme des chèvres sur quel mont ?",
+     "Galaad",
+     "Sinaï",
+     "Thabor"
+    ],
+    "de": [
+     "Von welchem Berg ziehen im Hohelied 4 die Ziegen herab, denen das Haar der Geliebten gleicht?",
+     "Gilead",
+     "Sinai",
+     "Tabor"
+    ],
+    "it": [
+     "Nel Cantico dei Cantici 4, i capelli dell'amata sono come capre su quale monte?",
+     "Gàlaad",
+     "Sinai",
+     "Tabor"
+    ],
+    "pl": [
+     "Z jakiej góry schodzą kozy, do których podobne są włosy oblubienicy, w Pieśni nad Pieśniami 4?",
+     "Gileadu",
+     "Synaju",
+     "Taboru"
+    ],
+    "ru": [
+     "С какой горы сходят козы, которым подобны волосы возлюбленной, в Песни песней 4?",
+     "Галаада",
+     "Синая",
+     "Фавора"
+    ],
+    "tr": [
+     "Ezgiler Ezgisi 4'te sevgilinin saçı hangi dağdan inen keçilere benzer?",
+     "Gilat",
+     "Sina",
+     "Tabor"
+    ],
+    "ja": [
+     "雅歌4章で、恋人の髪は、どの山を下る山羊の群れのようですか？",
+     "ギレアド",
+     "シナイ",
+     "タボル"
+    ],
+    "ko": [
+     "아가 4장에서 연인의 머리카락은 어느 산에서 내려오는 염소 떼 같습니까?",
+     "길앗",
+     "시나이",
+     "타볼"
+    ],
+    "ar": [
+     "في نشيد الأناشيد 4، شعر الحبيبة كقطيع ماعز نازل من أي جبل؟",
+     "جلعاد",
+     "سيناء",
+     "طابور"
+    ]
+   }
+  },
+  {
+   "id": "ch-song-of-songs-001-18",
+   "book": "song-of-songs",
+   "chapter": 4,
+   "difficulty": "hard",
+   "ref": "Song of Songs 4:8",
+   "text": {
+    "en": [
+     "In Song of Songs 4, Amana and Senir are named with which mountain?",
+     "Hermon",
+     "Ararat",
+     "Nebo"
+    ],
+    "es": [
+     "¿En el Cantar de los Cantares 4, con qué monte se nombran el Amaná y el Senir?",
+     "Hermón",
+     "Ararat",
+     "Nebo"
+    ],
+    "pt": [
+     "No Cântico dos Cânticos 4, com que monte são nomeados o Amana e o Sanir?",
+     "Hermon",
+     "Ararat",
+     "Nebo"
+    ],
+    "fr": [
+     "Dans le Cantique des Cantiques 4, avec quelle montagne l'Amana et le Sanir sont-ils nommés ?",
+     "Hermon",
+     "Ararat",
+     "Nébo"
+    ],
+    "de": [
+     "Mit welchem Berg werden im Hohelied 4 Amana und Senir genannt?",
+     "Hermon",
+     "Ararat",
+     "Nebo"
+    ],
+    "it": [
+     "Nel Cantico dei Cantici 4, con quale monte sono citati l'Amana e il Senir?",
+     "Ermon",
+     "Ararat",
+     "Nebo"
+    ],
+    "pl": [
+     "Która góra wymieniona jest razem z Amaną i Sanirem w Pieśni nad Pieśniami 4?",
+     "Hermon",
+     "Ararat",
+     "Nebo"
+    ],
+    "ru": [
+     "Какая гора названа вместе с Аманой и Сениром в Песни песней 4?",
+     "Ермон",
+     "Арарат",
+     "Нево"
+    ],
+    "tr": [
+     "Ezgiler Ezgisi 4'te Amana ve Senir ile birlikte hangi dağ anılır?",
+     "Hermon",
+     "Ararat",
+     "Nebo"
+    ],
+    "ja": [
+     "雅歌4章で、アマナとセニルと並んで挙げられる山はどれですか？",
+     "ヘルモン",
+     "アララト",
+     "ネボ"
+    ],
+    "ko": [
+     "아가 4장에서 아마나, 스니르와 함께 언급되는 산은 무엇입니까?",
+     "헤르몬",
+     "아라랏",
+     "느보"
+    ],
+    "ar": [
+     "في نشيد الأناشيد 4، أي جبل يُذكر مع أمانة وسنير؟",
+     "حرمون",
+     "أراراط",
+     "نبو"
+    ]
+   }
+  },
+  {
+   "id": "ch-song-of-songs-001-19",
+   "book": "song-of-songs",
+   "chapter": 4,
+   "difficulty": "expert",
+   "ref": "Song of Songs 4:11",
+   "text": {
+    "en": [
+     "In Song of Songs 4, honey and what lie under the beloved's tongue?",
+     "Milk",
+     "Wine",
+     "Oil"
+    ],
+    "es": [
+     "¿En el Cantar de los Cantares 4, miel y qué más hay bajo la lengua de la amada?",
+     "Leche",
+     "Vino",
+     "Aceite"
+    ],
+    "pt": [
+     "No Cântico dos Cânticos 4, mel e o que mais há sob a língua da amada?",
+     "Leite",
+     "Vinho",
+     "Azeite"
+    ],
+    "fr": [
+     "Dans le Cantique des Cantiques 4, du miel et quoi d'autre sont sous la langue de la bien-aimée ?",
+     "Lait",
+     "Vin",
+     "Huile"
+    ],
+    "de": [
+     "Honig und was liegt im Hohelied 4 unter der Zunge der Geliebten?",
+     "Milch",
+     "Wein",
+     "Öl"
+    ],
+    "it": [
+     "Nel Cantico dei Cantici 4, miele e che cos'altro stanno sotto la lingua dell'amata?",
+     "Latte",
+     "Vino",
+     "Olio"
+    ],
+    "pl": [
+     "Miód i co jeszcze jest pod językiem oblubienicy w Pieśni nad Pieśniami 4?",
+     "Mleko",
+     "Wino",
+     "Oliwa"
+    ],
+    "ru": [
+     "Мёд и что ещё под языком возлюбленной в Песни песней 4?",
+     "Молоко",
+     "Вино",
+     "Масло"
+    ],
+    "tr": [
+     "Ezgiler Ezgisi 4'te sevgilinin dilinin altında bal ile birlikte ne vardır?",
+     "Süt",
+     "Şarap",
+     "Yağ"
+    ],
+    "ja": [
+     "雅歌4章で、恋人の舌の下に蜜とともにあるものは何ですか？",
+     "乳",
+     "ぶどう酒",
+     "油"
+    ],
+    "ko": [
+     "아가 4장에서 연인의 혀 밑에 꿀과 함께 있는 것은 무엇입니까?",
+     "젖",
+     "포도주",
+     "기름"
+    ],
+    "ar": [
+     "في نشيد الأناشيد 4، العسل وماذا أيضاً تحت لسان الحبيبة؟",
+     "لبن",
+     "خمر",
+     "زيت"
+    ]
+   }
+  },
+  {
+   "id": "ch-song-of-songs-001-20",
+   "book": "song-of-songs",
+   "chapter": 4,
+   "difficulty": "impossible",
+   "ref": "Song of Songs 4:14",
+   "text": {
+    "en": [
+     "In Song of Songs 4, which spice from crocus flowers grows in her garden?",
+     "Saffron",
+     "Pepper",
+     "Ginger"
+    ],
+    "es": [
+     "¿En el Cantar de los Cantares 4, qué especia sacada del croco crece en su jardín?",
+     "Azafrán",
+     "Pimienta",
+     "Jengibre"
+    ],
+    "pt": [
+     "No Cântico dos Cânticos 4, que especiaria obtida de flores de croco cresce no seu jardim?",
+     "Açafrão",
+     "Pimenta",
+     "Gengibre"
+    ],
+    "fr": [
+     "Dans le Cantique des Cantiques 4, quelle épice tirée du crocus pousse dans son jardin ?",
+     "Safran",
+     "Poivre",
+     "Gingembre"
+    ],
+    "de": [
+     "Welches Gewürz aus Krokussen wächst im Hohelied 4 in ihrem Garten?",
+     "Safran",
+     "Pfeffer",
+     "Ingwer"
+    ],
+    "it": [
+     "Nel Cantico dei Cantici 4, quale spezia ricavata dal croco cresce nel suo giardino?",
+     "Zafferano",
+     "Pepe",
+     "Zenzero"
+    ],
+    "pl": [
+     "Jaka przyprawa z krokusów rośnie w jej ogrodzie w Pieśni nad Pieśniami 4?",
+     "Szafran",
+     "Pieprz",
+     "Imbir"
+    ],
+    "ru": [
+     "Какая пряность из цветков крокуса растёт в её саду в Песни песней 4?",
+     "Шафран",
+     "Перец",
+     "Имбирь"
+    ],
+    "tr": [
+     "Ezgiler Ezgisi 4'te çiğdemden elde edilen hangi baharat bahçesinde yetişir?",
+     "Safran",
+     "Biber",
+     "Zencefil"
+    ],
+    "ja": [
+     "雅歌4章で、クロッカスから採れ、彼女の園に育つ香料は何ですか？",
+     "サフラン",
+     "こしょう",
+     "しょうが"
+    ],
+    "ko": [
+     "아가 4장에서 크로커스에서 얻어 그녀의 동산에 자라는 향료는 무엇입니까?",
+     "사프란",
+     "후추",
+     "생강"
+    ],
+    "ar": [
+     "في نشيد الأناشيد 4، أي توابل من الكروكس تنمو في حديقتها؟",
+     "زعفران",
+     "فلفل",
+     "زنجبيل"
+    ]
+   }
+  },
+  {
+   "id": "ch-song-of-songs-001-21",
+   "book": "song-of-songs",
+   "chapter": 5,
+   "difficulty": "easy",
+   "ref": "Song of Songs 5:11",
+   "text": {
+    "en": [
+     "In Song of Songs 5, the lover's hair is black as which bird?",
+     "Raven",
+     "Eagle",
+     "Swan"
+    ],
+    "es": [
+     "¿En el Cantar de los Cantares 5, negro como qué ave es el cabello del amado?",
+     "Cuervo",
+     "Águila",
+     "Cisne"
+    ],
+    "pt": [
+     "No Cântico dos Cânticos 5, o cabelo do amado é negro como que ave?",
+     "Corvo",
+     "Águia",
+     "Cisne"
+    ],
+    "fr": [
+     "Dans le Cantique des Cantiques 5, les cheveux de l'amant sont noirs comme quel oiseau ?",
+     "Corbeau",
+     "Aigle",
+     "Cygne"
+    ],
+    "de": [
+     "Im Hohelied 5 ist das Haar des Geliebten schwarz wie welcher Vogel?",
+     "Rabe",
+     "Adler",
+     "Schwan"
+    ],
+    "it": [
+     "Nel Cantico dei Cantici 5, i capelli dell'amato sono neri come quale uccello?",
+     "Corvo",
+     "Aquila",
+     "Cigno"
+    ],
+    "pl": [
+     "Który ptak jest tak czarny jak włosy ukochanego w Pieśni nad Pieśniami 5?",
+     "Kruk",
+     "Orzeł",
+     "Łabędź"
+    ],
+    "ru": [
+     "Какая птица так черна, как волосы возлюбленного в Песни песней 5?",
+     "Ворон",
+     "Орёл",
+     "Лебедь"
+    ],
+    "tr": [
+     "Ezgiler Ezgisi 5'te sevgilinin saçları hangi kuş gibi siyahtır?",
+     "Kuzgun",
+     "Kartal",
+     "Kuğu"
+    ],
+    "ja": [
+     "雅歌5章で、恋人の髪はどの鳥のように黒いですか？",
+     "烏",
+     "鷲",
+     "白鳥"
+    ],
+    "ko": [
+     "아가 5장에서 연인의 머리카락은 어떤 새처럼 검습니까?",
+     "까마귀",
+     "독수리",
+     "백조"
+    ],
+    "ar": [
+     "في نشيد الأناشيد 5، شعر الحبيب أسود مثل أي طائر؟",
+     "غراب",
+     "نسر",
+     "بجعة"
+    ]
+   }
+  },
+  {
+   "id": "ch-song-of-songs-001-22",
+   "book": "song-of-songs",
+   "chapter": 5,
+   "difficulty": "medium",
+   "ref": "Song of Songs 5:11",
+   "text": {
+    "en": [
+     "In Song of Songs 5, which metal is the lover's head like?",
+     "Gold",
+     "Silver",
+     "Bronze"
+    ],
+    "es": [
+     "¿En el Cantar de los Cantares 5, a qué metal se parece la cabeza del amado?",
+     "Oro",
+     "Plata",
+     "Bronce"
+    ],
+    "pt": [
+     "No Cântico dos Cânticos 5, a que metal se parece a cabeça do amado?",
+     "Ouro",
+     "Prata",
+     "Bronze"
+    ],
+    "fr": [
+     "Dans le Cantique des Cantiques 5, à quel métal la tête de l'amant ressemble-t-elle ?",
+     "Or",
+     "Argent",
+     "Bronze"
+    ],
+    "de": [
+     "Welchem Metall gleicht im Hohelied 5 der Kopf des Geliebten?",
+     "Gold",
+     "Silber",
+     "Bronze"
+    ],
+    "it": [
+     "Nel Cantico dei Cantici 5, a quale metallo somiglia il capo dell'amato?",
+     "Oro",
+     "Argento",
+     "Bronzo"
+    ],
+    "pl": [
+     "Który metal przypomina głowę ukochanego w Pieśni nad Pieśniami 5?",
+     "Złoto",
+     "Srebro",
+     "Brąz"
+    ],
+    "ru": [
+     "Какой металл напоминает голову возлюбленного в Песни песней 5?",
+     "Золото",
+     "Серебро",
+     "Бронза"
+    ],
+    "tr": [
+     "Ezgiler Ezgisi 5'te sevgilinin başı hangi madene benzer?",
+     "Altın",
+     "Gümüş",
+     "Bronz"
+    ],
+    "ja": [
+     "雅歌5章で、恋人の頭はどの金属のようですか？",
+     "金",
+     "銀",
+     "青銅"
+    ],
+    "ko": [
+     "아가 5장에서 연인의 머리는 어떤 금속 같습니까?",
+     "금",
+     "은",
+     "청동"
+    ],
+    "ar": [
+     "في نشيد الأناشيد 5، رأس الحبيب مثل أي معدن؟",
+     "ذهب",
+     "فضة",
+     "نحاس"
+    ]
+   }
+  },
+  {
+   "id": "ch-song-of-songs-001-23",
+   "book": "song-of-songs",
+   "chapter": 5,
+   "difficulty": "hard",
+   "ref": "Song of Songs 5:14",
+   "text": {
+    "en": [
+     "In Song of Songs 5, the lover's body is ivory covered with which gem?",
+     "Sapphire",
+     "Emerald",
+     "Diamond"
+    ],
+    "es": [
+     "¿En el Cantar de los Cantares 5, con qué gema está cubierto el marfil del cuerpo del amado?",
+     "Zafiro",
+     "Esmeralda",
+     "Diamante"
+    ],
+    "pt": [
+     "No Cântico dos Cânticos 5, de que gema está recoberto o marfim do corpo do amado?",
+     "Safira",
+     "Esmeralda",
+     "Diamante"
+    ],
+    "fr": [
+     "Dans le Cantique des Cantiques 5, quelle gemme recouvre le corps d'ivoire de l'amant ?",
+     "Saphir",
+     "Émeraude",
+     "Diamant"
+    ],
+    "de": [
+     "Mit welchem Edelstein ist im Hohelied 5 der Elfenbeinleib des Geliebten besetzt?",
+     "Saphir",
+     "Smaragd",
+     "Diamant"
+    ],
+    "it": [
+     "Nel Cantico dei Cantici 5, da quale gemma è ricoperto il corpo d'avorio dell'amato?",
+     "Zaffiro",
+     "Smeraldo",
+     "Diamante"
+    ],
+    "pl": [
+     "Który kamień szlachetny zdobi kość słoniową ciała ukochanego w Pieśni nad Pieśniami 5?",
+     "Szafir",
+     "Szmaragd",
+     "Diament"
+    ],
+    "ru": [
+     "Какой драгоценный камень покрывает слоновую кость тела возлюбленного в Песни песней 5?",
+     "Сапфир",
+     "Изумруд",
+     "Алмаз"
+    ],
+    "tr": [
+     "Ezgiler Ezgisi 5'te sevgilinin fildişi gövdesini hangi değerli taş kaplar?",
+     "Safir",
+     "Zümrüt",
+     "Elmas"
+    ],
+    "ja": [
+     "雅歌5章で、恋人の象牙の体を覆う宝石は何ですか？",
+     "サファイア",
+     "エメラルド",
+     "ダイヤモンド"
+    ],
+    "ko": [
+     "아가 5장에서 연인의 상아 몸통을 덮은 보석은 무엇입니까?",
+     "사파이어",
+     "에메랄드",
+     "다이아몬드"
+    ],
+    "ar": [
+     "في نشيد الأناشيد 5، أي جوهرة تغطي جسد الحبيب العاجي؟",
+     "ياقوت",
+     "زمرد",
+     "ألماس"
+    ]
+   }
+  },
+  {
+   "id": "ch-song-of-songs-001-24",
+   "book": "song-of-songs",
+   "chapter": 5,
+   "difficulty": "expert",
+   "ref": "Song of Songs 5:13",
+   "text": {
+    "en": [
+     "In Song of Songs 5, which flowers are the lover's lips like?",
+     "Lilies",
+     "Roses",
+     "Daisies"
+    ],
+    "es": [
+     "¿En el Cantar de los Cantares 5, a qué flores se parecen los labios del amado?",
+     "Lirios",
+     "Rosas",
+     "Margaritas"
+    ],
+    "pt": [
+     "No Cântico dos Cânticos 5, a que flores se parecem os lábios do amado?",
+     "Lírios",
+     "Rosas",
+     "Margaridas"
+    ],
+    "fr": [
+     "Dans le Cantique des Cantiques 5, à quelles fleurs les lèvres de l'amant ressemblent-elles ?",
+     "Lis",
+     "Roses",
+     "Marguerites"
+    ],
+    "de": [
+     "Welchen Blumen gleichen im Hohelied 5 die Lippen des Geliebten?",
+     "Lilien",
+     "Rosen",
+     "Margeriten"
+    ],
+    "it": [
+     "Nel Cantico dei Cantici 5, a quali fiori somigliano le labbra dell'amato?",
+     "Gigli",
+     "Rose",
+     "Margherite"
+    ],
+    "pl": [
+     "Które kwiaty przypominają wargi ukochanego w Pieśni nad Pieśniami 5?",
+     "Lilie",
+     "Róże",
+     "Stokrotki"
+    ],
+    "ru": [
+     "Какие цветы напоминают губы возлюбленного в Песни песней 5?",
+     "Лилии",
+     "Розы",
+     "Ромашки"
+    ],
+    "tr": [
+     "Ezgiler Ezgisi 5'te sevgilinin dudakları hangi çiçeklere benzer?",
+     "Zambaklar",
+     "Güller",
+     "Papatyalar"
+    ],
+    "ja": [
+     "雅歌5章で、恋人の唇はどの花のようですか？",
+     "百合",
+     "バラ",
+     "デイジー"
+    ],
+    "ko": [
+     "아가 5장에서 연인의 입술은 어떤 꽃 같습니까?",
+     "나리꽃",
+     "장미",
+     "데이지"
+    ],
+    "ar": [
+     "في نشيد الأناشيد 5، شفتا الحبيب مثل أي زهور؟",
+     "سوسن",
+     "ورد",
+     "أقحوان"
+    ]
+   }
+  },
+  {
+   "id": "ch-song-of-songs-001-25",
+   "book": "song-of-songs",
+   "chapter": 5,
+   "difficulty": "impossible",
+   "ref": "Song of Songs 5:2",
+   "text": {
+    "en": [
+     "In Song of Songs 5, what wets the lover's head at night?",
+     "Dew",
+     "Snow",
+     "Oil"
+    ],
+    "es": [
+     "¿En el Cantar de los Cantares 5, qué moja la cabeza del amado cuando llama de noche?",
+     "Rocío",
+     "Nieve",
+     "Aceite"
+    ],
+    "pt": [
+     "No Cântico dos Cânticos 5, o que molha a cabeça do amado quando bate à noite?",
+     "Orvalho",
+     "Neve",
+     "Óleo"
+    ],
+    "fr": [
+     "Dans le Cantique des Cantiques 5, qu'est-ce qui mouille la tête de l'amant quand il frappe la nuit ?",
+     "Rosée",
+     "Neige",
+     "Huile"
+    ],
+    "de": [
+     "Was macht im Hohelied 5 den Kopf des Geliebten nass, als er nachts klopft?",
+     "Tau",
+     "Schnee",
+     "Öl"
+    ],
+    "it": [
+     "Nel Cantico dei Cantici 5, che cosa bagna il capo dell'amato mentre bussa di notte?",
+     "Rugiada",
+     "Neve",
+     "Olio"
+    ],
+    "pl": [
+     "Co zwilża głowę ukochanego, gdy puka nocą, w Pieśni nad Pieśniami 5?",
+     "Rosa",
+     "Śnieg",
+     "Olej"
+    ],
+    "ru": [
+     "Что смочило голову возлюбленного, когда он стучал ночью, в Песни песней 5?",
+     "Роса",
+     "Снег",
+     "Масло"
+    ],
+    "tr": [
+     "Ezgiler Ezgisi 5'te geceleyin kapıyı çalan sevgilinin başını ne ıslatmıştır?",
+     "Çiy",
+     "Kar",
+     "Yağ"
+    ],
+    "ja": [
+     "雅歌5章で、夜に戸を叩く恋人の頭を濡らしたものは何ですか？",
+     "露",
+     "雪",
+     "油"
+    ],
+    "ko": [
+     "아가 5장에서 밤에 문을 두드리는 연인의 머리를 적신 것은 무엇입니까?",
+     "이슬",
+     "눈",
+     "기름"
+    ],
+    "ar": [
+     "في نشيد الأناشيد 5، ما الذي بلّل رأس الحبيب وهو يقرع ليلاً؟",
+     "ندى",
+     "ثلج",
+     "زيت"
+    ]
+   }
+  },
+  {
+   "id": "ch-song-of-songs-001-26",
+   "book": "song-of-songs",
+   "chapter": 6,
+   "difficulty": "easy",
+   "ref": "Song of Songs 6:9",
+   "text": {
+    "en": [
+     "In Song of Songs 6, which bird does the lover call his perfect one?",
+     "Dove",
+     "Eagle",
+     "Falcon"
+    ],
+    "es": [
+     "¿En el Cantar de los Cantares 6, qué ave llama el amado su perfecta?",
+     "Paloma",
+     "Águila",
+     "Halcón"
+    ],
+    "pt": [
+     "No Cântico dos Cânticos 6, que ave o amado chama de sua perfeita?",
+     "Pomba",
+     "Águia",
+     "Falcão"
+    ],
+    "fr": [
+     "Dans le Cantique des Cantiques 6, quel oiseau l'amant appelle-t-il sa parfaite ?",
+     "Colombe",
+     "Aigle",
+     "Faucon"
+    ],
+    "de": [
+     "Welchen Vogel nennt der Geliebte im Hohelied 6 seine Makellose?",
+     "Taube",
+     "Adler",
+     "Falke"
+    ],
+    "it": [
+     "Nel Cantico dei Cantici 6, quale uccello l'amato chiama la sua perfetta?",
+     "Colomba",
+     "Aquila",
+     "Falco"
+    ],
+    "pl": [
+     "Jakim ptakiem nazywa ukochany swą doskonałą w Pieśni nad Pieśniami 6?",
+     "Gołębicą",
+     "Orłem",
+     "Sokołem"
+    ],
+    "ru": [
+     "Какой птицей называет возлюбленный свою непорочную в Песни песней 6?",
+     "Голубицей",
+     "Орлом",
+     "Соколом"
+    ],
+    "tr": [
+     "Ezgiler Ezgisi 6'da sevgili, kusursuz sevgilisini hangi kuş olarak adlandırır?",
+     "Güvercin",
+     "Kartal",
+     "Şahin"
+    ],
+    "ja": [
+     "雅歌6章で、恋人が「わたしの完全な者」と呼ぶ鳥は何ですか？",
+     "鳩",
+     "鷲",
+     "隼"
+    ],
+    "ko": [
+     "아가 6장에서 연인은 자신의 완전한 이를 어떤 새라고 부릅니까?",
+     "비둘기",
+     "독수리",
+     "매"
+    ],
+    "ar": [
+     "في نشيد الأناشيد 6، أي طائر يسمّي الحبيب كاملته؟",
+     "حمامة",
+     "نسر",
+     "صقر"
+    ]
+   }
+  },
+  {
+   "id": "ch-song-of-songs-001-27",
+   "book": "song-of-songs",
+   "chapter": 6,
+   "difficulty": "medium",
+   "ref": "Song of Songs 6:10",
+   "text": {
+    "en": [
+     "In Song of Songs 6, which heavenly body is the beloved as fair as?",
+     "Moon",
+     "Star",
+     "Planet"
+    ],
+    "es": [
+     "¿Tan hermosa como qué astro es la amada en el Cantar de los Cantares 6?",
+     "Luna",
+     "Estrella",
+     "Planeta"
+    ],
+    "pt": [
+     "No Cântico dos Cânticos 6, tão bela como que astro é a amada?",
+     "Lua",
+     "Estrela",
+     "Planeta"
+    ],
+    "fr": [
+     "Dans le Cantique des Cantiques 6, belle comme quel astre est la bien-aimée ?",
+     "Lune",
+     "Étoile",
+     "Planète"
+    ],
+    "de": [
+     "Schön wie welches Gestirn ist die Geliebte im Hohelied 6?",
+     "Mond",
+     "Stern",
+     "Planet"
+    ],
+    "it": [
+     "Nel Cantico dei Cantici 6, bella come quale astro è l'amata?",
+     "Luna",
+     "Stella",
+     "Pianeta"
+    ],
+    "pl": [
+     "Które ciało niebieskie dorównuje urodą oblubienicy w Pieśni nad Pieśniami 6?",
+     "Księżyc",
+     "Gwiazda",
+     "Planeta"
+    ],
+    "ru": [
+     "Какое светило сравнивается красотой с возлюбленной в Песни песней 6?",
+     "Луна",
+     "Звезда",
+     "Планета"
+    ],
+    "tr": [
+     "Ezgiler Ezgisi 6'da sevgili hangi gök cismi kadar güzeldir?",
+     "Ay",
+     "Yıldız",
+     "Gezegen"
+    ],
+    "ja": [
+     "雅歌6章で、恋人はどの天体のように美しいですか？",
+     "月",
+     "星",
+     "惑星"
+    ],
+    "ko": [
+     "아가 6장에서 연인은 어떤 천체처럼 아름답습니까?",
+     "달",
+     "별",
+     "행성"
+    ],
+    "ar": [
+     "في نشيد الأناشيد 6، الحبيبة جميلة مثل أي جرم سماوي؟",
+     "قمر",
+     "نجم",
+     "كوكب"
+    ]
+   }
+  },
+  {
+   "id": "ch-song-of-songs-001-28",
+   "book": "song-of-songs",
+   "chapter": 6,
+   "difficulty": "hard",
+   "ref": "Song of Songs 6:8",
+   "text": {
+    "en": [
+     "In Song of Songs 6, how many concubines are mentioned with the queens?",
+     "80",
+     "40",
+     "100"
+    ],
+    "es": [
+     "¿En el Cantar de los Cantares 6, cuántas concubinas se mencionan junto con las reinas?",
+     "80",
+     "40",
+     "100"
+    ],
+    "pt": [
+     "No Cântico dos Cânticos 6, quantas concubinas são mencionadas com as rainhas?",
+     "80",
+     "40",
+     "100"
+    ],
+    "fr": [
+     "Dans le Cantique des Cantiques 6, combien de concubines sont mentionnées avec les reines ?",
+     "80",
+     "40",
+     "100"
+    ],
+    "de": [
+     "Wie viele Nebenfrauen werden im Hohelied 6 neben den Königinnen genannt?",
+     "80",
+     "40",
+     "100"
+    ],
+    "it": [
+     "Nel Cantico dei Cantici 6, quante concubine sono menzionate con le regine?",
+     "80",
+     "40",
+     "100"
+    ],
+    "pl": [
+     "Ile nałożnic wymieniono obok królowych w Pieśni nad Pieśniami 6?",
+     "80",
+     "40",
+     "100"
+    ],
+    "ru": [
+     "Сколько наложниц упоминается наряду с царицами в Песни песней 6?",
+     "80",
+     "40",
+     "100"
+    ],
+    "tr": [
+     "Ezgiler Ezgisi 6'da kraliçelerle birlikte kaç cariye anılır?",
+     "80",
+     "40",
+     "100"
+    ],
+    "ja": [
+     "雅歌6章で、王妃たちと並んで挙げられる側女は何人ですか？",
+     "80",
+     "40",
+     "100"
+    ],
+    "ko": [
+     "아가 6장에서 왕비들과 함께 언급되는 후궁은 몇 명입니까?",
+     "80",
+     "40",
+     "100"
+    ],
+    "ar": [
+     "في نشيد الأناشيد 6، كم سرّية تُذكر مع الملكات؟",
+     "80",
+     "40",
+     "100"
+    ]
+   }
+  },
+  {
+   "id": "ch-song-of-songs-001-29",
+   "book": "song-of-songs",
+   "chapter": 6,
+   "difficulty": "expert",
+   "ref": "Song of Songs 6:6",
+   "text": {
+    "en": [
+     "In Song of Songs 6, the beloved's teeth are like a flock of what?",
+     "Sheep",
+     "Doves",
+     "Camels"
+    ],
+    "es": [
+     "¿En el Cantar de los Cantares 6, los dientes de la amada son como un rebaño de qué?",
+     "Ovejas",
+     "Palomas",
+     "Camellos"
+    ],
+    "pt": [
+     "No Cântico dos Cânticos 6, os dentes da amada são como um rebanho de quê?",
+     "Ovelhas",
+     "Pombas",
+     "Camelos"
+    ],
+    "fr": [
+     "Dans le Cantique des Cantiques 6, les dents de la bien-aimée sont comme un troupeau de quoi ?",
+     "Brebis",
+     "Colombes",
+     "Chameaux"
+    ],
+    "de": [
+     "Welche Tiere bilden im Hohelied 6 die Herde, der die Zähne der Geliebten gleichen?",
+     "Schafe",
+     "Tauben",
+     "Kamele"
+    ],
+    "it": [
+     "Nel Cantico dei Cantici 6, i denti dell'amata sono come un gregge di che cosa?",
+     "Pecore",
+     "Colombe",
+     "Cammelli"
+    ],
+    "pl": [
+     "Do stada czego podobne są zęby oblubienicy w Pieśni nad Pieśniami 6?",
+     "Owiec",
+     "Gołębi",
+     "Wielbłądów"
+    ],
+    "ru": [
+     "Стаду чего подобны зубы возлюбленной в Песни песней 6?",
+     "Овец",
+     "Голубей",
+     "Верблюдов"
+    ],
+    "tr": [
+     "Ezgiler Ezgisi 6'da sevgilinin dişleri neyin sürüsüne benzer?",
+     "Koyunun",
+     "Güvercinin",
+     "Devenin"
+    ],
+    "ja": [
+     "雅歌6章で、恋人の歯は何の群れのようですか？",
+     "羊",
+     "鳩",
+     "ラクダ"
+    ],
+    "ko": [
+     "아가 6장에서 연인의 이는 무엇의 떼와 같습니까?",
+     "양",
+     "비둘기",
+     "낙타"
+    ],
+    "ar": [
+     "في نشيد الأناشيد 6، أسنان الحبيبة كقطيع من ماذا؟",
+     "نعاج",
+     "حمائم",
+     "جمال"
+    ]
+   }
+  },
+  {
+   "id": "ch-song-of-songs-001-30",
+   "book": "song-of-songs",
+   "chapter": 6,
+   "difficulty": "impossible",
+   "ref": "Song of Songs 6:11",
+   "text": {
+    "en": [
+     "In Song of Songs 6, which plant, besides pomegranates, is checked for bloom?",
+     "Vine",
+     "Olive",
+     "Fig"
+    ],
+    "es": [
+     "¿En el Cantar de los Cantares 6, qué planta, además de los granados, se revisa para ver si ha florecido?",
+     "Vid",
+     "Olivo",
+     "Higuera"
+    ],
+    "pt": [
+     "No Cântico dos Cânticos 6, que planta, além das romãzeiras, é verificada para ver se floresceu?",
+     "Videira",
+     "Oliveira",
+     "Figueira"
+    ],
+    "fr": [
+     "Dans le Cantique des Cantiques 6, quelle plante, outre les grenadiers, est examinée pour voir si elle a fleuri ?",
+     "Vigne",
+     "Olivier",
+     "Figuier"
+    ],
+    "de": [
+     "Welche Pflanze, außer den Granatbäumen, wird im Hohelied 6 darauf geprüft, ob sie blüht?",
+     "Weinstock",
+     "Olivenbaum",
+     "Feigenbaum"
+    ],
+    "it": [
+     "Nel Cantico dei Cantici 6, quale pianta, oltre ai melograni, viene controllata per vedere se è fiorita?",
+     "Vite",
+     "Ulivo",
+     "Fico"
+    ],
+    "pl": [
+     "Która roślina, oprócz granatów, jest sprawdzana w Pieśni nad Pieśniami 6, czy zakwitła?",
+     "Winorośl",
+     "Oliwka",
+     "Figowiec"
+    ],
+    "ru": [
+     "Какое растение, кроме гранатов, идут проверить, расцвело ли оно, в Песни песней 6?",
+     "Лозу",
+     "Маслину",
+     "Смоковницу"
+    ],
+    "tr": [
+     "Ezgiler Ezgisi 6'da nar ağaçlarından başka, çiçek açıp açmadığına bakılan bitki hangisidir?",
+     "Asma",
+     "Zeytin",
+     "İncir"
+    ],
+    "ja": [
+     "雅歌6章で、ざくろのほかに、花が咲いたかどうか見に行く植物は何ですか？",
+     "ぶどう",
+     "オリーブ",
+     "いちじく"
+    ],
+    "ko": [
+     "아가 6장에서 석류 말고 꽃이 피었는지 보러 가는 식물은 무엇입니까?",
+     "포도나무",
+     "올리브나무",
+     "무화과나무"
+    ],
+    "ar": [
+     "في نشيد الأناشيد 6، أي نبات، غير الرمان، يُنظر هل أزهر؟",
+     "كرمة",
+     "زيتونة",
+     "تينة"
+    ]
+   }
+  },
+  {
+   "id": "ch-song-of-songs-001-31",
+   "book": "song-of-songs",
+   "chapter": 7,
+   "difficulty": "easy",
+   "ref": "Song of Songs 7:8",
+   "text": {
+    "en": [
+     "In Song of Songs 7, which tree is the beloved's stature like?",
+     "Palm",
+     "Olive",
+     "Oak"
+    ],
+    "es": [
+     "¿En el Cantar de los Cantares 7, a qué árbol se parece la estatura de la amada?",
+     "Palmera",
+     "Olivo",
+     "Roble"
+    ],
+    "pt": [
+     "No Cântico dos Cânticos 7, a que árvore se parece a estatura da amada?",
+     "Palmeira",
+     "Oliveira",
+     "Carvalho"
+    ],
+    "fr": [
+     "Dans le Cantique des Cantiques 7, à quel arbre la taille de la bien-aimée ressemble-t-elle ?",
+     "Palmier",
+     "Olivier",
+     "Chêne"
+    ],
+    "de": [
+     "Welchem Baum gleicht im Hohelied 7 die Gestalt der Geliebten?",
+     "Palme",
+     "Olivenbaum",
+     "Eiche"
+    ],
+    "it": [
+     "Nel Cantico dei Cantici 7, a quale albero somiglia la statura dell'amata?",
+     "Palma",
+     "Ulivo",
+     "Quercia"
+    ],
+    "pl": [
+     "Które drzewo przypomina postawę oblubienicy w Pieśni nad Pieśniami 7?",
+     "Palma",
+     "Oliwka",
+     "Dąb"
+    ],
+    "ru": [
+     "Какое дерево напоминает стан возлюбленной в Песни песней 7?",
+     "Пальма",
+     "Маслина",
+     "Дуб"
+    ],
+    "tr": [
+     "Ezgiler Ezgisi 7'de sevgilinin boyunun benzetildiği ağaç hangisidir?",
+     "Hurma",
+     "Zeytin",
+     "Meşe"
+    ],
+    "ja": [
+     "雅歌7章で、恋人の背丈はどの木のようですか？",
+     "なつめやし",
+     "オリーブ",
+     "樫"
+    ],
+    "ko": [
+     "아가 7장에서 연인의 몸매는 어떤 나무 같습니까?",
+     "야자나무",
+     "올리브나무",
+     "떡갈나무"
+    ],
+    "ar": [
+     "في نشيد الأناشيد 7، قامة الحبيبة مثل أي شجرة؟",
+     "نخلة",
+     "زيتونة",
+     "بلوطة"
+    ]
+   }
+  },
+  {
+   "id": "ch-song-of-songs-001-32",
+   "book": "song-of-songs",
+   "chapter": 7,
+   "difficulty": "medium",
+   "ref": "Song of Songs 7:5",
+   "text": {
+    "en": [
+     "In Song of Songs 7, the tower of Lebanon looks toward which city?",
+     "Damascus",
+     "Babylon",
+     "Nineveh"
+    ],
+    "es": [
+     "¿En el Cantar de los Cantares 7, hacia qué ciudad mira la torre del Líbano?",
+     "Damasco",
+     "Babilonia",
+     "Nínive"
+    ],
+    "pt": [
+     "No Cântico dos Cânticos 7, para que cidade olha a torre do Líbano?",
+     "Damasco",
+     "Babilônia",
+     "Nínive"
+    ],
+    "fr": [
+     "Dans le Cantique des Cantiques 7, vers quelle ville la tour du Liban regarde-t-elle ?",
+     "Damas",
+     "Babylone",
+     "Ninive"
+    ],
+    "de": [
+     "Auf welche Stadt blickt im Hohelied 7 der Libanonturm?",
+     "Damaskus",
+     "Babylon",
+     "Ninive"
+    ],
+    "it": [
+     "Nel Cantico dei Cantici 7, verso quale città guarda la torre del Libano?",
+     "Damasco",
+     "Babilonia",
+     "Ninive"
+    ],
+    "pl": [
+     "Ku jakiemu miastu patrzy wieża Libanu w Pieśni nad Pieśniami 7?",
+     "Damaszkowi",
+     "Babilonowi",
+     "Niniwie"
+    ],
+    "ru": [
+     "К какому городу обращена ливанская башня в Песни песней 7?",
+     "Дамаску",
+     "Вавилону",
+     "Ниневии"
+    ],
+    "tr": [
+     "Ezgiler Ezgisi 7'de Lübnan kulesi hangi şehre bakar?",
+     "Şam'a",
+     "Babil'e",
+     "Ninova'ya"
+    ],
+    "ja": [
+     "雅歌7章で、レバノンの塔はどの町の方を向いていますか？",
+     "ダマスコ",
+     "バビロン",
+     "ニネベ"
+    ],
+    "ko": [
+     "아가 7장에서 레바논 탑은 어느 도성을 향하고 있습니까?",
+     "다마스쿠스",
+     "바빌론",
+     "니네베"
+    ],
+    "ar": [
+     "في نشيد الأناشيد 7، نحو أي مدينة يطلّ برج لبنان؟",
+     "دمشق",
+     "بابل",
+     "نينوى"
+    ]
+   }
+  },
+  {
+   "id": "ch-song-of-songs-001-33",
+   "book": "song-of-songs",
+   "chapter": 7,
+   "difficulty": "hard",
+   "ref": "Song of Songs 7:6",
+   "text": {
+    "en": [
+     "In Song of Songs 7, the beloved's head is like which mountain?",
+     "Carmel",
+     "Moriah",
+     "Gilboa"
+    ],
+    "es": [
+     "¿En el Cantar de los Cantares 7, a qué monte se parece la cabeza de la amada?",
+     "Carmelo",
+     "Moria",
+     "Gelboé"
+    ],
+    "pt": [
+     "No Cântico dos Cânticos 7, a que monte se compara a cabeça da amada?",
+     "Carmelo",
+     "Moriá",
+     "Gelboé"
+    ],
+    "fr": [
+     "Dans le Cantique des Cantiques 7, à quelle montagne la tête de la bien-aimée est-elle comparée ?",
+     "Carmel",
+     "Moriah",
+     "Gelboé"
+    ],
+    "de": [
+     "Mit welchem Berg wird im Hohelied 7 das Haupt der Geliebten verglichen?",
+     "Karmel",
+     "Morija",
+     "Gilboa"
+    ],
+    "it": [
+     "Nel Cantico dei Cantici 7, a quale monte è paragonato il capo dell'amata?",
+     "Carmelo",
+     "Moria",
+     "Gelboe"
+    ],
+    "pl": [
+     "Która góra przypomina głowę oblubienicy w Pieśni nad Pieśniami 7?",
+     "Karmel",
+     "Moria",
+     "Gilboa"
+    ],
+    "ru": [
+     "Какая гора напоминает голову возлюбленной в Песни песней 7?",
+     "Кармил",
+     "Мориа",
+     "Гелвуй"
+    ],
+    "tr": [
+     "Ezgiler Ezgisi 7'de sevgilinin başı hangi dağa benzer?",
+     "Karmel",
+     "Moriya",
+     "Gilboa"
+    ],
+    "ja": [
+     "雅歌7章で、恋人の頭はどの山のようですか？",
+     "カルメル",
+     "モリヤ",
+     "ギルボア"
+    ],
+    "ko": [
+     "아가 7장에서 연인의 머리는 어느 산 같습니까?",
+     "카르멜",
+     "모리야",
+     "길보아"
+    ],
+    "ar": [
+     "في نشيد الأناشيد 7، رأس الحبيبة مثل أي جبل؟",
+     "كرمل",
+     "مورية",
+     "جلبوع"
+    ]
+   }
+  },
+  {
+   "id": "ch-song-of-songs-001-34",
+   "book": "song-of-songs",
+   "chapter": 7,
+   "difficulty": "expert",
+   "ref": "Song of Songs 7:5",
+   "text": {
+    "en": [
+     "In Song of Songs 7, which city has pools compared to the beloved's eyes?",
+     "Heshbon",
+     "Gibeon",
+     "Ashdod"
+    ],
+    "es": [
+     "¿En el Cantar de los Cantares 7, qué ciudad tiene los estanques que se comparan con los ojos de la amada?",
+     "Jesbón",
+     "Gabaón",
+     "Asdod"
+    ],
+    "pt": [
+     "No Cântico dos Cânticos 7, que cidade tem os tanques comparados aos olhos da amada?",
+     "Hesbon",
+     "Gabaon",
+     "Asdode"
+    ],
+    "fr": [
+     "Dans le Cantique des Cantiques 7, quelle ville a les viviers comparés aux yeux de la bien-aimée ?",
+     "Hesbon",
+     "Gabaon",
+     "Ashdod"
+    ],
+    "de": [
+     "Welche Stadt hat die Teiche, mit denen im Hohelied 7 die Augen der Geliebten verglichen werden?",
+     "Heschbon",
+     "Gibeon",
+     "Aschdod"
+    ],
+    "it": [
+     "Nel Cantico dei Cantici 7, quale città ha le piscine paragonate agli occhi dell'amata?",
+     "Chesbòn",
+     "Gabaon",
+     "Asdod"
+    ],
+    "pl": [
+     "Które miasto ma sadzawki przypominające oczy oblubienicy w Pieśni nad Pieśniami 7?",
+     "Cheszbon",
+     "Gabaon",
+     "Aszdod"
+    ],
+    "ru": [
+     "Какой город имеет пруды, с которыми сравниваются глаза возлюбленной в Песни песней 7?",
+     "Есевон",
+     "Гаваон",
+     "Азот"
+    ],
+    "tr": [
+     "Ezgiler Ezgisi 7'de sevgilinin gözleri hangi şehirdeki havuzlara benzetilir?",
+     "Heşbon",
+     "Givon",
+     "Aşdod"
+    ],
+    "ja": [
+     "雅歌7章で、恋人の目にたとえられる池がある町はどこですか？",
+     "ヘシュボン",
+     "ギブオン",
+     "アシュドド"
+    ],
+    "ko": [
+     "아가 7장에서 연인의 눈에 비유된 연못이 있는 도성은 어디입니까?",
+     "헤스본",
+     "기브온",
+     "아스돗"
+    ],
+    "ar": [
+     "في نشيد الأناشيد 7، في أي مدينة البرك التي تشبه عيني الحبيبة؟",
+     "حشبون",
+     "جبعون",
+     "أشدود"
+    ]
+   }
+  },
+  {
+   "id": "ch-song-of-songs-001-35",
+   "book": "song-of-songs",
+   "chapter": 7,
+   "difficulty": "impossible",
+   "ref": "Song of Songs 7:3",
+   "text": {
+    "en": [
+     "In Song of Songs 7, which grain is heaped and encircled with lilies?",
+     "Wheat",
+     "Barley",
+     "Millet"
+    ],
+    "es": [
+     "¿En el Cantar de los Cantares 7, qué grano está amontonado y rodeado de lirios?",
+     "Trigo",
+     "Cebada",
+     "Mijo"
+    ],
+    "pt": [
+     "No Cântico dos Cânticos 7, que grão está amontoado e rodeado de lírios?",
+     "Trigo",
+     "Cevada",
+     "Painço"
+    ],
+    "fr": [
+     "Dans le Cantique des Cantiques 7, quel grain est amassé et entouré de lis ?",
+     "Blé",
+     "Orge",
+     "Millet"
+    ],
+    "de": [
+     "Welches Getreide ist im Hohelied 7 aufgehäuft und von Lilien umgeben?",
+     "Weizen",
+     "Gerste",
+     "Hirse"
+    ],
+    "it": [
+     "Nel Cantico dei Cantici 7, quale cereale è ammucchiato e circondato di gigli?",
+     "Grano",
+     "Orzo",
+     "Miglio"
+    ],
+    "pl": [
+     "Które zboże jest usypane i otoczone liliami w Pieśni nad Pieśniami 7?",
+     "Pszenica",
+     "Jęczmień",
+     "Proso"
+    ],
+    "ru": [
+     "Какое зерно сложено в ворох и обставлено лилиями в Песни песней 7?",
+     "Пшеница",
+     "Ячмень",
+     "Просо"
+    ],
+    "tr": [
+     "Ezgiler Ezgisi 7'de yığılmış ve zambaklarla çevrilmiş tahıl hangisidir?",
+     "Buğday",
+     "Arpa",
+     "Darı"
+    ],
+    "ja": [
+     "雅歌7章で、積み上げられて百合に囲まれている穀物は何ですか？",
+     "小麦",
+     "大麦",
+     "きび"
+    ],
+    "ko": [
+     "아가 7장에서 쌓여 나리꽃에 둘러싸인 곡식은 무엇입니까?",
+     "밀",
+     "보리",
+     "기장"
+    ],
+    "ar": [
+     "في نشيد الأناشيد 7، أي حبّ مكوَّم ومحاط بالسوسن؟",
+     "قمح",
+     "شعير",
+     "دخن"
+    ]
+   }
+  },
+  {
+   "id": "ch-song-of-songs-001-36",
+   "book": "song-of-songs",
+   "chapter": 8,
+   "difficulty": "easy",
+   "ref": "Song of Songs 8:6",
+   "text": {
+    "en": [
+     "In Song of Songs 8, which object is placed upon the lover's heart?",
+     "Seal",
+     "Crown",
+     "Shield"
+    ],
+    "es": [
+     "¿En el Cantar de los Cantares 8, qué objeto se pone sobre el corazón del amado?",
+     "Sello",
+     "Corona",
+     "Escudo"
+    ],
+    "pt": [
+     "No Cântico dos Cânticos 8, que objeto é colocado sobre o coração do amado?",
+     "Selo",
+     "Coroa",
+     "Escudo"
+    ],
+    "fr": [
+     "Dans le Cantique des Cantiques 8, quel objet est placé sur le cœur de l'amant ?",
+     "Sceau",
+     "Couronne",
+     "Bouclier"
+    ],
+    "de": [
+     "Welcher Gegenstand wird im Hohelied 8 auf das Herz des Geliebten gelegt?",
+     "Siegel",
+     "Krone",
+     "Schild"
+    ],
+    "it": [
+     "Nel Cantico dei Cantici 8, quale oggetto è posto sul cuore dell'amato?",
+     "Sigillo",
+     "Corona",
+     "Scudo"
+    ],
+    "pl": [
+     "Jaki przedmiot kładzie się na sercu ukochanego w Pieśni nad Pieśniami 8?",
+     "Pieczęć",
+     "Korona",
+     "Tarcza"
+    ],
+    "ru": [
+     "Какой предмет полагается на сердце возлюбленного в Песни песней 8?",
+     "Печать",
+     "Венец",
+     "Щит"
+    ],
+    "tr": [
+     "Ezgiler Ezgisi 8'de sevgilinin yüreğine hangi nesne konur?",
+     "Mühür",
+     "Taç",
+     "Kalkan"
+    ],
+    "ja": [
+     "雅歌8章で、恋人の心の上に置かれる物は何ですか？",
+     "印章",
+     "冠",
+     "盾"
+    ],
+    "ko": [
+     "아가 8장에서 연인의 마음 위에 놓이는 물건은 무엇입니까?",
+     "인장",
+     "왕관",
+     "방패"
+    ],
+    "ar": [
+     "في نشيد الأناشيد 8، أي شيء يُوضع على قلب الحبيب؟",
+     "ختم",
+     "تاج",
+     "ترس"
+    ]
+   }
+  },
+  {
+   "id": "ch-song-of-songs-001-37",
+   "book": "song-of-songs",
+   "chapter": 8,
+   "difficulty": "medium",
+   "ref": "Song of Songs 8:1",
+   "text": {
+    "en": [
+     "In Song of Songs 8, which relative does the beloved wish her lover were?",
+     "Brother",
+     "Father",
+     "Uncle"
+    ],
+    "es": [
+     "¿En el Cantar de los Cantares 8, qué pariente desea la amada que fuera su amado?",
+     "Hermano",
+     "Padre",
+     "Tío"
+    ],
+    "pt": [
+     "No Cântico dos Cânticos 8, que parente a amada gostaria que o seu amado fosse?",
+     "Irmão",
+     "Pai",
+     "Tio"
+    ],
+    "fr": [
+     "Dans le Cantique des Cantiques 8, quel parent la bien-aimée voudrait-elle que son amant soit ?",
+     "Frère",
+     "Père",
+     "Oncle"
+    ],
+    "de": [
+     "Welcher Verwandte soll ihr Geliebter nach ihrem Wunsch im Hohelied 8 sein?",
+     "Bruder",
+     "Vater",
+     "Onkel"
+    ],
+    "it": [
+     "Nel Cantico dei Cantici 8, quale parente l'amata vorrebbe che fosse il suo amato?",
+     "Fratello",
+     "Padre",
+     "Zio"
+    ],
+    "pl": [
+     "Którym krewnym chciałaby oblubienica widzieć swego ukochanego w Pieśni nad Pieśniami 8?",
+     "Bratem",
+     "Ojcem",
+     "Wujem"
+    ],
+    "ru": [
+     "Кем из родных хотела бы видеть возлюбленная своего возлюбленного в Песни песней 8?",
+     "Братом",
+     "Отцом",
+     "Дядей"
+    ],
+    "tr": [
+     "Ezgiler Ezgisi 8'de sevgili, sevgilisinin hangi akrabası olmasını diler?",
+     "Kardeş",
+     "Baba",
+     "Amca"
+    ],
+    "ja": [
+     "雅歌8章で、愛する女性は、恋人が自分のどの親族であればよいと願っていますか？",
+     "兄弟",
+     "父",
+     "叔父"
+    ],
+    "ko": [
+     "아가 8장에서 여인은 연인이 어떤 친척이기를 바랍니까?",
+     "형제",
+     "아버지",
+     "삼촌"
+    ],
+    "ar": [
+     "في نشيد الأناشيد 8، أي قريب تتمنى الحبيبة أن يكون حبيبها؟",
+     "أخ",
+     "أب",
+     "عم"
+    ]
+   }
+  },
+  {
+   "id": "ch-song-of-songs-001-38",
+   "book": "song-of-songs",
+   "chapter": 8,
+   "difficulty": "hard",
+   "ref": "Song of Songs 8:11",
+   "text": {
+    "en": [
+     "In Song of Songs 8, which king owned a vineyard?",
+     "Solomon",
+     "David",
+     "Ahab"
+    ],
+    "es": [
+     "¿En el Cantar de los Cantares 8, qué rey tenía una viña?",
+     "Salomón",
+     "David",
+     "Ajab"
+    ],
+    "pt": [
+     "No Cântico dos Cânticos 8, que rei possuía uma vinha?",
+     "Salomão",
+     "Davi",
+     "Acab"
+    ],
+    "fr": [
+     "Dans le Cantique des Cantiques 8, quel roi possédait une vigne ?",
+     "Salomon",
+     "David",
+     "Achab"
+    ],
+    "de": [
+     "Welcher König besaß im Hohelied 8 einen Weinberg?",
+     "Salomo",
+     "David",
+     "Ahab"
+    ],
+    "it": [
+     "Nel Cantico dei Cantici 8, quale re possedeva una vigna?",
+     "Salomone",
+     "Davide",
+     "Acab"
+    ],
+    "pl": [
+     "Który król miał winnicę w Pieśni nad Pieśniami 8?",
+     "Salomon",
+     "Dawid",
+     "Achab"
+    ],
+    "ru": [
+     "Какой царь владел виноградником в Песни песней 8?",
+     "Соломон",
+     "Давид",
+     "Ахав"
+    ],
+    "tr": [
+     "Ezgiler Ezgisi 8'de hangi kralın bir bağı vardı?",
+     "Süleyman",
+     "Davut",
+     "Ahav"
+    ],
+    "ja": [
+     "雅歌8章で、ぶどう畑を持っていた王は誰ですか？",
+     "ソロモン",
+     "ダビデ",
+     "アハブ"
+    ],
+    "ko": [
+     "아가 8장에서 포도밭을 가지고 있던 임금은 누구입니까?",
+     "솔로몬",
+     "다윗",
+     "아합"
+    ],
+    "ar": [
+     "في نشيد الأناشيد 8، أي ملك كان له كرم؟",
+     "سليمان",
+     "داود",
+     "أخاب"
+    ]
+   }
+  },
+  {
+   "id": "ch-song-of-songs-001-39",
+   "book": "song-of-songs",
+   "chapter": 8,
+   "difficulty": "expert",
+   "ref": "Song of Songs 8:2",
+   "text": {
+    "en": [
+     "In Song of Songs 8, what spiced drink does the beloved offer her lover?",
+     "Wine",
+     "Milk",
+     "Water"
+    ],
+    "es": [
+     "¿En el Cantar de los Cantares 8, qué bebida aromatizada ofrece la amada a su amado?",
+     "Vino",
+     "Leche",
+     "Agua"
+    ],
+    "pt": [
+     "No Cântico dos Cânticos 8, que bebida aromatizada a amada oferece ao seu amado?",
+     "Vinho",
+     "Leite",
+     "Água"
+    ],
+    "fr": [
+     "Dans le Cantique des Cantiques 8, quelle boisson parfumée la bien-aimée offre-t-elle à son amant ?",
+     "Vin",
+     "Lait",
+     "Eau"
+    ],
+    "de": [
+     "Welches gewürzte Getränk bietet die Geliebte im Hohelied 8 ihrem Geliebten an?",
+     "Wein",
+     "Milch",
+     "Wasser"
+    ],
+    "it": [
+     "Nel Cantico dei Cantici 8, quale bevanda aromatizzata l'amata offre al suo amato?",
+     "Vino",
+     "Latte",
+     "Acqua"
+    ],
+    "pl": [
+     "Jaki korzenny napój podaje oblubienica ukochanemu w Pieśni nad Pieśniami 8?",
+     "Wino",
+     "Mleko",
+     "Wodę"
+    ],
+    "ru": [
+     "Какой пряный напиток предлагает возлюбленная своему возлюбленному в Песни песней 8?",
+     "Вино",
+     "Молоко",
+     "Воду"
+    ],
+    "tr": [
+     "Ezgiler Ezgisi 8'de sevgili, sevgilisine hangi baharatlı içeceği sunar?",
+     "Şarabı",
+     "Sütü",
+     "Suyu"
+    ],
+    "ja": [
+     "雅歌8章で、恋人が愛する人に差し出す香料入りの飲み物は何ですか？",
+     "ぶどう酒",
+     "乳",
+     "水"
+    ],
+    "ko": [
+     "아가 8장에서 연인이 사랑하는 이에게 주는 향료 섞은 마실 것은 무엇입니까?",
+     "포도주",
+     "우유",
+     "물"
+    ],
+    "ar": [
+     "في نشيد الأناشيد 8، أي شراب متبّل تقدّمه الحبيبة لحبيبها؟",
+     "خمر",
+     "لبن",
+     "ماء"
+    ]
+   }
+  },
+  {
+   "id": "ch-song-of-songs-001-40",
+   "book": "song-of-songs",
+   "chapter": 8,
+   "difficulty": "impossible",
+   "ref": "Song of Songs 8:11",
+   "text": {
+    "en": [
+     "In Song of Songs 8, how many silver pieces must each caretaker bring?",
+     "1000",
+     "100",
+     "500"
+    ],
+    "es": [
+     "¿En el Cantar de los Cantares 8, cuántas monedas de plata debe traer cada guarda?",
+     "1000",
+     "100",
+     "500"
+    ],
+    "pt": [
+     "No Cântico dos Cânticos 8, quantas moedas de prata cada guarda deve trazer?",
+     "1000",
+     "100",
+     "500"
+    ],
+    "fr": [
+     "Dans le Cantique des Cantiques 8, combien de pièces d'argent chaque gardien doit-il apporter ?",
+     "1000",
+     "100",
+     "500"
+    ],
+    "de": [
+     "Wie viele Silberstücke muss jeder Hüter im Hohelied 8 bringen?",
+     "1000",
+     "100",
+     "500"
+    ],
+    "it": [
+     "Nel Cantico dei Cantici 8, quante monete d'argento deve portare ogni custode?",
+     "1000",
+     "100",
+     "500"
+    ],
+    "pl": [
+     "Ile srebrników musi przynieść każdy stróż w Pieśni nad Pieśniami 8?",
+     "1000",
+     "100",
+     "500"
+    ],
+    "ru": [
+     "Сколько сребреников должен принести каждый сторож в Песни песней 8?",
+     "1000",
+     "100",
+     "500"
+    ],
+    "tr": [
+     "Ezgiler Ezgisi 8'de her bekçi kaç gümüş para getirmelidir?",
+     "1000",
+     "100",
+     "500"
+    ],
+    "ja": [
+     "雅歌8章で、番人はそれぞれ銀を何枚持ってこなければなりませんか？",
+     "1000",
+     "100",
+     "500"
+    ],
+    "ko": [
+     "아가 8장에서 소작인은 각각 은을 몇 닢 가져와야 합니까?",
+     "1000",
+     "100",
+     "500"
+    ],
+    "ar": [
+     "في نشيد الأناشيد 8، كم قطعة فضة يجب على كل حارس أن يأتي بها؟",
+     "1000",
+     "100",
+     "500"
+    ]
+   }
+  }
+ ]
+}
