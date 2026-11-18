@@ -52,3 +52,7 @@ language's Catholic Bible.
 Some build hosts have no `python3`. `queue.mjs`, `apply_en.mjs` and `merge.mjs`
 are Node ports of the `.py` tools and write byte-identical files; prefer them.
 `mkdir -p .qwork/prompts` before running `ch_prompts.mjs` (the folder is git-ignored).
+
+`tools/step.sh <unit> <write|en|tr>` finishes a step in one go: validate,
+mark done, and after `tr` merge + build questions + commit; it then prints
+(and marks running) the next step. `tools/progress.sh` prints chapter progress.
