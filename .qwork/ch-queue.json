@@ -1029,19 +1029,19 @@
 "unit": "ch-isaiah-050",
 "step": "write",
 "model": "sonnet",
-"status": "todo"
+"status": "done"
 },
 {
 "unit": "ch-isaiah-050",
 "step": "en",
 "model": "opus",
-"status": "todo"
+"status": "done"
 },
 {
 "unit": "ch-isaiah-050",
 "step": "tr",
 "model": "sonnet",
-"status": "todo"
+"status": "done"
 },
 {
 "unit": "ch-jeremiah-001",
