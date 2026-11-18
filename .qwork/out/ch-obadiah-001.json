@@ -1,0 +1,409 @@
+{
+ "questions": [
+  {
+   "id": "ch-obadiah-001-01",
+   "book": "obadiah",
+   "chapter": 1,
+   "difficulty": "easy",
+   "ref": "Obadiah 1:10",
+   "text": {
+    "en": [
+     "In Obadiah, who was Edom's ancestor, Jacob's brother?",
+     "Esau",
+     "Ishmael",
+     "Laban"
+    ],
+    "es": [
+     "¿En Abdías, quién fue el antepasado de Edom, hermano de Jacob?",
+     "Esaú",
+     "Ismael",
+     "Labán"
+    ],
+    "pt": [
+     "Em Abdias, quem foi o antepassado de Edom, irmão de Jacó?",
+     "Esaú",
+     "Ismael",
+     "Labão"
+    ],
+    "fr": [
+     "Dans Abdias, qui est l'ancêtre d'Édom, frère de Jacob ?",
+     "Ésaü",
+     "Ismaël",
+     "Laban"
+    ],
+    "de": [
+     "Wer ist in Obadja der Stammvater Edoms, Jakobs Bruder?",
+     "Esau",
+     "Ismael",
+     "Laban"
+    ],
+    "it": [
+     "In Abdia, chi è l'antenato di Edom, fratello di Giacobbe?",
+     "Esaù",
+     "Ismaele",
+     "Làbano"
+    ],
+    "pl": [
+     "Kto w Księdze Abdiasza jest przodkiem Edomu, bratem Jakuba?",
+     "Ezaw",
+     "Izmael",
+     "Laban"
+    ],
+    "ru": [
+     "Кто в книге Авдия является предком Едома, братом Иакова?",
+     "Исав",
+     "Измаил",
+     "Лаван"
+    ],
+    "tr": [
+     "Ovadya'da Edom'un atası olan, Yakup'un kardeşi kimdir?",
+     "Esav",
+     "İsmail",
+     "Lavan"
+    ],
+    "ja": [
+     "オバデヤ書で、エドムの祖となったヤコブの兄は誰ですか？",
+     "エサウ",
+     "イシュマエル",
+     "ラバン"
+    ],
+    "ko": [
+     "오바드야서에서 에돔의 조상이 된 야곱의 형제는 누구입니까?",
+     "에사오",
+     "이스마엘",
+     "라반"
+    ],
+    "ar": [
+     "في عوبديا، من هو جد أدوم وأخو يعقوب؟",
+     "عيسو",
+     "إسماعيل",
+     "لابان"
+    ]
+   }
+  },
+  {
+   "id": "ch-obadiah-001-02",
+   "book": "obadiah",
+   "chapter": 1,
+   "difficulty": "medium",
+   "ref": "Obadiah 1:4",
+   "text": {
+    "en": [
+     "In Obadiah, Edom nests among the stars like which bird?",
+     "Eagle",
+     "Dove",
+     "Raven"
+    ],
+    "es": [
+     "¿En Abdías, a qué ave se asemeja Edom al anidar entre las estrellas?",
+     "Águila",
+     "Paloma",
+     "Cuervo"
+    ],
+    "pt": [
+     "Em Abdias, a que ave Edom se compara ao fazer ninho entre as estrelas?",
+     "Águia",
+     "Pomba",
+     "Corvo"
+    ],
+    "fr": [
+     "Dans Abdias, à quel oiseau Édom ressemble-t-il en nichant parmi les étoiles ?",
+     "Aigle",
+     "Colombe",
+     "Corbeau"
+    ],
+    "de": [
+     "In Obadja baut Edom sein Nest zwischen den Sternen wie welcher Vogel?",
+     "Adler",
+     "Taube",
+     "Rabe"
+    ],
+    "it": [
+     "In Abdia, a quale uccello somiglia Edom nel fare il nido tra le stelle?",
+     "Aquila",
+     "Colomba",
+     "Corvo"
+    ],
+    "pl": [
+     "W Księdze Abdiasza którego ptaka naśladuje Edom, gnieżdżąc się wśród gwiazd?",
+     "Orła",
+     "Gołębia",
+     "Kruka"
+    ],
+    "ru": [
+     "В книге Авдия Едом вьёт гнездо среди звёзд, подобно какой птице?",
+     "Орлу",
+     "Голубю",
+     "Ворону"
+    ],
+    "tr": [
+     "Ovadya'da Edom, yıldızlar arasında hangi kuş gibi yuva yapar?",
+     "Kartal",
+     "Güvercin",
+     "Kuzgun"
+    ],
+    "ja": [
+     "オバデヤ書で、星の間に巣を作るエドムは、どの鳥にたとえられていますか？",
+     "鷲",
+     "鳩",
+     "烏"
+    ],
+    "ko": [
+     "오바드야서에서 별들 사이에 둥지를 트는 에돔은 어느 새에 비유됩니까?",
+     "독수리",
+     "비둘기",
+     "까마귀"
+    ],
+    "ar": [
+     "في عوبديا، بأي طائر يُشبَّه أدوم في بنائه عشه بين النجوم؟",
+     "نسر",
+     "حمامة",
+     "غراب"
+    ]
+   }
+  },
+  {
+   "id": "ch-obadiah-001-03",
+   "book": "obadiah",
+   "chapter": 1,
+   "difficulty": "hard",
+   "ref": "Obadiah 1:17",
+   "text": {
+    "en": [
+     "In Obadiah, on which mountain will there be survivors?",
+     "Zion",
+     "Sinai",
+     "Hermon"
+    ],
+    "es": [
+     "¿En Abdías, en qué monte habrá supervivientes?",
+     "Sion",
+     "Sinaí",
+     "Hermón"
+    ],
+    "pt": [
+     "Em Abdias, em que monte haverá sobreviventes?",
+     "Sião",
+     "Sinai",
+     "Hermon"
+    ],
+    "fr": [
+     "Dans Abdias, sur quelle montagne y aura-t-il des rescapés ?",
+     "Sion",
+     "Sinaï",
+     "Hermon"
+    ],
+    "de": [
+     "Auf welchem Berg gibt es laut Obadja Gerettete?",
+     "Zion",
+     "Sinai",
+     "Hermon"
+    ],
+    "it": [
+     "In Abdia, su quale monte ci saranno dei superstiti?",
+     "Sion",
+     "Sinai",
+     "Ermon"
+    ],
+    "pl": [
+     "Która góra w Księdze Abdiasza stanie się miejscem ocalenia?",
+     "Syjon",
+     "Synaj",
+     "Hermon"
+    ],
+    "ru": [
+     "Какая гора в книге Авдия станет местом спасения?",
+     "Сион",
+     "Синай",
+     "Ермон"
+    ],
+    "tr": [
+     "Ovadya'da kurtulanların bulunacağı dağ hangisidir?",
+     "Siyon",
+     "Sina",
+     "Hermon"
+    ],
+    "ja": [
+     "オバデヤ書で、逃れた者がいるのはどの山ですか？",
+     "シオン",
+     "シナイ",
+     "ヘルモン"
+    ],
+    "ko": [
+     "오바드야서에서 살아남은 이들이 있을 산은 어느 산입니까?",
+     "시온",
+     "시나이",
+     "헤르몬"
+    ],
+    "ar": [
+     "في عوبديا، على أي جبل يكون الناجون؟",
+     "صهيون",
+     "سيناء",
+     "حرمون"
+    ]
+   }
+  },
+  {
+   "id": "ch-obadiah-001-04",
+   "book": "obadiah",
+   "chapter": 1,
+   "difficulty": "expert",
+   "ref": "Obadiah 1:18",
+   "text": {
+    "en": [
+     "In Obadiah, Jacob's house will be fire; whose house a flame?",
+     "Joseph",
+     "Judah",
+     "Levi"
+    ],
+    "es": [
+     "¿En Abdías, la casa de Jacob será fuego; la casa de quién, llama?",
+     "José",
+     "Judá",
+     "Leví"
+    ],
+    "pt": [
+     "Em Abdias, a casa de Jacó será fogo; a casa de quem, chama?",
+     "José",
+     "Judá",
+     "Levi"
+    ],
+    "fr": [
+     "Dans Abdias, la maison de Jacob sera un feu ; la maison de qui, une flamme ?",
+     "Joseph",
+     "Juda",
+     "Lévi"
+    ],
+    "de": [
+     "In Obadja wird das Haus Jakobs zum Feuer; das Haus wessen zur Flamme?",
+     "Josef",
+     "Juda",
+     "Levi"
+    ],
+    "it": [
+     "In Abdia, la casa di Giacobbe sarà fuoco; la casa di chi, fiamma?",
+     "Giuseppe",
+     "Giuda",
+     "Levi"
+    ],
+    "pl": [
+     "W Księdze Abdiasza dom Jakuba będzie ogniem; dom kogo płomieniem?",
+     "Józefa",
+     "Judy",
+     "Lewiego"
+    ],
+    "ru": [
+     "В книге Авдия дом Иакова будет огнём; дом кого — пламенем?",
+     "Иосифа",
+     "Иуды",
+     "Левия"
+    ],
+    "tr": [
+     "Ovadya'da Yakup'un evi ateş olacak; kimin evi alev olacak?",
+     "Yusuf'un",
+     "Yahuda'nın",
+     "Levi'nin"
+    ],
+    "ja": [
+     "オバデヤ書で、ヤコブの家は火となりますが、炎となるのは誰の家ですか？",
+     "ヨセフ",
+     "ユダ",
+     "レビ"
+    ],
+    "ko": [
+     "오바드야서에서 야곱 집안은 불이 되는데, 누구의 집안이 불꽃이 됩니까?",
+     "요셉",
+     "유다",
+     "레위"
+    ],
+    "ar": [
+     "في عوبديا، يكون بيت يعقوب نارًا؛ فبيت من يكون لهيبًا؟",
+     "يوسف",
+     "يهوذا",
+     "لاوي"
+    ]
+   }
+  },
+  {
+   "id": "ch-obadiah-001-05",
+   "book": "obadiah",
+   "chapter": 1,
+   "difficulty": "impossible",
+   "ref": "Obadiah 1:21",
+   "text": {
+    "en": [
+     "How many verses does the book of Obadiah have?",
+     "21",
+     "15",
+     "28"
+    ],
+    "es": [
+     "¿Cuántos versículos tiene el libro de Abdías?",
+     "21",
+     "15",
+     "28"
+    ],
+    "pt": [
+     "Quantos versículos tem o livro de Abdias?",
+     "21",
+     "15",
+     "28"
+    ],
+    "fr": [
+     "Combien de versets compte le livre d'Abdias ?",
+     "21",
+     "15",
+     "28"
+    ],
+    "de": [
+     "Wie viele Verse hat das Buch Obadja?",
+     "21",
+     "15",
+     "28"
+    ],
+    "it": [
+     "Quanti versetti ha il libro di Abdia?",
+     "21",
+     "15",
+     "28"
+    ],
+    "pl": [
+     "Ile wersetów ma Księga Abdiasza?",
+     "21",
+     "15",
+     "28"
+    ],
+    "ru": [
+     "Сколько стихов в книге Авдия?",
+     "21",
+     "15",
+     "28"
+    ],
+    "tr": [
+     "Ovadya kitabında kaç ayet vardır?",
+     "21",
+     "15",
+     "28"
+    ],
+    "ja": [
+     "オバデヤ書は全部で何節ありますか？",
+     "21",
+     "15",
+     "28"
+    ],
+    "ko": [
+     "오바드야서는 모두 몇 절입니까?",
+     "21",
+     "15",
+     "28"
+    ],
+    "ar": [
+     "كم عدد آيات سفر عوبديا؟",
+     "21",
+     "15",
+     "28"
+    ]
+   }
+  }
+ ]
+}
