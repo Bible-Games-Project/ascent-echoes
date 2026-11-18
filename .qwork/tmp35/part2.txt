@@ -1,0 +1,209 @@
+@37 easy Sirach 37:2
+en: In Sirach 37, what does a companion become, causing grief?|Enemy|Stranger|Neighbor
+es: ¿En Eclesiástico 37, en qué se convierte el compañero, causando dolor?|Enemigo|Desconocido|Vecino
+pt: Em Eclesiástico 37, em que se transforma o companheiro, causando tristeza?|Inimigo|Estranho|Vizinho
+fr: Dans Siracide 37, en quoi un compagnon se change-t-il, causant du chagrin ?|Ennemi|Inconnu|Voisin
+de: Was wird laut Jesus Sirach 37 ein Gefährte, zum Kummer der Freunde?|Feind|Fremder|Nachbar
+it: In Siracide 37, in chi si trasforma un compagno, causando dolore?|Nemico|Straniero|Vicino
+pl: Kim według Mądrości Syracha 37 staje się towarzysz, sprawiając ból?|Wrogiem|Obcym|Sąsiadem
+ru: Кем, по Книге Сираха 37, становится товарищ, причиняя скорбь?|Врагом|Чужим|Соседом
+tr: Sirak 37'de acı veren biçimde yoldaş kim olur?|Düşman|Yabancı|Komşu
+ja: シラ書37章で、仲間が悲しいことに何になってしまいますか？|敵|他人|隣人
+ko: 집회서 37장에서 동료가 슬프게도 무엇이 되어 버립니까?|원수|이방인|이웃
+ar: في يشوع بن سيراخ 37، ماذا يصبح الرفيق مسببًا الحزن؟|عدو|غريب|جار
+
+@37 medium Sirach 37:11
+en: In Sirach 37, whom should you not consult about war?|Coward|Shepherd|Potter
+es: ¿En Eclesiástico 37, a quién no debes consultar sobre la guerra?|Cobarde|Pastor|Alfarero
+pt: Em Eclesiástico 37, quem você não deve consultar sobre a guerra?|Covarde|Pastor|Oleiro
+fr: Dans Siracide 37, qui ne faut-il pas consulter au sujet de la guerre ?|Lâche|Berger|Potier
+de: Wen soll man laut Jesus Sirach 37 nicht über den Krieg befragen?|Feigling|Hirte|Töpfer
+it: In Siracide 37, chi non devi consultare riguardo alla guerra?|Codardo|Pastore|Vasaio
+pl: Z kim według Mądrości Syracha 37 nie należy się radzić w sprawie wojny?|Tchórzem|Pasterzem|Garncarzem
+ru: С кем, по Книге Сираха 37, не следует советоваться о войне?|Трусом|Пастухом|Гончаром
+tr: Sirak 37'de savaş hakkında danışılmaması gereken kişi kimdir?|Korkak|Çoban|Çömlekçi
+ja: シラ書37章で、戦争について相談してはならない相手は誰ですか？|臆病者|羊飼い|陶工
+ko: 집회서 37장에서 전쟁에 관해 의논해서는 안 되는 사람은 누구입니까?|겁쟁이|목자|옹기장이
+ar: في يشوع بن سيراخ 37، من لا يجوز استشارته بشأن الحرب؟|جبان|راعي|فخاري
+
+@37 hard Sirach 37:14
+en: In Sirach 37, one's own mind reports better than how many watchmen?|7|3|12
+es: ¿En Eclesiástico 37, la propia mente informa mejor que cuántos centinelas?|7|3|12
+pt: Em Eclesiástico 37, a própria mente informa melhor que quantas sentinelas?|7|3|12
+fr: Dans Siracide 37, l'esprit renseigne mieux que combien de sentinelles ?|7|3|12
+de: Besser als wie viele Wächter berichtet laut Jesus Sirach 37 der eigene Sinn?|7|3|12
+it: In Siracide 37, la propria mente avverte meglio di quante sentinelle?|7|3|12
+pl: Lepiej niż ilu strażników informuje własny umysł według Mądrości Syracha 37?|7|3|12
+ru: Лучше скольких стражей, по Книге Сираха 37, сообщает собственный ум?|7|3|12
+tr: Sirak 37'de insanın kendi zihni kaç nöbetçiden daha iyi haber verir?|7|3|12
+ja: シラ書37章で、人の心は何人の見張りよりもよく知らせますか？|7|3|12
+ko: 집회서 37장에서 사람의 마음은 몇 명의 파수꾼보다 더 잘 알려 줍니까?|7|3|12
+ar: في يشوع بن سيراخ 37، عقل الإنسان ينبئ أفضل من كم حارسًا؟|7|3|12
+
+@37 expert Sirach 37:25
+en: In Sirach 37, which people has days without number?|Israel|Egypt|Edom
+es: ¿En Eclesiástico 37, qué pueblo tiene días sin número?|Israel|Egipto|Edom
+pt: Em Eclesiástico 37, que povo tem dias sem número?|Israel|Egito|Edom
+fr: Dans Siracide 37, quel peuple a des jours sans nombre ?|Israël|Égypte|Édom
+de: Welches Volk hat laut Jesus Sirach 37 Tage ohne Zahl?|Israel|Ägypten|Edom
+it: In Siracide 37, quale popolo ha giorni senza numero?|Israele|Egitto|Edom
+pl: Który lud ma według Mądrości Syracha 37 dni bez liku?|Izrael|Egipt|Edom
+ru: Какой народ, по Книге Сираха 37, имеет дни без числа?|Израиль|Египет|Эдом
+tr: Sirak 37'de hangi halkın günleri sayısızdır?|İsrail|Mısır|Edom
+ja: シラ書37章で、日数が数えきれないのはどの民ですか？|イスラエル|エジプト|エドム
+ko: 집회서 37장에서 날수가 헤아릴 수 없는 민족은 어느 쪽입니까?|이스라엘|이집트|에돔
+ar: في يشوع بن سيراخ 37، أي شعب أيامه بلا عدد؟|إسرائيل|مصر|أدوم
+
+@37 impossible Sirach 37:31
+en: In Sirach 37, many have died from which excess at table?|Gluttony|Fasting|Thirst
+es: ¿En Eclesiástico 37, de qué exceso en la mesa han muerto muchos?|Glotonería|Ayuno|Sed
+pt: Em Eclesiástico 37, de que excesso à mesa muitos morreram?|Gula|Jejum|Sede
+fr: Dans Siracide 37, de quel excès à table beaucoup sont-ils morts ?|Gloutonnerie|Jeûne|Soif
+de: Woran sind laut Jesus Sirach 37 viele durch Übermaß bei Tisch gestorben?|Völlerei|Fasten|Durst
+it: In Siracide 37, per quale eccesso a tavola molti sono morti?|Ingordigia|Digiuno|Sete
+pl: Z jakiego nadmiaru przy stole zmarło wielu według Mądrości Syracha 37?|Obżarstwa|Postu|Pragnienia
+ru: От какого излишества за столом умерли многие, по Книге Сираха 37?|Обжорства|Поста|Жажды
+tr: Sirak 37'de sofrada hangi aşırılık birçok kişinin ölümüne yol açtı?|Oburluk|Oruç|Susuzluk
+ja: シラ書37章で、食卓でのどんな行き過ぎが多くの人を死なせましたか？|暴食|断食|渇き
+ko: 집회서 37장에서 식탁에서의 어떤 지나침 때문에 많은 이가 죽었습니까?|폭식|단식|갈증
+ar: في يشوع بن سيراخ 37، أي إفراط على المائدة أهلك كثيرين؟|شراهة|صيام|عطش
+
+@38 easy Sirach 38:4
+en: In Sirach 38, from what does the Lord create medicines?|Earth|Sea|Sky
+es: ¿En Eclesiástico 38, de qué crea el Señor las medicinas?|Tierra|Mar|Cielo
+pt: Em Eclesiástico 38, de que o Senhor cria os remédios?|Terra|Mar|Céu
+fr: Dans Siracide 38, de quoi le Seigneur crée-t-il les remèdes ?|Terre|Mer|Ciel
+de: Woraus erschafft der Herr laut Jesus Sirach 38 die Heilmittel?|Erde|Meer|Himmel
+it: In Siracide 38, da che cosa il Signore crea le medicine?|Terra|Mare|Cielo
+pl: Z czego według Mądrości Syracha 38 Pan stworzył lekarstwa?|Ziemi|Morza|Nieba
+ru: Из чего, по Книге Сираха 38, Господь создал лекарства?|Земли|Моря|Неба
+tr: Sirak 38'de Rab ilaçları neyden yarattı?|Yerden|Denizden|Gökten
+ja: シラ書38章で、主は薬を何から創造されましたか？|地|海|空
+ko: 집회서 38장에서 주님께서는 무엇에서 약을 창조하셨습니까?|땅|바다|하늘
+ar: في يشوع بن سيراخ 38، من أين خلق الرب الأدوية؟|أرض|بحر|سماء
+
+@38 medium Sirach 38:28
+en: In Sirach 38, which craftsman sits beside his anvil?|Smith|Weaver|Baker
+es: ¿En Eclesiástico 38, qué artesano está sentado junto a su yunque?|Herrero|Tejedor|Panadero
+pt: Em Eclesiástico 38, que artesão está sentado junto à sua bigorna?|Ferreiro|Tecelão|Padeiro
+fr: Dans Siracide 38, quel artisan est assis près de son enclume ?|Forgeron|Tisserand|Boulanger
+de: Welcher Handwerker sitzt laut Jesus Sirach 38 neben seinem Amboss?|Schmied|Weber|Bäcker
+it: In Siracide 38, quale artigiano siede accanto alla sua incudine?|Fabbro|Tessitore|Fornaio
+pl: Który rzemieślnik siedzi przy kowadle według Mądrości Syracha 38?|Kowal|Tkacz|Piekarz
+ru: Какой мастер сидит у наковальни, по Книге Сираха 38?|Кузнец|Ткач|Пекарь
+tr: Sirak 38'de örsünün başında oturan usta kimdir?|Demirci|Dokumacı|Fırıncı
+ja: シラ書38章で、鉄床のそばに座っている職人は誰ですか？|鍛冶屋|織工|パン屋
+ko: 집회서 38장에서 모루 곁에 앉아 있는 장인은 누구입니까?|대장장이|직조공|제빵사
+ar: في يشوع بن سيراخ 38، أي حرفي يجلس قرب سندانه؟|حداد|نساج|خباز
+
+@38 hard Sirach 38:29
+en: In Sirach 38, which craftsman turns the wheel with his feet?|Potter|Sailor|Carpenter
+es: ¿En Eclesiástico 38, qué artesano hace girar la rueda con sus pies?|Alfarero|Marinero|Carpintero
+pt: Em Eclesiástico 38, que artesão faz girar a roda com os pés?|Oleiro|Marinheiro|Carpinteiro
+fr: Dans Siracide 38, quel artisan fait tourner la roue avec ses pieds ?|Potier|Marin|Charpentier
+de: Welcher Handwerker dreht laut Jesus Sirach 38 mit den Füßen das Rad?|Töpfer|Seemann|Zimmermann
+it: In Siracide 38, quale artigiano fa girare la ruota con i piedi?|Vasaio|Marinaio|Falegname
+pl: Który rzemieślnik obraca kołem nogami według Mądrości Syracha 38?|Garncarz|Żeglarz|Cieśla
+ru: Какой мастер вращает колесо ногами, по Книге Сираха 38?|Гончар|Моряк|Плотник
+tr: Sirak 38'de çarkı ayaklarıyla çeviren usta kimdir?|Çömlekçi|Denizci|Marangoz
+ja: シラ書38章で、足で轆轤を回す職人は誰ですか？|陶工|船乗り|大工
+ko: 집회서 38장에서 발로 돌림판을 돌리는 장인은 누구입니까?|옹기장이|선원|목수
+ar: في يشوع بن سيراخ 38، أي حرفي يدير العجلة بقدميه؟|فخاري|بحار|نجار
+
+@38 expert Sirach 38:25
+en: In Sirach 38, which animal does the plowman drive with his goad?|Ox|Camel|Horse
+es: ¿En Eclesiástico 38, qué animal conduce el labrador con su aguijada?|Buey|Camello|Caballo
+pt: Em Eclesiástico 38, que animal o lavrador conduz com a aguilhada?|Boi|Camelo|Cavalo
+fr: Dans Siracide 38, quel animal le laboureur conduit-il avec son aiguillon ?|Bœuf|Chameau|Cheval
+de: Welches Tier treibt der Pflüger laut Jesus Sirach 38 mit dem Stachelstock an?|Ochse|Kamel|Pferd
+it: In Siracide 38, quale animale guida l'aratore con il pungolo?|Bue|Cammello|Cavallo
+pl: Które zwierzę popędza oracz ościeniem według Mądrości Syracha 38?|Wół|Wielbłąd|Koń
+ru: Какое животное погоняет пахарь стрекалом, по Книге Сираха 38?|Вол|Верблюд|Конь
+tr: Sirak 38'de çiftçi, dürtü sopasıyla hangi hayvanı sürer?|Öküz|Deve|At
+ja: シラ書38章で、耕す人が突き棒で追うのはどの動物ですか？|牛|ラクダ|馬
+ko: 집회서 38장에서 농부가 막대기로 모는 동물은 무엇입니까?|소|낙타|말
+ar: في يشوع بن سيراخ 38، أي حيوان يسوقه الحراث بالمنخس؟|ثور|جمل|حصان
+
+@38 impossible Sirach 38:5
+en: In Sirach 38, what did a piece of wood make sweet?|Water|Wine|Oil
+es: ¿En Eclesiástico 38, qué endulzó un trozo de madera?|Agua|Vino|Aceite
+pt: Em Eclesiástico 38, o que um pedaço de madeira adoçou?|Água|Vinho|Azeite
+fr: Dans Siracide 38, qu'est-ce qu'un morceau de bois a adouci ?|Eau|Vin|Huile
+de: Was machte laut Jesus Sirach 38 ein Stück Holz süß?|Wasser|Wein|Öl
+it: In Siracide 38, che cosa ha reso dolce un pezzo di legno?|Acqua|Vino|Olio
+pl: Co zostało osłodzone drewnem według Mądrości Syracha 38?|Woda|Wino|Oliwa
+ru: Что стало сладким благодаря куску дерева, по Книге Сираха 38?|Вода|Вино|Масло
+tr: Sirak 38'de bir tahta parçası neyi tatlandırdı?|Suyu|Şarabı|Yağı
+ja: シラ書38章で、一片の木は何を甘くしましたか？|水|ぶどう酒|油
+ko: 집회서 38장에서 나무 한 조각은 무엇을 달게 만들었습니까?|물|포도주|기름
+ar: في يشوع بن سيراخ 38، ما الذي جعلته قطعة خشب حلوًا؟|ماء|خمر|زيت
+
+@39 easy Sirach 39:1
+en: In Sirach 39, who studies the law of the Most High?|Scribe|Farmer|Sailor
+es: ¿En Eclesiástico 39, quién estudia la ley del Altísimo?|Escriba|Labrador|Marinero
+pt: Em Eclesiástico 39, quem estuda a lei do Altíssimo?|Escriba|Lavrador|Marinheiro
+fr: Dans Siracide 39, qui étudie la loi du Très-Haut ?|Scribe|Laboureur|Marin
+de: Wer erforscht laut Jesus Sirach 39 das Gesetz des Höchsten?|Schriftgelehrter|Bauer|Seemann
+it: In Siracide 39, chi studia la legge dell'Altissimo?|Scriba|Contadino|Marinaio
+pl: Kto według Mądrości Syracha 39 bada Prawo Najwyższego?|Skryba|Rolnik|Żeglarz
+ru: Кто изучает закон Всевышнего, по Книге Сираха 39?|Книжник|Земледелец|Моряк
+tr: Sirak 39'da Yüceler Yücesi'nin yasasını kim inceler?|Yazıcı|Çiftçi|Denizci
+ja: シラ書39章で、いと高き方の律法を研究するのは誰ですか？|書記|農夫|船乗り
+ko: 집회서 39장에서 지극히 높으신 분의 법을 연구하는 사람은 누구입니까?|율법학자|농부|선원
+ar: في يشوع بن سيراخ 39، من يدرس شريعة العلي؟|كاتب|فلاح|بحار
+
+@39 medium Sirach 39:4
+en: In Sirach 39, before whom does the scribe appear?|Rulers|Beggars|Shepherds
+es: ¿En Eclesiástico 39, ante quiénes se presenta el escriba?|Gobernantes|Mendigos|Pastores
+pt: Em Eclesiástico 39, diante de quem o escriba se apresenta?|Governantes|Mendigos|Pastores
+fr: Dans Siracide 39, devant qui le scribe se présente-t-il ?|Chefs|Mendiants|Bergers
+de: Vor wem erscheint laut Jesus Sirach 39 der Schriftgelehrte?|Herrschern|Bettlern|Hirten
+it: In Siracide 39, davanti a chi si presenta lo scriba?|Governanti|Mendicanti|Pastori
+pl: Przed kim staje skryba według Mądrości Syracha 39?|Władcami|Żebrakami|Pasterzami
+ru: Перед кем предстаёт книжник, по Книге Сираха 39?|Правителями|Нищими|Пастухами
+tr: Sirak 39'da yazıcının huzuruna çıktığı kişiler kimlerdir?|Yöneticiler|Dilenciler|Çobanlar
+ja: シラ書39章で、書記は誰の前に出ますか？|支配者|物乞い|羊飼い
+ko: 집회서 39장에서 율법학자는 누구 앞에 나아갑니까?|통치자|거지|목자
+ar: في يشوع بن سيراخ 39، أمام من يظهر الكاتب؟|حكام|متسولون|رعاة
+
+@39 hard Sirach 39:26
+en: In Sirach 39, which metal is among life's basic necessities?|Iron|Gold|Silver
+es: ¿En Eclesiástico 39, qué metal está entre las necesidades básicas de la vida?|Hierro|Oro|Plata
+pt: Em Eclesiástico 39, que metal está entre as necessidades básicas da vida?|Ferro|Ouro|Prata
+fr: Dans Siracide 39, quel métal figure parmi les nécessités de base de la vie ?|Fer|Or|Argent
+de: Welches Metall gehört laut Jesus Sirach 39 zu den Grundbedürfnissen des Lebens?|Eisen|Gold|Silber
+it: In Siracide 39, quale metallo è tra i beni di prima necessità della vita?|Ferro|Oro|Argento
+pl: Który metal według Mądrości Syracha 39 należy do podstawowych potrzeb życia?|Żelazo|Złoto|Srebro
+ru: Какой металл, по Книге Сираха 39, входит в главное необходимое для жизни?|Железо|Золото|Серебро
+tr: Sirak 39'da hangi maden yaşamın temel ihtiyaçları arasındadır?|Demir|Altın|Gümüş
+ja: シラ書39章で、人の生活に欠かせないものに含まれる金属はどれですか？|鉄|金|銀
+ko: 집회서 39장에서 생활 필수품에 들어 있는 금속은 무엇입니까?|쇠|금|은
+ar: في يشوع بن سيراخ 39، أي معدن من ضروريات حياة الإنسان؟|حديد|ذهب|فضة
+
+@39 expert Sirach 39:13
+en: In Sirach 39, holy children bud like which flower by streams?|Rose|Tulip|Orchid
+es: ¿En Eclesiástico 39, los hijos santos brotan como qué flor junto a los arroyos?|Rosa|Tulipán|Orquídea
+pt: Em Eclesiástico 39, os filhos santos florescem como que flor junto às correntes?|Rosa|Tulipa|Orquídea
+fr: Dans Siracide 39, les fils saints bourgeonnent comme quelle fleur près des cours d'eau ?|Rose|Tulipe|Orchidée
+de: Wie welche Blume sollen laut Jesus Sirach 39 die frommen Kinder am Wasser blühen?|Rose|Tulpe|Orchidee
+it: In Siracide 39, i figli santi fioriscono come quale fiore lungo i ruscelli?|Rosa|Tulipano|Orchidea
+pl: Który kwiat nad strumieniami mają przypominać święci synowie według Mądrości Syracha 39?|Różę|Tulipan|Orchideę
+ru: Какой цветок, по Книге Сираха 39, распускается у потоков вод, подобно святым детям?|Роза|Тюльпан|Орхидея
+tr: Sirak 39'da kutsal çocuklar, derelerin kıyısında hangi çiçek gibi açar?|Gül|Lale|Orkide
+ja: シラ書39章で、聖なる子らは流れのほとりでどの花のように咲きますか？|バラ|チューリップ|蘭
+ko: 집회서 39장에서 거룩한 자녀들은 시냇가에서 어떤 꽃처럼 피어납니까?|장미|튤립|난초
+ar: في يشوع بن سيراخ 39، مثل أي زهرة ينمو الأبناء القديسون عند الجداول؟|وردة|توليب|أوركيد
+
+@39 impossible Sirach 39:14
+en: In Sirach 39, holy children send up fragrance like which incense?|Frankincense|Myrrh|Saffron
+es: ¿En Eclesiástico 39, con qué perfume esparcen fragancia los hijos santos?|Incienso|Mirra|Azafrán
+pt: Em Eclesiástico 39, como que perfume os filhos santos exalam fragrância?|Incenso|Mirra|Açafrão
+fr: Dans Siracide 39, les fils saints répandent un parfum comme quel encens ?|Encens|Myrrhe|Safran
+de: Wonach sollen die frommen Kinder laut Jesus Sirach 39 duften?|Weihrauch|Myrrhe|Safran
+it: In Siracide 39, i figli santi spandono profumo come quale incenso?|Incenso|Mirra|Zafferano
+pl: Którym aromatem mają pachnieć święci synowie według Mądrości Syracha 39?|Kadzidłem|Mirrą|Szafranem
+ru: Каким ароматом, по Книге Сираха 39, должны благоухать святые дети?|Ладаном|Миррой|Шафраном
+tr: Sirak 39'da kutsal çocuklar hangi buhur gibi koku yayar?|Günnük|Mür|Safran
+ja: シラ書39章で、聖なる子らはどの香のように香りを放ちますか？|乳香|没薬|サフラン
+ko: 집회서 39장에서 거룩한 자녀들은 어떤 향처럼 향기를 퍼뜨립니까?|유향|몰약|사프란
+ar: في يشوع بن سيراخ 39، مثل أي بخور يفوح الأبناء القديسون؟|لبان|مر|زعفران

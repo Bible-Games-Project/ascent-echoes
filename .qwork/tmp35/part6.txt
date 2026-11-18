@@ -1,0 +1,139 @@
+@50 easy Sirach 50:16
+en: In Sirach 50, Aaron's sons blew which instruments of hammered metal?|Trumpets|Drums|Harps
+es: ¿En Eclesiástico 50, qué instrumentos de metal batido tocaron los hijos de Aarón?|Trompetas|Tambores|Arpas
+pt: Em Eclesiástico 50, que instrumentos de metal batido os filhos de Aarão tocaram?|Trombetas|Tambores|Harpas
+fr: Dans Siracide 50, quels instruments de métal battu les fils d'Aaron sonnèrent-ils ?|Trompettes|Tambours|Harpes
+de: Welche Instrumente aus getriebenem Metall bliesen laut Jesus Sirach 50 Aarons Söhne?|Trompeten|Trommeln|Harfen
+it: In Siracide 50, quali strumenti di metallo battuto suonarono i figli di Aronne?|Trombe|Tamburi|Arpe
+pl: Jakie instrumenty z kutego metalu zadęli synowie Aarona według Mądrości Syracha 50?|Trąby|Bębny|Harfy
+ru: Какие инструменты из чеканного металла, по Книге Сираха 50, затрубили сыны Аарона?|Трубы|Барабаны|Арфы
+tr: Sirak 50'de Harun oğulları dövme madenden hangi çalgıları çaldı?|Borazanlar|Davullar|Harplar
+ja: シラ書50章で、アロンの子らが吹き鳴らした打ち延ばした金属の楽器は何ですか？|ラッパ|太鼓|竪琴
+ko: 집회서 50장에서 아론의 아들들이 불어 댄 두들겨 만든 금속 악기는 무엇입니까?|나팔|북|수금
+ar: في يشوع بن سيراخ 50، أي آلات من معدن مطروق نفخ فيها بنو هارون؟|أبواق|طبول|قيثارات
+
+@50 medium Sirach 50:15
+en: In Sirach 50, Simon poured what libation at the altar's foot?|Wine|Milk|Honey
+es: ¿En Eclesiástico 50, qué libación derramó Simón al pie del altar?|Vino|Leche|Miel
+pt: Em Eclesiástico 50, que libação Simão derramou ao pé do altar?|Vinho|Leite|Mel
+fr: Dans Siracide 50, quelle libation Simon répandit-il au pied de l'autel ?|Vin|Lait|Miel
+de: Welches Trankopfer goss Simon laut Jesus Sirach 50 am Fuß des Altars aus?|Wein|Milch|Honig
+it: In Siracide 50, quale libagione Simone versò ai piedi dell'altare?|Vino|Latte|Miele
+pl: Jaką ofiarę płynną wylał Szymon u stóp ołtarza według Mądrości Syracha 50?|Wino|Mleko|Miód
+ru: Какое возлияние, по Книге Сираха 50, вылил Симон у подножия жертвенника?|Вино|Молоко|Мёд
+tr: Sirak 50'de Simon sunağın dibine hangi içki sunusunu döktü?|Şarap|Süt|Bal
+ja: シラ書50章で、シモンが祭壇の足もとに注いだ献酒は何ですか？|ぶどう酒|乳|蜜
+ko: 집회서 50장에서 시몬이 제단 발치에 부은 전제물은 무엇입니까?|포도주|젖|꿀
+ar: في يشوع بن سيراخ 50، أي سكيب سكبه سمعان عند أسفل المذبح؟|خمر|حليب|عسل
+
+@50 hard Sirach 50:10
+en: In Sirach 50, Simon is compared to which tree towering in the clouds?|Cypress|Willow|Oak
+es: ¿En Eclesiástico 50, a qué árbol que se alza entre las nubes se compara a Simón?|Ciprés|Sauce|Roble
+pt: Em Eclesiástico 50, a que árvore que se eleva entre as nuvens Simão é comparado?|Cipreste|Salgueiro|Carvalho
+fr: Dans Siracide 50, à quel arbre qui s'élève dans les nuées Simon est-il comparé ?|Cyprès|Saule|Chêne
+de: Mit welchem in die Wolken ragenden Baum wird Simon laut Jesus Sirach 50 verglichen?|Zypresse|Weide|Eiche
+it: In Siracide 50, a quale albero che svetta tra le nubi è paragonato Simone?|Cipresso|Salice|Quercia
+pl: Z którym drzewem sięgającym chmur porównano Szymona według Mądrości Syracha 50?|Cyprysem|Wierzbą|Dębem
+ru: С каким деревом, достигающим облаков, по Книге Сираха 50, сравнён Симон?|Кипарисом|Ивой|Дубом
+tr: Sirak 50'de Simon, bulutlara değen hangi ağaca benzetilir?|Servi|Söğüt|Meşe
+ja: シラ書50章で、シモンは雲にそびえるどの木にたとえられていますか？|糸杉|柳|樫
+ko: 집회서 50장에서 시몬은 구름까지 치솟은 어떤 나무에 비유됩니까?|사이프러스|버드나무|참나무
+ar: في يشوع بن سيراخ 50، بأي شجرة شاهقة بين الغيوم شُبّه سمعان؟|سرو|صفصاف|بلوط
+
+@50 expert Sirach 50:8
+en: In Sirach 50, Simon is compared to which flowers by springs of water?|Lilies|Orchids|Violets
+es: ¿En Eclesiástico 50, a qué flores junto a manantiales se compara a Simón?|Lirios|Orquídeas|Violetas
+pt: Em Eclesiástico 50, a que flores junto às fontes Simão é comparado?|Lírios|Orquídeas|Violetas
+fr: Dans Siracide 50, à quelles fleurs près des sources Simon est-il comparé ?|Lis|Orchidées|Violettes
+de: Mit welchen Blumen an Wasserquellen wird Simon laut Jesus Sirach 50 verglichen?|Lilien|Orchideen|Veilchen
+it: In Siracide 50, a quali fiori presso le sorgenti è paragonato Simone?|Gigli|Orchidee|Viole
+pl: Z jakimi kwiatami nad źródłami porównano Szymona według Mądrości Syracha 50?|Liliami|Storczykami|Fiołkami
+ru: С какими цветами у источников вод, по Книге Сираха 50, сравнён Симон?|Лилиями|Орхидеями|Фиалками
+tr: Sirak 50'de Simon, su kaynaklarındaki hangi çiçeklere benzetilir?|Zambaklar|Orkideler|Menekşeler
+ja: シラ書50章で、シモンは泉のほとりのどの花にたとえられていますか？|ゆり|蘭|すみれ
+ko: 집회서 50장에서 시몬은 샘가의 어떤 꽃에 비유됩니까?|나리꽃|난초|제비꽃
+ar: في يشوع بن سيراخ 50، بأي زهور عند ينابيع المياه شُبّه سمعان؟|زنابق|أوركيد|بنفسج
+
+@50 impossible Sirach 50:25-26
+en: In Sirach 50, besides Seir and Shechem, which people does Sirach detest?|Philistines|Moabites|Ammonites
+es: ¿En Eclesiástico 50, además de Seír y Siquén, qué pueblo detesta el autor?|Filisteos|Moabitas|Amonitas
+pt: Em Eclesiástico 50, além de Seir e Siquém, que povo o autor detesta?|Filisteus|Moabitas|Amonitas
+fr: Dans Siracide 50, outre Séir et Sichem, quel peuple l'auteur déteste-t-il ?|Philistins|Moabites|Ammonites
+de: Welches Volk verabscheut der Verfasser laut Jesus Sirach 50 neben Seïr und Sichem?|Philister|Moabiter|Ammoniter
+it: In Siracide 50, oltre a Seir e Sichem, quale popolo detesta l'autore?|Filistei|Moabiti|Ammoniti
+pl: Który lud oprócz mieszkańców Seiru i Sychem budzi według Mądrości Syracha 50 odrazę autora?|Filistyni|Moabici|Ammonici
+ru: Какой народ, кроме жителей Сеира и Сихема, ненавидит автор, по Книге Сираха 50?|Филистимляне|Моавитяне|Аммонитяне
+tr: Sirak 50'de yazar, Seir ve Şekem'in yanı sıra hangi halkı sevmez?|Filistinliler|Moavlılar|Ammonlular
+ja: シラ書50章で、著者はセイルとシケムの民のほか、どの民を忌み嫌っていますか？|ペリシテ|モアブ|アンモン
+ko: 집회서 50장에서 저자는 세이르와 스켐 외에 어느 민족을 혐오합니까?|필리스티아|모압|암몬
+ar: في يشوع بن سيراخ 50، أي شعب يمقته الكاتب إلى جانب سعير وشكيم؟|فلسطينيون|مؤابيون|عمونيون
+
+@51 easy Sirach 51:1
+en: In Sirach 51, whom does the author praise as his savior?|God|Moses|Aaron
+es: ¿En Eclesiástico 51, a quién alaba el autor como su salvador?|Dios|Moisés|Aarón
+pt: Em Eclesiástico 51, a quem o autor louva como seu salvador?|Deus|Moisés|Aarão
+fr: Dans Siracide 51, qui l'auteur loue-t-il comme son sauveur ?|Dieu|Moïse|Aaron
+de: Wen preist der Verfasser laut Jesus Sirach 51 als seinen Retter?|Gott|Mose|Aaron
+it: In Siracide 51, chi l'autore loda come suo salvatore?|Dio|Mosè|Aronne
+pl: Kogo autor chwali według Mądrości Syracha 51 jako swego zbawcę?|Boga|Mojżesza|Aarona
+ru: Кого, по Книге Сираха 51, автор славит как своего спасителя?|Бога|Моисея|Аарона
+tr: Sirak 51'de yazarın kurtarıcı olarak övdüğü kişi kimdir?|Tanrı|Musa|Harun
+ja: シラ書51章で、著者が救い主として賛美するのは誰ですか？|神|モーセ|アロン
+ko: 집회서 51장에서 저자가 구원자로 찬양하는 분은 누구입니까?|하느님|모세|아론
+ar: في يشوع بن سيراخ 51، من يسبحه الكاتب مخلصًا له؟|الله|موسى|هارون
+
+@51 medium Sirach 51:13
+en: In Sirach 51, what did the author seek openly in prayer while young?|Wisdom|Wealth|Fame
+es: ¿En Eclesiástico 51, qué buscó el autor abiertamente en la oración siendo joven?|Sabiduría|Riqueza|Fama
+pt: Em Eclesiástico 51, o que o autor buscou abertamente na oração quando jovem?|Sabedoria|Riqueza|Fama
+fr: Dans Siracide 51, que l'auteur chercha-t-il ouvertement dans la prière étant jeune ?|Sagesse|Richesse|Gloire
+de: Was suchte der Verfasser laut Jesus Sirach 51 als junger Mann offen im Gebet?|Weisheit|Reichtum|Ruhm
+it: In Siracide 51, che cosa cercò apertamente nella preghiera l'autore da giovane?|Sapienza|Ricchezza|Fama
+pl: Czego według Mądrości Syracha 51 autor jako młodzieniec szukał jawnie w modlitwie?|Mądrości|Bogactwa|Sławy
+ru: Чего, по Книге Сираха 51, автор в юности искал открыто в молитве?|Мудрости|Богатства|Славы
+tr: Sirak 51'de yazar gençken duada açıkça neyi aradı?|Bilgeliği|Serveti|Şöhreti
+ja: シラ書51章で、著者は若いころ祈りの中で公然と何を求めましたか？|知恵|富|名声
+ko: 집회서 51장에서 저자는 젊을 때 기도 중에 드러내어 무엇을 구했습니까?|지혜|재물|명성
+ar: في يشوع بن سيراخ 51، ماذا طلب الكاتب علانية في الصلاة وهو شاب؟|حكمة|ثروة|شهرة
+
+@51 hard Sirach 51:4-5
+en: In Sirach 51, which element surrounded the author on every side?|Fire|Water|Wind
+es: ¿En Eclesiástico 51, qué elemento rodeaba al autor por todas partes?|Fuego|Agua|Viento
+pt: Em Eclesiástico 51, que elemento cercava o autor por todos os lados?|Fogo|Água|Vento
+fr: Dans Siracide 51, quel élément entourait l'auteur de toutes parts ?|Feu|Eau|Vent
+de: Welches Element umgab den Verfasser laut Jesus Sirach 51 von allen Seiten?|Feuer|Wasser|Wind
+it: In Siracide 51, quale elemento circondava l'autore da ogni parte?|Fuoco|Acqua|Vento
+pl: Który żywioł otaczał według Mądrości Syracha 51 autora ze wszystkich stron?|Ogień|Woda|Wiatr
+ru: Какая стихия, по Книге Сираха 51, окружала автора со всех сторон?|Огонь|Вода|Ветер
+tr: Sirak 51'de yazarı her yandan hangi unsur çevreledi?|Ateş|Su|Rüzgâr
+ja: シラ書51章で、著者を四方から取り巻いた元素は何ですか？|火|水|風
+ko: 집회서 51장에서 저자를 사방에서 에워싼 원소는 무엇입니까?|불|물|바람
+ar: في يشوع بن سيراخ 51، أي عنصر أحاط بالكاتب من كل جانب؟|نار|ماء|ريح
+
+@51 expert Sirach 51:26
+en: In Sirach 51, which body part should go under wisdom's yoke?|Neck|Foot|Knee
+es: ¿En Eclesiástico 51, qué parte del cuerpo hay que poner bajo el yugo de la sabiduría?|Cuello|Pie|Rodilla
+pt: Em Eclesiástico 51, que parte do corpo se deve pôr sob o jugo da sabedoria?|Pescoço|Pé|Joelho
+fr: Dans Siracide 51, quelle partie du corps faut-il mettre sous le joug de la sagesse ?|Cou|Pied|Genou
+de: Welchen Körperteil soll man laut Jesus Sirach 51 unter das Joch der Weisheit beugen?|Nacken|Fuß|Knie
+it: In Siracide 51, quale parte del corpo si deve porre sotto il giogo della sapienza?|Collo|Piede|Ginocchio
+pl: Którą część ciała według Mądrości Syracha 51 należy podstawić pod jarzmo mądrości?|Kark|Stopę|Kolano
+ru: Какую часть тела, по Книге Сираха 51, надо подставить под ярмо мудрости?|Шею|Ногу|Колено
+tr: Sirak 51'de bilgeliğin boyunduruğu altına hangi organ konur?|Boyun|Ayak|Diz
+ja: シラ書51章で、知恵のくびきの下に差し出すべき体の部分はどこですか？|首|足|膝
+ko: 집회서 51장에서 지혜의 멍에 아래에 두어야 할 몸의 부분은 어디입니까?|목|발|무릎
+ar: في يشوع بن سيراخ 51، أي جزء من الجسد يوضع تحت نير الحكمة؟|عنق|قدم|ركبة
+
+@51 impossible Sirach 51:28
+en: In Sirach 51, instruction is gained with a great sum of what metal?|Silver|Iron|Bronze
+es: ¿En Eclesiástico 51, la instrucción se adquiere con una gran suma de qué metal?|Plata|Hierro|Bronce
+pt: Em Eclesiástico 51, a instrução se obtém com uma grande soma de que metal?|Prata|Ferro|Bronze
+fr: Dans Siracide 51, l'instruction s'acquiert avec une grosse somme de quel métal ?|Argent|Fer|Bronze
+de: Mit einer großen Summe welchen Metalls erwirbt man laut Jesus Sirach 51 Bildung?|Silber|Eisen|Bronze
+it: In Siracide 51, l'istruzione si ottiene con una grande somma di quale metallo?|Argento|Ferro|Bronzo
+pl: Za wielką sumę jakiego metalu zdobywa się według Mądrości Syracha 51 pouczenie?|Srebra|Żelaza|Brązu
+ru: За большую сумму какого металла, по Книге Сираха 51, приобретается наставление?|Серебра|Железа|Бронзы
+tr: Sirak 51'de büyük miktarda hangi maden karşılığında öğretim edinilir?|Gümüş|Demir|Bronz
+ja: シラ書51章で、訓練は多額のどの金属で得られますか？|銀|鉄|青銅
+ko: 집회서 51장에서 가르침은 많은 양의 어떤 금속으로 얻습니까?|은|쇠|청동
+ar: في يشوع بن سيراخ 51، بمبلغ كبير من أي معدن يُنال التأديب؟|فضة|حديد|برونز

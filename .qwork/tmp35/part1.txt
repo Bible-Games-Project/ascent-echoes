@@ -1,0 +1,139 @@
+@35 easy Sirach 35:15
+en: In Sirach 35, whose tears run down the cheek?|Widow|Soldier|Merchant
+es: ¿En Eclesiástico 35, las lágrimas de quién bajan por la mejilla?|Viuda|Soldado|Comerciante
+pt: Em Eclesiástico 35, as lágrimas de quem correm pela face?|Viúva|Soldado|Comerciante
+fr: Dans Siracide 35, les larmes de qui coulent sur la joue ?|Veuve|Soldat|Marchand
+de: Wer vergießt laut Jesus Sirach 35 Tränen, die über die Wange laufen?|Witwe|Soldat|Kaufmann
+it: In Siracide 35, le lacrime di chi scendono sulla guancia?|Vedova|Soldato|Mercante
+pl: Kto według Mądrości Syracha 35 roni łzy spływające po policzku?|Wdowa|Żołnierz|Kupiec
+ru: Кто, по Книге Сираха 35, проливает слёзы, текущие по щеке?|Вдова|Воин|Купец
+tr: Sirak 35'te kimin gözyaşları yanağından akar?|Dul|Asker|Tüccar
+ja: シラ書35章で、頬に涙を流すのは誰ですか？|やもめ|兵士|商人
+ko: 집회서 35장에서 뺨에 눈물을 흘리는 사람은 누구입니까?|과부|군인|상인
+ar: في يشوع بن سيراخ 35، دموع من تنزل على الخد؟|أرملة|جندي|تاجر
+
+@35 medium Sirach 35:17
+en: In Sirach 35, the prayer of the lowly pierces what?|Clouds|Walls|Mountains
+es: ¿En Eclesiástico 35, qué atraviesa la oración del humilde?|Nubes|Muros|Montañas
+pt: Em Eclesiástico 35, o que a oração do humilde atravessa?|Nuvens|Muros|Montanhas
+fr: Dans Siracide 35, que traverse la prière de l'humble ?|Nuages|Murs|Montagnes
+de: Was durchdringt laut Jesus Sirach 35 das Gebet des Demütigen?|Wolken|Mauern|Berge
+it: In Siracide 35, che cosa attraversa la preghiera dell'umile?|Nubi|Mura|Montagne
+pl: Co według Mądrości Syracha 35 przenika modlitwa pokornego?|Chmury|Mury|Góry
+ru: Что, по Книге Сираха 35, пронзает молитва смиренного?|Облака|Стены|Горы
+tr: Sirak 35'te alçakgönüllünün duası neyi deler?|Bulutları|Duvarları|Dağları
+ja: シラ書35章で、へりくだる者の祈りは何を突き抜けますか？|雲|壁|山
+ko: 집회서 35장에서 겸손한 이의 기도는 무엇을 꿰뚫습니까?|구름|벽|산
+ar: في يشوع بن سيراخ 35، ماذا تخترق صلاة المتواضع؟|غيوم|جدران|جبال
+
+@35 hard Sirach 35:11
+en: In Sirach 35, how many times over does the Lord repay a gift?|7|3|10
+es: ¿En Eclesiástico 35, cuántas veces más devuelve el Señor un don?|7|3|10
+pt: Em Eclesiástico 35, quantas vezes mais o Senhor retribui um dom?|7|3|10
+fr: Dans Siracide 35, combien de fois le Seigneur rend-il un don ?|7|3|10
+de: Wie oft vergilt der Herr laut Jesus Sirach 35 eine Gabe?|7|3|10
+it: In Siracide 35, quante volte il Signore ricompensa un dono?|7|3|10
+pl: Ile razy więcej Pan odpłaca za dar według Mądrości Syracha 35?|7|3|10
+ru: Во сколько раз больше Господь воздаёт за дар, по Книге Сираха 35?|7|3|10
+tr: Sirak 35'te Rab bir armağanı kaç katıyla öder?|7|3|10
+ja: シラ書35章で、主は贈り物を何倍にして返されますか？|7|3|10
+ko: 집회서 35장에서 주님께서는 선물을 몇 배로 갚아 주십니까?|7|3|10
+ar: في يشوع بن سيراخ 35، كم ضعفًا يجازي الرب على العطية؟|7|3|10
+
+@35 expert Sirach 35:2
+en: In Sirach 35, repaying a kindness equals offering what?|Flour|Honey|Wool
+es: ¿En Eclesiástico 35, devolver un favor equivale a ofrecer qué?|Harina|Miel|Lana
+pt: Em Eclesiástico 35, retribuir um favor equivale a oferecer o quê?|Farinha|Mel|Lã
+fr: Dans Siracide 35, rendre un service équivaut à offrir quoi ?|Farine|Miel|Laine
+de: Was opfert laut Jesus Sirach 35, wer Gutes mit Gutem vergilt?|Mehl|Honig|Wolle
+it: In Siracide 35, ricambiare un favore equivale a offrire che cosa?|Farina|Miele|Lana
+pl: Co ofiaruje według Mądrości Syracha 35 ten, kto odwdzięcza się za dobro?|Mąkę|Miód|Wełnę
+ru: Что приносит в жертву, по Книге Сираха 35, воздающий добром за добро?|Муку|Мёд|Шерсть
+tr: Sirak 35'te iyiliğe karşılık veren kişi ne sunmuş olur?|Un|Bal|Yün
+ja: シラ書35章で、親切に報いることは何をささげることに当たりますか？|小麦粉|蜂蜜|羊毛
+ko: 집회서 35장에서 호의에 보답하는 것은 무엇을 바치는 것입니까?|밀가루|꿀|양모
+ar: في يشوع بن سيراخ 35، رد المعروف يشبه تقديم ماذا؟|دقيق|عسل|صوف
+
+@35 impossible Sirach 35:14
+en: In Sirach 35, the Lord does not ignore the plea of which child?|Orphan|Heir|Twin
+es: ¿En Eclesiástico 35, la súplica de qué niño no desoye el Señor?|Huérfano|Heredero|Gemelo
+pt: Em Eclesiástico 35, a súplica de que criança o Senhor não despreza?|Órfão|Herdeiro|Gêmeo
+fr: Dans Siracide 35, la supplication de quel enfant le Seigneur n'ignore-t-il pas ?|Orphelin|Héritier|Jumeau
+de: Welches Kind überhört der Herr laut Jesus Sirach 35 in seinem Flehen nicht?|Waise|Erbe|Zwilling
+it: In Siracide 35, la supplica di quale bambino il Signore non trascura?|Orfano|Erede|Gemello
+pl: Którego dziecka błagania Pan nie lekceważy według Mądrości Syracha 35?|Sieroty|Dziedzica|Bliźniaka
+ru: Мольбу какого ребёнка Господь не отвергает, по Книге Сираха 35?|Сироты|Наследника|Близнеца
+tr: Sirak 35'te Rab hangi çocuğun yakarışını görmezden gelmez?|Yetim|Varis|İkiz
+ja: シラ書35章で、主が決して無視されない願いは、どの子のものですか？|孤児|相続人|双子
+ko: 집회서 35장에서 주님께서 간청을 외면하지 않으시는 아이는 누구입니까?|고아|상속자|쌍둥이
+ar: في يشوع بن سيراخ 35، لا يتجاهل الرب تضرع أي طفل؟|يتيم|وريث|توأم
+
+@36 easy Sirach 36:13
+en: In Sirach 36, for which holy city does the prayer seek mercy?|Jerusalem|Babylon|Nineveh
+es: ¿En Eclesiástico 36, de qué ciudad santa pide la oración que Dios tenga piedad?|Jerusalén|Babilonia|Nínive
+pt: Em Eclesiástico 36, de que cidade santa a oração pede que Deus tenha piedade?|Jerusalém|Babilônia|Nínive
+fr: Dans Siracide 36, de quelle ville sainte la prière demande-t-elle à Dieu d'avoir pitié ?|Jérusalem|Babylone|Ninive
+de: Mit welcher heiligen Stadt soll Gott laut Jesus Sirach 36 Erbarmen haben?|Jerusalem|Babylon|Ninive
+it: In Siracide 36, di quale città santa la preghiera chiede a Dio di avere pietà?|Gerusalemme|Babilonia|Ninive
+pl: Nad którym świętym miastem według Mądrości Syracha 36 modlitwa prosi Boga o litość?|Jerozolimą|Babilonem|Niniwą
+ru: Над каким святым городом, по Книге Сираха 36, молитва просит Бога сжалиться?|Иерусалимом|Вавилоном|Ниневией
+tr: Sirak 36'daki dua, hangi kutsal şehir için merhamet ister?|Kudüs|Babil|Ninova
+ja: シラ書36章の祈りは、どの聖なる都を憐れむよう神に願っていますか？|エルサレム|バビロン|ニネベ
+ko: 집회서 36장의 기도는 하느님께 어느 거룩한 도성을 가엾이 여기시라고 청합니까?|예루살렘|바빌론|니네베
+ar: في يشوع بن سيراخ 36، على أي مدينة مقدسة تطلب الصلاة رحمة الله؟|أورشليم|بابل|نينوى
+
+@36 medium Sirach 36:10
+en: In Sirach 36, the prayer asks God to gather the tribes of whom?|Jacob|Esau|Moses
+es: ¿En Eclesiástico 36, las tribus de quién pide la oración que Dios reúna?|Jacob|Esaú|Moisés
+pt: Em Eclesiástico 36, as tribos de quem a oração pede que Deus reúna?|Jacó|Esaú|Moisés
+fr: Dans Siracide 36, les tribus de qui la prière demande-t-elle à Dieu de rassembler ?|Jacob|Ésaü|Moïse
+de: Zu welchem Stammvater gehören die Stämme, die Gott laut Jesus Sirach 36 sammeln soll?|Jakob|Esau|Mose
+it: In Siracide 36, le tribù di chi la preghiera chiede a Dio di radunare?|Giacobbe|Esaù|Mosè
+pl: Plemiona którego przodka ma zgromadzić Bóg według Mądrości Syracha 36?|Jakuba|Ezawa|Mojżesza
+ru: Колена кого, по Книге Сираха 36, молитва просит Бога собрать?|Иакова|Исава|Моисея
+tr: Sirak 36'daki dua, hangi atanın soyundan gelen oymakların toplanmasını ister?|Yakup|Esav|Musa
+ja: シラ書36章の祈りは、誰の部族を集めてくださいと神に願っていますか？|ヤコブ|エサウ|モーセ
+ko: 집회서 36장의 기도는 누구의 지파들을 모아 달라고 청합니까?|야곱|에사오|모세
+ar: في يشوع بن سيراخ 36، قبائل من تطلب الصلاة أن يجمعها الله؟|يعقوب|عيسو|موسى
+
+@36 hard Sirach 36:3
+en: In Sirach 36, which body part should God raise against foreign nations?|Hand|Foot|Head
+es: ¿En Eclesiástico 36, qué parte del cuerpo pide la oración que Dios alce contra las naciones extranjeras?|Mano|Pie|Cabeza
+pt: Em Eclesiástico 36, que parte do corpo a oração pede que Deus levante contra as nações estrangeiras?|Mão|Pé|Cabeça
+fr: Dans Siracide 36, quelle partie du corps la prière demande-t-elle à Dieu de lever contre les nations étrangères ?|Main|Pied|Tête
+de: Welchen Körperteil soll Gott laut Jesus Sirach 36 gegen fremde Völker erheben?|Hand|Fuß|Kopf
+it: In Siracide 36, quale parte del corpo la preghiera chiede a Dio di alzare contro le nazioni straniere?|Mano|Piede|Testa
+pl: Którą część ciała według Mądrości Syracha 36 Bóg ma podnieść przeciw obcym narodom?|Rękę|Nogę|Głowę
+ru: Какую часть тела, по Книге Сираха 36, Бог должен поднять на чужие народы?|Руку|Ногу|Голову
+tr: Sirak 36'da dua, Tanrı'nın yabancı uluslara karşı hangi organını kaldırmasını ister?|El|Ayak|Baş
+ja: シラ書36章の祈りが、神に異国の民へ向けて上げるよう願うのは、体のどの部分ですか？|手|足|頭
+ko: 집회서 36장의 기도는 하느님께서 이민족들에게 맞서 몸의 어느 부분을 들어 올리시라고 청합니까?|손|발|머리
+ar: في يشوع بن سيراخ 36، أي جزء من الجسد تطلب الصلاة أن يرفعه الله على الأمم الغريبة؟|يد|قدم|رأس
+
+@36 expert Sirach 36:11
+en: In Sirach 36, which title did God give Israel?|Firstborn|Youngest|Stranger
+es: ¿En Eclesiástico 36, qué título dio Dios a Israel?|Primogénito|Menor|Extranjero
+pt: Em Eclesiástico 36, que título Deus deu a Israel?|Primogênito|Caçula|Estrangeiro
+fr: Dans Siracide 36, quel titre Dieu a-t-il donné à Israël ?|Aîné|Cadet|Étranger
+de: Welchen Titel gab Gott laut Jesus Sirach 36 Israel?|Erstgeborener|Jüngster|Fremder
+it: In Siracide 36, quale titolo Dio ha dato a Israele?|Primogenito|Minore|Straniero
+pl: Jaki tytuł nadał Bóg Izraelowi według Mądrości Syracha 36?|Pierworodny|Najmłodszy|Obcy
+ru: Какое имя дал Бог Израилю, по Книге Сираха 36?|Первенец|Младший|Чужестранец
+tr: Sirak 36'da Tanrı İsrail'e hangi unvanı verdi?|İlkdoğan|Küçük|Yabancı
+ja: シラ書36章で、神がイスラエルにつけた称号は何ですか？|長子|末子|寄留者
+ko: 집회서 36장에서 하느님께서 이스라엘에게 붙이신 칭호는 무엇입니까?|맏아들|막내|나그네
+ar: في يشوع بن سيراخ 36، أي لقب أعطاه الله لإسرائيل؟|بكر|أصغر|غريب
+
+@36 impossible Sirach 36:30
+en: In Sirach 36, what is plundered where there is no hedge?|Property|Children|Priests
+es: ¿En Eclesiástico 36, qué es saqueado donde no hay cerca?|Hacienda|Hijos|Sacerdotes
+pt: Em Eclesiástico 36, o que é saqueado onde não há cerca?|Propriedade|Filhos|Sacerdotes
+fr: Dans Siracide 36, qu'est-ce qui est pillé là où il n'y a pas de clôture ?|Biens|Enfants|Prêtres
+de: Was wird laut Jesus Sirach 36 geplündert, wo keine Hecke ist?|Besitz|Kinder|Priester
+it: In Siracide 36, che cosa viene saccheggiato dove non c'è siepe?|Proprietà|Figli|Sacerdoti
+pl: Co według Mądrości Syracha 36 zostanie złupione tam, gdzie nie ma ogrodzenia?|Majątek|Dzieci|Kapłani
+ru: Что, по Книге Сираха 36, будет разграблено там, где нет ограды?|Имущество|Дети|Священники
+tr: Sirak 36'da, çit olmayan yerde ne yağmalanır?|Mal|Çocuklar|Rahipler
+ja: シラ書36章で、垣のないところでは何が略奪されますか？|財産|子供|祭司
+ko: 집회서 36장에서 울타리가 없는 곳에서는 무엇이 약탈당합니까?|재산|자녀|사제
+ar: في يشوع بن سيراخ 36، ماذا يُنهب حيث لا سياج؟|ممتلكات|أولاد|كهنة

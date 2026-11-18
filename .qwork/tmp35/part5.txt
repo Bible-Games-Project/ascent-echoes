@@ -1,0 +1,209 @@
+@47 easy Sirach 47:4
+en: In Sirach 47, who struck down Goliath with a sling stone?|David|Saul|Jonathan
+es: ¿En Eclesiástico 47, quién derribó a Goliat con una piedra de honda?|David|Saúl|Jonatán
+pt: Em Eclesiástico 47, quem derrubou Golias com uma pedra de funda?|Davi|Saul|Jônatas
+fr: Dans Siracide 47, qui abattit Goliath d'une pierre de fronde ?|David|Saül|Jonathan
+de: Wer streckte laut Jesus Sirach 47 Goliat mit einem Schleuderstein nieder?|David|Saul|Jonatan
+it: In Siracide 47, chi abbatté Golia con una pietra di fionda?|Davide|Saul|Giònata
+pl: Kto według Mądrości Syracha 47 powalił Goliata kamieniem z procy?|Dawid|Saul|Jonatan
+ru: Кто, по Книге Сираха 47, поразил Голиафа камнем из пращи?|Давид|Саул|Ионафан
+tr: Sirak 47'de Golyat'ı sapan taşıyla kim yere serdi?|Davut|Saul|Yonatan
+ja: シラ書47章で、石投げ紐の石でゴリアトを打ち倒したのは誰ですか？|ダビデ|サウル|ヨナタン
+ko: 집회서 47장에서 무릿매 돌로 골리앗을 쓰러뜨린 사람은 누구입니까?|다윗|사울|요나탄
+ar: في يشوع بن سيراخ 47، من أسقط جليات بحجر المقلاع؟|داود|شاول|يوناثان
+
+@47 medium Sirach 47:3
+en: In Sirach 47, David played with bears as with what?|Lambs|Wolves|Oxen
+es: ¿En Eclesiástico 47, David jugaba con los osos como con qué?|Corderos|Lobos|Bueyes
+pt: Em Eclesiástico 47, Davi brincava com os ursos como com o quê?|Cordeiros|Lobos|Bois
+fr: Dans Siracide 47, David jouait avec les ours comme avec quoi ?|Agneaux|Loups|Bœufs
+de: Wie mit welchen Tieren spielte David laut Jesus Sirach 47 mit Bären?|Lämmern|Wölfen|Ochsen
+it: In Siracide 47, Davide giocava con gli orsi come con che cosa?|Agnelli|Lupi|Buoi
+pl: Niedźwiedzie traktował Dawid według Mądrości Syracha 47 jak które zwierzęta?|Jagnięta|Wilki|Woły
+ru: С медведями Давид играл, как с кем, по Книге Сираха 47?|Ягнятами|Волками|Волами
+tr: Sirak 47'de Davut ayılarla ne gibi oynadı?|Kuzu|Kurt|Öküz
+ja: シラ書47章で、ダビデは熊を何のように扱って遊びましたか？|子羊|狼|雄牛
+ko: 집회서 47장에서 다윗은 곰을 무엇처럼 데리고 놀았습니까?|양|늑대|황소
+ar: في يشوع بن سيراخ 47، مع الدببة لعب داود كما مع ماذا؟|حملان|ذئاب|ثيران
+
+@47 hard Sirach 47:18
+en: In Sirach 47, Solomon amassed gold as plentifully as which metal?|Tin|Iron|Copper
+es: ¿En Eclesiástico 47, Salomón amontonó oro como qué metal?|Estaño|Hierro|Cobre
+pt: Em Eclesiástico 47, Salomão acumulou ouro como que metal?|Estanho|Ferro|Cobre
+fr: Dans Siracide 47, Salomon amassa l'or comme quel métal ?|Étain|Fer|Cuivre
+de: Wie welches Metall häufte Salomo laut Jesus Sirach 47 Gold an?|Zinn|Eisen|Kupfer
+it: In Siracide 47, Salomone accumulò oro come quale metallo?|Stagno|Ferro|Rame
+pl: Złoto gromadził Salomon jak który metal według Mądrości Syracha 47?|Cynę|Żelazo|Miedź
+ru: Золото Соломон копил, как какой металл, по Книге Сираха 47?|Олово|Железо|Медь
+tr: Sirak 47'de Süleyman altını hangi maden kadar bol topladı?|Kalay|Demir|Bakır
+ja: シラ書47章で、ソロモンは金をどの金属のように積み上げましたか？|錫|鉄|銅
+ko: 집회서 47장에서 솔로몬은 금을 어떤 금속처럼 쌓았습니까?|주석|쇠|구리
+ar: في يشوع بن سيراخ 47، جمع سليمان الذهب مثل أي معدن؟|قصدير|حديد|نحاس
+
+@47 expert Sirach 47:23
+en: In Sirach 47, who was Jeroboam's father?|Nebat|Jesse|Nun
+es: ¿En Eclesiástico 47, quién fue el padre de Jeroboán?|Nabat|Jesé|Nun
+pt: Em Eclesiástico 47, quem foi o pai de Jeroboão?|Nabat|Jessé|Nun
+fr: Dans Siracide 47, qui était le père de Jéroboam ?|Nebat|Jessé|Nun
+de: Wer war laut Jesus Sirach 47 der Vater Jerobeams?|Nebat|Isai|Nun
+it: In Siracide 47, chi era il padre di Geroboamo?|Nabat|Iesse|Nun
+pl: Kto był według Mądrości Syracha 47 ojcem Jeroboama?|Nabat|Jesse|Nun
+ru: Кто, по Книге Сираха 47, был отцом Иеровоама?|Нават|Иессей|Навин
+tr: Sirak 47'de Yarobam'ın babası kimdir?|Nevat|Yişay|Nun
+ja: シラ書47章で、ヤロブアムの父は誰ですか？|ネバト|エッサイ|ヌン
+ko: 집회서 47장에서 여로보암의 아버지는 누구입니까?|느밧|이사이|눈
+ar: في يشوع بن سيراخ 47، من كان أبا يربعام؟|ناباط|يسى|نون
+
+@47 impossible Sirach 47:23
+en: In Sirach 47, which son of Solomon was ample in folly?|Rehoboam|Absalom|Amnon
+es: ¿En Eclesiástico 47, qué hijo de Salomón era rico en necedad?|Roboán|Absalón|Amnón
+pt: Em Eclesiástico 47, que filho de Salomão era farto em insensatez?|Roboão|Absalão|Amnon
+fr: Dans Siracide 47, quel fils de Salomon était riche en folie ?|Roboam|Absalom|Amnon
+de: Welcher Sohn Salomos war laut Jesus Sirach 47 reich an Torheit?|Rehabeam|Abschalom|Amnon
+it: In Siracide 47, quale figlio di Salomone era ricco di follia?|Roboamo|Assalonne|Amnon
+pl: Który syn Salomona był według Mądrości Syracha 47 pełen głupoty?|Roboam|Absalom|Amnon
+ru: Какой сын Соломона, по Книге Сираха 47, был велик глупостью?|Ровоам|Авессалом|Амнон
+tr: Sirak 47'de Süleyman'ın hangi oğlu akılsızlıkta bolluk içindeydi?|Rehavam|Abşalom|Amnon
+ja: シラ書47章で、愚かさに満ちていたソロモンの子は誰ですか？|レハブアム|アブサロム|アムノン
+ko: 집회서 47장에서 어리석음이 가득했던 솔로몬의 아들은 누구입니까?|르호보암|압살롬|암논
+ar: في يشوع بن سيراخ 47، أي ابن لسليمان كان وافر الحماقة؟|رحبعام|أبشالوم|أمنون
+
+@48 easy Sirach 48:1
+en: In Sirach 48, the prophet Elijah arose like what?|Fire|Storm|Flood
+es: ¿En Eclesiástico 48, el profeta Elías surgió como qué?|Fuego|Tormenta|Inundación
+pt: Em Eclesiástico 48, o profeta Elias surgiu como o quê?|Fogo|Tempestade|Inundação
+fr: Dans Siracide 48, le prophète Élie se leva comme quoi ?|Feu|Tempête|Inondation
+de: Welchem Element glich laut Jesus Sirach 48 der Prophet Elija, als er auftrat?|Feuer|Sturm|Flut
+it: In Siracide 48, il profeta Elia sorse come che cosa?|Fuoco|Tempesta|Inondazione
+pl: Czemu przypominał według Mądrości Syracha 48 prorok Eliasz?|Ogniowi|Burzy|Powodzi
+ru: На что, по Книге Сираха 48, был похож восставший пророк Илия?|Огонь|Бурю|Потоп
+tr: Sirak 48'de Peygamber İlyas ne gibi ortaya çıktı?|Ateş|Fırtına|Sel
+ja: シラ書48章で、預言者エリヤは何のように立ち上がりましたか？|火|嵐|洪水
+ko: 집회서 48장에서 예언자 엘리야는 무엇처럼 일어났습니까?|불|폭풍|홍수
+ar: في يشوع بن سيراخ 48، قام النبي إيليا مثل ماذا؟|نار|عاصفة|فيضان
+
+@48 medium Sirach 48:9
+en: In Sirach 48, Elijah was taken up in which fiery vehicle?|Chariot|Ship|Raft
+es: ¿En Eclesiástico 48, en qué vehículo de fuego fue arrebatado Elías?|Carro|Barco|Balsa
+pt: Em Eclesiástico 48, em que veículo de fogo Elias foi levado?|Carro|Navio|Jangada
+fr: Dans Siracide 48, dans quel véhicule de feu Élie fut-il enlevé ?|Char|Navire|Radeau
+de: In welchem feurigen Gefährt wurde Elija laut Jesus Sirach 48 emporgehoben?|Wagen|Schiff|Floß
+it: In Siracide 48, su quale veicolo di fuoco fu rapito Elia?|Carro|Nave|Zattera
+pl: Którym ognistym pojazdem został zabrany Eliasz według Mądrości Syracha 48?|Rydwanem|Statkiem|Tratwą
+ru: На какой огненной повозке был взят Илия, по Книге Сираха 48?|Колеснице|Корабле|Плоту
+tr: Sirak 48'de İlyas'ın alındığı ateşli araç hangisidir?|Araba|Gemi|Sal
+ja: シラ書48章で、エリヤが乗せられて天に上げられた火の乗り物は何ですか？|戦車|船|いかだ
+ko: 집회서 48장에서 엘리야가 타고 올라간 불의 탈것은 무엇입니까?|병거|배|뗏목
+ar: في يشوع بن سيراخ 48، ما وسيلة النقل النارية التي رُفع بها إيليا؟|مركبة|سفينة|طوف
+
+@48 hard Sirach 48:12
+en: In Sirach 48, Elisha was filled with whose spirit?|Elijah|Moses|Samuel
+es: ¿En Eclesiástico 48, Eliseo fue lleno del espíritu de quién?|Elías|Moisés|Samuel
+pt: Em Eclesiástico 48, Eliseu foi cheio do espírito de quem?|Elias|Moisés|Samuel
+fr: Dans Siracide 48, Élisée fut rempli de l'esprit de qui ?|Élie|Moïse|Samuel
+de: Von welchem Propheten wurde Elischa laut Jesus Sirach 48 mit dem Geist erfüllt?|Elija|Mose|Samuel
+it: In Siracide 48, Eliseo fu colmato dello spirito di chi?|Elia|Mosè|Samuele
+pl: Duchem którego proroka został napełniony Elizeusz według Mądrości Syracha 48?|Eliasza|Mojżesza|Samuela
+ru: Духом какого пророка был исполнен Елисей, по Книге Сираха 48?|Илии|Моисея|Самуила
+tr: Sirak 48'de Elişa hangi peygamberin ruhuyla doldu?|İlyas|Musa|Samuel
+ja: シラ書48章で、エリシャは誰の霊に満たされましたか？|エリヤ|モーセ|サムエル
+ko: 집회서 48장에서 엘리사는 누구의 영으로 가득 찼습니까?|엘리야|모세|사무엘
+ar: في يشوع بن سيراخ 48، بروح من امتلأ أليشع؟|إيليا|موسى|صموئيل
+
+@48 expert Sirach 48:18
+en: In Sirach 48, which Assyrian king invaded in Hezekiah's days?|Sennacherib|Nebuchadnezzar|Cyrus
+es: ¿En Eclesiástico 48, qué rey asirio invadió en tiempos de Ezequías?|Senaquerib|Nabucodonosor|Ciro
+pt: Em Eclesiástico 48, que rei assírio invadiu nos dias de Ezequias?|Senaquerib|Nabucodonosor|Ciro
+fr: Dans Siracide 48, quel roi assyrien envahit au temps d'Ézéchias ?|Sennachérib|Nabuchodonosor|Cyrus
+de: Welcher assyrische König fiel laut Jesus Sirach 48 zu Hiskijas Zeit ein?|Sanherib|Nebukadnezzar|Kyrus
+it: In Siracide 48, quale re assiro invase ai tempi di Ezechia?|Sennacherib|Nabucodonosor|Ciro
+pl: Który król asyryjski według Mądrości Syracha 48 wtargnął za dni Ezechiasza?|Sennacheryb|Nabuchodonozor|Cyrus
+ru: Какой ассирийский царь, по Книге Сираха 48, вторгся в дни Езекии?|Сеннахирим|Навуходоносор|Кир
+tr: Sirak 48'de Hizkiya döneminde hangi Asur kralı saldırdı?|Sanherib|Nebukadnessar|Kiros
+ja: シラ書48章で、ヒゼキヤの時代に攻めてきたアッシリアの王は誰ですか？|センナケリブ|ネブカドネツァル|キュロス
+ko: 집회서 48장에서 히즈키야 시대에 쳐들어온 아시리아 왕은 누구입니까?|산헤립|네부카드네자르|키루스
+ar: في يشوع بن سيراخ 48، أي ملك آشوري غزا في أيام حزقيا؟|سنحاريب|نبوخذنصر|قورش
+
+@48 impossible Sirach 48:17
+en: In Sirach 48, Hezekiah tunneled the rock with what metal?|Iron|Gold|Silver
+es: ¿En Eclesiástico 48, con qué metal perforó Ezequías la roca?|Hierro|Oro|Plata
+pt: Em Eclesiástico 48, com que metal Ezequias perfurou a rocha?|Ferro|Ouro|Prata
+fr: Dans Siracide 48, avec quel métal Ézéchias perça-t-il le roc ?|Fer|Or|Argent
+de: Mit welchem Metall durchstach Hiskija laut Jesus Sirach 48 den Felsen?|Eisen|Gold|Silber
+it: In Siracide 48, con quale metallo Ezechia perforò la roccia?|Ferro|Oro|Argento
+pl: Jakim metalem według Mądrości Syracha 48 Ezechiasz przebił skałę?|Żelazem|Złotem|Srebrem
+ru: Каким металлом, по Книге Сираха 48, Езекия пробил скалу?|Железом|Золотом|Серебром
+tr: Sirak 48'de Hizkiya'nın kayayı delmekte kullandığı maden hangisidir?|Demir|Altın|Gümüş
+ja: シラ書48章で、ヒゼキヤが岩に穴を開けるのに使った金属は何ですか？|鉄|金|銀
+ko: 집회서 48장에서 히즈키야가 바위를 뚫는 데 쓴 금속은 무엇입니까?|쇠|금|은
+ar: في يشوع بن سيراخ 48، بأي معدن حفر حزقيا الصخر؟|حديد|ذهب|فضة
+
+@49 easy Sirach 49:13
+en: In Sirach 49, who raised the fallen walls and rebuilt ruined houses?|Nehemiah|Ezekiel|Jeremiah
+es: ¿En Eclesiástico 49, quién levantó los muros caídos y reconstruyó las casas en ruinas?|Nehemías|Ezequiel|Jeremías
+pt: Em Eclesiástico 49, quem ergueu os muros caídos e reconstruiu as casas em ruínas?|Neemias|Ezequiel|Jeremias
+fr: Dans Siracide 49, qui releva les murs tombés et rebâtit les maisons en ruine ?|Néhémie|Ézéchiel|Jérémie
+de: Wer richtete laut Jesus Sirach 49 die gefallenen Mauern auf und baute zerstörte Häuser wieder auf?|Nehemia|Ezechiel|Jeremia
+it: In Siracide 49, chi rialzò le mura cadute e ricostruì le case in rovina?|Neemia|Ezechiele|Geremia
+pl: Kto według Mądrości Syracha 49 podniósł runące mury i odbudował zburzone domy?|Nehemiasz|Ezechiel|Jeremiasz
+ru: Кто, по Книге Сираха 49, поднял упавшие стены и восстановил разрушенные дома?|Неемия|Иезекииль|Иеремия
+tr: Sirak 49'da yıkılan surları kaldıran ve harap evleri yeniden yapan kimdir?|Nehemya|Hezekiel|Yeremya
+ja: シラ書49章で、崩れた城壁を立て直し、荒れた家々を再建したのは誰ですか？|ネヘミヤ|エゼキエル|エレミヤ
+ko: 집회서 49장에서 무너진 성벽을 세우고 허물어진 집들을 다시 지은 사람은 누구입니까?|느헤미야|에제키엘|예레미야
+ar: في يشوع بن سيراخ 49، من أقام الأسوار الساقطة وأعاد بناء البيوت المهدمة؟|نحميا|حزقيال|إرميا
+
+@49 medium Sirach 49:1
+en: In Sirach 49, which king's memory is like blended incense?|Josiah|Hezekiah|Solomon
+es: ¿En Eclesiástico 49, el recuerdo de qué rey es como incienso mezclado?|Josías|Ezequías|Salomón
+pt: Em Eclesiástico 49, a memória de que rei é como incenso preparado?|Josias|Ezequias|Salomão
+fr: Dans Siracide 49, le souvenir de quel roi est comme un encens composé ?|Josias|Ézéchias|Salomon
+de: Welcher König ist laut Jesus Sirach 49 in Erinnerung wie gemischter Weihrauch?|Joschija|Hiskija|Salomo
+it: In Siracide 49, il ricordo di quale re è come incenso profumato?|Giosia|Ezechia|Salomone
+pl: Wspomnienie którego króla jest według Mądrości Syracha 49 jak kadzidło?|Jozjasza|Ezechiasza|Salomona
+ru: Память какого царя, по Книге Сираха 49, подобна составленному курению?|Иосии|Езекии|Соломона
+tr: Sirak 49'da anısı karışık buhur gibi olan kral kimdir?|Yoşiya|Hizkiya|Süleyman
+ja: シラ書49章で、思い出が調合された香のようだと言われる王は誰ですか？|ヨシヤ|ヒゼキヤ|ソロモン
+ko: 집회서 49장에서 그 기억이 조제된 향 같다고 한 임금은 누구입니까?|요시야|히즈키야|솔로몬
+ar: في يشوع بن سيراخ 49، ذكر أي ملك كبخور ممزوج؟|يوشيا|حزقيا|سليمان
+
+@49 hard Sirach 49:11
+en: In Sirach 49, Zerubbabel is compared to what on the right hand?|Ring|Bracelet|Glove
+es: ¿En Eclesiástico 49, a qué en la mano derecha se compara a Zorobabel?|Anillo|Brazalete|Guante
+pt: Em Eclesiástico 49, a que na mão direita Zorobabel é comparado?|Anel|Bracelete|Luva
+fr: Dans Siracide 49, à quoi Zorobabel est-il comparé sur la main droite ?|Anneau|Bracelet|Gant
+de: Womit wird Serubbabel laut Jesus Sirach 49 an der rechten Hand verglichen?|Ring|Armband|Handschuh
+it: In Siracide 49, a che cosa è paragonato Zorobabele sulla mano destra?|Anello|Bracciale|Guanto
+pl: Do czego na prawej ręce porównano Zorobabela według Mądrości Syracha 49?|Pierścienia|Bransolety|Rękawicy
+ru: Чему на правой руке, по Книге Сираха 49, уподоблен Зоровавель?|Перстню|Браслету|Перчатке
+tr: Sirak 49'da Zerubbabil sağ elde neye benzetilir?|Yüzük|Bilezik|Eldiven
+ja: シラ書49章で、ゼルバベルは右手の何にたとえられていますか？|指輪|腕輪|手袋
+ko: 집회서 49장에서 즈루빠벨은 오른손의 무엇에 비유됩니까?|반지|팔찌|장갑
+ar: في يشوع بن سيراخ 49، بماذا شُبّه زربابل على اليد اليمنى؟|خاتم|سوار|قفاز
+
+@49 expert Sirach 49:8
+en: In Sirach 49, who saw a vision above the chariot of the cherubim?|Ezekiel|Isaiah|Daniel
+es: ¿En Eclesiástico 49, quién vio una visión sobre el carro de los querubines?|Ezequiel|Isaías|Daniel
+pt: Em Eclesiástico 49, quem viu uma visão sobre o carro dos querubins?|Ezequiel|Isaías|Daniel
+fr: Dans Siracide 49, qui eut une vision au-dessus du char des chérubins ?|Ézéchiel|Isaïe|Daniel
+de: Wer sah laut Jesus Sirach 49 eine Vision über dem Wagen der Kerubim?|Ezechiel|Jesaja|Daniel
+it: In Siracide 49, chi vide una visione sopra il carro dei cherubini?|Ezechiele|Isaia|Daniele
+pl: Kto według Mądrości Syracha 49 ujrzał widzenie nad rydwanem cherubów?|Ezechiel|Izajasz|Daniel
+ru: Кто, по Книге Сираха 49, увидел видение над колесницей херувимов?|Иезекииль|Исаия|Даниил
+tr: Sirak 49'da keruvların arabasının üzerinde görüm gören kimdir?|Hezekiel|Yeşaya|Daniel
+ja: シラ書49章で、ケルビムの戦車の上に幻を見たのは誰ですか？|エゼキエル|イザヤ|ダニエル
+ko: 집회서 49장에서 커룹들의 병거 위에서 환시를 본 사람은 누구입니까?|에제키엘|이사야|다니엘
+ar: في يشوع بن سيراخ 49، من رأى رؤيا فوق مركبة الكروبيم؟|حزقيال|إشعياء|دانيال
+
+@49 impossible Sirach 49:15
+en: In Sirach 49, who was leader of his brothers, his bones cared for?|Joseph|Reuben|Simeon
+es: ¿En Eclesiástico 49, quién fue jefe de sus hermanos y sus huesos fueron cuidados?|José|Rubén|Simeón
+pt: Em Eclesiástico 49, quem foi chefe dos irmãos e teve os ossos cuidados?|José|Rúben|Simeão
+fr: Dans Siracide 49, qui fut chef de ses frères et dont les os furent soignés ?|Joseph|Ruben|Siméon
+de: Wer war laut Jesus Sirach 49 Anführer seiner Brüder, dessen Gebeine gepflegt wurden?|Josef|Ruben|Simeon
+it: In Siracide 49, chi fu capo dei suoi fratelli e le sue ossa furono curate?|Giuseppe|Ruben|Simeone
+pl: Kto według Mądrości Syracha 49 był wodzem braci, a jego kości otoczono troską?|Józef|Ruben|Symeon
+ru: Кто, по Книге Сираха 49, был вождём братьев, и о костях его заботились?|Иосиф|Рувим|Симеон
+tr: Sirak 49'da kardeşlerinin önderi olan ve kemiklerine özen gösterilen kimdir?|Yusuf|Ruben|Şimon
+ja: シラ書49章で、兄弟たちの頭となり、その骨が大切にされたのは誰ですか？|ヨセフ|ルベン|シメオン
+ko: 집회서 49장에서 형제들의 우두머리였고 그 뼈가 돌보아진 사람은 누구입니까?|요셉|르우벤|시메온
+ar: في يشوع بن سيراخ 49، من كان رئيس إخوته وحُفظت عظامه؟|يوسف|رأوبين|شمعون

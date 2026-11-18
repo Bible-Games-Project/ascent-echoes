@@ -1,0 +1,209 @@
+@40 easy Sirach 40:1
+en: In Sirach 40, a heavy yoke lies on the children of whom?|Adam|Noah|Moses
+es: ¿En Eclesiástico 40, sobre los hijos de quién pesa un duro yugo?|Adán|Noé|Moisés
+pt: Em Eclesiástico 40, sobre os filhos de quem pesa um jugo pesado?|Adão|Noé|Moisés
+fr: Dans Siracide 40, sur les fils de qui pèse un joug pesant ?|Adam|Noé|Moïse
+de: Zu welchem Stammvater gehören die Kinder, auf denen laut Jesus Sirach 40 ein schweres Joch lastet?|Adam|Noah|Mose
+it: In Siracide 40, un giogo pesante grava sui figli di chi?|Adamo|Noè|Mosè
+pl: Na dzieciach którego człowieka według Mądrości Syracha 40 ciąży ciężkie jarzmo?|Adama|Noego|Mojżesza
+ru: На сынах кого, по Книге Сираха 40, лежит тяжкое иго?|Адама|Ноя|Моисея
+tr: Sirak 40'ta ağır bir boyunduruk hangi atanın çocuklarının üzerindedir?|Adem|Nuh|Musa
+ja: シラ書40章で、重いくびきがのしかかっているのは誰の子らですか？|アダム|ノア|モーセ
+ko: 집회서 40장에서 무거운 멍에가 놓인 것은 누구의 자손들입니까?|아담|노아|모세
+ar: في يشوع بن سيراخ 40، على أبناء من يقع نير ثقيل؟|آدم|نوح|موسى
+
+@40 medium Sirach 40:20
+en: In Sirach 40, what is better than wine and music?|Wisdom|Gold|Fame
+es: ¿En Eclesiástico 40, qué es mejor que el vino y la música?|Sabiduría|Oro|Fama
+pt: Em Eclesiástico 40, o que é melhor do que o vinho e a música?|Sabedoria|Ouro|Fama
+fr: Dans Siracide 40, qu'est-ce qui vaut mieux que le vin et la musique ?|Sagesse|Or|Gloire
+de: Was ist laut Jesus Sirach 40 besser als Wein und Musik?|Weisheit|Gold|Ruhm
+it: In Siracide 40, che cosa è meglio del vino e della musica?|Sapienza|Oro|Fama
+pl: Co jest lepsze od wina i muzyki według Mądrości Syracha 40?|Mądrość|Złoto|Sława
+ru: Что лучше вина и музыки, по Книге Сираха 40?|Мудрость|Золото|Слава
+tr: Sirak 40'ta şaraptan ve müzikten daha iyi olan nedir?|Bilgelik|Altın|Şöhret
+ja: シラ書40章で、ぶどう酒と音楽にまさるものは何ですか？|知恵|金|名声
+ko: 집회서 40장에서 포도주와 음악보다 나은 것은 무엇입니까?|지혜|금|명성
+ar: في يشوع بن سيراخ 40، ما الأفضل من الخمر والموسيقى؟|حكمة|ذهب|شهرة
+
+@40 hard Sirach 40:16
+en: In Sirach 40, which plant by water is plucked before any grass?|Reed|Cedar|Vine
+es: ¿En Eclesiástico 40, qué planta junto al agua se arranca antes que cualquier hierba?|Caña|Cedro|Vid
+pt: Em Eclesiástico 40, que planta junto à água é arrancada antes de qualquer erva?|Caniço|Cedro|Videira
+fr: Dans Siracide 40, quelle plante au bord de l'eau est arrachée avant toute herbe ?|Roseau|Cèdre|Vigne
+de: Welche Pflanze am Wasser wird laut Jesus Sirach 40 vor jedem Gras ausgerissen?|Schilf|Zeder|Rebe
+it: In Siracide 40, quale pianta presso l'acqua viene strappata prima di ogni erba?|Canna|Cedro|Vite
+pl: Która roślina nad wodą jest wyrywana przed każdą trawą według Mądrości Syracha 40?|Trzcina|Cedr|Winorośl
+ru: Какое растение у воды, по Книге Сираха 40, вырывают раньше любой травы?|Тростник|Кедр|Лоза
+tr: Sirak 40'ta suyun kıyısındaki hangi bitki her otun önünde koparılır?|Kamış|Sedir|Asma
+ja: シラ書40章で、水辺にあって、どの草よりも先に引き抜かれるものは何ですか？|葦|杉|ぶどう
+ko: 집회서 40장에서 물가에 있어 어떤 풀보다 먼저 뽑히는 식물은 무엇입니까?|갈대|향백나무|포도나무
+ar: في يشوع بن سيراخ 40، أي نبات عند الماء يُقتلع قبل كل عشب؟|قصب|أرز|كرمة
+
+@40 expert Sirach 40:21
+en: In Sirach 40, what is better than flute and harp?|Voice|Drum|Trumpet
+es: ¿En Eclesiástico 40, qué es mejor que la flauta y el arpa?|Voz|Tambor|Trompeta
+pt: Em Eclesiástico 40, o que é melhor do que a flauta e a harpa?|Voz|Tambor|Trombeta
+fr: Dans Siracide 40, qu'est-ce qui vaut mieux que la flûte et la harpe ?|Voix|Tambour|Trompette
+de: Was ist laut Jesus Sirach 40 besser als Flöte und Harfe?|Stimme|Trommel|Trompete
+it: In Siracide 40, che cosa è meglio del flauto e dell'arpa?|Voce|Tamburo|Tromba
+pl: Co jest lepsze od fletu i harfy według Mądrości Syracha 40?|Głos|Bęben|Trąbka
+ru: Что лучше флейты и арфы, по Книге Сираха 40?|Голос|Барабан|Труба
+tr: Sirak 40'ta flütten ve harpten daha iyi olan nedir?|Ses|Davul|Boru
+ja: シラ書40章で、笛と竪琴にまさるものは何ですか？|声|太鼓|角笛
+ko: 집회서 40장에서 피리와 수금보다 나은 것은 무엇입니까?|목소리|북|나팔
+ar: في يشوع بن سيراخ 40، ما الأفضل من المزمار والقيثارة؟|صوت|طبل|بوق
+
+@40 impossible Sirach 40:28
+en: In Sirach 40, what is better than a beggar's life?|Death|Exile|Slavery
+es: ¿En Eclesiástico 40, qué es mejor que la vida del mendigo?|Muerte|Destierro|Esclavitud
+pt: Em Eclesiástico 40, o que é melhor que a vida de mendigo?|Morte|Exílio|Escravidão
+fr: Dans Siracide 40, qu'est-ce qui vaut mieux que la vie de mendiant ?|Mort|Exil|Esclavage
+de: Was ist laut Jesus Sirach 40 besser als ein Bettlerleben?|Tod|Exil|Sklaverei
+it: In Siracide 40, che cosa è meglio della vita di mendicante?|Morte|Esilio|Schiavitù
+pl: Co jest lepsze od życia żebraka według Mądrości Syracha 40?|Śmierć|Wygnanie|Niewola
+ru: Что лучше жизни нищего, по Книге Сираха 40?|Смерть|Изгнание|Рабство
+tr: Sirak 40'ta dilenci hayatından daha iyi olan nedir?|Ölüm|Sürgün|Kölelik
+ja: シラ書40章で、物乞いの生活よりもましなものは何ですか？|死|追放|奴隷
+ko: 집회서 40장에서 거지 생활보다 나은 것은 무엇입니까?|죽음|추방|노예살이
+ar: في يشوع بن سيراخ 40، ما الأفضل من حياة التسول؟|موت|نفي|عبودية
+
+@41 easy Sirach 41:12
+en: In Sirach 41, what lasts longer than a thousand treasures of gold?|Name|Beauty|Youth
+es: ¿En Eclesiástico 41, qué dura más que mil tesoros de oro?|Nombre|Belleza|Juventud
+pt: Em Eclesiástico 41, o que dura mais que mil tesouros de ouro?|Nome|Beleza|Juventude
+fr: Dans Siracide 41, qu'est-ce qui dure plus que mille trésors d'or ?|Nom|Beauté|Jeunesse
+de: Was bleibt laut Jesus Sirach 41 länger als tausend Goldschätze?|Name|Schönheit|Jugend
+it: In Siracide 41, che cosa dura più di mille tesori d'oro?|Nome|Bellezza|Giovinezza
+pl: Co trwa dłużej niż tysiąc skarbów złota według Mądrości Syracha 41?|Imię|Piękno|Młodość
+ru: Что остаётся дольше тысячи сокровищ золота, по Книге Сираха 41?|Имя|Красота|Юность
+tr: Sirak 41'de bin altın hazineden daha uzun süre kalan nedir?|İsim|Güzellik|Gençlik
+ja: シラ書41章で、千の金の宝よりも長く残るものは何ですか？|名|美貌|若さ
+ko: 집회서 41장에서 금 보화 천 개보다 오래 남는 것은 무엇입니까?|이름|아름다움|젊음
+ar: في يشوع بن سيراخ 41، ما الذي يبقى أكثر من ألف كنز من الذهب؟|اسم|جمال|شباب
+
+@41 medium Sirach 41:1
+en: In Sirach 41, the thought of what is bitter to a man at ease?|Death|Winter|Travel
+es: ¿En Eclesiástico 41, el recuerdo de qué es amargo para quien vive tranquilo entre sus bienes?|Muerte|Invierno|Viaje
+pt: Em Eclesiástico 41, a lembrança de que é amarga para quem vive tranquilo entre seus bens?|Morte|Inverno|Viagem
+fr: Dans Siracide 41, le souvenir de quoi est amer pour celui qui vit tranquille dans ses biens ?|Mort|Hiver|Voyage
+de: Woran zu denken ist laut Jesus Sirach 41 bitter für den, der friedlich in seinem Besitz lebt?|Tod|Winter|Reise
+it: In Siracide 41, il pensiero di che cosa è amaro per chi vive tranquillo tra i suoi beni?|Morte|Inverno|Viaggio
+pl: Myśl o czym według Mądrości Syracha 41 jest gorzka dla człowieka żyjącego spokojnie w dostatku?|Śmierci|Zimie|Podróży
+ru: Мысль о чём, по Книге Сираха 41, горька для человека, спокойно живущего в достатке?|Смерти|Зиме|Путешествии
+tr: Sirak 41'de rahat içinde yaşayan zengin için neyin düşüncesi acıdır?|Ölüm|Kış|Yolculuk
+ja: シラ書41章で、財産に恵まれて安らかに暮らす人にとって、何を思うことが苦いのですか？|死|冬|旅
+ko: 집회서 41장에서 재산 속에 평안히 사는 사람에게 무엇을 생각하는 일이 쓰라립니까?|죽음|겨울|여행
+ar: في يشوع بن سيراخ 41، التفكير في ماذا مرّ على من يعيش مطمئنًا في ثروته؟|موت|شتاء|سفر
+
+@41 hard Sirach 41:17-18
+en: In Sirach 41, be ashamed of crime before which official?|Judge|Priest|Shepherd
+es: ¿En Eclesiástico 41, ante qué autoridad debes avergonzarte de un delito?|Juez|Sacerdote|Pastor
+pt: Em Eclesiástico 41, diante de que autoridade deves ter vergonha de um crime?|Juiz|Sacerdote|Pastor
+fr: Dans Siracide 41, devant quel magistrat faut-il avoir honte d'un crime ?|Juge|Prêtre|Berger
+de: Vor welchem Amtsträger soll man sich laut Jesus Sirach 41 eines Verbrechens schämen?|Richter|Priester|Hirte
+it: In Siracide 41, davanti a quale autorità ci si deve vergognare di un crimine?|Giudice|Sacerdote|Pastore
+pl: Przed którym urzędnikiem według Mądrości Syracha 41 należy się wstydzić zbrodni?|Sędzią|Kapłanem|Pasterzem
+ru: Перед каким должностным лицом, по Книге Сираха 41, надо стыдиться преступления?|Судьёй|Священником|Пастухом
+tr: Sirak 41'de suç konusunda utanılması gereken görevli kimdir?|Yargıç|Rahip|Çoban
+ja: シラ書41章で、罪過について恥じるべき相手の役人は誰ですか？|裁判官|祭司|羊飼い
+ko: 집회서 41장에서 범죄에 대해 누구 앞에서 부끄러워해야 합니까?|재판관|사제|목자
+ar: في يشوع بن سيراخ 41، أمام أي مسؤول يجب الخجل من الجريمة؟|قاض|كاهن|راعي
+
+@41 expert Sirach 41:14
+en: In Sirach 41, what unseen thing is paired with hidden wisdom?|Treasure|Garden|Star
+es: ¿En Eclesiástico 41, qué cosa invisible se une a la sabiduría oculta?|Tesoro|Jardín|Estrella
+pt: Em Eclesiástico 41, que coisa invisível se une à sabedoria oculta?|Tesouro|Jardim|Estrela
+fr: Dans Siracide 41, quelle chose invisible est associée à la sagesse cachée ?|Trésor|Jardin|Étoile
+de: Welches unsichtbare Gut wird laut Jesus Sirach 41 mit verborgener Weisheit genannt?|Schatz|Garten|Stern
+it: In Siracide 41, quale cosa invisibile è unita alla sapienza nascosta?|Tesoro|Giardino|Stella
+pl: Co niewidzialnego łączy się z ukrytą mądrością według Mądrości Syracha 41?|Skarb|Ogród|Gwiazda
+ru: Что невидимое, по Книге Сираха 41, соединено с сокрытой мудростью?|Сокровище|Сад|Звезда
+tr: Sirak 41'de gizli bilgelikle birlikte anılan görünmez şey nedir?|Hazine|Bahçe|Yıldız
+ja: シラ書41章で、隠された知恵と並べられている、見えないものは何ですか？|宝|庭|星
+ko: 집회서 41장에서 감추어진 지혜와 짝을 이루는 보이지 않는 것은 무엇입니까?|보물|정원|별
+ar: في يشوع بن سيراخ 41، ما الشيء الخفي المقرون بالحكمة المخفية؟|كنز|حديقة|نجمة
+
+@41 impossible Sirach 41:17
+en: In Sirach 41, before whom should you be ashamed of immorality?|Parents|Strangers|Slaves
+es: ¿En Eclesiástico 41, ante quiénes debes avergonzarte de la inmoralidad?|Padres|Extraños|Esclavos
+pt: Em Eclesiástico 41, diante de quem deves ter vergonha da imoralidade?|Pais|Estranhos|Escravos
+fr: Dans Siracide 41, devant qui faut-il avoir honte de l'inconduite ?|Parents|Inconnus|Esclaves
+de: Vor wem soll man sich laut Jesus Sirach 41 der Unzucht schämen?|Eltern|Fremden|Sklaven
+it: In Siracide 41, davanti a chi ci si deve vergognare dell'immoralità?|Genitori|Estranei|Schiavi
+pl: Przed kim według Mądrości Syracha 41 należy się wstydzić rozpusty?|Rodzicami|Obcymi|Niewolnikami
+ru: Перед кем, по Книге Сираха 41, надо стыдиться разврата?|Родителями|Чужими|Рабами
+tr: Sirak 41'de ahlaksızlık yüzünden utanılması gereken kişiler kimlerdir?|Ebeveynler|Yabancılar|Köleler
+ja: シラ書41章で、不品行を恥じるべき相手は誰ですか？|両親|他人|奴隷
+ko: 집회서 41장에서 음행에 대해 누구 앞에서 부끄러워해야 합니까?|부모|타인|노예
+ar: في يشوع بن سيراخ 41، أمام من يجب الخجل من الفحشاء؟|والدين|غرباء|عبيد
+
+@42 easy Sirach 42:16
+en: In Sirach 42, which heavenly body looks down on everything?|Sun|Moon|Star
+es: ¿En Eclesiástico 42, qué astro mira desde lo alto todas las cosas?|Sol|Luna|Estrella
+pt: Em Eclesiástico 42, que astro olha do alto sobre todas as coisas?|Sol|Lua|Estrela
+fr: Dans Siracide 42, quel astre regarde toutes choses d'en haut ?|Soleil|Lune|Étoile
+de: Welches Gestirn blickt laut Jesus Sirach 42 auf alles herab?|Sonne|Mond|Stern
+it: In Siracide 42, quale astro guarda dall'alto ogni cosa?|Sole|Luna|Stella
+pl: Które ciało niebieskie według Mądrości Syracha 42 patrzy na wszystko z góry?|Słońce|Księżyc|Gwiazda
+ru: Какое светило, по Книге Сираха 42, взирает на всё сверху?|Солнце|Луна|Звезда
+tr: Sirak 42'de her şeye yukarıdan bakan gök cismi hangisidir?|Güneş|Ay|Yıldız
+ja: シラ書42章で、すべてを見下ろすのはどの天体ですか？|太陽|月|星
+ko: 집회서 42장에서 모든 것을 내려다보는 천체는 무엇입니까?|해|달|별
+ar: في يشوع بن سيراخ 42، أي جرم سماوي ينظر إلى كل شيء من فوق؟|شمس|قمر|نجمة
+
+@42 medium Sirach 42:9
+en: In Sirach 42, who is a secret anxiety to a father?|Daughter|Son|Servant
+es: ¿En Eclesiástico 42, quién es una angustia secreta para un padre?|Hija|Hijo|Criado
+pt: Em Eclesiástico 42, quem é uma angústia secreta para um pai?|Filha|Filho|Servo
+fr: Dans Siracide 42, qui est une inquiétude secrète pour un père ?|Fille|Fils|Serviteur
+de: Wer ist laut Jesus Sirach 42 für einen Vater eine heimliche Sorge?|Tochter|Sohn|Knecht
+it: In Siracide 42, chi è un'ansia segreta per un padre?|Figlia|Figlio|Servo
+pl: Kto jest według Mądrości Syracha 42 ukrytym niepokojem dla ojca?|Córka|Syn|Sługa
+ru: Кто, по Книге Сираха 42, тайная тревога для отца?|Дочь|Сын|Слуга
+tr: Sirak 42'de bir babanın gizli kaygısı kimdir?|Kız|Oğul|Hizmetkâr
+ja: シラ書42章で、父親にとって人知れぬ心配の種となるのは誰ですか？|娘|息子|僕
+ko: 집회서 42장에서 아버지에게 남모르는 근심거리가 되는 이는 누구입니까?|딸|아들|종
+ar: في يشوع بن سيراخ 42، من يكون قلقًا خفيًا للأب؟|ابنة|ابن|خادم
+
+@42 hard Sirach 42:13
+en: In Sirach 42, from clothes comes which insect?|Moth|Ant|Locust
+es: ¿En Eclesiástico 42, de la ropa sale qué insecto?|Polilla|Hormiga|Langosta
+pt: Em Eclesiástico 42, da roupa sai que inseto?|Traça|Formiga|Gafanhoto
+fr: Dans Siracide 42, des vêtements sort quel insecte ?|Mite|Fourmi|Sauterelle
+de: Welches Insekt kommt laut Jesus Sirach 42 aus den Kleidern?|Motte|Ameise|Heuschrecke
+it: In Siracide 42, dalle vesti esce quale insetto?|Tarma|Formica|Locusta
+pl: Który owad wychodzi z ubrania według Mądrości Syracha 42?|Mól|Mrówka|Szarańcza
+ru: Какое насекомое, по Книге Сираха 42, выходит из одежды?|Моль|Муравей|Саранча
+tr: Sirak 42'de giysiden çıkan böcek hangisidir?|Güve|Karınca|Çekirge
+ja: シラ書42章で、衣服から出てくる虫は何ですか？|蛾|蟻|いなご
+ko: 집회서 42장에서 옷에서 나오는 벌레는 무엇입니까?|좀|개미|메뚜기
+ar: في يشوع بن سيراخ 42، أي حشرة تخرج من الثياب؟|عثة|نملة|جراد
+
+@42 expert Sirach 42:18
+en: In Sirach 42, the Lord searches out the abyss and which organ?|Heart|Liver|Lung
+es: ¿En Eclesiástico 42, el Señor escudriña el abismo y qué órgano?|Corazón|Hígado|Pulmón
+pt: Em Eclesiástico 42, o Senhor sonda o abismo e que órgão?|Coração|Fígado|Pulmão
+fr: Dans Siracide 42, le Seigneur sonde l'abîme et quel organe ?|Cœur|Foie|Poumon
+de: Welches Organ erforscht der Herr laut Jesus Sirach 42 neben dem Abgrund?|Herz|Leber|Lunge
+it: In Siracide 42, il Signore scruta l'abisso e quale organo?|Cuore|Fegato|Polmone
+pl: Który narząd bada Pan obok otchłani według Mądrości Syracha 42?|Serce|Wątrobę|Płuco
+ru: Какой орган, кроме бездны, исследует Господь, по Книге Сираха 42?|Сердце|Печень|Лёгкое
+tr: Sirak 42'de Rab, uçurumun yanı sıra hangi organı araştırır?|Kalp|Karaciğer|Akciğer
+ja: シラ書42章で、主は深淵のほかに、どの器官を探られますか？|心|肝臓|肺
+ko: 집회서 42장에서 주님께서는 심연 외에 어느 장기를 살피십니까?|마음|간|폐
+ar: في يشوع بن سيراخ 42، يستقصي الرب الهاوية وأي عضو أيضًا؟|قلب|كبد|رئة
+
+@42 impossible Sirach 42:24
+en: In Sirach 42, the Lord's works come in sets of how many?|2|3|7
+es: ¿En Eclesiástico 42, las obras del Señor van en grupos de cuántas?|2|3|7
+pt: Em Eclesiástico 42, as obras do Senhor vêm em conjuntos de quantas?|2|3|7
+fr: Dans Siracide 42, les œuvres du Seigneur vont par groupes de combien ?|2|3|7
+de: In Gruppen zu wie vielen stehen laut Jesus Sirach 42 die Werke des Herrn?|2|3|7
+it: In Siracide 42, le opere del Signore sono a gruppi di quante?|2|3|7
+pl: W grupach po ile są dzieła Pana według Mądrości Syracha 42?|2|3|7
+ru: По сколько, по Книге Сираха 42, идут дела Господа, одно против другого?|2|3|7
+tr: Sirak 42'de Rab'bin eserleri kaçarlı gruplar halindedir?|2|3|7
+ja: シラ書42章で、主の作品は何個ずつ組になっていますか？|2|3|7
+ko: 집회서 42장에서 주님의 작품들은 몇 개씩 짝을 이룹니까?|2|3|7
+ar: في يشوع بن سيراخ 42، كم عددًا في كل مجموعة من أعمال الرب؟|2|3|7

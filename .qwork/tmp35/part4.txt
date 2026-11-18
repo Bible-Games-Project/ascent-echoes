@@ -1,0 +1,279 @@
+@43 easy Sirach 43:6-8
+en: In Sirach 43, which heavenly body marks the months and feast days?|Moon|Meteor|Planet
+es: ¿En Eclesiástico 43, qué astro marca los meses y las fiestas?|Luna|Meteoro|Planeta
+pt: Em Eclesiástico 43, que astro marca os meses e as festas?|Lua|Meteoro|Planeta
+fr: Dans Siracide 43, quel astre marque les mois et les fêtes ?|Lune|Météore|Planète
+de: Welches Gestirn bestimmt laut Jesus Sirach 43 Monate und Feste?|Mond|Meteor|Planet
+it: In Siracide 43, quale astro segna i mesi e le feste?|Luna|Meteora|Pianeta
+pl: Które ciało niebieskie wyznacza według Mądrości Syracha 43 miesiące i święta?|Księżyc|Meteor|Planeta
+ru: Какое светило, по Книге Сираха 43, определяет месяцы и праздники?|Луна|Метеор|Планета
+tr: Sirak 43'te ayları ve bayramları belirleyen gök cismi hangisidir?|Ay|Göktaşı|Gezegen
+ja: シラ書43章で、月や祝祭日を定める天体はどれですか？|月|流星|惑星
+ko: 집회서 43장에서 달과 축제일을 정하는 천체는 무엇입니까?|달|유성|행성
+ar: في يشوع بن سيراخ 43، أي جرم سماوي يحدد الشهور والأعياد؟|قمر|شهاب|كوكب
+
+@43 medium Sirach 43:4
+en: In Sirach 43, how many times more than a furnace does the sun scorch?|3|2|10
+es: ¿En Eclesiástico 43, cuántas veces más que un horno abrasa el sol los montes?|3|2|10
+pt: Em Eclesiástico 43, quantas vezes mais que uma fornalha o sol queima os montes?|3|2|10
+fr: Dans Siracide 43, combien de fois plus qu'une fournaise le soleil brûle-t-il les montagnes ?|3|2|10
+de: Wievielmal heißer als ein Schmelzofen brennt laut Jesus Sirach 43 die Sonne auf die Berge?|3|2|10
+it: In Siracide 43, quante volte più di una fornace il sole brucia i monti?|3|2|10
+pl: Ile razy mocniej niż piec rozpala góry słońce według Mądrości Syracha 43?|3|2|10
+ru: Во сколько раз сильнее печи солнце жжёт горы, по Книге Сираха 43?|3|2|10
+tr: Sirak 43'te güneş dağları bir fırından kaç kat fazla yakar?|3|2|10
+ja: シラ書43章で、太陽は炉の何倍山々を焼きますか？|3|2|10
+ko: 집회서 43장에서 태양은 용광로보다 몇 배나 산을 달굽니까?|3|2|10
+ar: في يشوع بن سيراخ 43، كم ضعفًا أكثر من الأتون تحرق الشمس الجبال؟|3|2|10
+
+@43 hard Sirach 43:14
+en: In Sirach 43, clouds fly out like which creatures?|Birds|Bees|Butterflies
+es: ¿En Eclesiástico 43, las nubes salen volando como qué criaturas?|Aves|Abejas|Mariposas
+pt: Em Eclesiástico 43, as nuvens voam como que criaturas?|Aves|Abelhas|Borboletas
+fr: Dans Siracide 43, les nuées s'envolent comme quelles créatures ?|Oiseaux|Abeilles|Papillons
+de: Welchen Tieren gleichen laut Jesus Sirach 43 die davonfliegenden Wolken?|Vögeln|Bienen|Schmetterlingen
+it: In Siracide 43, le nubi volano via come quali creature?|Uccelli|Api|Farfalle
+pl: Którym stworzeniom przypominają według Mądrości Syracha 43 wylatujące chmury?|Ptakom|Pszczołom|Motylom
+ru: На каких существ, по Книге Сираха 43, похожи вылетающие облака?|Птиц|Пчёл|Бабочек
+tr: Sirak 43'te bulutlar hangi canlılar gibi uçar?|Kuşlar|Arılar|Kelebekler
+ja: シラ書43章で、雲はどんな生き物のように飛び出しますか？|鳥|蜂|蝶
+ko: 집회서 43장에서 구름은 어떤 생물처럼 날아갑니까?|새|벌|나비
+ar: في يشوع بن سيراخ 43، تنطلق الغيوم مثل أي مخلوقات؟|طيور|نحل|فراشات
+
+@43 expert Sirach 43:17
+en: In Sirach 43, snow descends like which swarming insect?|Locusts|Ants|Flies
+es: ¿En Eclesiástico 43, la nieve desciende como qué insecto en enjambre?|Langostas|Hormigas|Moscas
+pt: Em Eclesiástico 43, a neve desce como que inseto em enxame?|Gafanhotos|Formigas|Moscas
+fr: Dans Siracide 43, la neige descend comme quel insecte en essaim ?|Sauterelles|Fourmis|Mouches
+de: Welchen Insekten gleicht laut Jesus Sirach 43 der niedergehende Schnee?|Heuschrecken|Ameisen|Fliegen
+it: In Siracide 43, la neve scende come quale insetto a sciame?|Locuste|Formiche|Mosche
+pl: Jakim owadom przypomina według Mądrości Syracha 43 opadający śnieg?|Szarańczy|Mrówkom|Muchom
+ru: На каких насекомых, по Книге Сираха 43, похож падающий снег?|Саранчу|Муравьёв|Мух
+tr: Sirak 43'te kar hangi böcek gibi yağar?|Çekirge|Karınca|Sinek
+ja: シラ書43章で、雪は群れをなすどの虫のように降りますか？|いなご|蟻|ハエ
+ko: 집회서 43장에서 눈은 떼 지은 어떤 벌레처럼 내립니까?|메뚜기|개미|파리
+ar: في يشوع بن سيراخ 43، تنزل الثلوج مثل أي حشرة؟|جراد|نمل|ذباب
+
+@43 impossible Sirach 43:19
+en: In Sirach 43, the Lord pours frost over the earth like what?|Salt|Sugar|Ash
+es: ¿En Eclesiástico 43, sobre la tierra el Señor derrama la escarcha como qué?|Sal|Azúcar|Ceniza
+pt: Em Eclesiástico 43, sobre a terra o Senhor derrama a geada como o quê?|Sal|Açúcar|Cinza
+fr: Dans Siracide 43, le Seigneur répand le givre sur la terre comme quoi ?|Sel|Sucre|Cendre
+de: Welchem Stoff gleicht laut Jesus Sirach 43 der Reif, den der Herr ausstreut?|Salz|Zucker|Asche
+it: In Siracide 43, il Signore versa la brina sulla terra come che cosa?|Sale|Zucchero|Cenere
+pl: Co przypomina szron, który Pan sypie na ziemię, według Mądrości Syracha 43?|Sól|Cukier|Popiół
+ru: На что, по Книге Сираха 43, похож иней, который Господь сыплет на землю?|Соль|Сахар|Пепел
+tr: Sirak 43'te Rab'bin yeryüzüne serptiği kırağı neye benzer?|Tuz|Şeker|Kül
+ja: シラ書43章で、主は霜を何のように地にまかれますか？|塩|砂糖|灰
+ko: 집회서 43장에서 주님께서는 서리를 무엇처럼 땅에 뿌리십니까?|소금|설탕|재
+ar: في يشوع بن سيراخ 43، ينثر الرب الصقيع على الأرض مثل ماذا؟|ملح|سكر|رماد
+
+@44 easy Sirach 44:16
+en: In Sirach 44, who pleased the Lord and was taken up?|Enoch|Isaac|Jacob
+es: ¿En Eclesiástico 44, quién agradó al Señor y fue trasladado?|Enoc|Isaac|Jacob
+pt: Em Eclesiástico 44, quem agradou ao Senhor e foi levado?|Henoc|Isaac|Jacó
+fr: Dans Siracide 44, qui plut au Seigneur et fut enlevé ?|Hénoch|Isaac|Jacob
+de: Wer gefiel laut Jesus Sirach 44 dem Herrn und wurde entrückt?|Henoch|Isaak|Jakob
+it: In Siracide 44, chi piacque al Signore e fu rapito?|Enoc|Isacco|Giacobbe
+pl: Kto według Mądrości Syracha 44 podobał się Panu i został zabrany?|Henoch|Izaak|Jakub
+ru: Кто, по Книге Сираха 44, угодил Господу и был взят?|Енох|Исаак|Иаков
+tr: Sirak 44'te Rab'bi hoşnut edip alınan kimdir?|Hanok|İshak|Yakup
+ja: シラ書44章で、主に喜ばれて取られたのは誰ですか？|エノク|イサク|ヤコブ
+ko: 집회서 44장에서 주님의 마음에 들어 들어 올려진 사람은 누구입니까?|에녹|이사악|야곱
+ar: في يشوع بن سيراخ 44، من أرضى الرب فاختُطف؟|أخنوخ|إسحاق|يعقوب
+
+@44 medium Sirach 44:19
+en: In Sirach 44, who is called father of a multitude of nations?|Abraham|Isaac|Noah
+es: ¿En Eclesiástico 44, quién es llamado padre de una multitud de naciones?|Abrahán|Isaac|Noé
+pt: Em Eclesiástico 44, quem é chamado pai de uma multidão de nações?|Abraão|Isaac|Noé
+fr: Dans Siracide 44, qui est appelé père d'une multitude de nations ?|Abraham|Isaac|Noé
+de: Wer wird laut Jesus Sirach 44 Vater einer Menge von Völkern genannt?|Abraham|Isaak|Noah
+it: In Siracide 44, chi è chiamato padre di una moltitudine di popoli?|Abramo|Isacco|Noè
+pl: Kto jest według Mądrości Syracha 44 ojcem mnóstwa narodów?|Abraham|Izaak|Noe
+ru: Кто, по Книге Сираха 44, назван отцом множества народов?|Авраам|Исаак|Ной
+tr: Sirak 44'te çok sayıda ulusun babası kimdir?|İbrahim|İshak|Nuh
+ja: シラ書44章で、多くの国民の父と呼ばれているのは誰ですか？|アブラハム|イサク|ノア
+ko: 집회서 44장에서 많은 민족의 아버지라 불리는 사람은 누구입니까?|아브라함|이사악|노아
+ar: في يشوع بن سيراخ 44، من يُدعى أبًا لجمهور من الأمم؟|إبراهيم|إسحاق|نوح
+
+@44 hard Sirach 44:17-18
+en: In Sirach 44, by what will God never again destroy all flesh?|Flood|Fire|Plague
+es: ¿En Eclesiástico 44, con qué no volverá Dios a destruir toda carne?|Diluvio|Fuego|Peste
+pt: Em Eclesiástico 44, com o que Deus nunca mais destruirá toda carne?|Dilúvio|Fogo|Peste
+fr: Dans Siracide 44, par quoi Dieu ne détruira-t-il plus toute chair ?|Déluge|Feu|Peste
+de: Wodurch wird Gott laut Jesus Sirach 44 nie mehr alles Fleisch vernichten?|Sintflut|Feuer|Seuche
+it: In Siracide 44, con che cosa Dio non distruggerà più ogni carne?|Diluvio|Fuoco|Peste
+pl: Czym według Mądrości Syracha 44 Bóg nigdy więcej nie zniszczy wszelkiego ciała?|Potopem|Ogniem|Zarazą
+ru: Чем, по Книге Сираха 44, Бог больше не истребит всякую плоть?|Потопом|Огнём|Мором
+tr: Sirak 44'te Tanrı artık her bedeni neyle yok etmeyecek?|Tufan|Ateş|Salgın
+ja: シラ書44章で、神はもう何によってすべての肉なる者を滅ぼさないと約束されましたか？|洪水|火|疫病
+ko: 집회서 44장에서 하느님께서 다시는 무엇으로 모든 생명을 멸하지 않으시겠다고 하셨습니까?|홍수|불|역병
+ar: في يشوع بن سيراخ 44، بماذا لن يهلك الله كل بشر بعد الآن؟|طوفان|نار|وباء
+
+@44 expert Sirach 44:23
+en: In Sirach 44, Jacob's inheritance was divided among how many tribes?|12|10|8
+es: ¿En Eclesiástico 44, entre cuántas tribus repartió Dios la herencia de Jacob?|12|10|8
+pt: Em Eclesiástico 44, entre quantas tribos Deus repartiu a herança de Jacó?|12|10|8
+fr: Dans Siracide 44, entre combien de tribus l'héritage de Jacob fut-il partagé ?|12|10|8
+de: Auf wie viele Stämme wurde laut Jesus Sirach 44 Jakobs Erbe verteilt?|12|10|8
+it: In Siracide 44, tra quante tribù fu divisa l'eredità di Giacobbe?|12|10|8
+pl: Na ile plemion podzielono według Mądrości Syracha 44 dziedzictwo Jakuba?|12|10|8
+ru: На сколько колен, по Книге Сираха 44, было разделено наследие Иакова?|12|10|8
+tr: Sirak 44'te Yakup'un mirası kaç oymağa bölündü?|12|10|8
+ja: シラ書44章で、ヤコブの相続地は何部族に分けられましたか？|12|10|8
+ko: 집회서 44장에서 야곱의 상속 재산은 몇 지파로 나뉘었습니까?|12|10|8
+ar: في يشوع بن سيراخ 44، على كم سبطًا قُسم ميراث يعقوب؟|12|10|8
+
+@44 impossible Sirach 44:21
+en: In Sirach 44, God would exalt Abraham's offspring like which heavenly bodies?|Stars|Planets|Meteors
+es: ¿En Eclesiástico 44, Dios exaltaría la descendencia de Abrahán como qué astros?|Estrellas|Planetas|Meteoros
+pt: Em Eclesiástico 44, Deus exaltaria a descendência de Abraão como que astros?|Estrelas|Planetas|Meteoros
+fr: Dans Siracide 44, Dieu élèverait la postérité d'Abraham comme quels astres ?|Étoiles|Planètes|Météores
+de: Welchen Himmelskörpern sollten laut Jesus Sirach 44 Abrahams Nachkommen gleichen?|Sternen|Planeten|Meteoren
+it: In Siracide 44, Dio avrebbe innalzato la discendenza di Abramo come quali astri?|Stelle|Pianeti|Meteore
+pl: Jakim ciałom niebieskim mieli dorównać potomkowie Abrahama według Mądrości Syracha 44?|Gwiazdom|Planetom|Meteorom
+ru: Каким небесным телам, по Книге Сираха 44, уподоблено потомство Авраама?|Звёздам|Планетам|Метеорам
+tr: Sirak 44'te Tanrı İbrahim'in soyunu hangi gök cisimleri gibi yüceltir?|Yıldızlar|Gezegenler|Göktaşları
+ja: シラ書44章で、神はアブラハムの子孫をどの天体のように高めると約束されましたか？|星|惑星|流星
+ko: 집회서 44장에서 하느님께서는 아브라함의 후손을 어떤 천체처럼 높이겠다고 하셨습니까?|별|행성|유성
+ar: في يشوع بن سيراخ 44، يرفع الله نسل إبراهيم مثل أي أجرام سماوية؟|نجوم|كواكب|شهب
+
+@45 easy Sirach 45:1
+en: In Sirach 45, who was beloved by God and men?|Moses|Aaron|Samuel
+es: ¿En Eclesiástico 45, quién fue amado por Dios y por los hombres?|Moisés|Aarón|Samuel
+pt: Em Eclesiástico 45, quem foi amado por Deus e pelos homens?|Moisés|Aarão|Samuel
+fr: Dans Siracide 45, qui fut aimé de Dieu et des hommes ?|Moïse|Aaron|Samuel
+de: Wer war laut Jesus Sirach 45 von Gott und den Menschen geliebt?|Mose|Aaron|Samuel
+it: In Siracide 45, chi fu amato da Dio e dagli uomini?|Mosè|Aronne|Samuele
+pl: Kto według Mądrości Syracha 45 był umiłowany przez Boga i ludzi?|Mojżesz|Aaron|Samuel
+ru: Кто, по Книге Сираха 45, был любим Богом и людьми?|Моисей|Аарон|Самуил
+tr: Sirak 45'te Tanrı'nın ve insanların sevdiği kişi kimdir?|Musa|Harun|Samuel
+ja: シラ書45章で、神と人々に愛されたのは誰ですか？|モーセ|アロン|サムエル
+ko: 집회서 45장에서 하느님과 사람들에게 사랑받은 이는 누구입니까?|모세|아론|사무엘
+ar: في يشوع بن سيراخ 45، من أحبه الله والناس؟|موسى|هارون|صموئيل
+
+@45 medium Sirach 45:6
+en: In Sirach 45, Aaron came from which tribe?|Levi|Judah|Benjamin
+es: ¿En Eclesiástico 45, de qué tribu procedía Aarón?|Leví|Judá|Benjamín
+pt: Em Eclesiástico 45, de que tribo era Aarão?|Levi|Judá|Benjamim
+fr: Dans Siracide 45, de quelle tribu était Aaron ?|Lévi|Juda|Benjamin
+de: Aus welchem Stamm kam laut Jesus Sirach 45 Aaron?|Levi|Juda|Benjamin
+it: In Siracide 45, di quale tribù era Aronne?|Levi|Giuda|Beniamino
+pl: Który syn Jakuba dał początek plemieniu Aarona według Mądrości Syracha 45?|Lewi|Juda|Beniamin
+ru: Кто из сыновей Иакова был родоначальником колена Аарона, по Книге Сираха 45?|Левий|Иуда|Вениамин
+tr: Sirak 45'te Harun hangi oymaktandır?|Levi|Yahuda|Binyamin
+ja: シラ書45章で、アロンはどの部族の出身ですか？|レビ|ユダ|ベニヤミン
+ko: 집회서 45장에서 아론은 어느 지파 출신입니까?|레위|유다|벤야민
+ar: في يشوع بن سيراخ 45، من أي سبط كان هارون؟|لاوي|يهوذا|بنيامين
+
+@45 hard Sirach 45:9
+en: In Sirach 45, which fruit decorated Aaron's robe along with bells?|Pomegranate|Fig|Grape
+es: ¿En Eclesiástico 45, qué fruto adornaba junto con campanillas el manto de Aarón?|Granada|Higo|Uva
+pt: Em Eclesiástico 45, que fruto enfeitava, com campainhas, o manto de Aarão?|Romã|Figo|Uva
+fr: Dans Siracide 45, quel fruit ornait, avec des clochettes, le manteau d'Aaron ?|Grenade|Figue|Raisin
+de: Welche Frucht schmückte laut Jesus Sirach 45 mit Glöckchen Aarons Gewand?|Granatapfel|Feige|Traube
+it: In Siracide 45, quale frutto ornava con campanelli il manto di Aronne?|Melagrana|Fico|Uva
+pl: Który owoc zdobił wraz z dzwoneczkami szatę Aarona według Mądrości Syracha 45?|Granat|Figa|Winogrono
+ru: Какой плод украшал, вместе с колокольчиками, одеяние Аарона, по Книге Сираха 45?|Гранат|Смоква|Виноград
+tr: Sirak 45'te Harun'un cübbesini çanlarla birlikte hangi meyve süslerdi?|Nar|İncir|Üzüm
+ja: シラ書45章で、アロンの衣の飾りに鈴と共に付けられた果実は何ですか？|ざくろ|いちじく|ぶどう
+ko: 집회서 45장에서 아론의 옷을 방울과 함께 장식한 열매는 무엇입니까?|석류|무화과|포도
+ar: في يشوع بن سيراخ 45، أي ثمرة زينت ثوب هارون مع الأجراس؟|رمان|تين|عنب
+
+@45 expert Sirach 45:23
+en: In Sirach 45, who is third in glory for his zeal?|Phinehas|Eleazar|Gideon
+es: ¿En Eclesiástico 45, quién es el tercero en gloria por su celo?|Finés|Eleazar|Gedeón
+pt: Em Eclesiástico 45, quem é o terceiro em glória por seu zelo?|Finéias|Eleazar|Gedeão
+fr: Dans Siracide 45, qui est le troisième en gloire pour son zèle ?|Phinées|Éléazar|Gédéon
+de: Wer ist laut Jesus Sirach 45 wegen seines Eifers der Dritte an Ruhm?|Pinhas|Eleasar|Gideon
+it: In Siracide 45, chi è il terzo in gloria per il suo zelo?|Fineès|Eleazaro|Gedeone
+pl: Kto według Mądrości Syracha 45 jest trzeci w chwale z powodu swej gorliwości?|Pinchas|Eleazar|Gedeon
+ru: Кто, по Книге Сираха 45, третий по славе за свою ревность?|Финеес|Елеазар|Гедеон
+tr: Sirak 45'te gayreti nedeniyle şanda üçüncü olan kimdir?|Pinehas|Elazar|Gidyon
+ja: シラ書45章で、熱心さのゆえに栄光において三番目とされるのは誰ですか？|ピネハス|エルアザル|ギデオン
+ko: 집회서 45장에서 열성 때문에 영광에서 셋째로 꼽히는 사람은 누구입니까?|비느하스|엘아자르|기드온
+ar: في يشوع بن سيراخ 45، من هو الثالث في المجد بسبب غيرته؟|فنحاس|ألعازار|جدعون
+
+@45 impossible Sirach 45:18
+en: In Sirach 45, who led the envious band against Moses and Aaron?|Korah|Balaam|Pharaoh
+es: ¿En Eclesiástico 45, quién encabezó la banda envidiosa contra Moisés y Aarón?|Coré|Balaán|Faraón
+pt: Em Eclesiástico 45, quem liderou o bando invejoso contra Moisés e Aarão?|Coré|Balaão|Faraó
+fr: Dans Siracide 45, qui mena la bande envieuse contre Moïse et Aaron ?|Coré|Balaam|Pharaon
+de: Wer führte laut Jesus Sirach 45 die neidische Rotte gegen Mose und Aaron an?|Korach|Bileam|Pharao
+it: In Siracide 45, chi guidò la banda invidiosa contro Mosè e Aronne?|Core|Balaam|Faraone
+pl: Kto według Mądrości Syracha 45 przewodził zazdrosnej zgrai przeciw Mojżeszowi i Aaronowi?|Korach|Balaam|Faraon
+ru: Кто, по Книге Сираха 45, возглавил завистливую шайку против Моисея и Аарона?|Корей|Валаам|Фараон
+tr: Sirak 45'te Musa ile Harun'a karşı kıskanç topluluğu kim yönetti?|Korah|Balam|Firavun
+ja: シラ書45章で、モーセとアロンに逆らう妬み深い一団を率いたのは誰ですか？|コラ|バラム|ファラオ
+ko: 집회서 45장에서 모세와 아론에게 맞선 시기하는 무리를 이끈 사람은 누구입니까?|코라|발라암|파라오
+ar: في يشوع بن سيراخ 45، من قاد الجماعة الحاسدة ضد موسى وهارون؟|قورح|بلعام|فرعون
+
+@46 easy Sirach 46:1
+en: In Sirach 46, whom did Joshua son of Nun succeed as prophet?|Moses|Aaron|Samuel
+es: ¿En Eclesiástico 46, a quién sucedió Josué, hijo de Nun, como profeta?|Moisés|Aarón|Samuel
+pt: Em Eclesiástico 46, a quem Josué, filho de Nun, sucedeu como profeta?|Moisés|Aarão|Samuel
+fr: Dans Siracide 46, qui Josué, fils de Nun, a-t-il remplacé comme prophète ?|Moïse|Aaron|Samuel
+de: Wen löste laut Jesus Sirach 46 Josua, Sohn Nuns, als Prophet ab?|Mose|Aaron|Samuel
+it: In Siracide 46, chi successe Giosuè, figlio di Nun, come profeta?|Mosè|Aronne|Samuele
+pl: Kogo według Mądrości Syracha 46 zastąpił jako prorok Jozue, syn Nuna?|Mojżesza|Aarona|Samuela
+ru: Кого, по Книге Сираха 46, сменил как пророк Иисус Навин?|Моисея|Аарона|Самуила
+tr: Sirak 46'da Nun oğlu Yeşu'dan önce gelen peygamber kimdir?|Musa|Harun|Samuel
+ja: シラ書46章で、ヌンの子ヨシュアが預言者として後を継いだのは誰ですか？|モーセ|アロン|サムエル
+ko: 집회서 46장에서 눈의 아들 여호수아가 예언자로서 뒤를 이은 사람은 누구입니까?|모세|아론|사무엘
+ar: في يشوع بن سيراخ 46، من خلف يشوع بن نون في النبوة؟|موسى|هارون|صموئيل
+
+@46 medium Sirach 46:4
+en: In Sirach 46, what stood still by Joshua's hand?|Sun|Cloud|Wind
+es: ¿En Eclesiástico 46, qué se detuvo por mano de Josué?|Sol|Nube|Viento
+pt: Em Eclesiástico 46, o que parou pela mão de Josué?|Sol|Nuvem|Vento
+fr: Dans Siracide 46, qu'est-ce qui s'arrêta par la main de Josué ?|Soleil|Nuage|Vent
+de: Was stand laut Jesus Sirach 46 durch Josuas Hand still?|Sonne|Wolke|Wind
+it: In Siracide 46, che cosa si fermò per mano di Giosuè?|Sole|Nuvola|Vento
+pl: Co zatrzymało się według Mądrości Syracha 46 za sprawą Jozuego?|Słońce|Chmura|Wiatr
+ru: Что остановилось, по Книге Сираха 46, рукой Иисуса Навина?|Солнце|Облако|Ветер
+tr: Sirak 46'da Yeşu'nun eliyle ne durdu?|Güneş|Bulut|Rüzgâr
+ja: シラ書46章で、ヨシュアの手によって止まったものは何ですか？|太陽|雲|風
+ko: 집회서 46장에서 여호수아의 손으로 멈춘 것은 무엇입니까?|해|구름|바람
+ar: في يشوع بن سيراخ 46، ما الذي توقف بيد يشوع؟|شمس|سحابة|ريح
+
+@46 hard Sirach 46:5-6
+en: In Sirach 46, what did God send down on Joshua's enemies?|Hail|Frogs|Locusts
+es: ¿En Eclesiástico 46, qué envió Dios sobre los enemigos de Josué?|Granizo|Ranas|Langostas
+pt: Em Eclesiástico 46, o que Deus enviou sobre os inimigos de Josué?|Granizo|Rãs|Gafanhotos
+fr: Dans Siracide 46, que Dieu envoya-t-il sur les ennemis de Josué ?|Grêle|Grenouilles|Sauterelles
+de: Was sandte Gott laut Jesus Sirach 46 auf Josuas Feinde herab?|Hagel|Frösche|Heuschrecken
+it: In Siracide 46, che cosa mandò Dio sui nemici di Giosuè?|Grandine|Rane|Locuste
+pl: Co Bóg zesłał według Mądrości Syracha 46 na wrogów Jozuego?|Grad|Żaby|Szarańczę
+ru: Что, по Книге Сираха 46, Бог послал на врагов Иисуса Навина?|Град|Жаб|Саранчу
+tr: Sirak 46'da Tanrı Yeşu'nun düşmanlarına ne yağdırdı?|Dolu|Kurbağa|Çekirge
+ja: シラ書46章で、神がヨシュアの敵の上に降らせたものは何ですか？|雹|蛙|いなご
+ko: 집회서 46장에서 하느님께서 여호수아의 적들에게 내리신 것은 무엇입니까?|우박|개구리|메뚜기
+ar: في يشوع بن سيراخ 46، ماذا أنزل الله على أعداء يشوع؟|برد|ضفادع|جراد
+
+@46 expert Sirach 46:9
+en: In Sirach 46, who received strength that lasted into old age?|Caleb|Gideon|Barak
+es: ¿En Eclesiástico 46, quién recibió una fuerza que le duró hasta la vejez?|Caleb|Gedeón|Barac
+pt: Em Eclesiástico 46, quem recebeu uma força que durou até a velhice?|Caleb|Gedeão|Baraque
+fr: Dans Siracide 46, qui reçut une force qui dura jusqu'à la vieillesse ?|Caleb|Gédéon|Baraq
+de: Wer erhielt laut Jesus Sirach 46 eine Kraft, die bis ins Alter blieb?|Kaleb|Gideon|Barak
+it: In Siracide 46, chi ricevette una forza che durò fino alla vecchiaia?|Caleb|Gedeone|Barak
+pl: Kto według Mądrości Syracha 46 otrzymał siłę, która trwała do starości?|Kaleb|Gedeon|Barak
+ru: Кто, по Книге Сираха 46, получил силу, остававшуюся до старости?|Халев|Гедеон|Варак
+tr: Sirak 46'da gücü yaşlılığına kadar süren kişi kimdir?|Kaleb|Gidyon|Barak
+ja: シラ書46章で、老年まで続く力を与えられたのは誰ですか？|カレブ|ギデオン|バラク
+ko: 집회서 46장에서 노년까지 이어지는 힘을 받은 사람은 누구입니까?|칼렙|기드온|바락
+ar: في يشوع بن سيراخ 46، من نال قوة دامت حتى الشيخوخة؟|كالب|جدعون|باراق
+
+@46 impossible Sirach 46:19
+en: In Sirach 46, Samuel took nothing from anyone, not even what item?|Sandal|Belt|Cloak
+es: ¿En Eclesiástico 46, Samuel no tomó nada de nadie, ni siquiera qué prenda?|Sandalia|Cinturón|Manto
+pt: Em Eclesiástico 46, Samuel não tomou nada de ninguém, nem mesmo que peça?|Sandália|Cinto|Manto
+fr: Dans Siracide 46, Samuel n'a rien pris à personne, pas même quel objet ?|Sandale|Ceinture|Manteau
+de: Samuel nahm laut Jesus Sirach 46 von niemandem etwas, nicht einmal welchen Gegenstand?|Sandale|Gürtel|Mantel
+it: In Siracide 46, Samuele non prese nulla da nessuno, nemmeno quale oggetto?|Sandalo|Cintura|Mantello
+pl: Czego według Mądrości Syracha 46 Samuel nie wziął od nikogo, nawet jednego przedmiotu?|Sandała|Pasa|Płaszcza
+ru: Чего, по Книге Сираха 46, Самуил не взял ни у кого, даже какой вещи?|Сандалии|Пояса|Плаща
+tr: Sirak 46'da Samuel kimseden hiçbir şey almadı, hangi eşyayı bile almadı?|Sandalet|Kemer|Pelerin
+ja: シラ書46章で、サムエルは誰からも何も取らず、どんな物さえ取りませんでしたか？|サンダル|帯|外套
+ko: 집회서 46장에서 사무엘은 누구에게서도 무엇이든 취하지 않았는데, 어떤 물건조차 취하지 않았습니까?|신발|허리띠|겉옷
+ar: في يشوع بن سيراخ 46، لم يأخذ صموئيل من أحد شيئًا، ولا أي غرض؟|حذاء|حزام|رداء

@@ -957,19 +957,19 @@
 "unit": "ch-sirach-035",
 "step": "write",
 "model": "sonnet",
-"status": "todo"
+"status": "done"
 },
 {
 "unit": "ch-sirach-035",
 "step": "en",
 "model": "opus",
-"status": "todo"
+"status": "done"
 },
 {
 "unit": "ch-sirach-035",
 "step": "tr",
 "model": "sonnet",
-"status": "todo"
+"status": "done"
 },
 {
 "unit": "ch-isaiah-001",
