@@ -1,0 +1,3649 @@
+{
+ "questions": [
+  {
+   "id": "ch-amos-001-01",
+   "book": "amos",
+   "chapter": 1,
+   "difficulty": "easy",
+   "ref": "Amos 1:3-5",
+   "text": {
+    "en": [
+     "In Amos 1, which city is denounced first?",
+     "Damascus",
+     "Nineveh",
+     "Babylon"
+    ],
+    "es": [
+     "¿En Amós 1, qué ciudad es denunciada primero?",
+     "Damasco",
+     "Nínive",
+     "Babilonia"
+    ],
+    "pt": [
+     "Em Amós 1, qual cidade é denunciada primeiro?",
+     "Damasco",
+     "Nínive",
+     "Babilônia"
+    ],
+    "fr": [
+     "Dans Amos 1, quelle ville est dénoncée en premier ?",
+     "Damas",
+     "Ninive",
+     "Babylone"
+    ],
+    "de": [
+     "In Amos 1: Welche Stadt wird zuerst angeklagt?",
+     "Damaskus",
+     "Ninive",
+     "Babylon"
+    ],
+    "it": [
+     "In Amos 1, quale città viene denunciata per prima?",
+     "Damasco",
+     "Ninive",
+     "Babilonia"
+    ],
+    "pl": [
+     "W Księdze Amosa 1, które miasto zostaje potępione jako pierwsze?",
+     "Damaszek",
+     "Niniwa",
+     "Babilon"
+    ],
+    "ru": [
+     "В книге Амоса, глава 1: какой город обличается первым?",
+     "Дамаск",
+     "Ниневия",
+     "Вавилон"
+    ],
+    "tr": [
+     "Amos 1. bölümde, ilk olarak hangi şehir kınanır?",
+     "Şam",
+     "Ninova",
+     "Babil"
+    ],
+    "ja": [
+     "アモス書1章で、最初に告発される町はどこですか？",
+     "ダマスコ",
+     "ニネベ",
+     "バビロン"
+    ],
+    "ko": [
+     "아모스서 1장에서, 가장 먼저 규탄받는 도시는 어디입니까?",
+     "다마스쿠스",
+     "니네베",
+     "바빌론"
+    ],
+    "ar": [
+     "في عاموس 1، ما هي المدينة التي تُدان أولاً؟",
+     "دمشق",
+     "نينوى",
+     "بابل"
+    ]
+   }
+  },
+  {
+   "id": "ch-amos-001-02",
+   "book": "amos",
+   "chapter": 1,
+   "difficulty": "medium",
+   "ref": "Amos 1:1",
+   "text": {
+    "en": [
+     "In Amos 1, which king of Judah ruled in Amos's time?",
+     "Uzziah",
+     "Hezekiah",
+     "Josiah"
+    ],
+    "es": [
+     "¿En Amós 1, qué rey de Judá reinaba en tiempos de Amós?",
+     "Ozías",
+     "Ezequías",
+     "Josías"
+    ],
+    "pt": [
+     "Em Amós 1, que rei de Judá reinava no tempo de Amós?",
+     "Ozias",
+     "Ezequias",
+     "Josias"
+    ],
+    "fr": [
+     "Dans Amos 1, quel roi de Juda régnait au temps d'Amos ?",
+     "Ozias",
+     "Ézéchias",
+     "Josias"
+    ],
+    "de": [
+     "In Amos 1: Welcher König von Juda regierte zur Zeit des Amos?",
+     "Usija",
+     "Hiskija",
+     "Joschija"
+    ],
+    "it": [
+     "In Amos 1, quale re di Giuda regnava ai tempi di Amos?",
+     "Ozia",
+     "Ezechia",
+     "Giosia"
+    ],
+    "pl": [
+     "W Księdze Amosa 1, który król Judy panował za czasów Amosa?",
+     "Ozjasz",
+     "Ezechiasz",
+     "Jozjasz"
+    ],
+    "ru": [
+     "В книге Амоса, глава 1: какой царь Иудеи правил во времена Амоса?",
+     "Озия",
+     "Езекия",
+     "Иосия"
+    ],
+    "tr": [
+     "Amos 1. bölümde, Amos'un döneminde hangi Yahuda kralı hüküm sürdü?",
+     "Uzziya",
+     "Hizkiya",
+     "Yoşiya"
+    ],
+    "ja": [
+     "アモス書1章で、アモスの時代に君臨したユダの王は誰ですか？",
+     "ウジヤ",
+     "ヒゼキヤ",
+     "ヨシヤ"
+    ],
+    "ko": [
+     "아모스서 1장에서, 아모스 시대에 다스린 유다 임금은 누구입니까?",
+     "우찌야",
+     "히즈키야",
+     "요시야"
+    ],
+    "ar": [
+     "في عاموس 1، أي ملك ليهوذا حكم في زمن عاموس؟",
+     "عزيا",
+     "حزقيا",
+     "يوشيا"
+    ]
+   }
+  },
+  {
+   "id": "ch-amos-001-03",
+   "book": "amos",
+   "chapter": 1,
+   "difficulty": "hard",
+   "ref": "Amos 1:3",
+   "text": {
+    "en": [
+     "In Amos 1, Damascus threshed which region with iron sledges?",
+     "Gilead",
+     "Sharon",
+     "Judah"
+    ],
+    "es": [
+     "¿En Amós 1, qué región trilló Damasco con trillos de hierro?",
+     "Galaad",
+     "Sarón",
+     "Judá"
+    ],
+    "pt": [
+     "Em Amós 1, qual região Damasco trilhou com trilhos de ferro?",
+     "Galaad",
+     "Sarom",
+     "Judá"
+    ],
+    "fr": [
+     "Dans Amos 1, quelle région Damas a-t-elle foulée avec des traîneaux de fer ?",
+     "Galaad",
+     "Saron",
+     "Juda"
+    ],
+    "de": [
+     "In Amos 1: Welche Region drosch Damaskus mit eisernen Dreschschlitten?",
+     "Gilead",
+     "Scharon",
+     "Juda"
+    ],
+    "it": [
+     "In Amos 1, quale regione Damasco ha trebbiato con trebbie di ferro?",
+     "Gàlaad",
+     "Saron",
+     "Giuda"
+    ],
+    "pl": [
+     "W Księdze Amosa 1, który kraj Damaszek młócił żelaznymi młockarniami?",
+     "Gilead",
+     "Szaron",
+     "Juda"
+    ],
+    "ru": [
+     "В книге Амоса, глава 1: какую область Дамаск молотил железными молотилками?",
+     "Галаад",
+     "Сарон",
+     "Иуда"
+    ],
+    "tr": [
+     "Amos 1. bölümde, Şam hangi bölgeyi demir döven kızaklarla dövdü?",
+     "Gilat",
+     "Saron",
+     "Yahuda"
+    ],
+    "ja": [
+     "アモス書1章で、ダマスコが鉄の打穀そりで打ったのはどの地方ですか？",
+     "ギレアド",
+     "シャロン",
+     "ユダ"
+    ],
+    "ko": [
+     "아모스서 1장에서, 다마스쿠스가 쇠 타작 도구로 짓밟은 지역은 어디입니까?",
+     "길앗",
+     "샤론",
+     "유다"
+    ],
+    "ar": [
+     "في عاموس 1، أي منطقة دَرَسَها دمشق بنوارج من حديد؟",
+     "جلعاد",
+     "شارون",
+     "يهوذا"
+    ]
+   }
+  },
+  {
+   "id": "ch-amos-001-04",
+   "book": "amos",
+   "chapter": 1,
+   "difficulty": "expert",
+   "ref": "Amos 1:4",
+   "text": {
+    "en": [
+     "In Amos 1, which Aramean king is named in Damascus's oracle?",
+     "Hazael",
+     "Rezin",
+     "Naaman"
+    ],
+    "es": [
+     "¿En Amós 1, qué rey arameo se nombra en el oráculo contra Damasco?",
+     "Jazael",
+     "Rasín",
+     "Naamán"
+    ],
+    "pt": [
+     "Em Amós 1, que rei arameu é citado no oráculo contra Damasco?",
+     "Hazael",
+     "Rasin",
+     "Naamã"
+    ],
+    "fr": [
+     "Dans Amos 1, quel roi araméen est nommé dans l'oracle contre Damas ?",
+     "Hazaël",
+     "Retsîn",
+     "Naaman"
+    ],
+    "de": [
+     "In Amos 1: Welcher aramäische König wird im Spruch gegen Damaskus genannt?",
+     "Hasaël",
+     "Rezin",
+     "Naaman"
+    ],
+    "it": [
+     "In Amos 1, quale re arameo è nominato nell'oracolo contro Damasco?",
+     "Cazaèl",
+     "Resin",
+     "Naaman"
+    ],
+    "pl": [
+     "W Księdze Amosa 1, który król aramejski jest wymieniony w wyroczni przeciw Damaszkowi?",
+     "Chazael",
+     "Resin",
+     "Naaman"
+    ],
+    "ru": [
+     "В книге Амоса, глава 1: какой арамейский царь назван в пророчестве против Дамаска?",
+     "Азаил",
+     "Рецин",
+     "Нееман"
+    ],
+    "tr": [
+     "Amos 1. bölümde, Şam'a karşı sözde hangi Aramlı kralın adı geçer?",
+     "Hazael",
+     "Resin",
+     "Naaman"
+    ],
+    "ja": [
+     "アモス書1章で、ダマスコへの託宣に名が挙がるアラムの王は誰ですか？",
+     "ハザエル",
+     "レツィン",
+     "ナアマン"
+    ],
+    "ko": [
+     "아모스서 1장에서, 다마스쿠스에 대한 신탁에 이름이 나오는 아람 임금은 누구입니까?",
+     "하자엘",
+     "르친",
+     "나아만"
+    ],
+    "ar": [
+     "في عاموس 1، أي ملك أرامي يُذكر في النبوءة ضد دمشق؟",
+     "حزائيل",
+     "رصين",
+     "نعمان"
+    ]
+   }
+  },
+  {
+   "id": "ch-amos-001-05",
+   "book": "amos",
+   "chapter": 1,
+   "difficulty": "impossible",
+   "ref": "Amos 1:12",
+   "text": {
+    "en": [
+     "In Amos 1, fire will devour Teman and which other Edomite city?",
+     "Bozrah",
+     "Tyre",
+     "Rabbah"
+    ],
+    "es": [
+     "¿En Amós 1, el fuego devorará Temán y qué otra ciudad edomita?",
+     "Bosra",
+     "Tiro",
+     "Rabá"
+    ],
+    "pt": [
+     "Em Amós 1, o fogo devorará Temã e que outra cidade edomita?",
+     "Bosra",
+     "Tiro",
+     "Rabá"
+    ],
+    "fr": [
+     "Dans Amos 1, le feu dévorera Témân et quelle autre ville édomite ?",
+     "Bosra",
+     "Tyr",
+     "Rabba"
+    ],
+    "de": [
+     "In Amos 1: Das Feuer frisst Teman und welche andere Stadt Edoms?",
+     "Bozra",
+     "Tyrus",
+     "Rabba"
+    ],
+    "it": [
+     "In Amos 1, il fuoco divorerà Teman e quale altra città edomita?",
+     "Bosra",
+     "Tiro",
+     "Rabba"
+    ],
+    "pl": [
+     "W Księdze Amosa 1, ogień pochłonie Teman i które jeszcze miasto edomskie?",
+     "Bosra",
+     "Tyr",
+     "Rabba"
+    ],
+    "ru": [
+     "В книге Амоса, глава 1: огонь пожрёт Феман и какой ещё эдомский город?",
+     "Восора",
+     "Тир",
+     "Равва"
+    ],
+    "tr": [
+     "Amos 1. bölümde, ateş Teman'la birlikte hangi öteki Edom kentini yutacak?",
+     "Bosra",
+     "Sur",
+     "Rabba"
+    ],
+    "ja": [
+     "アモス書1章で、火がテマンと共に焼き尽くす、エドムのもう一つの町はどこですか？",
+     "ボツラ",
+     "ティルス",
+     "ラバ"
+    ],
+    "ko": [
+     "아모스서 1장에서, 불이 테만과 함께 삼켜 버릴 에돔의 다른 도시는 어디입니까?",
+     "보츠라",
+     "티로",
+     "랍바"
+    ],
+    "ar": [
+     "في عاموس 1، أي مدينة أدومية أخرى ستأكلها النار مع تيمان؟",
+     "بصرة",
+     "صور",
+     "ربة"
+    ]
+   }
+  },
+  {
+   "id": "ch-amos-001-06",
+   "book": "amos",
+   "chapter": 2,
+   "difficulty": "easy",
+   "ref": "Amos 2:6",
+   "text": {
+    "en": [
+     "In Amos 2, what did Israel sell the needy for?",
+     "Sandals",
+     "Swords",
+     "Helmets"
+    ],
+    "es": [
+     "¿En Amós 2, por qué objeto vendió Israel al indigente?",
+     "Sandalias",
+     "Espadas",
+     "Cascos"
+    ],
+    "pt": [
+     "Em Amós 2, por qual objeto Israel vendeu o necessitado?",
+     "Sandálias",
+     "Espadas",
+     "Capacetes"
+    ],
+    "fr": [
+     "Dans Amos 2, contre quel objet Israël vend-il le pauvre ?",
+     "Sandales",
+     "Épées",
+     "Casques"
+    ],
+    "de": [
+     "In Amos 2: Wofür verkaufte Israel den Armen?",
+     "Sandalen",
+     "Schwerter",
+     "Helme"
+    ],
+    "it": [
+     "In Amos 2, per quale oggetto Israele vendeva il povero?",
+     "Sandali",
+     "Spade",
+     "Elmi"
+    ],
+    "pl": [
+     "W Księdze Amosa 2, za jakie przedmioty Izrael sprzedawał ubogiego?",
+     "Sandały",
+     "Miecze",
+     "Hełmy"
+    ],
+    "ru": [
+     "В книге Амоса, глава 2: за какие вещи Израиль продавал бедного?",
+     "Сандалии",
+     "Мечи",
+     "Шлемы"
+    ],
+    "tr": [
+     "Amos 2. bölümde, İsrail yoksulu neyin karşılığında sattı?",
+     "Çarıklar",
+     "Kılıçlar",
+     "Miğferler"
+    ],
+    "ja": [
+     "アモス書2章で、イスラエルは貧しい者を何と引き換えに売りましたか？",
+     "靴",
+     "剣",
+     "兜"
+    ],
+    "ko": [
+     "아모스서 2장에서, 이스라엘은 가난한 이를 무엇을 받고 팔았습니까?",
+     "신발",
+     "칼",
+     "투구"
+    ],
+    "ar": [
+     "في عاموس 2، مقابل ماذا باع إسرائيل المسكين؟",
+     "نعال",
+     "سيوف",
+     "خوذ"
+    ]
+   }
+  },
+  {
+   "id": "ch-amos-001-07",
+   "book": "amos",
+   "chapter": 2,
+   "difficulty": "medium",
+   "ref": "Amos 2:1",
+   "text": {
+    "en": [
+     "In Amos 2, which nation burned the bones of Edom's king?",
+     "Moab",
+     "Ammon",
+     "Egypt"
+    ],
+    "es": [
+     "¿En Amós 2, qué nación quemó los huesos del rey de Edom?",
+     "Moab",
+     "Amón",
+     "Egipto"
+    ],
+    "pt": [
+     "Em Amós 2, que nação queimou os ossos do rei de Edom?",
+     "Moab",
+     "Amon",
+     "Egito"
+    ],
+    "fr": [
+     "Dans Amos 2, quelle nation a brûlé les ossements du roi d'Édom ?",
+     "Moab",
+     "Ammon",
+     "Égypte"
+    ],
+    "de": [
+     "In Amos 2: Welche Nation verbrannte die Gebeine des Königs von Edom?",
+     "Moab",
+     "Ammon",
+     "Ägypten"
+    ],
+    "it": [
+     "In Amos 2, quale nazione bruciò le ossa del re di Edom?",
+     "Moab",
+     "Ammon",
+     "Egitto"
+    ],
+    "pl": [
+     "W Księdze Amosa 2, który naród spalił kości króla Edomu?",
+     "Moab",
+     "Ammon",
+     "Egipt"
+    ],
+    "ru": [
+     "В книге Амоса, глава 2: какой народ сжёг кости царя Едома?",
+     "Моав",
+     "Аммон",
+     "Египет"
+    ],
+    "tr": [
+     "Amos 2. bölümde, hangi ulus Edom kralının kemiklerini yaktı?",
+     "Moab",
+     "Ammon",
+     "Mısır"
+    ],
+    "ja": [
+     "アモス書2章で、エドムの王の骨を焼いた国はどこですか？",
+     "モアブ",
+     "アンモン",
+     "エジプト"
+    ],
+    "ko": [
+     "아모스서 2장에서, 에돔 임금의 뼈를 태운 나라는 어디입니까?",
+     "모압",
+     "암몬",
+     "이집트"
+    ],
+    "ar": [
+     "في عاموس 2، أي أمة أحرقت عظام ملك أدوم؟",
+     "موآب",
+     "عمون",
+     "مصر"
+    ]
+   }
+  },
+  {
+   "id": "ch-amos-001-08",
+   "book": "amos",
+   "chapter": 2,
+   "difficulty": "hard",
+   "ref": "Amos 2:9",
+   "text": {
+    "en": [
+     "In Amos 2, which trees are as tall as the Amorites?",
+     "Cedars",
+     "Willows",
+     "Palms"
+    ],
+    "es": [
+     "¿En Amós 2, qué árboles igualan en altura a los amorreos?",
+     "Cedros",
+     "Sauces",
+     "Palmeras"
+    ],
+    "pt": [
+     "Em Amós 2, que árvores igualam em altura os amorreus?",
+     "Cedros",
+     "Salgueiros",
+     "Palmeiras"
+    ],
+    "fr": [
+     "Dans Amos 2, quels arbres égalent en hauteur les Amorites ?",
+     "Cèdres",
+     "Saules",
+     "Palmiers"
+    ],
+    "de": [
+     "In Amos 2: Welche Bäume sind so hoch wie die Amoriter?",
+     "Zedern",
+     "Weiden",
+     "Palmen"
+    ],
+    "it": [
+     "In Amos 2, quali alberi sono alti come gli Amorrei?",
+     "Cedri",
+     "Salici",
+     "Palme"
+    ],
+    "pl": [
+     "W Księdze Amosa 2, które drzewa są tak wysokie jak Amoryci?",
+     "Cedry",
+     "Wierzby",
+     "Palmy"
+    ],
+    "ru": [
+     "В книге Амоса, глава 2: какие деревья так же высоки, как аморреи?",
+     "Кедры",
+     "Ивы",
+     "Пальмы"
+    ],
+    "tr": [
+     "Amos 2. bölümde, amorluların boyuna denk olan ağaçlar hangileridir?",
+     "Sedirler",
+     "Söğütler",
+     "Palmiyeler"
+    ],
+    "ja": [
+     "アモス書2章で、アモリ人と同じ高さの木はどれですか？",
+     "杉",
+     "柳",
+     "ヤシ"
+    ],
+    "ko": [
+     "아모스서 2장에서, 아모리족과 키가 같은 나무는 무엇입니까?",
+     "향백나무",
+     "버드나무",
+     "야자나무"
+    ],
+    "ar": [
+     "في عاموس 2، أي أشجار بطول الأموريين؟",
+     "أرز",
+     "صفصاف",
+     "نخيل"
+    ]
+   }
+  },
+  {
+   "id": "ch-amos-001-09",
+   "book": "amos",
+   "chapter": 2,
+   "difficulty": "expert",
+   "ref": "Amos 2:12",
+   "text": {
+    "en": [
+     "In Amos 2, what were the Nazirites forced to drink?",
+     "Wine",
+     "Milk",
+     "Honey"
+    ],
+    "es": [
+     "¿En Amós 2, qué hicieron beber a los nazireos?",
+     "Vino",
+     "Leche",
+     "Miel"
+    ],
+    "pt": [
+     "Em Amós 2, o que fizeram os nazireus beber?",
+     "Vinho",
+     "Leite",
+     "Mel"
+    ],
+    "fr": [
+     "Dans Amos 2, que firent-ils boire aux nazirs ?",
+     "Vin",
+     "Lait",
+     "Miel"
+    ],
+    "de": [
+     "In Amos 2: Was ließ man die Nasiräer trinken?",
+     "Wein",
+     "Milch",
+     "Honig"
+    ],
+    "it": [
+     "In Amos 2, che cosa fecero bere ai nazirei?",
+     "Vino",
+     "Latte",
+     "Miele"
+    ],
+    "pl": [
+     "W Księdze Amosa 2, co kazano pić nazirejczykom?",
+     "Wino",
+     "Mleko",
+     "Miód"
+    ],
+    "ru": [
+     "В книге Амоса, глава 2: что заставили пить назореев?",
+     "Вино",
+     "Молоко",
+     "Мёд"
+    ],
+    "tr": [
+     "Amos 2. bölümde, nasirilere ne içirtildi?",
+     "Şarap",
+     "Süt",
+     "Bal"
+    ],
+    "ja": [
+     "アモス書2章で、ナジル人に飲ませたものは何ですか？",
+     "ぶどう酒",
+     "乳",
+     "蜂蜜"
+    ],
+    "ko": [
+     "아모스서 2장에서, 나지르인들에게 억지로 마시게 한 것은 무엇입니까?",
+     "포도주",
+     "우유",
+     "꿀"
+    ],
+    "ar": [
+     "في عاموس 2، ماذا أسقوا النذيرين؟",
+     "خمر",
+     "حليب",
+     "عسل"
+    ]
+   }
+  },
+  {
+   "id": "ch-amos-001-10",
+   "book": "amos",
+   "chapter": 2,
+   "difficulty": "impossible",
+   "ref": "Amos 2:2",
+   "text": {
+    "en": [
+     "In Amos 2, which Moabite town will see its palaces burn?",
+     "Kerioth",
+     "Jericho",
+     "Hebron"
+    ],
+    "es": [
+     "¿En Amós 2, qué ciudad moabita verá arder sus palacios?",
+     "Queriot",
+     "Jericó",
+     "Hebrón"
+    ],
+    "pt": [
+     "Em Amós 2, que cidade moabita verá seus palácios arderem?",
+     "Queriot",
+     "Jericó",
+     "Hebrom"
+    ],
+    "fr": [
+     "Dans Amos 2, quelle ville moabite verra ses palais brûler ?",
+     "Qeriyyot",
+     "Jéricho",
+     "Hébron"
+    ],
+    "de": [
+     "In Amos 2: Welche moabitische Stadt sieht ihre Paläste brennen?",
+     "Kerijot",
+     "Jericho",
+     "Hebron"
+    ],
+    "it": [
+     "In Amos 2, quale città moabita vedrà bruciare i suoi palazzi?",
+     "Keriòt",
+     "Gerico",
+     "Ebron"
+    ],
+    "pl": [
+     "W Księdze Amosa 2, które moabickie miasto zobaczy płonące swoje pałace?",
+     "Keriot",
+     "Jerycho",
+     "Hebron"
+    ],
+    "ru": [
+     "В книге Амоса, глава 2: какой моавитский город увидит горящими свои дворцы?",
+     "Кериоф",
+     "Иерихон",
+     "Хеврон"
+    ],
+    "tr": [
+     "Amos 2. bölümde, hangi Moablı kentin sarayları yanacak?",
+     "Keriyot",
+     "Eriha",
+     "Hebron"
+    ],
+    "ja": [
+     "アモス書2章で、宮殿が焼かれるモアブの町はどこですか？",
+     "ケリヨト",
+     "エリコ",
+     "ヘブロン"
+    ],
+    "ko": [
+     "아모스서 2장에서, 궁궐이 불타게 될 모압의 도시는 어디입니까?",
+     "크리옷",
+     "예리코",
+     "헤브론"
+    ],
+    "ar": [
+     "في عاموس 2، أي مدينة موآبية سترى قصورها تحترق؟",
+     "قريوت",
+     "أريحا",
+     "حبرون"
+    ]
+   }
+  },
+  {
+   "id": "ch-amos-001-11",
+   "book": "amos",
+   "chapter": 3,
+   "difficulty": "easy",
+   "ref": "Amos 3:7",
+   "text": {
+    "en": [
+     "In Amos 3, which group is told God's plans in advance?",
+     "Prophets",
+     "Kings",
+     "Priests"
+    ],
+    "es": [
+     "¿En Amós 3, qué grupo conoce de antemano los planes de Dios?",
+     "Profetas",
+     "Reyes",
+     "Sacerdotes"
+    ],
+    "pt": [
+     "Em Amós 3, que grupo conhece de antemão os planos de Deus?",
+     "Profetas",
+     "Reis",
+     "Sacerdotes"
+    ],
+    "fr": [
+     "Dans Amos 3, quel groupe connaît à l'avance les desseins de Dieu ?",
+     "Prophètes",
+     "Rois",
+     "Prêtres"
+    ],
+    "de": [
+     "In Amos 3: Welche Gruppe erfährt Gottes Pläne im Voraus?",
+     "Propheten",
+     "Könige",
+     "Priester"
+    ],
+    "it": [
+     "In Amos 3, quale gruppo conosce in anticipo i piani di Dio?",
+     "Profeti",
+     "Re",
+     "Sacerdoti"
+    ],
+    "pl": [
+     "W Księdze Amosa 3, która grupa poznaje z góry plany Boga?",
+     "Prorocy",
+     "Królowie",
+     "Kapłani"
+    ],
+    "ru": [
+     "В книге Амоса, глава 3: какая группа заранее узнаёт замыслы Бога?",
+     "Пророки",
+     "Цари",
+     "Священники"
+    ],
+    "tr": [
+     "Amos 3. bölümde, hangi grup Tanrı'nın planlarını önceden öğrenir?",
+     "Peygamberler",
+     "Krallar",
+     "Kâhinler"
+    ],
+    "ja": [
+     "アモス書3章で、神の計画を前もって知らされるのは誰ですか？",
+     "預言者",
+     "王",
+     "祭司"
+    ],
+    "ko": [
+     "아모스서 3장에서, 하느님의 계획을 미리 알게 되는 이들은 누구입니까?",
+     "예언자",
+     "임금",
+     "사제"
+    ],
+    "ar": [
+     "في عاموس 3، أي فئة تعرف خطط الله مسبقاً؟",
+     "أنبياء",
+     "ملوك",
+     "كهنة"
+    ]
+   }
+  },
+  {
+   "id": "ch-amos-001-12",
+   "book": "amos",
+   "chapter": 3,
+   "difficulty": "medium",
+   "ref": "Amos 3:2",
+   "text": {
+    "en": [
+     "In Amos 3, which nation did God know among all earth's families?",
+     "Israel",
+     "Egypt",
+     "Moab"
+    ],
+    "es": [
+     "¿En Amós 3, qué nación conoció Dios entre todas las familias de la tierra?",
+     "Israel",
+     "Egipto",
+     "Moab"
+    ],
+    "pt": [
+     "Em Amós 3, que nação Deus conheceu entre todas as famílias da terra?",
+     "Israel",
+     "Egito",
+     "Moab"
+    ],
+    "fr": [
+     "Dans Amos 3, quelle nation Dieu a-t-il connue parmi toutes les familles de la terre ?",
+     "Israël",
+     "Égypte",
+     "Moab"
+    ],
+    "de": [
+     "In Amos 3: Welche Nation hat Gott unter allen Sippen der Erde allein erkannt?",
+     "Israel",
+     "Ägypten",
+     "Moab"
+    ],
+    "it": [
+     "In Amos 3, quale nazione Dio ha conosciuto tra tutte le famiglie della terra?",
+     "Israele",
+     "Egitto",
+     "Moab"
+    ],
+    "pl": [
+     "W Księdze Amosa 3, który naród Bóg poznał spośród wszystkich plemion ziemi?",
+     "Izrael",
+     "Egipt",
+     "Moab"
+    ],
+    "ru": [
+     "В книге Амоса, глава 3: какой народ Бог знал из всех племён земли?",
+     "Израиль",
+     "Египет",
+     "Моав"
+    ],
+    "tr": [
+     "Amos 3. bölümde, Tanrı yeryüzündeki bütün boyların arasından hangi ulusu tanıdı?",
+     "İsrail",
+     "Mısır",
+     "Moab"
+    ],
+    "ja": [
+     "アモス書3章で、神が地上のすべての氏族の中で知った民はどの民ですか？",
+     "イスラエル",
+     "エジプト",
+     "モアブ"
+    ],
+    "ko": [
+     "아모스서 3장에서, 하느님께서 땅의 모든 가문 중에서 아신 민족은 어느 나라입니까?",
+     "이스라엘",
+     "이집트",
+     "모압"
+    ],
+    "ar": [
+     "في عاموس 3، أي أمة عرفها الله من بين جميع عشائر الأرض؟",
+     "إسرائيل",
+     "مصر",
+     "موآب"
+    ]
+   }
+  },
+  {
+   "id": "ch-amos-001-13",
+   "book": "amos",
+   "chapter": 3,
+   "difficulty": "hard",
+   "ref": "Amos 3:14",
+   "text": {
+    "en": [
+     "In Amos 3, what will be cut off Bethel's altars?",
+     "Horns",
+     "Stones",
+     "Doors"
+    ],
+    "es": [
+     "¿En Amós 3, qué será cortado de los altares de Betel?",
+     "Cuernos",
+     "Piedras",
+     "Puertas"
+    ],
+    "pt": [
+     "Em Amós 3, o que será cortado dos altares de Betel?",
+     "Chifres",
+     "Pedras",
+     "Portas"
+    ],
+    "fr": [
+     "Dans Amos 3, qu'est-ce qui sera coupé aux autels de Béthel ?",
+     "Cornes",
+     "Pierres",
+     "Portes"
+    ],
+    "de": [
+     "In Amos 3: Was wird von den Altären Bet-Els abgeschlagen?",
+     "Hörner",
+     "Steine",
+     "Türen"
+    ],
+    "it": [
+     "In Amos 3, che cosa sarà tagliato dagli altari di Betel?",
+     "Corna",
+     "Pietre",
+     "Porte"
+    ],
+    "pl": [
+     "W Księdze Amosa 3, co zostanie odcięte z ołtarzy Betel?",
+     "Rogi",
+     "Kamienie",
+     "Drzwi"
+    ],
+    "ru": [
+     "В книге Амоса, глава 3: что будет отсечено от жертвенников Вефиля?",
+     "Рога",
+     "Камни",
+     "Двери"
+    ],
+    "tr": [
+     "Amos 3. bölümde, Beytel'in sunaklarından ne kesilecek?",
+     "Boynuzlar",
+     "Taşlar",
+     "Kapılar"
+    ],
+    "ja": [
+     "アモス書3章で、ベテルの祭壇から切り落とされるものは何ですか？",
+     "角",
+     "石",
+     "扉"
+    ],
+    "ko": [
+     "아모스서 3장에서, 벳엘의 제단에서 잘려 나갈 것은 무엇입니까?",
+     "뿔",
+     "돌",
+     "문"
+    ],
+    "ar": [
+     "في عاموس 3، ما الذي سيُقطع من مذابح بيت إيل؟",
+     "قرون",
+     "حجارة",
+     "أبواب"
+    ]
+   }
+  },
+  {
+   "id": "ch-amos-001-14",
+   "book": "amos",
+   "chapter": 3,
+   "difficulty": "expert",
+   "ref": "Amos 3:15",
+   "text": {
+    "en": [
+     "In Amos 3, God will strike the winter house with which other house?",
+     "Summer",
+     "Spring",
+     "Autumn"
+    ],
+    "es": [
+     "¿En Amós 3, Dios herirá la casa de invierno y la casa de qué estación?",
+     "Verano",
+     "Primavera",
+     "Otoño"
+    ],
+    "pt": [
+     "Em Amós 3, Deus ferirá a casa de inverno e a casa de qual estação?",
+     "Verão",
+     "Primavera",
+     "Outono"
+    ],
+    "fr": [
+     "Dans Amos 3, Dieu frappera la maison d'hiver et la maison de quelle saison ?",
+     "Été",
+     "Printemps",
+     "Automne"
+    ],
+    "de": [
+     "In Amos 3: Welche Jahreszeit steckt im Namen des Hauses, das Gott neben dem Winterhaus schlägt?",
+     "Sommer",
+     "Frühling",
+     "Herbst"
+    ],
+    "it": [
+     "In Amos 3, Dio colpirà la casa d'inverno e la casa di quale stagione?",
+     "Estate",
+     "Primavera",
+     "Autunno"
+    ],
+    "pl": [
+     "W Księdze Amosa 3, Bóg uderzy w dom zimowy i w jaki jeszcze dom?",
+     "Letni",
+     "Wiosenny",
+     "Jesienny"
+    ],
+    "ru": [
+     "В книге Амоса, глава 3: Бог поразит зимний дом и какой ещё дом?",
+     "Летний",
+     "Весенний",
+     "Осенний"
+    ],
+    "tr": [
+     "Amos 3. bölümde, Tanrı kış evini ve hangi mevsim evini vuracak?",
+     "Yaz",
+     "Bahar",
+     "Sonbahar"
+    ],
+    "ja": [
+     "アモス書3章で、神は冬の家と共に、どの季節の家を打ちますか？",
+     "夏",
+     "春",
+     "秋"
+    ],
+    "ko": [
+     "아모스서 3장에서, 하느님께서는 겨울 집과 함께 어느 계절의 집을 치십니까?",
+     "여름",
+     "봄",
+     "가을"
+    ],
+    "ar": [
+     "في عاموس 3، سيضرب الله بيت الشتاء مع بيت أي فصل؟",
+     "صيف",
+     "ربيع",
+     "خريف"
+    ]
+   }
+  },
+  {
+   "id": "ch-amos-001-15",
+   "book": "amos",
+   "chapter": 3,
+   "difficulty": "impossible",
+   "ref": "Amos 3:12",
+   "text": {
+    "en": [
+     "In Amos 3, which sheep part does the shepherd rescue from the lion?",
+     "Ear",
+     "Eye",
+     "Tail"
+    ],
+    "es": [
+     "¿En Amós 3, qué parte de la oveja rescata el pastor del león?",
+     "Oreja",
+     "Ojo",
+     "Cola"
+    ],
+    "pt": [
+     "Em Amós 3, que parte da ovelha o pastor resgata do leão?",
+     "Orelha",
+     "Olho",
+     "Cauda"
+    ],
+    "fr": [
+     "Dans Amos 3, quelle partie de la brebis le berger arrache-t-il au lion ?",
+     "Oreille",
+     "Œil",
+     "Queue"
+    ],
+    "de": [
+     "In Amos 3: Welchen Körperteil des Schafs rettet der Hirt vor dem Löwen?",
+     "Ohr",
+     "Auge",
+     "Schwanz"
+    ],
+    "it": [
+     "In Amos 3, quale parte della pecora il pastore strappa al leone?",
+     "Orecchio",
+     "Occhio",
+     "Coda"
+    ],
+    "pl": [
+     "W Księdze Amosa 3, którą część owcy pasterz ratuje przed lwem?",
+     "Ucho",
+     "Oko",
+     "Ogon"
+    ],
+    "ru": [
+     "В книге Амоса, глава 3: какую часть овцы пастух вырывает у льва?",
+     "Ухо",
+     "Глаз",
+     "Хвост"
+    ],
+    "tr": [
+     "Amos 3. bölümde, çoban koyunun hangi parçasını aslandan kurtarır?",
+     "Kulak",
+     "Göz",
+     "Kuyruk"
+    ],
+    "ja": [
+     "アモス書3章で、羊飼いが獅子から救い出す羊の体の部分はどこですか？",
+     "耳",
+     "目",
+     "尾"
+    ],
+    "ko": [
+     "아모스서 3장에서, 목자가 사자에게서 건져 내는 양의 신체 부위는 무엇입니까?",
+     "귀",
+     "눈",
+     "꼬리"
+    ],
+    "ar": [
+     "في عاموس 3، أي جزء من الخروف ينقذه الراعي من الأسد؟",
+     "أذن",
+     "عين",
+     "ذنب"
+    ]
+   }
+  },
+  {
+   "id": "ch-amos-001-16",
+   "book": "amos",
+   "chapter": 4,
+   "difficulty": "easy",
+   "ref": "Amos 4:11",
+   "text": {
+    "en": [
+     "In Amos 4, God overthrew Sodom and which other city?",
+     "Gomorrah",
+     "Nineveh",
+     "Jericho"
+    ],
+    "es": [
+     "¿En Amós 4, qué otra ciudad destruyó Dios junto con Sodoma?",
+     "Gomorra",
+     "Nínive",
+     "Jericó"
+    ],
+    "pt": [
+     "Em Amós 4, que outra cidade Deus destruiu junto com Sodoma?",
+     "Gomorra",
+     "Nínive",
+     "Jericó"
+    ],
+    "fr": [
+     "Dans Amos 4, quelle autre ville Dieu a-t-il détruite avec Sodome ?",
+     "Gomorrhe",
+     "Ninive",
+     "Jéricho"
+    ],
+    "de": [
+     "In Amos 4: Welche andere Stadt zerstörte Gott zusammen mit Sodom?",
+     "Gomorra",
+     "Ninive",
+     "Jericho"
+    ],
+    "it": [
+     "In Amos 4, quale altra città Dio distrusse insieme a Sodoma?",
+     "Gomorra",
+     "Ninive",
+     "Gerico"
+    ],
+    "pl": [
+     "W Księdze Amosa 4, które jeszcze miasto Bóg zniszczył wraz z Sodomą?",
+     "Gomora",
+     "Niniwa",
+     "Jerycho"
+    ],
+    "ru": [
+     "В книге Амоса, глава 4: какой ещё город Бог ниспроверг вместе с Содомом?",
+     "Гоморра",
+     "Ниневия",
+     "Иерихон"
+    ],
+    "tr": [
+     "Amos 4. bölümde, Tanrı Sodom ile birlikte hangi başka kenti yıktı?",
+     "Gomora",
+     "Ninova",
+     "Eriha"
+    ],
+    "ja": [
+     "アモス書4章で、神がソドムと共に滅ぼした、もう一つの町はどこですか？",
+     "ゴモラ",
+     "ニネベ",
+     "エリコ"
+    ],
+    "ko": [
+     "아모스서 4장에서, 하느님께서 소돔과 함께 파괴하신 다른 도시는 어디입니까?",
+     "고모라",
+     "니네베",
+     "예리코"
+    ],
+    "ar": [
+     "في عاموس 4، أي مدينة أخرى قلبها الله مع سدوم؟",
+     "عمورة",
+     "نينوى",
+     "أريحا"
+    ]
+   }
+  },
+  {
+   "id": "ch-amos-001-17",
+   "book": "amos",
+   "chapter": 4,
+   "difficulty": "medium",
+   "ref": "Amos 4:4",
+   "text": {
+    "en": [
+     "In Amos 4, which town joins Bethel as a place of sin?",
+     "Gilgal",
+     "Shiloh",
+     "Hebron"
+    ],
+    "es": [
+     "¿En Amós 4, qué ciudad se une a Betel como lugar de pecado?",
+     "Guilgal",
+     "Siló",
+     "Hebrón"
+    ],
+    "pt": [
+     "Em Amós 4, que cidade se une a Betel como lugar de pecado?",
+     "Guilgal",
+     "Silo",
+     "Hebrom"
+    ],
+    "fr": [
+     "Dans Amos 4, quelle ville s'ajoute à Béthel comme lieu de péché ?",
+     "Guilgal",
+     "Silo",
+     "Hébron"
+    ],
+    "de": [
+     "In Amos 4: Welche Stadt wird neben Bet-El als Ort der Sünde genannt?",
+     "Gilgal",
+     "Schilo",
+     "Hebron"
+    ],
+    "it": [
+     "In Amos 4, quale città si aggiunge a Betel come luogo di peccato?",
+     "Gàlgala",
+     "Silo",
+     "Ebron"
+    ],
+    "pl": [
+     "W Księdze Amosa 4, które miasto obok Betel jest wskazane jako miejsce grzechu?",
+     "Gilgal",
+     "Szilo",
+     "Hebron"
+    ],
+    "ru": [
+     "В книге Амоса, глава 4: какой город назван вместе с Вефилем местом греха?",
+     "Галгал",
+     "Силом",
+     "Хеврон"
+    ],
+    "tr": [
+     "Amos 4. bölümde, hangi kent Beytel ile birlikte günah yeri olarak anılır?",
+     "Gilgal",
+     "Silo",
+     "Hebron"
+    ],
+    "ja": [
+     "アモス書4章で、ベテルと並んで罪を犯す場所として挙げられる町はどこですか？",
+     "ギルガル",
+     "シロ",
+     "ヘブロン"
+    ],
+    "ko": [
+     "아모스서 4장에서, 벳엘과 함께 죄를 짓는 곳으로 언급되는 도시는 어디입니까?",
+     "길갈",
+     "실로",
+     "헤브론"
+    ],
+    "ar": [
+     "في عاموس 4، أي مدينة تُذكر مع بيت إيل كمكان للخطيئة؟",
+     "جلجال",
+     "شيلو",
+     "حبرون"
+    ]
+   }
+  },
+  {
+   "id": "ch-amos-001-18",
+   "book": "amos",
+   "chapter": 4,
+   "difficulty": "hard",
+   "ref": "Amos 4:6",
+   "text": {
+    "en": [
+     "In Amos 4, which body part does God mention when sending famine?",
+     "Teeth",
+     "Hands",
+     "Feet"
+    ],
+    "es": [
+     "¿En Amós 4, qué parte del cuerpo menciona Dios al enviar el hambre?",
+     "Dientes",
+     "Manos",
+     "Pies"
+    ],
+    "pt": [
+     "Em Amós 4, que parte do corpo Deus menciona ao enviar a fome?",
+     "Dentes",
+     "Mãos",
+     "Pés"
+    ],
+    "fr": [
+     "Dans Amos 4, quelle partie du corps Dieu mentionne-t-il en envoyant la famine ?",
+     "Dents",
+     "Mains",
+     "Pieds"
+    ],
+    "de": [
+     "In Amos 4: Welche Körperteile nennt Gott, als er Hunger schickt?",
+     "Zähne",
+     "Hände",
+     "Füße"
+    ],
+    "it": [
+     "In Amos 4, quale parte del corpo menziona Dio mandando la fame?",
+     "Denti",
+     "Mani",
+     "Piedi"
+    ],
+    "pl": [
+     "W Księdze Amosa 4, które części ciała wymienia Bóg, zsyłając głód?",
+     "Zęby",
+     "Ręce",
+     "Stopy"
+    ],
+    "ru": [
+     "В книге Амоса, глава 4: какие части тела упоминает Бог, посылая голод?",
+     "Зубы",
+     "Руки",
+     "Ноги"
+    ],
+    "tr": [
+     "Amos 4. bölümde, kıtlık gönderen Tanrı vücudun hangi organlarını anar?",
+     "Dişler",
+     "Eller",
+     "Ayaklar"
+    ],
+    "ja": [
+     "アモス書4章で、神が飢饉を送るときに言及する体の部分は何ですか？",
+     "歯",
+     "手",
+     "足"
+    ],
+    "ko": [
+     "아모스서 4장에서, 하느님께서 기근을 내리시며 언급하신 신체 부위는 무엇입니까?",
+     "치아",
+     "손",
+     "발"
+    ],
+    "ar": [
+     "في عاموس 4، أي أعضاء من الجسم يذكرها الله عندما يرسل المجاعة؟",
+     "أسنان",
+     "أيدي",
+     "أقدام"
+    ]
+   }
+  },
+  {
+   "id": "ch-amos-001-19",
+   "book": "amos",
+   "chapter": 4,
+   "difficulty": "expert",
+   "ref": "Amos 4:7",
+   "text": {
+    "en": [
+     "In Amos 4, God withheld rain how many months before harvest?",
+     "3",
+     "6",
+     "12"
+    ],
+    "es": [
+     "¿En Amós 4, cuántos meses antes de la cosecha retuvo Dios la lluvia?",
+     "3",
+     "6",
+     "12"
+    ],
+    "pt": [
+     "Em Amós 4, quantos meses antes da colheita Deus reteve a chuva?",
+     "3",
+     "6",
+     "12"
+    ],
+    "fr": [
+     "Dans Amos 4, combien de mois avant la moisson Dieu retint-il la pluie ?",
+     "3",
+     "6",
+     "12"
+    ],
+    "de": [
+     "In Amos 4: Wie viele Monate vor der Ernte hielt Gott den Regen zurück?",
+     "3",
+     "6",
+     "12"
+    ],
+    "it": [
+     "In Amos 4, quanti mesi prima del raccolto Dio trattenne la pioggia?",
+     "3",
+     "6",
+     "12"
+    ],
+    "pl": [
+     "W Księdze Amosa 4, ile miesięcy przed żniwami Bóg wstrzymał deszcz?",
+     "3",
+     "6",
+     "12"
+    ],
+    "ru": [
+     "В книге Амоса, глава 4: за сколько месяцев до жатвы Бог удержал дождь?",
+     "3",
+     "6",
+     "12"
+    ],
+    "tr": [
+     "Amos 4. bölümde, Tanrı yağmuru hasattan kaç ay önce kesti?",
+     "3",
+     "6",
+     "12"
+    ],
+    "ja": [
+     "アモス書4章で、刈り入れの何か月前に神は雨を降らせなかったのですか？",
+     "3",
+     "6",
+     "12"
+    ],
+    "ko": [
+     "아모스서 4장에서, 하느님께서는 수확 몇 달 전에 비를 내리지 않으셨습니까?",
+     "3",
+     "6",
+     "12"
+    ],
+    "ar": [
+     "في عاموس 4، قبل الحصاد بكم شهراً منع الله المطر؟",
+     "3",
+     "6",
+     "12"
+    ]
+   }
+  },
+  {
+   "id": "ch-amos-001-20",
+   "book": "amos",
+   "chapter": 4,
+   "difficulty": "impossible",
+   "ref": "Amos 4:10",
+   "text": {
+    "en": [
+     "In Amos 4, which animals were captured along with the slain youths?",
+     "Horses",
+     "Camels",
+     "Donkeys"
+    ],
+    "es": [
+     "¿En Amós 4, qué animales fueron capturados junto con los jóvenes muertos?",
+     "Caballos",
+     "Camellos",
+     "Burros"
+    ],
+    "pt": [
+     "Em Amós 4, que animais foram capturados junto com os jovens mortos?",
+     "Cavalos",
+     "Camelos",
+     "Burros"
+    ],
+    "fr": [
+     "Dans Amos 4, quels animaux furent capturés avec les jeunes gens tués ?",
+     "Chevaux",
+     "Chameaux",
+     "Ânes"
+    ],
+    "de": [
+     "In Amos 4: Welche Tiere wurden zusammen mit den erschlagenen jungen Männern erbeutet?",
+     "Pferde",
+     "Kamele",
+     "Esel"
+    ],
+    "it": [
+     "In Amos 4, quali animali furono catturati insieme ai giovani uccisi?",
+     "Cavalli",
+     "Cammelli",
+     "Asini"
+    ],
+    "pl": [
+     "W Księdze Amosa 4, które zwierzęta zabrano wraz z zabitymi młodzieńcami?",
+     "Konie",
+     "Wielbłądy",
+     "Osły"
+    ],
+    "ru": [
+     "В книге Амоса, глава 4: какие животные были уведены вместе с убитыми юношами?",
+     "Кони",
+     "Верблюды",
+     "Ослы"
+    ],
+    "tr": [
+     "Amos 4. bölümde, öldürülen gençlerle birlikte hangi hayvanlar ele geçirildi?",
+     "Atlar",
+     "Develer",
+     "Eşekler"
+    ],
+    "ja": [
+     "アモス書4章で、殺された若者たちと共に奪われた動物は何ですか？",
+     "馬",
+     "ラクダ",
+     "ロバ"
+    ],
+    "ko": [
+     "아모스서 4장에서, 살해된 젊은이들과 함께 사로잡힌 동물은 무엇입니까?",
+     "말",
+     "낙타",
+     "나귀"
+    ],
+    "ar": [
+     "في عاموس 4، أي حيوانات سُبيت مع الشبان المقتولين؟",
+     "خيل",
+     "جمال",
+     "حمير"
+    ]
+   }
+  },
+  {
+   "id": "ch-amos-001-21",
+   "book": "amos",
+   "chapter": 5,
+   "difficulty": "easy",
+   "ref": "Amos 5:24",
+   "text": {
+    "en": [
+     "In Amos 5, justice should surge like which element?",
+     "Water",
+     "Fire",
+     "Wind"
+    ],
+    "es": [
+     "¿En Amós 5, a qué elemento se asemeja la justicia que debe brotar?",
+     "Agua",
+     "Fuego",
+     "Viento"
+    ],
+    "pt": [
+     "Em Amós 5, a que elemento deve se assemelhar a justiça que brota?",
+     "Água",
+     "Fogo",
+     "Vento"
+    ],
+    "fr": [
+     "Dans Amos 5, à quel élément la justice doit-elle ressembler en jaillissant ?",
+     "Eau",
+     "Feu",
+     "Vent"
+    ],
+    "de": [
+     "In Amos 5: Welchem Element gleich soll das Recht strömen?",
+     "Wasser",
+     "Feuer",
+     "Wind"
+    ],
+    "it": [
+     "In Amos 5, a quale elemento deve somigliare la giustizia che scorre?",
+     "Acqua",
+     "Fuoco",
+     "Vento"
+    ],
+    "pl": [
+     "W Księdze Amosa 5, sprawiedliwość ma płynąć jak który żywioł?",
+     "Woda",
+     "Ogień",
+     "Wiatr"
+    ],
+    "ru": [
+     "В книге Амоса, глава 5: суд должен течь, как какая стихия?",
+     "Вода",
+     "Огонь",
+     "Ветер"
+    ],
+    "tr": [
+     "Amos 5. bölümde, adalet hangi unsur gibi akmalı?",
+     "Su",
+     "Ateş",
+     "Rüzgâr"
+    ],
+    "ja": [
+     "アモス書5章で、公正はどの自然の要素のように流れるべきですか？",
+     "水",
+     "火",
+     "風"
+    ],
+    "ko": [
+     "아모스서 5장에서, 정의는 어떤 요소처럼 흘러야 합니까?",
+     "물",
+     "불",
+     "바람"
+    ],
+    "ar": [
+     "في عاموس 5، كأي عنصر يجب أن يجري العدل؟",
+     "ماء",
+     "نار",
+     "ريح"
+    ]
+   }
+  },
+  {
+   "id": "ch-amos-001-22",
+   "book": "amos",
+   "chapter": 5,
+   "difficulty": "medium",
+   "ref": "Amos 5:19",
+   "text": {
+    "en": [
+     "In Amos 5, which animal meets a man fleeing a lion?",
+     "Bear",
+     "Wolf",
+     "Leopard"
+    ],
+    "es": [
+     "¿En Amós 5, qué animal encuentra al hombre que huye de un león?",
+     "Oso",
+     "Lobo",
+     "Leopardo"
+    ],
+    "pt": [
+     "Em Amós 5, que animal encontra o homem que foge de um leão?",
+     "Urso",
+     "Lobo",
+     "Leopardo"
+    ],
+    "fr": [
+     "Dans Amos 5, quel animal rencontre l'homme qui fuit devant un lion ?",
+     "Ours",
+     "Loup",
+     "Léopard"
+    ],
+    "de": [
+     "In Amos 5: Welches Tier begegnet dem Mann, der vor einem Löwen flieht?",
+     "Bär",
+     "Wolf",
+     "Leopard"
+    ],
+    "it": [
+     "In Amos 5, quale animale incontra l'uomo che fugge da un leone?",
+     "Orso",
+     "Lupo",
+     "Leopardo"
+    ],
+    "pl": [
+     "W Księdze Amosa 5, które zwierzę spotyka człowieka uciekającego przed lwem?",
+     "Niedźwiedź",
+     "Wilk",
+     "Lampart"
+    ],
+    "ru": [
+     "В книге Амоса, глава 5: какой зверь встречает человека, бегущего от льва?",
+     "Медведь",
+     "Волк",
+     "Леопард"
+    ],
+    "tr": [
+     "Amos 5. bölümde, aslandan kaçan adamı hangi hayvan karşılar?",
+     "Ayı",
+     "Kurt",
+     "Leopar"
+    ],
+    "ja": [
+     "アモス書5章で、獅子から逃げる人に出会う動物は何ですか？",
+     "熊",
+     "狼",
+     "ヒョウ"
+    ],
+    "ko": [
+     "아모스서 5장에서, 사자를 피해 달아나는 사람을 만나는 동물은 무엇입니까?",
+     "곰",
+     "늑대",
+     "표범"
+    ],
+    "ar": [
+     "في عاموس 5، أي حيوان يلاقي الرجل الهارب من أسد؟",
+     "دب",
+     "ذئب",
+     "فهد"
+    ]
+   }
+  },
+  {
+   "id": "ch-amos-001-23",
+   "book": "amos",
+   "chapter": 5,
+   "difficulty": "hard",
+   "ref": "Amos 5:7",
+   "text": {
+    "en": [
+     "In Amos 5, into which bitter plant do some turn justice?",
+     "Wormwood",
+     "Thorns",
+     "Thistle"
+    ],
+    "es": [
+     "¿En Amós 5, en qué planta amarga convierten algunos el derecho?",
+     "Ajenjo",
+     "Espinas",
+     "Cardo"
+    ],
+    "pt": [
+     "Em Amós 5, em que planta amarga alguns transformam o direito?",
+     "Absinto",
+     "Espinhos",
+     "Cardo"
+    ],
+    "fr": [
+     "Dans Amos 5, en quelle plante amère certains changent-ils le droit ?",
+     "Absinthe",
+     "Épines",
+     "Chardon"
+    ],
+    "de": [
+     "In Amos 5: In welche bittere Pflanze verwandeln manche das Recht?",
+     "Wermut",
+     "Dornen",
+     "Distel"
+    ],
+    "it": [
+     "In Amos 5, in quale pianta amara alcuni trasformano il diritto?",
+     "Assenzio",
+     "Spine",
+     "Cardo"
+    ],
+    "pl": [
+     "W Księdze Amosa 5, w jaką gorzką roślinę niektórzy zamieniają sprawiedliwość?",
+     "Piołun",
+     "Ciernie",
+     "Oset"
+    ],
+    "ru": [
+     "В книге Амоса, глава 5: в какое горькое растение некоторые обращают суд?",
+     "Полынь",
+     "Тернии",
+     "Чертополох"
+    ],
+    "tr": [
+     "Amos 5. bölümde, bazıları adaleti hangi acı bitkiye dönüştürür?",
+     "Pelin",
+     "Diken",
+     "Devedikeni"
+    ],
+    "ja": [
+     "アモス書5章で、ある人々が公正を変えてしまう苦い植物は何ですか？",
+     "苦よもぎ",
+     "いばら",
+     "アザミ"
+    ],
+    "ko": [
+     "아모스서 5장에서, 어떤 이들이 공정을 바꾸어 버리는 쓴 식물은 무엇입니까?",
+     "쑥",
+     "가시",
+     "엉겅퀴"
+    ],
+    "ar": [
+     "في عاموس 5، إلى أي نبات مُرّ يحوّل بعضهم العدل؟",
+     "أفسنتين",
+     "شوك",
+     "حسك"
+    ]
+   }
+  },
+  {
+   "id": "ch-amos-001-24",
+   "book": "amos",
+   "chapter": 5,
+   "difficulty": "expert",
+   "ref": "Amos 5:25",
+   "text": {
+    "en": [
+     "In Amos 5, how many years in the desert does God mention?",
+     "40",
+     "7",
+     "70"
+    ],
+    "es": [
+     "¿En Amós 5, cuántos años en el desierto menciona Dios?",
+     "40",
+     "7",
+     "70"
+    ],
+    "pt": [
+     "Em Amós 5, quantos anos no deserto Deus menciona?",
+     "40",
+     "7",
+     "70"
+    ],
+    "fr": [
+     "Dans Amos 5, combien d'années au désert Dieu mentionne-t-il ?",
+     "40",
+     "7",
+     "70"
+    ],
+    "de": [
+     "In Amos 5: Wie viele Jahre in der Wüste erwähnt Gott?",
+     "40",
+     "7",
+     "70"
+    ],
+    "it": [
+     "In Amos 5, quanti anni nel deserto menziona Dio?",
+     "40",
+     "7",
+     "70"
+    ],
+    "pl": [
+     "W Księdze Amosa 5, ile lat na pustyni wspomina Bóg?",
+     "40",
+     "7",
+     "70"
+    ],
+    "ru": [
+     "В книге Амоса, глава 5: сколько лет в пустыне упоминает Бог?",
+     "40",
+     "7",
+     "70"
+    ],
+    "tr": [
+     "Amos 5. bölümde, Tanrı çölde kaç yıldan söz eder?",
+     "40",
+     "7",
+     "70"
+    ],
+    "ja": [
+     "アモス書5章で、神は荒れ野での何年について語っていますか？",
+     "40",
+     "7",
+     "70"
+    ],
+    "ko": [
+     "아모스서 5장에서, 하느님께서는 광야에서의 몇 해를 언급하십니까?",
+     "40",
+     "7",
+     "70"
+    ],
+    "ar": [
+     "في عاموس 5، كم سنة في البرية يذكر الله؟",
+     "40",
+     "7",
+     "70"
+    ]
+   }
+  },
+  {
+   "id": "ch-amos-001-25",
+   "book": "amos",
+   "chapter": 5,
+   "difficulty": "impossible",
+   "ref": "Amos 5:16",
+   "text": {
+    "en": [
+     "In Amos 5, which workers are summoned to mourning?",
+     "Farmers",
+     "Fishermen",
+     "Carpenters"
+    ],
+    "es": [
+     "¿En Amós 5, qué trabajadores son llamados al duelo?",
+     "Agricultores",
+     "Pescadores",
+     "Carpinteros"
+    ],
+    "pt": [
+     "Em Amós 5, que trabalhadores são chamados ao luto?",
+     "Agricultores",
+     "Pescadores",
+     "Carpinteiros"
+    ],
+    "fr": [
+     "Dans Amos 5, quels travailleurs sont appelés au deuil ?",
+     "Laboureurs",
+     "Pêcheurs",
+     "Charpentiers"
+    ],
+    "de": [
+     "In Amos 5: Welche Arbeiter werden zur Trauer gerufen?",
+     "Bauern",
+     "Fischer",
+     "Zimmerleute"
+    ],
+    "it": [
+     "In Amos 5, quali lavoratori sono chiamati al lutto?",
+     "Agricoltori",
+     "Pescatori",
+     "Falegnami"
+    ],
+    "pl": [
+     "W Księdze Amosa 5, którzy pracownicy są wezwani do żałoby?",
+     "Rolnicy",
+     "Rybacy",
+     "Cieśle"
+    ],
+    "ru": [
+     "В книге Амоса, глава 5: какие работники призываются к плачу?",
+     "Земледельцы",
+     "Рыбаки",
+     "Плотники"
+    ],
+    "tr": [
+     "Amos 5. bölümde, hangi işçiler yasa çağrılır?",
+     "Çiftçiler",
+     "Balıkçılar",
+     "Marangozlar"
+    ],
+    "ja": [
+     "アモス書5章で、嘆きに呼び出される働き手は誰ですか？",
+     "農夫",
+     "漁師",
+     "大工"
+    ],
+    "ko": [
+     "아모스서 5장에서, 애곡하도록 불려 나오는 일꾼은 누구입니까?",
+     "농부",
+     "어부",
+     "목수"
+    ],
+    "ar": [
+     "في عاموس 5، أي عمال يُدعون إلى النوح؟",
+     "فلاحون",
+     "صيادون",
+     "نجارون"
+    ]
+   }
+  },
+  {
+   "id": "ch-amos-001-26",
+   "book": "amos",
+   "chapter": 6,
+   "difficulty": "easy",
+   "ref": "Amos 6:5",
+   "text": {
+    "en": [
+     "In Amos 6, the idle invent instruments like which king?",
+     "David",
+     "Solomon",
+     "Saul"
+    ],
+    "es": [
+     "¿En Amós 6, los despreocupados inventan instrumentos como qué rey?",
+     "David",
+     "Salomón",
+     "Saúl"
+    ],
+    "pt": [
+     "Em Amós 6, os despreocupados inventam instrumentos como que rei?",
+     "Davi",
+     "Salomão",
+     "Saul"
+    ],
+    "fr": [
+     "Dans Amos 6, les insouciants inventent des instruments comme quel roi ?",
+     "David",
+     "Salomon",
+     "Saül"
+    ],
+    "de": [
+     "In Amos 6: Die Sorglosen erfinden Instrumente wie welcher König?",
+     "David",
+     "Salomo",
+     "Saul"
+    ],
+    "it": [
+     "In Amos 6, gli spensierati inventano strumenti come quale re?",
+     "Davide",
+     "Salomone",
+     "Saul"
+    ],
+    "pl": [
+     "W Księdze Amosa 6, beztroscy wymyślają instrumenty jak który król?",
+     "Dawid",
+     "Salomon",
+     "Saul"
+    ],
+    "ru": [
+     "В книге Амоса, глава 6: беззаботные придумывают инструменты, как какой царь?",
+     "Давид",
+     "Соломон",
+     "Саул"
+    ],
+    "tr": [
+     "Amos 6. bölümde, rahat yaşayanlar hangi kral gibi çalgılar icat eder?",
+     "Davut",
+     "Süleyman",
+     "Saul"
+    ],
+    "ja": [
+     "アモス書6章で、安逸にふける人々は、どの王のように楽器を考案しますか？",
+     "ダビデ",
+     "ソロモン",
+     "サウル"
+    ],
+    "ko": [
+     "아모스서 6장에서, 태평한 이들은 어떤 임금처럼 악기를 고안합니까?",
+     "다윗",
+     "솔로몬",
+     "사울"
+    ],
+    "ar": [
+     "في عاموس 6، المطمئنون يخترعون آلات موسيقية مثل أي ملك؟",
+     "داود",
+     "سليمان",
+     "شاول"
+    ]
+   }
+  },
+  {
+   "id": "ch-amos-001-27",
+   "book": "amos",
+   "chapter": 6,
+   "difficulty": "medium",
+   "ref": "Amos 6:4",
+   "text": {
+    "en": [
+     "In Amos 6, which ivory furniture do the complacent own?",
+     "Beds",
+     "Chairs",
+     "Tables"
+    ],
+    "es": [
+     "¿En Amós 6, qué mueble de marfil poseen los despreocupados?",
+     "Camas",
+     "Sillas",
+     "Mesas"
+    ],
+    "pt": [
+     "Em Amós 6, que móvel de marfim possuem os despreocupados?",
+     "Camas",
+     "Cadeiras",
+     "Mesas"
+    ],
+    "fr": [
+     "Dans Amos 6, quels meubles d'ivoire possèdent les insouciants ?",
+     "Lits",
+     "Chaises",
+     "Tables"
+    ],
+    "de": [
+     "In Amos 6: Welche Elfenbein-Möbel besitzen die Sorglosen?",
+     "Betten",
+     "Stühle",
+     "Tische"
+    ],
+    "it": [
+     "In Amos 6, quali mobili d'avorio possiedono gli spensierati?",
+     "Letti",
+     "Sedie",
+     "Tavoli"
+    ],
+    "pl": [
+     "W Księdze Amosa 6, jakie meble z kości słoniowej mają beztroscy?",
+     "Łóżka",
+     "Krzesła",
+     "Stoły"
+    ],
+    "ru": [
+     "В книге Амоса, глава 6: какую мебель из слоновой кости имеют беззаботные?",
+     "Ложа",
+     "Стулья",
+     "Столы"
+    ],
+    "tr": [
+     "Amos 6. bölümde, rahat yaşayanların fildişi hangi eşyaları vardır?",
+     "Yataklar",
+     "Sandalyeler",
+     "Masalar"
+    ],
+    "ja": [
+     "アモス書6章で、安逸にふける人々が持つ象牙の家具は何ですか？",
+     "寝台",
+     "椅子",
+     "テーブル"
+    ],
+    "ko": [
+     "아모스서 6장에서, 태평한 이들이 가진 상아 가구는 무엇입니까?",
+     "침상",
+     "의자",
+     "탁자"
+    ],
+    "ar": [
+     "في عاموس 6، أي أثاث من العاج يملكه المطمئنون؟",
+     "أسرة",
+     "كراسي",
+     "موائد"
+    ]
+   }
+  },
+  {
+   "id": "ch-amos-001-28",
+   "book": "amos",
+   "chapter": 6,
+   "difficulty": "hard",
+   "ref": "Amos 6:2",
+   "text": {
+    "en": [
+     "In Amos 6, which Philistine city is named with Calneh and Hamath?",
+     "Gath",
+     "Gaza",
+     "Ekron"
+    ],
+    "es": [
+     "¿En Amós 6, qué ciudad filistea se nombra con Calné y Jamat?",
+     "Gat",
+     "Gaza",
+     "Ecrón"
+    ],
+    "pt": [
+     "Em Amós 6, que cidade filisteia é citada com Calné e Emat?",
+     "Gat",
+     "Gaza",
+     "Acaron"
+    ],
+    "fr": [
+     "Dans Amos 6, quelle ville philistine est citée avec Kalné et Hamath ?",
+     "Gath",
+     "Gaza",
+     "Eqron"
+    ],
+    "de": [
+     "In Amos 6: Welche Philisterstadt wird mit Kalne und Hamat genannt?",
+     "Gat",
+     "Gaza",
+     "Ekron"
+    ],
+    "it": [
+     "In Amos 6, quale città filistea è citata con Calne e Camat?",
+     "Gat",
+     "Gaza",
+     "Ekron"
+    ],
+    "pl": [
+     "W Księdze Amosa 6, które miasto filistyńskie wymieniono obok Kalne i Chamat?",
+     "Gat",
+     "Gaza",
+     "Ekron"
+    ],
+    "ru": [
+     "В книге Амоса, глава 6: какой филистимский город назван рядом с Халне и Емафом?",
+     "Геф",
+     "Газа",
+     "Аккарон"
+    ],
+    "tr": [
+     "Amos 6. bölümde, kalne ve Hamat ile birlikte hangi Filistin kenti anılır?",
+     "Gat",
+     "Gazze",
+     "Ekron"
+    ],
+    "ja": [
+     "アモス書6章で、カルネやハマトと並んで挙げられるペリシテの町はどこですか？",
+     "ガト",
+     "ガザ",
+     "エクロン"
+    ],
+    "ko": [
+     "아모스서 6장에서, 칼네, 하맛과 함께 언급되는 필리스티아 도시는 어디입니까?",
+     "가트",
+     "가자",
+     "에크론"
+    ],
+    "ar": [
+     "في عاموس 6، أي مدينة فلسطينية تُذكر مع كلنة وحماة؟",
+     "جت",
+     "غزة",
+     "عقرون"
+    ]
+   }
+  },
+  {
+   "id": "ch-amos-001-29",
+   "book": "amos",
+   "chapter": 6,
+   "difficulty": "expert",
+   "ref": "Amos 6:9",
+   "text": {
+    "en": [
+     "In Amos 6, if how many men remain in one house, they die?",
+     "10",
+     "7",
+     "12"
+    ],
+    "es": [
+     "¿En Amós 6, cuántos hombres, si quedan en una casa, morirán?",
+     "10",
+     "7",
+     "12"
+    ],
+    "pt": [
+     "Em Amós 6, quantos homens, se ficarem numa casa, morrerão?",
+     "10",
+     "7",
+     "12"
+    ],
+    "fr": [
+     "Dans Amos 6, combien d'hommes, s'ils restent dans une maison, mourront-ils ?",
+     "10",
+     "7",
+     "12"
+    ],
+    "de": [
+     "In Amos 6: Wie viele Männer sterben, wenn sie in einem Haus übrig bleiben?",
+     "10",
+     "7",
+     "12"
+    ],
+    "it": [
+     "In Amos 6, quanti uomini, se rimangono in una casa, moriranno?",
+     "10",
+     "7",
+     "12"
+    ],
+    "pl": [
+     "W Księdze Amosa 6, ilu mężczyzn pozostałych w jednym domu umrze?",
+     "10",
+     "7",
+     "12"
+    ],
+    "ru": [
+     "В книге Амоса, глава 6: сколько мужчин умрёт, если останутся в одном доме?",
+     "10",
+     "7",
+     "12"
+    ],
+    "tr": [
+     "Amos 6. bölümde, bir evde kaç adam kalırsa ölürler?",
+     "10",
+     "7",
+     "12"
+    ],
+    "ja": [
+     "アモス書6章で、一つの家に何人の男が残っていると、彼らは死にますか？",
+     "10",
+     "7",
+     "12"
+    ],
+    "ko": [
+     "아모스서 6장에서, 한 집에 몇 사람이 남아 있으면 그들은 죽습니까?",
+     "10",
+     "7",
+     "12"
+    ],
+    "ar": [
+     "في عاموس 6، كم رجلاً يموتون إذا بقوا في بيت واحد؟",
+     "10",
+     "7",
+     "12"
+    ]
+   }
+  },
+  {
+   "id": "ch-amos-001-30",
+   "book": "amos",
+   "chapter": 6,
+   "difficulty": "impossible",
+   "ref": "Amos 6:6",
+   "text": {
+    "en": [
+     "In Amos 6, the revelers do not grieve over whose ruin?",
+     "Joseph",
+     "Benjamin",
+     "Reuben"
+    ],
+    "es": [
+     "¿En Amós 6, los juerguistas no se afligen por la ruina de quién?",
+     "José",
+     "Benjamín",
+     "Rubén"
+    ],
+    "pt": [
+     "Em Amós 6, os farristas não se afligem com a ruína de quem?",
+     "José",
+     "Benjamim",
+     "Rúben"
+    ],
+    "fr": [
+     "Dans Amos 6, les fêtards ne s'affligent pas de la ruine de qui ?",
+     "Joseph",
+     "Benjamin",
+     "Ruben"
+    ],
+    "de": [
+     "In Amos 6: Um wen grämen sich die Schlemmer wegen des Untergangs nicht?",
+     "Josef",
+     "Benjamin",
+     "Ruben"
+    ],
+    "it": [
+     "In Amos 6, per la rovina di chi non si affliggono i gaudenti?",
+     "Giuseppe",
+     "Beniamino",
+     "Ruben"
+    ],
+    "pl": [
+     "W Księdze Amosa 6, nad upadkiem kogo nie boleją hulacy?",
+     "Józefa",
+     "Beniamina",
+     "Rubena"
+    ],
+    "ru": [
+     "В книге Амоса, глава 6: о крушении кого не скорбят гуляки?",
+     "Иосифа",
+     "Вениамина",
+     "Рувима"
+    ],
+    "tr": [
+     "Amos 6. bölümde, ziyafet çekenler kimin yıkımına üzülmez?",
+     "Yusuf",
+     "Benyamin",
+     "Ruben"
+    ],
+    "ja": [
+     "アモス書6章で、宴にふける者たちが、その破滅を悲しまないのは誰ですか？",
+     "ヨセフ",
+     "ベニヤミン",
+     "ルベン"
+    ],
+    "ko": [
+     "아모스서 6장에서, 흥청거리는 이들이 그 몰락을 슬퍼하지 않는 이는 누구입니까?",
+     "요셉",
+     "벤야민",
+     "르우벤"
+    ],
+    "ar": [
+     "في عاموس 6، على سقوط من لا يتألم المترفون؟",
+     "يوسف",
+     "بنيامين",
+     "رأوبين"
+    ]
+   }
+  },
+  {
+   "id": "ch-amos-001-31",
+   "book": "amos",
+   "chapter": 7,
+   "difficulty": "easy",
+   "ref": "Amos 7:1",
+   "text": {
+    "en": [
+     "In Amos 7, which insects appear in the first vision?",
+     "Locusts",
+     "Bees",
+     "Ants"
+    ],
+    "es": [
+     "¿En Amós 7, qué insectos aparecen en la primera visión?",
+     "Langostas",
+     "Abejas",
+     "Hormigas"
+    ],
+    "pt": [
+     "Em Amós 7, que insetos aparecem na primeira visão?",
+     "Gafanhotos",
+     "Abelhas",
+     "Formigas"
+    ],
+    "fr": [
+     "Dans Amos 7, quels insectes apparaissent dans la première vision ?",
+     "Sauterelles",
+     "Abeilles",
+     "Fourmis"
+    ],
+    "de": [
+     "In Amos 7: Welche Insekten erscheinen in der ersten Vision?",
+     "Heuschrecken",
+     "Bienen",
+     "Ameisen"
+    ],
+    "it": [
+     "In Amos 7, quali insetti compaiono nella prima visione?",
+     "Locuste",
+     "Api",
+     "Formiche"
+    ],
+    "pl": [
+     "W Księdze Amosa 7, które owady pojawiają się w pierwszej wizji?",
+     "Szarańcza",
+     "Pszczoły",
+     "Mrówki"
+    ],
+    "ru": [
+     "В книге Амоса, глава 7: какие насекомые появляются в первом видении?",
+     "Саранча",
+     "Пчёлы",
+     "Муравьи"
+    ],
+    "tr": [
+     "Amos 7. bölümde, ilk görümde hangi böcekler görünür?",
+     "Çekirgeler",
+     "Arılar",
+     "Karıncalar"
+    ],
+    "ja": [
+     "アモス書7章で、最初の幻に現れる虫は何ですか？",
+     "イナゴ",
+     "ミツバチ",
+     "アリ"
+    ],
+    "ko": [
+     "아모스서 7장에서, 첫째 환시에 나타나는 곤충은 무엇입니까?",
+     "메뚜기",
+     "벌",
+     "개미"
+    ],
+    "ar": [
+     "في عاموس 7، أي حشرات تظهر في الرؤيا الأولى؟",
+     "جراد",
+     "نحل",
+     "نمل"
+    ]
+   }
+  },
+  {
+   "id": "ch-amos-001-32",
+   "book": "amos",
+   "chapter": 7,
+   "difficulty": "medium",
+   "ref": "Amos 7:4",
+   "text": {
+    "en": [
+     "In Amos 7, what devours the great abyss in the second vision?",
+     "Fire",
+     "Wind",
+     "Hail"
+    ],
+    "es": [
+     "¿En Amós 7, qué devora el gran abismo en la segunda visión?",
+     "Fuego",
+     "Viento",
+     "Granizo"
+    ],
+    "pt": [
+     "Em Amós 7, o que devora o grande abismo na segunda visão?",
+     "Fogo",
+     "Vento",
+     "Granizo"
+    ],
+    "fr": [
+     "Dans Amos 7, qu'est-ce qui dévore le grand abîme dans la deuxième vision ?",
+     "Feu",
+     "Vent",
+     "Grêle"
+    ],
+    "de": [
+     "In Amos 7: Was verschlingt in der zweiten Vision die große Urflut?",
+     "Feuer",
+     "Wind",
+     "Hagel"
+    ],
+    "it": [
+     "In Amos 7, che cosa divora il grande abisso nella seconda visione?",
+     "Fuoco",
+     "Vento",
+     "Grandine"
+    ],
+    "pl": [
+     "W Księdze Amosa 7, co pochłania wielką otchłań w drugiej wizji?",
+     "Ogień",
+     "Wiatr",
+     "Grad"
+    ],
+    "ru": [
+     "В книге Амоса, глава 7: что пожирает великую бездну во втором видении?",
+     "Огонь",
+     "Ветер",
+     "Град"
+    ],
+    "tr": [
+     "Amos 7. bölümde, ikinci görümde büyük engini ne yutar?",
+     "Ateş",
+     "Rüzgâr",
+     "Dolu"
+    ],
+    "ja": [
+     "アモス書7章で、二番目の幻で大いなる深淵を食い尽くすものは何ですか？",
+     "火",
+     "風",
+     "雹"
+    ],
+    "ko": [
+     "아모스서 7장에서, 둘째 환시에서 큰 심연을 집어삼키는 것은 무엇입니까?",
+     "불",
+     "바람",
+     "우박"
+    ],
+    "ar": [
+     "في عاموس 7، ما الذي يلتهم الغمر العظيم في الرؤيا الثانية؟",
+     "نار",
+     "ريح",
+     "برَد"
+    ]
+   }
+  },
+  {
+   "id": "ch-amos-001-33",
+   "book": "amos",
+   "chapter": 7,
+   "difficulty": "hard",
+   "ref": "Amos 7:7",
+   "text": {
+    "en": [
+     "In Amos 7, by what structure is the Lord standing in the third vision?",
+     "Wall",
+     "Tower",
+     "Gate"
+    ],
+    "es": [
+     "¿En Amós 7, junto a qué construcción está el Señor en la tercera visión?",
+     "Muro",
+     "Torre",
+     "Puerta"
+    ],
+    "pt": [
+     "Em Amós 7, junto a que construção está o Senhor na terceira visão?",
+     "Muro",
+     "Torre",
+     "Porta"
+    ],
+    "fr": [
+     "Dans Amos 7, près de quelle construction se tient le Seigneur dans la troisième vision ?",
+     "Mur",
+     "Tour",
+     "Porte"
+    ],
+    "de": [
+     "In Amos 7: Neben welchem Bauwerk steht der Herr in der dritten Vision?",
+     "Mauer",
+     "Turm",
+     "Tor"
+    ],
+    "it": [
+     "In Amos 7, accanto a quale costruzione sta il Signore nella terza visione?",
+     "Muro",
+     "Torre",
+     "Porta"
+    ],
+    "pl": [
+     "W Księdze Amosa 7, przy jakiej budowli stoi Pan w trzeciej wizji?",
+     "Murze",
+     "Wieży",
+     "Bramie"
+    ],
+    "ru": [
+     "В книге Амоса, глава 7: у какого сооружения стоит Господь в третьем видении?",
+     "Стены",
+     "Башни",
+     "Ворот"
+    ],
+    "tr": [
+     "Amos 7. bölümde, Rab üçüncü görümde hangi yapının yanında durur?",
+     "Duvar",
+     "Kule",
+     "Kapı"
+    ],
+    "ja": [
+     "アモス書7章で、三番目の幻で主が傍らに立っておられる構造物は何ですか？",
+     "壁",
+     "塔",
+     "門"
+    ],
+    "ko": [
+     "아모스서 7장에서, 셋째 환시에서 주님께서 곁에 서 계신 구조물은 무엇입니까?",
+     "벽",
+     "탑",
+     "문"
+    ],
+    "ar": [
+     "في عاموس 7، بجانب أي بناء يقف الرب في الرؤيا الثالثة؟",
+     "حائط",
+     "برج",
+     "باب"
+    ]
+   }
+  },
+  {
+   "id": "ch-amos-001-34",
+   "book": "amos",
+   "chapter": 7,
+   "difficulty": "expert",
+   "ref": "Amos 7:11",
+   "text": {
+    "en": [
+     "In Amos 7, which king does Amaziah say will die by the sword?",
+     "Jeroboam",
+     "Ahab",
+     "Omri"
+    ],
+    "es": [
+     "¿En Amós 7, qué rey dice Amasías que morirá a espada?",
+     "Jeroboán",
+     "Ajab",
+     "Omrí"
+    ],
+    "pt": [
+     "Em Amós 7, que rei Amasias diz que morrerá à espada?",
+     "Jeroboão",
+     "Acab",
+     "Omri"
+    ],
+    "fr": [
+     "Dans Amos 7, quel roi, selon Amasias, mourra par l'épée ?",
+     "Jéroboam",
+     "Achab",
+     "Omri"
+    ],
+    "de": [
+     "In Amos 7: Welcher König wird laut Amazja durch das Schwert sterben?",
+     "Jerobeam",
+     "Ahab",
+     "Omri"
+    ],
+    "it": [
+     "In Amos 7, quale re morirà di spada secondo Amasia?",
+     "Geroboamo",
+     "Acab",
+     "Omri"
+    ],
+    "pl": [
+     "W Księdze Amosa 7, który król według Amazjasza zginie od miecza?",
+     "Jeroboam",
+     "Achab",
+     "Omri"
+    ],
+    "ru": [
+     "В книге Амоса, глава 7: какой царь, по словам Амасии, умрёт от меча?",
+     "Иеровоам",
+     "Ахав",
+     "Амврий"
+    ],
+    "tr": [
+     "Amos 7. bölümde, amatsya'ya göre hangi kral kılıçla ölecek?",
+     "Yarovam",
+     "Ahab",
+     "Omri"
+    ],
+    "ja": [
+     "アモス書7章で、アマツヤによると剣で死ぬ王は誰ですか？",
+     "ヤロブアム",
+     "アハブ",
+     "オムリ"
+    ],
+    "ko": [
+     "아모스서 7장에서, 아마찌야에 따르면 칼에 맞아 죽을 임금은 누구입니까?",
+     "예로보암",
+     "아합",
+     "오므리"
+    ],
+    "ar": [
+     "في عاموس 7، أي ملك يقول أمصيا إنه سيموت بالسيف؟",
+     "يربعام",
+     "أخاب",
+     "عمري"
+    ]
+   }
+  },
+  {
+   "id": "ch-amos-001-35",
+   "book": "amos",
+   "chapter": 7,
+   "difficulty": "impossible",
+   "ref": "Amos 7:2",
+   "text": {
+    "en": [
+     "In Amos 7, which patriarch is \"so small\" in Amos's plea?",
+     "Jacob",
+     "Abraham",
+     "Isaac"
+    ],
+    "es": [
+     "¿En Amós 7, qué patriarca es «tan pequeño» en la súplica de Amós?",
+     "Jacob",
+     "Abrahán",
+     "Isaac"
+    ],
+    "pt": [
+     "Em Amós 7, que patriarca é «tão pequeno» na súplica de Amós?",
+     "Jacó",
+     "Abraão",
+     "Isaac"
+    ],
+    "fr": [
+     "Dans Amos 7, quel patriarche est « si petit » dans la supplication d'Amos ?",
+     "Jacob",
+     "Abraham",
+     "Isaac"
+    ],
+    "de": [
+     "In Amos 7: Welcher Erzvater ist in Amos' Bitte „so klein“?",
+     "Jakob",
+     "Abraham",
+     "Isaak"
+    ],
+    "it": [
+     "In Amos 7, quale patriarca è «così piccolo» nella supplica di Amos?",
+     "Giacobbe",
+     "Abramo",
+     "Isacco"
+    ],
+    "pl": [
+     "W Księdze Amosa 7, który patriarcha jest „taki mały” w prośbie Amosa?",
+     "Jakub",
+     "Abraham",
+     "Izaak"
+    ],
+    "ru": [
+     "В книге Амоса, глава 7: какой патриарх «так мал» в мольбе Амоса?",
+     "Иаков",
+     "Авраам",
+     "Исаак"
+    ],
+    "tr": [
+     "Amos 7. bölümde, Amos'un yakarışında hangi ata \"çok küçük\"tür?",
+     "Yakup",
+     "İbrahim",
+     "İshak"
+    ],
+    "ja": [
+     "アモス書7章で、アモスの嘆願で「小さい」と言われる族長は誰ですか？",
+     "ヤコブ",
+     "アブラハム",
+     "イサク"
+    ],
+    "ko": [
+     "아모스서 7장에서, 아모스의 간청에서 \"너무 작다\"고 하는 족장은 누구입니까?",
+     "야곱",
+     "아브라함",
+     "이사악"
+    ],
+    "ar": [
+     "في عاموس 7، أي بطريرك هو «صغير جداً» في تضرع عاموس؟",
+     "يعقوب",
+     "إبراهيم",
+     "إسحاق"
+    ]
+   }
+  },
+  {
+   "id": "ch-amos-001-36",
+   "book": "amos",
+   "chapter": 8,
+   "difficulty": "easy",
+   "ref": "Amos 8:1-2",
+   "text": {
+    "en": [
+     "In Amos 8, what food does Amos see in a vision?",
+     "Fruit",
+     "Bread",
+     "Fish"
+    ],
+    "es": [
+     "¿En Amós 8, qué alimento ve Amós en una visión?",
+     "Fruta",
+     "Pan",
+     "Pescado"
+    ],
+    "pt": [
+     "Em Amós 8, que alimento Amós vê numa visão?",
+     "Fruta",
+     "Pão",
+     "Peixe"
+    ],
+    "fr": [
+     "Dans Amos 8, quel aliment Amos voit-il dans une vision ?",
+     "Fruits",
+     "Pain",
+     "Poisson"
+    ],
+    "de": [
+     "In Amos 8: Welches Nahrungsmittel sieht Amos in einer Vision?",
+     "Obst",
+     "Brot",
+     "Fisch"
+    ],
+    "it": [
+     "In Amos 8, quale cibo vede Amos in una visione?",
+     "Frutta",
+     "Pane",
+     "Pesce"
+    ],
+    "pl": [
+     "W Księdze Amosa 8, który pokarm pojawia się w wizji Amosa?",
+     "Owoce",
+     "Chleb",
+     "Ryba"
+    ],
+    "ru": [
+     "В книге Амоса, глава 8: какая еда появляется в видении Амоса?",
+     "Плоды",
+     "Хлеб",
+     "Рыба"
+    ],
+    "tr": [
+     "Amos 8. bölümde, Amos'un görümünde hangi yiyecek belirir?",
+     "Meyve",
+     "Ekmek",
+     "Balık"
+    ],
+    "ja": [
+     "アモス書8章で、アモスが幻の中で見る食べ物は何ですか？",
+     "果物",
+     "パン",
+     "魚"
+    ],
+    "ko": [
+     "아모스서 8장에서, 아모스가 환시 속에서 보는 음식은 무엇입니까?",
+     "과일",
+     "빵",
+     "생선"
+    ],
+    "ar": [
+     "في عاموس 8، أي طعام يراه عاموس في رؤيا؟",
+     "فاكهة",
+     "خبز",
+     "سمك"
+    ]
+   }
+  },
+  {
+   "id": "ch-amos-001-37",
+   "book": "amos",
+   "chapter": 8,
+   "difficulty": "medium",
+   "ref": "Amos 8:9",
+   "text": {
+    "en": [
+     "In Amos 8, which celestial body will set at noon?",
+     "Sun",
+     "Moon",
+     "Star"
+    ],
+    "es": [
+     "¿En Amós 8, qué astro se pondrá al mediodía?",
+     "Sol",
+     "Luna",
+     "Estrella"
+    ],
+    "pt": [
+     "Em Amós 8, que astro se porá ao meio-dia?",
+     "Sol",
+     "Lua",
+     "Estrela"
+    ],
+    "fr": [
+     "Dans Amos 8, quel astre se couchera en plein midi ?",
+     "Soleil",
+     "Lune",
+     "Étoile"
+    ],
+    "de": [
+     "In Amos 8: Welcher Himmelskörper geht am Mittag unter?",
+     "Sonne",
+     "Mond",
+     "Stern"
+    ],
+    "it": [
+     "In Amos 8, quale astro tramonterà a mezzogiorno?",
+     "Sole",
+     "Luna",
+     "Stella"
+    ],
+    "pl": [
+     "W Księdze Amosa 8, które ciało niebieskie zajdzie w południe?",
+     "Słońce",
+     "Księżyc",
+     "Gwiazda"
+    ],
+    "ru": [
+     "В книге Амоса, глава 8: какое светило зайдёт в полдень?",
+     "Солнце",
+     "Луна",
+     "Звезда"
+    ],
+    "tr": [
+     "Amos 8. bölümde, hangi gök cismi öğle vakti batacak?",
+     "Güneş",
+     "Ay",
+     "Yıldız"
+    ],
+    "ja": [
+     "アモス書8章で、真昼に沈む天体は何ですか？",
+     "太陽",
+     "月",
+     "星"
+    ],
+    "ko": [
+     "아모스서 8장에서, 한낮에 지는 천체는 무엇입니까?",
+     "해",
+     "달",
+     "별"
+    ],
+    "ar": [
+     "في عاموس 8، أي جرم سماوي سيغرب عند الظهيرة؟",
+     "شمس",
+     "قمر",
+     "نجم"
+    ]
+   }
+  },
+  {
+   "id": "ch-amos-001-38",
+   "book": "amos",
+   "chapter": 8,
+   "difficulty": "hard",
+   "ref": "Amos 8:8",
+   "text": {
+    "en": [
+     "In Amos 8, the land will heave and sink like which river?",
+     "Nile",
+     "Euphrates",
+     "Tigris"
+    ],
+    "es": [
+     "¿En Amós 8, la tierra subirá y bajará como qué río?",
+     "Nilo",
+     "Éufrates",
+     "Tigris"
+    ],
+    "pt": [
+     "Em Amós 8, a terra subirá e descerá como que rio?",
+     "Nilo",
+     "Eufrates",
+     "Tigre"
+    ],
+    "fr": [
+     "Dans Amos 8, la terre montera et s'abaissera comme quel fleuve ?",
+     "Nil",
+     "Euphrate",
+     "Tigre"
+    ],
+    "de": [
+     "In Amos 8: Das Land hebt und senkt sich wie welcher Fluss?",
+     "Nil",
+     "Euphrat",
+     "Tigris"
+    ],
+    "it": [
+     "In Amos 8, la terra si alzerà e si abbasserà come quale fiume?",
+     "Nilo",
+     "Eufrate",
+     "Tigri"
+    ],
+    "pl": [
+     "W Księdze Amosa 8, ziemia podniesie się i opadnie jak która rzeka?",
+     "Nil",
+     "Eufrat",
+     "Tygrys"
+    ],
+    "ru": [
+     "В книге Амоса, глава 8: земля поднимется и опустится, как какая река?",
+     "Нил",
+     "Евфрат",
+     "Тигр"
+    ],
+    "tr": [
+     "Amos 8. bölümde, ülke hangi nehir gibi kabarıp inecek?",
+     "Nil",
+     "Fırat",
+     "Dicle"
+    ],
+    "ja": [
+     "アモス書8章で、大地はどの川のように揺れ動きますか？",
+     "ナイル",
+     "ユーフラテス",
+     "チグリス"
+    ],
+    "ko": [
+     "아모스서 8장에서, 땅은 어떤 강처럼 솟았다가 가라앉습니까?",
+     "나일",
+     "유프라테스",
+     "티그리스"
+    ],
+    "ar": [
+     "في عاموس 8، الأرض ستعلو وتهبط مثل أي نهر؟",
+     "نيل",
+     "فرات",
+     "دجلة"
+    ]
+   }
+  },
+  {
+   "id": "ch-amos-001-39",
+   "book": "amos",
+   "chapter": 8,
+   "difficulty": "expert",
+   "ref": "Amos 8:14",
+   "text": {
+    "en": [
+     "In Amos 8, which northern town is named in the guilty's oath?",
+     "Dan",
+     "Hebron",
+     "Gaza"
+    ],
+    "es": [
+     "¿En Amós 8, qué ciudad del norte se nombra en el juramento de los culpables?",
+     "Dan",
+     "Hebrón",
+     "Gaza"
+    ],
+    "pt": [
+     "Em Amós 8, que cidade do norte é nomeada no juramento dos culpados?",
+     "Dã",
+     "Hebrom",
+     "Gaza"
+    ],
+    "fr": [
+     "Dans Amos 8, quelle ville du nord est nommée dans le serment des coupables ?",
+     "Dan",
+     "Hébron",
+     "Gaza"
+    ],
+    "de": [
+     "In Amos 8: Welche Stadt im Norden wird im Eid der Schuldigen genannt?",
+     "Dan",
+     "Hebron",
+     "Gaza"
+    ],
+    "it": [
+     "In Amos 8, quale città del nord è nominata nel giuramento dei colpevoli?",
+     "Dan",
+     "Ebron",
+     "Gaza"
+    ],
+    "pl": [
+     "W Księdze Amosa 8, które miasto na północy wymieniono w przysiędze winnych?",
+     "Dan",
+     "Hebron",
+     "Gaza"
+    ],
+    "ru": [
+     "В книге Амоса, глава 8: какой северный город назван в клятве виновных?",
+     "Дан",
+     "Хеврон",
+     "Газа"
+    ],
+    "tr": [
+     "Amos 8. bölümde, suçluların yeminde kuzeydeki hangi kentin adı geçer?",
+     "Dan",
+     "Hebron",
+     "Gazze"
+    ],
+    "ja": [
+     "アモス書8章で、罪人の誓いに名が挙がる北の町はどこですか？",
+     "ダン",
+     "ヘブロン",
+     "ガザ"
+    ],
+    "ko": [
+     "아모스서 8장에서, 죄지은 이들의 맹세에 이름이 나오는 북쪽 도시는 어디입니까?",
+     "단",
+     "헤브론",
+     "가자"
+    ],
+    "ar": [
+     "في عاموس 8، أي مدينة شمالية تُذكر في قسم المذنبين؟",
+     "دان",
+     "حبرون",
+     "غزة"
+    ]
+   }
+  },
+  {
+   "id": "ch-amos-001-40",
+   "book": "amos",
+   "chapter": 8,
+   "difficulty": "impossible",
+   "ref": "Amos 8:13",
+   "text": {
+    "en": [
+     "In Amos 8, what makes fair young men faint?",
+     "Thirst",
+     "Fear",
+     "Cold"
+    ],
+    "es": [
+     "¿En Amós 8, qué hace desfallecer a los jóvenes hermosos?",
+     "Sed",
+     "Miedo",
+     "Frío"
+    ],
+    "pt": [
+     "Em Amós 8, o que faz desfalecer os jovens belos?",
+     "Sede",
+     "Medo",
+     "Frio"
+    ],
+    "fr": [
+     "Dans Amos 8, qu'est-ce qui fait défaillir les beaux jeunes gens ?",
+     "Soif",
+     "Peur",
+     "Froid"
+    ],
+    "de": [
+     "In Amos 8: Was lässt die schönen jungen Männer ohnmächtig werden?",
+     "Durst",
+     "Angst",
+     "Kälte"
+    ],
+    "it": [
+     "In Amos 8, che cosa fa venir meno i bei giovani?",
+     "Sete",
+     "Paura",
+     "Freddo"
+    ],
+    "pl": [
+     "W Księdze Amosa 8, co sprawia, że piękni młodzieńcy mdleją?",
+     "Pragnienie",
+     "Strach",
+     "Zimno"
+    ],
+    "ru": [
+     "В книге Амоса, глава 8: что заставляет изнемогать прекрасных юношей?",
+     "Жажда",
+     "Страх",
+     "Холод"
+    ],
+    "tr": [
+     "Amos 8. bölümde, güzel gençleri ne bayıltır?",
+     "Susuzluk",
+     "Korku",
+     "Soğuk"
+    ],
+    "ja": [
+     "アモス書8章で、美しい若者たちを気絶させるものは何ですか？",
+     "渇き",
+     "恐れ",
+     "寒さ"
+    ],
+    "ko": [
+     "아모스서 8장에서, 아름다운 젊은이들을 쓰러지게 하는 것은 무엇입니까?",
+     "갈증",
+     "두려움",
+     "추위"
+    ],
+    "ar": [
+     "في عاموس 8، ما الذي يُغشي على الشبان الجميلين؟",
+     "عطش",
+     "خوف",
+     "برد"
+    ]
+   }
+  },
+  {
+   "id": "ch-amos-001-41",
+   "book": "amos",
+   "chapter": 9,
+   "difficulty": "easy",
+   "ref": "Amos 9:3",
+   "text": {
+    "en": [
+     "In Amos 9, which mountain is a possible hiding place from God?",
+     "Carmel",
+     "Sinai",
+     "Tabor"
+    ],
+    "es": [
+     "¿En Amós 9, qué monte es un posible escondite frente a Dios?",
+     "Carmelo",
+     "Sinaí",
+     "Tabor"
+    ],
+    "pt": [
+     "Em Amós 9, que monte é um possível esconderijo diante de Deus?",
+     "Carmelo",
+     "Sinai",
+     "Tabor"
+    ],
+    "fr": [
+     "Dans Amos 9, quelle montagne est une cachette possible devant Dieu ?",
+     "Carmel",
+     "Sinaï",
+     "Thabor"
+    ],
+    "de": [
+     "In Amos 9: Welcher Berg ist ein mögliches Versteck vor Gott?",
+     "Karmel",
+     "Sinai",
+     "Tabor"
+    ],
+    "it": [
+     "In Amos 9, quale monte è un possibile nascondiglio davanti a Dio?",
+     "Carmelo",
+     "Sinai",
+     "Tabor"
+    ],
+    "pl": [
+     "W Księdze Amosa 9, która góra jest możliwą kryjówką przed Bogiem?",
+     "Karmel",
+     "Synaj",
+     "Tabor"
+    ],
+    "ru": [
+     "В книге Амоса, глава 9: какая гора может быть укрытием от Бога?",
+     "Кармил",
+     "Синай",
+     "Фавор"
+    ],
+    "tr": [
+     "Amos 9. bölümde, hangi dağ Tanrı'dan saklanmak için olası bir yerdir?",
+     "Karmel",
+     "Sina",
+     "Tabor"
+    ],
+    "ja": [
+     "アモス書9章で、神から身を隠す場所として挙げられる山はどれですか？",
+     "カルメル",
+     "シナイ",
+     "タボル"
+    ],
+    "ko": [
+     "아모스서 9장에서, 하느님을 피해 숨을 수 있는 곳으로 언급되는 산은 무엇입니까?",
+     "카르멜",
+     "시나이",
+     "타볼"
+    ],
+    "ar": [
+     "في عاموس 9، أي جبل يصلح مخبأً من الله؟",
+     "كرمل",
+     "سيناء",
+     "تابور"
+    ]
+   }
+  },
+  {
+   "id": "ch-amos-001-42",
+   "book": "amos",
+   "chapter": 9,
+   "difficulty": "medium",
+   "ref": "Amos 9:11",
+   "text": {
+    "en": [
+     "In Amos 9, which king is associated with the fallen hut?",
+     "David",
+     "Solomon",
+     "Saul"
+    ],
+    "es": [
+     "¿En Amós 9, qué rey se asocia con la choza caída?",
+     "David",
+     "Salomón",
+     "Saúl"
+    ],
+    "pt": [
+     "Em Amós 9, que rei está ligado à cabana caída?",
+     "Davi",
+     "Salomão",
+     "Saul"
+    ],
+    "fr": [
+     "Dans Amos 9, quel roi est lié à la hutte tombée ?",
+     "David",
+     "Salomon",
+     "Saül"
+    ],
+    "de": [
+     "In Amos 9: Welcher König wird mit der verfallenen Hütte verbunden?",
+     "David",
+     "Salomo",
+     "Saul"
+    ],
+    "it": [
+     "In Amos 9, quale re è legato alla capanna caduta?",
+     "Davide",
+     "Salomone",
+     "Saul"
+    ],
+    "pl": [
+     "W Księdze Amosa 9, który król jest związany z upadłym szałasem?",
+     "Dawid",
+     "Salomon",
+     "Saul"
+    ],
+    "ru": [
+     "В книге Амоса, глава 9: какой царь связан с падшей скинией?",
+     "Давид",
+     "Соломон",
+     "Саул"
+    ],
+    "tr": [
+     "Amos 9. bölümde, düşmüş çardak hangi kralla ilişkilendirilir?",
+     "Davut",
+     "Süleyman",
+     "Saul"
+    ],
+    "ja": [
+     "アモス書9章で、倒れた仮庵と結びつけられる王は誰ですか？",
+     "ダビデ",
+     "ソロモン",
+     "サウル"
+    ],
+    "ko": [
+     "아모스서 9장에서, 무너진 초막과 연결되는 임금은 누구입니까?",
+     "다윗",
+     "솔로몬",
+     "사울"
+    ],
+    "ar": [
+     "في عاموس 9، أي ملك يرتبط بالمظلة الساقطة؟",
+     "داود",
+     "سليمان",
+     "شاول"
+    ]
+   }
+  },
+  {
+   "id": "ch-amos-001-43",
+   "book": "amos",
+   "chapter": 9,
+   "difficulty": "hard",
+   "ref": "Amos 9:3",
+   "text": {
+    "en": [
+     "In Amos 9, which creature on the sea floor will bite fugitives?",
+     "Serpent",
+     "Whale",
+     "Crocodile"
+    ],
+    "es": [
+     "¿En Amós 9, qué criatura del fondo del mar morderá a los fugitivos?",
+     "Serpiente",
+     "Ballena",
+     "Cocodrilo"
+    ],
+    "pt": [
+     "Em Amós 9, que criatura do fundo do mar morderá os fugitivos?",
+     "Serpente",
+     "Baleia",
+     "Crocodilo"
+    ],
+    "fr": [
+     "Dans Amos 9, quelle créature du fond de la mer mordra les fugitifs ?",
+     "Serpent",
+     "Baleine",
+     "Crocodile"
+    ],
+    "de": [
+     "In Amos 9: Welches Wesen auf dem Meeresgrund wird die Flüchtlinge beißen?",
+     "Schlange",
+     "Wal",
+     "Krokodil"
+    ],
+    "it": [
+     "In Amos 9, quale creatura sul fondo del mare morderà i fuggiaschi?",
+     "Serpente",
+     "Balena",
+     "Coccodrillo"
+    ],
+    "pl": [
+     "W Księdze Amosa 9, które stworzenie z dna morza ugryzie uciekinierów?",
+     "Wąż",
+     "Wieloryb",
+     "Krokodyl"
+    ],
+    "ru": [
+     "В книге Амоса, глава 9: какое существо на дне моря ужалит беглецов?",
+     "Змей",
+     "Кит",
+     "Крокодил"
+    ],
+    "tr": [
+     "Amos 9. bölümde, deniz dibindeki hangi yaratık kaçakları ısıracak?",
+     "Yılan",
+     "Balina",
+     "Timsah"
+    ],
+    "ja": [
+     "アモス書9章で、海の底で逃亡者にかみつく生き物は何ですか？",
+     "蛇",
+     "クジラ",
+     "ワニ"
+    ],
+    "ko": [
+     "아모스서 9장에서, 바다 밑바닥에서 도망자들을 무는 생물은 무엇입니까?",
+     "뱀",
+     "고래",
+     "악어"
+    ],
+    "ar": [
+     "في عاموس 9، أي مخلوق في قاع البحر سيلدغ الهاربين؟",
+     "حية",
+     "حوت",
+     "تمساح"
+    ]
+   }
+  },
+  {
+   "id": "ch-amos-001-44",
+   "book": "amos",
+   "chapter": 9,
+   "difficulty": "expert",
+   "ref": "Amos 9:13",
+   "text": {
+    "en": [
+     "In Amos 9, who will overtake the reaper?",
+     "Plowman",
+     "Shepherd",
+     "Potter"
+    ],
+    "es": [
+     "¿En Amós 9, quién alcanzará al segador?",
+     "Arador",
+     "Pastor",
+     "Alfarero"
+    ],
+    "pt": [
+     "Em Amós 9, quem alcançará o ceifeiro?",
+     "Lavrador",
+     "Pastor",
+     "Oleiro"
+    ],
+    "fr": [
+     "Dans Amos 9, qui rattrapera le moissonneur ?",
+     "Laboureur",
+     "Berger",
+     "Potier"
+    ],
+    "de": [
+     "In Amos 9: Wer wird den Schnitter einholen?",
+     "Pflüger",
+     "Hirte",
+     "Töpfer"
+    ],
+    "it": [
+     "In Amos 9, chi raggiungerà il mietitore?",
+     "Aratore",
+     "Pastore",
+     "Vasaio"
+    ],
+    "pl": [
+     "W Księdze Amosa 9, kto dogoni żniwiarza?",
+     "Oracz",
+     "Pasterz",
+     "Garncarz"
+    ],
+    "ru": [
+     "В книге Амоса, глава 9: кто догонит жнеца?",
+     "Пахарь",
+     "Пастух",
+     "Гончар"
+    ],
+    "tr": [
+     "Amos 9. bölümde, orakçıya kim yetişecek?",
+     "Çiftçi",
+     "Çoban",
+     "Çömlekçi"
+    ],
+    "ja": [
+     "アモス書9章で、刈り入れる者に追いつくのは誰ですか？",
+     "耕作者",
+     "羊飼い",
+     "陶工"
+    ],
+    "ko": [
+     "아모스서 9장에서, 추수꾼을 따라잡는 이는 누구입니까?",
+     "농부",
+     "목자",
+     "옹기장이"
+    ],
+    "ar": [
+     "في عاموس 9، من سيدرك الحاصد؟",
+     "حارث",
+     "راع",
+     "خزاف"
+    ]
+   }
+  },
+  {
+   "id": "ch-amos-001-45",
+   "book": "amos",
+   "chapter": 9,
+   "difficulty": "impossible",
+   "ref": "Amos 9:9",
+   "text": {
+    "en": [
+     "In Amos 9, God will shake Israel as grain is shaken in what?",
+     "Sieve",
+     "Basket",
+     "Barrel"
+    ],
+    "es": [
+     "¿En Amós 9, en qué se zarandea el grano cuando Dios sacude a Israel?",
+     "Criba",
+     "Cesta",
+     "Barril"
+    ],
+    "pt": [
+     "Em Amós 9, em que se peneira o grão quando Deus sacode Israel?",
+     "Peneira",
+     "Cesto",
+     "Barril"
+    ],
+    "fr": [
+     "Dans Amos 9, dans quoi secoue-t-on le grain quand Dieu secoue Israël ?",
+     "Crible",
+     "Panier",
+     "Tonneau"
+    ],
+    "de": [
+     "In Amos 9: Worin wird das Korn geschüttelt, wenn Gott Israel schüttelt?",
+     "Sieb",
+     "Korb",
+     "Fass"
+    ],
+    "it": [
+     "In Amos 9, in che cosa si scuote il grano quando Dio scuote Israele?",
+     "Setaccio",
+     "Cesto",
+     "Barile"
+    ],
+    "pl": [
+     "W Księdze Amosa 9, w czym przesiewa się ziarno, gdy Bóg przesiewa Izraela?",
+     "Sicie",
+     "Koszu",
+     "Beczce"
+    ],
+    "ru": [
+     "В книге Амоса, глава 9: в чём трясут зерно, когда Бог потрясает Израиль?",
+     "Сите",
+     "Корзине",
+     "Бочке"
+    ],
+    "tr": [
+     "Amos 9. bölümde, Tanrı İsrail'i sallarken tahıl neyin içinde sallanır?",
+     "Elek",
+     "Sepet",
+     "Fıçı"
+    ],
+    "ja": [
+     "アモス書9章で、神がイスラエルを揺すぶるとき、穀物は何の中で揺すぶられますか？",
+     "ふるい",
+     "籠",
+     "樽"
+    ],
+    "ko": [
+     "아모스서 9장에서, 하느님께서 이스라엘을 흔드실 때 곡식은 무엇 속에서 흔들립니까?",
+     "체",
+     "바구니",
+     "통"
+    ],
+    "ar": [
+     "في عاموس 9، في ماذا يُغربَل الحبّ حين يهزّ الله إسرائيل؟",
+     "غربال",
+     "سلة",
+     "برميل"
+    ]
+   }
+  }
+ ]
+}
