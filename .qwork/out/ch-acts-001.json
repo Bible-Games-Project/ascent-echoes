@@ -1,0 +1,5674 @@
+{
+ "questions": [
+  {
+   "id": "ch-acts-001-01",
+   "book": "acts",
+   "chapter": 1,
+   "difficulty": "easy",
+   "ref": "Acts 1:14",
+   "text": {
+    "en": [
+     "In Acts 1, what was the name of Jesus' mother praying with the apostles?",
+     "Mary",
+     "Martha",
+     "Elizabeth"
+    ],
+    "es": [
+     "En Hechos 1, ¿cómo se llamaba la madre de Jesús que oraba con los apóstoles?",
+     "María",
+     "Marta",
+     "Isabel"
+    ],
+    "pt": [
+     "Em Atos 1, qual era o nome da mãe de Jesus que orava com os apóstolos?",
+     "Maria",
+     "Marta",
+     "Isabel"
+    ],
+    "fr": [
+     "Dans Actes 1, comment s'appelait la mère de Jésus qui priait avec les apôtres ?",
+     "Marie",
+     "Marthe",
+     "Élisabeth"
+    ],
+    "de": [
+     "In Apostelgeschichte 1, wie hieß die Mutter Jesu, die mit den Aposteln betete?",
+     "Maria",
+     "Marta",
+     "Elisabet"
+    ],
+    "it": [
+     "In Atti 1, come si chiamava la madre di Gesù che pregava con gli apostoli?",
+     "Maria",
+     "Marta",
+     "Elisabetta"
+    ],
+    "pl": [
+     "W Dziejach Apostolskich 1, jak miała na imię matka Jezusa, modląca się z apostołami?",
+     "Maria",
+     "Marta",
+     "Elżbieta"
+    ],
+    "ru": [
+     "В Деяниях 1, как звали мать Иисуса, молившуюся с апостолами?",
+     "Мария",
+     "Марфа",
+     "Елисавета"
+    ],
+    "tr": [
+     "Elçilerin İşleri 1'de, elçilerle dua eden İsa'nın annesinin adı neydi?",
+     "Meryem",
+     "Marta",
+     "Elizabet"
+    ],
+    "ja": [
+     "使徒言行録1章で、使徒たちと共に祈っていたイエスの母の名は何ですか？",
+     "マリア",
+     "マルタ",
+     "エリサベト"
+    ],
+    "ko": [
+     "사도행전 1장에서, 사도들과 함께 기도한 예수님 어머니의 이름은 무엇입니까?",
+     "마리아",
+     "마르타",
+     "엘리사벳"
+    ],
+    "ar": [
+     "في أعمال الرسل 1، ما اسم أم يسوع التي صلّت مع الرسل؟",
+     "مريم",
+     "مرتا",
+     "أليصابات"
+    ]
+   }
+  },
+  {
+   "id": "ch-acts-001-02",
+   "book": "acts",
+   "chapter": 1,
+   "difficulty": "medium",
+   "ref": "Acts 1:6",
+   "text": {
+    "en": [
+     "In Acts 1, what did the apostles ask if Jesus would restore to Israel?",
+     "Kingdom",
+     "Temple",
+     "Law"
+    ],
+    "es": [
+     "En Hechos 1, según la pregunta de los apóstoles, ¿qué restablecería Jesús a Israel?",
+     "Reino",
+     "Templo",
+     "Ley"
+    ],
+    "pt": [
+     "Em Atos 1, segundo a pergunta dos apóstolos, o que Jesus restauraria a Israel?",
+     "Reino",
+     "Templo",
+     "Lei"
+    ],
+    "fr": [
+     "Dans Actes 1, d'après la question des apôtres, que Jésus allait-il rétablir pour Israël ?",
+     "Royaume",
+     "Temple",
+     "Loi"
+    ],
+    "de": [
+     "In Apostelgeschichte 1, was sollte Jesus nach der Frage der Apostel für Israel wiederherstellen?",
+     "Reich",
+     "Tempel",
+     "Gesetz"
+    ],
+    "it": [
+     "In Atti 1, secondo la domanda degli apostoli, che cosa avrebbe ristabilito Gesù per Israele?",
+     "Regno",
+     "Tempio",
+     "Legge"
+    ],
+    "pl": [
+     "W Dziejach Apostolskich 1, co według pytania apostołów miało zostać przywrócone Izraelowi?",
+     "Królestwo",
+     "Świątynia",
+     "Prawo"
+    ],
+    "ru": [
+     "В Деяниях 1, что, по вопросу апостолов, Иисус должен был восстановить для Израиля?",
+     "Царство",
+     "Храм",
+     "Закон"
+    ],
+    "tr": [
+     "Elçilerin İşleri 1'de elçilerin, İsa'nın İsrail için yeniden kuracağını sordukları şey neydi?",
+     "Krallık",
+     "Tapınak",
+     "Yasa"
+    ],
+    "ja": [
+     "使徒言行録1章で、使徒たちはイエスがイスラエルに何を再興するのかと尋ねましたか？",
+     "王国",
+     "神殿",
+     "律法"
+    ],
+    "ko": [
+     "사도행전 1장에서, 사도들은 예수님이 이스라엘에 무엇을 되찾아 주실 것인지 물었습니까?",
+     "나라",
+     "성전",
+     "율법"
+    ],
+    "ar": [
+     "في أعمال الرسل 1، ما الذي سأل الرسل إن كان يسوع سيعيده إلى إسرائيل؟",
+     "مملكة",
+     "هيكل",
+     "شريعة"
+    ]
+   }
+  },
+  {
+   "id": "ch-acts-001-03",
+   "book": "acts",
+   "chapter": 1,
+   "difficulty": "hard",
+   "ref": "Acts 1:18",
+   "text": {
+    "en": [
+     "In Acts 1, what did Judas buy with the payment for his betrayal?",
+     "Field",
+     "Vineyard",
+     "House"
+    ],
+    "es": [
+     "En Hechos 1, ¿qué compró Judas con el pago de su traición?",
+     "Campo",
+     "Viña",
+     "Casa"
+    ],
+    "pt": [
+     "Em Atos 1, o que Judas comprou com o pagamento da sua traição?",
+     "Campo",
+     "Vinha",
+     "Casa"
+    ],
+    "fr": [
+     "Dans Actes 1, qu'a acheté Judas avec le salaire de son crime ?",
+     "Champ",
+     "Vigne",
+     "Maison"
+    ],
+    "de": [
+     "In Apostelgeschichte 1, was erwarb Judas mit dem Lohn für seine Untat?",
+     "Acker",
+     "Weinberg",
+     "Haus"
+    ],
+    "it": [
+     "In Atti 1, che cosa comprò Giuda con il compenso del suo delitto?",
+     "Campo",
+     "Vigna",
+     "Casa"
+    ],
+    "pl": [
+     "W Dziejach Apostolskich 1, co zostało kupione za zapłatę Judasza za jego zbrodnię?",
+     "Pole",
+     "Winnica",
+     "Dom"
+    ],
+    "ru": [
+     "В Деяниях 1, что приобрёл Иуда за награду своего беззакония?",
+     "Поле",
+     "Виноградник",
+     "Дом"
+    ],
+    "tr": [
+     "Elçilerin İşleri 1'de Yahuda kötülüğünün ücretiyle ne satın aldı?",
+     "Tarla",
+     "Bağ",
+     "Ev"
+    ],
+    "ja": [
+     "使徒言行録1章で、ユダは不正の報酬で何を手に入れましたか？",
+     "畑",
+     "ぶどう園",
+     "家"
+    ],
+    "ko": [
+     "사도행전 1장에서, 유다는 불의의 대가로 무엇을 얻었습니까?",
+     "밭",
+     "포도원",
+     "집"
+    ],
+    "ar": [
+     "في أعمال الرسل 1، ماذا اقتنى يهوذا بأجرة ظلمه؟",
+     "حقل",
+     "كرم",
+     "بيت"
+    ]
+   }
+  },
+  {
+   "id": "ch-acts-001-04",
+   "book": "acts",
+   "chapter": 1,
+   "difficulty": "expert",
+   "ref": "Acts 1:23",
+   "text": {
+    "en": [
+     "In Acts 1, which man surnamed Barsabbas was proposed with Matthias?",
+     "Joseph",
+     "Philip",
+     "Stephen"
+    ],
+    "es": [
+     "En Hechos 1, ¿qué hombre llamado Barsabás fue propuesto junto con Matías?",
+     "José",
+     "Felipe",
+     "Esteban"
+    ],
+    "pt": [
+     "Em Atos 1, qual homem chamado Barsabás foi proposto junto com Matias?",
+     "José",
+     "Filipe",
+     "Estêvão"
+    ],
+    "fr": [
+     "Dans Actes 1, quel homme appelé Barsabbas fut proposé avec Matthias ?",
+     "Joseph",
+     "Philippe",
+     "Étienne"
+    ],
+    "de": [
+     "In Apostelgeschichte 1, welcher Mann mit dem Beinamen Barsabbas wurde neben Matthias vorgeschlagen?",
+     "Josef",
+     "Philippus",
+     "Stephanus"
+    ],
+    "it": [
+     "In Atti 1, quale uomo chiamato Barsabba fu proposto insieme a Mattia?",
+     "Giuseppe",
+     "Filippo",
+     "Stefano"
+    ],
+    "pl": [
+     "W Dziejach Apostolskich 1, jak miał na imię mąż zwany Barsabą, zaproponowany obok Macieja?",
+     "Józef",
+     "Filip",
+     "Szczepan"
+    ],
+    "ru": [
+     "В Деяниях 1, как звали мужа по прозвищу Варсава, предложенного вместе с Матфием?",
+     "Иосиф",
+     "Филипп",
+     "Стефан"
+    ],
+    "tr": [
+     "Elçilerin İşleri 1'de Mattiya'yla birlikte önerilen Barsabbas lakaplı adam kimdi?",
+     "Yusuf",
+     "Filipus",
+     "Stefanos"
+    ],
+    "ja": [
+     "使徒言行録1章で、マティアと共に立てられたバルサバと呼ばれる人は誰ですか？",
+     "ヨセフ",
+     "フィリポ",
+     "ステファノ"
+    ],
+    "ko": [
+     "사도행전 1장에서, 마티아와 함께 추천된 바르사빠라 불리는 사람은 누구입니까?",
+     "요셉",
+     "필립보",
+     "스테파노"
+    ],
+    "ar": [
+     "في أعمال الرسل 1، من هو الرجل المدعو برسابا الذي اقترح مع متياس؟",
+     "يوسف",
+     "فيلبس",
+     "استفانوس"
+    ]
+   }
+  },
+  {
+   "id": "ch-acts-001-05",
+   "book": "acts",
+   "chapter": 1,
+   "difficulty": "impossible",
+   "ref": "Acts 1:20",
+   "text": {
+    "en": [
+     "In Acts 1, Peter cited which book about Judas's empty office?",
+     "Psalms",
+     "Isaiah",
+     "Proverbs"
+    ],
+    "es": [
+     "En Hechos 1, ¿qué libro citó Pedro sobre el cargo vacío de Judas?",
+     "Salmos",
+     "Isaías",
+     "Proverbios"
+    ],
+    "pt": [
+     "Em Atos 1, que livro Pedro citou sobre o cargo vago de Judas?",
+     "Salmos",
+     "Isaías",
+     "Provérbios"
+    ],
+    "fr": [
+     "Dans Actes 1, quel livre Pierre a-t-il cité à propos de la charge vacante de Judas ?",
+     "Psaumes",
+     "Isaïe",
+     "Proverbes"
+    ],
+    "de": [
+     "In Apostelgeschichte 1, welches Buch zitierte Petrus über Judas' verwaistes Amt?",
+     "Psalmen",
+     "Jesaja",
+     "Sprichwörter"
+    ],
+    "it": [
+     "In Atti 1, quale libro citò Pietro riguardo all'incarico vacante di Giuda?",
+     "Salmi",
+     "Isaia",
+     "Proverbi"
+    ],
+    "pl": [
+     "W Dziejach Apostolskich 1, z jakiej księgi cytował Piotr o urzędzie Judasza?",
+     "Psalmów",
+     "Izajasza",
+     "Przysłów"
+    ],
+    "ru": [
+     "В Деяниях 1, из какой книги Пётр цитировал об уделе Иуды?",
+     "Псалмов",
+     "Исаии",
+     "Притчей"
+    ],
+    "tr": [
+     "Elçilerin İşleri 1'de Petrus'un, Yahuda'nın görevi için alıntı yaptığı kitap hangisiydi?",
+     "Mezmurlar",
+     "Yeşaya",
+     "Atasözleri"
+    ],
+    "ja": [
+     "使徒言行録1章で、ペトロはユダの務めについてどの書を引用しましたか？",
+     "詩編",
+     "イザヤ書",
+     "箴言"
+    ],
+    "ko": [
+     "사도행전 1장에서, 베드로는 유다의 직분에 대해 어느 책을 인용했습니까?",
+     "시편",
+     "이사야서",
+     "잠언"
+    ],
+    "ar": [
+     "في أعمال الرسل 1، من أي سفر اقتبس بطرس عن منصب يهوذا؟",
+     "مزامير",
+     "إشعيا",
+     "أمثال"
+    ]
+   }
+  },
+  {
+   "id": "ch-acts-001-06",
+   "book": "acts",
+   "chapter": 2,
+   "difficulty": "easy",
+   "ref": "Acts 2:38",
+   "text": {
+    "en": [
+     "In Acts 2, what rite did Peter urge for the forgiveness of sins?",
+     "Baptism",
+     "Circumcision",
+     "Sacrifice"
+    ],
+    "es": [
+     "En Hechos 2, ¿qué rito pidió Pedro para el perdón de los pecados?",
+     "Bautismo",
+     "Circuncisión",
+     "Sacrificio"
+    ],
+    "pt": [
+     "Em Atos 2, que rito Pedro pediu para o perdão dos pecados?",
+     "Batismo",
+     "Circuncisão",
+     "Sacrifício"
+    ],
+    "fr": [
+     "Dans Actes 2, quel rite Pierre demanda-t-il pour le pardon des péchés ?",
+     "Baptême",
+     "Circoncision",
+     "Sacrifice"
+    ],
+    "de": [
+     "In Apostelgeschichte 2, welchen Ritus forderte Petrus zur Vergebung der Sünden?",
+     "Taufe",
+     "Beschneidung",
+     "Opfer"
+    ],
+    "it": [
+     "In Atti 2, quale rito chiese Pietro per il perdono dei peccati?",
+     "Battesimo",
+     "Circoncisione",
+     "Sacrificio"
+    ],
+    "pl": [
+     "W Dziejach Apostolskich 2, jaki obrzęd według Piotra służy odpuszczeniu grzechów?",
+     "Chrzest",
+     "Obrzezanie",
+     "Ofiara"
+    ],
+    "ru": [
+     "В Деяниях 2, какой обряд, по словам Петра, ведёт к прощению грехов?",
+     "Крещение",
+     "Обрезание",
+     "Жертва"
+    ],
+    "tr": [
+     "Elçilerin İşleri 2'de Petrus'un günahların bağışlanması için önerdiği ayin hangisiydi?",
+     "Vaftiz",
+     "Sünnet",
+     "Kurban"
+    ],
+    "ja": [
+     "使徒言行録2章で、ペトロは罪の赦しのためにどの儀式を勧めましたか？",
+     "洗礼",
+     "割礼",
+     "いけにえ"
+    ],
+    "ko": [
+     "사도행전 2장에서, 베드로는 죄를 용서받기 위해 어떤 예식을 권했습니까?",
+     "세례",
+     "할례",
+     "제물"
+    ],
+    "ar": [
+     "في أعمال الرسل 2، أي طقس طلب بطرس لغفران الخطايا؟",
+     "معمودية",
+     "ختان",
+     "ذبيحة"
+    ]
+   }
+  },
+  {
+   "id": "ch-acts-001-07",
+   "book": "acts",
+   "chapter": 2,
+   "difficulty": "medium",
+   "ref": "Acts 2:22",
+   "text": {
+    "en": [
+     "In Acts 2, Peter called Jesus a man from which town?",
+     "Nazareth",
+     "Jericho",
+     "Capernaum"
+    ],
+    "es": [
+     "En Hechos 2, ¿de qué ciudad dijo Pedro que era Jesús?",
+     "Nazaret",
+     "Jericó",
+     "Cafarnaún"
+    ],
+    "pt": [
+     "Em Atos 2, de que cidade Pedro disse que era Jesus?",
+     "Nazaré",
+     "Jericó",
+     "Cafarnaum"
+    ],
+    "fr": [
+     "Dans Actes 2, de quelle ville Pierre dit-il que Jésus venait ?",
+     "Nazareth",
+     "Jéricho",
+     "Capharnaüm"
+    ],
+    "de": [
+     "In Apostelgeschichte 2, aus welcher Stadt stammte Jesus nach Petrus' Worten?",
+     "Nazaret",
+     "Jericho",
+     "Kafarnaum"
+    ],
+    "it": [
+     "In Atti 2, di quale città Pietro disse che era Gesù?",
+     "Nazaret",
+     "Gerico",
+     "Cafàrnao"
+    ],
+    "pl": [
+     "W Dziejach Apostolskich 2, które miasto było według Piotra miejscem pochodzenia Jezusa?",
+     "Nazaret",
+     "Jerycho",
+     "Kafarnaum"
+    ],
+    "ru": [
+     "В Деяниях 2, из какого города, по словам Петра, был Иисус?",
+     "Назарет",
+     "Иерихон",
+     "Капернаум"
+    ],
+    "tr": [
+     "Elçilerin İşleri 2'de Petrus'a göre İsa'nın geldiği kent hangisiydi?",
+     "Nasıra",
+     "Eriha",
+     "Kefernahum"
+    ],
+    "ja": [
+     "使徒言行録2章で、ペトロはイエスをどの町の人と呼びましたか？",
+     "ナザレ",
+     "エリコ",
+     "カファルナウム"
+    ],
+    "ko": [
+     "사도행전 2장에서, 베드로는 예수님을 어느 고을 사람이라고 불렀습니까?",
+     "나자렛",
+     "예리코",
+     "카파르나움"
+    ],
+    "ar": [
+     "في أعمال الرسل 2، من أي مدينة كان يسوع بحسب بطرس؟",
+     "الناصرة",
+     "أريحا",
+     "كفرناحوم"
+    ]
+   }
+  },
+  {
+   "id": "ch-acts-001-08",
+   "book": "acts",
+   "chapter": 2,
+   "difficulty": "hard",
+   "ref": "Acts 2:46",
+   "text": {
+    "en": [
+     "In Acts 2, which sacred place did the believers attend together daily?",
+     "Temple",
+     "Synagogue",
+     "Palace"
+    ],
+    "es": [
+     "En Hechos 2, ¿a qué lugar sagrado acudían unánimes los creyentes cada día?",
+     "Templo",
+     "Sinagoga",
+     "Palacio"
+    ],
+    "pt": [
+     "Em Atos 2, a que lugar sagrado os fiéis iam unânimes todos os dias?",
+     "Templo",
+     "Sinagoga",
+     "Palácio"
+    ],
+    "fr": [
+     "Dans Actes 2, quel lieu saint les croyants fréquentaient-ils chaque jour d'un même cœur ?",
+     "Temple",
+     "Synagogue",
+     "Palais"
+    ],
+    "de": [
+     "In Apostelgeschichte 2, welchen heiligen Ort besuchten die Gläubigen täglich einmütig?",
+     "Tempel",
+     "Synagoge",
+     "Palast"
+    ],
+    "it": [
+     "In Atti 2, quale luogo sacro frequentavano ogni giorno i credenti, unanimi?",
+     "Tempio",
+     "Sinagoga",
+     "Palazzo"
+    ],
+    "pl": [
+     "W Dziejach Apostolskich 2, jakie święte miejsce było codziennym celem wierzących?",
+     "Świątynia",
+     "Synagoga",
+     "Pałac"
+    ],
+    "ru": [
+     "В Деяниях 2, какое святое место ежедневно объединяло верующих?",
+     "Храм",
+     "Синагога",
+     "Дворец"
+    ],
+    "tr": [
+     "Elçilerin İşleri 2'de iman edenlerin her gün birlikte bulunduğu kutsal yer hangisiydi?",
+     "Tapınak",
+     "Havra",
+     "Saray"
+    ],
+    "ja": [
+     "使徒言行録2章で、信者たちは毎日心を一つにしてどの聖なる場所に集まりましたか？",
+     "神殿",
+     "会堂",
+     "宮殿"
+    ],
+    "ko": [
+     "사도행전 2장에서, 신자들은 날마다 한마음으로 어느 거룩한 곳에 모였습니까?",
+     "성전",
+     "회당",
+     "궁전"
+    ],
+    "ar": [
+     "في أعمال الرسل 2، أي مكان مقدّس واظب عليه المؤمنون كل يوم بقلب واحد؟",
+     "هيكل",
+     "مجمع",
+     "قصر"
+    ]
+   }
+  },
+  {
+   "id": "ch-acts-001-09",
+   "book": "acts",
+   "chapter": 2,
+   "difficulty": "expert",
+   "ref": "Acts 2:29",
+   "text": {
+    "en": [
+     "In Acts 2, Peter said whose tomb was among them to this day?",
+     "David",
+     "Moses",
+     "Abraham"
+    ],
+    "es": [
+     "En Hechos 2, ¿de quién dijo Pedro que su sepulcro estaba entre ellos hasta hoy?",
+     "David",
+     "Moisés",
+     "Abrahán"
+    ],
+    "pt": [
+     "Em Atos 2, de quem Pedro disse que o túmulo estava entre eles até hoje?",
+     "Davi",
+     "Moisés",
+     "Abraão"
+    ],
+    "fr": [
+     "Dans Actes 2, de qui Pierre dit-il que le tombeau est encore parmi eux ?",
+     "David",
+     "Moïse",
+     "Abraham"
+    ],
+    "de": [
+     "In Apostelgeschichte 2, wessen Grab ist nach Petrus bis heute bei ihnen?",
+     "David",
+     "Mose",
+     "Abraham"
+    ],
+    "it": [
+     "In Atti 2, di chi Pietro disse che il sepolcro è fra loro fino ad oggi?",
+     "Davide",
+     "Mosè",
+     "Abramo"
+    ],
+    "pl": [
+     "W Dziejach Apostolskich 2, czyj grób jest według Piotra pośród nich aż do dziś?",
+     "Dawid",
+     "Mojżesz",
+     "Abraham"
+    ],
+    "ru": [
+     "В Деяниях 2, чья гробница, по словам Петра, находится у них до сего дня?",
+     "Давид",
+     "Моисей",
+     "Авраам"
+    ],
+    "tr": [
+     "Elçilerin İşleri 2'de Petrus'a göre mezarı bugüne dek aralarında olan kimdi?",
+     "Davut",
+     "Musa",
+     "İbrahim"
+    ],
+    "ja": [
+     "使徒言行録2章で、ペトロによれば墓が今日まで彼らのもとにあるのは誰ですか？",
+     "ダビデ",
+     "モーセ",
+     "アブラハム"
+    ],
+    "ko": [
+     "사도행전 2장에서, 베드로에 따르면 무덤이 오늘날까지 그들 가운데 있는 이는 누구입니까?",
+     "다윗",
+     "모세",
+     "아브라함"
+    ],
+    "ar": [
+     "في أعمال الرسل 2، قبر من قال بطرس إنه عندهم إلى اليوم؟",
+     "داود",
+     "موسى",
+     "إبراهيم"
+    ]
+   }
+  },
+  {
+   "id": "ch-acts-001-10",
+   "book": "acts",
+   "chapter": 2,
+   "difficulty": "impossible",
+   "ref": "Acts 2:47",
+   "text": {
+    "en": [
+     "In Acts 2, who daily added to the community those being saved?",
+     "Lord",
+     "Peter",
+     "Angel"
+    ],
+    "es": [
+     "En Hechos 2, ¿quién añadía cada día a la comunidad a los que se salvaban?",
+     "Señor",
+     "Pedro",
+     "Ángel"
+    ],
+    "pt": [
+     "Em Atos 2, quem acrescentava cada dia à comunidade os que se salvavam?",
+     "Senhor",
+     "Pedro",
+     "Anjo"
+    ],
+    "fr": [
+     "Dans Actes 2, qui ajoutait chaque jour à la communauté ceux qui étaient sauvés ?",
+     "Seigneur",
+     "Pierre",
+     "Ange"
+    ],
+    "de": [
+     "In Apostelgeschichte 2, wer fügte täglich der Gemeinde die hinzu, die gerettet wurden?",
+     "Herr",
+     "Petrus",
+     "Engel"
+    ],
+    "it": [
+     "In Atti 2, chi aggiungeva ogni giorno alla comunità quelli che erano salvati?",
+     "Signore",
+     "Pietro",
+     "Angelo"
+    ],
+    "pl": [
+     "W Dziejach Apostolskich 2, kto codziennie przymnażał gminie tych, którzy dostępowali zbawienia?",
+     "Pan",
+     "Piotr",
+     "Anioł"
+    ],
+    "ru": [
+     "В Деяниях 2, кто ежедневно присоединял к Церкви спасаемых?",
+     "Господь",
+     "Пётр",
+     "Ангел"
+    ],
+    "tr": [
+     "Elçilerin İşleri 2'de kurtulanları her gün topluluğa kim ekliyordu?",
+     "Rab",
+     "Petrus",
+     "Melek"
+    ],
+    "ja": [
+     "使徒言行録2章で、救われる人々を毎日仲間に加えたのは誰ですか？",
+     "主",
+     "ペトロ",
+     "天使"
+    ],
+    "ko": [
+     "사도행전 2장에서, 구원받는 이들을 날마다 공동체에 보태 주신 분은 누구입니까?",
+     "주님",
+     "베드로",
+     "천사"
+    ],
+    "ar": [
+     "في أعمال الرسل 2، من كان يضم كل يوم إلى الجماعة الذين يخلصون؟",
+     "الرب",
+     "بطرس",
+     "ملاك"
+    ]
+   }
+  },
+  {
+   "id": "ch-acts-001-11",
+   "book": "acts",
+   "chapter": 3,
+   "difficulty": "easy",
+   "ref": "Acts 3:13",
+   "text": {
+    "en": [
+     "In Acts 3, Peter said the people denied whom before Pilate?",
+     "Jesus",
+     "Moses",
+     "John"
+    ],
+    "es": [
+     "En Hechos 3, ¿a quién dijo Pedro que el pueblo negó ante Pilato?",
+     "Jesús",
+     "Moisés",
+     "Juan"
+    ],
+    "pt": [
+     "Em Atos 3, a quem Pedro disse que o povo negou diante de Pilatos?",
+     "Jesus",
+     "Moisés",
+     "João"
+    ],
+    "fr": [
+     "Dans Actes 3, qui, selon Pierre, le peuple a-t-il renié devant Pilate ?",
+     "Jésus",
+     "Moïse",
+     "Jean"
+    ],
+    "de": [
+     "In Apostelgeschichte 3, wen hatte das Volk nach Petrus vor Pilatus verleugnet?",
+     "Jesus",
+     "Mose",
+     "Johannes"
+    ],
+    "it": [
+     "In Atti 3, chi disse Pietro che il popolo rinnegò davanti a Pilato?",
+     "Gesù",
+     "Mosè",
+     "Giovanni"
+    ],
+    "pl": [
+     "W Dziejach Apostolskich 3, kogo według Piotra lud zaparł się przed Piłatem?",
+     "Jezusa",
+     "Mojżesza",
+     "Jana"
+    ],
+    "ru": [
+     "В Деяниях 3, от кого, по словам Петра, народ отрёкся перед Пилатом?",
+     "Иисуса",
+     "Моисея",
+     "Иоанна"
+    ],
+    "tr": [
+     "Elçilerin İşleri 3'te Petrus'a göre halkın Pilatus'un önünde inkâr ettiği kişi kimdi?",
+     "İsa",
+     "Musa",
+     "Yuhanna"
+    ],
+    "ja": [
+     "使徒言行録3章で、ペトロによれば民がピラトの前で拒んだのは誰ですか？",
+     "イエス",
+     "モーセ",
+     "ヨハネ"
+    ],
+    "ko": [
+     "사도행전 3장에서, 베드로에 따르면 백성이 빌라도 앞에서 부인한 이는 누구입니까?",
+     "예수님",
+     "모세",
+     "요한"
+    ],
+    "ar": [
+     "في أعمال الرسل 3، من أنكره الشعب أمام بيلاطس بحسب بطرس؟",
+     "يسوع",
+     "موسى",
+     "يوحنا"
+    ]
+   }
+  },
+  {
+   "id": "ch-acts-001-12",
+   "book": "acts",
+   "chapter": 3,
+   "difficulty": "medium",
+   "ref": "Acts 3:11",
+   "text": {
+    "en": [
+     "In Acts 3, whose portico did the amazed crowd run to?",
+     "Solomon",
+     "David",
+     "Herod"
+    ],
+    "es": [
+     "En Hechos 3, ¿de quién era el pórtico adonde corrió la multitud asombrada?",
+     "Salomón",
+     "David",
+     "Herodes"
+    ],
+    "pt": [
+     "Em Atos 3, de quem era o pórtico para onde correu a multidão admirada?",
+     "Salomão",
+     "Davi",
+     "Herodes"
+    ],
+    "fr": [
+     "Dans Actes 3, de qui était le portique où la foule stupéfaite accourut ?",
+     "Salomon",
+     "David",
+     "Hérode"
+    ],
+    "de": [
+     "In Apostelgeschichte 3, wessen Säulenhalle suchte die erstaunte Menge auf?",
+     "Salomo",
+     "David",
+     "Herodes"
+    ],
+    "it": [
+     "In Atti 3, di chi era il portico dove accorse la folla stupita?",
+     "Salomone",
+     "Davide",
+     "Erode"
+    ],
+    "pl": [
+     "W Dziejach Apostolskich 3, czyj przedsionek był miejscem, do którego zbiegł się zdumiony lud?",
+     "Salomon",
+     "Dawid",
+     "Herod"
+    ],
+    "ru": [
+     "В Деяниях 3, чей притвор был местом, куда сбежался изумлённый народ?",
+     "Соломон",
+     "Давид",
+     "Ирод"
+    ],
+    "tr": [
+     "Elçilerin İşleri 3'te şaşkına dönen halk kimin eyvanına koştu?",
+     "Süleyman",
+     "Davut",
+     "Hirodes"
+    ],
+    "ja": [
+     "使徒言行録3章で、驚いた民衆が駆け寄った回廊は誰の回廊ですか？",
+     "ソロモン",
+     "ダビデ",
+     "ヘロデ"
+    ],
+    "ko": [
+     "사도행전 3장에서, 놀란 백성이 달려간 주랑은 누구의 주랑입니까?",
+     "솔로몬",
+     "다윗",
+     "헤로데"
+    ],
+    "ar": [
+     "في أعمال الرسل 3، لمن كان الرواق الذي ركض إليه الجمع المندهش؟",
+     "سليمان",
+     "داود",
+     "هيرودس"
+    ]
+   }
+  },
+  {
+   "id": "ch-acts-001-13",
+   "book": "acts",
+   "chapter": 3,
+   "difficulty": "hard",
+   "ref": "Acts 3:22",
+   "text": {
+    "en": [
+     "In Acts 3, Peter said God would raise a prophet like whom?",
+     "Moses",
+     "Elijah",
+     "Isaiah"
+    ],
+    "es": [
+     "En Hechos 3, ¿a quién se parecería, según Pedro, el profeta que Dios suscitaría?",
+     "Moisés",
+     "Elías",
+     "Isaías"
+    ],
+    "pt": [
+     "Em Atos 3, a quem seria semelhante, segundo Pedro, o profeta que Deus suscitaria?",
+     "Moisés",
+     "Elias",
+     "Isaías"
+    ],
+    "fr": [
+     "Dans Actes 3, semblable à qui Pierre dit-il que Dieu susciterait un prophète ?",
+     "Moïse",
+     "Élie",
+     "Isaïe"
+    ],
+    "de": [
+     "In Apostelgeschichte 3, wem gleich werde Gott nach Petrus einen Propheten erwecken?",
+     "Mose",
+     "Elija",
+     "Jesaja"
+    ],
+    "it": [
+     "In Atti 3, simile a chi Pietro disse che Dio avrebbe suscitato un profeta?",
+     "Mosè",
+     "Elia",
+     "Isaia"
+    ],
+    "pl": [
+     "W Dziejach Apostolskich 3, na wzór kogo Bóg miał według Piotra wzbudzić proroka?",
+     "Mojżesza",
+     "Eliasza",
+     "Izajasza"
+    ],
+    "ru": [
+     "В Деяниях 3, подобного кому Пётр обещал пророка от Бога?",
+     "Моисею",
+     "Илии",
+     "Исаии"
+    ],
+    "tr": [
+     "Elçilerin İşleri 3'te Petrus'a göre Tanrı kim gibi bir peygamber çıkaracaktı?",
+     "Musa",
+     "İlyas",
+     "Yeşaya"
+    ],
+    "ja": [
+     "使徒言行録3章で、ペトロによれば神は誰のような預言者を立てますか？",
+     "モーセ",
+     "エリヤ",
+     "イザヤ"
+    ],
+    "ko": [
+     "사도행전 3장에서, 베드로에 따르면 하느님께서는 누구와 같은 예언자를 일으키십니까?",
+     "모세",
+     "엘리야",
+     "이사야"
+    ],
+    "ar": [
+     "في أعمال الرسل 3، مثل من قال بطرس إن الله سيقيم نبيًا؟",
+     "موسى",
+     "إيليا",
+     "إشعيا"
+    ]
+   }
+  },
+  {
+   "id": "ch-acts-001-14",
+   "book": "acts",
+   "chapter": 3,
+   "difficulty": "expert",
+   "ref": "Acts 3:17",
+   "text": {
+    "en": [
+     "In Acts 3, what did Peter say explained the rulers' deed?",
+     "Ignorance",
+     "Envy",
+     "Fear"
+    ],
+    "es": [
+     "En Hechos 3, ¿qué explicó, según Pedro, el obrar de los jefes?",
+     "Ignorancia",
+     "Envidia",
+     "Miedo"
+    ],
+    "pt": [
+     "Em Atos 3, o que explicou, segundo Pedro, o agir dos chefes?",
+     "Ignorância",
+     "Inveja",
+     "Medo"
+    ],
+    "fr": [
+     "Dans Actes 3, qu'est-ce qui expliquait, selon Pierre, l'acte des chefs ?",
+     "Ignorance",
+     "Jalousie",
+     "Peur"
+    ],
+    "de": [
+     "In Apostelgeschichte 3, was erklärte nach Petrus die Tat der Vorsteher?",
+     "Unwissenheit",
+     "Neid",
+     "Angst"
+    ],
+    "it": [
+     "In Atti 3, che cosa spiegava, secondo Pietro, l'azione dei capi?",
+     "Ignoranza",
+     "Invidia",
+     "Paura"
+    ],
+    "pl": [
+     "W Dziejach Apostolskich 3, co według Piotra tłumaczyło postępek przywódców?",
+     "Nieświadomość",
+     "Zazdrość",
+     "Strach"
+    ],
+    "ru": [
+     "В Деяниях 3, что, по словам Петра, объясняло поступок начальников?",
+     "Неведение",
+     "Зависть",
+     "Страх"
+    ],
+    "tr": [
+     "Elçilerin İşleri 3'te Petrus'a göre yöneticilerin yaptığını ne açıklıyordu?",
+     "Cehalet",
+     "Kıskançlık",
+     "Korku"
+    ],
+    "ja": [
+     "使徒言行録3章で、ペトロによれば指導者たちの行いの理由は何でしたか？",
+     "無知",
+     "妬み",
+     "恐れ"
+    ],
+    "ko": [
+     "사도행전 3장에서, 베드로에 따르면 지도자들의 행위는 무엇 때문이었습니까?",
+     "무지",
+     "시기",
+     "두려움"
+    ],
+    "ar": [
+     "في أعمال الرسل 3، ما الذي فسّر بحسب بطرس فعل الرؤساء؟",
+     "جهل",
+     "حسد",
+     "خوف"
+    ]
+   }
+  },
+  {
+   "id": "ch-acts-001-15",
+   "book": "acts",
+   "chapter": 3,
+   "difficulty": "impossible",
+   "ref": "Acts 3:24",
+   "text": {
+    "en": [
+     "In Acts 3, Peter said all prophets from which prophet onward foretold these days?",
+     "Samuel",
+     "Elijah",
+     "Isaiah"
+    ],
+    "es": [
+     "En Hechos 3, ¿desde qué profeta en adelante anunciaron todos los profetas estos días?",
+     "Samuel",
+     "Elías",
+     "Isaías"
+    ],
+    "pt": [
+     "Em Atos 3, a partir de que profeta todos os profetas anunciaram estes dias?",
+     "Samuel",
+     "Elias",
+     "Isaías"
+    ],
+    "fr": [
+     "Dans Actes 3, à partir de quel prophète tous les prophètes ont-ils annoncé ces jours ?",
+     "Samuel",
+     "Élie",
+     "Isaïe"
+    ],
+    "de": [
+     "In Apostelgeschichte 3, ab welchem Propheten kündigten alle Propheten diese Tage an?",
+     "Samuel",
+     "Elija",
+     "Jesaja"
+    ],
+    "it": [
+     "In Atti 3, a partire da quale profeta tutti i profeti annunciarono questi giorni?",
+     "Samuele",
+     "Elia",
+     "Isaia"
+    ],
+    "pl": [
+     "W Dziejach Apostolskich 3, który prorok według Piotra rozpoczyna szereg proroków zapowiadających te dni?",
+     "Samuel",
+     "Eliasz",
+     "Izajasz"
+    ],
+    "ru": [
+     "В Деяниях 3, какой пророк, по словам Петра, начинает ряд пророков, возвестивших эти дни?",
+     "Самуил",
+     "Илия",
+     "Исаия"
+    ],
+    "tr": [
+     "Elçilerin İşleri 3'te Petrus'a göre, bütün peygamberlerin bu günleri duyurmasında başlangıç sayılan peygamber kimdi?",
+     "Samuel",
+     "İlyas",
+     "Yeşaya"
+    ],
+    "ja": [
+     "使徒言行録3章で、どの預言者以来すべての預言者がこの時を告げましたか？",
+     "サムエル",
+     "エリヤ",
+     "イザヤ"
+    ],
+    "ko": [
+     "사도행전 3장에서, 어느 예언자 이래 모든 예언자가 이날들을 예고했습니까?",
+     "사무엘",
+     "엘리야",
+     "이사야"
+    ],
+    "ar": [
+     "في أعمال الرسل 3، منذ أي نبي أعلن كل الأنبياء هذه الأيام؟",
+     "صموئيل",
+     "إيليا",
+     "إشعيا"
+    ]
+   }
+  },
+  {
+   "id": "ch-acts-001-16",
+   "book": "acts",
+   "chapter": 4,
+   "difficulty": "easy",
+   "ref": "Acts 4:11",
+   "text": {
+    "en": [
+     "In Acts 4, the stone rejected by whom did Peter say became the cornerstone?",
+     "Builders",
+     "Soldiers",
+     "Shepherds"
+    ],
+    "es": [
+     "En Hechos 4, ¿la piedra desechada por quiénes dijo Pedro que se hizo piedra angular?",
+     "Constructores",
+     "Soldados",
+     "Pastores"
+    ],
+    "pt": [
+     "Em Atos 4, a pedra rejeitada por quem Pedro disse que se tornou pedra angular?",
+     "Construtores",
+     "Soldados",
+     "Pastores"
+    ],
+    "fr": [
+     "Dans Actes 4, la pierre rejetée par qui, dit Pierre, est devenue pierre d'angle ?",
+     "Bâtisseurs",
+     "Soldats",
+     "Bergers"
+    ],
+    "de": [
+     "In Apostelgeschichte 4, wer hat den Stein verworfen, der nach Petrus zum Eckstein wurde?",
+     "Bauleute",
+     "Soldaten",
+     "Hirten"
+    ],
+    "it": [
+     "In Atti 4, la pietra scartata da chi, disse Pietro, è divenuta pietra d'angolo?",
+     "Costruttori",
+     "Soldati",
+     "Pastori"
+    ],
+    "pl": [
+     "W Dziejach Apostolskich 4, przez kogo odrzucony kamień stał się według Piotra węgielnym?",
+     "Budowniczych",
+     "Żołnierzy",
+     "Pasterzy"
+    ],
+    "ru": [
+     "В Деяниях 4, кем был отвергнут камень, ставший, по словам Петра, главою угла?",
+     "Строителями",
+     "Воинами",
+     "Пастухами"
+    ],
+    "tr": [
+     "Elçilerin İşleri 4'te Petrus'a göre köşe taşı olan taş kimler tarafından reddedildi?",
+     "Yapıcılar",
+     "Askerler",
+     "Çobanlar"
+    ],
+    "ja": [
+     "使徒言行録4章で、ペトロによれば隅の親石となった石を捨てたのは誰ですか？",
+     "建築者",
+     "兵士",
+     "羊飼い"
+    ],
+    "ko": [
+     "사도행전 4장에서, 베드로에 따르면 모퉁이의 머릿돌이 된 돌을 버린 이들은 누구입니까?",
+     "건축자들",
+     "군인들",
+     "목자들"
+    ],
+    "ar": [
+     "في أعمال الرسل 4، من رفض الحجر الذي صار رأس الزاوية بحسب بطرس؟",
+     "بنّاؤون",
+     "جنود",
+     "رعاة"
+    ]
+   }
+  },
+  {
+   "id": "ch-acts-001-17",
+   "book": "acts",
+   "chapter": 4,
+   "difficulty": "medium",
+   "ref": "Acts 4:1",
+   "text": {
+    "en": [
+     "In Acts 4, which Jewish group joined the priests in confronting Peter and John?",
+     "Sadducees",
+     "Pharisees",
+     "Essenes"
+    ],
+    "es": [
+     "En Hechos 4, ¿qué grupo judío se unió a los sacerdotes contra Pedro y Juan?",
+     "Saduceos",
+     "Fariseos",
+     "Esenios"
+    ],
+    "pt": [
+     "Em Atos 4, que grupo judeu se juntou aos sacerdotes contra Pedro e João?",
+     "Saduceus",
+     "Fariseus",
+     "Essênios"
+    ],
+    "fr": [
+     "Dans Actes 4, quel groupe juif s'est joint aux prêtres contre Pierre et Jean ?",
+     "Sadducéens",
+     "Pharisiens",
+     "Esséniens"
+    ],
+    "de": [
+     "In Apostelgeschichte 4, welche jüdische Gruppe trat mit den Priestern gegen Petrus und Johannes auf?",
+     "Sadduzäer",
+     "Pharisäer",
+     "Essener"
+    ],
+    "it": [
+     "In Atti 4, quale gruppo giudaico si unì ai sacerdoti contro Pietro e Giovanni?",
+     "Sadducei",
+     "Farisei",
+     "Esseni"
+    ],
+    "pl": [
+     "W Dziejach Apostolskich 4, które żydowskie ugrupowanie stanęło z kapłanami przeciw Piotrowi i Janowi?",
+     "Saduceusze",
+     "Faryzeusze",
+     "Esseńczycy"
+    ],
+    "ru": [
+     "В Деяниях 4, какая иудейская группа вместе со священниками выступила против Петра и Иоанна?",
+     "Саддукеи",
+     "Фарисеи",
+     "Ессеи"
+    ],
+    "tr": [
+     "Elçilerin İşleri 4'te hangi Yahudi grubu kâhinlerle birlikte Petrus ve Yuhanna'ya karşı çıktı?",
+     "Sadukiler",
+     "Ferisiler",
+     "Esseniler"
+    ],
+    "ja": [
+     "使徒言行録4章で、祭司たちと共にペトロとヨハネに近づいたユダヤ人の派はどれですか？",
+     "サドカイ派",
+     "ファリサイ派",
+     "エッセネ派"
+    ],
+    "ko": [
+     "사도행전 4장에서, 사제들과 함께 베드로와 요한에게 다가온 유다인 집단은 무엇입니까?",
+     "사두가이파",
+     "바리사이파",
+     "에세네파"
+    ],
+    "ar": [
+     "في أعمال الرسل 4، أي فرقة يهودية انضمت إلى الكهنة ضد بطرس ويوحنا؟",
+     "صدوقيون",
+     "فريسيون",
+     "أسّينيون"
+    ]
+   }
+  },
+  {
+   "id": "ch-acts-001-18",
+   "book": "acts",
+   "chapter": 4,
+   "difficulty": "hard",
+   "ref": "Acts 4:6",
+   "text": {
+    "en": [
+     "In Acts 4, which high priest, with Caiaphas, questioned Peter and John?",
+     "Annas",
+     "Gamaliel",
+     "Ananias"
+    ],
+    "es": [
+     "En Hechos 4, ¿qué sumo sacerdote, junto con Caifás, interrogó a Pedro y a Juan?",
+     "Anás",
+     "Gamaliel",
+     "Ananías"
+    ],
+    "pt": [
+     "Em Atos 4, que sumo sacerdote, com Caifás, interrogou Pedro e João?",
+     "Anás",
+     "Gamaliel",
+     "Ananias"
+    ],
+    "fr": [
+     "Dans Actes 4, quel grand prêtre, avec Caïphe, interrogea Pierre et Jean ?",
+     "Anne",
+     "Gamaliel",
+     "Ananie"
+    ],
+    "de": [
+     "In Apostelgeschichte 4, welcher Hohepriester verhörte mit Kajaphas Petrus und Johannes?",
+     "Hannas",
+     "Gamaliel",
+     "Hananias"
+    ],
+    "it": [
+     "In Atti 4, quale sommo sacerdote, con Caifa, interrogò Pietro e Giovanni?",
+     "Anna",
+     "Gamaliele",
+     "Anania"
+    ],
+    "pl": [
+     "W Dziejach Apostolskich 4, który arcykapłan wraz z Kajfaszem przesłuchiwał Piotra i Jana?",
+     "Annasz",
+     "Gamaliel",
+     "Ananiasz"
+    ],
+    "ru": [
+     "В Деяниях 4, какой первосвященник вместе с Каиафой допрашивал Петра и Иоанна?",
+     "Анна",
+     "Гамалиил",
+     "Анания"
+    ],
+    "tr": [
+     "Elçilerin İşleri 4'te Kayafa ile birlikte Petrus ve Yuhanna'yı sorgulayan başkâhin kimdi?",
+     "Hanna",
+     "Gamaliel",
+     "Ananya"
+    ],
+    "ja": [
+     "使徒言行録4章で、カイアファと共にペトロとヨハネを尋問した大祭司は誰ですか？",
+     "アンナス",
+     "ガマリエル",
+     "アナニア"
+    ],
+    "ko": [
+     "사도행전 4장에서, 카야파와 함께 베드로와 요한을 심문한 대사제는 누구입니까?",
+     "한나스",
+     "가믈리엘",
+     "하나니아"
+    ],
+    "ar": [
+     "في أعمال الرسل 4، أي رئيس كهنة مع قيافا استجوب بطرس ويوحنا؟",
+     "حنان",
+     "غمالائيل",
+     "حنانيا"
+    ]
+   }
+  },
+  {
+   "id": "ch-acts-001-19",
+   "book": "acts",
+   "chapter": 4,
+   "difficulty": "expert",
+   "ref": "Acts 4:27",
+   "text": {
+    "en": [
+     "In Acts 4, which Roman governor did the believers' prayer name with Herod?",
+     "Pilate",
+     "Felix",
+     "Festus"
+    ],
+    "es": [
+     "En Hechos 4, ¿qué gobernador romano nombra la oración de los creyentes junto con Herodes?",
+     "Pilato",
+     "Félix",
+     "Festo"
+    ],
+    "pt": [
+     "Em Atos 4, que governador romano a oração dos fiéis cita junto com Herodes?",
+     "Pilatos",
+     "Félix",
+     "Festo"
+    ],
+    "fr": [
+     "Dans Actes 4, quel gouverneur romain la prière des croyants nomme-t-elle avec Hérode ?",
+     "Pilate",
+     "Félix",
+     "Festus"
+    ],
+    "de": [
+     "In Apostelgeschichte 4, welchen römischen Statthalter nennt das Gebet der Gläubigen neben Herodes?",
+     "Pilatus",
+     "Felix",
+     "Festus"
+    ],
+    "it": [
+     "In Atti 4, quale governatore romano cita la preghiera dei credenti insieme a Erode?",
+     "Pilato",
+     "Felice",
+     "Festo"
+    ],
+    "pl": [
+     "W Dziejach Apostolskich 4, którego rzymskiego namiestnika wymienia modlitwa wierzących obok Heroda?",
+     "Piłata",
+     "Feliksa",
+     "Festusa"
+    ],
+    "ru": [
+     "В Деяниях 4, какого римского правителя наряду с Иродом называет молитва верующих?",
+     "Пилата",
+     "Феликса",
+     "Феста"
+    ],
+    "tr": [
+     "Elçilerin İşleri 4'te müminlerin duasının Hirodes'le birlikte andığı Romalı vali kimdir?",
+     "Pilatus",
+     "Feliks",
+     "Festus"
+    ],
+    "ja": [
+     "使徒言行録4章で、信者たちの祈りがヘロデと並べて挙げるローマの総督は誰ですか？",
+     "ピラト",
+     "フェリクス",
+     "フェストゥス"
+    ],
+    "ko": [
+     "사도행전 4장에서, 신자들의 기도가 헤로데와 함께 언급하는 로마 총독은 누구입니까?",
+     "빌라도",
+     "펠릭스",
+     "페스투스"
+    ],
+    "ar": [
+     "في أعمال الرسل 4، أي والٍ روماني تذكره صلاة المؤمنين مع هيرودس؟",
+     "بيلاطس",
+     "فيلكس",
+     "فستوس"
+    ]
+   }
+  },
+  {
+   "id": "ch-acts-001-20",
+   "book": "acts",
+   "chapter": 4,
+   "difficulty": "impossible",
+   "ref": "Acts 4:22",
+   "text": {
+    "en": [
+     "In Acts 4, the man healed by Peter was over how many years old?",
+     "40",
+     "30",
+     "50"
+    ],
+    "es": [
+     "En Hechos 4, ¿de más de cuántos años era el hombre curado por Pedro?",
+     "40",
+     "30",
+     "50"
+    ],
+    "pt": [
+     "Em Atos 4, de mais de quantos anos era o homem curado por Pedro?",
+     "40",
+     "30",
+     "50"
+    ],
+    "fr": [
+     "Dans Actes 4, l'homme guéri par Pierre avait plus de combien d'années ?",
+     "40",
+     "30",
+     "50"
+    ],
+    "de": [
+     "In Apostelgeschichte 4, mehr als wie viele Jahre zählte der von Petrus geheilte Mann?",
+     "40",
+     "30",
+     "50"
+    ],
+    "it": [
+     "In Atti 4, di più di quanti anni era l'uomo guarito da Pietro?",
+     "40",
+     "30",
+     "50"
+    ],
+    "pl": [
+     "W Dziejach Apostolskich 4, ponad ile lat miał uzdrowiony przez Piotra człowiek?",
+     "40",
+     "30",
+     "50"
+    ],
+    "ru": [
+     "В Деяниях 4, сколько с лишним лет было исцелённому Петром человеку?",
+     "40",
+     "30",
+     "50"
+    ],
+    "tr": [
+     "Elçilerin İşleri 4'te Petrus'un iyileştirdiği adam kaç yaşını geçmişti?",
+     "40",
+     "30",
+     "50"
+    ],
+    "ja": [
+     "使徒言行録4章で、ペトロにいやされた男は何歳を超えていましたか？",
+     "40",
+     "30",
+     "50"
+    ],
+    "ko": [
+     "사도행전 4장에서, 베드로가 고쳐 준 사람은 몇 살이 넘었습니까?",
+     "40",
+     "30",
+     "50"
+    ],
+    "ar": [
+     "في أعمال الرسل 4، كم سنة تجاوز عمر الرجل الذي شفاه بطرس؟",
+     "40",
+     "30",
+     "50"
+    ]
+   }
+  },
+  {
+   "id": "ch-acts-001-21",
+   "book": "acts",
+   "chapter": 5,
+   "difficulty": "easy",
+   "ref": "Acts 5:19",
+   "text": {
+    "en": [
+     "In Acts 5, who opened the prison doors at night for the apostles?",
+     "Angel",
+     "Guard",
+     "Priest"
+    ],
+    "es": [
+     "En Hechos 5, ¿quién abrió de noche las puertas de la cárcel a los apóstoles?",
+     "Ángel",
+     "Guardia",
+     "Sacerdote"
+    ],
+    "pt": [
+     "Em Atos 5, quem abriu de noite as portas da prisão aos apóstolos?",
+     "Anjo",
+     "Guarda",
+     "Sacerdote"
+    ],
+    "fr": [
+     "Dans Actes 5, qui ouvrit de nuit les portes de la prison aux apôtres ?",
+     "Ange",
+     "Garde",
+     "Prêtre"
+    ],
+    "de": [
+     "In Apostelgeschichte 5, wer öffnete nachts den Aposteln die Gefängnistüren?",
+     "Engel",
+     "Wächter",
+     "Priester"
+    ],
+    "it": [
+     "In Atti 5, chi aprì di notte le porte del carcere agli apostoli?",
+     "Angelo",
+     "Guardia",
+     "Sacerdote"
+    ],
+    "pl": [
+     "W Dziejach Apostolskich 5, kto w nocy otworzył apostołom drzwi więzienia?",
+     "Anioł",
+     "Strażnik",
+     "Kapłan"
+    ],
+    "ru": [
+     "В Деяниях 5, кто ночью отворил апостолам двери темницы?",
+     "Ангел",
+     "Стражник",
+     "Священник"
+    ],
+    "tr": [
+     "Elçilerin İşleri 5'te geceleyin elçiler için zindan kapılarını kim açtı?",
+     "Melek",
+     "Gardiyan",
+     "Kâhin"
+    ],
+    "ja": [
+     "使徒言行録5章で、夜に使徒たちのため牢の戸を開けたのは誰ですか？",
+     "天使",
+     "看守",
+     "祭司"
+    ],
+    "ko": [
+     "사도행전 5장에서, 밤에 사도들을 위해 감옥 문을 연 이는 누구입니까?",
+     "천사",
+     "간수",
+     "사제"
+    ],
+    "ar": [
+     "في أعمال الرسل 5، من فتح ليلًا أبواب السجن للرسل؟",
+     "ملاك",
+     "حارس",
+     "كاهن"
+    ]
+   }
+  },
+  {
+   "id": "ch-acts-001-22",
+   "book": "acts",
+   "chapter": 5,
+   "difficulty": "medium",
+   "ref": "Acts 5:1",
+   "text": {
+    "en": [
+     "In Acts 5, what was the name of Ananias's wife?",
+     "Sapphira",
+     "Lydia",
+     "Priscilla"
+    ],
+    "es": [
+     "En Hechos 5, ¿cómo se llamaba la mujer de Ananías?",
+     "Safira",
+     "Lidia",
+     "Priscila"
+    ],
+    "pt": [
+     "Em Atos 5, qual era o nome da mulher de Ananias?",
+     "Safira",
+     "Lídia",
+     "Priscila"
+    ],
+    "fr": [
+     "Dans Actes 5, comment s'appelait la femme d'Ananie ?",
+     "Saphire",
+     "Lydie",
+     "Priscille"
+    ],
+    "de": [
+     "In Apostelgeschichte 5, wie hieß die Frau des Hananias?",
+     "Saphira",
+     "Lydia",
+     "Priszilla"
+    ],
+    "it": [
+     "In Atti 5, come si chiamava la moglie di Anania?",
+     "Saffira",
+     "Lidia",
+     "Priscilla"
+    ],
+    "pl": [
+     "W Dziejach Apostolskich 5, jak miała na imię żona Ananiasza?",
+     "Safira",
+     "Lidia",
+     "Pryscylla"
+    ],
+    "ru": [
+     "В Деяниях 5, как звали жену Анании?",
+     "Сапфира",
+     "Лидия",
+     "Прискилла"
+    ],
+    "tr": [
+     "Elçilerin İşleri 5'te Ananya'nın karısının adı neydi?",
+     "Safira",
+     "Lidya",
+     "Priskilla"
+    ],
+    "ja": [
+     "使徒言行録5章で、アナニアの妻の名は何ですか？",
+     "サフィラ",
+     "リディア",
+     "プリスキラ"
+    ],
+    "ko": [
+     "사도행전 5장에서, 하나니아의 아내 이름은 무엇입니까?",
+     "사피라",
+     "리디아",
+     "프리스킬라"
+    ],
+    "ar": [
+     "في أعمال الرسل 5، ما اسم زوجة حنانيا؟",
+     "سفيرة",
+     "ليدية",
+     "بريسكلا"
+    ]
+   }
+  },
+  {
+   "id": "ch-acts-001-23",
+   "book": "acts",
+   "chapter": 5,
+   "difficulty": "hard",
+   "ref": "Acts 5:34",
+   "text": {
+    "en": [
+     "In Acts 5, which Pharisee in the Sanhedrin urged caution about the apostles?",
+     "Gamaliel",
+     "Caiaphas",
+     "Annas"
+    ],
+    "es": [
+     "En Hechos 5, ¿qué fariseo del Sanedrín aconsejó prudencia sobre los apóstoles?",
+     "Gamaliel",
+     "Caifás",
+     "Anás"
+    ],
+    "pt": [
+     "Em Atos 5, que fariseu do Sinédrio aconselhou prudência quanto aos apóstolos?",
+     "Gamaliel",
+     "Caifás",
+     "Anás"
+    ],
+    "fr": [
+     "Dans Actes 5, quel pharisien du Sanhédrin conseilla la prudence au sujet des apôtres ?",
+     "Gamaliel",
+     "Caïphe",
+     "Anne"
+    ],
+    "de": [
+     "In Apostelgeschichte 5, welcher Pharisäer im Hohen Rat riet im Fall der Apostel zur Vorsicht?",
+     "Gamaliel",
+     "Kajaphas",
+     "Hannas"
+    ],
+    "it": [
+     "In Atti 5, quale fariseo del sinedrio consigliò prudenza riguardo agli apostoli?",
+     "Gamaliele",
+     "Caifa",
+     "Anna"
+    ],
+    "pl": [
+     "W Dziejach Apostolskich 5, który faryzeusz w Sanhedrynie radził ostrożność wobec apostołów?",
+     "Gamaliel",
+     "Kajfasz",
+     "Annasz"
+    ],
+    "ru": [
+     "В Деяниях 5, какой фарисей в синедрионе советовал осторожность относительно апостолов?",
+     "Гамалиил",
+     "Каиафа",
+     "Анна"
+    ],
+    "tr": [
+     "Elçilerin İşleri 5'te Yüksek Kurul'da elçiler konusunda ihtiyat öneren Ferisi kimdi?",
+     "Gamaliel",
+     "Kayafa",
+     "Hanna"
+    ],
+    "ja": [
+     "使徒言行録5章で、最高法院で使徒たちについて慎重さを勧めたファリサイ派の人は誰ですか？",
+     "ガマリエル",
+     "カイアファ",
+     "アンナス"
+    ],
+    "ko": [
+     "사도행전 5장에서, 의회에서 사도들에 대해 신중함을 권한 바리사이는 누구입니까?",
+     "가믈리엘",
+     "카야파",
+     "한나스"
+    ],
+    "ar": [
+     "في أعمال الرسل 5، أي فريسي في المجلس نصح بالتروّي بشأن الرسل؟",
+     "غمالائيل",
+     "قيافا",
+     "حنان"
+    ]
+   }
+  },
+  {
+   "id": "ch-acts-001-24",
+   "book": "acts",
+   "chapter": 5,
+   "difficulty": "expert",
+   "ref": "Acts 5:37",
+   "text": {
+    "en": [
+     "In Acts 5, Gamaliel said Judas, another rebel, came from which region?",
+     "Galilee",
+     "Samaria",
+     "Judea"
+    ],
+    "es": [
+     "En Hechos 5, ¿de qué región era Judas, otro rebelde mencionado por Gamaliel?",
+     "Galilea",
+     "Samaria",
+     "Judea"
+    ],
+    "pt": [
+     "Em Atos 5, de que região era Judas, outro rebelde citado por Gamaliel?",
+     "Galileia",
+     "Samaria",
+     "Judeia"
+    ],
+    "fr": [
+     "Dans Actes 5, de quelle région était Judas, autre rebelle cité par Gamaliel ?",
+     "Galilée",
+     "Samarie",
+     "Judée"
+    ],
+    "de": [
+     "In Apostelgeschichte 5, aus welcher Landschaft stammte der von Gamaliel genannte Rebell Judas?",
+     "Galiläa",
+     "Samarien",
+     "Judäa"
+    ],
+    "it": [
+     "In Atti 5, di quale regione era Giuda, altro ribelle citato da Gamaliele?",
+     "Galilea",
+     "Samaria",
+     "Giudea"
+    ],
+    "pl": [
+     "W Dziejach Apostolskich 5, z jakiej krainy pochodził Judasz, inny buntownik wspomniany przez Gamaliela?",
+     "Galilea",
+     "Samaria",
+     "Judea"
+    ],
+    "ru": [
+     "В Деяниях 5, из какой области был Иуда, другой мятежник, названный Гамалиилом?",
+     "Галилея",
+     "Самария",
+     "Иудея"
+    ],
+    "tr": [
+     "Elçilerin İşleri 5'te Gamaliel'in andığı isyancı Yahuda'nın geldiği bölge hangisiydi?",
+     "Celile",
+     "Samiriye",
+     "Yahudiye"
+    ],
+    "ja": [
+     "使徒言行録5章で、ガマリエルが挙げた反逆者ユダはどの地方の出身ですか？",
+     "ガリラヤ",
+     "サマリア",
+     "ユダヤ"
+    ],
+    "ko": [
+     "사도행전 5장에서, 가믈리엘이 언급한 반란자 유다는 어느 지방 사람입니까?",
+     "갈릴래아",
+     "사마리아",
+     "유다"
+    ],
+    "ar": [
+     "في أعمال الرسل 5، من أي إقليم كان يهوذا الثائر الذي ذكره غمالائيل؟",
+     "الجليل",
+     "السامرة",
+     "اليهودية"
+    ]
+   }
+  },
+  {
+   "id": "ch-acts-001-25",
+   "book": "acts",
+   "chapter": 5,
+   "difficulty": "impossible",
+   "ref": "Acts 5:36",
+   "text": {
+    "en": [
+     "In Acts 5, about how many men joined Theudas's rebellion?",
+     "400",
+     "40",
+     "4000"
+    ],
+    "es": [
+     "En Hechos 5, ¿cuántos hombres se unieron aproximadamente a Teudas?",
+     "400",
+     "40",
+     "4000"
+    ],
+    "pt": [
+     "Em Atos 5, quantos homens se juntaram aproximadamente a Teudas?",
+     "400",
+     "40",
+     "4000"
+    ],
+    "fr": [
+     "Dans Actes 5, environ combien d'hommes se joignirent à Theudas ?",
+     "400",
+     "40",
+     "4000"
+    ],
+    "de": [
+     "In Apostelgeschichte 5, etwa wie viele Männer schlossen sich Theudas an?",
+     "400",
+     "40",
+     "4000"
+    ],
+    "it": [
+     "In Atti 5, circa quanti uomini si unirono a Teuda?",
+     "400",
+     "40",
+     "4000"
+    ],
+    "pl": [
+     "W Dziejach Apostolskich 5, ilu mężczyzn przyłączyło się mniej więcej do Teudasa?",
+     "400",
+     "40",
+     "4000"
+    ],
+    "ru": [
+     "В Деяниях 5, сколько примерно человек присоединилось к Февде?",
+     "400",
+     "40",
+     "4000"
+    ],
+    "tr": [
+     "Elçilerin İşleri 5'te Teudas'a yaklaşık kaç kişi katıldı?",
+     "400",
+     "40",
+     "4000"
+    ],
+    "ja": [
+     "使徒言行録5章で、テウダにおよそ何人が加わりましたか？",
+     "400",
+     "40",
+     "4000"
+    ],
+    "ko": [
+     "사도행전 5장에서, 테우다스에게 약 몇 명이 가담했습니까?",
+     "400",
+     "40",
+     "4000"
+    ],
+    "ar": [
+     "في أعمال الرسل 5، كم رجلًا تقريبًا انضمّ إلى ثوداس؟",
+     "400",
+     "40",
+     "4000"
+    ]
+   }
+  },
+  {
+   "id": "ch-acts-001-26",
+   "book": "acts",
+   "chapter": 6,
+   "difficulty": "easy",
+   "ref": "Acts 6:8",
+   "text": {
+    "en": [
+     "In Acts 6, which man full of grace performed great wonders among the people?",
+     "Stephen",
+     "Titus",
+     "Apollos"
+    ],
+    "es": [
+     "En Hechos 6, ¿qué hombre lleno de gracia hacía grandes prodigios entre el pueblo?",
+     "Esteban",
+     "Tito",
+     "Apolo"
+    ],
+    "pt": [
+     "Em Atos 6, que homem cheio de graça fazia grandes prodígios entre o povo?",
+     "Estêvão",
+     "Tito",
+     "Apolo"
+    ],
+    "fr": [
+     "Dans Actes 6, quel homme plein de grâce accomplissait de grands prodiges parmi le peuple ?",
+     "Étienne",
+     "Tite",
+     "Apollos"
+    ],
+    "de": [
+     "In Apostelgeschichte 6, welcher Mann voll Gnade wirkte große Wunder unter dem Volk?",
+     "Stephanus",
+     "Titus",
+     "Apollos"
+    ],
+    "it": [
+     "In Atti 6, quale uomo pieno di grazia faceva grandi prodigi tra il popolo?",
+     "Stefano",
+     "Tito",
+     "Apollo"
+    ],
+    "pl": [
+     "W Dziejach Apostolskich 6, który mąż pełen łaski czynił wielkie cuda wśród ludu?",
+     "Szczepan",
+     "Tytus",
+     "Apollos"
+    ],
+    "ru": [
+     "В Деяниях 6, какой исполненный благодати муж совершал великие чудеса в народе?",
+     "Стефан",
+     "Тит",
+     "Аполлос"
+    ],
+    "tr": [
+     "Elçilerin İşleri 6'da lütufla dolu hangi adam halkın arasında büyük harikalar yaptı?",
+     "Stefanos",
+     "Titus",
+     "Apollos"
+    ],
+    "ja": [
+     "使徒言行録6章で、恵みに満ちて民の間で大きな不思議を行った人は誰ですか？",
+     "ステファノ",
+     "テトス",
+     "アポロ"
+    ],
+    "ko": [
+     "사도행전 6장에서, 은총이 가득하여 백성 가운데 큰 기적을 행한 사람은 누구입니까?",
+     "스테파노",
+     "티토",
+     "아폴로"
+    ],
+    "ar": [
+     "في أعمال الرسل 6، أي رجل ممتلئ نعمة صنع عجائب عظيمة بين الشعب؟",
+     "استفانوس",
+     "تيطس",
+     "أبلّوس"
+    ]
+   }
+  },
+  {
+   "id": "ch-acts-001-27",
+   "book": "acts",
+   "chapter": 6,
+   "difficulty": "medium",
+   "ref": "Acts 6:15",
+   "text": {
+    "en": [
+     "In Acts 6, Stephen's face looked like that of what being?",
+     "Angel",
+     "Child",
+     "King"
+    ],
+    "es": [
+     "En Hechos 6, ¿el rostro de Esteban parecía el de qué ser?",
+     "Ángel",
+     "Niño",
+     "Rey"
+    ],
+    "pt": [
+     "Em Atos 6, o rosto de Estêvão parecia o de que ser?",
+     "Anjo",
+     "Criança",
+     "Rei"
+    ],
+    "fr": [
+     "Dans Actes 6, le visage d'Étienne ressemblait à celui de quel être ?",
+     "Ange",
+     "Enfant",
+     "Roi"
+    ],
+    "de": [
+     "In Apostelgeschichte 6, wem glich das Gesicht des Stephanus vor dem Hohen Rat?",
+     "Engel",
+     "Kind",
+     "König"
+    ],
+    "it": [
+     "In Atti 6, il volto di Stefano sembrava quello di quale essere?",
+     "Angelo",
+     "Bambino",
+     "Re"
+    ],
+    "pl": [
+     "W Dziejach Apostolskich 6, do twarzy kogo podobna była twarz Szczepana?",
+     "Anioła",
+     "Dziecka",
+     "Króla"
+    ],
+    "ru": [
+     "В Деяниях 6, на лицо кого было похоже лицо Стефана?",
+     "Ангела",
+     "Ребёнка",
+     "Царя"
+    ],
+    "tr": [
+     "Elçilerin İşleri 6'da Stefanos'un yüzü hangi varlık gibi görünüyordu?",
+     "Melek",
+     "Çocuk",
+     "Kral"
+    ],
+    "ja": [
+     "使徒言行録6章で、ステファノの顔は何の顔のように見えましたか？",
+     "天使",
+     "子ども",
+     "王"
+    ],
+    "ko": [
+     "사도행전 6장에서, 스테파노의 얼굴은 누구의 얼굴 같았습니까?",
+     "천사",
+     "어린이",
+     "임금"
+    ],
+    "ar": [
+     "في أعمال الرسل 6، وجه أي كائن بدا وجه استفانوس؟",
+     "ملاك",
+     "طفل",
+     "ملك"
+    ]
+   }
+  },
+  {
+   "id": "ch-acts-001-28",
+   "book": "acts",
+   "chapter": 6,
+   "difficulty": "hard",
+   "ref": "Acts 6:5",
+   "text": {
+    "en": [
+     "In Acts 6, which of the seven chosen was a convert from Antioch?",
+     "Nicolaus",
+     "Barnabas",
+     "Silas"
+    ],
+    "es": [
+     "En Hechos 6, ¿cuál de los siete elegidos era un prosélito de Antioquía?",
+     "Nicolás",
+     "Bernabé",
+     "Silas"
+    ],
+    "pt": [
+     "Em Atos 6, qual dos sete escolhidos era um prosélito de Antioquia?",
+     "Nicolau",
+     "Barnabé",
+     "Silas"
+    ],
+    "fr": [
+     "Dans Actes 6, lequel des sept élus était un converti d'Antioche ?",
+     "Nicolas",
+     "Barnabé",
+     "Silas"
+    ],
+    "de": [
+     "In Apostelgeschichte 6, welcher der sieben Erwählten war ein Proselyt aus Antiochia?",
+     "Nikolaus",
+     "Barnabas",
+     "Silas"
+    ],
+    "it": [
+     "In Atti 6, quale dei sette eletti era un proselito di Antiochia?",
+     "Nicola",
+     "Barnaba",
+     "Sila"
+    ],
+    "pl": [
+     "W Dziejach Apostolskich 6, który z siedmiu wybranych był prozelitą z Antiochii?",
+     "Mikołaj",
+     "Barnaba",
+     "Sylas"
+    ],
+    "ru": [
+     "В Деяниях 6, кто из семи избранных был прозелитом из Антиохии?",
+     "Николай",
+     "Варнава",
+     "Сила"
+    ],
+    "tr": [
+     "Elçilerin İşleri 6'da seçilen yedi kişiden hangisi Antakyalı bir din değiştirmişti?",
+     "Nikolaos",
+     "Barnaba",
+     "Silas"
+    ],
+    "ja": [
+     "使徒言行録6章で、選ばれた七人のうちアンティオキア出身の改宗者は誰ですか？",
+     "ニコラオ",
+     "バルナバ",
+     "シラス"
+    ],
+    "ko": [
+     "사도행전 6장에서, 뽑힌 일곱 사람 가운데 안티오키아 출신 개종자는 누구입니까?",
+     "니콜라오",
+     "바르나바",
+     "실라스"
+    ],
+    "ar": [
+     "في أعمال الرسل 6، من من السبعة المختارين كان دخيلًا من أنطاكية؟",
+     "نقولاوس",
+     "برنابا",
+     "سيلا"
+    ]
+   }
+  },
+  {
+   "id": "ch-acts-001-29",
+   "book": "acts",
+   "chapter": 6,
+   "difficulty": "expert",
+   "ref": "Acts 6:7",
+   "text": {
+    "en": [
+     "In Acts 6, a great group of whom became obedient to the faith?",
+     "Priests",
+     "Soldiers",
+     "Fishermen"
+    ],
+    "es": [
+     "En Hechos 6, ¿un gran grupo de quiénes obedecía a la fe?",
+     "Sacerdotes",
+     "Soldados",
+     "Pescadores"
+    ],
+    "pt": [
+     "Em Atos 6, um grande grupo de quem obedecia à fé?",
+     "Sacerdotes",
+     "Soldados",
+     "Pescadores"
+    ],
+    "fr": [
+     "Dans Actes 6, un grand nombre de qui obéissaient à la foi ?",
+     "Prêtres",
+     "Soldats",
+     "Pêcheurs"
+    ],
+    "de": [
+     "In Apostelgeschichte 6, eine große Zahl welcher Personen nahm gehorsam den Glauben an?",
+     "Priester",
+     "Soldaten",
+     "Fischer"
+    ],
+    "it": [
+     "In Atti 6, un gran numero di chi aderiva alla fede?",
+     "Sacerdoti",
+     "Soldati",
+     "Pescatori"
+    ],
+    "pl": [
+     "W Dziejach Apostolskich 6, wielka liczba kogo przyjmowała wiarę?",
+     "Kapłanów",
+     "Żołnierzy",
+     "Rybaków"
+    ],
+    "ru": [
+     "В Деяниях 6, большое число кого покорялось вере?",
+     "Священников",
+     "Воинов",
+     "Рыбаков"
+    ],
+    "tr": [
+     "Elçilerin İşleri 6'da büyük bir kalabalık kimler imana boyun eğdi?",
+     "Kâhinler",
+     "Askerler",
+     "Balıkçılar"
+    ],
+    "ja": [
+     "使徒言行録6章で、大勢の誰が信仰に従いましたか？",
+     "祭司",
+     "兵士",
+     "漁師"
+    ],
+    "ko": [
+     "사도행전 6장에서, 큰 무리의 누가 믿음에 순종했습니까?",
+     "사제",
+     "군인",
+     "어부"
+    ],
+    "ar": [
+     "في أعمال الرسل 6، جمهور كبير من أي فئة أطاع الإيمان؟",
+     "كهنة",
+     "جنود",
+     "صيادون"
+    ]
+   }
+  },
+  {
+   "id": "ch-acts-001-30",
+   "book": "acts",
+   "chapter": 6,
+   "difficulty": "impossible",
+   "ref": "Acts 6:5",
+   "text": {
+    "en": [
+     "In Acts 6, which of these men was among the seven chosen?",
+     "Prochorus",
+     "Silas",
+     "Timothy"
+    ],
+    "es": [
+     "En Hechos 6, ¿cuál de estos hombres estaba entre los siete elegidos?",
+     "Prócoro",
+     "Silas",
+     "Timoteo"
+    ],
+    "pt": [
+     "Em Atos 6, qual destes homens estava entre os sete escolhidos?",
+     "Prócoro",
+     "Silas",
+     "Timóteo"
+    ],
+    "fr": [
+     "Dans Actes 6, lequel de ces hommes était parmi les sept élus ?",
+     "Prochore",
+     "Silas",
+     "Timothée"
+    ],
+    "de": [
+     "In Apostelgeschichte 6, welcher dieser Männer war unter den sieben Erwählten?",
+     "Prochorus",
+     "Silas",
+     "Timotheus"
+    ],
+    "it": [
+     "In Atti 6, quale di questi uomini era tra i sette eletti?",
+     "Pròcoro",
+     "Sila",
+     "Timoteo"
+    ],
+    "pl": [
+     "W Dziejach Apostolskich 6, który z tych mężów był wśród siedmiu wybranych?",
+     "Prochor",
+     "Sylas",
+     "Tymoteusz"
+    ],
+    "ru": [
+     "В Деяниях 6, кто из этих мужей был среди семи избранных?",
+     "Прохор",
+     "Сила",
+     "Тимофей"
+    ],
+    "tr": [
+     "Elçilerin İşleri 6'da bu adamlardan hangisi seçilen yedi kişi arasındaydı?",
+     "Prokoros",
+     "Silas",
+     "Timoteos"
+    ],
+    "ja": [
+     "使徒言行録6章で、次の人のうち選ばれた七人の中にいたのは誰ですか？",
+     "プロコロ",
+     "シラス",
+     "テモテ"
+    ],
+    "ko": [
+     "사도행전 6장에서, 다음 가운데 뽑힌 일곱 사람 중에 있던 이는 누구입니까?",
+     "프로코로",
+     "실라스",
+     "티모테오"
+    ],
+    "ar": [
+     "في أعمال الرسل 6، أي من هؤلاء كان بين السبعة المختارين؟",
+     "برخورس",
+     "سيلا",
+     "تيموثاوس"
+    ]
+   }
+  },
+  {
+   "id": "ch-acts-001-31",
+   "book": "acts",
+   "chapter": 7,
+   "difficulty": "easy",
+   "ref": "Acts 7:55",
+   "text": {
+    "en": [
+     "In Acts 7, whom did Stephen see standing at God's right hand?",
+     "Jesus",
+     "Moses",
+     "Elijah"
+    ],
+    "es": [
+     "En Hechos 7, ¿a quién vio Esteban de pie a la derecha de Dios?",
+     "Jesús",
+     "Moisés",
+     "Elías"
+    ],
+    "pt": [
+     "Em Atos 7, quem Estêvão viu de pé à direita de Deus?",
+     "Jesus",
+     "Moisés",
+     "Elias"
+    ],
+    "fr": [
+     "Dans Actes 7, qui Étienne vit-il debout à la droite de Dieu ?",
+     "Jésus",
+     "Moïse",
+     "Élie"
+    ],
+    "de": [
+     "In Apostelgeschichte 7, wen sah Stephanus zur Rechten Gottes stehen?",
+     "Jesus",
+     "Mose",
+     "Elija"
+    ],
+    "it": [
+     "In Atti 7, chi vide Stefano in piedi alla destra di Dio?",
+     "Gesù",
+     "Mosè",
+     "Elia"
+    ],
+    "pl": [
+     "W Dziejach Apostolskich 7, kogo ujrzał Szczepan stojącego po prawicy Boga?",
+     "Jezusa",
+     "Mojżesza",
+     "Eliasza"
+    ],
+    "ru": [
+     "В Деяниях 7, кого увидел Стефан стоящим одесную Бога?",
+     "Иисуса",
+     "Моисея",
+     "Илию"
+    ],
+    "tr": [
+     "Elçilerin İşleri 7'de Stefanos'un Tanrı'nın sağında ayakta gördüğü kişi kimdi?",
+     "İsa",
+     "Musa",
+     "İlyas"
+    ],
+    "ja": [
+     "使徒言行録7章で、ステファノは神の右に立つ誰を見ましたか？",
+     "イエス",
+     "モーセ",
+     "エリヤ"
+    ],
+    "ko": [
+     "사도행전 7장에서, 스테파노는 하느님의 오른쪽에 서 계신 누구를 보았습니까?",
+     "예수님",
+     "모세",
+     "엘리야"
+    ],
+    "ar": [
+     "في أعمال الرسل 7، من رأى استفانوس واقفًا عن يمين الله؟",
+     "يسوع",
+     "موسى",
+     "إيليا"
+    ]
+   }
+  },
+  {
+   "id": "ch-acts-001-32",
+   "book": "acts",
+   "chapter": 7,
+   "difficulty": "medium",
+   "ref": "Acts 7:2",
+   "text": {
+    "en": [
+     "In Acts 7, to whom did the God of glory appear in Mesopotamia?",
+     "Abraham",
+     "Isaac",
+     "Noah"
+    ],
+    "es": [
+     "En Hechos 7, ¿a quién se apareció el Dios de la gloria en Mesopotamia?",
+     "Abrahán",
+     "Isaac",
+     "Noé"
+    ],
+    "pt": [
+     "Em Atos 7, a quem apareceu o Deus da glória na Mesopotâmia?",
+     "Abraão",
+     "Isaac",
+     "Noé"
+    ],
+    "fr": [
+     "Dans Actes 7, à qui le Dieu de gloire apparut-il en Mésopotamie ?",
+     "Abraham",
+     "Isaac",
+     "Noé"
+    ],
+    "de": [
+     "In Apostelgeschichte 7, wem erschien der Gott der Herrlichkeit in Mesopotamien?",
+     "Abraham",
+     "Isaak",
+     "Noach"
+    ],
+    "it": [
+     "In Atti 7, a chi apparve il Dio della gloria in Mesopotamia?",
+     "Abramo",
+     "Isacco",
+     "Noè"
+    ],
+    "pl": [
+     "W Dziejach Apostolskich 7, komu ukazał się Bóg chwały w Mezopotamii?",
+     "Abrahamowi",
+     "Izaakowi",
+     "Noemu"
+    ],
+    "ru": [
+     "В Деяниях 7, кому явился Бог славы в Месопотамии?",
+     "Аврааму",
+     "Исааку",
+     "Ною"
+    ],
+    "tr": [
+     "Elçilerin İşleri 7'de Mezopotamya'da görkemin Tanrısı'nın göründüğü kişi kimdi?",
+     "İbrahim",
+     "İshak",
+     "Nuh"
+    ],
+    "ja": [
+     "使徒言行録7章で、栄光の神はメソポタミアで誰に現れましたか？",
+     "アブラハム",
+     "イサク",
+     "ノア"
+    ],
+    "ko": [
+     "사도행전 7장에서, 영광의 하느님께서 메소포타미아에서 누구에게 나타나셨습니까?",
+     "아브라함",
+     "이사악",
+     "노아"
+    ],
+    "ar": [
+     "في أعمال الرسل 7، لمن ظهر إله المجد في ما بين النهرين؟",
+     "إبراهيم",
+     "إسحاق",
+     "نوح"
+    ]
+   }
+  },
+  {
+   "id": "ch-acts-001-33",
+   "book": "acts",
+   "chapter": 7,
+   "difficulty": "hard",
+   "ref": "Acts 7:29",
+   "text": {
+    "en": [
+     "In Acts 7, to which land did Moses flee and become a stranger?",
+     "Midian",
+     "Edom",
+     "Moab"
+    ],
+    "es": [
+     "En Hechos 7, ¿a qué tierra huyó Moisés y vivió como forastero?",
+     "Madián",
+     "Edom",
+     "Moab"
+    ],
+    "pt": [
+     "Em Atos 7, para que terra Moisés fugiu e viveu como estrangeiro?",
+     "Madiã",
+     "Edom",
+     "Moabe"
+    ],
+    "fr": [
+     "Dans Actes 7, dans quel pays Moïse s'enfuit-il et vécut-il en étranger ?",
+     "Madian",
+     "Édom",
+     "Moab"
+    ],
+    "de": [
+     "In Apostelgeschichte 7, in welches Land floh Mose und lebte als Fremder?",
+     "Midian",
+     "Edom",
+     "Moab"
+    ],
+    "it": [
+     "In Atti 7, in quale terra Mosè fuggì e visse da straniero?",
+     "Madian",
+     "Edom",
+     "Moab"
+    ],
+    "pl": [
+     "W Dziejach Apostolskich 7, jaka kraina stała się miejscem ucieczki Mojżesza, gdzie żył jako przybysz?",
+     "Madian",
+     "Edom",
+     "Moab"
+    ],
+    "ru": [
+     "В Деяниях 7, в какую землю бежал Моисей и жил пришельцем?",
+     "Мадиам",
+     "Едом",
+     "Моав"
+    ],
+    "tr": [
+     "Elçilerin İşleri 7'de Musa'nın kaçıp yabancı olarak yaşadığı diyar hangisiydi?",
+     "Midyan",
+     "Edom",
+     "Moab"
+    ],
+    "ja": [
+     "使徒言行録7章で、モーセはどの地へ逃れて寄留者となりましたか？",
+     "ミディアン",
+     "エドム",
+     "モアブ"
+    ],
+    "ko": [
+     "사도행전 7장에서, 모세는 어느 땅으로 달아나 나그네가 되었습니까?",
+     "미디안",
+     "에돔",
+     "모압"
+    ],
+    "ar": [
+     "في أعمال الرسل 7، إلى أي أرض هرب موسى وصار غريبًا؟",
+     "مديان",
+     "أدوم",
+     "موآب"
+    ]
+   }
+  },
+  {
+   "id": "ch-acts-001-34",
+   "book": "acts",
+   "chapter": 7,
+   "difficulty": "expert",
+   "ref": "Acts 7:16",
+   "text": {
+    "en": [
+     "In Acts 7, to which city were the patriarchs' bodies carried for burial?",
+     "Shechem",
+     "Jericho",
+     "Gaza"
+    ],
+    "es": [
+     "En Hechos 7, ¿a qué ciudad fueron llevados los cuerpos de los patriarcas para ser sepultados?",
+     "Siquem",
+     "Jericó",
+     "Gaza"
+    ],
+    "pt": [
+     "Em Atos 7, para que cidade foram levados os corpos dos patriarcas para serem sepultados?",
+     "Siquém",
+     "Jericó",
+     "Gaza"
+    ],
+    "fr": [
+     "Dans Actes 7, dans quelle ville les corps des patriarches furent-ils transportés pour être enterrés ?",
+     "Sichem",
+     "Jéricho",
+     "Gaza"
+    ],
+    "de": [
+     "In Apostelgeschichte 7, in welche Stadt wurden die Leiber der Patriarchen zur Beisetzung gebracht?",
+     "Sichem",
+     "Jericho",
+     "Gaza"
+    ],
+    "it": [
+     "In Atti 7, in quale città furono portati i corpi dei patriarchi per la sepoltura?",
+     "Sichem",
+     "Gerico",
+     "Gaza"
+    ],
+    "pl": [
+     "W Dziejach Apostolskich 7, które miasto stało się celem przeniesienia ciał patriarchów dla pochówku?",
+     "Sychem",
+     "Jerycho",
+     "Gaza"
+    ],
+    "ru": [
+     "В Деяниях 7, какой город стал местом погребения, куда перенесли тела патриархов?",
+     "Сихем",
+     "Иерихон",
+     "Газа"
+    ],
+    "tr": [
+     "Elçilerin İşleri 7'de ataların cenazelerinin gömülmek üzere taşındığı kent hangisiydi?",
+     "Şekem",
+     "Eriha",
+     "Gazze"
+    ],
+    "ja": [
+     "使徒言行録7章で、先祖たちの遺体は埋葬のためどの町に運ばれましたか？",
+     "シケム",
+     "エリコ",
+     "ガザ"
+    ],
+    "ko": [
+     "사도행전 7장에서, 조상들의 유해는 매장을 위해 어느 도시로 옮겨졌습니까?",
+     "스켐",
+     "예리코",
+     "가자"
+    ],
+    "ar": [
+     "في أعمال الرسل 7، إلى أي مدينة نُقلت أجساد الآباء لتُدفن؟",
+     "شكيم",
+     "أريحا",
+     "غزة"
+    ]
+   }
+  },
+  {
+   "id": "ch-acts-001-35",
+   "book": "acts",
+   "chapter": 7,
+   "difficulty": "impossible",
+   "ref": "Acts 7:20",
+   "text": {
+    "en": [
+     "In Acts 7, for how many months was baby Moses cared for at home?",
+     "3",
+     "6",
+     "9"
+    ],
+    "es": [
+     "En Hechos 7, ¿durante cuántos meses fue criado en casa el niño Moisés?",
+     "3",
+     "6",
+     "9"
+    ],
+    "pt": [
+     "Em Atos 7, por quantos meses o bebê Moisés foi criado em casa?",
+     "3",
+     "6",
+     "9"
+    ],
+    "fr": [
+     "Dans Actes 7, pendant combien de mois le petit Moïse fut-il élevé chez son père ?",
+     "3",
+     "6",
+     "9"
+    ],
+    "de": [
+     "In Apostelgeschichte 7, wie viele Monate wurde der kleine Mose im Haus seines Vaters aufgezogen?",
+     "3",
+     "6",
+     "9"
+    ],
+    "it": [
+     "In Atti 7, per quanti mesi il piccolo Mosè fu allevato in casa del padre?",
+     "3",
+     "6",
+     "9"
+    ],
+    "pl": [
+     "W Dziejach Apostolskich 7, przez ile miesięcy małego Mojżesza wychowywano w domu ojca?",
+     "3",
+     "6",
+     "9"
+    ],
+    "ru": [
+     "В Деяниях 7, сколько месяцев младенца Моисея питали в доме отца?",
+     "3",
+     "6",
+     "9"
+    ],
+    "tr": [
+     "Elçilerin İşleri 7'de bebek Musa babasının evinde kaç ay bakıldı?",
+     "3",
+     "6",
+     "9"
+    ],
+    "ja": [
+     "使徒言行録7章で、幼いモーセは父の家で何か月育てられましたか？",
+     "3",
+     "6",
+     "9"
+    ],
+    "ko": [
+     "사도행전 7장에서, 아기 모세는 아버지 집에서 몇 달 동안 길러졌습니까?",
+     "3",
+     "6",
+     "9"
+    ],
+    "ar": [
+     "في أعمال الرسل 7، كم شهرًا رُبّي الطفل موسى في بيت أبيه؟",
+     "3",
+     "6",
+     "9"
+    ]
+   }
+  },
+  {
+   "id": "ch-acts-001-36",
+   "book": "acts",
+   "chapter": 8,
+   "difficulty": "easy",
+   "ref": "Acts 8:5",
+   "text": {
+    "en": [
+     "In Acts 8, Philip preached Christ in a city of which region?",
+     "Samaria",
+     "Galilee",
+     "Judea"
+    ],
+    "es": [
+     "En Hechos 8, ¿en una ciudad de qué región predicó Felipe a Cristo?",
+     "Samaria",
+     "Galilea",
+     "Judea"
+    ],
+    "pt": [
+     "Em Atos 8, em uma cidade de que região Filipe pregou a Cristo?",
+     "Samaria",
+     "Galileia",
+     "Judeia"
+    ],
+    "fr": [
+     "Dans Actes 8, dans une ville de quelle région Philippe prêcha-t-il le Christ ?",
+     "Samarie",
+     "Galilée",
+     "Judée"
+    ],
+    "de": [
+     "In Apostelgeschichte 8, in welcher Region verkündete Philippus in einer Stadt Christus?",
+     "Samarien",
+     "Galiläa",
+     "Judäa"
+    ],
+    "it": [
+     "In Atti 8, in una città di quale regione Filippo predicò Cristo?",
+     "Samaria",
+     "Galilea",
+     "Giudea"
+    ],
+    "pl": [
+     "W Dziejach Apostolskich 8, w mieście jakiej krainy głosił Filip Chrystusa?",
+     "Samarii",
+     "Galilei",
+     "Judei"
+    ],
+    "ru": [
+     "В Деяниях 8, в городе какой области проповедовал Христа Филипп?",
+     "Самарии",
+     "Галилеи",
+     "Иудеи"
+    ],
+    "tr": [
+     "Elçilerin İşleri 8'de Filipus'un bir kentinde Mesih'i duyurduğu bölge hangisiydi?",
+     "Samiriye",
+     "Celile",
+     "Yahudiye"
+    ],
+    "ja": [
+     "使徒言行録8章で、フィリポはどの地方の町でキリストを宣べ伝えましたか？",
+     "サマリア",
+     "ガリラヤ",
+     "ユダヤ"
+    ],
+    "ko": [
+     "사도행전 8장에서, 필립보는 어느 지방의 고을에서 그리스도를 선포했습니까?",
+     "사마리아",
+     "갈릴래아",
+     "유다"
+    ],
+    "ar": [
+     "في أعمال الرسل 8، في مدينة أي إقليم كرز فيلبس بالمسيح؟",
+     "السامرة",
+     "الجليل",
+     "اليهودية"
+    ]
+   }
+  },
+  {
+   "id": "ch-acts-001-37",
+   "book": "acts",
+   "chapter": 8,
+   "difficulty": "medium",
+   "ref": "Acts 8:26",
+   "text": {
+    "en": [
+     "In Acts 8, Philip met the Ethiopian on the road to which city?",
+     "Gaza",
+     "Antioch",
+     "Tyre"
+    ],
+    "es": [
+     "En Hechos 8, ¿en el camino hacia qué ciudad encontró Felipe al etíope?",
+     "Gaza",
+     "Antioquía",
+     "Tiro"
+    ],
+    "pt": [
+     "Em Atos 8, no caminho para que cidade Filipe encontrou o etíope?",
+     "Gaza",
+     "Antioquia",
+     "Tiro"
+    ],
+    "fr": [
+     "Dans Actes 8, sur la route de quelle ville Philippe rencontra-t-il l'Éthiopien ?",
+     "Gaza",
+     "Antioche",
+     "Tyr"
+    ],
+    "de": [
+     "In Apostelgeschichte 8, auf dem Weg in welche Stadt traf Philippus den Äthiopier?",
+     "Gaza",
+     "Antiochia",
+     "Tyrus"
+    ],
+    "it": [
+     "In Atti 8, sulla strada per quale città Filippo incontrò l'Etiope?",
+     "Gaza",
+     "Antiochia",
+     "Tiro"
+    ],
+    "pl": [
+     "W Dziejach Apostolskich 8, na drodze do jakiego miasta Filip spotkał Etiopczyka?",
+     "Gazy",
+     "Antiochii",
+     "Tyru"
+    ],
+    "ru": [
+     "В Деяниях 8, на дороге в какой город Филипп встретил эфиопа?",
+     "Газу",
+     "Антиохию",
+     "Тир"
+    ],
+    "tr": [
+     "Elçilerin İşleri 8'de Filipus'un Etiyopyalı ile karşılaştığı yolun varış noktası olan kent hangisiydi?",
+     "Gazze",
+     "Antakya",
+     "Sur"
+    ],
+    "ja": [
+     "使徒言行録8章で、フィリポはどの町へ向かう道でエチオピア人に会いましたか？",
+     "ガザ",
+     "アンティオキア",
+     "ティルス"
+    ],
+    "ko": [
+     "사도행전 8장에서, 필립보는 어느 도시로 가는 길에서 에티오피아 사람을 만났습니까?",
+     "가자",
+     "안티오키아",
+     "티로"
+    ],
+    "ar": [
+     "في أعمال الرسل 8، في الطريق إلى أي مدينة لقي فيلبس الحبشي؟",
+     "غزة",
+     "أنطاكية",
+     "صور"
+    ]
+   }
+  },
+  {
+   "id": "ch-acts-001-38",
+   "book": "acts",
+   "chapter": 8,
+   "difficulty": "hard",
+   "ref": "Acts 8:28",
+   "text": {
+    "en": [
+     "In Acts 8, which prophet was the Ethiopian reading in his chariot?",
+     "Isaiah",
+     "Jeremiah",
+     "Daniel"
+    ],
+    "es": [
+     "En Hechos 8, ¿qué profeta leía el etíope en su carro?",
+     "Isaías",
+     "Jeremías",
+     "Daniel"
+    ],
+    "pt": [
+     "Em Atos 8, que profeta o etíope lia em seu carro?",
+     "Isaías",
+     "Jeremias",
+     "Daniel"
+    ],
+    "fr": [
+     "Dans Actes 8, quel prophète l'Éthiopien lisait-il sur son char ?",
+     "Isaïe",
+     "Jérémie",
+     "Daniel"
+    ],
+    "de": [
+     "In Apostelgeschichte 8, welchen Propheten las der Äthiopier auf seinem Wagen?",
+     "Jesaja",
+     "Jeremia",
+     "Daniel"
+    ],
+    "it": [
+     "In Atti 8, quale profeta leggeva l'Etiope sul suo carro?",
+     "Isaia",
+     "Geremia",
+     "Daniele"
+    ],
+    "pl": [
+     "W Dziejach Apostolskich 8, którego proroka czytał Etiopczyk na swoim rydwanie?",
+     "Izajasza",
+     "Jeremiasza",
+     "Daniela"
+    ],
+    "ru": [
+     "В Деяниях 8, какого пророка читал эфиоплянин в своей колеснице?",
+     "Исаию",
+     "Иеремию",
+     "Даниила"
+    ],
+    "tr": [
+     "Elçilerin İşleri 8'de Etiyopyalı'nın arabasında okuduğu peygamber kimdi?",
+     "Yeşaya",
+     "Yeremya",
+     "Daniel"
+    ],
+    "ja": [
+     "使徒言行録8章で、エチオピア人は馬車の中でどの預言者を読んでいましたか？",
+     "イザヤ",
+     "エレミヤ",
+     "ダニエル"
+    ],
+    "ko": [
+     "사도행전 8장에서, 에티오피아 사람은 수레에서 어느 예언자를 읽고 있었습니까?",
+     "이사야",
+     "예레미야",
+     "다니엘"
+    ],
+    "ar": [
+     "في أعمال الرسل 8، أي نبي كان الحبشي يقرأ في مركبته؟",
+     "إشعيا",
+     "إرميا",
+     "دانيال"
+    ]
+   }
+  },
+  {
+   "id": "ch-acts-001-39",
+   "book": "acts",
+   "chapter": 8,
+   "difficulty": "expert",
+   "ref": "Acts 8:40",
+   "text": {
+    "en": [
+     "In Acts 8, Philip ended his preaching tour in which coastal city?",
+     "Caesarea",
+     "Joppa",
+     "Tyre"
+    ],
+    "es": [
+     "En Hechos 8, ¿en qué ciudad costera terminó Felipe su recorrido de predicación?",
+     "Cesarea",
+     "Jafa",
+     "Tiro"
+    ],
+    "pt": [
+     "Em Atos 8, em que cidade costeira Filipe terminou seu percurso de pregação?",
+     "Cesareia",
+     "Jope",
+     "Tiro"
+    ],
+    "fr": [
+     "Dans Actes 8, dans quelle ville côtière Philippe termina-t-il sa tournée de prédication ?",
+     "Césarée",
+     "Jaffa",
+     "Tyr"
+    ],
+    "de": [
+     "In Apostelgeschichte 8, in welcher Küstenstadt endete die Verkündigungsreise des Philippus?",
+     "Cäsarea",
+     "Joppe",
+     "Tyrus"
+    ],
+    "it": [
+     "In Atti 8, in quale città costiera Filippo terminò il suo giro di predicazione?",
+     "Cesarea",
+     "Giaffa",
+     "Tiro"
+    ],
+    "pl": [
+     "W Dziejach Apostolskich 8, które nadmorskie miasto było końcem podróży Filipa z głoszeniem?",
+     "Cezarea",
+     "Jafa",
+     "Tyr"
+    ],
+    "ru": [
+     "В Деяниях 8, в каком приморском городе закончил Филипп своё благовестие?",
+     "Кесарии",
+     "Иоппии",
+     "Тире"
+    ],
+    "tr": [
+     "Elçilerin İşleri 8'de Filipus'un müjde yolculuğunu bitirdiği kıyı kenti hangisiydi?",
+     "Sezarya",
+     "Yafa",
+     "Sur"
+    ],
+    "ja": [
+     "使徒言行録8章で、フィリポは宣教の旅をどの海辺の町で終えましたか？",
+     "カイサリア",
+     "ヤッファ",
+     "ティルス"
+    ],
+    "ko": [
+     "사도행전 8장에서, 필립보는 선포 여행을 어느 해안 도시에서 마쳤습니까?",
+     "카이사리아",
+     "야포",
+     "티로"
+    ],
+    "ar": [
+     "في أعمال الرسل 8، في أي مدينة ساحلية أنهى فيلبس جولته التبشيرية؟",
+     "قيصرية",
+     "يافا",
+     "صور"
+    ]
+   }
+  },
+  {
+   "id": "ch-acts-001-40",
+   "book": "acts",
+   "chapter": 8,
+   "difficulty": "impossible",
+   "ref": "Acts 8:39",
+   "text": {
+    "en": [
+     "In Acts 8, which feeling accompanied the Ethiopian after his baptism?",
+     "Joy",
+     "Fear",
+     "Sorrow"
+    ],
+    "es": [
+     "En Hechos 8, ¿qué sentimiento acompañó al etíope tras su bautismo?",
+     "Alegría",
+     "Miedo",
+     "Tristeza"
+    ],
+    "pt": [
+     "Em Atos 8, que sentimento acompanhou o etíope depois do batismo?",
+     "Alegria",
+     "Medo",
+     "Tristeza"
+    ],
+    "fr": [
+     "Dans Actes 8, quel sentiment accompagna l'Éthiopien après son baptême ?",
+     "Joie",
+     "Peur",
+     "Tristesse"
+    ],
+    "de": [
+     "In Apostelgeschichte 8, welches Gefühl begleitete den Äthiopier nach seiner Taufe?",
+     "Freude",
+     "Angst",
+     "Trauer"
+    ],
+    "it": [
+     "In Atti 8, quale sentimento accompagnò l'Etiope dopo il battesimo?",
+     "Gioia",
+     "Paura",
+     "Tristezza"
+    ],
+    "pl": [
+     "W Dziejach Apostolskich 8, jakie uczucie towarzyszyło Etiopczykowi po chrzcie?",
+     "Radość",
+     "Strach",
+     "Smutek"
+    ],
+    "ru": [
+     "В Деяниях 8, какое чувство сопровождало эфиопа после крещения?",
+     "Радость",
+     "Страх",
+     "Печаль"
+    ],
+    "tr": [
+     "Elçilerin İşleri 8'de vaftizden sonra Etiyopyalı'ya hangi duygu eşlik etti?",
+     "Sevinç",
+     "Korku",
+     "Keder"
+    ],
+    "ja": [
+     "使徒言行録8章で、洗礼の後、エチオピア人にはどんな気持ちが伴いましたか？",
+     "喜び",
+     "恐れ",
+     "悲しみ"
+    ],
+    "ko": [
+     "사도행전 8장에서, 세례 후 에티오피아 사람에게는 어떤 마음이 따랐습니까?",
+     "기쁨",
+     "두려움",
+     "슬픔"
+    ],
+    "ar": [
+     "في أعمال الرسل 8، أي شعور رافق الحبشي بعد معموديته؟",
+     "فرح",
+     "خوف",
+     "حزن"
+    ]
+   }
+  },
+  {
+   "id": "ch-acts-001-41",
+   "book": "acts",
+   "chapter": 9,
+   "difficulty": "easy",
+   "ref": "Acts 9:2",
+   "text": {
+    "en": [
+     "In Acts 9, to which city was Saul traveling to arrest believers?",
+     "Damascus",
+     "Antioch",
+     "Alexandria"
+    ],
+    "es": [
+     "En Hechos 9, ¿a qué ciudad viajaba Saulo para apresar a los creyentes?",
+     "Damasco",
+     "Antioquía",
+     "Alejandría"
+    ],
+    "pt": [
+     "Em Atos 9, para que cidade Saulo viajava para prender os fiéis?",
+     "Damasco",
+     "Antioquia",
+     "Alexandria"
+    ],
+    "fr": [
+     "Dans Actes 9, vers quelle ville Saul voyageait-il pour arrêter les croyants ?",
+     "Damas",
+     "Antioche",
+     "Alexandrie"
+    ],
+    "de": [
+     "In Apostelgeschichte 9, in welche Stadt reiste Saulus, um Gläubige festzunehmen?",
+     "Damaskus",
+     "Antiochia",
+     "Alexandria"
+    ],
+    "it": [
+     "In Atti 9, verso quale città viaggiava Saulo per arrestare i credenti?",
+     "Damasco",
+     "Antiochia",
+     "Alessandria"
+    ],
+    "pl": [
+     "W Dziejach Apostolskich 9, do jakiego miasta zmierzał Szaweł, by pojmać wierzących?",
+     "Damaszku",
+     "Antiochii",
+     "Aleksandrii"
+    ],
+    "ru": [
+     "В Деяниях 9, в какой город направлялся Савл, чтобы схватить верующих?",
+     "Дамаск",
+     "Антиохию",
+     "Александрию"
+    ],
+    "tr": [
+     "Elçilerin İşleri 9'da Saul'un inananları tutuklamak için yola çıktığı kent hangisiydi?",
+     "Şam",
+     "Antakya",
+     "İskenderiye"
+    ],
+    "ja": [
+     "使徒言行録9章で、サウロは信者を捕らえるためどの町へ向かっていましたか？",
+     "ダマスコ",
+     "アンティオキア",
+     "アレクサンドリア"
+    ],
+    "ko": [
+     "사도행전 9장에서, 사울은 신자들을 체포하려고 어느 도시로 가고 있었습니까?",
+     "다마스쿠스",
+     "안티오키아",
+     "알렉산드리아"
+    ],
+    "ar": [
+     "في أعمال الرسل 9، إلى أي مدينة كان شاول ذاهبًا ليقبض على المؤمنين؟",
+     "دمشق",
+     "أنطاكية",
+     "الإسكندرية"
+    ]
+   }
+  },
+  {
+   "id": "ch-acts-001-42",
+   "book": "acts",
+   "chapter": 9,
+   "difficulty": "medium",
+   "ref": "Acts 9:9",
+   "text": {
+    "en": [
+     "In Acts 9, for how many days was Saul blind and fasting?",
+     "3",
+     "7",
+     "40"
+    ],
+    "es": [
+     "En Hechos 9, ¿durante cuántos días estuvo Saulo ciego y sin comer?",
+     "3",
+     "7",
+     "40"
+    ],
+    "pt": [
+     "Em Atos 9, por quantos dias Saulo ficou cego e sem comer?",
+     "3",
+     "7",
+     "40"
+    ],
+    "fr": [
+     "Dans Actes 9, pendant combien de jours Saul resta-t-il aveugle et à jeun ?",
+     "3",
+     "7",
+     "40"
+    ],
+    "de": [
+     "In Apostelgeschichte 9, wie viele Tage war Saulus blind und ohne Essen?",
+     "3",
+     "7",
+     "40"
+    ],
+    "it": [
+     "In Atti 9, per quanti giorni Saulo rimase cieco e digiuno?",
+     "3",
+     "7",
+     "40"
+    ],
+    "pl": [
+     "W Dziejach Apostolskich 9, przez ile dni Szaweł był niewidomy i nic nie jadł?",
+     "3",
+     "7",
+     "40"
+    ],
+    "ru": [
+     "В Деяниях 9, сколько дней Савл был слеп и не ел?",
+     "3",
+     "7",
+     "40"
+    ],
+    "tr": [
+     "Elçilerin İşleri 9'da Saul kaç gün kör kaldı ve yemek yemedi?",
+     "3",
+     "7",
+     "40"
+    ],
+    "ja": [
+     "使徒言行録9章で、サウロは何日間、目が見えず食事もしませんでしたか？",
+     "3",
+     "7",
+     "40"
+    ],
+    "ko": [
+     "사도행전 9장에서, 사울은 며칠 동안 눈이 멀고 먹지 못했습니까?",
+     "3",
+     "7",
+     "40"
+    ],
+    "ar": [
+     "في أعمال الرسل 9، كم يومًا بقي شاول أعمى وبلا طعام؟",
+     "3",
+     "7",
+     "40"
+    ]
+   }
+  },
+  {
+   "id": "ch-acts-001-43",
+   "book": "acts",
+   "chapter": 9,
+   "difficulty": "hard",
+   "ref": "Acts 9:27",
+   "text": {
+    "en": [
+     "In Acts 9, who brought Saul to the apostles when they feared him?",
+     "Barnabas",
+     "Silas",
+     "Timothy"
+    ],
+    "es": [
+     "En Hechos 9, ¿quién llevó a Saulo ante los apóstoles cuando lo temían?",
+     "Bernabé",
+     "Silas",
+     "Timoteo"
+    ],
+    "pt": [
+     "Em Atos 9, quem levou Saulo aos apóstolos quando eles o temiam?",
+     "Barnabé",
+     "Silas",
+     "Timóteo"
+    ],
+    "fr": [
+     "Dans Actes 9, qui amena Saul aux apôtres alors qu'ils le craignaient ?",
+     "Barnabé",
+     "Silas",
+     "Timothée"
+    ],
+    "de": [
+     "In Apostelgeschichte 9, wer führte Saulus zu den Aposteln, als sie ihn fürchteten?",
+     "Barnabas",
+     "Silas",
+     "Timotheus"
+    ],
+    "it": [
+     "In Atti 9, chi condusse Saulo dagli apostoli quando lo temevano?",
+     "Barnaba",
+     "Sila",
+     "Timoteo"
+    ],
+    "pl": [
+     "W Dziejach Apostolskich 9, kto przyprowadził Szawła do apostołów, gdy się go lękali?",
+     "Barnaba",
+     "Sylas",
+     "Tymoteusz"
+    ],
+    "ru": [
+     "В Деяниях 9, кто привёл Савла к апостолам, когда те боялись его?",
+     "Варнава",
+     "Сила",
+     "Тимофей"
+    ],
+    "tr": [
+     "Elçilerin İşleri 9'da elçiler Saul'dan korkarken onu elçilere kim getirdi?",
+     "Barnaba",
+     "Silas",
+     "Timoteos"
+    ],
+    "ja": [
+     "使徒言行録9章で、使徒たちが恐れていたサウロを彼らのもとへ連れて行ったのは誰ですか？",
+     "バルナバ",
+     "シラス",
+     "テモテ"
+    ],
+    "ko": [
+     "사도행전 9장에서, 사도들이 두려워하던 사울을 그들에게 데려간 이는 누구입니까?",
+     "바르나바",
+     "실라스",
+     "티모테오"
+    ],
+    "ar": [
+     "في أعمال الرسل 9، من أحضر شاول إلى الرسل حين خافوه؟",
+     "برنابا",
+     "سيلا",
+     "تيموثاوس"
+    ]
+   }
+  },
+  {
+   "id": "ch-acts-001-44",
+   "book": "acts",
+   "chapter": 9,
+   "difficulty": "expert",
+   "ref": "Acts 9:31",
+   "text": {
+    "en": [
+     "In Acts 9, what did the church in Judea, Galilee and Samaria enjoy?",
+     "Peace",
+     "War",
+     "Famine"
+    ],
+    "es": [
+     "En Hechos 9, ¿qué disfrutaba la Iglesia en Judea, Galilea y Samaria?",
+     "Paz",
+     "Guerra",
+     "Hambre"
+    ],
+    "pt": [
+     "Em Atos 9, o que a Igreja na Judeia, Galileia e Samaria desfrutava?",
+     "Paz",
+     "Guerra",
+     "Fome"
+    ],
+    "fr": [
+     "Dans Actes 9, de quoi jouissait l'Église en Judée, en Galilée et en Samarie ?",
+     "Paix",
+     "Guerre",
+     "Famine"
+    ],
+    "de": [
+     "In Apostelgeschichte 9, was genoss die Kirche in Judäa, Galiläa und Samarien?",
+     "Frieden",
+     "Krieg",
+     "Hunger"
+    ],
+    "it": [
+     "In Atti 9, di che cosa godeva la Chiesa in Giudea, Galilea e Samaria?",
+     "Pace",
+     "Guerra",
+     "Carestia"
+    ],
+    "pl": [
+     "W Dziejach Apostolskich 9, co zapanowało w Kościele w Judei, Galilei i Samarii?",
+     "Pokój",
+     "Wojna",
+     "Głód"
+    ],
+    "ru": [
+     "В Деяниях 9, что настало для Церкви по всей Иудее, Галилее и Самарии?",
+     "Мир",
+     "Война",
+     "Голод"
+    ],
+    "tr": [
+     "Elçilerin İşleri 9'da Yahudiye, Celile ve Samiriye'deki kilisenin kavuştuğu şey neydi?",
+     "Barış",
+     "Savaş",
+     "Kıtlık"
+    ],
+    "ja": [
+     "使徒言行録9章で、ユダヤ、ガリラヤ、サマリアの教会は何を享受しましたか？",
+     "平和",
+     "戦争",
+     "飢饉"
+    ],
+    "ko": [
+     "사도행전 9장에서, 유다, 갈릴래아, 사마리아의 교회는 무엇을 누렸습니까?",
+     "평화",
+     "전쟁",
+     "기근"
+    ],
+    "ar": [
+     "في أعمال الرسل 9، ماذا نعمت الكنيسة في اليهودية والجليل والسامرة؟",
+     "سلام",
+     "حرب",
+     "مجاعة"
+    ]
+   }
+  },
+  {
+   "id": "ch-acts-001-45",
+   "book": "acts",
+   "chapter": 9,
+   "difficulty": "impossible",
+   "ref": "Acts 9:35",
+   "text": {
+    "en": [
+     "In Acts 9, people of Lydda and which region turned to the Lord?",
+     "Sharon",
+     "Bashan",
+     "Gilead"
+    ],
+    "es": [
+     "En Hechos 9, ¿los habitantes de Lida y de qué región se convirtieron al Señor?",
+     "Sarón",
+     "Basán",
+     "Galaad"
+    ],
+    "pt": [
+     "Em Atos 9, os habitantes de Lida e de que região se converteram ao Senhor?",
+     "Sarona",
+     "Basã",
+     "Galaad"
+    ],
+    "fr": [
+     "Dans Actes 9, les habitants de Lydda et de quelle région se convertirent au Seigneur ?",
+     "Saron",
+     "Basan",
+     "Galaad"
+    ],
+    "de": [
+     "In Apostelgeschichte 9, die Bewohner von Lydda und welcher Gegend bekehrten sich zum Herrn?",
+     "Scharon",
+     "Baschan",
+     "Gilead"
+    ],
+    "it": [
+     "In Atti 9, gli abitanti di Lidda e di quale regione si convertirono al Signore?",
+     "Saron",
+     "Basan",
+     "Gàlaad"
+    ],
+    "pl": [
+     "W Dziejach Apostolskich 9, mieszkańcy Lyddy i jakiej krainy nawrócili się do Pana?",
+     "Saronu",
+     "Baszanu",
+     "Gileadu"
+    ],
+    "ru": [
+     "В Деяниях 9, жители Лидды и какой области обратились к Господу?",
+     "Сарона",
+     "Васана",
+     "Галаада"
+    ],
+    "tr": [
+     "Elçilerin İşleri 9'da Lidda halkıyla birlikte Rab'be dönen halkın bölgesi hangisiydi?",
+     "Şaron",
+     "Başan",
+     "Gilat"
+    ],
+    "ja": [
+     "使徒言行録9章で、リダとどの地方の住民が主に立ち帰りましたか？",
+     "シャロン",
+     "バシャン",
+     "ギレアド"
+    ],
+    "ko": [
+     "사도행전 9장에서, 리따와 어느 지방 주민들이 주님께 돌아섰습니까?",
+     "사론",
+     "바산",
+     "길앗"
+    ],
+    "ar": [
+     "في أعمال الرسل 9، أهل اللد وأي منطقة رجعوا إلى الرب؟",
+     "شارون",
+     "باشان",
+     "جلعاد"
+    ]
+   }
+  },
+  {
+   "id": "ch-acts-001-46",
+   "book": "acts",
+   "chapter": 10,
+   "difficulty": "easy",
+   "ref": "Acts 10:12",
+   "text": {
+    "en": [
+     "In Acts 10, what filled the sheet Peter saw lowered from heaven?",
+     "Animals",
+     "Fruit",
+     "Coins"
+    ],
+    "es": [
+     "En Hechos 10, ¿qué llenaba el lienzo que Pedro vio bajar del cielo?",
+     "Animales",
+     "Frutas",
+     "Monedas"
+    ],
+    "pt": [
+     "Em Atos 10, o que enchia o lençol que Pedro viu descer do céu?",
+     "Animais",
+     "Frutas",
+     "Moedas"
+    ],
+    "fr": [
+     "Dans Actes 10, qu'est-ce qui remplissait la nappe que Pierre vit descendre du ciel ?",
+     "Animaux",
+     "Fruits",
+     "Pièces"
+    ],
+    "de": [
+     "In Apostelgeschichte 10, was befand sich in dem Tuch, das Petrus vom Himmel herabkommen sah?",
+     "Tiere",
+     "Früchte",
+     "Münzen"
+    ],
+    "it": [
+     "In Atti 10, che cosa riempiva il telo che Pietro vide scendere dal cielo?",
+     "Animali",
+     "Frutti",
+     "Monete"
+    ],
+    "pl": [
+     "W Dziejach Apostolskich 10, co wypełniało płótno, które Piotr ujrzał zstępujące z nieba?",
+     "Zwierzęta",
+     "Owoce",
+     "Monety"
+    ],
+    "ru": [
+     "В Деяниях 10, что было в полотне, которое Пётр увидел сходящим с неба?",
+     "Животные",
+     "Плоды",
+     "Монеты"
+    ],
+    "tr": [
+     "Elçilerin İşleri 10'da Petrus'un gökten inerken gördüğü çarşafta ne vardı?",
+     "Hayvanlar",
+     "Meyveler",
+     "Paralar"
+    ],
+    "ja": [
+     "使徒言行録10章で、ペトロが天から降りてくるのを見た布の中には何がありましたか？",
+     "動物",
+     "果物",
+     "硬貨"
+    ],
+    "ko": [
+     "사도행전 10장에서, 베드로가 하늘에서 내려오는 것을 본 보자기 안에는 무엇이 있었습니까?",
+     "짐승",
+     "과일",
+     "동전"
+    ],
+    "ar": [
+     "في أعمال الرسل 10، ماذا كان في الغطاء الذي رآه بطرس ينزل من السماء؟",
+     "حيوانات",
+     "فواكه",
+     "عملات"
+    ]
+   }
+  },
+  {
+   "id": "ch-acts-001-47",
+   "book": "acts",
+   "chapter": 10,
+   "difficulty": "medium",
+   "ref": "Acts 10:9",
+   "text": {
+    "en": [
+     "In Acts 10, on which part of the house did Peter pray?",
+     "Roof",
+     "Cellar",
+     "Courtyard"
+    ],
+    "es": [
+     "En Hechos 10, ¿a qué parte de la casa subió Pedro a orar?",
+     "Terraza",
+     "Sótano",
+     "Patio"
+    ],
+    "pt": [
+     "Em Atos 10, a que parte da casa Pedro subiu para orar?",
+     "Terraço",
+     "Porão",
+     "Pátio"
+    ],
+    "fr": [
+     "Dans Actes 10, sur quelle partie de la maison Pierre monta-t-il pour prier ?",
+     "Terrasse",
+     "Cave",
+     "Cour"
+    ],
+    "de": [
+     "In Apostelgeschichte 10, auf welchen Teil des Hauses stieg Petrus zum Beten?",
+     "Dach",
+     "Keller",
+     "Hof"
+    ],
+    "it": [
+     "In Atti 10, su quale parte della casa salì Pietro a pregare?",
+     "Terrazza",
+     "Cantina",
+     "Cortile"
+    ],
+    "pl": [
+     "W Dziejach Apostolskich 10, która część domu była miejscem modlitwy Piotra?",
+     "Dach",
+     "Piwnica",
+     "Dziedziniec"
+    ],
+    "ru": [
+     "В Деяниях 10, какая часть дома была местом молитвы Петра?",
+     "Кровля",
+     "Подвал",
+     "Двор"
+    ],
+    "tr": [
+     "Elçilerin İşleri 10'da Petrus'un dua etmek için çıktığı yer evin hangi bölümüydü?",
+     "Dam",
+     "Kiler",
+     "Avlu"
+    ],
+    "ja": [
+     "使徒言行録10章で、ペトロは祈るために家のどの部分に上りましたか？",
+     "屋上",
+     "地下室",
+     "中庭"
+    ],
+    "ko": [
+     "사도행전 10장에서, 베드로는 기도하려고 집의 어느 곳으로 올라갔습니까?",
+     "옥상",
+     "지하실",
+     "마당"
+    ],
+    "ar": [
+     "في أعمال الرسل 10، إلى أي جزء من البيت صعد بطرس ليصلي؟",
+     "سطح",
+     "قبو",
+     "فناء"
+    ]
+   }
+  },
+  {
+   "id": "ch-acts-001-48",
+   "book": "acts",
+   "chapter": 10,
+   "difficulty": "hard",
+   "ref": "Acts 10:23",
+   "text": {
+    "en": [
+     "In Acts 10, from which city did some brothers accompany Peter to Caesarea?",
+     "Joppa",
+     "Lydda",
+     "Tyre"
+    ],
+    "es": [
+     "En Hechos 10, ¿de qué ciudad acompañaron a Pedro algunos hermanos hasta Cesarea?",
+     "Jafa",
+     "Lida",
+     "Tiro"
+    ],
+    "pt": [
+     "Em Atos 10, de que cidade alguns irmãos acompanharam Pedro até Cesareia?",
+     "Jope",
+     "Lida",
+     "Tiro"
+    ],
+    "fr": [
+     "Dans Actes 10, de quelle ville des frères accompagnèrent-ils Pierre jusqu'à Césarée ?",
+     "Jaffa",
+     "Lydda",
+     "Tyr"
+    ],
+    "de": [
+     "In Apostelgeschichte 10, aus welcher Stadt begleiteten einige Brüder Petrus nach Cäsarea?",
+     "Joppe",
+     "Lydda",
+     "Tyrus"
+    ],
+    "it": [
+     "In Atti 10, da quale città alcuni fratelli accompagnarono Pietro a Cesarea?",
+     "Giaffa",
+     "Lidda",
+     "Tiro"
+    ],
+    "pl": [
+     "W Dziejach Apostolskich 10, z jakiego miasta towarzyszyli Piotrowi do Cezarei niektórzy bracia?",
+     "Jafy",
+     "Lyddy",
+     "Tyru"
+    ],
+    "ru": [
+     "В Деяниях 10, из какого города некоторые братья сопровождали Петра в Кесарию?",
+     "Иоппии",
+     "Лидды",
+     "Тира"
+    ],
+    "tr": [
+     "Elçilerin İşleri 10'da Petrus'a Sezarya'ya kadar eşlik eden bazı kardeşlerin geldiği kent hangisiydi?",
+     "Yafa",
+     "Lidda",
+     "Sur"
+    ],
+    "ja": [
+     "使徒言行録10章で、どの町から兄弟たちがペトロに同行してカイサリアへ行きましたか？",
+     "ヤッファ",
+     "リダ",
+     "ティルス"
+    ],
+    "ko": [
+     "사도행전 10장에서, 어느 도시에서 형제들이 베드로와 함께 카이사리아로 갔습니까?",
+     "야포",
+     "리따",
+     "티로"
+    ],
+    "ar": [
+     "في أعمال الرسل 10، من أي مدينة رافق بعض الإخوة بطرس إلى قيصرية؟",
+     "يافا",
+     "اللد",
+     "صور"
+    ]
+   }
+  },
+  {
+   "id": "ch-acts-001-49",
+   "book": "acts",
+   "chapter": 10,
+   "difficulty": "expert",
+   "ref": "Acts 10:26",
+   "text": {
+    "en": [
+     "In Acts 10, what did Peter say he was when Cornelius knelt?",
+     "Man",
+     "Angel",
+     "Prophet"
+    ],
+    "es": [
+     "En Hechos 10, ¿qué dijo Pedro que era él cuando Cornelio se postró ante él?",
+     "Hombre",
+     "Ángel",
+     "Profeta"
+    ],
+    "pt": [
+     "Em Atos 10, o que Pedro disse que era quando Cornélio se prostrou?",
+     "Homem",
+     "Anjo",
+     "Profeta"
+    ],
+    "fr": [
+     "Dans Actes 10, que dit Pierre être lorsque Corneille se prosterna ?",
+     "Homme",
+     "Ange",
+     "Prophète"
+    ],
+    "de": [
+     "In Apostelgeschichte 10, was sagte Petrus von sich, als Kornelius sich vor ihm niederwarf?",
+     "Mensch",
+     "Engel",
+     "Prophet"
+    ],
+    "it": [
+     "In Atti 10, che cosa disse Pietro di essere quando Cornelio si prostrò?",
+     "Uomo",
+     "Angelo",
+     "Profeta"
+    ],
+    "pl": [
+     "W Dziejach Apostolskich 10, kim powiedział Piotr, że jest, gdy Korneliusz padł mu do stóp?",
+     "Człowiekiem",
+     "Aniołem",
+     "Prorokiem"
+    ],
+    "ru": [
+     "В Деяниях 10, кем назвал себя Пётр, когда Корнилий пал к его ногам?",
+     "Человеком",
+     "Ангелом",
+     "Пророком"
+    ],
+    "tr": [
+     "Elçilerin İşleri 10'da Kornelius önünde eğilince Petrus kendisinin ne olduğunu söyledi?",
+     "İnsan",
+     "Melek",
+     "Peygamber"
+    ],
+    "ja": [
+     "使徒言行録10章で、コルネリウスがひざまずいたとき、ペトロは自分は何だと言いましたか？",
+     "人間",
+     "天使",
+     "預言者"
+    ],
+    "ko": [
+     "사도행전 10장에서, 고르넬리오가 엎드렸을 때 베드로는 자신이 무엇이라고 말했습니까?",
+     "사람",
+     "천사",
+     "예언자"
+    ],
+    "ar": [
+     "في أعمال الرسل 10، ماذا قال بطرس إنه عندما سجد له قرنيليوس؟",
+     "إنسان",
+     "ملاك",
+     "نبي"
+    ]
+   }
+  },
+  {
+   "id": "ch-acts-001-50",
+   "book": "acts",
+   "chapter": 10,
+   "difficulty": "impossible",
+   "ref": "Acts 10:11",
+   "text": {
+    "en": [
+     "In Acts 10, by how many corners was Peter's sheet lowered?",
+     "4",
+     "2",
+     "8"
+    ],
+    "es": [
+     "En Hechos 10, ¿por cuántas puntas bajaba el lienzo de Pedro?",
+     "4",
+     "2",
+     "8"
+    ],
+    "pt": [
+     "Em Atos 10, por quantas pontas descia o lençol de Pedro?",
+     "4",
+     "2",
+     "8"
+    ],
+    "fr": [
+     "Dans Actes 10, par combien de coins la nappe de Pierre descendait-elle ?",
+     "4",
+     "2",
+     "8"
+    ],
+    "de": [
+     "In Apostelgeschichte 10, an wie vielen Ecken wurde das Tuch des Petrus herabgelassen?",
+     "4",
+     "2",
+     "8"
+    ],
+    "it": [
+     "In Atti 10, per quanti angoli scendeva il telo di Pietro?",
+     "4",
+     "2",
+     "8"
+    ],
+    "pl": [
+     "W Dziejach Apostolskich 10, za ile rogów opuszczano płótno Piotra?",
+     "4",
+     "2",
+     "8"
+    ],
+    "ru": [
+     "В Деяниях 10, за сколько углов было спущено полотно Петра?",
+     "4",
+     "2",
+     "8"
+    ],
+    "tr": [
+     "Elçilerin İşleri 10'da Petrus'un gördüğü çarşaf kaç köşesinden indirildi?",
+     "4",
+     "2",
+     "8"
+    ],
+    "ja": [
+     "使徒言行録10章で、ペトロが見た布は何か所の隅でつり下ろされましたか？",
+     "4",
+     "2",
+     "8"
+    ],
+    "ko": [
+     "사도행전 10장에서, 베드로가 본 보자기는 몇 귀퉁이로 내려졌습니까?",
+     "4",
+     "2",
+     "8"
+    ],
+    "ar": [
+     "في أعمال الرسل 10، من كم زاوية أُنزل الغطاء الذي رآه بطرس؟",
+     "4",
+     "2",
+     "8"
+    ]
+   }
+  },
+  {
+   "id": "ch-acts-001-51",
+   "book": "acts",
+   "chapter": 11,
+   "difficulty": "easy",
+   "ref": "Acts 11:22",
+   "text": {
+    "en": [
+     "In Acts 11, whom did the Jerusalem church send to Antioch?",
+     "Barnabas",
+     "Silas",
+     "Timothy"
+    ],
+    "es": [
+     "En Hechos 11, ¿a quién envió la Iglesia de Jerusalén a Antioquía?",
+     "Bernabé",
+     "Silas",
+     "Timoteo"
+    ],
+    "pt": [
+     "Em Atos 11, a quem a Igreja de Jerusalém enviou a Antioquia?",
+     "Barnabé",
+     "Silas",
+     "Timóteo"
+    ],
+    "fr": [
+     "Dans Actes 11, qui l'Église de Jérusalem envoya-t-elle à Antioche ?",
+     "Barnabé",
+     "Silas",
+     "Timothée"
+    ],
+    "de": [
+     "In Apostelgeschichte 11, wen schickte die Kirche von Jerusalem nach Antiochia?",
+     "Barnabas",
+     "Silas",
+     "Timotheus"
+    ],
+    "it": [
+     "In Atti 11, chi mandò la Chiesa di Gerusalemme ad Antiochia?",
+     "Barnaba",
+     "Sila",
+     "Timoteo"
+    ],
+    "pl": [
+     "W Dziejach Apostolskich 11, kogo Kościół w Jerozolimie wysłał do Antiochii?",
+     "Barnabę",
+     "Sylasa",
+     "Tymoteusza"
+    ],
+    "ru": [
+     "В Деяниях 11, кого Иерусалимская церковь послала в Антиохию?",
+     "Варнаву",
+     "Силу",
+     "Тимофея"
+    ],
+    "tr": [
+     "Elçilerin İşleri 11'de Kudüs'teki kilisenin Antakya'ya gönderdiği kişi kimdi?",
+     "Barnaba",
+     "Silas",
+     "Timoteos"
+    ],
+    "ja": [
+     "使徒言行録11章で、エルサレムの教会はアンティオキアに誰を派遣しましたか？",
+     "バルナバ",
+     "シラス",
+     "テモテ"
+    ],
+    "ko": [
+     "사도행전 11장에서, 예루살렘 교회는 안티오키아에 누구를 보냈습니까?",
+     "바르나바",
+     "실라스",
+     "티모테오"
+    ],
+    "ar": [
+     "في أعمال الرسل 11، من أرسلت كنيسة أورشليم إلى أنطاكية؟",
+     "برنابا",
+     "سيلا",
+     "تيموثاوس"
+    ]
+   }
+  },
+  {
+   "id": "ch-acts-001-52",
+   "book": "acts",
+   "chapter": 11,
+   "difficulty": "medium",
+   "ref": "Acts 11:28",
+   "text": {
+    "en": [
+     "In Acts 11, which prophet predicted a great famine over the whole world?",
+     "Agabus",
+     "Silas",
+     "Ananias"
+    ],
+    "es": [
+     "En Hechos 11, ¿qué profeta anunció un gran hambre en todo el mundo?",
+     "Ágabo",
+     "Silas",
+     "Ananías"
+    ],
+    "pt": [
+     "Em Atos 11, que profeta anunciou uma grande fome em todo o mundo?",
+     "Ágabo",
+     "Silas",
+     "Ananias"
+    ],
+    "fr": [
+     "Dans Actes 11, quel prophète annonça une grande famine sur toute la terre ?",
+     "Agabus",
+     "Silas",
+     "Ananie"
+    ],
+    "de": [
+     "In Apostelgeschichte 11, welcher Prophet sagte eine große Hungersnot für die ganze Welt voraus?",
+     "Agabus",
+     "Silas",
+     "Hananias"
+    ],
+    "it": [
+     "In Atti 11, quale profeta predisse una grande carestia su tutta la terra?",
+     "Agabo",
+     "Sila",
+     "Anania"
+    ],
+    "pl": [
+     "W Dziejach Apostolskich 11, który prorok zapowiedział wielki głód na całym świecie?",
+     "Agabus",
+     "Sylas",
+     "Ananiasz"
+    ],
+    "ru": [
+     "В Деяниях 11, какой пророк предсказал великий голод по всей вселенной?",
+     "Агав",
+     "Сила",
+     "Анания"
+    ],
+    "tr": [
+     "Elçilerin İşleri 11'de hangi peygamber bütün dünyada büyük bir kıtlık olacağını önceden bildirdi?",
+     "Agabus",
+     "Silas",
+     "Ananya"
+    ],
+    "ja": [
+     "使徒言行録11章で、全世界に大飢饉が起こると予告した預言者は誰ですか？",
+     "アガボ",
+     "シラス",
+     "アナニア"
+    ],
+    "ko": [
+     "사도행전 11장에서, 온 세상에 큰 기근이 들 것을 예고한 예언자는 누구입니까?",
+     "하가보",
+     "실라스",
+     "하나니아"
+    ],
+    "ar": [
+     "في أعمال الرسل 11، أي نبي أنبأ بمجاعة عظيمة في المسكونة كلها؟",
+     "أغابوس",
+     "سيلا",
+     "حنانيا"
+    ]
+   }
+  },
+  {
+   "id": "ch-acts-001-53",
+   "book": "acts",
+   "chapter": 11,
+   "difficulty": "hard",
+   "ref": "Acts 11:30",
+   "text": {
+    "en": [
+     "In Acts 11, relief was sent to elders by Barnabas and whom?",
+     "Saul",
+     "Silas",
+     "Mark"
+    ],
+    "es": [
+     "En Hechos 11, ¿por mano de Bernabé y de quién se envió la ayuda a los ancianos?",
+     "Saulo",
+     "Silas",
+     "Marcos"
+    ],
+    "pt": [
+     "Em Atos 11, por mãos de Barnabé e de quem foi enviada a ajuda aos presbíteros?",
+     "Saulo",
+     "Silas",
+     "Marcos"
+    ],
+    "fr": [
+     "Dans Actes 11, par les mains de Barnabé et de qui l'aide fut-elle envoyée aux anciens ?",
+     "Saul",
+     "Silas",
+     "Marc"
+    ],
+    "de": [
+     "In Apostelgeschichte 11, durch Barnabas und wen wurde die Hilfe an die Ältesten geschickt?",
+     "Saulus",
+     "Silas",
+     "Markus"
+    ],
+    "it": [
+     "In Atti 11, per mano di Barnaba e di chi fu inviato l'aiuto agli anziani?",
+     "Saulo",
+     "Sila",
+     "Marco"
+    ],
+    "pl": [
+     "W Dziejach Apostolskich 11, przez ręce Barnaby i kogo wysłano pomoc starszym?",
+     "Szawła",
+     "Sylasa",
+     "Marka"
+    ],
+    "ru": [
+     "В Деяниях 11, через руки Варнавы и кого была послана помощь пресвитерам?",
+     "Савла",
+     "Силы",
+     "Марка"
+    ],
+    "tr": [
+     "Elçilerin İşleri 11'de ihtiyarlara yardımı Barnaba ile birlikte götüren kişi kimdi?",
+     "Saul",
+     "Silas",
+     "Markos"
+    ],
+    "ja": [
+     "使徒言行録11章で、長老たちへの援助はバルナバと誰の手で送られましたか？",
+     "サウロ",
+     "シラス",
+     "マルコ"
+    ],
+    "ko": [
+     "사도행전 11장에서, 원로들에게 보낸 구호품은 바르나바와 누구의 손으로 전달되었습니까?",
+     "사울",
+     "실라스",
+     "마르코"
+    ],
+    "ar": [
+     "في أعمال الرسل 11، على يد برنابا ومن أُرسلت المعونة إلى الشيوخ؟",
+     "شاول",
+     "سيلا",
+     "مرقس"
+    ]
+   }
+  },
+  {
+   "id": "ch-acts-001-54",
+   "book": "acts",
+   "chapter": 11,
+   "difficulty": "expert",
+   "ref": "Acts 11:20",
+   "text": {
+    "en": [
+     "In Acts 11, men from Cyprus and which city spoke to Greeks in Antioch?",
+     "Cyrene",
+     "Carthage",
+     "Alexandria"
+    ],
+    "es": [
+     "En Hechos 11, ¿hombres de Chipre y de qué ciudad hablaron a los griegos en Antioquía?",
+     "Cirene",
+     "Cartago",
+     "Alejandría"
+    ],
+    "pt": [
+     "Em Atos 11, homens de Chipre e de que cidade falaram aos gregos em Antioquia?",
+     "Cirene",
+     "Cartago",
+     "Alexandria"
+    ],
+    "fr": [
+     "Dans Actes 11, des hommes de Chypre et de quelle ville parlèrent aux Grecs à Antioche ?",
+     "Cyrène",
+     "Carthage",
+     "Alexandrie"
+    ],
+    "de": [
+     "In Apostelgeschichte 11, Männer aus Zypern und welcher Stadt sprachen in Antiochia zu den Griechen?",
+     "Zyrene",
+     "Karthago",
+     "Alexandria"
+    ],
+    "it": [
+     "In Atti 11, uomini di Cipro e di quale città parlarono ai Greci ad Antiochia?",
+     "Cirene",
+     "Cartagine",
+     "Alessandria"
+    ],
+    "pl": [
+     "W Dziejach Apostolskich 11, mężowie z Cypru i jakiego miasta przemawiali do Greków w Antiochii?",
+     "Cyreny",
+     "Kartaginy",
+     "Aleksandrii"
+    ],
+    "ru": [
+     "В Деяниях 11, мужи из Кипра и какого города говорили эллинам в Антиохии?",
+     "Киринеи",
+     "Карфагена",
+     "Александрии"
+    ],
+    "tr": [
+     "Elçilerin İşleri 11'de Kıbrıslı adamlarla birlikte Antakya'da Greklere konuşan adamların geldiği kent hangisiydi?",
+     "Kirene",
+     "Kartaca",
+     "İskenderiye"
+    ],
+    "ja": [
+     "使徒言行録11章で、キプロスとどの町の人々がアンティオキアでギリシア人に語りましたか？",
+     "キレネ",
+     "カルタゴ",
+     "アレクサンドリア"
+    ],
+    "ko": [
+     "사도행전 11장에서, 키프로스와 어느 도시 출신들이 안티오키아에서 그리스인들에게 말했습니까?",
+     "키레네",
+     "카르타고",
+     "알렉산드리아"
+    ],
+    "ar": [
+     "في أعمال الرسل 11، رجال من قبرص ومن أي مدينة كلّموا اليونانيين في أنطاكية؟",
+     "القيروان",
+     "قرطاج",
+     "الإسكندرية"
+    ]
+   }
+  },
+  {
+   "id": "ch-acts-001-55",
+   "book": "acts",
+   "chapter": 11,
+   "difficulty": "impossible",
+   "ref": "Acts 11:12",
+   "text": {
+    "en": [
+     "In Acts 11, how many brothers accompanied Peter to Cornelius's house?",
+     "6",
+     "3",
+     "12"
+    ],
+    "es": [
+     "En Hechos 11, ¿cuántos hermanos acompañaron a Pedro a casa de Cornelio?",
+     "6",
+     "3",
+     "12"
+    ],
+    "pt": [
+     "Em Atos 11, quantos irmãos acompanharam Pedro até a casa de Cornélio?",
+     "6",
+     "3",
+     "12"
+    ],
+    "fr": [
+     "Dans Actes 11, combien de frères accompagnèrent Pierre chez Corneille ?",
+     "6",
+     "3",
+     "12"
+    ],
+    "de": [
+     "In Apostelgeschichte 11, wie viele Brüder begleiteten Petrus zum Haus des Kornelius?",
+     "6",
+     "3",
+     "12"
+    ],
+    "it": [
+     "In Atti 11, quanti fratelli accompagnarono Pietro a casa di Cornelio?",
+     "6",
+     "3",
+     "12"
+    ],
+    "pl": [
+     "W Dziejach Apostolskich 11, ilu braci towarzyszyło Piotrowi do domu Korneliusza?",
+     "6",
+     "3",
+     "12"
+    ],
+    "ru": [
+     "В Деяниях 11, сколько братьев сопровождали Петра в дом Корнилия?",
+     "6",
+     "3",
+     "12"
+    ],
+    "tr": [
+     "Elçilerin İşleri 11'de Petrus'a Kornelius'un evine kaç kardeş eşlik etti?",
+     "6",
+     "3",
+     "12"
+    ],
+    "ja": [
+     "使徒言行録11章で、ペトロにコルネリウスの家まで何人の兄弟が同行しましたか？",
+     "6",
+     "3",
+     "12"
+    ],
+    "ko": [
+     "사도행전 11장에서, 베드로와 함께 고르넬리오의 집에 간 형제는 몇 명입니까?",
+     "6",
+     "3",
+     "12"
+    ],
+    "ar": [
+     "في أعمال الرسل 11، كم أخًا رافقوا بطرس إلى بيت قرنيليوس؟",
+     "6",
+     "3",
+     "12"
+    ]
+   }
+  },
+  {
+   "id": "ch-acts-001-56",
+   "book": "acts",
+   "chapter": 12,
+   "difficulty": "easy",
+   "ref": "Acts 12:3",
+   "text": {
+    "en": [
+     "In Acts 12, Herod arrested which apostle during the Feast of Unleavened Bread?",
+     "Peter",
+     "Paul",
+     "Andrew"
+    ],
+    "es": [
+     "En Hechos 12, ¿a qué apóstol arrestó Herodes en los días de los Ácimos?",
+     "Pedro",
+     "Pablo",
+     "Andrés"
+    ],
+    "pt": [
+     "Em Atos 12, que apóstolo Herodes prendeu nos dias dos Pães Ázimos?",
+     "Pedro",
+     "Paulo",
+     "André"
+    ],
+    "fr": [
+     "Dans Actes 12, quel apôtre Hérode fit-il arrêter pendant les jours des Azymes ?",
+     "Pierre",
+     "Paul",
+     "André"
+    ],
+    "de": [
+     "In Apostelgeschichte 12, welchen Apostel nahm Herodes in den Tagen der Ungesäuerten Brote fest?",
+     "Petrus",
+     "Paulus",
+     "Andreas"
+    ],
+    "it": [
+     "In Atti 12, quale apostolo Erode arrestò nei giorni degli Azzimi?",
+     "Pietro",
+     "Paolo",
+     "Andrea"
+    ],
+    "pl": [
+     "W Dziejach Apostolskich 12, którego apostoła aresztował Herod w dniach Przaśników?",
+     "Piotra",
+     "Pawła",
+     "Andrzeja"
+    ],
+    "ru": [
+     "В Деяниях 12, какого апостола схватил Ирод в дни опресноков?",
+     "Петра",
+     "Павла",
+     "Андрея"
+    ],
+    "tr": [
+     "Elçilerin İşleri 12'de Hirodes'in Mayasız Ekmek günlerinde tutukladığı elçi kimdi?",
+     "Petrus",
+     "Pavlus",
+     "Andreas"
+    ],
+    "ja": [
+     "使徒言行録12章で、ヘロデは除酵祭の間にどの使徒を捕らえましたか？",
+     "ペトロ",
+     "パウロ",
+     "アンデレ"
+    ],
+    "ko": [
+     "사도행전 12장에서, 헤로데는 무교절 기간에 어느 사도를 체포했습니까?",
+     "베드로",
+     "바오로",
+     "안드레아"
+    ],
+    "ar": [
+     "في أعمال الرسل 12، أي رسول قبض عليه هيرودس في أيام الفطير؟",
+     "بطرس",
+     "بولس",
+     "أندراوس"
+    ]
+   }
+  },
+  {
+   "id": "ch-acts-001-57",
+   "book": "acts",
+   "chapter": 12,
+   "difficulty": "medium",
+   "ref": "Acts 12:4",
+   "text": {
+    "en": [
+     "In Acts 12, Herod guarded Peter with how many squads of soldiers?",
+     "4",
+     "2",
+     "6"
+    ],
+    "es": [
+     "En Hechos 12, ¿con cuántas escuadras de soldados custodió Herodes a Pedro?",
+     "4",
+     "2",
+     "6"
+    ],
+    "pt": [
+     "Em Atos 12, com quantos grupos de soldados Herodes vigiou Pedro?",
+     "4",
+     "2",
+     "6"
+    ],
+    "fr": [
+     "Dans Actes 12, par combien d'escouades de soldats Hérode fit-il garder Pierre ?",
+     "4",
+     "2",
+     "6"
+    ],
+    "de": [
+     "In Apostelgeschichte 12, von wie vielen Abteilungen Soldaten ließ Herodes Petrus bewachen?",
+     "4",
+     "2",
+     "6"
+    ],
+    "it": [
+     "In Atti 12, da quante squadre di soldati Erode fece sorvegliare Pietro?",
+     "4",
+     "2",
+     "6"
+    ],
+    "pl": [
+     "W Dziejach Apostolskich 12, przez ile oddziałów żołnierzy Herod kazał strzec Piotra?",
+     "4",
+     "2",
+     "6"
+    ],
+    "ru": [
+     "В Деяниях 12, сколькими четвёрками воинов Ирод велел стеречь Петра?",
+     "4",
+     "2",
+     "6"
+    ],
+    "tr": [
+     "Elçilerin İşleri 12'de Hirodes Petrus'u kaç nöbetçi birliğiyle koruttu?",
+     "4",
+     "2",
+     "6"
+    ],
+    "ja": [
+     "使徒言行録12章で、ヘロデはペトロを何組の兵士に守らせましたか？",
+     "4",
+     "2",
+     "6"
+    ],
+    "ko": [
+     "사도행전 12장에서, 헤로데는 베드로를 몇 조의 병사에게 지키게 했습니까?",
+     "4",
+     "2",
+     "6"
+    ],
+    "ar": [
+     "في أعمال الرسل 12، بكم فرقة من الجنود حرس هيرودس بطرس؟",
+     "4",
+     "2",
+     "6"
+    ]
+   }
+  },
+  {
+   "id": "ch-acts-001-58",
+   "book": "acts",
+   "chapter": 12,
+   "difficulty": "hard",
+   "ref": "Acts 12:17",
+   "text": {
+    "en": [
+     "In Acts 12, after escaping, Peter asked that the brothers and whom be told?",
+     "James",
+     "John",
+     "Paul"
+    ],
+    "es": [
+     "En Hechos 12, tras escapar, ¿a quién pidió Pedro que se avisara, además de a los hermanos?",
+     "Santiago",
+     "Juan",
+     "Pablo"
+    ],
+    "pt": [
+     "Em Atos 12, depois de escapar, a quem Pedro pediu que avisassem, além dos irmãos?",
+     "Tiago",
+     "João",
+     "Paulo"
+    ],
+    "fr": [
+     "Dans Actes 12, après son évasion, qui Pierre demanda-t-il d'avertir, outre les frères ?",
+     "Jacques",
+     "Jean",
+     "Paul"
+    ],
+    "de": [
+     "In Apostelgeschichte 12, wen sollte man nach Petrus' Flucht außer den Brüdern benachrichtigen?",
+     "Jakobus",
+     "Johannes",
+     "Paulus"
+    ],
+    "it": [
+     "In Atti 12, dopo la fuga, chi Pietro chiese di avvisare oltre ai fratelli?",
+     "Giacomo",
+     "Giovanni",
+     "Paolo"
+    ],
+    "pl": [
+     "W Dziejach Apostolskich 12, kogo po ucieczce Piotr prosił zawiadomić, oprócz braci?",
+     "Jakuba",
+     "Jana",
+     "Pawła"
+    ],
+    "ru": [
+     "В Деяниях 12, кого, кроме братьев, Пётр после побега просил известить?",
+     "Иакова",
+     "Иоанна",
+     "Павла"
+    ],
+    "tr": [
+     "Elçilerin İşleri 12'de Petrus kaçtıktan sonra kardeşlerin yanı sıra haber verilmesini istediği kişi kimdi?",
+     "Yakup",
+     "Yuhanna",
+     "Pavlus"
+    ],
+    "ja": [
+     "使徒言行録12章で、脱出後、ペトロは兄弟たちのほかに誰に知らせるよう頼みましたか？",
+     "ヤコブ",
+     "ヨハネ",
+     "パウロ"
+    ],
+    "ko": [
+     "사도행전 12장에서, 탈출한 뒤 베드로는 형제들 외에 누구에게 알리라고 했습니까?",
+     "야고보",
+     "요한",
+     "바오로"
+    ],
+    "ar": [
+     "في أعمال الرسل 12، بعد هروبه، لمن طلب بطرس أن يُخبَر، إضافة إلى الإخوة؟",
+     "يعقوب",
+     "يوحنا",
+     "بولس"
+    ]
+   }
+  },
+  {
+   "id": "ch-acts-001-59",
+   "book": "acts",
+   "chapter": 12,
+   "difficulty": "expert",
+   "ref": "Acts 12:10",
+   "text": {
+    "en": [
+     "In Acts 12, what iron thing opened by itself for Peter?",
+     "Gate",
+     "Window",
+     "Wall"
+    ],
+    "es": [
+     "En Hechos 12, ¿qué cosa de hierro se abrió sola ante Pedro?",
+     "Puerta",
+     "Ventana",
+     "Muro"
+    ],
+    "pt": [
+     "Em Atos 12, que coisa de ferro se abriu sozinha diante de Pedro?",
+     "Portão",
+     "Janela",
+     "Muro"
+    ],
+    "fr": [
+     "Dans Actes 12, quelle chose en fer s'ouvrit d'elle-même devant Pierre ?",
+     "Porte",
+     "Fenêtre",
+     "Mur"
+    ],
+    "de": [
+     "In Apostelgeschichte 12, was Eisernes öffnete sich von selbst vor Petrus?",
+     "Tor",
+     "Fenster",
+     "Mauer"
+    ],
+    "it": [
+     "In Atti 12, quale cosa di ferro si aprì da sola davanti a Pietro?",
+     "Porta",
+     "Finestra",
+     "Muro"
+    ],
+    "pl": [
+     "W Dziejach Apostolskich 12, co żelaznego otworzyło się samo przed Piotrem?",
+     "Brama",
+     "Okno",
+     "Mur"
+    ],
+    "ru": [
+     "В Деяниях 12, что железное отворилось само собой перед Петром?",
+     "Ворота",
+     "Окно",
+     "Стена"
+    ],
+    "tr": [
+     "Elçilerin İşleri 12'de demirden hangi şey Petrus'un önünde kendiliğinden açıldı?",
+     "Kapı",
+     "Pencere",
+     "Duvar"
+    ],
+    "ja": [
+     "使徒言行録12章で、ペトロの前でひとりでに開いた鉄製のものは何ですか？",
+     "門",
+     "窓",
+     "壁"
+    ],
+    "ko": [
+     "사도행전 12장에서, 베드로 앞에서 저절로 열린 쇠로 된 것은 무엇입니까?",
+     "문",
+     "창문",
+     "담"
+    ],
+    "ar": [
+     "في أعمال الرسل 12، ما الشيء الحديدي الذي انفتح من تلقاء نفسه أمام بطرس؟",
+     "باب",
+     "نافذة",
+     "جدار"
+    ]
+   }
+  },
+  {
+   "id": "ch-acts-001-60",
+   "book": "acts",
+   "chapter": 12,
+   "difficulty": "impossible",
+   "ref": "Acts 12:20",
+   "text": {
+    "en": [
+     "In Acts 12, who was the king's chamberlain won over by Tyre and Sidon?",
+     "Blastus",
+     "Erastus",
+     "Trophimus"
+    ],
+    "es": [
+     "En Hechos 12, ¿quién era el camarero del rey ganado por los de Tiro y Sidón?",
+     "Blasto",
+     "Erasto",
+     "Trófimo"
+    ],
+    "pt": [
+     "Em Atos 12, quem era o camareiro do rei conquistado pelos de Tiro e Sidom?",
+     "Blasto",
+     "Erasto",
+     "Trófimo"
+    ],
+    "fr": [
+     "Dans Actes 12, qui était le chambellan du roi gagné par les gens de Tyr et de Sidon ?",
+     "Blastus",
+     "Éraste",
+     "Trophime"
+    ],
+    "de": [
+     "In Apostelgeschichte 12, wer war der Kämmerer des Königs, den Tyrus und Sidon für sich gewannen?",
+     "Blastus",
+     "Erastus",
+     "Trophimus"
+    ],
+    "it": [
+     "In Atti 12, chi era il ciambellano del re conquistato da Tiro e Sidone?",
+     "Blasto",
+     "Erasto",
+     "Trofimo"
+    ],
+    "pl": [
+     "W Dziejach Apostolskich 12, kto był szambelanem króla, pozyskanym przez Tyr i Sydon?",
+     "Blastus",
+     "Erast",
+     "Trofim"
+    ],
+    "ru": [
+     "В Деяниях 12, кто был постельничим царя, которого привлекли жители Тира и Сидона?",
+     "Власт",
+     "Ераст",
+     "Трофим"
+    ],
+    "tr": [
+     "Elçilerin İşleri 12'de Sur ve Sayda halkının kazandığı kralın yatak odası görevlisi kimdi?",
+     "Blastus",
+     "Erastus",
+     "Trofimus"
+    ],
+    "ja": [
+     "使徒言行録12章で、ティルスとシドンの人々が味方につけた王の侍従は誰ですか？",
+     "ブラスト",
+     "エラスト",
+     "トロフィモ"
+    ],
+    "ko": [
+     "사도행전 12장에서, 티로와 시돈 사람들이 설득한 임금의 시종은 누구입니까?",
+     "블라스도",
+     "에라스도",
+     "트로피모"
+    ],
+    "ar": [
+     "في أعمال الرسل 12، من كان حاجب الملك الذي استمال إليه أهل صور وصيدا؟",
+     "بلاستس",
+     "أراستس",
+     "تروفيمس"
+    ]
+   }
+  },
+  {
+   "id": "ch-acts-001-61",
+   "book": "acts",
+   "chapter": 13,
+   "difficulty": "easy",
+   "ref": "Acts 13:2",
+   "text": {
+    "en": [
+     "In Acts 13, with Barnabas, whom did the Holy Spirit set apart?",
+     "Saul",
+     "Silas",
+     "Timothy"
+    ],
+    "es": [
+     "En Hechos 13, ¿a quién separó el Espíritu Santo junto con Bernabé para la obra?",
+     "Saulo",
+     "Silas",
+     "Timoteo"
+    ],
+    "pt": [
+     "Em Atos 13, a quem o Espírito Santo separou, com Barnabé, para a obra?",
+     "Saulo",
+     "Silas",
+     "Timóteo"
+    ],
+    "fr": [
+     "Dans Actes 13, qui l'Esprit Saint mit-il à part avec Barnabé pour l'œuvre ?",
+     "Saul",
+     "Silas",
+     "Timothée"
+    ],
+    "de": [
+     "In Apostelgeschichte 13, wen sonderte der Heilige Geist mit Barnabas für das Werk aus?",
+     "Saulus",
+     "Silas",
+     "Timotheus"
+    ],
+    "it": [
+     "In Atti 13, chi mise da parte lo Spirito Santo con Barnaba per l'opera?",
+     "Saulo",
+     "Sila",
+     "Timoteo"
+    ],
+    "pl": [
+     "W Dziejach Apostolskich 13, kogo Duch Święty wyznaczył wraz z Barnabą do dzieła?",
+     "Szawła",
+     "Sylasa",
+     "Tymoteusza"
+    ],
+    "ru": [
+     "В Деяниях 13, кого Дух Святой отделил вместе с Варнавой для дела?",
+     "Савла",
+     "Силу",
+     "Тимофея"
+    ],
+    "tr": [
+     "Elçilerin İşleri 13'te Kutsal Ruh'un Barnaba'yla birlikte göreve ayırdığı kişi kimdi?",
+     "Saul",
+     "Silas",
+     "Timoteos"
+    ],
+    "ja": [
+     "使徒言行録13章で、聖霊はバルナバと共に誰を務めのために選び分けましたか？",
+     "サウロ",
+     "シラス",
+     "テモテ"
+    ],
+    "ko": [
+     "사도행전 13장에서, 성령께서는 바르나바와 함께 누구를 그 일을 위해 따로 세우라고 하셨습니까?",
+     "사울",
+     "실라스",
+     "티모테오"
+    ],
+    "ar": [
+     "في أعمال الرسل 13، من أفرز الروح القدس مع برنابا للعمل؟",
+     "شاول",
+     "سيلا",
+     "تيموثاوس"
+    ]
+   }
+  },
+  {
+   "id": "ch-acts-001-62",
+   "book": "acts",
+   "chapter": 13,
+   "difficulty": "medium",
+   "ref": "Acts 13:4",
+   "text": {
+    "en": [
+     "In Acts 13, sent by the Spirit, Barnabas and Saul sailed to which island?",
+     "Cyprus",
+     "Crete",
+     "Malta"
+    ],
+    "es": [
+     "En Hechos 13, enviados por el Espíritu, ¿a qué isla navegaron Bernabé y Saulo?",
+     "Chipre",
+     "Creta",
+     "Malta"
+    ],
+    "pt": [
+     "Em Atos 13, enviados pelo Espírito, para que ilha navegaram Barnabé e Saulo?",
+     "Chipre",
+     "Creta",
+     "Malta"
+    ],
+    "fr": [
+     "Dans Actes 13, envoyés par l'Esprit, vers quelle île Barnabé et Saul naviguèrent-ils ?",
+     "Chypre",
+     "Crète",
+     "Malte"
+    ],
+    "de": [
+     "In Apostelgeschichte 13, vom Geist gesandt, zu welcher Insel segelten Barnabas und Saulus?",
+     "Zypern",
+     "Kreta",
+     "Malta"
+    ],
+    "it": [
+     "In Atti 13, inviati dallo Spirito, a quale isola salparono Barnaba e Saulo?",
+     "Cipro",
+     "Creta",
+     "Malta"
+    ],
+    "pl": [
+     "W Dziejach Apostolskich 13, która wyspa była celem morskiej podróży Barnaby i Szawła, wysłanych przez Ducha?",
+     "Cypr",
+     "Kreta",
+     "Malta"
+    ],
+    "ru": [
+     "В Деяниях 13, какой остров был целью морского пути посланных Духом Варнавы и Савла?",
+     "Кипр",
+     "Крит",
+     "Мальта"
+    ],
+    "tr": [
+     "Elçilerin İşleri 13'te Ruh'un gönderdiği Barnaba ile Saul'un yelken açtığı ada hangisiydi?",
+     "Kıbrıs",
+     "Girit",
+     "Malta"
+    ],
+    "ja": [
+     "使徒言行録13章で、霊に送り出されたバルナバとサウロはどの島へ船出しましたか？",
+     "キプロス",
+     "クレタ",
+     "マルタ"
+    ],
+    "ko": [
+     "사도행전 13장에서, 성령께 파견된 바르나바와 사울은 어느 섬으로 배를 타고 갔습니까?",
+     "키프로스",
+     "크레타",
+     "몰타"
+    ],
+    "ar": [
+     "في أعمال الرسل 13، بإرسال من الروح، إلى أي جزيرة أبحر برنابا وشاول؟",
+     "قبرص",
+     "كريت",
+     "مالطة"
+    ]
+   }
+  },
+  {
+   "id": "ch-acts-001-63",
+   "book": "acts",
+   "chapter": 13,
+   "difficulty": "hard",
+   "ref": "Acts 13:13",
+   "text": {
+    "en": [
+     "In Acts 13, who left Paul's group at Perga and returned to Jerusalem?",
+     "John",
+     "Silas",
+     "Timothy"
+    ],
+    "es": [
+     "En Hechos 13, ¿quién dejó al grupo de Pablo en Perge y volvió a Jerusalén?",
+     "Juan",
+     "Silas",
+     "Timoteo"
+    ],
+    "pt": [
+     "Em Atos 13, quem deixou o grupo de Paulo em Perge e voltou a Jerusalém?",
+     "João",
+     "Silas",
+     "Timóteo"
+    ],
+    "fr": [
+     "Dans Actes 13, qui quitta le groupe de Paul à Perge et retourna à Jérusalem ?",
+     "Jean",
+     "Silas",
+     "Timothée"
+    ],
+    "de": [
+     "In Apostelgeschichte 13, wer verließ in Perge die Gruppe des Paulus und kehrte nach Jerusalem zurück?",
+     "Johannes",
+     "Silas",
+     "Timotheus"
+    ],
+    "it": [
+     "In Atti 13, chi lasciò il gruppo di Paolo a Perge e tornò a Gerusalemme?",
+     "Giovanni",
+     "Sila",
+     "Timoteo"
+    ],
+    "pl": [
+     "W Dziejach Apostolskich 13, kto opuścił grupę Pawła w Perge i wrócił do Jerozolimy?",
+     "Jan",
+     "Sylas",
+     "Tymoteusz"
+    ],
+    "ru": [
+     "В Деяниях 13, кто оставил Павла в Пергии и вернулся в Иерусалим?",
+     "Иоанн",
+     "Сила",
+     "Тимофей"
+    ],
+    "tr": [
+     "Elçilerin İşleri 13'te Perge'de Pavlus'un grubundan ayrılıp Kudüs'e dönen kimdi?",
+     "Yuhanna",
+     "Silas",
+     "Timoteos"
+    ],
+    "ja": [
+     "使徒言行録13章で、ペルゲでパウロ一行から離れてエルサレムに帰ったのは誰ですか？",
+     "ヨハネ",
+     "シラス",
+     "テモテ"
+    ],
+    "ko": [
+     "사도행전 13장에서, 페르게에서 바오로 일행을 떠나 예루살렘으로 돌아간 이는 누구입니까?",
+     "요한",
+     "실라스",
+     "티모테오"
+    ],
+    "ar": [
+     "في أعمال الرسل 13، من فارق جماعة بولس في برجة وعاد إلى أورشليم؟",
+     "يوحنا",
+     "سيلا",
+     "تيموثاوس"
+    ]
+   }
+  },
+  {
+   "id": "ch-acts-001-64",
+   "book": "acts",
+   "chapter": 13,
+   "difficulty": "expert",
+   "ref": "Acts 13:21",
+   "text": {
+    "en": [
+     "In Acts 13, Paul said King Saul reigned for how many years?",
+     "40",
+     "20",
+     "30"
+    ],
+    "es": [
+     "En Hechos 13, ¿durante cuántos años dijo Pablo que reinó el rey Saúl?",
+     "40",
+     "20",
+     "30"
+    ],
+    "pt": [
+     "Em Atos 13, quantos anos Paulo disse que o rei Saul reinou?",
+     "40",
+     "20",
+     "30"
+    ],
+    "fr": [
+     "Dans Actes 13, pendant combien d'années Paul dit-il que le roi Saül régna ?",
+     "40",
+     "20",
+     "30"
+    ],
+    "de": [
+     "In Apostelgeschichte 13, wie viele Jahre regierte nach Paulus König Saul?",
+     "40",
+     "20",
+     "30"
+    ],
+    "it": [
+     "In Atti 13, per quanti anni Paolo disse che il re Saul regnò?",
+     "40",
+     "20",
+     "30"
+    ],
+    "pl": [
+     "W Dziejach Apostolskich 13, przez ile lat według Pawła panował król Saul?",
+     "40",
+     "20",
+     "30"
+    ],
+    "ru": [
+     "В Деяниях 13, сколько лет, по словам Павла, царствовал Саул?",
+     "40",
+     "20",
+     "30"
+    ],
+    "tr": [
+     "Elçilerin İşleri 13'te Pavlus'a göre Kral Saul kaç yıl hüküm sürdü?",
+     "40",
+     "20",
+     "30"
+    ],
+    "ja": [
+     "使徒言行録13章で、パウロによれば、サウル王は何年間王位にありましたか？",
+     "40",
+     "20",
+     "30"
+    ],
+    "ko": [
+     "사도행전 13장에서, 바오로에 따르면 사울 임금은 몇 해 동안 다스렸습니까?",
+     "40",
+     "20",
+     "30"
+    ],
+    "ar": [
+     "في أعمال الرسل 13، كم سنة قال بولس إن الملك شاول ملك؟",
+     "40",
+     "20",
+     "30"
+    ]
+   }
+  },
+  {
+   "id": "ch-acts-001-65",
+   "book": "acts",
+   "chapter": 13,
+   "difficulty": "impossible",
+   "ref": "Acts 13:1",
+   "text": {
+    "en": [
+     "In Acts 13, which teacher at Antioch had been close to Herod the tetrarch?",
+     "Manaen",
+     "Erastus",
+     "Tychicus"
+    ],
+    "es": [
+     "En Hechos 13, ¿qué maestro de Antioquía había sido íntimo de Herodes el tetrarca?",
+     "Manaén",
+     "Erasto",
+     "Tíquico"
+    ],
+    "pt": [
+     "Em Atos 13, qual mestre de Antioquia tinha sido próximo de Herodes, o tetrarca?",
+     "Manaém",
+     "Erasto",
+     "Tíquico"
+    ],
+    "fr": [
+     "Dans Actes 13, quel docteur d'Antioche avait été proche d'Hérode le tétrarque ?",
+     "Manahen",
+     "Éraste",
+     "Tychique"
+    ],
+    "de": [
+     "In Apostelgeschichte 13, welcher Lehrer in Antiochia stand Herodes, dem Tetrarchen, nahe?",
+     "Manaën",
+     "Erastus",
+     "Tychikus"
+    ],
+    "it": [
+     "In Atti 13, quale maestro di Antiochia era stato vicino a Erode il tetrarca?",
+     "Manaen",
+     "Erasto",
+     "Tichico"
+    ],
+    "pl": [
+     "W Dziejach Apostolskich 13, który nauczyciel w Antiochii był bliskim towarzyszem tetrarchy Heroda?",
+     "Manaen",
+     "Erast",
+     "Tychik"
+    ],
+    "ru": [
+     "В Деяниях 13, какой учитель в Антиохии был близок к четвертовластнику Ироду?",
+     "Манаил",
+     "Ераст",
+     "Тихик"
+    ],
+    "tr": [
+     "Elçilerin İşleri 13'te Antakya'daki öğretmenlerden hangisi Tetrark Hirodes'e yakındı?",
+     "Manaen",
+     "Erastus",
+     "Tihikus"
+    ],
+    "ja": [
+     "使徒言行録13章で、アンティオキアの教師のうち、領主ヘロデと親しかったのは誰ですか？",
+     "マナエン",
+     "エラスト",
+     "テキコ"
+    ],
+    "ko": [
+     "사도행전 13장에서, 안티오키아의 교사 가운데 영주 헤로데와 가까웠던 사람은 누구입니까?",
+     "마나엔",
+     "에라스도",
+     "티키코"
+    ],
+    "ar": [
+     "في أعمال الرسل 13، أي معلّم في أنطاكية كان مقرّبًا من هيرودس رئيس الربع؟",
+     "مناين",
+     "أراستس",
+     "تيخيكس"
+    ]
+   }
+  },
+  {
+   "id": "ch-acts-001-66",
+   "book": "acts",
+   "chapter": 14,
+   "difficulty": "easy",
+   "ref": "Acts 14:8",
+   "text": {
+    "en": [
+     "In Acts 14, which body part was crippled in the man healed at Lystra?",
+     "Feet",
+     "Eyes",
+     "Hands"
+    ],
+    "es": [
+     "En Hechos 14, ¿qué parte de su cuerpo tenía impedida el hombre curado en Listra?",
+     "Pies",
+     "Ojos",
+     "Manos"
+    ],
+    "pt": [
+     "Em Atos 14, que parte do corpo era aleijada no homem curado em Listra?",
+     "Pés",
+     "Olhos",
+     "Mãos"
+    ],
+    "fr": [
+     "Dans Actes 14, quelle partie du corps était infirme chez l'homme guéri à Lystres ?",
+     "Pieds",
+     "Yeux",
+     "Mains"
+    ],
+    "de": [
+     "In Apostelgeschichte 14, welcher Körperteil war bei dem in Lystra geheilten Mann gelähmt?",
+     "Füße",
+     "Augen",
+     "Hände"
+    ],
+    "it": [
+     "In Atti 14, quale parte del corpo era paralizzata nell'uomo guarito a Listra?",
+     "Piedi",
+     "Occhi",
+     "Mani"
+    ],
+    "pl": [
+     "W Dziejach Apostolskich 14, która część ciała była niesprawna u człowieka uzdrowionego w Listrze?",
+     "Nogi",
+     "Oczy",
+     "Ręce"
+    ],
+    "ru": [
+     "В Деяниях 14, какая часть тела была немощна у исцелённого в Листре человека?",
+     "Ноги",
+     "Глаза",
+     "Руки"
+    ],
+    "tr": [
+     "Elçilerin İşleri 14'te Listra'da iyileştirilen adamın vücudunun hangi bölümü sakattı?",
+     "Ayaklar",
+     "Gözler",
+     "Eller"
+    ],
+    "ja": [
+     "使徒言行録14章で、リストラでいやされた男は体のどの部分が不自由でしたか？",
+     "足",
+     "目",
+     "手"
+    ],
+    "ko": [
+     "사도행전 14장에서, 리스트라에서 고쳐진 사람은 몸의 어느 부분이 불편했습니까?",
+     "발",
+     "눈",
+     "손"
+    ],
+    "ar": [
+     "في أعمال الرسل 14، أي جزء من جسد الرجل الذي شُفي في لسترة كان مقعدًا؟",
+     "قدمان",
+     "عينان",
+     "يدان"
+    ]
+   }
+  },
+  {
+   "id": "ch-acts-001-67",
+   "book": "acts",
+   "chapter": 14,
+   "difficulty": "medium",
+   "ref": "Acts 14:19",
+   "text": {
+    "en": [
+     "In Acts 14, with what did the crowd in Lystra attack Paul?",
+     "Stones",
+     "Whips",
+     "Swords"
+    ],
+    "es": [
+     "En Hechos 14, ¿con qué atacó a Pablo la multitud de Listra?",
+     "Piedras",
+     "Látigos",
+     "Espadas"
+    ],
+    "pt": [
+     "Em Atos 14, com o que a multidão de Listra atacou Paulo?",
+     "Pedras",
+     "Chicotes",
+     "Espadas"
+    ],
+    "fr": [
+     "Dans Actes 14, avec quoi la foule de Lystres attaqua-t-elle Paul ?",
+     "Pierres",
+     "Fouets",
+     "Épées"
+    ],
+    "de": [
+     "In Apostelgeschichte 14, womit griff die Menge in Lystra Paulus an?",
+     "Steine",
+     "Peitschen",
+     "Schwerter"
+    ],
+    "it": [
+     "In Atti 14, con che cosa la folla di Listra aggredì Paolo?",
+     "Pietre",
+     "Fruste",
+     "Spade"
+    ],
+    "pl": [
+     "W Dziejach Apostolskich 14, czym tłum w Listrze zaatakował Pawła?",
+     "Kamieniami",
+     "Biczami",
+     "Mieczami"
+    ],
+    "ru": [
+     "В Деяниях 14, чем толпа в Листре напала на Павла?",
+     "Камнями",
+     "Бичами",
+     "Мечами"
+    ],
+    "tr": [
+     "Elçilerin İşleri 14'te Listra'daki kalabalığın Pavlus'a saldırırken kullandığı şey neydi?",
+     "Taşlar",
+     "Kamçılar",
+     "Kılıçlar"
+    ],
+    "ja": [
+     "使徒言行録14章で、リストラの群衆は何でパウロを襲いましたか？",
+     "石",
+     "鞭",
+     "剣"
+    ],
+    "ko": [
+     "사도행전 14장에서, 리스트라의 군중은 무엇으로 바오로를 쳤습니까?",
+     "돌",
+     "채찍",
+     "칼"
+    ],
+    "ar": [
+     "في أعمال الرسل 14، بماذا هاجم جمع لسترة بولس؟",
+     "حجارة",
+     "سياط",
+     "سيوف"
+    ]
+   }
+  },
+  {
+   "id": "ch-acts-001-68",
+   "book": "acts",
+   "chapter": 14,
+   "difficulty": "hard",
+   "ref": "Acts 14:20",
+   "text": {
+    "en": [
+     "In Acts 14, after his stoning, Paul left for which city with Barnabas?",
+     "Derbe",
+     "Tarsus",
+     "Ephesus"
+    ],
+    "es": [
+     "En Hechos 14, tras ser apedreado, ¿a qué ciudad partió Pablo con Bernabé?",
+     "Derbe",
+     "Tarso",
+     "Éfeso"
+    ],
+    "pt": [
+     "Em Atos 14, depois de ser apedrejado, para que cidade Paulo partiu com Barnabé?",
+     "Derbe",
+     "Tarso",
+     "Éfeso"
+    ],
+    "fr": [
+     "Dans Actes 14, après avoir été lapidé, vers quelle ville Paul partit-il avec Barnabé ?",
+     "Derbé",
+     "Tarse",
+     "Éphèse"
+    ],
+    "de": [
+     "In Apostelgeschichte 14, in welche Stadt zog Paulus nach der Steinigung mit Barnabas weiter?",
+     "Derbe",
+     "Tarsus",
+     "Ephesus"
+    ],
+    "it": [
+     "In Atti 14, dopo la lapidazione, verso quale città partì Paolo con Barnaba?",
+     "Derbe",
+     "Tarso",
+     "Efeso"
+    ],
+    "pl": [
+     "W Dziejach Apostolskich 14, do jakiego miasta wyruszył Paweł z Barnabą po ukamienowaniu?",
+     "Derbe",
+     "Tarsu",
+     "Efezu"
+    ],
+    "ru": [
+     "В Деяниях 14, в какой город отправился Павел с Варнавой после побиения камнями?",
+     "Дервию",
+     "Тарс",
+     "Ефес"
+    ],
+    "tr": [
+     "Elçilerin İşleri 14'te taşlandıktan sonra Pavlus'un Barnaba ile birlikte yola çıktığı kent hangisiydi?",
+     "Derbe",
+     "Tarsus",
+     "Efes"
+    ],
+    "ja": [
+     "使徒言行録14章で、石で打たれた後、パウロはバルナバと共にどの町へ向かいましたか？",
+     "デルベ",
+     "タルソス",
+     "エフェソ"
+    ],
+    "ko": [
+     "사도행전 14장에서, 돌에 맞은 뒤 바오로는 바르나바와 함께 어느 도시로 떠났습니까?",
+     "데르베",
+     "타르수스",
+     "에페소"
+    ],
+    "ar": [
+     "في أعمال الرسل 14، بعد رجمه، إلى أي مدينة رحل بولس مع برنابا؟",
+     "دربة",
+     "طرسوس",
+     "أفسس"
+    ]
+   }
+  },
+  {
+   "id": "ch-acts-001-69",
+   "book": "acts",
+   "chapter": 14,
+   "difficulty": "expert",
+   "ref": "Acts 14:25",
+   "text": {
+    "en": [
+     "In Acts 14, from which port city did Paul and Barnabas sail to Antioch?",
+     "Attalia",
+     "Troas",
+     "Ephesus"
+    ],
+    "es": [
+     "En Hechos 14, ¿desde qué ciudad portuaria zarparon Pablo y Bernabé hacia Antioquía?",
+     "Atalía",
+     "Tróade",
+     "Éfeso"
+    ],
+    "pt": [
+     "Em Atos 14, de que cidade portuária Paulo e Barnabé navegaram para Antioquia?",
+     "Atália",
+     "Trôade",
+     "Éfeso"
+    ],
+    "fr": [
+     "Dans Actes 14, de quelle ville portuaire Paul et Barnabé firent-ils voile vers Antioche ?",
+     "Attalia",
+     "Troas",
+     "Éphèse"
+    ],
+    "de": [
+     "In Apostelgeschichte 14, von welcher Hafenstadt segelten Paulus und Barnabas nach Antiochia?",
+     "Attalia",
+     "Troas",
+     "Ephesus"
+    ],
+    "it": [
+     "In Atti 14, da quale città portuale Paolo e Barnaba salparono per Antiochia?",
+     "Attalìa",
+     "Troade",
+     "Efeso"
+    ],
+    "pl": [
+     "W Dziejach Apostolskich 14, z jakiego miasta portowego odpłynęli Paweł i Barnaba do Antiochii?",
+     "Attalii",
+     "Troady",
+     "Efezu"
+    ],
+    "ru": [
+     "В Деяниях 14, из какого портового города отплыли Павел и Варнава в Антиохию?",
+     "Атталии",
+     "Троады",
+     "Ефеса"
+    ],
+    "tr": [
+     "Elçilerin İşleri 14'te Pavlus ile Barnaba'nın Antakya'ya yelken açtığı liman kenti hangisiydi?",
+     "Attalia",
+     "Truva",
+     "Efes"
+    ],
+    "ja": [
+     "使徒言行録14章で、パウロとバルナバはどの港町からアンティオキアへ船出しましたか？",
+     "アタリア",
+     "トロアス",
+     "エフェソ"
+    ],
+    "ko": [
+     "사도행전 14장에서, 바오로와 바르나바는 어느 항구 도시에서 안티오키아로 배를 타고 갔습니까?",
+     "아탈리아",
+     "트로아스",
+     "에페소"
+    ],
+    "ar": [
+     "في أعمال الرسل 14، من أي مدينة ميناء أبحر بولس وبرنابا إلى أنطاكية؟",
+     "أتاليا",
+     "ترواس",
+     "أفسس"
+    ]
+   }
+  },
+  {
+   "id": "ch-acts-001-70",
+   "book": "acts",
+   "chapter": 14,
+   "difficulty": "impossible",
+   "ref": "Acts 14:6",
+   "text": {
+    "en": [
+     "In Acts 14, to which region did Lystra belong?",
+     "Lycaonia",
+     "Cilicia",
+     "Phrygia"
+    ],
+    "es": [
+     "En Hechos 14, ¿a qué región pertenecía Listra?",
+     "Licaonia",
+     "Cilicia",
+     "Frigia"
+    ],
+    "pt": [
+     "Em Atos 14, a que região pertencia Listra?",
+     "Licaônia",
+     "Cilícia",
+     "Frígia"
+    ],
+    "fr": [
+     "Dans Actes 14, à quelle région appartenait Lystres ?",
+     "Lycaonie",
+     "Cilicie",
+     "Phrygie"
+    ],
+    "de": [
+     "In Apostelgeschichte 14, zu welcher Region gehörte Lystra?",
+     "Lykaonien",
+     "Zilizien",
+     "Phrygien"
+    ],
+    "it": [
+     "In Atti 14, a quale regione apparteneva Listra?",
+     "Licaònia",
+     "Cilicia",
+     "Frigia"
+    ],
+    "pl": [
+     "W Dziejach Apostolskich 14, do jakiej krainy należała Listra?",
+     "Likaonii",
+     "Cylicji",
+     "Frygii"
+    ],
+    "ru": [
+     "В Деяниях 14, к какой области относилась Листра?",
+     "Ликаонии",
+     "Киликии",
+     "Фригии"
+    ],
+    "tr": [
+     "Elçilerin İşleri 14'te Listra'nın ait olduğu bölge hangisiydi?",
+     "Likaonya",
+     "Kilikya",
+     "Frigya"
+    ],
+    "ja": [
+     "使徒言行録14章で、リストラはどの地方に属していましたか？",
+     "リカオニア",
+     "キリキア",
+     "フリギア"
+    ],
+    "ko": [
+     "사도행전 14장에서, 리스트라는 어느 지방에 속해 있었습니까?",
+     "리카오니아",
+     "킬리키아",
+     "프리기아"
+    ],
+    "ar": [
+     "في أعمال الرسل 14، إلى أي إقليم تنتمي لسترة؟",
+     "ليكأونية",
+     "قيليقية",
+     "فريجية"
+    ]
+   }
+  }
+ ]
+}
