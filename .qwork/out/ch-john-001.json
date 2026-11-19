@@ -1,0 +1,4054 @@
+{
+ "questions": [
+  {
+   "id": "ch-john-001-01",
+   "book": "john",
+   "chapter": 1,
+   "difficulty": "easy",
+   "ref": "John 1:4",
+   "text": {
+    "en": [
+     "In John 1, what was the light of men?",
+     "Life",
+     "Law",
+     "Fire"
+    ],
+    "es": [
+     "En Juan 1, ¿qué era la luz de los hombres?",
+     "Vida",
+     "Ley",
+     "Fuego"
+    ],
+    "pt": [
+     "Em João 1, o que era a luz dos homens?",
+     "Vida",
+     "Lei",
+     "Fogo"
+    ],
+    "fr": [
+     "Dans Jean 1, qu'était la lumière des hommes ?",
+     "Vie",
+     "Loi",
+     "Feu"
+    ],
+    "de": [
+     "In Johannes 1, was war das Licht der Menschen?",
+     "Leben",
+     "Gesetz",
+     "Feuer"
+    ],
+    "it": [
+     "In Giovanni 1, che cos'era la luce degli uomini?",
+     "Vita",
+     "Legge",
+     "Fuoco"
+    ],
+    "pl": [
+     "W Ewangelii Jana 1, co było światłością ludzi?",
+     "Życie",
+     "Prawo",
+     "Ogień"
+    ],
+    "ru": [
+     "В Евангелии от Иоанна 1, что было светом человеков?",
+     "Жизнь",
+     "Закон",
+     "Огонь"
+    ],
+    "tr": [
+     "Yuhanna 1'de insanların ışığı neydi?",
+     "Yaşam",
+     "Yasa",
+     "Ateş"
+    ],
+    "ja": [
+     "ヨハネ1章で、人間を照らす光とは何ですか？",
+     "命",
+     "律法",
+     "火"
+    ],
+    "ko": [
+     "요한 1장에서 사람들의 빛은 무엇이었습니까?",
+     "생명",
+     "율법",
+     "불"
+    ],
+    "ar": [
+     "في يوحنا 1، ماذا كان نور الناس؟",
+     "حياة",
+     "شريعة",
+     "نار"
+    ]
+   }
+  },
+  {
+   "id": "ch-john-001-02",
+   "book": "john",
+   "chapter": 1,
+   "difficulty": "medium",
+   "ref": "John 1:40-42",
+   "text": {
+    "en": [
+     "In John 1, which disciple brought his brother Simon to Jesus?",
+     "Andrew",
+     "Philip",
+     "Thomas"
+    ],
+    "es": [
+     "En Juan 1, ¿qué discípulo llevó a su hermano Simón ante Jesús?",
+     "Andrés",
+     "Felipe",
+     "Tomás"
+    ],
+    "pt": [
+     "Em João 1, qual discípulo levou seu irmão Simão a Jesus?",
+     "André",
+     "Filipe",
+     "Tomé"
+    ],
+    "fr": [
+     "Dans Jean 1, quel disciple amena son frère Simon à Jésus ?",
+     "André",
+     "Philippe",
+     "Thomas"
+    ],
+    "de": [
+     "In Johannes 1, welcher Jünger führte seinen Bruder Simon zu Jesus?",
+     "Andreas",
+     "Philippus",
+     "Thomas"
+    ],
+    "it": [
+     "In Giovanni 1, quale discepolo condusse suo fratello Simone da Gesù?",
+     "Andrea",
+     "Filippo",
+     "Tommaso"
+    ],
+    "pl": [
+     "W Ewangelii Jana 1, który uczeń zaprowadził swego brata Szymona do Jezusa?",
+     "Andrzej",
+     "Filip",
+     "Tomasz"
+    ],
+    "ru": [
+     "В Евангелии от Иоанна 1, какой ученик привёл к Иисусу своего брата Симона?",
+     "Андрей",
+     "Филипп",
+     "Фома"
+    ],
+    "tr": [
+     "Yuhanna 1'de hangi öğrenci kardeşi Simun'u İsa'ya getirdi?",
+     "Andreas",
+     "Filipus",
+     "Tomas"
+    ],
+    "ja": [
+     "ヨハネ1章で、兄弟シモンをイエスのもとへ連れて来た弟子は誰ですか？",
+     "アンデレ",
+     "フィリポ",
+     "トマス"
+    ],
+    "ko": [
+     "요한 1장에서 형제 시몬을 예수님께 데려간 제자는 누구입니까?",
+     "안드레아",
+     "필립보",
+     "토마스"
+    ],
+    "ar": [
+     "في يوحنا 1، أي تلميذ أتى بأخيه سمعان إلى يسوع؟",
+     "أندراوس",
+     "فيلبس",
+     "توما"
+    ]
+   }
+  },
+  {
+   "id": "ch-john-001-03",
+   "book": "john",
+   "chapter": 1,
+   "difficulty": "hard",
+   "ref": "John 1:51",
+   "text": {
+    "en": [
+     "In John 1, who would ascend and descend upon the Son of Man?",
+     "Angels",
+     "Prophets",
+     "Kings"
+    ],
+    "es": [
+     "En Juan 1, ¿quiénes subirían y bajarían sobre el Hijo del hombre?",
+     "Ángeles",
+     "Profetas",
+     "Reyes"
+    ],
+    "pt": [
+     "Em João 1, quem subiria e desceria sobre o Filho do Homem?",
+     "Anjos",
+     "Profetas",
+     "Reis"
+    ],
+    "fr": [
+     "Dans Jean 1, qui monterait et descendrait sur le Fils de l'homme ?",
+     "Anges",
+     "Prophètes",
+     "Rois"
+    ],
+    "de": [
+     "In Johannes 1, wer wird auf den Menschensohn hinauf- und herabsteigen?",
+     "Engel",
+     "Propheten",
+     "Könige"
+    ],
+    "it": [
+     "In Giovanni 1, chi salirebbe e scenderebbe sul Figlio dell'uomo?",
+     "Angeli",
+     "Profeti",
+     "Re"
+    ],
+    "pl": [
+     "W Ewangelii Jana 1, kto będzie wstępował i zstępował do Syna Człowieczego?",
+     "Aniołowie",
+     "Prorocy",
+     "Królowie"
+    ],
+    "ru": [
+     "В Евангелии от Иоанна 1, кто будет восходить и нисходить к Сыну Человеческому?",
+     "Ангелы",
+     "Пророки",
+     "Цари"
+    ],
+    "tr": [
+     "Yuhanna 1'de İnsanoğlu'nun üzerinde kimler inip çıkacak?",
+     "Melekler",
+     "Peygamberler",
+     "Krallar"
+    ],
+    "ja": [
+     "ヨハネ1章で、人の子の上を昇り降りするのは誰ですか？",
+     "天使",
+     "預言者",
+     "王"
+    ],
+    "ko": [
+     "요한 1장에서 사람의 아들 위로 오르내리는 이들은 누구입니까?",
+     "천사들",
+     "예언자들",
+     "임금들"
+    ],
+    "ar": [
+     "في يوحنا 1، من سيصعد وينزل على ابن الإنسان؟",
+     "ملائكة",
+     "أنبياء",
+     "ملوك"
+    ]
+   }
+  },
+  {
+   "id": "ch-john-001-04",
+   "book": "john",
+   "chapter": 1,
+   "difficulty": "expert",
+   "ref": "John 1:38",
+   "text": {
+    "en": [
+     "In John 1, which Hebrew teacher title did two disciples call Jesus?",
+     "Rabbi",
+     "Amen",
+     "Hosanna"
+    ],
+    "es": [
+     "En Juan 1, ¿qué título hebreo de maestro dieron a Jesús dos discípulos?",
+     "Rabí",
+     "Amén",
+     "Hosanna"
+    ],
+    "pt": [
+     "Em João 1, que título hebraico de mestre dois discípulos deram a Jesus?",
+     "Rabi",
+     "Amém",
+     "Hosana"
+    ],
+    "fr": [
+     "Dans Jean 1, quel titre hébreu de maître deux disciples donnèrent-ils à Jésus ?",
+     "Rabbi",
+     "Amen",
+     "Hosanna"
+    ],
+    "de": [
+     "In Johannes 1, mit welchem hebräischen Lehrertitel redeten zwei Jünger Jesus an?",
+     "Rabbi",
+     "Amen",
+     "Hosanna"
+    ],
+    "it": [
+     "In Giovanni 1, quale titolo ebraico di maestro due discepoli diedero a Gesù?",
+     "Rabbì",
+     "Amen",
+     "Osanna"
+    ],
+    "pl": [
+     "W Ewangelii Jana 1, jaki hebrajski tytuł nauczyciela nadali Jezusowi dwaj uczniowie?",
+     "Rabbi",
+     "Amen",
+     "Hosanna"
+    ],
+    "ru": [
+     "В Евангелии от Иоанна 1, какой еврейский титул учителя дали Иисусу два ученика?",
+     "Равви",
+     "Аминь",
+     "Осанна"
+    ],
+    "tr": [
+     "Yuhanna 1'de iki öğrenci İsa'ya hangi İbranice öğretmen unvanını verdi?",
+     "Rabbi",
+     "Amin",
+     "Hosanna"
+    ],
+    "ja": [
+     "ヨハネ1章で、二人の弟子がイエスに呼びかけたヘブライ語の「先生」は何ですか？",
+     "ラビ",
+     "アーメン",
+     "ホサナ"
+    ],
+    "ko": [
+     "요한 1장에서 두 제자가 예수님께 부른 히브리어 스승 칭호는 무엇입니까?",
+     "라삐",
+     "아멘",
+     "호산나"
+    ],
+    "ar": [
+     "في يوحنا 1، ما اللقب العبراني للمعلم الذي دعا به تلميذان يسوع؟",
+     "رابي",
+     "آمين",
+     "هوشعنا"
+    ]
+   }
+  },
+  {
+   "id": "ch-john-001-05",
+   "book": "john",
+   "chapter": 1,
+   "difficulty": "impossible",
+   "ref": "John 1:35",
+   "text": {
+    "en": [
+     "In John 1, John the Baptist stood with how many disciples when Jesus passed?",
+     "2",
+     "3",
+     "12"
+    ],
+    "es": [
+     "En Juan 1, ¿con cuántos discípulos estaba Juan el Bautista cuando pasó Jesús?",
+     "2",
+     "3",
+     "12"
+    ],
+    "pt": [
+     "Em João 1, com quantos discípulos estava João Batista quando Jesus passou?",
+     "2",
+     "3",
+     "12"
+    ],
+    "fr": [
+     "Dans Jean 1, avec combien de disciples Jean le Baptiste se tenait-il quand Jésus passa ?",
+     "2",
+     "3",
+     "12"
+    ],
+    "de": [
+     "In Johannes 1, mit wie vielen Jüngern stand Johannes der Täufer da, als Jesus vorüberging?",
+     "2",
+     "3",
+     "12"
+    ],
+    "it": [
+     "In Giovanni 1, con quanti discepoli stava Giovanni il Battista quando passò Gesù?",
+     "2",
+     "3",
+     "12"
+    ],
+    "pl": [
+     "W Ewangelii Jana 1, z iloma uczniami stał Jan Chrzciciel, gdy przechodził Jezus?",
+     "2",
+     "3",
+     "12"
+    ],
+    "ru": [
+     "В Евангелии от Иоанна 1, сколько учеников было с Иоанном Крестителем, когда проходил Иисус?",
+     "2",
+     "3",
+     "12"
+    ],
+    "tr": [
+     "Yuhanna 1'de İsa geçerken Vaftizci Yahya kaç öğrencisiyle birlikte duruyordu?",
+     "2",
+     "3",
+     "12"
+    ],
+    "ja": [
+     "ヨハネ1章で、イエスが通られたとき、洗礼者ヨハネは何人の弟子と立っていましたか？",
+     "2",
+     "3",
+     "12"
+    ],
+    "ko": [
+     "요한 1장에서 예수님께서 지나가실 때 세례자 요한은 제자 몇 명과 서 있었습니까?",
+     "2",
+     "3",
+     "12"
+    ],
+    "ar": [
+     "في يوحنا 1، مع كم تلميذاً كان يوحنا المعمدان واقفاً عندما مرّ يسوع؟",
+     "2",
+     "3",
+     "12"
+    ]
+   }
+  },
+  {
+   "id": "ch-john-001-06",
+   "book": "john",
+   "chapter": 2,
+   "difficulty": "easy",
+   "ref": "John 2:19",
+   "text": {
+    "en": [
+     "In John 2, in how many days would Jesus raise the destroyed temple?",
+     "3",
+     "7",
+     "40"
+    ],
+    "es": [
+     "En Juan 2, ¿en cuántos días levantaría Jesús el templo destruido?",
+     "3",
+     "7",
+     "40"
+    ],
+    "pt": [
+     "Em João 2, em quantos dias Jesus levantaria o templo destruído?",
+     "3",
+     "7",
+     "40"
+    ],
+    "fr": [
+     "Dans Jean 2, en combien de jours Jésus relèverait-il le Temple détruit ?",
+     "3",
+     "7",
+     "40"
+    ],
+    "de": [
+     "In Johannes 2, in wie vielen Tagen würde Jesus den zerstörten Tempel aufrichten?",
+     "3",
+     "7",
+     "40"
+    ],
+    "it": [
+     "In Giovanni 2, in quanti giorni Gesù avrebbe rialzato il tempio distrutto?",
+     "3",
+     "7",
+     "40"
+    ],
+    "pl": [
+     "W Ewangelii Jana 2, w ile dni Jezus miał wznieść zburzoną świątynię?",
+     "3",
+     "7",
+     "40"
+    ],
+    "ru": [
+     "В Евангелии от Иоанна 2, за сколько дней Иисус воздвигнет разрушенный храм?",
+     "3",
+     "7",
+     "40"
+    ],
+    "tr": [
+     "Yuhanna 2'de İsa yıkılan tapınağı kaç günde yeniden kuracaktı?",
+     "3",
+     "7",
+     "40"
+    ],
+    "ja": [
+     "ヨハネ2章で、イエスは壊された神殿を何日で建て直すと言いましたか？",
+     "3",
+     "7",
+     "40"
+    ],
+    "ko": [
+     "요한 2장에서 예수님께서는 헐린 성전을 며칠 만에 세우겠다고 하셨습니까?",
+     "3",
+     "7",
+     "40"
+    ],
+    "ar": [
+     "في يوحنا 2، في كم يوماً سيقيم يسوع الهيكل المنقوض؟",
+     "3",
+     "7",
+     "40"
+    ]
+   }
+  },
+  {
+   "id": "ch-john-001-07",
+   "book": "john",
+   "chapter": 2,
+   "difficulty": "medium",
+   "ref": "John 2:13",
+   "text": {
+    "en": [
+     "In John 2, which Jewish feast was near when Jesus went up to Jerusalem?",
+     "Passover",
+     "Purim",
+     "Pentecost"
+    ],
+    "es": [
+     "En Juan 2, ¿qué fiesta de los judíos estaba cerca cuando Jesús subió a Jerusalén?",
+     "Pascua",
+     "Purim",
+     "Pentecostés"
+    ],
+    "pt": [
+     "Em João 2, qual festa dos judeus estava próxima quando Jesus subiu a Jerusalém?",
+     "Páscoa",
+     "Purim",
+     "Pentecostes"
+    ],
+    "fr": [
+     "Dans Jean 2, quelle fête des Juifs approchait quand Jésus monta à Jérusalem ?",
+     "Pâque",
+     "Pourim",
+     "Pentecôte"
+    ],
+    "de": [
+     "In Johannes 2, welches Fest der Juden stand bevor, als Jesus nach Jerusalem hinaufzog?",
+     "Paschafest",
+     "Purimfest",
+     "Pfingstfest"
+    ],
+    "it": [
+     "In Giovanni 2, quale festa dei Giudei era vicina quando Gesù salì a Gerusalemme?",
+     "Pasqua",
+     "Purim",
+     "Pentecoste"
+    ],
+    "pl": [
+     "W Ewangelii Jana 2, które święto żydowskie było blisko, gdy Jezus udał się do Jerozolimy?",
+     "Pascha",
+     "Purim",
+     "Pięćdziesiątnica"
+    ],
+    "ru": [
+     "В Евангелии от Иоанна 2, какой праздник иудейский приближался, когда Иисус пошёл в Иерусалим?",
+     "Пасха",
+     "Пурим",
+     "Пятидесятница"
+    ],
+    "tr": [
+     "Yuhanna 2'de İsa Yeruşalim'e giderken Yahudilerin hangi bayramı yaklaşmıştı?",
+     "Fısıh",
+     "Purim",
+     "Pentikost"
+    ],
+    "ja": [
+     "ヨハネ2章で、イエスがエルサレムに上ったとき、近づいていたユダヤ人の祭りは何ですか？",
+     "過越祭",
+     "プリム",
+     "五旬祭"
+    ],
+    "ko": [
+     "요한 2장에서 예수님께서 예루살렘에 올라가실 때 가까이 다가온 유다인의 축제는 무엇입니까?",
+     "파스카",
+     "부림",
+     "오순절"
+    ],
+    "ar": [
+     "في يوحنا 2، أي عيد لليهود كان قريباً عندما صعد يسوع إلى أورشليم؟",
+     "فصح",
+     "فوريم",
+     "عنصرة"
+    ]
+   }
+  },
+  {
+   "id": "ch-john-001-08",
+   "book": "john",
+   "chapter": 2,
+   "difficulty": "hard",
+   "ref": "John 2:11",
+   "text": {
+    "en": [
+     "In John 2, what did Jesus reveal through the first sign at Cana?",
+     "Glory",
+     "Anger",
+     "Sorrow"
+    ],
+    "es": [
+     "En Juan 2, ¿qué manifestó Jesús con la primera señal en Caná?",
+     "Gloria",
+     "Ira",
+     "Tristeza"
+    ],
+    "pt": [
+     "Em João 2, o que Jesus manifestou com o primeiro sinal em Caná?",
+     "Glória",
+     "Ira",
+     "Tristeza"
+    ],
+    "fr": [
+     "Dans Jean 2, qu'est-ce que Jésus manifesta par le premier signe à Cana ?",
+     "Gloire",
+     "Colère",
+     "Tristesse"
+    ],
+    "de": [
+     "In Johannes 2, was offenbarte Jesus durch das erste Zeichen in Kana?",
+     "Herrlichkeit",
+     "Zorn",
+     "Trauer"
+    ],
+    "it": [
+     "In Giovanni 2, che cosa manifestò Gesù con il primo segno a Cana?",
+     "Gloria",
+     "Ira",
+     "Tristezza"
+    ],
+    "pl": [
+     "W Ewangelii Jana 2, co objawił Jezus przez pierwszy znak w Kanie?",
+     "Chwałę",
+     "Gniew",
+     "Smutek"
+    ],
+    "ru": [
+     "В Евангелии от Иоанна 2, что явил Иисус первым знамением в Кане?",
+     "Славу",
+     "Гнев",
+     "Печаль"
+    ],
+    "tr": [
+     "Yuhanna 2'de Kana'daki ilk belirtiyle İsa'nın açığa çıkardığı şey neydi?",
+     "Yücelik",
+     "Öfke",
+     "Üzüntü"
+    ],
+    "ja": [
+     "ヨハネ2章で、カナでの最初のしるしでイエスは何を現しましたか？",
+     "栄光",
+     "怒り",
+     "悲しみ"
+    ],
+    "ko": [
+     "요한 2장에서 예수님께서는 카나의 첫 표징으로 무엇을 드러내셨습니까?",
+     "영광",
+     "분노",
+     "슬픔"
+    ],
+    "ar": [
+     "في يوحنا 2، ماذا أظهر يسوع بالآية الأولى في قانا؟",
+     "مجد",
+     "غضب",
+     "حزن"
+    ]
+   }
+  },
+  {
+   "id": "ch-john-001-09",
+   "book": "john",
+   "chapter": 2,
+   "difficulty": "expert",
+   "ref": "John 2:17",
+   "text": {
+    "en": [
+     "In John 2, which feeling for God's house would consume Jesus?",
+     "Zeal",
+     "Sorrow",
+     "Fear"
+    ],
+    "es": [
+     "En Juan 2, ¿qué sentimiento por la casa de Dios devoraría a Jesús?",
+     "Celo",
+     "Tristeza",
+     "Miedo"
+    ],
+    "pt": [
+     "Em João 2, que sentimento pela casa de Deus consumiria Jesus?",
+     "Zelo",
+     "Tristeza",
+     "Medo"
+    ],
+    "fr": [
+     "Dans Jean 2, quel sentiment pour la maison de Dieu dévorerait Jésus ?",
+     "Zèle",
+     "Tristesse",
+     "Peur"
+    ],
+    "de": [
+     "In Johannes 2, welches Gefühl für das Haus Gottes würde Jesus verzehren?",
+     "Eifer",
+     "Trauer",
+     "Furcht"
+    ],
+    "it": [
+     "In Giovanni 2, quale sentimento per la casa di Dio avrebbe divorato Gesù?",
+     "Zelo",
+     "Tristezza",
+     "Paura"
+    ],
+    "pl": [
+     "W Ewangelii Jana 2, jakie uczucie do domu Bożego miało pochłonąć Jezusa?",
+     "Gorliwość",
+     "Smutek",
+     "Strach"
+    ],
+    "ru": [
+     "В Евангелии от Иоанна 2, какое чувство к дому Божию снедало Иисуса?",
+     "Ревность",
+     "Печаль",
+     "Страх"
+    ],
+    "tr": [
+     "Yuhanna 2'de Tanrı'nın evi için duyulan hangi duygu İsa'yı tüketecekti?",
+     "Gayret",
+     "Üzüntü",
+     "Korku"
+    ],
+    "ja": [
+     "ヨハネ2章で、神の家への何がイエスを食い尽くすのですか？",
+     "熱情",
+     "悲しみ",
+     "恐れ"
+    ],
+    "ko": [
+     "요한 2장에서 하느님 집에 대한 어떤 마음이 예수님을 삼켜 버립니까?",
+     "열정",
+     "슬픔",
+     "두려움"
+    ],
+    "ar": [
+     "في يوحنا 2، أي شعور تجاه بيت الله سيأكل يسوع؟",
+     "غيرة",
+     "حزن",
+     "خوف"
+    ]
+   }
+  },
+  {
+   "id": "ch-john-001-10",
+   "book": "john",
+   "chapter": 2,
+   "difficulty": "impossible",
+   "ref": "John 2:9",
+   "text": {
+    "en": [
+     "In John 2, who knew where the wine came from, unlike the steward?",
+     "Servants",
+     "Guests",
+     "Shepherds"
+    ],
+    "es": [
+     "En Juan 2, ¿quiénes sabían de dónde venía el vino, a diferencia del maestresala?",
+     "Sirvientes",
+     "Invitados",
+     "Pastores"
+    ],
+    "pt": [
+     "Em João 2, quem sabia de onde vinha o vinho, ao contrário do mestre-sala?",
+     "Servos",
+     "Convidados",
+     "Pastores"
+    ],
+    "fr": [
+     "Dans Jean 2, qui savait d'où venait le vin, contrairement au maître d'hôtel ?",
+     "Serviteurs",
+     "Invités",
+     "Bergers"
+    ],
+    "de": [
+     "In Johannes 2, wer wusste, woher der Wein kam, im Gegensatz zum Speisemeister?",
+     "Diener",
+     "Gäste",
+     "Hirten"
+    ],
+    "it": [
+     "In Giovanni 2, chi sapeva da dove veniva il vino, a differenza del maestro di tavola?",
+     "Servitori",
+     "Invitati",
+     "Pastori"
+    ],
+    "pl": [
+     "W Ewangelii Jana 2, kto wiedział, skąd pochodzi wino, w odróżnieniu od starosty weselnego?",
+     "Słudzy",
+     "Goście",
+     "Pasterze"
+    ],
+    "ru": [
+     "В Евангелии от Иоанна 2, кто знал, откуда вино, в отличие от распорядителя пира?",
+     "Служители",
+     "Гости",
+     "Пастухи"
+    ],
+    "tr": [
+     "Yuhanna 2'de şarabın nereden geldiğini şölen yöneticisinin aksine kimler biliyordu?",
+     "Hizmetkârlar",
+     "Konuklar",
+     "Çobanlar"
+    ],
+    "ja": [
+     "ヨハネ2章で、宴会の世話役と違い、ぶどう酒の出所を知っていたのは誰ですか？",
+     "召し使い",
+     "客",
+     "羊飼い"
+    ],
+    "ko": [
+     "요한 2장에서 만찬 책임자와 달리 포도주가 어디서 났는지 알던 이들은 누구입니까?",
+     "일꾼들",
+     "손님들",
+     "목자들"
+    ],
+    "ar": [
+     "في يوحنا 2، من عرف من أين جاءت الخمر بخلاف رئيس المتكأ؟",
+     "خدام",
+     "ضيوف",
+     "رعاة"
+    ]
+   }
+  },
+  {
+   "id": "ch-john-001-11",
+   "book": "john",
+   "chapter": 3,
+   "difficulty": "easy",
+   "ref": "John 3:5",
+   "text": {
+    "en": [
+     "In John 3, what can no one enter unless born of water and Spirit?",
+     "Kingdom",
+     "Temple",
+     "Synagogue"
+    ],
+    "es": [
+     "En Juan 3, ¿en qué no puede entrar nadie si no nace del agua y del Espíritu?",
+     "Reino",
+     "Templo",
+     "Sinagoga"
+    ],
+    "pt": [
+     "Em João 3, em que ninguém pode entrar sem nascer da água e do Espírito?",
+     "Reino",
+     "Templo",
+     "Sinagoga"
+    ],
+    "fr": [
+     "Dans Jean 3, dans quoi nul ne peut-il entrer sans naître de l'eau et de l'Esprit ?",
+     "Royaume",
+     "Temple",
+     "Synagogue"
+    ],
+    "de": [
+     "In Johannes 3, was kann niemand betreten, der nicht aus Wasser und Geist geboren ist?",
+     "Reich",
+     "Tempel",
+     "Synagoge"
+    ],
+    "it": [
+     "In Giovanni 3, in che cosa nessuno può entrare senza nascere da acqua e Spirito?",
+     "Regno",
+     "Tempio",
+     "Sinagoga"
+    ],
+    "pl": [
+     "W Ewangelii Jana 3, do czego nikt nie wejdzie, jeśli nie narodzi się z wody i z Ducha?",
+     "Królestwa",
+     "Świątyni",
+     "Synagogi"
+    ],
+    "ru": [
+     "В Евангелии от Иоанна 3, во что никто не может войти, не родившись от воды и Духа?",
+     "Царствие",
+     "Храм",
+     "Синагогу"
+    ],
+    "tr": [
+     "Yuhanna 3'te sudan ve Ruh'tan doğmayanın giremeyeceği yer neresidir?",
+     "Egemenlik",
+     "Tapınak",
+     "Sinagog"
+    ],
+    "ja": [
+     "ヨハネ3章で、水と霊によって生まれなければ、だれも入れないものは何ですか？",
+     "神の国",
+     "神殿",
+     "会堂"
+    ],
+    "ko": [
+     "요한 3장에서 물과 성령으로 태어나지 않으면 아무도 들어갈 수 없는 곳은 어디입니까?",
+     "나라",
+     "성전",
+     "회당"
+    ],
+    "ar": [
+     "في يوحنا 3، إلى ماذا لا يستطيع أحد أن يدخل إن لم يولد من الماء والروح؟",
+     "ملكوت",
+     "هيكل",
+     "مجمع"
+    ]
+   }
+  },
+  {
+   "id": "ch-john-001-12",
+   "book": "john",
+   "chapter": 3,
+   "difficulty": "medium",
+   "ref": "John 3:14",
+   "text": {
+    "en": [
+     "In John 3, which animal did Moses lift up in the desert?",
+     "Serpent",
+     "Lion",
+     "Eagle"
+    ],
+    "es": [
+     "En Juan 3, ¿qué animal levantó Moisés en el desierto?",
+     "Serpiente",
+     "León",
+     "Águila"
+    ],
+    "pt": [
+     "Em João 3, que animal Moisés levantou no deserto?",
+     "Serpente",
+     "Leão",
+     "Águia"
+    ],
+    "fr": [
+     "Dans Jean 3, quel animal Moïse éleva-t-il dans le désert ?",
+     "Serpent",
+     "Lion",
+     "Aigle"
+    ],
+    "de": [
+     "In Johannes 3, welches Tier wurde von Mose in der Wüste erhöht?",
+     "Schlange",
+     "Löwe",
+     "Adler"
+    ],
+    "it": [
+     "In Giovanni 3, quale animale innalzò Mosè nel deserto?",
+     "Serpente",
+     "Leone",
+     "Aquila"
+    ],
+    "pl": [
+     "W Ewangelii Jana 3, które zwierzę zostało wywyższone przez Mojżesza na pustyni?",
+     "Wąż",
+     "Lew",
+     "Orzeł"
+    ],
+    "ru": [
+     "В Евангелии от Иоанна 3, какое животное было вознесено Моисеем в пустыне?",
+     "Змея",
+     "Лев",
+     "Орёл"
+    ],
+    "tr": [
+     "Yuhanna 3'te Musa'nın çölde yükselttiği hayvan hangisiydi?",
+     "Yılan",
+     "Aslan",
+     "Kartal"
+    ],
+    "ja": [
+     "ヨハネ3章で、モーセが荒れ野で掲げた動物は何ですか？",
+     "蛇",
+     "ライオン",
+     "鷲"
+    ],
+    "ko": [
+     "요한 3장에서 모세가 광야에서 들어 올린 동물은 무엇입니까?",
+     "뱀",
+     "사자",
+     "독수리"
+    ],
+    "ar": [
+     "في يوحنا 3، أي حيوان رفعه موسى في البرية؟",
+     "حية",
+     "أسد",
+     "نسر"
+    ]
+   }
+  },
+  {
+   "id": "ch-john-001-13",
+   "book": "john",
+   "chapter": 3,
+   "difficulty": "hard",
+   "ref": "John 3:4",
+   "text": {
+    "en": [
+     "In John 3, what could a man not enter a second time, said Nicodemus?",
+     "Womb",
+     "Tomb",
+     "Temple"
+    ],
+    "es": [
+     "En Juan 3, ¿en qué no puede un hombre entrar por segunda vez, dijo Nicodemo?",
+     "Vientre",
+     "Sepulcro",
+     "Templo"
+    ],
+    "pt": [
+     "Em João 3, em que um homem não pode entrar pela segunda vez, disse Nicodemos?",
+     "Ventre",
+     "Sepulcro",
+     "Templo"
+    ],
+    "fr": [
+     "Dans Jean 3, dans quoi un homme ne peut-il entrer une seconde fois, dit Nicodème ?",
+     "Ventre",
+     "Tombeau",
+     "Temple"
+    ],
+    "de": [
+     "In Johannes 3, was kann ein Mensch kein zweites Mal betreten, sagte Nikodemus?",
+     "Mutterleib",
+     "Grab",
+     "Tempel"
+    ],
+    "it": [
+     "In Giovanni 3, in che cosa un uomo non può rientrare una seconda volta, disse Nicodemo?",
+     "Grembo",
+     "Sepolcro",
+     "Tempio"
+    ],
+    "pl": [
+     "W Ewangelii Jana 3, do czego człowiek nie może wejść po raz drugi, powiedział Nikodem?",
+     "Łona",
+     "Grobu",
+     "Świątyni"
+    ],
+    "ru": [
+     "В Евангелии от Иоанна 3, во что человек не может войти вторично, сказал Никодим?",
+     "Утробу",
+     "Гроб",
+     "Храм"
+    ],
+    "tr": [
+     "Yuhanna 3'te Nikodemus'a göre bir insanın ikinci kez giremeyeceği yer neresidir?",
+     "Rahim",
+     "Mezar",
+     "Tapınak"
+    ],
+    "ja": [
+     "ヨハネ3章で、ニコデモは人が二度目に何に入れないと言いましたか？",
+     "胎内",
+     "墓",
+     "神殿"
+    ],
+    "ko": [
+     "요한 3장에서 니코데모는 사람이 두 번째로 무엇에 들어갈 수 없다고 했습니까?",
+     "모태",
+     "무덤",
+     "성전"
+    ],
+    "ar": [
+     "في يوحنا 3، إلى ماذا قال نيقوديموس إن الإنسان لا يستطيع أن يدخل ثانية؟",
+     "رحم",
+     "قبر",
+     "هيكل"
+    ]
+   }
+  },
+  {
+   "id": "ch-john-001-14",
+   "book": "john",
+   "chapter": 3,
+   "difficulty": "expert",
+   "ref": "John 3:29",
+   "text": {
+    "en": [
+     "In John 3, who has the bride, according to John the Baptist?",
+     "Bridegroom",
+     "Servant",
+     "Guest"
+    ],
+    "es": [
+     "En Juan 3, ¿quién tiene a la novia, según Juan el Bautista?",
+     "Novio",
+     "Criado",
+     "Invitado"
+    ],
+    "pt": [
+     "Em João 3, quem tem a noiva, segundo João Batista?",
+     "Noivo",
+     "Servo",
+     "Convidado"
+    ],
+    "fr": [
+     "Dans Jean 3, qui possède l'épouse, selon Jean le Baptiste ?",
+     "Époux",
+     "Serviteur",
+     "Invité"
+    ],
+    "de": [
+     "In Johannes 3, wer hat die Braut, wie Johannes der Täufer sagt?",
+     "Bräutigam",
+     "Diener",
+     "Gast"
+    ],
+    "it": [
+     "In Giovanni 3, chi ha la sposa, secondo Giovanni il Battista?",
+     "Sposo",
+     "Servo",
+     "Invitato"
+    ],
+    "pl": [
+     "W Ewangelii Jana 3, kto ma oblubienicę, według Jana Chrzciciela?",
+     "Oblubieniec",
+     "Sługa",
+     "Gość"
+    ],
+    "ru": [
+     "В Евангелии от Иоанна 3, кто имеет невесту, по словам Иоанна Крестителя?",
+     "Жених",
+     "Слуга",
+     "Гость"
+    ],
+    "tr": [
+     "Yuhanna 3'te Vaftizci Yahya'ya göre gelinin sahibi kimdir?",
+     "Güvey",
+     "Hizmetkâr",
+     "Konuk"
+    ],
+    "ja": [
+     "ヨハネ3章で、洗礼者ヨハネによれば、花嫁を迎えるのはだれですか？",
+     "花婿",
+     "召し使い",
+     "客"
+    ],
+    "ko": [
+     "요한 3장에서 세례자 요한에 따르면 신부를 차지하는 이는 누구입니까?",
+     "신랑",
+     "종",
+     "손님"
+    ],
+    "ar": [
+     "في يوحنا 3، من له العروس بحسب يوحنا المعمدان؟",
+     "عريس",
+     "خادم",
+     "ضيف"
+    ]
+   }
+  },
+  {
+   "id": "ch-john-001-15",
+   "book": "john",
+   "chapter": 3,
+   "difficulty": "impossible",
+   "ref": "John 3:20",
+   "text": {
+    "en": [
+     "In John 3, what does everyone who does evil hate?",
+     "Light",
+     "Darkness",
+     "Silence"
+    ],
+    "es": [
+     "En Juan 3, ¿qué odia todo el que obra el mal?",
+     "Luz",
+     "Tinieblas",
+     "Silencio"
+    ],
+    "pt": [
+     "Em João 3, o que odeia todo aquele que pratica o mal?",
+     "Luz",
+     "Trevas",
+     "Silêncio"
+    ],
+    "fr": [
+     "Dans Jean 3, que hait quiconque fait le mal ?",
+     "Lumière",
+     "Ténèbres",
+     "Silence"
+    ],
+    "de": [
+     "In Johannes 3, was hasst jeder, der Böses tut?",
+     "Licht",
+     "Finsternis",
+     "Stille"
+    ],
+    "it": [
+     "In Giovanni 3, che cosa odia chiunque fa il male?",
+     "Luce",
+     "Tenebre",
+     "Silenzio"
+    ],
+    "pl": [
+     "W Ewangelii Jana 3, co budzi nienawiść u każdego, kto czyni zło?",
+     "Światło",
+     "Ciemność",
+     "Cisza"
+    ],
+    "ru": [
+     "В Евангелии от Иоанна 3, что ненавидит всякий, делающий злое?",
+     "Свет",
+     "Тьму",
+     "Тишину"
+    ],
+    "tr": [
+     "Yuhanna 3'te kötülük yapan herkesin nefret ettiği şey nedir?",
+     "Işık",
+     "Karanlık",
+     "Sessizlik"
+    ],
+    "ja": [
+     "ヨハネ3章で、悪を行う者はだれでも何を憎みますか？",
+     "光",
+     "闇",
+     "沈黙"
+    ],
+    "ko": [
+     "요한 3장에서 악을 저지르는 사람은 누구나 무엇을 미워합니까?",
+     "빛",
+     "어둠",
+     "침묵"
+    ],
+    "ar": [
+     "في يوحنا 3، ماذا يبغض كل من يعمل السيئات؟",
+     "نور",
+     "ظلام",
+     "صمت"
+    ]
+   }
+  },
+  {
+   "id": "ch-john-001-16",
+   "book": "john",
+   "chapter": 4,
+   "difficulty": "easy",
+   "ref": "John 4:12",
+   "text": {
+    "en": [
+     "In John 4, which ancestor did the woman say gave them the well?",
+     "Jacob",
+     "Abraham",
+     "Moses"
+    ],
+    "es": [
+     "En Juan 4, ¿qué antepasado les dio el pozo, según la samaritana?",
+     "Jacob",
+     "Abraham",
+     "Moisés"
+    ],
+    "pt": [
+     "Em João 4, qual antepassado deu o poço, segundo a samaritana?",
+     "Jacó",
+     "Abraão",
+     "Moisés"
+    ],
+    "fr": [
+     "Dans Jean 4, quel ancêtre a donné le puits, selon la Samaritaine ?",
+     "Jacob",
+     "Abraham",
+     "Moïse"
+    ],
+    "de": [
+     "In Johannes 4, welcher Stammvater gab ihnen den Brunnen, laut der Samariterin?",
+     "Jakob",
+     "Abraham",
+     "Mose"
+    ],
+    "it": [
+     "In Giovanni 4, quale antenato diede il pozzo, secondo la samaritana?",
+     "Giacobbe",
+     "Abramo",
+     "Mosè"
+    ],
+    "pl": [
+     "W Ewangelii Jana 4, który przodek dał im studnię, według Samarytanki?",
+     "Jakub",
+     "Abraham",
+     "Mojżesz"
+    ],
+    "ru": [
+     "В Евангелии от Иоанна 4, какой предок дал им колодец, по словам самарянки?",
+     "Иаков",
+     "Авраам",
+     "Моисей"
+    ],
+    "tr": [
+     "Yuhanna 4'te Samiriyeli kadına göre kuyuyu bize hangi atamız verdi?",
+     "Yakup",
+     "İbrahim",
+     "Musa"
+    ],
+    "ja": [
+     "ヨハネ4章で、サマリアの女は井戸をくれた先祖はだれだと言いましたか？",
+     "ヤコブ",
+     "アブラハム",
+     "モーセ"
+    ],
+    "ko": [
+     "요한 4장에서 사마리아 여자는 어느 조상이 우물을 주었다고 했습니까?",
+     "야곱",
+     "아브라함",
+     "모세"
+    ],
+    "ar": [
+     "في يوحنا 4، أي جد أعطى البئر بحسب المرأة السامرية؟",
+     "يعقوب",
+     "إبراهيم",
+     "موسى"
+    ]
+   }
+  },
+  {
+   "id": "ch-john-001-17",
+   "book": "john",
+   "chapter": 4,
+   "difficulty": "medium",
+   "ref": "John 4:40",
+   "text": {
+    "en": [
+     "In John 4, how many days did Jesus stay with the Samaritans?",
+     "2",
+     "7",
+     "12"
+    ],
+    "es": [
+     "En Juan 4, ¿cuántos días se quedó Jesús con los samaritanos?",
+     "2",
+     "7",
+     "12"
+    ],
+    "pt": [
+     "Em João 4, quantos dias Jesus ficou com os samaritanos?",
+     "2",
+     "7",
+     "12"
+    ],
+    "fr": [
+     "Dans Jean 4, combien de jours Jésus resta-t-il chez les Samaritains ?",
+     "2",
+     "7",
+     "12"
+    ],
+    "de": [
+     "In Johannes 4, wie viele Tage blieb Jesus bei den Samaritern?",
+     "2",
+     "7",
+     "12"
+    ],
+    "it": [
+     "In Giovanni 4, quanti giorni Gesù rimase con i Samaritani?",
+     "2",
+     "7",
+     "12"
+    ],
+    "pl": [
+     "W Ewangelii Jana 4, ile dni Jezus pozostał u Samarytan?",
+     "2",
+     "7",
+     "12"
+    ],
+    "ru": [
+     "В Евангелии от Иоанна 4, сколько дней Иисус пробыл у самарян?",
+     "2",
+     "7",
+     "12"
+    ],
+    "tr": [
+     "Yuhanna 4'te İsa Samiriyelilerin yanında kaç gün kaldı?",
+     "2",
+     "7",
+     "12"
+    ],
+    "ja": [
+     "ヨハネ4章で、イエスはサマリア人のもとに何日間滞在しましたか？",
+     "2",
+     "7",
+     "12"
+    ],
+    "ko": [
+     "요한 4장에서 예수님께서는 사마리아 사람들에게 며칠 동안 머무르셨습니까?",
+     "2",
+     "7",
+     "12"
+    ],
+    "ar": [
+     "في يوحنا 4، كم يوماً مكث يسوع عند السامريين؟",
+     "2",
+     "7",
+     "12"
+    ]
+   }
+  },
+  {
+   "id": "ch-john-001-18",
+   "book": "john",
+   "chapter": 4,
+   "difficulty": "hard",
+   "ref": "John 4:14",
+   "text": {
+    "en": [
+     "In John 4, what wells up within anyone who drinks Jesus' water?",
+     "Spring",
+     "Lake",
+     "Rock"
+    ],
+    "es": [
+     "En Juan 4, ¿qué brota en quien bebe el agua de Jesús?",
+     "Fuente",
+     "Lago",
+     "Roca"
+    ],
+    "pt": [
+     "Em João 4, o que jorra em quem bebe a água de Jesus?",
+     "Fonte",
+     "Lago",
+     "Rocha"
+    ],
+    "fr": [
+     "Dans Jean 4, qu'est-ce qui jaillit en celui qui boit l'eau de Jésus ?",
+     "Source",
+     "Lac",
+     "Rocher"
+    ],
+    "de": [
+     "In Johannes 4, was sprudelt in jedem, der Jesu Wasser trinkt?",
+     "Quelle",
+     "See",
+     "Fels"
+    ],
+    "it": [
+     "In Giovanni 4, che cosa zampilla in chi beve l'acqua di Gesù?",
+     "Sorgente",
+     "Lago",
+     "Roccia"
+    ],
+    "pl": [
+     "W Ewangelii Jana 4, co tryska w tym, kto pije wodę Jezusa?",
+     "Źródło",
+     "Jezioro",
+     "Skała"
+    ],
+    "ru": [
+     "В Евангелии от Иоанна 4, что станет бить ключом в пьющем воду Иисуса?",
+     "Источник",
+     "Озеро",
+     "Скала"
+    ],
+    "tr": [
+     "Yuhanna 4'te İsa'nın suyunu içenin içinde ne fışkırır?",
+     "Pınar",
+     "Göl",
+     "Kaya"
+    ],
+    "ja": [
+     "ヨハネ4章で、イエスの水を飲む人の内で湧き出るものは何ですか？",
+     "泉",
+     "湖",
+     "岩"
+    ],
+    "ko": [
+     "요한 4장에서 예수님의 물을 마시는 사람 안에서 솟아나는 것은 무엇입니까?",
+     "샘",
+     "호수",
+     "바위"
+    ],
+    "ar": [
+     "في يوحنا 4، ما الذي ينبع في من يشرب ماء يسوع؟",
+     "ينبوع",
+     "بحيرة",
+     "صخرة"
+    ]
+   }
+  },
+  {
+   "id": "ch-john-001-19",
+   "book": "john",
+   "chapter": 4,
+   "difficulty": "expert",
+   "ref": "John 4:46-47",
+   "text": {
+    "en": [
+     "In John 4, which member of an official's family was dying at Capernaum?",
+     "Son",
+     "Wife",
+     "Brother"
+    ],
+    "es": [
+     "En Juan 4, ¿qué miembro de la familia de un funcionario estaba muriendo en Cafarnaúm?",
+     "Hijo",
+     "Esposa",
+     "Hermano"
+    ],
+    "pt": [
+     "Em João 4, qual membro da família de um oficial estava morrendo em Cafarnaum?",
+     "Filho",
+     "Esposa",
+     "Irmão"
+    ],
+    "fr": [
+     "Dans Jean 4, quel membre de la famille d'un officier mourait à Capharnaüm ?",
+     "Fils",
+     "Épouse",
+     "Frère"
+    ],
+    "de": [
+     "In Johannes 4, welches Mitglied der Familie eines Beamten lag in Kafarnaum im Sterben?",
+     "Sohn",
+     "Frau",
+     "Bruder"
+    ],
+    "it": [
+     "In Giovanni 4, quale familiare di un funzionario stava morendo a Cafàrnao?",
+     "Figlio",
+     "Moglie",
+     "Fratello"
+    ],
+    "pl": [
+     "W Ewangelii Jana 4, który członek rodziny urzędnika umierał w Kafarnaum?",
+     "Syn",
+     "Żona",
+     "Brat"
+    ],
+    "ru": [
+     "В Евангелии от Иоанна 4, кто из семьи царедворца умирал в Капернауме?",
+     "Сын",
+     "Жена",
+     "Брат"
+    ],
+    "tr": [
+     "Yuhanna 4'te Kefernahum'da bir görevlinin ailesinden kim ölüm döşeğindeydi?",
+     "Oğul",
+     "Eş",
+     "Kardeş"
+    ],
+    "ja": [
+     "ヨハネ4章で、カファルナウムで死にかけていた役人の家族はだれですか？",
+     "息子",
+     "妻",
+     "兄弟"
+    ],
+    "ko": [
+     "요한 4장에서 카파르나움에서 죽어 가던 관리의 가족은 누구입니까?",
+     "아들",
+     "아내",
+     "형제"
+    ],
+    "ar": [
+     "في يوحنا 4، من من أسرة موظف كان يحتضر في كفرناحوم؟",
+     "ابن",
+     "زوجة",
+     "أخ"
+    ]
+   }
+  },
+  {
+   "id": "ch-john-001-20",
+   "book": "john",
+   "chapter": 4,
+   "difficulty": "impossible",
+   "ref": "John 4:52",
+   "text": {
+    "en": [
+     "In John 4, what left the official's son, according to his servants?",
+     "Fever",
+     "Pain",
+     "Hunger"
+    ],
+    "es": [
+     "En Juan 4, ¿qué dejó al hijo del funcionario, según sus siervos?",
+     "Fiebre",
+     "Dolor",
+     "Hambre"
+    ],
+    "pt": [
+     "Em João 4, o que deixou o filho do oficial, segundo seus servos?",
+     "Febre",
+     "Dor",
+     "Fome"
+    ],
+    "fr": [
+     "Dans Jean 4, qu'est-ce qui quitta le fils de l'officier, selon ses serviteurs ?",
+     "Fièvre",
+     "Douleur",
+     "Faim"
+    ],
+    "de": [
+     "In Johannes 4, was verließ den Sohn des Beamten, wie seine Diener sagten?",
+     "Fieber",
+     "Schmerz",
+     "Hunger"
+    ],
+    "it": [
+     "In Giovanni 4, che cosa lasciò il figlio del funzionario, secondo i suoi servi?",
+     "Febbre",
+     "Dolore",
+     "Fame"
+    ],
+    "pl": [
+     "W Ewangelii Jana 4, co opuściło syna urzędnika, według jego sług?",
+     "Gorączka",
+     "Ból",
+     "Głód"
+    ],
+    "ru": [
+     "В Евангелии от Иоанна 4, что оставило сына царедворца, по словам его слуг?",
+     "Горячка",
+     "Боль",
+     "Голод"
+    ],
+    "tr": [
+     "Yuhanna 4'te hizmetkârlarına göre görevlinin oğlunu ne bırakmıştı?",
+     "Ateş",
+     "Ağrı",
+     "Açlık"
+    ],
+    "ja": [
+     "ヨハネ4章で、僕たちによれば、役人の息子から去ったものは何ですか？",
+     "熱",
+     "痛み",
+     "飢え"
+    ],
+    "ko": [
+     "요한 4장에서 종들의 말에 따르면 관리의 아들에게서 떠난 것은 무엇입니까?",
+     "열",
+     "통증",
+     "굶주림"
+    ],
+    "ar": [
+     "في يوحنا 4، ما الذي ترك ابن الموظف بحسب عبيده؟",
+     "حمى",
+     "ألم",
+     "جوع"
+    ]
+   }
+  },
+  {
+   "id": "ch-john-001-21",
+   "book": "john",
+   "chapter": 5,
+   "difficulty": "easy",
+   "ref": "John 5:9",
+   "text": {
+    "en": [
+     "In John 5, on which day did Jesus heal the man at the pool?",
+     "Sabbath",
+     "Sunday",
+     "Monday"
+    ],
+    "es": [
+     "En Juan 5, ¿en qué día sanó Jesús al hombre de la piscina?",
+     "Sábado",
+     "Domingo",
+     "Lunes"
+    ],
+    "pt": [
+     "Em João 5, em que dia Jesus curou o homem da piscina?",
+     "Sábado",
+     "Domingo",
+     "Segunda"
+    ],
+    "fr": [
+     "Dans Jean 5, quel jour Jésus guérit-il l'homme de la piscine ?",
+     "Sabbat",
+     "Dimanche",
+     "Lundi"
+    ],
+    "de": [
+     "In Johannes 5, welcher Tag war es, als Jesus den Mann am Teich heilte?",
+     "Sabbat",
+     "Sonntag",
+     "Montag"
+    ],
+    "it": [
+     "In Giovanni 5, in quale giorno Gesù guarì l'uomo della piscina?",
+     "Sabato",
+     "Domenica",
+     "Lunedì"
+    ],
+    "pl": [
+     "W Ewangelii Jana 5, jaki to był dzień, gdy Jezus uzdrowił człowieka przy sadzawce?",
+     "Szabat",
+     "Niedziela",
+     "Poniedziałek"
+    ],
+    "ru": [
+     "В Евангелии от Иоанна 5, какой это был день, когда Иисус исцелил человека у купальни?",
+     "Суббота",
+     "Воскресенье",
+     "Понедельник"
+    ],
+    "tr": [
+     "Yuhanna 5'te İsa havuzdaki adamı iyileştirdiğinde günlerden hangisiydi?",
+     "Şabat",
+     "Pazar",
+     "Pazartesi"
+    ],
+    "ja": [
+     "ヨハネ5章で、イエスが池のほとりの人を癒したのは何の日でしたか？",
+     "安息日",
+     "日曜日",
+     "月曜日"
+    ],
+    "ko": [
+     "요한 5장에서 예수님께서 못가의 사람을 고쳐 주신 날은 무슨 날이었습니까?",
+     "안식일",
+     "일요일",
+     "월요일"
+    ],
+    "ar": [
+     "في يوحنا 5، في أي يوم شفى يسوع الرجل عند البركة؟",
+     "السبت",
+     "الأحد",
+     "الاثنين"
+    ]
+   }
+  },
+  {
+   "id": "ch-john-001-22",
+   "book": "john",
+   "chapter": 5,
+   "difficulty": "medium",
+   "ref": "John 5:23",
+   "text": {
+    "en": [
+     "In John 5, what should all give the Son as they give the Father?",
+     "Honor",
+     "Silver",
+     "Bread"
+    ],
+    "es": [
+     "En Juan 5, ¿qué deben dar todos al Hijo, como lo dan al Padre?",
+     "Honor",
+     "Plata",
+     "Pan"
+    ],
+    "pt": [
+     "Em João 5, o que todos devem dar ao Filho, como o dão ao Pai?",
+     "Honra",
+     "Prata",
+     "Pão"
+    ],
+    "fr": [
+     "Dans Jean 5, que tous doivent-ils donner au Fils, comme au Père ?",
+     "Honneur",
+     "Argent",
+     "Pain"
+    ],
+    "de": [
+     "In Johannes 5, was sollen alle dem Sohn geben, wie sie es dem Vater geben?",
+     "Ehre",
+     "Silber",
+     "Brot"
+    ],
+    "it": [
+     "In Giovanni 5, che cosa devono dare tutti al Figlio, come lo danno al Padre?",
+     "Onore",
+     "Argento",
+     "Pane"
+    ],
+    "pl": [
+     "W Ewangelii Jana 5, co wszyscy mają oddawać Synowi, tak jak oddają Ojcu?",
+     "Cześć",
+     "Srebro",
+     "Chleb"
+    ],
+    "ru": [
+     "В Евангелии от Иоанна 5, что все должны воздавать Сыну, как воздают Отцу?",
+     "Честь",
+     "Серебро",
+     "Хлеб"
+    ],
+    "tr": [
+     "Yuhanna 5'te herkes Baba'ya verdiği gibi Oğul'a ne vermelidir?",
+     "Saygı",
+     "Gümüş",
+     "Ekmek"
+    ],
+    "ja": [
+     "ヨハネ5章で、すべての人は父を敬うようにひとり子に何を捧げるべきですか？",
+     "敬意",
+     "銀",
+     "パン"
+    ],
+    "ko": [
+     "요한 5장에서 모든 사람이 아버지께 하듯 아들에게 드려야 하는 것은 무엇입니까?",
+     "존경",
+     "은",
+     "빵"
+    ],
+    "ar": [
+     "في يوحنا 5، ماذا ينبغي للجميع أن يقدموا للابن كما يقدمونه للآب؟",
+     "إكرام",
+     "فضة",
+     "خبز"
+    ]
+   }
+  },
+  {
+   "id": "ch-john-001-23",
+   "book": "john",
+   "chapter": 5,
+   "difficulty": "hard",
+   "ref": "John 5:25",
+   "text": {
+    "en": [
+     "In John 5, who will hear the Son of God's voice and live?",
+     "Dead",
+     "Kings",
+     "Soldiers"
+    ],
+    "es": [
+     "En Juan 5, ¿quiénes oirán la voz del Hijo de Dios y vivirán?",
+     "Muertos",
+     "Reyes",
+     "Soldados"
+    ],
+    "pt": [
+     "Em João 5, quem ouvirá a voz do Filho de Deus e viverá?",
+     "Mortos",
+     "Reis",
+     "Soldados"
+    ],
+    "fr": [
+     "Dans Jean 5, qui entendra la voix du Fils de Dieu et vivra ?",
+     "Morts",
+     "Rois",
+     "Soldats"
+    ],
+    "de": [
+     "In Johannes 5, wer wird die Stimme des Sohnes Gottes hören und leben?",
+     "Tote",
+     "Könige",
+     "Soldaten"
+    ],
+    "it": [
+     "In Giovanni 5, chi udrà la voce del Figlio di Dio e vivrà?",
+     "Morti",
+     "Re",
+     "Soldati"
+    ],
+    "pl": [
+     "W Ewangelii Jana 5, kto usłyszy głos Syna Bożego i będzie żył?",
+     "Umarli",
+     "Królowie",
+     "Żołnierze"
+    ],
+    "ru": [
+     "В Евангелии от Иоанна 5, кто услышит голос Сына Божия и оживёт?",
+     "Мёртвые",
+     "Цари",
+     "Воины"
+    ],
+    "tr": [
+     "Yuhanna 5'te Tanrı Oğlu'nun sesini kimler işitip yaşayacak?",
+     "Ölüler",
+     "Krallar",
+     "Askerler"
+    ],
+    "ja": [
+     "ヨハネ5章で、神の子の声を聞いて生きるのはだれですか？",
+     "死者",
+     "王",
+     "兵士"
+    ],
+    "ko": [
+     "요한 5장에서 하느님의 아들의 목소리를 듣고 살아날 이들은 누구입니까?",
+     "망자들",
+     "임금들",
+     "군사들"
+    ],
+    "ar": [
+     "في يوحنا 5، من سيسمع صوت ابن الله فيحيا؟",
+     "أموات",
+     "ملوك",
+     "جنود"
+    ]
+   }
+  },
+  {
+   "id": "ch-john-001-24",
+   "book": "john",
+   "chapter": 5,
+   "difficulty": "expert",
+   "ref": "John 5:22",
+   "text": {
+    "en": [
+     "In John 5, what has the Father entrusted entirely to the Son?",
+     "Judgment",
+     "Treasure",
+     "Sword"
+    ],
+    "es": [
+     "En Juan 5, ¿qué ha confiado el Padre enteramente al Hijo?",
+     "Juicio",
+     "Tesoro",
+     "Espada"
+    ],
+    "pt": [
+     "Em João 5, o que o Pai confiou inteiramente ao Filho?",
+     "Julgamento",
+     "Tesouro",
+     "Espada"
+    ],
+    "fr": [
+     "Dans Jean 5, que le Père a-t-il remis tout entier au Fils ?",
+     "Jugement",
+     "Trésor",
+     "Épée"
+    ],
+    "de": [
+     "In Johannes 5, was hat der Vater ganz dem Sohn übergeben?",
+     "Gericht",
+     "Schatz",
+     "Schwert"
+    ],
+    "it": [
+     "In Giovanni 5, che cosa ha rimesso il Padre interamente al Figlio?",
+     "Giudizio",
+     "Tesoro",
+     "Spada"
+    ],
+    "pl": [
+     "W Ewangelii Jana 5, co Ojciec przekazał całkowicie Synowi?",
+     "Sąd",
+     "Skarb",
+     "Miecz"
+    ],
+    "ru": [
+     "В Евангелии от Иоанна 5, что Отец передал всецело Сыну?",
+     "Суд",
+     "Сокровище",
+     "Меч"
+    ],
+    "tr": [
+     "Yuhanna 5'te Baba tümüyle Oğul'a neyi teslim etti?",
+     "Yargı",
+     "Hazine",
+     "Kılıç"
+    ],
+    "ja": [
+     "ヨハネ5章で、父がすべてを子にゆだねたものは何ですか？",
+     "裁き",
+     "宝",
+     "剣"
+    ],
+    "ko": [
+     "요한 5장에서 아버지께서 아들에게 온전히 맡기신 것은 무엇입니까?",
+     "심판",
+     "보물",
+     "칼"
+    ],
+    "ar": [
+     "في يوحنا 5، ماذا سلّم الآب بالكامل إلى الابن؟",
+     "دينونة",
+     "كنز",
+     "سيف"
+    ]
+   }
+  },
+  {
+   "id": "ch-john-001-25",
+   "book": "john",
+   "chapter": 5,
+   "difficulty": "impossible",
+   "ref": "John 5:13",
+   "text": {
+    "en": [
+     "In John 5, what was gathered where Jesus slipped away unnoticed?",
+     "Crowd",
+     "Army",
+     "Storm"
+    ],
+    "es": [
+     "En Juan 5, ¿qué se había reunido donde Jesús se retiró sin ser notado?",
+     "Multitud",
+     "Ejército",
+     "Tormenta"
+    ],
+    "pt": [
+     "Em João 5, o que estava reunido onde Jesus se retirou sem ser notado?",
+     "Multidão",
+     "Exército",
+     "Tempestade"
+    ],
+    "fr": [
+     "Dans Jean 5, qu'est-ce qui était rassemblé là où Jésus s'esquiva sans être vu ?",
+     "Foule",
+     "Armée",
+     "Tempête"
+    ],
+    "de": [
+     "In Johannes 5, was hatte sich dort versammelt, wo Jesus unbemerkt wegging?",
+     "Menge",
+     "Heer",
+     "Sturm"
+    ],
+    "it": [
+     "In Giovanni 5, che cosa era radunato dove Gesù si allontanò senza essere notato?",
+     "Folla",
+     "Esercito",
+     "Tempesta"
+    ],
+    "pl": [
+     "W Ewangelii Jana 5, co zgromadziło się w miejscu, z którego Jezus się oddalił niepostrzeżenie?",
+     "Tłum",
+     "Wojsko",
+     "Burza"
+    ],
+    "ru": [
+     "В Евангелии от Иоанна 5, что собралось там, откуда Иисус скрылся незаметно?",
+     "Толпа",
+     "Войско",
+     "Буря"
+    ],
+    "tr": [
+     "Yuhanna 5'te İsa'nın fark edilmeden uzaklaştığı yerde ne toplanmıştı?",
+     "Kalabalık",
+     "Ordu",
+     "Fırtına"
+    ],
+    "ja": [
+     "ヨハネ5章で、イエスが気づかれずに立ち去った場所に集まっていたものは何ですか？",
+     "群衆",
+     "軍隊",
+     "嵐"
+    ],
+    "ko": [
+     "요한 5장에서 예수님께서 눈에 띄지 않게 피하신 곳에 모여 있던 것은 무엇입니까?",
+     "군중",
+     "군대",
+     "폭풍"
+    ],
+    "ar": [
+     "في يوحنا 5، ما الذي كان مجتمعاً في المكان الذي انسحب منه يسوع دون أن يلاحظوه؟",
+     "جمع",
+     "جيش",
+     "عاصفة"
+    ]
+   }
+  },
+  {
+   "id": "ch-john-001-26",
+   "book": "john",
+   "chapter": 6,
+   "difficulty": "easy",
+   "ref": "John 6:10",
+   "text": {
+    "en": [
+     "In John 6, about how many men sat down to be fed?",
+     "5000",
+     "3000",
+     "10000"
+    ],
+    "es": [
+     "En Juan 6, ¿cuántos hombres, aproximadamente, se sentaron para ser alimentados?",
+     "5000",
+     "3000",
+     "10000"
+    ],
+    "pt": [
+     "Em João 6, aproximadamente quantos homens se sentaram para ser alimentados?",
+     "5000",
+     "3000",
+     "10000"
+    ],
+    "fr": [
+     "Dans Jean 6, environ combien d'hommes s'assirent pour être nourris ?",
+     "5000",
+     "3000",
+     "10000"
+    ],
+    "de": [
+     "In Johannes 6, wie viele Männer setzten sich etwa, um gespeist zu werden?",
+     "5000",
+     "3000",
+     "10000"
+    ],
+    "it": [
+     "In Giovanni 6, circa quanti uomini si sedettero per essere sfamati?",
+     "5000",
+     "3000",
+     "10000"
+    ],
+    "pl": [
+     "W Ewangelii Jana 6, ilu mężczyzn mniej więcej usiadło, by zostać nakarmionych?",
+     "5000",
+     "3000",
+     "10000"
+    ],
+    "ru": [
+     "В Евангелии от Иоанна 6, сколько примерно мужчин возлегло, чтобы насытиться?",
+     "5000",
+     "3000",
+     "10000"
+    ],
+    "tr": [
+     "Yuhanna 6'da doyurulmak için yaklaşık kaç erkek oturdu?",
+     "5000",
+     "3000",
+     "10000"
+    ],
+    "ja": [
+     "ヨハネ6章で、食べ物を受けるために座った男の数はおよそ何人ですか？",
+     "5000",
+     "3000",
+     "10000"
+    ],
+    "ko": [
+     "요한 6장에서 음식을 먹으려고 자리에 앉은 남자는 대략 몇 명이었습니까?",
+     "5000",
+     "3000",
+     "10000"
+    ],
+    "ar": [
+     "في يوحنا 6، كم رجلاً تقريباً جلسوا ليشبعوا؟",
+     "5000",
+     "3000",
+     "10000"
+    ]
+   }
+  },
+  {
+   "id": "ch-john-001-27",
+   "book": "john",
+   "chapter": 6,
+   "difficulty": "medium",
+   "ref": "John 6:13",
+   "text": {
+    "en": [
+     "In John 6, how many baskets of leftover fragments did the disciples gather?",
+     "12",
+     "7",
+     "10"
+    ],
+    "es": [
+     "En Juan 6, ¿cuántos canastos de trozos sobrantes recogieron los discípulos?",
+     "12",
+     "7",
+     "10"
+    ],
+    "pt": [
+     "Em João 6, quantos cestos de pedaços sobrantes os discípulos recolheram?",
+     "12",
+     "7",
+     "10"
+    ],
+    "fr": [
+     "Dans Jean 6, combien de paniers de morceaux restants les disciples ramassèrent-ils ?",
+     "12",
+     "7",
+     "10"
+    ],
+    "de": [
+     "In Johannes 6, wie viele Körbe mit übrigen Brocken sammelten die Jünger?",
+     "12",
+     "7",
+     "10"
+    ],
+    "it": [
+     "In Giovanni 6, quante ceste di pezzi avanzati raccolsero i discepoli?",
+     "12",
+     "7",
+     "10"
+    ],
+    "pl": [
+     "W Ewangelii Jana 6, ile koszów ułomków, które zostały, zebrali uczniowie?",
+     "12",
+     "7",
+     "10"
+    ],
+    "ru": [
+     "В Евангелии от Иоанна 6, сколько корзин оставшихся кусков собрали ученики?",
+     "12",
+     "7",
+     "10"
+    ],
+    "tr": [
+     "Yuhanna 6'da öğrenciler artan parçalardan kaç sepet topladı?",
+     "12",
+     "7",
+     "10"
+    ],
+    "ja": [
+     "ヨハネ6章で、弟子たちが集めた残りのパンくずは何かごに満ちましたか？",
+     "12",
+     "7",
+     "10"
+    ],
+    "ko": [
+     "요한 6장에서 제자들이 남은 조각을 모으니 몇 광주리가 되었습니까?",
+     "12",
+     "7",
+     "10"
+    ],
+    "ar": [
+     "في يوحنا 6، كم قفة من الكسر الفاضلة جمع التلاميذ؟",
+     "12",
+     "7",
+     "10"
+    ]
+   }
+  },
+  {
+   "id": "ch-john-001-28",
+   "book": "john",
+   "chapter": 6,
+   "difficulty": "hard",
+   "ref": "John 6:5",
+   "text": {
+    "en": [
+     "In John 6, which disciple did Jesus ask where to buy bread?",
+     "Philip",
+     "Peter",
+     "Thomas"
+    ],
+    "es": [
+     "En Juan 6, ¿a qué discípulo preguntó Jesús dónde comprar pan?",
+     "Felipe",
+     "Pedro",
+     "Tomás"
+    ],
+    "pt": [
+     "Em João 6, a qual discípulo Jesus perguntou onde comprar pão?",
+     "Filipe",
+     "Pedro",
+     "Tomé"
+    ],
+    "fr": [
+     "Dans Jean 6, à quel disciple Jésus demanda-t-il où acheter du pain ?",
+     "Philippe",
+     "Pierre",
+     "Thomas"
+    ],
+    "de": [
+     "In Johannes 6, welcher Jünger wurde von Jesus gefragt, wo man Brot kaufen könne?",
+     "Philippus",
+     "Petrus",
+     "Thomas"
+    ],
+    "it": [
+     "In Giovanni 6, a quale discepolo Gesù chiese dove comprare il pane?",
+     "Filippo",
+     "Pietro",
+     "Tommaso"
+    ],
+    "pl": [
+     "W Ewangelii Jana 6, który uczeń usłyszał od Jezusa pytanie, gdzie kupić chleb?",
+     "Filip",
+     "Piotr",
+     "Tomasz"
+    ],
+    "ru": [
+     "В Евангелии от Иоанна 6, какой ученик услышал от Иисуса вопрос, где купить хлеба?",
+     "Филипп",
+     "Пётр",
+     "Фома"
+    ],
+    "tr": [
+     "Yuhanna 6'da İsa'nın ekmeği nereden alacaklarını sorduğu öğrenci kimdir?",
+     "Filipus",
+     "Petrus",
+     "Tomas"
+    ],
+    "ja": [
+     "ヨハネ6章で、イエスがパンをどこで買えばよいかと尋ねた弟子はだれですか？",
+     "フィリポ",
+     "ペトロ",
+     "トマス"
+    ],
+    "ko": [
+     "요한 6장에서 예수님께서 빵을 어디서 살지 물으신 제자는 누구입니까?",
+     "필립보",
+     "베드로",
+     "토마스"
+    ],
+    "ar": [
+     "في يوحنا 6، أي تلميذ سأله يسوع من أين نشتري خبزاً؟",
+     "فيلبس",
+     "بطرس",
+     "توما"
+    ]
+   }
+  },
+  {
+   "id": "ch-john-001-29",
+   "book": "john",
+   "chapter": 6,
+   "difficulty": "expert",
+   "ref": "John 6:68",
+   "text": {
+    "en": [
+     "In John 6, which disciple said Jesus has the words of eternal life?",
+     "Peter",
+     "Thomas",
+     "James"
+    ],
+    "es": [
+     "En Juan 6, ¿qué discípulo dijo que Jesús tiene palabras de vida eterna?",
+     "Pedro",
+     "Tomás",
+     "Santiago"
+    ],
+    "pt": [
+     "Em João 6, qual discípulo disse que Jesus tem palavras de vida eterna?",
+     "Pedro",
+     "Tomé",
+     "Tiago"
+    ],
+    "fr": [
+     "Dans Jean 6, quel disciple dit que Jésus a les paroles de la vie éternelle ?",
+     "Pierre",
+     "Thomas",
+     "Jacques"
+    ],
+    "de": [
+     "In Johannes 6, welcher Jünger sagte, Jesus habe Worte des ewigen Lebens?",
+     "Petrus",
+     "Thomas",
+     "Jakobus"
+    ],
+    "it": [
+     "In Giovanni 6, quale discepolo disse che Gesù ha parole di vita eterna?",
+     "Pietro",
+     "Tommaso",
+     "Giacomo"
+    ],
+    "pl": [
+     "W Ewangelii Jana 6, który uczeń powiedział, że Jezus ma słowa życia wiecznego?",
+     "Piotr",
+     "Tomasz",
+     "Jakub"
+    ],
+    "ru": [
+     "В Евангелии от Иоанна 6, какой ученик сказал, что у Иисуса глаголы вечной жизни?",
+     "Пётр",
+     "Фома",
+     "Иаков"
+    ],
+    "tr": [
+     "Yuhanna 6'da hangi öğrenci İsa'da sonsuz yaşamın sözleri olduğunu söyledi?",
+     "Petrus",
+     "Tomas",
+     "Yakup"
+    ],
+    "ja": [
+     "ヨハネ6章で、イエスは永遠の命の言葉を持っておられると言った弟子はだれですか？",
+     "ペトロ",
+     "トマス",
+     "ヤコブ"
+    ],
+    "ko": [
+     "요한 6장에서 예수님께 영원한 생명의 말씀이 있다고 말한 제자는 누구입니까?",
+     "베드로",
+     "토마스",
+     "야고보"
+    ],
+    "ar": [
+     "في يوحنا 6، أي تلميذ قال إن عند يسوع كلام الحياة الأبدية؟",
+     "بطرس",
+     "توما",
+     "يعقوب"
+    ]
+   }
+  },
+  {
+   "id": "ch-john-001-30",
+   "book": "john",
+   "chapter": 6,
+   "difficulty": "impossible",
+   "ref": "John 6:10",
+   "text": {
+    "en": [
+     "In John 6, what was plentiful in the place where the crowd sat?",
+     "Grass",
+     "Sand",
+     "Water"
+    ],
+    "es": [
+     "En Juan 6, ¿qué abundaba en el lugar donde se sentó la multitud?",
+     "Hierba",
+     "Arena",
+     "Agua"
+    ],
+    "pt": [
+     "Em João 6, o que havia em abundância no lugar onde a multidão se sentou?",
+     "Relva",
+     "Areia",
+     "Água"
+    ],
+    "fr": [
+     "Dans Jean 6, qu'y avait-il en abondance à l'endroit où la foule s'assit ?",
+     "Herbe",
+     "Sable",
+     "Eau"
+    ],
+    "de": [
+     "In Johannes 6, was gab es reichlich an dem Ort, wo sich die Menge lagerte?",
+     "Gras",
+     "Sand",
+     "Wasser"
+    ],
+    "it": [
+     "In Giovanni 6, che cosa abbondava nel luogo dove si sedette la folla?",
+     "Erba",
+     "Sabbia",
+     "Acqua"
+    ],
+    "pl": [
+     "W Ewangelii Jana 6, co znajdowało się w obfitości w miejscu, gdzie usiadł tłum?",
+     "Trawa",
+     "Piasek",
+     "Woda"
+    ],
+    "ru": [
+     "В Евангелии от Иоанна 6, что было в изобилии на месте, где расположился народ?",
+     "Трава",
+     "Песок",
+     "Вода"
+    ],
+    "tr": [
+     "Yuhanna 6'da halkın oturduğu yerde bol bol ne vardı?",
+     "Çimen",
+     "Kum",
+     "Su"
+    ],
+    "ja": [
+     "ヨハネ6章で、群衆が座った場所にたくさんあったものは何ですか？",
+     "草",
+     "砂",
+     "水"
+    ],
+    "ko": [
+     "요한 6장에서 군중이 앉은 곳에 많이 있던 것은 무엇입니까?",
+     "풀",
+     "모래",
+     "물"
+    ],
+    "ar": [
+     "في يوحنا 6، ما الذي كان وفيراً في المكان الذي جلس فيه الجمع؟",
+     "عشب",
+     "رمل",
+     "ماء"
+    ]
+   }
+  },
+  {
+   "id": "ch-john-001-31",
+   "book": "john",
+   "chapter": 7,
+   "difficulty": "easy",
+   "ref": "John 7:3-5",
+   "text": {
+    "en": [
+     "In John 7, who urged Jesus to go to Judea without believing in him?",
+     "Brothers",
+     "Disciples",
+     "Soldiers"
+    ],
+    "es": [
+     "En Juan 7, ¿quiénes instaron a Jesús a ir a Judea sin creer en él?",
+     "Hermanos",
+     "Discípulos",
+     "Soldados"
+    ],
+    "pt": [
+     "Em João 7, quem instou Jesus a ir à Judeia sem crer nele?",
+     "Irmãos",
+     "Discípulos",
+     "Soldados"
+    ],
+    "fr": [
+     "Dans Jean 7, qui pressa Jésus d'aller en Judée sans croire en lui ?",
+     "Frères",
+     "Disciples",
+     "Soldats"
+    ],
+    "de": [
+     "In Johannes 7, wer drängte Jesus, nach Judäa zu gehen, ohne an ihn zu glauben?",
+     "Brüder",
+     "Jünger",
+     "Soldaten"
+    ],
+    "it": [
+     "In Giovanni 7, chi esortò Gesù ad andare in Giudea senza credere in lui?",
+     "Fratelli",
+     "Discepoli",
+     "Soldati"
+    ],
+    "pl": [
+     "W Ewangelii Jana 7, kto nakłaniał Jezusa do pójścia do Judei, nie wierząc w Niego?",
+     "Bracia",
+     "Uczniowie",
+     "Żołnierze"
+    ],
+    "ru": [
+     "В Евангелии от Иоанна 7, кто убеждал Иисуса идти в Иудею, не веря в Него?",
+     "Братья",
+     "Ученики",
+     "Воины"
+    ],
+    "tr": [
+     "Yuhanna 7'de kimler İsa'ya inanmadan O'nu Yahudiye'ye gitmeye çağırdı?",
+     "Kardeşler",
+     "Öğrenciler",
+     "Askerler"
+    ],
+    "ja": [
+     "ヨハネ7章で、イエスを信じないままユダヤへ行くよう促したのはだれですか？",
+     "兄弟",
+     "弟子",
+     "兵士"
+    ],
+    "ko": [
+     "요한 7장에서 예수님을 믿지 않으면서 유대로 가시라고 권한 이들은 누구입니까?",
+     "형제들",
+     "제자들",
+     "군사들"
+    ],
+    "ar": [
+     "في يوحنا 7، من حثّ يسوع على الذهاب إلى اليهودية دون أن يؤمن به؟",
+     "إخوة",
+     "تلاميذ",
+     "جنود"
+    ]
+   }
+  },
+  {
+   "id": "ch-john-001-32",
+   "book": "john",
+   "chapter": 7,
+   "difficulty": "medium",
+   "ref": "John 7:22",
+   "text": {
+    "en": [
+     "In John 7, which rite from Moses do people perform even on the Sabbath?",
+     "Circumcision",
+     "Fasting",
+     "Pilgrimage"
+    ],
+    "es": [
+     "En Juan 7, ¿qué rito de Moisés se practica incluso en sábado?",
+     "Circuncisión",
+     "Ayuno",
+     "Peregrinación"
+    ],
+    "pt": [
+     "Em João 7, que rito de Moisés se pratica até no sábado?",
+     "Circuncisão",
+     "Jejum",
+     "Peregrinação"
+    ],
+    "fr": [
+     "Dans Jean 7, quel rite venu de Moïse pratique-t-on même le sabbat ?",
+     "Circoncision",
+     "Jeûne",
+     "Pèlerinage"
+    ],
+    "de": [
+     "In Johannes 7, welcher Brauch von Mose wird sogar am Sabbat vollzogen?",
+     "Beschneidung",
+     "Fasten",
+     "Wallfahrt"
+    ],
+    "it": [
+     "In Giovanni 7, quale rito di Mosè si compie anche di sabato?",
+     "Circoncisione",
+     "Digiuno",
+     "Pellegrinaggio"
+    ],
+    "pl": [
+     "W Ewangelii Jana 7, jaki obrzęd pochodzący od Mojżesza wykonuje się nawet w szabat?",
+     "Obrzezanie",
+     "Post",
+     "Pielgrzymka"
+    ],
+    "ru": [
+     "В Евангелии от Иоанна 7, какой обряд, идущий от Моисея, совершается даже в субботу?",
+     "Обрезание",
+     "Пост",
+     "Паломничество"
+    ],
+    "tr": [
+     "Yuhanna 7'de Musa'dan gelen hangi uygulama Şabat günü bile yapılır?",
+     "Sünnet",
+     "Oruç",
+     "Hac"
+    ],
+    "ja": [
+     "ヨハネ7章で、安息日にさえ行われるモーセ由来の儀式は何ですか？",
+     "割礼",
+     "断食",
+     "巡礼"
+    ],
+    "ko": [
+     "요한 7장에서 안식일에도 행하는 모세에게서 비롯된 예식은 무엇입니까?",
+     "할례",
+     "단식",
+     "순례"
+    ],
+    "ar": [
+     "في يوحنا 7، أي طقس من موسى يُجرى حتى في السبت؟",
+     "ختان",
+     "صوم",
+     "حج"
+    ]
+   }
+  },
+  {
+   "id": "ch-john-001-33",
+   "book": "john",
+   "chapter": 7,
+   "difficulty": "hard",
+   "ref": "John 7:32",
+   "text": {
+    "en": [
+     "In John 7, who, with the chief priests, sent guards to arrest Jesus?",
+     "Pharisees",
+     "Romans",
+     "Samaritans"
+    ],
+    "es": [
+     "En Juan 7, ¿quiénes, con los sumos sacerdotes, enviaron guardias a arrestar a Jesús?",
+     "Fariseos",
+     "Romanos",
+     "Samaritanos"
+    ],
+    "pt": [
+     "Em João 7, quem, com os sumos sacerdotes, enviou guardas para prender Jesus?",
+     "Fariseus",
+     "Romanos",
+     "Samaritanos"
+    ],
+    "fr": [
+     "Dans Jean 7, qui, avec les grands prêtres, envoya des gardes arrêter Jésus ?",
+     "Pharisiens",
+     "Romains",
+     "Samaritains"
+    ],
+    "de": [
+     "In Johannes 7, wer schickte zusammen mit den Hohenpriestern Gerichtsdiener, um Jesus zu verhaften?",
+     "Pharisäer",
+     "Römer",
+     "Samariter"
+    ],
+    "it": [
+     "In Giovanni 7, chi, con i capi dei sacerdoti, mandò delle guardie ad arrestare Gesù?",
+     "Farisei",
+     "Romani",
+     "Samaritani"
+    ],
+    "pl": [
+     "W Ewangelii Jana 7, kto razem z arcykapłanami wysłał strażników, by pojmali Jezusa?",
+     "Faryzeusze",
+     "Rzymianie",
+     "Samarytanie"
+    ],
+    "ru": [
+     "В Евангелии от Иоанна 7, кто вместе с первосвященниками послал служителей схватить Иисуса?",
+     "Фарисеи",
+     "Римляне",
+     "Самаряне"
+    ],
+    "tr": [
+     "Yuhanna 7'de başkâhinlerle birlikte İsa'yı tutuklamak için kimler görevli gönderdi?",
+     "Ferisiler",
+     "Romalılar",
+     "Samiriyeliler"
+    ],
+    "ja": [
+     "ヨハネ7章で、祭司長たちと共にイエスを捕らえる下役を遣わしたのはだれですか？",
+     "ファリサイ派",
+     "ローマ人",
+     "サマリア人"
+    ],
+    "ko": [
+     "요한 7장에서 수석 사제들과 함께 예수님을 잡으려고 경비병들을 보낸 이들은 누구입니까?",
+     "바리사이들",
+     "로마인들",
+     "사마리아인들"
+    ],
+    "ar": [
+     "في يوحنا 7، من أرسل مع رؤساء الكهنة حرساً للقبض على يسوع؟",
+     "فريسيون",
+     "رومان",
+     "سامريون"
+    ]
+   }
+  },
+  {
+   "id": "ch-john-001-34",
+   "book": "john",
+   "chapter": 7,
+   "difficulty": "expert",
+   "ref": "John 7:50-51",
+   "text": {
+    "en": [
+     "In John 7, who defended Jesus, asking if the Law condemns anyone unheard?",
+     "Nicodemus",
+     "Gamaliel",
+     "Caiaphas"
+    ],
+    "es": [
+     "En Juan 7, ¿quién defendió a Jesús preguntando si la Ley condena sin oír al hombre?",
+     "Nicodemo",
+     "Gamaliel",
+     "Caifás"
+    ],
+    "pt": [
+     "Em João 7, quem defendeu Jesus perguntando se a Lei condena alguém sem ouvi-lo?",
+     "Nicodemos",
+     "Gamaliel",
+     "Caifás"
+    ],
+    "fr": [
+     "Dans Jean 7, qui défendit Jésus en demandant si la Loi condamne quelqu'un sans l'entendre ?",
+     "Nicodème",
+     "Gamaliel",
+     "Caïphe"
+    ],
+    "de": [
+     "In Johannes 7, wer verteidigte Jesus mit der Frage, ob das Gesetz jemanden ungehört verurteilt?",
+     "Nikodemus",
+     "Gamaliel",
+     "Kajaphas"
+    ],
+    "it": [
+     "In Giovanni 7, chi difese Gesù chiedendo se la Legge condanna qualcuno senza ascoltarlo?",
+     "Nicodemo",
+     "Gamaliele",
+     "Caifa"
+    ],
+    "pl": [
+     "W Ewangelii Jana 7, kto bronił Jezusa, pytając, czy Prawo potępia kogoś bez wysłuchania?",
+     "Nikodem",
+     "Gamaliel",
+     "Kajfasz"
+    ],
+    "ru": [
+     "В Евангелии от Иоанна 7, кто защищал Иисуса, спросив, судит ли закон человека, не выслушав его?",
+     "Никодим",
+     "Гамалиил",
+     "Каиафа"
+    ],
+    "tr": [
+     "Yuhanna 7'de Yasa kişiyi dinlemeden yargılar mı diyerek İsa'yı kim savundu?",
+     "Nikodemus",
+     "Gamaliel",
+     "Kayafa"
+    ],
+    "ja": [
+     "ヨハネ7章で、律法は人の言い分を聞かずに裁くのかと問い、イエスを弁護したのはだれですか？",
+     "ニコデモ",
+     "ガマリエル",
+     "カイアファ"
+    ],
+    "ko": [
+     "요한 7장에서 율법이 말도 들어 보지 않고 심판하느냐고 물으며 예수님을 변호한 이는 누구입니까?",
+     "니코데모",
+     "가말리엘",
+     "카야파"
+    ],
+    "ar": [
+     "في يوحنا 7، من دافع عن يسوع متسائلاً هل تدين الشريعة أحداً دون أن تسمعه؟",
+     "نيقوديموس",
+     "غمالائيل",
+     "قيافا"
+    ]
+   }
+  },
+  {
+   "id": "ch-john-001-35",
+   "book": "john",
+   "chapter": 7,
+   "difficulty": "impossible",
+   "ref": "John 7:21",
+   "text": {
+    "en": [
+     "In John 7, how many works did Jesus say he did, amazing all?",
+     "1",
+     "3",
+     "12"
+    ],
+    "es": [
+     "En Juan 7, ¿cuántas obras dijo Jesús que había hecho y todos se asombraron?",
+     "1",
+     "3",
+     "12"
+    ],
+    "pt": [
+     "Em João 7, quantas obras Jesus disse ter feito que espantaram a todos?",
+     "1",
+     "3",
+     "12"
+    ],
+    "fr": [
+     "Dans Jean 7, combien d'œuvres Jésus dit-il avoir accomplies qui étonnèrent tous ?",
+     "1",
+     "3",
+     "12"
+    ],
+    "de": [
+     "In Johannes 7, wie viele Werke, über die alle staunten, sagte Jesus getan zu haben?",
+     "1",
+     "3",
+     "12"
+    ],
+    "it": [
+     "In Giovanni 7, quante opere disse Gesù di aver compiuto, di cui tutti si stupirono?",
+     "1",
+     "3",
+     "12"
+    ],
+    "pl": [
+     "W Ewangelii Jana 7, ile dzieł, które wszystkich zdumiały, Jezus powiedział, że dokonał?",
+     "1",
+     "3",
+     "12"
+    ],
+    "ru": [
+     "В Евангелии от Иоанна 7, сколько дел, удививших всех, Иисус сказал, что совершил?",
+     "1",
+     "3",
+     "12"
+    ],
+    "tr": [
+     "Yuhanna 7'de İsa herkesi şaşırtan kaç iş yaptığını söyledi?",
+     "1",
+     "3",
+     "12"
+    ],
+    "ja": [
+     "ヨハネ7章で、イエスはすべての人が驚いた業をいくつ行ったと言いましたか？",
+     "1",
+     "3",
+     "12"
+    ],
+    "ko": [
+     "요한 7장에서 예수님께서는 모두가 놀란 일을 몇 가지 하셨다고 말씀하셨습니까?",
+     "1",
+     "3",
+     "12"
+    ],
+    "ar": [
+     "في يوحنا 7، كم عملاً قال يسوع إنه عمله فتعجب منه الجميع؟",
+     "1",
+     "3",
+     "12"
+    ]
+   }
+  },
+  {
+   "id": "ch-john-001-36",
+   "book": "john",
+   "chapter": 8,
+   "difficulty": "easy",
+   "ref": "John 8:39",
+   "text": {
+    "en": [
+     "In John 8, who did Jesus' opponents say was their father?",
+     "Abraham",
+     "Moses",
+     "David"
+    ],
+    "es": [
+     "En Juan 8, ¿quién decían los oponentes de Jesús que era su padre?",
+     "Abrahán",
+     "Moisés",
+     "David"
+    ],
+    "pt": [
+     "Em João 8, quem os opositores de Jesus diziam ser seu pai?",
+     "Abraão",
+     "Moisés",
+     "Davi"
+    ],
+    "fr": [
+     "Dans Jean 8, qui les adversaires de Jésus disaient-ils être leur père ?",
+     "Abraham",
+     "Moïse",
+     "David"
+    ],
+    "de": [
+     "In Johannes 8, wer war nach Aussage der Gegner Jesu ihr Vater?",
+     "Abraham",
+     "Mose",
+     "David"
+    ],
+    "it": [
+     "In Giovanni 8, chi dicevano di avere per padre gli avversari di Gesù?",
+     "Abramo",
+     "Mosè",
+     "Davide"
+    ],
+    "pl": [
+     "W Ewangelii Jana 8, kto według przeciwników Jezusa był ich ojcem?",
+     "Abraham",
+     "Mojżesz",
+     "Dawid"
+    ],
+    "ru": [
+     "В Евангелии от Иоанна 8, кто, по словам противников Иисуса, был их отцом?",
+     "Авраам",
+     "Моисей",
+     "Давид"
+    ],
+    "tr": [
+     "Yuhanna 8'de İsa'nın karşıtları babalarının kim olduğunu söylüyordu?",
+     "İbrahim",
+     "Musa",
+     "Davut"
+    ],
+    "ja": [
+     "ヨハネ8章で、イエスに反対する人々は、自分たちの父はだれだと言いましたか？",
+     "アブラハム",
+     "モーセ",
+     "ダビデ"
+    ],
+    "ko": [
+     "요한 8장에서 예수님의 반대자들은 자기들의 아버지가 누구라고 말했습니까?",
+     "아브라함",
+     "모세",
+     "다윗"
+    ],
+    "ar": [
+     "في يوحنا 8، من قال خصوم يسوع إنه أبوهم؟",
+     "إبراهيم",
+     "موسى",
+     "داود"
+    ]
+   }
+  },
+  {
+   "id": "ch-john-001-37",
+   "book": "john",
+   "chapter": 8,
+   "difficulty": "medium",
+   "ref": "John 8:44",
+   "text": {
+    "en": [
+     "In John 8, who did Jesus call the father of his opponents?",
+     "Devil",
+     "Pilate",
+     "Herod"
+    ],
+    "es": [
+     "En Juan 8, ¿a quién llamó Jesús padre de sus oponentes?",
+     "Diablo",
+     "Pilato",
+     "Herodes"
+    ],
+    "pt": [
+     "Em João 8, quem Jesus chamou de pai de seus opositores?",
+     "Diabo",
+     "Pilatos",
+     "Herodes"
+    ],
+    "fr": [
+     "Dans Jean 8, qui Jésus appela-t-il le père de ses adversaires ?",
+     "Diable",
+     "Pilate",
+     "Hérode"
+    ],
+    "de": [
+     "In Johannes 8, wen nannte Jesus den Vater seiner Gegner?",
+     "Teufel",
+     "Pilatus",
+     "Herodes"
+    ],
+    "it": [
+     "In Giovanni 8, chi Gesù chiamò padre dei suoi avversari?",
+     "Diavolo",
+     "Pilato",
+     "Erode"
+    ],
+    "pl": [
+     "W Ewangelii Jana 8, kogo Jezus nazwał ojcem swoich przeciwników?",
+     "Diabła",
+     "Piłata",
+     "Heroda"
+    ],
+    "ru": [
+     "В Евангелии от Иоанна 8, кого Иисус назвал отцом Своих противников?",
+     "Диавола",
+     "Пилата",
+     "Ирода"
+    ],
+    "tr": [
+     "Yuhanna 8'de İsa karşıtlarının babası olarak kimi andı?",
+     "Şeytan",
+     "Pilatus",
+     "Hirodes"
+    ],
+    "ja": [
+     "ヨハネ8章で、イエスは反対者たちの父をだれと呼びましたか？",
+     "悪魔",
+     "ピラト",
+     "ヘロデ"
+    ],
+    "ko": [
+     "요한 8장에서 예수님께서는 반대자들의 아버지를 누구라고 부르셨습니까?",
+     "악마",
+     "빌라도",
+     "헤로데"
+    ],
+    "ar": [
+     "في يوحنا 8، من سمّى يسوع أباً لخصومه؟",
+     "إبليس",
+     "بيلاطس",
+     "هيرودس"
+    ]
+   }
+  },
+  {
+   "id": "ch-john-001-38",
+   "book": "john",
+   "chapter": 8,
+   "difficulty": "hard",
+   "ref": "John 8:17",
+   "text": {
+    "en": [
+     "In John 8, how many witnesses make testimony true, according to the Law?",
+     "2",
+     "5",
+     "7"
+    ],
+    "es": [
+     "En Juan 8, ¿cuántos testigos hacen verdadero un testimonio, según la Ley?",
+     "2",
+     "5",
+     "7"
+    ],
+    "pt": [
+     "Em João 8, quantas testemunhas tornam verdadeiro um testemunho, segundo a Lei?",
+     "2",
+     "5",
+     "7"
+    ],
+    "fr": [
+     "Dans Jean 8, combien de témoins rendent un témoignage vrai, selon la Loi ?",
+     "2",
+     "5",
+     "7"
+    ],
+    "de": [
+     "In Johannes 8, wie viele Zeugen machen ein Zeugnis nach dem Gesetz gültig?",
+     "2",
+     "5",
+     "7"
+    ],
+    "it": [
+     "In Giovanni 8, quanti testimoni rendono vera una testimonianza, secondo la Legge?",
+     "2",
+     "5",
+     "7"
+    ],
+    "pl": [
+     "W Ewangelii Jana 8, ilu świadków czyni świadectwo prawdziwym według Prawa?",
+     "2",
+     "5",
+     "7"
+    ],
+    "ru": [
+     "В Евангелии от Иоанна 8, сколько свидетелей делают свидетельство истинным по закону?",
+     "2",
+     "5",
+     "7"
+    ],
+    "tr": [
+     "Yuhanna 8'de Yasa'ya göre tanıklığı geçerli kılan tanık sayısı kaçtır?",
+     "2",
+     "5",
+     "7"
+    ],
+    "ja": [
+     "ヨハネ8章で、律法によれば、証言を真実にする証人は何人ですか？",
+     "2",
+     "5",
+     "7"
+    ],
+    "ko": [
+     "요한 8장에서 율법에 따르면 증언을 참되게 하는 증인은 몇 명입니까?",
+     "2",
+     "5",
+     "7"
+    ],
+    "ar": [
+     "في يوحنا 8، كم شاهداً يجعل الشهادة حقاً بحسب الشريعة؟",
+     "2",
+     "5",
+     "7"
+    ]
+   }
+  },
+  {
+   "id": "ch-john-001-39",
+   "book": "john",
+   "chapter": 8,
+   "difficulty": "expert",
+   "ref": "John 8:57",
+   "text": {
+    "en": [
+     "In John 8, the Jews said Jesus was not yet how many years old?",
+     "50",
+     "30",
+     "70"
+    ],
+    "es": [
+     "En Juan 8, ¿cuántos años dijeron los judíos que Jesús aún no tenía?",
+     "50",
+     "30",
+     "70"
+    ],
+    "pt": [
+     "Em João 8, quantos anos os judeus disseram que Jesus ainda não tinha?",
+     "50",
+     "30",
+     "70"
+    ],
+    "fr": [
+     "Dans Jean 8, quel âge les Juifs dirent-ils que Jésus n'avait pas encore ?",
+     "50",
+     "30",
+     "70"
+    ],
+    "de": [
+     "In Johannes 8, wie viele Jahre war Jesus nach Aussage der Juden noch nicht alt?",
+     "50",
+     "30",
+     "70"
+    ],
+    "it": [
+     "In Giovanni 8, quanti anni dissero i Giudei che Gesù non aveva ancora?",
+     "50",
+     "30",
+     "70"
+    ],
+    "pl": [
+     "W Ewangelii Jana 8, ilu lat jeszcze nie miał Jezus, według Żydów?",
+     "50",
+     "30",
+     "70"
+    ],
+    "ru": [
+     "В Евангелии от Иоанна 8, скольких лет, по словам иудеев, Иисусу ещё не было?",
+     "50",
+     "30",
+     "70"
+    ],
+    "tr": [
+     "Yuhanna 8'de Yahudiler İsa'nın henüz kaç yaşında olmadığını söyledi?",
+     "50",
+     "30",
+     "70"
+    ],
+    "ja": [
+     "ヨハネ8章で、ユダヤ人たちはイエスがまだ何歳にもなっていないと言いましたか？",
+     "50",
+     "30",
+     "70"
+    ],
+    "ko": [
+     "요한 8장에서 유다인들은 예수님께서 아직 몇 살도 안 되셨다고 말했습니까?",
+     "50",
+     "30",
+     "70"
+    ],
+    "ar": [
+     "في يوحنا 8، كم سنة قال اليهود إن يسوع لم يبلغها بعد؟",
+     "50",
+     "30",
+     "70"
+    ]
+   }
+  },
+  {
+   "id": "ch-john-001-40",
+   "book": "john",
+   "chapter": 8,
+   "difficulty": "impossible",
+   "ref": "John 8:48",
+   "text": {
+    "en": [
+     "In John 8, which nationality did the Jews insultingly call Jesus?",
+     "Samaritan",
+     "Roman",
+     "Egyptian"
+    ],
+    "es": [
+     "En Juan 8, ¿de qué nacionalidad llamaron los judíos a Jesús como insulto?",
+     "Samaritano",
+     "Romano",
+     "Egipcio"
+    ],
+    "pt": [
+     "Em João 8, de que nacionalidade os judeus chamaram Jesus como insulto?",
+     "Samaritano",
+     "Romano",
+     "Egípcio"
+    ],
+    "fr": [
+     "Dans Jean 8, de quelle nationalité les Juifs traitèrent-ils Jésus par insulte ?",
+     "Samaritain",
+     "Romain",
+     "Égyptien"
+    ],
+    "de": [
+     "In Johannes 8, als welchen Landsmann beschimpften die Juden Jesus?",
+     "Samariter",
+     "Römer",
+     "Ägypter"
+    ],
+    "it": [
+     "In Giovanni 8, di quale nazionalità i Giudei insultarono Gesù?",
+     "Samaritano",
+     "Romano",
+     "Egiziano"
+    ],
+    "pl": [
+     "W Ewangelii Jana 8, kim z pochodzenia Żydzi obraźliwie nazwali Jezusa?",
+     "Samarytaninem",
+     "Rzymianinem",
+     "Egipcjaninem"
+    ],
+    "ru": [
+     "В Евангелии от Иоанна 8, каким по национальности иудеи в оскорбление назвали Иисуса?",
+     "Самарянином",
+     "Римлянином",
+     "Египтянином"
+    ],
+    "tr": [
+     "Yuhanna 8'de Yahudiler İsa'ya hakaret olarak hangi milletten biri olduğunu söyledi?",
+     "Samiriyeli",
+     "Romalı",
+     "Mısırlı"
+    ],
+    "ja": [
+     "ヨハネ8章で、ユダヤ人たちは侮辱してイエスをどの国の人と呼びましたか？",
+     "サマリア人",
+     "ローマ人",
+     "エジプト人"
+    ],
+    "ko": [
+     "요한 8장에서 유다인들은 모욕하며 예수님을 어느 민족이라고 불렀습니까?",
+     "사마리아인",
+     "로마인",
+     "이집트인"
+    ],
+    "ar": [
+     "في يوحنا 8، بأي جنسية شتم اليهود يسوع؟",
+     "سامري",
+     "روماني",
+     "مصري"
+    ]
+   }
+  },
+  {
+   "id": "ch-john-001-41",
+   "book": "john",
+   "chapter": 9,
+   "difficulty": "easy",
+   "ref": "John 9:2",
+   "text": {
+    "en": [
+     "In John 9, besides the blind man, who might have sinned, the disciples asked?",
+     "Parents",
+     "Neighbors",
+     "Teachers"
+    ],
+    "es": [
+     "En Juan 9, ¿quiénes, además del ciego, pudieron pecar, preguntaron los discípulos?",
+     "Padres",
+     "Vecinos",
+     "Maestros"
+    ],
+    "pt": [
+     "Em João 9, além do cego, quem poderia ter pecado, perguntaram os discípulos?",
+     "Pais",
+     "Vizinhos",
+     "Mestres"
+    ],
+    "fr": [
+     "Dans Jean 9, outre l'aveugle, qui aurait péché, demandèrent les disciples ?",
+     "Parents",
+     "Voisins",
+     "Maîtres"
+    ],
+    "de": [
+     "In Johannes 9, wer außer dem Blinden hatte gesündigt, fragten die Jünger?",
+     "Eltern",
+     "Nachbarn",
+     "Lehrer"
+    ],
+    "it": [
+     "In Giovanni 9, oltre al cieco, chi aveva peccato, chiesero i discepoli?",
+     "Genitori",
+     "Vicini",
+     "Maestri"
+    ],
+    "pl": [
+     "W Ewangelii Jana 9, kto oprócz niewidomego zgrzeszył, pytali uczniowie?",
+     "Rodzice",
+     "Sąsiedzi",
+     "Nauczyciele"
+    ],
+    "ru": [
+     "В Евангелии от Иоанна 9, кто, кроме слепого, согрешил, спросили ученики?",
+     "Родители",
+     "Соседи",
+     "Учителя"
+    ],
+    "tr": [
+     "Yuhanna 9'da öğrenciler, kör adamdan başka kimin günah işlemiş olabileceğini sordu?",
+     "Ebeveynler",
+     "Komşular",
+     "Öğretmenler"
+    ],
+    "ja": [
+     "ヨハネ9章で、弟子たちは盲人のほかにだれが罪を犯したのかと尋ねましたか？",
+     "両親",
+     "隣人",
+     "教師"
+    ],
+    "ko": [
+     "요한 9장에서 제자들은 눈먼 이 외에 누가 죄를 지었느냐고 물었습니까?",
+     "부모",
+     "이웃",
+     "스승"
+    ],
+    "ar": [
+     "في يوحنا 9، سأل التلاميذ من أخطأ غير الأعمى؟",
+     "والدان",
+     "جيران",
+     "معلمون"
+    ]
+   }
+  },
+  {
+   "id": "ch-john-001-42",
+   "book": "john",
+   "chapter": 9,
+   "difficulty": "medium",
+   "ref": "John 9:17",
+   "text": {
+    "en": [
+     "In John 9, who did the healed man say Jesus was, asked by Pharisees?",
+     "Prophet",
+     "King",
+     "Priest"
+    ],
+    "es": [
+     "En Juan 9, ¿quién era Jesús según el curado, interrogado por los fariseos?",
+     "Profeta",
+     "Rey",
+     "Sacerdote"
+    ],
+    "pt": [
+     "Em João 9, quem era Jesus segundo o curado, interrogado pelos fariseus?",
+     "Profeta",
+     "Rei",
+     "Sacerdote"
+    ],
+    "fr": [
+     "Dans Jean 9, qui était Jésus selon le guéri interrogé par les pharisiens ?",
+     "Prophète",
+     "Roi",
+     "Prêtre"
+    ],
+    "de": [
+     "In Johannes 9, was sagte der Geheilte auf die Frage der Pharisäer, wer Jesus sei?",
+     "Prophet",
+     "König",
+     "Priester"
+    ],
+    "it": [
+     "In Giovanni 9, chi era Gesù secondo il guarito interrogato dai farisei?",
+     "Profeta",
+     "Re",
+     "Sacerdote"
+    ],
+    "pl": [
+     "W Ewangelii Jana 9, kim według uzdrowionego był Jezus, gdy pytali faryzeusze?",
+     "Prorokiem",
+     "Królem",
+     "Kapłanem"
+    ],
+    "ru": [
+     "В Евангелии от Иоанна 9, кем назвал Иисуса исцелённый, когда спросили фарисеи?",
+     "Пророком",
+     "Царём",
+     "Священником"
+    ],
+    "tr": [
+     "Yuhanna 9'da Ferisiler sorunca iyileşen adam İsa'nın kim olduğunu söyledi?",
+     "Peygamber",
+     "Kral",
+     "Rahip"
+    ],
+    "ja": [
+     "ヨハネ9章で、ファリサイ派に問われた癒された人は、イエスをだれだと言いましたか？",
+     "預言者",
+     "王",
+     "祭司"
+    ],
+    "ko": [
+     "요한 9장에서 바리사이들이 묻자 고침받은 이는 예수님을 누구라고 말했습니까?",
+     "예언자",
+     "임금",
+     "사제"
+    ],
+    "ar": [
+     "في يوحنا 9، من هو يسوع بحسب الأعمى الذي شُفي عندما سأله الفريسيون؟",
+     "نبي",
+     "ملك",
+     "كاهن"
+    ]
+   }
+  },
+  {
+   "id": "ch-john-001-43",
+   "book": "john",
+   "chapter": 9,
+   "difficulty": "hard",
+   "ref": "John 9:4",
+   "text": {
+    "en": [
+     "In John 9, what comes when no one can work, said Jesus?",
+     "Night",
+     "Winter",
+     "Storm"
+    ],
+    "es": [
+     "En Juan 9, ¿qué llega cuando nadie puede trabajar, dijo Jesús?",
+     "Noche",
+     "Invierno",
+     "Tormenta"
+    ],
+    "pt": [
+     "Em João 9, o que vem quando ninguém pode trabalhar, disse Jesus?",
+     "Noite",
+     "Inverno",
+     "Tempestade"
+    ],
+    "fr": [
+     "Dans Jean 9, qu'est-ce qui vient quand nul ne peut travailler, dit Jésus ?",
+     "Nuit",
+     "Hiver",
+     "Tempête"
+    ],
+    "de": [
+     "In Johannes 9, was kommt, wenn niemand mehr wirken kann, sagte Jesus?",
+     "Nacht",
+     "Winter",
+     "Sturm"
+    ],
+    "it": [
+     "In Giovanni 9, che cosa viene quando nessuno può più operare, disse Gesù?",
+     "Notte",
+     "Inverno",
+     "Tempesta"
+    ],
+    "pl": [
+     "W Ewangelii Jana 9, co nadchodzi, gdy nikt nie może działać, powiedział Jezus?",
+     "Noc",
+     "Zima",
+     "Burza"
+    ],
+    "ru": [
+     "В Евангелии от Иоанна 9, что наступает, когда никто не может работать, сказал Иисус?",
+     "Ночь",
+     "Зима",
+     "Буря"
+    ],
+    "tr": [
+     "Yuhanna 9'da İsa'ya göre kimsenin çalışamayacağı zaman ne gelir?",
+     "Gece",
+     "Kış",
+     "Fırtına"
+    ],
+    "ja": [
+     "ヨハネ9章で、イエスによれば、だれも働けなくなる時に来るものは何ですか？",
+     "夜",
+     "冬",
+     "嵐"
+    ],
+    "ko": [
+     "요한 9장에서 예수님의 말씀에 따르면 아무도 일할 수 없는 때에 오는 것은 무엇입니까?",
+     "밤",
+     "겨울",
+     "폭풍"
+    ],
+    "ar": [
+     "في يوحنا 9، ماذا يأتي عندما لا يستطيع أحد أن يعمل، قال يسوع؟",
+     "ليل",
+     "شتاء",
+     "عاصفة"
+    ]
+   }
+  },
+  {
+   "id": "ch-john-001-44",
+   "book": "john",
+   "chapter": 9,
+   "difficulty": "expert",
+   "ref": "John 9:24",
+   "text": {
+    "en": [
+     "In John 9, what did Pharisees call Jesus, speaking to the healed man?",
+     "Sinner",
+     "Thief",
+     "Liar"
+    ],
+    "es": [
+     "En Juan 9, ¿cómo llamaron los fariseos a Jesús, hablando con el curado?",
+     "Pecador",
+     "Ladrón",
+     "Mentiroso"
+    ],
+    "pt": [
+     "Em João 9, como os fariseus chamaram Jesus, falando ao curado?",
+     "Pecador",
+     "Ladrão",
+     "Mentiroso"
+    ],
+    "fr": [
+     "Dans Jean 9, comment les pharisiens appelèrent-ils Jésus, parlant au guéri ?",
+     "Pécheur",
+     "Voleur",
+     "Menteur"
+    ],
+    "de": [
+     "In Johannes 9, wie nannten die Pharisäer Jesus im Gespräch mit dem Geheilten?",
+     "Sünder",
+     "Dieb",
+     "Lügner"
+    ],
+    "it": [
+     "In Giovanni 9, come chiamarono Gesù i farisei, parlando al guarito?",
+     "Peccatore",
+     "Ladro",
+     "Bugiardo"
+    ],
+    "pl": [
+     "W Ewangelii Jana 9, jak faryzeusze nazwali Jezusa, rozmawiając z uzdrowionym?",
+     "Grzesznikiem",
+     "Złodziejem",
+     "Kłamcą"
+    ],
+    "ru": [
+     "В Евангелии от Иоанна 9, как фарисеи назвали Иисуса, говоря с исцелённым?",
+     "Грешником",
+     "Вором",
+     "Лжецом"
+    ],
+    "tr": [
+     "Yuhanna 9'da Ferisiler iyileşen adama İsa'dan ne diye söz etti?",
+     "Günahkâr",
+     "Hırsız",
+     "Yalancı"
+    ],
+    "ja": [
+     "ヨハネ9章で、ファリサイ派は癒された人にイエスを何と呼びましたか？",
+     "罪人",
+     "盗人",
+     "うそつき"
+    ],
+    "ko": [
+     "요한 9장에서 바리사이들은 고침받은 이에게 예수님을 무엇이라 불렀습니까?",
+     "죄인",
+     "도둑",
+     "거짓말쟁이"
+    ],
+    "ar": [
+     "في يوحنا 9، ماذا سمّى الفريسيون يسوع وهم يخاطبون الأعمى الذي شُفي؟",
+     "خاطئ",
+     "لص",
+     "كذاب"
+    ]
+   }
+  },
+  {
+   "id": "ch-john-001-45",
+   "book": "john",
+   "chapter": 9,
+   "difficulty": "impossible",
+   "ref": "John 9:3",
+   "text": {
+    "en": [
+     "In John 9, what of God would be shown in the blind man?",
+     "Works",
+     "Wrath",
+     "Angels"
+    ],
+    "es": [
+     "En Juan 9, ¿qué de Dios se manifestaría en el ciego?",
+     "Obras",
+     "Ira",
+     "Ángeles"
+    ],
+    "pt": [
+     "Em João 9, o que de Deus se manifestaria no cego?",
+     "Obras",
+     "Ira",
+     "Anjos"
+    ],
+    "fr": [
+     "Dans Jean 9, qu'est-ce qui serait manifesté en l'aveugle, de la part de Dieu ?",
+     "Œuvres",
+     "Colère",
+     "Anges"
+    ],
+    "de": [
+     "In Johannes 9, was von Gott sollte an dem Blinden offenbar werden?",
+     "Werke",
+     "Zorn",
+     "Engel"
+    ],
+    "it": [
+     "In Giovanni 9, che cosa di Dio si sarebbe manifestato nel cieco?",
+     "Opere",
+     "Ira",
+     "Angeli"
+    ],
+    "pl": [
+     "W Ewangelii Jana 9, co Boże miało się ujawnić w niewidomym?",
+     "Dzieła",
+     "Gniew",
+     "Aniołowie"
+    ],
+    "ru": [
+     "В Евангелии от Иоанна 9, что Божие должно было явиться в слепом?",
+     "Дела",
+     "Гнев",
+     "Ангелы"
+    ],
+    "tr": [
+     "Yuhanna 9'da kör adamda Tanrı'nın neleri görünür olacaktı?",
+     "İşler",
+     "Gazap",
+     "Melekler"
+    ],
+    "ja": [
+     "ヨハネ9章で、盲人に現れる神の何がありましたか？",
+     "業",
+     "怒り",
+     "天使"
+    ],
+    "ko": [
+     "요한 9장에서 눈먼 이에게서 드러날 하느님의 것은 무엇이었습니까?",
+     "일",
+     "분노",
+     "천사"
+    ],
+    "ar": [
+     "في يوحنا 9، ماذا من الله كان سيظهر في الأعمى؟",
+     "أعمال",
+     "غضب",
+     "ملائكة"
+    ]
+   }
+  },
+  {
+   "id": "ch-john-001-46",
+   "book": "john",
+   "chapter": 10,
+   "difficulty": "easy",
+   "ref": "John 10:30",
+   "text": {
+    "en": [
+     "In John 10, how many are Jesus and the Father, according to Jesus?",
+     "1",
+     "2",
+     "3"
+    ],
+    "es": [
+     "En Juan 10, ¿cuántos son Jesús y el Padre, según Jesús?",
+     "1",
+     "2",
+     "3"
+    ],
+    "pt": [
+     "Em João 10, quantos são Jesus e o Pai, segundo Jesus?",
+     "1",
+     "2",
+     "3"
+    ],
+    "fr": [
+     "Dans Jean 10, combien sont Jésus et le Père, selon Jésus ?",
+     "1",
+     "2",
+     "3"
+    ],
+    "de": [
+     "In Johannes 10, wie viele sind Jesus und der Vater nach Jesu Worten?",
+     "1",
+     "2",
+     "3"
+    ],
+    "it": [
+     "In Giovanni 10, quanti sono Gesù e il Padre, secondo Gesù?",
+     "1",
+     "2",
+     "3"
+    ],
+    "pl": [
+     "W Ewangelii Jana 10, ilu jest Jezus i Ojciec, według słów Jezusa?",
+     "1",
+     "2",
+     "3"
+    ],
+    "ru": [
+     "В Евангелии от Иоанна 10, сколько Иисус и Отец, по словам Иисуса?",
+     "1",
+     "2",
+     "3"
+    ],
+    "tr": [
+     "Yuhanna 10'da İsa'ya göre İsa ile Baba kaçtır?",
+     "1",
+     "2",
+     "3"
+    ],
+    "ja": [
+     "ヨハネ10章で、イエスによれば、イエスと父は数でいくつですか？",
+     "1",
+     "2",
+     "3"
+    ],
+    "ko": [
+     "요한 10장에서 예수님의 말씀에 따르면 예수님과 아버지는 수로 몇입니까?",
+     "1",
+     "2",
+     "3"
+    ],
+    "ar": [
+     "في يوحنا 10، كم هما يسوع والآب بحسب يسوع؟",
+     "1",
+     "2",
+     "3"
+    ]
+   }
+  },
+  {
+   "id": "ch-john-001-47",
+   "book": "john",
+   "chapter": 10,
+   "difficulty": "medium",
+   "ref": "John 10:12",
+   "text": {
+    "en": [
+     "In John 10, which predator snatches and scatters the sheep?",
+     "Wolf",
+     "Lion",
+     "Bear"
+    ],
+    "es": [
+     "En Juan 10, ¿qué depredador arrebata y dispersa las ovejas?",
+     "Lobo",
+     "León",
+     "Oso"
+    ],
+    "pt": [
+     "Em João 10, qual predador arrebata e dispersa as ovelhas?",
+     "Lobo",
+     "Leão",
+     "Urso"
+    ],
+    "fr": [
+     "Dans Jean 10, quel prédateur s'empare des brebis et les disperse ?",
+     "Loup",
+     "Lion",
+     "Ours"
+    ],
+    "de": [
+     "In Johannes 10, welches Raubtier reißt die Schafe und zerstreut sie?",
+     "Wolf",
+     "Löwe",
+     "Bär"
+    ],
+    "it": [
+     "In Giovanni 10, quale predatore rapisce le pecore e le disperde?",
+     "Lupo",
+     "Leone",
+     "Orso"
+    ],
+    "pl": [
+     "W Ewangelii Jana 10, który drapieżnik porywa owce i rozprasza je?",
+     "Wilk",
+     "Lew",
+     "Niedźwiedź"
+    ],
+    "ru": [
+     "В Евангелии от Иоанна 10, какой хищник расхищает овец и разгоняет их?",
+     "Волк",
+     "Лев",
+     "Медведь"
+    ],
+    "tr": [
+     "Yuhanna 10'da hangi yırtıcı koyunları kapıp dağıtır?",
+     "Kurt",
+     "Aslan",
+     "Ayı"
+    ],
+    "ja": [
+     "ヨハネ10章で、羊を奪い散らす捕食者は何ですか？",
+     "狼",
+     "ライオン",
+     "熊"
+    ],
+    "ko": [
+     "요한 10장에서 양들을 물어 가고 흩어 버리는 맹수는 무엇입니까?",
+     "이리",
+     "사자",
+     "곰"
+    ],
+    "ar": [
+     "في يوحنا 10، أي مفترس يخطف الخراف ويبددها؟",
+     "ذئب",
+     "أسد",
+     "دب"
+    ]
+   }
+  },
+  {
+   "id": "ch-john-001-48",
+   "book": "john",
+   "chapter": 10,
+   "difficulty": "hard",
+   "ref": "John 10:10",
+   "text": {
+    "en": [
+     "In John 10, who comes only to steal, slaughter and destroy?",
+     "Thief",
+     "Shepherd",
+     "Priest"
+    ],
+    "es": [
+     "En Juan 10, ¿quién viene solo a robar, matar y destruir?",
+     "Ladrón",
+     "Pastor",
+     "Sacerdote"
+    ],
+    "pt": [
+     "Em João 10, quem vem apenas para roubar, matar e destruir?",
+     "Ladrão",
+     "Pastor",
+     "Sacerdote"
+    ],
+    "fr": [
+     "Dans Jean 10, qui vient seulement pour voler, égorger et détruire ?",
+     "Voleur",
+     "Berger",
+     "Prêtre"
+    ],
+    "de": [
+     "In Johannes 10, wer kommt nur, um zu stehlen, zu schlachten und zu vernichten?",
+     "Dieb",
+     "Hirte",
+     "Priester"
+    ],
+    "it": [
+     "In Giovanni 10, chi viene soltanto per rubare, uccidere e distruggere?",
+     "Ladro",
+     "Pastore",
+     "Sacerdote"
+    ],
+    "pl": [
+     "W Ewangelii Jana 10, kto przychodzi tylko po to, by kraść, zabijać i niszczyć?",
+     "Złodziej",
+     "Pasterz",
+     "Kapłan"
+    ],
+    "ru": [
+     "В Евангелии от Иоанна 10, кто приходит только затем, чтобы красть, убивать и губить?",
+     "Вор",
+     "Пастух",
+     "Священник"
+    ],
+    "tr": [
+     "Yuhanna 10'da yalnızca çalmak, boğazlamak ve yok etmek için gelen kimdir?",
+     "Hırsız",
+     "Çoban",
+     "Rahip"
+    ],
+    "ja": [
+     "ヨハネ10章で、盗み、屠り、滅ぼすためだけに来るのはだれですか？",
+     "盗人",
+     "羊飼い",
+     "祭司"
+    ],
+    "ko": [
+     "요한 10장에서 도둑질하고 죽이고 파멸시키려고만 오는 이는 누구입니까?",
+     "도둑",
+     "목자",
+     "사제"
+    ],
+    "ar": [
+     "في يوحنا 10، من لا يأتي إلا ليسرق ويذبح ويهلك؟",
+     "لص",
+     "راع",
+     "كاهن"
+    ]
+   }
+  },
+  {
+   "id": "ch-john-001-49",
+   "book": "john",
+   "chapter": 10,
+   "difficulty": "expert",
+   "ref": "John 10:21",
+   "text": {
+    "en": [
+     "In John 10, what of the blind did some say a demon cannot open?",
+     "Eyes",
+     "Ears",
+     "Hands"
+    ],
+    "es": [
+     "En Juan 10, ¿qué dijeron algunos que un demonio no puede abrir a los ciegos?",
+     "Ojos",
+     "Oídos",
+     "Manos"
+    ],
+    "pt": [
+     "Em João 10, o que alguns disseram que um demônio não pode abrir aos cegos?",
+     "Olhos",
+     "Ouvidos",
+     "Mãos"
+    ],
+    "fr": [
+     "Dans Jean 10, que ne peut ouvrir un démon chez les aveugles, selon certains ?",
+     "Yeux",
+     "Oreilles",
+     "Mains"
+    ],
+    "de": [
+     "In Johannes 10, was kann ein Dämon nach Meinung einiger bei Blinden nicht öffnen?",
+     "Augen",
+     "Ohren",
+     "Hände"
+    ],
+    "it": [
+     "In Giovanni 10, che cosa dissero alcuni che un demonio non può aprire ai ciechi?",
+     "Occhi",
+     "Orecchie",
+     "Mani"
+    ],
+    "pl": [
+     "W Ewangelii Jana 10, co niewidomym według niektórych demon nie może otworzyć?",
+     "Oczy",
+     "Uszy",
+     "Ręce"
+    ],
+    "ru": [
+     "В Евангелии от Иоанна 10, что слепым, по словам некоторых, бес не может открыть?",
+     "Очи",
+     "Уши",
+     "Руки"
+    ],
+    "tr": [
+     "Yuhanna 10'da bazılarına göre bir cin körlerin neyini açamaz?",
+     "Gözler",
+     "Kulaklar",
+     "Eller"
+    ],
+    "ja": [
+     "ヨハネ10章で、悪霊は盲人の何を開けられないと、ある人々は言いましたか？",
+     "目",
+     "耳",
+     "手"
+    ],
+    "ko": [
+     "요한 10장에서 어떤 이들은 마귀가 눈먼 이들의 무엇을 열어 줄 수 없다고 했습니까?",
+     "눈",
+     "귀",
+     "손"
+    ],
+    "ar": [
+     "في يوحنا 10، ماذا قال البعض إن الشيطان لا يقدر أن يفتحه للعميان؟",
+     "عيون",
+     "آذان",
+     "أيدي"
+    ]
+   }
+  },
+  {
+   "id": "ch-john-001-50",
+   "book": "john",
+   "chapter": 10,
+   "difficulty": "impossible",
+   "ref": "John 10:40",
+   "text": {
+    "en": [
+     "In John 10, beyond which river did Jesus withdraw again?",
+     "Jordan",
+     "Nile",
+     "Euphrates"
+    ],
+    "es": [
+     "En Juan 10, ¿al otro lado de qué río se retiró Jesús de nuevo?",
+     "Jordán",
+     "Nilo",
+     "Éufrates"
+    ],
+    "pt": [
+     "Em João 10, para além de que rio Jesus se retirou de novo?",
+     "Jordão",
+     "Nilo",
+     "Eufrates"
+    ],
+    "fr": [
+     "Dans Jean 10, au-delà de quel fleuve Jésus se retira-t-il de nouveau ?",
+     "Jourdain",
+     "Nil",
+     "Euphrate"
+    ],
+    "de": [
+     "In Johannes 10, jenseits welches Flusses zog sich Jesus wieder zurück?",
+     "Jordan",
+     "Nil",
+     "Euphrat"
+    ],
+    "it": [
+     "In Giovanni 10, al di là di quale fiume Gesù si ritirò di nuovo?",
+     "Giordano",
+     "Nilo",
+     "Eufrate"
+    ],
+    "pl": [
+     "W Ewangelii Jana 10, za którą rzekę Jezus znów się oddalił?",
+     "Jordan",
+     "Nil",
+     "Eufrat"
+    ],
+    "ru": [
+     "В Евангелии от Иоанна 10, за какую реку Иисус удалился снова?",
+     "Иордан",
+     "Нил",
+     "Евфрат"
+    ],
+    "tr": [
+     "Yuhanna 10'da İsa yeniden hangi nehrin ötesine çekildi?",
+     "Ürdün",
+     "Nil",
+     "Fırat"
+    ],
+    "ja": [
+     "ヨハネ10章で、イエスは再びどの川の向こうに退かれましたか？",
+     "ヨルダン川",
+     "ナイル川",
+     "ユーフラテス川"
+    ],
+    "ko": [
+     "요한 10장에서 예수님께서는 다시 어느 강 건너편으로 물러가셨습니까?",
+     "요르단강",
+     "나일강",
+     "유프라테스강"
+    ],
+    "ar": [
+     "في يوحنا 10، إلى ما وراء أي نهر انسحب يسوع من جديد؟",
+     "أردن",
+     "نيل",
+     "فرات"
+    ]
+   }
+  }
+ ]
+}
