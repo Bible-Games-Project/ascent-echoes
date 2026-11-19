@@ -1,0 +1,5674 @@
+{
+ "questions": [
+  {
+   "id": "ch-zechariah-001-01",
+   "book": "zechariah",
+   "chapter": 1,
+   "difficulty": "easy",
+   "ref": "Zechariah 1:1",
+   "text": {
+    "en": [
+     "Zechariah 1: In whose second year as king did the word come?",
+     "Darius",
+     "Cyrus",
+     "Nebuchadnezzar"
+    ],
+    "es": [
+     "Zacarías 1: ¿En el segundo año de qué rey vino la palabra?",
+     "Darío",
+     "Ciro",
+     "Nabucodonosor"
+    ],
+    "pt": [
+     "Zacarias 1: No segundo ano de qual rei veio a palavra?",
+     "Dario",
+     "Ciro",
+     "Nabucodonosor"
+    ],
+    "fr": [
+     "Zacharie 1 : La deuxième année de quel roi la parole vint-elle ?",
+     "Darius",
+     "Cyrus",
+     "Nabuchodonosor"
+    ],
+    "de": [
+     "Sacharja 1: Im zweiten Regierungsjahr welches Königs erging das Wort?",
+     "Darius",
+     "Kyrus",
+     "Nebukadnezzar"
+    ],
+    "it": [
+     "Zaccaria 1: Nel secondo anno di quale re giunse la parola?",
+     "Dario",
+     "Ciro",
+     "Nabucodònosor"
+    ],
+    "pl": [
+     "Zachariasz 1: W drugim roku którego króla doszło słowo?",
+     "Dariusz",
+     "Cyrus",
+     "Nabuchodonozor"
+    ],
+    "ru": [
+     "Захария 1: На втором году какого царя было слово Господне?",
+     "Дарий",
+     "Кир",
+     "Навуходоносор"
+    ],
+    "tr": [
+     "Zekeriya 1: Söz hangi kralın ikinci yılında geldi?",
+     "Darius",
+     "Koreş",
+     "Nebukadnezar"
+    ],
+    "ja": [
+     "ゼカリヤ書1章：言葉は、どの王の治世第二年に臨みましたか？",
+     "ダレイオス",
+     "キュロス",
+     "ネブカドネツァル"
+    ],
+    "ko": [
+     "즈카르야서 1장: 말씀이 어느 임금의 둘째 해에 내렸습니까?",
+     "다리우스",
+     "키루스",
+     "네부카드네자르"
+    ],
+    "ar": [
+     "زكريا 1: في السنة الثانية لأي ملك جاءت الكلمة؟",
+     "داريوس",
+     "كورش",
+     "نبوخذنصر"
+    ]
+   }
+  },
+  {
+   "id": "ch-zechariah-001-02",
+   "book": "zechariah",
+   "chapter": 1,
+   "difficulty": "medium",
+   "ref": "Zechariah 1:1",
+   "text": {
+    "en": [
+     "Zechariah 1: Who was the father of the prophet Zechariah?",
+     "Berechiah",
+     "Hilkiah",
+     "Shallum"
+    ],
+    "es": [
+     "Zacarías 1: ¿Quién era el padre del profeta Zacarías?",
+     "Berequías",
+     "Hilquías",
+     "Salum"
+    ],
+    "pt": [
+     "Zacarias 1: Quem era o pai do profeta Zacarias?",
+     "Baraquias",
+     "Hilquias",
+     "Salum"
+    ],
+    "fr": [
+     "Zacharie 1 : Qui était le père du prophète Zacharie ?",
+     "Barachie",
+     "Helcias",
+     "Shallum"
+    ],
+    "de": [
+     "Sacharja 1: Wer war der Vater des Propheten Sacharja?",
+     "Berechja",
+     "Hilkija",
+     "Schallum"
+    ],
+    "it": [
+     "Zaccaria 1: Chi era il padre del profeta Zaccaria?",
+     "Berechia",
+     "Chelkia",
+     "Sallum"
+    ],
+    "pl": [
+     "Zachariasz 1: Kto był ojcem proroka Zachariasza?",
+     "Barachiasz",
+     "Chilkiasz",
+     "Szallum"
+    ],
+    "ru": [
+     "Захария 1: Кто был отцом пророка Захарии?",
+     "Варахия",
+     "Хелкия",
+     "Селлум"
+    ],
+    "tr": [
+     "Zekeriya 1: Peygamber Zekeriya'nın babası kimdi?",
+     "Berekya",
+     "Hilkiya",
+     "Şallum"
+    ],
+    "ja": [
+     "ゼカリヤ書1章：預言者ゼカリヤの父は誰ですか？",
+     "ベレクヤ",
+     "ヒルキヤ",
+     "シャルム"
+    ],
+    "ko": [
+     "즈카르야서 1장: 예언자 즈카르야의 아버지는 누구입니까?",
+     "베레크야",
+     "힐키야",
+     "살룸"
+    ],
+    "ar": [
+     "زكريا 1: من كان أبو النبي زكريا؟",
+     "برخيا",
+     "حلقيا",
+     "شلوم"
+    ]
+   }
+  },
+  {
+   "id": "ch-zechariah-001-03",
+   "book": "zechariah",
+   "chapter": 1,
+   "difficulty": "hard",
+   "ref": "Zechariah 1:1",
+   "text": {
+    "en": [
+     "Zechariah 1: Who was Zechariah's grandfather?",
+     "Iddo",
+     "Azariah",
+     "Eliakim"
+    ],
+    "es": [
+     "Zacarías 1: ¿Quién era el abuelo de Zacarías?",
+     "Idó",
+     "Azarías",
+     "Eliaquim"
+    ],
+    "pt": [
+     "Zacarias 1: Quem era o avô de Zacarias?",
+     "Ido",
+     "Azarias",
+     "Eliaquim"
+    ],
+    "fr": [
+     "Zacharie 1 : Qui était le grand-père de Zacharie ?",
+     "Iddo",
+     "Azarias",
+     "Éliaqim"
+    ],
+    "de": [
+     "Sacharja 1: Wer war Sacharjas Großvater?",
+     "Iddo",
+     "Asarja",
+     "Eljakim"
+    ],
+    "it": [
+     "Zaccaria 1: Chi era il nonno di Zaccaria?",
+     "Iddo",
+     "Azaria",
+     "Elìachim"
+    ],
+    "pl": [
+     "Zachariasz 1: Jak miał na imię dziadek Zachariasza?",
+     "Iddo",
+     "Azariasz",
+     "Eliakim"
+    ],
+    "ru": [
+     "Захария 1: Как звали деда Захарии?",
+     "Иддо",
+     "Азария",
+     "Елиаким"
+    ],
+    "tr": [
+     "Zekeriya 1: Zekeriya'nın dedesinin adı neydi?",
+     "İddo",
+     "Azarya",
+     "Elyakim"
+    ],
+    "ja": [
+     "ゼカリヤ書1章：ゼカリヤの祖父の名は何ですか？",
+     "イド",
+     "アザルヤ",
+     "エルヤキム"
+    ],
+    "ko": [
+     "즈카르야서 1장: 즈카르야의 할아버지는 누구입니까?",
+     "잇도",
+     "아자르야",
+     "엘리야킴"
+    ],
+    "ar": [
+     "زكريا 1: من كان جد زكريا؟",
+     "عدو",
+     "عزريا",
+     "ألياقيم"
+    ]
+   }
+  },
+  {
+   "id": "ch-zechariah-001-04",
+   "book": "zechariah",
+   "chapter": 1,
+   "difficulty": "expert",
+   "ref": "Zechariah 1:12",
+   "text": {
+    "en": [
+     "Zechariah 1: How many years had the Lord been angry with Jerusalem?",
+     "70",
+     "40",
+     "50"
+    ],
+    "es": [
+     "Zacarías 1: ¿Cuántos años llevaba el Señor airado contra Jerusalén?",
+     "70",
+     "40",
+     "50"
+    ],
+    "pt": [
+     "Zacarias 1: Quantos anos o Senhor estava irado com Jerusalém?",
+     "70",
+     "40",
+     "50"
+    ],
+    "fr": [
+     "Zacharie 1 : Depuis combien d'années le Seigneur était-il irrité contre Jérusalem ?",
+     "70",
+     "40",
+     "50"
+    ],
+    "de": [
+     "Sacharja 1: Wie viele Jahre zürnte der Herr schon Jerusalem?",
+     "70",
+     "40",
+     "50"
+    ],
+    "it": [
+     "Zaccaria 1: Da quanti anni il Signore era sdegnato con Gerusalemme?",
+     "70",
+     "40",
+     "50"
+    ],
+    "pl": [
+     "Zachariasz 1: Od ilu lat Pan gniewał się na Jerozolimę?",
+     "70",
+     "40",
+     "50"
+    ],
+    "ru": [
+     "Захария 1: Сколько лет Господь гневался на Иерусалим?",
+     "70",
+     "40",
+     "50"
+    ],
+    "tr": [
+     "Zekeriya 1: RAB kaç yıldır Yeruşalim'e öfkeliydi?",
+     "70",
+     "40",
+     "50"
+    ],
+    "ja": [
+     "ゼカリヤ書1章：主は何年間エルサレムに怒りを向けていましたか？",
+     "70",
+     "40",
+     "50"
+    ],
+    "ko": [
+     "즈카르야서 1장: 주님께서는 몇 년 동안 예루살렘에 분노하셨습니까?",
+     "70",
+     "40",
+     "50"
+    ],
+    "ar": [
+     "زكريا 1: كم سنة غضب الرب على أورشليم؟",
+     "70",
+     "40",
+     "50"
+    ]
+   }
+  },
+  {
+   "id": "ch-zechariah-001-05",
+   "book": "zechariah",
+   "chapter": 1,
+   "difficulty": "impossible",
+   "ref": "Zechariah 1:1",
+   "text": {
+    "en": [
+     "Zechariah 1: In which numbered month did Zechariah's first word come?",
+     "8",
+     "3",
+     "6"
+    ],
+    "es": [
+     "Zacarías 1: ¿En qué número de mes recibió Zacarías su primera palabra?",
+     "8",
+     "3",
+     "6"
+    ],
+    "pt": [
+     "Zacarias 1: Em que número de mês Zacarias recebeu a sua primeira palavra?",
+     "8",
+     "3",
+     "6"
+    ],
+    "fr": [
+     "Zacharie 1 : Au cours de quel mois, désigné par son numéro, Zacharie reçut-il sa première parole ?",
+     "8",
+     "3",
+     "6"
+    ],
+    "de": [
+     "Sacharja 1: In welchem nummerierten Monat erhielt Sacharja sein erstes Wort?",
+     "8",
+     "3",
+     "6"
+    ],
+    "it": [
+     "Zaccaria 1: In quale mese, indicato col numero, Zaccaria ricevette la prima parola?",
+     "8",
+     "3",
+     "6"
+    ],
+    "pl": [
+     "Zachariasz 1: W którym z kolei miesiącu Zachariasz otrzymał pierwsze słowo?",
+     "8",
+     "3",
+     "6"
+    ],
+    "ru": [
+     "Захария 1: В каком по счёту месяце Захария получил первое слово?",
+     "8",
+     "3",
+     "6"
+    ],
+    "tr": [
+     "Zekeriya 1: Zekeriya ilk sözü yılın kaçıncı ayında aldı?",
+     "8",
+     "3",
+     "6"
+    ],
+    "ja": [
+     "ゼカリヤ書1章：最初の言葉が臨んだのは何番目の月ですか？",
+     "8",
+     "3",
+     "6"
+    ],
+    "ko": [
+     "즈카르야서 1장: 즈카르야가 첫 말씀을 받은 것은 몇 번째 달입니까?",
+     "8",
+     "3",
+     "6"
+    ],
+    "ar": [
+     "زكريا 1: في أي شهر، بحسب ترتيبه، تلقى زكريا كلمته الأولى؟",
+     "8",
+     "3",
+     "6"
+    ]
+   }
+  },
+  {
+   "id": "ch-zechariah-001-06",
+   "book": "zechariah",
+   "chapter": 2,
+   "difficulty": "easy",
+   "ref": "Zechariah 2:5-6",
+   "text": {
+    "en": [
+     "Zechariah 2: Which city did the man with a measuring line measure?",
+     "Jerusalem",
+     "Hebron",
+     "Shechem"
+    ],
+    "es": [
+     "Zacarías 2: ¿Qué ciudad medía el hombre con la cuerda de medir?",
+     "Jerusalén",
+     "Hebrón",
+     "Siquén"
+    ],
+    "pt": [
+     "Zacarias 2: Que cidade media o homem com a corda de medir?",
+     "Jerusalém",
+     "Hebron",
+     "Siquém"
+    ],
+    "fr": [
+     "Zacharie 2 : Quelle ville l'homme à la cordelette mesurait-il ?",
+     "Jérusalem",
+     "Hébron",
+     "Sichem"
+    ],
+    "de": [
+     "Sacharja 2: Welche Stadt vermaß der Mann mit der Messschnur?",
+     "Jerusalem",
+     "Hebron",
+     "Sichem"
+    ],
+    "it": [
+     "Zaccaria 2: Quale città misurava l'uomo con la corda?",
+     "Gerusalemme",
+     "Ebron",
+     "Sichem"
+    ],
+    "pl": [
+     "Zachariasz 2: Które miasto mierzył człowiek ze sznurem mierniczym?",
+     "Jerozolima",
+     "Hebron",
+     "Sychem"
+    ],
+    "ru": [
+     "Захария 2: Какой город измерял человек с землемерным шнуром?",
+     "Иерусалим",
+     "Хеврон",
+     "Сихем"
+    ],
+    "tr": [
+     "Zekeriya 2: Ölçü ipli adam hangi kenti ölçüyordu?",
+     "Yeruşalim",
+     "Hevron",
+     "Şekem"
+    ],
+    "ja": [
+     "ゼカリヤ書2章：測り縄を持つ人はどの町を測りましたか？",
+     "エルサレム",
+     "ヘブロン",
+     "シケム"
+    ],
+    "ko": [
+     "즈카르야서 2장: 측량줄을 든 사람은 어느 도성을 재었습니까?",
+     "예루살렘",
+     "헤브론",
+     "스켐"
+    ],
+    "ar": [
+     "زكريا 2: أي مدينة قاس الرجل ذو حبل القياس؟",
+     "أورشليم",
+     "حبرون",
+     "شكيم"
+    ]
+   }
+  },
+  {
+   "id": "ch-zechariah-001-07",
+   "book": "zechariah",
+   "chapter": 2,
+   "difficulty": "medium",
+   "ref": "Zechariah 2:9",
+   "text": {
+    "en": [
+     "Zechariah 2: Which element forms the Lord's protective wall around Jerusalem?",
+     "Fire",
+     "Water",
+     "Wind"
+    ],
+    "es": [
+     "Zacarías 2: ¿Qué elemento forma el muro protector del Señor alrededor de Jerusalén?",
+     "Fuego",
+     "Agua",
+     "Viento"
+    ],
+    "pt": [
+     "Zacarias 2: Que elemento forma o muro protetor do Senhor em volta de Jerusalém?",
+     "Fogo",
+     "Água",
+     "Vento"
+    ],
+    "fr": [
+     "Zacharie 2 : De quel élément est le rempart protecteur du Seigneur autour de Jérusalem ?",
+     "Feu",
+     "Eau",
+     "Vent"
+    ],
+    "de": [
+     "Sacharja 2: Aus welchem Element besteht die schützende Mauer des Herrn um Jerusalem?",
+     "Feuer",
+     "Wasser",
+     "Wind"
+    ],
+    "it": [
+     "Zaccaria 2: Quale elemento forma il muro protettivo del Signore attorno a Gerusalemme?",
+     "Fuoco",
+     "Acqua",
+     "Vento"
+    ],
+    "pl": [
+     "Zachariasz 2: Jaki żywioł tworzy ochronny mur Pana wokół Jerozolimy?",
+     "Ogień",
+     "Woda",
+     "Wiatr"
+    ],
+    "ru": [
+     "Захария 2: Какая стихия образует защитную стену Господа вокруг Иерусалима?",
+     "Огонь",
+     "Вода",
+     "Ветер"
+    ],
+    "tr": [
+     "Zekeriya 2: Hangi unsur RAB'bin Yeruşalim çevresindeki koruyucu duvarını oluşturur?",
+     "Ateş",
+     "Su",
+     "Rüzgâr"
+    ],
+    "ja": [
+     "ゼカリヤ書2章：主がエルサレムの周りに築く守りの城壁は何ですか？",
+     "火",
+     "水",
+     "風"
+    ],
+    "ko": [
+     "즈카르야서 2장: 주님께서 예루살렘 둘레에 세우시는 보호의 성벽은 무엇입니까?",
+     "불",
+     "물",
+     "바람"
+    ],
+    "ar": [
+     "زكريا 2: ما هو العنصر الذي يشكل سور الرب الحامي حول أورشليم؟",
+     "نار",
+     "ماء",
+     "ريح"
+    ]
+   }
+  },
+  {
+   "id": "ch-zechariah-001-08",
+   "book": "zechariah",
+   "chapter": 2,
+   "difficulty": "hard",
+   "ref": "Zechariah 2:14",
+   "text": {
+    "en": [
+     "Zechariah 2: Which daughter is told to rejoice because the Lord comes?",
+     "Zion",
+     "Edom",
+     "Moab"
+    ],
+    "es": [
+     "Zacarías 2: ¿Qué hija recibe la orden de alegrarse porque viene el Señor?",
+     "Sión",
+     "Edom",
+     "Moab"
+    ],
+    "pt": [
+     "Zacarias 2: Que filha é convidada a alegrar-se porque o Senhor vem?",
+     "Sião",
+     "Edom",
+     "Moab"
+    ],
+    "fr": [
+     "Zacharie 2 : Quelle fille est invitée à se réjouir parce que le Seigneur vient ?",
+     "Sion",
+     "Édom",
+     "Moab"
+    ],
+    "de": [
+     "Sacharja 2: Welche Tochter soll jubeln, weil der Herr kommt?",
+     "Zion",
+     "Edom",
+     "Moab"
+    ],
+    "it": [
+     "Zaccaria 2: Quale figlia è invitata a gioire perché il Signore viene?",
+     "Sion",
+     "Edom",
+     "Moab"
+    ],
+    "pl": [
+     "Zachariasz 2: Która córka ma się radować, bo przychodzi Pan?",
+     "Syjon",
+     "Edom",
+     "Moab"
+    ],
+    "ru": [
+     "Захария 2: Какая дочь призвана радоваться, потому что приходит Господь?",
+     "Сион",
+     "Едом",
+     "Моав"
+    ],
+    "tr": [
+     "Zekeriya 2: Hangi kız, RAB geldiği için sevinmeye çağrıldı?",
+     "Siyon",
+     "Edom",
+     "Moab"
+    ],
+    "ja": [
+     "ゼカリヤ書2章：主が来られるので、喜ぶよう命じられた娘はだれですか？",
+     "シオン",
+     "エドム",
+     "モアブ"
+    ],
+    "ko": [
+     "즈카르야서 2장: 주님께서 오시므로 기뻐하라는 말씀을 들은 딸은 누구입니까?",
+     "시온",
+     "에돔",
+     "모압"
+    ],
+    "ar": [
+     "زكريا 2: أي ابنة يُطلب منها أن تفرح لأن الرب آتٍ؟",
+     "صهيون",
+     "أدوم",
+     "موآب"
+    ]
+   }
+  },
+  {
+   "id": "ch-zechariah-001-09",
+   "book": "zechariah",
+   "chapter": 2,
+   "difficulty": "expert",
+   "ref": "Zechariah 2:11",
+   "text": {
+    "en": [
+     "Zechariah 2: Which city must Zion's people leave?",
+     "Babylon",
+     "Damascus",
+     "Memphis"
+    ],
+    "es": [
+     "Zacarías 2: ¿Qué ciudad debe abandonar el pueblo de Sión?",
+     "Babilonia",
+     "Damasco",
+     "Menfis"
+    ],
+    "pt": [
+     "Zacarias 2: Que cidade o povo de Sião deve deixar?",
+     "Babilônia",
+     "Damasco",
+     "Mênfis"
+    ],
+    "fr": [
+     "Zacharie 2 : Quelle ville le peuple de Sion doit-il quitter ?",
+     "Babylone",
+     "Damas",
+     "Memphis"
+    ],
+    "de": [
+     "Sacharja 2: Welche Stadt soll Zions Volk verlassen?",
+     "Babel",
+     "Damaskus",
+     "Memphis"
+    ],
+    "it": [
+     "Zaccaria 2: Quale città deve lasciare il popolo di Sion?",
+     "Babilonia",
+     "Damasco",
+     "Menfi"
+    ],
+    "pl": [
+     "Zachariasz 2: Które miasto ma opuścić lud Syjonu?",
+     "Babilon",
+     "Damaszek",
+     "Memfis"
+    ],
+    "ru": [
+     "Захария 2: Какой город должен покинуть народ Сиона?",
+     "Вавилон",
+     "Дамаск",
+     "Мемфис"
+    ],
+    "tr": [
+     "Zekeriya 2: Siyon halkının terk etmesi istenen şehir hangisiydi?",
+     "Babil",
+     "Şam",
+     "Memfis"
+    ],
+    "ja": [
+     "ゼカリヤ書2章：シオンの民が逃れるよう告げられた町はどこですか？",
+     "バビロン",
+     "ダマスコ",
+     "メンフィス"
+    ],
+    "ko": [
+     "즈카르야서 2장: 시온의 백성이 빠져나오라는 말을 들은 도성은 어디입니까?",
+     "바빌론",
+     "다마스쿠스",
+     "멤피스"
+    ],
+    "ar": [
+     "زكريا 2: أي مدينة أُمر شعب صهيون بالهرب منها؟",
+     "بابل",
+     "دمشق",
+     "منف"
+    ]
+   }
+  },
+  {
+   "id": "ch-zechariah-001-10",
+   "book": "zechariah",
+   "chapter": 2,
+   "difficulty": "impossible",
+   "ref": "Zechariah 2:10",
+   "text": {
+    "en": [
+     "Zechariah 2: To how many winds had the Lord scattered his people?",
+     "4",
+     "2",
+     "7"
+    ],
+    "es": [
+     "Zacarías 2: ¿A cuántos vientos dispersó el Señor a su pueblo?",
+     "4",
+     "2",
+     "7"
+    ],
+    "pt": [
+     "Zacarias 2: Para quantos ventos o Senhor dispersou o seu povo?",
+     "4",
+     "2",
+     "7"
+    ],
+    "fr": [
+     "Zacharie 2 : Vers combien de vents le Seigneur a-t-il dispersé son peuple ?",
+     "4",
+     "2",
+     "7"
+    ],
+    "de": [
+     "Sacharja 2: In wie viele Winde hat der Herr sein Volk zerstreut?",
+     "4",
+     "2",
+     "7"
+    ],
+    "it": [
+     "Zaccaria 2: A quanti venti il Signore aveva disperso il suo popolo?",
+     "4",
+     "2",
+     "7"
+    ],
+    "pl": [
+     "Zachariasz 2: Na ile wiatrów Pan rozproszył swój lud?",
+     "4",
+     "2",
+     "7"
+    ],
+    "ru": [
+     "Захария 2: По скольким ветрам Господь рассеял свой народ?",
+     "4",
+     "2",
+     "7"
+    ],
+    "tr": [
+     "Zekeriya 2: RAB halkını kaç rüzgâra dağıttı?",
+     "4",
+     "2",
+     "7"
+    ],
+    "ja": [
+     "ゼカリヤ書2章：主は民を、いくつの方向の風に散らされましたか？",
+     "4",
+     "2",
+     "7"
+    ],
+    "ko": [
+     "즈카르야서 2장: 주님께서는 당신 백성을 몇 방향의 바람으로 흩으셨습니까?",
+     "4",
+     "2",
+     "7"
+    ],
+    "ar": [
+     "زكريا 2: إلى كم ريح بدد الرب شعبه؟",
+     "4",
+     "2",
+     "7"
+    ]
+   }
+  },
+  {
+   "id": "ch-zechariah-001-11",
+   "book": "zechariah",
+   "chapter": 3,
+   "difficulty": "easy",
+   "ref": "Zechariah 3:1",
+   "text": {
+    "en": [
+     "Zechariah 3: Who stood at the high priest's right to accuse him?",
+     "Satan",
+     "Haman",
+     "Goliath"
+    ],
+    "es": [
+     "Zacarías 3: ¿Quién estaba a la derecha del sumo sacerdote para acusarlo?",
+     "Satanás",
+     "Amán",
+     "Goliat"
+    ],
+    "pt": [
+     "Zacarias 3: Quem estava à direita do sumo sacerdote para o acusar?",
+     "Satanás",
+     "Amã",
+     "Golias"
+    ],
+    "fr": [
+     "Zacharie 3 : Qui se tenait à la droite du grand prêtre pour l'accuser ?",
+     "Satan",
+     "Aman",
+     "Goliath"
+    ],
+    "de": [
+     "Sacharja 3: Wer stand zur Rechten des Hohenpriesters, um ihn anzuklagen?",
+     "Satan",
+     "Haman",
+     "Goliat"
+    ],
+    "it": [
+     "Zaccaria 3: Chi stava alla destra del sommo sacerdote per accusarlo?",
+     "Satana",
+     "Aman",
+     "Golia"
+    ],
+    "pl": [
+     "Zachariasz 3: Kto stał po prawicy arcykapłana, by go oskarżać?",
+     "Szatan",
+     "Haman",
+     "Goliat"
+    ],
+    "ru": [
+     "Захария 3: Кто стоял по правую руку первосвященника, чтобы обвинять его?",
+     "Сатана",
+     "Аман",
+     "Голиаф"
+    ],
+    "tr": [
+     "Zekeriya 3: Başkahin'in sağında onu suçlamak için kim duruyordu?",
+     "Şeytan",
+     "Haman",
+     "Golyat"
+    ],
+    "ja": [
+     "ゼカリヤ書3章：大祭司の右に立って彼を訴えたのはだれですか？",
+     "サタン",
+     "ハマン",
+     "ゴリアト"
+    ],
+    "ko": [
+     "즈카르야서 3장: 대사제의 오른쪽에 서서 그를 고발한 이는 누구입니까?",
+     "사탄",
+     "하만",
+     "골리앗"
+    ],
+    "ar": [
+     "زكريا 3: من وقف عن يمين رئيس الكهنة ليتهمه؟",
+     "إبليس",
+     "هامان",
+     "جليات"
+    ]
+   }
+  },
+  {
+   "id": "ch-zechariah-001-12",
+   "book": "zechariah",
+   "chapter": 3,
+   "difficulty": "medium",
+   "ref": "Zechariah 3:10",
+   "text": {
+    "en": [
+     "Zechariah 3: Neighbors will sit under their vine and which other tree?",
+     "Fig",
+     "Cedar",
+     "Palm"
+    ],
+    "es": [
+     "Zacarías 3: ¿Bajo su vid y bajo qué otro árbol se sentarán los vecinos?",
+     "Higuera",
+     "Cedro",
+     "Palmera"
+    ],
+    "pt": [
+     "Zacarias 3: Debaixo da sua videira e de que outra árvore os vizinhos se assentarão?",
+     "Figueira",
+     "Cedro",
+     "Palmeira"
+    ],
+    "fr": [
+     "Zacharie 3 : Sous sa vigne et sous quel autre arbre les voisins s'assiéront-ils ?",
+     "Figuier",
+     "Cèdre",
+     "Palmier"
+    ],
+    "de": [
+     "Sacharja 3: Unter dem Weinstock und unter welchem anderen Baum sitzen Nachbarn?",
+     "Feigenbaum",
+     "Zeder",
+     "Palme"
+    ],
+    "it": [
+     "Zaccaria 3: Sotto la vite e sotto quale altro albero siederanno i vicini?",
+     "Fico",
+     "Cedro",
+     "Palma"
+    ],
+    "pl": [
+     "Zachariasz 3: Jakie drzewo, obok winorośli, wskazuje się jako miejsce siedzenia sąsiadów?",
+     "Figowiec",
+     "Cedr",
+     "Palma"
+    ],
+    "ru": [
+     "Захария 3: Какое дерево, наряду с виноградной лозой, упомянуто как место отдыха соседей?",
+     "Смоковница",
+     "Кедр",
+     "Пальма"
+    ],
+    "tr": [
+     "Zekeriya 3: Komşular asmanın yanı sıra hangi ağacın altında oturacak?",
+     "İncir",
+     "Sedir",
+     "Palmiye"
+    ],
+    "ja": [
+     "ゼカリヤ書3章：隣人たちは、ぶどうの木の下と、あと何の木の下に座りますか？",
+     "イチジク",
+     "杉",
+     "ナツメヤシ"
+    ],
+    "ko": [
+     "즈카르야서 3장: 이웃들은 포도나무 아래와 또 어느 나무 아래에 앉겠습니까?",
+     "무화과나무",
+     "향백나무",
+     "야자나무"
+    ],
+    "ar": [
+     "زكريا 3: تحت الكرمة وأي شجرة أخرى يجلس الجيران؟",
+     "تين",
+     "أرز",
+     "نخيل"
+    ]
+   }
+  },
+  {
+   "id": "ch-zechariah-001-13",
+   "book": "zechariah",
+   "chapter": 3,
+   "difficulty": "hard",
+   "ref": "Zechariah 3:2",
+   "text": {
+    "en": [
+     "Zechariah 3: The high priest is a brand snatched from what?",
+     "Fire",
+     "Water",
+     "Pit"
+    ],
+    "es": [
+     "Zacarías 3: ¿De qué fue arrancado el sumo sacerdote, como un tizón?",
+     "Fuego",
+     "Agua",
+     "Fosa"
+    ],
+    "pt": [
+     "Zacarias 3: De que foi arrancado o sumo sacerdote, como um tição?",
+     "Fogo",
+     "Água",
+     "Cova"
+    ],
+    "fr": [
+     "Zacharie 3 : À quoi le grand prêtre, comme un tison, a-t-il été arraché ?",
+     "Feu",
+     "Eau",
+     "Fosse"
+    ],
+    "de": [
+     "Sacharja 3: Woraus wurde der Hohepriester wie ein Holzscheit gerettet?",
+     "Feuer",
+     "Wasser",
+     "Grube"
+    ],
+    "it": [
+     "Zaccaria 3: Da che cosa è stato strappato il sommo sacerdote, come un tizzone?",
+     "Fuoco",
+     "Acqua",
+     "Fossa"
+    ],
+    "pl": [
+     "Zachariasz 3: Z czego został wyrwany arcykapłan jak głownia?",
+     "Ognia",
+     "Wody",
+     "Dołu"
+    ],
+    "ru": [
+     "Захария 3: Из чего вырван первосвященник, как головня?",
+     "Огня",
+     "Воды",
+     "Ямы"
+    ],
+    "tr": [
+     "Zekeriya 3: Başkahin, neyden kurtarılmış yanık bir odun parçasıdır?",
+     "Ateşten",
+     "Sudan",
+     "Çukurdan"
+    ],
+    "ja": [
+     "ゼカリヤ書3章：大祭司は何から引き出された燃えさしですか？",
+     "火",
+     "水",
+     "穴"
+    ],
+    "ko": [
+     "즈카르야서 3장: 대사제는 무엇에서 건져 낸 타다 남은 나무입니까?",
+     "불",
+     "물",
+     "구덩이"
+    ],
+    "ar": [
+     "زكريا 3: من ماذا انتُشل رئيس الكهنة كالجذوة؟",
+     "نار",
+     "ماء",
+     "حفرة"
+    ]
+   }
+  },
+  {
+   "id": "ch-zechariah-001-14",
+   "book": "zechariah",
+   "chapter": 3,
+   "difficulty": "expert",
+   "ref": "Zechariah 3:2",
+   "text": {
+    "en": [
+     "Zechariah 3: Which city did the Lord, rebuking Satan, choose?",
+     "Jerusalem",
+     "Shiloh",
+     "Nineveh"
+    ],
+    "es": [
+     "Zacarías 3: ¿Qué ciudad ha elegido el Señor, que reprende a Satanás?",
+     "Jerusalén",
+     "Silo",
+     "Nínive"
+    ],
+    "pt": [
+     "Zacarias 3: Que cidade escolheu o Senhor, que repreende Satanás?",
+     "Jerusalém",
+     "Silo",
+     "Nínive"
+    ],
+    "fr": [
+     "Zacharie 3 : Quelle ville le Seigneur, qui rabroue Satan, a-t-il choisie ?",
+     "Jérusalem",
+     "Silo",
+     "Ninive"
+    ],
+    "de": [
+     "Sacharja 3: Welche Stadt hat der Herr erwählt, der Satan zurechtweist?",
+     "Jerusalem",
+     "Schilo",
+     "Ninive"
+    ],
+    "it": [
+     "Zaccaria 3: Quale città ha scelto il Signore, che rimprovera Satana?",
+     "Gerusalemme",
+     "Silo",
+     "Ninive"
+    ],
+    "pl": [
+     "Zachariasz 3: Które miasto wybrał Pan, który karci szatana?",
+     "Jerozolima",
+     "Szilo",
+     "Niniwa"
+    ],
+    "ru": [
+     "Захария 3: Какой город избрал Господь, обличающий сатану?",
+     "Иерусалим",
+     "Силом",
+     "Ниневия"
+    ],
+    "tr": [
+     "Zekeriya 3: Şeytanı azarlayan RAB hangi kenti seçti?",
+     "Yeruşalim",
+     "Şilo",
+     "Ninova"
+    ],
+    "ja": [
+     "ゼカリヤ書3章：サタンをとがめる主が選ばれた町はどこですか？",
+     "エルサレム",
+     "シロ",
+     "ニネベ"
+    ],
+    "ko": [
+     "즈카르야서 3장: 사탄을 꾸짖으시는 주님께서 선택하신 도성은 어디입니까?",
+     "예루살렘",
+     "실로",
+     "니네베"
+    ],
+    "ar": [
+     "زكريا 3: أي مدينة اختارها الرب الذي يزجر إبليس؟",
+     "أورشليم",
+     "شيلو",
+     "نينوى"
+    ]
+   }
+  },
+  {
+   "id": "ch-zechariah-001-15",
+   "book": "zechariah",
+   "chapter": 3,
+   "difficulty": "impossible",
+   "ref": "Zechariah 3:9",
+   "text": {
+    "en": [
+     "Zechariah 3: In how many days will the land's guilt be removed?",
+     "1",
+     "7",
+     "40"
+    ],
+    "es": [
+     "Zacarías 3: ¿En cuántos días será quitada la culpa de la tierra?",
+     "1",
+     "7",
+     "40"
+    ],
+    "pt": [
+     "Zacarias 3: Em quantos dias será removida a culpa da terra?",
+     "1",
+     "7",
+     "40"
+    ],
+    "fr": [
+     "Zacharie 3 : En combien de jours la faute du pays sera-t-elle enlevée ?",
+     "1",
+     "7",
+     "40"
+    ],
+    "de": [
+     "Sacharja 3: An wie vielen Tagen wird die Schuld des Landes getilgt?",
+     "1",
+     "7",
+     "40"
+    ],
+    "it": [
+     "Zaccaria 3: In quanti giorni sarà tolta la colpa del paese?",
+     "1",
+     "7",
+     "40"
+    ],
+    "pl": [
+     "Zachariasz 3: W ciągu ilu dni zostanie zdjęta wina z ziemi?",
+     "1",
+     "7",
+     "40"
+    ],
+    "ru": [
+     "Захария 3: За сколько дней будет снята вина с земли?",
+     "1",
+     "7",
+     "40"
+    ],
+    "tr": [
+     "Zekeriya 3: Ülkenin suçu kaç günde kaldırılacak?",
+     "1",
+     "7",
+     "40"
+    ],
+    "ja": [
+     "ゼカリヤ書3章：この地の罪は何日で取り除かれますか？",
+     "1",
+     "7",
+     "40"
+    ],
+    "ko": [
+     "즈카르야서 3장: 이 땅의 죄악은 며칠 만에 없어집니까?",
+     "1",
+     "7",
+     "40"
+    ],
+    "ar": [
+     "زكريا 3: في كم يوم سيُزال إثم الأرض؟",
+     "1",
+     "7",
+     "40"
+    ]
+   }
+  },
+  {
+   "id": "ch-zechariah-001-16",
+   "book": "zechariah",
+   "chapter": 4,
+   "difficulty": "easy",
+   "ref": "Zechariah 4:3",
+   "text": {
+    "en": [
+     "Zechariah 4: How many olive trees stood beside the lampstand?",
+     "2",
+     "4",
+     "10"
+    ],
+    "es": [
+     "Zacarías 4: ¿Cuántos olivos había junto al candelabro?",
+     "2",
+     "4",
+     "10"
+    ],
+    "pt": [
+     "Zacarias 4: Quantas oliveiras havia junto ao candelabro?",
+     "2",
+     "4",
+     "10"
+    ],
+    "fr": [
+     "Zacharie 4 : Combien d'oliviers se trouvaient près du chandelier ?",
+     "2",
+     "4",
+     "10"
+    ],
+    "de": [
+     "Sacharja 4: Wie viele Ölbäume standen neben dem Leuchter?",
+     "2",
+     "4",
+     "10"
+    ],
+    "it": [
+     "Zaccaria 4: Quanti ulivi c'erano accanto al candelabro?",
+     "2",
+     "4",
+     "10"
+    ],
+    "pl": [
+     "Zachariasz 4: Ile drzew oliwnych stało obok świecznika?",
+     "2",
+     "4",
+     "10"
+    ],
+    "ru": [
+     "Захария 4: Сколько маслин стояло возле светильника?",
+     "2",
+     "4",
+     "10"
+    ],
+    "tr": [
+     "Zekeriya 4: Kandilliğin yanında kaç zeytin ağacı vardı?",
+     "2",
+     "4",
+     "10"
+    ],
+    "ja": [
+     "ゼカリヤ書4章：燭台のそばにオリーブの木は何本ありましたか？",
+     "2",
+     "4",
+     "10"
+    ],
+    "ko": [
+     "즈카르야서 4장: 등잔대 곁에는 올리브나무가 몇 그루 있었습니까?",
+     "2",
+     "4",
+     "10"
+    ],
+    "ar": [
+     "زكريا 4: كم شجرة زيتون كانت بجانب المنارة؟",
+     "2",
+     "4",
+     "10"
+    ]
+   }
+  },
+  {
+   "id": "ch-zechariah-001-17",
+   "book": "zechariah",
+   "chapter": 4,
+   "difficulty": "medium",
+   "ref": "Zechariah 4:2",
+   "text": {
+    "en": [
+     "Zechariah 4: How many lamps did the lampstand carry?",
+     "7",
+     "5",
+     "12"
+    ],
+    "es": [
+     "Zacarías 4: ¿Cuántas lámparas tenía el candelabro?",
+     "7",
+     "5",
+     "12"
+    ],
+    "pt": [
+     "Zacarias 4: Quantas lâmpadas tinha o candelabro?",
+     "7",
+     "5",
+     "12"
+    ],
+    "fr": [
+     "Zacharie 4 : Combien de lampes portait le chandelier ?",
+     "7",
+     "5",
+     "12"
+    ],
+    "de": [
+     "Sacharja 4: Wie viele Lampen trug der Leuchter?",
+     "7",
+     "5",
+     "12"
+    ],
+    "it": [
+     "Zaccaria 4: Quante lampade aveva il candelabro?",
+     "7",
+     "5",
+     "12"
+    ],
+    "pl": [
+     "Zachariasz 4: Ile lamp miał świecznik?",
+     "7",
+     "5",
+     "12"
+    ],
+    "ru": [
+     "Захария 4: Сколько лампад было на светильнике?",
+     "7",
+     "5",
+     "12"
+    ],
+    "tr": [
+     "Zekeriya 4: Kandilliğin kaç kandili vardı?",
+     "7",
+     "5",
+     "12"
+    ],
+    "ja": [
+     "ゼカリヤ書4章：燭台にはともし火がいくつありましたか？",
+     "7",
+     "5",
+     "12"
+    ],
+    "ko": [
+     "즈카르야서 4장: 등잔대에는 등잔이 몇 개 있었습니까?",
+     "7",
+     "5",
+     "12"
+    ],
+    "ar": [
+     "زكريا 4: كم سراجًا كان على المنارة؟",
+     "7",
+     "5",
+     "12"
+    ]
+   }
+  },
+  {
+   "id": "ch-zechariah-001-18",
+   "book": "zechariah",
+   "chapter": 4,
+   "difficulty": "hard",
+   "ref": "Zechariah 4:9",
+   "text": {
+    "en": [
+     "Zechariah 4: Who laid the foundation of the Jerusalem temple?",
+     "Zerubbabel",
+     "Ezra",
+     "Nehemiah"
+    ],
+    "es": [
+     "Zacarías 4: ¿Quién puso los cimientos del templo de Jerusalén?",
+     "Zorobabel",
+     "Esdras",
+     "Nehemías"
+    ],
+    "pt": [
+     "Zacarias 4: Quem lançou os alicerces do templo de Jerusalém?",
+     "Zorobabel",
+     "Esdras",
+     "Neemias"
+    ],
+    "fr": [
+     "Zacharie 4 : Qui a posé les fondations du temple de Jérusalem ?",
+     "Zorobabel",
+     "Esdras",
+     "Néhémie"
+    ],
+    "de": [
+     "Sacharja 4: Wer legte den Grundstein des Tempels in Jerusalem?",
+     "Serubbabel",
+     "Esra",
+     "Nehemia"
+    ],
+    "it": [
+     "Zaccaria 4: Chi pose le fondamenta del tempio di Gerusalemme?",
+     "Zorobabele",
+     "Esdra",
+     "Neemia"
+    ],
+    "pl": [
+     "Zachariasz 4: Kto założył fundamenty świątyni w Jerozolimie?",
+     "Zorobabel",
+     "Ezdrasz",
+     "Nehemiasz"
+    ],
+    "ru": [
+     "Захария 4: Кто заложил основание храма в Иерусалиме?",
+     "Зоровавель",
+     "Ездра",
+     "Неемия"
+    ],
+    "tr": [
+     "Zekeriya 4: Yeruşalim'deki tapınağın temelini kim attı?",
+     "Zerubbabil",
+     "Ezra",
+     "Nehemya"
+    ],
+    "ja": [
+     "ゼカリヤ書4章：エルサレムの神殿の基礎を据えたのはだれですか？",
+     "ゼルバベル",
+     "エズラ",
+     "ネヘミヤ"
+    ],
+    "ko": [
+     "즈카르야서 4장: 예루살렘 성전의 초석을 놓은 이는 누구입니까?",
+     "즈루빠벨",
+     "에즈라",
+     "느헤미야"
+    ],
+    "ar": [
+     "زكريا 4: من وضع أساس هيكل أورشليم؟",
+     "زربابل",
+     "عزرا",
+     "نحميا"
+    ]
+   }
+  },
+  {
+   "id": "ch-zechariah-001-19",
+   "book": "zechariah",
+   "chapter": 4,
+   "difficulty": "expert",
+   "ref": "Zechariah 4:2",
+   "text": {
+    "en": [
+     "Zechariah 4: Of which metal was the lampstand in the vision made?",
+     "Gold",
+     "Silver",
+     "Iron"
+    ],
+    "es": [
+     "Zacarías 4: ¿De qué metal era el candelabro de la visión?",
+     "Oro",
+     "Plata",
+     "Hierro"
+    ],
+    "pt": [
+     "Zacarias 4: De que metal era o candelabro da visão?",
+     "Ouro",
+     "Prata",
+     "Ferro"
+    ],
+    "fr": [
+     "Zacharie 4 : En quel métal était le chandelier de la vision ?",
+     "Or",
+     "Argent",
+     "Fer"
+    ],
+    "de": [
+     "Sacharja 4: Aus welchem Metall war der Leuchter in der Vision?",
+     "Gold",
+     "Silber",
+     "Eisen"
+    ],
+    "it": [
+     "Zaccaria 4: Di quale metallo era il candelabro della visione?",
+     "Oro",
+     "Argento",
+     "Ferro"
+    ],
+    "pl": [
+     "Zachariasz 4: Jaki metal posłużył do wykonania świecznika z widzenia?",
+     "Złoto",
+     "Srebro",
+     "Żelazo"
+    ],
+    "ru": [
+     "Захария 4: Из какого металла был светильник в видении?",
+     "Золота",
+     "Серебра",
+     "Железа"
+    ],
+    "tr": [
+     "Zekeriya 4: Görümdeki kandilliğin yapıldığı maden hangisiydi?",
+     "Altın",
+     "Gümüş",
+     "Demir"
+    ],
+    "ja": [
+     "ゼカリヤ書4章：幻の燭台は何の金属でできていましたか？",
+     "金",
+     "銀",
+     "鉄"
+    ],
+    "ko": [
+     "즈카르야서 4장: 환시 속 등잔대는 어떤 금속으로 되어 있었습니까?",
+     "금",
+     "은",
+     "철"
+    ],
+    "ar": [
+     "زكريا 4: من أي معدن كانت المنارة في الرؤيا؟",
+     "ذهب",
+     "فضة",
+     "حديد"
+    ]
+   }
+  },
+  {
+   "id": "ch-zechariah-001-20",
+   "book": "zechariah",
+   "chapter": 4,
+   "difficulty": "impossible",
+   "ref": "Zechariah 4:7",
+   "text": {
+    "en": [
+     "Zechariah 4: What will the great mountain become before Zerubbabel?",
+     "Plain",
+     "Lake",
+     "Forest"
+    ],
+    "es": [
+     "Zacarías 4: ¿En qué se convertirá el gran monte ante Zorobabel?",
+     "Llanura",
+     "Lago",
+     "Bosque"
+    ],
+    "pt": [
+     "Zacarias 4: Em que se tornará o grande monte diante de Zorobabel?",
+     "Planície",
+     "Lago",
+     "Floresta"
+    ],
+    "fr": [
+     "Zacharie 4 : En quoi la grande montagne deviendra-t-elle devant Zorobabel ?",
+     "Plaine",
+     "Lac",
+     "Forêt"
+    ],
+    "de": [
+     "Sacharja 4: Was wird der große Berg vor Serubbabel werden?",
+     "Ebene",
+     "See",
+     "Wald"
+    ],
+    "it": [
+     "Zaccaria 4: Che cosa diventerà il grande monte davanti a Zorobabele?",
+     "Pianura",
+     "Lago",
+     "Foresta"
+    ],
+    "pl": [
+     "Zachariasz 4: Czym stanie się wielka góra przed Zorobabelem?",
+     "Równiną",
+     "Jeziorem",
+     "Lasem"
+    ],
+    "ru": [
+     "Захария 4: Чем станет великая гора перед Зоровавелем?",
+     "Равниной",
+     "Озером",
+     "Лесом"
+    ],
+    "tr": [
+     "Zekeriya 4: Zerubbabil'in önünde büyük dağ neye dönüşecek?",
+     "Ovaya",
+     "Göle",
+     "Ormana"
+    ],
+    "ja": [
+     "ゼカリヤ書4章：ゼルバベルの前で大いなる山は何になりますか？",
+     "平地",
+     "湖",
+     "森"
+    ],
+    "ko": [
+     "즈카르야서 4장: 즈루빠벨 앞에서 큰 산은 무엇이 됩니까?",
+     "평지",
+     "호수",
+     "숲"
+    ],
+    "ar": [
+     "زكريا 4: ماذا سيصير الجبل العظيم أمام زربابل؟",
+     "سهل",
+     "بحيرة",
+     "غابة"
+    ]
+   }
+  },
+  {
+   "id": "ch-zechariah-001-21",
+   "book": "zechariah",
+   "chapter": 5,
+   "difficulty": "easy",
+   "ref": "Zechariah 5:7",
+   "text": {
+    "en": [
+     "Zechariah 5: Who was sitting inside the basket?",
+     "Woman",
+     "Man",
+     "Child"
+    ],
+    "es": [
+     "Zacarías 5: ¿Quién estaba dentro del cesto?",
+     "Mujer",
+     "Hombre",
+     "Niño"
+    ],
+    "pt": [
+     "Zacarias 5: Quem estava dentro do cesto?",
+     "Mulher",
+     "Homem",
+     "Criança"
+    ],
+    "fr": [
+     "Zacharie 5 : Qui se trouvait à l'intérieur de la corbeille ?",
+     "Femme",
+     "Homme",
+     "Enfant"
+    ],
+    "de": [
+     "Sacharja 5: Wer saß im Inneren des Korbes?",
+     "Frau",
+     "Mann",
+     "Kind"
+    ],
+    "it": [
+     "Zaccaria 5: Chi c'era dentro il cesto?",
+     "Donna",
+     "Uomo",
+     "Bambino"
+    ],
+    "pl": [
+     "Zachariasz 5: Kto siedział wewnątrz kosza?",
+     "Kobieta",
+     "Mężczyzna",
+     "Dziecko"
+    ],
+    "ru": [
+     "Захария 5: Кто сидел внутри корзины?",
+     "Женщина",
+     "Мужчина",
+     "Ребёнок"
+    ],
+    "tr": [
+     "Zekeriya 5: Sepetin içinde kim oturuyordu?",
+     "Kadın",
+     "Erkek",
+     "Çocuk"
+    ],
+    "ja": [
+     "ゼカリヤ書5章：かごの中に座っていたのはだれですか？",
+     "女",
+     "男",
+     "子ども"
+    ],
+    "ko": [
+     "즈카르야서 5장: 통 안에 앉아 있던 이는 누구입니까?",
+     "여자",
+     "남자",
+     "아이"
+    ],
+    "ar": [
+     "زكريا 5: من كان جالسًا داخل السلة؟",
+     "امرأة",
+     "رجل",
+     "طفل"
+    ]
+   }
+  },
+  {
+   "id": "ch-zechariah-001-22",
+   "book": "zechariah",
+   "chapter": 5,
+   "difficulty": "medium",
+   "ref": "Zechariah 5:7-8",
+   "text": {
+    "en": [
+     "Zechariah 5: What metal covered the basket holding the woman?",
+     "Lead",
+     "Gold",
+     "Copper"
+    ],
+    "es": [
+     "Zacarías 5: ¿Qué metal cubría el cesto donde estaba la mujer?",
+     "Plomo",
+     "Oro",
+     "Cobre"
+    ],
+    "pt": [
+     "Zacarias 5: Que metal cobria o cesto onde estava a mulher?",
+     "Chumbo",
+     "Ouro",
+     "Cobre"
+    ],
+    "fr": [
+     "Zacharie 5 : Quel métal couvrait la corbeille où se trouvait la femme ?",
+     "Plomb",
+     "Or",
+     "Cuivre"
+    ],
+    "de": [
+     "Sacharja 5: Welches Metall bedeckte den Korb mit der Frau?",
+     "Blei",
+     "Gold",
+     "Kupfer"
+    ],
+    "it": [
+     "Zaccaria 5: Quale metallo copriva il cesto con la donna?",
+     "Piombo",
+     "Oro",
+     "Rame"
+    ],
+    "pl": [
+     "Zachariasz 5: Jaki metal przykrywał kosz z kobietą?",
+     "Ołów",
+     "Złoto",
+     "Miedź"
+    ],
+    "ru": [
+     "Захария 5: Какой металл прикрывал корзину с женщиной?",
+     "Свинец",
+     "Золото",
+     "Медь"
+    ],
+    "tr": [
+     "Zekeriya 5: Kadının bulunduğu sepeti hangi maden kapatıyordu?",
+     "Kurşun",
+     "Altın",
+     "Bakır"
+    ],
+    "ja": [
+     "ゼカリヤ書5章：女のいるかごを覆っていた金属は何ですか？",
+     "鉛",
+     "金",
+     "銅"
+    ],
+    "ko": [
+     "즈카르야서 5장: 여자가 든 통을 덮은 금속은 무엇입니까?",
+     "납",
+     "금",
+     "구리"
+    ],
+    "ar": [
+     "زكريا 5: ما المعدن الذي غطى السلة التي فيها المرأة؟",
+     "رصاص",
+     "ذهب",
+     "نحاس"
+    ]
+   }
+  },
+  {
+   "id": "ch-zechariah-001-23",
+   "book": "zechariah",
+   "chapter": 5,
+   "difficulty": "hard",
+   "ref": "Zechariah 5:9",
+   "text": {
+    "en": [
+     "Zechariah 5: How many winged women carried the basket?",
+     "2",
+     "3",
+     "7"
+    ],
+    "es": [
+     "Zacarías 5: ¿Cuántas mujeres con alas llevaron el cesto?",
+     "2",
+     "3",
+     "7"
+    ],
+    "pt": [
+     "Zacarias 5: Quantas mulheres com asas levaram o cesto?",
+     "2",
+     "3",
+     "7"
+    ],
+    "fr": [
+     "Zacharie 5 : Combien de femmes ailées emportèrent la corbeille ?",
+     "2",
+     "3",
+     "7"
+    ],
+    "de": [
+     "Sacharja 5: Wie viele geflügelte Frauen trugen den Korb fort?",
+     "2",
+     "3",
+     "7"
+    ],
+    "it": [
+     "Zaccaria 5: Quante donne alate portarono via il cesto?",
+     "2",
+     "3",
+     "7"
+    ],
+    "pl": [
+     "Zachariasz 5: Ile skrzydlatych kobiet uniosło kosz?",
+     "2",
+     "3",
+     "7"
+    ],
+    "ru": [
+     "Захария 5: Сколько крылатых женщин понесли корзину?",
+     "2",
+     "3",
+     "7"
+    ],
+    "tr": [
+     "Zekeriya 5: Kanatlı kaç kadın sepeti taşıdı?",
+     "2",
+     "3",
+     "7"
+    ],
+    "ja": [
+     "ゼカリヤ書5章：翼のある女は何人でかごを運びましたか？",
+     "2",
+     "3",
+     "7"
+    ],
+    "ko": [
+     "즈카르야서 5장: 날개 달린 여자들은 몇 명이 통을 날랐습니까?",
+     "2",
+     "3",
+     "7"
+    ],
+    "ar": [
+     "زكريا 5: كم امرأة ذات أجنحة حملت السلة؟",
+     "2",
+     "3",
+     "7"
+    ]
+   }
+  },
+  {
+   "id": "ch-zechariah-001-24",
+   "book": "zechariah",
+   "chapter": 5,
+   "difficulty": "expert",
+   "ref": "Zechariah 5:4",
+   "text": {
+    "en": [
+     "Zechariah 5: What does the curse consume with a house's timbers?",
+     "Stones",
+     "Gardens",
+     "Fields"
+    ],
+    "es": [
+     "Zacarías 5: ¿Qué consume la maldición junto con las vigas de una casa?",
+     "Piedras",
+     "Jardines",
+     "Campos"
+    ],
+    "pt": [
+     "Zacarias 5: O que a maldição consome junto com as vigas da casa?",
+     "Pedras",
+     "Jardins",
+     "Campos"
+    ],
+    "fr": [
+     "Zacharie 5 : Que consume la malédiction avec les poutres d'une maison ?",
+     "Pierres",
+     "Jardins",
+     "Champs"
+    ],
+    "de": [
+     "Sacharja 5: Was zerstört der Fluch zusammen mit dem Holz eines Hauses?",
+     "Steine",
+     "Gärten",
+     "Felder"
+    ],
+    "it": [
+     "Zaccaria 5: Che cosa distrugge la maledizione insieme alle travi della casa?",
+     "Pietre",
+     "Giardini",
+     "Campi"
+    ],
+    "pl": [
+     "Zachariasz 5: Co niszczy przekleństwo wraz z belkami domu?",
+     "Kamienie",
+     "Ogrody",
+     "Pola"
+    ],
+    "ru": [
+     "Захария 5: Что истребляет проклятие вместе с деревом дома?",
+     "Камни",
+     "Сады",
+     "Поля"
+    ],
+    "tr": [
+     "Zekeriya 5: Lanet, evin kirişleriyle birlikte neyi yok eder?",
+     "Taşlar",
+     "Bahçeler",
+     "Tarlalar"
+    ],
+    "ja": [
+     "ゼカリヤ書5章：呪いは家の木材と共に何を滅ぼしますか？",
+     "石",
+     "庭",
+     "畑"
+    ],
+    "ko": [
+     "즈카르야서 5장: 저주는 집의 목재와 함께 무엇을 삼킵니까?",
+     "돌",
+     "정원",
+     "밭"
+    ],
+    "ar": [
+     "زكريا 5: ماذا تلتهم اللعنة مع خشب البيت؟",
+     "حجارة",
+     "حدائق",
+     "حقول"
+    ]
+   }
+  },
+  {
+   "id": "ch-zechariah-001-25",
+   "book": "zechariah",
+   "chapter": 5,
+   "difficulty": "impossible",
+   "ref": "Zechariah 5:11",
+   "text": {
+    "en": [
+     "Zechariah 5: Which land would get a house built for the woman?",
+     "Shinar",
+     "Egypt",
+     "Moab"
+    ],
+    "es": [
+     "Zacarías 5: ¿Qué tierra recibiría una casa construida para la mujer?",
+     "Senaar",
+     "Egipto",
+     "Moab"
+    ],
+    "pt": [
+     "Zacarias 5: Que terra receberia uma casa construída para a mulher?",
+     "Senaar",
+     "Egito",
+     "Moab"
+    ],
+    "fr": [
+     "Zacharie 5 : Quel pays recevrait une maison bâtie pour la femme ?",
+     "Shinéar",
+     "Égypte",
+     "Moab"
+    ],
+    "de": [
+     "Sacharja 5: Welches Land sollte ein Haus für die Frau erhalten?",
+     "Schinar",
+     "Ägypten",
+     "Moab"
+    ],
+    "it": [
+     "Zaccaria 5: Quale terra avrebbe ricevuto una casa costruita per la donna?",
+     "Sennaar",
+     "Egitto",
+     "Moab"
+    ],
+    "pl": [
+     "Zachariasz 5: Która kraina otrzyma dom dla kobiety?",
+     "Szinear",
+     "Egipt",
+     "Moab"
+    ],
+    "ru": [
+     "Захария 5: Какая земля получит дом для женщины?",
+     "Сеннаар",
+     "Египет",
+     "Моав"
+    ],
+    "tr": [
+     "Zekeriya 5: Kadın için ev inşa edilecek ülke neresiydi?",
+     "Şinar",
+     "Mısır",
+     "Moab"
+    ],
+    "ja": [
+     "ゼカリヤ書5章：女のために家が建てられる地はどこですか？",
+     "シンアル",
+     "エジプト",
+     "モアブ"
+    ],
+    "ko": [
+     "즈카르야서 5장: 여자를 위해 집이 지어질 땅은 어디입니까?",
+     "시날",
+     "이집트",
+     "모압"
+    ],
+    "ar": [
+     "زكريا 5: في أي أرض سيُبنى بيت للمرأة؟",
+     "شنعار",
+     "مصر",
+     "موآب"
+    ]
+   }
+  },
+  {
+   "id": "ch-zechariah-001-26",
+   "book": "zechariah",
+   "chapter": 6,
+   "difficulty": "easy",
+   "ref": "Zechariah 6:1",
+   "text": {
+    "en": [
+     "Zechariah 6: How many chariots came out between the mountains?",
+     "4",
+     "2",
+     "8"
+    ],
+    "es": [
+     "Zacarías 6: ¿Cuántos carros salieron de entre los montes?",
+     "4",
+     "2",
+     "8"
+    ],
+    "pt": [
+     "Zacarias 6: Quantos carros saíram de entre os montes?",
+     "4",
+     "2",
+     "8"
+    ],
+    "fr": [
+     "Zacharie 6 : Combien de chars sortirent d'entre les montagnes ?",
+     "4",
+     "2",
+     "8"
+    ],
+    "de": [
+     "Sacharja 6: Wie viele Wagen kamen zwischen den Bergen hervor?",
+     "4",
+     "2",
+     "8"
+    ],
+    "it": [
+     "Zaccaria 6: Quanti carri uscirono tra i monti?",
+     "4",
+     "2",
+     "8"
+    ],
+    "pl": [
+     "Zachariasz 6: Ile rydwanów wyjechało spomiędzy gór?",
+     "4",
+     "2",
+     "8"
+    ],
+    "ru": [
+     "Захария 6: Сколько колесниц выехало между гор?",
+     "4",
+     "2",
+     "8"
+    ],
+    "tr": [
+     "Zekeriya 6: Dağların arasından kaç savaş arabası çıktı?",
+     "4",
+     "2",
+     "8"
+    ],
+    "ja": [
+     "ゼカリヤ書6章：山の間から何台の戦車が出てきましたか？",
+     "4",
+     "2",
+     "8"
+    ],
+    "ko": [
+     "즈카르야서 6장: 산들 사이에서 병거가 몇 대 나왔습니까?",
+     "4",
+     "2",
+     "8"
+    ],
+    "ar": [
+     "زكريا 6: كم مركبة خرجت من بين الجبلين؟",
+     "4",
+     "2",
+     "8"
+    ]
+   }
+  },
+  {
+   "id": "ch-zechariah-001-27",
+   "book": "zechariah",
+   "chapter": 6,
+   "difficulty": "medium",
+   "ref": "Zechariah 6:2",
+   "text": {
+    "en": [
+     "Zechariah 6: What color were the first chariot's horses?",
+     "Red",
+     "Green",
+     "Yellow"
+    ],
+    "es": [
+     "Zacarías 6: ¿De qué color eran los caballos del primer carro?",
+     "Rojos",
+     "Verdes",
+     "Amarillos"
+    ],
+    "pt": [
+     "Zacarias 6: De que cor eram os cavalos do primeiro carro?",
+     "Vermelhos",
+     "Verdes",
+     "Amarelos"
+    ],
+    "fr": [
+     "Zacharie 6 : De quelle couleur étaient les chevaux du premier char ?",
+     "Rouges",
+     "Verts",
+     "Jaunes"
+    ],
+    "de": [
+     "Sacharja 6: Welche Farbe hatten die Pferde des ersten Wagens?",
+     "Rote",
+     "Grüne",
+     "Gelbe"
+    ],
+    "it": [
+     "Zaccaria 6: Di che colore erano i cavalli del primo carro?",
+     "Rossi",
+     "Verdi",
+     "Gialli"
+    ],
+    "pl": [
+     "Zachariasz 6: Jakiego koloru były konie pierwszego rydwanu?",
+     "Czerwone",
+     "Zielone",
+     "Żółte"
+    ],
+    "ru": [
+     "Захария 6: Какого цвета были кони первой колесницы?",
+     "Рыжие",
+     "Зелёные",
+     "Жёлтые"
+    ],
+    "tr": [
+     "Zekeriya 6: İlk savaş arabasının atları ne renkti?",
+     "Kırmızı",
+     "Yeşil",
+     "Sarı"
+    ],
+    "ja": [
+     "ゼカリヤ書6章：最初の戦車の馬は何色でしたか？",
+     "赤",
+     "緑",
+     "黄"
+    ],
+    "ko": [
+     "즈카르야서 6장: 첫째 병거의 말들은 무슨 색이었습니까?",
+     "붉은색",
+     "초록색",
+     "노란색"
+    ],
+    "ar": [
+     "زكريا 6: ما لون خيل المركبة الأولى؟",
+     "حمراء",
+     "خضراء",
+     "صفراء"
+    ]
+   }
+  },
+  {
+   "id": "ch-zechariah-001-28",
+   "book": "zechariah",
+   "chapter": 6,
+   "difficulty": "hard",
+   "ref": "Zechariah 6:2",
+   "text": {
+    "en": [
+     "Zechariah 6: What color were the second chariot's horses?",
+     "Black",
+     "Green",
+     "Blue"
+    ],
+    "es": [
+     "Zacarías 6: ¿De qué color eran los caballos del segundo carro?",
+     "Negros",
+     "Verdes",
+     "Azules"
+    ],
+    "pt": [
+     "Zacarias 6: De que cor eram os cavalos do segundo carro?",
+     "Pretos",
+     "Verdes",
+     "Azuis"
+    ],
+    "fr": [
+     "Zacharie 6 : De quelle couleur étaient les chevaux du deuxième char ?",
+     "Noirs",
+     "Verts",
+     "Bleus"
+    ],
+    "de": [
+     "Sacharja 6: Welche Farbe hatten die Pferde des zweiten Wagens?",
+     "Schwarze",
+     "Grüne",
+     "Blaue"
+    ],
+    "it": [
+     "Zaccaria 6: Di che colore erano i cavalli del secondo carro?",
+     "Neri",
+     "Verdi",
+     "Azzurri"
+    ],
+    "pl": [
+     "Zachariasz 6: Jakiego koloru były konie drugiego rydwanu?",
+     "Czarne",
+     "Zielone",
+     "Niebieskie"
+    ],
+    "ru": [
+     "Захария 6: Какого цвета были кони второй колесницы?",
+     "Вороные",
+     "Зелёные",
+     "Синие"
+    ],
+    "tr": [
+     "Zekeriya 6: İkinci savaş arabasının atları ne renkti?",
+     "Siyah",
+     "Yeşil",
+     "Mavi"
+    ],
+    "ja": [
+     "ゼカリヤ書6章：二番目の戦車の馬は何色でしたか？",
+     "黒",
+     "緑",
+     "青"
+    ],
+    "ko": [
+     "즈카르야서 6장: 둘째 병거의 말들은 무슨 색이었습니까?",
+     "검은색",
+     "초록색",
+     "파란색"
+    ],
+    "ar": [
+     "زكريا 6: ما لون خيل المركبة الثانية؟",
+     "سوداء",
+     "خضراء",
+     "زرقاء"
+    ]
+   }
+  },
+  {
+   "id": "ch-zechariah-001-29",
+   "book": "zechariah",
+   "chapter": 6,
+   "difficulty": "expert",
+   "ref": "Zechariah 6:11",
+   "text": {
+    "en": [
+     "Zechariah 6: Besides silver, which metal formed the high priest's crown?",
+     "Gold",
+     "Iron",
+     "Tin"
+    ],
+    "es": [
+     "Zacarías 6: Además de plata, ¿qué metal formaba la corona del sumo sacerdote?",
+     "Oro",
+     "Hierro",
+     "Estaño"
+    ],
+    "pt": [
+     "Zacarias 6: Além de prata, que metal formava a coroa do sumo sacerdote?",
+     "Ouro",
+     "Ferro",
+     "Estanho"
+    ],
+    "fr": [
+     "Zacharie 6 : Outre l'argent, quel métal formait la couronne du grand prêtre ?",
+     "Or",
+     "Fer",
+     "Étain"
+    ],
+    "de": [
+     "Sacharja 6: Welches Metall bildete neben Silber die Krone des Hohenpriesters?",
+     "Gold",
+     "Eisen",
+     "Zinn"
+    ],
+    "it": [
+     "Zaccaria 6: Oltre all'argento, quale metallo formava la corona del sommo sacerdote?",
+     "Oro",
+     "Ferro",
+     "Stagno"
+    ],
+    "pl": [
+     "Zachariasz 6: Jaki metal obok srebra tworzył koronę arcykapłana?",
+     "Złoto",
+     "Żelazo",
+     "Cyna"
+    ],
+    "ru": [
+     "Захария 6: Какой металл, кроме серебра, пошёл на венец первосвященника?",
+     "Золото",
+     "Железо",
+     "Олово"
+    ],
+    "tr": [
+     "Zekeriya 6: Başkahinin tacı gümüşün yanı sıra hangi madenden yapıldı?",
+     "Altından",
+     "Demirden",
+     "Kalaydan"
+    ],
+    "ja": [
+     "ゼカリヤ書6章：大祭司の冠は銀のほかに何の金属で作られましたか？",
+     "金",
+     "鉄",
+     "錫"
+    ],
+    "ko": [
+     "즈카르야서 6장: 대사제의 관은 은 외에 어떤 금속으로 만들어졌습니까?",
+     "금",
+     "철",
+     "주석"
+    ],
+    "ar": [
+     "زكريا 6: ما المعدن الذي صُنع منه تاج رئيس الكهنة مع الفضة؟",
+     "ذهب",
+     "حديد",
+     "قصدير"
+    ]
+   }
+  },
+  {
+   "id": "ch-zechariah-001-30",
+   "book": "zechariah",
+   "chapter": 6,
+   "difficulty": "impossible",
+   "ref": "Zechariah 6:10",
+   "text": {
+    "en": [
+     "Zechariah 6: Who was the father of Josiah, visited by Zechariah?",
+     "Zephaniah",
+     "Nahum",
+     "Haggai"
+    ],
+    "es": [
+     "Zacarías 6: ¿Quién era el padre de Josías, visitado por Zacarías?",
+     "Sofonías",
+     "Nahún",
+     "Ageo"
+    ],
+    "pt": [
+     "Zacarias 6: Quem era o pai de Josias, visitado por Zacarias?",
+     "Sofonias",
+     "Naum",
+     "Ageu"
+    ],
+    "fr": [
+     "Zacharie 6 : Qui était le père de Josias, chez qui Zacharie alla ?",
+     "Sophonie",
+     "Nahum",
+     "Aggée"
+    ],
+    "de": [
+     "Sacharja 6: Wer war der Vater von Joschija, zu dem Sacharja ging?",
+     "Zefanja",
+     "Nahum",
+     "Haggai"
+    ],
+    "it": [
+     "Zaccaria 6: Chi era il padre di Giosia, da cui andò Zaccaria?",
+     "Sofonia",
+     "Naum",
+     "Aggeo"
+    ],
+    "pl": [
+     "Zachariasz 6: Kto był ojcem Jozjasza, do którego poszedł Zachariasz?",
+     "Sofoniasz",
+     "Nahum",
+     "Aggeusz"
+    ],
+    "ru": [
+     "Захария 6: Кто был отцом Иосии, к которому пошёл Захария?",
+     "Софония",
+     "Наум",
+     "Аггей"
+    ],
+    "tr": [
+     "Zekeriya 6: Zekeriya'nın ziyaret ettiği Yoşiya'nın babası kimdi?",
+     "Sefanya",
+     "Nahum",
+     "Hagay"
+    ],
+    "ja": [
+     "ゼカリヤ書6章：ゼカリヤが訪ねたヨシヤの父は誰ですか？",
+     "ゼファニヤ",
+     "ナホム",
+     "ハガイ"
+    ],
+    "ko": [
+     "즈카르야서 6장: 즈카르야가 찾아간 요시야의 아버지는 누구입니까?",
+     "스바니야",
+     "나훔",
+     "하까이"
+    ],
+    "ar": [
+     "زكريا 6: من كان أبو يوشيا الذي زاره زكريا؟",
+     "صفنيا",
+     "ناحوم",
+     "حجي"
+    ]
+   }
+  },
+  {
+   "id": "ch-zechariah-001-31",
+   "book": "zechariah",
+   "chapter": 7,
+   "difficulty": "easy",
+   "ref": "Zechariah 7:10",
+   "text": {
+    "en": [
+     "Zechariah 7: Which woman must not be oppressed, along with orphans?",
+     "Widow",
+     "Queen",
+     "Princess"
+    ],
+    "es": [
+     "Zacarías 7: ¿Qué mujer no debe ser oprimida, junto con los huérfanos?",
+     "Viuda",
+     "Reina",
+     "Princesa"
+    ],
+    "pt": [
+     "Zacarias 7: Que mulher não deve ser oprimida, junto com os órfãos?",
+     "Viúva",
+     "Rainha",
+     "Princesa"
+    ],
+    "fr": [
+     "Zacharie 7 : Quelle femme ne doit pas être opprimée, avec l'orphelin ?",
+     "Veuve",
+     "Reine",
+     "Princesse"
+    ],
+    "de": [
+     "Sacharja 7: Welche Frau darf nicht unterdrückt werden, ebenso wie Waisen?",
+     "Witwe",
+     "Königin",
+     "Prinzessin"
+    ],
+    "it": [
+     "Zaccaria 7: Quale donna non deve essere oppressa, insieme agli orfani?",
+     "Vedova",
+     "Regina",
+     "Principessa"
+    ],
+    "pl": [
+     "Zachariasz 7: Jaka kobieta nie może być uciskana, podobnie jak sieroty?",
+     "Wdowa",
+     "Królowa",
+     "Księżniczka"
+    ],
+    "ru": [
+     "Захария 7: Какую женщину нельзя притеснять, как и сирот?",
+     "Вдову",
+     "Царицу",
+     "Принцессу"
+    ],
+    "tr": [
+     "Zekeriya 7: Yetimler gibi, hangi kadın ezilmemeli?",
+     "Dul",
+     "Kraliçe",
+     "Prenses"
+    ],
+    "ja": [
+     "ゼカリヤ書7章：孤児と共に虐げてはならない女はだれですか？",
+     "やもめ",
+     "王妃",
+     "王女"
+    ],
+    "ko": [
+     "즈카르야서 7장: 고아와 함께 억누르지 말아야 할 여자는 누구입니까?",
+     "과부",
+     "왕비",
+     "공주"
+    ],
+    "ar": [
+     "زكريا 7: أي امرأة لا يجوز ظلمها مع اليتيم؟",
+     "أرملة",
+     "ملكة",
+     "أميرة"
+    ]
+   }
+  },
+  {
+   "id": "ch-zechariah-001-32",
+   "book": "zechariah",
+   "chapter": 7,
+   "difficulty": "medium",
+   "ref": "Zechariah 7:7",
+   "text": {
+    "en": [
+     "Zechariah 7: Who delivered the Lord's earlier words to the ancestors?",
+     "Prophets",
+     "Soldiers",
+     "Merchants"
+    ],
+    "es": [
+     "Zacarías 7: ¿Quiénes transmitieron a los antepasados las palabras anteriores del Señor?",
+     "Profetas",
+     "Soldados",
+     "Mercaderes"
+    ],
+    "pt": [
+     "Zacarias 7: Quem transmitiu aos antepassados as palavras anteriores do Senhor?",
+     "Profetas",
+     "Soldados",
+     "Mercadores"
+    ],
+    "fr": [
+     "Zacharie 7 : Qui transmit aux ancêtres les paroles antérieures du Seigneur ?",
+     "Prophètes",
+     "Soldats",
+     "Marchands"
+    ],
+    "de": [
+     "Sacharja 7: Wer überbrachte den Vorfahren die früheren Worte des Herrn?",
+     "Propheten",
+     "Soldaten",
+     "Händler"
+    ],
+    "it": [
+     "Zaccaria 7: Chi trasmise agli antenati le parole precedenti del Signore?",
+     "Profeti",
+     "Soldati",
+     "Mercanti"
+    ],
+    "pl": [
+     "Zachariasz 7: Kto przekazał przodkom wcześniejsze słowa Pana?",
+     "Prorocy",
+     "Żołnierze",
+     "Kupcy"
+    ],
+    "ru": [
+     "Захария 7: Кто передавал предкам прежние слова Господа?",
+     "Пророки",
+     "Воины",
+     "Купцы"
+    ],
+    "tr": [
+     "Zekeriya 7: Atalara RAB'bin önceki sözlerini kim iletti?",
+     "Peygamberler",
+     "Askerler",
+     "Tüccarlar"
+    ],
+    "ja": [
+     "ゼカリヤ書7章：先祖に主の以前の言葉を伝えたのはだれですか？",
+     "預言者",
+     "兵士",
+     "商人"
+    ],
+    "ko": [
+     "즈카르야서 7장: 조상들에게 주님의 이전 말씀을 전한 이들은 누구입니까?",
+     "예언자들",
+     "군인들",
+     "상인들"
+    ],
+    "ar": [
+     "زكريا 7: من نقل إلى الأسلاف كلام الرب السابق؟",
+     "أنبياء",
+     "جنود",
+     "تجار"
+    ]
+   }
+  },
+  {
+   "id": "ch-zechariah-001-33",
+   "book": "zechariah",
+   "chapter": 7,
+   "difficulty": "hard",
+   "ref": "Zechariah 7:5",
+   "text": {
+    "en": [
+     "Zechariah 7: For how many years had the people fasted?",
+     "70",
+     "30",
+     "100"
+    ],
+    "es": [
+     "Zacarías 7: ¿Durante cuántos años había ayunado el pueblo?",
+     "70",
+     "30",
+     "100"
+    ],
+    "pt": [
+     "Zacarias 7: Durante quantos anos o povo tinha jejuado?",
+     "70",
+     "30",
+     "100"
+    ],
+    "fr": [
+     "Zacharie 7 : Pendant combien d'années le peuple avait-il jeûné ?",
+     "70",
+     "30",
+     "100"
+    ],
+    "de": [
+     "Sacharja 7: Wie viele Jahre hatte das Volk gefastet?",
+     "70",
+     "30",
+     "100"
+    ],
+    "it": [
+     "Zaccaria 7: Per quanti anni il popolo aveva digiunato?",
+     "70",
+     "30",
+     "100"
+    ],
+    "pl": [
+     "Zachariasz 7: Przez ile lat lud pościł?",
+     "70",
+     "30",
+     "100"
+    ],
+    "ru": [
+     "Захария 7: Сколько лет народ постился?",
+     "70",
+     "30",
+     "100"
+    ],
+    "tr": [
+     "Zekeriya 7: Halk kaç yıl oruç tutmuştu?",
+     "70",
+     "30",
+     "100"
+    ],
+    "ja": [
+     "ゼカリヤ書7章：民は何年間断食してきましたか？",
+     "70",
+     "30",
+     "100"
+    ],
+    "ko": [
+     "즈카르야서 7장: 백성은 몇 년 동안 단식해 왔습니까?",
+     "70",
+     "30",
+     "100"
+    ],
+    "ar": [
+     "زكريا 7: كم سنة صام الشعب؟",
+     "70",
+     "30",
+     "100"
+    ]
+   }
+  },
+  {
+   "id": "ch-zechariah-001-34",
+   "book": "zechariah",
+   "chapter": 7,
+   "difficulty": "expert",
+   "ref": "Zechariah 7:1",
+   "text": {
+    "en": [
+     "Zechariah 7: In which year of King Darius did the word come?",
+     "4",
+     "6",
+     "10"
+    ],
+    "es": [
+     "Zacarías 7: ¿En qué año del rey Darío llegó la palabra?",
+     "4",
+     "6",
+     "10"
+    ],
+    "pt": [
+     "Zacarias 7: Em que ano do rei Dario veio a palavra?",
+     "4",
+     "6",
+     "10"
+    ],
+    "fr": [
+     "Zacharie 7 : En quelle année du roi Darius la parole vint-elle ?",
+     "4",
+     "6",
+     "10"
+    ],
+    "de": [
+     "Sacharja 7: In welchem Regierungsjahr des Darius erging das Wort?",
+     "4",
+     "6",
+     "10"
+    ],
+    "it": [
+     "Zaccaria 7: In quale anno del re Dario giunse la parola?",
+     "4",
+     "6",
+     "10"
+    ],
+    "pl": [
+     "Zachariasz 7: W którym roku króla Dariusza doszło słowo?",
+     "4",
+     "6",
+     "10"
+    ],
+    "ru": [
+     "Захария 7: В каком году царя Дария было слово?",
+     "4",
+     "6",
+     "10"
+    ],
+    "tr": [
+     "Zekeriya 7: Söz Kral Darius'un kaçıncı yılında geldi?",
+     "4",
+     "6",
+     "10"
+    ],
+    "ja": [
+     "ゼカリヤ書7章：言葉はダレイオス王の何年目に臨みましたか？",
+     "4",
+     "6",
+     "10"
+    ],
+    "ko": [
+     "즈카르야서 7장: 말씀은 다리우스 임금 몇 년째에 내렸습니까?",
+     "4",
+     "6",
+     "10"
+    ],
+    "ar": [
+     "زكريا 7: في أي سنة من حكم الملك داريوس جاءت الكلمة؟",
+     "4",
+     "6",
+     "10"
+    ]
+   }
+  },
+  {
+   "id": "ch-zechariah-001-35",
+   "book": "zechariah",
+   "chapter": 7,
+   "difficulty": "impossible",
+   "ref": "Zechariah 7:11",
+   "text": {
+    "en": [
+     "Zechariah 7: What did stubborn people block to avoid hearing?",
+     "Ears",
+     "Eyes",
+     "Mouths"
+    ],
+    "es": [
+     "Zacarías 7: ¿Qué taparon los obstinados para no oír?",
+     "Oídos",
+     "Ojos",
+     "Bocas"
+    ],
+    "pt": [
+     "Zacarias 7: O que taparam os obstinados para não ouvir?",
+     "Ouvidos",
+     "Olhos",
+     "Bocas"
+    ],
+    "fr": [
+     "Zacharie 7 : Que les obstinés bouchèrent-ils pour ne pas entendre ?",
+     "Oreilles",
+     "Yeux",
+     "Bouches"
+    ],
+    "de": [
+     "Sacharja 7: Was verstopften die Störrischen, um nicht zu hören?",
+     "Ohren",
+     "Augen",
+     "Münder"
+    ],
+    "it": [
+     "Zaccaria 7: Che cosa turarono i testardi per non ascoltare?",
+     "Orecchie",
+     "Occhi",
+     "Bocche"
+    ],
+    "pl": [
+     "Zachariasz 7: Co zatkali uparci, żeby nie słyszeć?",
+     "Uszy",
+     "Oczy",
+     "Usta"
+    ],
+    "ru": [
+     "Захария 7: Что заткнули упрямцы, чтобы не слышать?",
+     "Уши",
+     "Глаза",
+     "Рты"
+    ],
+    "tr": [
+     "Zekeriya 7: İnatçılar duymamak için neyi tıkadı?",
+     "Kulaklar",
+     "Gözler",
+     "Ağızlar"
+    ],
+    "ja": [
+     "ゼカリヤ書7章：かたくなな者たちは聞かないよう何をふさぎましたか？",
+     "耳",
+     "目",
+     "口"
+    ],
+    "ko": [
+     "즈카르야서 7장: 고집스러운 이들은 듣지 않으려고 무엇을 막았습니까?",
+     "귀",
+     "눈",
+     "입"
+    ],
+    "ar": [
+     "زكريا 7: ماذا سدّ العنيدون كي لا يسمعوا؟",
+     "آذان",
+     "عيون",
+     "أفواه"
+    ]
+   }
+  },
+  {
+   "id": "ch-zechariah-001-36",
+   "book": "zechariah",
+   "chapter": 8,
+   "difficulty": "easy",
+   "ref": "Zechariah 8:23",
+   "text": {
+    "en": [
+     "Zechariah 8: How many men will grasp a Jew's garment?",
+     "10",
+     "3",
+     "7"
+    ],
+    "es": [
+     "Zacarías 8: ¿Cuántos hombres agarrarán el manto de un judío?",
+     "10",
+     "3",
+     "7"
+    ],
+    "pt": [
+     "Zacarias 8: Quantos homens agarrarão a roupa de um judeu?",
+     "10",
+     "3",
+     "7"
+    ],
+    "fr": [
+     "Zacharie 8 : Combien d'hommes saisiront le vêtement d'un Juif ?",
+     "10",
+     "3",
+     "7"
+    ],
+    "de": [
+     "Sacharja 8: Wie viele Männer packen einen Juden am Gewand?",
+     "10",
+     "3",
+     "7"
+    ],
+    "it": [
+     "Zaccaria 8: Quanti uomini afferreranno il mantello di un giudeo?",
+     "10",
+     "3",
+     "7"
+    ],
+    "pl": [
+     "Zachariasz 8: Ilu mężczyzn chwyci Żyda za szatę?",
+     "10",
+     "3",
+     "7"
+    ],
+    "ru": [
+     "Захария 8: Сколько мужей схватятся за полу одежды иудея?",
+     "10",
+     "3",
+     "7"
+    ],
+    "tr": [
+     "Zekeriya 8: Kaç adam bir Yahudi'nin giysisine yapışacak?",
+     "10",
+     "3",
+     "7"
+    ],
+    "ja": [
+     "ゼカリヤ書8章：何人の男がユダヤ人の裾をつかみますか？",
+     "10",
+     "3",
+     "7"
+    ],
+    "ko": [
+     "즈카르야서 8장: 몇 명의 남자가 유다인의 옷자락을 붙잡겠습니까?",
+     "10",
+     "3",
+     "7"
+    ],
+    "ar": [
+     "زكريا 8: كم رجلًا يتمسكون بثوب يهودي؟",
+     "10",
+     "3",
+     "7"
+    ]
+   }
+  },
+  {
+   "id": "ch-zechariah-001-37",
+   "book": "zechariah",
+   "chapter": 8,
+   "difficulty": "medium",
+   "ref": "Zechariah 8:4",
+   "text": {
+    "en": [
+     "Zechariah 8: Old people sit in Jerusalem's squares holding what?",
+     "Staff",
+     "Sword",
+     "Scroll"
+    ],
+    "es": [
+     "Zacarías 8: ¿Qué sostienen en la mano los ancianos sentados en las plazas?",
+     "Bastón",
+     "Espada",
+     "Rollo"
+    ],
+    "pt": [
+     "Zacarias 8: O que seguram os idosos sentados nas praças de Jerusalém?",
+     "Bastão",
+     "Espada",
+     "Rolo"
+    ],
+    "fr": [
+     "Zacharie 8 : Que tiennent en main les vieillards assis sur les places ?",
+     "Bâton",
+     "Épée",
+     "Rouleau"
+    ],
+    "de": [
+     "Sacharja 8: Was halten die Alten auf Jerusalems Plätzen in der Hand?",
+     "Stock",
+     "Schwert",
+     "Schriftrolle"
+    ],
+    "it": [
+     "Zaccaria 8: Che cosa tengono in mano gli anziani sulle piazze?",
+     "Bastone",
+     "Spada",
+     "Rotolo"
+    ],
+    "pl": [
+     "Zachariasz 8: Co trzymają w ręku starcy na placach Jerozolimy?",
+     "Laskę",
+     "Miecz",
+     "Zwój"
+    ],
+    "ru": [
+     "Захария 8: Что держат в руках старцы на площадях Иерусалима?",
+     "Посох",
+     "Меч",
+     "Свиток"
+    ],
+    "tr": [
+     "Zekeriya 8: Yeruşalim meydanlarındaki yaşlılar ellerinde ne tutar?",
+     "Asa",
+     "Kılıç",
+     "Tomar"
+    ],
+    "ja": [
+     "ゼカリヤ書8章：エルサレムの広場の老人たちは手に何を持っていますか？",
+     "杖",
+     "剣",
+     "巻物"
+    ],
+    "ko": [
+     "즈카르야서 8장: 예루살렘 광장의 노인들은 손에 무엇을 쥐고 있습니까?",
+     "지팡이",
+     "칼",
+     "두루마리"
+    ],
+    "ar": [
+     "زكريا 8: ماذا يحمل الشيوخ في ساحات أورشليم؟",
+     "عصا",
+     "سيف",
+     "درج"
+    ]
+   }
+  },
+  {
+   "id": "ch-zechariah-001-38",
+   "book": "zechariah",
+   "chapter": 8,
+   "difficulty": "hard",
+   "ref": "Zechariah 8:19",
+   "text": {
+    "en": [
+     "Zechariah 8: How many fasts will the Lord turn into joyful feasts?",
+     "4",
+     "2",
+     "6"
+    ],
+    "es": [
+     "Zacarías 8: ¿Cuántos ayunos convertirá el Señor en alegres fiestas?",
+     "4",
+     "2",
+     "6"
+    ],
+    "pt": [
+     "Zacarias 8: Quantos jejuns o Senhor transformará em festas alegres?",
+     "4",
+     "2",
+     "6"
+    ],
+    "fr": [
+     "Zacharie 8 : Combien de jeûnes le Seigneur changera-t-il en fêtes joyeuses ?",
+     "4",
+     "2",
+     "6"
+    ],
+    "de": [
+     "Sacharja 8: Wie viele Fastenzeiten verwandelt der Herr in frohe Feste?",
+     "4",
+     "2",
+     "6"
+    ],
+    "it": [
+     "Zaccaria 8: Quanti digiuni il Signore cambierà in feste gioiose?",
+     "4",
+     "2",
+     "6"
+    ],
+    "pl": [
+     "Zachariasz 8: Ile postów Pan zamieni w radosne święta?",
+     "4",
+     "2",
+     "6"
+    ],
+    "ru": [
+     "Захария 8: Сколько постов Господь превратит в радостные праздники?",
+     "4",
+     "2",
+     "6"
+    ],
+    "tr": [
+     "Zekeriya 8: RAB kaç orucu sevinçli bayrama çevirecek?",
+     "4",
+     "2",
+     "6"
+    ],
+    "ja": [
+     "ゼカリヤ書8章：主はいくつの断食を喜びの祝祭に変えられますか？",
+     "4",
+     "2",
+     "6"
+    ],
+    "ko": [
+     "즈카르야서 8장: 주님께서는 몇 번의 단식을 즐거운 축제로 바꾸시겠습니까?",
+     "4",
+     "2",
+     "6"
+    ],
+    "ar": [
+     "زكريا 8: كم صومًا سيحوّله الرب إلى أعياد فرح؟",
+     "4",
+     "2",
+     "6"
+    ]
+   }
+  },
+  {
+   "id": "ch-zechariah-001-39",
+   "book": "zechariah",
+   "chapter": 8,
+   "difficulty": "expert",
+   "ref": "Zechariah 8:12",
+   "text": {
+    "en": [
+     "Zechariah 8: In the promised peace, what will the heavens give?",
+     "Dew",
+     "Hail",
+     "Fire"
+    ],
+    "es": [
+     "Zacarías 8: En la paz prometida, ¿qué darán los cielos?",
+     "Rocío",
+     "Granizo",
+     "Fuego"
+    ],
+    "pt": [
+     "Zacarias 8: Na paz prometida, o que darão os céus?",
+     "Orvalho",
+     "Granizo",
+     "Fogo"
+    ],
+    "fr": [
+     "Zacharie 8 : Dans la paix promise, que donneront les cieux ?",
+     "Rosée",
+     "Grêle",
+     "Feu"
+    ],
+    "de": [
+     "Sacharja 8: Was geben die Himmel im verheißenen Frieden?",
+     "Tau",
+     "Hagel",
+     "Feuer"
+    ],
+    "it": [
+     "Zaccaria 8: Nella pace promessa, che cosa daranno i cieli?",
+     "Rugiada",
+     "Grandine",
+     "Fuoco"
+    ],
+    "pl": [
+     "Zachariasz 8: Co dadzą niebiosa w obiecanym pokoju?",
+     "Rosę",
+     "Grad",
+     "Ogień"
+    ],
+    "ru": [
+     "Захария 8: Что дадут небеса в обещанном мире?",
+     "Росу",
+     "Град",
+     "Огонь"
+    ],
+    "tr": [
+     "Zekeriya 8: Vaat edilen barışta gökler ne verecek?",
+     "Çiğ",
+     "Dolu",
+     "Ateş"
+    ],
+    "ja": [
+     "ゼカリヤ書8章：約束された平和の中で天は何を与えますか？",
+     "露",
+     "雹",
+     "火"
+    ],
+    "ko": [
+     "즈카르야서 8장: 약속된 평화 속에서 하늘은 무엇을 내립니까?",
+     "이슬",
+     "우박",
+     "불"
+    ],
+    "ar": [
+     "زكريا 8: في السلام الموعود، ماذا تعطي السماوات؟",
+     "ندى",
+     "برد",
+     "نار"
+    ]
+   }
+  },
+  {
+   "id": "ch-zechariah-001-40",
+   "book": "zechariah",
+   "chapter": 8,
+   "difficulty": "impossible",
+   "ref": "Zechariah 8:16",
+   "text": {
+    "en": [
+     "Zechariah 8: Which structures of the city must host true judgment?",
+     "Gates",
+     "Wells",
+     "Roofs"
+    ],
+    "es": [
+     "Zacarías 8: ¿Qué construcciones de la ciudad deben acoger el juicio verdadero?",
+     "Puertas",
+     "Pozos",
+     "Tejados"
+    ],
+    "pt": [
+     "Zacarias 8: Que construções da cidade devem acolher o julgamento verdadeiro?",
+     "Portas",
+     "Poços",
+     "Telhados"
+    ],
+    "fr": [
+     "Zacharie 8 : Quels éléments de la ville doivent accueillir le jugement vrai ?",
+     "Portes",
+     "Puits",
+     "Toits"
+    ],
+    "de": [
+     "Sacharja 8: Welche Bauten der Stadt sollen wahrhaftiges Recht beherbergen?",
+     "Tore",
+     "Brunnen",
+     "Dächer"
+    ],
+    "it": [
+     "Zaccaria 8: Quali strutture della città devono ospitare il giudizio vero?",
+     "Porte",
+     "Pozzi",
+     "Tetti"
+    ],
+    "pl": [
+     "Zachariasz 8: Które budowle miasta mają gościć prawdziwy sąd?",
+     "Bramy",
+     "Studnie",
+     "Dachy"
+    ],
+    "ru": [
+     "Захария 8: Какие городские сооружения должны вмещать правый суд?",
+     "Ворота",
+     "Колодцы",
+     "Крыши"
+    ],
+    "tr": [
+     "Zekeriya 8: Doğru yargının yapılacağı şehir yapıları hangileridir?",
+     "Kapılar",
+     "Kuyular",
+     "Çatılar"
+    ],
+    "ja": [
+     "ゼカリヤ書8章：町のどの場所で真実の裁きを行うべきですか？",
+     "門",
+     "井戸",
+     "屋根"
+    ],
+    "ko": [
+     "즈카르야서 8장: 도성의 어느 곳에서 참된 재판을 해야 합니까?",
+     "성문",
+     "우물",
+     "지붕"
+    ],
+    "ar": [
+     "زكريا 8: أي أماكن في المدينة يجب أن يُقضى فيها بالحق؟",
+     "أبواب",
+     "آبار",
+     "أسطح"
+    ]
+   }
+  },
+  {
+   "id": "ch-zechariah-001-41",
+   "book": "zechariah",
+   "chapter": 9,
+   "difficulty": "easy",
+   "ref": "Zechariah 9:9",
+   "text": {
+    "en": [
+     "Zechariah 9: Which animal carries Zion's king?",
+     "Donkey",
+     "Camel",
+     "Ox"
+    ],
+    "es": [
+     "Zacarías 9: ¿Qué animal lleva al rey de Sión?",
+     "Asno",
+     "Camello",
+     "Buey"
+    ],
+    "pt": [
+     "Zacarias 9: Que animal leva o rei de Sião?",
+     "Jumento",
+     "Camelo",
+     "Boi"
+    ],
+    "fr": [
+     "Zacharie 9 : Quel animal porte le roi de Sion ?",
+     "Âne",
+     "Chameau",
+     "Bœuf"
+    ],
+    "de": [
+     "Sacharja 9: Welches Tier trägt Zions König?",
+     "Esel",
+     "Kamel",
+     "Ochse"
+    ],
+    "it": [
+     "Zaccaria 9: Quale animale porta il re di Sion?",
+     "Asino",
+     "Cammello",
+     "Bue"
+    ],
+    "pl": [
+     "Zachariasz 9: Które zwierzę niesie króla Syjonu?",
+     "Osioł",
+     "Wielbłąd",
+     "Wół"
+    ],
+    "ru": [
+     "Захария 9: Какое животное несёт царя Сиона?",
+     "Осёл",
+     "Верблюд",
+     "Вол"
+    ],
+    "tr": [
+     "Zekeriya 9: Siyon'un kralını hangi hayvan taşır?",
+     "Eşek",
+     "Deve",
+     "Öküz"
+    ],
+    "ja": [
+     "ゼカリヤ書9章：シオンの王を乗せる動物は何ですか？",
+     "ロバ",
+     "ラクダ",
+     "牛"
+    ],
+    "ko": [
+     "즈카르야서 9장: 시온의 임금을 태우는 동물은 무엇입니까?",
+     "나귀",
+     "낙타",
+     "소"
+    ],
+    "ar": [
+     "زكريا 9: أي حيوان يحمل ملك صهيون؟",
+     "حمار",
+     "جمل",
+     "ثور"
+    ]
+   }
+  },
+  {
+   "id": "ch-zechariah-001-42",
+   "book": "zechariah",
+   "chapter": 9,
+   "difficulty": "medium",
+   "ref": "Zechariah 9:3",
+   "text": {
+    "en": [
+     "Zechariah 9: Which city heaped up silver like dust?",
+     "Tyre",
+     "Nineveh",
+     "Corinth"
+    ],
+    "es": [
+     "Zacarías 9: ¿Qué ciudad amontonó plata como polvo?",
+     "Tiro",
+     "Nínive",
+     "Corinto"
+    ],
+    "pt": [
+     "Zacarias 9: Que cidade amontoou prata como pó?",
+     "Tiro",
+     "Nínive",
+     "Corinto"
+    ],
+    "fr": [
+     "Zacharie 9 : Quelle ville a amassé l'argent comme la poussière ?",
+     "Tyr",
+     "Ninive",
+     "Corinthe"
+    ],
+    "de": [
+     "Sacharja 9: Welche Stadt häufte Silber wie Staub auf?",
+     "Tyrus",
+     "Ninive",
+     "Korinth"
+    ],
+    "it": [
+     "Zaccaria 9: Quale città ha ammassato argento come polvere?",
+     "Tiro",
+     "Ninive",
+     "Corinto"
+    ],
+    "pl": [
+     "Zachariasz 9: Które miasto nagromadziło srebro jak kurz?",
+     "Tyr",
+     "Niniwa",
+     "Korynt"
+    ],
+    "ru": [
+     "Захария 9: Какой город накопил серебро, как прах?",
+     "Тир",
+     "Ниневия",
+     "Коринф"
+    ],
+    "tr": [
+     "Zekeriya 9: Hangi şehir gümüşü toz gibi yığdı?",
+     "Sur",
+     "Ninova",
+     "Korint"
+    ],
+    "ja": [
+     "ゼカリヤ書9章：どの町が銀をちりのように積み上げましたか？",
+     "ティルス",
+     "ニネベ",
+     "コリント"
+    ],
+    "ko": [
+     "즈카르야서 9장: 어느 도성이 은을 먼지처럼 쌓았습니까?",
+     "티로",
+     "니네베",
+     "코린토"
+    ],
+    "ar": [
+     "زكريا 9: أي مدينة كدّست الفضة كالتراب؟",
+     "صور",
+     "نينوى",
+     "كورنثوس"
+    ]
+   }
+  },
+  {
+   "id": "ch-zechariah-001-43",
+   "book": "zechariah",
+   "chapter": 9,
+   "difficulty": "hard",
+   "ref": "Zechariah 9:13",
+   "text": {
+    "en": [
+     "Zechariah 9: Which tribe does the Lord bend like his bow?",
+     "Judah",
+     "Dan",
+     "Gad"
+    ],
+    "es": [
+     "Zacarías 9: ¿A qué tribu tensa el Señor como su arco?",
+     "Judá",
+     "Dan",
+     "Gad"
+    ],
+    "pt": [
+     "Zacarias 9: Que tribo o Senhor estende como seu arco?",
+     "Judá",
+     "Dã",
+     "Gad"
+    ],
+    "fr": [
+     "Zacharie 9 : Quelle tribu le Seigneur bande-t-il comme son arc ?",
+     "Juda",
+     "Dan",
+     "Gad"
+    ],
+    "de": [
+     "Sacharja 9: Welchen Stamm spannt der Herr wie seinen Bogen?",
+     "Juda",
+     "Dan",
+     "Gad"
+    ],
+    "it": [
+     "Zaccaria 9: Quale tribù il Signore tende come suo arco?",
+     "Giuda",
+     "Dan",
+     "Gad"
+    ],
+    "pl": [
+     "Zachariasz 9: Które pokolenie Pan napina jak swój łuk?",
+     "Juda",
+     "Dan",
+     "Gad"
+    ],
+    "ru": [
+     "Захария 9: Какое колено Господь натягивает, как свой лук?",
+     "Иуда",
+     "Дан",
+     "Гад"
+    ],
+    "tr": [
+     "Zekeriya 9: RAB hangi oymağı yayı gibi geriyor?",
+     "Yahuda",
+     "Dan",
+     "Gad"
+    ],
+    "ja": [
+     "ゼカリヤ書9章：主はどの部族を弓のように引き絞られますか？",
+     "ユダ",
+     "ダン",
+     "ガド"
+    ],
+    "ko": [
+     "즈카르야서 9장: 주님께서는 어느 지파를 당신 활처럼 당기십니까?",
+     "유다",
+     "단",
+     "갓"
+    ],
+    "ar": [
+     "زكريا 9: أي سبط يشد الرب كقوسه؟",
+     "يهوذا",
+     "دان",
+     "جاد"
+    ]
+   }
+  },
+  {
+   "id": "ch-zechariah-001-44",
+   "book": "zechariah",
+   "chapter": 9,
+   "difficulty": "expert",
+   "ref": "Zechariah 9:5",
+   "text": {
+    "en": [
+     "Zechariah 9: Which city sees and fears, as Gaza writhes?",
+     "Ashkelon",
+     "Jericho",
+     "Hebron"
+    ],
+    "es": [
+     "Zacarías 9: ¿Qué ciudad ve y teme mientras Gaza se retuerce?",
+     "Ascalón",
+     "Jericó",
+     "Hebrón"
+    ],
+    "pt": [
+     "Zacarias 9: Que cidade vê e teme enquanto Gaza se contorce?",
+     "Ascalon",
+     "Jericó",
+     "Hebron"
+    ],
+    "fr": [
+     "Zacharie 9 : Quelle ville voit et craint tandis que Gaza se tord de douleur ?",
+     "Ascalon",
+     "Jéricho",
+     "Hébron"
+    ],
+    "de": [
+     "Sacharja 9: Welche Stadt sieht und fürchtet sich, während Gaza sich windet?",
+     "Aschkelon",
+     "Jericho",
+     "Hebron"
+    ],
+    "it": [
+     "Zaccaria 9: Quale città vede e teme mentre Gaza si contorce?",
+     "Ascalona",
+     "Gerico",
+     "Ebron"
+    ],
+    "pl": [
+     "Zachariasz 9: Które miasto widzi i boi się, gdy Gaza wije się z bólu?",
+     "Aszkalon",
+     "Jerycho",
+     "Hebron"
+    ],
+    "ru": [
+     "Захария 9: Какой город видит и страшится, пока Газа мучается?",
+     "Аскалон",
+     "Иерихон",
+     "Хеврон"
+    ],
+    "tr": [
+     "Zekeriya 9: Gazze kıvranırken hangi şehir görüp korktu?",
+     "Aşkelon",
+     "Eriha",
+     "Hevron"
+    ],
+    "ja": [
+     "ゼカリヤ書9章：ガザが苦しむのを見て恐れた町はどこですか？",
+     "アシュケロン",
+     "エリコ",
+     "ヘブロン"
+    ],
+    "ko": [
+     "즈카르야서 9장: 가자가 몸부림치는 것을 보고 두려워한 도성은 어디입니까?",
+     "아스클론",
+     "예리코",
+     "헤브론"
+    ],
+    "ar": [
+     "زكريا 9: أي مدينة رأت وخافت بينما تتلوى غزة؟",
+     "أشقلون",
+     "أريحا",
+     "حبرون"
+    ]
+   }
+  },
+  {
+   "id": "ch-zechariah-001-45",
+   "book": "zechariah",
+   "chapter": 9,
+   "difficulty": "impossible",
+   "ref": "Zechariah 9:7",
+   "text": {
+    "en": [
+     "Zechariah 9: Ekron will become like which people?",
+     "Jebusites",
+     "Hittites",
+     "Amorites"
+    ],
+    "es": [
+     "Zacarías 9: ¿A qué pueblo se asemejará Ecrón?",
+     "Jebuseos",
+     "Hititas",
+     "Amorreos"
+    ],
+    "pt": [
+     "Zacarias 9: A qual povo se assemelhará Acaron?",
+     "Jebuseus",
+     "Heteus",
+     "Amorreus"
+    ],
+    "fr": [
+     "Zacharie 9 : À quel peuple Éqrone ressemblera-t-elle ?",
+     "Jébusites",
+     "Hittites",
+     "Amorites"
+    ],
+    "de": [
+     "Sacharja 9: Wie welches Volk wird Ekron werden?",
+     "Jebusiter",
+     "Hetiter",
+     "Amoriter"
+    ],
+    "it": [
+     "Zaccaria 9: A quale popolo diventerà simile Ekron?",
+     "Gebusei",
+     "Ittiti",
+     "Amorrei"
+    ],
+    "pl": [
+     "Zachariasz 9: Do którego ludu upodobni się Ekron?",
+     "Jebusytów",
+     "Chetytów",
+     "Amorytów"
+    ],
+    "ru": [
+     "Захария 9: На какой народ станет похож Аккарон?",
+     "Иевусеев",
+     "Хеттеев",
+     "Аморреев"
+    ],
+    "tr": [
+     "Zekeriya 9: Ekron hangi halk gibi olacak?",
+     "Yevuslular",
+     "Hititler",
+     "Amorlular"
+    ],
+    "ja": [
+     "ゼカリヤ書9章：エクロンはどの民のようになりますか？",
+     "エブス人",
+     "ヘト人",
+     "アモリ人"
+    ],
+    "ko": [
+     "즈카르야서 9장: 에크론은 어느 민족처럼 됩니까?",
+     "여부스족",
+     "히타이트족",
+     "아모리족"
+    ],
+    "ar": [
+     "زكريا 9: عقرون ستصير مثل أي شعب؟",
+     "يبوسيون",
+     "حثيون",
+     "أموريون"
+    ]
+   }
+  },
+  {
+   "id": "ch-zechariah-001-46",
+   "book": "zechariah",
+   "chapter": 10,
+   "difficulty": "easy",
+   "ref": "Zechariah 10:1",
+   "text": {
+    "en": [
+     "Zechariah 10: In spring, what should people ask the Lord for?",
+     "Rain",
+     "Snow",
+     "Fog"
+    ],
+    "es": [
+     "Zacarías 10: En primavera, ¿qué debe pedir el pueblo al Señor?",
+     "Lluvia",
+     "Nieve",
+     "Niebla"
+    ],
+    "pt": [
+     "Zacarias 10: Na primavera, o que o povo deve pedir ao Senhor?",
+     "Chuva",
+     "Neve",
+     "Neblina"
+    ],
+    "fr": [
+     "Zacharie 10 : Au printemps, que faut-il demander au Seigneur ?",
+     "Pluie",
+     "Neige",
+     "Brouillard"
+    ],
+    "de": [
+     "Sacharja 10: Was soll man im Frühling vom Herrn erbitten?",
+     "Regen",
+     "Schnee",
+     "Nebel"
+    ],
+    "it": [
+     "Zaccaria 10: In primavera, che cosa si deve chiedere al Signore?",
+     "Pioggia",
+     "Neve",
+     "Nebbia"
+    ],
+    "pl": [
+     "Zachariasz 10: Czego należy prosić Pana na wiosnę?",
+     "Deszczu",
+     "Śniegu",
+     "Mgły"
+    ],
+    "ru": [
+     "Захария 10: Чего просить у Господа весной?",
+     "Дождя",
+     "Снега",
+     "Тумана"
+    ],
+    "tr": [
+     "Zekeriya 10: İlkbaharda RAB'den ne istenmeli?",
+     "Yağmur",
+     "Kar",
+     "Sis"
+    ],
+    "ja": [
+     "ゼカリヤ書10章：春に主に何を求めるべきですか？",
+     "雨",
+     "雪",
+     "霧"
+    ],
+    "ko": [
+     "즈카르야서 10장: 봄에 주님께 무엇을 청해야 합니까?",
+     "비",
+     "눈",
+     "안개"
+    ],
+    "ar": [
+     "زكريا 10: في الربيع، ماذا يُطلب من الرب؟",
+     "مطر",
+     "ثلج",
+     "ضباب"
+    ]
+   }
+  },
+  {
+   "id": "ch-zechariah-001-47",
+   "book": "zechariah",
+   "chapter": 10,
+   "difficulty": "medium",
+   "ref": "Zechariah 10:3",
+   "text": {
+    "en": [
+     "Zechariah 10: Against whom did the Lord's anger burn?",
+     "Shepherds",
+     "Fishermen",
+     "Merchants"
+    ],
+    "es": [
+     "Zacarías 10: ¿Contra quiénes ardió la ira del Señor?",
+     "Pastores",
+     "Pescadores",
+     "Mercaderes"
+    ],
+    "pt": [
+     "Zacarias 10: Contra quem ardeu a ira do Senhor?",
+     "Pastores",
+     "Pescadores",
+     "Mercadores"
+    ],
+    "fr": [
+     "Zacharie 10 : Contre qui la colère du Seigneur s'enflamma-t-elle ?",
+     "Bergers",
+     "Pêcheurs",
+     "Marchands"
+    ],
+    "de": [
+     "Sacharja 10: Gegen wen entbrannte der Zorn des Herrn?",
+     "Hirten",
+     "Fischer",
+     "Händler"
+    ],
+    "it": [
+     "Zaccaria 10: Contro chi si accese l'ira del Signore?",
+     "Pastori",
+     "Pescatori",
+     "Mercanti"
+    ],
+    "pl": [
+     "Zachariasz 10: Przeciw komu zapłonął gniew Pana?",
+     "Pasterzom",
+     "Rybakom",
+     "Kupcom"
+    ],
+    "ru": [
+     "Захария 10: На кого разгорелся гнев Господа?",
+     "Пастырей",
+     "Рыбаков",
+     "Купцов"
+    ],
+    "tr": [
+     "Zekeriya 10: RAB'bin öfkesi kime karşı alevlendi?",
+     "Çobanlara",
+     "Balıkçılara",
+     "Tüccarlara"
+    ],
+    "ja": [
+     "ゼカリヤ書10章：主の怒りはだれに燃え上がりましたか？",
+     "牧者",
+     "漁師",
+     "商人"
+    ],
+    "ko": [
+     "즈카르야서 10장: 주님의 분노는 누구에게 타올랐습니까?",
+     "목자들",
+     "어부들",
+     "상인들"
+    ],
+    "ar": [
+     "زكريا 10: على من اشتعل غضب الرب؟",
+     "رعاة",
+     "صيادين",
+     "تجار"
+    ]
+   }
+  },
+  {
+   "id": "ch-zechariah-001-48",
+   "book": "zechariah",
+   "chapter": 10,
+   "difficulty": "hard",
+   "ref": "Zechariah 10:3",
+   "text": {
+    "en": [
+     "Zechariah 10: To which animal does the Lord liken Judah in battle?",
+     "Horse",
+     "Lion",
+     "Eagle"
+    ],
+    "es": [
+     "Zacarías 10: ¿A qué animal compara el Señor a Judá en la batalla?",
+     "Caballo",
+     "León",
+     "Águila"
+    ],
+    "pt": [
+     "Zacarias 10: A que animal o Senhor compara Judá na batalha?",
+     "Cavalo",
+     "Leão",
+     "Águia"
+    ],
+    "fr": [
+     "Zacharie 10 : À quel animal le Seigneur compare-t-il Juda au combat ?",
+     "Cheval",
+     "Lion",
+     "Aigle"
+    ],
+    "de": [
+     "Sacharja 10: Mit welchem Tier vergleicht der Herr Juda im Kampf?",
+     "Pferd",
+     "Löwe",
+     "Adler"
+    ],
+    "it": [
+     "Zaccaria 10: A quale animale il Signore paragona Giuda in battaglia?",
+     "Cavallo",
+     "Leone",
+     "Aquila"
+    ],
+    "pl": [
+     "Zachariasz 10: Z jakim zwierzęciem Pan porównuje Judę w boju?",
+     "Koniem",
+     "Lwem",
+     "Orłem"
+    ],
+    "ru": [
+     "Захария 10: С каким животным Господь сравнивает Иуду в битве?",
+     "Конём",
+     "Львом",
+     "Орлом"
+    ],
+    "tr": [
+     "Zekeriya 10: RAB Yahuda'yı savaşta hangi hayvana benzetir?",
+     "Ata",
+     "Aslana",
+     "Kartala"
+    ],
+    "ja": [
+     "ゼカリヤ書10章：主は戦いでユダをどの動物に例えますか？",
+     "馬",
+     "獅子",
+     "鷲"
+    ],
+    "ko": [
+     "즈카르야서 10장: 주님께서는 전투에서 유다를 어떤 동물에 비유하십니까?",
+     "말",
+     "사자",
+     "독수리"
+    ],
+    "ar": [
+     "زكريا 10: بأي حيوان يشبه الرب يهوذا في المعركة؟",
+     "فرس",
+     "أسد",
+     "نسر"
+    ]
+   }
+  },
+  {
+   "id": "ch-zechariah-001-49",
+   "book": "zechariah",
+   "chapter": 10,
+   "difficulty": "expert",
+   "ref": "Zechariah 10:11",
+   "text": {
+    "en": [
+     "Zechariah 10: Which country will have its pride brought down?",
+     "Assyria",
+     "Ammon",
+     "Edom"
+    ],
+    "es": [
+     "Zacarías 10: ¿Qué país verá humillado su orgullo?",
+     "Asiria",
+     "Amón",
+     "Edom"
+    ],
+    "pt": [
+     "Zacarias 10: Que país terá o seu orgulho humilhado?",
+     "Assíria",
+     "Amom",
+     "Edom"
+    ],
+    "fr": [
+     "Zacharie 10 : Quel pays verra son orgueil abaissé ?",
+     "Assyrie",
+     "Ammon",
+     "Édom"
+    ],
+    "de": [
+     "Sacharja 10: Welches Land wird in seinem Stolz gedemütigt?",
+     "Assur",
+     "Ammon",
+     "Edom"
+    ],
+    "it": [
+     "Zaccaria 10: Quale paese vedrà abbattuto il suo orgoglio?",
+     "Assiria",
+     "Ammon",
+     "Edom"
+    ],
+    "pl": [
+     "Zachariasz 10: Który kraj zostanie poniżony w swej dumie?",
+     "Asyria",
+     "Ammon",
+     "Edom"
+    ],
+    "ru": [
+     "Захария 10: Какая страна будет унижена в своей гордости?",
+     "Ассирия",
+     "Аммон",
+     "Едом"
+    ],
+    "tr": [
+     "Zekeriya 10: Gururu yıkılacak ülke hangisidir?",
+     "Asur",
+     "Ammon",
+     "Edom"
+    ],
+    "ja": [
+     "ゼカリヤ書10章：高ぶりが砕かれるのはどの国ですか？",
+     "アッシリア",
+     "アンモン",
+     "エドム"
+    ],
+    "ko": [
+     "즈카르야서 10장: 어느 나라의 교만이 꺾입니까?",
+     "아시리아",
+     "암몬",
+     "에돔"
+    ],
+    "ar": [
+     "زكريا 10: أي بلد ستُخفض كبرياؤه؟",
+     "آشور",
+     "عمون",
+     "أدوم"
+    ]
+   }
+  },
+  {
+   "id": "ch-zechariah-001-50",
+   "book": "zechariah",
+   "chapter": 10,
+   "difficulty": "impossible",
+   "ref": "Zechariah 10:10",
+   "text": {
+    "en": [
+     "Zechariah 10: Which region, with Gilead, will receive the returnees?",
+     "Lebanon",
+     "Carmel",
+     "Sinai"
+    ],
+    "es": [
+     "Zacarías 10: ¿Qué región, con Galaad, recibirá a los repatriados?",
+     "Líbano",
+     "Carmelo",
+     "Sinaí"
+    ],
+    "pt": [
+     "Zacarias 10: Que região, com Galaad, receberá os repatriados?",
+     "Líbano",
+     "Carmelo",
+     "Sinai"
+    ],
+    "fr": [
+     "Zacharie 10 : Quelle région, avec Galaad, accueillera les rapatriés ?",
+     "Liban",
+     "Carmel",
+     "Sinaï"
+    ],
+    "de": [
+     "Sacharja 10: Welche Region nimmt mit Gilead die Heimkehrer auf?",
+     "Libanon",
+     "Karmel",
+     "Sinai"
+    ],
+    "it": [
+     "Zaccaria 10: Quale regione, con Gàlaad, accoglierà i rimpatriati?",
+     "Libano",
+     "Carmelo",
+     "Sinai"
+    ],
+    "pl": [
+     "Zachariasz 10: Która kraina wraz z Gileadem przyjmie powracających?",
+     "Liban",
+     "Karmel",
+     "Synaj"
+    ],
+    "ru": [
+     "Захария 10: Какой край вместе с Галаадом примет возвращённых?",
+     "Ливан",
+     "Кармил",
+     "Синай"
+    ],
+    "tr": [
+     "Zekeriya 10: Gilat ile birlikte hangi bölge dönenleri kabul edecek?",
+     "Lübnan",
+     "Karmel",
+     "Sina"
+    ],
+    "ja": [
+     "ゼカリヤ書10章：ギレアドと共に帰還者を迎える地方はどこですか？",
+     "レバノン",
+     "カルメル",
+     "シナイ"
+    ],
+    "ko": [
+     "즈카르야서 10장: 길앗과 함께 귀환자들을 맞이할 지방은 어디입니까?",
+     "레바논",
+     "카르멜",
+     "시나이"
+    ],
+    "ar": [
+     "زكريا 10: أي منطقة مع جلعاد ستستقبل العائدين؟",
+     "لبنان",
+     "كرمل",
+     "سيناء"
+    ]
+   }
+  },
+  {
+   "id": "ch-zechariah-001-51",
+   "book": "zechariah",
+   "chapter": 11,
+   "difficulty": "easy",
+   "ref": "Zechariah 11:12",
+   "text": {
+    "en": [
+     "Zechariah 11: How many silver pieces were paid as the shepherd's wages?",
+     "30",
+     "20",
+     "50"
+    ],
+    "es": [
+     "Zacarías 11: ¿Cuántas monedas de plata se pagaron como salario del pastor?",
+     "30",
+     "20",
+     "50"
+    ],
+    "pt": [
+     "Zacarias 11: Quantas moedas de prata foram pagas como salário do pastor?",
+     "30",
+     "20",
+     "50"
+    ],
+    "fr": [
+     "Zacharie 11 : Combien de pièces d'argent furent versées comme salaire du berger ?",
+     "30",
+     "20",
+     "50"
+    ],
+    "de": [
+     "Sacharja 11: Wie viele Silberstücke wurden als Lohn des Hirten gezahlt?",
+     "30",
+     "20",
+     "50"
+    ],
+    "it": [
+     "Zaccaria 11: Quanti pezzi d'argento furono pagati come salario del pastore?",
+     "30",
+     "20",
+     "50"
+    ],
+    "pl": [
+     "Zachariasz 11: Ile srebrników zapłacono jako zapłatę pasterza?",
+     "30",
+     "20",
+     "50"
+    ],
+    "ru": [
+     "Захария 11: Сколько сребреников заплатили как плату пастуху?",
+     "30",
+     "20",
+     "50"
+    ],
+    "tr": [
+     "Zekeriya 11: Çobanın ücreti olarak kaç gümüş verildi?",
+     "30",
+     "20",
+     "50"
+    ],
+    "ja": [
+     "ゼカリヤ書11章：牧者の報酬として銀何枚が支払われましたか？",
+     "30",
+     "20",
+     "50"
+    ],
+    "ko": [
+     "즈카르야서 11장: 목자의 삯으로 은 몇 닢이 지불되었습니까?",
+     "30",
+     "20",
+     "50"
+    ],
+    "ar": [
+     "زكريا 11: كم قطعة فضة دُفعت أجرًا للراعي؟",
+     "30",
+     "20",
+     "50"
+    ]
+   }
+  },
+  {
+   "id": "ch-zechariah-001-52",
+   "book": "zechariah",
+   "chapter": 11,
+   "difficulty": "medium",
+   "ref": "Zechariah 11:7",
+   "text": {
+    "en": [
+     "Zechariah 11: How many staffs did the shepherd take?",
+     "2",
+     "4",
+     "12"
+    ],
+    "es": [
+     "Zacarías 11: ¿Cuántos cayados tomó el pastor?",
+     "2",
+     "4",
+     "12"
+    ],
+    "pt": [
+     "Zacarias 11: Quantos cajados o pastor tomou?",
+     "2",
+     "4",
+     "12"
+    ],
+    "fr": [
+     "Zacharie 11 : Combien de houlettes le berger prit-il ?",
+     "2",
+     "4",
+     "12"
+    ],
+    "de": [
+     "Sacharja 11: Wie viele Hirtenstäbe nahm der Hirt?",
+     "2",
+     "4",
+     "12"
+    ],
+    "it": [
+     "Zaccaria 11: Quanti bastoni prese il pastore?",
+     "2",
+     "4",
+     "12"
+    ],
+    "pl": [
+     "Zachariasz 11: Ile lasek wziął pasterz?",
+     "2",
+     "4",
+     "12"
+    ],
+    "ru": [
+     "Захария 11: Сколько посохов взял пастырь?",
+     "2",
+     "4",
+     "12"
+    ],
+    "tr": [
+     "Zekeriya 11: Çoban kaç asa aldı?",
+     "2",
+     "4",
+     "12"
+    ],
+    "ja": [
+     "ゼカリヤ書11章：牧者は杖を何本取りましたか？",
+     "2",
+     "4",
+     "12"
+    ],
+    "ko": [
+     "즈카르야서 11장: 목자는 지팡이를 몇 개 잡았습니까?",
+     "2",
+     "4",
+     "12"
+    ],
+    "ar": [
+     "زكريا 11: كم عصا أخذ الراعي؟",
+     "2",
+     "4",
+     "12"
+    ]
+   }
+  },
+  {
+   "id": "ch-zechariah-001-53",
+   "book": "zechariah",
+   "chapter": 11,
+   "difficulty": "hard",
+   "ref": "Zechariah 11:1-2",
+   "text": {
+    "en": [
+     "Zechariah 11: Which trees of Lebanon will fire devour?",
+     "Cedars",
+     "Palms",
+     "Willows"
+    ],
+    "es": [
+     "Zacarías 11: ¿Qué árboles del Líbano devorará el fuego?",
+     "Cedros",
+     "Palmeras",
+     "Sauces"
+    ],
+    "pt": [
+     "Zacarias 11: Que árvores do Líbano o fogo devorará?",
+     "Cedros",
+     "Palmeiras",
+     "Salgueiros"
+    ],
+    "fr": [
+     "Zacharie 11 : Quels arbres du Liban le feu dévorera-t-il ?",
+     "Cèdres",
+     "Palmiers",
+     "Saules"
+    ],
+    "de": [
+     "Sacharja 11: Welche Bäume des Libanon frisst das Feuer?",
+     "Zedern",
+     "Palmen",
+     "Weiden"
+    ],
+    "it": [
+     "Zaccaria 11: Quali alberi del Libano divorerà il fuoco?",
+     "Cedri",
+     "Palme",
+     "Salici"
+    ],
+    "pl": [
+     "Zachariasz 11: Jakie drzewa Libanu pochłonie ogień?",
+     "Cedry",
+     "Palmy",
+     "Wierzby"
+    ],
+    "ru": [
+     "Захария 11: Какие деревья Ливана пожрёт огонь?",
+     "Кедры",
+     "Пальмы",
+     "Ивы"
+    ],
+    "tr": [
+     "Zekeriya 11: Ateş Lübnan'ın hangi ağaçlarını yutacak?",
+     "Sedirler",
+     "Palmiyeler",
+     "Söğütler"
+    ],
+    "ja": [
+     "ゼカリヤ書11章：火はレバノンのどの木を焼き尽くしますか？",
+     "杉",
+     "ナツメヤシ",
+     "柳"
+    ],
+    "ko": [
+     "즈카르야서 11장: 불은 레바논의 어떤 나무를 삼킵니까?",
+     "향백나무",
+     "야자나무",
+     "버드나무"
+    ],
+    "ar": [
+     "زكريا 11: أي أشجار لبنان ستأكلها النار؟",
+     "أرز",
+     "نخيل",
+     "صفصاف"
+    ]
+   }
+  },
+  {
+   "id": "ch-zechariah-001-54",
+   "book": "zechariah",
+   "chapter": 11,
+   "difficulty": "expert",
+   "ref": "Zechariah 11:8",
+   "text": {
+    "en": [
+     "Zechariah 11: How many shepherds did the Lord dismiss in one month?",
+     "3",
+     "5",
+     "7"
+    ],
+    "es": [
+     "Zacarías 11: ¿Cuántos pastores despidió el Señor en un solo mes?",
+     "3",
+     "5",
+     "7"
+    ],
+    "pt": [
+     "Zacarias 11: Quantos pastores o Senhor eliminou num só mês?",
+     "3",
+     "5",
+     "7"
+    ],
+    "fr": [
+     "Zacharie 11 : Combien de bergers le Seigneur supprima-t-il en un mois ?",
+     "3",
+     "5",
+     "7"
+    ],
+    "de": [
+     "Sacharja 11: Wie viele Hirten entließ der Herr in einem Monat?",
+     "3",
+     "5",
+     "7"
+    ],
+    "it": [
+     "Zaccaria 11: Quanti pastori eliminò il Signore in un solo mese?",
+     "3",
+     "5",
+     "7"
+    ],
+    "pl": [
+     "Zachariasz 11: Ilu pasterzy odprawił Pan w jednym miesiącu?",
+     "3",
+     "5",
+     "7"
+    ],
+    "ru": [
+     "Захария 11: Скольких пастырей Господь отверг в один месяц?",
+     "3",
+     "5",
+     "7"
+    ],
+    "tr": [
+     "Zekeriya 11: RAB bir ayda kaç çobanı görevden aldı?",
+     "3",
+     "5",
+     "7"
+    ],
+    "ja": [
+     "ゼカリヤ書11章：主は一か月に何人の牧者を退けましたか？",
+     "3",
+     "5",
+     "7"
+    ],
+    "ko": [
+     "즈카르야서 11장: 주님께서는 한 달에 목자를 몇 명 쫓아내셨습니까?",
+     "3",
+     "5",
+     "7"
+    ],
+    "ar": [
+     "زكريا 11: كم راعيًا عزل الرب في شهر واحد؟",
+     "3",
+     "5",
+     "7"
+    ]
+   }
+  },
+  {
+   "id": "ch-zechariah-001-55",
+   "book": "zechariah",
+   "chapter": 11,
+   "difficulty": "impossible",
+   "ref": "Zechariah 11:2",
+   "text": {
+    "en": [
+     "Zechariah 11: Which region has oaks told to wail?",
+     "Bashan",
+     "Sharon",
+     "Hermon"
+    ],
+    "es": [
+     "Zacarías 11: ¿Qué región tiene encinas a las que se manda gemir?",
+     "Basán",
+     "Sarón",
+     "Hermón"
+    ],
+    "pt": [
+     "Zacarias 11: Que região tem carvalhos aos quais se manda gemer?",
+     "Basã",
+     "Sarom",
+     "Hermon"
+    ],
+    "fr": [
+     "Zacharie 11 : Quelle région a des chênes à qui l'on dit de gémir ?",
+     "Basan",
+     "Saron",
+     "Hermon"
+    ],
+    "de": [
+     "Sacharja 11: Welche Region hat Eichen, die klagen sollen?",
+     "Baschan",
+     "Scharon",
+     "Hermon"
+    ],
+    "it": [
+     "Zaccaria 11: Quale regione ha querce a cui si dice di lamentarsi?",
+     "Basan",
+     "Saron",
+     "Ermon"
+    ],
+    "pl": [
+     "Zachariasz 11: Która kraina ma dęby, którym kazano lamentować?",
+     "Baszan",
+     "Szaron",
+     "Hermon"
+    ],
+    "ru": [
+     "Захария 11: Какая область имеет дубы, которым велено рыдать?",
+     "Васан",
+     "Сарон",
+     "Ермон"
+    ],
+    "tr": [
+     "Zekeriya 11: Meşeleri ağlamaya çağrılan bölge neresidir?",
+     "Başan",
+     "Şaron",
+     "Hermon"
+    ],
+    "ja": [
+     "ゼカリヤ書11章：樫の木に嘆けと命じられた地方はどこですか？",
+     "バシャン",
+     "シャロン",
+     "ヘルモン"
+    ],
+    "ko": [
+     "즈카르야서 11장: 상수리나무에게 통곡하라고 한 지방은 어디입니까?",
+     "바산",
+     "사론",
+     "헤르몬"
+    ],
+    "ar": [
+     "زكريا 11: أي منطقة طُلب من بلوطها أن يولول؟",
+     "باشان",
+     "شارون",
+     "حرمون"
+    ]
+   }
+  },
+  {
+   "id": "ch-zechariah-001-56",
+   "book": "zechariah",
+   "chapter": 12,
+   "difficulty": "easy",
+   "ref": "Zechariah 12:3",
+   "text": {
+    "en": [
+     "Zechariah 12: Which heavy object will Jerusalem be for the nations?",
+     "Stone",
+     "Anchor",
+     "Chain"
+    ],
+    "es": [
+     "Zacarías 12: ¿Qué objeto pesado será Jerusalén para las naciones?",
+     "Piedra",
+     "Ancla",
+     "Cadena"
+    ],
+    "pt": [
+     "Zacarias 12: Que objeto pesado será Jerusalém para as nações?",
+     "Pedra",
+     "Âncora",
+     "Corrente"
+    ],
+    "fr": [
+     "Zacharie 12 : Quel objet lourd Jérusalem sera-t-elle pour les nations ?",
+     "Pierre",
+     "Ancre",
+     "Chaîne"
+    ],
+    "de": [
+     "Sacharja 12: Welcher schwere Gegenstand wird Jerusalem für die Völker?",
+     "Stein",
+     "Anker",
+     "Kette"
+    ],
+    "it": [
+     "Zaccaria 12: Quale oggetto pesante sarà Gerusalemme per le nazioni?",
+     "Pietra",
+     "Àncora",
+     "Catena"
+    ],
+    "pl": [
+     "Zachariasz 12: Jakim ciężkim przedmiotem będzie Jerozolima dla narodów?",
+     "Kamieniem",
+     "Kotwicą",
+     "Łańcuchem"
+    ],
+    "ru": [
+     "Захария 12: Каким тяжёлым предметом станет Иерусалим для народов?",
+     "Камнем",
+     "Якорем",
+     "Цепью"
+    ],
+    "tr": [
+     "Zekeriya 12: Yeruşalim uluslar için hangi ağır nesne olacak?",
+     "Taş",
+     "Çapa",
+     "Zincir"
+    ],
+    "ja": [
+     "ゼカリヤ書12章：エルサレムは諸国民にとって何の重い物になりますか？",
+     "石",
+     "錨",
+     "鎖"
+    ],
+    "ko": [
+     "즈카르야서 12장: 예루살렘은 모든 민족에게 어떤 무거운 물건이 됩니까?",
+     "돌",
+     "닻",
+     "사슬"
+    ],
+    "ar": [
+     "زكريا 12: أي شيء ثقيل ستكون أورشليم للأمم؟",
+     "حجر",
+     "مرساة",
+     "سلسلة"
+    ]
+   }
+  },
+  {
+   "id": "ch-zechariah-001-57",
+   "book": "zechariah",
+   "chapter": 12,
+   "difficulty": "medium",
+   "ref": "Zechariah 12:8",
+   "text": {
+    "en": [
+     "Zechariah 12: The feeblest in Jerusalem will be like which king?",
+     "David",
+     "Saul",
+     "Solomon"
+    ],
+    "es": [
+     "Zacarías 12: ¿A qué rey se parecerá el más débil de Jerusalén?",
+     "David",
+     "Saúl",
+     "Salomón"
+    ],
+    "pt": [
+     "Zacarias 12: A que rei se assemelhará o mais fraco de Jerusalém?",
+     "Davi",
+     "Saul",
+     "Salomão"
+    ],
+    "fr": [
+     "Zacharie 12 : À quel roi le plus faible de Jérusalem ressemblera-t-il ?",
+     "David",
+     "Saül",
+     "Salomon"
+    ],
+    "de": [
+     "Sacharja 12: Welchem König gleicht der Schwächste in Jerusalem?",
+     "David",
+     "Saul",
+     "Salomo"
+    ],
+    "it": [
+     "Zaccaria 12: A quale re somiglierà il più debole di Gerusalemme?",
+     "Davide",
+     "Saul",
+     "Salomone"
+    ],
+    "pl": [
+     "Zachariasz 12: Któremu królowi dorówna najsłabszy w Jerozolimie?",
+     "Dawidowi",
+     "Saulowi",
+     "Salomonowi"
+    ],
+    "ru": [
+     "Захария 12: Какому царю уподобится слабейший в Иерусалиме?",
+     "Давиду",
+     "Саулу",
+     "Соломону"
+    ],
+    "tr": [
+     "Zekeriya 12: Yeruşalim'in en zayıfı hangi kral kadar güçlü olacak?",
+     "Davut",
+     "Saul",
+     "Süleyman"
+    ],
+    "ja": [
+     "ゼカリヤ書12章：エルサレムの最も弱い者はどの王のようになりますか？",
+     "ダビデ",
+     "サウル",
+     "ソロモン"
+    ],
+    "ko": [
+     "즈카르야서 12장: 예루살렘에서 가장 약한 이는 어느 임금과 같게 됩니까?",
+     "다윗",
+     "사울",
+     "솔로몬"
+    ],
+    "ar": [
+     "زكريا 12: أضعف أهل أورشليم سيصير مثل أي ملك؟",
+     "داود",
+     "شاول",
+     "سليمان"
+    ]
+   }
+  },
+  {
+   "id": "ch-zechariah-001-58",
+   "book": "zechariah",
+   "chapter": 12,
+   "difficulty": "hard",
+   "ref": "Zechariah 12:11",
+   "text": {
+    "en": [
+     "Zechariah 12: Which town gave its name to the plain of mourning?",
+     "Megiddo",
+     "Gilgal",
+     "Dothan"
+    ],
+    "es": [
+     "Zacarías 12: ¿Qué localidad da nombre a la llanura del duelo?",
+     "Meguido",
+     "Guilgal",
+     "Dotán"
+    ],
+    "pt": [
+     "Zacarias 12: Que localidade dá nome à planície do luto?",
+     "Meguido",
+     "Guilgal",
+     "Dotã"
+    ],
+    "fr": [
+     "Zacharie 12 : Quelle localité donne son nom à la plaine du deuil ?",
+     "Meguiddo",
+     "Guilgal",
+     "Dotân"
+    ],
+    "de": [
+     "Sacharja 12: Welche Stadt gibt der Ebene der Trauer ihren Namen?",
+     "Megiddo",
+     "Gilgal",
+     "Dotan"
+    ],
+    "it": [
+     "Zaccaria 12: Quale località dà il nome alla pianura del lutto?",
+     "Meghiddo",
+     "Gàlgala",
+     "Dotan"
+    ],
+    "pl": [
+     "Zachariasz 12: Które miasto nadało nazwę równinie żałoby?",
+     "Megiddo",
+     "Gilgal",
+     "Dotan"
+    ],
+    "ru": [
+     "Захария 12: Какой город дал название равнине плача?",
+     "Мегиддон",
+     "Галгал",
+     "Дофаим"
+    ],
+    "tr": [
+     "Zekeriya 12: Yas ovasına adını hangi kasaba verdi?",
+     "Megido",
+     "Gilgal",
+     "Dotan"
+    ],
+    "ja": [
+     "ゼカリヤ書12章：嘆きの平野に名を与えた町はどこですか？",
+     "メギド",
+     "ギルガル",
+     "ドタン"
+    ],
+    "ko": [
+     "즈카르야서 12장: 통곡의 들판에 이름을 준 성읍은 어디입니까?",
+     "므기또",
+     "길갈",
+     "도탄"
+    ],
+    "ar": [
+     "زكريا 12: أي بلدة سُمّي بها سهل النوح؟",
+     "مجدو",
+     "جلجال",
+     "دوثان"
+    ]
+   }
+  },
+  {
+   "id": "ch-zechariah-001-59",
+   "book": "zechariah",
+   "chapter": 12,
+   "difficulty": "expert",
+   "ref": "Zechariah 12:7",
+   "text": {
+    "en": [
+     "Zechariah 12: Which tribe will be saved first?",
+     "Judah",
+     "Simeon",
+     "Reuben"
+    ],
+    "es": [
+     "Zacarías 12: ¿Qué tribu será salvada primero?",
+     "Judá",
+     "Simeón",
+     "Rubén"
+    ],
+    "pt": [
+     "Zacarias 12: Que tribo será salva primeiro?",
+     "Judá",
+     "Simeão",
+     "Rúben"
+    ],
+    "fr": [
+     "Zacharie 12 : Quelle tribu sera sauvée la première ?",
+     "Juda",
+     "Siméon",
+     "Ruben"
+    ],
+    "de": [
+     "Sacharja 12: Welcher Stamm wird zuerst gerettet?",
+     "Juda",
+     "Simeon",
+     "Ruben"
+    ],
+    "it": [
+     "Zaccaria 12: Quale tribù sarà salvata per prima?",
+     "Giuda",
+     "Simeone",
+     "Ruben"
+    ],
+    "pl": [
+     "Zachariasz 12: Które pokolenie zostanie ocalone najpierw?",
+     "Juda",
+     "Symeon",
+     "Ruben"
+    ],
+    "ru": [
+     "Захария 12: Какое колено будет спасено первым?",
+     "Иуда",
+     "Симеон",
+     "Рувим"
+    ],
+    "tr": [
+     "Zekeriya 12: İlk hangi oymak kurtarılacak?",
+     "Yahuda",
+     "Şimon",
+     "Ruben"
+    ],
+    "ja": [
+     "ゼカリヤ書12章：最初に救われる部族はどれですか？",
+     "ユダ",
+     "シメオン",
+     "ルベン"
+    ],
+    "ko": [
+     "즈카르야서 12장: 가장 먼저 구원받는 지파는 어느 지파입니까?",
+     "유다",
+     "시메온",
+     "르우벤"
+    ],
+    "ar": [
+     "زكريا 12: أي سبط سيُخلَّص أولًا؟",
+     "يهوذا",
+     "شمعون",
+     "رأوبين"
+    ]
+   }
+  },
+  {
+   "id": "ch-zechariah-001-60",
+   "book": "zechariah",
+   "chapter": 12,
+   "difficulty": "impossible",
+   "ref": "Zechariah 12:13",
+   "text": {
+    "en": [
+     "Zechariah 12: Which tribe mourns apart, beside the royal family?",
+     "Levi",
+     "Asher",
+     "Zebulun"
+    ],
+    "es": [
+     "Zacarías 12: ¿Qué tribu hace duelo aparte, junto a la familia real?",
+     "Leví",
+     "Aser",
+     "Zabulón"
+    ],
+    "pt": [
+     "Zacarias 12: Que tribo faz luto à parte, junto à família real?",
+     "Levi",
+     "Aser",
+     "Zabulon"
+    ],
+    "fr": [
+     "Zacharie 12 : Quelle tribu fait son deuil à part, avec la famille royale ?",
+     "Lévi",
+     "Asher",
+     "Zabulon"
+    ],
+    "de": [
+     "Sacharja 12: Welcher Stamm trauert für sich, neben der Königsfamilie?",
+     "Levi",
+     "Ascher",
+     "Sebulon"
+    ],
+    "it": [
+     "Zaccaria 12: Quale tribù fa lutto a parte, accanto alla famiglia reale?",
+     "Levi",
+     "Aser",
+     "Zàbulon"
+    ],
+    "pl": [
+     "Zachariasz 12: Które pokolenie lamentuje osobno obok rodziny królewskiej?",
+     "Lewi",
+     "Aszer",
+     "Zabulon"
+    ],
+    "ru": [
+     "Захария 12: Какое колено оплакивает отдельно, рядом с царской семьёй?",
+     "Левий",
+     "Асир",
+     "Завулон"
+    ],
+    "tr": [
+     "Zekeriya 12: Kraliyet ailesinin yanında hangi oymak ayrı yas tutar?",
+     "Levi",
+     "Aşer",
+     "Zevulun"
+    ],
+    "ja": [
+     "ゼカリヤ書12章：王家のそばで別に嘆く部族はどれですか？",
+     "レビ",
+     "アシェル",
+     "ゼブルン"
+    ],
+    "ko": [
+     "즈카르야서 12장: 왕가 곁에서 따로 통곡하는 지파는 어느 지파입니까?",
+     "레위",
+     "아세르",
+     "즈불룬"
+    ],
+    "ar": [
+     "زكريا 12: أي سبط ينوح على حدة بجانب العائلة المالكة؟",
+     "لاوي",
+     "أشير",
+     "زبولون"
+    ]
+   }
+  },
+  {
+   "id": "ch-zechariah-001-61",
+   "book": "zechariah",
+   "chapter": 13,
+   "difficulty": "easy",
+   "ref": "Zechariah 13:7",
+   "text": {
+    "en": [
+     "Zechariah 13: Which animals scatter when the shepherd is struck?",
+     "Sheep",
+     "Goats",
+     "Oxen"
+    ],
+    "es": [
+     "Zacarías 13: ¿Qué animales se dispersan cuando hieren al pastor?",
+     "Ovejas",
+     "Cabras",
+     "Bueyes"
+    ],
+    "pt": [
+     "Zacarias 13: Que animais se dispersam quando o pastor é ferido?",
+     "Ovelhas",
+     "Cabras",
+     "Bois"
+    ],
+    "fr": [
+     "Zacharie 13 : Quels animaux se dispersent quand le berger est frappé ?",
+     "Brebis",
+     "Chèvres",
+     "Bœufs"
+    ],
+    "de": [
+     "Sacharja 13: Welche Tiere zerstreuen sich, wenn der Hirt erschlagen wird?",
+     "Schafe",
+     "Ziegen",
+     "Ochsen"
+    ],
+    "it": [
+     "Zaccaria 13: Quali animali si disperdono quando il pastore è percosso?",
+     "Pecore",
+     "Capre",
+     "Buoi"
+    ],
+    "pl": [
+     "Zachariasz 13: Które zwierzęta się rozpraszają, gdy uderzą pasterza?",
+     "Owce",
+     "Kozy",
+     "Woły"
+    ],
+    "ru": [
+     "Захария 13: Какие животные рассеиваются, когда поражён пастух?",
+     "Овцы",
+     "Козы",
+     "Волы"
+    ],
+    "tr": [
+     "Zekeriya 13: Çoban vurulunca hangi hayvanlar dağılır?",
+     "Koyunlar",
+     "Keçiler",
+     "Öküzler"
+    ],
+    "ja": [
+     "ゼカリヤ書13章：牧者が打たれると散らされる動物は何ですか？",
+     "羊",
+     "山羊",
+     "牛"
+    ],
+    "ko": [
+     "즈카르야서 13장: 목자가 맞으면 흩어지는 동물은 무엇입니까?",
+     "양",
+     "염소",
+     "소"
+    ],
+    "ar": [
+     "زكريا 13: أي حيوانات تتشتت عند ضرب الراعي؟",
+     "غنم",
+     "ماعز",
+     "ثيران"
+    ]
+   }
+  },
+  {
+   "id": "ch-zechariah-001-62",
+   "book": "zechariah",
+   "chapter": 13,
+   "difficulty": "medium",
+   "ref": "Zechariah 13:1",
+   "text": {
+    "en": [
+     "Zechariah 13: What will be opened to cleanse sin and impurity?",
+     "Fountain",
+     "Door",
+     "Bridge"
+    ],
+    "es": [
+     "Zacarías 13: ¿Qué se abrirá para limpiar el pecado y la impureza?",
+     "Fuente",
+     "Puerta",
+     "Puente"
+    ],
+    "pt": [
+     "Zacarias 13: O que se abrirá para limpar o pecado e a impureza?",
+     "Fonte",
+     "Porta",
+     "Ponte"
+    ],
+    "fr": [
+     "Zacharie 13 : Qu'est-ce qui s'ouvrira pour laver le péché et l'impureté ?",
+     "Source",
+     "Porte",
+     "Pont"
+    ],
+    "de": [
+     "Sacharja 13: Was wird geöffnet, um Sünde und Unreinheit abzuwaschen?",
+     "Quelle",
+     "Tür",
+     "Brücke"
+    ],
+    "it": [
+     "Zaccaria 13: Che cosa si aprirà per lavare peccato e impurità?",
+     "Fonte",
+     "Porta",
+     "Ponte"
+    ],
+    "pl": [
+     "Zachariasz 13: Co zostanie otwarte dla obmycia grzechu i nieczystości?",
+     "Źródło",
+     "Drzwi",
+     "Most"
+    ],
+    "ru": [
+     "Захария 13: Что откроется для очищения от греха и нечистоты?",
+     "Источник",
+     "Дверь",
+     "Мост"
+    ],
+    "tr": [
+     "Zekeriya 13: Günah ve kirliliği temizlemek için ne açılacak?",
+     "Pınar",
+     "Kapı",
+     "Köprü"
+    ],
+    "ja": [
+     "ゼカリヤ書13章：罪と汚れを清めるために開かれるものは何ですか？",
+     "泉",
+     "扉",
+     "橋"
+    ],
+    "ko": [
+     "즈카르야서 13장: 죄와 부정을 씻기 위해 열리는 것은 무엇입니까?",
+     "샘",
+     "문",
+     "다리"
+    ],
+    "ar": [
+     "زكريا 13: ما الذي سيُفتح لتطهير الخطيئة والنجاسة؟",
+     "ينبوع",
+     "باب",
+     "جسر"
+    ]
+   }
+  },
+  {
+   "id": "ch-zechariah-001-63",
+   "book": "zechariah",
+   "chapter": 13,
+   "difficulty": "hard",
+   "ref": "Zechariah 13:9",
+   "text": {
+    "en": [
+     "Zechariah 13: Which metal will the Lord refine his people like?",
+     "Silver",
+     "Iron",
+     "Tin"
+    ],
+    "es": [
+     "Zacarías 13: ¿Con qué metal refinará el Señor a su pueblo?",
+     "Plata",
+     "Hierro",
+     "Estaño"
+    ],
+    "pt": [
+     "Zacarias 13: Como que metal o Senhor refinará o seu povo?",
+     "Prata",
+     "Ferro",
+     "Estanho"
+    ],
+    "fr": [
+     "Zacharie 13 : Comme quel métal le Seigneur affinera-t-il son peuple ?",
+     "Argent",
+     "Fer",
+     "Étain"
+    ],
+    "de": [
+     "Sacharja 13: Welches Metall dient als Bild dafür, wie der Herr sein Volk läutert?",
+     "Silber",
+     "Eisen",
+     "Zinn"
+    ],
+    "it": [
+     "Zaccaria 13: Come quale metallo il Signore raffinerà il suo popolo?",
+     "Argento",
+     "Ferro",
+     "Stagno"
+    ],
+    "pl": [
+     "Zachariasz 13: Który metal jest obrazem tego, jak Pan oczyści swój lud?",
+     "Srebro",
+     "Żelazo",
+     "Cyna"
+    ],
+    "ru": [
+     "Захария 13: Какой металл очищают так, как Господь очистит свой народ?",
+     "Серебро",
+     "Железо",
+     "Олово"
+    ],
+    "tr": [
+     "Zekeriya 13: RAB halkını hangi maden gibi arıtacak?",
+     "Gümüş",
+     "Demir",
+     "Kalay"
+    ],
+    "ja": [
+     "ゼカリヤ書13章：主は民を何の金属のように精錬されますか？",
+     "銀",
+     "鉄",
+     "錫"
+    ],
+    "ko": [
+     "즈카르야서 13장: 주님께서는 당신 백성을 어떤 금속처럼 정련하십니까?",
+     "은",
+     "철",
+     "주석"
+    ],
+    "ar": [
+     "زكريا 13: كأي معدن سيصفّي الرب شعبه؟",
+     "فضة",
+     "حديد",
+     "قصدير"
+    ]
+   }
+  },
+  {
+   "id": "ch-zechariah-001-64",
+   "book": "zechariah",
+   "chapter": 13,
+   "difficulty": "expert",
+   "ref": "Zechariah 13:8",
+   "text": {
+    "en": [
+     "Zechariah 13: The land splits in three; how many parts perish?",
+     "2",
+     "1",
+     "3"
+    ],
+    "es": [
+     "Zacarías 13: El país se divide en tres; ¿cuántas partes perecen?",
+     "2",
+     "1",
+     "3"
+    ],
+    "pt": [
+     "Zacarias 13: O país divide-se em três; quantas partes perecem?",
+     "2",
+     "1",
+     "3"
+    ],
+    "fr": [
+     "Zacharie 13 : Le pays se divise en trois ; combien de parts périssent ?",
+     "2",
+     "1",
+     "3"
+    ],
+    "de": [
+     "Sacharja 13: Das Land teilt sich in drei; wie viele Teile kommen um?",
+     "2",
+     "1",
+     "3"
+    ],
+    "it": [
+     "Zaccaria 13: Il paese si divide in tre; quante parti periscono?",
+     "2",
+     "1",
+     "3"
+    ],
+    "pl": [
+     "Zachariasz 13: Kraj dzieli się na trzy; ile części ginie?",
+     "2",
+     "1",
+     "3"
+    ],
+    "ru": [
+     "Захария 13: Страна делится на три части; сколько из них погибнет?",
+     "2",
+     "1",
+     "3"
+    ],
+    "tr": [
+     "Zekeriya 13: Ülke üçe bölünür; kaç bölüm yok olur?",
+     "2",
+     "1",
+     "3"
+    ],
+    "ja": [
+     "ゼカリヤ書13章：地は三つに分かれ、いくつが滅びますか？",
+     "2",
+     "1",
+     "3"
+    ],
+    "ko": [
+     "즈카르야서 13장: 땅은 셋으로 나뉘는데 몇 몫이 멸망합니까?",
+     "2",
+     "1",
+     "3"
+    ],
+    "ar": [
+     "زكريا 13: تنقسم الأرض إلى ثلاثة؛ كم جزءًا يهلك؟",
+     "2",
+     "1",
+     "3"
+    ]
+   }
+  },
+  {
+   "id": "ch-zechariah-001-65",
+   "book": "zechariah",
+   "chapter": 13,
+   "difficulty": "impossible",
+   "ref": "Zechariah 13:5",
+   "text": {
+    "en": [
+     "Zechariah 13: What occupation does the ashamed false prophet claim?",
+     "Farmer",
+     "Priest",
+     "Soldier"
+    ],
+    "es": [
+     "Zacarías 13: ¿Qué oficio afirma tener el falso profeta avergonzado?",
+     "Agricultor",
+     "Sacerdote",
+     "Soldado"
+    ],
+    "pt": [
+     "Zacarias 13: Que ofício afirma ter o falso profeta envergonhado?",
+     "Agricultor",
+     "Sacerdote",
+     "Soldado"
+    ],
+    "fr": [
+     "Zacharie 13 : Quel métier le faux prophète honteux prétend-il avoir ?",
+     "Cultivateur",
+     "Prêtre",
+     "Soldat"
+    ],
+    "de": [
+     "Sacharja 13: Welchen Beruf behauptet der beschämte falsche Prophet zu haben?",
+     "Bauer",
+     "Priester",
+     "Soldat"
+    ],
+    "it": [
+     "Zaccaria 13: Quale mestiere afferma di avere il falso profeta vergognoso?",
+     "Contadino",
+     "Sacerdote",
+     "Soldato"
+    ],
+    "pl": [
+     "Zachariasz 13: Jaki zawód podaje zawstydzony fałszywy prorok?",
+     "Rolnik",
+     "Kapłan",
+     "Żołnierz"
+    ],
+    "ru": [
+     "Захария 13: Какое занятие называет пристыженный лжепророк?",
+     "Земледелец",
+     "Священник",
+     "Воин"
+    ],
+    "tr": [
+     "Zekeriya 13: Utanan sahte peygamber hangi mesleği iddia eder?",
+     "Çiftçi",
+     "Kâhin",
+     "Asker"
+    ],
+    "ja": [
+     "ゼカリヤ書13章：恥じた偽預言者はどんな職業を名乗りますか？",
+     "農夫",
+     "祭司",
+     "兵士"
+    ],
+    "ko": [
+     "즈카르야서 13장: 부끄러워하는 거짓 예언자는 어떤 직업을 말합니까?",
+     "농부",
+     "사제",
+     "군인"
+    ],
+    "ar": [
+     "زكريا 13: أي مهنة يدّعيها النبي الكاذب الخجِل؟",
+     "فلاح",
+     "كاهن",
+     "جندي"
+    ]
+   }
+  },
+  {
+   "id": "ch-zechariah-001-66",
+   "book": "zechariah",
+   "chapter": 14,
+   "difficulty": "easy",
+   "ref": "Zechariah 14:4",
+   "text": {
+    "en": [
+     "Zechariah 14: Which tree names the mountain east of Jerusalem that splits?",
+     "Olive",
+     "Palm",
+     "Cedar"
+    ],
+    "es": [
+     "Zacarías 14: ¿Qué árbol da nombre al monte que se parte al este de Jerusalén?",
+     "Olivo",
+     "Palmera",
+     "Cedro"
+    ],
+    "pt": [
+     "Zacarias 14: Que árvore dá nome ao monte a leste de Jerusalém que se fende?",
+     "Oliveira",
+     "Palmeira",
+     "Cedro"
+    ],
+    "fr": [
+     "Zacharie 14 : Quel arbre donne son nom à la montagne qui se fend à l'est de Jérusalem ?",
+     "Olivier",
+     "Palmier",
+     "Cèdre"
+    ],
+    "de": [
+     "Sacharja 14: Nach welchem Baum heißt der Berg östlich von Jerusalem, der sich spaltet?",
+     "Ölbaum",
+     "Palme",
+     "Zeder"
+    ],
+    "it": [
+     "Zaccaria 14: Quale albero dà il nome al monte a est di Gerusalemme che si spacca?",
+     "Ulivo",
+     "Palma",
+     "Cedro"
+    ],
+    "pl": [
+     "Zachariasz 14: Które drzewo dało nazwę górze na wschód od Jerozolimy, która pęka?",
+     "Oliwka",
+     "Palma",
+     "Cedr"
+    ],
+    "ru": [
+     "Захария 14: Какое дерево дало название горе к востоку от Иерусалима, что раскалывается?",
+     "Маслина",
+     "Пальма",
+     "Кедр"
+    ],
+    "tr": [
+     "Zekeriya 14: Yeruşalim'in doğusunda yarılan dağa adını hangi ağaç verdi?",
+     "Zeytin",
+     "Palmiye",
+     "Sedir"
+    ],
+    "ja": [
+     "ゼカリヤ書14章：エルサレムの東で裂ける山は何の木にちなんで名付けられましたか？",
+     "オリーブ",
+     "ナツメヤシ",
+     "杉"
+    ],
+    "ko": [
+     "즈카르야서 14장: 예루살렘 동쪽에서 갈라지는 산은 어떤 나무의 이름을 땄습니까?",
+     "올리브나무",
+     "야자나무",
+     "향백나무"
+    ],
+    "ar": [
+     "زكريا 14: على اسم أي شجرة سُمّي الجبل شرقي أورشليم الذي ينشق؟",
+     "زيتون",
+     "نخيل",
+     "أرز"
+    ]
+   }
+  },
+  {
+   "id": "ch-zechariah-001-67",
+   "book": "zechariah",
+   "chapter": 14,
+   "difficulty": "medium",
+   "ref": "Zechariah 14:20",
+   "text": {
+    "en": [
+     "Zechariah 14: Which animals carry bells inscribed \"Holy to the Lord\"?",
+     "Horses",
+     "Sheep",
+     "Dogs"
+    ],
+    "es": [
+     "Zacarías 14: ¿En los cascabeles de qué animales aparecerá «Consagrado al Señor»?",
+     "Caballos",
+     "Ovejas",
+     "Perros"
+    ],
+    "pt": [
+     "Zacarias 14: Nos guizos de que animais aparecerá «Consagrado ao Senhor»?",
+     "Cavalos",
+     "Ovelhas",
+     "Cães"
+    ],
+    "fr": [
+     "Zacharie 14 : Sur les clochettes de quels animaux paraîtra « Sacré au Seigneur » ?",
+     "Chevaux",
+     "Brebis",
+     "Chiens"
+    ],
+    "de": [
+     "Sacharja 14: Auf den Glocken welcher Tiere steht „Heilig dem Herrn“?",
+     "Pferde",
+     "Schafe",
+     "Hunde"
+    ],
+    "it": [
+     "Zaccaria 14: Sui sonagli di quali animali comparirà «Sacro al Signore»?",
+     "Cavalli",
+     "Pecore",
+     "Cani"
+    ],
+    "pl": [
+     "Zachariasz 14: Które zwierzęta noszą dzwonki z napisem „Poświęcone Panu”?",
+     "Konie",
+     "Owce",
+     "Psy"
+    ],
+    "ru": [
+     "Захария 14: Какие животные носят бубенцы с надписью «Святыня Господу»?",
+     "Кони",
+     "Овцы",
+     "Псы"
+    ],
+    "tr": [
+     "Zekeriya 14: Hangi hayvanlar «RAB'be adanmıştır» yazılı çan taşıyacak?",
+     "Atlar",
+     "Koyunlar",
+     "Köpekler"
+    ],
+    "ja": [
+     "ゼカリヤ書14章：「主に聖なるもの」と記される鈴は、どの動物のものですか？",
+     "馬",
+     "羊",
+     "犬"
+    ],
+    "ko": [
+     "즈카르야서 14장: 방울에 “주님께 거룩함”이 새겨지는 동물은 무엇입니까?",
+     "말",
+     "양",
+     "개"
+    ],
+    "ar": [
+     "زكريا 14: أي حيوانات تحمل أجراسها عبارة «قدس للرب»؟",
+     "خيل",
+     "غنم",
+     "كلاب"
+    ]
+   }
+  },
+  {
+   "id": "ch-zechariah-001-68",
+   "book": "zechariah",
+   "chapter": 14,
+   "difficulty": "hard",
+   "ref": "Zechariah 14:8",
+   "text": {
+    "en": [
+     "Zechariah 14: Living waters flow in summer and which other season?",
+     "Winter",
+     "Spring",
+     "Autumn"
+    ],
+    "es": [
+     "Zacarías 14: ¿En verano y en qué otra estación fluyen las aguas vivas?",
+     "Invierno",
+     "Primavera",
+     "Otoño"
+    ],
+    "pt": [
+     "Zacarias 14: No verão e em que outra estação correm as águas vivas?",
+     "Inverno",
+     "Primavera",
+     "Outono"
+    ],
+    "fr": [
+     "Zacharie 14 : En été et en quelle autre saison coulent les eaux vives ?",
+     "Hiver",
+     "Printemps",
+     "Automne"
+    ],
+    "de": [
+     "Sacharja 14: Im Sommer und in welcher anderen Jahreszeit fließt lebendiges Wasser?",
+     "Winter",
+     "Frühling",
+     "Herbst"
+    ],
+    "it": [
+     "Zaccaria 14: In estate e in quale altra stagione scorrono le acque vive?",
+     "Inverno",
+     "Primavera",
+     "Autunno"
+    ],
+    "pl": [
+     "Zachariasz 14: Kiedy, oprócz lata, płyną żywe wody?",
+     "Zimą",
+     "Wiosną",
+     "Jesienią"
+    ],
+    "ru": [
+     "Захария 14: Когда, кроме лета, текут живые воды?",
+     "Зимой",
+     "Весной",
+     "Осенью"
+    ],
+    "tr": [
+     "Zekeriya 14: Yaşayan sular yazın ve hangi başka mevsimde akar?",
+     "Kışın",
+     "İlkbaharda",
+     "Sonbaharda"
+    ],
+    "ja": [
+     "ゼカリヤ書14章：生ける水は夏と、あと何の季節に流れますか？",
+     "冬",
+     "春",
+     "秋"
+    ],
+    "ko": [
+     "즈카르야서 14장: 생수는 여름과 또 어느 계절에 흐릅니까?",
+     "겨울",
+     "봄",
+     "가을"
+    ],
+    "ar": [
+     "زكريا 14: في الصيف وفي أي فصل آخر تجري المياه الحية؟",
+     "شتاء",
+     "ربيع",
+     "خريف"
+    ]
+   }
+  },
+  {
+   "id": "ch-zechariah-001-69",
+   "book": "zechariah",
+   "chapter": 14,
+   "difficulty": "expert",
+   "ref": "Zechariah 14:5",
+   "text": {
+    "en": [
+     "Zechariah 14: Which king of Judah reigned during the earthquake?",
+     "Uzziah",
+     "Hezekiah",
+     "Josiah"
+    ],
+    "es": [
+     "Zacarías 14: ¿Qué rey de Judá reinaba durante el terremoto?",
+     "Ozías",
+     "Ezequías",
+     "Josías"
+    ],
+    "pt": [
+     "Zacarias 14: Que rei de Judá reinava durante o terremoto?",
+     "Ozias",
+     "Ezequias",
+     "Josias"
+    ],
+    "fr": [
+     "Zacharie 14 : Quel roi de Juda régnait lors du tremblement de terre ?",
+     "Ozias",
+     "Ézéchias",
+     "Josias"
+    ],
+    "de": [
+     "Sacharja 14: Welcher König von Juda regierte zur Zeit des Erdbebens?",
+     "Usija",
+     "Hiskija",
+     "Joschija"
+    ],
+    "it": [
+     "Zaccaria 14: Quale re di Giuda regnava al tempo del terremoto?",
+     "Ozia",
+     "Ezechia",
+     "Giosia"
+    ],
+    "pl": [
+     "Zachariasz 14: Który król Judy panował w czasie trzęsienia ziemi?",
+     "Ozjasz",
+     "Ezechiasz",
+     "Jozjasz"
+    ],
+    "ru": [
+     "Захария 14: Какой царь Иудеи царствовал во время землетрясения?",
+     "Озия",
+     "Езекия",
+     "Иосия"
+    ],
+    "tr": [
+     "Zekeriya 14: Deprem sırasında Yahuda'da hangi kral hüküm sürüyordu?",
+     "Uzziya",
+     "Hizkiya",
+     "Yoşiya"
+    ],
+    "ja": [
+     "ゼカリヤ書14章：地震の時、ユダを治めていた王はだれですか？",
+     "ウジヤ",
+     "ヒゼキヤ",
+     "ヨシヤ"
+    ],
+    "ko": [
+     "즈카르야서 14장: 지진 때 유다를 다스리던 임금은 누구입니까?",
+     "우찌야",
+     "히즈키야",
+     "요시야"
+    ],
+    "ar": [
+     "زكريا 14: أي ملك على يهوذا حكم وقت الزلزال؟",
+     "عزيا",
+     "حزقيا",
+     "يوشيا"
+    ]
+   }
+  },
+  {
+   "id": "ch-zechariah-001-70",
+   "book": "zechariah",
+   "chapter": 14,
+   "difficulty": "impossible",
+   "ref": "Zechariah 14:15",
+   "text": {
+    "en": [
+     "Zechariah 14: Which animal suffers the plague with mules and donkeys?",
+     "Camels",
+     "Lions",
+     "Dogs"
+    ],
+    "es": [
+     "Zacarías 14: ¿Qué animal sufre la plaga junto con mulos y asnos?",
+     "Camellos",
+     "Leones",
+     "Perros"
+    ],
+    "pt": [
+     "Zacarias 14: Que animal sofre a praga junto com mulas e jumentos?",
+     "Camelos",
+     "Leões",
+     "Cães"
+    ],
+    "fr": [
+     "Zacharie 14 : Quel animal subit le fléau avec mulets et ânes ?",
+     "Chameaux",
+     "Lions",
+     "Chiens"
+    ],
+    "de": [
+     "Sacharja 14: Welches Tier erleidet die Plage mit Maultieren und Eseln?",
+     "Kamele",
+     "Löwen",
+     "Hunde"
+    ],
+    "it": [
+     "Zaccaria 14: Quale animale subisce la piaga con muli e asini?",
+     "Cammelli",
+     "Leoni",
+     "Cani"
+    ],
+    "pl": [
+     "Zachariasz 14: Które zwierzęta cierpią od plagi razem z mułami i osłami?",
+     "Wielbłądy",
+     "Lwy",
+     "Psy"
+    ],
+    "ru": [
+     "Захария 14: Какие животные страдают от поражения вместе с мулами и ослами?",
+     "Верблюды",
+     "Львы",
+     "Псы"
+    ],
+    "tr": [
+     "Zekeriya 14: Hangi hayvanlar katırlar ve eşeklerle birlikte vebadan etkilenir?",
+     "Develer",
+     "Aslanlar",
+     "Köpekler"
+    ],
+    "ja": [
+     "ゼカリヤ書14章：疫病はラバ、ロバと共に、どの動物を襲いますか？",
+     "ラクダ",
+     "獅子",
+     "犬"
+    ],
+    "ko": [
+     "즈카르야서 14장: 재앙은 노새, 나귀와 함께 어떤 동물을 덮칩니까?",
+     "낙타",
+     "사자",
+     "개"
+    ],
+    "ar": [
+     "زكريا 14: أي حيوان يصيبه الوباء مع البغال والحمير؟",
+     "جمال",
+     "أسود",
+     "كلاب"
+    ]
+   }
+  }
+ ]
+}
