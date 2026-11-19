@@ -1,0 +1,4864 @@
+{
+ "questions": [
+  {
+   "id": "ch-luke-001-01",
+   "book": "luke",
+   "chapter": 1,
+   "difficulty": "easy",
+   "ref": "Luke 1:46-47",
+   "text": {
+    "en": [
+     "In Luke 1, who sang the Magnificat, praising God her Savior?",
+     "Mary",
+     "Elizabeth",
+     "Martha"
+    ],
+    "es": [
+     "Lucas 1: ¿Quién entonó el Magníficat, alabando a Dios su Salvador?",
+     "María",
+     "Isabel",
+     "Marta"
+    ],
+    "pt": [
+     "Em Lucas 1, quem cantou o Magnificat, louvando a Deus seu Salvador?",
+     "Maria",
+     "Isabel",
+     "Marta"
+    ],
+    "fr": [
+     "Dans Luc 1, qui chanta le Magnificat, louant Dieu son Sauveur ?",
+     "Marie",
+     "Élisabeth",
+     "Marthe"
+    ],
+    "de": [
+     "Lukas 1: Wer sang das Magnifikat und pries Gott, ihren Retter?",
+     "Maria",
+     "Elisabet",
+     "Marta"
+    ],
+    "it": [
+     "In Luca 1, chi cantò il Magnificat, lodando Dio suo salvatore?",
+     "Maria",
+     "Elisabetta",
+     "Marta"
+    ],
+    "pl": [
+     "W Ewangelii Łukasza 1: Kto wyśpiewał Magnificat, wielbiąc Boga, swego Zbawcę?",
+     "Maryja",
+     "Elżbieta",
+     "Marta"
+    ],
+    "ru": [
+     "В Евангелии от Луки 1: Кто воспел Магнификат, славя Бога, Спасителя своего?",
+     "Мария",
+     "Елисавета",
+     "Марфа"
+    ],
+    "tr": [
+     "Luka 1'de, Tanrı Kurtarıcısını öven Magnificat'ı kim söyledi?",
+     "Meryem",
+     "Elizabet",
+     "Marta"
+    ],
+    "ja": [
+     "ルカ1章で、神である救い主をたたえる「マグニフィカト」を歌ったのは誰ですか？",
+     "マリア",
+     "エリサベト",
+     "マルタ"
+    ],
+    "ko": [
+     "루카 1장에서 하느님 구원자를 찬양하며 '마니피캇'을 노래한 사람은 누구입니까?",
+     "마리아",
+     "엘리사벳",
+     "마르타"
+    ],
+    "ar": [
+     "في لوقا 1، من أنشدت «تعظم نفسي الرب» مسبّحة الله مخلصها؟",
+     "مريم",
+     "أليصابات",
+     "مرثا"
+    ]
+   }
+  },
+  {
+   "id": "ch-luke-001-02",
+   "book": "luke",
+   "chapter": 1,
+   "difficulty": "medium",
+   "ref": "Luke 1:9",
+   "text": {
+    "en": [
+     "In Luke 1, what did the priest Zechariah burn in the Lord's sanctuary?",
+     "Incense",
+     "Grain",
+     "Wood"
+    ],
+    "es": [
+     "Lucas 1: ¿Qué quemó el sacerdote Zacarías en el santuario del Señor?",
+     "Incienso",
+     "Cereal",
+     "Leña"
+    ],
+    "pt": [
+     "Em Lucas 1, o que o sacerdote Zacarias queimou no santuário do Senhor?",
+     "Incenso",
+     "Cereal",
+     "Lenha"
+    ],
+    "fr": [
+     "Dans Luc 1, que brûla le prêtre Zacharie dans le sanctuaire du Seigneur ?",
+     "Encens",
+     "Céréales",
+     "Bois"
+    ],
+    "de": [
+     "Lukas 1: Was verbrannte der Priester Zacharias im Heiligtum des Herrn?",
+     "Weihrauch",
+     "Getreide",
+     "Holz"
+    ],
+    "it": [
+     "In Luca 1, che cosa bruciò il sacerdote Zaccaria nel tempio del Signore?",
+     "Incenso",
+     "Grano",
+     "Legna"
+    ],
+    "pl": [
+     "W Ewangelii Łukasza 1: Co palił kapłan Zachariasz w przybytku Pańskim?",
+     "Kadzidło",
+     "Zboże",
+     "Drewno"
+    ],
+    "ru": [
+     "В Евангелии от Луки 1: Что воскурял священник Захария в святилище Господнем?",
+     "Фимиам",
+     "Зерно",
+     "Дрова"
+    ],
+    "tr": [
+     "Luka 1'de, Rahip Zekeriya Rab'bin tapınağında ne yaktı?",
+     "Buhur",
+     "Tahıl",
+     "Odun"
+    ],
+    "ja": [
+     "ルカ1章で、祭司ザカリアは主の聖所で何を焚きましたか？",
+     "香",
+     "穀物",
+     "薪"
+    ],
+    "ko": [
+     "루카 1장에서 사제 즈카르야는 주님의 성소에서 무엇을 태웠습니까?",
+     "향",
+     "곡식",
+     "장작"
+    ],
+    "ar": [
+     "في لوقا 1، ماذا أحرق الكاهن زكريا في هيكل الرب؟",
+     "بخور",
+     "حبوب",
+     "حطب"
+    ]
+   }
+  },
+  {
+   "id": "ch-luke-001-03",
+   "book": "luke",
+   "chapter": 1,
+   "difficulty": "hard",
+   "ref": "Luke 1:15",
+   "text": {
+    "en": [
+     "In Luke 1, which drink did Gabriel say John would never drink?",
+     "Wine",
+     "Water",
+     "Milk"
+    ],
+    "es": [
+     "Lucas 1: ¿Qué bebida dijo Gabriel que Juan nunca bebería?",
+     "Vino",
+     "Agua",
+     "Leche"
+    ],
+    "pt": [
+     "Em Lucas 1, que bebida disse Gabriel que João nunca beberia?",
+     "Vinho",
+     "Água",
+     "Leite"
+    ],
+    "fr": [
+     "Dans Luc 1, quelle boisson Gabriel dit-il que Jean ne boirait jamais ?",
+     "Vin",
+     "Eau",
+     "Lait"
+    ],
+    "de": [
+     "Lukas 1: Welches Getränk würde Johannes nach Gabriel nie trinken?",
+     "Wein",
+     "Wasser",
+     "Milch"
+    ],
+    "it": [
+     "In Luca 1, quale bevanda, disse Gabriele, Giovanni non avrebbe mai bevuto?",
+     "Vino",
+     "Acqua",
+     "Latte"
+    ],
+    "pl": [
+     "W Ewangelii Łukasza 1: Który napój, według zapowiedzi Gabriela, miał być dla Jana zakazany?",
+     "Wino",
+     "Woda",
+     "Mleko"
+    ],
+    "ru": [
+     "В Евангелии от Луки 1: Какой напиток, по слову Гавриила, был запрещён Иоанну?",
+     "Вино",
+     "Вода",
+     "Молоко"
+    ],
+    "tr": [
+     "Luka 1'de, Cebrail'e göre Yahya hangi içeceği asla içmeyecekti?",
+     "Şarap",
+     "Su",
+     "Süt"
+    ],
+    "ja": [
+     "ルカ1章で、ガブリエルによると、ヨハネが決して飲まない飲み物は何ですか？",
+     "ぶどう酒",
+     "水",
+     "牛乳"
+    ],
+    "ko": [
+     "루카 1장에서 가브리엘에 따르면 요한이 결코 마시지 않을 음료는 무엇입니까?",
+     "포도주",
+     "물",
+     "우유"
+    ],
+    "ar": [
+     "في لوقا 1، أي شراب قال جبرائيل إن يوحنا لن يشربه أبدا؟",
+     "خمر",
+     "ماء",
+     "لبن"
+    ]
+   }
+  },
+  {
+   "id": "ch-luke-001-04",
+   "book": "luke",
+   "chapter": 1,
+   "difficulty": "expert",
+   "ref": "Luke 1:72-73",
+   "text": {
+    "en": [
+     "In Luke 1, which patriarch received God's oath, according to Zechariah's canticle?",
+     "Abraham",
+     "Isaac",
+     "Noah"
+    ],
+    "es": [
+     "Lucas 1: ¿Qué patriarca recibió el juramento de Dios, según el cántico de Zacarías?",
+     "Abraham",
+     "Isaac",
+     "Noé"
+    ],
+    "pt": [
+     "Em Lucas 1, qual patriarca recebeu o juramento de Deus, segundo o cântico de Zacarias?",
+     "Abraão",
+     "Isaac",
+     "Noé"
+    ],
+    "fr": [
+     "Dans Luc 1, quel patriarche reçut le serment de Dieu, selon le cantique de Zacharie ?",
+     "Abraham",
+     "Isaac",
+     "Noé"
+    ],
+    "de": [
+     "Lukas 1: Welcher Erzvater empfing laut dem Lobgesang des Zacharias Gottes Eid?",
+     "Abraham",
+     "Isaak",
+     "Noach"
+    ],
+    "it": [
+     "In Luca 1, quale patriarca ricevette il giuramento di Dio, secondo il cantico di Zaccaria?",
+     "Abramo",
+     "Isacco",
+     "Noè"
+    ],
+    "pl": [
+     "W Ewangelii Łukasza 1: Który patriarcha otrzymał przysięgę Boga według pieśni Zachariasza?",
+     "Abraham",
+     "Izaak",
+     "Noe"
+    ],
+    "ru": [
+     "В Евангелии от Луки 1: Какой патриарх, согласно песне Захарии, получил клятву Бога?",
+     "Авраам",
+     "Исаак",
+     "Ной"
+    ],
+    "tr": [
+     "Luka 1'de, Zekeriya'nın ilahisine göre Tanrı'nın andını alan ata kimdi?",
+     "İbrahim",
+     "İshak",
+     "Nuh"
+    ],
+    "ja": [
+     "ルカ1章で、ザカリアの賛歌によると、神の誓いを受けた族長は誰ですか？",
+     "アブラハム",
+     "イサク",
+     "ノア"
+    ],
+    "ko": [
+     "루카 1장에서 즈카르야의 노래에 따르면 하느님의 맹세를 받은 조상은 누구입니까?",
+     "아브라함",
+     "이사악",
+     "노아"
+    ],
+    "ar": [
+     "في لوقا 1، أي بطريرك نال قسم الله بحسب نشيد زكريا؟",
+     "إبراهيم",
+     "إسحاق",
+     "نوح"
+    ]
+   }
+  },
+  {
+   "id": "ch-luke-001-05",
+   "book": "luke",
+   "chapter": 1,
+   "difficulty": "impossible",
+   "ref": "Luke 1:24",
+   "text": {
+    "en": [
+     "In Luke 1, for how many months did Elizabeth hide herself after conceiving?",
+     "5",
+     "3",
+     "9"
+    ],
+    "es": [
+     "Lucas 1: ¿Durante cuántos meses se ocultó Isabel tras concebir?",
+     "5",
+     "3",
+     "9"
+    ],
+    "pt": [
+     "Em Lucas 1, por quantos meses Isabel se escondeu depois de conceber?",
+     "5",
+     "3",
+     "9"
+    ],
+    "fr": [
+     "Dans Luc 1, pendant combien de mois Élisabeth se tint-elle cachée après avoir conçu ?",
+     "5",
+     "3",
+     "9"
+    ],
+    "de": [
+     "Lukas 1: Wie viele Monate hielt sich Elisabet nach der Empfängnis verborgen?",
+     "5",
+     "3",
+     "9"
+    ],
+    "it": [
+     "In Luca 1, per quanti mesi Elisabetta si tenne nascosta dopo aver concepito?",
+     "5",
+     "3",
+     "9"
+    ],
+    "pl": [
+     "W Ewangelii Łukasza 1: Przez ile miesięcy Elżbieta ukrywała się po poczęciu?",
+     "5",
+     "3",
+     "9"
+    ],
+    "ru": [
+     "В Евангелии от Луки 1: Сколько месяцев скрывалась Елисавета после зачатия?",
+     "5",
+     "3",
+     "9"
+    ],
+    "tr": [
+     "Luka 1'de, Elizabet gebe kaldıktan sonra kaç ay gizlendi?",
+     "5",
+     "3",
+     "9"
+    ],
+    "ja": [
+     "ルカ1章で、エリサベトは身ごもってから何か月間身を隠しましたか？",
+     "5",
+     "3",
+     "9"
+    ],
+    "ko": [
+     "루카 1장에서 엘리사벳은 임신한 뒤 몇 달 동안 숨어 지냈습니까?",
+     "5",
+     "3",
+     "9"
+    ],
+    "ar": [
+     "في لوقا 1، كم شهرا اختبأت أليصابات بعد أن حبلت؟",
+     "5",
+     "3",
+     "9"
+    ]
+   }
+  },
+  {
+   "id": "ch-luke-001-06",
+   "book": "luke",
+   "chapter": 2,
+   "difficulty": "easy",
+   "ref": "Luke 2:15-16",
+   "text": {
+    "en": [
+     "In Luke 2, who hurried to find newborn Jesus after the angels' message?",
+     "Shepherds",
+     "Soldiers",
+     "Priests"
+    ],
+    "es": [
+     "Lucas 2: ¿Quiénes fueron aprisa a buscar al recién nacido Jesús tras el mensaje de los ángeles?",
+     "Pastores",
+     "Soldados",
+     "Sacerdotes"
+    ],
+    "pt": [
+     "Em Lucas 2, quem foi depressa procurar o menino Jesus depois da mensagem dos anjos?",
+     "Pastores",
+     "Soldados",
+     "Sacerdotes"
+    ],
+    "fr": [
+     "Dans Luc 2, qui se hâta de chercher Jésus nouveau-né après le message des anges ?",
+     "Bergers",
+     "Soldats",
+     "Prêtres"
+    ],
+    "de": [
+     "Lukas 2: Wer eilte nach der Botschaft der Engel zum neugeborenen Jesus?",
+     "Hirten",
+     "Soldaten",
+     "Priester"
+    ],
+    "it": [
+     "In Luca 2, chi si affrettò a cercare Gesù appena nato dopo l'annuncio degli angeli?",
+     "Pastori",
+     "Soldati",
+     "Sacerdoti"
+    ],
+    "pl": [
+     "W Ewangelii Łukasza 2: Kto pośpieszył do nowo narodzonego Jezusa po zwiastowaniu aniołów?",
+     "Pasterze",
+     "Żołnierze",
+     "Kapłani"
+    ],
+    "ru": [
+     "В Евангелии от Луки 2: Кто поспешил найти новорождённого Иисуса после вести ангелов?",
+     "Пастухи",
+     "Воины",
+     "Священники"
+    ],
+    "tr": [
+     "Luka 2'de, Meleklerin müjdesinden sonra yeni doğan İsa'yı bulmaya kim acele etti?",
+     "Çobanlar",
+     "Askerler",
+     "Rahipler"
+    ],
+    "ja": [
+     "ルカ2章で、天使の知らせの後、生まれたばかりのイエスを急いで捜しに行ったのは誰ですか？",
+     "羊飼い",
+     "兵士",
+     "祭司"
+    ],
+    "ko": [
+     "루카 2장에서 천사들의 소식을 들은 뒤 갓 태어난 예수님을 서둘러 찾아간 사람들은 누구입니까?",
+     "목자들",
+     "군인들",
+     "사제들"
+    ],
+    "ar": [
+     "في لوقا 2، من أسرع ليجد يسوع المولود بعد رسالة الملائكة؟",
+     "رعاة",
+     "جنود",
+     "كهنة"
+    ]
+   }
+  },
+  {
+   "id": "ch-luke-001-07",
+   "book": "luke",
+   "chapter": 2,
+   "difficulty": "medium",
+   "ref": "Luke 2:41",
+   "text": {
+    "en": [
+     "In Luke 2, for which yearly feast did Jesus' parents travel to Jerusalem?",
+     "Passover",
+     "Pentecost",
+     "Hanukkah"
+    ],
+    "es": [
+     "Lucas 2: ¿A qué fiesta anual iban los padres de Jesús a Jerusalén?",
+     "Pascua",
+     "Pentecostés",
+     "Janucá"
+    ],
+    "pt": [
+     "Em Lucas 2, para qual festa anual os pais de Jesus iam a Jerusalém?",
+     "Páscoa",
+     "Pentecostes",
+     "Hanucá"
+    ],
+    "fr": [
+     "Dans Luc 2, pour quelle fête annuelle les parents de Jésus allaient-ils à Jérusalem ?",
+     "Pâque",
+     "Pentecôte",
+     "Hanoucca"
+    ],
+    "de": [
+     "Lukas 2: Welches jährliche Fest führte Jesu Eltern nach Jerusalem?",
+     "Pascha",
+     "Pfingsten",
+     "Chanukka"
+    ],
+    "it": [
+     "In Luca 2, a quale festa annuale i genitori di Gesù andavano a Gerusalemme?",
+     "Pasqua",
+     "Pentecoste",
+     "Hanukkah"
+    ],
+    "pl": [
+     "W Ewangelii Łukasza 2: Które coroczne święto sprowadzało rodziców Jezusa do Jerozolimy?",
+     "Pascha",
+     "Pięćdziesiątnica",
+     "Chanuka"
+    ],
+    "ru": [
+     "В Евангелии от Луки 2: Какой ежегодный праздник приводил родителей Иисуса в Иерусалим?",
+     "Пасха",
+     "Пятидесятница",
+     "Ханука"
+    ],
+    "tr": [
+     "Luka 2'de, İsa'nın ana babası her yıl Kudüs'e hangi bayram için giderdi?",
+     "Fısıh",
+     "Pentikost",
+     "Hanuka"
+    ],
+    "ja": [
+     "ルカ2章で、イエスの両親は毎年どの祭りのためにエルサレムへ行きましたか？",
+     "過越祭",
+     "五旬祭",
+     "ハヌカ"
+    ],
+    "ko": [
+     "루카 2장에서 예수님의 부모는 해마다 어느 축제를 지내러 예루살렘에 갔습니까?",
+     "파스카",
+     "오순절",
+     "하누카"
+    ],
+    "ar": [
+     "في لوقا 2، لأي عيد سنوي كان والدا يسوع يذهبان إلى أورشليم؟",
+     "الفصح",
+     "العنصرة",
+     "حانوكا"
+    ]
+   }
+  },
+  {
+   "id": "ch-luke-001-08",
+   "book": "luke",
+   "chapter": 2,
+   "difficulty": "hard",
+   "ref": "Luke 2:35",
+   "text": {
+    "en": [
+     "In Luke 2, what did Simeon say would pierce Mary's own soul?",
+     "Sword",
+     "Arrow",
+     "Spear"
+    ],
+    "es": [
+     "Lucas 2: ¿Qué dijo Simeón que traspasaría el alma de María?",
+     "Espada",
+     "Flecha",
+     "Lanza"
+    ],
+    "pt": [
+     "Em Lucas 2, o que Simeão disse que transpassaria a alma de Maria?",
+     "Espada",
+     "Flecha",
+     "Lança"
+    ],
+    "fr": [
+     "Dans Luc 2, que, dit Syméon, transpercerait l'âme de Marie ?",
+     "Épée",
+     "Flèche",
+     "Lance"
+    ],
+    "de": [
+     "Lukas 2: Was würde nach Simeon Marias Seele durchbohren?",
+     "Schwert",
+     "Pfeil",
+     "Speer"
+    ],
+    "it": [
+     "In Luca 2, che cosa, disse Simeone, avrebbe trafitto l'anima di Maria?",
+     "Spada",
+     "Freccia",
+     "Lancia"
+    ],
+    "pl": [
+     "W Ewangelii Łukasza 2: Co według Symeona przeniknie duszę Maryi?",
+     "Miecz",
+     "Strzała",
+     "Włócznia"
+    ],
+    "ru": [
+     "В Евангелии от Луки 2: Что, по словам Симеона, пройдёт через душу Марии?",
+     "Меч",
+     "Стрела",
+     "Копьё"
+    ],
+    "tr": [
+     "Luka 2'de, Simeon'a göre Meryem'in canını ne delip geçecekti?",
+     "Kılıç",
+     "Ok",
+     "Mızrak"
+    ],
+    "ja": [
+     "ルカ2章で、シメオンによると、マリアの心を刺し貫くものは何ですか？",
+     "剣",
+     "矢",
+     "槍"
+    ],
+    "ko": [
+     "루카 2장에서 시메온에 따르면 마리아의 영혼을 꿰찌를 것은 무엇입니까?",
+     "칼",
+     "화살",
+     "창"
+    ],
+    "ar": [
+     "في لوقا 2، ماذا قال سمعان إنه سيجوز في نفس مريم؟",
+     "سيف",
+     "سهم",
+     "رمح"
+    ]
+   }
+  },
+  {
+   "id": "ch-luke-001-09",
+   "book": "luke",
+   "chapter": 2,
+   "difficulty": "expert",
+   "ref": "Luke 2:4",
+   "text": {
+    "en": [
+     "In Luke 2, which region did Joseph leave to go to Judea?",
+     "Galilee",
+     "Samaria",
+     "Phoenicia"
+    ],
+    "es": [
+     "Lucas 2: ¿De qué región subió José a Judea para el censo?",
+     "Galilea",
+     "Samaría",
+     "Fenicia"
+    ],
+    "pt": [
+     "Em Lucas 2, de que região José subiu à Judeia para o recenseamento?",
+     "Galileia",
+     "Samaria",
+     "Fenícia"
+    ],
+    "fr": [
+     "Dans Luc 2, de quelle région Joseph monta-t-il en Judée pour le recensement ?",
+     "Galilée",
+     "Samarie",
+     "Phénicie"
+    ],
+    "de": [
+     "Lukas 2: Aus welcher Landschaft zog Josef zur Volkszählung nach Judäa?",
+     "Galiläa",
+     "Samarien",
+     "Phönizien"
+    ],
+    "it": [
+     "In Luca 2, da quale regione Giuseppe salì in Giudea per il censimento?",
+     "Galilea",
+     "Samaria",
+     "Fenicia"
+    ],
+    "pl": [
+     "W Ewangelii Łukasza 2: Jaka kraina była punktem wyjścia podróży Józefa do Judei na spis ludności?",
+     "Galilea",
+     "Samaria",
+     "Fenicja"
+    ],
+    "ru": [
+     "В Евангелии от Луки 2: Какая область была отправной точкой пути Иосифа в Иудею на перепись?",
+     "Галилея",
+     "Самария",
+     "Финикия"
+    ],
+    "tr": [
+     "Luka 2'de, Yusuf'un nüfus sayımı için Yahudiye'ye yola çıktığı bölge neresiydi?",
+     "Celile",
+     "Samiriye",
+     "Fenike"
+    ],
+    "ja": [
+     "ルカ2章で、ヨセフは人口調査のため、どの地方からユダヤへ上りましたか？",
+     "ガリラヤ",
+     "サマリア",
+     "フェニキア"
+    ],
+    "ko": [
+     "루카 2장에서 요셉은 호적 등록을 하려고 어느 지방에서 유다로 올라갔습니까?",
+     "갈릴래아",
+     "사마리아",
+     "페니키아"
+    ],
+    "ar": [
+     "في لوقا 2، من أي منطقة صعد يوسف إلى اليهودية للإحصاء؟",
+     "الجليل",
+     "السامرة",
+     "فينيقية"
+    ]
+   }
+  },
+  {
+   "id": "ch-luke-001-10",
+   "book": "luke",
+   "chapter": 2,
+   "difficulty": "impossible",
+   "ref": "Luke 2:24",
+   "text": {
+    "en": [
+     "In Luke 2, besides young pigeons, which birds did the law prescribe for presentation?",
+     "Turtledoves",
+     "Ravens",
+     "Sparrows"
+    ],
+    "es": [
+     "Lucas 2: Además de los pichones, ¿qué aves prescribía la ley para la presentación?",
+     "Tórtolas",
+     "Cuervos",
+     "Gorriones"
+    ],
+    "pt": [
+     "Em Lucas 2, além dos pombinhos, que aves a lei prescrevia para a apresentação?",
+     "Rolas",
+     "Corvos",
+     "Pardais"
+    ],
+    "fr": [
+     "Dans Luc 2, outre les jeunes colombes, quels oiseaux la Loi prescrivait-elle pour la présentation ?",
+     "Tourterelles",
+     "Corbeaux",
+     "Moineaux"
+    ],
+    "de": [
+     "Lukas 2: Welche Vögel schrieb das Gesetz außer jungen Tauben für die Darstellung vor?",
+     "Turteltauben",
+     "Raben",
+     "Spatzen"
+    ],
+    "it": [
+     "In Luca 2, oltre ai giovani colombi, quali uccelli prescriveva la legge per la presentazione?",
+     "Tortore",
+     "Corvi",
+     "Passeri"
+    ],
+    "pl": [
+     "W Ewangelii Łukasza 2: Jakie ptaki, oprócz młodych gołębi, nakazywało Prawo przy ofiarowaniu?",
+     "Synogarlice",
+     "Kruki",
+     "Wróble"
+    ],
+    "ru": [
+     "В Евангелии от Луки 2: Какие птицы, кроме птенцов голубиных, предписывал закон при принесении Младенца в храм?",
+     "Горлицы",
+     "Вороны",
+     "Воробьи"
+    ],
+    "tr": [
+     "Luka 2'de, güvercin yavrularının yanı sıra, Yasa'ya göre sunuş için hangi kuşlar gerekirdi?",
+     "Kumrular",
+     "Kuzgunlar",
+     "Serçeler"
+    ],
+    "ja": [
+     "ルカ2章で、家鳩の雛のほかに、律法が奉献のために定めていた鳥は何ですか？",
+     "山鳩",
+     "烏",
+     "すずめ"
+    ],
+    "ko": [
+     "루카 2장에서 어린 집비둘기 외에 율법이 봉헌을 위해 규정한 새는 무엇입니까?",
+     "산비둘기",
+     "까마귀",
+     "참새"
+    ],
+    "ar": [
+     "في لوقا 2، إضافةً إلى فرخَي الحمام، أي طيور حددتها الشريعة للتقدمة؟",
+     "يمام",
+     "غربان",
+     "عصافير"
+    ]
+   }
+  },
+  {
+   "id": "ch-luke-001-11",
+   "book": "luke",
+   "chapter": 3,
+   "difficulty": "easy",
+   "ref": "Luke 3:22",
+   "text": {
+    "en": [
+     "In Luke 3, the Spirit looked like which bird descending on Jesus?",
+     "Dove",
+     "Eagle",
+     "Raven"
+    ],
+    "es": [
+     "Lucas 3: ¿A qué ave se parecía el Espíritu al descender sobre Jesús?",
+     "Paloma",
+     "Águila",
+     "Cuervo"
+    ],
+    "pt": [
+     "Em Lucas 3, a que ave o Espírito se assemelhava ao descer sobre Jesus?",
+     "Pomba",
+     "Águia",
+     "Corvo"
+    ],
+    "fr": [
+     "Dans Luc 3, à quel oiseau ressemblait l'Esprit descendant sur Jésus ?",
+     "Colombe",
+     "Aigle",
+     "Corbeau"
+    ],
+    "de": [
+     "Lukas 3: Welcher Vogel war die Gestalt des Geistes, der auf Jesus herabkam?",
+     "Taube",
+     "Adler",
+     "Rabe"
+    ],
+    "it": [
+     "In Luca 3, a quale uccello somigliava lo Spirito scendendo su Gesù?",
+     "Colomba",
+     "Aquila",
+     "Corvo"
+    ],
+    "pl": [
+     "W Ewangelii Łukasza 3: Jaki ptak był cielesną postacią Ducha zstępującego na Jezusa?",
+     "Gołębica",
+     "Orzeł",
+     "Kruk"
+    ],
+    "ru": [
+     "В Евангелии от Луки 3: Какая птица служила телесным образом Духа, сошедшего на Иисуса?",
+     "Голубь",
+     "Орёл",
+     "Ворон"
+    ],
+    "tr": [
+     "Luka 3'te, Kutsal Ruh İsa'nın üzerine inerken hangi kuş biçimindeydi?",
+     "Güvercin",
+     "Kartal",
+     "Kuzgun"
+    ],
+    "ja": [
+     "ルカ3章で、聖霊はどの鳥のような姿でイエスの上に降りましたか？",
+     "鳩",
+     "鷲",
+     "烏"
+    ],
+    "ko": [
+     "루카 3장에서 성령은 어떤 새의 모습으로 예수님 위에 내렸습니까?",
+     "비둘기",
+     "독수리",
+     "까마귀"
+    ],
+    "ar": [
+     "في لوقا 3، بأي طائر شبه الروح القدس وهو ينزل على يسوع؟",
+     "حمامة",
+     "نسر",
+     "غراب"
+    ]
+   }
+  },
+  {
+   "id": "ch-luke-001-12",
+   "book": "luke",
+   "chapter": 3,
+   "difficulty": "medium",
+   "ref": "Luke 3:14",
+   "text": {
+    "en": [
+     "In Luke 3, which group heard John say \"be satisfied with your wages\"?",
+     "Soldiers",
+     "Priests",
+     "Farmers"
+    ],
+    "es": [
+     "Lucas 3: ¿Qué grupo oyó decir a Juan: «Contentaos con vuestra paga»?",
+     "Soldados",
+     "Sacerdotes",
+     "Agricultores"
+    ],
+    "pt": [
+     "Em Lucas 3, que grupo ouviu João dizer: «Contentai-vos com o vosso soldo»?",
+     "Soldados",
+     "Sacerdotes",
+     "Agricultores"
+    ],
+    "fr": [
+     "Dans Luc 3, quel groupe entendit Jean dire : « Contentez-vous de votre solde » ?",
+     "Soldats",
+     "Prêtres",
+     "Agriculteurs"
+    ],
+    "de": [
+     "Lukas 3: Welche Gruppe hörte Johannes sagen: „Seid zufrieden mit eurem Sold“?",
+     "Soldaten",
+     "Priester",
+     "Bauern"
+    ],
+    "it": [
+     "In Luca 3, quale gruppo sentì Giovanni dire: «Accontentatevi della vostra paga»?",
+     "Soldati",
+     "Sacerdoti",
+     "Contadini"
+    ],
+    "pl": [
+     "W Ewangelii Łukasza 3: Która grupa usłyszała od Jana: „Poprzestawajcie na swoim żołdzie”?",
+     "Żołnierze",
+     "Kapłani",
+     "Rolnicy"
+    ],
+    "ru": [
+     "В Евангелии от Луки 3: Какая группа услышала от Иоанна: «Довольствуйтесь своим жалованьем»?",
+     "Воины",
+     "Священники",
+     "Земледельцы"
+    ],
+    "tr": [
+     "Luka 3'te, Yahya'dan \"Ücretinizle yetinin\" sözünü hangi grup duydu?",
+     "Askerler",
+     "Rahipler",
+     "Çiftçiler"
+    ],
+    "ja": [
+     "ルカ3章で、ヨハネから「自分の給料で満足しなさい」と言われたのはどの集団ですか？",
+     "兵士",
+     "祭司",
+     "農夫"
+    ],
+    "ko": [
+     "루카 3장에서 요한에게서 \"너희가 받는 봉급으로 만족하여라.\" 하는 말을 들은 집단은 누구입니까?",
+     "군인들",
+     "사제들",
+     "농부들"
+    ],
+    "ar": [
+     "في لوقا 3، أي فئة سمعت يوحنا يقول: اكتفوا بأجرتكم؟",
+     "جنود",
+     "كهنة",
+     "فلاحون"
+    ]
+   }
+  },
+  {
+   "id": "ch-luke-001-13",
+   "book": "luke",
+   "chapter": 3,
+   "difficulty": "hard",
+   "ref": "Luke 3:19",
+   "text": {
+    "en": [
+     "In Luke 3, John rebuked Herod the tetrarch over which woman?",
+     "Herodias",
+     "Salome",
+     "Jezebel"
+    ],
+    "es": [
+     "Lucas 3: ¿Por causa de qué mujer reprendió Juan a Herodes el tetrarca?",
+     "Herodías",
+     "Salomé",
+     "Jezabel"
+    ],
+    "pt": [
+     "Em Lucas 3, por causa de qual mulher João repreendeu Herodes, o tetrarca?",
+     "Herodíades",
+     "Salomé",
+     "Jezabel"
+    ],
+    "fr": [
+     "Dans Luc 3, à cause de quelle femme Jean reprocha-t-il sa conduite à Hérode le tétrarque ?",
+     "Hérodiade",
+     "Salomé",
+     "Jézabel"
+    ],
+    "de": [
+     "Lukas 3: Wegen welcher Frau tadelte Johannes den Tetrarchen Herodes?",
+     "Herodias",
+     "Salome",
+     "Isebel"
+    ],
+    "it": [
+     "In Luca 3, per causa di quale donna Giovanni rimproverò Erode il tetrarca?",
+     "Erodiade",
+     "Salomè",
+     "Gezabele"
+    ],
+    "pl": [
+     "W Ewangelii Łukasza 3: Jaka kobieta stała się powodem upomnienia tetrarchy Heroda przez Jana?",
+     "Herodiada",
+     "Salome",
+     "Izebel"
+    ],
+    "ru": [
+     "В Евангелии от Луки 3: Какая женщина стала причиной обличения Иоанном тетрарха Ирода?",
+     "Иродиада",
+     "Саломия",
+     "Иезавель"
+    ],
+    "tr": [
+     "Luka 3'te, Yahya, tetrarkh Hirodes'i hangi kadın yüzünden azarladı?",
+     "Hirodiya",
+     "Salome",
+     "İzebel"
+    ],
+    "ja": [
+     "ルカ3章で、ヨハネは領主ヘロデをどの女性のことで責めましたか？",
+     "ヘロディア",
+     "サロメ",
+     "イゼベル"
+    ],
+    "ko": [
+     "루카 3장에서 요한은 분봉왕 헤로데를 어느 여인 때문에 책망했습니까?",
+     "헤로디아",
+     "살로메",
+     "이제벨"
+    ],
+    "ar": [
+     "في لوقا 3، بسبب أي امرأة وبخ يوحنا هيرودس رئيس الربع؟",
+     "هيروديا",
+     "سالومة",
+     "إيزابل"
+    ]
+   }
+  },
+  {
+   "id": "ch-luke-001-14",
+   "book": "luke",
+   "chapter": 3,
+   "difficulty": "expert",
+   "ref": "Luke 3:36",
+   "text": {
+    "en": [
+     "In Luke 3, in Jesus' genealogy, who was Noah's father?",
+     "Lamech",
+     "Methuselah",
+     "Enoch"
+    ],
+    "es": [
+     "Lucas 3: ¿En la genealogía de Jesús, quién era el padre de Noé?",
+     "Lamec",
+     "Matusalén",
+     "Henoc"
+    ],
+    "pt": [
+     "Em Lucas 3, na genealogia de Jesus, quem era o pai de Noé?",
+     "Lamec",
+     "Matusalém",
+     "Henoc"
+    ],
+    "fr": [
+     "Dans Luc 3, dans la généalogie de Jésus, qui était le père de Noé ?",
+     "Lamek",
+     "Mathusalem",
+     "Hénoch"
+    ],
+    "de": [
+     "Lukas 3: Wer war in der Ahnenreihe Jesu der Vater Noachs?",
+     "Lamech",
+     "Metuschelach",
+     "Henoch"
+    ],
+    "it": [
+     "In Luca 3, nella genealogia di Gesù, chi era il padre di Noè?",
+     "Lamec",
+     "Matusalemme",
+     "Enoc"
+    ],
+    "pl": [
+     "W Ewangelii Łukasza 3: Kto w rodowodzie Jezusa był ojcem Noego?",
+     "Lamech",
+     "Matuzalem",
+     "Henoch"
+    ],
+    "ru": [
+     "В Евангелии от Луки 3: Кто в родословии Иисуса был отцом Ноя?",
+     "Ламех",
+     "Мафусал",
+     "Енох"
+    ],
+    "tr": [
+     "Luka 3'te, İsa'nın soy kütüğünde Nuh'un babası kimdi?",
+     "Lemek",
+     "Metuşelah",
+     "Hanok"
+    ],
+    "ja": [
+     "ルカ3章で、イエスの系図で、ノアの父は誰ですか？",
+     "レメク",
+     "メトシェラ",
+     "エノク"
+    ],
+    "ko": [
+     "루카 3장에서 예수님의 족보에서 노아의 아버지는 누구입니까?",
+     "라멕",
+     "므투셀라",
+     "에녹"
+    ],
+    "ar": [
+     "في لوقا 3، في نسب يسوع، من كان أبا نوح؟",
+     "لامك",
+     "متوشالح",
+     "أخنوخ"
+    ]
+   }
+  },
+  {
+   "id": "ch-luke-001-15",
+   "book": "luke",
+   "chapter": 3,
+   "difficulty": "impossible",
+   "ref": "Luke 3:31",
+   "text": {
+    "en": [
+     "In Luke 3, which son of David appears in Jesus' genealogy?",
+     "Nathan",
+     "Absalom",
+     "Amnon"
+    ],
+    "es": [
+     "Lucas 3: ¿Qué hijo de David aparece en la genealogía de Jesús?",
+     "Natán",
+     "Absalón",
+     "Amnón"
+    ],
+    "pt": [
+     "Em Lucas 3, que filho de Davi aparece na genealogia de Jesus?",
+     "Natã",
+     "Absalão",
+     "Amnon"
+    ],
+    "fr": [
+     "Dans Luc 3, quel fils de David figure dans la généalogie de Jésus ?",
+     "Nathan",
+     "Absalom",
+     "Amnon"
+    ],
+    "de": [
+     "Lukas 3: Welcher Sohn Davids steht in der Ahnenreihe Jesu?",
+     "Natan",
+     "Abschalom",
+     "Amnon"
+    ],
+    "it": [
+     "In Luca 3, quale figlio di Davide compare nella genealogia di Gesù?",
+     "Natan",
+     "Assalonne",
+     "Amnon"
+    ],
+    "pl": [
+     "W Ewangelii Łukasza 3: Który syn Dawida występuje w rodowodzie Jezusa?",
+     "Natan",
+     "Absalom",
+     "Amnon"
+    ],
+    "ru": [
+     "В Евангелии от Луки 3: Какой сын Давида упомянут в родословии Иисуса?",
+     "Нафан",
+     "Авессалом",
+     "Амнон"
+    ],
+    "tr": [
+     "Luka 3'te, İsa'nın soy kütüğünde Davut'un hangi oğlu geçer?",
+     "Natan",
+     "Avşalom",
+     "Amnon"
+    ],
+    "ja": [
+     "ルカ3章で、イエスの系図に登場するダビデの子は誰ですか？",
+     "ナタン",
+     "アブサロム",
+     "アムノン"
+    ],
+    "ko": [
+     "루카 3장에서 예수님의 족보에 나오는 다윗의 아들은 누구입니까?",
+     "나탄",
+     "압살롬",
+     "암논"
+    ],
+    "ar": [
+     "في لوقا 3، أي ابن لداود يرد في نسب يسوع؟",
+     "ناثان",
+     "أبشالوم",
+     "أمنون"
+    ]
+   }
+  },
+  {
+   "id": "ch-luke-001-16",
+   "book": "luke",
+   "chapter": 4,
+   "difficulty": "easy",
+   "ref": "Luke 4:3",
+   "text": {
+    "en": [
+     "In Luke 4, which food did the devil tell Jesus to make from stone?",
+     "Bread",
+     "Cheese",
+     "Honey"
+    ],
+    "es": [
+     "Lucas 4: ¿Qué alimento le dijo el diablo a Jesús que hiciera de una piedra?",
+     "Pan",
+     "Queso",
+     "Miel"
+    ],
+    "pt": [
+     "Em Lucas 4, que alimento o diabo mandou Jesus fazer de uma pedra?",
+     "Pão",
+     "Queijo",
+     "Mel"
+    ],
+    "fr": [
+     "Dans Luc 4, quel aliment le diable demanda-t-il à Jésus de faire avec une pierre ?",
+     "Pain",
+     "Fromage",
+     "Miel"
+    ],
+    "de": [
+     "Lukas 4: Welches Nahrungsmittel sollte Jesus nach dem Teufel aus Stein machen?",
+     "Brot",
+     "Käse",
+     "Honig"
+    ],
+    "it": [
+     "In Luca 4, quale alimento il diavolo disse a Gesù di ricavare da una pietra?",
+     "Pane",
+     "Formaggio",
+     "Miele"
+    ],
+    "pl": [
+     "W Ewangelii Łukasza 4: Jaki pokarm diabeł kazał Jezusowi uczynić z kamienia?",
+     "Chleb",
+     "Ser",
+     "Miód"
+    ],
+    "ru": [
+     "В Евангелии от Луки 4: Какой продукт дьявол велел Иисусу сделать из камня?",
+     "Хлеб",
+     "Сыр",
+     "Мёд"
+    ],
+    "tr": [
+     "Luka 4'te, Şeytan'ın İsa'dan taştan yapmasını istediği yiyecek neydi?",
+     "Ekmek",
+     "Peynir",
+     "Bal"
+    ],
+    "ja": [
+     "ルカ4章で、悪魔はイエスに、石を何に変えるよう言いましたか？",
+     "パン",
+     "チーズ",
+     "蜂蜜"
+    ],
+    "ko": [
+     "루카 4장에서 악마는 예수님께 돌로 무엇을 만들라고 했습니까?",
+     "빵",
+     "치즈",
+     "꿀"
+    ],
+    "ar": [
+     "في لوقا 4، ما الطعام الذي طلب إبليس من يسوع أن يصنعه من حجر؟",
+     "خبز",
+     "جبن",
+     "عسل"
+    ]
+   }
+  },
+  {
+   "id": "ch-luke-001-17",
+   "book": "luke",
+   "chapter": 4,
+   "difficulty": "medium",
+   "ref": "Luke 4:31",
+   "text": {
+    "en": [
+     "In Luke 4, which Galilean town was Jesus' next stop after Nazareth?",
+     "Capernaum",
+     "Cana",
+     "Tiberias"
+    ],
+    "es": [
+     "Lucas 4: ¿Qué ciudad galilea fue la siguiente parada de Jesús tras Nazaret?",
+     "Cafarnaún",
+     "Caná",
+     "Tiberíades"
+    ],
+    "pt": [
+     "Em Lucas 4, que cidade galileia foi a parada seguinte de Jesus depois de Nazaré?",
+     "Cafarnaum",
+     "Caná",
+     "Tiberíades"
+    ],
+    "fr": [
+     "Dans Luc 4, quelle ville galiléenne fut l'étape suivante de Jésus après Nazareth ?",
+     "Capharnaüm",
+     "Cana",
+     "Tibériade"
+    ],
+    "de": [
+     "Lukas 4: Welche galiläische Stadt war nach Nazaret Jesu nächste Station?",
+     "Kafarnaum",
+     "Kana",
+     "Tiberias"
+    ],
+    "it": [
+     "In Luca 4, quale città galilea fu la tappa successiva di Gesù dopo Nazaret?",
+     "Cafarnao",
+     "Cana",
+     "Tiberiade"
+    ],
+    "pl": [
+     "W Ewangelii Łukasza 4: Które galilejskie miasto było kolejnym przystankiem Jezusa po Nazarecie?",
+     "Kafarnaum",
+     "Kana",
+     "Tyberiada"
+    ],
+    "ru": [
+     "В Евангелии от Луки 4: Какой галилейский город стал следующей остановкой Иисуса после Назарета?",
+     "Капернаум",
+     "Кана",
+     "Тивериада"
+    ],
+    "tr": [
+     "Luka 4'te, Nasıra'dan sonra İsa'nın bir sonraki durağı hangi Celile kentiydi?",
+     "Kefernahum",
+     "Kana",
+     "Taberiye"
+    ],
+    "ja": [
+     "ルカ4章で、ナザレの次にイエスが向かったガリラヤの町はどこですか？",
+     "カファルナウム",
+     "カナ",
+     "ティベリアス"
+    ],
+    "ko": [
+     "루카 4장에서 나자렛 다음에 예수님이 가신 갈릴래아 고을은 어디입니까?",
+     "카파르나움",
+     "카나",
+     "티베리아"
+    ],
+    "ar": [
+     "في لوقا 4، أي مدينة جليلية كانت محطة يسوع التالية بعد الناصرة؟",
+     "كفرناحوم",
+     "قانا",
+     "طبرية"
+    ]
+   }
+  },
+  {
+   "id": "ch-luke-001-18",
+   "book": "luke",
+   "chapter": 4,
+   "difficulty": "hard",
+   "ref": "Luke 4:27",
+   "text": {
+    "en": [
+     "In Luke 4, which Syrian was cleansed of leprosy in Elisha's time?",
+     "Naaman",
+     "Hazael",
+     "Gehazi"
+    ],
+    "es": [
+     "Lucas 4: ¿Qué sirio quedó limpio de la lepra en tiempos de Eliseo?",
+     "Naamán",
+     "Hazael",
+     "Guejazí"
+    ],
+    "pt": [
+     "Em Lucas 4, que sírio foi purificado da lepra no tempo de Eliseu?",
+     "Naamã",
+     "Hazael",
+     "Giezi"
+    ],
+    "fr": [
+     "Dans Luc 4, quel Syrien fut purifié de la lèpre au temps d'Élisée ?",
+     "Naaman",
+     "Hazaël",
+     "Géhazi"
+    ],
+    "de": [
+     "Lukas 4: Welcher Syrer wurde zur Zeit des Elischa vom Aussatz gereinigt?",
+     "Naaman",
+     "Hasael",
+     "Gehasi"
+    ],
+    "it": [
+     "In Luca 4, quale siro fu purificato dalla lebbra al tempo di Eliseo?",
+     "Naamàn",
+     "Cazaèl",
+     "Giezi"
+    ],
+    "pl": [
+     "W Ewangelii Łukasza 4: Który Syryjczyk został oczyszczony z trądu za czasów Elizeusza?",
+     "Naaman",
+     "Chazael",
+     "Gechazi"
+    ],
+    "ru": [
+     "В Евангелии от Луки 4: Какой сириянин очистился от проказы во времена Елисея?",
+     "Нееман",
+     "Азаил",
+     "Гиезий"
+    ],
+    "tr": [
+     "Luka 4'te, Elişa zamanında cüzzamdan hangi Suriyeli temizlendi?",
+     "Naaman",
+     "Hazael",
+     "Gehazi"
+    ],
+    "ja": [
+     "ルカ4章で、エリシャの時代に重い皮膚病を清められたシリア人は誰ですか？",
+     "ナアマン",
+     "ハザエル",
+     "ゲハジ"
+    ],
+    "ko": [
+     "루카 4장에서 엘리사 때에 나병에서 깨끗해진 시리아 사람은 누구입니까?",
+     "나아만",
+     "하자엘",
+     "게하시"
+    ],
+    "ar": [
+     "في لوقا 4، أي سوري طهر من البرص في زمن أليشع؟",
+     "نعمان",
+     "حزائيل",
+     "جيحزي"
+    ]
+   }
+  },
+  {
+   "id": "ch-luke-001-19",
+   "book": "luke",
+   "chapter": 4,
+   "difficulty": "expert",
+   "ref": "Luke 4:38",
+   "text": {
+    "en": [
+     "In Luke 4, what illness had struck Simon's mother-in-law before Jesus healed her?",
+     "Fever",
+     "Leprosy",
+     "Blindness"
+    ],
+    "es": [
+     "Lucas 4: ¿Qué enfermedad tenía la suegra de Simón antes de que Jesús la curara?",
+     "Fiebre",
+     "Lepra",
+     "Ceguera"
+    ],
+    "pt": [
+     "Em Lucas 4, que doença atingira a sogra de Simão antes de Jesus a curar?",
+     "Febre",
+     "Lepra",
+     "Cegueira"
+    ],
+    "fr": [
+     "Dans Luc 4, de quelle maladie souffrait la belle-mère de Simon avant que Jésus la guérisse ?",
+     "Fièvre",
+     "Lèpre",
+     "Cécité"
+    ],
+    "de": [
+     "Lukas 4: Welche Krankheit hatte Simons Schwiegermutter, bevor Jesus sie heilte?",
+     "Fieber",
+     "Aussatz",
+     "Blindheit"
+    ],
+    "it": [
+     "In Luca 4, quale malattia aveva la suocera di Simone prima che Gesù la guarisse?",
+     "Febbre",
+     "Lebbra",
+     "Cecità"
+    ],
+    "pl": [
+     "W Ewangelii Łukasza 4: Jaka choroba dotknęła teściową Szymona, zanim uzdrowił ją Jezus?",
+     "Gorączka",
+     "Trąd",
+     "Ślepota"
+    ],
+    "ru": [
+     "В Евангелии от Луки 4: Какая болезнь постигла тёщу Симона, прежде чем Иисус исцелил её?",
+     "Горячка",
+     "Проказа",
+     "Слепота"
+    ],
+    "tr": [
+     "Luka 4'te, İsa iyileştirmeden önce Simun'un kayınvalidesini hangi hastalık sarmıştı?",
+     "Ateş",
+     "Cüzzam",
+     "Körlük"
+    ],
+    "ja": [
+     "ルカ4章で、イエスが癒す前、シモンのしゅうとめはどんな病気でしたか？",
+     "熱",
+     "重い皮膚病",
+     "失明"
+    ],
+    "ko": [
+     "루카 4장에서 예수님께서 고쳐 주시기 전, 시몬의 장모는 어떤 병에 걸려 있었습니까?",
+     "열병",
+     "나병",
+     "실명"
+    ],
+    "ar": [
+     "في لوقا 4، ما المرض الذي أصاب حماة سمعان قبل أن يشفيها يسوع؟",
+     "حمى",
+     "برص",
+     "عمى"
+    ]
+   }
+  },
+  {
+   "id": "ch-luke-001-20",
+   "book": "luke",
+   "chapter": 4,
+   "difficulty": "impossible",
+   "ref": "Luke 4:25-26",
+   "text": {
+    "en": [
+     "In Luke 4, which city was home to the widow Elijah was sent to?",
+     "Zarephath",
+     "Jericho",
+     "Nain"
+    ],
+    "es": [
+     "Lucas 4: ¿Qué ciudad era el hogar de la viuda a la que fue enviado Elías?",
+     "Sarepta",
+     "Jericó",
+     "Naín"
+    ],
+    "pt": [
+     "Em Lucas 4, que cidade era o lar da viúva a quem foi enviado Elias?",
+     "Sarepta",
+     "Jericó",
+     "Naim"
+    ],
+    "fr": [
+     "Dans Luc 4, quelle ville était le foyer de la veuve vers qui Élie fut envoyé ?",
+     "Sarepta",
+     "Jéricho",
+     "Naïn"
+    ],
+    "de": [
+     "Lukas 4: Welche Stadt war die Heimat der Witwe, zu der Elija gesandt wurde?",
+     "Sarepta",
+     "Jericho",
+     "Nain"
+    ],
+    "it": [
+     "In Luca 4, quale città era la patria della vedova a cui fu mandato Elia?",
+     "Sarepta",
+     "Gerico",
+     "Nain"
+    ],
+    "pl": [
+     "W Ewangelii Łukasza 4: Które miasto było domem wdowy, do której posłano Eliasza?",
+     "Sarepta",
+     "Jerycho",
+     "Nain"
+    ],
+    "ru": [
+     "В Евангелии от Луки 4: Какой город был жилищем вдовы, к которой был послан Илия?",
+     "Сарепта",
+     "Иерихон",
+     "Наин"
+    ],
+    "tr": [
+     "Luka 4'te, İlyas'ın gönderildiği dul kadının yaşadığı kent hangisiydi?",
+     "Sarefat",
+     "Eriha",
+     "Nain"
+    ],
+    "ja": [
+     "ルカ4章で、エリヤが遣わされたやもめの住んでいた町はどこですか？",
+     "サレプタ",
+     "エリコ",
+     "ナイン"
+    ],
+    "ko": [
+     "루카 4장에서 엘리야가 파견된 과부가 살던 고을은 어디입니까?",
+     "사렙타",
+     "예리코",
+     "나인"
+    ],
+    "ar": [
+     "في لوقا 4، أي مدينة كانت موطن الأرملة التي أُرسل إليها إيليا؟",
+     "صرفة",
+     "أريحا",
+     "نايين"
+    ]
+   }
+  },
+  {
+   "id": "ch-luke-001-21",
+   "book": "luke",
+   "chapter": 5,
+   "difficulty": "easy",
+   "ref": "Luke 5:6",
+   "text": {
+    "en": [
+     "In Luke 5, what filled Simon's nets until they began to tear?",
+     "Fish",
+     "Turtles",
+     "Frogs"
+    ],
+    "es": [
+     "Lucas 5: ¿Qué llenó las redes de Simón hasta casi romperse?",
+     "Peces",
+     "Tortugas",
+     "Ranas"
+    ],
+    "pt": [
+     "Em Lucas 5, o que encheu as redes de Simão até quase se romperem?",
+     "Peixes",
+     "Tartarugas",
+     "Rãs"
+    ],
+    "fr": [
+     "Dans Luc 5, qu'est-ce qui remplit les filets de Simon au point de les déchirer ?",
+     "Poissons",
+     "Tortues",
+     "Grenouilles"
+    ],
+    "de": [
+     "Lukas 5: Was füllte Simons Netze so, dass sie zu reißen begannen?",
+     "Fische",
+     "Schildkröten",
+     "Frösche"
+    ],
+    "it": [
+     "In Luca 5, che cosa riempì le reti di Simone fino a farle quasi rompere?",
+     "Pesci",
+     "Tartarughe",
+     "Rane"
+    ],
+    "pl": [
+     "W Ewangelii Łukasza 5: Co napełniło sieci Szymona tak, że zaczęły się rwać?",
+     "Ryby",
+     "Żółwie",
+     "Żaby"
+    ],
+    "ru": [
+     "В Евангелии от Луки 5: Что наполнило сети Симона так, что они прорывались?",
+     "Рыбы",
+     "Черепахи",
+     "Лягушки"
+    ],
+    "tr": [
+     "Luka 5'te, Simun'un ağlarını yırtılacak kadar dolduran şey neydi?",
+     "Balıklar",
+     "Kaplumbağalar",
+     "Kurbağalar"
+    ],
+    "ja": [
+     "ルカ5章で、シモンの網が破れそうになるほどいっぱいになったのは何ですか？",
+     "魚",
+     "亀",
+     "蛙"
+    ],
+    "ko": [
+     "루카 5장에서 시몬의 그물이 찢어질 만큼 가득 찬 것은 무엇입니까?",
+     "물고기",
+     "거북",
+     "개구리"
+    ],
+    "ar": [
+     "في لوقا 5، ما الذي ملأ شباك سمعان حتى كادت تتمزق؟",
+     "سمك",
+     "سلاحف",
+     "ضفادع"
+    ]
+   }
+  },
+  {
+   "id": "ch-luke-001-22",
+   "book": "luke",
+   "chapter": 5,
+   "difficulty": "medium",
+   "ref": "Luke 5:19",
+   "text": {
+    "en": [
+     "In Luke 5, which part of the house was opened to lower the paralytic?",
+     "Roof",
+     "Door",
+     "Wall"
+    ],
+    "es": [
+     "Lucas 5: ¿Qué parte de la casa abrieron para bajar al paralítico?",
+     "Techo",
+     "Puerta",
+     "Pared"
+    ],
+    "pt": [
+     "Em Lucas 5, que parte da casa foi aberta para descer o paralítico?",
+     "Telhado",
+     "Porta",
+     "Parede"
+    ],
+    "fr": [
+     "Dans Luc 5, quelle partie de la maison fut ouverte pour descendre le paralytique ?",
+     "Toit",
+     "Porte",
+     "Mur"
+    ],
+    "de": [
+     "Lukas 5: Welcher Teil des Hauses wurde geöffnet, um den Gelähmten hinabzulassen?",
+     "Dach",
+     "Tür",
+     "Wand"
+    ],
+    "it": [
+     "In Luca 5, quale parte della casa fu aperta per calare il paralitico?",
+     "Tetto",
+     "Porta",
+     "Muro"
+    ],
+    "pl": [
+     "W Ewangelii Łukasza 5: Która część domu została rozebrana, by spuścić paralityka?",
+     "Dach",
+     "Drzwi",
+     "Ściana"
+    ],
+    "ru": [
+     "В Евангелии от Луки 5: Какая часть дома была разобрана, чтобы опустить расслабленного?",
+     "Кровля",
+     "Дверь",
+     "Стена"
+    ],
+    "tr": [
+     "Luka 5'te, felçli adamı indirmek için evin hangi bölümü açıldı?",
+     "Çatı",
+     "Kapı",
+     "Duvar"
+    ],
+    "ja": [
+     "ルカ5章で、中風の人をつり降ろすために、家のどの部分が開けられましたか？",
+     "屋根",
+     "戸",
+     "壁"
+    ],
+    "ko": [
+     "루카 5장에서 중풍 병자를 내려보내려고 집의 어느 부분을 열었습니까?",
+     "지붕",
+     "문",
+     "벽"
+    ],
+    "ar": [
+     "في لوقا 5، أي جزء من البيت فُتح لإنزال المخلع؟",
+     "سقف",
+     "باب",
+     "جدار"
+    ]
+   }
+  },
+  {
+   "id": "ch-luke-001-23",
+   "book": "luke",
+   "chapter": 5,
+   "difficulty": "hard",
+   "ref": "Luke 5:10",
+   "text": {
+    "en": [
+     "In Luke 5, who was the father of Simon's fishing partners James and John?",
+     "Zebedee",
+     "Alphaeus",
+     "Cleopas"
+    ],
+    "es": [
+     "Lucas 5: ¿Quién era el padre de Santiago y Juan, socios de pesca de Simón?",
+     "Zebedeo",
+     "Alfeo",
+     "Cleofás"
+    ],
+    "pt": [
+     "Em Lucas 5, quem era o pai de Tiago e João, sócios de pesca de Simão?",
+     "Zebedeu",
+     "Alfeu",
+     "Cléofas"
+    ],
+    "fr": [
+     "Dans Luc 5, qui était le père de Jacques et Jean, associés de pêche de Simon ?",
+     "Zébédée",
+     "Alphée",
+     "Cléophas"
+    ],
+    "de": [
+     "Lukas 5: Wer war der Vater von Jakobus und Johannes, Simons Fischereipartnern?",
+     "Zebedäus",
+     "Alphäus",
+     "Kleopas"
+    ],
+    "it": [
+     "In Luca 5, chi era il padre di Giacomo e Giovanni, soci di pesca di Simone?",
+     "Zebedeo",
+     "Alfeo",
+     "Cleopa"
+    ],
+    "pl": [
+     "W Ewangelii Łukasza 5: Kto był ojcem Jakuba i Jana, wspólników Szymona w połowach?",
+     "Zebedeusz",
+     "Alfeusz",
+     "Kleofas"
+    ],
+    "ru": [
+     "В Евангелии от Луки 5: Кто был отцом Иакова и Иоанна, товарищей Симона по ловле рыбы?",
+     "Зеведей",
+     "Алфей",
+     "Клеопа"
+    ],
+    "tr": [
+     "Luka 5'te, Simun'un balıkçılık ortakları Yakup ile Yuhanna'nın babası kimdi?",
+     "Zebedi",
+     "Alfay",
+     "Kleopas"
+    ],
+    "ja": [
+     "ルカ5章で、シモンの漁仲間ヤコブとヨハネの父は誰ですか？",
+     "ゼベダイ",
+     "アルファイ",
+     "クレオパ"
+    ],
+    "ko": [
+     "루카 5장에서 시몬의 고기잡이 동료인 야고보와 요한의 아버지는 누구입니까?",
+     "제베데오",
+     "알패오",
+     "클레오파"
+    ],
+    "ar": [
+     "في لوقا 5، من كان أبا يعقوب ويوحنا، شريكي سمعان في الصيد؟",
+     "زبدي",
+     "حلفى",
+     "كليوباس"
+    ]
+   }
+  },
+  {
+   "id": "ch-luke-001-24",
+   "book": "luke",
+   "chapter": 5,
+   "difficulty": "expert",
+   "ref": "Luke 5:2",
+   "text": {
+    "en": [
+     "In Luke 5, how many boats did Jesus see by the lake of Gennesaret?",
+     "2",
+     "3",
+     "4"
+    ],
+    "es": [
+     "Lucas 5: ¿Cuántas barcas vio Jesús junto al lago de Genesaret?",
+     "2",
+     "3",
+     "4"
+    ],
+    "pt": [
+     "Em Lucas 5, quantos barcos Jesus viu à beira do lago de Genesaré?",
+     "2",
+     "3",
+     "4"
+    ],
+    "fr": [
+     "Dans Luc 5, combien de barques Jésus vit-il au bord du lac de Génésareth ?",
+     "2",
+     "3",
+     "4"
+    ],
+    "de": [
+     "Lukas 5: Wie viele Boote sah Jesus am See Gennesaret?",
+     "2",
+     "3",
+     "4"
+    ],
+    "it": [
+     "In Luca 5, quante barche vide Gesù sulla riva del lago di Genèsaret?",
+     "2",
+     "3",
+     "4"
+    ],
+    "pl": [
+     "W Ewangelii Łukasza 5: Ile łodzi zobaczył Jezus nad jeziorem Genezaret?",
+     "2",
+     "3",
+     "4"
+    ],
+    "ru": [
+     "В Евангелии от Луки 5: Сколько лодок увидел Иисус у Геннисаретского озера?",
+     "2",
+     "3",
+     "4"
+    ],
+    "tr": [
+     "Luka 5'te, İsa Gennesaret Gölü kıyısında kaç tekne gördü?",
+     "2",
+     "3",
+     "4"
+    ],
+    "ja": [
+     "ルカ5章で、イエスはゲネサレト湖畔で何隻の舟を見ましたか？",
+     "2",
+     "3",
+     "4"
+    ],
+    "ko": [
+     "루카 5장에서 예수님은 겐네사렛 호숫가에서 배를 몇 척 보셨습니까?",
+     "2",
+     "3",
+     "4"
+    ],
+    "ar": [
+     "في لوقا 5، كم قاربا رأى يسوع على شاطئ بحيرة جنيسارت؟",
+     "2",
+     "3",
+     "4"
+    ]
+   }
+  },
+  {
+   "id": "ch-luke-001-25",
+   "book": "luke",
+   "chapter": 5,
+   "difficulty": "impossible",
+   "ref": "Luke 5:17",
+   "text": {
+    "en": [
+     "In Luke 5, which city, besides Galilee and Judea, sent teachers of the law?",
+     "Jerusalem",
+     "Rome",
+     "Damascus"
+    ],
+    "es": [
+     "Lucas 5: ¿Qué ciudad, además de Galilea y Judea, envió doctores de la Ley?",
+     "Jerusalén",
+     "Roma",
+     "Damasco"
+    ],
+    "pt": [
+     "Em Lucas 5, que cidade, além da Galileia e da Judeia, enviou mestres da Lei?",
+     "Jerusalém",
+     "Roma",
+     "Damasco"
+    ],
+    "fr": [
+     "Dans Luc 5, quelle ville, outre la Galilée et la Judée, envoya des docteurs de la Loi ?",
+     "Jérusalem",
+     "Rome",
+     "Damas"
+    ],
+    "de": [
+     "Lukas 5: Welche Stadt schickte neben Galiläa und Judäa Gesetzeslehrer zu Jesus?",
+     "Jerusalem",
+     "Rom",
+     "Damaskus"
+    ],
+    "it": [
+     "In Luca 5, quale città, oltre alla Galilea e alla Giudea, mandò dottori della Legge?",
+     "Gerusalemme",
+     "Roma",
+     "Damasco"
+    ],
+    "pl": [
+     "W Ewangelii Łukasza 5: Które miasto, oprócz Galilei i Judei, wysłało nauczycieli Prawa?",
+     "Jerozolima",
+     "Rzym",
+     "Damaszek"
+    ],
+    "ru": [
+     "В Евангелии от Луки 5: Какой город, кроме Галилеи и Иудеи, прислал учителей закона?",
+     "Иерусалим",
+     "Рим",
+     "Дамаск"
+    ],
+    "tr": [
+     "Luka 5'te, Celile ve Yahudiye dışında hangi şehir Yasa öğretmenleri gönderdi?",
+     "Kudüs",
+     "Roma",
+     "Şam"
+    ],
+    "ja": [
+     "ルカ5章で、ガリラヤとユダヤのほかに、律法の教師たちを遣わした町はどこですか？",
+     "エルサレム",
+     "ローマ",
+     "ダマスコ"
+    ],
+    "ko": [
+     "루카 5장에서 갈릴래아와 유다 외에 율법 교사들이 온 도시는 어디입니까?",
+     "예루살렘",
+     "로마",
+     "다마스쿠스"
+    ],
+    "ar": [
+     "في لوقا 5، أي مدينة، إلى جانب الجليل واليهودية، أرسلت معلمي الشريعة؟",
+     "أورشليم",
+     "روما",
+     "دمشق"
+    ]
+   }
+  },
+  {
+   "id": "ch-luke-001-26",
+   "book": "luke",
+   "chapter": 6,
+   "difficulty": "easy",
+   "ref": "Luke 6:16",
+   "text": {
+    "en": [
+     "In Luke 6, which chosen apostle became a traitor?",
+     "Judas",
+     "Thomas",
+     "Philip"
+    ],
+    "es": [
+     "Lucas 6: ¿Qué apóstol elegido llegó a ser traidor?",
+     "Judas",
+     "Tomás",
+     "Felipe"
+    ],
+    "pt": [
+     "Em Lucas 6, qual apóstolo escolhido se tornou traidor?",
+     "Judas",
+     "Tomé",
+     "Filipe"
+    ],
+    "fr": [
+     "Dans Luc 6, quel apôtre choisi devint traître ?",
+     "Judas",
+     "Thomas",
+     "Philippe"
+    ],
+    "de": [
+     "Lukas 6: Welcher erwählte Apostel wurde zum Verräter?",
+     "Judas",
+     "Thomas",
+     "Philippus"
+    ],
+    "it": [
+     "In Luca 6, quale apostolo scelto divenne traditore?",
+     "Giuda",
+     "Tommaso",
+     "Filippo"
+    ],
+    "pl": [
+     "W Ewangelii Łukasza 6: Który wybrany apostoł stał się zdrajcą?",
+     "Judasz",
+     "Tomasz",
+     "Filip"
+    ],
+    "ru": [
+     "В Евангелии от Луки 6: Какой избранный апостол стал предателем?",
+     "Иуда",
+     "Фома",
+     "Филипп"
+    ],
+    "tr": [
+     "Luka 6'da, seçilen havarilerden hangisi hain oldu?",
+     "Yahuda",
+     "Tomas",
+     "Filipus"
+    ],
+    "ja": [
+     "ルカ6章で、選ばれた使徒のうち、裏切り者となったのは誰ですか？",
+     "ユダ",
+     "トマス",
+     "フィリポ"
+    ],
+    "ko": [
+     "루카 6장에서 선택된 사도 가운데 배반자가 된 사람은 누구입니까?",
+     "유다",
+     "토마스",
+     "필립보"
+    ],
+    "ar": [
+     "في لوقا 6، أي رسول مختار صار خائنا؟",
+     "يهوذا",
+     "توما",
+     "فيلبس"
+    ]
+   }
+  },
+  {
+   "id": "ch-luke-001-27",
+   "book": "luke",
+   "chapter": 6,
+   "difficulty": "medium",
+   "ref": "Luke 6:48",
+   "text": {
+    "en": [
+     "In Luke 6, what was the foundation of the wise builder's house?",
+     "Rock",
+     "Wood",
+     "Straw"
+    ],
+    "es": [
+     "Lucas 6: ¿Cuál fue el cimiento de la casa del constructor prudente?",
+     "Roca",
+     "Madera",
+     "Paja"
+    ],
+    "pt": [
+     "Em Lucas 6, qual foi o alicerce da casa do construtor prudente?",
+     "Rocha",
+     "Madeira",
+     "Palha"
+    ],
+    "fr": [
+     "Dans Luc 6, quel fut le fondement de la maison du constructeur sage ?",
+     "Roc",
+     "Bois",
+     "Paille"
+    ],
+    "de": [
+     "Lukas 6: Was war das Fundament des Hauses des klugen Baumeisters?",
+     "Fels",
+     "Holz",
+     "Stroh"
+    ],
+    "it": [
+     "In Luca 6, quale fu il fondamento della casa del costruttore saggio?",
+     "Roccia",
+     "Legno",
+     "Paglia"
+    ],
+    "pl": [
+     "W Ewangelii Łukasza 6: Co było fundamentem domu mądrego budowniczego?",
+     "Skała",
+     "Drewno",
+     "Słoma"
+    ],
+    "ru": [
+     "В Евангелии от Луки 6: Что служило основанием дома мудрого строителя?",
+     "Камень",
+     "Дерево",
+     "Солома"
+    ],
+    "tr": [
+     "Luka 6'da, bilge inşaatçının evinin temeli neydi?",
+     "Kaya",
+     "Odun",
+     "Saman"
+    ],
+    "ja": [
+     "ルカ6章で、賢い建築者の家の土台は何でしたか？",
+     "岩",
+     "木",
+     "わら"
+    ],
+    "ko": [
+     "루카 6장에서 슬기로운 건축자의 집의 기초는 무엇이었습니까?",
+     "바위",
+     "나무",
+     "짚"
+    ],
+    "ar": [
+     "في لوقا 6، ماذا كان أساس بيت البنّاء الحكيم؟",
+     "صخرة",
+     "خشب",
+     "قش"
+    ]
+   }
+  },
+  {
+   "id": "ch-luke-001-28",
+   "book": "luke",
+   "chapter": 6,
+   "difficulty": "hard",
+   "ref": "Luke 6:6-8",
+   "text": {
+    "en": [
+     "In Luke 6, which part of a man's body was withered in the synagogue?",
+     "Hand",
+     "Foot",
+     "Ear"
+    ],
+    "es": [
+     "Lucas 6: ¿Qué parte del cuerpo de un hombre estaba seca en la sinagoga?",
+     "Mano",
+     "Pie",
+     "Oreja"
+    ],
+    "pt": [
+     "Em Lucas 6, que parte do corpo de um homem estava ressequida na sinagoga?",
+     "Mão",
+     "Pé",
+     "Orelha"
+    ],
+    "fr": [
+     "Dans Luc 6, quelle partie du corps d'un homme était desséchée dans la synagogue ?",
+     "Main",
+     "Pied",
+     "Oreille"
+    ],
+    "de": [
+     "Lukas 6: Welcher Körperteil eines Mannes war in der Synagoge verdorrt?",
+     "Hand",
+     "Fuß",
+     "Ohr"
+    ],
+    "it": [
+     "In Luca 6, quale parte del corpo di un uomo era inaridita nella sinagoga?",
+     "Mano",
+     "Piede",
+     "Orecchio"
+    ],
+    "pl": [
+     "W Ewangelii Łukasza 6: Która część ciała człowieka była uschnięta w synagodze?",
+     "Ręka",
+     "Stopa",
+     "Ucho"
+    ],
+    "ru": [
+     "В Евангелии от Луки 6: Какая часть тела человека была сухой в синагоге?",
+     "Рука",
+     "Нога",
+     "Ухо"
+    ],
+    "tr": [
+     "Luka 6'da, sinagogda bir adamın hangi uzvu kurumuştu?",
+     "El",
+     "Ayak",
+     "Kulak"
+    ],
+    "ja": [
+     "ルカ6章で、会堂で、ある男の体のどの部分が萎えていましたか？",
+     "手",
+     "足",
+     "耳"
+    ],
+    "ko": [
+     "루카 6장에서 회당에서 한 사람의 몸의 어느 부분이 말라 있었습니까?",
+     "손",
+     "발",
+     "귀"
+    ],
+    "ar": [
+     "في لوقا 6، أي جزء من جسد رجل كان يابسا في المجمع؟",
+     "يد",
+     "قدم",
+     "أذن"
+    ]
+   }
+  },
+  {
+   "id": "ch-luke-001-29",
+   "book": "luke",
+   "chapter": 6,
+   "difficulty": "expert",
+   "ref": "Luke 6:3-4",
+   "text": {
+    "en": [
+     "In Luke 6, which king entered God's house and ate the offering bread?",
+     "David",
+     "Solomon",
+     "Saul"
+    ],
+    "es": [
+     "Lucas 6: ¿Qué rey entró en la casa de Dios y comió los panes de la ofrenda?",
+     "David",
+     "Salomón",
+     "Saúl"
+    ],
+    "pt": [
+     "Em Lucas 6, que rei entrou na casa de Deus e comeu os pães da oferenda?",
+     "Davi",
+     "Salomão",
+     "Saul"
+    ],
+    "fr": [
+     "Dans Luc 6, quel roi entra dans la maison de Dieu et mangea les pains d'offrande ?",
+     "David",
+     "Salomon",
+     "Saül"
+    ],
+    "de": [
+     "Lukas 6: Welcher König betrat das Haus Gottes und aß die Schaubrote?",
+     "David",
+     "Salomo",
+     "Saul"
+    ],
+    "it": [
+     "In Luca 6, quale re entrò nella casa di Dio e mangiò i pani dell'offerta?",
+     "Davide",
+     "Salomone",
+     "Saul"
+    ],
+    "pl": [
+     "W Ewangelii Łukasza 6: Który król wszedł do domu Bożego i spożył chleby pokładne?",
+     "Dawid",
+     "Salomon",
+     "Saul"
+    ],
+    "ru": [
+     "В Евангелии от Луки 6: Какой царь вошёл в дом Божий и ел хлебы предложения?",
+     "Давид",
+     "Соломон",
+     "Саул"
+    ],
+    "tr": [
+     "Luka 6'da, hangi kral Tanrı'nın evine girip adak ekmeklerini yedi?",
+     "Davut",
+     "Süleyman",
+     "Saul"
+    ],
+    "ja": [
+     "ルカ6章で、神の家に入って供えのパンを食べた王は誰ですか？",
+     "ダビデ",
+     "ソロモン",
+     "サウル"
+    ],
+    "ko": [
+     "루카 6장에서 하느님의 집에 들어가 제물로 바친 빵을 먹은 왕은 누구입니까?",
+     "다윗",
+     "솔로몬",
+     "사울"
+    ],
+    "ar": [
+     "في لوقا 6، أي ملك دخل بيت الله وأكل خبز التقدمة؟",
+     "داود",
+     "سليمان",
+     "شاول"
+    ]
+   }
+  },
+  {
+   "id": "ch-luke-001-30",
+   "book": "luke",
+   "chapter": 6,
+   "difficulty": "impossible",
+   "ref": "Luke 6:15",
+   "text": {
+    "en": [
+     "In Luke 6, who was the father of the apostle James listed after Thomas?",
+     "Alphaeus",
+     "Zacchaeus",
+     "Jairus"
+    ],
+    "es": [
+     "Lucas 6: ¿Quién era el padre del apóstol Santiago que figura después de Tomás?",
+     "Alfeo",
+     "Zaqueo",
+     "Jairo"
+    ],
+    "pt": [
+     "Em Lucas 6, quem era o pai do apóstolo Tiago citado depois de Tomé?",
+     "Alfeu",
+     "Zaqueu",
+     "Jairo"
+    ],
+    "fr": [
+     "Dans Luc 6, qui était le père de l'apôtre Jacques cité après Thomas ?",
+     "Alphée",
+     "Zachée",
+     "Jaïre"
+    ],
+    "de": [
+     "Lukas 6: Wer war der Vater des Apostels Jakobus, der nach Thomas genannt wird?",
+     "Alphäus",
+     "Zachäus",
+     "Jaïrus"
+    ],
+    "it": [
+     "In Luca 6, chi era il padre dell'apostolo Giacomo nominato dopo Tommaso?",
+     "Alfeo",
+     "Zaccheo",
+     "Giairo"
+    ],
+    "pl": [
+     "W Ewangelii Łukasza 6: Kto był ojcem apostoła Jakuba wymienionego po Tomaszu?",
+     "Alfeusz",
+     "Zacheusz",
+     "Jair"
+    ],
+    "ru": [
+     "В Евангелии от Луки 6: Кто был отцом апостола Иакова, названного после Фомы?",
+     "Алфей",
+     "Закхей",
+     "Иаир"
+    ],
+    "tr": [
+     "Luka 6'da, Tomas'tan sonra anılan havari Yakup'un babası kimdi?",
+     "Alfay",
+     "Zakkay",
+     "Yair"
+    ],
+    "ja": [
+     "ルカ6章で、トマスの次に挙げられている使徒ヤコブの父は誰ですか？",
+     "アルファイ",
+     "ザアカイ",
+     "ヤイロ"
+    ],
+    "ko": [
+     "루카 6장에서 토마스 다음에 나오는 사도 야고보의 아버지는 누구입니까?",
+     "알패오",
+     "자캐오",
+     "야이로"
+    ],
+    "ar": [
+     "في لوقا 6، من كان أبا الرسول يعقوب المذكور بعد توما؟",
+     "حلفى",
+     "زكا",
+     "يائيرس"
+    ]
+   }
+  },
+  {
+   "id": "ch-luke-001-31",
+   "book": "luke",
+   "chapter": 7,
+   "difficulty": "easy",
+   "ref": "Luke 7:38",
+   "text": {
+    "en": [
+     "In Luke 7, what flowed from the sinful woman's eyes onto Jesus' feet?",
+     "Tears",
+     "Blood",
+     "Sweat"
+    ],
+    "es": [
+     "Lucas 7: ¿Qué cayó de los ojos de la pecadora sobre los pies de Jesús?",
+     "Lágrimas",
+     "Sangre",
+     "Sudor"
+    ],
+    "pt": [
+     "Em Lucas 7, o que correu dos olhos da pecadora sobre os pés de Jesus?",
+     "Lágrimas",
+     "Sangue",
+     "Suor"
+    ],
+    "fr": [
+     "Dans Luc 7, qu'est-ce qui coula des yeux de la pécheresse sur les pieds de Jésus ?",
+     "Larmes",
+     "Sang",
+     "Sueur"
+    ],
+    "de": [
+     "Lukas 7: Was floss aus den Augen der Sünderin auf die Füße Jesu?",
+     "Tränen",
+     "Blut",
+     "Schweiß"
+    ],
+    "it": [
+     "In Luca 7, che cosa scese dagli occhi della peccatrice sui piedi di Gesù?",
+     "Lacrime",
+     "Sangue",
+     "Sudore"
+    ],
+    "pl": [
+     "W Ewangelii Łukasza 7: Co spłynęło z oczu grzesznej kobiety na stopy Jezusa?",
+     "Łzy",
+     "Krew",
+     "Pot"
+    ],
+    "ru": [
+     "В Евангелии от Луки 7: Что текло из глаз грешной женщины на ноги Иисуса?",
+     "Слёзы",
+     "Кровь",
+     "Пот"
+    ],
+    "tr": [
+     "Luka 7'de, günahkâr kadının gözlerinden İsa'nın ayaklarına ne aktı?",
+     "Gözyaşları",
+     "Kan",
+     "Ter"
+    ],
+    "ja": [
+     "ルカ7章で、罪深い女の目から、イエスの足に流れ落ちたものは何ですか？",
+     "涙",
+     "血",
+     "汗"
+    ],
+    "ko": [
+     "루카 7장에서 죄 많은 여자의 눈에서 예수님의 발 위로 흘러내린 것은 무엇입니까?",
+     "눈물",
+     "피",
+     "땀"
+    ],
+    "ar": [
+     "في لوقا 7، ما الذي سال من عيني المرأة الخاطئة على قدمي يسوع؟",
+     "دموع",
+     "دم",
+     "عرق"
+    ]
+   }
+  },
+  {
+   "id": "ch-luke-001-32",
+   "book": "luke",
+   "chapter": 7,
+   "difficulty": "medium",
+   "ref": "Luke 7:36-40",
+   "text": {
+    "en": [
+     "In Luke 7, which Pharisee invited Jesus to dine at his house?",
+     "Simon",
+     "Nicodemus",
+     "Gamaliel"
+    ],
+    "es": [
+     "Lucas 7: ¿Qué fariseo invitó a Jesús a comer en su casa?",
+     "Simón",
+     "Nicodemo",
+     "Gamaliel"
+    ],
+    "pt": [
+     "Em Lucas 7, que fariseu convidou Jesus para comer em sua casa?",
+     "Simão",
+     "Nicodemos",
+     "Gamaliel"
+    ],
+    "fr": [
+     "Dans Luc 7, quel pharisien invita Jésus à manger chez lui ?",
+     "Simon",
+     "Nicodème",
+     "Gamaliel"
+    ],
+    "de": [
+     "Lukas 7: Welcher Pharisäer lud Jesus zum Essen in sein Haus ein?",
+     "Simon",
+     "Nikodemus",
+     "Gamaliel"
+    ],
+    "it": [
+     "In Luca 7, quale fariseo invitò Gesù a mangiare a casa sua?",
+     "Simone",
+     "Nicodemo",
+     "Gamaliele"
+    ],
+    "pl": [
+     "W Ewangelii Łukasza 7: Który faryzeusz zaprosił Jezusa na posiłek do swego domu?",
+     "Szymon",
+     "Nikodem",
+     "Gamaliel"
+    ],
+    "ru": [
+     "В Евангелии от Луки 7: Какой фарисей пригласил Иисуса к себе на трапезу?",
+     "Симон",
+     "Никодим",
+     "Гамалиил"
+    ],
+    "tr": [
+     "Luka 7'de, hangi Ferisi İsa'yı evinde yemeğe çağırdı?",
+     "Simun",
+     "Nikodemus",
+     "Gamaliel"
+    ],
+    "ja": [
+     "ルカ7章で、どのファリサイ派の人がイエスを自分の家での食事に招きましたか？",
+     "シモン",
+     "ニコデモ",
+     "ガマリエル"
+    ],
+    "ko": [
+     "루카 7장에서 어느 바리사이가 예수님을 자기 집에서 식사하자고 초대했습니까?",
+     "시몬",
+     "니코데모",
+     "가말리엘"
+    ],
+    "ar": [
+     "في لوقا 7، أي فريسي دعا يسوع إلى الطعام في بيته؟",
+     "سمعان",
+     "نيقوديموس",
+     "غمالائيل"
+    ]
+   }
+  },
+  {
+   "id": "ch-luke-001-33",
+   "book": "luke",
+   "chapter": 7,
+   "difficulty": "hard",
+   "ref": "Luke 7:18-19",
+   "text": {
+    "en": [
+     "In Luke 7, how many disciples did John send to question Jesus?",
+     "2",
+     "3",
+     "12"
+    ],
+    "es": [
+     "Lucas 7: ¿Cuántos discípulos envió Juan a interrogar a Jesús?",
+     "2",
+     "3",
+     "12"
+    ],
+    "pt": [
+     "Em Lucas 7, quantos discípulos João enviou para interrogar Jesus?",
+     "2",
+     "3",
+     "12"
+    ],
+    "fr": [
+     "Dans Luc 7, combien de disciples Jean envoya-t-il interroger Jésus ?",
+     "2",
+     "3",
+     "12"
+    ],
+    "de": [
+     "Lukas 7: Wie viele Jünger schickte Johannes, um Jesus zu befragen?",
+     "2",
+     "3",
+     "12"
+    ],
+    "it": [
+     "In Luca 7, quanti discepoli mandò Giovanni a interrogare Gesù?",
+     "2",
+     "3",
+     "12"
+    ],
+    "pl": [
+     "W Ewangelii Łukasza 7: Ilu uczniów wysłał Jan, aby zapytali Jezusa?",
+     "2",
+     "3",
+     "12"
+    ],
+    "ru": [
+     "В Евангелии от Луки 7: Сколько учеников послал Иоанн, чтобы спросить Иисуса?",
+     "2",
+     "3",
+     "12"
+    ],
+    "tr": [
+     "Luka 7'de, Yahya, İsa'ya soru sormaları için kaç öğrenci gönderdi?",
+     "2",
+     "3",
+     "12"
+    ],
+    "ja": [
+     "ルカ7章で、ヨハネはイエスに尋ねさせるため、何人の弟子を送りましたか？",
+     "2",
+     "3",
+     "12"
+    ],
+    "ko": [
+     "루카 7장에서 요한은 예수님께 묻도록 제자 몇 명을 보냈습니까?",
+     "2",
+     "3",
+     "12"
+    ],
+    "ar": [
+     "في لوقا 7، كم تلميذا أرسل يوحنا ليسأل يسوع؟",
+     "2",
+     "3",
+     "12"
+    ]
+   }
+  },
+  {
+   "id": "ch-luke-001-34",
+   "book": "luke",
+   "chapter": 7,
+   "difficulty": "expert",
+   "ref": "Luke 7:24",
+   "text": {
+    "en": [
+     "In Luke 7, which plant swayed by the wind did Jesus mention?",
+     "Reed",
+     "Palm",
+     "Cedar"
+    ],
+    "es": [
+     "Lucas 7: ¿Qué planta agitada por el viento mencionó Jesús?",
+     "Caña",
+     "Palmera",
+     "Cedro"
+    ],
+    "pt": [
+     "Em Lucas 7, que planta agitada pelo vento Jesus mencionou?",
+     "Cana",
+     "Palmeira",
+     "Cedro"
+    ],
+    "fr": [
+     "Dans Luc 7, quelle plante agitée par le vent Jésus mentionna-t-il ?",
+     "Roseau",
+     "Palmier",
+     "Cèdre"
+    ],
+    "de": [
+     "Lukas 7: Welche vom Wind bewegte Pflanze erwähnte Jesus?",
+     "Schilfrohr",
+     "Palme",
+     "Zeder"
+    ],
+    "it": [
+     "In Luca 7, quale pianta agitata dal vento citò Gesù?",
+     "Canna",
+     "Palma",
+     "Cedro"
+    ],
+    "pl": [
+     "W Ewangelii Łukasza 7: Jaka roślina kołysana wiatrem została wspomniana przez Jezusa?",
+     "Trzcina",
+     "Palma",
+     "Cedr"
+    ],
+    "ru": [
+     "В Евангелии от Луки 7: Какое колеблемое ветром растение было упомянуто Иисусом?",
+     "Трость",
+     "Пальма",
+     "Кедр"
+    ],
+    "tr": [
+     "Luka 7'de, İsa'nın sözünü ettiği, rüzgârda sallanan bitki hangisiydi?",
+     "Kamış",
+     "Palmiye",
+     "Sedir"
+    ],
+    "ja": [
+     "ルカ7章で、イエスが言及した、風に揺れる植物は何ですか？",
+     "葦",
+     "ヤシ",
+     "杉"
+    ],
+    "ko": [
+     "루카 7장에서 예수님이 말씀하신, 바람에 흔들리는 식물은 무엇입니까?",
+     "갈대",
+     "야자나무",
+     "향백나무"
+    ],
+    "ar": [
+     "في لوقا 7، أي نبات تهزه الريح ذكره يسوع؟",
+     "قصبة",
+     "نخلة",
+     "أرز"
+    ]
+   }
+  },
+  {
+   "id": "ch-luke-001-35",
+   "book": "luke",
+   "chapter": 7,
+   "difficulty": "impossible",
+   "ref": "Luke 7:37",
+   "text": {
+    "en": [
+     "In Luke 7, which material was the sinful woman's perfume jar made from?",
+     "Alabaster",
+     "Clay",
+     "Glass"
+    ],
+    "es": [
+     "Lucas 7: ¿De qué material era el frasco de perfume de la mujer pecadora?",
+     "Alabastro",
+     "Barro",
+     "Vidrio"
+    ],
+    "pt": [
+     "Em Lucas 7, de que material era o frasco de perfume da mulher pecadora?",
+     "Alabastro",
+     "Barro",
+     "Vidro"
+    ],
+    "fr": [
+     "Dans Luc 7, en quelle matière était le flacon de parfum de la pécheresse ?",
+     "Albâtre",
+     "Argile",
+     "Verre"
+    ],
+    "de": [
+     "Lukas 7: Aus welchem Material war das Salbgefäß der Sünderin?",
+     "Alabaster",
+     "Ton",
+     "Glas"
+    ],
+    "it": [
+     "In Luca 7, di quale materiale era il vaso di profumo della peccatrice?",
+     "Alabastro",
+     "Argilla",
+     "Vetro"
+    ],
+    "pl": [
+     "W Ewangelii Łukasza 7: Z jakiego materiału zrobiony był flakonik z olejkiem grzesznej kobiety?",
+     "Alabaster",
+     "Glina",
+     "Szkło"
+    ],
+    "ru": [
+     "В Евангелии от Луки 7: Какой материал был у сосуда с благовонием грешной женщины?",
+     "Алавастр",
+     "Глина",
+     "Стекло"
+    ],
+    "tr": [
+     "Luka 7'de, günahkâr kadının güzel koku şişesinin malzemesi neydi?",
+     "Kaymaktaşı",
+     "Kil",
+     "Cam"
+    ],
+    "ja": [
+     "ルカ7章で、罪深い女の香油の壺は何でできていましたか？",
+     "石膏",
+     "粘土",
+     "ガラス"
+    ],
+    "ko": [
+     "루카 7장에서 죄 많은 여자의 향유 병은 무엇으로 만들어졌습니까?",
+     "설화석고",
+     "점토",
+     "유리"
+    ],
+    "ar": [
+     "في لوقا 7، مم صنعت قارورة طيب المرأة الخاطئة؟",
+     "مرمر",
+     "طين",
+     "زجاج"
+    ]
+   }
+  },
+  {
+   "id": "ch-luke-001-36",
+   "book": "luke",
+   "chapter": 8,
+   "difficulty": "easy",
+   "ref": "Luke 8:24",
+   "text": {
+    "en": [
+     "In Luke 8, what did Jesus rebuke to calm the storm on the lake?",
+     "Wind",
+     "Fire",
+     "Rain"
+    ],
+    "es": [
+     "Lucas 8: ¿Qué reprendió Jesús para calmar la tempestad del lago?",
+     "Viento",
+     "Fuego",
+     "Lluvia"
+    ],
+    "pt": [
+     "Em Lucas 8, o que Jesus repreendeu para acalmar a tempestade no lago?",
+     "Vento",
+     "Fogo",
+     "Chuva"
+    ],
+    "fr": [
+     "Dans Luc 8, qu'est-ce que Jésus menaça pour calmer la tempête sur le lac ?",
+     "Vent",
+     "Feu",
+     "Pluie"
+    ],
+    "de": [
+     "Lukas 8: Was wies Jesus scharf zurecht, um den Sturm auf dem See zu beruhigen?",
+     "Wind",
+     "Feuer",
+     "Regen"
+    ],
+    "it": [
+     "In Luca 8, che cosa sgridò Gesù per calmare la tempesta sul lago?",
+     "Vento",
+     "Fuoco",
+     "Pioggia"
+    ],
+    "pl": [
+     "W Ewangelii Łukasza 8: Co zgromił Jezus, aby uciszyć burzę na jeziorze?",
+     "Wiatr",
+     "Ogień",
+     "Deszcz"
+    ],
+    "ru": [
+     "В Евангелии от Луки 8: Что Иисус укротил, чтобы унять бурю на озере?",
+     "Ветер",
+     "Огонь",
+     "Дождь"
+    ],
+    "tr": [
+     "Luka 8'de, İsa'nın gölde fırtınayı yatıştırmak için azarladığı şey neydi?",
+     "Rüzgâr",
+     "Ateş",
+     "Yağmur"
+    ],
+    "ja": [
+     "ルカ8章で、イエスは湖の嵐を静めるために何を叱りましたか？",
+     "風",
+     "火",
+     "雨"
+    ],
+    "ko": [
+     "루카 8장에서 예수님은 호수의 폭풍을 가라앉히려고 무엇을 꾸짖으셨습니까?",
+     "바람",
+     "불",
+     "비"
+    ],
+    "ar": [
+     "في لوقا 8، ماذا انتهر يسوع ليهدئ العاصفة على البحيرة؟",
+     "ريح",
+     "نار",
+     "مطر"
+    ]
+   }
+  },
+  {
+   "id": "ch-luke-001-37",
+   "book": "luke",
+   "chapter": 8,
+   "difficulty": "medium",
+   "ref": "Luke 8:30",
+   "text": {
+    "en": [
+     "In Luke 8, what name did the possessed man tell Jesus?",
+     "Legion",
+     "Satan",
+     "Beelzebul"
+    ],
+    "es": [
+     "Lucas 8: ¿Qué nombre le dijo a Jesús el endemoniado?",
+     "Legión",
+     "Satanás",
+     "Beelzebul"
+    ],
+    "pt": [
+     "Em Lucas 8, que nome o endemoninhado disse a Jesus?",
+     "Legião",
+     "Satanás",
+     "Belzebu"
+    ],
+    "fr": [
+     "Dans Luc 8, quel nom le possédé donna-t-il à Jésus ?",
+     "Légion",
+     "Satan",
+     "Béelzéboul"
+    ],
+    "de": [
+     "Lukas 8: Welchen Namen nannte der Besessene Jesus?",
+     "Legion",
+     "Satan",
+     "Beelzebul"
+    ],
+    "it": [
+     "In Luca 8, quale nome disse a Gesù l'indemoniato?",
+     "Legione",
+     "Satana",
+     "Beelzebùl"
+    ],
+    "pl": [
+     "W Ewangelii Łukasza 8: Jakie imię podał Jezusowi opętany?",
+     "Legion",
+     "Szatan",
+     "Belzebub"
+    ],
+    "ru": [
+     "В Евангелии от Луки 8: Какое имя назвал Иисусу бесноватый?",
+     "Легион",
+     "Сатана",
+     "Веельзевул"
+    ],
+    "tr": [
+     "Luka 8'de, cinli adam İsa'ya adını ne olarak söyledi?",
+     "Lejyon",
+     "Şeytan",
+     "Beelzebul"
+    ],
+    "ja": [
+     "ルカ8章で、悪霊に取りつかれた男はイエスに何と名乗りましたか？",
+     "レギオン",
+     "サタン",
+     "ベルゼブル"
+    ],
+    "ko": [
+     "루카 8장에서 마귀 들린 사람은 예수님께 자기 이름이 무엇이라고 했습니까?",
+     "군대",
+     "사탄",
+     "베엘제불"
+    ],
+    "ar": [
+     "في لوقا 8، ما الاسم الذي قاله الممسوس ليسوع؟",
+     "لجيون",
+     "شيطان",
+     "بعلزبول"
+    ]
+   }
+  },
+  {
+   "id": "ch-luke-001-38",
+   "book": "luke",
+   "chapter": 8,
+   "difficulty": "hard",
+   "ref": "Luke 8:8",
+   "text": {
+    "en": [
+     "In Luke 8, good-soil seed yielded how many times what was sown?",
+     "100",
+     "30",
+     "60"
+    ],
+    "es": [
+     "Lucas 8: ¿Cuántas veces más de lo sembrado dio la semilla caída en buena tierra?",
+     "100",
+     "30",
+     "60"
+    ],
+    "pt": [
+     "Em Lucas 8, quantas vezes mais do que foi semeado deu a semente caída em terra boa?",
+     "100",
+     "30",
+     "60"
+    ],
+    "fr": [
+     "Dans Luc 8, combien de fois plus que ce qui fut semé la semence tombée en bonne terre donna-t-elle ?",
+     "100",
+     "30",
+     "60"
+    ],
+    "de": [
+     "Lukas 8: Wievielfach trug der auf guten Boden gefallene Same?",
+     "100",
+     "30",
+     "60"
+    ],
+    "it": [
+     "In Luca 8, quante volte più di quanto era stato seminato fruttò il seme caduto sulla terra buona?",
+     "100",
+     "30",
+     "60"
+    ],
+    "pl": [
+     "W Ewangelii Łukasza 8: Ile razy więcej plonu wydało ziarno, które padło na dobrą ziemię?",
+     "100",
+     "30",
+     "60"
+    ],
+    "ru": [
+     "В Евангелии от Луки 8: Во сколько раз больше посеянного принесло семя на доброй земле?",
+     "100",
+     "30",
+     "60"
+    ],
+    "tr": [
+     "Luka 8'de, iyi toprağa düşen tohum ekilenin kaç katını verdi?",
+     "100",
+     "30",
+     "60"
+    ],
+    "ja": [
+     "ルカ8章で、良い土地に落ちた種は、蒔いた量の何倍の実を結びましたか？",
+     "100",
+     "30",
+     "60"
+    ],
+    "ko": [
+     "루카 8장에서 좋은 땅에 떨어진 씨는 뿌린 것의 몇 배의 열매를 맺었습니까?",
+     "100",
+     "30",
+     "60"
+    ],
+    "ar": [
+     "في لوقا 8، كم ضعفا أثمر الزرع الذي سقط في الأرض الجيدة؟",
+     "100",
+     "30",
+     "60"
+    ]
+   }
+  },
+  {
+   "id": "ch-luke-001-39",
+   "book": "luke",
+   "chapter": 8,
+   "difficulty": "expert",
+   "ref": "Luke 8:42",
+   "text": {
+    "en": [
+     "In Luke 8, how old was Jairus' only daughter?",
+     "12",
+     "7",
+     "14"
+    ],
+    "es": [
+     "Lucas 8: ¿Cuántos años tenía la hija única de Jairo?",
+     "12",
+     "7",
+     "14"
+    ],
+    "pt": [
+     "Em Lucas 8, quantos anos tinha a filha única de Jairo?",
+     "12",
+     "7",
+     "14"
+    ],
+    "fr": [
+     "Dans Luc 8, quel âge avait la fille unique de Jaïre ?",
+     "12",
+     "7",
+     "14"
+    ],
+    "de": [
+     "Lukas 8: Wie alt war die einzige Tochter des Jaïrus?",
+     "12",
+     "7",
+     "14"
+    ],
+    "it": [
+     "In Luca 8, quanti anni aveva l'unica figlia di Giairo?",
+     "12",
+     "7",
+     "14"
+    ],
+    "pl": [
+     "W Ewangelii Łukasza 8: Ile lat miała jedyna córka Jaira?",
+     "12",
+     "7",
+     "14"
+    ],
+    "ru": [
+     "В Евангелии от Луки 8: Сколько лет было единственной дочери Иаира?",
+     "12",
+     "7",
+     "14"
+    ],
+    "tr": [
+     "Luka 8'de, Yair'in biricik kızı kaç yaşındaydı?",
+     "12",
+     "7",
+     "14"
+    ],
+    "ja": [
+     "ルカ8章で、ヤイロのひとり娘は何歳でしたか？",
+     "12",
+     "7",
+     "14"
+    ],
+    "ko": [
+     "루카 8장에서 야이로의 외동딸은 몇 살이었습니까?",
+     "12",
+     "7",
+     "14"
+    ],
+    "ar": [
+     "في لوقا 8، كم كان عمر ابنة يائيرس الوحيدة؟",
+     "12",
+     "7",
+     "14"
+    ]
+   }
+  },
+  {
+   "id": "ch-luke-001-40",
+   "book": "luke",
+   "chapter": 8,
+   "difficulty": "impossible",
+   "ref": "Luke 8:29",
+   "text": {
+    "en": [
+     "In Luke 8, what did the possessed man keep breaking even when bound?",
+     "Chains",
+     "Ropes",
+     "Doors"
+    ],
+    "es": [
+     "Lucas 8: ¿Qué rompía una y otra vez el endemoniado aunque lo ataran?",
+     "Cadenas",
+     "Cuerdas",
+     "Puertas"
+    ],
+    "pt": [
+     "Em Lucas 8, o que o endemoninhado rompia sempre, mesmo amarrado?",
+     "Correntes",
+     "Cordas",
+     "Portas"
+    ],
+    "fr": [
+     "Dans Luc 8, qu'est-ce que le possédé brisait toujours, même lié ?",
+     "Chaînes",
+     "Cordes",
+     "Portes"
+    ],
+    "de": [
+     "Lukas 8: Was zerriss der Besessene immer wieder, obwohl er gefesselt war?",
+     "Ketten",
+     "Seile",
+     "Türen"
+    ],
+    "it": [
+     "In Luca 8, che cosa spezzava sempre l'indemoniato, benché legato?",
+     "Catene",
+     "Corde",
+     "Porte"
+    ],
+    "pl": [
+     "W Ewangelii Łukasza 8: Co ciągle zrywał opętany, choć był skuty?",
+     "Łańcuchy",
+     "Liny",
+     "Drzwi"
+    ],
+    "ru": [
+     "В Евангелии от Луки 8: Что разрывал бесноватый, хотя его связывали?",
+     "Цепи",
+     "Верёвки",
+     "Двери"
+    ],
+    "tr": [
+     "Luka 8'de, bağlansa da cinli adamın sürekli koparıp durduğu şey neydi?",
+     "Zincirler",
+     "İpler",
+     "Kapılar"
+    ],
+    "ja": [
+     "ルカ8章で、縛られても、悪霊につかれた男が何度も断ち切ったものは何ですか？",
+     "鎖",
+     "縄",
+     "扉"
+    ],
+    "ko": [
+     "루카 8장에서 마귀 들린 사람은 묶여 있어도 계속 무엇을 끊었습니까?",
+     "사슬",
+     "밧줄",
+     "문"
+    ],
+    "ar": [
+     "في لوقا 8، ماذا كان الممسوس يقطع مرارا مع أنه موثق؟",
+     "سلاسل",
+     "حبال",
+     "أبواب"
+    ]
+   }
+  },
+  {
+   "id": "ch-luke-001-41",
+   "book": "luke",
+   "chapter": 9,
+   "difficulty": "easy",
+   "ref": "Luke 9:30",
+   "text": {
+    "en": [
+     "In Luke 9, who appeared with Elijah beside Jesus on the mountain?",
+     "Moses",
+     "Isaiah",
+     "Abraham"
+    ],
+    "es": [
+     "Lucas 9: ¿Quién apareció con Elías junto a Jesús en el monte?",
+     "Moisés",
+     "Isaías",
+     "Abraham"
+    ],
+    "pt": [
+     "Em Lucas 9, quem apareceu com Elias ao lado de Jesus no monte?",
+     "Moisés",
+     "Isaías",
+     "Abraão"
+    ],
+    "fr": [
+     "Dans Luc 9, qui apparut avec Élie auprès de Jésus sur la montagne ?",
+     "Moïse",
+     "Isaïe",
+     "Abraham"
+    ],
+    "de": [
+     "Lukas 9: Wer erschien mit Elija neben Jesus auf dem Berg?",
+     "Mose",
+     "Jesaja",
+     "Abraham"
+    ],
+    "it": [
+     "In Luca 9, chi apparve con Elia accanto a Gesù sul monte?",
+     "Mosè",
+     "Isaia",
+     "Abramo"
+    ],
+    "pl": [
+     "W Ewangelii Łukasza 9: Kto ukazał się z Eliaszem obok Jezusa na górze?",
+     "Mojżesz",
+     "Izajasz",
+     "Abraham"
+    ],
+    "ru": [
+     "В Евангелии от Луки 9: Кто явился вместе с Илией рядом с Иисусом на горе?",
+     "Моисей",
+     "Исаия",
+     "Авраам"
+    ],
+    "tr": [
+     "Luka 9'da, dağda İsa'nın yanında İlyas'la birlikte kim göründü?",
+     "Musa",
+     "Yeşaya",
+     "İbrahim"
+    ],
+    "ja": [
+     "ルカ9章で、山でエリヤとともにイエスのそばに現れたのは誰ですか？",
+     "モーセ",
+     "イザヤ",
+     "アブラハム"
+    ],
+    "ko": [
+     "루카 9장에서 산에서 엘리야와 함께 예수님 곁에 나타난 사람은 누구입니까?",
+     "모세",
+     "이사야",
+     "아브라함"
+    ],
+    "ar": [
+     "في لوقا 9، من ظهر مع إيليا بجانب يسوع على الجبل؟",
+     "موسى",
+     "إشعيا",
+     "إبراهيم"
+    ]
+   }
+  },
+  {
+   "id": "ch-luke-001-42",
+   "book": "luke",
+   "chapter": 9,
+   "difficulty": "medium",
+   "ref": "Luke 9:13",
+   "text": {
+    "en": [
+     "In Luke 9, how many loaves did the disciples have, besides two fish?",
+     "5",
+     "7",
+     "3"
+    ],
+    "es": [
+     "Lucas 9: ¿Cuántos panes tenían los discípulos para la multitud, además de dos peces?",
+     "5",
+     "7",
+     "3"
+    ],
+    "pt": [
+     "Em Lucas 9, quantos pães os discípulos tinham para a multidão, além de dois peixes?",
+     "5",
+     "7",
+     "3"
+    ],
+    "fr": [
+     "Dans Luc 9, combien de pains les disciples avaient-ils pour la foule, outre deux poissons ?",
+     "5",
+     "7",
+     "3"
+    ],
+    "de": [
+     "Lukas 9: Wie viele Brote hatten die Jünger für die Menge, außer zwei Fischen?",
+     "5",
+     "7",
+     "3"
+    ],
+    "it": [
+     "In Luca 9, quanti pani avevano i discepoli per la folla, oltre a due pesci?",
+     "5",
+     "7",
+     "3"
+    ],
+    "pl": [
+     "W Ewangelii Łukasza 9: Ile chlebów mieli uczniowie dla tłumu, oprócz dwóch ryb?",
+     "5",
+     "7",
+     "3"
+    ],
+    "ru": [
+     "В Евангелии от Луки 9: Сколько хлебов было у учеников для толпы, кроме двух рыб?",
+     "5",
+     "7",
+     "3"
+    ],
+    "tr": [
+     "Luka 9'da, öğrencilerin kalabalık için iki balığın yanında kaç ekmeği vardı?",
+     "5",
+     "7",
+     "3"
+    ],
+    "ja": [
+     "ルカ9章で、弟子たちには、二匹の魚のほかに、群衆のためのパンがいくつありましたか？",
+     "5",
+     "7",
+     "3"
+    ],
+    "ko": [
+     "루카 9장에서 제자들에게는 물고기 두 마리 외에 군중을 위한 빵이 몇 개 있었습니까?",
+     "5",
+     "7",
+     "3"
+    ],
+    "ar": [
+     "في لوقا 9، كم رغيفا كان عند التلاميذ للجمع، عدا سمكتين؟",
+     "5",
+     "7",
+     "3"
+    ]
+   }
+  },
+  {
+   "id": "ch-luke-001-43",
+   "book": "luke",
+   "chapter": 9,
+   "difficulty": "hard",
+   "ref": "Luke 9:17",
+   "text": {
+    "en": [
+     "In Luke 9, how many baskets of leftover fragments were gathered?",
+     "12",
+     "7",
+     "10"
+    ],
+    "es": [
+     "Lucas 9: ¿Cuántos canastos de sobras se recogieron?",
+     "12",
+     "7",
+     "10"
+    ],
+    "pt": [
+     "Em Lucas 9, quantos cestos de pedaços sobrados foram recolhidos?",
+     "12",
+     "7",
+     "10"
+    ],
+    "fr": [
+     "Dans Luc 9, combien de paniers de morceaux restants furent ramassés ?",
+     "12",
+     "7",
+     "10"
+    ],
+    "de": [
+     "Lukas 9: Wie viele Körbe mit übrig gebliebenen Stücken wurden gesammelt?",
+     "12",
+     "7",
+     "10"
+    ],
+    "it": [
+     "In Luca 9, quante ceste di avanzi furono raccolte?",
+     "12",
+     "7",
+     "10"
+    ],
+    "pl": [
+     "W Ewangelii Łukasza 9: Ile koszów pozostałych ułomków zebrano?",
+     "12",
+     "7",
+     "10"
+    ],
+    "ru": [
+     "В Евангелии от Луки 9: Сколько коробов оставшихся кусков было собрано?",
+     "12",
+     "7",
+     "10"
+    ],
+    "tr": [
+     "Luka 9'da, artan parçalardan kaç sepet toplandı?",
+     "12",
+     "7",
+     "10"
+    ],
+    "ja": [
+     "ルカ9章で、余ったパン切れは、いくつのかごに集められましたか？",
+     "12",
+     "7",
+     "10"
+    ],
+    "ko": [
+     "루카 9장에서 남은 조각을 몇 바구니나 거두었습니까?",
+     "12",
+     "7",
+     "10"
+    ],
+    "ar": [
+     "في لوقا 9، كم سلة من الكسر الفاضلة جُمعت؟",
+     "12",
+     "7",
+     "10"
+    ]
+   }
+  },
+  {
+   "id": "ch-luke-001-44",
+   "book": "luke",
+   "chapter": 9,
+   "difficulty": "expert",
+   "ref": "Luke 9:28",
+   "text": {
+    "en": [
+     "In Luke 9, about how many days later did Jesus climb the mountain?",
+     "8",
+     "6",
+     "7"
+    ],
+    "es": [
+     "Lucas 9: ¿Unos cuántos días después de estas palabras subió Jesús al monte?",
+     "8",
+     "6",
+     "7"
+    ],
+    "pt": [
+     "Em Lucas 9, cerca de quantos dias depois destas palavras Jesus subiu ao monte?",
+     "8",
+     "6",
+     "7"
+    ],
+    "fr": [
+     "Dans Luc 9, environ combien de jours après ces paroles Jésus monta-t-il sur la montagne ?",
+     "8",
+     "6",
+     "7"
+    ],
+    "de": [
+     "Lukas 9: Etwa wie viele Tage nach diesen Worten stieg Jesus auf den Berg?",
+     "8",
+     "6",
+     "7"
+    ],
+    "it": [
+     "In Luca 9, circa quanti giorni dopo questi discorsi Gesù salì sul monte?",
+     "8",
+     "6",
+     "7"
+    ],
+    "pl": [
+     "W Ewangelii Łukasza 9: Mniej więcej ile dni po tych słowach Jezus wszedł na górę?",
+     "8",
+     "6",
+     "7"
+    ],
+    "ru": [
+     "В Евангелии от Луки 9: Через сколько примерно дней после этих слов Иисус взошёл на гору?",
+     "8",
+     "6",
+     "7"
+    ],
+    "tr": [
+     "Luka 9'da, bu sözlerden yaklaşık kaç gün sonra İsa dağa çıktı?",
+     "8",
+     "6",
+     "7"
+    ],
+    "ja": [
+     "ルカ9章で、これらの言葉の約何日後に、イエスは山に登りましたか？",
+     "8",
+     "6",
+     "7"
+    ],
+    "ko": [
+     "루카 9장에서 이 말씀 뒤 약 며칠 만에 예수님은 산에 올라가셨습니까?",
+     "8",
+     "6",
+     "7"
+    ],
+    "ar": [
+     "في لوقا 9، بعد نحو كم يوما من هذا الكلام صعد يسوع الجبل؟",
+     "8",
+     "6",
+     "7"
+    ]
+   }
+  },
+  {
+   "id": "ch-luke-001-45",
+   "book": "luke",
+   "chapter": 9,
+   "difficulty": "impossible",
+   "ref": "Luke 9:62",
+   "text": {
+    "en": [
+     "In Luke 9, which farming tool did Jesus mention for those who look back?",
+     "Plow",
+     "Sword",
+     "Hammer"
+    ],
+    "es": [
+     "Lucas 9: ¿Qué herramienta agrícola mencionó Jesús para quien mira atrás?",
+     "Arado",
+     "Espada",
+     "Martillo"
+    ],
+    "pt": [
+     "Em Lucas 9, que ferramenta agrícola Jesus mencionou para quem olha para trás?",
+     "Arado",
+     "Espada",
+     "Martelo"
+    ],
+    "fr": [
+     "Dans Luc 9, quel outil agricole Jésus mentionna-t-il pour celui qui regarde en arrière ?",
+     "Charrue",
+     "Épée",
+     "Marteau"
+    ],
+    "de": [
+     "Lukas 9: Welches Ackergerät nannte Jesus für den, der zurückblickt?",
+     "Pflug",
+     "Schwert",
+     "Hammer"
+    ],
+    "it": [
+     "In Luca 9, quale attrezzo agricolo citò Gesù per chi si volta indietro?",
+     "Aratro",
+     "Spada",
+     "Martello"
+    ],
+    "pl": [
+     "W Ewangelii Łukasza 9: Jakie narzędzie rolnicze wspomniał Jezus dla tego, kto się ogląda wstecz?",
+     "Pług",
+     "Miecz",
+     "Młot"
+    ],
+    "ru": [
+     "В Евангелии от Луки 9: Какое земледельческое орудие упомянул Иисус для оглядывающегося назад?",
+     "Плуг",
+     "Меч",
+     "Молот"
+    ],
+    "tr": [
+     "Luka 9'da, İsa'nın geriye bakan kişi için andığı tarım aleti hangisiydi?",
+     "Saban",
+     "Kılıç",
+     "Çekiç"
+    ],
+    "ja": [
+     "ルカ9章で、イエスが、後ろを振り返る者について挙げた農具は何ですか？",
+     "鋤",
+     "剣",
+     "槌"
+    ],
+    "ko": [
+     "루카 9장에서 예수님이 뒤를 돌아보는 사람에 대해 말씀하신 농기구는 무엇입니까?",
+     "쟁기",
+     "칼",
+     "망치"
+    ],
+    "ar": [
+     "في لوقا 9، أي أداة زراعية ذكرها يسوع لمن ينظر إلى الوراء؟",
+     "محراث",
+     "سيف",
+     "مطرقة"
+    ]
+   }
+  },
+  {
+   "id": "ch-luke-001-46",
+   "book": "luke",
+   "chapter": 10,
+   "difficulty": "easy",
+   "ref": "Luke 10:2",
+   "text": {
+    "en": [
+     "In Luke 10, what is plentiful, though the laborers are few?",
+     "Harvest",
+     "Water",
+     "Gold"
+    ],
+    "es": [
+     "Lucas 10: ¿Qué es abundante, aunque los obreros son pocos?",
+     "Cosecha",
+     "Agua",
+     "Oro"
+    ],
+    "pt": [
+     "Em Lucas 10, o que é abundante, embora os trabalhadores sejam poucos?",
+     "Colheita",
+     "Água",
+     "Ouro"
+    ],
+    "fr": [
+     "Dans Luc 10, qu'est-ce qui est abondant, alors que les ouvriers sont peu nombreux ?",
+     "Moisson",
+     "Eau",
+     "Or"
+    ],
+    "de": [
+     "Lukas 10: Was ist reichlich vorhanden, obwohl die Arbeiter wenige sind?",
+     "Ernte",
+     "Wasser",
+     "Gold"
+    ],
+    "it": [
+     "In Luca 10, che cosa è abbondante, mentre gli operai sono pochi?",
+     "Messe",
+     "Acqua",
+     "Oro"
+    ],
+    "pl": [
+     "W Ewangelii Łukasza 10: Co jest obfite, chociaż robotników jest mało?",
+     "Żniwo",
+     "Woda",
+     "Złoto"
+    ],
+    "ru": [
+     "В Евангелии от Луки 10: Что велико, хотя делателей мало?",
+     "Жатва",
+     "Вода",
+     "Золото"
+    ],
+    "tr": [
+     "Luka 10'da, işçiler az olsa da bol olan nedir?",
+     "Hasat",
+     "Su",
+     "Altın"
+    ],
+    "ja": [
+     "ルカ10章で、収穫は多いのに働き手が少ないとき、多いものは何ですか？",
+     "収穫",
+     "水",
+     "金"
+    ],
+    "ko": [
+     "루카 10장에서 일꾼은 적은데 많은 것은 무엇입니까?",
+     "수확",
+     "물",
+     "금"
+    ],
+    "ar": [
+     "في لوقا 10، ما الكثير مع أن الفعلة قليلون؟",
+     "حصاد",
+     "ماء",
+     "ذهب"
+    ]
+   }
+  },
+  {
+   "id": "ch-luke-001-47",
+   "book": "luke",
+   "chapter": 10,
+   "difficulty": "medium",
+   "ref": "Luke 10:39",
+   "text": {
+    "en": [
+     "In Luke 10, which sister sat at the Lord's feet listening to his word?",
+     "Mary",
+     "Martha",
+     "Salome"
+    ],
+    "es": [
+     "Lucas 10: ¿Qué hermana se sentó a los pies del Señor escuchando su palabra?",
+     "María",
+     "Marta",
+     "Salomé"
+    ],
+    "pt": [
+     "Em Lucas 10, qual irmã se sentou aos pés do Senhor ouvindo a sua palavra?",
+     "Maria",
+     "Marta",
+     "Salomé"
+    ],
+    "fr": [
+     "Dans Luc 10, quelle sœur s'assit aux pieds du Seigneur pour écouter sa parole ?",
+     "Marie",
+     "Marthe",
+     "Salomé"
+    ],
+    "de": [
+     "Lukas 10: Welche Schwester setzte sich dem Herrn zu Füßen und hörte sein Wort?",
+     "Maria",
+     "Marta",
+     "Salome"
+    ],
+    "it": [
+     "In Luca 10, quale sorella sedette ai piedi del Signore ascoltando la sua parola?",
+     "Maria",
+     "Marta",
+     "Salome"
+    ],
+    "pl": [
+     "W Ewangelii Łukasza 10: Która siostra usiadła u stóp Pana i słuchała jego słowa?",
+     "Maria",
+     "Marta",
+     "Salome"
+    ],
+    "ru": [
+     "В Евангелии от Луки 10: Какая сестра села у ног Господа и слушала слово его?",
+     "Мария",
+     "Марфа",
+     "Саломия"
+    ],
+    "tr": [
+     "Luka 10'da, hangi kız kardeş Rab'bin ayaklarının dibine oturup sözünü dinledi?",
+     "Meryem",
+     "Marta",
+     "Salome"
+    ],
+    "ja": [
+     "ルカ10章で、どの姉妹が主の足もとに座って、そのみ言葉に聞き入りましたか？",
+     "マリア",
+     "マルタ",
+     "サロメ"
+    ],
+    "ko": [
+     "루카 10장에서 어느 자매가 주님의 발치에 앉아 그분의 말씀을 들었습니까?",
+     "마리아",
+     "마르타",
+     "살로메"
+    ],
+    "ar": [
+     "في لوقا 10، أي أخت جلست عند قدمي الرب تسمع كلامه؟",
+     "مريم",
+     "مرثا",
+     "سالومة"
+    ]
+   }
+  },
+  {
+   "id": "ch-luke-001-48",
+   "book": "luke",
+   "chapter": 10,
+   "difficulty": "hard",
+   "ref": "Luke 10:19",
+   "text": {
+    "en": [
+     "In Luke 10, besides snakes, which creatures could disciples tread on?",
+     "Scorpions",
+     "Lions",
+     "Eagles"
+    ],
+    "es": [
+     "Lucas 10: ¿Qué animales, además de las serpientes, dio Jesús a los discípulos autoridad para pisar?",
+     "Escorpiones",
+     "Leones",
+     "Águilas"
+    ],
+    "pt": [
+     "Em Lucas 10, sobre que animais, além das serpentes, Jesus deu aos discípulos autoridade para pisar?",
+     "Escorpiões",
+     "Leões",
+     "Águias"
+    ],
+    "fr": [
+     "Dans Luc 10, sur quels animaux, outre les serpents, Jésus donna-t-il aux disciples le pouvoir de marcher ?",
+     "Scorpions",
+     "Lions",
+     "Aigles"
+    ],
+    "de": [
+     "Lukas 10: Auf welche Tiere außer Schlangen gab Jesus den Jüngern die Macht zu treten?",
+     "Skorpione",
+     "Löwen",
+     "Adler"
+    ],
+    "it": [
+     "In Luca 10, su quali animali, oltre ai serpenti, Gesù diede ai discepoli il potere di camminare?",
+     "Scorpioni",
+     "Leoni",
+     "Aquile"
+    ],
+    "pl": [
+     "W Ewangelii Łukasza 10: Jakie zwierzęta, oprócz węży, Jezus dał uczniom władzę deptać?",
+     "Skorpiony",
+     "Lwy",
+     "Orły"
+    ],
+    "ru": [
+     "В Евангелии от Луки 10: Какие существа, кроме змей, упомянуты, когда Иисус даёт ученикам власть наступать на них?",
+     "Скорпионы",
+     "Львы",
+     "Орлы"
+    ],
+    "tr": [
+     "Luka 10'da, İsa'nın öğrencilere yılanlar dışında üzerine basma yetkisi verdiği canlılar hangileriydi?",
+     "Akrepler",
+     "Aslanlar",
+     "Kartallar"
+    ],
+    "ja": [
+     "ルカ10章で、イエスが弟子たちに、蛇のほかに踏みつける権威を与えた生き物は何ですか？",
+     "サソリ",
+     "ライオン",
+     "鷲"
+    ],
+    "ko": [
+     "루카 10장에서 예수님이 제자들에게 뱀 외에 밟을 권능을 주신 생물은 무엇입니까?",
+     "전갈",
+     "사자",
+     "독수리"
+    ],
+    "ar": [
+     "في لوقا 10، على أي كائنات، غير الحيات، أعطى يسوع التلاميذ سلطانا ليدوس؟",
+     "عقارب",
+     "أسود",
+     "نسور"
+    ]
+   }
+  },
+  {
+   "id": "ch-luke-001-49",
+   "book": "luke",
+   "chapter": 10,
+   "difficulty": "expert",
+   "ref": "Luke 10:15",
+   "text": {
+    "en": [
+     "In Luke 10, which town did Jesus say would not be exalted to heaven?",
+     "Capernaum",
+     "Jericho",
+     "Cana"
+    ],
+    "es": [
+     "Lucas 10: ¿Qué ciudad dijo Jesús que no sería elevada hasta el cielo?",
+     "Cafarnaún",
+     "Jericó",
+     "Caná"
+    ],
+    "pt": [
+     "Em Lucas 10, que cidade Jesus disse que não seria elevada até o céu?",
+     "Cafarnaum",
+     "Jericó",
+     "Caná"
+    ],
+    "fr": [
+     "Dans Luc 10, quelle ville ne serait pas élevée jusqu’au ciel, selon Jésus ?",
+     "Capharnaüm",
+     "Jéricho",
+     "Cana"
+    ],
+    "de": [
+     "Lukas 10: Welche Stadt werde laut Jesus nicht bis zum Himmel erhoben?",
+     "Kafarnaum",
+     "Jericho",
+     "Kana"
+    ],
+    "it": [
+     "In Luca 10, quale città, disse Gesù, non sarebbe stata innalzata fino al cielo?",
+     "Cafarnao",
+     "Gerico",
+     "Cana"
+    ],
+    "pl": [
+     "W Ewangelii Łukasza 10: Które miasto według Jezusa nie zostanie wyniesione aż do nieba?",
+     "Kafarnaum",
+     "Jerycho",
+     "Kana"
+    ],
+    "ru": [
+     "В Евангелии от Луки 10: Какой город, по слову Иисуса, не будет вознесён до небес?",
+     "Капернаум",
+     "Иерихон",
+     "Кана"
+    ],
+    "tr": [
+     "Luka 10'da, İsa'ya göre hangi kent göğe kadar yükseltilmeyecekti?",
+     "Kefernahum",
+     "Eriha",
+     "Kana"
+    ],
+    "ja": [
+     "ルカ10章で、イエスが天にまで上げられることはないと言った町はどこですか？",
+     "カファルナウム",
+     "エリコ",
+     "カナ"
+    ],
+    "ko": [
+     "루카 10장에서 예수님은 어느 고을이 하늘까지 오르지 못할 것이라고 하셨습니까?",
+     "카파르나움",
+     "예리코",
+     "카나"
+    ],
+    "ar": [
+     "في لوقا 10، أي مدينة قال يسوع إنها لن تُرفع إلى السماء؟",
+     "كفرناحوم",
+     "أريحا",
+     "قانا"
+    ]
+   }
+  },
+  {
+   "id": "ch-luke-001-50",
+   "book": "luke",
+   "chapter": 10,
+   "difficulty": "impossible",
+   "ref": "Luke 10:42",
+   "text": {
+    "en": [
+     "In Luke 10, how many things did Jesus say are needed?",
+     "1",
+     "2",
+     "3"
+    ],
+    "es": [
+     "Lucas 10: ¿Cuántas cosas dijo Jesús que son necesarias?",
+     "1",
+     "2",
+     "3"
+    ],
+    "pt": [
+     "Em Lucas 10, quantas coisas Jesus disse que são necessárias?",
+     "1",
+     "2",
+     "3"
+    ],
+    "fr": [
+     "Dans Luc 10, combien de choses Jésus dit-il qu'il faut ?",
+     "1",
+     "2",
+     "3"
+    ],
+    "de": [
+     "Lukas 10: Wie viele Dinge sind laut Jesus nötig?",
+     "1",
+     "2",
+     "3"
+    ],
+    "it": [
+     "In Luca 10, quante cose disse Gesù che sono necessarie?",
+     "1",
+     "2",
+     "3"
+    ],
+    "pl": [
+     "W Ewangelii Łukasza 10: Ile rzeczy według Jezusa jest potrzebnych?",
+     "1",
+     "2",
+     "3"
+    ],
+    "ru": [
+     "В Евангелии от Луки 10: Сколько вещей, по слову Иисуса, нужно?",
+     "1",
+     "2",
+     "3"
+    ],
+    "tr": [
+     "Luka 10'da, İsa kaç şeyin gerekli olduğunu söyledi?",
+     "1",
+     "2",
+     "3"
+    ],
+    "ja": [
+     "ルカ10章で、イエスは必要なことはいくつあると言いましたか？",
+     "1",
+     "2",
+     "3"
+    ],
+    "ko": [
+     "루카 10장에서 예수님은 필요한 것이 몇 가지라고 하셨습니까?",
+     "1",
+     "2",
+     "3"
+    ],
+    "ar": [
+     "في لوقا 10، كم أمرا قال يسوع إنه لازم؟",
+     "1",
+     "2",
+     "3"
+    ]
+   }
+  },
+  {
+   "id": "ch-luke-001-51",
+   "book": "luke",
+   "chapter": 11,
+   "difficulty": "easy",
+   "ref": "Luke 11:2",
+   "text": {
+    "en": [
+     "In Luke 11, what word of address for God begins the prayer Jesus taught?",
+     "Father",
+     "King",
+     "Judge"
+    ],
+    "es": [
+     "Lucas 11: ¿Qué palabra para dirigirse a Dios inicia la oración que Jesús enseñó?",
+     "Padre",
+     "Rey",
+     "Juez"
+    ],
+    "pt": [
+     "Em Lucas 11, que palavra para se dirigir a Deus inicia a oração que Jesus ensinou?",
+     "Pai",
+     "Rei",
+     "Juiz"
+    ],
+    "fr": [
+     "Dans Luc 11, quel mot pour s'adresser à Dieu commence la prière enseignée par Jésus ?",
+     "Père",
+     "Roi",
+     "Juge"
+    ],
+    "de": [
+     "Lukas 11: Welches Anredewort für Gott beginnt das Gebet, das Jesus lehrte?",
+     "Vater",
+     "König",
+     "Richter"
+    ],
+    "it": [
+     "In Luca 11, quale parola per rivolgersi a Dio inizia la preghiera insegnata da Gesù?",
+     "Padre",
+     "Re",
+     "Giudice"
+    ],
+    "pl": [
+     "W Ewangelii Łukasza 11: Jakie słowo skierowane do Boga rozpoczyna modlitwę, której nauczył Jezus?",
+     "Ojciec",
+     "Król",
+     "Sędzia"
+    ],
+    "ru": [
+     "В Евангелии от Луки 11: Какое обращение к Богу начинает молитву, которой научил Иисус?",
+     "Отец",
+     "Царь",
+     "Судья"
+    ],
+    "tr": [
+     "Luka 11'de, İsa'nın öğrettiği duanın ilk hitap sözcüğü hangisidir?",
+     "Baba",
+     "Kral",
+     "Yargıç"
+    ],
+    "ja": [
+     "ルカ11章で、イエスが教えた祈りは、神へのどんな呼びかけで始まりますか？",
+     "父",
+     "王",
+     "裁判官"
+    ],
+    "ko": [
+     "루카 11장에서 예수님이 가르치신 기도는 하느님을 어떻게 부르며 시작합니까?",
+     "아버지",
+     "임금",
+     "재판관"
+    ],
+    "ar": [
+     "في لوقا 11، بأي كلمة نداء لله تبدأ الصلاة التي علمها يسوع؟",
+     "أب",
+     "ملك",
+     "قاض"
+    ]
+   }
+  },
+  {
+   "id": "ch-luke-001-52",
+   "book": "luke",
+   "chapter": 11,
+   "difficulty": "medium",
+   "ref": "Luke 11:30",
+   "text": {
+    "en": [
+     "In Luke 11, which prophet became a sign to the Ninevites?",
+     "Jonah",
+     "Elijah",
+     "Isaiah"
+    ],
+    "es": [
+     "Lucas 11: ¿Qué profeta fue señal para los ninivitas?",
+     "Jonás",
+     "Elías",
+     "Isaías"
+    ],
+    "pt": [
+     "Em Lucas 11, que profeta foi sinal para os ninivitas?",
+     "Jonas",
+     "Elias",
+     "Isaías"
+    ],
+    "fr": [
+     "Dans Luc 11, quel prophète fut un signe pour les Ninivites ?",
+     "Jonas",
+     "Élie",
+     "Isaïe"
+    ],
+    "de": [
+     "Lukas 11: Welcher Prophet wurde für die Niniviten zum Zeichen?",
+     "Jona",
+     "Elija",
+     "Jesaja"
+    ],
+    "it": [
+     "In Luca 11, quale profeta fu un segno per i Niniviti?",
+     "Giona",
+     "Elia",
+     "Isaia"
+    ],
+    "pl": [
+     "W Ewangelii Łukasza 11: Który prorok stał się znakiem dla Niniwitów?",
+     "Jonasz",
+     "Eliasz",
+     "Izajasz"
+    ],
+    "ru": [
+     "В Евангелии от Луки 11: Кто из пророков стал знамением для ниневитян?",
+     "Иона",
+     "Илия",
+     "Исаия"
+    ],
+    "tr": [
+     "Luka 11'de, Ninovalılar için hangi peygamber bir belirti oldu?",
+     "Yunus",
+     "İlyas",
+     "Yeşaya"
+    ],
+    "ja": [
+     "ルカ11章で、ニネベの人々にとってしるしとなった預言者は誰ですか？",
+     "ヨナ",
+     "エリヤ",
+     "イザヤ"
+    ],
+    "ko": [
+     "루카 11장에서 니네베 사람들에게 표징이 된 예언자는 누구입니까?",
+     "요나",
+     "엘리야",
+     "이사야"
+    ],
+    "ar": [
+     "في لوقا 11، أي نبي صار آية لأهل نينوى؟",
+     "يونان",
+     "إيليا",
+     "إشعيا"
+    ]
+   }
+  },
+  {
+   "id": "ch-luke-001-53",
+   "book": "luke",
+   "chapter": 11,
+   "difficulty": "hard",
+   "ref": "Luke 11:51",
+   "text": {
+    "en": [
+     "In Luke 11, which murdered righteous man did Jesus name first?",
+     "Abel",
+     "Cain",
+     "Seth"
+    ],
+    "es": [
+     "Lucas 11: ¿Qué justo asesinado nombró Jesús en primer lugar?",
+     "Abel",
+     "Caín",
+     "Set"
+    ],
+    "pt": [
+     "Em Lucas 11, que justo assassinado Jesus nomeou primeiro?",
+     "Abel",
+     "Caim",
+     "Set"
+    ],
+    "fr": [
+     "Dans Luc 11, quel juste assassiné Jésus nomma-t-il en premier ?",
+     "Abel",
+     "Caïn",
+     "Seth"
+    ],
+    "de": [
+     "Lukas 11: Welchen ermordeten Gerechten nannte Jesus zuerst?",
+     "Abel",
+     "Kain",
+     "Set"
+    ],
+    "it": [
+     "In Luca 11, quale giusto assassinato Gesù nominò per primo?",
+     "Abele",
+     "Caino",
+     "Set"
+    ],
+    "pl": [
+     "W Ewangelii Łukasza 11: Który zamordowany sprawiedliwy został przez Jezusa wymieniony jako pierwszy?",
+     "Abel",
+     "Kain",
+     "Set"
+    ],
+    "ru": [
+     "В Евангелии от Луки 11: Какой убитый праведник назван Иисусом первым?",
+     "Авель",
+     "Каин",
+     "Сиф"
+    ],
+    "tr": [
+     "Luka 11'de, İsa'nın ilk olarak andığı, öldürülen doğru kişi kimdi?",
+     "Habil",
+     "Kabil",
+     "Şit"
+    ],
+    "ja": [
+     "ルカ11章で、イエスが最初に挙げた、殺された正しい人は誰ですか？",
+     "アベル",
+     "カイン",
+     "セト"
+    ],
+    "ko": [
+     "루카 11장에서 예수님이 처음으로 언급하신, 살해된 의인은 누구입니까?",
+     "아벨",
+     "카인",
+     "셋"
+    ],
+    "ar": [
+     "في لوقا 11، أي بار مقتول ذكره يسوع أولا؟",
+     "هابيل",
+     "قايين",
+     "شيث"
+    ]
+   }
+  },
+  {
+   "id": "ch-luke-001-54",
+   "book": "luke",
+   "chapter": 11,
+   "difficulty": "expert",
+   "ref": "Luke 11:20",
+   "text": {
+    "en": [
+     "In Luke 11, which part of God's body did Jesus say drives out demons?",
+     "Finger",
+     "Foot",
+     "Ear"
+    ],
+    "es": [
+     "Lucas 11: ¿Qué parte del cuerpo de Dios dijo Jesús que expulsa a los demonios?",
+     "Dedo",
+     "Pie",
+     "Oreja"
+    ],
+    "pt": [
+     "Em Lucas 11, que parte do corpo de Deus Jesus disse que expulsa os demônios?",
+     "Dedo",
+     "Pé",
+     "Orelha"
+    ],
+    "fr": [
+     "Dans Luc 11, quelle partie du corps de Dieu Jésus dit-il chasser les démons ?",
+     "Doigt",
+     "Pied",
+     "Oreille"
+    ],
+    "de": [
+     "Lukas 11: Welcher Körperteil Gottes treibt laut Jesus die Dämonen aus?",
+     "Finger",
+     "Fuß",
+     "Ohr"
+    ],
+    "it": [
+     "In Luca 11, quale parte del corpo di Dio, disse Gesù, scaccia i demòni?",
+     "Dito",
+     "Piede",
+     "Orecchio"
+    ],
+    "pl": [
+     "W Ewangelii Łukasza 11: Która część ciała Boga według Jezusa wyrzuca demony?",
+     "Palec",
+     "Stopa",
+     "Ucho"
+    ],
+    "ru": [
+     "В Евангелии от Луки 11: Какая часть тела Бога, по слову Иисуса, изгоняет бесов?",
+     "Палец",
+     "Нога",
+     "Ухо"
+    ],
+    "tr": [
+     "Luka 11'de, İsa'ya göre Tanrı'nın vücudunun hangi uzvu cinleri kovar?",
+     "Parmak",
+     "Ayak",
+     "Kulak"
+    ],
+    "ja": [
+     "ルカ11章で、イエスによると、悪霊を追い出すのは神の体のどの部分ですか？",
+     "指",
+     "足",
+     "耳"
+    ],
+    "ko": [
+     "루카 11장에서 예수님에 따르면 마귀를 쫓아내는 것은 하느님 몸의 어느 부분입니까?",
+     "손가락",
+     "발",
+     "귀"
+    ],
+    "ar": [
+     "في لوقا 11، أي جزء من جسد الله يطرد الشياطين بحسب يسوع؟",
+     "إصبع",
+     "قدم",
+     "أذن"
+    ]
+   }
+  },
+  {
+   "id": "ch-luke-001-55",
+   "book": "luke",
+   "chapter": 11,
+   "difficulty": "impossible",
+   "ref": "Luke 11:26",
+   "text": {
+    "en": [
+     "In Luke 11, how many other worse spirits does the returning unclean spirit bring?",
+     "7",
+     "3",
+     "9"
+    ],
+    "es": [
+     "Lucas 11: ¿Cuántos otros espíritus peores trae el espíritu impuro que regresa?",
+     "7",
+     "3",
+     "9"
+    ],
+    "pt": [
+     "Em Lucas 11, quantos outros espíritos piores traz o espírito impuro que volta?",
+     "7",
+     "3",
+     "9"
+    ],
+    "fr": [
+     "Dans Luc 11, combien d'autres esprits plus mauvais l'esprit impur de retour amène-t-il ?",
+     "7",
+     "3",
+     "9"
+    ],
+    "de": [
+     "Lukas 11: Wie viele andere schlimmere Geister bringt der zurückkehrende unreine Geist mit?",
+     "7",
+     "3",
+     "9"
+    ],
+    "it": [
+     "In Luca 11, quanti altri spiriti peggiori porta lo spirito impuro che ritorna?",
+     "7",
+     "3",
+     "9"
+    ],
+    "pl": [
+     "W Ewangelii Łukasza 11: Ile innych gorszych duchów przyprowadza powracający duch nieczysty?",
+     "7",
+     "3",
+     "9"
+    ],
+    "ru": [
+     "В Евангелии от Луки 11: Сколько других, злейших духов приводит вернувшийся нечистый дух?",
+     "7",
+     "3",
+     "9"
+    ],
+    "tr": [
+     "Luka 11'de, geri dönen kirli ruh kaç tane daha kötü ruh getirir?",
+     "7",
+     "3",
+     "9"
+    ],
+    "ja": [
+     "ルカ11章で、戻ってきた汚れた霊は、さらに悪い霊を何人連れてきますか？",
+     "7",
+     "3",
+     "9"
+    ],
+    "ko": [
+     "루카 11장에서 돌아온 더러운 영은 더 악한 다른 영을 몇이나 데려옵니까?",
+     "7",
+     "3",
+     "9"
+    ],
+    "ar": [
+     "في لوقا 11، كم روحا آخر أشر يأتي به الروح النجس العائد؟",
+     "7",
+     "3",
+     "9"
+    ]
+   }
+  },
+  {
+   "id": "ch-luke-001-56",
+   "book": "luke",
+   "chapter": 12,
+   "difficulty": "easy",
+   "ref": "Luke 12:27",
+   "text": {
+    "en": [
+     "In Luke 12, which king in his glory was not clothed like flowers?",
+     "Solomon",
+     "David",
+     "Herod"
+    ],
+    "es": [
+     "Lucas 12: ¿Qué rey, con toda su gloria, no se vistió como las flores?",
+     "Salomón",
+     "David",
+     "Herodes"
+    ],
+    "pt": [
+     "Em Lucas 12, que rei, com toda a sua glória, não se vestiu como as flores?",
+     "Salomão",
+     "Davi",
+     "Herodes"
+    ],
+    "fr": [
+     "Dans Luc 12, quel roi, dans toute sa gloire, ne fut pas vêtu comme les fleurs ?",
+     "Salomon",
+     "David",
+     "Hérode"
+    ],
+    "de": [
+     "Lukas 12: Welcher König war in all seiner Pracht nicht gekleidet wie die Blumen?",
+     "Salomo",
+     "David",
+     "Herodes"
+    ],
+    "it": [
+     "In Luca 12, quale re, in tutta la sua gloria, non vestiva come i fiori?",
+     "Salomone",
+     "Davide",
+     "Erode"
+    ],
+    "pl": [
+     "W Ewangelii Łukasza 12: Który król w całej swej chwale nie był tak ubrany jak kwiaty?",
+     "Salomon",
+     "Dawid",
+     "Herod"
+    ],
+    "ru": [
+     "В Евангелии от Луки 12: Какой царь во всей славе своей не одевался так, как цветы?",
+     "Соломон",
+     "Давид",
+     "Ирод"
+    ],
+    "tr": [
+     "Luka 12'de, hangi kral bütün görkemiyle çiçekler kadar giyinmemişti?",
+     "Süleyman",
+     "Davut",
+     "Herodes"
+    ],
+    "ja": [
+     "ルカ12章で、どの王が栄華の極みにあっても、花ほどには装っていませんでしたか？",
+     "ソロモン",
+     "ダビデ",
+     "ヘロデ"
+    ],
+    "ko": [
+     "루카 12장에서 어느 임금이 온갖 영화 속에서도 꽃만큼 차려입지 못했습니까?",
+     "솔로몬",
+     "다윗",
+     "헤로데"
+    ],
+    "ar": [
+     "في لوقا 12، أي ملك في كل مجده لم يلبس مثل الزهور؟",
+     "سليمان",
+     "داود",
+     "هيرودس"
+    ]
+   }
+  },
+  {
+   "id": "ch-luke-001-57",
+   "book": "luke",
+   "chapter": 12,
+   "difficulty": "medium",
+   "ref": "Luke 12:49",
+   "text": {
+    "en": [
+     "In Luke 12, what did Jesus say he came to bring to the earth?",
+     "Fire",
+     "Wind",
+     "Rain"
+    ],
+    "es": [
+     "Lucas 12: ¿Qué dijo Jesús que había venido a traer a la tierra?",
+     "Fuego",
+     "Viento",
+     "Lluvia"
+    ],
+    "pt": [
+     "Em Lucas 12, o que Jesus disse que veio trazer à terra?",
+     "Fogo",
+     "Vento",
+     "Chuva"
+    ],
+    "fr": [
+     "Dans Luc 12, qu'est-ce que Jésus dit être venu apporter sur la terre ?",
+     "Feu",
+     "Vent",
+     "Pluie"
+    ],
+    "de": [
+     "Lukas 12: Was sagte Jesus, auf die Erde bringen zu wollen?",
+     "Feuer",
+     "Wind",
+     "Regen"
+    ],
+    "it": [
+     "In Luca 12, che cosa disse Gesù di essere venuto a portare sulla terra?",
+     "Fuoco",
+     "Vento",
+     "Pioggia"
+    ],
+    "pl": [
+     "W Ewangelii Łukasza 12: Co według słów Jezusa przyszedł on rzucić na ziemię?",
+     "Ogień",
+     "Wiatr",
+     "Deszcz"
+    ],
+    "ru": [
+     "В Евангелии от Луки 12: Что, по слову Иисуса, Он пришёл низвести на землю?",
+     "Огонь",
+     "Ветер",
+     "Дождь"
+    ],
+    "tr": [
+     "Luka 12'de, İsa yeryüzüne ne getirmeye geldiğini söyledi?",
+     "Ateş",
+     "Rüzgâr",
+     "Yağmur"
+    ],
+    "ja": [
+     "ルカ12章で、イエスは、地上に何を投じるために来たと言いましたか？",
+     "火",
+     "風",
+     "雨"
+    ],
+    "ko": [
+     "루카 12장에서 예수님은 땅에 무엇을 던지러 왔다고 하셨습니까?",
+     "불",
+     "바람",
+     "비"
+    ],
+    "ar": [
+     "في لوقا 12، ماذا قال يسوع إنه جاء ليلقيه على الأرض؟",
+     "نار",
+     "ريح",
+     "مطر"
+    ]
+   }
+  },
+  {
+   "id": "ch-luke-001-58",
+   "book": "luke",
+   "chapter": 12,
+   "difficulty": "hard",
+   "ref": "Luke 12:24",
+   "text": {
+    "en": [
+     "In Luke 12, which birds neither sow nor reap, yet God feeds them?",
+     "Ravens",
+     "Eagles",
+     "Doves"
+    ],
+    "es": [
+     "Lucas 12: ¿Qué aves no siembran ni cosechan, pero Dios las alimenta?",
+     "Cuervos",
+     "Águilas",
+     "Palomas"
+    ],
+    "pt": [
+     "Em Lucas 12, que aves não semeiam nem colhem, mas Deus as alimenta?",
+     "Corvos",
+     "Águias",
+     "Pombas"
+    ],
+    "fr": [
+     "Dans Luc 12, quels oiseaux ne sèment ni ne moissonnent, mais Dieu les nourrit ?",
+     "Corbeaux",
+     "Aigles",
+     "Colombes"
+    ],
+    "de": [
+     "Lukas 12: Welche Vögel säen und ernten nicht, und Gott ernährt sie doch?",
+     "Raben",
+     "Adler",
+     "Tauben"
+    ],
+    "it": [
+     "In Luca 12, quali uccelli non seminano né mietono, eppure Dio li nutre?",
+     "Corvi",
+     "Aquile",
+     "Colombe"
+    ],
+    "pl": [
+     "W Ewangelii Łukasza 12: Które ptaki nie sieją ani nie żną, a Bóg je żywi?",
+     "Kruki",
+     "Orły",
+     "Gołębie"
+    ],
+    "ru": [
+     "В Евангелии от Луки 12: Какие птицы не сеют и не жнут, но Бог питает их?",
+     "Вороны",
+     "Орлы",
+     "Голуби"
+    ],
+    "tr": [
+     "Luka 12'de, hangi kuşlar ne eker ne biçer, yine de Tanrı onları besler?",
+     "Kargalar",
+     "Kartallar",
+     "Güvercinler"
+    ],
+    "ja": [
+     "ルカ12章で、種も蒔かず刈り入れもしないのに、神が養っておられる鳥は何ですか？",
+     "烏",
+     "鷲",
+     "鳩"
+    ],
+    "ko": [
+     "루카 12장에서 씨 뿌리지도 거두지도 않는데 하느님이 먹여 주시는 새는 무엇입니까?",
+     "까마귀",
+     "독수리",
+     "비둘기"
+    ],
+    "ar": [
+     "في لوقا 12، أي طيور لا تزرع ولا تحصد ومع ذلك يطعمها الله؟",
+     "غربان",
+     "نسور",
+     "حمام"
+    ]
+   }
+  },
+  {
+   "id": "ch-luke-001-59",
+   "book": "luke",
+   "chapter": 12,
+   "difficulty": "expert",
+   "ref": "Luke 12:52",
+   "text": {
+    "en": [
+     "In Luke 12, how many members of one household will be divided?",
+     "5",
+     "7",
+     "3"
+    ],
+    "es": [
+     "Lucas 12: ¿Cuántos miembros de una misma casa estarán divididos?",
+     "5",
+     "7",
+     "3"
+    ],
+    "pt": [
+     "Em Lucas 12, quantos membros de uma mesma casa estarão divididos?",
+     "5",
+     "7",
+     "3"
+    ],
+    "fr": [
+     "Dans Luc 12, combien de membres d'une même maison seront divisés ?",
+     "5",
+     "7",
+     "3"
+    ],
+    "de": [
+     "Lukas 12: Wie viele Mitglieder eines Hauses werden entzweit sein?",
+     "5",
+     "7",
+     "3"
+    ],
+    "it": [
+     "In Luca 12, quanti membri di una stessa casa saranno divisi?",
+     "5",
+     "7",
+     "3"
+    ],
+    "pl": [
+     "W Ewangelii Łukasza 12: Ilu członków jednego domu będzie podzielonych?",
+     "5",
+     "7",
+     "3"
+    ],
+    "ru": [
+     "В Евангелии от Луки 12: Сколько членов одного дома будут разделены?",
+     "5",
+     "7",
+     "3"
+    ],
+    "tr": [
+     "Luka 12'de, aynı evin kaç üyesi bölünecek?",
+     "5",
+     "7",
+     "3"
+    ],
+    "ja": [
+     "ルカ12章で、一つの家の何人が分裂するでしょうか？",
+     "5",
+     "7",
+     "3"
+    ],
+    "ko": [
+     "루카 12장에서 한 집안의 몇 사람이 갈라서게 됩니까?",
+     "5",
+     "7",
+     "3"
+    ],
+    "ar": [
+     "في لوقا 12، كم فردا من البيت الواحد سينقسمون؟",
+     "5",
+     "7",
+     "3"
+    ]
+   }
+  },
+  {
+   "id": "ch-luke-001-60",
+   "book": "luke",
+   "chapter": 12,
+   "difficulty": "impossible",
+   "ref": "Luke 12:28",
+   "text": {
+    "en": [
+     "In Luke 12, what grows in the field today, thrown into the oven tomorrow?",
+     "Grass",
+     "Wheat",
+     "Barley"
+    ],
+    "es": [
+     "Lucas 12: ¿Qué crece hoy en el campo y mañana se echa al horno?",
+     "Hierba",
+     "Trigo",
+     "Cebada"
+    ],
+    "pt": [
+     "Em Lucas 12, o que cresce hoje no campo e amanhã é lançado ao forno?",
+     "Erva",
+     "Trigo",
+     "Cevada"
+    ],
+    "fr": [
+     "Dans Luc 12, qu'est-ce qui pousse aujourd'hui dans le champ et sera jeté au four demain ?",
+     "Herbe",
+     "Blé",
+     "Orge"
+    ],
+    "de": [
+     "Lukas 12: Was wächst heute auf dem Feld und wird morgen in den Ofen geworfen?",
+     "Gras",
+     "Weizen",
+     "Gerste"
+    ],
+    "it": [
+     "In Luca 12, che cosa cresce oggi nel campo e domani viene gettato nel forno?",
+     "Erba",
+     "Grano",
+     "Orzo"
+    ],
+    "pl": [
+     "W Ewangelii Łukasza 12: Co rośnie dziś na polu, a jutro zostanie wrzucone do pieca?",
+     "Trawa",
+     "Pszenica",
+     "Jęczmień"
+    ],
+    "ru": [
+     "В Евангелии от Луки 12: Что сегодня растёт в поле, а завтра будет брошено в печь?",
+     "Трава",
+     "Пшеница",
+     "Ячмень"
+    ],
+    "tr": [
+     "Luka 12'de, bugün tarlada olup yarın fırına atılan nedir?",
+     "Ot",
+     "Buğday",
+     "Arpa"
+    ],
+    "ja": [
+     "ルカ12章で、今日は野にあって明日は炉に投げ込まれるものは何ですか？",
+     "草",
+     "小麦",
+     "大麦"
+    ],
+    "ko": [
+     "루카 12장에서 오늘 들에 있다가 내일 아궁이에 던져지는 것은 무엇입니까?",
+     "풀",
+     "밀",
+     "보리"
+    ],
+    "ar": [
+     "في لوقا 12، ما الذي ينمو اليوم في الحقل ويُطرح غدا في التنور؟",
+     "عشب",
+     "قمح",
+     "شعير"
+    ]
+   }
+  }
+ ]
+}
