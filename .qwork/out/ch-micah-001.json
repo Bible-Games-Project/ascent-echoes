@@ -1,0 +1,2839 @@
+{
+ "questions": [
+  {
+   "id": "ch-micah-001-01",
+   "book": "micah",
+   "chapter": 1,
+   "difficulty": "easy",
+   "ref": "Micah 1:6",
+   "text": {
+    "en": [
+     "In Micah 1, which capital of Israel becomes a heap of ruins?",
+     "Samaria",
+     "Damascus",
+     "Tyre"
+    ],
+    "es": [
+     "¿En Miqueas 1, qué capital de Israel se convierte en un montón de ruinas?",
+     "Samaria",
+     "Damasco",
+     "Tiro"
+    ],
+    "pt": [
+     "Em Miqueias 1, que capital de Israel se torna um montão de ruínas?",
+     "Samaria",
+     "Damasco",
+     "Tiro"
+    ],
+    "fr": [
+     "Dans Michée 1, quelle capitale d'Israël devient un tas de ruines ?",
+     "Samarie",
+     "Damas",
+     "Tyr"
+    ],
+    "de": [
+     "In Micha 1, welche Hauptstadt Israels wird zu einem Trümmerhaufen?",
+     "Samaria",
+     "Damaskus",
+     "Tyrus"
+    ],
+    "it": [
+     "In Michea 1, quale capitale d'Israele diventa un cumulo di rovine?",
+     "Samaria",
+     "Damasco",
+     "Tiro"
+    ],
+    "pl": [
+     "W Księdze Micheasza 1 która stolica Izraela zamieni się w stos gruzów?",
+     "Samaria",
+     "Damaszek",
+     "Tyr"
+    ],
+    "ru": [
+     "В книге Михея 1: какая столица Израиля станет грудой развалин?",
+     "Самария",
+     "Дамаск",
+     "Тир"
+    ],
+    "tr": [
+     "Mika 1'de İsrail'in hangi başkenti harabe yığınına dönüşür?",
+     "Samiriye",
+     "Şam",
+     "Sur"
+    ],
+    "ja": [
+     "ミカ書1章で、イスラエルのどの首都が廃墟の山となるか？",
+     "サマリア",
+     "ダマスコ",
+     "ティルス"
+    ],
+    "ko": [
+     "미카 1장에서 이스라엘의 어느 수도가 폐허 더미가 되는가?",
+     "사마리아",
+     "다마스쿠스",
+     "티로"
+    ],
+    "ar": [
+     "في ميخا 1، أي عاصمة لإسرائيل تصبح كومة خراب؟",
+     "السامرة",
+     "دمشق",
+     "صور"
+    ]
+   }
+  },
+  {
+   "id": "ch-micah-001-02",
+   "book": "micah",
+   "chapter": 1,
+   "difficulty": "medium",
+   "ref": "Micah 1:1",
+   "text": {
+    "en": [
+     "In Micah 1, Micah prophesied under Jotham, Ahaz and which king?",
+     "Hezekiah",
+     "Solomon",
+     "Josiah"
+    ],
+    "es": [
+     "¿En Miqueas 1, bajo qué rey profetizó Miqueas, además de Jotán y Acaz?",
+     "Ezequías",
+     "Salomón",
+     "Josías"
+    ],
+    "pt": [
+     "Em Miqueias 1, Miqueias profetizou sob Jotão, Acaz e que outro rei?",
+     "Ezequias",
+     "Salomão",
+     "Josias"
+    ],
+    "fr": [
+     "Dans Michée 1, Michée prophétisa sous Yotam, Acaz et quel autre roi ?",
+     "Ézéchias",
+     "Salomon",
+     "Josias"
+    ],
+    "de": [
+     "In Micha 1, unter Jotam, Ahas und welchem König wirkte Micha?",
+     "Hiskija",
+     "Salomo",
+     "Joschija"
+    ],
+    "it": [
+     "In Michea 1, Michea profetizzò sotto Iotam, Acaz e quale altro re?",
+     "Ezechia",
+     "Salomone",
+     "Giosia"
+    ],
+    "pl": [
+     "W Księdze Micheasza 1 Micheasz prorokował za Jotama, Achaza i którego króla?",
+     "Ezechiasza",
+     "Salomona",
+     "Jozjasza"
+    ],
+    "ru": [
+     "В книге Михея 1 Михей пророчествовал при Иоафаме, Ахазе и каком царе?",
+     "Езекии",
+     "Соломоне",
+     "Иосии"
+    ],
+    "tr": [
+     "Mika 1'de Mika, Yotam, Ahaz ve hangi kral zamanında peygamberlik etti?",
+     "Hizkiya",
+     "Süleyman",
+     "Yoşiya"
+    ],
+    "ja": [
+     "ミカ書1章で、ミカはヨタム、アハズと、どの王の時代に預言したか？",
+     "ヒゼキヤ",
+     "ソロモン",
+     "ヨシヤ"
+    ],
+    "ko": [
+     "미카 1장에서 미카는 요탐, 아하즈와 어느 임금 때 예언하였는가?",
+     "히즈키야",
+     "솔로몬",
+     "요시야"
+    ],
+    "ar": [
+     "في ميخا 1، تنبأ ميخا أيام يوثام وآحاز وأي ملك آخر؟",
+     "حزقيا",
+     "سليمان",
+     "يوشيا"
+    ]
+   }
+  },
+  {
+   "id": "ch-micah-001-03",
+   "book": "micah",
+   "chapter": 1,
+   "difficulty": "hard",
+   "ref": "Micah 1:13",
+   "text": {
+    "en": [
+     "In Micah 1, which city began the sin of daughter Zion?",
+     "Lachish",
+     "Hebron",
+     "Jericho"
+    ],
+    "es": [
+     "¿En Miqueas 1, qué ciudad fue el comienzo del pecado de la hija de Sión?",
+     "Laquis",
+     "Hebrón",
+     "Jericó"
+    ],
+    "pt": [
+     "Em Miqueias 1, que cidade foi o início do pecado da filha de Sião?",
+     "Laquis",
+     "Hebron",
+     "Jericó"
+    ],
+    "fr": [
+     "Dans Michée 1, quelle ville fut le commencement du péché de la fille de Sion ?",
+     "Lakish",
+     "Hébron",
+     "Jéricho"
+    ],
+    "de": [
+     "In Micha 1, welche Stadt war der Anfang der Sünde der Tochter Zion?",
+     "Lachisch",
+     "Hebron",
+     "Jericho"
+    ],
+    "it": [
+     "In Michea 1, quale città fu l'inizio del peccato della figlia di Sion?",
+     "Lachis",
+     "Ebron",
+     "Gerico"
+    ],
+    "pl": [
+     "W Księdze Micheasza 1 które miasto było początkiem grzechu córy Syjonu?",
+     "Lakisz",
+     "Hebron",
+     "Jerycho"
+    ],
+    "ru": [
+     "В книге Михея 1: какой город стал началом греха дочери Сиона?",
+     "Лахис",
+     "Хеврон",
+     "Иерихон"
+    ],
+    "tr": [
+     "Mika 1'de hangi şehir Siyon kızının günahının başlangıcı oldu?",
+     "Lakiş",
+     "Hebron",
+     "Eriha"
+    ],
+    "ja": [
+     "ミカ書1章で、シオンの娘の罪の初めとなった町はどこか？",
+     "ラキシュ",
+     "ヘブロン",
+     "エリコ"
+    ],
+    "ko": [
+     "미카 1장에서 시온 딸의 죄의 시작이 된 도시는 어디인가?",
+     "라키스",
+     "헤브론",
+     "예리코"
+    ],
+    "ar": [
+     "في ميخا 1، أي مدينة كانت بدء خطيئة ابنة صهيون؟",
+     "لخيش",
+     "حبرون",
+     "أريحا"
+    ]
+   }
+  },
+  {
+   "id": "ch-micah-001-04",
+   "book": "micah",
+   "chapter": 1,
+   "difficulty": "expert",
+   "ref": "Micah 1:4",
+   "text": {
+    "en": [
+     "In Micah 1, melting mountains beneath the Lord resemble which substance?",
+     "Wax",
+     "Snow",
+     "Ice"
+    ],
+    "es": [
+     "¿En Miqueas 1, a qué sustancia se parecen los montes que se funden bajo el Señor?",
+     "Cera",
+     "Nieve",
+     "Hielo"
+    ],
+    "pt": [
+     "Em Miqueias 1, a que substância se parecem os montes que derretem sob o Senhor?",
+     "Cera",
+     "Neve",
+     "Gelo"
+    ],
+    "fr": [
+     "Dans Michée 1, à quelle substance ressemblent les montagnes qui fondent sous le Seigneur ?",
+     "Cire",
+     "Neige",
+     "Glace"
+    ],
+    "de": [
+     "In Micha 1, welchem Stoff gleichen die Berge, die unter dem Herrn schmelzen?",
+     "Wachs",
+     "Schnee",
+     "Eis"
+    ],
+    "it": [
+     "In Michea 1, quale sostanza ricordano i monti che si sciolgono sotto il Signore?",
+     "Cera",
+     "Neve",
+     "Ghiaccio"
+    ],
+    "pl": [
+     "W Księdze Micheasza 1 jaką substancję przypominają góry topniejące pod Panem?",
+     "Wosk",
+     "Śnieg",
+     "Lód"
+    ],
+    "ru": [
+     "В книге Михея 1: какое вещество напоминают горы, тающие пред Господом?",
+     "Воск",
+     "Снег",
+     "Лёд"
+    ],
+    "tr": [
+     "Mika 1'de Rab'bin altında eriyen dağlar hangi maddeye benzer?",
+     "Balmumu",
+     "Kar",
+     "Buz"
+    ],
+    "ja": [
+     "ミカ書1章で、主の足もとで溶ける山々は何のようか？",
+     "蝋",
+     "雪",
+     "氷"
+    ],
+    "ko": [
+     "미카 1장에서 주님 아래에서 녹는 산들은 무엇과 같은가?",
+     "밀초",
+     "눈",
+     "얼음"
+    ],
+    "ar": [
+     "في ميخا 1، بأي مادة تشبه الجبال التي تذوب أمام الرب؟",
+     "شمع",
+     "ثلج",
+     "جليد"
+    ]
+   }
+  },
+  {
+   "id": "ch-micah-001-05",
+   "book": "micah",
+   "chapter": 1,
+   "difficulty": "impossible",
+   "ref": "Micah 1:15",
+   "text": {
+    "en": [
+     "In Micah 1, to which city will Israel's glory come?",
+     "Adullam",
+     "Shiloh",
+     "Dan"
+    ],
+    "es": [
+     "¿En Miqueas 1, a qué ciudad llegará la gloria de Israel?",
+     "Adulán",
+     "Silo",
+     "Dan"
+    ],
+    "pt": [
+     "Em Miqueias 1, a que cidade chegará a glória de Israel?",
+     "Adulam",
+     "Silo",
+     "Dã"
+    ],
+    "fr": [
+     "Dans Michée 1, à quelle ville viendra la gloire d'Israël ?",
+     "Adullam",
+     "Silo",
+     "Dan"
+    ],
+    "de": [
+     "In Micha 1, in welche Stadt kommt die Herrlichkeit Israels?",
+     "Adullam",
+     "Schilo",
+     "Dan"
+    ],
+    "it": [
+     "In Michea 1, a quale città giungerà la gloria d'Israele?",
+     "Adullam",
+     "Silo",
+     "Dan"
+    ],
+    "pl": [
+     "W Księdze Micheasza 1 do jakiego miasta dotrze chwała Izraela?",
+     "Adullam",
+     "Szilo",
+     "Dan"
+    ],
+    "ru": [
+     "В книге Михея 1: в какой город придёт слава Израиля?",
+     "Одоллам",
+     "Силом",
+     "Дан"
+    ],
+    "tr": [
+     "Mika 1'de İsrail'in görkemi hangi kente varacak?",
+     "Adullam",
+     "Silo",
+     "Dan"
+    ],
+    "ja": [
+     "ミカ書1章で、イスラエルの栄光はどの町に来るか？",
+     "アドラム",
+     "シロ",
+     "ダン"
+    ],
+    "ko": [
+     "미카 1장에서 이스라엘의 영광은 어느 도시에 이르는가?",
+     "아둘람",
+     "실로",
+     "단"
+    ],
+    "ar": [
+     "في ميخا 1، إلى أي مدينة يأتي مجد إسرائيل؟",
+     "عدلام",
+     "شيلو",
+     "دان"
+    ]
+   }
+  },
+  {
+   "id": "ch-micah-001-06",
+   "book": "micah",
+   "chapter": 2,
+   "difficulty": "easy",
+   "ref": "Micah 2:2",
+   "text": {
+    "en": [
+     "In Micah 2, which property do the powerful covet, besides houses?",
+     "Fields",
+     "Ships",
+     "Mines"
+    ],
+    "es": [
+     "¿En Miqueas 2, qué propiedades codician los poderosos, además de casas?",
+     "Campos",
+     "Barcos",
+     "Minas"
+    ],
+    "pt": [
+     "Em Miqueias 2, que propriedades cobiçam os poderosos, além de casas?",
+     "Campos",
+     "Navios",
+     "Minas"
+    ],
+    "fr": [
+     "Dans Michée 2, quels biens les puissants convoitent-ils, outre des maisons ?",
+     "Champs",
+     "Navires",
+     "Mines"
+    ],
+    "de": [
+     "In Micha 2, was begehren die Mächtigen außer Häusern?",
+     "Felder",
+     "Schiffe",
+     "Minen"
+    ],
+    "it": [
+     "In Michea 2, che cosa bramano i potenti, oltre alle case?",
+     "Campi",
+     "Navi",
+     "Miniere"
+    ],
+    "pl": [
+     "W Księdze Micheasza 2 czego pożądają możni oprócz domów?",
+     "Pól",
+     "Okrętów",
+     "Kopalń"
+    ],
+    "ru": [
+     "В книге Михея 2: чего, кроме домов, жаждут сильные?",
+     "Полей",
+     "Кораблей",
+     "Рудников"
+    ],
+    "tr": [
+     "Mika 2'de güçlüler evlerden başka neleri istiyor?",
+     "Tarlaları",
+     "Gemileri",
+     "Madenleri"
+    ],
+    "ja": [
+     "ミカ書2章で、有力者は家のほかに何を欲しがるか？",
+     "畑",
+     "船",
+     "鉱山"
+    ],
+    "ko": [
+     "미카 2장에서 권력자들은 집 외에 무엇을 탐내는가?",
+     "밭",
+     "배",
+     "광산"
+    ],
+    "ar": [
+     "في ميخا 2، ماذا يشتهي الأقوياء غير البيوت؟",
+     "حقول",
+     "سفن",
+     "مناجم"
+    ]
+   }
+  },
+  {
+   "id": "ch-micah-001-07",
+   "book": "micah",
+   "chapter": 2,
+   "difficulty": "medium",
+   "ref": "Micah 2:12",
+   "text": {
+    "en": [
+     "In Micah 2, God gathers Israel's remnant like which animals?",
+     "Sheep",
+     "Camels",
+     "Foxes"
+    ],
+    "es": [
+     "¿En Miqueas 2, como qué animales reúne Dios al resto de Israel?",
+     "Ovejas",
+     "Camellos",
+     "Zorros"
+    ],
+    "pt": [
+     "Em Miqueias 2, como que animais Deus reúne o resto de Israel?",
+     "Ovelhas",
+     "Camelos",
+     "Raposas"
+    ],
+    "fr": [
+     "Dans Michée 2, Dieu rassemble le reste d'Israël comme quels animaux ?",
+     "Brebis",
+     "Chameaux",
+     "Renards"
+    ],
+    "de": [
+     "In Micha 2, Gott sammelt Israels Rest wie welche Tiere?",
+     "Schafe",
+     "Kamele",
+     "Füchse"
+    ],
+    "it": [
+     "In Michea 2, Dio raduna il resto d'Israele come quali animali?",
+     "Pecore",
+     "Cammelli",
+     "Volpi"
+    ],
+    "pl": [
+     "W Księdze Micheasza 2 Bóg zgromadzi resztę Izraela jak jakie zwierzęta?",
+     "Owce",
+     "Wielbłądy",
+     "Lisy"
+    ],
+    "ru": [
+     "В книге Михея 2 Бог соберёт остаток Израиля, как каких животных?",
+     "Овец",
+     "Верблюдов",
+     "Лисиц"
+    ],
+    "tr": [
+     "Mika 2'de Tanrı, İsrail'in kalıntısını hangi hayvanlar gibi toplar?",
+     "Koyunlar",
+     "Develer",
+     "Tilkiler"
+    ],
+    "ja": [
+     "ミカ書2章で、神はイスラエルの残りの者をどんな動物のように集めるか？",
+     "羊",
+     "ラクダ",
+     "狐"
+    ],
+    "ko": [
+     "미카 2장에서 하느님은 이스라엘의 남은 자들을 어떤 짐승처럼 모으시는가?",
+     "양",
+     "낙타",
+     "여우"
+    ],
+    "ar": [
+     "في ميخا 2، يجمع الله بقية إسرائيل كأي حيوانات؟",
+     "خراف",
+     "جمال",
+     "ثعالب"
+    ]
+   }
+  },
+  {
+   "id": "ch-micah-001-08",
+   "book": "micah",
+   "chapter": 2,
+   "difficulty": "hard",
+   "ref": "Micah 2:9",
+   "text": {
+    "en": [
+     "In Micah 2, whom do the powerful drive from pleasant homes?",
+     "Women",
+     "Priests",
+     "Soldiers"
+    ],
+    "es": [
+     "¿En Miqueas 2, a quiénes expulsan los poderosos de sus casas agradables?",
+     "Mujeres",
+     "Sacerdotes",
+     "Soldados"
+    ],
+    "pt": [
+     "Em Miqueias 2, quem os poderosos expulsam de suas casas agradáveis?",
+     "Mulheres",
+     "Sacerdotes",
+     "Soldados"
+    ],
+    "fr": [
+     "Dans Michée 2, qui les puissants chassent-ils de leurs maisons agréables ?",
+     "Femmes",
+     "Prêtres",
+     "Soldats"
+    ],
+    "de": [
+     "In Micha 2, wen vertreiben die Mächtigen aus ihren schönen Häusern?",
+     "Frauen",
+     "Priester",
+     "Soldaten"
+    ],
+    "it": [
+     "In Michea 2, chi cacciano i potenti dalle loro case amate?",
+     "Donne",
+     "Sacerdoti",
+     "Soldati"
+    ],
+    "pl": [
+     "W Księdze Micheasza 2 kogo możni wyganiają z ich miłych domów?",
+     "Kobiety",
+     "Kapłanów",
+     "Żołnierzy"
+    ],
+    "ru": [
+     "В книге Михея 2: кого сильные изгоняют из их приятных домов?",
+     "Женщин",
+     "Священников",
+     "Воинов"
+    ],
+    "tr": [
+     "Mika 2'de güçlüler kimleri güzel evlerinden kovuyor?",
+     "Kadınları",
+     "Rahipleri",
+     "Askerleri"
+    ],
+    "ja": [
+     "ミカ書2章で、有力者は誰を快適な家から追い出すか？",
+     "女性",
+     "祭司",
+     "兵士"
+    ],
+    "ko": [
+     "미카 2장에서 권력자들은 누구를 즐거운 집에서 쫓아내는가?",
+     "여자들",
+     "사제들",
+     "군사들"
+    ],
+    "ar": [
+     "في ميخا 2، من يطرد الأقوياء من بيوتهم الجميلة؟",
+     "نساء",
+     "كهنة",
+     "جنود"
+    ]
+   }
+  },
+  {
+   "id": "ch-micah-001-09",
+   "book": "micah",
+   "chapter": 2,
+   "difficulty": "expert",
+   "ref": "Micah 2:3",
+   "text": {
+    "en": [
+     "In Micah 2, which body part cannot the wicked remove from disaster?",
+     "Neck",
+     "Hand",
+     "Foot"
+    ],
+    "es": [
+     "¿En Miqueas 2, qué parte del cuerpo no podrán sacar los malvados del desastre?",
+     "Cuello",
+     "Mano",
+     "Pie"
+    ],
+    "pt": [
+     "Em Miqueias 2, que parte do corpo os maus não conseguem tirar da desgraça?",
+     "Pescoço",
+     "Mão",
+     "Pé"
+    ],
+    "fr": [
+     "Dans Michée 2, quelle partie du corps les méchants ne peuvent-ils retirer du malheur ?",
+     "Cou",
+     "Main",
+     "Pied"
+    ],
+    "de": [
+     "In Micha 2, welchen Körperteil können die Bösen nicht aus dem Unheil ziehen?",
+     "Hals",
+     "Hand",
+     "Fuß"
+    ],
+    "it": [
+     "In Michea 2, quale parte del corpo i malvagi non possono sottrarre alla sciagura?",
+     "Collo",
+     "Mano",
+     "Piede"
+    ],
+    "pl": [
+     "W Księdze Micheasza 2 którą część ciała niegodziwi nie mogą wyciągnąć z nieszczęścia?",
+     "Szyję",
+     "Rękę",
+     "Nogę"
+    ],
+    "ru": [
+     "В книге Михея 2: какую часть тела злодеи не вынут из беды?",
+     "Шею",
+     "Руку",
+     "Ногу"
+    ],
+    "tr": [
+     "Mika 2'de kötüler felaketten vücutlarının hangi kısmını çıkaramaz?",
+     "Boyun",
+     "El",
+     "Ayak"
+    ],
+    "ja": [
+     "ミカ書2章で、悪を謀る者が災いから外せない体の部分はどこか？",
+     "首",
+     "手",
+     "足"
+    ],
+    "ko": [
+     "미카 2장에서 악인들이 재앙에서 빼낼 수 없는 몸의 부분은 어디인가?",
+     "목",
+     "손",
+     "발"
+    ],
+    "ar": [
+     "في ميخا 2، أي جزء من الجسد لا يستطيع الأشرار إخراجه من الشر؟",
+     "عنق",
+     "يد",
+     "قدم"
+    ]
+   }
+  },
+  {
+   "id": "ch-micah-001-10",
+   "book": "micah",
+   "chapter": 2,
+   "difficulty": "impossible",
+   "ref": "Micah 2:13",
+   "text": {
+    "en": [
+     "In Micah 2, who passes before the gathered remnant?",
+     "King",
+     "Priest",
+     "Prophet"
+    ],
+    "es": [
+     "¿En Miqueas 2, quién pasa delante del resto reunido?",
+     "Rey",
+     "Sacerdote",
+     "Profeta"
+    ],
+    "pt": [
+     "Em Miqueias 2, quem passa adiante do resto reunido?",
+     "Rei",
+     "Sacerdote",
+     "Profeta"
+    ],
+    "fr": [
+     "Dans Michée 2, qui passe devant le reste rassemblé ?",
+     "Roi",
+     "Prêtre",
+     "Prophète"
+    ],
+    "de": [
+     "In Micha 2, wer zieht vor dem gesammelten Rest her?",
+     "König",
+     "Priester",
+     "Prophet"
+    ],
+    "it": [
+     "In Michea 2, chi passa davanti al resto radunato?",
+     "Re",
+     "Sacerdote",
+     "Profeta"
+    ],
+    "pl": [
+     "W Księdze Micheasza 2 kto idzie przed zgromadzoną resztą?",
+     "Król",
+     "Kapłan",
+     "Prorok"
+    ],
+    "ru": [
+     "В книге Михея 2: кто идёт перед собранным остатком?",
+     "Царь",
+     "Священник",
+     "Пророк"
+    ],
+    "tr": [
+     "Mika 2'de toplanan kalıntının önünden kim geçer?",
+     "Kral",
+     "Rahip",
+     "Peygamber"
+    ],
+    "ja": [
+     "ミカ書2章で、集められた残りの者の前を進むのは誰か？",
+     "王",
+     "祭司",
+     "預言者"
+    ],
+    "ko": [
+     "미카 2장에서 모인 남은 자들 앞에서 나아가는 이는 누구인가?",
+     "임금",
+     "사제",
+     "예언자"
+    ],
+    "ar": [
+     "في ميخا 2، من يعبر أمام البقية المجتمعة؟",
+     "ملك",
+     "كاهن",
+     "نبي"
+    ]
+   }
+  },
+  {
+   "id": "ch-micah-001-11",
+   "book": "micah",
+   "chapter": 3,
+   "difficulty": "easy",
+   "ref": "Micah 3:12",
+   "text": {
+    "en": [
+     "In Micah 3, which hill will be plowed like a field?",
+     "Zion",
+     "Sinai",
+     "Carmel"
+    ],
+    "es": [
+     "¿En Miqueas 3, qué monte será arado como un campo?",
+     "Sión",
+     "Sinaí",
+     "Carmelo"
+    ],
+    "pt": [
+     "Em Miqueias 3, que monte será arado como um campo?",
+     "Sião",
+     "Sinai",
+     "Carmelo"
+    ],
+    "fr": [
+     "Dans Michée 3, quelle montagne sera labourée comme un champ ?",
+     "Sion",
+     "Sinaï",
+     "Carmel"
+    ],
+    "de": [
+     "In Micha 3, welcher Berg wird wie ein Acker gepflügt?",
+     "Zion",
+     "Sinai",
+     "Karmel"
+    ],
+    "it": [
+     "In Michea 3, quale monte sarà arato come un campo?",
+     "Sion",
+     "Sinai",
+     "Carmelo"
+    ],
+    "pl": [
+     "W Księdze Micheasza 3 która góra zostanie zaorana jak pole?",
+     "Syjon",
+     "Synaj",
+     "Karmel"
+    ],
+    "ru": [
+     "В книге Михея 3: какая гора будет вспахана, как поле?",
+     "Сион",
+     "Синай",
+     "Кармил"
+    ],
+    "tr": [
+     "Mika 3'te hangi dağ tarla gibi sürülecek?",
+     "Siyon",
+     "Sina",
+     "Karmel"
+    ],
+    "ja": [
+     "ミカ書3章で、畑のように耕される山はどれか？",
+     "シオン",
+     "シナイ",
+     "カルメル"
+    ],
+    "ko": [
+     "미카 3장에서 밭처럼 갈아엎어질 산은 어디인가?",
+     "시온",
+     "시나이",
+     "카르멜"
+    ],
+    "ar": [
+     "في ميخا 3، أي جبل يُحرث كالحقل؟",
+     "صهيون",
+     "سيناء",
+     "الكرمل"
+    ]
+   }
+  },
+  {
+   "id": "ch-micah-001-12",
+   "book": "micah",
+   "chapter": 3,
+   "difficulty": "medium",
+   "ref": "Micah 3:5",
+   "text": {
+    "en": [
+     "In Micah 3, what do false prophets proclaim when fed?",
+     "Peace",
+     "War",
+     "Rain"
+    ],
+    "es": [
+     "¿En Miqueas 3, qué anuncian los falsos profetas cuando tienen comida?",
+     "Paz",
+     "Guerra",
+     "Lluvia"
+    ],
+    "pt": [
+     "Em Miqueias 3, o que anunciam os falsos profetas quando têm comida?",
+     "Paz",
+     "Guerra",
+     "Chuva"
+    ],
+    "fr": [
+     "Dans Michée 3, que proclament les faux prophètes quand ils ont à manger ?",
+     "Paix",
+     "Guerre",
+     "Pluie"
+    ],
+    "de": [
+     "In Micha 3, was verkünden die falschen Propheten, wenn sie zu essen haben?",
+     "Frieden",
+     "Krieg",
+     "Regen"
+    ],
+    "it": [
+     "In Michea 3, che cosa annunciano i falsi profeti quando hanno da mangiare?",
+     "Pace",
+     "Guerra",
+     "Pioggia"
+    ],
+    "pl": [
+     "W Księdze Micheasza 3 co głoszą fałszywi prorocy, gdy mają co jeść?",
+     "Pokój",
+     "Wojnę",
+     "Deszcz"
+    ],
+    "ru": [
+     "В книге Михея 3: что возвещают лжепророки, когда сыты?",
+     "Мир",
+     "Войну",
+     "Дождь"
+    ],
+    "tr": [
+     "Mika 3'te yalancı peygamberler karınları doyunca ne bildirir?",
+     "Barış",
+     "Savaş",
+     "Yağmur"
+    ],
+    "ja": [
+     "ミカ書3章で、偽預言者は食べ物があると何を告げるか？",
+     "平和",
+     "戦争",
+     "雨"
+    ],
+    "ko": [
+     "미카 3장에서 거짓 예언자들은 먹을 것이 있으면 무엇을 선포하는가?",
+     "평화",
+     "전쟁",
+     "비"
+    ],
+    "ar": [
+     "في ميخا 3، ماذا يعلن الأنبياء الكذبة حين يجدون طعامًا؟",
+     "سلام",
+     "حرب",
+     "مطر"
+    ]
+   }
+  },
+  {
+   "id": "ch-micah-001-13",
+   "book": "micah",
+   "chapter": 3,
+   "difficulty": "hard",
+   "ref": "Micah 3:10",
+   "text": {
+    "en": [
+     "In Micah 3, leaders build Zion with what?",
+     "Blood",
+     "Gold",
+     "Stone"
+    ],
+    "es": [
+     "¿En Miqueas 3, con qué construyen Sión los dirigentes?",
+     "Sangre",
+     "Oro",
+     "Piedra"
+    ],
+    "pt": [
+     "Em Miqueias 3, com que os chefes constroem Sião?",
+     "Sangue",
+     "Ouro",
+     "Pedra"
+    ],
+    "fr": [
+     "Dans Michée 3, avec quoi les chefs bâtissent-ils Sion ?",
+     "Sang",
+     "Or",
+     "Pierre"
+    ],
+    "de": [
+     "In Micha 3, womit bauen die Anführer Zion?",
+     "Blut",
+     "Gold",
+     "Stein"
+    ],
+    "it": [
+     "In Michea 3, con che cosa costruiscono Sion i capi?",
+     "Sangue",
+     "Oro",
+     "Pietra"
+    ],
+    "pl": [
+     "W Księdze Micheasza 3 czym przywódcy budują Syjon?",
+     "Krwią",
+     "Złotem",
+     "Kamieniem"
+    ],
+    "ru": [
+     "В книге Михея 3: чем вожди строят Сион?",
+     "Кровью",
+     "Золотом",
+     "Камнем"
+    ],
+    "tr": [
+     "Mika 3'te önderler Siyon'u neyle kuruyor?",
+     "Kan",
+     "Altın",
+     "Taş"
+    ],
+    "ja": [
+     "ミカ書3章で、指導者たちはシオンを何で築くか？",
+     "血",
+     "金",
+     "石"
+    ],
+    "ko": [
+     "미카 3장에서 지도자들은 시온을 무엇으로 세우는가?",
+     "피",
+     "금",
+     "돌"
+    ],
+    "ar": [
+     "في ميخا 3، بماذا يبني القادة صهيون؟",
+     "دم",
+     "ذهب",
+     "حجر"
+    ]
+   }
+  },
+  {
+   "id": "ch-micah-001-14",
+   "book": "micah",
+   "chapter": 3,
+   "difficulty": "expert",
+   "ref": "Micah 3:6",
+   "text": {
+    "en": [
+     "In Micah 3, what will go down over the false prophets?",
+     "Sun",
+     "Moon",
+     "Star"
+    ],
+    "es": [
+     "¿En Miqueas 3, qué se pondrá sobre los falsos profetas?",
+     "Sol",
+     "Luna",
+     "Estrella"
+    ],
+    "pt": [
+     "Em Miqueias 3, o que se porá sobre os profetas falsos?",
+     "Sol",
+     "Lua",
+     "Estrela"
+    ],
+    "fr": [
+     "Dans Michée 3, qu'est-ce qui se couchera sur les faux prophètes ?",
+     "Soleil",
+     "Lune",
+     "Étoile"
+    ],
+    "de": [
+     "In Micha 3, was geht über den falschen Propheten unter?",
+     "Sonne",
+     "Mond",
+     "Stern"
+    ],
+    "it": [
+     "In Michea 3, che cosa tramonterà sui falsi profeti?",
+     "Sole",
+     "Luna",
+     "Stella"
+    ],
+    "pl": [
+     "W Księdze Micheasza 3 co zajdzie nad fałszywymi prorokami?",
+     "Słońce",
+     "Księżyc",
+     "Gwiazda"
+    ],
+    "ru": [
+     "В книге Михея 3: что зайдёт над лжепророками?",
+     "Солнце",
+     "Луна",
+     "Звезда"
+    ],
+    "tr": [
+     "Mika 3'te sahte peygamberlerin üzerine ne batacak?",
+     "Güneş",
+     "Ay",
+     "Yıldız"
+    ],
+    "ja": [
+     "ミカ書3章で、偽預言者たちの上に沈むものは何か？",
+     "太陽",
+     "月",
+     "星"
+    ],
+    "ko": [
+     "미카 3장에서 거짓 예언자들 위로 지는 것은 무엇인가?",
+     "해",
+     "달",
+     "별"
+    ],
+    "ar": [
+     "في ميخا 3، ما الذي سيغيب على الأنبياء الكذبة؟",
+     "شمس",
+     "قمر",
+     "نجم"
+    ]
+   }
+  },
+  {
+   "id": "ch-micah-001-15",
+   "book": "micah",
+   "chapter": 3,
+   "difficulty": "impossible",
+   "ref": "Micah 3:3",
+   "text": {
+    "en": [
+     "In Micah 3, what do rulers break after stripping the people's skin?",
+     "Bones",
+     "Arms",
+     "Legs"
+    ],
+    "es": [
+     "¿En Miqueas 3, qué rompen los gobernantes después de arrancar la piel al pueblo?",
+     "Huesos",
+     "Brazos",
+     "Piernas"
+    ],
+    "pt": [
+     "Em Miqueias 3, o que os governantes quebram depois de arrancar a pele do povo?",
+     "Ossos",
+     "Braços",
+     "Pernas"
+    ],
+    "fr": [
+     "Dans Michée 3, que brisent les chefs après avoir arraché la peau du peuple ?",
+     "Os",
+     "Bras",
+     "Jambes"
+    ],
+    "de": [
+     "In Micha 3, was brechen die Herrscher, nachdem sie dem Volk die Haut abziehen?",
+     "Knochen",
+     "Arme",
+     "Beine"
+    ],
+    "it": [
+     "In Michea 3, che cosa spezzano i capi dopo aver strappato la pelle al popolo?",
+     "Ossa",
+     "Braccia",
+     "Gambe"
+    ],
+    "pl": [
+     "W Księdze Micheasza 3 co łamią władcy po zdarciu skóry z ludu?",
+     "Kości",
+     "Ręce",
+     "Nogi"
+    ],
+    "ru": [
+     "В книге Михея 3: что ломают правители, содрав кожу с народа?",
+     "Кости",
+     "Руки",
+     "Ноги"
+    ],
+    "tr": [
+     "Mika 3'te önderler halkın derisini yüzdükten sonra neyi kırar?",
+     "Kemikleri",
+     "Kolları",
+     "Bacakları"
+    ],
+    "ja": [
+     "ミカ書3章で、指導者は民の皮をはいだ後、何を砕くか？",
+     "骨",
+     "腕",
+     "脚"
+    ],
+    "ko": [
+     "미카 3장에서 지도자들은 백성의 살갗을 벗긴 뒤 무엇을 부수는가?",
+     "뼈",
+     "팔",
+     "다리"
+    ],
+    "ar": [
+     "في ميخا 3، ماذا يكسر الحكام بعد سلخ جلد الشعب؟",
+     "عظام",
+     "أذرع",
+     "أرجل"
+    ]
+   }
+  },
+  {
+   "id": "ch-micah-001-16",
+   "book": "micah",
+   "chapter": 4,
+   "difficulty": "easy",
+   "ref": "Micah 4:4",
+   "text": {
+    "en": [
+     "In Micah 4, each man sits under his vine and which tree?",
+     "Fig",
+     "Olive",
+     "Palm"
+    ],
+    "es": [
+     "¿En Miqueas 4, cada uno se sienta bajo su vid y bajo qué árbol?",
+     "Higuera",
+     "Olivo",
+     "Palmera"
+    ],
+    "pt": [
+     "Em Miqueias 4, cada um se senta debaixo da sua videira e de que árvore?",
+     "Figueira",
+     "Oliveira",
+     "Palmeira"
+    ],
+    "fr": [
+     "Dans Michée 4, chacun s'assoit sous sa vigne et sous quel arbre ?",
+     "Figuier",
+     "Olivier",
+     "Palmier"
+    ],
+    "de": [
+     "In Micha 4, jeder sitzt unter seinem Weinstock und unter welchem Baum?",
+     "Feigenbaum",
+     "Ölbaum",
+     "Palme"
+    ],
+    "it": [
+     "In Michea 4, ognuno siede sotto la sua vite e sotto quale albero?",
+     "Fico",
+     "Ulivo",
+     "Palma"
+    ],
+    "pl": [
+     "W Księdze Micheasza 4 każdy siedzi pod swoją winoroślą i pod jakim drzewem?",
+     "Figowcem",
+     "Oliwką",
+     "Palmą"
+    ],
+    "ru": [
+     "В книге Михея 4: каждый сидит под своей лозой и под каким деревом?",
+     "Смоковницей",
+     "Маслиной",
+     "Пальмой"
+    ],
+    "tr": [
+     "Mika 4'te herkes kendi asmasının ve hangi ağacın altında oturur?",
+     "İncir",
+     "Zeytin",
+     "Hurma"
+    ],
+    "ja": [
+     "ミカ書4章で、人はそれぞれぶどうの木と何の木の下に座るか？",
+     "イチジク",
+     "オリーブ",
+     "ナツメヤシ"
+    ],
+    "ko": [
+     "미카 4장에서 사람들은 각자 포도나무와 어떤 나무 아래 앉는가?",
+     "무화과나무",
+     "올리브나무",
+     "야자나무"
+    ],
+    "ar": [
+     "في ميخا 4، يجلس كل واحد تحت كرمته وتحت أي شجرة؟",
+     "تينة",
+     "زيتونة",
+     "نخلة"
+    ]
+   }
+  },
+  {
+   "id": "ch-micah-001-17",
+   "book": "micah",
+   "chapter": 4,
+   "difficulty": "medium",
+   "ref": "Micah 4:10",
+   "text": {
+    "en": [
+     "In Micah 4, to which city must daughter Zion go before rescue?",
+     "Babylon",
+     "Nineveh",
+     "Memphis"
+    ],
+    "es": [
+     "¿En Miqueas 4, a qué ciudad irá la hija de Sión antes de ser rescatada?",
+     "Babilonia",
+     "Nínive",
+     "Menfis"
+    ],
+    "pt": [
+     "Em Miqueias 4, a que cidade irá a filha de Sião antes de ser resgatada?",
+     "Babilônia",
+     "Nínive",
+     "Mênfis"
+    ],
+    "fr": [
+     "Dans Michée 4, dans quelle ville ira la fille de Sion avant d'être délivrée ?",
+     "Babylone",
+     "Ninive",
+     "Memphis"
+    ],
+    "de": [
+     "In Micha 4, in welche Stadt muss die Tochter Zion vor ihrer Rettung?",
+     "Babel",
+     "Ninive",
+     "Memphis"
+    ],
+    "it": [
+     "In Michea 4, in quale città andrà la figlia di Sion prima di essere liberata?",
+     "Babilonia",
+     "Ninive",
+     "Menfi"
+    ],
+    "pl": [
+     "W Księdze Micheasza 4 do jakiego miasta pójdzie córa Syjonu przed wybawieniem?",
+     "Babilonu",
+     "Niniwy",
+     "Memfis"
+    ],
+    "ru": [
+     "В книге Михея 4: в какой город пойдёт дочь Сиона до избавления?",
+     "Вавилон",
+     "Ниневию",
+     "Мемфис"
+    ],
+    "tr": [
+     "Mika 4'te Siyon kızı kurtulmadan önce hangi şehre gidecek?",
+     "Babil",
+     "Ninova",
+     "Memfis"
+    ],
+    "ja": [
+     "ミカ書4章で、シオンの娘は救い出される前にどの町へ行くか？",
+     "バビロン",
+     "ニネベ",
+     "メンフィス"
+    ],
+    "ko": [
+     "미카 4장에서 시온의 딸은 구원받기 전에 어느 도시로 가는가?",
+     "바빌론",
+     "니네베",
+     "멤피스"
+    ],
+    "ar": [
+     "في ميخا 4، إلى أي مدينة تذهب ابنة صهيون قبل أن تُنقذ؟",
+     "بابل",
+     "نينوى",
+     "منفيس"
+    ]
+   }
+  },
+  {
+   "id": "ch-micah-001-18",
+   "book": "micah",
+   "chapter": 4,
+   "difficulty": "hard",
+   "ref": "Micah 4:2",
+   "text": {
+    "en": [
+     "In Micah 4, nations climb to the house of which patriarch's God?",
+     "Jacob",
+     "Abraham",
+     "Isaac"
+    ],
+    "es": [
+     "¿En Miqueas 4, los pueblos suben a la casa del Dios de qué patriarca?",
+     "Jacob",
+     "Abrahán",
+     "Isaac"
+    ],
+    "pt": [
+     "Em Miqueias 4, os povos sobem à casa do Deus de que patriarca?",
+     "Jacó",
+     "Abraão",
+     "Isaac"
+    ],
+    "fr": [
+     "Dans Michée 4, les peuples montent à la maison du Dieu de quel patriarche ?",
+     "Jacob",
+     "Abraham",
+     "Isaac"
+    ],
+    "de": [
+     "In Micha 4, die Völker ziehen zum Haus des Gottes welches Erzvaters?",
+     "Jakobs",
+     "Abrahams",
+     "Isaaks"
+    ],
+    "it": [
+     "In Michea 4, i popoli salgono alla casa del Dio di quale patriarca?",
+     "Giacobbe",
+     "Abramo",
+     "Isacco"
+    ],
+    "pl": [
+     "W Księdze Micheasza 4 narody idą do domu Boga którego patriarchy?",
+     "Jakuba",
+     "Abrahama",
+     "Izaaka"
+    ],
+    "ru": [
+     "В книге Михея 4: народы идут в дом Бога какого патриарха?",
+     "Иакова",
+     "Авраама",
+     "Исаака"
+    ],
+    "tr": [
+     "Mika 4'te halklar hangi atanın Tanrısı'nın evine çıkar?",
+     "Yakup",
+     "İbrahim",
+     "İshak"
+    ],
+    "ja": [
+     "ミカ書4章で、諸国民はどの先祖の神の家に上るか？",
+     "ヤコブ",
+     "アブラハム",
+     "イサク"
+    ],
+    "ko": [
+     "미카 4장에서 민족들은 어느 조상의 하느님 집으로 올라가는가?",
+     "야곱",
+     "아브라함",
+     "이사악"
+    ],
+    "ar": [
+     "في ميخا 4، إلى بيت إله أي أب تصعد الشعوب؟",
+     "يعقوب",
+     "إبراهيم",
+     "إسحق"
+    ]
+   }
+  },
+  {
+   "id": "ch-micah-001-19",
+   "book": "micah",
+   "chapter": 4,
+   "difficulty": "expert",
+   "ref": "Micah 4:13",
+   "text": {
+    "en": [
+     "In Micah 4, Zion's horn is made of which metal?",
+     "Iron",
+     "Gold",
+     "Silver"
+    ],
+    "es": [
+     "¿En Miqueas 4, de qué metal será el cuerno de Sión?",
+     "Hierro",
+     "Oro",
+     "Plata"
+    ],
+    "pt": [
+     "Em Miqueias 4, de que metal será o chifre de Sião?",
+     "Ferro",
+     "Ouro",
+     "Prata"
+    ],
+    "fr": [
+     "Dans Michée 4, en quel métal sera la corne de Sion ?",
+     "Fer",
+     "Or",
+     "Argent"
+    ],
+    "de": [
+     "In Micha 4, aus welchem Metall wird Zions Horn sein?",
+     "Eisen",
+     "Gold",
+     "Silber"
+    ],
+    "it": [
+     "In Michea 4, di quale metallo sarà il corno di Sion?",
+     "Ferro",
+     "Oro",
+     "Argento"
+    ],
+    "pl": [
+     "W Księdze Micheasza 4 z jakiego metalu będzie róg Syjonu?",
+     "Żelaza",
+     "Złota",
+     "Srebra"
+    ],
+    "ru": [
+     "В книге Михея 4: из какого металла будет рог Сиона?",
+     "Железа",
+     "Золота",
+     "Серебра"
+    ],
+    "tr": [
+     "Mika 4'te Siyon'un boynuzu hangi madenden olacak?",
+     "Demir",
+     "Altın",
+     "Gümüş"
+    ],
+    "ja": [
+     "ミカ書4章で、シオンの角は何の金属になるか？",
+     "鉄",
+     "金",
+     "銀"
+    ],
+    "ko": [
+     "미카 4장에서 시온의 뿔은 어떤 금속이 되는가?",
+     "쇠",
+     "금",
+     "은"
+    ],
+    "ar": [
+     "في ميخا 4، من أي معدن يكون قرن صهيون؟",
+     "حديد",
+     "ذهب",
+     "فضة"
+    ]
+   }
+  },
+  {
+   "id": "ch-micah-001-20",
+   "book": "micah",
+   "chapter": 4,
+   "difficulty": "impossible",
+   "ref": "Micah 4:7",
+   "text": {
+    "en": [
+     "In Micah 4, besides a remnant, God makes a strong what?",
+     "Nation",
+     "Army",
+     "Tribe"
+    ],
+    "es": [
+     "¿En Miqueas 4, además de un resto, qué cosa fuerte hace Dios?",
+     "Nación",
+     "Ejército",
+     "Tribu"
+    ],
+    "pt": [
+     "Em Miqueias 4, além de um resto, que coisa forte Deus faz?",
+     "Nação",
+     "Exército",
+     "Tribo"
+    ],
+    "fr": [
+     "Dans Michée 4, outre un reste, quelle chose forte Dieu fait-il ?",
+     "Nation",
+     "Armée",
+     "Tribu"
+    ],
+    "de": [
+     "In Micha 4, neben einem Rest macht Gott etwas Starkes – was?",
+     "Volk",
+     "Heer",
+     "Stamm"
+    ],
+    "it": [
+     "In Michea 4, oltre a un resto, quale cosa forte fa Dio?",
+     "Nazione",
+     "Esercito",
+     "Tribù"
+    ],
+    "pl": [
+     "W Księdze Micheasza 4 oprócz reszty Bóg czyni coś silnego – co?",
+     "Naród",
+     "Wojsko",
+     "Plemię"
+    ],
+    "ru": [
+     "В книге Михея 4: кроме остатка, Бог создаёт нечто сильное – что?",
+     "Народ",
+     "Войско",
+     "Племя"
+    ],
+    "tr": [
+     "Mika 4'te Tanrı, bir kalıntıdan başka güçlü bir ne yapar?",
+     "Ulus",
+     "Ordu",
+     "Oymak"
+    ],
+    "ja": [
+     "ミカ書4章で、神は残りの者のほかに、強い何を造られるか？",
+     "国民",
+     "軍隊",
+     "部族"
+    ],
+    "ko": [
+     "미카 4장에서 하느님은 남은 자 외에 강한 무엇을 만드시는가?",
+     "민족",
+     "군대",
+     "지파"
+    ],
+    "ar": [
+     "في ميخا 4، ما الشيء القوي الذي يصنعه الله، إضافة إلى بقية؟",
+     "أمة",
+     "جيش",
+     "قبيلة"
+    ]
+   }
+  },
+  {
+   "id": "ch-micah-001-21",
+   "book": "micah",
+   "chapter": 5,
+   "difficulty": "easy",
+   "ref": "Micah 5:7",
+   "text": {
+    "en": [
+     "In Micah 5, Jacob's remnant is like which beast among forest animals?",
+     "Lion",
+     "Bear",
+     "Wolf"
+    ],
+    "es": [
+     "¿En Miqueas 5, a qué fiera del bosque se parece el resto de Jacob?",
+     "León",
+     "Oso",
+     "Lobo"
+    ],
+    "pt": [
+     "Em Miqueias 5, a que fera da floresta se parece o resto de Jacó?",
+     "Leão",
+     "Urso",
+     "Lobo"
+    ],
+    "fr": [
+     "Dans Michée 5, à quel fauve de la forêt ressemble le reste de Jacob ?",
+     "Lion",
+     "Ours",
+     "Loup"
+    ],
+    "de": [
+     "In Micha 5, welches Waldtier wird mit Jakobs Rest verglichen?",
+     "Löwe",
+     "Bär",
+     "Wolf"
+    ],
+    "it": [
+     "In Michea 5, a quale belva della foresta somiglia il resto di Giacobbe?",
+     "Leone",
+     "Orso",
+     "Lupo"
+    ],
+    "pl": [
+     "W Księdze Micheasza 5 do jakiego zwierzęcia leśnego podobna jest reszta Jakuba?",
+     "Lwa",
+     "Niedźwiedzia",
+     "Wilka"
+    ],
+    "ru": [
+     "В книге Михея 5: на какого лесного зверя похож остаток Иакова?",
+     "Льва",
+     "Медведя",
+     "Волка"
+    ],
+    "tr": [
+     "Mika 5'te Yakup'un kalıntısı orman hayvanları arasında hangisine benzer?",
+     "Aslan",
+     "Ayı",
+     "Kurt"
+    ],
+    "ja": [
+     "ミカ書5章で、ヤコブの残りの者は森の獣のうちどれのようか？",
+     "ライオン",
+     "熊",
+     "狼"
+    ],
+    "ko": [
+     "미카 5장에서 야곱의 남은 자들은 숲의 짐승 중 무엇과 같은가?",
+     "사자",
+     "곰",
+     "늑대"
+    ],
+    "ar": [
+     "في ميخا 5، بأي وحش من وحوش الغابة تشبه بقية يعقوب؟",
+     "أسد",
+     "دب",
+     "ذئب"
+    ]
+   }
+  },
+  {
+   "id": "ch-micah-001-22",
+   "book": "micah",
+   "chapter": 5,
+   "difficulty": "medium",
+   "ref": "Micah 5:6",
+   "text": {
+    "en": [
+     "In Micah 5, to what is Jacob's remnant compared among many peoples?",
+     "Dew",
+     "Fire",
+     "Smoke"
+    ],
+    "es": [
+     "¿En Miqueas 5, con qué se compara el resto de Jacob entre muchos pueblos?",
+     "Rocío",
+     "Fuego",
+     "Humo"
+    ],
+    "pt": [
+     "Em Miqueias 5, com que se compara o resto de Jacó entre muitos povos?",
+     "Orvalho",
+     "Fogo",
+     "Fumaça"
+    ],
+    "fr": [
+     "Dans Michée 5, à quoi le reste de Jacob est-il comparé parmi de nombreux peuples ?",
+     "Rosée",
+     "Feu",
+     "Fumée"
+    ],
+    "de": [
+     "In Micha 5, womit wird der Rest Jakobs unter vielen Völkern verglichen?",
+     "Tau",
+     "Feuer",
+     "Rauch"
+    ],
+    "it": [
+     "In Michea 5, a che cosa è paragonato il resto di Giacobbe fra molti popoli?",
+     "Rugiada",
+     "Fuoco",
+     "Fumo"
+    ],
+    "pl": [
+     "W Księdze Micheasza 5 z czym porównana jest reszta Jakuba wśród wielu ludów?",
+     "Rosą",
+     "Ogniem",
+     "Dymem"
+    ],
+    "ru": [
+     "В книге Михея 5: с чем сравнивается остаток Иакова среди многих народов?",
+     "Росой",
+     "Огнём",
+     "Дымом"
+    ],
+    "tr": [
+     "Mika 5'te Yakup'un kalıntısı birçok halk arasında neye benzetilir?",
+     "Çiy",
+     "Ateş",
+     "Duman"
+    ],
+    "ja": [
+     "ミカ書5章で、ヤコブの残りの者は多くの民の中で何にたとえられるか？",
+     "露",
+     "火",
+     "煙"
+    ],
+    "ko": [
+     "미카 5장에서 야곱의 남은 자들은 많은 민족 가운데서 무엇에 비유되는가?",
+     "이슬",
+     "불",
+     "연기"
+    ],
+    "ar": [
+     "في ميخا 5، بماذا تُشبَّه بقية يعقوب بين شعوب كثيرة؟",
+     "ندى",
+     "نار",
+     "دخان"
+    ]
+   }
+  },
+  {
+   "id": "ch-micah-001-23",
+   "book": "micah",
+   "chapter": 5,
+   "difficulty": "hard",
+   "ref": "Micah 5:4",
+   "text": {
+    "en": [
+     "In Micah 5, how many shepherds are raised against invading Assyria?",
+     "7",
+     "12",
+     "40"
+    ],
+    "es": [
+     "¿En Miqueas 5, cuántos pastores se levantan contra Asiria invasora?",
+     "7",
+     "12",
+     "40"
+    ],
+    "pt": [
+     "Em Miqueias 5, quantos pastores se levantam contra a Assíria invasora?",
+     "7",
+     "12",
+     "40"
+    ],
+    "fr": [
+     "Dans Michée 5, combien de bergers se lèvent contre l'Assyrie qui envahit ?",
+     "7",
+     "12",
+     "40"
+    ],
+    "de": [
+     "In Micha 5, wie viele Hirten werden gegen das eindringende Assur aufgestellt?",
+     "7",
+     "12",
+     "40"
+    ],
+    "it": [
+     "In Michea 5, quanti pastori sorgono contro l'Assiria invasora?",
+     "7",
+     "12",
+     "40"
+    ],
+    "pl": [
+     "W Księdze Micheasza 5 ilu pasterzy powstaje przeciw najeżdżającej Asyrii?",
+     "7",
+     "12",
+     "40"
+    ],
+    "ru": [
+     "В книге Михея 5: сколько пастырей выступает против вторгшегося Ассура?",
+     "7",
+     "12",
+     "40"
+    ],
+    "tr": [
+     "Mika 5'te saldıran Asur'a karşı kaç çoban çıkarılır?",
+     "7",
+     "12",
+     "40"
+    ],
+    "ja": [
+     "ミカ書5章で、侵入するアッシリアに対して何人の牧者が立てられるか？",
+     "7",
+     "12",
+     "40"
+    ],
+    "ko": [
+     "미카 5장에서 침략하는 아시리아에 맞서 몇 명의 목자가 세워지는가?",
+     "7",
+     "12",
+     "40"
+    ],
+    "ar": [
+     "في ميخا 5، كم راعيًا يُقام ضد أشور الغازية؟",
+     "7",
+     "12",
+     "40"
+    ]
+   }
+  },
+  {
+   "id": "ch-micah-001-24",
+   "book": "micah",
+   "chapter": 5,
+   "difficulty": "expert",
+   "ref": "Micah 5:5",
+   "text": {
+    "en": [
+     "In Micah 5, Assyria is called the land of whom?",
+     "Nimrod",
+     "Esau",
+     "Cain"
+    ],
+    "es": [
+     "¿En Miqueas 5, Asiria es llamada la tierra de quién?",
+     "Nemrod",
+     "Esaú",
+     "Caín"
+    ],
+    "pt": [
+     "Em Miqueias 5, a Assíria é chamada a terra de quem?",
+     "Ninrode",
+     "Esaú",
+     "Caim"
+    ],
+    "fr": [
+     "Dans Michée 5, l'Assyrie est appelée le pays de qui ?",
+     "Nemrod",
+     "Ésaü",
+     "Caïn"
+    ],
+    "de": [
+     "In Micha 5, Assur heißt das Land welches Mannes?",
+     "Nimrods",
+     "Esaus",
+     "Kains"
+    ],
+    "it": [
+     "In Michea 5, l'Assiria è chiamata il paese di chi?",
+     "Nimrod",
+     "Esaù",
+     "Caino"
+    ],
+    "pl": [
+     "W Księdze Micheasza 5 Asyria jest nazwana krajem kogo?",
+     "Nemroda",
+     "Ezawa",
+     "Kaina"
+    ],
+    "ru": [
+     "В книге Михея 5: Ассур назван землёй кого?",
+     "Нимврода",
+     "Исава",
+     "Каина"
+    ],
+    "tr": [
+     "Mika 5'te Asur kimin diyarı diye anılır?",
+     "Nimrot",
+     "Esav",
+     "Kabil"
+    ],
+    "ja": [
+     "ミカ書5章で、アッシリアは誰の国と呼ばれるか？",
+     "ニムロド",
+     "エサウ",
+     "カイン"
+    ],
+    "ko": [
+     "미카 5장에서 아시리아는 누구의 땅이라 불리는가?",
+     "니므롯",
+     "에사우",
+     "카인"
+    ],
+    "ar": [
+     "في ميخا 5، أشور تُسمى أرض من؟",
+     "نمرود",
+     "عيسو",
+     "قايين"
+    ]
+   }
+  },
+  {
+   "id": "ch-micah-001-25",
+   "book": "micah",
+   "chapter": 5,
+   "difficulty": "impossible",
+   "ref": "Micah 5:9",
+   "text": {
+    "en": [
+     "In Micah 5, God destroys chariots and cuts off which animals?",
+     "Horses",
+     "Mules",
+     "Donkeys"
+    ],
+    "es": [
+     "¿En Miqueas 5, Dios destruye carros y elimina qué animales?",
+     "Caballos",
+     "Mulas",
+     "Burros"
+    ],
+    "pt": [
+     "Em Miqueias 5, Deus destrói carros e elimina que animais?",
+     "Cavalos",
+     "Mulas",
+     "Jumentos"
+    ],
+    "fr": [
+     "Dans Michée 5, Dieu détruit les chars et retranche quels animaux ?",
+     "Chevaux",
+     "Mulets",
+     "Ânes"
+    ],
+    "de": [
+     "In Micha 5, Gott vernichtet Wagen und rottet welche Tiere aus?",
+     "Pferde",
+     "Maultiere",
+     "Esel"
+    ],
+    "it": [
+     "In Michea 5, Dio distrugge i carri e stermina quali animali?",
+     "Cavalli",
+     "Muli",
+     "Asini"
+    ],
+    "pl": [
+     "W Księdze Micheasza 5 Bóg niszczy rydwany i wytępia które zwierzęta?",
+     "Konie",
+     "Muły",
+     "Osły"
+    ],
+    "ru": [
+     "В книге Михея 5: Бог разрушает колесницы и истребляет каких животных?",
+     "Коней",
+     "Мулов",
+     "Ослов"
+    ],
+    "tr": [
+     "Mika 5'te Tanrı savaş arabalarını yıkar ve hangi hayvanları yok eder?",
+     "Atları",
+     "Katırları",
+     "Eşekleri"
+    ],
+    "ja": [
+     "ミカ書5章で、神は戦車を壊し、どの動物を断つか？",
+     "馬",
+     "ラバ",
+     "ロバ"
+    ],
+    "ko": [
+     "미카 5장에서 하느님은 병거를 부수고 어떤 짐승을 없애시는가?",
+     "말",
+     "노새",
+     "나귀"
+    ],
+    "ar": [
+     "في ميخا 5، يهدم الله المركبات ويستأصل أي حيوانات؟",
+     "خيل",
+     "بغال",
+     "حمير"
+    ]
+   }
+  },
+  {
+   "id": "ch-micah-001-26",
+   "book": "micah",
+   "chapter": 6,
+   "difficulty": "easy",
+   "ref": "Micah 6:4",
+   "text": {
+    "en": [
+     "In Micah 6, God reminds Israel he brought them up from which land?",
+     "Egypt",
+     "Babylon",
+     "Assyria"
+    ],
+    "es": [
+     "¿En Miqueas 6, de qué tierra recuerda Dios a Israel que lo hizo subir?",
+     "Egipto",
+     "Babilonia",
+     "Asiria"
+    ],
+    "pt": [
+     "Em Miqueias 6, de que terra Deus lembra a Israel que o fez subir?",
+     "Egito",
+     "Babilônia",
+     "Assíria"
+    ],
+    "fr": [
+     "Dans Michée 6, de quel pays Dieu rappelle-t-il à Israël qu'il l'a fait monter ?",
+     "Égypte",
+     "Babylone",
+     "Assyrie"
+    ],
+    "de": [
+     "In Micha 6, erinnert Gott Israel daran, dass er es aus welchem Land heraufgeführt hat?",
+     "Ägypten",
+     "Babel",
+     "Assur"
+    ],
+    "it": [
+     "In Michea 6, da quale paese Dio ricorda a Israele di averlo fatto salire?",
+     "Egitto",
+     "Babilonia",
+     "Assiria"
+    ],
+    "pl": [
+     "W Księdze Micheasza 6 z jakiej ziemi Bóg przypomina Izraelowi, że go wyprowadził?",
+     "Egiptu",
+     "Babilonu",
+     "Asyrii"
+    ],
+    "ru": [
+     "В книге Михея 6: из какой земли, напоминает Бог Израилю, Он его вывел?",
+     "Египта",
+     "Вавилона",
+     "Ассура"
+    ],
+    "tr": [
+     "Mika 6'da Tanrı, İsrail'e onu hangi ülkeden çıkardığını hatırlatır?",
+     "Mısır",
+     "Babil",
+     "Asur"
+    ],
+    "ja": [
+     "ミカ書6章で、神がイスラエルを導き上らせたと思い起こさせる国はどこか？",
+     "エジプト",
+     "バビロン",
+     "アッシリア"
+    ],
+    "ko": [
+     "미카 6장에서 하느님은 이스라엘을 어느 나라에서 올라오게 하셨다고 상기시키시는가?",
+     "이집트",
+     "바빌론",
+     "아시리아"
+    ],
+    "ar": [
+     "في ميخا 6، من أي أرض يذكّر الله إسرائيل بأنه أصعده؟",
+     "مصر",
+     "بابل",
+     "أشور"
+    ]
+   }
+  },
+  {
+   "id": "ch-micah-001-27",
+   "book": "micah",
+   "chapter": 6,
+   "difficulty": "medium",
+   "ref": "Micah 6:15",
+   "text": {
+    "en": [
+     "In Micah 6, people tread olives but go without what?",
+     "Oil",
+     "Milk",
+     "Bread"
+    ],
+    "es": [
+     "¿En Miqueas 6, la gente pisa aceitunas pero se queda sin qué?",
+     "Aceite",
+     "Leche",
+     "Pan"
+    ],
+    "pt": [
+     "Em Miqueias 6, o povo pisa azeitonas, mas fica sem quê?",
+     "Azeite",
+     "Leite",
+     "Pão"
+    ],
+    "fr": [
+     "Dans Michée 6, on foule des olives, mais on reste sans quoi ?",
+     "Huile",
+     "Lait",
+     "Pain"
+    ],
+    "de": [
+     "In Micha 6, Menschen treten Oliven, müssen aber ohne was auskommen?",
+     "Öl",
+     "Milch",
+     "Brot"
+    ],
+    "it": [
+     "In Michea 6, si pestano le olive ma si resta senza che cosa?",
+     "Olio",
+     "Latte",
+     "Pane"
+    ],
+    "pl": [
+     "W Księdze Micheasza 6 ludzie tłoczą oliwki, ale czego nie mają?",
+     "Oleju",
+     "Mleka",
+     "Chleba"
+    ],
+    "ru": [
+     "В книге Михея 6: люди давят маслины, но остаются без чего?",
+     "Масла",
+     "Молока",
+     "Хлеба"
+    ],
+    "tr": [
+     "Mika 6'da insanlar zeytin ezer ama neyden yoksun kalır?",
+     "Yağ",
+     "Süt",
+     "Ekmek"
+    ],
+    "ja": [
+     "ミカ書6章で、人々はオリーブを踏んでも、何がないままか？",
+     "油",
+     "乳",
+     "パン"
+    ],
+    "ko": [
+     "미카 6장에서 사람들은 올리브를 밟지만 무엇이 없는가?",
+     "기름",
+     "우유",
+     "빵"
+    ],
+    "ar": [
+     "في ميخا 6، يدوسون الزيتون لكنهم محرومون من ماذا؟",
+     "زيت",
+     "حليب",
+     "خبز"
+    ]
+   }
+  },
+  {
+   "id": "ch-micah-001-28",
+   "book": "micah",
+   "chapter": 6,
+   "difficulty": "hard",
+   "ref": "Micah 6:5",
+   "text": {
+    "en": [
+     "In Micah 6, which king of Moab plotted against Israel?",
+     "Balak",
+     "Sihon",
+     "Og"
+    ],
+    "es": [
+     "¿En Miqueas 6, qué rey de Moab tramó contra Israel?",
+     "Balac",
+     "Sehón",
+     "Og"
+    ],
+    "pt": [
+     "Em Miqueias 6, que rei de Moab tramou contra Israel?",
+     "Balac",
+     "Seon",
+     "Og"
+    ],
+    "fr": [
+     "Dans Michée 6, quel roi de Moab complota contre Israël ?",
+     "Balaq",
+     "Sihon",
+     "Og"
+    ],
+    "de": [
+     "In Micha 6, welcher König von Moab plante gegen Israel?",
+     "Balak",
+     "Sihon",
+     "Og"
+    ],
+    "it": [
+     "In Michea 6, quale re di Moab tramò contro Israele?",
+     "Balak",
+     "Sicon",
+     "Og"
+    ],
+    "pl": [
+     "W Księdze Micheasza 6 który król Moabu knuł przeciw Izraelowi?",
+     "Balak",
+     "Sychon",
+     "Og"
+    ],
+    "ru": [
+     "В книге Михея 6: какой царь Моава замышлял против Израиля?",
+     "Валак",
+     "Сигон",
+     "Ог"
+    ],
+    "tr": [
+     "Mika 6'da hangi Moab kralı İsrail'e karşı tuzak kurdu?",
+     "Balak",
+     "Sihon",
+     "Og"
+    ],
+    "ja": [
+     "ミカ書6章で、イスラエルに対して謀ったモアブの王は誰か？",
+     "バラク",
+     "シホン",
+     "オグ"
+    ],
+    "ko": [
+     "미카 6장에서 이스라엘에 맞서 모의한 모압 임금은 누구인가?",
+     "발락",
+     "시혼",
+     "옥"
+    ],
+    "ar": [
+     "في ميخا 6، أي ملك لمؤاب تآمر على إسرائيل؟",
+     "بالاق",
+     "سيحون",
+     "عوج"
+    ]
+   }
+  },
+  {
+   "id": "ch-micah-001-29",
+   "book": "micah",
+   "chapter": 6,
+   "difficulty": "expert",
+   "ref": "Micah 6:7",
+   "text": {
+    "en": [
+     "In Micah 6, thousands of which animals might be offered?",
+     "Rams",
+     "Camels",
+     "Pigs"
+    ],
+    "es": [
+     "¿En Miqueas 6, miles de qué animales podrían ofrecerse?",
+     "Carneros",
+     "Camellos",
+     "Cerdos"
+    ],
+    "pt": [
+     "Em Miqueias 6, milhares de que animais poderiam ser oferecidos?",
+     "Carneiros",
+     "Camelos",
+     "Porcos"
+    ],
+    "fr": [
+     "Dans Michée 6, des milliers de quels animaux pourraient être offerts ?",
+     "Béliers",
+     "Chameaux",
+     "Porcs"
+    ],
+    "de": [
+     "In Micha 6, Tausende welcher Tiere könnten geopfert werden?",
+     "Widder",
+     "Kamele",
+     "Schweine"
+    ],
+    "it": [
+     "In Michea 6, migliaia di quali animali potrebbero essere offerti?",
+     "Montoni",
+     "Cammelli",
+     "Maiali"
+    ],
+    "pl": [
+     "W Księdze Micheasza 6 tysiące jakich zwierząt mogłoby być ofiarowane?",
+     "Baranów",
+     "Wielbłądów",
+     "Świń"
+    ],
+    "ru": [
+     "В книге Михея 6: тысячи каких животных могли бы быть принесены в жертву?",
+     "Овнов",
+     "Верблюдов",
+     "Свиней"
+    ],
+    "tr": [
+     "Mika 6'da binlerce hangi hayvan sunulabilirdi?",
+     "Koç",
+     "Deve",
+     "Domuz"
+    ],
+    "ja": [
+     "ミカ書6章で、何千もささげられうる動物は何か？",
+     "雄羊",
+     "ラクダ",
+     "豚"
+    ],
+    "ko": [
+     "미카 6장에서 수천 마리를 바칠 수 있는 짐승은 무엇인가?",
+     "숫양",
+     "낙타",
+     "돼지"
+    ],
+    "ar": [
+     "في ميخا 6، آلاف أي حيوانات يمكن تقديمها؟",
+     "كباش",
+     "جمال",
+     "خنازير"
+    ]
+   }
+  },
+  {
+   "id": "ch-micah-001-30",
+   "book": "micah",
+   "chapter": 6,
+   "difficulty": "impossible",
+   "ref": "Micah 6:16",
+   "text": {
+    "en": [
+     "In Micah 6, the statutes of which king, Ahab's father, are kept?",
+     "Omri",
+     "Jehu",
+     "Jeroboam"
+    ],
+    "es": [
+     "¿En Miqueas 6, se guardan los estatutos de qué rey, padre de Ajab?",
+     "Omrí",
+     "Jehú",
+     "Jeroboán"
+    ],
+    "pt": [
+     "Em Miqueias 6, guardam-se os estatutos de que rei, pai de Acab?",
+     "Amri",
+     "Jeú",
+     "Jeroboão"
+    ],
+    "fr": [
+     "Dans Michée 6, on garde les coutumes de quel roi, père d'Acab ?",
+     "Omri",
+     "Jéhu",
+     "Jéroboam"
+    ],
+    "de": [
+     "In Micha 6, werden die Satzungen welches Königs, Ahabs Vater, befolgt?",
+     "Omris",
+     "Jehus",
+     "Jerobeams"
+    ],
+    "it": [
+     "In Michea 6, si osservano gli statuti di quale re, padre di Acab?",
+     "Omri",
+     "Ieu",
+     "Geroboamo"
+    ],
+    "pl": [
+     "W Księdze Micheasza 6 przestrzega się ustaw którego króla, ojca Achaba?",
+     "Omriego",
+     "Jehu",
+     "Jeroboama"
+    ],
+    "ru": [
+     "В книге Михея 6: исполняют уставы какого царя, отца Ахава?",
+     "Амврия",
+     "Ииуя",
+     "Иеровоама"
+    ],
+    "tr": [
+     "Mika 6'da hangi kralın, Ahav'ın babasının, kurallarına uyuluyor?",
+     "Omri",
+     "Yehu",
+     "Yarovam"
+    ],
+    "ja": [
+     "ミカ書6章で、アハブの父で、その掟が守られている王は誰か？",
+     "オムリ",
+     "イエフ",
+     "ヤロブアム"
+    ],
+    "ko": [
+     "미카 6장에서 아합의 아버지로서 그의 규정이 지켜지는 임금은 누구인가?",
+     "오므리",
+     "예후",
+     "여로보암"
+    ],
+    "ar": [
+     "في ميخا 6، أي ملك، والد أخآب، تُحفظ فرائضه؟",
+     "عمري",
+     "ياهو",
+     "يربعام"
+    ]
+   }
+  },
+  {
+   "id": "ch-micah-001-31",
+   "book": "micah",
+   "chapter": 7,
+   "difficulty": "easy",
+   "ref": "Micah 7:19",
+   "text": {
+    "en": [
+     "In Micah 7, into what will God cast all our sins?",
+     "Sea",
+     "Fire",
+     "Desert"
+    ],
+    "es": [
+     "¿En Miqueas 7, en qué arrojará Dios todos nuestros pecados?",
+     "Mar",
+     "Fuego",
+     "Desierto"
+    ],
+    "pt": [
+     "Em Miqueias 7, em que Deus lançará todos os nossos pecados?",
+     "Mar",
+     "Fogo",
+     "Deserto"
+    ],
+    "fr": [
+     "Dans Michée 7, dans quoi Dieu jettera-t-il tous nos péchés ?",
+     "Mer",
+     "Feu",
+     "Désert"
+    ],
+    "de": [
+     "In Micha 7, in was wirft Gott all unsere Sünden?",
+     "Meer",
+     "Feuer",
+     "Wüste"
+    ],
+    "it": [
+     "In Michea 7, in che cosa getterà Dio tutti i nostri peccati?",
+     "Mare",
+     "Fuoco",
+     "Deserto"
+    ],
+    "pl": [
+     "W Księdze Micheasza 7 w co Bóg wrzuci wszystkie nasze grzechy?",
+     "Morze",
+     "Ogień",
+     "Pustynię"
+    ],
+    "ru": [
+     "В книге Михея 7: во что Бог бросит все наши грехи?",
+     "Море",
+     "Огонь",
+     "Пустыню"
+    ],
+    "tr": [
+     "Mika 7'de Tanrı bütün günahlarımızı neye atacak?",
+     "Deniz",
+     "Ateş",
+     "Çöl"
+    ],
+    "ja": [
+     "ミカ書7章で、神はわたしたちの罪をすべて何に投げ込むか？",
+     "海",
+     "火",
+     "砂漠"
+    ],
+    "ko": [
+     "미카 7장에서 하느님은 우리의 모든 죄를 무엇에 던지시는가?",
+     "바다",
+     "불",
+     "사막"
+    ],
+    "ar": [
+     "في ميخا 7، في ماذا يطرح الله كل خطايانا؟",
+     "بحر",
+     "نار",
+     "صحراء"
+    ]
+   }
+  },
+  {
+   "id": "ch-micah-001-32",
+   "book": "micah",
+   "chapter": 7,
+   "difficulty": "medium",
+   "ref": "Micah 7:8",
+   "text": {
+    "en": [
+     "In Micah 7, sitting in darkness, what is the Lord for Micah?",
+     "Light",
+     "Rock",
+     "Shield"
+    ],
+    "es": [
+     "¿En Miqueas 7, sentado en tinieblas, qué es el Señor para Miqueas?",
+     "Luz",
+     "Roca",
+     "Escudo"
+    ],
+    "pt": [
+     "Em Miqueias 7, sentado nas trevas, o que é o Senhor para Miqueias?",
+     "Luz",
+     "Rocha",
+     "Escudo"
+    ],
+    "fr": [
+     "Dans Michée 7, assis dans les ténèbres, qu'est le Seigneur pour Michée ?",
+     "Lumière",
+     "Rocher",
+     "Bouclier"
+    ],
+    "de": [
+     "In Micha 7, was ist der Herr für Micha, der im Finstern sitzt?",
+     "Licht",
+     "Fels",
+     "Schild"
+    ],
+    "it": [
+     "In Michea 7, seduto nelle tenebre, che cosa è il Signore per Michea?",
+     "Luce",
+     "Roccia",
+     "Scudo"
+    ],
+    "pl": [
+     "W Księdze Micheasza 7 kim jest Pan dla Micheasza siedzącego w ciemnościach?",
+     "Światłem",
+     "Skałą",
+     "Tarczą"
+    ],
+    "ru": [
+     "В книге Михея 7: чем является Господь для Михея, сидящего во тьме?",
+     "Светом",
+     "Скалой",
+     "Щитом"
+    ],
+    "tr": [
+     "Mika 7'de karanlıkta oturan Mika için Rab nedir?",
+     "Işık",
+     "Kaya",
+     "Kalkan"
+    ],
+    "ja": [
+     "ミカ書7章で、闇の中に座るミカにとって主は何か？",
+     "光",
+     "岩",
+     "盾"
+    ],
+    "ko": [
+     "미카 7장에서 어둠 속에 앉은 미카에게 주님은 무엇인가?",
+     "빛",
+     "바위",
+     "방패"
+    ],
+    "ar": [
+     "في ميخا 7، ماذا يكون الرب لميخا الجالس في الظلمة؟",
+     "نور",
+     "صخرة",
+     "ترس"
+    ]
+   }
+  },
+  {
+   "id": "ch-micah-001-33",
+   "book": "micah",
+   "chapter": 7,
+   "difficulty": "hard",
+   "ref": "Micah 7:17",
+   "text": {
+    "en": [
+     "In Micah 7, nations lick the dust like which creatures?",
+     "Serpents",
+     "Wolves",
+     "Oxen"
+    ],
+    "es": [
+     "¿En Miqueas 7, como qué animales lamen el polvo las naciones?",
+     "Serpientes",
+     "Lobos",
+     "Bueyes"
+    ],
+    "pt": [
+     "Em Miqueias 7, como que animais as nações lambem o pó?",
+     "Serpentes",
+     "Lobos",
+     "Bois"
+    ],
+    "fr": [
+     "Dans Michée 7, comme quels animaux les nations lèchent-elles la poussière ?",
+     "Serpents",
+     "Loups",
+     "Bœufs"
+    ],
+    "de": [
+     "In Micha 7, wie welche Tiere lecken die Völker den Staub?",
+     "Schlangen",
+     "Wölfe",
+     "Ochsen"
+    ],
+    "it": [
+     "In Michea 7, come quali animali le nazioni leccano la polvere?",
+     "Serpenti",
+     "Lupi",
+     "Buoi"
+    ],
+    "pl": [
+     "W Księdze Micheasza 7 jak jakie zwierzęta narody będą lizać proch?",
+     "Węże",
+     "Wilki",
+     "Woły"
+    ],
+    "ru": [
+     "В книге Михея 7: подобно кому народы будут лизать прах?",
+     "Змеям",
+     "Волкам",
+     "Волам"
+    ],
+    "tr": [
+     "Mika 7'de uluslar toprağı hangi yaratıklar gibi yalar?",
+     "Yılanlar",
+     "Kurtlar",
+     "Öküzler"
+    ],
+    "ja": [
+     "ミカ書7章で、諸国民は塵をどんな生き物のように舐めるか？",
+     "蛇",
+     "狼",
+     "牛"
+    ],
+    "ko": [
+     "미카 7장에서 민족들은 먼지를 어떤 짐승처럼 핥는가?",
+     "뱀",
+     "늑대",
+     "소"
+    ],
+    "ar": [
+     "في ميخا 7، كأي مخلوقات تلحس الأمم التراب؟",
+     "ثعابين",
+     "ذئاب",
+     "ثيران"
+    ]
+   }
+  },
+  {
+   "id": "ch-micah-001-34",
+   "book": "micah",
+   "chapter": 7,
+   "difficulty": "expert",
+   "ref": "Micah 7:14",
+   "text": {
+    "en": [
+     "In Micah 7, God's flock grazes in Bashan and where?",
+     "Gilead",
+     "Moab",
+     "Edom"
+    ],
+    "es": [
+     "¿En Miqueas 7, el rebaño de Dios pasta en Basán y dónde?",
+     "Galaad",
+     "Moab",
+     "Edom"
+    ],
+    "pt": [
+     "Em Miqueias 7, o rebanho de Deus pasta em Basã e onde?",
+     "Galaad",
+     "Moab",
+     "Edom"
+    ],
+    "fr": [
+     "Dans Michée 7, le troupeau de Dieu paît en Basan et où ?",
+     "Galaad",
+     "Moab",
+     "Édom"
+    ],
+    "de": [
+     "In Micha 7, die Herde Gottes weidet in Baschan und wo?",
+     "Gilead",
+     "Moab",
+     "Edom"
+    ],
+    "it": [
+     "In Michea 7, il gregge di Dio pascola in Basan e dove?",
+     "Gàlaad",
+     "Moab",
+     "Edom"
+    ],
+    "pl": [
+     "W Księdze Micheasza 7 trzoda Boża pasie się w Baszanie i w jakiej krainie?",
+     "Gileadzie",
+     "Moabie",
+     "Edomie"
+    ],
+    "ru": [
+     "В книге Михея 7: Божье стадо пасётся в Васане и в какой стране?",
+     "Галааде",
+     "Моаве",
+     "Эдоме"
+    ],
+    "tr": [
+     "Mika 7'de Tanrı'nın sürüsü Başan'da ve nerede otlar?",
+     "Gilat",
+     "Moab",
+     "Edom"
+    ],
+    "ja": [
+     "ミカ書7章で、神の群れはバシャンとどこで草を食むか？",
+     "ギレアド",
+     "モアブ",
+     "エドム"
+    ],
+    "ko": [
+     "미카 7장에서 하느님의 양 떼는 바산과 어디에서 풀을 뜯는가?",
+     "길앗",
+     "모압",
+     "에돔"
+    ],
+    "ar": [
+     "في ميخا 7، أين يرعى قطيع الله مع باشان؟",
+     "جلعاد",
+     "موآب",
+     "أدوم"
+    ]
+   }
+  },
+  {
+   "id": "ch-micah-001-35",
+   "book": "micah",
+   "chapter": 7,
+   "difficulty": "impossible",
+   "ref": "Micah 7:20",
+   "text": {
+    "en": [
+     "In Micah 7, God's sworn faithfulness extends to Jacob and which patriarch?",
+     "Abraham",
+     "Noah",
+     "Joseph"
+    ],
+    "es": [
+     "¿En Miqueas 7, la fidelidad que Dios juró se extiende a Jacob y a qué patriarca?",
+     "Abrahán",
+     "Noé",
+     "José"
+    ],
+    "pt": [
+     "Em Miqueias 7, a fidelidade que Deus jurou se estende a Jacó e a que patriarca?",
+     "Abraão",
+     "Noé",
+     "José"
+    ],
+    "fr": [
+     "Dans Michée 7, la fidélité jurée par Dieu s'étend à Jacob et à quel patriarche ?",
+     "Abraham",
+     "Noé",
+     "Joseph"
+    ],
+    "de": [
+     "In Micha 7, gilt Gottes geschworene Treue Jakob und welchem Erzvater?",
+     "Abraham",
+     "Noach",
+     "Josef"
+    ],
+    "it": [
+     "In Michea 7, la fedeltà giurata da Dio si estende a Giacobbe e a quale patriarca?",
+     "Abramo",
+     "Noè",
+     "Giuseppe"
+    ],
+    "pl": [
+     "W Księdze Micheasza 7 przysięgła wierność Boga obejmuje Jakuba i którego patriarchę?",
+     "Abrahama",
+     "Noego",
+     "Józefa"
+    ],
+    "ru": [
+     "В книге Михея 7: верность, которой клялся Бог, распространяется на Иакова и какого патриарха?",
+     "Авраама",
+     "Ноя",
+     "Иосифа"
+    ],
+    "tr": [
+     "Mika 7'de Tanrı'nın ant içtiği sadakat Yakup'a ve hangi ataya uzanır?",
+     "İbrahim",
+     "Nuh",
+     "Yusuf"
+    ],
+    "ja": [
+     "ミカ書7章で、神が誓われた真実は、ヤコブとどの先祖に及ぶか？",
+     "アブラハム",
+     "ノア",
+     "ヨセフ"
+    ],
+    "ko": [
+     "미카 7장에서 하느님이 맹세하신 성실은 야곱과 어느 조상에게 미치는가?",
+     "아브라함",
+     "노아",
+     "요셉"
+    ],
+    "ar": [
+     "في ميخا 7، إلى يعقوب وأي أب تمتد أمانة الله التي أقسم عليها؟",
+     "إبراهيم",
+     "نوح",
+     "يوسف"
+    ]
+   }
+  }
+ ]
+}
