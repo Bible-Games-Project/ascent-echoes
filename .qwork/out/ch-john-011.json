@@ -1,0 +1,4459 @@
+{
+ "questions": [
+  {
+   "id": "ch-john-011-01",
+   "book": "john",
+   "chapter": 11,
+   "difficulty": "easy",
+   "ref": "John 11:20",
+   "text": {
+    "en": [
+     "In John 11, which sister went to meet Jesus while Mary stayed home?",
+     "Martha",
+     "Sarah",
+     "Ruth"
+    ],
+    "es": [
+     "En Juan 11, ¿qué hermana salió al encuentro de Jesús mientras María se quedaba en casa?",
+     "Marta",
+     "Sara",
+     "Rut"
+    ],
+    "pt": [
+     "Em João 11, qual irmã foi ao encontro de Jesus enquanto Maria ficou em casa?",
+     "Marta",
+     "Sara",
+     "Rute"
+    ],
+    "fr": [
+     "En Jean 11, quelle sœur alla à la rencontre de Jésus pendant que Marie restait à la maison ?",
+     "Marthe",
+     "Sara",
+     "Ruth"
+    ],
+    "de": [
+     "In Johannes 11, welche Schwester ging Jesus entgegen, während Maria zu Hause blieb?",
+     "Marta",
+     "Sara",
+     "Rut"
+    ],
+    "it": [
+     "In Giovanni 11, quale sorella andò incontro a Gesù mentre Maria restava in casa?",
+     "Marta",
+     "Sara",
+     "Rut"
+    ],
+    "pl": [
+     "W Ewangelii Jana 11, która siostra wyszła naprzeciw Jezusa, gdy Maria została w domu?",
+     "Marta",
+     "Sara",
+     "Rut"
+    ],
+    "ru": [
+     "В Евангелии от Иоанна 11, какая сестра вышла навстречу Иисусу, пока Мария сидела дома?",
+     "Марфа",
+     "Сарра",
+     "Руфь"
+    ],
+    "tr": [
+     "Yuhanna 11'de Meryem evde otururken hangi kız kardeş İsa'yı karşılamaya gitti?",
+     "Marta",
+     "Sara",
+     "Rut"
+    ],
+    "ja": [
+     "ヨハネ11章で、マリアが家に残る中、イエスを迎えに出た姉妹は誰ですか？",
+     "マルタ",
+     "サラ",
+     "ルツ"
+    ],
+    "ko": [
+     "요한 11장에서 마리아가 집에 있는 동안 예수님을 맞으러 나간 자매는 누구입니까?",
+     "마르타",
+     "사라",
+     "룻"
+    ],
+    "ar": [
+     "في يوحنا 11، أي أخت خرجت للقاء يسوع بينما بقيت مريم في البيت؟",
+     "مرتا",
+     "سارة",
+     "راعوث"
+    ]
+   }
+  },
+  {
+   "id": "ch-john-011-02",
+   "book": "john",
+   "chapter": 11,
+   "difficulty": "medium",
+   "ref": "John 11:38",
+   "text": {
+    "en": [
+     "In John 11, what lay across the cave where Lazarus was buried?",
+     "Stone",
+     "Wood",
+     "Iron"
+    ],
+    "es": [
+     "En Juan 11, ¿qué estaba puesto sobre la cueva donde fue sepultado Lázaro?",
+     "Piedra",
+     "Madera",
+     "Hierro"
+    ],
+    "pt": [
+     "Em João 11, o que estava posto sobre a gruta onde Lázaro foi sepultado?",
+     "Pedra",
+     "Madeira",
+     "Ferro"
+    ],
+    "fr": [
+     "En Jean 11, qu'est-ce qui était posé contre la grotte où Lazare était enseveli ?",
+     "Pierre",
+     "Bois",
+     "Fer"
+    ],
+    "de": [
+     "In Johannes 11, was lag vor der Höhle, in der Lazarus begraben war?",
+     "Stein",
+     "Holz",
+     "Eisen"
+    ],
+    "it": [
+     "In Giovanni 11, che cosa era posto contro la grotta dove fu sepolto Lazzaro?",
+     "Pietra",
+     "Legno",
+     "Ferro"
+    ],
+    "pl": [
+     "W Ewangelii Jana 11, co zamykało jaskinię, w której pochowano Łazarza?",
+     "Kamień",
+     "Drewno",
+     "Żelazo"
+    ],
+    "ru": [
+     "В Евангелии от Иоанна 11, что закрывало пещеру, в которой погребён Лазарь?",
+     "Камень",
+     "Дерево",
+     "Железо"
+    ],
+    "tr": [
+     "Yuhanna 11'de Lazar'ın gömüldüğü mağaranın üzerinde ne vardı?",
+     "Taş",
+     "Tahta",
+     "Demir"
+    ],
+    "ja": [
+     "ヨハネ11章で、ラザロが葬られた洞穴の上に置かれていたものは何ですか？",
+     "石",
+     "木",
+     "鉄"
+    ],
+    "ko": [
+     "요한 11장에서 라자로가 묻힌 동굴 위에 놓여 있던 것은 무엇입니까?",
+     "돌",
+     "나무",
+     "철"
+    ],
+    "ar": [
+     "في يوحنا 11، ما الذي كان موضوعاً على المغارة التي دُفن فيها لعازر؟",
+     "حجر",
+     "خشب",
+     "حديد"
+    ]
+   }
+  },
+  {
+   "id": "ch-john-011-03",
+   "book": "john",
+   "chapter": 11,
+   "difficulty": "hard",
+   "ref": "John 11:49-50",
+   "text": {
+    "en": [
+     "In John 11, which high priest said one man should die for the people?",
+     "Caiaphas",
+     "Annas",
+     "Aaron"
+    ],
+    "es": [
+     "En Juan 11, ¿qué sumo sacerdote dijo que un solo hombre debía morir por el pueblo?",
+     "Caifás",
+     "Anás",
+     "Aarón"
+    ],
+    "pt": [
+     "Em João 11, que sumo sacerdote disse que um só homem devia morrer pelo povo?",
+     "Caifás",
+     "Anás",
+     "Arão"
+    ],
+    "fr": [
+     "En Jean 11, quel grand prêtre dit qu'un seul homme devait mourir pour le peuple ?",
+     "Caïphe",
+     "Anne",
+     "Aaron"
+    ],
+    "de": [
+     "In Johannes 11, welcher Hohepriester sagte, ein einziger Mensch solle für das Volk sterben?",
+     "Kajaphas",
+     "Hannas",
+     "Aaron"
+    ],
+    "it": [
+     "In Giovanni 11, quale sommo sacerdote disse che un solo uomo doveva morire per il popolo?",
+     "Caifa",
+     "Anna",
+     "Aronne"
+    ],
+    "pl": [
+     "W Ewangelii Jana 11, który arcykapłan powiedział, że jeden człowiek ma umrzeć za naród?",
+     "Kajfasz",
+     "Annasz",
+     "Aaron"
+    ],
+    "ru": [
+     "В Евангелии от Иоанна 11, какой первосвященник сказал, что один человек должен умереть за народ?",
+     "Каиафа",
+     "Анна",
+     "Аарон"
+    ],
+    "tr": [
+     "Yuhanna 11'de hangi başkâhin tek bir adamın halk için ölmesi gerektiğini söyledi?",
+     "Kayafa",
+     "Hanan",
+     "Harun"
+    ],
+    "ja": [
+     "ヨハネ11章で、一人の人が民のために死ぬべきだと言った大祭司は誰ですか？",
+     "カイアファ",
+     "アンナス",
+     "アロン"
+    ],
+    "ko": [
+     "요한 11장에서 한 사람이 백성을 위해 죽어야 한다고 말한 대사제는 누구입니까?",
+     "카야파",
+     "한나스",
+     "아론"
+    ],
+    "ar": [
+     "في يوحنا 11، أي رئيس كهنة قال إنه يجب أن يموت رجل واحد عن الشعب؟",
+     "قيافا",
+     "حنان",
+     "هارون"
+    ]
+   }
+  },
+  {
+   "id": "ch-john-011-04",
+   "book": "john",
+   "chapter": 11,
+   "difficulty": "expert",
+   "ref": "John 11:6",
+   "text": {
+    "en": [
+     "In John 11, after hearing Lazarus was ill, how many days did Jesus stay?",
+     "2",
+     "4",
+     "7"
+    ],
+    "es": [
+     "En Juan 11, ¿cuántos días se quedó Jesús tras saber que Lázaro estaba enfermo?",
+     "2",
+     "4",
+     "7"
+    ],
+    "pt": [
+     "Em João 11, quantos dias Jesus ficou onde estava depois de saber que Lázaro estava doente?",
+     "2",
+     "4",
+     "7"
+    ],
+    "fr": [
+     "En Jean 11, combien de jours Jésus resta-t-il après avoir appris que Lazare était malade ?",
+     "2",
+     "4",
+     "7"
+    ],
+    "de": [
+     "In Johannes 11, wie viele Tage blieb Jesus, nachdem er von Lazarus' Krankheit gehört hatte?",
+     "2",
+     "4",
+     "7"
+    ],
+    "it": [
+     "In Giovanni 11, quanti giorni si trattenne Gesù dopo aver saputo che Lazzaro era malato?",
+     "2",
+     "4",
+     "7"
+    ],
+    "pl": [
+     "W Ewangelii Jana 11, ile dni został Jezus po usłyszeniu, że Łazarz jest chory?",
+     "2",
+     "4",
+     "7"
+    ],
+    "ru": [
+     "В Евангелии от Иоанна 11, сколько дней оставался Иисус после вести о болезни Лазаря?",
+     "2",
+     "4",
+     "7"
+    ],
+    "tr": [
+     "Yuhanna 11'de İsa, Lazar'ın hasta olduğunu duyunca kaç gün olduğu yerde kaldı?",
+     "2",
+     "4",
+     "7"
+    ],
+    "ja": [
+     "ヨハネ11章で、ラザロの病気を聞いた後、イエスは何日とどまりましたか？",
+     "2",
+     "4",
+     "7"
+    ],
+    "ko": [
+     "요한 11장에서 예수님은 라자로가 아프다는 소식을 듣고 며칠 더 머무르셨습니까?",
+     "2",
+     "4",
+     "7"
+    ],
+    "ar": [
+     "في يوحنا 11، كم يوماً مكث يسوع بعد سماعه بمرض لعازر؟",
+     "2",
+     "4",
+     "7"
+    ]
+   }
+  },
+  {
+   "id": "ch-john-011-05",
+   "book": "john",
+   "chapter": 11,
+   "difficulty": "impossible",
+   "ref": "John 11:9",
+   "text": {
+    "en": [
+     "In John 11, how many hours of daylight did Jesus say a day has?",
+     "12",
+     "10",
+     "6"
+    ],
+    "es": [
+     "En Juan 11, ¿cuántas horas de luz dijo Jesús que tiene el día?",
+     "12",
+     "10",
+     "6"
+    ],
+    "pt": [
+     "Em João 11, quantas horas de luz Jesus disse que o dia tem?",
+     "12",
+     "10",
+     "6"
+    ],
+    "fr": [
+     "En Jean 11, combien d'heures de lumière Jésus dit-il que le jour compte ?",
+     "12",
+     "10",
+     "6"
+    ],
+    "de": [
+     "In Johannes 11, wie viele Stunden hat der Tag nach Jesu Worten?",
+     "12",
+     "10",
+     "6"
+    ],
+    "it": [
+     "In Giovanni 11, quante ore di luce disse Gesù che ha il giorno?",
+     "12",
+     "10",
+     "6"
+    ],
+    "pl": [
+     "W Ewangelii Jana 11, ile godzin ma dzień, według słów Jezusa?",
+     "12",
+     "10",
+     "6"
+    ],
+    "ru": [
+     "В Евангелии от Иоанна 11, сколько часов в дне, по словам Иисуса?",
+     "12",
+     "10",
+     "6"
+    ],
+    "tr": [
+     "Yuhanna 11'de İsa'ya göre bir günde kaç saat gün ışığı vardır?",
+     "12",
+     "10",
+     "6"
+    ],
+    "ja": [
+     "ヨハネ11章で、イエスによれば、昼は何時間ありますか？",
+     "12",
+     "10",
+     "6"
+    ],
+    "ko": [
+     "요한 11장에서 예수님 말씀에 따르면 낮은 몇 시간입니까?",
+     "12",
+     "10",
+     "6"
+    ],
+    "ar": [
+     "في يوحنا 11، كم ساعة في النهار بحسب كلام يسوع؟",
+     "12",
+     "10",
+     "6"
+    ]
+   }
+  },
+  {
+   "id": "ch-john-011-06",
+   "book": "john",
+   "chapter": 12,
+   "difficulty": "easy",
+   "ref": "John 12:14-15",
+   "text": {
+    "en": [
+     "In John 12, which animal did Jesus ride into Jerusalem?",
+     "Donkey",
+     "Horse",
+     "Camel"
+    ],
+    "es": [
+     "En Juan 12, ¿qué animal montó Jesús para entrar en Jerusalén?",
+     "Asno",
+     "Caballo",
+     "Camello"
+    ],
+    "pt": [
+     "Em João 12, que animal Jesus montou para entrar em Jerusalém?",
+     "Jumento",
+     "Cavalo",
+     "Camelo"
+    ],
+    "fr": [
+     "En Jean 12, quel animal Jésus monta-t-il pour entrer à Jérusalem ?",
+     "Âne",
+     "Cheval",
+     "Chameau"
+    ],
+    "de": [
+     "In Johannes 12, welches Tier ritt Jesus nach Jerusalem hinein?",
+     "Esel",
+     "Pferd",
+     "Kamel"
+    ],
+    "it": [
+     "In Giovanni 12, quale animale cavalcò Gesù entrando a Gerusalemme?",
+     "Asino",
+     "Cavallo",
+     "Cammello"
+    ],
+    "pl": [
+     "W Ewangelii Jana 12, jakie zwierzę niosło Jezusa do Jerozolimy?",
+     "Osioł",
+     "Koń",
+     "Wielbłąd"
+    ],
+    "ru": [
+     "В Евангелии от Иоанна 12, какое животное несло Иисуса в Иерусалим?",
+     "Осёл",
+     "Конь",
+     "Верблюд"
+    ],
+    "tr": [
+     "Yuhanna 12'de Yeruşalim'e girerken İsa'yı hangi hayvan taşıdı?",
+     "Eşek",
+     "At",
+     "Deve"
+    ],
+    "ja": [
+     "ヨハネ12章で、イエスがエルサレムに入る時に乗った動物は何ですか？",
+     "ろば",
+     "馬",
+     "ラクダ"
+    ],
+    "ko": [
+     "요한 12장에서 예수님께서 예루살렘에 들어가실 때 타신 동물은 무엇입니까?",
+     "나귀",
+     "말",
+     "낙타"
+    ],
+    "ar": [
+     "في يوحنا 12، أي حيوان ركبه يسوع لدخول أورشليم؟",
+     "حمار",
+     "حصان",
+     "جمل"
+    ]
+   }
+  },
+  {
+   "id": "ch-john-011-07",
+   "book": "john",
+   "chapter": 12,
+   "difficulty": "medium",
+   "ref": "John 12:10",
+   "text": {
+    "en": [
+     "In John 12, who besides Jesus was targeted by the chief priests' murder plot?",
+     "Lazarus",
+     "Nicodemus",
+     "Peter"
+    ],
+    "es": [
+     "En Juan 12, ¿quién, además de Jesús, fue objetivo del plan de muerte de los sumos sacerdotes?",
+     "Lázaro",
+     "Nicodemo",
+     "Pedro"
+    ],
+    "pt": [
+     "Em João 12, quem, além de Jesus, foi alvo do plano de morte dos sumos sacerdotes?",
+     "Lázaro",
+     "Nicodemos",
+     "Pedro"
+    ],
+    "fr": [
+     "En Jean 12, qui, en plus de Jésus, était visé par le complot des grands prêtres ?",
+     "Lazare",
+     "Nicodème",
+     "Pierre"
+    ],
+    "de": [
+     "In Johannes 12, wer war neben Jesus Ziel des Mordplans der Hohepriester?",
+     "Lazarus",
+     "Nikodemus",
+     "Petrus"
+    ],
+    "it": [
+     "In Giovanni 12, chi, oltre a Gesù, fu preso di mira dal complotto dei capi dei sacerdoti?",
+     "Lazzaro",
+     "Nicodemo",
+     "Pietro"
+    ],
+    "pl": [
+     "W Ewangelii Jana 12, kto oprócz Jezusa był celem spisku arcykapłanów?",
+     "Łazarz",
+     "Nikodem",
+     "Piotr"
+    ],
+    "ru": [
+     "В Евангелии от Иоанна 12, кто, кроме Иисуса, стал целью заговора первосвященников?",
+     "Лазарь",
+     "Никодим",
+     "Пётр"
+    ],
+    "tr": [
+     "Yuhanna 12'de başkâhinlerin öldürme planının İsa'dan başka hedefi kimdi?",
+     "Lazar",
+     "Nikodemus",
+     "Petrus"
+    ],
+    "ja": [
+     "ヨハネ12章で、イエスのほかに、祭司長たちが殺そうと謀った人は誰ですか？",
+     "ラザロ",
+     "ニコデモ",
+     "ペトロ"
+    ],
+    "ko": [
+     "요한 12장에서 예수님 외에 수석 사제들이 죽이려고 모의한 사람은 누구입니까?",
+     "라자로",
+     "니코데모",
+     "베드로"
+    ],
+    "ar": [
+     "في يوحنا 12، من غير يسوع كان هدف مؤامرة القتل لدى رؤساء الكهنة؟",
+     "لعازر",
+     "نيقوديموس",
+     "بطرس"
+    ]
+   }
+  },
+  {
+   "id": "ch-john-011-08",
+   "book": "john",
+   "chapter": 12,
+   "difficulty": "hard",
+   "ref": "John 12:41",
+   "text": {
+    "en": [
+     "In John 12, which prophet did John say saw Jesus' glory?",
+     "Isaiah",
+     "Jeremiah",
+     "Ezekiel"
+    ],
+    "es": [
+     "En Juan 12, ¿qué profeta vio la gloria de Jesús, según Juan?",
+     "Isaías",
+     "Jeremías",
+     "Ezequiel"
+    ],
+    "pt": [
+     "Em João 12, que profeta viu a glória de Jesus, segundo João?",
+     "Isaías",
+     "Jeremias",
+     "Ezequiel"
+    ],
+    "fr": [
+     "En Jean 12, quel prophète vit la gloire de Jésus, selon Jean ?",
+     "Isaïe",
+     "Jérémie",
+     "Ézéchiel"
+    ],
+    "de": [
+     "In Johannes 12, welcher Prophet sah laut Johannes die Herrlichkeit Jesu?",
+     "Jesaja",
+     "Jeremia",
+     "Ezechiel"
+    ],
+    "it": [
+     "In Giovanni 12, quale profeta vide la gloria di Gesù, secondo Giovanni?",
+     "Isaia",
+     "Geremia",
+     "Ezechiele"
+    ],
+    "pl": [
+     "W Ewangelii Jana 12, który prorok, według Jana, widział chwałę Jezusa?",
+     "Izajasz",
+     "Jeremiasz",
+     "Ezechiel"
+    ],
+    "ru": [
+     "В Евангелии от Иоанна 12, какой пророк, по словам Иоанна, видел славу Иисуса?",
+     "Исаия",
+     "Иеремия",
+     "Иезекииль"
+    ],
+    "tr": [
+     "Yuhanna 12'de Yuhanna'ya göre hangi peygamber İsa'nın yüceliğini gördü?",
+     "Yeşaya",
+     "Yeremya",
+     "Hezekiel"
+    ],
+    "ja": [
+     "ヨハネ12章で、ヨハネによれば、イエスの栄光を見た預言者は誰ですか？",
+     "イザヤ",
+     "エレミヤ",
+     "エゼキエル"
+    ],
+    "ko": [
+     "요한 12장에서 요한에 따르면 예수님의 영광을 본 예언자는 누구입니까?",
+     "이사야",
+     "예레미야",
+     "에제키엘"
+    ],
+    "ar": [
+     "في يوحنا 12، أي نبي رأى مجد يسوع بحسب يوحنا؟",
+     "إشعيا",
+     "إرميا",
+     "حزقيال"
+    ]
+   }
+  },
+  {
+   "id": "ch-john-011-09",
+   "book": "john",
+   "chapter": 12,
+   "difficulty": "expert",
+   "ref": "John 12:1",
+   "text": {
+    "en": [
+     "In John 12, how many days before Passover did Jesus arrive at Bethany?",
+     "6",
+     "3",
+     "10"
+    ],
+    "es": [
+     "En Juan 12, ¿cuántos días antes de la Pascua llegó Jesús a Betania?",
+     "6",
+     "3",
+     "10"
+    ],
+    "pt": [
+     "Em João 12, quantos dias antes da Páscoa Jesus chegou a Betânia?",
+     "6",
+     "3",
+     "10"
+    ],
+    "fr": [
+     "En Jean 12, combien de jours avant la Pâque Jésus arriva-t-il à Béthanie ?",
+     "6",
+     "3",
+     "10"
+    ],
+    "de": [
+     "In Johannes 12, wie viele Tage vor dem Paschafest kam Jesus nach Betanien?",
+     "6",
+     "3",
+     "10"
+    ],
+    "it": [
+     "In Giovanni 12, quanti giorni prima della Pasqua Gesù arrivò a Betania?",
+     "6",
+     "3",
+     "10"
+    ],
+    "pl": [
+     "W Ewangelii Jana 12, ile dni przed Paschą Jezus przybył do Betanii?",
+     "6",
+     "3",
+     "10"
+    ],
+    "ru": [
+     "В Евангелии от Иоанна 12, за сколько дней до Пасхи Иисус пришёл в Вифанию?",
+     "6",
+     "3",
+     "10"
+    ],
+    "tr": [
+     "Yuhanna 12'de İsa Fısıh'tan kaç gün önce Beytanya'ya geldi?",
+     "6",
+     "3",
+     "10"
+    ],
+    "ja": [
+     "ヨハネ12章で、イエスは過越祭の何日前にベタニアに来ましたか？",
+     "6",
+     "3",
+     "10"
+    ],
+    "ko": [
+     "요한 12장에서 예수님은 파스카 며칠 전에 베타니아에 오셨습니까?",
+     "6",
+     "3",
+     "10"
+    ],
+    "ar": [
+     "في يوحنا 12، قبل الفصح بكم يوماً جاء يسوع إلى بيت عنيا؟",
+     "6",
+     "3",
+     "10"
+    ]
+   }
+  },
+  {
+   "id": "ch-john-011-10",
+   "book": "john",
+   "chapter": 12,
+   "difficulty": "impossible",
+   "ref": "John 12:22",
+   "text": {
+    "en": [
+     "In John 12, who joined Philip in telling Jesus about the Greeks?",
+     "Andrew",
+     "Thomas",
+     "Matthew"
+    ],
+    "es": [
+     "En Juan 12, ¿quién se unió a Felipe para hablarle a Jesús de los griegos?",
+     "Andrés",
+     "Tomás",
+     "Mateo"
+    ],
+    "pt": [
+     "Em João 12, quem foi com Filipe contar a Jesus sobre os gregos?",
+     "André",
+     "Tomé",
+     "Mateus"
+    ],
+    "fr": [
+     "En Jean 12, qui accompagna Philippe pour parler à Jésus des Grecs ?",
+     "André",
+     "Thomas",
+     "Matthieu"
+    ],
+    "de": [
+     "In Johannes 12, wer ging mit Philippus zu Jesus, um von den Griechen zu berichten?",
+     "Andreas",
+     "Thomas",
+     "Matthäus"
+    ],
+    "it": [
+     "In Giovanni 12, chi andò con Filippo a riferire a Gesù dei Greci?",
+     "Andrea",
+     "Tommaso",
+     "Matteo"
+    ],
+    "pl": [
+     "W Ewangelii Jana 12, kto razem z Filipem poszedł powiedzieć Jezusowi o Grekach?",
+     "Andrzej",
+     "Tomasz",
+     "Mateusz"
+    ],
+    "ru": [
+     "В Евангелии от Иоанна 12, кто вместе с Филиппом пошёл сказать Иисусу об эллинах?",
+     "Андрей",
+     "Фома",
+     "Матфей"
+    ],
+    "tr": [
+     "Yuhanna 12'de Yunanlılar hakkında İsa'ya söylemek için Filipus'la kim gitti?",
+     "Andreas",
+     "Tomas",
+     "Matta"
+    ],
+    "ja": [
+     "ヨハネ12章で、ギリシア人のことをイエスに伝えるため、フィリポと一緒に行ったのは誰ですか？",
+     "アンデレ",
+     "トマス",
+     "マタイ"
+    ],
+    "ko": [
+     "요한 12장에서 그리스인들에 대해 예수님께 알리려고 필립보와 함께 간 사람은 누구입니까?",
+     "안드레아",
+     "토마스",
+     "마태오"
+    ],
+    "ar": [
+     "في يوحنا 12، من ذهب مع فيلبس ليخبر يسوع عن اليونانيين؟",
+     "أندراوس",
+     "توما",
+     "متى"
+    ]
+   }
+  },
+  {
+   "id": "ch-john-011-11",
+   "book": "john",
+   "chapter": 13,
+   "difficulty": "easy",
+   "ref": "John 13:34",
+   "text": {
+    "en": [
+     "In John 13, what new commandment did Jesus give his disciples?",
+     "Love",
+     "Fasting",
+     "Sacrifice"
+    ],
+    "es": [
+     "En Juan 13, ¿qué nuevo mandamiento dio Jesús a sus discípulos?",
+     "Amor",
+     "Ayuno",
+     "Sacrificio"
+    ],
+    "pt": [
+     "Em João 13, que novo mandamento Jesus deu aos seus discípulos?",
+     "Amor",
+     "Jejum",
+     "Sacrifício"
+    ],
+    "fr": [
+     "En Jean 13, quel commandement nouveau Jésus donna-t-il à ses disciples ?",
+     "Amour",
+     "Jeûne",
+     "Sacrifice"
+    ],
+    "de": [
+     "In Johannes 13, welches neue Gebot gab Jesus seinen Jüngern?",
+     "Liebe",
+     "Fasten",
+     "Opfer"
+    ],
+    "it": [
+     "In Giovanni 13, quale comandamento nuovo diede Gesù ai suoi discepoli?",
+     "Amore",
+     "Digiuno",
+     "Sacrificio"
+    ],
+    "pl": [
+     "W Ewangelii Jana 13, jakie nowe przykazanie otrzymali od Jezusa uczniowie?",
+     "Miłość",
+     "Post",
+     "Ofiara"
+    ],
+    "ru": [
+     "В Евангелии от Иоанна 13, какая новая заповедь была дана Иисусом ученикам?",
+     "Любовь",
+     "Пост",
+     "Жертва"
+    ],
+    "tr": [
+     "Yuhanna 13'te İsa öğrencilerine hangi yeni buyruğu verdi?",
+     "Sevgi",
+     "Oruç",
+     "Kurban"
+    ],
+    "ja": [
+     "ヨハネ13章で、イエスが弟子たちに与えた新しい掟は何ですか？",
+     "愛",
+     "断食",
+     "いけにえ"
+    ],
+    "ko": [
+     "요한 13장에서 예수님께서 제자들에게 주신 새 계명은 무엇입니까?",
+     "사랑",
+     "단식",
+     "희생"
+    ],
+    "ar": [
+     "في يوحنا 13، ما هي الوصية الجديدة التي أعطاها يسوع لتلاميذه؟",
+     "محبة",
+     "صوم",
+     "ذبيحة"
+    ]
+   }
+  },
+  {
+   "id": "ch-john-011-12",
+   "book": "john",
+   "chapter": 13,
+   "difficulty": "medium",
+   "ref": "John 13:38",
+   "text": {
+    "en": [
+     "In John 13, which bird would crow after Peter denied Jesus three times?",
+     "Rooster",
+     "Eagle",
+     "Dove"
+    ],
+    "es": [
+     "En Juan 13, ¿qué ave cantaría después de que Pedro negara tres veces a Jesús?",
+     "Gallo",
+     "Águila",
+     "Paloma"
+    ],
+    "pt": [
+     "Em João 13, que ave cantaria depois de Pedro negar Jesus três vezes?",
+     "Galo",
+     "Águia",
+     "Pomba"
+    ],
+    "fr": [
+     "En Jean 13, quel oiseau chanterait après que Pierre aurait renié Jésus trois fois ?",
+     "Coq",
+     "Aigle",
+     "Colombe"
+    ],
+    "de": [
+     "In Johannes 13, welcher Vogel würde krähen, nachdem Petrus Jesus dreimal verleugnet hat?",
+     "Hahn",
+     "Adler",
+     "Taube"
+    ],
+    "it": [
+     "In Giovanni 13, quale uccello avrebbe cantato dopo che Pietro rinnegò Gesù tre volte?",
+     "Gallo",
+     "Aquila",
+     "Colomba"
+    ],
+    "pl": [
+     "W Ewangelii Jana 13, który ptak zapieje po tym, jak Piotr trzykrotnie zaprze się Jezusa?",
+     "Kogut",
+     "Orzeł",
+     "Gołąb"
+    ],
+    "ru": [
+     "В Евангелии от Иоанна 13, какая птица запоёт после того, как Пётр трижды отречётся от Иисуса?",
+     "Петух",
+     "Орёл",
+     "Голубь"
+    ],
+    "tr": [
+     "Yuhanna 13'te Petrus İsa'yı üç kez inkâr ettikten sonra hangi kuş ötecekti?",
+     "Horoz",
+     "Kartal",
+     "Güvercin"
+    ],
+    "ja": [
+     "ヨハネ13章で、ペトロがイエスを三度否んだ後に鳴く鳥は何ですか？",
+     "鶏",
+     "鷲",
+     "鳩"
+    ],
+    "ko": [
+     "요한 13장에서 베드로가 예수님을 세 번 부인한 뒤에 울 새는 무엇입니까?",
+     "닭",
+     "독수리",
+     "비둘기"
+    ],
+    "ar": [
+     "في يوحنا 13، أي طائر سيصيح بعد أن ينكر بطرس يسوع ثلاث مرات؟",
+     "ديك",
+     "نسر",
+     "حمامة"
+    ]
+   }
+  },
+  {
+   "id": "ch-john-011-13",
+   "book": "john",
+   "chapter": 13,
+   "difficulty": "hard",
+   "ref": "John 13:27",
+   "text": {
+    "en": [
+     "In John 13, who entered Judas after he took the bread from Jesus?",
+     "Satan",
+     "Gabriel",
+     "Michael"
+    ],
+    "es": [
+     "En Juan 13, ¿quién entró en Judas después de tomar el pan de Jesús?",
+     "Satanás",
+     "Gabriel",
+     "Miguel"
+    ],
+    "pt": [
+     "Em João 13, quem entrou em Judas depois de ele receber o pão de Jesus?",
+     "Satanás",
+     "Gabriel",
+     "Miguel"
+    ],
+    "fr": [
+     "En Jean 13, qui entra en Judas après qu'il eut pris le pain de Jésus ?",
+     "Satan",
+     "Gabriel",
+     "Michel"
+    ],
+    "de": [
+     "In Johannes 13, wer fuhr in Judas, nachdem er das Brot von Jesus genommen hatte?",
+     "Satan",
+     "Gabriel",
+     "Michael"
+    ],
+    "it": [
+     "In Giovanni 13, chi entrò in Giuda dopo che prese il boccone da Gesù?",
+     "Satana",
+     "Gabriele",
+     "Michele"
+    ],
+    "pl": [
+     "W Ewangelii Jana 13, kto wszedł w Judasza po tym, jak wziął kawałek chleba od Jezusa?",
+     "Szatan",
+     "Gabriel",
+     "Michał"
+    ],
+    "ru": [
+     "В Евангелии от Иоанна 13, кто вошёл в Иуду после того, как он взял кусок хлеба у Иисуса?",
+     "Сатана",
+     "Гавриил",
+     "Михаил"
+    ],
+    "tr": [
+     "Yuhanna 13'te Yahuda İsa'dan ekmeği alınca kim onun içine girdi?",
+     "Şeytan",
+     "Cebrail",
+     "Mikail"
+    ],
+    "ja": [
+     "ヨハネ13章で、ユダがイエスからパン切れを受け取った後、中に入ったのは誰ですか？",
+     "サタン",
+     "ガブリエル",
+     "ミカエル"
+    ],
+    "ko": [
+     "요한 13장에서 유다가 예수님께 빵 조각을 받은 뒤 그 안에 들어간 이는 누구입니까?",
+     "사탄",
+     "가브리엘",
+     "미카엘"
+    ],
+    "ar": [
+     "في يوحنا 13، من دخل في يهوذا بعد أن أخذ اللقمة من يسوع؟",
+     "شيطان",
+     "جبرائيل",
+     "ميخائيل"
+    ]
+   }
+  },
+  {
+   "id": "ch-john-011-14",
+   "book": "john",
+   "chapter": 13,
+   "difficulty": "expert",
+   "ref": "John 13:30",
+   "text": {
+    "en": [
+     "In John 13, what time of day was it when Judas left?",
+     "Night",
+     "Morning",
+     "Dawn"
+    ],
+    "es": [
+     "En Juan 13, ¿qué momento del día era cuando Judas salió?",
+     "Noche",
+     "Mañana",
+     "Amanecer"
+    ],
+    "pt": [
+     "Em João 13, que momento do dia era quando Judas saiu?",
+     "Noite",
+     "Manhã",
+     "Aurora"
+    ],
+    "fr": [
+     "En Jean 13, quel moment de la journée était-il quand Judas sortit ?",
+     "Nuit",
+     "Matin",
+     "Aube"
+    ],
+    "de": [
+     "In Johannes 13, welche Tageszeit war es, als Judas hinausging?",
+     "Nacht",
+     "Morgen",
+     "Morgengrauen"
+    ],
+    "it": [
+     "In Giovanni 13, che momento del giorno era quando Giuda uscì?",
+     "Notte",
+     "Mattina",
+     "Alba"
+    ],
+    "pl": [
+     "W Ewangelii Jana 13, która pora dnia była, gdy Judasz wyszedł?",
+     "Noc",
+     "Poranek",
+     "Świt"
+    ],
+    "ru": [
+     "В Евангелии от Иоанна 13, какое время суток было, когда вышел Иуда?",
+     "Ночь",
+     "Утро",
+     "Рассвет"
+    ],
+    "tr": [
+     "Yuhanna 13'te Yahuda dışarı çıktığında günün hangi vaktiydi?",
+     "Gece",
+     "Sabah",
+     "Şafak"
+    ],
+    "ja": [
+     "ヨハネ13章で、ユダが出て行った時、それは一日のいつでしたか？",
+     "夜",
+     "朝",
+     "夜明け"
+    ],
+    "ko": [
+     "요한 13장에서 유다가 나갔을 때는 하루 중 언제였습니까?",
+     "밤",
+     "아침",
+     "새벽"
+    ],
+    "ar": [
+     "في يوحنا 13، في أي وقت من اليوم خرج يهوذا؟",
+     "ليل",
+     "صباح",
+     "فجر"
+    ]
+   }
+  },
+  {
+   "id": "ch-john-011-15",
+   "book": "john",
+   "chapter": 13,
+   "difficulty": "impossible",
+   "ref": "John 13:9",
+   "text": {
+    "en": [
+     "In John 13, besides hands and feet, which part did Peter want washed?",
+     "Head",
+     "Back",
+     "Knee"
+    ],
+    "es": [
+     "En Juan 13, ¿qué parte, además de manos y pies, quiso Pedro que le lavaran?",
+     "Cabeza",
+     "Espalda",
+     "Rodilla"
+    ],
+    "pt": [
+     "Em João 13, que parte, além das mãos e dos pés, Pedro quis que fosse lavada?",
+     "Cabeça",
+     "Costas",
+     "Joelho"
+    ],
+    "fr": [
+     "En Jean 13, quelle partie, outre les mains et les pieds, Pierre voulut-il se faire laver ?",
+     "Tête",
+     "Dos",
+     "Genou"
+    ],
+    "de": [
+     "In Johannes 13, welchen Körperteil wollte Petrus außer Händen und Füßen gewaschen haben?",
+     "Kopf",
+     "Rücken",
+     "Knie"
+    ],
+    "it": [
+     "In Giovanni 13, quale parte, oltre alle mani e ai piedi, Pietro volle farsi lavare?",
+     "Testa",
+     "Schiena",
+     "Ginocchio"
+    ],
+    "pl": [
+     "W Ewangelii Jana 13, która część ciała, oprócz rąk i stóp, miała zostać umyta według Piotra?",
+     "Głowa",
+     "Plecy",
+     "Kolano"
+    ],
+    "ru": [
+     "В Евангелии от Иоанна 13, какая часть тела, кроме рук и ног, должна была быть омыта по просьбе Петра?",
+     "Голова",
+     "Спина",
+     "Колено"
+    ],
+    "tr": [
+     "Yuhanna 13'te Petrus, ellerle ayaklar dışında vücudunun hangi yerinin yıkanmasını istedi?",
+     "Baş",
+     "Sırt",
+     "Diz"
+    ],
+    "ja": [
+     "ヨハネ13章で、ペトロは手と足のほかに、どこを洗ってほしいと言いましたか？",
+     "頭",
+     "背中",
+     "膝"
+    ],
+    "ko": [
+     "요한 13장에서 베드로는 손과 발 외에 어디를 씻어 달라고 했습니까?",
+     "머리",
+     "등",
+     "무릎"
+    ],
+    "ar": [
+     "في يوحنا 13، ما الجزء الذي طلب بطرس غسله، إضافةً إلى اليدين والقدمين؟",
+     "رأس",
+     "ظهر",
+     "ركبة"
+    ]
+   }
+  },
+  {
+   "id": "ch-john-011-16",
+   "book": "john",
+   "chapter": 14,
+   "difficulty": "easy",
+   "ref": "John 14:1",
+   "text": {
+    "en": [
+     "In John 14, what must not be troubled, Jesus told his disciples?",
+     "Heart",
+     "Hand",
+     "Eye"
+    ],
+    "es": [
+     "En Juan 14, ¿qué no debe turbarse, dijo Jesús a sus discípulos?",
+     "Corazón",
+     "Mano",
+     "Ojo"
+    ],
+    "pt": [
+     "Em João 14, o que não devia se perturbar, disse Jesus aos discípulos?",
+     "Coração",
+     "Mão",
+     "Olho"
+    ],
+    "fr": [
+     "En Jean 14, qu'est-ce qui ne devait pas se troubler, dit Jésus à ses disciples ?",
+     "Cœur",
+     "Main",
+     "Œil"
+    ],
+    "de": [
+     "In Johannes 14, was sollte nicht verwirrt sein, sagte Jesus seinen Jüngern?",
+     "Herz",
+     "Hand",
+     "Auge"
+    ],
+    "it": [
+     "In Giovanni 14, che cosa non doveva turbarsi, disse Gesù ai discepoli?",
+     "Cuore",
+     "Mano",
+     "Occhio"
+    ],
+    "pl": [
+     "W Ewangelii Jana 14, co nie miało się trwożyć, powiedział Jezus uczniom?",
+     "Serce",
+     "Ręka",
+     "Oko"
+    ],
+    "ru": [
+     "В Евангелии от Иоанна 14, что не должно смущаться, сказал Иисус ученикам?",
+     "Сердце",
+     "Рука",
+     "Глаз"
+    ],
+    "tr": [
+     "Yuhanna 14'te İsa öğrencilerine neyin telaşlanmaması gerektiğini söyledi?",
+     "Yürek",
+     "El",
+     "Göz"
+    ],
+    "ja": [
+     "ヨハネ14章で、イエスが弟子たちに、騒がせてはならないと言ったものは何ですか？",
+     "心",
+     "手",
+     "目"
+    ],
+    "ko": [
+     "요한 14장에서 예수님께서 제자들에게 흔들려서는 안 된다고 하신 것은 무엇입니까?",
+     "마음",
+     "손",
+     "눈"
+    ],
+    "ar": [
+     "في يوحنا 14، ما الذي قال يسوع لتلاميذه ألا يضطرب؟",
+     "قلب",
+     "يد",
+     "عين"
+    ]
+   }
+  },
+  {
+   "id": "ch-john-011-17",
+   "book": "john",
+   "chapter": 14,
+   "difficulty": "medium",
+   "ref": "John 14:27",
+   "text": {
+    "en": [
+     "In John 14, what did Jesus say he leaves with his disciples?",
+     "Peace",
+     "Gold",
+     "Sword"
+    ],
+    "es": [
+     "En Juan 14, ¿qué dijo Jesús que deja a sus discípulos?",
+     "Paz",
+     "Oro",
+     "Espada"
+    ],
+    "pt": [
+     "Em João 14, o que Jesus disse que deixa aos seus discípulos?",
+     "Paz",
+     "Ouro",
+     "Espada"
+    ],
+    "fr": [
+     "En Jean 14, que dit Jésus qu'il laisse à ses disciples ?",
+     "Paix",
+     "Or",
+     "Épée"
+    ],
+    "de": [
+     "In Johannes 14, was hinterlässt Jesus nach seinen Worten seinen Jüngern?",
+     "Frieden",
+     "Gold",
+     "Schwert"
+    ],
+    "it": [
+     "In Giovanni 14, che cosa disse Gesù di lasciare ai suoi discepoli?",
+     "Pace",
+     "Oro",
+     "Spada"
+    ],
+    "pl": [
+     "W Ewangelii Jana 14, co, jak powiedział Jezus, zostawia swoim uczniom?",
+     "Pokój",
+     "Złoto",
+     "Miecz"
+    ],
+    "ru": [
+     "В Евангелии от Иоанна 14, что, по словам Иисуса, он оставляет ученикам?",
+     "Мир",
+     "Золото",
+     "Меч"
+    ],
+    "tr": [
+     "Yuhanna 14'te İsa öğrencilerine ne bıraktığını söyledi?",
+     "Esenlik",
+     "Altın",
+     "Kılıç"
+    ],
+    "ja": [
+     "ヨハネ14章で、イエスは弟子たちに何を残すと言いましたか？",
+     "平和",
+     "金",
+     "剣"
+    ],
+    "ko": [
+     "요한 14장에서 예수님께서 제자들에게 남겨 주신다고 하신 것은 무엇입니까?",
+     "평화",
+     "금",
+     "칼"
+    ],
+    "ar": [
+     "في يوحنا 14، ماذا قال يسوع إنه يتركه لتلاميذه؟",
+     "سلام",
+     "ذهب",
+     "سيف"
+    ]
+   }
+  },
+  {
+   "id": "ch-john-011-18",
+   "book": "john",
+   "chapter": 14,
+   "difficulty": "hard",
+   "ref": "John 14:15",
+   "text": {
+    "en": [
+     "In John 14, what did Jesus say those who love him will keep?",
+     "Commandments",
+     "Feasts",
+     "Offerings"
+    ],
+    "es": [
+     "En Juan 14, ¿qué dijo Jesús que guardarán los que lo aman?",
+     "Mandamientos",
+     "Fiestas",
+     "Ofrendas"
+    ],
+    "pt": [
+     "Em João 14, o que Jesus disse que guardarão os que o amam?",
+     "Mandamentos",
+     "Festas",
+     "Oferendas"
+    ],
+    "fr": [
+     "En Jean 14, que dit Jésus que garderont ceux qui l'aiment ?",
+     "Commandements",
+     "Fêtes",
+     "Offrandes"
+    ],
+    "de": [
+     "In Johannes 14, was werden nach Jesu Worten die halten, die ihn lieben?",
+     "Gebote",
+     "Feste",
+     "Opfergaben"
+    ],
+    "it": [
+     "In Giovanni 14, che cosa disse Gesù che osserveranno quelli che lo amano?",
+     "Comandamenti",
+     "Feste",
+     "Offerte"
+    ],
+    "pl": [
+     "W Ewangelii Jana 14, co, według Jezusa, będą zachowywać ci, którzy Go miłują?",
+     "Przykazania",
+     "Święta",
+     "Ofiary"
+    ],
+    "ru": [
+     "В Евангелии от Иоанна 14, что, по словам Иисуса, будут соблюдать любящие его?",
+     "Заповеди",
+     "Праздники",
+     "Приношения"
+    ],
+    "tr": [
+     "Yuhanna 14'te İsa'ya göre onu sevenlerin tutacağı şeyler nelerdir?",
+     "Buyruklar",
+     "Bayramlar",
+     "Sunular"
+    ],
+    "ja": [
+     "ヨハネ14章で、イエスは、自分を愛する人は何を守ると言いましたか？",
+     "掟",
+     "祭り",
+     "供え物"
+    ],
+    "ko": [
+     "요한 14장에서 예수님께서는 당신을 사랑하는 이들이 무엇을 지킬 것이라고 하셨습니까?",
+     "계명",
+     "축제",
+     "예물"
+    ],
+    "ar": [
+     "في يوحنا 14، ماذا يحفظ الذين يحبون يسوع بحسب كلامه؟",
+     "وصايا",
+     "أعياد",
+     "قرابين"
+    ]
+   }
+  },
+  {
+   "id": "ch-john-011-19",
+   "book": "john",
+   "chapter": 14,
+   "difficulty": "expert",
+   "ref": "John 14:11",
+   "text": {
+    "en": [
+     "In John 14, what did Jesus say should make doubters believe in him?",
+     "Works",
+     "Dreams",
+     "Riches"
+    ],
+    "es": [
+     "En Juan 14, ¿qué dijo Jesús que debería hacer creer en él a los que dudan?",
+     "Obras",
+     "Sueños",
+     "Riquezas"
+    ],
+    "pt": [
+     "Em João 14, o que Jesus disse que devia fazer os que duvidam crerem nele?",
+     "Obras",
+     "Sonhos",
+     "Riquezas"
+    ],
+    "fr": [
+     "En Jean 14, que dit Jésus qui devait faire croire en lui ceux qui doutent ?",
+     "Œuvres",
+     "Rêves",
+     "Richesses"
+    ],
+    "de": [
+     "In Johannes 14, was sollte nach Jesu Worten Zweifler an ihn glauben lassen?",
+     "Werke",
+     "Träume",
+     "Reichtümer"
+    ],
+    "it": [
+     "In Giovanni 14, che cosa disse Gesù che doveva far credere in lui chi dubita?",
+     "Opere",
+     "Sogni",
+     "Ricchezze"
+    ],
+    "pl": [
+     "W Ewangelii Jana 14, co, według Jezusa, powinno sprawić, by wątpiący w Niego uwierzyli?",
+     "Dzieła",
+     "Sny",
+     "Bogactwa"
+    ],
+    "ru": [
+     "В Евангелии от Иоанна 14, что, по словам Иисуса, должно заставить сомневающихся поверить в него?",
+     "Дела",
+     "Сны",
+     "Богатства"
+    ],
+    "tr": [
+     "Yuhanna 14'te İsa'ya göre kuşku duyanları ona inandırması gereken neydi?",
+     "İşler",
+     "Rüyalar",
+     "Servetler"
+    ],
+    "ja": [
+     "ヨハネ14章で、イエスは、疑う人が何によって自分を信じるべきだと言いましたか？",
+     "業",
+     "夢",
+     "富"
+    ],
+    "ko": [
+     "요한 14장에서 예수님께서는 의심하는 이들이 무엇 때문에 당신을 믿어야 한다고 하셨습니까?",
+     "일",
+     "꿈",
+     "재물"
+    ],
+    "ar": [
+     "في يوحنا 14، ما الذي قال يسوع إنه ينبغي أن يجعل الشاكّين يؤمنون به؟",
+     "أعمال",
+     "أحلام",
+     "ثروات"
+    ]
+   }
+  },
+  {
+   "id": "ch-john-011-20",
+   "book": "john",
+   "chapter": 14,
+   "difficulty": "impossible",
+   "ref": "John 14:17",
+   "text": {
+    "en": [
+     "In John 14, which quality names the Spirit the world cannot receive?",
+     "Truth",
+     "Wisdom",
+     "Fear"
+    ],
+    "es": [
+     "En Juan 14, ¿qué cualidad da nombre al Espíritu que el mundo no puede recibir?",
+     "Verdad",
+     "Sabiduría",
+     "Miedo"
+    ],
+    "pt": [
+     "Em João 14, que qualidade dá nome ao Espírito que o mundo não pode receber?",
+     "Verdade",
+     "Sabedoria",
+     "Medo"
+    ],
+    "fr": [
+     "En Jean 14, quelle qualité qualifie l'Esprit que le monde ne peut recevoir ?",
+     "Vérité",
+     "Sagesse",
+     "Peur"
+    ],
+    "de": [
+     "In Johannes 14, welche Eigenschaft steckt im Namen des Geistes, den die Welt nicht empfangen kann?",
+     "Wahrheit",
+     "Weisheit",
+     "Furcht"
+    ],
+    "it": [
+     "In Giovanni 14, quale qualità dà il nome allo Spirito che il mondo non può ricevere?",
+     "Verità",
+     "Sapienza",
+     "Paura"
+    ],
+    "pl": [
+     "W Ewangelii Jana 14, jaka cecha nadaje imię Duchowi, którego świat nie może przyjąć?",
+     "Prawda",
+     "Mądrość",
+     "Strach"
+    ],
+    "ru": [
+     "В Евангелии от Иоанна 14, какое качество даёт имя Духу, которого мир не может принять?",
+     "Истина",
+     "Мудрость",
+     "Страх"
+    ],
+    "tr": [
+     "Yuhanna 14'te dünyanın kabul edemeyeceği Ruh'a adını veren nitelik hangisidir?",
+     "Gerçek",
+     "Bilgelik",
+     "Korku"
+    ],
+    "ja": [
+     "ヨハネ14章で、世が受け入れられない霊の名に付いている性質は何ですか？",
+     "真理",
+     "知恵",
+     "恐れ"
+    ],
+    "ko": [
+     "요한 14장에서 세상이 받아들일 수 없는 영의 이름에 붙은 성질은 무엇입니까?",
+     "진리",
+     "지혜",
+     "두려움"
+    ],
+    "ar": [
+     "في يوحنا 14، أي صفة تسمّي الروح الذي لا يقدر العالم أن يقبله؟",
+     "حقيقة",
+     "حكمة",
+     "خوف"
+    ]
+   }
+  },
+  {
+   "id": "ch-john-011-21",
+   "book": "john",
+   "chapter": 15,
+   "difficulty": "easy",
+   "ref": "John 15:5",
+   "text": {
+    "en": [
+     "In John 15, what do branches bear when they remain in the vine?",
+     "Fruit",
+     "Thorn",
+     "Stone"
+    ],
+    "es": [
+     "En Juan 15, ¿qué dan los sarmientos que permanecen en la vid?",
+     "Fruto",
+     "Espina",
+     "Piedra"
+    ],
+    "pt": [
+     "Em João 15, o que dão os ramos que permanecem na videira?",
+     "Fruto",
+     "Espinho",
+     "Pedra"
+    ],
+    "fr": [
+     "En Jean 15, que portent les sarments qui demeurent dans la vigne ?",
+     "Fruit",
+     "Épine",
+     "Pierre"
+    ],
+    "de": [
+     "In Johannes 15, was bringen die Reben hervor, die am Weinstock bleiben?",
+     "Frucht",
+     "Dorn",
+     "Stein"
+    ],
+    "it": [
+     "In Giovanni 15, che cosa portano i tralci che rimangono nella vite?",
+     "Frutto",
+     "Spina",
+     "Pietra"
+    ],
+    "pl": [
+     "W Ewangelii Jana 15, co przynoszą latorośle, które trwają w winnym krzewie?",
+     "Owoc",
+     "Cierń",
+     "Kamień"
+    ],
+    "ru": [
+     "В Евангелии от Иоанна 15, что приносят ветви, пребывающие в лозе?",
+     "Плод",
+     "Шип",
+     "Камень"
+    ],
+    "tr": [
+     "Yuhanna 15'te asmada kalan dallar ne verir?",
+     "Meyve",
+     "Diken",
+     "Taş"
+    ],
+    "ja": [
+     "ヨハネ15章で、ぶどうの木にとどまる枝は何を結びますか？",
+     "実",
+     "とげ",
+     "石"
+    ],
+    "ko": [
+     "요한 15장에서 포도나무에 머무르는 가지는 무엇을 맺습니까?",
+     "열매",
+     "가시",
+     "돌"
+    ],
+    "ar": [
+     "في يوحنا 15، ماذا تعطي الأغصان التي تثبت في الكرمة؟",
+     "ثمر",
+     "شوكة",
+     "حجر"
+    ]
+   }
+  },
+  {
+   "id": "ch-john-011-22",
+   "book": "john",
+   "chapter": 15,
+   "difficulty": "medium",
+   "ref": "John 15:18",
+   "text": {
+    "en": [
+     "In John 15, what hated Jesus before it hated his disciples?",
+     "World",
+     "Heaven",
+     "Sea"
+    ],
+    "es": [
+     "En Juan 15, ¿qué odió a Jesús antes de odiar a sus discípulos?",
+     "Mundo",
+     "Cielo",
+     "Mar"
+    ],
+    "pt": [
+     "Em João 15, o que odiou Jesus antes de odiar os seus discípulos?",
+     "Mundo",
+     "Céu",
+     "Mar"
+    ],
+    "fr": [
+     "En Jean 15, qu'est-ce qui a haï Jésus avant de haïr ses disciples ?",
+     "Monde",
+     "Ciel",
+     "Mer"
+    ],
+    "de": [
+     "In Johannes 15, was hasste Jesus, bevor es seine Jünger hasste?",
+     "Welt",
+     "Himmel",
+     "Meer"
+    ],
+    "it": [
+     "In Giovanni 15, che cosa odiò Gesù prima di odiare i suoi discepoli?",
+     "Mondo",
+     "Cielo",
+     "Mare"
+    ],
+    "pl": [
+     "W Ewangelii Jana 15, co znienawidziło Jezusa, zanim znienawidziło jego uczniów?",
+     "Świat",
+     "Niebo",
+     "Morze"
+    ],
+    "ru": [
+     "В Евангелии от Иоанна 15, что возненавидело Иисуса прежде, чем возненавидело его учеников?",
+     "Мир",
+     "Небо",
+     "Море"
+    ],
+    "tr": [
+     "Yuhanna 15'te öğrencilerinden önce İsa'dan nefret eden neydi?",
+     "Dünya",
+     "Gök",
+     "Deniz"
+    ],
+    "ja": [
+     "ヨハネ15章で、弟子たちより先にイエスを憎んだのは何ですか？",
+     "世",
+     "天",
+     "海"
+    ],
+    "ko": [
+     "요한 15장에서 제자들보다 먼저 예수님을 미워한 것은 무엇입니까?",
+     "세상",
+     "하늘",
+     "바다"
+    ],
+    "ar": [
+     "في يوحنا 15، ما الذي أبغض يسوع قبل أن يبغض تلاميذه؟",
+     "عالم",
+     "سماء",
+     "بحر"
+    ]
+   }
+  },
+  {
+   "id": "ch-john-011-23",
+   "book": "john",
+   "chapter": 15,
+   "difficulty": "hard",
+   "ref": "John 15:6",
+   "text": {
+    "en": [
+     "In John 15, what burns the withered branches that are thrown away?",
+     "Fire",
+     "Water",
+     "Wind"
+    ],
+    "es": [
+     "En Juan 15, ¿qué quema los sarmientos secos que se tiran?",
+     "Fuego",
+     "Agua",
+     "Viento"
+    ],
+    "pt": [
+     "Em João 15, o que queima os ramos secos que são jogados fora?",
+     "Fogo",
+     "Água",
+     "Vento"
+    ],
+    "fr": [
+     "En Jean 15, qu'est-ce qui brûle les sarments secs que l'on jette ?",
+     "Feu",
+     "Eau",
+     "Vent"
+    ],
+    "de": [
+     "In Johannes 15, was verbrennt die verdorrten Reben, die man wegwirft?",
+     "Feuer",
+     "Wasser",
+     "Wind"
+    ],
+    "it": [
+     "In Giovanni 15, che cosa brucia i tralci secchi che vengono gettati via?",
+     "Fuoco",
+     "Acqua",
+     "Vento"
+    ],
+    "pl": [
+     "W Ewangelii Jana 15, co spala odrzucone, uschnięte latorośle?",
+     "Ogień",
+     "Woda",
+     "Wiatr"
+    ],
+    "ru": [
+     "В Евангелии от Иоанна 15, что сжигает брошенные засохшие ветви?",
+     "Огонь",
+     "Вода",
+     "Ветер"
+    ],
+    "tr": [
+     "Yuhanna 15'te atılan kuru dalları ne yakar?",
+     "Ateş",
+     "Su",
+     "Rüzgâr"
+    ],
+    "ja": [
+     "ヨハネ15章で、捨てられて枯れた枝を焼くのは何ですか？",
+     "火",
+     "水",
+     "風"
+    ],
+    "ko": [
+     "요한 15장에서 버려져 말라 버린 가지를 태우는 것은 무엇입니까?",
+     "불",
+     "물",
+     "바람"
+    ],
+    "ar": [
+     "في يوحنا 15، ما الذي يحرق الأغصان اليابسة التي تُطرح؟",
+     "نار",
+     "ماء",
+     "ريح"
+    ]
+   }
+  },
+  {
+   "id": "ch-john-011-24",
+   "book": "john",
+   "chapter": 15,
+   "difficulty": "expert",
+   "ref": "John 15:3",
+   "text": {
+    "en": [
+     "In John 15, by what had Jesus already pruned, or cleansed, his disciples?",
+     "Word",
+     "Law",
+     "Blood"
+    ],
+    "es": [
+     "En Juan 15, ¿qué había limpiado ya a los discípulos, según Jesús?",
+     "Palabra",
+     "Ley",
+     "Sangre"
+    ],
+    "pt": [
+     "Em João 15, o que já tinha purificado os discípulos, segundo Jesus?",
+     "Palavra",
+     "Lei",
+     "Sangue"
+    ],
+    "fr": [
+     "En Jean 15, qu'est-ce qui avait déjà purifié les disciples, selon Jésus ?",
+     "Parole",
+     "Loi",
+     "Sang"
+    ],
+    "de": [
+     "In Johannes 15, was hatte die Jünger nach Jesu Worten schon rein gemacht?",
+     "Wort",
+     "Gesetz",
+     "Blut"
+    ],
+    "it": [
+     "In Giovanni 15, che cosa aveva già reso puri i discepoli, secondo Gesù?",
+     "Parola",
+     "Legge",
+     "Sangue"
+    ],
+    "pl": [
+     "W Ewangelii Jana 15, co już oczyściło uczniów, według Jezusa?",
+     "Słowo",
+     "Prawo",
+     "Krew"
+    ],
+    "ru": [
+     "В Евангелии от Иоанна 15, что, по словам Иисуса, уже очистило учеников?",
+     "Слово",
+     "Закон",
+     "Кровь"
+    ],
+    "tr": [
+     "Yuhanna 15'te İsa'ya göre öğrencileri zaten temiz kılan neydi?",
+     "Söz",
+     "Yasa",
+     "Kan"
+    ],
+    "ja": [
+     "ヨハネ15章で、イエスによれば、弟子たちをすでに清くしたのは何ですか？",
+     "言葉",
+     "律法",
+     "血"
+    ],
+    "ko": [
+     "요한 15장에서 예수님에 따르면 제자들을 이미 깨끗하게 한 것은 무엇입니까?",
+     "말씀",
+     "율법",
+     "피"
+    ],
+    "ar": [
+     "في يوحنا 15، ما الذي طهّر التلاميذ بالفعل بحسب يسوع؟",
+     "كلمة",
+     "شريعة",
+     "دم"
+    ]
+   }
+  },
+  {
+   "id": "ch-john-011-25",
+   "book": "john",
+   "chapter": 15,
+   "difficulty": "impossible",
+   "ref": "John 15:11",
+   "text": {
+    "en": [
+     "In John 15, what did Jesus say would be made complete in the disciples?",
+     "Joy",
+     "Anger",
+     "Fear"
+    ],
+    "es": [
+     "En Juan 15, ¿qué dijo Jesús que sería completo en los discípulos?",
+     "Alegría",
+     "Ira",
+     "Miedo"
+    ],
+    "pt": [
+     "Em João 15, o que Jesus disse que seria completo nos discípulos?",
+     "Alegria",
+     "Ira",
+     "Medo"
+    ],
+    "fr": [
+     "En Jean 15, qu'est-ce que Jésus dit devoir être complet chez les disciples ?",
+     "Joie",
+     "Colère",
+     "Peur"
+    ],
+    "de": [
+     "In Johannes 15, was sollte nach Jesu Worten bei den Jüngern vollkommen sein?",
+     "Freude",
+     "Zorn",
+     "Furcht"
+    ],
+    "it": [
+     "In Giovanni 15, che cosa disse Gesù che sarebbe stato completo nei discepoli?",
+     "Gioia",
+     "Ira",
+     "Paura"
+    ],
+    "pl": [
+     "W Ewangelii Jana 15, co miało się w uczniach dopełnić, jak mówił Jezus?",
+     "Radość",
+     "Gniew",
+     "Strach"
+    ],
+    "ru": [
+     "В Евангелии от Иоанна 15, что, по словам Иисуса, должно стать полным у учеников?",
+     "Радость",
+     "Гнев",
+     "Страх"
+    ],
+    "tr": [
+     "Yuhanna 15'te İsa'ya göre öğrencilerde tam olacak şey neydi?",
+     "Sevinç",
+     "Öfke",
+     "Korku"
+    ],
+    "ja": [
+     "ヨハネ15章で、イエスは、弟子たちの内に何が満たされると言いましたか？",
+     "喜び",
+     "怒り",
+     "恐れ"
+    ],
+    "ko": [
+     "요한 15장에서 예수님께서는 제자들 안에 무엇이 충만해질 것이라고 하셨습니까?",
+     "기쁨",
+     "분노",
+     "두려움"
+    ],
+    "ar": [
+     "في يوحنا 15، ماذا قال يسوع إنه سيكتمل في تلاميذه؟",
+     "فرح",
+     "غضب",
+     "خوف"
+    ]
+   }
+  },
+  {
+   "id": "ch-john-011-26",
+   "book": "john",
+   "chapter": 16,
+   "difficulty": "easy",
+   "ref": "John 16:21",
+   "text": {
+    "en": [
+     "In John 16, which event for a woman did Jesus compare to grief?",
+     "Childbirth",
+     "Wedding",
+     "Funeral"
+    ],
+    "es": [
+     "En Juan 16, ¿qué suceso de una mujer comparó Jesús con el dolor de los discípulos?",
+     "Parto",
+     "Boda",
+     "Funeral"
+    ],
+    "pt": [
+     "Em João 16, que acontecimento de uma mulher Jesus comparou à tristeza dos discípulos?",
+     "Parto",
+     "Casamento",
+     "Funeral"
+    ],
+    "fr": [
+     "En Jean 16, quel événement d'une femme Jésus compara-t-il à la tristesse des disciples ?",
+     "Accouchement",
+     "Mariage",
+     "Funérailles"
+    ],
+    "de": [
+     "In Johannes 16, welches Ereignis im Leben einer Frau verglich Jesus mit der Trauer der Jünger?",
+     "Geburt",
+     "Hochzeit",
+     "Beerdigung"
+    ],
+    "it": [
+     "In Giovanni 16, quale evento della vita di una donna Gesù paragonò al dolore dei discepoli?",
+     "Parto",
+     "Nozze",
+     "Funerale"
+    ],
+    "pl": [
+     "W Ewangelii Jana 16, które wydarzenie z życia kobiety jest obrazem smutku uczniów?",
+     "Poród",
+     "Wesele",
+     "Pogrzeb"
+    ],
+    "ru": [
+     "В Евангелии от Иоанна 16, какое событие из жизни женщины служит образом печали учеников?",
+     "Роды",
+     "Свадьба",
+     "Похороны"
+    ],
+    "tr": [
+     "Yuhanna 16'da İsa, bir kadının hangi olayını öğrencilerin kederine benzetti?",
+     "Doğum",
+     "Düğün",
+     "Cenaze"
+    ],
+    "ja": [
+     "ヨハネ16章で、イエスが弟子たちの悲しみにたとえた女性の出来事は何ですか？",
+     "出産",
+     "結婚式",
+     "葬儀"
+    ],
+    "ko": [
+     "요한 16장에서 예수님께서 제자들의 슬픔에 비유하신 여인의 일은 무엇입니까?",
+     "출산",
+     "결혼식",
+     "장례식"
+    ],
+    "ar": [
+     "في يوحنا 16، أي حدث في حياة المرأة شبّه يسوع به حزن التلاميذ؟",
+     "ولادة",
+     "زفاف",
+     "جنازة"
+    ]
+   }
+  },
+  {
+   "id": "ch-john-011-27",
+   "book": "john",
+   "chapter": 16,
+   "difficulty": "medium",
+   "ref": "John 16:20",
+   "text": {
+    "en": [
+     "In John 16, who would rejoice while the disciples wept and mourned?",
+     "World",
+     "Angels",
+     "Pharisees"
+    ],
+    "es": [
+     "En Juan 16, ¿quién se alegraría mientras los discípulos lloraban y se lamentaban?",
+     "Mundo",
+     "Ángeles",
+     "Fariseos"
+    ],
+    "pt": [
+     "Em João 16, quem se alegraria enquanto os discípulos choravam e se lamentavam?",
+     "Mundo",
+     "Anjos",
+     "Fariseus"
+    ],
+    "fr": [
+     "En Jean 16, qui se réjouirait pendant que les disciples pleureraient et gémiraient ?",
+     "Monde",
+     "Anges",
+     "Pharisiens"
+    ],
+    "de": [
+     "In Johannes 16, wer würde sich freuen, während die Jünger weinten und klagten?",
+     "Welt",
+     "Engel",
+     "Pharisäer"
+    ],
+    "it": [
+     "In Giovanni 16, chi si sarebbe rallegrato mentre i discepoli piangevano e gemevano?",
+     "Mondo",
+     "Angeli",
+     "Farisei"
+    ],
+    "pl": [
+     "W Ewangelii Jana 16, kto będzie się radował, gdy uczniowie będą płakać i lamentować?",
+     "Świat",
+     "Aniołowie",
+     "Faryzeusze"
+    ],
+    "ru": [
+     "В Евангелии от Иоанна 16, кто будет радоваться, пока ученики плачут и рыдают?",
+     "Мир",
+     "Ангелы",
+     "Фарисеи"
+    ],
+    "tr": [
+     "Yuhanna 16'da öğrenciler ağlayıp yas tutarken kim sevinecekti?",
+     "Dünya",
+     "Melekler",
+     "Ferisiler"
+    ],
+    "ja": [
+     "ヨハネ16章で、弟子たちが泣き悲しむ間、喜ぶのは誰ですか？",
+     "世",
+     "天使",
+     "ファリサイ派"
+    ],
+    "ko": [
+     "요한 16장에서 제자들이 울며 슬퍼하는 동안 기뻐할 이는 누구입니까?",
+     "세상",
+     "천사들",
+     "바리사이들"
+    ],
+    "ar": [
+     "في يوحنا 16، من سيفرح بينما يبكي التلاميذ وينوحون؟",
+     "عالم",
+     "ملائكة",
+     "فريسيون"
+    ]
+   }
+  },
+  {
+   "id": "ch-john-011-28",
+   "book": "john",
+   "chapter": 16,
+   "difficulty": "hard",
+   "ref": "John 16:13",
+   "text": {
+    "en": [
+     "In John 16, who will guide the disciples into all truth when he comes?",
+     "Spirit",
+     "Angel",
+     "Prophet"
+    ],
+    "es": [
+     "En Juan 16, ¿quién guiará a los discípulos a toda la verdad cuando venga?",
+     "Espíritu",
+     "Ángel",
+     "Profeta"
+    ],
+    "pt": [
+     "Em João 16, quem guiará os discípulos a toda a verdade quando vier?",
+     "Espírito",
+     "Anjo",
+     "Profeta"
+    ],
+    "fr": [
+     "En Jean 16, qui guidera les disciples vers la vérité tout entière quand il viendra ?",
+     "Esprit",
+     "Ange",
+     "Prophète"
+    ],
+    "de": [
+     "In Johannes 16, wer wird die Jünger in die ganze Wahrheit führen, wenn er kommt?",
+     "Geist",
+     "Engel",
+     "Prophet"
+    ],
+    "it": [
+     "In Giovanni 16, chi guiderà i discepoli alla verità tutta intera quando verrà?",
+     "Spirito",
+     "Angelo",
+     "Profeta"
+    ],
+    "pl": [
+     "W Ewangelii Jana 16, kto poprowadzi uczniów do całej prawdy, gdy przyjdzie?",
+     "Duch",
+     "Anioł",
+     "Prorok"
+    ],
+    "ru": [
+     "В Евангелии от Иоанна 16, кто наставит учеников на всякую истину, когда придёт?",
+     "Дух",
+     "Ангел",
+     "Пророк"
+    ],
+    "tr": [
+     "Yuhanna 16'da geldiğinde öğrencileri tüm gerçeğe kim yöneltecek?",
+     "Ruh",
+     "Melek",
+     "Peygamber"
+    ],
+    "ja": [
+     "ヨハネ16章で、来る時、弟子たちをすべての真理に導くのは誰ですか？",
+     "霊",
+     "天使",
+     "預言者"
+    ],
+    "ko": [
+     "요한 16장에서 그분이 오시면 제자들을 모든 진리로 이끄실 분은 누구입니까?",
+     "영",
+     "천사",
+     "예언자"
+    ],
+    "ar": [
+     "في يوحنا 16، من سيرشد التلاميذ إلى الحق كله عندما يأتي؟",
+     "روح",
+     "ملاك",
+     "نبي"
+    ]
+   }
+  },
+  {
+   "id": "ch-john-011-29",
+   "book": "john",
+   "chapter": 16,
+   "difficulty": "expert",
+   "ref": "John 16:32",
+   "text": {
+    "en": [
+     "In John 16, what, said Jesus, was coming when the disciples would scatter?",
+     "Hour",
+     "Year",
+     "Month"
+    ],
+    "es": [
+     "En Juan 16, ¿qué venía, dijo Jesús, cuando los discípulos se dispersarían?",
+     "Hora",
+     "Año",
+     "Mes"
+    ],
+    "pt": [
+     "Em João 16, o que vinha, disse Jesus, quando os discípulos se dispersariam?",
+     "Hora",
+     "Ano",
+     "Mês"
+    ],
+    "fr": [
+     "En Jean 16, qu'est-ce qui venait, dit Jésus, quand les disciples se disperseraient ?",
+     "Heure",
+     "Année",
+     "Mois"
+    ],
+    "de": [
+     "In Johannes 16, was kam nach Jesu Worten, wenn sich die Jünger zerstreuen würden?",
+     "Stunde",
+     "Jahr",
+     "Monat"
+    ],
+    "it": [
+     "In Giovanni 16, che cosa veniva, disse Gesù, quando i discepoli si sarebbero dispersi?",
+     "Ora",
+     "Anno",
+     "Mese"
+    ],
+    "pl": [
+     "W Ewangelii Jana 16, co nadchodziło, mówił Jezus, gdy uczniowie mieli się rozproszyć?",
+     "Godzina",
+     "Rok",
+     "Miesiąc"
+    ],
+    "ru": [
+     "В Евангелии от Иоанна 16, что наступало, сказал Иисус, когда ученики рассеются?",
+     "Час",
+     "Год",
+     "Месяц"
+    ],
+    "tr": [
+     "Yuhanna 16'da İsa'ya göre öğrenciler dağılacağı zaman ne geliyordu?",
+     "Saat",
+     "Yıl",
+     "Ay"
+    ],
+    "ja": [
+     "ヨハネ16章で、弟子たちが散らされる時、イエスは何が来ると言いましたか？",
+     "時",
+     "年",
+     "月"
+    ],
+    "ko": [
+     "요한 16장에서 예수님께서는 제자들이 흩어질 때 무엇이 온다고 하셨습니까?",
+     "때",
+     "해",
+     "달"
+    ],
+    "ar": [
+     "في يوحنا 16، ما الذي قال يسوع إنه يأتي حين يتفرق التلاميذ؟",
+     "ساعة",
+     "سنة",
+     "شهر"
+    ]
+   }
+  },
+  {
+   "id": "ch-john-011-30",
+   "book": "john",
+   "chapter": 16,
+   "difficulty": "impossible",
+   "ref": "John 16:21",
+   "text": {
+    "en": [
+     "In John 16, after giving birth, what does the mother no longer remember?",
+     "Pain",
+     "Hunger",
+     "Cold"
+    ],
+    "es": [
+     "En Juan 16, ¿qué olvida la madre después de dar a luz?",
+     "Dolor",
+     "Hambre",
+     "Frío"
+    ],
+    "pt": [
+     "Em João 16, o que a mãe esquece depois de dar à luz?",
+     "Dor",
+     "Fome",
+     "Frio"
+    ],
+    "fr": [
+     "En Jean 16, qu'oublie la mère après avoir accouché ?",
+     "Douleur",
+     "Faim",
+     "Froid"
+    ],
+    "de": [
+     "In Johannes 16, was vergisst die Mutter nach der Geburt?",
+     "Schmerz",
+     "Hunger",
+     "Kälte"
+    ],
+    "it": [
+     "In Giovanni 16, che cosa dimentica la madre dopo il parto?",
+     "Dolore",
+     "Fame",
+     "Freddo"
+    ],
+    "pl": [
+     "W Ewangelii Jana 16, co znika z pamięci matki po porodzie?",
+     "Ból",
+     "Głód",
+     "Zimno"
+    ],
+    "ru": [
+     "В Евангелии от Иоанна 16, что забывает мать после родов?",
+     "Боль",
+     "Голод",
+     "Холод"
+    ],
+    "tr": [
+     "Yuhanna 16'da doğumdan sonra annenin belleğinden ne silinir?",
+     "Acı",
+     "Açlık",
+     "Soğuk"
+    ],
+    "ja": [
+     "ヨハネ16章で、出産の後、母親が思い出さなくなるものは何ですか？",
+     "苦しみ",
+     "飢え",
+     "寒さ"
+    ],
+    "ko": [
+     "요한 16장에서 아이를 낳은 뒤 어머니가 더 이상 기억하지 않는 것은 무엇입니까?",
+     "고통",
+     "굶주림",
+     "추위"
+    ],
+    "ar": [
+     "في يوحنا 16، ماذا لا تتذكر الأم بعد الولادة؟",
+     "ألم",
+     "جوع",
+     "برد"
+    ]
+   }
+  },
+  {
+   "id": "ch-john-011-31",
+   "book": "john",
+   "chapter": 17,
+   "difficulty": "easy",
+   "ref": "John 17:1",
+   "text": {
+    "en": [
+     "In John 17, where did Jesus raise his eyes to pray?",
+     "Heaven",
+     "Ground",
+     "Temple"
+    ],
+    "es": [
+     "En Juan 17, ¿adónde alzó Jesús los ojos para orar?",
+     "Cielo",
+     "Suelo",
+     "Templo"
+    ],
+    "pt": [
+     "Em João 17, para onde Jesus levantou os olhos ao rezar?",
+     "Céu",
+     "Chão",
+     "Templo"
+    ],
+    "fr": [
+     "En Jean 17, vers où Jésus leva-t-il les yeux pour prier ?",
+     "Ciel",
+     "Sol",
+     "Temple"
+    ],
+    "de": [
+     "In Johannes 17, wohin erhob Jesus die Augen zum Gebet?",
+     "Himmel",
+     "Boden",
+     "Tempel"
+    ],
+    "it": [
+     "In Giovanni 17, dove alzò gli occhi Gesù per pregare?",
+     "Cielo",
+     "Suolo",
+     "Tempio"
+    ],
+    "pl": [
+     "W Ewangelii Jana 17, gdzie Jezus wzniósł oczy, gdy się modlił?",
+     "Niebo",
+     "Ziemia",
+     "Świątynia"
+    ],
+    "ru": [
+     "В Евангелии от Иоанна 17, куда Иисус поднял глаза, молясь?",
+     "Небо",
+     "Земля",
+     "Храм"
+    ],
+    "tr": [
+     "Yuhanna 17'de İsa dua ederken gözlerini nereye kaldırdı?",
+     "Gökyüzü",
+     "Yer",
+     "Tapınak"
+    ],
+    "ja": [
+     "ヨハネ17章で、祈るとき、イエスは目をどこに上げましたか？",
+     "天",
+     "地",
+     "神殿"
+    ],
+    "ko": [
+     "요한 17장에서 예수님은 기도하실 때 눈을 어디로 드셨습니까?",
+     "하늘",
+     "땅",
+     "성전"
+    ],
+    "ar": [
+     "في يوحنا 17، إلى أين رفع يسوع عينيه ليصلي؟",
+     "سماء",
+     "أرض",
+     "هيكل"
+    ]
+   }
+  },
+  {
+   "id": "ch-john-011-32",
+   "book": "john",
+   "chapter": 17,
+   "difficulty": "medium",
+   "ref": "John 17:12",
+   "text": {
+    "en": [
+     "In John 17, which disciple did Jesus say was lost?",
+     "Judas",
+     "Peter",
+     "Thomas"
+    ],
+    "es": [
+     "En Juan 17, ¿qué discípulo dijo Jesús que se perdió?",
+     "Judas",
+     "Pedro",
+     "Tomás"
+    ],
+    "pt": [
+     "Em João 17, qual discípulo Jesus disse que se perdeu?",
+     "Judas",
+     "Pedro",
+     "Tomé"
+    ],
+    "fr": [
+     "En Jean 17, quel disciple Jésus dit-il s'être perdu ?",
+     "Judas",
+     "Pierre",
+     "Thomas"
+    ],
+    "de": [
+     "In Johannes 17, welcher Jünger ging nach Jesu Worten verloren?",
+     "Judas",
+     "Petrus",
+     "Thomas"
+    ],
+    "it": [
+     "In Giovanni 17, quale discepolo disse Gesù che si era perduto?",
+     "Giuda",
+     "Pietro",
+     "Tommaso"
+    ],
+    "pl": [
+     "W Ewangelii Jana 17, który uczeń, według słów Jezusa, zginął?",
+     "Judasz",
+     "Piotr",
+     "Tomasz"
+    ],
+    "ru": [
+     "В Евангелии от Иоанна 17, кто из учеников, по словам Иисуса, погиб?",
+     "Иуда",
+     "Пётр",
+     "Фома"
+    ],
+    "tr": [
+     "Yuhanna 17'de İsa hangi öğrencinin kaybolduğunu söyledi?",
+     "Yahuda",
+     "Petrus",
+     "Tomas"
+    ],
+    "ja": [
+     "ヨハネ17章で、イエスが滅びたと言った弟子は誰ですか？",
+     "ユダ",
+     "ペトロ",
+     "トマス"
+    ],
+    "ko": [
+     "요한 17장에서 예수님께서 멸망했다고 하신 제자는 누구입니까?",
+     "유다",
+     "베드로",
+     "토마스"
+    ],
+    "ar": [
+     "في يوحنا 17، أي تلميذ قال يسوع إنه هلك؟",
+     "يهوذا",
+     "بطرس",
+     "توما"
+    ]
+   }
+  },
+  {
+   "id": "ch-john-011-33",
+   "book": "john",
+   "chapter": 17,
+   "difficulty": "hard",
+   "ref": "John 17:6",
+   "text": {
+    "en": [
+     "In John 17, what of the Father's did Jesus make known to his disciples?",
+     "Name",
+     "Face",
+     "Law"
+    ],
+    "es": [
+     "En Juan 17, ¿qué del Padre dio a conocer Jesús a sus discípulos?",
+     "Nombre",
+     "Rostro",
+     "Ley"
+    ],
+    "pt": [
+     "Em João 17, o que do Pai Jesus deu a conhecer aos seus discípulos?",
+     "Nome",
+     "Rosto",
+     "Lei"
+    ],
+    "fr": [
+     "En Jean 17, qu'est-ce du Père que Jésus fit connaître à ses disciples ?",
+     "Nom",
+     "Visage",
+     "Loi"
+    ],
+    "de": [
+     "In Johannes 17, was vom Vater machte Jesus seinen Jüngern bekannt?",
+     "Name",
+     "Gesicht",
+     "Gesetz"
+    ],
+    "it": [
+     "In Giovanni 17, che cosa del Padre Gesù fece conoscere ai suoi discepoli?",
+     "Nome",
+     "Volto",
+     "Legge"
+    ],
+    "pl": [
+     "W Ewangelii Jana 17, co należące do Ojca Jezus objawił uczniom?",
+     "Imię",
+     "Twarz",
+     "Prawo"
+    ],
+    "ru": [
+     "В Евангелии от Иоанна 17, что принадлежащее Отцу Иисус открыл ученикам?",
+     "Имя",
+     "Лицо",
+     "Закон"
+    ],
+    "tr": [
+     "Yuhanna 17'de İsa'nın öğrencilerine bildirdiği, Baba'ya ait şey neydi?",
+     "Ad",
+     "Yüz",
+     "Yasa"
+    ],
+    "ja": [
+     "ヨハネ17章で、イエスが弟子たちに示した、父に属するものは何ですか？",
+     "名",
+     "顔",
+     "律法"
+    ],
+    "ko": [
+     "요한 17장에서 예수님께서 제자들에게 드러내 주신 아버지의 것은 무엇입니까?",
+     "이름",
+     "얼굴",
+     "법"
+    ],
+    "ar": [
+     "في يوحنا 17، ما الذي للآب أعلنه يسوع لتلاميذه؟",
+     "اسم",
+     "وجه",
+     "شريعة"
+    ]
+   }
+  },
+  {
+   "id": "ch-john-011-34",
+   "book": "john",
+   "chapter": 17,
+   "difficulty": "expert",
+   "ref": "John 17:4",
+   "text": {
+    "en": [
+     "In John 17, what did Jesus tell the Father he had accomplished on earth?",
+     "Work",
+     "Journey",
+     "Sermon"
+    ],
+    "es": [
+     "En Juan 17, ¿qué dijo Jesús al Padre que había llevado a cabo en la tierra?",
+     "Obra",
+     "Viaje",
+     "Sermón"
+    ],
+    "pt": [
+     "Em João 17, o que Jesus disse ao Pai ter realizado na terra?",
+     "Obra",
+     "Viagem",
+     "Sermão"
+    ],
+    "fr": [
+     "En Jean 17, qu'est-ce que Jésus dit au Père avoir accompli sur la terre ?",
+     "Œuvre",
+     "Voyage",
+     "Sermon"
+    ],
+    "de": [
+     "In Johannes 17, was sagte Jesus dem Vater, auf Erden vollbracht zu haben?",
+     "Werk",
+     "Reise",
+     "Predigt"
+    ],
+    "it": [
+     "In Giovanni 17, che cosa disse Gesù al Padre di aver compiuto sulla terra?",
+     "Opera",
+     "Viaggio",
+     "Predica"
+    ],
+    "pl": [
+     "W Ewangelii Jana 17, co Jezus powiedział Ojcu, że dokonał na ziemi?",
+     "Dzieło",
+     "Podróż",
+     "Kazanie"
+    ],
+    "ru": [
+     "В Евангелии от Иоанна 17, что совершил Иисус на земле, как он сказал Отцу?",
+     "Дело",
+     "Путешествие",
+     "Проповедь"
+    ],
+    "tr": [
+     "Yuhanna 17'de İsa'nın Baba'ya, yeryüzünde tamamladığını söylediği şey neydi?",
+     "İş",
+     "Yolculuk",
+     "Vaaz"
+    ],
+    "ja": [
+     "ヨハネ17章で、イエスが父に、地上で成し遂げたと言ったものは何ですか？",
+     "業",
+     "旅",
+     "説教"
+    ],
+    "ko": [
+     "요한 17장에서 예수님께서 아버지께 땅에서 이루었다고 말씀하신 것은 무엇입니까?",
+     "일",
+     "여행",
+     "설교"
+    ],
+    "ar": [
+     "في يوحنا 17، ماذا قال يسوع للآب إنه أتمّه على الأرض؟",
+     "عمل",
+     "رحلة",
+     "عظة"
+    ]
+   }
+  },
+  {
+   "id": "ch-john-011-35",
+   "book": "john",
+   "chapter": 17,
+   "difficulty": "impossible",
+   "ref": "John 17:5",
+   "text": {
+    "en": [
+     "In John 17, what did Jesus have with the Father before the world began?",
+     "Glory",
+     "Throne",
+     "Kingdom"
+    ],
+    "es": [
+     "En Juan 17, ¿qué tenía Jesús junto al Padre antes de que el mundo existiera?",
+     "Gloria",
+     "Trono",
+     "Reino"
+    ],
+    "pt": [
+     "Em João 17, o que Jesus tinha junto ao Pai antes que o mundo existisse?",
+     "Glória",
+     "Trono",
+     "Reino"
+    ],
+    "fr": [
+     "En Jean 17, qu'avait Jésus auprès du Père avant que le monde existe ?",
+     "Gloire",
+     "Trône",
+     "Royaume"
+    ],
+    "de": [
+     "In Johannes 17, was hatte Jesus beim Vater, bevor die Welt war?",
+     "Herrlichkeit",
+     "Thron",
+     "Reich"
+    ],
+    "it": [
+     "In Giovanni 17, che cosa aveva Gesù presso il Padre prima che il mondo fosse?",
+     "Gloria",
+     "Trono",
+     "Regno"
+    ],
+    "pl": [
+     "W Ewangelii Jana 17, co było udziałem Jezusa u Ojca, zanim świat powstał?",
+     "Chwała",
+     "Tron",
+     "Królestwo"
+    ],
+    "ru": [
+     "В Евангелии от Иоанна 17, что было у Иисуса у Отца прежде бытия мира?",
+     "Слава",
+     "Трон",
+     "Царство"
+    ],
+    "tr": [
+     "Yuhanna 17'de dünya var olmadan önce İsa'nın Baba'nın yanındaki payı neydi?",
+     "Görkem",
+     "Taht",
+     "Krallık"
+    ],
+    "ja": [
+     "ヨハネ17章で、世が造られる前、イエスが父のもとで持っていたものは何ですか？",
+     "栄光",
+     "玉座",
+     "王国"
+    ],
+    "ko": [
+     "요한 17장에서 세상이 생기기 전에 예수님께서 아버지 곁에서 지니셨던 것은 무엇입니까?",
+     "영광",
+     "왕좌",
+     "왕국"
+    ],
+    "ar": [
+     "في يوحنا 17، ماذا كان ليسوع عند الآب قبل أن يكون العالم؟",
+     "مجد",
+     "عرش",
+     "ملكوت"
+    ]
+   }
+  },
+  {
+   "id": "ch-john-011-36",
+   "book": "john",
+   "chapter": 18,
+   "difficulty": "easy",
+   "ref": "John 18:40",
+   "text": {
+    "en": [
+     "In John 18, which prisoner did the crowd choose to free instead of Jesus?",
+     "Barabbas",
+     "Caiaphas",
+     "Nicodemus"
+    ],
+    "es": [
+     "En Juan 18, ¿a qué preso eligió la multitud liberar en lugar de Jesús?",
+     "Barrabás",
+     "Caifás",
+     "Nicodemo"
+    ],
+    "pt": [
+     "Em João 18, qual preso a multidão escolheu libertar em lugar de Jesus?",
+     "Barrabás",
+     "Caifás",
+     "Nicodemos"
+    ],
+    "fr": [
+     "En Jean 18, quel prisonnier la foule choisit-elle de libérer à la place de Jésus ?",
+     "Barabbas",
+     "Caïphe",
+     "Nicodème"
+    ],
+    "de": [
+     "In Johannes 18, welchen Gefangenen wählte die Menge anstelle Jesu zur Freilassung?",
+     "Barabbas",
+     "Kajaphas",
+     "Nikodemus"
+    ],
+    "it": [
+     "In Giovanni 18, quale prigioniero la folla scelse di liberare al posto di Gesù?",
+     "Barabba",
+     "Caifa",
+     "Nicodemo"
+    ],
+    "pl": [
+     "W Ewangelii Jana 18, kto został uwolniony zamiast Jezusa na życzenie tłumu?",
+     "Barabasz",
+     "Kajfasz",
+     "Nikodem"
+    ],
+    "ru": [
+     "В Евангелии от Иоанна 18, кто из узников был освобождён вместо Иисуса по выбору толпы?",
+     "Варавва",
+     "Каиафа",
+     "Никодим"
+    ],
+    "tr": [
+     "Yuhanna 18'de kalabalık İsa yerine hangi tutuklunun serbest bırakılmasını seçti?",
+     "Barabbas",
+     "Kayafa",
+     "Nikodemus"
+    ],
+    "ja": [
+     "ヨハネ18章で、群衆がイエスの代わりに釈放を望んだ囚人は誰ですか？",
+     "バラバ",
+     "カイアファ",
+     "ニコデモ"
+    ],
+    "ko": [
+     "요한 18장에서 군중이 예수님 대신 풀어 주라고 택한 죄수는 누구입니까?",
+     "바라빠",
+     "카야파",
+     "니코데모"
+    ],
+    "ar": [
+     "في يوحنا 18، أي سجين اختارت الجموع إطلاقه بدل يسوع؟",
+     "باراباس",
+     "قيافا",
+     "نيقوديموس"
+    ]
+   }
+  },
+  {
+   "id": "ch-john-011-37",
+   "book": "john",
+   "chapter": 18,
+   "difficulty": "medium",
+   "ref": "John 18:11",
+   "text": {
+    "en": [
+     "In John 18, what did Jesus order Peter to put back in its sheath?",
+     "Sword",
+     "Spear",
+     "Staff"
+    ],
+    "es": [
+     "En Juan 18, ¿qué ordenó Jesús a Pedro volver a meter en su vaina?",
+     "Espada",
+     "Lanza",
+     "Bastón"
+    ],
+    "pt": [
+     "Em João 18, o que Jesus mandou Pedro guardar de volta na bainha?",
+     "Espada",
+     "Lança",
+     "Cajado"
+    ],
+    "fr": [
+     "En Jean 18, que Jésus ordonna-t-il à Pierre de remettre au fourreau ?",
+     "Épée",
+     "Lance",
+     "Bâton"
+    ],
+    "de": [
+     "In Johannes 18, was befahl Jesus dem Petrus, in die Scheide zu stecken?",
+     "Schwert",
+     "Speer",
+     "Stab"
+    ],
+    "it": [
+     "In Giovanni 18, che cosa Gesù ordinò a Pietro di rimettere nel fodero?",
+     "Spada",
+     "Lancia",
+     "Bastone"
+    ],
+    "pl": [
+     "W Ewangelii Jana 18, co Jezus kazał Piotrowi schować do pochwy?",
+     "Miecz",
+     "Oszczep",
+     "Kij"
+    ],
+    "ru": [
+     "В Евангелии от Иоанна 18, что Иисус велел Петру вложить в ножны?",
+     "Меч",
+     "Копьё",
+     "Посох"
+    ],
+    "tr": [
+     "Yuhanna 18'de İsa'nın Petrus'a kınına koy dediği şey neydi?",
+     "Kılıç",
+     "Mızrak",
+     "Asa"
+    ],
+    "ja": [
+     "ヨハネ18章で、イエスがペトロに、鞘に納めるよう命じたものは何ですか？",
+     "剣",
+     "槍",
+     "杖"
+    ],
+    "ko": [
+     "요한 18장에서 예수님께서 베드로에게 칼집에 도로 꽂으라고 하신 것은 무엇입니까?",
+     "칼",
+     "창",
+     "지팡이"
+    ],
+    "ar": [
+     "في يوحنا 18، ماذا أمر يسوع بطرس أن يردّه إلى غمده؟",
+     "سيف",
+     "رمح",
+     "عصا"
+    ]
+   }
+  },
+  {
+   "id": "ch-john-011-38",
+   "book": "john",
+   "chapter": 18,
+   "difficulty": "hard",
+   "ref": "John 18:18",
+   "text": {
+    "en": [
+     "In John 18, what did the servants kindle to keep warm?",
+     "Fire",
+     "Tent",
+     "Bridge"
+    ],
+    "es": [
+     "En Juan 18, ¿qué encendieron los criados para calentarse?",
+     "Fuego",
+     "Tienda",
+     "Puente"
+    ],
+    "pt": [
+     "Em João 18, o que os servos acenderam para se aquecer?",
+     "Fogo",
+     "Tenda",
+     "Ponte"
+    ],
+    "fr": [
+     "En Jean 18, que les serviteurs allumèrent-ils pour se réchauffer ?",
+     "Feu",
+     "Tente",
+     "Pont"
+    ],
+    "de": [
+     "In Johannes 18, was zündeten die Knechte an, um sich zu wärmen?",
+     "Feuer",
+     "Zelt",
+     "Brücke"
+    ],
+    "it": [
+     "In Giovanni 18, che cosa accesero i servi per scaldarsi?",
+     "Fuoco",
+     "Tenda",
+     "Ponte"
+    ],
+    "pl": [
+     "W Ewangelii Jana 18, co rozpalili słudzy, aby się ogrzać?",
+     "Ogień",
+     "Namiot",
+     "Most"
+    ],
+    "ru": [
+     "В Евангелии от Иоанна 18, что разожгли слуги, чтобы согреться?",
+     "Огонь",
+     "Шатёр",
+     "Мост"
+    ],
+    "tr": [
+     "Yuhanna 18'de hizmetkârlar ısınmak için neyi yaktı?",
+     "Ateş",
+     "Çadır",
+     "Köprü"
+    ],
+    "ja": [
+     "ヨハネ18章で、僕たちは暖まるために何を焚きましたか？",
+     "火",
+     "天幕",
+     "橋"
+    ],
+    "ko": [
+     "요한 18장에서 종들은 몸을 녹이려고 무엇을 피웠습니까?",
+     "불",
+     "천막",
+     "다리"
+    ],
+    "ar": [
+     "في يوحنا 18، ماذا أشعل الخدم ليتدفأوا؟",
+     "نار",
+     "خيمة",
+     "جسر"
+    ]
+   }
+  },
+  {
+   "id": "ch-john-011-39",
+   "book": "john",
+   "chapter": 18,
+   "difficulty": "expert",
+   "ref": "John 18:28",
+   "text": {
+    "en": [
+     "In John 18, which feast kept the leaders from entering Pilate's palace?",
+     "Passover",
+     "Purim",
+     "Sabbath"
+    ],
+    "es": [
+     "En Juan 18, ¿qué fiesta impidió a los dirigentes entrar en el pretorio de Pilato?",
+     "Pascua",
+     "Purim",
+     "Sábado"
+    ],
+    "pt": [
+     "Em João 18, que festa impediu os chefes de entrar no pretório de Pilatos?",
+     "Páscoa",
+     "Purim",
+     "Sábado"
+    ],
+    "fr": [
+     "En Jean 18, quelle fête empêcha les chefs d'entrer dans le prétoire de Pilate ?",
+     "Pâque",
+     "Pourim",
+     "Sabbat"
+    ],
+    "de": [
+     "In Johannes 18, welches Fest hielt die Anführer davon ab, Pilatus' Prätorium zu betreten?",
+     "Pascha",
+     "Purim",
+     "Sabbat"
+    ],
+    "it": [
+     "In Giovanni 18, quale festa impedì ai capi di entrare nel pretorio di Pilato?",
+     "Pasqua",
+     "Purim",
+     "Sabato"
+    ],
+    "pl": [
+     "W Ewangelii Jana 18, jakie święto powstrzymało przywódców przed wejściem do pretorium Piłata?",
+     "Pascha",
+     "Purim",
+     "Szabat"
+    ],
+    "ru": [
+     "В Евангелии от Иоанна 18, какой праздник удержал вождей от входа в преторию Пилата?",
+     "Пасха",
+     "Пурим",
+     "Суббота"
+    ],
+    "tr": [
+     "Yuhanna 18'de hangi bayram önderlerin Pilatus'un sarayına girmesini engelledi?",
+     "Fısıh",
+     "Purim",
+     "Şabat"
+    ],
+    "ja": [
+     "ヨハネ18章で、どの祭りのために、指導者たちはピラトの官邸に入りませんでしたか？",
+     "過越",
+     "プリム",
+     "安息日"
+    ],
+    "ko": [
+     "요한 18장에서 어느 축제 때문에 지도자들은 빌라도의 관저에 들어가지 않았습니까?",
+     "파스카",
+     "푸림",
+     "안식일"
+    ],
+    "ar": [
+     "في يوحنا 18، أي عيد منع الرؤساء من دخول دار الولاية عند بيلاطس؟",
+     "فصح",
+     "فوريم",
+     "سبت"
+    ]
+   }
+  },
+  {
+   "id": "ch-john-011-40",
+   "book": "john",
+   "chapter": 18,
+   "difficulty": "impossible",
+   "ref": "John 18:1",
+   "text": {
+    "en": [
+     "In John 18, what did Jesus cross with his disciples to reach the garden?",
+     "Kidron",
+     "Jordan",
+     "Jabbok"
+    ],
+    "es": [
+     "En Juan 18, ¿qué cruzó Jesús con sus discípulos para llegar al huerto?",
+     "Cedrón",
+     "Jordán",
+     "Yaboc"
+    ],
+    "pt": [
+     "Em João 18, o que Jesus atravessou com os discípulos para chegar ao jardim?",
+     "Cedron",
+     "Jordão",
+     "Jaboc"
+    ],
+    "fr": [
+     "En Jean 18, qu'est-ce que Jésus traversa avec ses disciples pour atteindre le jardin ?",
+     "Cédron",
+     "Jourdain",
+     "Yabboq"
+    ],
+    "de": [
+     "In Johannes 18, was überquerte Jesus mit seinen Jüngern, um zum Garten zu gelangen?",
+     "Kidron",
+     "Jordan",
+     "Jabbok"
+    ],
+    "it": [
+     "In Giovanni 18, che cosa attraversò Gesù con i discepoli per raggiungere il giardino?",
+     "Cedron",
+     "Giordano",
+     "Iabbok"
+    ],
+    "pl": [
+     "W Ewangelii Jana 18, co przekroczył Jezus z uczniami, aby dojść do ogrodu?",
+     "Cedron",
+     "Jordan",
+     "Jabbok"
+    ],
+    "ru": [
+     "В Евангелии от Иоанна 18, что перешёл Иисус с учениками, чтобы дойти до сада?",
+     "Кедрон",
+     "Иордан",
+     "Иавок"
+    ],
+    "tr": [
+     "Yuhanna 18'de İsa'nın bahçeye varmak için öğrencileriyle geçtiği şey neydi?",
+     "Kidron",
+     "Ürdün",
+     "Yabbok"
+    ],
+    "ja": [
+     "ヨハネ18章で、イエスは園に行くために、弟子たちと何を渡りましたか？",
+     "キドロン",
+     "ヨルダン",
+     "ヤボク"
+    ],
+    "ko": [
+     "요한 18장에서 예수님은 동산에 이르기 위해 제자들과 함께 무엇을 건너셨습니까?",
+     "키드론",
+     "요르단",
+     "야뽁"
+    ],
+    "ar": [
+     "في يوحنا 18، ماذا عبر يسوع مع تلاميذه ليصل إلى البستان؟",
+     "قدرون",
+     "أردن",
+     "يبوق"
+    ]
+   }
+  },
+  {
+   "id": "ch-john-011-41",
+   "book": "john",
+   "chapter": 19,
+   "difficulty": "easy",
+   "ref": "John 19:2",
+   "text": {
+    "en": [
+     "In John 19, what did the soldiers weave for Jesus' head?",
+     "Crown",
+     "Turban",
+     "Helmet"
+    ],
+    "es": [
+     "En Juan 19, ¿qué trenzaron los soldados para la cabeza de Jesús?",
+     "Corona",
+     "Turbante",
+     "Casco"
+    ],
+    "pt": [
+     "Em João 19, o que os soldados trançaram para a cabeça de Jesus?",
+     "Coroa",
+     "Turbante",
+     "Capacete"
+    ],
+    "fr": [
+     "En Jean 19, que les soldats tressèrent-ils pour la tête de Jésus ?",
+     "Couronne",
+     "Turban",
+     "Casque"
+    ],
+    "de": [
+     "In Johannes 19, was flochten die Soldaten für den Kopf Jesu?",
+     "Krone",
+     "Turban",
+     "Helm"
+    ],
+    "it": [
+     "In Giovanni 19, che cosa intrecciarono i soldati per il capo di Gesù?",
+     "Corona",
+     "Turbante",
+     "Elmo"
+    ],
+    "pl": [
+     "W Ewangelii Jana 19, co upletli żołnierze dla głowy Jezusa?",
+     "Wieniec",
+     "Turban",
+     "Hełm"
+    ],
+    "ru": [
+     "В Евангелии от Иоанна 19, что сплели воины для головы Иисуса?",
+     "Венец",
+     "Тюрбан",
+     "Шлем"
+    ],
+    "tr": [
+     "Yuhanna 19'da askerler İsa'nın başı için neyi ördü?",
+     "Taç",
+     "Sarık",
+     "Miğfer"
+    ],
+    "ja": [
+     "ヨハネ19章で、兵士たちはイエスの頭のために何を編みましたか？",
+     "冠",
+     "ターバン",
+     "兜"
+    ],
+    "ko": [
+     "요한 19장에서 병사들은 예수님의 머리에 씌울 무엇을 엮었습니까?",
+     "왕관",
+     "터번",
+     "투구"
+    ],
+    "ar": [
+     "في يوحنا 19، ماذا ضفر الجنود لرأس يسوع؟",
+     "إكليل",
+     "عمامة",
+     "خوذة"
+    ]
+   }
+  },
+  {
+   "id": "ch-john-011-42",
+   "book": "john",
+   "chapter": 19,
+   "difficulty": "medium",
+   "ref": "John 19:41",
+   "text": {
+    "en": [
+     "In John 19, what stood at the place where Jesus was crucified?",
+     "Garden",
+     "Vineyard",
+     "Forest"
+    ],
+    "es": [
+     "En Juan 19, ¿qué había en el lugar donde Jesús fue crucificado?",
+     "Huerto",
+     "Viña",
+     "Bosque"
+    ],
+    "pt": [
+     "Em João 19, o que havia no lugar onde Jesus foi crucificado?",
+     "Jardim",
+     "Vinha",
+     "Floresta"
+    ],
+    "fr": [
+     "En Jean 19, qu'y avait-il à l'endroit où Jésus fut crucifié ?",
+     "Jardin",
+     "Vigne",
+     "Forêt"
+    ],
+    "de": [
+     "In Johannes 19, was befand sich an dem Ort, wo Jesus gekreuzigt wurde?",
+     "Garten",
+     "Weinberg",
+     "Wald"
+    ],
+    "it": [
+     "In Giovanni 19, che cosa c'era nel luogo dove Gesù fu crocifisso?",
+     "Giardino",
+     "Vigna",
+     "Bosco"
+    ],
+    "pl": [
+     "W Ewangelii Jana 19, co znajdowało się w miejscu ukrzyżowania Jezusa?",
+     "Ogród",
+     "Winnica",
+     "Las"
+    ],
+    "ru": [
+     "В Евангелии от Иоанна 19, что находилось на месте распятия Иисуса?",
+     "Сад",
+     "Виноградник",
+     "Лес"
+    ],
+    "tr": [
+     "Yuhanna 19'da İsa'nın çarmıha gerildiği yerde ne vardı?",
+     "Bahçe",
+     "Bağ",
+     "Orman"
+    ],
+    "ja": [
+     "ヨハネ19章で、イエスが十字架につけられた場所には何がありましたか？",
+     "園",
+     "ぶどう畑",
+     "森"
+    ],
+    "ko": [
+     "요한 19장에서 예수님께서 십자가에 못 박히신 곳에는 무엇이 있었습니까?",
+     "동산",
+     "포도밭",
+     "숲"
+    ],
+    "ar": [
+     "في يوحنا 19، ماذا كان في المكان الذي صُلب فيه يسوع؟",
+     "بستان",
+     "كرم",
+     "غابة"
+    ]
+   }
+  },
+  {
+   "id": "ch-john-011-43",
+   "book": "john",
+   "chapter": 19,
+   "difficulty": "hard",
+   "ref": "John 19:38",
+   "text": {
+    "en": [
+     "In John 19, what did Joseph of Arimathea ask Pilate to let him take?",
+     "Body",
+     "Cross",
+     "Cloak"
+    ],
+    "es": [
+     "En Juan 19, ¿qué pidió José de Arimatea a Pilato que le dejara llevarse?",
+     "Cuerpo",
+     "Cruz",
+     "Manto"
+    ],
+    "pt": [
+     "Em João 19, o que José de Arimateia pediu a Pilatos para levar?",
+     "Corpo",
+     "Cruz",
+     "Manto"
+    ],
+    "fr": [
+     "En Jean 19, que Joseph d'Arimathie demanda-t-il à Pilate d'emporter ?",
+     "Corps",
+     "Croix",
+     "Manteau"
+    ],
+    "de": [
+     "In Johannes 19, was bat Josef von Arimathäa den Pilatus mitnehmen zu dürfen?",
+     "Leichnam",
+     "Kreuz",
+     "Mantel"
+    ],
+    "it": [
+     "In Giovanni 19, che cosa chiese Giuseppe d'Arimatea a Pilato di poter prendere?",
+     "Corpo",
+     "Croce",
+     "Mantello"
+    ],
+    "pl": [
+     "W Ewangelii Jana 19, co Józef z Arymatei prosił Piłata, by mógł zabrać?",
+     "Ciało",
+     "Krzyż",
+     "Płaszcz"
+    ],
+    "ru": [
+     "В Евангелии от Иоанна 19, что Иосиф из Аримафеи просил у Пилата разрешения забрать?",
+     "Тело",
+     "Крест",
+     "Плащ"
+    ],
+    "tr": [
+     "Yuhanna 19'da Arimatyalı Yusuf'un Pilatus'tan almak için izin istediği şey neydi?",
+     "Ceset",
+     "Çarmıh",
+     "Pelerin"
+    ],
+    "ja": [
+     "ヨハネ19章で、アリマタヤのヨセフが、ピラトに取り下ろす許可を願ったものは何ですか？",
+     "遺体",
+     "十字架",
+     "外套"
+    ],
+    "ko": [
+     "요한 19장에서 아리마태아 사람 요셉이 빌라도에게 가져가게 해 달라고 청한 것은 무엇입니까?",
+     "시신",
+     "십자가",
+     "겉옷"
+    ],
+    "ar": [
+     "في يوحنا 19، ماذا طلب يوسف الذي من الرامة من بيلاطس أن يأخذه؟",
+     "جسد",
+     "صليب",
+     "رداء"
+    ]
+   }
+  },
+  {
+   "id": "ch-john-011-44",
+   "book": "john",
+   "chapter": 19,
+   "difficulty": "expert",
+   "ref": "John 19:23",
+   "text": {
+    "en": [
+     "In John 19, into how many shares did soldiers divide Jesus' garments?",
+     "4",
+     "2",
+     "12"
+    ],
+    "es": [
+     "En Juan 19, ¿en cuántas partes dividieron los soldados la ropa de Jesús?",
+     "4",
+     "2",
+     "12"
+    ],
+    "pt": [
+     "Em João 19, em quantas partes os soldados dividiram as vestes de Jesus?",
+     "4",
+     "2",
+     "12"
+    ],
+    "fr": [
+     "En Jean 19, en combien de parts les soldats partagèrent-ils les vêtements de Jésus ?",
+     "4",
+     "2",
+     "12"
+    ],
+    "de": [
+     "In Johannes 19, in wie viele Teile teilten die Soldaten die Kleider Jesu?",
+     "4",
+     "2",
+     "12"
+    ],
+    "it": [
+     "In Giovanni 19, in quante parti i soldati divisero le vesti di Gesù?",
+     "4",
+     "2",
+     "12"
+    ],
+    "pl": [
+     "W Ewangelii Jana 19, na ile części żołnierze podzielili szaty Jezusa?",
+     "4",
+     "2",
+     "12"
+    ],
+    "ru": [
+     "В Евангелии от Иоанна 19, на сколько частей воины разделили одежды Иисуса?",
+     "4",
+     "2",
+     "12"
+    ],
+    "tr": [
+     "Yuhanna 19'da askerler İsa'nın giysilerini kaç paya böldü?",
+     "4",
+     "2",
+     "12"
+    ],
+    "ja": [
+     "ヨハネ19章で、兵士たちはイエスの服をいくつに分けましたか？",
+     "4",
+     "2",
+     "12"
+    ],
+    "ko": [
+     "요한 19장에서 병사들은 예수님의 옷을 몇 몫으로 나누었습니까?",
+     "4",
+     "2",
+     "12"
+    ],
+    "ar": [
+     "في يوحنا 19، إلى كم قسماً قسّم الجنود ثياب يسوع؟",
+     "4",
+     "2",
+     "12"
+    ]
+   }
+  },
+  {
+   "id": "ch-john-011-45",
+   "book": "john",
+   "chapter": 19,
+   "difficulty": "impossible",
+   "ref": "John 19:29",
+   "text": {
+    "en": [
+     "In John 19, on which plant was the soaked sponge raised to Jesus' mouth?",
+     "Hyssop",
+     "Cedar",
+     "Palm"
+    ],
+    "es": [
+     "En Juan 19, ¿qué planta se usó para alzar hasta la boca de Jesús la esponja empapada?",
+     "Hisopo",
+     "Cedro",
+     "Palmera"
+    ],
+    "pt": [
+     "Em João 19, que planta foi usada para levar à boca de Jesus a esponja embebida?",
+     "Hissopo",
+     "Cedro",
+     "Palmeira"
+    ],
+    "fr": [
+     "En Jean 19, quelle plante servit à porter à la bouche de Jésus l'éponge imbibée ?",
+     "Hysope",
+     "Cèdre",
+     "Palmier"
+    ],
+    "de": [
+     "In Johannes 19, welche Pflanze diente dazu, den getränkten Schwamm zum Mund Jesu zu heben?",
+     "Ysop",
+     "Zeder",
+     "Palme"
+    ],
+    "it": [
+     "In Giovanni 19, quale pianta servì per portare alla bocca di Gesù la spugna inzuppata?",
+     "Issopo",
+     "Cedro",
+     "Palma"
+    ],
+    "pl": [
+     "W Ewangelii Jana 19, która roślina posłużyła do podniesienia do ust Jezusa nasączonej gąbki?",
+     "Hizop",
+     "Cedr",
+     "Palma"
+    ],
+    "ru": [
+     "В Евангелии от Иоанна 19, какое растение послужило, чтобы поднести к устам Иисуса пропитанную губку?",
+     "Иссоп",
+     "Кедр",
+     "Пальма"
+    ],
+    "tr": [
+     "Yuhanna 19'da ıslatılmış sünger İsa'nın ağzına kaldırılırken hangi bitki kullanıldı?",
+     "Mercanköşk",
+     "Sedir",
+     "Palmiye"
+    ],
+    "ja": [
+     "ヨハネ19章で、浸した海綿をイエスの口もとに差し上げるのに用いられた植物は何ですか？",
+     "ヒソプ",
+     "杉",
+     "ヤシ"
+    ],
+    "ko": [
+     "요한 19장에서 적신 해면을 예수님의 입에 올리는 데 쓰인 식물은 무엇입니까?",
+     "우슬초",
+     "향백나무",
+     "야자나무"
+    ],
+    "ar": [
+     "في يوحنا 19، أي نبات استُخدم لرفع الإسفنجة المبللة إلى فم يسوع؟",
+     "زوفا",
+     "أرز",
+     "نخلة"
+    ]
+   }
+  },
+  {
+   "id": "ch-john-011-46",
+   "book": "john",
+   "chapter": 20,
+   "difficulty": "easy",
+   "ref": "John 20:12",
+   "text": {
+    "en": [
+     "In John 20, who sat inside Jesus' empty tomb when Mary looked in?",
+     "Angels",
+     "Soldiers",
+     "Shepherds"
+    ],
+    "es": [
+     "En Juan 20, ¿quiénes estaban sentados en el sepulcro vacío cuando María miró?",
+     "Ángeles",
+     "Soldados",
+     "Pastores"
+    ],
+    "pt": [
+     "Em João 20, quem estava sentado no sepulcro vazio quando Maria olhou?",
+     "Anjos",
+     "Soldados",
+     "Pastores"
+    ],
+    "fr": [
+     "En Jean 20, qui était assis dans le tombeau vide quand Marie regarda ?",
+     "Anges",
+     "Soldats",
+     "Bergers"
+    ],
+    "de": [
+     "In Johannes 20, wer saß im leeren Grab Jesu, als Maria hineinschaute?",
+     "Engel",
+     "Soldaten",
+     "Hirten"
+    ],
+    "it": [
+     "In Giovanni 20, chi sedeva nel sepolcro vuoto quando Maria guardò dentro?",
+     "Angeli",
+     "Soldati",
+     "Pastori"
+    ],
+    "pl": [
+     "W Ewangelii Jana 20, kto siedział w pustym grobie Jezusa, gdy zajrzała Maria?",
+     "Aniołowie",
+     "Żołnierze",
+     "Pasterze"
+    ],
+    "ru": [
+     "В Евангелии от Иоанна 20, кто сидел в пустой гробнице Иисуса, когда заглянула Мария?",
+     "Ангелы",
+     "Воины",
+     "Пастухи"
+    ],
+    "tr": [
+     "Yuhanna 20'de Meryem içeri baktığında İsa'nın boş mezarında kim oturuyordu?",
+     "Melekler",
+     "Askerler",
+     "Çobanlar"
+    ],
+    "ja": [
+     "ヨハネ20章で、マリアがのぞいたとき、イエスの空の墓に座っていたのは誰ですか？",
+     "天使",
+     "兵士",
+     "羊飼い"
+    ],
+    "ko": [
+     "요한 20장에서 마리아가 들여다보았을 때 예수님의 빈 무덤 안에 앉아 있던 이들은 누구입니까?",
+     "천사들",
+     "병사들",
+     "목자들"
+    ],
+    "ar": [
+     "في يوحنا 20، من كان جالساً في قبر يسوع الفارغ عندما نظرت مريم؟",
+     "ملائكة",
+     "جنود",
+     "رعاة"
+    ]
+   }
+  },
+  {
+   "id": "ch-john-011-47",
+   "book": "john",
+   "chapter": 20,
+   "difficulty": "medium",
+   "ref": "John 20:19",
+   "text": {
+    "en": [
+     "In John 20, what was shut where the disciples were when Jesus appeared?",
+     "Doors",
+     "Windows",
+     "Roof"
+    ],
+    "es": [
+     "En Juan 20, ¿qué estaba cerrado donde se encontraban los discípulos cuando Jesús apareció?",
+     "Puertas",
+     "Ventanas",
+     "Techo"
+    ],
+    "pt": [
+     "Em João 20, o que estava fechado onde os discípulos estavam quando Jesus apareceu?",
+     "Portas",
+     "Janelas",
+     "Telhado"
+    ],
+    "fr": [
+     "En Jean 20, qu'est-ce qui était fermé là où se trouvaient les disciples quand Jésus apparut ?",
+     "Portes",
+     "Fenêtres",
+     "Toit"
+    ],
+    "de": [
+     "In Johannes 20, was war dort verschlossen, wo die Jünger waren, als Jesus erschien?",
+     "Türen",
+     "Fenster",
+     "Dach"
+    ],
+    "it": [
+     "In Giovanni 20, che cosa era chiuso dove si trovavano i discepoli quando Gesù apparve?",
+     "Porte",
+     "Finestre",
+     "Tetto"
+    ],
+    "pl": [
+     "W Ewangelii Jana 20, co było zamknięte tam, gdzie byli uczniowie, gdy ukazał się Jezus?",
+     "Drzwi",
+     "Okna",
+     "Dach"
+    ],
+    "ru": [
+     "В Евангелии от Иоанна 20, что было заперто там, где находились ученики, когда явился Иисус?",
+     "Двери",
+     "Окна",
+     "Крыша"
+    ],
+    "tr": [
+     "Yuhanna 20'de İsa göründüğünde öğrencilerin bulunduğu yerde ne kapalıydı?",
+     "Kapılar",
+     "Pencereler",
+     "Çatı"
+    ],
+    "ja": [
+     "ヨハネ20章で、イエスが現れたとき、弟子たちのいた所で閉じられていたものは何ですか？",
+     "戸",
+     "窓",
+     "屋根"
+    ],
+    "ko": [
+     "요한 20장에서 예수님께서 나타나셨을 때 제자들이 있던 곳에서 닫혀 있던 것은 무엇입니까?",
+     "문",
+     "창문",
+     "지붕"
+    ],
+    "ar": [
+     "في يوحنا 20، ما الذي كان مغلقاً في المكان الذي كان فيه التلاميذ عندما ظهر يسوع؟",
+     "أبواب",
+     "نوافذ",
+     "سقف"
+    ]
+   }
+  },
+  {
+   "id": "ch-john-011-48",
+   "book": "john",
+   "chapter": 20,
+   "difficulty": "impossible",
+   "ref": "John 20:6",
+   "text": {
+    "en": [
+     "In John 20, who was the first disciple to enter the empty tomb?",
+     "Peter",
+     "Thomas",
+     "Andrew"
+    ],
+    "es": [
+     "En Juan 20, ¿qué discípulo fue el primero en entrar en el sepulcro vacío?",
+     "Pedro",
+     "Tomás",
+     "Andrés"
+    ],
+    "pt": [
+     "Em João 20, qual discípulo foi o primeiro a entrar no sepulcro vazio?",
+     "Pedro",
+     "Tomé",
+     "André"
+    ],
+    "fr": [
+     "En Jean 20, quel disciple entra le premier dans le tombeau vide ?",
+     "Pierre",
+     "Thomas",
+     "André"
+    ],
+    "de": [
+     "In Johannes 20, welcher Jünger betrat als Erster das leere Grab?",
+     "Petrus",
+     "Thomas",
+     "Andreas"
+    ],
+    "it": [
+     "In Giovanni 20, quale discepolo entrò per primo nel sepolcro vuoto?",
+     "Pietro",
+     "Tommaso",
+     "Andrea"
+    ],
+    "pl": [
+     "W Ewangelii Jana 20, który uczeń jako pierwszy wszedł do pustego grobu?",
+     "Piotr",
+     "Tomasz",
+     "Andrzej"
+    ],
+    "ru": [
+     "В Евангелии от Иоанна 20, какой ученик первым вошёл в пустую гробницу?",
+     "Пётр",
+     "Фома",
+     "Андрей"
+    ],
+    "tr": [
+     "Yuhanna 20'de boş mezara ilk giren öğrenci kimdi?",
+     "Petrus",
+     "Tomas",
+     "Andreas"
+    ],
+    "ja": [
+     "ヨハネ20章で、空の墓に最初に入った弟子は誰ですか？",
+     "ペトロ",
+     "トマス",
+     "アンデレ"
+    ],
+    "ko": [
+     "요한 20장에서 빈 무덤에 처음 들어간 제자는 누구입니까?",
+     "베드로",
+     "토마스",
+     "안드레아"
+    ],
+    "ar": [
+     "في يوحنا 20، من هو أول تلميذ دخل القبر الفارغ؟",
+     "بطرس",
+     "توما",
+     "أندراوس"
+    ]
+   }
+  },
+  {
+   "id": "ch-john-011-49",
+   "book": "john",
+   "chapter": 20,
+   "difficulty": "expert",
+   "ref": "John 20:21",
+   "text": {
+    "en": [
+     "In John 20, who sent Jesus, as he now sent the disciples?",
+     "Father",
+     "Spirit",
+     "Prophet"
+    ],
+    "es": [
+     "En Juan 20, ¿quién envió a Jesús, como él enviaba ahora a los discípulos?",
+     "Padre",
+     "Espíritu",
+     "Profeta"
+    ],
+    "pt": [
+     "Em João 20, quem enviou Jesus, como ele agora enviava os discípulos?",
+     "Pai",
+     "Espírito",
+     "Profeta"
+    ],
+    "fr": [
+     "En Jean 20, qui avait envoyé Jésus, comme il envoyait maintenant les disciples ?",
+     "Père",
+     "Esprit",
+     "Prophète"
+    ],
+    "de": [
+     "In Johannes 20, wer hatte Jesus gesandt, so wie er nun die Jünger sandte?",
+     "Vater",
+     "Geist",
+     "Prophet"
+    ],
+    "it": [
+     "In Giovanni 20, chi aveva mandato Gesù, come egli ora mandava i discepoli?",
+     "Padre",
+     "Spirito",
+     "Profeta"
+    ],
+    "pl": [
+     "W Ewangelii Jana 20, kto posłał Jezusa, tak jak On teraz posyła uczniów?",
+     "Ojciec",
+     "Duch",
+     "Prorok"
+    ],
+    "ru": [
+     "В Евангелии от Иоанна 20, кто послал Иисуса, как он теперь посылает учеников?",
+     "Отец",
+     "Дух",
+     "Пророк"
+    ],
+    "tr": [
+     "Yuhanna 20'de İsa şimdi öğrencilerini gönderdiği gibi onu kim göndermişti?",
+     "Baba",
+     "Ruh",
+     "Peygamber"
+    ],
+    "ja": [
+     "ヨハネ20章で、イエスが今、弟子たちを遣わすように、イエスを遣わしたのは誰ですか？",
+     "父",
+     "霊",
+     "預言者"
+    ],
+    "ko": [
+     "요한 20장에서 예수님께서 이제 제자들을 보내시듯 예수님을 보내신 분은 누구입니까?",
+     "아버지",
+     "영",
+     "예언자"
+    ],
+    "ar": [
+     "في يوحنا 20، من أرسل يسوع، كما يرسل هو الآن تلاميذه؟",
+     "آب",
+     "روح",
+     "نبي"
+    ]
+   }
+  },
+  {
+   "id": "ch-john-011-50",
+   "book": "john",
+   "chapter": 20,
+   "difficulty": "hard",
+   "ref": "John 20:12",
+   "text": {
+    "en": [
+     "In John 20, what colour were the clothes of the angels in Jesus' tomb?",
+     "White",
+     "Red",
+     "Black"
+    ],
+    "es": [
+     "En Juan 20, ¿de qué color iban vestidos los ángeles en el sepulcro de Jesús?",
+     "Blanco",
+     "Rojo",
+     "Negro"
+    ],
+    "pt": [
+     "Em João 20, de que cor estavam vestidos os anjos no sepulcro de Jesus?",
+     "Branco",
+     "Vermelho",
+     "Preto"
+    ],
+    "fr": [
+     "En Jean 20, de quelle couleur étaient les vêtements des anges dans le tombeau de Jésus ?",
+     "Blanc",
+     "Rouge",
+     "Noir"
+    ],
+    "de": [
+     "In Johannes 20, welche Farbe trugen die Engel im Grab Jesu?",
+     "Weiß",
+     "Rot",
+     "Schwarz"
+    ],
+    "it": [
+     "In Giovanni 20, di che colore erano le vesti degli angeli nel sepolcro di Gesù?",
+     "Bianco",
+     "Rosso",
+     "Nero"
+    ],
+    "pl": [
+     "W Ewangelii Jana 20, jaki kolor miały szaty aniołów w grobie Jezusa?",
+     "Biały",
+     "Czerwony",
+     "Czarny"
+    ],
+    "ru": [
+     "В Евангелии от Иоанна 20, какой цвет был у одежд ангелов в гробнице Иисуса?",
+     "Белый",
+     "Красный",
+     "Чёрный"
+    ],
+    "tr": [
+     "Yuhanna 20'de İsa'nın mezarındaki meleklerin giysileri ne renkteydi?",
+     "Beyaz",
+     "Kırmızı",
+     "Siyah"
+    ],
+    "ja": [
+     "ヨハネ20章で、イエスの墓の天使たちの衣は何色でしたか？",
+     "白",
+     "赤",
+     "黒"
+    ],
+    "ko": [
+     "요한 20장에서 예수님의 무덤에 있던 천사들의 옷은 무슨 색이었습니까?",
+     "흰색",
+     "붉은색",
+     "검은색"
+    ],
+    "ar": [
+     "في يوحنا 20، ما لون ثياب الملائكة في قبر يسوع؟",
+     "أبيض",
+     "أحمر",
+     "أسود"
+    ]
+   }
+  },
+  {
+   "id": "ch-john-011-51",
+   "book": "john",
+   "chapter": 21,
+   "difficulty": "easy",
+   "ref": "John 21:17",
+   "text": {
+    "en": [
+     "In John 21, how many times did Jesus ask Peter, do you love me?",
+     "3",
+     "2",
+     "7"
+    ],
+    "es": [
+     "En Juan 21, ¿cuántas veces preguntó Jesús a Pedro si lo amaba?",
+     "3",
+     "2",
+     "7"
+    ],
+    "pt": [
+     "Em João 21, quantas vezes Jesus perguntou a Pedro se o amava?",
+     "3",
+     "2",
+     "7"
+    ],
+    "fr": [
+     "En Jean 21, combien de fois Jésus demanda-t-il à Pierre s'il l'aimait ?",
+     "3",
+     "2",
+     "7"
+    ],
+    "de": [
+     "In Johannes 21, wie oft fragte Jesus den Petrus, ob er ihn liebe?",
+     "3",
+     "2",
+     "7"
+    ],
+    "it": [
+     "In Giovanni 21, quante volte Gesù chiese a Pietro se lo amava?",
+     "3",
+     "2",
+     "7"
+    ],
+    "pl": [
+     "W Ewangelii Jana 21, ile razy Jezus zapytał Piotra, czy go miłuje?",
+     "3",
+     "2",
+     "7"
+    ],
+    "ru": [
+     "В Евангелии от Иоанна 21, сколько раз Иисус спросил Петра, любит ли тот его?",
+     "3",
+     "2",
+     "7"
+    ],
+    "tr": [
+     "Yuhanna 21'de İsa Petrus'a kaç kez beni seviyor musun diye sordu?",
+     "3",
+     "2",
+     "7"
+    ],
+    "ja": [
+     "ヨハネ21章で、イエスはペトロに何度、私を愛しているかと尋ねましたか？",
+     "3",
+     "2",
+     "7"
+    ],
+    "ko": [
+     "요한 21장에서 예수님은 베드로에게 몇 번 당신을 사랑하느냐고 물으셨습니까?",
+     "3",
+     "2",
+     "7"
+    ],
+    "ar": [
+     "في يوحنا 21، كم مرة سأل يسوع بطرس إن كان يحبه؟",
+     "3",
+     "2",
+     "7"
+    ]
+   }
+  },
+  {
+   "id": "ch-john-011-52",
+   "book": "john",
+   "chapter": 21,
+   "difficulty": "medium",
+   "ref": "John 21:9",
+   "text": {
+    "en": [
+     "In John 21, besides fish, what food was waiting for the disciples on shore?",
+     "Bread",
+     "Honey",
+     "Cheese"
+    ],
+    "es": [
+     "En Juan 21, además del pescado, ¿qué alimento esperaba a los discípulos en la orilla?",
+     "Pan",
+     "Miel",
+     "Queso"
+    ],
+    "pt": [
+     "Em João 21, além de peixe, que alimento esperava os discípulos na margem?",
+     "Pão",
+     "Mel",
+     "Queijo"
+    ],
+    "fr": [
+     "En Jean 21, en plus du poisson, quel aliment attendait les disciples sur la rive ?",
+     "Pain",
+     "Miel",
+     "Fromage"
+    ],
+    "de": [
+     "In Johannes 21, welche Speise erwartete die Jünger außer Fisch am Ufer?",
+     "Brot",
+     "Honig",
+     "Käse"
+    ],
+    "it": [
+     "In Giovanni 21, oltre al pesce, quale cibo attendeva i discepoli sulla riva?",
+     "Pane",
+     "Miele",
+     "Formaggio"
+    ],
+    "pl": [
+     "W Ewangelii Jana 21, jakie jedzenie, oprócz ryby, czekało na uczniów na brzegu?",
+     "Chleb",
+     "Miód",
+     "Ser"
+    ],
+    "ru": [
+     "В Евангелии от Иоанна 21, какая еда, кроме рыбы, ждала учеников на берегу?",
+     "Хлеб",
+     "Мёд",
+     "Сыр"
+    ],
+    "tr": [
+     "Yuhanna 21'de kıyıda öğrencileri bekleyen, balıktan başka yiyecek neydi?",
+     "Ekmek",
+     "Bal",
+     "Peynir"
+    ],
+    "ja": [
+     "ヨハネ21章で、岸辺で弟子たちを待っていた、魚のほかの食べ物は何ですか？",
+     "パン",
+     "蜂蜜",
+     "チーズ"
+    ],
+    "ko": [
+     "요한 21장에서 물고기 외에 호숫가에서 제자들을 기다리던 음식은 무엇입니까?",
+     "빵",
+     "꿀",
+     "치즈"
+    ],
+    "ar": [
+     "في يوحنا 21، ما الطعام الذي كان ينتظر التلاميذ على الشاطئ إلى جانب السمك؟",
+     "خبز",
+     "عسل",
+     "جبن"
+    ]
+   }
+  },
+  {
+   "id": "ch-john-011-53",
+   "book": "john",
+   "chapter": 21,
+   "difficulty": "hard",
+   "ref": "John 21:2",
+   "text": {
+    "en": [
+     "In John 21, which disciple at the lake was from Cana in Galilee?",
+     "Nathanael",
+     "Philip",
+     "Andrew"
+    ],
+    "es": [
+     "En Juan 21, ¿qué discípulo junto al lago era de Caná de Galilea?",
+     "Natanael",
+     "Felipe",
+     "Andrés"
+    ],
+    "pt": [
+     "Em João 21, qual discípulo junto ao lago era de Caná da Galileia?",
+     "Natanael",
+     "Filipe",
+     "André"
+    ],
+    "fr": [
+     "En Jean 21, quel disciple au bord du lac était de Cana de Galilée ?",
+     "Nathanaël",
+     "Philippe",
+     "André"
+    ],
+    "de": [
+     "In Johannes 21, welcher Jünger am See stammte aus Kana in Galiläa?",
+     "Natanaël",
+     "Philippus",
+     "Andreas"
+    ],
+    "it": [
+     "In Giovanni 21, quale discepolo presso il lago era di Cana di Galilea?",
+     "Natanaele",
+     "Filippo",
+     "Andrea"
+    ],
+    "pl": [
+     "W Ewangelii Jana 21, który uczeń nad jeziorem pochodził z Kany Galilejskiej?",
+     "Natanael",
+     "Filip",
+     "Andrzej"
+    ],
+    "ru": [
+     "В Евангелии от Иоанна 21, кто из учеников у озера был из Каны Галилейской?",
+     "Нафанаил",
+     "Филипп",
+     "Андрей"
+    ],
+    "tr": [
+     "Yuhanna 21'de gölde bulunan öğrencilerden hangisi Celile'deki Kana'dandı?",
+     "Natanel",
+     "Filipus",
+     "Andreas"
+    ],
+    "ja": [
+     "ヨハネ21章で、湖畔にいた弟子のうち、ガリラヤのカナ出身なのは誰ですか？",
+     "ナタナエル",
+     "フィリポ",
+     "アンデレ"
+    ],
+    "ko": [
+     "요한 21장에서 호숫가에 있던 제자 중 갈릴래아 카나 출신은 누구입니까?",
+     "나타나엘",
+     "필립보",
+     "안드레아"
+    ],
+    "ar": [
+     "في يوحنا 21، أي تلميذ عند البحيرة كان من قانا الجليل؟",
+     "نثنائيل",
+     "فيلبس",
+     "أندراوس"
+    ]
+   }
+  },
+  {
+   "id": "ch-john-011-54",
+   "book": "john",
+   "chapter": 21,
+   "difficulty": "expert",
+   "ref": "John 21:25",
+   "text": {
+    "en": [
+     "In John 21, what would the world not hold if Jesus' deeds were written?",
+     "Books",
+     "Cities",
+     "Fields"
+    ],
+    "es": [
+     "En Juan 21, ¿qué no cabría en el mundo si se escribieran las obras de Jesús?",
+     "Libros",
+     "Ciudades",
+     "Campos"
+    ],
+    "pt": [
+     "Em João 21, o que não caberia no mundo se as obras de Jesus fossem escritas?",
+     "Livros",
+     "Cidades",
+     "Campos"
+    ],
+    "fr": [
+     "En Jean 21, que ne tiendrait pas dans le monde si l'on écrivait les actes de Jésus ?",
+     "Livres",
+     "Villes",
+     "Champs"
+    ],
+    "de": [
+     "In Johannes 21, was fände in der Welt keinen Platz, wenn Jesu Taten aufgeschrieben würden?",
+     "Bücher",
+     "Städte",
+     "Felder"
+    ],
+    "it": [
+     "In Giovanni 21, che cosa non starebbe nel mondo se si scrivessero le opere di Gesù?",
+     "Libri",
+     "Città",
+     "Campi"
+    ],
+    "pl": [
+     "W Ewangelii Jana 21, co nie zmieściłoby się w świecie, gdyby spisano czyny Jezusa?",
+     "Księgi",
+     "Miasta",
+     "Pola"
+    ],
+    "ru": [
+     "В Евангелии от Иоанна 21, что не поместилось бы в мире, если бы записали дела Иисуса?",
+     "Книги",
+     "Города",
+     "Поля"
+    ],
+    "tr": [
+     "Yuhanna 21'de İsa'nın yaptıkları yazılsaydı dünyaya ne sığmazdı?",
+     "Kitaplar",
+     "Kentler",
+     "Tarlalar"
+    ],
+    "ja": [
+     "ヨハネ21章で、イエスの行いが書かれたなら、世界に収まりきらないのは何ですか？",
+     "書物",
+     "町",
+     "畑"
+    ],
+    "ko": [
+     "요한 21장에서 예수님의 행적을 다 기록한다면 세상이 담을 수 없는 것은 무엇입니까?",
+     "책",
+     "도시",
+     "밭"
+    ],
+    "ar": [
+     "في يوحنا 21، ما الذي لا يتسع له العالم لو كُتبت أعمال يسوع؟",
+     "كتب",
+     "مدن",
+     "حقول"
+    ]
+   }
+  },
+  {
+   "id": "ch-john-011-55",
+   "book": "john",
+   "chapter": 21,
+   "difficulty": "impossible",
+   "ref": "John 21:2",
+   "text": {
+    "en": [
+     "In John 21, who was the father of two disciples fishing with Peter?",
+     "Zebedee",
+     "Alphaeus",
+     "Jonah"
+    ],
+    "es": [
+     "En Juan 21, ¿quién era el padre de dos discípulos que pescaban con Pedro?",
+     "Zebedeo",
+     "Alfeo",
+     "Jonás"
+    ],
+    "pt": [
+     "Em João 21, quem era o pai de dois discípulos que pescavam com Pedro?",
+     "Zebedeu",
+     "Alfeu",
+     "Jonas"
+    ],
+    "fr": [
+     "En Jean 21, qui était le père de deux disciples pêchant avec Pierre ?",
+     "Zébédée",
+     "Alphée",
+     "Jonas"
+    ],
+    "de": [
+     "In Johannes 21, wer war der Vater von zwei Jüngern, die mit Petrus fischten?",
+     "Zebedäus",
+     "Alphäus",
+     "Jona"
+    ],
+    "it": [
+     "In Giovanni 21, chi era il padre di due discepoli che pescavano con Pietro?",
+     "Zebedeo",
+     "Alfeo",
+     "Giona"
+    ],
+    "pl": [
+     "W Ewangelii Jana 21, kto był ojcem dwóch uczniów łowiących ryby z Piotrem?",
+     "Zebedeusz",
+     "Alfeusz",
+     "Jonasz"
+    ],
+    "ru": [
+     "В Евангелии от Иоанна 21, кто был отцом двух учеников, ловивших рыбу с Петром?",
+     "Зеведей",
+     "Алфей",
+     "Иона"
+    ],
+    "tr": [
+     "Yuhanna 21'de Petrus'la balık tutan iki öğrencinin babası kimdi?",
+     "Zebedi",
+     "Alfay",
+     "Yunus"
+    ],
+    "ja": [
+     "ヨハネ21章で、ペトロと一緒に漁をしていた二人の弟子の父は誰ですか？",
+     "ゼベダイ",
+     "アルファイ",
+     "ヨナ"
+    ],
+    "ko": [
+     "요한 21장에서 베드로와 함께 고기를 잡던 두 제자의 아버지는 누구입니까?",
+     "제베대오",
+     "알패오",
+     "요나"
+    ],
+    "ar": [
+     "في يوحنا 21، من كان أبو التلميذين اللذين صادا السمك مع بطرس؟",
+     "زبدي",
+     "حلفى",
+     "يونان"
+    ]
+   }
+  }
+ ]
+}
