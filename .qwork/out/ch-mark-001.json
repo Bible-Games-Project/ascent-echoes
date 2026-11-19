@@ -1,0 +1,6484 @@
+{
+ "questions": [
+  {
+   "id": "ch-mark-001-01",
+   "book": "mark",
+   "chapter": 1,
+   "difficulty": "easy",
+   "ref": "Mark 1:9",
+   "text": {
+    "en": [
+     "In Mark 1, who baptized Jesus in the Jordan?",
+     "John",
+     "Peter",
+     "Andrew"
+    ],
+    "es": [
+     "Marcos 1: ¿Quién bautizó a Jesús en el Jordán?",
+     "Juan",
+     "Pedro",
+     "Andrés"
+    ],
+    "pt": [
+     "Em Marcos 1, quem batizou Jesus no Jordão?",
+     "João",
+     "Pedro",
+     "André"
+    ],
+    "fr": [
+     "Dans Marc 1, qui baptisa Jésus dans le Jourdain ?",
+     "Jean",
+     "Pierre",
+     "André"
+    ],
+    "de": [
+     "Markus 1: Wer taufte Jesus im Jordan?",
+     "Johannes",
+     "Petrus",
+     "Andreas"
+    ],
+    "it": [
+     "In Marco 1, chi battezzò Gesù nel Giordano?",
+     "Giovanni",
+     "Pietro",
+     "Andrea"
+    ],
+    "pl": [
+     "W Ewangelii Marka 1: kto ochrzcił Jezusa w Jordanie?",
+     "Jan",
+     "Piotr",
+     "Andrzej"
+    ],
+    "ru": [
+     "Марк 1: Кто крестил Иисуса в Иордане?",
+     "Иоанн",
+     "Пётр",
+     "Андрей"
+    ],
+    "tr": [
+     "Markos 1'de, İsa'yı Şeria'da kim vaftiz etti?",
+     "Yahya",
+     "Petrus",
+     "Andreas"
+    ],
+    "ja": [
+     "マルコ1章で、ヨルダン川でイエスに洗礼を授けたのは誰ですか？",
+     "ヨハネ",
+     "ペトロ",
+     "アンデレ"
+    ],
+    "ko": [
+     "마르코 1장에서 요르단 강에서 예수님께 세례를 준 사람은 누구입니까?",
+     "요한",
+     "베드로",
+     "안드레아"
+    ],
+    "ar": [
+     "في مرقس 1، من عمّد يسوع في نهر الأردن؟",
+     "يوحنا",
+     "بطرس",
+     "أندراوس"
+    ]
+   }
+  },
+  {
+   "id": "ch-mark-001-02",
+   "book": "mark",
+   "chapter": 1,
+   "difficulty": "medium",
+   "ref": "Mark 1:6",
+   "text": {
+    "en": [
+     "In Mark 1, besides wild honey, what was John the Baptist's food?",
+     "Locusts",
+     "Fish",
+     "Bread"
+    ],
+    "es": [
+     "Marcos 1: ¿Qué comía Juan el Bautista, además de miel silvestre?",
+     "Langostas",
+     "Pescado",
+     "Pan"
+    ],
+    "pt": [
+     "Em Marcos 1, além de mel silvestre, o que João Batista comia?",
+     "Gafanhotos",
+     "Peixe",
+     "Pão"
+    ],
+    "fr": [
+     "Dans Marc 1, que mangeait Jean le Baptiste en plus du miel sauvage ?",
+     "Sauterelles",
+     "Poisson",
+     "Pain"
+    ],
+    "de": [
+     "Markus 1: Was aß Johannes der Täufer außer wildem Honig?",
+     "Heuschrecken",
+     "Fisch",
+     "Brot"
+    ],
+    "it": [
+     "In Marco 1, oltre al miele selvatico, che cosa mangiava Giovanni il Battista?",
+     "Cavallette",
+     "Pesce",
+     "Pane"
+    ],
+    "pl": [
+     "W Ewangelii Marka 1: co oprócz miodu było pokarmem Jana Chrzciciela?",
+     "Szarańcza",
+     "Ryba",
+     "Chleb"
+    ],
+    "ru": [
+     "Марк 1: Что, кроме дикого мёда, было пищей Иоанна Крестителя?",
+     "Саранча",
+     "Рыба",
+     "Хлеб"
+    ],
+    "tr": [
+     "Markos 1'de, Vaftizci Yahya yabani baldan başka ne yerdi?",
+     "Çekirge",
+     "Balık",
+     "Ekmek"
+    ],
+    "ja": [
+     "マルコ1章で、洗礼者ヨハネは野蜜のほかに何を食べていましたか？",
+     "イナゴ",
+     "魚",
+     "パン"
+    ],
+    "ko": [
+     "마르코 1장에서 세례자 요한은 석청 말고 무엇을 먹었습니까?",
+     "메뚜기",
+     "물고기",
+     "빵"
+    ],
+    "ar": [
+     "في مرقس 1، ماذا أكل يوحنا المعمدان غير العسل البري؟",
+     "جراد",
+     "سمك",
+     "خبز"
+    ]
+   }
+  },
+  {
+   "id": "ch-mark-001-03",
+   "book": "mark",
+   "chapter": 1,
+   "difficulty": "hard",
+   "ref": "Mark 1:44",
+   "text": {
+    "en": [
+     "In Mark 1, who was to examine the leper Jesus had healed?",
+     "Priest",
+     "Pharisee",
+     "Governor"
+    ],
+    "es": [
+     "Marcos 1: ¿Quién debía examinar al leproso que Jesús sanó?",
+     "Sacerdote",
+     "Fariseo",
+     "Gobernador"
+    ],
+    "pt": [
+     "Em Marcos 1, quem devia examinar o leproso que Jesus curou?",
+     "Sacerdote",
+     "Fariseu",
+     "Governador"
+    ],
+    "fr": [
+     "Dans Marc 1, qui devait examiner le lépreux que Jésus avait guéri ?",
+     "Prêtre",
+     "Pharisien",
+     "Gouverneur"
+    ],
+    "de": [
+     "Markus 1: Wer sollte den von Jesus geheilten Aussätzigen untersuchen?",
+     "Priester",
+     "Pharisäer",
+     "Statthalter"
+    ],
+    "it": [
+     "In Marco 1, chi doveva esaminare il lebbroso guarito da Gesù?",
+     "Sacerdote",
+     "Fariseo",
+     "Governatore"
+    ],
+    "pl": [
+     "W Ewangelii Marka 1: kto miał obejrzeć trędowatego uzdrowionego przez Jezusa?",
+     "Kapłan",
+     "Faryzeusz",
+     "Namiestnik"
+    ],
+    "ru": [
+     "Марк 1: Кто должен был осмотреть прокажённого, исцелённого Иисусом?",
+     "Священник",
+     "Фарисей",
+     "Наместник"
+    ],
+    "tr": [
+     "Markos 1'de, İsa'nın iyileştirdiği cüzamlıyı kim muayene edecekti?",
+     "Kâhin",
+     "Ferisi",
+     "Vali"
+    ],
+    "ja": [
+     "マルコ1章で、イエスにいやされた重い皮膚病の人を調べるのは誰ですか？",
+     "祭司",
+     "ファリサイ人",
+     "総督"
+    ],
+    "ko": [
+     "마르코 1장에서 예수님께 고침받은 나병 환자를 살펴볼 사람은 누구입니까?",
+     "사제",
+     "바리사이",
+     "총독"
+    ],
+    "ar": [
+     "في مرقس 1، من كان عليه أن يفحص الأبرص الذي شفاه يسوع؟",
+     "كاهن",
+     "فريسي",
+     "والي"
+    ]
+   }
+  },
+  {
+   "id": "ch-mark-001-04",
+   "book": "mark",
+   "chapter": 1,
+   "difficulty": "expert",
+   "ref": "Mark 1:19-20",
+   "text": {
+    "en": [
+     "In Mark 1, who was the father of the apostles James and John?",
+     "Zebedee",
+     "Alphaeus",
+     "Jairus"
+    ],
+    "es": [
+     "Marcos 1: ¿Quién era el padre de los apóstoles Santiago y Juan?",
+     "Zebedeo",
+     "Alfeo",
+     "Jairo"
+    ],
+    "pt": [
+     "Em Marcos 1, quem era o pai dos apóstolos Tiago e João?",
+     "Zebedeu",
+     "Alfeu",
+     "Jairo"
+    ],
+    "fr": [
+     "Dans Marc 1, qui était le père des apôtres Jacques et Jean ?",
+     "Zébédée",
+     "Alphée",
+     "Jaïre"
+    ],
+    "de": [
+     "Markus 1: Wer war der Vater der Apostel Jakobus und Johannes?",
+     "Zebedäus",
+     "Alphäus",
+     "Jaïrus"
+    ],
+    "it": [
+     "In Marco 1, chi era il padre degli apostoli Giacomo e Giovanni?",
+     "Zebedeo",
+     "Alfeo",
+     "Giàiro"
+    ],
+    "pl": [
+     "W Ewangelii Marka 1: kto był ojcem apostołów Jakuba i Jana?",
+     "Zebedeusz",
+     "Alfeusz",
+     "Jair"
+    ],
+    "ru": [
+     "Марк 1: Кто был отцом апостолов Иакова и Иоанна?",
+     "Зеведей",
+     "Алфей",
+     "Иаир"
+    ],
+    "tr": [
+     "Markos 1'de, Yakup ile Yuhanna'nın babası kimdi?",
+     "Zebedi",
+     "Alfay",
+     "Yair"
+    ],
+    "ja": [
+     "マルコ1章で、使徒ヤコブとヨハネの父は誰ですか？",
+     "ゼベダイ",
+     "アルファイ",
+     "ヤイロ"
+    ],
+    "ko": [
+     "마르코 1장에서 사도 야고보와 요한의 아버지는 누구입니까?",
+     "즈브대오",
+     "알패오",
+     "야이로"
+    ],
+    "ar": [
+     "في مرقس 1، من كان أبا الرسولين يعقوب ويوحنا؟",
+     "زبدي",
+     "حلفى",
+     "يايرس"
+    ]
+   }
+  },
+  {
+   "id": "ch-mark-001-05",
+   "book": "mark",
+   "chapter": 1,
+   "difficulty": "impossible",
+   "ref": "Mark 1:6",
+   "text": {
+    "en": [
+     "In Mark 1, John the Baptist's belt was made of which material?",
+     "Leather",
+     "Rope",
+     "Linen"
+    ],
+    "es": [
+     "Marcos 1: ¿De qué material era el cinturón de Juan el Bautista?",
+     "Cuero",
+     "Cuerda",
+     "Lino"
+    ],
+    "pt": [
+     "Em Marcos 1, de que material era o cinto de João Batista?",
+     "Couro",
+     "Corda",
+     "Linho"
+    ],
+    "fr": [
+     "Dans Marc 1, en quelle matière était la ceinture de Jean le Baptiste ?",
+     "Cuir",
+     "Corde",
+     "Lin"
+    ],
+    "de": [
+     "Markus 1: Woraus war der Gürtel von Johannes dem Täufer?",
+     "Leder",
+     "Seil",
+     "Leinen"
+    ],
+    "it": [
+     "In Marco 1, di quale materiale era la cintura di Giovanni il Battista?",
+     "Cuoio",
+     "Corda",
+     "Lino"
+    ],
+    "pl": [
+     "W Ewangelii Marka 1: jaki materiał posłużył do wykonania pasa Jana Chrzciciela?",
+     "Skóra",
+     "Sznur",
+     "Len"
+    ],
+    "ru": [
+     "Марк 1: Какой материал был у пояса Иоанна Крестителя?",
+     "Кожа",
+     "Верёвка",
+     "Лён"
+    ],
+    "tr": [
+     "Markos 1'de, Vaftizci Yahya'nın kemeri neyden yapılmıştı?",
+     "Deri",
+     "İp",
+     "Keten"
+    ],
+    "ja": [
+     "マルコ1章で、洗礼者ヨハネの帯は何でできていましたか？",
+     "革",
+     "縄",
+     "亜麻布"
+    ],
+    "ko": [
+     "마르코 1장에서 세례자 요한의 허리띠는 무엇으로 만들어졌습니까?",
+     "가죽",
+     "밧줄",
+     "아마포"
+    ],
+    "ar": [
+     "في مرقس 1، من أي مادة كان حزام يوحنا المعمدان؟",
+     "جلد",
+     "حبل",
+     "كتان"
+    ]
+   }
+  },
+  {
+   "id": "ch-mark-001-06",
+   "book": "mark",
+   "chapter": 2,
+   "difficulty": "easy",
+   "ref": "Mark 2:17",
+   "text": {
+    "en": [
+     "In Mark 2, who need a physician, according to Jesus?",
+     "Sick",
+     "Rich",
+     "Young"
+    ],
+    "es": [
+     "Marcos 2: Según Jesús, ¿quiénes necesitan médico?",
+     "Enfermos",
+     "Ricos",
+     "Jóvenes"
+    ],
+    "pt": [
+     "Em Marcos 2, segundo Jesus, quem precisa de médico?",
+     "Doentes",
+     "Ricos",
+     "Jovens"
+    ],
+    "fr": [
+     "Dans Marc 2, selon Jésus, qui a besoin d'un médecin ?",
+     "Malades",
+     "Riches",
+     "Jeunes"
+    ],
+    "de": [
+     "Markus 2: Wer braucht laut Jesus einen Arzt?",
+     "Kranke",
+     "Reiche",
+     "Junge"
+    ],
+    "it": [
+     "In Marco 2, secondo Gesù, chi ha bisogno del medico?",
+     "Malati",
+     "Ricchi",
+     "Giovani"
+    ],
+    "pl": [
+     "W Ewangelii Marka 2: kto według Jezusa potrzebuje lekarza?",
+     "Chorzy",
+     "Bogaci",
+     "Młodzi"
+    ],
+    "ru": [
+     "Марк 2: Кто, по словам Иисуса, нуждается во враче?",
+     "Больные",
+     "Богатые",
+     "Молодые"
+    ],
+    "tr": [
+     "Markos 2'de, İsa'ya göre kimin doktora ihtiyacı vardır?",
+     "Hastalar",
+     "Zenginler",
+     "Gençler"
+    ],
+    "ja": [
+     "マルコ2章で、イエスによれば、医者を必要とするのは誰ですか？",
+     "病人",
+     "金持ち",
+     "若者"
+    ],
+    "ko": [
+     "마르코 2장에서 예수님에 따르면 의사가 필요한 사람은 누구입니까?",
+     "병자",
+     "부자",
+     "젊은이"
+    ],
+    "ar": [
+     "في مرقس 2، بحسب يسوع، من يحتاج إلى طبيب؟",
+     "مرضى",
+     "أغنياء",
+     "شباب"
+    ]
+   }
+  },
+  {
+   "id": "ch-mark-001-07",
+   "book": "mark",
+   "chapter": 2,
+   "difficulty": "medium",
+   "ref": "Mark 2:19",
+   "text": {
+    "en": [
+     "In Mark 2, Jesus explains why his disciples do not fast using which event?",
+     "Wedding",
+     "Funeral",
+     "Harvest"
+    ],
+    "es": [
+     "Marcos 2: ¿Con qué evento explica Jesús que sus discípulos no ayunan?",
+     "Boda",
+     "Funeral",
+     "Cosecha"
+    ],
+    "pt": [
+     "Em Marcos 2, com que evento Jesus explica que os discípulos não jejuam?",
+     "Casamento",
+     "Funeral",
+     "Colheita"
+    ],
+    "fr": [
+     "Dans Marc 2, par quel événement Jésus explique-t-il que ses disciples ne jeûnent pas ?",
+     "Noces",
+     "Funérailles",
+     "Moisson"
+    ],
+    "de": [
+     "Markus 2: Mit welchem Ereignis erklärt Jesus, warum seine Jünger nicht fasten?",
+     "Hochzeit",
+     "Beerdigung",
+     "Ernte"
+    ],
+    "it": [
+     "In Marco 2, con quale evento Gesù spiega perché i discepoli non digiunano?",
+     "Nozze",
+     "Funerale",
+     "Raccolto"
+    ],
+    "pl": [
+     "W Ewangelii Marka 2: jakie wydarzenie wskazuje Jezus, tłumacząc brak postu uczniów?",
+     "Wesele",
+     "Pogrzeb",
+     "Żniwa"
+    ],
+    "ru": [
+     "Марк 2: Какое событие, по словам Иисуса, объясняет, почему ученики не постятся?",
+     "Свадьба",
+     "Похороны",
+     "Жатва"
+    ],
+    "tr": [
+     "Markos 2'de, İsa öğrencilerinin neden oruç tutmadığını hangi olayla açıklar?",
+     "Düğün",
+     "Cenaze",
+     "Hasat"
+    ],
+    "ja": [
+     "マルコ2章で、イエスは弟子が断食しない理由をどの出来事で説明しますか？",
+     "婚礼",
+     "葬儀",
+     "収穫"
+    ],
+    "ko": [
+     "마르코 2장에서 예수님은 제자들이 단식하지 않는 이유를 어떤 행사로 설명하십니까?",
+     "혼인잔치",
+     "장례식",
+     "추수"
+    ],
+    "ar": [
+     "في مرقس 2، بأي مناسبة يفسر يسوع عدم صوم تلاميذه؟",
+     "عرس",
+     "جنازة",
+     "حصاد"
+    ]
+   }
+  },
+  {
+   "id": "ch-mark-001-08",
+   "book": "mark",
+   "chapter": 2,
+   "difficulty": "hard",
+   "ref": "Mark 2:22",
+   "text": {
+    "en": [
+     "In Mark 2, Jesus says new wine bursts which containers?",
+     "Wineskins",
+     "Baskets",
+     "Cups"
+    ],
+    "es": [
+     "Marcos 2: ¿Qué recipientes revienta el vino nuevo, según Jesús?",
+     "Odres",
+     "Cestas",
+     "Copas"
+    ],
+    "pt": [
+     "Em Marcos 2, que recipientes o vinho novo arrebenta, segundo Jesus?",
+     "Odres",
+     "Cestos",
+     "Copos"
+    ],
+    "fr": [
+     "Dans Marc 2, quels récipients le vin nouveau fait-il éclater, selon Jésus ?",
+     "Outres",
+     "Paniers",
+     "Coupes"
+    ],
+    "de": [
+     "Markus 2: Was lässt neuer Wein nach Jesu Worten platzen?",
+     "Weinschläuche",
+     "Körbe",
+     "Becher"
+    ],
+    "it": [
+     "In Marco 2, quali recipienti fa scoppiare il vino nuovo, secondo Gesù?",
+     "Otri",
+     "Ceste",
+     "Coppe"
+    ],
+    "pl": [
+     "W Ewangelii Marka 2: jakie naczynia rozsadza młode wino według Jezusa?",
+     "Bukłaki",
+     "Kosze",
+     "Kielichy"
+    ],
+    "ru": [
+     "Марк 2: Какие сосуды разрывает молодое вино, по словам Иисуса?",
+     "Мехи",
+     "Корзины",
+     "Чаши"
+    ],
+    "tr": [
+     "Markos 2'de, İsa'ya göre yeni şarap hangi kapları patlatır?",
+     "Tulumlar",
+     "Sepetler",
+     "Kadehler"
+    ],
+    "ja": [
+     "マルコ2章で、イエスによれば新しいぶどう酒は何を張り裂けさせますか？",
+     "革袋",
+     "籠",
+     "杯"
+    ],
+    "ko": [
+     "마르코 2장에서 예수님에 따르면 새 포도주는 무엇을 터뜨립니까?",
+     "부대",
+     "바구니",
+     "잔"
+    ],
+    "ar": [
+     "في مرقس 2، ما الأوعية التي يشقها الخمر الجديد بحسب يسوع؟",
+     "زقاق",
+     "سلال",
+     "كؤوس"
+    ]
+   }
+  },
+  {
+   "id": "ch-mark-001-09",
+   "book": "mark",
+   "chapter": 2,
+   "difficulty": "expert",
+   "ref": "Mark 2:1",
+   "text": {
+    "en": [
+     "In Mark 2, which town was the setting of the paralytic's healing?",
+     "Capernaum",
+     "Jericho",
+     "Nazareth"
+    ],
+    "es": [
+     "Marcos 2: ¿En qué pueblo se sitúa la curación del paralítico?",
+     "Cafarnaún",
+     "Jericó",
+     "Nazaret"
+    ],
+    "pt": [
+     "Em Marcos 2, em que cidade ocorre a cura do paralítico?",
+     "Cafarnaum",
+     "Jericó",
+     "Nazaré"
+    ],
+    "fr": [
+     "Dans Marc 2, dans quelle ville a lieu la guérison du paralysé ?",
+     "Capharnaüm",
+     "Jéricho",
+     "Nazareth"
+    ],
+    "de": [
+     "Markus 2: In welcher Stadt geschieht die Heilung des Gelähmten?",
+     "Kafarnaum",
+     "Jericho",
+     "Nazaret"
+    ],
+    "it": [
+     "In Marco 2, in quale città avviene la guarigione del paralitico?",
+     "Cafàrnao",
+     "Gerico",
+     "Nazaret"
+    ],
+    "pl": [
+     "W Ewangelii Marka 2: które miasto było miejscem uzdrowienia paralityka?",
+     "Kafarnaum",
+     "Jerycho",
+     "Nazaret"
+    ],
+    "ru": [
+     "Марк 2: В каком городе исцелён расслабленный?",
+     "Капернаум",
+     "Иерихон",
+     "Назарет"
+    ],
+    "tr": [
+     "Markos 2'de, felçli adamın iyileştirilmesi hangi kentte gerçekleşir?",
+     "Kefernahum",
+     "Eriha",
+     "Nasıra"
+    ],
+    "ja": [
+     "マルコ2章で、中風の人がいやされたのはどの町ですか？",
+     "カファルナウム",
+     "エリコ",
+     "ナザレ"
+    ],
+    "ko": [
+     "마르코 2장에서 중풍 병자가 치유된 곳은 어느 고을입니까?",
+     "카파르나움",
+     "여리고",
+     "나자렛"
+    ],
+    "ar": [
+     "في مرقس 2، في أي مدينة شُفي المفلوج؟",
+     "كفرناحوم",
+     "أريحا",
+     "الناصرة"
+    ]
+   }
+  },
+  {
+   "id": "ch-mark-001-10",
+   "book": "mark",
+   "chapter": 2,
+   "difficulty": "impossible",
+   "ref": "Mark 2:26",
+   "text": {
+    "en": [
+     "In Mark 2, who was high priest when David ate the offering bread?",
+     "Abiathar",
+     "Eli",
+     "Zadok"
+    ],
+    "es": [
+     "Marcos 2: ¿Quién era sumo sacerdote cuando David comió los panes de la ofrenda?",
+     "Abiatar",
+     "Elí",
+     "Sadoc"
+    ],
+    "pt": [
+     "Em Marcos 2, quem era sumo sacerdote quando Davi comeu os pães da oferenda?",
+     "Abiatar",
+     "Eli",
+     "Sadoc"
+    ],
+    "fr": [
+     "Dans Marc 2, qui était grand prêtre quand David mangea les pains d'offrande ?",
+     "Abiatar",
+     "Éli",
+     "Sadoq"
+    ],
+    "de": [
+     "Markus 2: Wer war Hoherpriester, als David die Schaubrote aß?",
+     "Abjatar",
+     "Eli",
+     "Zadok"
+    ],
+    "it": [
+     "In Marco 2, chi era sommo sacerdote quando Davide mangiò i pani dell'offerta?",
+     "Abiatàr",
+     "Eli",
+     "Sadoc"
+    ],
+    "pl": [
+     "W Ewangelii Marka 2: kto był arcykapłanem, gdy Dawid jadł chleby pokładne?",
+     "Abiatar",
+     "Heli",
+     "Sadok"
+    ],
+    "ru": [
+     "Марк 2: Кто был первосвященником, когда Давид ел хлебы предложения?",
+     "Авиафар",
+     "Илий",
+     "Садок"
+    ],
+    "tr": [
+     "Markos 2'de, Davut adak ekmeklerini yediğinde başkâhin kimdi?",
+     "Evyatar",
+     "Eli",
+     "Sadok"
+    ],
+    "ja": [
+     "マルコ2章で、ダビデが供えのパンを食べたとき大祭司は誰でしたか？",
+     "アビアタル",
+     "エリ",
+     "ツァドク"
+    ],
+    "ko": [
+     "마르코 2장에서 다윗이 제사 빵을 먹을 때 대사제는 누구였습니까?",
+     "아비아타르",
+     "엘리",
+     "차독"
+    ],
+    "ar": [
+     "في مرقس 2، من كان رئيس الكهنة حين أكل داود خبز التقدمة؟",
+     "أبياثار",
+     "عالي",
+     "صادوق"
+    ]
+   }
+  },
+  {
+   "id": "ch-mark-001-11",
+   "book": "mark",
+   "chapter": 3,
+   "difficulty": "easy",
+   "ref": "Mark 3:14",
+   "text": {
+    "en": [
+     "In Mark 3, how many apostles did Jesus appoint?",
+     "12",
+     "7",
+     "70"
+    ],
+    "es": [
+     "Marcos 3: ¿Cuántos apóstoles designó Jesús?",
+     "12",
+     "7",
+     "70"
+    ],
+    "pt": [
+     "Em Marcos 3, quantos apóstolos Jesus designou?",
+     "12",
+     "7",
+     "70"
+    ],
+    "fr": [
+     "Dans Marc 3, combien d'apôtres Jésus établit-il ?",
+     "12",
+     "7",
+     "70"
+    ],
+    "de": [
+     "Markus 3: Wie viele Apostel bestimmte Jesus?",
+     "12",
+     "7",
+     "70"
+    ],
+    "it": [
+     "In Marco 3, quanti apostoli costituì Gesù?",
+     "12",
+     "7",
+     "70"
+    ],
+    "pl": [
+     "W Ewangelii Marka 3: ilu apostołów ustanowił Jezus?",
+     "12",
+     "7",
+     "70"
+    ],
+    "ru": [
+     "Марк 3: Сколько апостолов избрал Иисус?",
+     "12",
+     "7",
+     "70"
+    ],
+    "tr": [
+     "Markos 3'te, İsa kaç elçi atadı?",
+     "12",
+     "7",
+     "70"
+    ],
+    "ja": [
+     "マルコ3章で、イエスは何人の使徒を任命しましたか？",
+     "12",
+     "7",
+     "70"
+    ],
+    "ko": [
+     "마르코 3장에서 예수님은 몇 명의 사도를 세우셨습니까?",
+     "12",
+     "7",
+     "70"
+    ],
+    "ar": [
+     "في مرقس 3، كم رسولا اختار يسوع؟",
+     "12",
+     "7",
+     "70"
+    ]
+   }
+  },
+  {
+   "id": "ch-mark-001-12",
+   "book": "mark",
+   "chapter": 3,
+   "difficulty": "medium",
+   "ref": "Mark 3:19",
+   "text": {
+    "en": [
+     "In Mark 3, which apostle is the one who handed Jesus over?",
+     "Judas",
+     "Thomas",
+     "Philip"
+    ],
+    "es": [
+     "Marcos 3: ¿Qué apóstol fue el que entregó a Jesús?",
+     "Judas",
+     "Tomás",
+     "Felipe"
+    ],
+    "pt": [
+     "Em Marcos 3, qual apóstolo foi o que entregou Jesus?",
+     "Judas",
+     "Tomé",
+     "Filipe"
+    ],
+    "fr": [
+     "Dans Marc 3, quel apôtre est celui qui livra Jésus ?",
+     "Judas",
+     "Thomas",
+     "Philippe"
+    ],
+    "de": [
+     "Markus 3: Welcher Apostel ist es, der Jesus auslieferte?",
+     "Judas",
+     "Thomas",
+     "Philippus"
+    ],
+    "it": [
+     "In Marco 3, quale apostolo è colui che consegnò Gesù?",
+     "Giuda",
+     "Tommaso",
+     "Filippo"
+    ],
+    "pl": [
+     "W Ewangelii Marka 3: który apostoł wydał Jezusa?",
+     "Judasz",
+     "Tomasz",
+     "Filip"
+    ],
+    "ru": [
+     "Марк 3: Какой апостол предал Иисуса?",
+     "Иуда",
+     "Фома",
+     "Филипп"
+    ],
+    "tr": [
+     "Markos 3'te, hangi elçi İsa'yı ele verdi?",
+     "Yahuda",
+     "Tomas",
+     "Filipus"
+    ],
+    "ja": [
+     "マルコ3章で、イエスを裏切った使徒は誰ですか？",
+     "ユダ",
+     "トマス",
+     "フィリポ"
+    ],
+    "ko": [
+     "마르코 3장에서 예수님을 팔아넘긴 사도는 누구입니까?",
+     "유다",
+     "토마스",
+     "필리포"
+    ],
+    "ar": [
+     "في مرقس 3، من هو الرسول الذي أسلم يسوع؟",
+     "يهوذا",
+     "توما",
+     "فيلبس"
+    ]
+   }
+  },
+  {
+   "id": "ch-mark-001-13",
+   "book": "mark",
+   "chapter": 3,
+   "difficulty": "hard",
+   "ref": "Mark 3:22",
+   "text": {
+    "en": [
+     "In Mark 3, what name did the scribes give to the prince of demons?",
+     "Beelzebul",
+     "Dagon",
+     "Molech"
+    ],
+    "es": [
+     "Marcos 3: ¿Qué nombre dieron los escribas al príncipe de los demonios?",
+     "Beelzebul",
+     "Dagón",
+     "Moloc"
+    ],
+    "pt": [
+     "Em Marcos 3, que nome os escribas deram ao príncipe dos demônios?",
+     "Beelzebul",
+     "Dagon",
+     "Moloc"
+    ],
+    "fr": [
+     "Dans Marc 3, quel nom les scribes donnèrent-ils au prince des démons ?",
+     "Béelzéboul",
+     "Dagon",
+     "Moloch"
+    ],
+    "de": [
+     "Markus 3: Welchen Namen gaben die Schriftgelehrten dem Anführer der Dämonen?",
+     "Beelzebul",
+     "Dagon",
+     "Moloch"
+    ],
+    "it": [
+     "In Marco 3, quale nome diedero gli scribi al capo dei demòni?",
+     "Beelzebùl",
+     "Dagon",
+     "Moloc"
+    ],
+    "pl": [
+     "W Ewangelii Marka 3: jakie imię nadali uczeni w Piśmie władcy złych duchów?",
+     "Belzebub",
+     "Dagon",
+     "Moloch"
+    ],
+    "ru": [
+     "Марк 3: Какое имя дали книжники князю бесов?",
+     "Веельзевул",
+     "Дагон",
+     "Молох"
+    ],
+    "tr": [
+     "Markos 3'te, din bilginleri cinlerin önderine hangi adı verdi?",
+     "Beelzebul",
+     "Dagon",
+     "Molek"
+    ],
+    "ja": [
+     "マルコ3章で、律法学者たちは悪霊の頭を何と呼びましたか？",
+     "ベルゼブル",
+     "ダゴン",
+     "モレク"
+    ],
+    "ko": [
+     "마르코 3장에서 율법 학자들은 마귀들의 우두머리를 무엇이라고 불렀습니까?",
+     "베엘제불",
+     "다곤",
+     "몰렉"
+    ],
+    "ar": [
+     "في مرقس 3، ماذا سمّى الكتبة رئيس الشياطين؟",
+     "بعلزبول",
+     "داجون",
+     "مولك"
+    ]
+   }
+  },
+  {
+   "id": "ch-mark-001-14",
+   "book": "mark",
+   "chapter": 3,
+   "difficulty": "expert",
+   "ref": "Mark 3:8",
+   "text": {
+    "en": [
+     "In Mark 3, from which coastal city did crowds come to Jesus?",
+     "Tyre",
+     "Joppa",
+     "Ephesus"
+    ],
+    "es": [
+     "Marcos 3: ¿De qué ciudad costera llegó gente hasta Jesús?",
+     "Tiro",
+     "Jope",
+     "Éfeso"
+    ],
+    "pt": [
+     "Em Marcos 3, de que cidade costeira vieram multidões até Jesus?",
+     "Tiro",
+     "Jope",
+     "Éfeso"
+    ],
+    "fr": [
+     "Dans Marc 3, de quelle ville côtière des foules vinrent-elles vers Jésus ?",
+     "Tyr",
+     "Jaffa",
+     "Éphèse"
+    ],
+    "de": [
+     "Markus 3: Aus welcher Küstenstadt kamen Scharen zu Jesus?",
+     "Tyrus",
+     "Joppe",
+     "Ephesus"
+    ],
+    "it": [
+     "In Marco 3, da quale città costiera giunse la folla a Gesù?",
+     "Tiro",
+     "Giaffa",
+     "Èfeso"
+    ],
+    "pl": [
+     "W Ewangelii Marka 3: które nadmorskie miasto wysłało tłumy do Jezusa?",
+     "Tyr",
+     "Jafa",
+     "Efez"
+    ],
+    "ru": [
+     "Марк 3: Какой прибрежный город отправил толпы к Иисусу?",
+     "Тир",
+     "Иоппия",
+     "Ефес"
+    ],
+    "tr": [
+     "Markos 3'te, hangi kıyı kentinden İsa'ya kalabalıklar geldi?",
+     "Sur",
+     "Yafa",
+     "Efes"
+    ],
+    "ja": [
+     "マルコ3章で、イエスのもとに群衆が来た海沿いの町はどれですか？",
+     "ティルス",
+     "ヤッファ",
+     "エフェソ"
+    ],
+    "ko": [
+     "마르코 3장에서 군중이 예수님께 몰려온 해안 도시는 어디입니까?",
+     "티로",
+     "욥바",
+     "에페소"
+    ],
+    "ar": [
+     "في مرقس 3، من أي مدينة ساحلية جاءت جموع إلى يسوع؟",
+     "صور",
+     "يافا",
+     "أفسس"
+    ]
+   }
+  },
+  {
+   "id": "ch-mark-001-15",
+   "book": "mark",
+   "chapter": 3,
+   "difficulty": "impossible",
+   "ref": "Mark 3:18",
+   "text": {
+    "en": [
+     "In Mark 3, which apostle is listed just before Simon the Cananean?",
+     "Thaddeus",
+     "Philip",
+     "Andrew"
+    ],
+    "es": [
+     "Marcos 3: ¿Qué apóstol aparece justo antes de Simón el Cananeo?",
+     "Tadeo",
+     "Felipe",
+     "Andrés"
+    ],
+    "pt": [
+     "Em Marcos 3, qual apóstolo aparece logo antes de Simão, o Cananeu?",
+     "Tadeu",
+     "Filipe",
+     "André"
+    ],
+    "fr": [
+     "Dans Marc 3, quel apôtre est cité juste avant Simon le Zélote ?",
+     "Thaddée",
+     "Philippe",
+     "André"
+    ],
+    "de": [
+     "Markus 3: Welcher Apostel steht direkt vor Simon Kananäus?",
+     "Thaddäus",
+     "Philippus",
+     "Andreas"
+    ],
+    "it": [
+     "In Marco 3, quale apostolo è elencato subito prima di Simone il Cananeo?",
+     "Taddeo",
+     "Filippo",
+     "Andrea"
+    ],
+    "pl": [
+     "W Ewangelii Marka 3: który apostoł jest wymieniony tuż przed Szymonem Kananejczykiem?",
+     "Tadeusz",
+     "Filip",
+     "Andrzej"
+    ],
+    "ru": [
+     "Марк 3: Какой апостол назван непосредственно перед Симоном Кананитом?",
+     "Фаддей",
+     "Филипп",
+     "Андрей"
+    ],
+    "tr": [
+     "Markos 3'te, Kananlı Simun'dan hemen önce hangi elçi anılır?",
+     "Taddai",
+     "Filipus",
+     "Andreas"
+    ],
+    "ja": [
+     "マルコ3章で、熱心党のシモンの直前に挙げられている使徒は誰ですか？",
+     "タダイ",
+     "フィリポ",
+     "アンデレ"
+    ],
+    "ko": [
+     "마르코 3장에서 열혈당원 시몬 바로 앞에 나오는 사도는 누구입니까?",
+     "타대오",
+     "필리포",
+     "안드레아"
+    ],
+    "ar": [
+     "في مرقس 3، أي رسول يُذكر قبل سمعان القانوي مباشرة؟",
+     "تداوس",
+     "فيلبس",
+     "أندراوس"
+    ]
+   }
+  },
+  {
+   "id": "ch-mark-001-16",
+   "book": "mark",
+   "chapter": 4,
+   "difficulty": "easy",
+   "ref": "Mark 4:31",
+   "text": {
+    "en": [
+     "In Mark 4, which plant grows from the smallest seed on earth?",
+     "Mustard",
+     "Wheat",
+     "Barley"
+    ],
+    "es": [
+     "Marcos 4: ¿Qué planta crece de la semilla más pequeña de la tierra?",
+     "Mostaza",
+     "Trigo",
+     "Cebada"
+    ],
+    "pt": [
+     "Em Marcos 4, que planta cresce da menor semente da terra?",
+     "Mostarda",
+     "Trigo",
+     "Cevada"
+    ],
+    "fr": [
+     "Dans Marc 4, quelle plante pousse de la plus petite graine de la terre ?",
+     "Moutarde",
+     "Blé",
+     "Orge"
+    ],
+    "de": [
+     "Markus 4: Welche Pflanze wächst aus dem kleinsten Samenkorn der Erde?",
+     "Senf",
+     "Weizen",
+     "Gerste"
+    ],
+    "it": [
+     "In Marco 4, quale pianta nasce dal più piccolo seme della terra?",
+     "Senape",
+     "Grano",
+     "Orzo"
+    ],
+    "pl": [
+     "W Ewangelii Marka 4: jaka roślina wyrasta z najmniejszego ziarna na ziemi?",
+     "Gorczyca",
+     "Pszenica",
+     "Jęczmień"
+    ],
+    "ru": [
+     "Марк 4: Какое растение вырастает из самого мелкого семени на земле?",
+     "Горчица",
+     "Пшеница",
+     "Ячмень"
+    ],
+    "tr": [
+     "Markos 4'te, yeryüzündeki en küçük tohumdan hangi bitki büyür?",
+     "Hardal",
+     "Buğday",
+     "Arpa"
+    ],
+    "ja": [
+     "マルコ4章で、地上で最も小さい種から育つ植物は何ですか？",
+     "からし",
+     "小麦",
+     "大麦"
+    ],
+    "ko": [
+     "마르코 4장에서 땅 위에서 가장 작은 씨에서 자라는 식물은 무엇입니까?",
+     "겨자",
+     "밀",
+     "보리"
+    ],
+    "ar": [
+     "في مرقس 4، أي نبات ينمو من أصغر بذرة على الأرض؟",
+     "خردل",
+     "قمح",
+     "شعير"
+    ]
+   }
+  },
+  {
+   "id": "ch-mark-001-17",
+   "book": "mark",
+   "chapter": 4,
+   "difficulty": "medium",
+   "ref": "Mark 4:4",
+   "text": {
+    "en": [
+     "In Mark 4, which animals ate the seed that fell on the path?",
+     "Birds",
+     "Sheep",
+     "Ants"
+    ],
+    "es": [
+     "Marcos 4: ¿Qué animales se comieron la semilla que cayó junto al camino?",
+     "Aves",
+     "Ovejas",
+     "Hormigas"
+    ],
+    "pt": [
+     "Em Marcos 4, que animais comeram a semente que caiu à beira do caminho?",
+     "Aves",
+     "Ovelhas",
+     "Formigas"
+    ],
+    "fr": [
+     "Dans Marc 4, quels animaux mangèrent la graine tombée au bord du chemin ?",
+     "Oiseaux",
+     "Brebis",
+     "Fourmis"
+    ],
+    "de": [
+     "Markus 4: Welche Tiere fraßen den Samen, der auf den Weg fiel?",
+     "Vögel",
+     "Schafe",
+     "Ameisen"
+    ],
+    "it": [
+     "In Marco 4, quali animali mangiarono il seme caduto lungo la strada?",
+     "Uccelli",
+     "Pecore",
+     "Formiche"
+    ],
+    "pl": [
+     "W Ewangelii Marka 4: jakie zwierzęta zjadły ziarno, które padło na drogę?",
+     "Ptaki",
+     "Owce",
+     "Mrówki"
+    ],
+    "ru": [
+     "Марк 4: Какие животные поели семя, упавшее при дороге?",
+     "Птицы",
+     "Овцы",
+     "Муравьи"
+    ],
+    "tr": [
+     "Markos 4'te, yol kenarına düşen tohumu hangi hayvanlar yedi?",
+     "Kuşlar",
+     "Koyunlar",
+     "Karıncalar"
+    ],
+    "ja": [
+     "マルコ4章で、道端に落ちた種を食べたのはどの生き物ですか？",
+     "鳥",
+     "羊",
+     "アリ"
+    ],
+    "ko": [
+     "마르코 4장에서 길가에 떨어진 씨앗을 먹은 것은 어떤 동물입니까?",
+     "새",
+     "양",
+     "개미"
+    ],
+    "ar": [
+     "في مرقس 4، أي حيوانات أكلت البذرة التي سقطت على جانب الطريق؟",
+     "طيور",
+     "خراف",
+     "نمل"
+    ]
+   }
+  },
+  {
+   "id": "ch-mark-001-18",
+   "book": "mark",
+   "chapter": 4,
+   "difficulty": "hard",
+   "ref": "Mark 4:39",
+   "text": {
+    "en": [
+     "In Mark 4, what did Jesus rebuke during the storm on the lake?",
+     "Wind",
+     "Rain",
+     "Fire"
+    ],
+    "es": [
+     "Marcos 4: ¿A qué increpó Jesús durante la tormenta en el lago?",
+     "Viento",
+     "Lluvia",
+     "Fuego"
+    ],
+    "pt": [
+     "Em Marcos 4, o que Jesus repreendeu durante a tempestade no lago?",
+     "Vento",
+     "Chuva",
+     "Fogo"
+    ],
+    "fr": [
+     "Dans Marc 4, qu'est-ce que Jésus menaça pendant la tempête sur le lac ?",
+     "Vent",
+     "Pluie",
+     "Feu"
+    ],
+    "de": [
+     "Markus 4: Was bedrohte Jesus während des Sturms auf dem See?",
+     "Wind",
+     "Regen",
+     "Feuer"
+    ],
+    "it": [
+     "In Marco 4, che cosa minacciò Gesù durante la tempesta sul lago?",
+     "Vento",
+     "Pioggia",
+     "Fuoco"
+    ],
+    "pl": [
+     "W Ewangelii Marka 4: co zgromił Jezus podczas burzy na jeziorze?",
+     "Wiatr",
+     "Deszcz",
+     "Ogień"
+    ],
+    "ru": [
+     "Марк 4: Что усмирил Иисус во время бури на озере?",
+     "Ветер",
+     "Дождь",
+     "Огонь"
+    ],
+    "tr": [
+     "Markos 4'te, İsa'nın gölde fırtına sırasında azarladığı şey nedir?",
+     "Rüzgâr",
+     "Yağmur",
+     "Ateş"
+    ],
+    "ja": [
+     "マルコ4章で、湖の嵐の中でイエスが叱ったのは何ですか？",
+     "風",
+     "雨",
+     "火"
+    ],
+    "ko": [
+     "마르코 4장에서 호수의 풍랑 가운데 예수님께서 꾸짖으신 것은 무엇입니까?",
+     "바람",
+     "비",
+     "불"
+    ],
+    "ar": [
+     "في مرقس 4، ماذا انتهر يسوع أثناء العاصفة على البحيرة؟",
+     "ريح",
+     "مطر",
+     "نار"
+    ]
+   }
+  },
+  {
+   "id": "ch-mark-001-19",
+   "book": "mark",
+   "chapter": 4,
+   "difficulty": "expert",
+   "ref": "Mark 4:6",
+   "text": {
+    "en": [
+     "In Mark 4, what scorched the seed that fell on rocky ground?",
+     "Sun",
+     "Frost",
+     "Rain"
+    ],
+    "es": [
+     "Marcos 4: ¿Qué quemó la semilla que cayó en terreno pedregoso?",
+     "Sol",
+     "Escarcha",
+     "Lluvia"
+    ],
+    "pt": [
+     "Em Marcos 4, o que queimou a semente que caiu em terreno pedregoso?",
+     "Sol",
+     "Geada",
+     "Chuva"
+    ],
+    "fr": [
+     "Dans Marc 4, qu'est-ce qui brûla la graine tombée sur un sol pierreux ?",
+     "Soleil",
+     "Gel",
+     "Pluie"
+    ],
+    "de": [
+     "Markus 4: Was verbrannte den Samen, der auf felsigen Boden fiel?",
+     "Sonne",
+     "Frost",
+     "Regen"
+    ],
+    "it": [
+     "In Marco 4, che cosa bruciò il seme caduto sul terreno sassoso?",
+     "Sole",
+     "Gelo",
+     "Pioggia"
+    ],
+    "pl": [
+     "W Ewangelii Marka 4: co spaliło ziarno, które padło na grunt skalisty?",
+     "Słońce",
+     "Mróz",
+     "Deszcz"
+    ],
+    "ru": [
+     "Марк 4: Что опалило семя, упавшее на каменистую почву?",
+     "Солнце",
+     "Мороз",
+     "Дождь"
+    ],
+    "tr": [
+     "Markos 4'te, kayalık yere düşen tohumu ne kavurdu?",
+     "Güneş",
+     "Don",
+     "Yağmur"
+    ],
+    "ja": [
+     "マルコ4章で、石地に落ちた種を焼いたものは何ですか？",
+     "太陽",
+     "霜",
+     "雨"
+    ],
+    "ko": [
+     "마르코 4장에서 돌밭에 떨어진 씨앗을 태운 것은 무엇입니까?",
+     "해",
+     "서리",
+     "비"
+    ],
+    "ar": [
+     "في مرقس 4، ما الذي أحرق البذرة التي سقطت على أرض صخرية؟",
+     "شمس",
+     "صقيع",
+     "مطر"
+    ]
+   }
+  },
+  {
+   "id": "ch-mark-001-20",
+   "book": "mark",
+   "chapter": 4,
+   "difficulty": "impossible",
+   "ref": "Mark 4:29",
+   "text": {
+    "en": [
+     "In Mark 4, which tool does the farmer use when the grain ripens?",
+     "Sickle",
+     "Plow",
+     "Axe"
+    ],
+    "es": [
+     "Marcos 4: ¿Qué herramienta usa el labrador cuando el grano madura?",
+     "Hoz",
+     "Arado",
+     "Hacha"
+    ],
+    "pt": [
+     "Em Marcos 4, que ferramenta o lavrador usa quando o grão amadurece?",
+     "Foice",
+     "Arado",
+     "Machado"
+    ],
+    "fr": [
+     "Dans Marc 4, quel outil le cultivateur utilise-t-il quand le grain est mûr ?",
+     "Faucille",
+     "Charrue",
+     "Hache"
+    ],
+    "de": [
+     "Markus 4: Welches Werkzeug setzt der Bauer ein, wenn das Korn reif ist?",
+     "Sichel",
+     "Pflug",
+     "Axt"
+    ],
+    "it": [
+     "In Marco 4, quale attrezzo usa il contadino quando il grano è maturo?",
+     "Falce",
+     "Aratro",
+     "Ascia"
+    ],
+    "pl": [
+     "W Ewangelii Marka 4: jakie narzędzie bierze rolnik, gdy zboże dojrzeje?",
+     "Sierp",
+     "Pług",
+     "Siekiera"
+    ],
+    "ru": [
+     "Марк 4: Какое орудие берёт земледелец, когда поспевает хлеб?",
+     "Серп",
+     "Плуг",
+     "Топор"
+    ],
+    "tr": [
+     "Markos 4'te, ekin olgunlaşınca çiftçi hangi aleti kullanır?",
+     "Orak",
+     "Saban",
+     "Balta"
+    ],
+    "ja": [
+     "マルコ4章で、穀物が実ると農夫が使う道具は何ですか？",
+     "鎌",
+     "鋤",
+     "斧"
+    ],
+    "ko": [
+     "마르코 4장에서 곡식이 익으면 농부가 사용하는 도구는 무엇입니까?",
+     "낫",
+     "쟁기",
+     "도끼"
+    ],
+    "ar": [
+     "في مرقس 4، أي أداة يستخدمها الفلاح عندما ينضج الحصاد؟",
+     "منجل",
+     "محراث",
+     "فأس"
+    ]
+   }
+  },
+  {
+   "id": "ch-mark-001-21",
+   "book": "mark",
+   "chapter": 5,
+   "difficulty": "easy",
+   "ref": "Mark 5:34",
+   "text": {
+    "en": [
+     "In Mark 5, what did Jesus say had saved the healed woman?",
+     "Faith",
+     "Prayer",
+     "Fasting"
+    ],
+    "es": [
+     "Marcos 5: ¿Qué dijo Jesús que había salvado a la mujer curada?",
+     "Fe",
+     "Oración",
+     "Ayuno"
+    ],
+    "pt": [
+     "Em Marcos 5, o que Jesus disse que salvou a mulher curada?",
+     "Fé",
+     "Oração",
+     "Jejum"
+    ],
+    "fr": [
+     "Dans Marc 5, qu'est-ce que Jésus dit avoir sauvé la femme guérie ?",
+     "Foi",
+     "Prière",
+     "Jeûne"
+    ],
+    "de": [
+     "Markus 5: Was hat nach Jesu Worten die geheilte Frau gerettet?",
+     "Glaube",
+     "Gebet",
+     "Fasten"
+    ],
+    "it": [
+     "In Marco 5, che cosa disse Gesù che aveva salvato la donna guarita?",
+     "Fede",
+     "Preghiera",
+     "Digiuno"
+    ],
+    "pl": [
+     "W Ewangelii Marka 5: co według Jezusa uratowało uzdrowioną kobietę?",
+     "Wiara",
+     "Modlitwa",
+     "Post"
+    ],
+    "ru": [
+     "Марк 5: Что, по словам Иисуса, спасло исцелённую женщину?",
+     "Вера",
+     "Молитва",
+     "Пост"
+    ],
+    "tr": [
+     "Markos 5'te, İsa'ya göre iyileşen kadını ne kurtardı?",
+     "İman",
+     "Dua",
+     "Oruç"
+    ],
+    "ja": [
+     "マルコ5章で、イエスはいやされた女性を救ったのは何だと言いましたか？",
+     "信仰",
+     "祈り",
+     "断食"
+    ],
+    "ko": [
+     "마르코 5장에서 예수님은 고침받은 여인을 구한 것이 무엇이라고 하셨습니까?",
+     "믿음",
+     "기도",
+     "단식"
+    ],
+    "ar": [
+     "في مرقس 5، ما الذي قال يسوع إنه خلّص المرأة التي شُفيت؟",
+     "إيمان",
+     "صلاة",
+     "صوم"
+    ]
+   }
+  },
+  {
+   "id": "ch-mark-001-22",
+   "book": "mark",
+   "chapter": 5,
+   "difficulty": "medium",
+   "ref": "Mark 5:30",
+   "text": {
+    "en": [
+     "In Mark 5, what went out of Jesus when the woman touched him?",
+     "Power",
+     "Blood",
+     "Breath"
+    ],
+    "es": [
+     "Marcos 5: ¿Qué salió de Jesús cuando la mujer lo tocó?",
+     "Fuerza",
+     "Sangre",
+     "Aliento"
+    ],
+    "pt": [
+     "Em Marcos 5, o que saiu de Jesus quando a mulher o tocou?",
+     "Poder",
+     "Sangue",
+     "Fôlego"
+    ],
+    "fr": [
+     "Dans Marc 5, qu'est-ce qui sortit de Jésus quand la femme le toucha ?",
+     "Force",
+     "Sang",
+     "Souffle"
+    ],
+    "de": [
+     "Markus 5: Was ging von Jesus aus, als die Frau ihn berührte?",
+     "Kraft",
+     "Blut",
+     "Atem"
+    ],
+    "it": [
+     "In Marco 5, che cosa uscì da Gesù quando la donna lo toccò?",
+     "Forza",
+     "Sangue",
+     "Respiro"
+    ],
+    "pl": [
+     "W Ewangelii Marka 5: co wyszło z Jezusa, gdy kobieta Go dotknęła?",
+     "Moc",
+     "Krew",
+     "Oddech"
+    ],
+    "ru": [
+     "Марк 5: Что вышло из Иисуса, когда женщина прикоснулась к Нему?",
+     "Сила",
+     "Кровь",
+     "Дыхание"
+    ],
+    "tr": [
+     "Markos 5'te, kadın İsa'ya dokununca Ondan ne çıktı?",
+     "Güç",
+     "Kan",
+     "Nefes"
+    ],
+    "ja": [
+     "マルコ5章で、女性が触れたとき、イエスから出ていったものは何ですか？",
+     "力",
+     "血",
+     "息"
+    ],
+    "ko": [
+     "마르코 5장에서 여인이 만졌을 때 예수님에게서 나간 것은 무엇입니까?",
+     "힘",
+     "피",
+     "숨"
+    ],
+    "ar": [
+     "في مرقس 5، ما الذي خرج من يسوع عندما لمسته المرأة؟",
+     "قوة",
+     "دم",
+     "نفس"
+    ]
+   }
+  },
+  {
+   "id": "ch-mark-001-23",
+   "book": "mark",
+   "chapter": 5,
+   "difficulty": "hard",
+   "ref": "Mark 5:20",
+   "text": {
+    "en": [
+     "In Mark 5, which region heard the healed man proclaim what Jesus did?",
+     "Decapolis",
+     "Samaria",
+     "Moab"
+    ],
+    "es": [
+     "Marcos 5: ¿Qué región oyó al hombre curado proclamar lo que Jesús hizo?",
+     "Decápolis",
+     "Samaría",
+     "Moab"
+    ],
+    "pt": [
+     "Em Marcos 5, que região ouviu o homem curado proclamar o que Jesus fez?",
+     "Decápole",
+     "Samaria",
+     "Moabe"
+    ],
+    "fr": [
+     "Dans Marc 5, quelle région entendit l'homme guéri proclamer ce que Jésus avait fait ?",
+     "Décapole",
+     "Samarie",
+     "Moab"
+    ],
+    "de": [
+     "Markus 5: Welche Gegend hörte den Geheilten verkünden, was Jesus getan hatte?",
+     "Dekapolis",
+     "Samarien",
+     "Moab"
+    ],
+    "it": [
+     "In Marco 5, quale regione sentì l'uomo guarito proclamare ciò che Gesù aveva fatto?",
+     "Decàpoli",
+     "Samaria",
+     "Moab"
+    ],
+    "pl": [
+     "W Ewangelii Marka 5: który region usłyszał uzdrowionego głoszącego, co uczynił Jezus?",
+     "Dekapol",
+     "Samaria",
+     "Moab"
+    ],
+    "ru": [
+     "Марк 5: Какая область услышала исцелённого, проповедующего о том, что сделал Иисус?",
+     "Десятиградие",
+     "Самария",
+     "Моав"
+    ],
+    "tr": [
+     "Markos 5'te, iyileşen adamın İsa'nın yaptıklarını duyurduğu bölge neresidir?",
+     "Dekapolis",
+     "Samiriye",
+     "Moav"
+    ],
+    "ja": [
+     "マルコ5章で、いやされた人がイエスの業を言い広めた地方はどこですか？",
+     "デカポリス",
+     "サマリア",
+     "モアブ"
+    ],
+    "ko": [
+     "마르코 5장에서 고침받은 사람이 예수님이 하신 일을 널리 알린 지방은 어디입니까?",
+     "데카폴리스",
+     "사마리아",
+     "모압"
+    ],
+    "ar": [
+     "في مرقس 5، أي منطقة أعلن فيها الرجل الذي شُفي ما صنعه يسوع؟",
+     "ديكابوليس",
+     "السامرة",
+     "موآب"
+    ]
+   }
+  },
+  {
+   "id": "ch-mark-001-24",
+   "book": "mark",
+   "chapter": 5,
+   "difficulty": "expert",
+   "ref": "Mark 5:37",
+   "text": {
+    "en": [
+     "In Mark 5, which apostle joined Peter and John at Jairus' house?",
+     "James",
+     "Andrew",
+     "Thomas"
+    ],
+    "es": [
+     "Marcos 5: ¿Qué apóstol acompañó a Pedro y Juan a la casa de Jairo?",
+     "Santiago",
+     "Andrés",
+     "Tomás"
+    ],
+    "pt": [
+     "Em Marcos 5, qual apóstolo acompanhou Pedro e João à casa de Jairo?",
+     "Tiago",
+     "André",
+     "Tomé"
+    ],
+    "fr": [
+     "Dans Marc 5, quel apôtre accompagna Pierre et Jean chez Jaïre ?",
+     "Jacques",
+     "André",
+     "Thomas"
+    ],
+    "de": [
+     "Markus 5: Welcher Apostel begleitete Petrus und Johannes ins Haus des Jaïrus?",
+     "Jakobus",
+     "Andreas",
+     "Thomas"
+    ],
+    "it": [
+     "In Marco 5, quale apostolo accompagnò Pietro e Giovanni a casa di Giàiro?",
+     "Giacomo",
+     "Andrea",
+     "Tommaso"
+    ],
+    "pl": [
+     "W Ewangelii Marka 5: który apostoł towarzyszył Piotrowi i Janowi w domu Jaira?",
+     "Jakub",
+     "Andrzej",
+     "Tomasz"
+    ],
+    "ru": [
+     "Марк 5: Какой апостол вместе с Петром и Иоанном вошёл в дом Иаира?",
+     "Иаков",
+     "Андрей",
+     "Фома"
+    ],
+    "tr": [
+     "Markos 5'te, Yair'in evinde Petrus ile Yuhanna'ya hangi elçi eşlik etti?",
+     "Yakup",
+     "Andreas",
+     "Tomas"
+    ],
+    "ja": [
+     "マルコ5章で、ペトロとヨハネとともにヤイロの家に入った使徒は誰ですか？",
+     "ヤコブ",
+     "アンデレ",
+     "トマス"
+    ],
+    "ko": [
+     "마르코 5장에서 베드로, 요한과 함께 야이로의 집에 들어간 사도는 누구입니까?",
+     "야고보",
+     "안드레아",
+     "토마스"
+    ],
+    "ar": [
+     "في مرقس 5، أي رسول رافق بطرس ويوحنا إلى بيت يايرس؟",
+     "يعقوب",
+     "أندراوس",
+     "توما"
+    ]
+   }
+  },
+  {
+   "id": "ch-mark-001-25",
+   "book": "mark",
+   "chapter": 5,
+   "difficulty": "impossible",
+   "ref": "Mark 5:5",
+   "text": {
+    "en": [
+     "In Mark 5, which objects did the possessed man use to cut himself?",
+     "Stones",
+     "Knives",
+     "Thorns"
+    ],
+    "es": [
+     "Marcos 5: ¿Con qué se hería el endemoniado?",
+     "Piedras",
+     "Cuchillos",
+     "Espinas"
+    ],
+    "pt": [
+     "Em Marcos 5, com o que o endemoninhado se feria?",
+     "Pedras",
+     "Facas",
+     "Espinhos"
+    ],
+    "fr": [
+     "Dans Marc 5, avec quoi le possédé se meurtrissait-il ?",
+     "Pierres",
+     "Couteaux",
+     "Épines"
+    ],
+    "de": [
+     "Markus 5: Womit verletzte sich der Besessene?",
+     "Steine",
+     "Messer",
+     "Dornen"
+    ],
+    "it": [
+     "In Marco 5, con che cosa si percuoteva l'indemoniato?",
+     "Pietre",
+     "Coltelli",
+     "Spine"
+    ],
+    "pl": [
+     "W Ewangelii Marka 5: jakie przedmioty służyły opętanemu do kaleczenia się?",
+     "Kamienie",
+     "Noże",
+     "Ciernie"
+    ],
+    "ru": [
+     "Марк 5: Какие предметы служили одержимому для самоистязания?",
+     "Камни",
+     "Ножи",
+     "Шипы"
+    ],
+    "tr": [
+     "Markos 5'te, cinli adam kendini neyle yaralıyordu?",
+     "Taşlar",
+     "Bıçaklar",
+     "Dikenler"
+    ],
+    "ja": [
+     "マルコ5章で、悪霊に取りつかれた人が自分を傷つけていたものは何ですか？",
+     "石",
+     "ナイフ",
+     "茨"
+    ],
+    "ko": [
+     "마르코 5장에서 더러운 영에 들린 사람이 자기 몸을 상하게 한 것은 무엇입니까?",
+     "돌",
+     "칼",
+     "가시"
+    ],
+    "ar": [
+     "في مرقس 5، بماذا كان الممسوس يجرح نفسه؟",
+     "حجارة",
+     "سكاكين",
+     "أشواك"
+    ]
+   }
+  },
+  {
+   "id": "ch-mark-001-26",
+   "book": "mark",
+   "chapter": 6,
+   "difficulty": "easy",
+   "ref": "Mark 6:41",
+   "text": {
+    "en": [
+     "In Mark 6, how many loaves did Jesus bless to feed the crowd?",
+     "5",
+     "7",
+     "12"
+    ],
+    "es": [
+     "Marcos 6: ¿Cuántos panes bendijo Jesús para alimentar a la multitud?",
+     "5",
+     "7",
+     "12"
+    ],
+    "pt": [
+     "Em Marcos 6, quantos pães Jesus abençoou para alimentar a multidão?",
+     "5",
+     "7",
+     "12"
+    ],
+    "fr": [
+     "Dans Marc 6, combien de pains Jésus bénit-il pour nourrir la foule ?",
+     "5",
+     "7",
+     "12"
+    ],
+    "de": [
+     "Markus 6: Wie viele Brote segnete Jesus, um die Menge zu speisen?",
+     "5",
+     "7",
+     "12"
+    ],
+    "it": [
+     "In Marco 6, quanti pani benedisse Gesù per sfamare la folla?",
+     "5",
+     "7",
+     "12"
+    ],
+    "pl": [
+     "W Ewangelii Marka 6: ile chlebów pobłogosławił Jezus, by nakarmić tłum?",
+     "5",
+     "7",
+     "12"
+    ],
+    "ru": [
+     "Марк 6: Сколько хлебов благословил Иисус, чтобы накормить толпу?",
+     "5",
+     "7",
+     "12"
+    ],
+    "tr": [
+     "Markos 6'da, İsa kalabalığı doyurmak için kaç ekmeği kutsadı?",
+     "5",
+     "7",
+     "12"
+    ],
+    "ja": [
+     "マルコ6章で、イエスは群衆を養うために何個のパンを祝福しましたか？",
+     "5",
+     "7",
+     "12"
+    ],
+    "ko": [
+     "마르코 6장에서 예수님은 군중을 먹이시려고 빵 몇 개를 축복하셨습니까?",
+     "5",
+     "7",
+     "12"
+    ],
+    "ar": [
+     "في مرقس 6، كم رغيفا بارك يسوع ليُطعم الجموع؟",
+     "5",
+     "7",
+     "12"
+    ]
+   }
+  },
+  {
+   "id": "ch-mark-001-27",
+   "book": "mark",
+   "chapter": 6,
+   "difficulty": "medium",
+   "ref": "Mark 6:49",
+   "text": {
+    "en": [
+     "In Mark 6, what did the disciples think Jesus was, walking on the sea?",
+     "Ghost",
+     "Angel",
+     "Thief"
+    ],
+    "es": [
+     "Marcos 6: ¿Qué creyeron los discípulos que era Jesús al verlo andar sobre el mar?",
+     "Fantasma",
+     "Ángel",
+     "Ladrón"
+    ],
+    "pt": [
+     "Em Marcos 6, o que os discípulos pensaram que Jesus era ao andar sobre o mar?",
+     "Fantasma",
+     "Anjo",
+     "Ladrão"
+    ],
+    "fr": [
+     "Dans Marc 6, que crurent les disciples en voyant Jésus marcher sur la mer ?",
+     "Fantôme",
+     "Ange",
+     "Voleur"
+    ],
+    "de": [
+     "Markus 6: Wofür hielten die Jünger Jesus, als er über das Meer ging?",
+     "Gespenst",
+     "Engel",
+     "Dieb"
+    ],
+    "it": [
+     "In Marco 6, che cosa pensarono i discepoli vedendo Gesù camminare sul mare?",
+     "Fantasma",
+     "Angelo",
+     "Ladro"
+    ],
+    "pl": [
+     "W Ewangelii Marka 6: kto, według uczniów, szedł po jeziorze?",
+     "Zjawa",
+     "Anioł",
+     "Złodziej"
+    ],
+    "ru": [
+     "Марк 6: Кто, по мнению учеников, шёл по морю?",
+     "Призрак",
+     "Ангел",
+     "Вор"
+    ],
+    "tr": [
+     "Markos 6'da, denizde yürüyen İsa'yı öğrenciler ne sandı?",
+     "Hayalet",
+     "Melek",
+     "Hırsız"
+    ],
+    "ja": [
+     "マルコ6章で、湖の上を歩くイエスを見て、弟子たちは何だと思いましたか？",
+     "幽霊",
+     "天使",
+     "泥棒"
+    ],
+    "ko": [
+     "마르코 6장에서 물 위를 걸으시는 예수님을 보고 제자들은 무엇이라고 생각했습니까?",
+     "유령",
+     "천사",
+     "도둑"
+    ],
+    "ar": [
+     "في مرقس 6، ماذا ظن التلاميذ عندما رأوا يسوع يمشي على البحر؟",
+     "شبح",
+     "ملاك",
+     "لص"
+    ]
+   }
+  },
+  {
+   "id": "ch-mark-001-28",
+   "book": "mark",
+   "chapter": 6,
+   "difficulty": "hard",
+   "ref": "Mark 6:17-18",
+   "text": {
+    "en": [
+     "In Mark 6, which brother of Herod had been married to Herodias?",
+     "Philip",
+     "Archelaus",
+     "Lysanias"
+    ],
+    "es": [
+     "Marcos 6: ¿Qué hermano de Herodes había estado casado con Herodías?",
+     "Felipe",
+     "Arquelao",
+     "Lisanias"
+    ],
+    "pt": [
+     "Em Marcos 6, qual irmão de Herodes tinha sido casado com Herodíades?",
+     "Filipe",
+     "Arquelau",
+     "Lisânias"
+    ],
+    "fr": [
+     "Dans Marc 6, quel frère d'Hérode avait été marié à Hérodiade ?",
+     "Philippe",
+     "Archélaüs",
+     "Lysanias"
+    ],
+    "de": [
+     "Markus 6: Welcher Bruder des Herodes war mit Herodias verheiratet gewesen?",
+     "Philippus",
+     "Archelaus",
+     "Lysanias"
+    ],
+    "it": [
+     "In Marco 6, quale fratello di Erode era stato sposato con Erodiade?",
+     "Filippo",
+     "Archelao",
+     "Lisània"
+    ],
+    "pl": [
+     "W Ewangelii Marka 6: który brat Heroda był wcześniej mężem Herodiady?",
+     "Filip",
+     "Archelaos",
+     "Lizaniasz"
+    ],
+    "ru": [
+     "Марк 6: Какой брат Ирода прежде был мужем Иродиады?",
+     "Филипп",
+     "Архелай",
+     "Лисаний"
+    ],
+    "tr": [
+     "Markos 6'da, Hirodes'in hangi kardeşi Hirodiya'nın kocasıydı?",
+     "Filipus",
+     "Arkelaos",
+     "Lisanyas"
+    ],
+    "ja": [
+     "マルコ6章で、ヘロディアの夫だったヘロデの兄弟は誰ですか？",
+     "フィリポ",
+     "アルケラオ",
+     "リサニア"
+    ],
+    "ko": [
+     "마르코 6장에서 헤로디아의 남편이었던 헤로데의 형제는 누구입니까?",
+     "필리포",
+     "아르켈라오",
+     "리사니아"
+    ],
+    "ar": [
+     "في مرقس 6، أي أخ لهيرودس كان زوج هيروديا؟",
+     "فيلبس",
+     "أرخيلاوس",
+     "لسانيا"
+    ]
+   }
+  },
+  {
+   "id": "ch-mark-001-29",
+   "book": "mark",
+   "chapter": 6,
+   "difficulty": "expert",
+   "ref": "Mark 6:8-9",
+   "text": {
+    "en": [
+     "In Mark 6, besides sandals, what could the sent apostles carry?",
+     "Staff",
+     "Bread",
+     "Money"
+    ],
+    "es": [
+     "Marcos 6: ¿Qué podían llevar, además de sandalias, los apóstoles enviados?",
+     "Bastón",
+     "Pan",
+     "Dinero"
+    ],
+    "pt": [
+     "Em Marcos 6, além de sandálias, o que os apóstolos enviados podiam levar?",
+     "Bastão",
+     "Pão",
+     "Dinheiro"
+    ],
+    "fr": [
+     "Dans Marc 6, outre des sandales, que les apôtres envoyés pouvaient-ils emporter ?",
+     "Bâton",
+     "Pain",
+     "Argent"
+    ],
+    "de": [
+     "Markus 6: Was durften die ausgesandten Apostel außer Sandalen mitnehmen?",
+     "Stab",
+     "Brot",
+     "Geld"
+    ],
+    "it": [
+     "In Marco 6, oltre ai sandali, che cosa potevano portare gli apostoli inviati?",
+     "Bastone",
+     "Pane",
+     "Denaro"
+    ],
+    "pl": [
+     "W Ewangelii Marka 6: co oprócz sandałów było dozwolone posłanym apostołom?",
+     "Laska",
+     "Chleb",
+     "Pieniądze"
+    ],
+    "ru": [
+     "Марк 6: Что, кроме сандалий, могли взять посланные апостолы?",
+     "Посох",
+     "Хлеб",
+     "Деньги"
+    ],
+    "tr": [
+     "Markos 6'da, gönderilen elçiler sandaletten başka ne alabilirdi?",
+     "Asa",
+     "Ekmek",
+     "Para"
+    ],
+    "ja": [
+     "マルコ6章で、派遣された使徒たちは、履物のほかに何を持つことが許されましたか？",
+     "杖",
+     "パン",
+     "お金"
+    ],
+    "ko": [
+     "마르코 6장에서 파견된 사도들은 신발 말고 무엇을 가져갈 수 있었습니까?",
+     "지팡이",
+     "빵",
+     "돈"
+    ],
+    "ar": [
+     "في مرقس 6، ماذا استطاع الرسل المرسلون أن يحملوا غير النعال؟",
+     "عصا",
+     "خبز",
+     "مال"
+    ]
+   }
+  },
+  {
+   "id": "ch-mark-001-30",
+   "book": "mark",
+   "chapter": 6,
+   "difficulty": "impossible",
+   "ref": "Mark 6:53",
+   "text": {
+    "en": [
+     "In Mark 6, which place did Jesus' boat reach after the walk on water?",
+     "Gennesaret",
+     "Jericho",
+     "Tyre"
+    ],
+    "es": [
+     "Marcos 6: ¿A qué lugar llegó la barca de Jesús tras caminar sobre el agua?",
+     "Genesaret",
+     "Jericó",
+     "Tiro"
+    ],
+    "pt": [
+     "Em Marcos 6, a que lugar chegou a barca de Jesus depois de andar sobre a água?",
+     "Genesaré",
+     "Jericó",
+     "Tiro"
+    ],
+    "fr": [
+     "Dans Marc 6, à quel endroit la barque de Jésus accosta-t-elle après la marche sur l'eau ?",
+     "Génésareth",
+     "Jéricho",
+     "Tyr"
+    ],
+    "de": [
+     "Markus 6: Welchen Ort erreichte Jesu Boot nach dem Gang über das Wasser?",
+     "Gennesaret",
+     "Jericho",
+     "Tyrus"
+    ],
+    "it": [
+     "In Marco 6, quale luogo raggiunse la barca di Gesù dopo il cammino sulle acque?",
+     "Gennèsaret",
+     "Gerico",
+     "Tiro"
+    ],
+    "pl": [
+     "W Ewangelii Marka 6: które miejsce osiągnęła łódź Jezusa po chodzeniu po jeziorze?",
+     "Genezaret",
+     "Jerycho",
+     "Tyr"
+    ],
+    "ru": [
+     "Марк 6: Какое место достигла лодка Иисуса после хождения по воде?",
+     "Геннисарет",
+     "Иерихон",
+     "Тир"
+    ],
+    "tr": [
+     "Markos 6'da, İsa'nın teknesi suda yürüyüşten sonra hangi yere ulaştı?",
+     "Gennesaret",
+     "Eriha",
+     "Sur"
+    ],
+    "ja": [
+     "マルコ6章で、水の上を歩いた後、イエスの舟が着いた土地はどこですか？",
+     "ゲネサレト",
+     "エリコ",
+     "ティルス"
+    ],
+    "ko": [
+     "마르코 6장에서 물 위를 걸으신 뒤 예수님의 배가 닿은 곳은 어디입니까?",
+     "겐네사렛",
+     "여리고",
+     "티로"
+    ],
+    "ar": [
+     "في مرقس 6، إلى أي مكان وصل قارب يسوع بعد المشي على الماء؟",
+     "جنيسارت",
+     "أريحا",
+     "صور"
+    ]
+   }
+  },
+  {
+   "id": "ch-mark-001-31",
+   "book": "mark",
+   "chapter": 7,
+   "difficulty": "easy",
+   "ref": "Mark 7:28",
+   "text": {
+    "en": [
+     "In Mark 7, which animals eat the children's crumbs under the table?",
+     "Dogs",
+     "Cats",
+     "Pigs"
+    ],
+    "es": [
+     "Marcos 7: ¿Qué animales comen bajo la mesa las migajas de los niños?",
+     "Perros",
+     "Gatos",
+     "Cerdos"
+    ],
+    "pt": [
+     "Em Marcos 7, que animais comem debaixo da mesa as migalhas das crianças?",
+     "Cães",
+     "Gatos",
+     "Porcos"
+    ],
+    "fr": [
+     "Dans Marc 7, quels animaux mangent sous la table les miettes des enfants ?",
+     "Chiens",
+     "Chats",
+     "Porcs"
+    ],
+    "de": [
+     "Markus 7: Welche Tiere fressen unter dem Tisch die Brotkrumen der Kinder?",
+     "Hunde",
+     "Katzen",
+     "Schweine"
+    ],
+    "it": [
+     "In Marco 7, quali animali mangiano sotto la tavola le briciole dei figli?",
+     "Cani",
+     "Gatti",
+     "Maiali"
+    ],
+    "pl": [
+     "W Ewangelii Marka 7: jakie zwierzęta jedzą pod stołem okruszyny dzieci?",
+     "Psy",
+     "Koty",
+     "Świnie"
+    ],
+    "ru": [
+     "Марк 7: Какие животные едят под столом крохи детей?",
+     "Собаки",
+     "Кошки",
+     "Свиньи"
+    ],
+    "tr": [
+     "Markos 7'de, hangi hayvanlar masanın altında çocukların kırıntılarını yer?",
+     "Köpekler",
+     "Kediler",
+     "Domuzlar"
+    ],
+    "ja": [
+     "マルコ7章で、食卓の下で子どもたちのパン屑を食べるのはどの動物ですか？",
+     "犬",
+     "猫",
+     "豚"
+    ],
+    "ko": [
+     "마르코 7장에서 식탁 밑에서 아이들이 흘린 부스러기를 먹는 동물은 무엇입니까?",
+     "개",
+     "고양이",
+     "돼지"
+    ],
+    "ar": [
+     "في مرقس 7، أي حيوانات تأكل تحت المائدة فتات الأولاد؟",
+     "كلاب",
+     "قطط",
+     "خنازير"
+    ]
+   }
+  },
+  {
+   "id": "ch-mark-001-32",
+   "book": "mark",
+   "chapter": 7,
+   "difficulty": "medium",
+   "ref": "Mark 7:24",
+   "text": {
+    "en": [
+     "In Mark 7, which region did Jesus enter, wanting nobody to know?",
+     "Tyre",
+     "Egypt",
+     "Babylon"
+    ],
+    "es": [
+     "Marcos 7: ¿A qué región entró Jesús sin querer que nadie lo supiera?",
+     "Tiro",
+     "Egipto",
+     "Babilonia"
+    ],
+    "pt": [
+     "Em Marcos 7, em que região Jesus entrou sem querer que ninguém soubesse?",
+     "Tiro",
+     "Egito",
+     "Babilônia"
+    ],
+    "fr": [
+     "Dans Marc 7, dans quelle région Jésus entra-t-il sans vouloir que personne le sache ?",
+     "Tyr",
+     "Égypte",
+     "Babylone"
+    ],
+    "de": [
+     "Markus 7: In welche Gegend ging Jesus, ohne dass es jemand wissen sollte?",
+     "Tyrus",
+     "Ägypten",
+     "Babylon"
+    ],
+    "it": [
+     "In Marco 7, in quale regione entrò Gesù senza che nessuno lo sapesse?",
+     "Tiro",
+     "Egitto",
+     "Babilonia"
+    ],
+    "pl": [
+     "W Ewangelii Marka 7: który region odwiedził Jezus, nie chcąc, by ktokolwiek wiedział?",
+     "Tyr",
+     "Egipt",
+     "Babilon"
+    ],
+    "ru": [
+     "Марк 7: В какую область пошёл Иисус, не желая, чтобы кто-либо знал?",
+     "Тир",
+     "Египет",
+     "Вавилон"
+    ],
+    "tr": [
+     "Markos 7'de, İsa'nın kimsenin bilmesini istemeden girdiği bölge hangisiydi?",
+     "Sur",
+     "Mısır",
+     "Babil"
+    ],
+    "ja": [
+     "マルコ7章で、イエスが誰にも知られたくないと思いながら入った地方はどこですか？",
+     "ティルス",
+     "エジプト",
+     "バビロン"
+    ],
+    "ko": [
+     "마르코 7장에서 예수님이 아무도 알지 못하게 하시려고 들어가신 지방은 어디입니까?",
+     "티로",
+     "이집트",
+     "바빌론"
+    ],
+    "ar": [
+     "في مرقس 7، إلى أي منطقة دخل يسوع دون أن يريد أن يعلم أحد؟",
+     "صور",
+     "مصر",
+     "بابل"
+    ]
+   }
+  },
+  {
+   "id": "ch-mark-001-33",
+   "book": "mark",
+   "chapter": 7,
+   "difficulty": "hard",
+   "ref": "Mark 7:6",
+   "text": {
+    "en": [
+     "In Mark 7, which prophet, according to Jesus, spoke of honoring God with lips?",
+     "Isaiah",
+     "Jeremiah",
+     "Ezekiel"
+    ],
+    "es": [
+     "Marcos 7: Según Jesús, ¿qué profeta habló de honrar a Dios con los labios?",
+     "Isaías",
+     "Jeremías",
+     "Ezequiel"
+    ],
+    "pt": [
+     "Em Marcos 7, segundo Jesus, que profeta falou de honrar a Deus com os lábios?",
+     "Isaías",
+     "Jeremias",
+     "Ezequiel"
+    ],
+    "fr": [
+     "Dans Marc 7, selon Jésus, quel prophète a parlé d'honorer Dieu des lèvres ?",
+     "Isaïe",
+     "Jérémie",
+     "Ézéchiel"
+    ],
+    "de": [
+     "Markus 7: Welcher Prophet sprach nach Jesu Worten davon, Gott mit den Lippen zu ehren?",
+     "Jesaja",
+     "Jeremia",
+     "Ezechiel"
+    ],
+    "it": [
+     "In Marco 7, secondo Gesù, quale profeta parlò dell'onorare Dio con le labbra?",
+     "Isaia",
+     "Geremia",
+     "Ezechiele"
+    ],
+    "pl": [
+     "W Ewangelii Marka 7: który prorok, według Jezusa, mówił o czczeniu Boga wargami?",
+     "Izajasz",
+     "Jeremiasz",
+     "Ezechiel"
+    ],
+    "ru": [
+     "Марк 7: Какой пророк, по словам Иисуса, говорил о почитании Бога устами?",
+     "Исаия",
+     "Иеремия",
+     "Иезекииль"
+    ],
+    "tr": [
+     "Markos 7'de, İsa'ya göre dudaklarla Tanrı'yı onurlandırmaktan söz eden peygamber kimdi?",
+     "İşaya",
+     "Yeremya",
+     "Hezekiel"
+    ],
+    "ja": [
+     "マルコ7章で、唇で神を敬うことについて、イエスによれば預言したのは誰ですか？",
+     "イザヤ",
+     "エレミヤ",
+     "エゼキエル"
+    ],
+    "ko": [
+     "마르코 7장에서 예수님에 따르면 입술로 하느님을 공경하는 것에 관해 예언한 이는 누구입니까?",
+     "이사야",
+     "예레미야",
+     "에제키엘"
+    ],
+    "ar": [
+     "في مرقس 7، بحسب يسوع، أي نبي تنبأ عن إكرام الله بالشفاه؟",
+     "أشعيا",
+     "إرميا",
+     "حزقيال"
+    ]
+   }
+  },
+  {
+   "id": "ch-mark-001-34",
+   "book": "mark",
+   "chapter": 7,
+   "difficulty": "expert",
+   "ref": "Mark 7:33",
+   "text": {
+    "en": [
+     "In Mark 7, what did Jesus put into the deaf man's ears?",
+     "Fingers",
+     "Oil",
+     "Salt"
+    ],
+    "es": [
+     "Marcos 7: ¿Qué metió Jesús en los oídos del sordo?",
+     "Dedos",
+     "Aceite",
+     "Sal"
+    ],
+    "pt": [
+     "Em Marcos 7, o que Jesus colocou nos ouvidos do surdo?",
+     "Dedos",
+     "Óleo",
+     "Sal"
+    ],
+    "fr": [
+     "Dans Marc 7, qu'est-ce que Jésus mit dans les oreilles du sourd ?",
+     "Doigts",
+     "Huile",
+     "Sel"
+    ],
+    "de": [
+     "Markus 7: Was legte Jesus in die Ohren des Taubstummen?",
+     "Finger",
+     "Öl",
+     "Salz"
+    ],
+    "it": [
+     "In Marco 7, che cosa mise Gesù negli orecchi del sordo?",
+     "Dita",
+     "Olio",
+     "Sale"
+    ],
+    "pl": [
+     "W Ewangelii Marka 7: co włożył Jezus do uszu głuchoniemego?",
+     "Palce",
+     "Olej",
+     "Sól"
+    ],
+    "ru": [
+     "Марк 7: Что Иисус вложил в уши глухого?",
+     "Пальцы",
+     "Масло",
+     "Соль"
+    ],
+    "tr": [
+     "Markos 7'de, İsa sağırın kulaklarına ne soktu?",
+     "Parmaklar",
+     "Yağ",
+     "Tuz"
+    ],
+    "ja": [
+     "マルコ7章で、イエスは耳の聞こえない人の耳に何を入れましたか？",
+     "指",
+     "油",
+     "塩"
+    ],
+    "ko": [
+     "마르코 7장에서 예수님은 귀먹은 이의 귀에 무엇을 넣으셨습니까?",
+     "손가락",
+     "기름",
+     "소금"
+    ],
+    "ar": [
+     "في مرقس 7، ماذا وضع يسوع في أذني الأصم؟",
+     "أصابع",
+     "زيت",
+     "ملح"
+    ]
+   }
+  },
+  {
+   "id": "ch-mark-001-35",
+   "book": "mark",
+   "chapter": 7,
+   "difficulty": "impossible",
+   "ref": "Mark 7:11",
+   "text": {
+    "en": [
+     "In Mark 7, which word means a gift declared dedicated to God?",
+     "Corban",
+     "Amen",
+     "Hosanna"
+    ],
+    "es": [
+     "Marcos 7: ¿Qué palabra significa una ofrenda declarada consagrada a Dios?",
+     "Corbán",
+     "Amén",
+     "Hosanna"
+    ],
+    "pt": [
+     "Em Marcos 7, que palavra significa uma oferta declarada consagrada a Deus?",
+     "Corbã",
+     "Amém",
+     "Hosana"
+    ],
+    "fr": [
+     "Dans Marc 7, quel mot désigne un don déclaré consacré à Dieu ?",
+     "Korbân",
+     "Amen",
+     "Hosanna"
+    ],
+    "de": [
+     "Markus 7: Welches Wort bezeichnet eine Gabe, die Gott geweiht ist?",
+     "Korban",
+     "Amen",
+     "Hosanna"
+    ],
+    "it": [
+     "In Marco 7, quale parola indica un dono dichiarato consacrato a Dio?",
+     "Korbàn",
+     "Amen",
+     "Osanna"
+    ],
+    "pl": [
+     "W Ewangelii Marka 7: jakie słowo oznacza dar przeznaczony Bogu?",
+     "Korban",
+     "Amen",
+     "Hosanna"
+    ],
+    "ru": [
+     "Марк 7: Какое слово означает дар, посвящённый Богу?",
+     "Корван",
+     "Аминь",
+     "Осанна"
+    ],
+    "tr": [
+     "Markos 7'de, Tanrı'ya adanmış armağan anlamına gelen sözcük hangisidir?",
+     "Korban",
+     "Amin",
+     "Hosana"
+    ],
+    "ja": [
+     "マルコ7章で、神にささげられた供え物を意味する言葉は何ですか？",
+     "コルバン",
+     "アーメン",
+     "ホサナ"
+    ],
+    "ko": [
+     "마르코 7장에서 하느님께 바친 예물을 뜻하는 말은 무엇입니까?",
+     "코르반",
+     "아멘",
+     "호산나"
+    ],
+    "ar": [
+     "في مرقس 7، أي كلمة تعني تقدمة مكرسة لله؟",
+     "قربان",
+     "آمين",
+     "هوشعنا"
+    ]
+   }
+  },
+  {
+   "id": "ch-mark-001-36",
+   "book": "mark",
+   "chapter": 8,
+   "difficulty": "easy",
+   "ref": "Mark 8:29",
+   "text": {
+    "en": [
+     "In Mark 8, which title did Peter give Jesus?",
+     "Christ",
+     "Prophet",
+     "King"
+    ],
+    "es": [
+     "Marcos 8: ¿Qué título dio Pedro a Jesús?",
+     "Cristo",
+     "Profeta",
+     "Rey"
+    ],
+    "pt": [
+     "Em Marcos 8, que título Pedro deu a Jesus?",
+     "Cristo",
+     "Profeta",
+     "Rei"
+    ],
+    "fr": [
+     "Dans Marc 8, quel titre Pierre donna-t-il à Jésus ?",
+     "Christ",
+     "Prophète",
+     "Roi"
+    ],
+    "de": [
+     "Markus 8: Welchen Titel gab Petrus Jesus?",
+     "Christus",
+     "Prophet",
+     "König"
+    ],
+    "it": [
+     "In Marco 8, quale titolo diede Pietro a Gesù?",
+     "Cristo",
+     "Profeta",
+     "Re"
+    ],
+    "pl": [
+     "W Ewangelii Marka 8: jaki tytuł nadał Piotr Jezusowi?",
+     "Chrystus",
+     "Prorok",
+     "Król"
+    ],
+    "ru": [
+     "Марк 8: Какой титул дал Пётр Иисусу?",
+     "Христос",
+     "Пророк",
+     "Царь"
+    ],
+    "tr": [
+     "Markos 8'de, Petrus İsa'ya hangi unvanı verdi?",
+     "Mesih",
+     "Peygamber",
+     "Kral"
+    ],
+    "ja": [
+     "マルコ8章で、ペトロはイエスにどんな称号を告白しましたか？",
+     "キリスト",
+     "預言者",
+     "王"
+    ],
+    "ko": [
+     "마르코 8장에서 베드로는 예수님께 어떤 칭호를 고백했습니까?",
+     "그리스도",
+     "예언자",
+     "임금"
+    ],
+    "ar": [
+     "في مرقس 8، أي لقب أعطى بطرس ليسوع؟",
+     "المسيح",
+     "نبي",
+     "ملك"
+    ]
+   }
+  },
+  {
+   "id": "ch-mark-001-37",
+   "book": "mark",
+   "chapter": 8,
+   "difficulty": "medium",
+   "ref": "Mark 8:34",
+   "text": {
+    "en": [
+     "In Mark 8, what must a disciple take up to follow Jesus?",
+     "Cross",
+     "Sword",
+     "Stone"
+    ],
+    "es": [
+     "Marcos 8: ¿Qué debe cargar el discípulo para seguir a Jesús?",
+     "Cruz",
+     "Espada",
+     "Piedra"
+    ],
+    "pt": [
+     "Em Marcos 8, o que o discípulo deve tomar para seguir Jesus?",
+     "Cruz",
+     "Espada",
+     "Pedra"
+    ],
+    "fr": [
+     "Dans Marc 8, que doit prendre le disciple pour suivre Jésus ?",
+     "Croix",
+     "Épée",
+     "Pierre"
+    ],
+    "de": [
+     "Markus 8: Was muss der Jünger auf sich nehmen, um Jesus zu folgen?",
+     "Kreuz",
+     "Schwert",
+     "Stein"
+    ],
+    "it": [
+     "In Marco 8, che cosa deve prendere il discepolo per seguire Gesù?",
+     "Croce",
+     "Spada",
+     "Pietra"
+    ],
+    "pl": [
+     "W Ewangelii Marka 8: co musi wziąć uczeń, by iść za Jezusem?",
+     "Krzyż",
+     "Miecz",
+     "Kamień"
+    ],
+    "ru": [
+     "Марк 8: Что должен взять ученик, чтобы следовать за Иисусом?",
+     "Крест",
+     "Меч",
+     "Камень"
+    ],
+    "tr": [
+     "Markos 8'de, öğrencinin İsa'yı izlemek için yüklenmesi gereken şey nedir?",
+     "Çarmıh",
+     "Kılıç",
+     "Taş"
+    ],
+    "ja": [
+     "マルコ8章で、イエスに従う者は何を背負わなければなりませんか？",
+     "十字架",
+     "剣",
+     "石"
+    ],
+    "ko": [
+     "마르코 8장에서 예수님을 따르려는 이는 무엇을 짊어져야 합니까?",
+     "십자가",
+     "칼",
+     "돌"
+    ],
+    "ar": [
+     "في مرقس 8، ماذا يجب أن يحمل التلميذ ليتبع يسوع؟",
+     "صليب",
+     "سيف",
+     "حجر"
+    ]
+   }
+  },
+  {
+   "id": "ch-mark-001-38",
+   "book": "mark",
+   "chapter": 8,
+   "difficulty": "hard",
+   "ref": "Mark 8:23",
+   "text": {
+    "en": [
+     "In Mark 8, what did Jesus put on the blind man's eyes?",
+     "Saliva",
+     "Water",
+     "Honey"
+    ],
+    "es": [
+     "Marcos 8: ¿Qué puso Jesús en los ojos del ciego?",
+     "Saliva",
+     "Agua",
+     "Miel"
+    ],
+    "pt": [
+     "Em Marcos 8, o que Jesus pôs nos olhos do cego?",
+     "Saliva",
+     "Água",
+     "Mel"
+    ],
+    "fr": [
+     "Dans Marc 8, qu'est-ce que Jésus mit sur les yeux de l'aveugle ?",
+     "Salive",
+     "Eau",
+     "Miel"
+    ],
+    "de": [
+     "Markus 8: Was legte Jesus auf die Augen des Blinden?",
+     "Speichel",
+     "Wasser",
+     "Honig"
+    ],
+    "it": [
+     "In Marco 8, che cosa mise Gesù sugli occhi del cieco?",
+     "Saliva",
+     "Acqua",
+     "Miele"
+    ],
+    "pl": [
+     "W Ewangelii Marka 8: co zostało przyłożone przez Jezusa do oczu niewidomego?",
+     "Ślina",
+     "Woda",
+     "Miód"
+    ],
+    "ru": [
+     "Марк 8: Что было нанесено Иисусом на глаза слепого?",
+     "Слюна",
+     "Вода",
+     "Мёд"
+    ],
+    "tr": [
+     "Markos 8'de, İsa körün gözlerine ne sürdü?",
+     "Tükürük",
+     "Su",
+     "Bal"
+    ],
+    "ja": [
+     "マルコ8章で、イエスが盲人の目につけたものは何ですか？",
+     "唾",
+     "水",
+     "蜂蜜"
+    ],
+    "ko": [
+     "마르코 8장에서 예수님이 눈먼 이의 눈에 바르신 것은 무엇입니까?",
+     "침",
+     "물",
+     "꿀"
+    ],
+    "ar": [
+     "في مرقس 8، ماذا وضع يسوع على عيني الأعمى؟",
+     "بصاق",
+     "ماء",
+     "عسل"
+    ]
+   }
+  },
+  {
+   "id": "ch-mark-001-39",
+   "book": "mark",
+   "chapter": 8,
+   "difficulty": "expert",
+   "ref": "Mark 8:15",
+   "text": {
+    "en": [
+     "In Mark 8, which ruler joins the Pharisees in Jesus' warning about leaven?",
+     "Herod",
+     "Pilate",
+     "Pharaoh"
+    ],
+    "es": [
+     "Marcos 8: ¿Qué gobernante aparece junto a los fariseos en la advertencia de Jesús sobre la levadura?",
+     "Herodes",
+     "Pilato",
+     "Faraón"
+    ],
+    "pt": [
+     "Em Marcos 8, que governante aparece com os fariseus no alerta de Jesus sobre o fermento?",
+     "Herodes",
+     "Pilatos",
+     "Faraó"
+    ],
+    "fr": [
+     "Dans Marc 8, quel dirigeant est cité avec les pharisiens dans la mise en garde de Jésus sur le levain ?",
+     "Hérode",
+     "Pilate",
+     "Pharaon"
+    ],
+    "de": [
+     "Markus 8: Welcher Herrscher wird in Jesu Warnung vor dem Sauerteig neben den Pharisäern genannt?",
+     "Herodes",
+     "Pilatus",
+     "Pharao"
+    ],
+    "it": [
+     "In Marco 8, quale sovrano è nominato con i farisei nell'avvertimento di Gesù sul lievito?",
+     "Erode",
+     "Pilato",
+     "Faraone"
+    ],
+    "pl": [
+     "W Ewangelii Marka 8: który władca jest wymieniony z faryzeuszami w przestrodze Jezusa przed zakwasem?",
+     "Herod",
+     "Piłat",
+     "Faraon"
+    ],
+    "ru": [
+     "Марк 8: Какой правитель назван вместе с фарисеями в предостережении Иисуса о закваске?",
+     "Ирод",
+     "Пилат",
+     "Фараон"
+    ],
+    "tr": [
+     "Markos 8'de, İsa'nın mayayla ilgili uyarısında Ferisilerle birlikte hangi hükümdar anılır?",
+     "Hirodes",
+     "Pilatus",
+     "Firavun"
+    ],
+    "ja": [
+     "マルコ8章で、イエスのパン種についての警告で、ファリサイ派の人々とともに挙げられる支配者は誰ですか？",
+     "ヘロデ",
+     "ピラト",
+     "ファラオ"
+    ],
+    "ko": [
+     "마르코 8장에서 누룩에 대한 예수님의 경고에서 바리사이들과 함께 언급되는 통치자는 누구입니까?",
+     "헤로데",
+     "빌라도",
+     "파라오"
+    ],
+    "ar": [
+     "في مرقس 8، أي حاكم يُذكر مع الفريسيين في تحذير يسوع من الخمير؟",
+     "هيرودس",
+     "بيلاطس",
+     "فرعون"
+    ]
+   }
+  },
+  {
+   "id": "ch-mark-001-40",
+   "book": "mark",
+   "chapter": 8,
+   "difficulty": "impossible",
+   "ref": "Mark 8:10",
+   "text": {
+    "en": [
+     "In Mark 8, which district did Jesus visit after feeding the four thousand?",
+     "Dalmanutha",
+     "Capernaum",
+     "Nazareth"
+    ],
+    "es": [
+     "Marcos 8: ¿Qué región visitó Jesús después de alimentar a los cuatro mil?",
+     "Dalmanutá",
+     "Cafarnaún",
+     "Nazaret"
+    ],
+    "pt": [
+     "Em Marcos 8, que região Jesus visitou depois de alimentar os quatro mil?",
+     "Dalmanuta",
+     "Cafarnaum",
+     "Nazaré"
+    ],
+    "fr": [
+     "Dans Marc 8, quelle région Jésus visita-t-il après avoir nourri les quatre mille ?",
+     "Dalmanoutha",
+     "Capharnaüm",
+     "Nazareth"
+    ],
+    "de": [
+     "Markus 8: Welche Gegend besuchte Jesus, nachdem er die Viertausend gespeist hatte?",
+     "Dalmanuta",
+     "Kafarnaum",
+     "Nazaret"
+    ],
+    "it": [
+     "In Marco 8, quale regione visitò Gesù dopo aver sfamato i quattromila?",
+     "Dalmanutà",
+     "Cafàrnao",
+     "Nazaret"
+    ],
+    "pl": [
+     "W Ewangelii Marka 8: którą okolicę odwiedził Jezus po nakarmieniu czterech tysięcy?",
+     "Dalmanuta",
+     "Kafarnaum",
+     "Nazaret"
+    ],
+    "ru": [
+     "Марк 8: Какую область посетил Иисус после того, как накормил четыре тысячи?",
+     "Далмануфа",
+     "Капернаум",
+     "Назарет"
+    ],
+    "tr": [
+     "Markos 8'de, İsa'nın dört bin kişiyi doyurduktan sonra gittiği bölge hangisidir?",
+     "Dalmanuta",
+     "Kefernahum",
+     "Nasıra"
+    ],
+    "ja": [
+     "マルコ8章で、四千人を養った後、イエスが訪れた地方はどこですか？",
+     "ダルマヌタ",
+     "カファルナウム",
+     "ナザレ"
+    ],
+    "ko": [
+     "마르코 8장에서 사천 명을 먹이신 뒤 예수님이 가신 지방은 어디입니까?",
+     "달마누타",
+     "카파르나움",
+     "나자렛"
+    ],
+    "ar": [
+     "في مرقس 8، أي منطقة زارها يسوع بعد إطعام الأربعة آلاف؟",
+     "دلمانوثة",
+     "كفرناحوم",
+     "الناصرة"
+    ]
+   }
+  },
+  {
+   "id": "ch-mark-001-41",
+   "book": "mark",
+   "chapter": 9,
+   "difficulty": "easy",
+   "ref": "Mark 9:4",
+   "text": {
+    "en": [
+     "In Mark 9, which prophet appeared with Moses at the transfiguration?",
+     "Elijah",
+     "Isaiah",
+     "Daniel"
+    ],
+    "es": [
+     "Marcos 9: ¿Qué profeta apareció con Moisés en la transfiguración?",
+     "Elías",
+     "Isaías",
+     "Daniel"
+    ],
+    "pt": [
+     "Em Marcos 9, que profeta apareceu com Moisés na transfiguração?",
+     "Elias",
+     "Isaías",
+     "Daniel"
+    ],
+    "fr": [
+     "Dans Marc 9, quel prophète apparut avec Moïse lors de la transfiguration ?",
+     "Élie",
+     "Isaïe",
+     "Daniel"
+    ],
+    "de": [
+     "Markus 9: Welcher Prophet erschien bei der Verklärung mit Mose?",
+     "Elija",
+     "Jesaja",
+     "Daniel"
+    ],
+    "it": [
+     "In Marco 9, quale profeta apparve con Mosè nella trasfigurazione?",
+     "Elia",
+     "Isaia",
+     "Daniele"
+    ],
+    "pl": [
+     "W Ewangelii Marka 9: który prorok ukazał się z Mojżeszem podczas przemienienia?",
+     "Eliasz",
+     "Izajasz",
+     "Daniel"
+    ],
+    "ru": [
+     "Марк 9: Какой пророк явился с Моисеем при преображении?",
+     "Илия",
+     "Исаия",
+     "Даниил"
+    ],
+    "tr": [
+     "Markos 9'da, İsa'nın görünümü değişirken Musa ile birlikte hangi peygamber göründü?",
+     "İlyas",
+     "İşaya",
+     "Daniel"
+    ],
+    "ja": [
+     "マルコ9章で、変容の場面でモーセとともに現れた預言者は誰ですか？",
+     "エリヤ",
+     "イザヤ",
+     "ダニエル"
+    ],
+    "ko": [
+     "마르코 9장에서 변모 때 모세와 함께 나타난 예언자는 누구입니까?",
+     "엘리야",
+     "이사야",
+     "다니엘"
+    ],
+    "ar": [
+     "في مرقس 9، أي نبي ظهر مع موسى عند التجلي؟",
+     "إيليا",
+     "أشعيا",
+     "دانيال"
+    ]
+   }
+  },
+  {
+   "id": "ch-mark-001-42",
+   "book": "mark",
+   "chapter": 9,
+   "difficulty": "medium",
+   "ref": "Mark 9:5",
+   "text": {
+    "en": [
+     "In Mark 9, how many tents did Peter offer to make on the mountain?",
+     "3",
+     "2",
+     "7"
+    ],
+    "es": [
+     "Marcos 9: ¿Cuántas tiendas se ofreció Pedro a hacer en el monte?",
+     "3",
+     "2",
+     "7"
+    ],
+    "pt": [
+     "Em Marcos 9, quantas tendas Pedro se ofereceu para fazer no monte?",
+     "3",
+     "2",
+     "7"
+    ],
+    "fr": [
+     "Dans Marc 9, combien de tentes Pierre proposa-t-il de dresser sur la montagne ?",
+     "3",
+     "2",
+     "7"
+    ],
+    "de": [
+     "Markus 9: Wie viele Hütten wollte Petrus auf dem Berg bauen?",
+     "3",
+     "2",
+     "7"
+    ],
+    "it": [
+     "In Marco 9, quante tende si offrì di fare Pietro sul monte?",
+     "3",
+     "2",
+     "7"
+    ],
+    "pl": [
+     "W Ewangelii Marka 9: ile namiotów zaproponował Piotr na górze?",
+     "3",
+     "2",
+     "7"
+    ],
+    "ru": [
+     "Марк 9: Сколько кущей предложил сделать Пётр на горе?",
+     "3",
+     "2",
+     "7"
+    ],
+    "tr": [
+     "Markos 9'da, Petrus dağda kaç çadır kurmayı önerdi?",
+     "3",
+     "2",
+     "7"
+    ],
+    "ja": [
+     "マルコ9章で、ペトロは山の上で幾つの仮小屋を建てると申し出ましたか？",
+     "3",
+     "2",
+     "7"
+    ],
+    "ko": [
+     "마르코 9장에서 베드로는 산 위에 초막을 몇 채 지으려고 했습니까?",
+     "3",
+     "2",
+     "7"
+    ],
+    "ar": [
+     "في مرقس 9، كم مظلة عرض بطرس أن يصنع على الجبل؟",
+     "3",
+     "2",
+     "7"
+    ]
+   }
+  },
+  {
+   "id": "ch-mark-001-43",
+   "book": "mark",
+   "chapter": 9,
+   "difficulty": "hard",
+   "ref": "Mark 9:7",
+   "text": {
+    "en": [
+     "In Mark 9, what overshadowed the disciples at the transfiguration?",
+     "Cloud",
+     "Fire",
+     "Smoke"
+    ],
+    "es": [
+     "Marcos 9: ¿Qué cubrió con su sombra a los discípulos en la transfiguración?",
+     "Nube",
+     "Fuego",
+     "Humo"
+    ],
+    "pt": [
+     "Em Marcos 9, o que cobriu os discípulos com sua sombra na transfiguração?",
+     "Nuvem",
+     "Fogo",
+     "Fumaça"
+    ],
+    "fr": [
+     "Dans Marc 9, qu'est-ce qui couvrit les disciples de son ombre lors de la transfiguration ?",
+     "Nuée",
+     "Feu",
+     "Fumée"
+    ],
+    "de": [
+     "Markus 9: Was überschattete die Jünger bei der Verklärung?",
+     "Wolke",
+     "Feuer",
+     "Rauch"
+    ],
+    "it": [
+     "In Marco 9, che cosa coprì con la sua ombra i discepoli nella trasfigurazione?",
+     "Nube",
+     "Fuoco",
+     "Fumo"
+    ],
+    "pl": [
+     "W Ewangelii Marka 9: co ocieniło uczniów podczas przemienienia?",
+     "Chmura",
+     "Ogień",
+     "Dym"
+    ],
+    "ru": [
+     "Марк 9: Что осенило учеников при преображении?",
+     "Облако",
+     "Огонь",
+     "Дым"
+    ],
+    "tr": [
+     "Markos 9'da, İsa'nın görünümü değişirken öğrencileri ne gölgeledi?",
+     "Bulut",
+     "Ateş",
+     "Duman"
+    ],
+    "ja": [
+     "マルコ9章で、変容の場面で弟子たちを覆ったものは何ですか？",
+     "雲",
+     "火",
+     "煙"
+    ],
+    "ko": [
+     "마르코 9장에서 변모 때 제자들을 덮은 것은 무엇입니까?",
+     "구름",
+     "불",
+     "연기"
+    ],
+    "ar": [
+     "في مرقس 9، ما الذي ظلّل التلاميذ عند التجلي؟",
+     "سحابة",
+     "نار",
+     "دخان"
+    ]
+   }
+  },
+  {
+   "id": "ch-mark-001-44",
+   "book": "mark",
+   "chapter": 9,
+   "difficulty": "expert",
+   "ref": "Mark 9:47",
+   "text": {
+    "en": [
+     "In Mark 9, besides hand and foot, which body part causing sin is removed?",
+     "Eye",
+     "Ear",
+     "Tongue"
+    ],
+    "es": [
+     "Marcos 9: Además de la mano y el pie, ¿qué parte del cuerpo que haga pecar se arranca?",
+     "Ojo",
+     "Oreja",
+     "Lengua"
+    ],
+    "pt": [
+     "Em Marcos 9, além da mão e do pé, que parte do corpo que faz pecar deve ser arrancada?",
+     "Olho",
+     "Orelha",
+     "Língua"
+    ],
+    "fr": [
+     "Dans Marc 9, outre la main et le pied, quelle partie du corps qui fait pécher faut-il arracher ?",
+     "Œil",
+     "Oreille",
+     "Langue"
+    ],
+    "de": [
+     "Markus 9: Welches Körperteil soll man außer Hand und Fuß ausreißen, wenn es zur Sünde verführt?",
+     "Auge",
+     "Ohr",
+     "Zunge"
+    ],
+    "it": [
+     "In Marco 9, oltre alla mano e al piede, quale parte del corpo che scandalizza va strappata?",
+     "Occhio",
+     "Orecchio",
+     "Lingua"
+    ],
+    "pl": [
+     "W Ewangelii Marka 9: oprócz ręki i nogi, jaką część ciała, która gorszy, należy wyrwać?",
+     "Oko",
+     "Ucho",
+     "Język"
+    ],
+    "ru": [
+     "Марк 9: Кроме руки и ноги, какую часть тела, соблазняющую ко греху, надо вырвать?",
+     "Глаз",
+     "Ухо",
+     "Язык"
+    ],
+    "tr": [
+     "Markos 9'da, el ve ayaktan başka günaha düşüren hangi organ sökülüp atılmalıdır?",
+     "Göz",
+     "Kulak",
+     "Dil"
+    ],
+    "ja": [
+     "マルコ9章で、手と足のほかに、罪を犯させるなら抜き出すべき体の部分は何ですか？",
+     "目",
+     "耳",
+     "舌"
+    ],
+    "ko": [
+     "마르코 9장에서 손과 발 말고 죄짓게 하면 빼 버려야 할 신체 부위는 무엇입니까?",
+     "눈",
+     "귀",
+     "혀"
+    ],
+    "ar": [
+     "في مرقس 9، غير اليد والرجل، أي عضو يسبب العثرة يجب قلعه؟",
+     "عين",
+     "أذن",
+     "لسان"
+    ]
+   }
+  },
+  {
+   "id": "ch-mark-001-45",
+   "book": "mark",
+   "chapter": 9,
+   "difficulty": "impossible",
+   "ref": "Mark 9:49",
+   "text": {
+    "en": [
+     "In Mark 9, everyone will be salted with what?",
+     "Fire",
+     "Water",
+     "Wind"
+    ],
+    "es": [
+     "Marcos 9: ¿Con qué será salado todo el mundo?",
+     "Fuego",
+     "Agua",
+     "Viento"
+    ],
+    "pt": [
+     "Em Marcos 9, com o que todos serão salgados?",
+     "Fogo",
+     "Água",
+     "Vento"
+    ],
+    "fr": [
+     "Dans Marc 9, par quoi chacun sera-t-il salé ?",
+     "Feu",
+     "Eau",
+     "Vent"
+    ],
+    "de": [
+     "Markus 9: Womit wird jeder gesalzen werden?",
+     "Feuer",
+     "Wasser",
+     "Wind"
+    ],
+    "it": [
+     "In Marco 9, con che cosa ognuno sarà salato?",
+     "Fuoco",
+     "Acqua",
+     "Vento"
+    ],
+    "pl": [
+     "W Ewangelii Marka 9: czym każdy będzie posolony?",
+     "Ogniem",
+     "Wodą",
+     "Wiatrem"
+    ],
+    "ru": [
+     "Марк 9: Чем каждый будет осолён?",
+     "Огнём",
+     "Водой",
+     "Ветром"
+    ],
+    "tr": [
+     "Markos 9'da, herkes neyle tuzlanacak?",
+     "Ateşle",
+     "Suyla",
+     "Rüzgârla"
+    ],
+    "ja": [
+     "マルコ9章で、人は皆、何で塩づけにされますか？",
+     "火",
+     "水",
+     "風"
+    ],
+    "ko": [
+     "마르코 9장에서 모든 사람은 무엇으로 소금 간이 되겠습니까?",
+     "불",
+     "물",
+     "바람"
+    ],
+    "ar": [
+     "في مرقس 9، بماذا سيُملَّح كل واحد؟",
+     "نار",
+     "ماء",
+     "ريح"
+    ]
+   }
+  },
+  {
+   "id": "ch-mark-001-46",
+   "book": "mark",
+   "chapter": 10,
+   "difficulty": "easy",
+   "ref": "Mark 10:25",
+   "text": {
+    "en": [
+     "In Mark 10, which animal passes through the eye of a needle?",
+     "Camel",
+     "Elephant",
+     "Donkey"
+    ],
+    "es": [
+     "Marcos 10: ¿Qué animal pasa por el ojo de una aguja?",
+     "Camello",
+     "Elefante",
+     "Burro"
+    ],
+    "pt": [
+     "Em Marcos 10, que animal passa pelo buraco de uma agulha?",
+     "Camelo",
+     "Elefante",
+     "Burro"
+    ],
+    "fr": [
+     "Dans Marc 10, quel animal passe par le trou d'une aiguille ?",
+     "Chameau",
+     "Éléphant",
+     "Âne"
+    ],
+    "de": [
+     "Markus 10: Welches Tier geht durch das Nadelöhr?",
+     "Kamel",
+     "Elefant",
+     "Esel"
+    ],
+    "it": [
+     "In Marco 10, quale animale passa per la cruna di un ago?",
+     "Cammello",
+     "Elefante",
+     "Asino"
+    ],
+    "pl": [
+     "W Ewangelii Marka 10: jakie zwierzę przechodzi przez ucho igielne?",
+     "Wielbłąd",
+     "Słoń",
+     "Osioł"
+    ],
+    "ru": [
+     "Марк 10: Какое животное проходит сквозь игольное ушко?",
+     "Верблюд",
+     "Слон",
+     "Осёл"
+    ],
+    "tr": [
+     "Markos 10'da, hangi hayvan iğnenin deliğinden geçer?",
+     "Deve",
+     "Fil",
+     "Eşek"
+    ],
+    "ja": [
+     "マルコ10章で、針の穴を通るのはどの動物ですか？",
+     "ラクダ",
+     "象",
+     "ロバ"
+    ],
+    "ko": [
+     "마르코 10장에서 바늘귀를 통과하는 동물은 무엇입니까?",
+     "낙타",
+     "코끼리",
+     "나귀"
+    ],
+    "ar": [
+     "في مرقس 10، أي حيوان يمر من ثقب إبرة؟",
+     "جمل",
+     "فيل",
+     "حمار"
+    ]
+   }
+  },
+  {
+   "id": "ch-mark-001-47",
+   "book": "mark",
+   "chapter": 10,
+   "difficulty": "medium",
+   "ref": "Mark 10:13",
+   "text": {
+    "en": [
+     "In Mark 10, whom did people bring to Jesus so he might touch them?",
+     "Children",
+     "Women",
+     "Sheep"
+    ],
+    "es": [
+     "Marcos 10: ¿A quiénes llevaba la gente a Jesús para que los tocara?",
+     "Niños",
+     "Mujeres",
+     "Ovejas"
+    ],
+    "pt": [
+     "Em Marcos 10, quem as pessoas levavam a Jesus para que os tocasse?",
+     "Crianças",
+     "Mulheres",
+     "Ovelhas"
+    ],
+    "fr": [
+     "Dans Marc 10, qui amenait-on à Jésus pour qu'il les touche ?",
+     "Enfants",
+     "Femmes",
+     "Brebis"
+    ],
+    "de": [
+     "Markus 10: Wen brachten Leute zu Jesus, damit er sie berühre?",
+     "Kinder",
+     "Frauen",
+     "Schafe"
+    ],
+    "it": [
+     "In Marco 10, chi portavano a Gesù perché li toccasse?",
+     "Bambini",
+     "Donne",
+     "Pecore"
+    ],
+    "pl": [
+     "W Ewangelii Marka 10: kogo przynoszono do Jezusa, aby ich dotknął?",
+     "Dzieci",
+     "Kobiety",
+     "Owce"
+    ],
+    "ru": [
+     "Марк 10: Кого приносили к Иисусу, чтобы Он прикоснулся к ним?",
+     "Детей",
+     "Женщин",
+     "Овец"
+    ],
+    "tr": [
+     "Markos 10'da, İsa dokunsun diye insanlar O'na kimleri getirdi?",
+     "Çocukları",
+     "Kadınları",
+     "Koyunları"
+    ],
+    "ja": [
+     "マルコ10章で、人々がイエスに触れてもらおうと連れて来たのは誰ですか？",
+     "子ども",
+     "女性",
+     "羊"
+    ],
+    "ko": [
+     "마르코 10장에서 사람들이 예수님께서 손을 얹어 주시도록 데려온 이는 누구입니까?",
+     "어린이",
+     "여자",
+     "양"
+    ],
+    "ar": [
+     "في مرقس 10، من أحضر الناس إلى يسوع ليلمسهم؟",
+     "أطفال",
+     "نساء",
+     "خراف"
+    ]
+   }
+  },
+  {
+   "id": "ch-mark-001-48",
+   "book": "mark",
+   "chapter": 10,
+   "difficulty": "hard",
+   "ref": "Mark 10:38",
+   "text": {
+    "en": [
+     "In Mark 10, besides the cup, what must James and John undergo?",
+     "Baptism",
+     "Circumcision",
+     "Exile"
+    ],
+    "es": [
+     "Marcos 10: Además del cáliz, ¿qué deben recibir Santiago y Juan?",
+     "Bautismo",
+     "Circuncisión",
+     "Destierro"
+    ],
+    "pt": [
+     "Em Marcos 10, além do cálice, o que Tiago e João devem receber?",
+     "Batismo",
+     "Circuncisão",
+     "Exílio"
+    ],
+    "fr": [
+     "Dans Marc 10, outre la coupe, que doivent recevoir Jacques et Jean ?",
+     "Baptême",
+     "Circoncision",
+     "Exil"
+    ],
+    "de": [
+     "Markus 10: Was müssen Jakobus und Johannes außer dem Kelch empfangen?",
+     "Taufe",
+     "Beschneidung",
+     "Verbannung"
+    ],
+    "it": [
+     "In Marco 10, oltre al calice, che cosa devono ricevere Giacomo e Giovanni?",
+     "Battesimo",
+     "Circoncisione",
+     "Esilio"
+    ],
+    "pl": [
+     "W Ewangelii Marka 10: oprócz kielicha, co mają przyjąć Jakub i Jan?",
+     "Chrzest",
+     "Obrzezanie",
+     "Wygnanie"
+    ],
+    "ru": [
+     "Марк 10: Кроме чаши, что должны принять Иаков и Иоанн?",
+     "Крещение",
+     "Обрезание",
+     "Изгнание"
+    ],
+    "tr": [
+     "Markos 10'da, Yakup ile Yuhanna'nın kâseden başka alması gereken şey nedir?",
+     "Vaftiz",
+     "Sünnet",
+     "Sürgün"
+    ],
+    "ja": [
+     "マルコ10章で、杯のほかにヤコブとヨハネが受けるべきものは何ですか？",
+     "洗礼",
+     "割礼",
+     "追放"
+    ],
+    "ko": [
+     "마르코 10장에서 야고보와 요한은 잔 외에 무엇을 받아야 합니까?",
+     "세례",
+     "할례",
+     "유배"
+    ],
+    "ar": [
+     "في مرقس 10، غير الكأس، ماذا يجب أن يقبل يعقوب ويوحنا؟",
+     "معمودية",
+     "ختان",
+     "نفي"
+    ]
+   }
+  },
+  {
+   "id": "ch-mark-001-49",
+   "book": "mark",
+   "chapter": 10,
+   "difficulty": "expert",
+   "ref": "Mark 10:30",
+   "text": {
+    "en": [
+     "In Mark 10, what accompanies the hundredfold Jesus promises now?",
+     "Persecutions",
+     "Plagues",
+     "Famines"
+    ],
+    "es": [
+     "Marcos 10: ¿Qué acompaña al ciento por uno que Jesús promete ahora?",
+     "Persecuciones",
+     "Plagas",
+     "Hambrunas"
+    ],
+    "pt": [
+     "Em Marcos 10, o que acompanha o cêntuplo que Jesus promete agora?",
+     "Perseguições",
+     "Pragas",
+     "Fomes"
+    ],
+    "fr": [
+     "Dans Marc 10, qu'est-ce qui accompagne le centuple que Jésus promet dès maintenant ?",
+     "Persécutions",
+     "Fléaux",
+     "Famines"
+    ],
+    "de": [
+     "Markus 10: Was begleitet das Hundertfache, das Jesus jetzt verspricht?",
+     "Verfolgungen",
+     "Plagen",
+     "Hungersnöte"
+    ],
+    "it": [
+     "In Marco 10, che cosa accompagna il centuplo che Gesù promette ora?",
+     "Persecuzioni",
+     "Piaghe",
+     "Carestie"
+    ],
+    "pl": [
+     "W Ewangelii Marka 10: co towarzyszy stokroć większej nagrodzie obiecanej przez Jezusa już teraz?",
+     "Prześladowania",
+     "Plagi",
+     "Głód"
+    ],
+    "ru": [
+     "Марк 10: Что сопутствует обещанному Иисусом сторицею уже в этом времени?",
+     "Гонения",
+     "Язвы",
+     "Голод"
+    ],
+    "tr": [
+     "Markos 10'da, İsa'nın şimdiden vaat ettiği yüz katına ne eşlik eder?",
+     "Zulüm",
+     "Salgın",
+     "Kıtlık"
+    ],
+    "ja": [
+     "マルコ10章で、イエスが今の時に約束する百倍に伴うものは何ですか？",
+     "迫害",
+     "疫病",
+     "飢饉"
+    ],
+    "ko": [
+     "마르코 10장에서 예수님이 지금 약속하신 백배에 따르는 것은 무엇입니까?",
+     "박해",
+     "재앙",
+     "기근"
+    ],
+    "ar": [
+     "في مرقس 10، ما الذي يصاحب المئة ضعف الذي يعد به يسوع الآن؟",
+     "اضطهادات",
+     "ضربات",
+     "مجاعات"
+    ]
+   }
+  },
+  {
+   "id": "ch-mark-001-50",
+   "book": "mark",
+   "chapter": 10,
+   "difficulty": "impossible",
+   "ref": "Mark 10:46",
+   "text": {
+    "en": [
+     "In Mark 10, who was the father of blind Bartimaeus?",
+     "Timaeus",
+     "Zebedee",
+     "Alphaeus"
+    ],
+    "es": [
+     "Marcos 10: ¿Quién era el padre del ciego Bartimeo?",
+     "Timeo",
+     "Zebedeo",
+     "Alfeo"
+    ],
+    "pt": [
+     "Em Marcos 10, quem era o pai do cego Bartimeu?",
+     "Timeu",
+     "Zebedeu",
+     "Alfeu"
+    ],
+    "fr": [
+     "Dans Marc 10, qui était le père de l'aveugle Bartimée ?",
+     "Timée",
+     "Zébédée",
+     "Alphée"
+    ],
+    "de": [
+     "Markus 10: Wer war der Vater des blinden Bartimäus?",
+     "Timäus",
+     "Zebedäus",
+     "Alphäus"
+    ],
+    "it": [
+     "In Marco 10, chi era il padre del cieco Bartimeo?",
+     "Timeo",
+     "Zebedeo",
+     "Alfeo"
+    ],
+    "pl": [
+     "W Ewangelii Marka 10: kto był ojcem niewidomego Bartymeusza?",
+     "Tymeusz",
+     "Zebedeusz",
+     "Alfeusz"
+    ],
+    "ru": [
+     "Марк 10: Кто был отцом слепого Вартимея?",
+     "Тимей",
+     "Зеведей",
+     "Алфей"
+    ],
+    "tr": [
+     "Markos 10'da, kör Bartimay'ın babası kimdi?",
+     "Timay",
+     "Zebedi",
+     "Alfay"
+    ],
+    "ja": [
+     "マルコ10章で、盲人バルティマイの父は誰ですか？",
+     "ティマイ",
+     "ゼベダイ",
+     "アルファイ"
+    ],
+    "ko": [
+     "마르코 10장에서 눈먼 바르티매오의 아버지는 누구입니까?",
+     "티매오",
+     "즈브대오",
+     "알패오"
+    ],
+    "ar": [
+     "في مرقس 10، من كان أبا الأعمى برطيماوس؟",
+     "طيماوس",
+     "زبدي",
+     "حلفى"
+    ]
+   }
+  },
+  {
+   "id": "ch-mark-001-51",
+   "book": "mark",
+   "chapter": 11,
+   "difficulty": "easy",
+   "ref": "Mark 11:9",
+   "text": {
+    "en": [
+     "In Mark 11, which word did crowds shout as Jesus entered Jerusalem?",
+     "Hosanna",
+     "Amen",
+     "Hallelujah"
+    ],
+    "es": [
+     "Marcos 11: ¿Qué palabra gritaba la multitud cuando Jesús entró en Jerusalén?",
+     "Hosanna",
+     "Amén",
+     "Aleluya"
+    ],
+    "pt": [
+     "Em Marcos 11, que palavra a multidão gritava quando Jesus entrou em Jerusalém?",
+     "Hosana",
+     "Amém",
+     "Aleluia"
+    ],
+    "fr": [
+     "Dans Marc 11, quel mot la foule criait-elle quand Jésus entra à Jérusalem ?",
+     "Hosanna",
+     "Amen",
+     "Alléluia"
+    ],
+    "de": [
+     "Markus 11: Welches Wort rief die Menge, als Jesus in Jerusalem einzog?",
+     "Hosanna",
+     "Amen",
+     "Halleluja"
+    ],
+    "it": [
+     "In Marco 11, quale parola gridava la folla quando Gesù entrò a Gerusalemme?",
+     "Osanna",
+     "Amen",
+     "Alleluia"
+    ],
+    "pl": [
+     "W Ewangelii Marka 11: jakie słowo wołał tłum, gdy Jezus wjeżdżał do Jerozolimy?",
+     "Hosanna",
+     "Amen",
+     "Alleluja"
+    ],
+    "ru": [
+     "Марк 11: Какое слово кричала толпа, когда Иисус въезжал в Иерусалим?",
+     "Осанна",
+     "Аминь",
+     "Аллилуия"
+    ],
+    "tr": [
+     "Markos 11'de, İsa Yeruşalim'e girerken kalabalığın haykırdığı sözcük hangisidir?",
+     "Hosana",
+     "Amin",
+     "Haleluya"
+    ],
+    "ja": [
+     "マルコ11章で、イエスがエルサレムに入るとき群衆が叫んだ言葉は何ですか？",
+     "ホサナ",
+     "アーメン",
+     "ハレルヤ"
+    ],
+    "ko": [
+     "마르코 11장에서 예수님이 예루살렘에 들어가실 때 군중이 외친 말은 무엇입니까?",
+     "호산나",
+     "아멘",
+     "할렐루야"
+    ],
+    "ar": [
+     "في مرقس 11، أي كلمة هتف بها الجمع عندما دخل يسوع أورشليم؟",
+     "هوشعنا",
+     "آمين",
+     "هللويا"
+    ]
+   }
+  },
+  {
+   "id": "ch-mark-001-52",
+   "book": "mark",
+   "chapter": 11,
+   "difficulty": "medium",
+   "ref": "Mark 11:23",
+   "text": {
+    "en": [
+     "In Mark 11, what could be thrown into the sea through faith?",
+     "Mountain",
+     "Tower",
+     "Wall"
+    ],
+    "es": [
+     "Marcos 11: ¿Qué puede ser arrojado al mar por medio de la fe?",
+     "Monte",
+     "Torre",
+     "Muro"
+    ],
+    "pt": [
+     "Em Marcos 11, o que pode ser lançado ao mar pela fé?",
+     "Montanha",
+     "Torre",
+     "Muro"
+    ],
+    "fr": [
+     "Dans Marc 11, qu'est-ce qui peut être jeté à la mer par la foi ?",
+     "Montagne",
+     "Tour",
+     "Mur"
+    ],
+    "de": [
+     "Markus 11: Was kann durch den Glauben ins Meer geworfen werden?",
+     "Berg",
+     "Turm",
+     "Mauer"
+    ],
+    "it": [
+     "In Marco 11, che cosa può essere gettato nel mare per mezzo della fede?",
+     "Monte",
+     "Torre",
+     "Muro"
+    ],
+    "pl": [
+     "W Ewangelii Marka 11: co może zostać wrzucone do morza dzięki wierze?",
+     "Góra",
+     "Wieża",
+     "Mur"
+    ],
+    "ru": [
+     "Марк 11: Что, по слову Иисуса, может быть брошено в море верой?",
+     "Гора",
+     "Башня",
+     "Стена"
+    ],
+    "tr": [
+     "Markos 11'de, iman sayesinde denize atılabilecek olan nedir?",
+     "Dağ",
+     "Kule",
+     "Duvar"
+    ],
+    "ja": [
+     "マルコ11章で、信仰によって海に投げ込まれるものは何ですか？",
+     "山",
+     "塔",
+     "壁"
+    ],
+    "ko": [
+     "마르코 11장에서 믿음으로 바다에 던져질 수 있는 것은 무엇입니까?",
+     "산",
+     "탑",
+     "벽"
+    ],
+    "ar": [
+     "في مرقس 11، ما الذي يمكن أن يُطرح في البحر بالإيمان؟",
+     "جبل",
+     "برج",
+     "جدار"
+    ]
+   }
+  },
+  {
+   "id": "ch-mark-001-53",
+   "book": "mark",
+   "chapter": 11,
+   "difficulty": "hard",
+   "ref": "Mark 11:17",
+   "text": {
+    "en": [
+     "In Mark 11, Jesus says the temple was made a den of whom?",
+     "Robbers",
+     "Beggars",
+     "Soldiers"
+    ],
+    "es": [
+     "Marcos 11: ¿De quiénes dice Jesús que se ha hecho cueva el Templo?",
+     "Ladrones",
+     "Mendigos",
+     "Soldados"
+    ],
+    "pt": [
+     "Em Marcos 11, de quem Jesus diz que o Templo se tornou covil?",
+     "Ladrões",
+     "Mendigos",
+     "Soldados"
+    ],
+    "fr": [
+     "Dans Marc 11, de qui Jésus dit-il que le Temple est devenu un repaire ?",
+     "Voleurs",
+     "Mendiants",
+     "Soldats"
+    ],
+    "de": [
+     "Markus 11: Wessen Höhle hat man laut Jesus aus dem Tempel gemacht?",
+     "Räuber",
+     "Bettler",
+     "Soldaten"
+    ],
+    "it": [
+     "In Marco 11, di chi Gesù dice che il tempio è diventato un covo?",
+     "Ladri",
+     "Mendicanti",
+     "Soldati"
+    ],
+    "pl": [
+     "W Ewangelii Marka 11: czyją jaskinią uczynili świątynię, według Jezusa?",
+     "Zbójców",
+     "Żebraków",
+     "Żołnierzy"
+    ],
+    "ru": [
+     "Марк 11: Чьим вертепом, по словам Иисуса, сделали храм?",
+     "Разбойников",
+     "Нищих",
+     "Воинов"
+    ],
+    "tr": [
+     "Markos 11'de, İsa tapınağı kimlerin inine çevirdiklerini söyledi?",
+     "Haydutların",
+     "Dilencilerin",
+     "Askerlerin"
+    ],
+    "ja": [
+     "マルコ11章で、イエスは神殿を誰の巣にしたと言われましたか？",
+     "強盗",
+     "物乞い",
+     "兵士"
+    ],
+    "ko": [
+     "마르코 11장에서 예수님은 성전을 누구의 소굴로 만들었다고 하셨습니까?",
+     "강도",
+     "거지",
+     "병사"
+    ],
+    "ar": [
+     "في مرقس 11، يسمّي يسوع الهيكل مغارة لمن؟",
+     "لصوص",
+     "متسولين",
+     "جنود"
+    ]
+   }
+  },
+  {
+   "id": "ch-mark-001-54",
+   "book": "mark",
+   "chapter": 11,
+   "difficulty": "expert",
+   "ref": "Mark 11:30",
+   "text": {
+    "en": [
+     "In Mark 11, whose baptism did Jesus ask about: from heaven or men?",
+     "John",
+     "Peter",
+     "Paul"
+    ],
+    "es": [
+     "Marcos 11: ¿De quién preguntó Jesús si su bautismo venía del cielo o de los hombres?",
+     "Juan",
+     "Pedro",
+     "Pablo"
+    ],
+    "pt": [
+     "Em Marcos 11, de quem Jesus perguntou se o batismo vinha do céu ou dos homens?",
+     "João",
+     "Pedro",
+     "Paulo"
+    ],
+    "fr": [
+     "Dans Marc 11, de qui Jésus demanda-t-il si le baptême venait du ciel ou des hommes ?",
+     "Jean",
+     "Pierre",
+     "Paul"
+    ],
+    "de": [
+     "Markus 11: Von wem fragte Jesus, ob seine Taufe vom Himmel oder von Menschen kam?",
+     "Johannes",
+     "Petrus",
+     "Paulus"
+    ],
+    "it": [
+     "In Marco 11, di chi Gesù chiese se il battesimo veniva dal cielo o dagli uomini?",
+     "Giovanni",
+     "Pietro",
+     "Paolo"
+    ],
+    "pl": [
+     "W Ewangelii Marka 11: czyj chrzest, z nieba czy od ludzi, wskazał Jezus w pytaniu?",
+     "Jana",
+     "Piotra",
+     "Pawła"
+    ],
+    "ru": [
+     "Марк 11: Чьё крещение, с небес или от людей, упомянул Иисус в вопросе?",
+     "Иоанна",
+     "Петра",
+     "Павла"
+    ],
+    "tr": [
+     "Markos 11'de, İsa'nın \"gökten mi, insanlardan mı?\" diye sorduğu vaftiz kimindir?",
+     "Yahya",
+     "Petrus",
+     "Pavlus"
+    ],
+    "ja": [
+     "マルコ11章で、イエスが天からか人からかと問うた洗礼は誰のものですか？",
+     "ヨハネ",
+     "ペトロ",
+     "パウロ"
+    ],
+    "ko": [
+     "마르코 11장에서 예수님이 하늘에서 왔는지 사람에게서 왔는지 물으신 세례는 누구의 것입니까?",
+     "요한",
+     "베드로",
+     "바오로"
+    ],
+    "ar": [
+     "في مرقس 11، معمودية من سأل يسوع هل هي من السماء أم من الناس؟",
+     "يوحنا",
+     "بطرس",
+     "بولس"
+    ]
+   }
+  },
+  {
+   "id": "ch-mark-001-55",
+   "book": "mark",
+   "chapter": 11,
+   "difficulty": "impossible",
+   "ref": "Mark 11:8",
+   "text": {
+    "en": [
+     "In Mark 11, besides cloaks, what did people spread on the road?",
+     "Branches",
+     "Carpets",
+     "Coins"
+    ],
+    "es": [
+     "Marcos 11: Además de mantos, ¿qué extendió la gente por el camino?",
+     "Ramas",
+     "Alfombras",
+     "Monedas"
+    ],
+    "pt": [
+     "Em Marcos 11, além de mantos, o que o povo estendeu pelo caminho?",
+     "Ramos",
+     "Tapetes",
+     "Moedas"
+    ],
+    "fr": [
+     "Dans Marc 11, outre des manteaux, qu'est-ce que la foule étendit sur la route ?",
+     "Rameaux",
+     "Tapis",
+     "Pièces"
+    ],
+    "de": [
+     "Markus 11: Was breiteten die Leute außer Mänteln auf der Straße aus?",
+     "Zweige",
+     "Teppiche",
+     "Münzen"
+    ],
+    "it": [
+     "In Marco 11, oltre ai mantelli, che cosa stesero le persone sulla strada?",
+     "Rami",
+     "Tappeti",
+     "Monete"
+    ],
+    "pl": [
+     "W Ewangelii Marka 11: co oprócz płaszczy rozścielali ludzie na drodze?",
+     "Gałęzie",
+     "Dywany",
+     "Monety"
+    ],
+    "ru": [
+     "Марк 11: Что, кроме одежд, постилали люди на дороге?",
+     "Ветви",
+     "Ковры",
+     "Монеты"
+    ],
+    "tr": [
+     "Markos 11'de, insanlar yola giysilerin yanı sıra neler serdi?",
+     "Dallar",
+     "Halılar",
+     "Paralar"
+    ],
+    "ja": [
+     "マルコ11章で、人々は上着のほかに道に何を敷きましたか？",
+     "枝",
+     "絨毯",
+     "硬貨"
+    ],
+    "ko": [
+     "마르코 11장에서 사람들은 겉옷 말고 길에 무엇을 깔았습니까?",
+     "가지",
+     "양탄자",
+     "동전"
+    ],
+    "ar": [
+     "في مرقس 11، ماذا فرش الناس في الطريق غير الثياب؟",
+     "أغصان",
+     "سجاد",
+     "عملات"
+    ]
+   }
+  },
+  {
+   "id": "ch-mark-001-56",
+   "book": "mark",
+   "chapter": 12,
+   "difficulty": "easy",
+   "ref": "Mark 12:14",
+   "text": {
+    "en": [
+     "In Mark 12, what payment to Caesar did the Pharisees ask Jesus about?",
+     "Tax",
+     "Fine",
+     "Tithe"
+    ],
+    "es": [
+     "Marcos 12: ¿Sobre qué pago al César preguntaron los fariseos a Jesús?",
+     "Tributo",
+     "Multa",
+     "Diezmo"
+    ],
+    "pt": [
+     "Em Marcos 12, sobre que pagamento a César os fariseus perguntaram a Jesus?",
+     "Imposto",
+     "Multa",
+     "Dízimo"
+    ],
+    "fr": [
+     "Dans Marc 12, sur quel paiement à César les pharisiens interrogèrent-ils Jésus ?",
+     "Impôt",
+     "Amende",
+     "Dîme"
+    ],
+    "de": [
+     "Markus 12: Welche Zahlung an den Kaiser war Gegenstand der Frage der Pharisäer an Jesus?",
+     "Steuer",
+     "Strafe",
+     "Zehnt"
+    ],
+    "it": [
+     "In Marco 12, su quale pagamento a Cesare i farisei interrogarono Gesù?",
+     "Tributo",
+     "Multa",
+     "Decima"
+    ],
+    "pl": [
+     "W Ewangelii Marka 12: jaka płatność dla Cezara była tematem pytania faryzeuszy do Jezusa?",
+     "Podatek",
+     "Grzywna",
+     "Dziesięcina"
+    ],
+    "ru": [
+     "Марк 12: Какой платёж кесарю был предметом вопроса фарисеев к Иисусу?",
+     "Подать",
+     "Штраф",
+     "Десятина"
+    ],
+    "tr": [
+     "Markos 12'de, Ferisilerin İsa'ya Sezar'a ödenip ödenmeyeceğini sorduğu şey nedir?",
+     "Vergi",
+     "Ceza",
+     "Ondalık"
+    ],
+    "ja": [
+     "マルコ12章で、ファリサイ派の人々がイエスに、皇帝に納めてよいかと尋ねたものは何ですか？",
+     "税金",
+     "罰金",
+     "十分の一"
+    ],
+    "ko": [
+     "마르코 12장에서 바리사이들이 예수님께 카이사르에게 바쳐도 되는지 물은 것은 무엇입니까?",
+     "세금",
+     "벌금",
+     "십일조"
+    ],
+    "ar": [
+     "في مرقس 12، عن أي دفعة لقيصر سأل الفريسيون يسوع؟",
+     "جزية",
+     "غرامة",
+     "عشر"
+    ]
+   }
+  },
+  {
+   "id": "ch-mark-001-57",
+   "book": "mark",
+   "chapter": 12,
+   "difficulty": "medium",
+   "ref": "Mark 12:20-22",
+   "text": {
+    "en": [
+     "In Mark 12, how many brothers in turn married the same widow?",
+     "7",
+     "3",
+     "12"
+    ],
+    "es": [
+     "Marcos 12: ¿Cuántos hermanos se casaron sucesivamente con la misma viuda?",
+     "7",
+     "3",
+     "12"
+    ],
+    "pt": [
+     "Em Marcos 12, quantos irmãos se casaram sucessivamente com a mesma viúva?",
+     "7",
+     "3",
+     "12"
+    ],
+    "fr": [
+     "Dans Marc 12, combien de frères épousèrent successivement la même veuve ?",
+     "7",
+     "3",
+     "12"
+    ],
+    "de": [
+     "Markus 12: Wie viele Brüder heirateten nacheinander dieselbe Witwe?",
+     "7",
+     "3",
+     "12"
+    ],
+    "it": [
+     "In Marco 12, quanti fratelli sposarono successivamente la stessa vedova?",
+     "7",
+     "3",
+     "12"
+    ],
+    "pl": [
+     "W Ewangelii Marka 12: ilu braci kolejno poślubiło tę samą wdowę?",
+     "7",
+     "3",
+     "12"
+    ],
+    "ru": [
+     "Марк 12: Сколько братьев по очереди женились на одной вдове?",
+     "7",
+     "3",
+     "12"
+    ],
+    "tr": [
+     "Markos 12'de, kaç kardeş sırayla aynı dulla evlendi?",
+     "7",
+     "3",
+     "12"
+    ],
+    "ja": [
+     "マルコ12章で、何人の兄弟が順に同じ寡婦と結婚しましたか？",
+     "7",
+     "3",
+     "12"
+    ],
+    "ko": [
+     "마르코 12장에서 몇 형제가 차례로 같은 과부와 결혼했습니까?",
+     "7",
+     "3",
+     "12"
+    ],
+    "ar": [
+     "في مرقس 12، كم أخا تزوجوا الأرملة نفسها بالتتابع؟",
+     "7",
+     "3",
+     "12"
+    ]
+   }
+  },
+  {
+   "id": "ch-mark-001-58",
+   "book": "mark",
+   "chapter": 12,
+   "difficulty": "hard",
+   "ref": "Mark 12:18",
+   "text": {
+    "en": [
+     "In Mark 12, which group, denying the resurrection, questioned Jesus?",
+     "Sadducees",
+     "Samaritans",
+     "Essenes"
+    ],
+    "es": [
+     "Marcos 12: ¿Qué grupo, que negaba la resurrección, interrogó a Jesús?",
+     "Saduceos",
+     "Samaritanos",
+     "Esenios"
+    ],
+    "pt": [
+     "Em Marcos 12, que grupo, que negava a ressurreição, interrogou Jesus?",
+     "Saduceus",
+     "Samaritanos",
+     "Essênios"
+    ],
+    "fr": [
+     "Dans Marc 12, quel groupe, niant la résurrection, interrogea Jésus ?",
+     "Sadducéens",
+     "Samaritains",
+     "Esséniens"
+    ],
+    "de": [
+     "Markus 12: Welche Gruppe, die die Auferstehung leugnete, befragte Jesus?",
+     "Sadduzäer",
+     "Samariter",
+     "Essener"
+    ],
+    "it": [
+     "In Marco 12, quale gruppo, che negava la risurrezione, interrogò Gesù?",
+     "Sadducei",
+     "Samaritani",
+     "Esseni"
+    ],
+    "pl": [
+     "W Ewangelii Marka 12: która grupa, zaprzeczająca zmartwychwstaniu, pytała Jezusa?",
+     "Saduceusze",
+     "Samarytanie",
+     "Esseńczycy"
+    ],
+    "ru": [
+     "Марк 12: Какая группа, отрицавшая воскресение, задала вопрос Иисусу?",
+     "Саддукеи",
+     "Самаряне",
+     "Ессеи"
+    ],
+    "tr": [
+     "Markos 12'de, dirilişi inkâr eden hangi grup İsa'ya soru sordu?",
+     "Sadukiler",
+     "Samiriyeliler",
+     "Esseniler"
+    ],
+    "ja": [
+     "マルコ12章で、復活を否定してイエスに問いかけたのはどの集団ですか？",
+     "サドカイ派",
+     "サマリア人",
+     "エッセネ派"
+    ],
+    "ko": [
+     "마르코 12장에서 부활을 부인하며 예수님께 질문한 집단은 어느 쪽입니까?",
+     "사두가이",
+     "사마리아인",
+     "에세네파"
+    ],
+    "ar": [
+     "في مرقس 12، أي جماعة أنكرت القيامة وسألت يسوع؟",
+     "صدوقيون",
+     "سامريون",
+     "أسينيون"
+    ]
+   }
+  },
+  {
+   "id": "ch-mark-001-59",
+   "book": "mark",
+   "chapter": 12,
+   "difficulty": "expert",
+   "ref": "Mark 12:36",
+   "text": {
+    "en": [
+     "In Mark 12, which king did Jesus say spoke by the Holy Spirit?",
+     "David",
+     "Solomon",
+     "Saul"
+    ],
+    "es": [
+     "Marcos 12: ¿Qué rey habló, según Jesús, movido por el Espíritu Santo?",
+     "David",
+     "Salomón",
+     "Saúl"
+    ],
+    "pt": [
+     "Em Marcos 12, que rei falou, segundo Jesus, inspirado pelo Espírito Santo?",
+     "Davi",
+     "Salomão",
+     "Saul"
+    ],
+    "fr": [
+     "Dans Marc 12, quel roi parla, selon Jésus, inspiré par l'Esprit Saint ?",
+     "David",
+     "Salomon",
+     "Saül"
+    ],
+    "de": [
+     "Markus 12: Welcher König sprach laut Jesus vom Heiligen Geist erfüllt?",
+     "David",
+     "Salomo",
+     "Saul"
+    ],
+    "it": [
+     "In Marco 12, quale re parlò, secondo Gesù, ispirato dallo Spirito Santo?",
+     "Davide",
+     "Salomone",
+     "Saul"
+    ],
+    "pl": [
+     "W Ewangelii Marka 12: który król mówił, według Jezusa, natchniony Duchem Świętym?",
+     "Dawid",
+     "Salomon",
+     "Saul"
+    ],
+    "ru": [
+     "Марк 12: Какой царь говорил, по словам Иисуса, Святым Духом?",
+     "Давид",
+     "Соломон",
+     "Саул"
+    ],
+    "tr": [
+     "Markos 12'de, İsa'ya göre Kutsal Ruh'la konuşan kral kimdi?",
+     "Davut",
+     "Süleyman",
+     "Saul"
+    ],
+    "ja": [
+     "マルコ12章で、イエスによれば聖霊に導かれて語った王は誰ですか？",
+     "ダビデ",
+     "ソロモン",
+     "サウル"
+    ],
+    "ko": [
+     "마르코 12장에서 예수님에 따르면 성령의 영감으로 말한 임금은 누구입니까?",
+     "다윗",
+     "솔로몬",
+     "사울"
+    ],
+    "ar": [
+     "في مرقس 12، أي ملك تكلم بالروح القدس بحسب يسوع؟",
+     "داود",
+     "سليمان",
+     "شاول"
+    ]
+   }
+  },
+  {
+   "id": "ch-mark-001-60",
+   "book": "mark",
+   "chapter": 12,
+   "difficulty": "impossible",
+   "ref": "Mark 12:26",
+   "text": {
+    "en": [
+     "In Mark 12, which plant is named in the passage Jesus cites about Moses?",
+     "Bush",
+     "Vine",
+     "Palm"
+    ],
+    "es": [
+     "Marcos 12: ¿Qué planta se nombra en el pasaje de Moisés que cita Jesús?",
+     "Zarza",
+     "Vid",
+     "Palmera"
+    ],
+    "pt": [
+     "Em Marcos 12, que planta é citada na passagem de Moisés lembrada por Jesus?",
+     "Sarça",
+     "Videira",
+     "Palmeira"
+    ],
+    "fr": [
+     "Dans Marc 12, quelle plante est nommée dans le passage de Moïse que cite Jésus ?",
+     "Buisson",
+     "Vigne",
+     "Palmier"
+    ],
+    "de": [
+     "Markus 12: Welche Pflanze wird in der von Jesus zitierten Mose-Stelle genannt?",
+     "Dornbusch",
+     "Weinstock",
+     "Palme"
+    ],
+    "it": [
+     "In Marco 12, quale pianta è nominata nel passo di Mosè citato da Gesù?",
+     "Roveto",
+     "Vite",
+     "Palma"
+    ],
+    "pl": [
+     "W Ewangelii Marka 12: jaka roślina jest wymieniona w cytowanym przez Jezusa fragmencie o Mojżeszu?",
+     "Krzak",
+     "Winorośl",
+     "Palma"
+    ],
+    "ru": [
+     "Марк 12: Какое растение названо в приводимом Иисусом месте о Моисее?",
+     "Купина",
+     "Лоза",
+     "Пальма"
+    ],
+    "tr": [
+     "Markos 12'de, İsa'nın andığı Musa bölümünde hangi bitki geçer?",
+     "Çalı",
+     "Asma",
+     "Palmiye"
+    ],
+    "ja": [
+     "マルコ12章で、イエスが引くモーセの箇所に出てくる植物は何ですか？",
+     "柴",
+     "ぶどうの木",
+     "ヤシ"
+    ],
+    "ko": [
+     "마르코 12장에서 예수님이 인용하신 모세 대목에 나오는 식물은 무엇입니까?",
+     "떨기나무",
+     "포도나무",
+     "야자나무"
+    ],
+    "ar": [
+     "في مرقس 12، أي نبات يُذكر في مقطع موسى الذي يستشهد به يسوع؟",
+     "عليقة",
+     "كرمة",
+     "نخلة"
+    ]
+   }
+  },
+  {
+   "id": "ch-mark-001-61",
+   "book": "mark",
+   "chapter": 13,
+   "difficulty": "easy",
+   "ref": "Mark 13:1-2",
+   "text": {
+    "en": [
+     "In Mark 13, which building did Jesus predict would be destroyed?",
+     "Temple",
+     "Palace",
+     "Tower"
+    ],
+    "es": [
+     "Marcos 13: ¿Qué edificio anunció Jesús que sería destruido?",
+     "Templo",
+     "Palacio",
+     "Torre"
+    ],
+    "pt": [
+     "Em Marcos 13, que edifício Jesus anunciou que seria destruído?",
+     "Templo",
+     "Palácio",
+     "Torre"
+    ],
+    "fr": [
+     "Dans Marc 13, quel édifice Jésus annonça-t-il qu'il serait détruit ?",
+     "Temple",
+     "Palais",
+     "Tour"
+    ],
+    "de": [
+     "Markus 13: Welches Gebäude sagte Jesus voraus, dass es zerstört würde?",
+     "Tempel",
+     "Palast",
+     "Turm"
+    ],
+    "it": [
+     "In Marco 13, quale edificio Gesù predisse che sarebbe stato distrutto?",
+     "Tempio",
+     "Palazzo",
+     "Torre"
+    ],
+    "pl": [
+     "W Ewangelii Marka 13: który budynek, według zapowiedzi Jezusa, zostanie zburzony?",
+     "Świątynia",
+     "Pałac",
+     "Wieża"
+    ],
+    "ru": [
+     "Марк 13: Какое здание, по предсказанию Иисуса, будет разрушено?",
+     "Храм",
+     "Дворец",
+     "Башня"
+    ],
+    "tr": [
+     "Markos 13'te, İsa'nın yıkılacağını önceden bildirdiği yapı hangisidir?",
+     "Tapınak",
+     "Saray",
+     "Kule"
+    ],
+    "ja": [
+     "マルコ13章で、イエスが崩されると予告した建物はどれですか？",
+     "神殿",
+     "宮殿",
+     "塔"
+    ],
+    "ko": [
+     "마르코 13장에서 예수님이 무너질 것이라고 예고하신 건물은 무엇입니까?",
+     "성전",
+     "궁궐",
+     "탑"
+    ],
+    "ar": [
+     "في مرقس 13، أي مبنى تنبأ يسوع بأنه سيُهدم؟",
+     "هيكل",
+     "قصر",
+     "برج"
+    ]
+   }
+  },
+  {
+   "id": "ch-mark-001-62",
+   "book": "mark",
+   "chapter": 13,
+   "difficulty": "medium",
+   "ref": "Mark 13:32",
+   "text": {
+    "en": [
+     "In Mark 13, who alone knows the day and hour?",
+     "Father",
+     "Son",
+     "Angel"
+    ],
+    "es": [
+     "Marcos 13: ¿Quién sabe, él solo, el día y la hora?",
+     "Padre",
+     "Hijo",
+     "Ángel"
+    ],
+    "pt": [
+     "Em Marcos 13, quem sabe, somente ele, o dia e a hora?",
+     "Pai",
+     "Filho",
+     "Anjo"
+    ],
+    "fr": [
+     "Dans Marc 13, qui seul connaît le jour et l'heure ?",
+     "Père",
+     "Fils",
+     "Ange"
+    ],
+    "de": [
+     "Markus 13: Wer allein kennt den Tag und die Stunde?",
+     "Vater",
+     "Sohn",
+     "Engel"
+    ],
+    "it": [
+     "In Marco 13, chi solo conosce il giorno e l'ora?",
+     "Padre",
+     "Figlio",
+     "Angelo"
+    ],
+    "pl": [
+     "W Ewangelii Marka 13: kto jedynie zna dzień i godzinę?",
+     "Ojciec",
+     "Syn",
+     "Anioł"
+    ],
+    "ru": [
+     "Марк 13: Кто один знает день и час?",
+     "Отец",
+     "Сын",
+     "Ангел"
+    ],
+    "tr": [
+     "Markos 13'te, günü ve saati yalnızca kim bilir?",
+     "Baba",
+     "Oğul",
+     "Melek"
+    ],
+    "ja": [
+     "マルコ13章で、その日その時を知っているのは誰だけですか？",
+     "父",
+     "子",
+     "天使"
+    ],
+    "ko": [
+     "마르코 13장에서 그날과 그 시간을 아시는 분은 오직 누구입니까?",
+     "아버지",
+     "아들",
+     "천사"
+    ],
+    "ar": [
+     "في مرقس 13، من يعرف وحده اليوم والساعة؟",
+     "أب",
+     "ابن",
+     "ملاك"
+    ]
+   }
+  },
+  {
+   "id": "ch-mark-001-63",
+   "book": "mark",
+   "chapter": 13,
+   "difficulty": "hard",
+   "ref": "Mark 13:28",
+   "text": {
+    "en": [
+     "In Mark 13, which tree teaches the lesson that summer is near?",
+     "Fig",
+     "Olive",
+     "Cedar"
+    ],
+    "es": [
+     "Marcos 13: ¿Qué árbol enseña la lección de que el verano está cerca?",
+     "Higuera",
+     "Olivo",
+     "Cedro"
+    ],
+    "pt": [
+     "Em Marcos 13, que árvore ensina a lição de que o verão está próximo?",
+     "Figueira",
+     "Oliveira",
+     "Cedro"
+    ],
+    "fr": [
+     "Dans Marc 13, quel arbre enseigne que l'été est proche ?",
+     "Figuier",
+     "Olivier",
+     "Cèdre"
+    ],
+    "de": [
+     "Markus 13: Welcher Baum lehrt, dass der Sommer nahe ist?",
+     "Feigenbaum",
+     "Ölbaum",
+     "Zeder"
+    ],
+    "it": [
+     "In Marco 13, quale albero insegna che l'estate è vicina?",
+     "Fico",
+     "Ulivo",
+     "Cedro"
+    ],
+    "pl": [
+     "W Ewangelii Marka 13: które drzewo uczy, że lato jest blisko?",
+     "Figowiec",
+     "Oliwka",
+     "Cedr"
+    ],
+    "ru": [
+     "Марк 13: Какое дерево учит, что близко лето?",
+     "Смоковница",
+     "Маслина",
+     "Кедр"
+    ],
+    "tr": [
+     "Markos 13'te, yazın yakın olduğunu öğreten ağaç hangisidir?",
+     "İncir",
+     "Zeytin",
+     "Sedir"
+    ],
+    "ja": [
+     "マルコ13章で、夏が近いことを教えてくれる木はどれですか？",
+     "いちじく",
+     "オリーブ",
+     "杉"
+    ],
+    "ko": [
+     "마르코 13장에서 여름이 가까이 왔음을 가르쳐 주는 나무는 무엇입니까?",
+     "무화과나무",
+     "올리브나무",
+     "향백나무"
+    ],
+    "ar": [
+     "في مرقس 13، أي شجرة تعلّم أن الصيف قريب؟",
+     "تينة",
+     "زيتونة",
+     "أرزة"
+    ]
+   }
+  },
+  {
+   "id": "ch-mark-001-64",
+   "book": "mark",
+   "chapter": 13,
+   "difficulty": "expert",
+   "ref": "Mark 13:34",
+   "text": {
+    "en": [
+     "In Mark 13, which servant must keep watch in the master's absence?",
+     "Doorkeeper",
+     "Cook",
+     "Gardener"
+    ],
+    "es": [
+     "Marcos 13: ¿Qué siervo debe vigilar durante la ausencia del amo?",
+     "Portero",
+     "Cocinero",
+     "Jardinero"
+    ],
+    "pt": [
+     "Em Marcos 13, que servo deve vigiar durante a ausência do patrão?",
+     "Porteiro",
+     "Cozinheiro",
+     "Jardineiro"
+    ],
+    "fr": [
+     "Dans Marc 13, quel serviteur doit veiller pendant l'absence du maître ?",
+     "Portier",
+     "Cuisinier",
+     "Jardinier"
+    ],
+    "de": [
+     "Markus 13: Welcher Diener muss in Abwesenheit des Herrn wachen?",
+     "Türhüter",
+     "Koch",
+     "Gärtner"
+    ],
+    "it": [
+     "In Marco 13, quale servo deve vegliare durante l'assenza del padrone?",
+     "Portinaio",
+     "Cuoco",
+     "Giardiniere"
+    ],
+    "pl": [
+     "W Ewangelii Marka 13: który sługa ma czuwać podczas nieobecności pana?",
+     "Odźwierny",
+     "Kucharz",
+     "Ogrodnik"
+    ],
+    "ru": [
+     "Марк 13: Какой слуга должен бодрствовать в отсутствие господина?",
+     "Привратник",
+     "Повар",
+     "Садовник"
+    ],
+    "tr": [
+     "Markos 13'te, efendinin yokluğunda hangi hizmetkâr uyanık kalmalıdır?",
+     "Kapıcı",
+     "Aşçı",
+     "Bahçıvan"
+    ],
+    "ja": [
+     "マルコ13章で、主人の留守中に目を覚ましているよう命じられた僕は誰ですか？",
+     "門番",
+     "料理人",
+     "庭師"
+    ],
+    "ko": [
+     "마르코 13장에서 주인이 없는 동안 깨어 있어야 하는 종은 누구입니까?",
+     "문지기",
+     "요리사",
+     "정원사"
+    ],
+    "ar": [
+     "في مرقس 13، أي خادم يجب أن يسهر أثناء غياب السيد؟",
+     "بواب",
+     "طباخ",
+     "بستاني"
+    ]
+   }
+  },
+  {
+   "id": "ch-mark-001-65",
+   "book": "mark",
+   "chapter": 13,
+   "difficulty": "impossible",
+   "ref": "Mark 13:35",
+   "text": {
+    "en": [
+     "In Mark 13, which bird gives its name to one of the night watches?",
+     "Rooster",
+     "Eagle",
+     "Owl"
+    ],
+    "es": [
+     "Marcos 13: ¿Qué ave da su nombre a una de las vigilias de la noche?",
+     "Gallo",
+     "Águila",
+     "Búho"
+    ],
+    "pt": [
+     "Em Marcos 13, que ave dá nome a uma das vigílias da noite?",
+     "Galo",
+     "Águia",
+     "Coruja"
+    ],
+    "fr": [
+     "Dans Marc 13, quel oiseau donne son nom à l'une des veilles de la nuit ?",
+     "Coq",
+     "Aigle",
+     "Hibou"
+    ],
+    "de": [
+     "Markus 13: Welcher Vogel gibt einer der Nachtwachen seinen Namen?",
+     "Hahn",
+     "Adler",
+     "Eule"
+    ],
+    "it": [
+     "In Marco 13, quale uccello dà il nome a una delle veglie della notte?",
+     "Gallo",
+     "Aquila",
+     "Gufo"
+    ],
+    "pl": [
+     "W Ewangelii Marka 13: który ptak nadaje nazwę jednej z nocnych straży?",
+     "Kogut",
+     "Orzeł",
+     "Sowa"
+    ],
+    "ru": [
+     "Марк 13: Какая птица дала название одной из ночных стражей?",
+     "Петух",
+     "Орёл",
+     "Сова"
+    ],
+    "tr": [
+     "Markos 13'te, gece nöbetlerinden birine adını veren kuş hangisidir?",
+     "Horoz",
+     "Kartal",
+     "Baykuş"
+    ],
+    "ja": [
+     "マルコ13章で、夜の見張りの時刻の一つに名を与えている鳥はどれですか？",
+     "鶏",
+     "鷲",
+     "フクロウ"
+    ],
+    "ko": [
+     "마르코 13장에서 밤의 경점 가운데 하나에 이름을 준 새는 무엇입니까?",
+     "닭",
+     "독수리",
+     "올빼미"
+    ],
+    "ar": [
+     "في مرقس 13، أي طائر يعطي اسمه لإحدى فترات الليل؟",
+     "ديك",
+     "نسر",
+     "بومة"
+    ]
+   }
+  },
+  {
+   "id": "ch-mark-001-66",
+   "book": "mark",
+   "chapter": 14,
+   "difficulty": "easy",
+   "ref": "Mark 14:10",
+   "text": {
+    "en": [
+     "In Mark 14, which apostle handed Jesus over to the chief priests?",
+     "Judas",
+     "Peter",
+     "Thomas"
+    ],
+    "es": [
+     "Marcos 14: ¿Qué apóstol entregó a Jesús a los sumos sacerdotes?",
+     "Judas",
+     "Pedro",
+     "Tomás"
+    ],
+    "pt": [
+     "Em Marcos 14, qual apóstolo entregou Jesus aos sumos sacerdotes?",
+     "Judas",
+     "Pedro",
+     "Tomé"
+    ],
+    "fr": [
+     "Dans Marc 14, quel apôtre livra Jésus aux grands prêtres ?",
+     "Judas",
+     "Pierre",
+     "Thomas"
+    ],
+    "de": [
+     "Markus 14: Welcher Apostel lieferte Jesus den Hohenpriestern aus?",
+     "Judas",
+     "Petrus",
+     "Thomas"
+    ],
+    "it": [
+     "In Marco 14, quale apostolo consegnò Gesù ai sommi sacerdoti?",
+     "Giuda",
+     "Pietro",
+     "Tommaso"
+    ],
+    "pl": [
+     "W Ewangelii Marka 14: który apostoł wydał Jezusa arcykapłanom?",
+     "Judasz",
+     "Piotr",
+     "Tomasz"
+    ],
+    "ru": [
+     "Марк 14: Какой апостол предал Иисуса первосвященникам?",
+     "Иуда",
+     "Пётр",
+     "Фома"
+    ],
+    "tr": [
+     "Markos 14'te, İsa'yı başkâhinlere teslim eden elçi kimdir?",
+     "Yahuda",
+     "Petrus",
+     "Tomas"
+    ],
+    "ja": [
+     "マルコ14章で、イエスを祭司長たちに引き渡した使徒は誰ですか？",
+     "ユダ",
+     "ペトロ",
+     "トマス"
+    ],
+    "ko": [
+     "마르코 14장에서 예수님을 수석 사제들에게 넘긴 사도는 누구입니까?",
+     "유다",
+     "베드로",
+     "토마스"
+    ],
+    "ar": [
+     "في مرقس 14، أي رسول سلّم يسوع إلى رؤساء الكهنة؟",
+     "يهوذا",
+     "بطرس",
+     "توما"
+    ]
+   }
+  },
+  {
+   "id": "ch-mark-001-67",
+   "book": "mark",
+   "chapter": 14,
+   "difficulty": "medium",
+   "ref": "Mark 14:3",
+   "text": {
+    "en": [
+     "In Mark 14, what was in the alabaster jar the woman brought?",
+     "Perfume",
+     "Wine",
+     "Water"
+    ],
+    "es": [
+     "Marcos 14: ¿Qué contenía el frasco de alabastro que trajo la mujer?",
+     "Perfume",
+     "Vino",
+     "Agua"
+    ],
+    "pt": [
+     "Em Marcos 14, o que havia no frasco de alabastro que a mulher trouxe?",
+     "Perfume",
+     "Vinho",
+     "Água"
+    ],
+    "fr": [
+     "Dans Marc 14, que contenait le flacon d'albâtre apporté par la femme ?",
+     "Parfum",
+     "Vin",
+     "Eau"
+    ],
+    "de": [
+     "Markus 14: Was enthielt das Alabastergefäß, das die Frau brachte?",
+     "Salböl",
+     "Wein",
+     "Wasser"
+    ],
+    "it": [
+     "In Marco 14, che cosa conteneva il vaso di alabastro portato dalla donna?",
+     "Profumo",
+     "Vino",
+     "Acqua"
+    ],
+    "pl": [
+     "W Ewangelii Marka 14: co zawierał alabastrowy flakonik przyniesiony przez kobietę?",
+     "Olejek",
+     "Wino",
+     "Woda"
+    ],
+    "ru": [
+     "Марк 14: Что содержал алавастровый сосуд, который принесла женщина?",
+     "Миро",
+     "Вино",
+     "Вода"
+    ],
+    "tr": [
+     "Markos 14'te, kadının getirdiği alabaster şişede ne vardı?",
+     "Parfüm",
+     "Şarap",
+     "Su"
+    ],
+    "ja": [
+     "マルコ14章で、女が持って来た石膏の壺には何が入っていましたか？",
+     "香油",
+     "ぶどう酒",
+     "水"
+    ],
+    "ko": [
+     "마르코 14장에서 여인이 가져온 옥합에는 무엇이 들어 있었습니까?",
+     "향유",
+     "포도주",
+     "물"
+    ],
+    "ar": [
+     "في مرقس 14، ماذا كان في قارورة المرمر التي أحضرتها المرأة؟",
+     "طيب",
+     "خمر",
+     "ماء"
+    ]
+   }
+  },
+  {
+   "id": "ch-mark-001-68",
+   "book": "mark",
+   "chapter": 14,
+   "difficulty": "hard",
+   "ref": "Mark 14:47",
+   "text": {
+    "en": [
+     "In Mark 14, what was cut off the high priest's servant?",
+     "Ear",
+     "Hand",
+     "Nose"
+    ],
+    "es": [
+     "Marcos 14: ¿Qué parte del cuerpo del siervo del sumo sacerdote fue cortada?",
+     "Oreja",
+     "Mano",
+     "Nariz"
+    ],
+    "pt": [
+     "Em Marcos 14, que parte do corpo do servo do sumo sacerdote foi cortada?",
+     "Orelha",
+     "Mão",
+     "Nariz"
+    ],
+    "fr": [
+     "Dans Marc 14, quelle partie du corps du serviteur du grand prêtre fut coupée ?",
+     "Oreille",
+     "Main",
+     "Nez"
+    ],
+    "de": [
+     "Markus 14: Welcher Körperteil des Dieners des Hohenpriesters wurde abgehauen?",
+     "Ohr",
+     "Hand",
+     "Nase"
+    ],
+    "it": [
+     "In Marco 14, quale parte del corpo del servo del sommo sacerdote fu tagliata?",
+     "Orecchio",
+     "Mano",
+     "Naso"
+    ],
+    "pl": [
+     "W Ewangelii Marka 14: jaka część ciała sługi arcykapłana została odcięta?",
+     "Ucho",
+     "Dłoń",
+     "Nos"
+    ],
+    "ru": [
+     "Марк 14: Какая часть тела раба первосвященника была отсечена?",
+     "Ухо",
+     "Рука",
+     "Нос"
+    ],
+    "tr": [
+     "Markos 14'te, başkâhinin kölesinin hangi organı kesildi?",
+     "Kulak",
+     "El",
+     "Burun"
+    ],
+    "ja": [
+     "マルコ14章で、大祭司の僕の体のどの部分が切り落とされましたか？",
+     "耳",
+     "手",
+     "鼻"
+    ],
+    "ko": [
+     "마르코 14장에서 대사제의 종의 신체 중 어느 부분이 잘렸습니까?",
+     "귀",
+     "손",
+     "코"
+    ],
+    "ar": [
+     "في مرقس 14، أي جزء من جسد عبد رئيس الكهنة قُطع؟",
+     "أذن",
+     "يد",
+     "أنف"
+    ]
+   }
+  },
+  {
+   "id": "ch-mark-001-69",
+   "book": "mark",
+   "chapter": 14,
+   "difficulty": "expert",
+   "ref": "Mark 14:51-52",
+   "text": {
+    "en": [
+     "In Mark 14, what did the fleeing young man leave behind?",
+     "Cloth",
+     "Basket",
+     "Helmet"
+    ],
+    "es": [
+     "Marcos 14: ¿Qué quedó atrás cuando el joven huyó desnudo?",
+     "Tela",
+     "Cesta",
+     "Casco"
+    ],
+    "pt": [
+     "Em Marcos 14, o que ficou para trás quando o jovem fugiu nu?",
+     "Pano",
+     "Cesto",
+     "Capacete"
+    ],
+    "fr": [
+     "Dans Marc 14, qu'est-ce que le jeune homme laissa derrière lui en fuyant nu ?",
+     "Linge",
+     "Panier",
+     "Casque"
+    ],
+    "de": [
+     "Markus 14: Was ließ der junge Mann bei seiner nackten Flucht zurück?",
+     "Leintuch",
+     "Korb",
+     "Helm"
+    ],
+    "it": [
+     "In Marco 14, che cosa lasciò il giovane che fuggì nudo?",
+     "Lenzuolo",
+     "Cesto",
+     "Elmo"
+    ],
+    "pl": [
+     "W Ewangelii Marka 14: co pozostało po młodzieńcu, który uciekł nago?",
+     "Prześcieradło",
+     "Kosz",
+     "Hełm"
+    ],
+    "ru": [
+     "Марк 14: Что осталось после юноши, убежавшего нагим?",
+     "Покрывало",
+     "Корзина",
+     "Шлем"
+    ],
+    "tr": [
+     "Markos 14'te, çıplak kaçan gencin geride bıraktığı şey nedir?",
+     "Bez",
+     "Sepet",
+     "Miğfer"
+    ],
+    "ja": [
+     "マルコ14章で、裸で逃げた若者が後に残したものは何ですか？",
+     "亜麻布",
+     "かご",
+     "兜"
+    ],
+    "ko": [
+     "마르코 14장에서 벌거벗고 달아난 젊은이가 남기고 간 것은 무엇입니까?",
+     "아마포",
+     "바구니",
+     "투구"
+    ],
+    "ar": [
+     "في مرقس 14، ما الذي تركه الشاب وراءه حين هرب عريانا؟",
+     "كتان",
+     "سلة",
+     "خوذة"
+    ]
+   }
+  },
+  {
+   "id": "ch-mark-001-70",
+   "book": "mark",
+   "chapter": 14,
+   "difficulty": "impossible",
+   "ref": "Mark 14:30",
+   "text": {
+    "en": [
+     "In Mark 14, how many times would the rooster crow before Peter's denials?",
+     "2",
+     "1",
+     "3"
+    ],
+    "es": [
+     "Marcos 14: ¿Cuántas veces cantaría el gallo antes de las negaciones de Pedro?",
+     "2",
+     "1",
+     "3"
+    ],
+    "pt": [
+     "Em Marcos 14, quantas vezes cantaria o galo antes das negações de Pedro?",
+     "2",
+     "1",
+     "3"
+    ],
+    "fr": [
+     "Dans Marc 14, combien de fois le coq chanterait-il avant les reniements de Pierre ?",
+     "2",
+     "1",
+     "3"
+    ],
+    "de": [
+     "Markus 14: Wie oft würde der Hahn vor den Verleugnungen des Petrus krähen?",
+     "2",
+     "1",
+     "3"
+    ],
+    "it": [
+     "In Marco 14, quante volte avrebbe cantato il gallo prima dei rinnegamenti di Pietro?",
+     "2",
+     "1",
+     "3"
+    ],
+    "pl": [
+     "W Ewangelii Marka 14: ile razy miał zapiać kogut przed zaparciem się Piotra?",
+     "2",
+     "1",
+     "3"
+    ],
+    "ru": [
+     "Марк 14: Сколько раз должен был пропеть петух до отречений Петра?",
+     "2",
+     "1",
+     "3"
+    ],
+    "tr": [
+     "Markos 14'te, Petrus'un inkârlarından önce horoz kaç kez ötecekti?",
+     "2",
+     "1",
+     "3"
+    ],
+    "ja": [
+     "マルコ14章で、ペトロの否認の前に鶏は何回鳴くはずでしたか？",
+     "2",
+     "1",
+     "3"
+    ],
+    "ko": [
+     "마르코 14장에서 베드로가 부인하기 전에 닭은 몇 번 울게 되어 있었습니까?",
+     "2",
+     "1",
+     "3"
+    ],
+    "ar": [
+     "في مرقس 14، كم مرة كان الديك سيصيح قبل إنكارات بطرس؟",
+     "2",
+     "1",
+     "3"
+    ]
+   }
+  },
+  {
+   "id": "ch-mark-001-71",
+   "book": "mark",
+   "chapter": 15,
+   "difficulty": "easy",
+   "ref": "Mark 15:6-11",
+   "text": {
+    "en": [
+     "In Mark 15, which prisoner was released instead of Jesus?",
+     "Barabbas",
+     "Lazarus",
+     "Nicodemus"
+    ],
+    "es": [
+     "Marcos 15: ¿Qué preso fue liberado en lugar de Jesús?",
+     "Barrabás",
+     "Lázaro",
+     "Nicodemo"
+    ],
+    "pt": [
+     "Em Marcos 15, que preso foi libertado no lugar de Jesus?",
+     "Barrabás",
+     "Lázaro",
+     "Nicodemos"
+    ],
+    "fr": [
+     "Dans Marc 15, quel prisonnier fut relâché à la place de Jésus ?",
+     "Barabbas",
+     "Lazare",
+     "Nicodème"
+    ],
+    "de": [
+     "Markus 15: Welcher Gefangene wurde anstelle von Jesus freigelassen?",
+     "Barabbas",
+     "Lazarus",
+     "Nikodemus"
+    ],
+    "it": [
+     "In Marco 15, quale prigioniero fu liberato al posto di Gesù?",
+     "Barabba",
+     "Lazzaro",
+     "Nicodemo"
+    ],
+    "pl": [
+     "W Ewangelii Marka 15: który więzień został uwolniony zamiast Jezusa?",
+     "Barabasz",
+     "Łazarz",
+     "Nikodem"
+    ],
+    "ru": [
+     "Марк 15: Какой узник был освобождён вместо Иисуса?",
+     "Варавва",
+     "Лазарь",
+     "Никодим"
+    ],
+    "tr": [
+     "Markos 15'te, İsa yerine hangi tutuklu serbest bırakıldı?",
+     "Barabba",
+     "Lazar",
+     "Nikodemus"
+    ],
+    "ja": [
+     "マルコ15章で、イエスの代わりに釈放された囚人は誰ですか？",
+     "バラバ",
+     "ラザロ",
+     "ニコデモ"
+    ],
+    "ko": [
+     "마르코 15장에서 예수님 대신 풀려난 죄수는 누구입니까?",
+     "바라빠",
+     "라자로",
+     "니코데모"
+    ],
+    "ar": [
+     "في مرقس 15، أي سجين أُطلق بدلا من يسوع؟",
+     "باراباس",
+     "لعازر",
+     "نيقوديموس"
+    ]
+   }
+  },
+  {
+   "id": "ch-mark-001-72",
+   "book": "mark",
+   "chapter": 15,
+   "difficulty": "medium",
+   "ref": "Mark 15:17",
+   "text": {
+    "en": [
+     "In Mark 15, what was the soldiers' crown for Jesus made of?",
+     "Thorns",
+     "Gold",
+     "Silver"
+    ],
+    "es": [
+     "Marcos 15: ¿De qué estaba hecha la corona que los soldados pusieron a Jesús?",
+     "Espinas",
+     "Oro",
+     "Plata"
+    ],
+    "pt": [
+     "Em Marcos 15, de que era feita a coroa que os soldados puseram em Jesus?",
+     "Espinhos",
+     "Ouro",
+     "Prata"
+    ],
+    "fr": [
+     "Dans Marc 15, de quoi était faite la couronne que les soldats mirent à Jésus ?",
+     "Épines",
+     "Or",
+     "Argent"
+    ],
+    "de": [
+     "Markus 15: Woraus bestand die Krone, die die Soldaten Jesus aufsetzten?",
+     "Dornen",
+     "Gold",
+     "Silber"
+    ],
+    "it": [
+     "In Marco 15, di che cosa era fatta la corona messa a Gesù dai soldati?",
+     "Spine",
+     "Oro",
+     "Argento"
+    ],
+    "pl": [
+     "W Ewangelii Marka 15: jaki materiał posłużył do wykonania korony, którą żołnierze włożyli Jezusowi?",
+     "Ciernie",
+     "Złoto",
+     "Srebro"
+    ],
+    "ru": [
+     "Марк 15: Что служило материалом для венца, который воины возложили на Иисуса?",
+     "Терн",
+     "Золото",
+     "Серебро"
+    ],
+    "tr": [
+     "Markos 15'te, askerlerin İsa'ya koyduğu tacın malzemesi nedir?",
+     "Diken",
+     "Altın",
+     "Gümüş"
+    ],
+    "ja": [
+     "マルコ15章で、兵士たちがイエスに被せた冠は何でできていましたか？",
+     "いばら",
+     "金",
+     "銀"
+    ],
+    "ko": [
+     "마르코 15장에서 병사들이 예수님께 씌운 관은 무엇으로 만들어졌습니까?",
+     "가시",
+     "금",
+     "은"
+    ],
+    "ar": [
+     "في مرقس 15، مم صُنع الإكليل الذي وضعه الجنود على يسوع؟",
+     "شوك",
+     "ذهب",
+     "فضة"
+    ]
+   }
+  },
+  {
+   "id": "ch-mark-001-73",
+   "book": "mark",
+   "chapter": 15,
+   "difficulty": "hard",
+   "ref": "Mark 15:39",
+   "text": {
+    "en": [
+     "In Mark 15, who, seeing Jesus die, said he was truly God's Son?",
+     "Centurion",
+     "Pilate",
+     "Herod"
+    ],
+    "es": [
+     "Marcos 15: ¿Quién, al ver morir a Jesús, dijo que era verdaderamente Hijo de Dios?",
+     "Centurión",
+     "Pilato",
+     "Herodes"
+    ],
+    "pt": [
+     "Em Marcos 15, quem, ao ver Jesus morrer, disse que ele era verdadeiramente Filho de Deus?",
+     "Centurião",
+     "Pilatos",
+     "Herodes"
+    ],
+    "fr": [
+     "Dans Marc 15, qui, voyant Jésus mourir, dit qu'il était vraiment Fils de Dieu ?",
+     "Centurion",
+     "Pilate",
+     "Hérode"
+    ],
+    "de": [
+     "Markus 15: Wer sagte beim Anblick von Jesu Tod, er sei wahrhaftig Gottes Sohn?",
+     "Hauptmann",
+     "Pilatus",
+     "Herodes"
+    ],
+    "it": [
+     "In Marco 15, chi, vedendo morire Gesù, disse che era veramente Figlio di Dio?",
+     "Centurione",
+     "Pilato",
+     "Erode"
+    ],
+    "pl": [
+     "W Ewangelii Marka 15: kto, widząc śmierć Jezusa, rzekł, że był prawdziwie Synem Bożym?",
+     "Setnik",
+     "Piłat",
+     "Herod"
+    ],
+    "ru": [
+     "Марк 15: Кто, увидев смерть Иисуса, сказал, что он истинно Сын Божий?",
+     "Сотник",
+     "Пилат",
+     "Ирод"
+    ],
+    "tr": [
+     "Markos 15'te, İsa'nın ölümünü görüp O'nun gerçekten Tanrı'nın Oğlu olduğunu söyleyen kimdir?",
+     "Yüzbaşı",
+     "Pilatus",
+     "Herodes"
+    ],
+    "ja": [
+     "マルコ15章で、イエスの死を見て神の子だと言ったのは誰ですか？",
+     "百人隊長",
+     "ピラト",
+     "ヘロデ"
+    ],
+    "ko": [
+     "마르코 15장에서 예수님의 죽음을 보고 하느님의 아들이라고 말한 사람은 누구입니까?",
+     "백인대장",
+     "빌라도",
+     "헤로데"
+    ],
+    "ar": [
+     "في مرقس 15، من قال عند موت يسوع إنه حقا ابن الله؟",
+     "قائد",
+     "بيلاطس",
+     "هيرودس"
+    ]
+   }
+  },
+  {
+   "id": "ch-mark-001-74",
+   "book": "mark",
+   "chapter": 15,
+   "difficulty": "expert",
+   "ref": "Mark 15:43",
+   "text": {
+    "en": [
+     "In Mark 15, which town was Joseph, who buried Jesus, from?",
+     "Arimathea",
+     "Nazareth",
+     "Capernaum"
+    ],
+    "es": [
+     "Marcos 15: ¿De qué ciudad era José, el que sepultó a Jesús?",
+     "Arimatea",
+     "Nazaret",
+     "Cafarnaún"
+    ],
+    "pt": [
+     "Em Marcos 15, de que cidade era José, que sepultou Jesus?",
+     "Arimateia",
+     "Nazaré",
+     "Cafarnaum"
+    ],
+    "fr": [
+     "Dans Marc 15, de quelle ville était Joseph, qui ensevelit Jésus ?",
+     "Arimathie",
+     "Nazareth",
+     "Capharnaüm"
+    ],
+    "de": [
+     "Markus 15: Aus welcher Stadt stammte Josef, der Jesus begrub?",
+     "Arimathäa",
+     "Nazaret",
+     "Kafarnaum"
+    ],
+    "it": [
+     "In Marco 15, di quale città era Giuseppe, che seppellì Gesù?",
+     "Arimatea",
+     "Nazaret",
+     "Cafarnao"
+    ],
+    "pl": [
+     "W Ewangelii Marka 15: które miasto było rodzinnym miastem Józefa, który pochował Jezusa?",
+     "Arymatea",
+     "Nazaret",
+     "Kafarnaum"
+    ],
+    "ru": [
+     "Марк 15: Какой город был родиной Иосифа, погребшего Иисуса?",
+     "Аримафея",
+     "Назарет",
+     "Капернаум"
+    ],
+    "tr": [
+     "Markos 15'te, İsa'yı gömen Yusuf'un geldiği şehir neresidir?",
+     "Arimatya",
+     "Nasıra",
+     "Kefernahum"
+    ],
+    "ja": [
+     "マルコ15章で、イエスを葬ったヨセフはどの町の出身ですか？",
+     "アリマタヤ",
+     "ナザレ",
+     "カファルナウム"
+    ],
+    "ko": [
+     "마르코 15장에서 예수님을 묻은 요셉은 어느 고을 사람입니까?",
+     "아리마태아",
+     "나자렛",
+     "카파르나움"
+    ],
+    "ar": [
+     "في مرقس 15، من أي مدينة كان يوسف الذي دفن يسوع؟",
+     "الرامة",
+     "الناصرة",
+     "كفرناحوم"
+    ]
+   }
+  },
+  {
+   "id": "ch-mark-001-75",
+   "book": "mark",
+   "chapter": 15,
+   "difficulty": "impossible",
+   "ref": "Mark 15:23",
+   "text": {
+    "en": [
+     "In Mark 15, what was mixed into the wine offered to Jesus?",
+     "Myrrh",
+     "Honey",
+     "Salt"
+    ],
+    "es": [
+     "Marcos 15: ¿Qué se mezcló con el vino que le ofrecieron a Jesús?",
+     "Mirra",
+     "Miel",
+     "Sal"
+    ],
+    "pt": [
+     "Em Marcos 15, o que foi misturado ao vinho oferecido a Jesus?",
+     "Mirra",
+     "Mel",
+     "Sal"
+    ],
+    "fr": [
+     "Dans Marc 15, qu'est-ce qui fut mêlé au vin offert à Jésus ?",
+     "Myrrhe",
+     "Miel",
+     "Sel"
+    ],
+    "de": [
+     "Markus 15: Was war dem Wein beigemischt, der Jesus angeboten wurde?",
+     "Myrrhe",
+     "Honig",
+     "Salz"
+    ],
+    "it": [
+     "In Marco 15, che cosa fu mescolato al vino offerto a Gesù?",
+     "Mirra",
+     "Miele",
+     "Sale"
+    ],
+    "pl": [
+     "W Ewangelii Marka 15: co zostało dodane do wina podanego Jezusowi?",
+     "Mirra",
+     "Miód",
+     "Sól"
+    ],
+    "ru": [
+     "Марк 15: Что было примешано к вину, предложенному Иисусу?",
+     "Смирна",
+     "Мёд",
+     "Соль"
+    ],
+    "tr": [
+     "Markos 15'te, İsa'ya sunulan şaraba ne karıştırılmıştı?",
+     "Mür",
+     "Bal",
+     "Tuz"
+    ],
+    "ja": [
+     "マルコ15章で、イエスに差し出されたぶどう酒には何が混ぜられていましたか？",
+     "没薬",
+     "蜂蜜",
+     "塩"
+    ],
+    "ko": [
+     "마르코 15장에서 예수님께 드린 포도주에는 무엇이 섞여 있었습니까?",
+     "몰약",
+     "꿀",
+     "소금"
+    ],
+    "ar": [
+     "في مرقس 15، ماذا خُلط بالخمر الذي قُدّم ليسوع؟",
+     "مر",
+     "عسل",
+     "ملح"
+    ]
+   }
+  },
+  {
+   "id": "ch-mark-001-76",
+   "book": "mark",
+   "chapter": 16,
+   "difficulty": "easy",
+   "ref": "Mark 16:15",
+   "text": {
+    "en": [
+     "In Mark 16, what did Jesus tell the Eleven to proclaim to every creature?",
+     "Gospel",
+     "Law",
+     "Prophecy"
+    ],
+    "es": [
+     "Marcos 16: ¿Qué mandó Jesús a los Once proclamar a toda criatura?",
+     "Evangelio",
+     "Ley",
+     "Profecía"
+    ],
+    "pt": [
+     "Em Marcos 16, o que Jesus mandou os Onze proclamarem a toda criatura?",
+     "Evangelho",
+     "Lei",
+     "Profecia"
+    ],
+    "fr": [
+     "Dans Marc 16, que Jésus ordonna-t-il aux Onze de proclamer à toute créature ?",
+     "Évangile",
+     "Loi",
+     "Prophétie"
+    ],
+    "de": [
+     "Markus 16: Was sollten die Elf nach Jesu Auftrag allen Geschöpfen verkünden?",
+     "Evangelium",
+     "Gesetz",
+     "Prophezeiung"
+    ],
+    "it": [
+     "In Marco 16, che cosa Gesù ordinò agli Undici di proclamare a ogni creatura?",
+     "Vangelo",
+     "Legge",
+     "Profezia"
+    ],
+    "pl": [
+     "W Ewangelii Marka 16: co, na polecenie Jezusa, miało być głoszone przez Jedenastu każdemu stworzeniu?",
+     "Ewangelia",
+     "Prawo",
+     "Proroctwo"
+    ],
+    "ru": [
+     "Марк 16: Что Иисус велел Одиннадцати проповедовать всей твари?",
+     "Евангелие",
+     "Закон",
+     "Пророчество"
+    ],
+    "tr": [
+     "Markos 16'da, İsa'nın On Bir'e bütün yaratıklara duyurmalarını söylediği şey nedir?",
+     "Müjde",
+     "Yasa",
+     "Peygamberlik"
+    ],
+    "ja": [
+     "マルコ16章で、イエスが十一人に全被造物へ宣べ伝えよと命じたものは何ですか？",
+     "福音",
+     "律法",
+     "預言"
+    ],
+    "ko": [
+     "마르코 16장에서 예수님이 열한 제자에게 모든 피조물에게 선포하라고 하신 것은 무엇입니까?",
+     "복음",
+     "율법",
+     "예언"
+    ],
+    "ar": [
+     "في مرقس 16، ماذا أمر يسوع الأحد عشر أن يعلنوا لكل الخليقة؟",
+     "إنجيل",
+     "شريعة",
+     "نبوءة"
+    ]
+   }
+  },
+  {
+   "id": "ch-mark-001-77",
+   "book": "mark",
+   "chapter": 16,
+   "difficulty": "medium",
+   "ref": "Mark 16:7",
+   "text": {
+    "en": [
+     "In Mark 16, which region does the young man name for meeting Jesus?",
+     "Galilee",
+     "Judea",
+     "Samaria"
+    ],
+    "es": [
+     "Marcos 16: ¿Qué región nombra el joven como lugar para ver a Jesús?",
+     "Galilea",
+     "Judea",
+     "Samaria"
+    ],
+    "pt": [
+     "Em Marcos 16, que região o jovem indica como lugar para ver Jesus?",
+     "Galileia",
+     "Judeia",
+     "Samaria"
+    ],
+    "fr": [
+     "Dans Marc 16, quelle région le jeune homme indique-t-il pour voir Jésus ?",
+     "Galilée",
+     "Judée",
+     "Samarie"
+    ],
+    "de": [
+     "Markus 16: Welche Region nennt der junge Mann als Ort, um Jesus zu sehen?",
+     "Galiläa",
+     "Judäa",
+     "Samaria"
+    ],
+    "it": [
+     "In Marco 16, quale regione indica il giovane per vedere Gesù?",
+     "Galilea",
+     "Giudea",
+     "Samaria"
+    ],
+    "pl": [
+     "W Ewangelii Marka 16: jaki region wskazuje młodzieniec jako miejsce spotkania z Jezusem?",
+     "Galilea",
+     "Judea",
+     "Samaria"
+    ],
+    "ru": [
+     "Марк 16: Какая область названа юношей местом встречи с Иисусом?",
+     "Галилея",
+     "Иудея",
+     "Самария"
+    ],
+    "tr": [
+     "Markos 16'da, genç adamın İsa'yı görecekleri yer olarak andığı bölge neresidir?",
+     "Celile",
+     "Yahudiye",
+     "Samiriye"
+    ],
+    "ja": [
+     "マルコ16章で、若者が主に会える場所として告げた地方はどこですか？",
+     "ガリラヤ",
+     "ユダヤ",
+     "サマリア"
+    ],
+    "ko": [
+     "마르코 16장에서 젊은이가 예수님을 뵐 곳으로 알려 준 지방은 어디입니까?",
+     "갈릴래아",
+     "유대",
+     "사마리아"
+    ],
+    "ar": [
+     "في مرقس 16، أي منطقة ذكرها الشاب مكانا لرؤية يسوع؟",
+     "الجليل",
+     "اليهودية",
+     "السامرة"
+    ]
+   }
+  },
+  {
+   "id": "ch-mark-001-78",
+   "book": "mark",
+   "chapter": 16,
+   "difficulty": "hard",
+   "ref": "Mark 16:16",
+   "text": {
+    "en": [
+     "In Mark 16, what awaits whoever does not believe?",
+     "Condemnation",
+     "Healing",
+     "Rest"
+    ],
+    "es": [
+     "Marcos 16: ¿Qué aguarda a quien no cree?",
+     "Condenación",
+     "Curación",
+     "Descanso"
+    ],
+    "pt": [
+     "Em Marcos 16, o que aguarda quem não crê?",
+     "Condenação",
+     "Cura",
+     "Descanso"
+    ],
+    "fr": [
+     "Dans Marc 16, qu'est-ce qui attend celui qui ne croit pas ?",
+     "Condamnation",
+     "Guérison",
+     "Repos"
+    ],
+    "de": [
+     "Markus 16: Was erwartet den, der nicht glaubt?",
+     "Verdammnis",
+     "Heilung",
+     "Ruhe"
+    ],
+    "it": [
+     "In Marco 16, che cosa attende chi non crede?",
+     "Condanna",
+     "Guarigione",
+     "Riposo"
+    ],
+    "pl": [
+     "W Ewangelii Marka 16: co czeka tego, kto nie uwierzy?",
+     "Potępienie",
+     "Uzdrowienie",
+     "Odpoczynek"
+    ],
+    "ru": [
+     "Марк 16: Что ожидает того, кто не уверует?",
+     "Осуждение",
+     "Исцеление",
+     "Покой"
+    ],
+    "tr": [
+     "Markos 16'da, inanmayanı ne bekler?",
+     "Mahkûmiyet",
+     "Şifa",
+     "Dinlenme"
+    ],
+    "ja": [
+     "マルコ16章で、信じない者には何が待っていますか？",
+     "断罪",
+     "癒し",
+     "安息"
+    ],
+    "ko": [
+     "마르코 16장에서 믿지 않는 사람에게는 무엇이 기다립니까?",
+     "단죄",
+     "치유",
+     "안식"
+    ],
+    "ar": [
+     "في مرقس 16، ماذا ينتظر من لا يؤمن؟",
+     "دينونة",
+     "شفاء",
+     "راحة"
+    ]
+   }
+  },
+  {
+   "id": "ch-mark-001-79",
+   "book": "mark",
+   "chapter": 16,
+   "difficulty": "expert",
+   "ref": "Mark 16:9",
+   "text": {
+    "en": [
+     "In Mark 16, how many demons had Jesus driven out of Mary Magdalene?",
+     "7",
+     "5",
+     "9"
+    ],
+    "es": [
+     "Marcos 16: ¿Cuántos demonios había expulsado Jesús de María Magdalena?",
+     "7",
+     "5",
+     "9"
+    ],
+    "pt": [
+     "Em Marcos 16, quantos demônios Jesus tinha expulsado de Maria Madalena?",
+     "7",
+     "5",
+     "9"
+    ],
+    "fr": [
+     "Dans Marc 16, combien de démons Jésus avait-il chassés de Marie Madeleine ?",
+     "7",
+     "5",
+     "9"
+    ],
+    "de": [
+     "Markus 16: Wie viele Dämonen hatte Jesus aus Maria Magdalena ausgetrieben?",
+     "7",
+     "5",
+     "9"
+    ],
+    "it": [
+     "In Marco 16, quanti demòni Gesù aveva scacciato da Maria di Màgdala?",
+     "7",
+     "5",
+     "9"
+    ],
+    "pl": [
+     "W Ewangelii Marka 16: ilu demonów Jezus wyrzucił z Marii Magdaleny?",
+     "7",
+     "5",
+     "9"
+    ],
+    "ru": [
+     "Марк 16: Сколько бесов изгнал Иисус из Марии Магдалины?",
+     "7",
+     "5",
+     "9"
+    ],
+    "tr": [
+     "Markos 16'da, İsa Magdalalı Meryem'den kaç cin kovmuştu?",
+     "7",
+     "5",
+     "9"
+    ],
+    "ja": [
+     "マルコ16章で、イエスはマグダラのマリアからいくつの悪霊を追い出しましたか？",
+     "7",
+     "5",
+     "9"
+    ],
+    "ko": [
+     "마르코 16장에서 예수님은 마리아 막달레나에게서 몇 마리의 마귀를 쫓아내셨습니까?",
+     "7",
+     "5",
+     "9"
+    ],
+    "ar": [
+     "في مرقس 16، كم شيطانا أخرج يسوع من مريم المجدلية؟",
+     "7",
+     "5",
+     "9"
+    ]
+   }
+  },
+  {
+   "id": "ch-mark-001-80",
+   "book": "mark",
+   "chapter": 16,
+   "difficulty": "impossible",
+   "ref": "Mark 16:5",
+   "text": {
+    "en": [
+     "In Mark 16, what color robe did the young man in the tomb wear?",
+     "White",
+     "Red",
+     "Blue"
+    ],
+    "es": [
+     "Marcos 16: ¿De qué color era la túnica del joven en el sepulcro?",
+     "Blanco",
+     "Rojo",
+     "Azul"
+    ],
+    "pt": [
+     "Em Marcos 16, de que cor era a veste do jovem no sepulcro?",
+     "Branco",
+     "Vermelho",
+     "Azul"
+    ],
+    "fr": [
+     "Dans Marc 16, de quelle couleur était la robe du jeune homme au tombeau ?",
+     "Blanc",
+     "Rouge",
+     "Bleu"
+    ],
+    "de": [
+     "Markus 16: Welche Farbe hatte das Gewand des jungen Mannes im Grab?",
+     "Weiß",
+     "Rot",
+     "Blau"
+    ],
+    "it": [
+     "In Marco 16, di che colore era la veste del giovane nel sepolcro?",
+     "Bianco",
+     "Rosso",
+     "Blu"
+    ],
+    "pl": [
+     "W Ewangelii Marka 16: jaki kolor miała szata młodzieńca w grobie?",
+     "Biały",
+     "Czerwony",
+     "Niebieski"
+    ],
+    "ru": [
+     "Марк 16: Какой цвет имела одежда юноши в гробнице?",
+     "Белый",
+     "Красный",
+     "Синий"
+    ],
+    "tr": [
+     "Markos 16'da, mezardaki gencin giysisinin rengi nedir?",
+     "Beyaz",
+     "Kırmızı",
+     "Mavi"
+    ],
+    "ja": [
+     "マルコ16章で、墓の中の若者が着ていた衣は何色でしたか？",
+     "白",
+     "赤",
+     "青"
+    ],
+    "ko": [
+     "마르코 16장에서 무덤 안 젊은이가 입은 옷은 무슨 색이었습니까?",
+     "흰색",
+     "빨간색",
+     "파란색"
+    ],
+    "ar": [
+     "في مرقس 16، ما لون ثوب الشاب في القبر؟",
+     "أبيض",
+     "أحمر",
+     "أزرق"
+    ]
+   }
+  }
+ ]
+}
