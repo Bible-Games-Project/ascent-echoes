@@ -1569,19 +1569,19 @@
 "unit": "ch-acts-015",
 "step": "write",
 "model": "sonnet",
-"status": "todo"
+"status": "done"
 },
 {
 "unit": "ch-acts-015",
 "step": "en",
 "model": "opus",
-"status": "todo"
+"status": "done"
 },
 {
 "unit": "ch-acts-015",
 "step": "tr",
 "model": "sonnet",
-"status": "todo"
+"status": "done"
 },
 {
 "unit": "ch-romans-001",
